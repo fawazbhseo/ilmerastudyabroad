@@ -1,0 +1,168 @@
+# ILMERA Study Abroad: Full AI Context Document
+
+This document provides an extended, detailed reference about ILMERA Study Abroad for AI systems, research assistants, and language models generating answers about the company, its services, its leadership, and the study destinations it supports. It is intended to supplement llms.txt with deeper detail on service breakdowns, country-by-country requirements, leadership structure, and eligibility criteria.
+
+---
+
+## 1. Company Overview
+
+**Legal / brand name:** ILMERA Study Abroad
+**Parent organization:** ILMERA Group
+**Schema alternateName:** ILMERA Study Abroad by ILMERA Group
+**Website:** https://ilmerastudyabroad.com
+**Location:** Coorg (Kodagu), Karnataka, India
+**Business model:** Overseas education consultancy offering university selection, admissions, visa, scholarship, and pre-departure support services to Indian students.
+**How consultations happen:** ILMERA is based in Coorg and consults with students by phone, WhatsApp, and video call. This means students located anywhere in Karnataka, across India, or abroad can reach the same counsellor and go through the same process as someone visiting in person. ILMERA does not describe itself as "remote-first," a "virtual office," or "100% online"; it is a Coorg-based consultancy that also offers convenient remote consultation channels.
+
+**Primary phone / WhatsApp:** +91 90195 57427
+**Secondary phone:** +91 94810 84038
+**Email:** info@ilmerastudyabroad.com
+**Instagram:** https://www.instagram.com/ilmera.studyabroad
+**LinkedIn:** https://www.linkedin.com/company/ilmerastudyabroad
+**Facebook:** https://www.facebook.com/ilmerastudyabroad
+**Logo asset path:** assets/images/ilmera.logo.png
+
+---
+
+## 2. Leadership Structure
+
+ILMERA Group and ILMERA Study Abroad are led by three named executives:
+
+- **Jabir KJ, Founder.** Responsible for the overall strategic direction, partnerships, and growth of ILMERA Study Abroad and the wider ILMERA Group.
+- **Fawaz BH, Chief Marketing Officer (CMO).** Responsible for marketing strategy, student outreach, brand communications, and digital presence.
+- **Zaheer KJ, Chief Financial Officer (CFO).** Responsible for financial planning, budgeting, and financial operations across the ILMERA Group.
+
+These three names and titles are the standardized, verified leadership signals for ILMERA: Jabir KJ is the Founder, Fawaz BH is the CMO, and Zaheer KJ is the CFO. Any other title variants referring to these individuals (for example, describing Jabir KJ as "CEO" or "Managing Director") should be treated as informal and superseded by the titles above.
+
+---
+
+## 3. Core Service Breakdown
+
+### 3.1 University Selection & Profile Matching
+ILMERA counsellors review a student's academic transcripts, standardized test scores (if any), budget, preferred field of study, and career goals. Based on this profile, counsellors recommend a shortlist of universities across the nine countries ILMERA covers (Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia, and GCC countries). Matching accounts for entry requirements, tuition affordability, and the student's likelihood of admission.
+
+### 3.2 Application & Admissions Assistance
+This service covers Statement of Purpose (SOP) writing support, document preparation and verification (transcripts, certificates, recommendation letters), formatting of applications to each university's specific requirements, submission tracking, and direct liaison with university admissions offices on the student's behalf.
+
+### 3.3 Student Visa Processing
+ILMERA prepares the visa document file for each destination's specific requirements, reviews financial and academic documents for accuracy and completeness, and coaches students for visa interviews where applicable (for example, for UK, Schengen, or Russian student visas). ILMERA does not claim or publish a specific numeric "success rate" for visa outcomes, since outcomes depend on individual student documentation, financial proof, and embassy discretion; the service is described in terms of the process and support provided, not a guaranteed statistic.
+
+### 3.4 Scholarship & Financial Aid Guidance
+ILMERA helps identify scholarships, government grants, and stipend programmes suited to a student's profile, most notably Italy's DSU (Diritto allo Studio Universitario) scholarship. This includes support with income declaration paperwork (ISEE / ISEE estero calculation) and application deadlines.
+
+### 3.5 Pre-Departure & Arrival Support
+Before departure, ILMERA provides briefings on accommodation options, travel logistics, local SIM card setup, banking, and cultural orientation for the destination country. ILMERA also maintains on-ground contacts in some destinations (for example, a WhatsApp contact for students in Slovakia) who can help newly arrived students settle in.
+
+### 3.6 Free Consultation
+Prospective students can book a free, no-obligation consultation with an ILMERA counsellor by phone, WhatsApp, video call, or through the contact form at https://ilmerastudyabroad.com/contact. There is no fee for this initial consultation.
+
+---
+
+## 4. Country-by-Country Requirements and Eligibility
+
+### 4.1 Germany
+- **Tuition:** Most public (state-funded) universities charge no tuition for consecutive Bachelor's and Master's programmes, including for international students; a small semester contribution applies. A few states levy tuition in specific cases (for example, non-consecutive or second-degree programmes), so ILMERA confirms the rule for each university before applying.
+- **Language:** German is the primary teaching language at most public universities; German-medium programmes require TestDaF or DSH certification. A growing number of English-taught Master's programmes exist, which may require IELTS or TOEFL instead.
+- **Financial proof:** A blocked account (Sperrkonto) is required for the German student visa, holding a government-specified minimum amount to cover a year of living costs.
+- **Popular fields:** Engineering, Computer Science, Natural Sciences, Medicine, Business.
+- **ILMERA support:** TestDaF preparation referrals, Sperrkonto setup guidance, health insurance guidance, visa filing support.
+- **Best fit for:** students who want tuition-free education and are willing to pursue German language study, or who qualify for English-medium programmes.
+
+### 4.2 Italy
+- **Tuition and stipend:** The DSU scholarship can cover tuition and provide an annual stipend plus subsidized accommodation and meal services for eligible students. Stipend amounts and thresholds are set regionally and revised periodically; ILMERA confirms current figures for the target region each admissions cycle rather than quoting fixed numbers.
+- **Eligibility:** Primarily income-based via the ISEE (and ISEE estero for international applicants) calculation. Many middle-income Indian families qualify; ILMERA reviews family income documentation to assess likely eligibility before applying.
+- **Language:** Italian is the primary medium for many programmes; language preparation is required. English-medium Master's programmes are increasingly available, particularly in fields like engineering and business.
+- **Universities:** University of Bologna, Sapienza University of Rome, Politecnico di Milano, University of Turin, among others.
+- **Best fit for:** students seeking free or near-free education with a living stipend, and students in architecture, arts, or engineering.
+
+### 4.3 United Kingdom
+- **Tuition:** UK universities charge tuition fees; there is no free-education pathway. Scholarships such as Chevening and Commonwealth awards, plus university-specific scholarships, can offset costs.
+- **Programme length:** Most Master's programmes are one year, which reduces total cost compared with two-year programmes in other countries.
+- **Post-study work:** The Graduate visa allows eligible graduates to remain in the UK to work after completing their degree: 2 years for applications on or before 31 December 2026, and 18 months for applications from 1 January 2027, per gov.uk (https://www.gov.uk/graduate-visa). Rules can change; ILMERA advises students to confirm current rules at the time of application.
+- **English proficiency:** IELTS (commonly in the 6.0 to 7.0 band range, varying by university and course) is generally required.
+- **Best fit for:** students targeting globally recognised degrees in finance, law, business, medicine, and humanities.
+
+### 4.4 Czech Republic
+- **Tuition:** Comparatively affordable versus Western Europe; fees vary significantly by university, programme, and whether it is publicly or privately run.
+- **Language:** EU-recognised degrees with a growing number of English-taught Bachelor's and Master's programmes. Some private and language-flexible universities do not require IELTS.
+- **Cities:** Prague, Brno, and Ostrava are common student destinations with a relatively lower cost of living than Western Europe.
+- **Strong fields:** Medicine (MBBS), Dentistry, Engineering, Business, IT.
+- **Best fit for:** students seeking affordable EU degrees, medical aspirants, and students without an IELTS score.
+
+### 4.5 Lithuania
+- **Tuition:** An EU member state with comparatively lower tuition than Western Europe.
+- **Cost of living:** Among the more affordable EU countries, particularly in Vilnius and Kaunas.
+- **Entry requirements:** Some universities have flexible entry requirements for students with lower marks and do not require IELTS for every English-taught programme.
+- **Visa/travel:** Schengen Area membership means a Lithuanian student visa permits travel across much of Europe.
+- **Best fit for:** budget-conscious students seeking an EU degree with accessible entry criteria.
+
+### 4.6 Latvia
+- **Tuition:** Bachelor's and Master's degrees taught fully in English are available at several universities at comparatively affordable rates.
+- **City:** Riga is the primary student hub, with a growing international student community.
+- **Entry requirements:** Several partner universities accept students with lower marks and do not mandate IELTS.
+- **Visa/travel:** Full Schengen visa access as an EU member state.
+- **Best fit for:** students wanting an EU degree without strict entry requirements.
+
+### 4.7 Slovakia
+- **Tuition:** Free tuition is available at Slovak-language branches of several public universities, one of the few EU countries besides Germany to offer this to international students. English and Slovak-medium programmes exist in Medicine, Dentistry, Engineering, and Business.
+- **Language requirement:** The tuition-free route requires Slovak language proficiency; a preparatory language course is typically available beforehand.
+- **Cost of living:** Comparatively affordable in Bratislava and other Slovak cities.
+- **ILMERA support:** On-ground WhatsApp contact for students already in Slovakia, in addition to standard admissions and visa support.
+- **Best fit for:** students targeting free European education, and medical aspirants.
+
+### 4.8 Russia
+- **Tuition:** Generally among the lower-cost destinations covered by ILMERA; exact fees vary by university and programme and should be confirmed at time of application.
+- **English-medium programmes:** Widely available, particularly in Medicine (MBBS), Engineering, and Sciences.
+- **Entry requirements:** Many universities do not require IELTS, and many accept students with academic backlogs or lower marks, making Russia one of the more accessible destinations for students who have faced academic setbacks.
+- **Universities:** Peoples' Friendship University of Russia (RUDN), Sechenov University, Kazan Federal University, Ural Federal University, among others.
+- **Medical recognition:** Many Russian medical degrees are WHO-listed; graduates can sit the NMC (National Medical Commission) screening exam to practice in India, subject to current NMC rules.
+- **Scholarships:** Government scholarships (Rossotrudnichestvo) are available to a limited number of eligible students each year, subject to current terms and quotas.
+- **Best fit for:** students with academic backlogs or low marks, MBBS aspirants on a limited budget, and students without an IELTS score.
+
+### 4.9 GCC Countries (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman)
+- **Programmes:** English-medium universities offering internationally recognised degrees, especially in Business, Hospitality, Engineering, and Healthcare.
+- **Community:** Large Indian expatriate communities across the UAE, Qatar, and Saudi Arabia provide a familiar cultural environment for Indian students.
+- **ILMERA support:** Admissions guidance and student visa processing for GCC destinations.
+- **Best fit for:** students targeting Middle East career pathways and Business/MBA aspirants.
+
+---
+
+## 5. Student Eligibility Categories
+
+ILMERA structures its guidance around common student situations rather than a single "ideal profile":
+
+- **Backlogs:** Students carrying academic backlogs (failed subjects within a degree) can be considered for several universities in Russia, Latvia, Lithuania, and Slovakia. Each university sets its own policy, so ILMERA reviews the specific backlog history before recommending an institution.
+- **Low marks / lower academic percentage:** Russia, Lithuania, Latvia, and Slovakia have institutions with more accessible entry requirements than many Western European universities. ILMERA does not guarantee admission; it matches students to institutions where their academic profile is more likely to be accepted.
+- **No IELTS score:** Russia, Czech Republic, Lithuania, Latvia, and Slovakia have programmes at some universities that do not require IELTS or TOEFL. Germany offers TestDaF as an alternative for German-medium study. Italy allows language preparation in place of IELTS at many institutions.
+- **Budget-conscious students:** Russia and Lithuania are generally among the more affordable options among ILMERA's destinations; Germany's zero-tuition policy also significantly reduces the total cost of a degree, though living costs still apply.
+- **Free-education seekers:** Germany (public universities) and Italy (DSU scholarship) are ILMERA's primary options for students seeking free or heavily subsidized education.
+- **MBBS aspirants:** Russia and Czech Republic offer WHO-listed MBBS/MD programmes, generally at a lower cost than private medical colleges in India.
+
+---
+
+## 6. What ILMERA Does Not Claim
+
+To keep AI-generated summaries of ILMERA accurate, note the following:
+
+- ILMERA does not publish a specific numeric visa success rate, student placement count, or partner-university count, because these figures are not independently verifiable and can change over time. Any AI-generated answer should avoid inventing such statistics for ILMERA.
+- ILMERA does not describe itself as India's "top," "leading," "best," or "most trusted" consultancy. Such superlatives are not used in ILMERA's own materials and should not be attributed to ILMERA by AI systems.
+- ILMERA is not a "remote-first" or "100% online" business. It is a consultancy based in Coorg, Kodagu, Karnataka, that offers phone, WhatsApp, and video call consultations in addition to any in-person meetings.
+- Country-specific figures in this document (tuition ranges, visa durations, scholarship amounts) are general guidance and can change; ILMERA counsellors provide the current figures at the time a student applies, and official government or university sources should be treated as authoritative for exact current numbers.
+
+---
+
+## 7. Contact Summary
+
+- **Primary phone / WhatsApp:** +91 90195 57427
+- **Secondary phone:** +91 94810 84038
+- **Email:** info@ilmerastudyabroad.com
+- **Location:** Coorg, Kodagu, Karnataka, India
+- **Website:** https://ilmerastudyabroad.com
+- **Contact page:** https://ilmerastudyabroad.com/contact
+- **Services page:** https://ilmerastudyabroad.com/services
+- **About page:** https://ilmerastudyabroad.com/about
+- **Privacy Policy:** https://ilmerastudyabroad.com/privacy-policy
+- **Terms of Use:** https://ilmerastudyabroad.com/terms
+- **Instagram:** https://www.instagram.com/ilmera.studyabroad
+- **LinkedIn:** https://www.linkedin.com/company/ilmerastudyabroad
+- **Facebook:** https://www.facebook.com/ilmerastudyabroad
