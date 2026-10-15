@@ -1073,3 +1073,153 @@ change these live claims:
 
 These checks do not authorize publishing either destination draft. Existing
 Services content and its schema are unchanged and remain subject to review.
+
+
+## 25. Phase 10: Germany draft (OWNER VERIFICATION REQUIRED)
+
+The complete supplied content is now in `destinations/germany.php`, still
+`draft`, with its existing ilmera_summary and summary_provenance preserved
+exactly. It has five sourced categories (intro, costs, documents,
+work_and_stay and faqs), one source URL and four FAQs. Five categories alone
+do not authorize publication. Host acceptance and source coverage are
+technical checks, not fact verification or editorial approval.
+
+### Germany source URL: owner must open and confirm
+
+- [ ] DAAD: Costs of education and living in Germany:
+  https://www.daad.de/en/studying-in-germany/living-in-germany/finances/
+
+### Germany publication blockers and missing official sources
+
+- [ ] The supplied DAAD facts came from search snippets, not a confirmed
+  full-page review. The owner must open the DAAD page and confirm every line
+  of the intro, costs, documents, work wording and FAQs before publishing.
+  Pay particular attention to the Technical University of Munich (TUM) fee
+  amounts and whether the master fee is per semester. Confirm the applicable
+  students, programmes, exceptions and current amounts from official sources;
+  do not treat a snippet or the supplied review date as verification.
+- [ ] Obtain an official German source for the blocked account amount. It was
+  left out because no official source was confirmed. Do not invent the amount
+  or infer that a generic proof-of-finances statement supplies it.
+- [ ] Obtain an official German source for the APS certificate requirement
+  for Indian applicants. It was left out because no official source was
+  confirmed. Verify applicability before adding any requirement or exception.
+- [ ] Record accurate source/item and page-wide review dates after the actual
+  checks. The supplied 2026-10-15 metadata is retained, not a claim that this
+  build independently reviewed the source page.
+
+
+## 26. Phase 10: UK draft (OWNER VERIFICATION REQUIRED)
+
+The complete supplied content is now in `destinations/uk.php`, still `draft`,
+with its existing ilmera_summary and summary_provenance preserved exactly.
+It has four sourced categories (intro, costs, documents and faqs), one source
+URL and four FAQs. It remains below the five-category threshold, even with
+an isolated published flag. Do not add a category without official evidence.
+
+### UK source URL: owner must open and confirm
+
+- [ ] GOV.UK: Financial evidence for Student and Child Student visa applicants:
+  https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants
+
+### UK publication blockers and missing official coverage
+
+- [ ] The supplied research records that all amounts were read from GOV.UK
+  on 2026-10-15 and have changed before. Recheck all amounts on the day of
+  publishing, including the London/outside-London living costs and applicable
+  duration, and reconcile the intro, costs and FAQs. This build has not
+  independently repeated that source review; supplied dates remain unchanged.
+- [ ] Confirm the "India is not on the exempt list" FAQ again at publishing.
+  It rests on the absence of India from the GOV.UK list, not an explicit
+  India-specific rule in the supplied evidence. Check the current list and
+  the distinction between providing financial evidence upfront and meeting
+  the financial requirement. Keep the visible FAQ and schema consistent.
+- [ ] Obtain official GOV.UK sources for visa application steps, which were
+  not covered by the supplied financial-evidence page content.
+- [ ] Obtain official GOV.UK sources for visa application fees and the health
+  surcharge, which were not covered. Do not add amounts from memory.
+- [ ] Obtain official GOV.UK sources for processing time and any TB test
+  requirement, neither of which was covered. Verify applicability to the
+  intended applicant and route rather than assuming a universal requirement.
+- [ ] Confirm the remaining supplied financial evidence, accepted account/
+  funds rules and timing statements, and record actual item/page review dates.
+
+
+## 27. Phase 10: Italy draft (OWNER VERIFICATION REQUIRED)
+
+The complete supplied content is now in `destinations/italy.php`, still
+`draft`, with its existing ilmera_summary and summary_provenance preserved
+exactly. It has four sourced categories (intro, visa_steps, documents and
+faqs), one source URL and four FAQs. Costs is intentionally empty because no
+official tuition source was found in the supplied research. The page cannot
+reach the publishing gate with the current four categories; add reviewed,
+officially sourced tuition content before any publication.
+
+### Italy source URL: owner must open and confirm
+
+- [ ] Consulate General of Italy in Bengaluru: Study in Italy:
+  https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/
+
+### Italy publication blockers
+
+- [ ] Confirm the current-intake version of the official study visa checklist.
+  The supplied content references 2025-2026, which must not be assumed to be
+  the correct version for a future/current intake. Review and update the
+  document wording from the consulate's applicable official checklist.
+- [ ] Add an official tuition source and reviewed Costs items before
+  publishing. Costs stays empty until evidence is obtained; do not invent
+  fees or count the ILMERA scholarship summary as a sourced category.
+- [ ] Confirm the VFS centre list and the video interview rule on the
+  consulate page before publishing. Check that the supplied Bangalore,
+  Chennai and Hyderabad list and mandatory video-interview wording remain
+  current and applicable to the intended applicant and route.
+- [ ] Confirm all other supplied admission, Universitaly, visa, processing,
+  DOV and email-safety statements against the source page. Verify actual
+  source/item and page-wide review dates. The supplied 2026-10-15 dates do
+  not represent an independent source review by this build.
+
+### Shared draft safeguards and release checks for all three pages
+
+Germany, UK and Italy remain draft, noindex and unlinked from live pages,
+sitemap.xml and LLM recommendations. Noindex is not access control; direct
+requests can render the drafts. None of the three source pages or supplied
+facts was independently verified by this build. Existing verification
+blockers elsewhere in this file, including the Services claims, remain open.
+
+The CSV is still the unchanged empty template, not a synchronized copy of
+these populated PHP records. Resolve all blockers, fill reviewed CSV rows
+with aligned sources/dates, meet the five-category threshold and obtain
+explicit owner sign-off before release. Follow section 18's atomic release
+checklist: publish PHP/CSV status, accurate sitemap entry and llms.txt
+recommendation in one commit, keeping llms-full.txt consistent. Do not bypass
+robots/link guards or force links to drafts.
+
+This phase supersedes earlier empty-Germany/UK/Italy descriptions and counts:
+seven destinations now have supplied sourced content; only Russia and GCC
+remain empty. All nine destination statuses remain draft.
+
+Full technical checks were repeated after each of the four tasks: 78 PHP
+lints, 42 clean page renders and 252 Chromium page/width/JavaScript cases per
+task (375/768/1280px, JavaScript on/off). Checks covered all pages' headings,
+robots and mobile menus, destination native FAQs/source links/layout,
+conditional Costs sections, exact summary/provenance retention, all nine
+draft gates, source-host boundaries, aliases and absence of incoming draft
+or discovery links. Germany has five categories; UK and Italy each have
+four. Isolated published-data fixtures confirmed the five-category boundary
+without changing repository status. External browser resources were blocked;
+no live source contents were checked. No test artifacts are committed.
+Native HTTP headers, Apache rewrites and production rendering remain staging
+checks; no deployment was performed.
+
+
+## 28. Phase 10: Russia and GCC not started (OWNER INPUT REQUIRED)
+
+Russia and GCC have not been started: their existing empty draft records,
+summaries and provenance are unchanged. They are not approved for publication.
+
+- [ ] Russia needs official Russian or Indian government sources before
+  adding facts. No fees, eligibility, visa or other rules should be supplied
+  from memory or non-official snippets.
+- [ ] GCC needs the owner to name which countries to cover before research
+  or content population. Do not assume that one visa, fee or education rule
+  applies across GCC countries or invent a country list.

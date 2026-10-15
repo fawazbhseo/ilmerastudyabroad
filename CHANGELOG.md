@@ -1,5 +1,61 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 10: Germany, UK and Italy drafts and source blockers, 2026-10-15
+
+Four tasks, one commit per task. All three pages remain draft, and each
+existing ilmera_summary and summary_provenance value is preserved exactly.
+All nine destinations remain draft. Seven now have supplied sourced content;
+Russia and GCC remain empty and not started. These notes supersede older
+empty-Germany/UK/Italy descriptions and destination counts below.
+
+1. Replaced destinations/germany.php with the complete supplied content.
+   It has five sourced categories, one DAAD URL and four FAQs, but status
+   remains draft. No blocked account amount or APS requirement was added.
+2. Replaced destinations/uk.php with the complete supplied content. It has
+   four sourced categories, one GOV.UK URL and four FAQs. It remains below
+   the five-category gate as well as draft; uncovered visa facts stay absent.
+3. Replaced destinations/italy.php with the complete supplied content. It has
+   four sourced categories, one consulate URL and four FAQs. Costs remains
+   empty and the current data cannot meet the publishing gate. No tuition
+   amount or extra category was invented.
+4. Added verification sections 25-28, listing all three source URLs and the
+   owner checks: open the DAAD page and confirm every snippet-derived line,
+   especially TUM fees and the master fee period; obtain official German
+   sources for the omitted blocked account amount and Indian APS requirement;
+   recheck UK amounts and India's absence from the financial-evidence exempt
+   list at publishing; obtain official GOV.UK coverage of visa steps, fees,
+   health surcharge, processing time and any TB test requirement; confirm
+   Italy's current-intake checklist, add official tuition evidence and
+   recheck VFS centres/video interview rules. Russia needs official Russian
+   or Indian government sources, and GCC needs owner-selected countries.
+
+All facts, source URLs/labels, host lists and 2026-10-15 metadata are supplied
+content. The supplied research says UK amounts were read from GOV.UK on that
+date; this build did not repeat that verification or fetch any source page.
+Germany's facts came from supplied search snippets. Source coverage and
+technical host acceptance do not verify correctness or authorize publication.
+All three pages remain noindex and unlinked from live pages, sitemap and
+LLM recommendations. Noindex is not access control. The CSV is unchanged;
+fill reviewed rows and follow the existing atomic status/CSV/sitemap/LLM
+release checklist only after source review and explicit owner sign-off.
+
+The full checks were run after EACH task, including the documentation task:
+78 PHP lints, 42 clean renders and 252 Chromium page/width/JavaScript cases
+per task, totaling 312 lints, 168 renders and 1,008 browser cases. Browser
+coverage includes all 42 pages at 375/768/1280px with JavaScript on/off,
+headings/robots/menus and destination FAQs, sources, layout and empty Costs
+guards. Data/render checks cover exact summary/provenance retention, supplied
+facts, all nine draft gates, source-host boundaries, aliases, FAQ/schema
+parity and absent incoming/discovery links. Isolated published-data fixtures
+confirmed Germany's five-category eligibility and UK/Italy's four-category
+block without changing repo status. External browser resources were blocked.
+
+Line endings are preserved and no em dashes were added. Other destinations,
+Services, shared helpers/header/footer, post/place statuses, Apache rules,
+sitemap, CSV and both LLM files are unchanged. No test artifacts, independent
+source review or deployment. Native HTTP headers, Apache rewrites and
+production rendering still require staging checks.
+
 ## Phase 9: Lithuania and Latvia drafts and source blockers, 2026-10-15
 
 Three tasks, one commit per task. Both pages remain draft. All nine
