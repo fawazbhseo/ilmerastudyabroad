@@ -6,6 +6,9 @@
   Each draft must be fact-checked and added back to the sitemap in the same
   commit that removes its `noindex` tag. README and the verification
   inventory now reflect that release rule.
+- Removed the Terms reference to in-person meetings and renamed Contact
+  "Office Hours" to "Counselling Hours", keeping the existing schedule.
+  Updated both pages' sitemap `lastmod` values for these copy changes.
 - The initial repair notes below describe the earlier 14-URL sitemap;
   this follow-up supersedes those counts and the draft-sitemap caveat.
 

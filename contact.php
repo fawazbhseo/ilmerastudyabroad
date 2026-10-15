@@ -458,7 +458,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
       <div class="c-item">
         <span class="c-icon">&#128336;</span>
-        <div><span class="c-lbl">Office Hours</span><span class="c-val">Monday &ndash; Saturday<br>9:00 AM &ndash; 6:00 PM IST</span></div>
+        <div><span class="c-lbl">Counselling Hours</span><span class="c-val">Monday &ndash; Saturday<br>9:00 AM &ndash; 6:00 PM IST</span></div>
       </div>
 
       <div class="social-row">
