@@ -34,8 +34,7 @@ suggest completed student journeys or results; tasks 1-5 below are historical.
 
 ## Phase 6: founding year and source-gated destinations, 2026-10-15
 
-Five tasks, one commit per task. ILMERA was founded in 2026, as confirmed by
-the owner. All nine new destinations remain draft with empty fact fields.
+Five tasks, one commit per task. ILMERA was founded in 2026. All nine new destinations remain draft with empty fact fields.
 No official source facts, fees, dates, deadlines or rules were invented.
 
 1. Corrected About foundingDate, mobile hero stat, stat-item text/data-target
