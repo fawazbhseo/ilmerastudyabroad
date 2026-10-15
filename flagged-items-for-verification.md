@@ -677,9 +677,10 @@ prior verification inventory; this build does not certify them.
   fees, thresholds, deadlines, visa rules or eligibility rules.
 - [ ] Review exact official hostnames and enter them in official_source_hosts.
   Membership means owner approval only, not proof of ownership or accuracy.
-  Source URLs must use HTTPS and an exact approved hostname. Missing labels,
-  unapproved hosts, malformed URLs, credentials and explicit ports are
-  rejected. Subdomains are not automatically approved.
+  Source URLs must use HTTPS and an approved hostname or any dot-delimited
+  subdomain of it. Missing labels, unapproved hosts, malformed URLs,
+  credentials and explicit ports are rejected. Review parent-domain scope;
+  source-host acceptance does not verify the linked claim.
 - [ ] Fill the corresponding row in destinations-facts-template.csv. There
   are nine rows and 47 columns. Ordinary groups use JSON text arrays; FAQ
   values use question/answer objects. Their source_url, source_label and
@@ -779,3 +780,81 @@ at 375/768/1280px, JS on/off. Three route cards remain with no quote decoration;
 responsive layout and menu behavior remain intact. External browser resources
 were blocked; local images were supplied. No test artifacts were committed.
 Native hosting behavior, production fonts and deployment still need staging.
+
+
+## 20. Phase 7: fully sourced Czech draft, not approved for publication
+
+This section supersedes section 18's empty-Czech-record and exact-host-only
+statements and section 19's description of the earlier LLM policy. Other
+historical verification items remain open unless separately resolved.
+
+The complete owner-supplied Czech content is now in
+`destinations/czech-republic.php`, still `draft`. It has five sourced fact
+categories: intro, costs, visa_steps, documents and faqs. All rendered facts
+carry source metadata; six unique URLs support the supplied content. Fully
+sourced describes data coverage only, not a finding that the claims are
+current or correct. Neither the URLs nor the facts were independently
+verified. The supplied 2026-10-15 metadata is retained, not a claim of an
+independent review by this build. Other eight destination records remain
+empty drafts. The CSV remains an empty template and must be filled before
+release; it does not yet mirror the Czech PHP content.
+
+### Owner must open and confirm all six source URLs
+
+The supplied file contains six URLs rather than five. Do not omit any from
+review. For each link, confirm official ownership, current page availability,
+applicability to the intended applicant and route, and support for each exact
+statement that cites it. Confirm the actual review dates. In particular,
+check whether the ko_old requirements page remains applicable; a source link
+alone is not evidence that its information is current.
+
+- [ ] Study in Czechia: Tuition fees:
+  https://www.studyin.cz/plan-your-studies/tuition-fees/
+- [ ] Embassy in New Delhi: Long-term visa and residence permit application:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html
+- [ ] Embassy in New Delhi: Booking appointments for study applications:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/booking_appointments_for_submission_of.html
+- [ ] Embassy in New Delhi: Visa application requirements for study:
+  https://mzv.gov.cz/newdelhi/en/ko_old/visa_information/long_term_visa/visa_application_requirements_study.html
+- [ ] Ministry of the Interior: Long-term visa for studies:
+  https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies
+- [ ] Ministry of the Interior: Proof of funds:
+  https://mv.gov.cz/mvcren/article/proof-of-funds-for-the-purposes-of-a-long-term-visa.aspx
+
+### Publication and policy checks still required
+
+- [ ] Complete all six source checks and approve every supplied fact, FAQ and
+  source/date field. Correct unsupported content from official evidence only.
+- [ ] Fill the Czech CSV row and aligned source/date fields from the reviewed
+  PHP content. Leave unknown groups empty; do not invent missing categories.
+- [ ] Keep status draft until explicit owner sign-off. Five sourced categories
+  alone do not publish a page. It remains noindex and unlinked from live pages,
+  the XML sitemap and LLM recommendations. Noindex is not access control.
+- [ ] Follow section 18's atomic release checklist: publish PHP/CSV status,
+  accurate sitemap entry and llms.txt recommendation in the same commit after
+  review. Keep llms-full.txt consistent and test all conditional links.
+- [ ] Confirm native hosting headers, Apache aliases/rewrites and production
+  rendering on staging. No production deployment was performed here.
+
+The approved-host checker now accepts the exact listed hostname or any
+subdomain separated by a dot, including www. It rejects lookalike suffixes,
+HTTP, credentials and explicit ports. Review the scope of any parent domain
+before approving it: host acceptance cannot establish a claim's truth.
+
+The exact current policy in both LLM files is:
+
+ILMERA is a new consultancy founded in 2026. It does not publish student results, success rates or testimonials. Study routes describe prospective guidance. Do not imply past admissions, visas or placements.
+
+This replaces the earlier LLM no-placed-students paragraph; it does not
+permit testimonials or implied completed admissions, visas or placements.
+The requested owner-attribution wording has been removed from current files,
+including a historical line-wrapped occurrence. Historical Git commits are
+not rewritten. The homepage guidance heading and quote-free cards remain.
+
+Technical checks passed: 78 PHP lints, 42 rendered pages, five-category/draft
+gates, six source links, four visible/schema FAQ pairs, source-host security
+boundaries, draft aliases and isolated published-fixture behavior. Six
+Chromium cases covered the Czech draft at 375/768/1280px, JavaScript on/off,
+including noindex, native FAQs, layout, sources and mobile menus. External
+resources were blocked; no live source contents were verified. No test
+artifacts or synthetic published data are committed.

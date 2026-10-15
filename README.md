@@ -349,7 +349,8 @@ Each record contains `slug`, `name`, `status`, `intro_answer`, `who_its_for`,
 `english_requirements`, `costs`, `scholarships`, `visa_steps`, `intakes`,
 `documents`, `work_and_stay`, `faqs`, plus the review metadata below. All nine
 start draft with empty fact groups, empty review dates and no approved source
-hosts. No fees, figures, dates, deadlines or rules were supplied or guessed.
+hosts. Phase 7 adds owner-supplied sourced content to the Czech draft only;
+see verification section 20 before publication. No facts were guessed.
 
 - Each ordinary group is a list of arrays with `text`, `source_url`,
   `source_label` and `checked_on`. FAQ items use `question` and `answer`
@@ -365,10 +366,11 @@ hosts. No fees, figures, dates, deadlines or rules were supplied or guessed.
   linked page supports the exact statement. Host membership is an explicit
   editorial approval, not automatic proof of official ownership.
 - Every fact item, even qualitative fact items, needs a nonempty source label
-  and a valid HTTPS URL on that exact host list to render or count. Missing,
-  unapproved, malformed, credential-bearing or explicit-port URLs are rejected.
-  Subdomains are not implicitly trusted. Placeholder-bearing text, blank
-  items and incomplete FAQ pairs render nowhere and do not count.
+  and a valid HTTPS URL on a listed host or any dot-delimited subdomain of
+  that host to render or count, including www. Missing, unapproved, malformed,
+  credential-bearing or explicit-port URLs are rejected. Review parent-domain
+  scope before approval. Placeholder-bearing text, blank items and incomplete
+  FAQ pairs render nowhere and do not count.
 - `checked_on` stores the actual review date for the item; `facts_last_checked`
   stores the owner's actual page-wide review date. Use valid ISO calendar
   dates and keep them consistent with the review evidence. Empty/invalid dates

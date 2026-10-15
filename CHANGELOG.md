@@ -1,5 +1,67 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 7: sourced Czech draft and prospective-guidance policy, 2026-10-15
+
+Three tasks, one commit per task. No destination was published or deployed.
+This section supersedes the historical empty-Czech-record and exact-host-only
+notes below. The current LLM policy supersedes the earlier LLM wording.
+
+1. Replaced destinations/czech-republic.php with the complete owner-supplied
+   content, keeping status draft and the supplied review dates unchanged.
+   The draft is fully sourced in the data model: five sourced categories
+   (intro, costs, visa steps, documents and FAQs), six unique source URLs and
+   four FAQs. This means source coverage, not independent fact verification.
+   No fees, dates, deadlines or rules were invented. Source validation now
+   accepts an approved exact hostname or any dot-delimited subdomain,
+   including www; HTTPS, no credentials and no explicit ports remain required.
+   Lookalike hosts and suffix attacks remain rejected.
+2. Replaced the policy paragraph in both LLM files with the exact text below
+   and removed the requested owner-attribution wording from current repo
+   files, including its line-wrapped historical occurrence. Git history was
+   not rewritten to remove older content. No draft recommendation was added.
+3. Added the owner review checklist in verification section 20, recorded all
+   six supplied URLs below, and aligned README/source-host checklist wording
+   with the implemented subdomain policy. The CSV remains an unchanged empty
+   template, not a synchronized copy of the populated Czech PHP draft.
+
+Current LLM policy:
+
+ILMERA is a new consultancy founded in 2026. It does not publish student results, success rates or testimonials. Study routes describe prospective guidance. Do not imply past admissions, visas or placements.
+
+### Czech sources: owner must open and confirm before publication
+
+The supplied file contains six URLs, not five. All six are retained exactly.
+No official page was fetched or independently checked for this change. The
+owner must confirm current applicability and support for every linked fact,
+including the ko_old path, and confirm accurate review dates before release.
+
+- [ ] Study in Czechia: Tuition fees:
+  https://www.studyin.cz/plan-your-studies/tuition-fees/
+- [ ] Embassy in New Delhi: Long-term visa and residence permit application:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html
+- [ ] Embassy in New Delhi: Booking appointments for study applications:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/booking_appointments_for_submission_of.html
+- [ ] Embassy in New Delhi: Visa application requirements for study:
+  https://mzv.gov.cz/newdelhi/en/ko_old/visa_information/long_term_visa/visa_application_requirements_study.html
+- [ ] Ministry of the Interior: Long-term visa for studies:
+  https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies
+- [ ] Ministry of the Interior: Proof of funds:
+  https://mv.gov.cz/mvcren/article/proof-of-funds-for-the-purposes-of-a-long-term-visa.aspx
+
+### Technical validation
+
+All 78 PHP files linted and all 42 pages rendered without PHP errors. Tests
+confirmed source/FAQ schema parity, six deduplicated sources, five sourced
+categories, exact/subdomain host boundaries, draft aliases and no incoming
+links to drafts. An isolated status-only published fixture passed without
+changing repository publication status. Chromium passed six Czech draft
+combinations at 375/768/1280px with JavaScript on/off: noindex, source links,
+four native FAQs, layout and mobile menu behavior. External resources were
+blocked; source-page contents were not checked. LF/CRLF conventions are
+preserved and no em dashes were added. Other destination data, post/place
+statuses, shared header/footer, Apache rules and sitemap.xml are unchanged.
+Native response headers, Apache rewrites and deployment remain staging checks.
+
 ## Phase 6 task 6: guidance cards, not student testimonials
 
 One follow-up task, one commit. The owner confirms ILMERA is new and has no
