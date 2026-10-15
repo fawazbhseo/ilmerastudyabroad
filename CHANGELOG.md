@@ -1,5 +1,53 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 3: scalable place pages, 2026-10-15
+
+Five tasks, one commit per task. No draft is promoted or linked from the
+live navigation, sitemap or LLM files. Earlier Phase 2 implementation notes
+below are historical and are superseded where they describe static pages,
+visible placeholders or the former footer/homepage links.
+
+1. Added `includes/place-page.php`, loading one returning PHP data array.
+   Sections are conditional; placeholder-bearing entries and incomplete
+   FAQs are omitted. The seven fact categories count once each. Anything
+   other than a published record with five valid categories gets noindex
+   in both meta and the HTTP header. There is one separated shared process
+   block; remaining content comes from the selected place's data.
+2. Added/replaced 17 thin entry files, each only setting a slug and including
+   the renderer. Existing Karnataka, Belagavi, Shivamogga and Udupi/Manipal
+   URLs are retained, alongside Kodagu and the requested new place URLs.
+   The existing Apache clean-URL rules are untouched.
+3. Added 17 PHP arrays under `places/`. All are drafts. The four migrations
+   retain their known content; all 23 unverified items become empty local
+   facts or blank FAQ answers. The 13 new records have no filled fact
+   categories. Towns relate to Kodagu, Karnataka and two other towns; the
+   Kodagu record lists all seven towns. These are editorial related links,
+   not sourced proximity or transport claims.
+4. Added `places-facts-template.csv` with 17 rows and 26 columns: every data
+   field plus its source column. Lists/FAQs use JSON cells; transfer into
+   reviewed PHP arrays is manual. README explains source review, the 5/7
+   gate, published status and same-commit sitemap/LLM/footer publication.
+5. Updated README, this changelog and the verification inventory for the
+   current model, unresolved fields, empty districts, link safeguards and
+   owner release checks. Retained the previous pending verification list.
+
+### Validation
+
+- PHP 8.5 WASM lint passed for all 53 PHP files; all 32 full pages rendered
+  without PHP warnings/errors. All 17 routes remain noindex.
+- Exact FAQ/schema matching, omission of empty sections, no visible markers,
+  data/CSV parity, local link/anchor resolution and town graph checks pass.
+- Isolated fixtures confirm five valid categories plus published status
+  are required, placeholders/partial FAQs do not count, and published pages
+  do not link to unready place records through navigation or note links.
+- All 68 Chromium cases (17 pages, mobile/desktop, JavaScript on/off) pass
+  with native FAQs, working JavaScript menus and no horizontal overflow.
+- Header, footer, homepage, Apache rules, sitemap, both LLM files and Google
+  verification are unchanged. Existing line endings are preserved.
+- Apache/hosting validation and production font loading still need staging.
+  No local facts, fee model, bank products or travel routes were guessed or
+  independently verified during this build.
+
 ## Phase 2 build: 2026-10-15
 
 Five tasks, one commit per task. These are noindex drafts, not a content

@@ -8,7 +8,9 @@ and video call.
 ## Structure and routes
 
 There is no build step, CMS or database dependency in this repository.
-Page content is maintained directly in PHP, text and XML files.
+Page content is maintained directly in PHP, text and XML files. Place-page
+content lives in returning PHP arrays under `places/`; its spreadsheet is
+`places-facts-template.csv`.
 
 | URL | Source file |
 |---|---|
@@ -19,6 +21,19 @@ Page content is maintained directly in PHP, text and XML files.
 | `/privacy-policy` | `privacy-policy.php` |
 | `/terms` | `terms.php` |
 | `/study-abroad-consultants-in-karnataka` | `study-abroad-consultants-in-karnataka.php` |
+| `/study-abroad-consultants-in-kodagu` | `study-abroad-consultants-in-kodagu.php` |
+| `/study-abroad-counselling-madikeri` | `study-abroad-counselling-madikeri.php` |
+| `/study-abroad-counselling-virajpet` | `study-abroad-counselling-virajpet.php` |
+| `/study-abroad-counselling-kushalnagar` | `study-abroad-counselling-kushalnagar.php` |
+| `/study-abroad-counselling-gonikoppal` | `study-abroad-counselling-gonikoppal.php` |
+| `/study-abroad-counselling-somwarpet` | `study-abroad-counselling-somwarpet.php` |
+| `/study-abroad-counselling-ponnampet` | `study-abroad-counselling-ponnampet.php` |
+| `/study-abroad-counselling-siddapura` | `study-abroad-counselling-siddapura.php` |
+| `/study-abroad-counselling-mysuru` | `study-abroad-counselling-mysuru.php` |
+| `/study-abroad-counselling-mangaluru` | `study-abroad-counselling-mangaluru.php` |
+| `/study-abroad-counselling-hassan` | `study-abroad-counselling-hassan.php` |
+| `/study-abroad-counselling-chikkamagaluru` | `study-abroad-counselling-chikkamagaluru.php` |
+| `/study-abroad-counselling-bengaluru` | `study-abroad-counselling-bengaluru.php` |
 | `/study-abroad-counselling-belagavi` | `study-abroad-counselling-belagavi.php` |
 | `/study-abroad-counselling-shivamogga` | `study-abroad-counselling-shivamogga.php` |
 | `/study-abroad-counselling-udupi-manipal` | `study-abroad-counselling-udupi-manipal.php` |
@@ -49,8 +64,10 @@ Page content is maintained directly in PHP, text and XML files.
   canonical, Open Graph, JSON-LD, breadcrumbs, sitemap and internal links
   use `/blog/`. Article URLs remain extensionless, without a trailing slash.
 - Shared templates are `includes/header.php` and `includes/footer.php`.
-  Root pages include them using `__DIR__ . '/includes/...'`; blog pages
-  use `__DIR__ . '/../includes/...'`.
+  Existing root pages use `__DIR__ . '/includes/...'`; blog pages use
+  `__DIR__ . '/../includes/...'`. Thin place entry files include
+  `includes/place-page.php`, which loads the shared header and footer
+  relative to its own `__DIR__`.
 - All 9 image files are in `assets/images/`. There are no files directly
   inside `assets/` and no `blogs/` directory or root `blog.php`.
 - Unused root `header.php`, `footer.php`, `download` and `_import/` were
@@ -94,70 +111,101 @@ All current records are drafts. This phase adds no live navigation, sitemap
 or LLM-context links. Noindex is not access control: draft URLs can be opened
 directly and may link to other drafts for editorial review.
 
-## Phase 2: Karnataka hub and district drafts
+## Phase 3: data-driven place pages
 
-Four new root-level PHP pages use the existing article layout, CSS
-variables, fonts, FAQ styling and `__DIR__` shared-include pattern:
+There are 17 place records and 17 clean-URL entry files. Each entry contains
+only `$place = 'slug';` and the shared renderer include. The existing Apache
+rules are unchanged. The two hubs use `/study-abroad-consultants-in-{slug}`;
+other places use `/study-abroad-counselling-{slug}`.
 
-- The Karnataka hub opens with a 48-word answer, followed by call-based
-  counselling, a neutral consultant-selection checklist, all nine service
-  destination anchors, Karnataka document notes, eight FAQs and district links.
-- Belagavi focuses on issuing-institution checks, transcript requests and
-  matching funding evidence to the application.
-- Shivamogga separates document availability, updated records and funding
-  timelines from the appointment journey.
-- Udupi and Manipal distinguish qualification issuers, document delivery
-  formats and loan/scholarship evidence.
+`includes/place-page.php` loads `places/{slug}.php`, which returns an array.
+The required keys are `slug`, `name`, `type`, `district` and `status`.
+`type` is `district-hub`, `town` or `city`; these are editorial page types,
+not claims about statutory municipal classification. `status` is `draft`
+or `published`. The `district` key can be an empty string while unknown;
+only the owner-provided Kodagu grouping has been populated. Unknown
+metadata must not be guessed.
 
-The district guides have different substantive paragraphs and questions.
-They do not invent local colleges, client origins, document procedures,
-lenders or travel connections. Those facts and the owner's fee model
-remain explicit `[VERIFY: ...]` placeholders. All **23 distinct items** are
-checklisted by page in `flagged-items-for-verification.md`, section 14.
+### Optional content fields
 
-Each page has `noindex, follow` with a comment pointing to that inventory.
-The four pages are **not** in `sitemap.xml`, `llms.txt` or `llms-full.txt`;
-the sitemap still contains 11 URLs. The footer and homepage links to the
-hub are disabled until verification; the main header navigation remains
-unchanged. The district pages and hub still link to each other. Nothing
-on the live site may link to a page containing a `[VERIFY]` placeholder.
-Noindex does not prevent direct access to a deployed page.
+| Field | PHP value | Rendering rule |
+|---|---|---|
+| `intro_answer` | String | Optional 40-60 word opening; invalid lengths are omitted |
+| `local_institutions` | List of strings | Local institutions section only when populated |
+| `transcript_and_moi_steps` | List of strings | Transcript/MOI section only when populated |
+| `local_loan_options` | List of strings | Loan section only when populated |
+| `visa_appointment_route` | String | Appointment route section only when populated |
+| `local_notes` | List of strings | Place-owned planning notes only when populated |
+| `faqs` | List of question/answer arrays | Incomplete pairs omitted; visible text generates FAQPage |
+| `nearby` | List of other record slugs | Related guide links, subject to publication checks |
 
-Each page defines WebPage, BreadcrumbList, FAQPage and Service JSON-LD.
-Service `areaServed` is Karnataka, India. Only the required nested
-ListItem, Question, Answer and AdministrativeArea objects are added;
-team mentions reference the existing `#jabir`, `#zaheer` and `#fawaz` IDs.
-There is no new review/rating, business-location or author-endorsement claim.
-All eight FAQ question/answer pairs per page match the visible text exactly.
+Use plain text, not raw HTML. List text and visa-route text may contain
+internal links in `[label](/path#anchor)` form; external link syntax is not
+converted. FAQ questions/answers and intros remain plain text. Placeholder
+markers, empty items and incomplete FAQs are filtered before rendering or
+counting. Invalid/missing required records return a noindex 404. Slugs are
+validated before a file is loaded.
+For an additional place, add a matching PHP record, CSV row and thin root
+entry file using the same URL pattern; a data record alone is not a route.
 
-**Publication:** For each page, complete all five steps in the same commit:
+The seven fact categories are the content rows above except `nearby`. Each
+valid non-empty category counts once, regardless of its item count. Metadata,
+links and the shared counselling block never count. The renderer allows
+indexing only for `status = published` **and at least five valid fact
+categories**. Otherwise it forces both robots meta and X-Robots-Tag noindex.
+There is no manual robots-tag removal in a thin entry file.
 
-1. Replace every `[VERIFY]` placeholder with a confirmed fact.
-2. Remove the page's `noindex` tag.
-3. Add the page to `sitemap.xml` with an accurate Git-based `lastmod`.
-4. Add the page to `llms.txt`.
-5. Re-add the footer and homepage links.
+### Current content and links
 
-Edit the visible FAQ and its JSON-LD together when replacing a placeholder.
-Do not re-enable live-site links while any draft they expose still contains
-a `[VERIFY]` placeholder.
+- All 17 records remain `draft`. The four migrated records retain their
+  existing intros, confirmed FAQs and planning guidance. The 23 former
+  verification items are unresolved empty facts or unanswered FAQ entries,
+  not visible marker text. Each migrated record has only three filled fact
+  categories. There are 10 complete FAQs across the four migrated records.
+- The 13 new records have empty fact fields. This includes Kodagu, seven
+  Kodagu town guides and five city guides. No local institutions, loan
+  products, transcript procedures or visa travel routes were invented.
+- Each of the seven town records relates to Kodagu, Karnataka and two other
+  town records. Kodagu lists its seven town guides plus Karnataka. `nearby`
+  is an editorial related-guide list, not verified distance or travel advice.
+- One clearly separated shared block explains the standard ILMERA process:
+  based in Coorg, Kodagu, no physical office, counselling by phone, WhatsApp
+  and video call. Every other content section comes from the place array.
+- WebPage, BreadcrumbList and Service are emitted; FAQPage is emitted only
+  for complete FAQ pairs. Service areaServed is AdministrativeArea Karnataka,
+  India. Nested breadcrumb/FAQ types only; no new business, rating or review
+  schema. No author endorsement is inferred from the shared template.
+- Published/ready pages suppress related, breadcrumb and inline links to
+  place records that fail the same publication gate. Draft pages can link
+  to other drafts for editorial review. Noindex is not access control.
+- No live page or shared navigation links to these drafts. The header,
+  footer, homepage, 11-URL sitemap and both LLM context files are unchanged.
 
-### Phase 2 validation
+### Phase 3 validation
 
-- All 22 PHP files passed PHP 8.5 WebAssembly lint; all 19 full pages
-  rendered without PHP warnings or errors, including shared templates.
-- All new-page links and service anchors resolve to files/IDs in the repo.
-  Schema/visible FAQ parity, noindex, lead length, placeholder/checklist
-  coverage, existing CSS reuse and newline preservation passed checks.
-- The four new pages passed 16 real Chromium cases at 375px and 1280px,
-  with JavaScript enabled and disabled. Native FAQ toggles worked in both
-  modes; mobile menu open/close worked with JavaScript. No horizontal
-  overflow or JavaScript page errors were detected.
-- Browser checks used rendered PHP output and local image responses, with
-  external font requests blocked. Hosting-stack redirects, real CDN font
-  loading and final visual review still need staging checks under Apache.
-- New pages use CRLF; modified existing files retain their original line
-  endings. No test packages, generated HTML or screenshots were added to Git.
+All 53 PHP files passed PHP 8.5 WASM lint; all 32 full pages rendered without
+warnings/errors. Checks cover thin entry syntax, valid routes and anchors,
+empty-section omission, placeholder suppression, FAQ/schema parity, CSV/PHP
+parity, the town link graph and unchanged live-site files. Isolated test
+fixtures cover the 4/5-category boundary, draft status, whitespace, encoded
+markers, incomplete FAQs, count inflation, unsafe slugs and ready-to-draft
+link suppression. All 68 Chromium combinations of 17 pages, two widths and
+JavaScript enabled/disabled passed without overflow or JavaScript errors.
+
+Tests used rendered PHP and local images, with external font requests
+blocked. Native Apache rewrites, production fonts and hosting-specific
+behavior still need staging checks. No testing packages or generated
+fixtures, rendered HTML or screenshots were added to Git. New data and
+renderer files use LF; root entries preserve CRLF; existing docs retain LF.
+
+### Earlier Phase 2 drafts
+
+Phase 2 originally created four standalone drafts with 23 visible VERIFY
+items and matching FAQs. Its footer/homepage links were removed before
+Phase 3. That static implementation is now superseded by the data records,
+empty unresolved fields and dynamic publication gate above. Section 14 of
+`flagged-items-for-verification.md` preserves the pending owner checklist;
+section 15 describes the current Phase 3 workflow.
 
 ## Phase 1 repairs
 
@@ -194,9 +242,8 @@ The other moved assets are `ilmera.logo.navy.png`, `ilmera.png` and
 - Confirm destination costs, scholarships, document requirements and visa
   rules with current official sources before publication. The draft-post
   inventory is in `flagged-items-for-verification.md`.
-- The initial repair checks covered 18 PHP files, 14 JSON-LD blocks and
-  6 inline scripts. Phase 2 adds 4 PHP pages, 4 JSON-LD blocks and 4 inline
-  menu scripts; see the Phase 2 validation above.
+- The initial repair checks covered 18 PHP files. Phase 3 now covers
+  53 PHP files, including the 17 data records; see validation above.
 - Native PHP and Apache are not installed in the workspace. The isolated
   PHP-WASM and Chromium checks do not replace hosting-stack validation.
 - After deployment, verify `/blog` redirects to `/blog/`, `/blog/` renders

@@ -369,28 +369,20 @@ verification. The source comments point to
 `flagged-items-for-verification.md`; use this inventory for sign-off. Retained `noindex`
 while repairing paths does not restrict direct access to deployed PHP files.
 
-## 14. Phase 2: Karnataka hub and district guides (OWNER VERIFICATION REQUIRED)
+## 14. Migrated Phase 2 verification checklist (OWNER VERIFICATION REQUIRED)
 
-All four new pages are draft pages with `noindex, follow` and a comment
-pointing to this inventory. They are not in `sitemap.xml` or `llms.txt`.
-The footer and homepage links are disabled until verification. The draft
-pages still link to each other; noindex is not access control. Nothing on
-the live site may link to a page containing a `[VERIFY]` placeholder. No
-local institution, student-origin, bank, document procedure or travel-route
-fact has been inferred from general knowledge.
+The four Phase 2 pages now render from `places/{slug}.php` through the
+shared template. Their previous visible markers have been converted into
+empty fact fields or unanswered FAQ entries. The checklist below records
+unresolved research, not text to paste into a page. Existing-content
+provenance is recorded in the spreadsheet; it is not independent current
+verification of immigration or university requirements.
 
-**Release rule:** To publish each page, complete all five steps in the
-same commit:
-
-1. Replace every `[VERIFY]` placeholder with a confirmed fact.
-2. Remove the page's `noindex` tag.
-3. Add the page to `sitemap.xml` with an accurate `lastmod` from its Git history.
-4. Add the page to `llms.txt`.
-5. Re-add the footer and homepage links.
-
-Keep visible FAQ wording and its FAQPage JSON-LD in exact agreement. Do not
-re-enable live-site links while any draft they expose still contains a
-`[VERIFY]` placeholder.
+All 17 Phase 3 records remain drafts. Live footer/homepage links are still
+disabled; none of these URLs is in the sitemap or either LLM context file.
+Drafts can be requested directly and can link to other drafts. Noindex is
+not access control. Follow section 15 for the current publication gate and
+same-commit release workflow; do not manually remove robots tags in entries.
 
 Check each item against owner-approved records or a current official
 institution, lender or visa-authority source. Record the source, date,
@@ -415,8 +407,8 @@ any university payments, before replacing a fee-model placeholder.
 
 ### Checklist by page
 
-Each distinct placeholder is listed once below, including any repeated
-occurrence in a visible FAQ and its JSON-LD answer. None is an endorsement
+Each former placeholder is listed once below. Unanswered FAQ entries are
+not rendered or included in schema. None is an endorsement
 of an institution or lender, a claim of prior student placements, or a
 confirmed travel instruction.
 
@@ -462,3 +454,72 @@ Source: `study-abroad-counselling-udupi-manipal.php`
 - [ ] [VERIFY: Udupi and Manipal education-loan banks, scholarship treatment and visa-funds evidence.]
 - [ ] [VERIFY: Udupi and Manipal transcript issuers, campus-specific requests and delivery formats.]
 - [ ] [VERIFY: Visa appointment jurisdiction and outward/return journey from Udupi or Manipal.]
+
+## 15. Phase 3 data completion and release checks
+
+### Inventory and unresolved scope
+
+- [ ] Review the four migrated records: `karnataka`, `belagavi`, `shivamogga`,
+  `udupi-manipal`. Confirm current source validity before using the retained
+  general guidance for publication. Review the 23 items in section 14,
+  populate only source-supported optional categories, and complete only
+  supported FAQ answers. Unknown optional values can remain empty.
+- [ ] Supply source-backed local content for the 13 empty draft records:
+  `kodagu`, `madikeri`, `virajpet`, `kushalnagar`, `gonikoppal`, `somwarpet`,
+  `ponnampet`, `siddapura`, `mysuru`, `mangaluru`, `hassan`, `chikkamagaluru`,
+  `bengaluru`. All fact fields are intentionally empty, not silently assumed.
+- [ ] Confirm district metadata where the key is empty. Only the requested
+  Kodagu grouping is populated. Page type is an editorial routing category,
+  not a verified municipal-status assertion.
+- [ ] Review related-guide choices in `nearby`. Towns have both hubs and two
+  other towns; Kodagu lists seven town guides. These choices carry no claim
+  about distances, transport availability or local student origins.
+- [ ] For each place, verify institutions/student origins, transcript and MOI
+  procedures, attestation, loan options and the destination-specific visa
+  appointment journey before entering them. Never infer these from another
+  place's process. Do not add office or competitor claims.
+
+### Data contract and threshold
+
+Required keys: `slug`, `name`, `type`, `district`, `status`. Keep a district
+value empty while unknown. Optional fields are `intro_answer`,
+`local_institutions`, `transcript_and_moi_steps`, `local_loan_options`,
+`visa_appointment_route`, `local_notes`, `faqs`, `nearby`.
+
+Only these seven fact categories count toward the minimum: intro,
+institutions, transcript/MOI steps, loans, visa route, notes and complete
+FAQs. Each category counts once. A 40-60 word intro is required only when
+provided; invalid-length intros are omitted. Whitespace, incomplete FAQ
+pairs and placeholder-bearing text do not count or render. Metadata,
+related links and the single shared ILMERA process block never count.
+
+All current entries remain draft: the four migrated records have three
+valid categories each, and the 13 new records have zero. A published flag
+alone cannot enable indexing. The template forces robots-meta and HTTP
+noindex unless status is published and at least five valid categories are
+present. Empty content sections and empty FAQPage schema are not emitted.
+The same readiness check hides links to unready data from published pages.
+
+### One-commit publication checklist
+
+- [ ] Fill the spreadsheet row with confirmed facts and source evidence.
+  Keep its 26 headers and all 17 existing rows intact. Lists and FAQs are
+  JSON cells; source columns can include a matching list of evidence links.
+- [ ] Transfer the reviewed row to `places/{slug}.php` as PHP strings/arrays,
+  not encoded JSON strings. This is manual, not an automatic CSV import.
+  Keep optional unknown fields empty. Do not paste VERIFY/OWNER/TODO text.
+- [ ] Check at least five valid categories, appropriate district/type values,
+  complete FAQs and all related/inline targets. Set status to published in
+  both the PHP record and the spreadsheet only after owner approval.
+- [ ] Add the clean URL to `sitemap.xml` with accurate Git-based lastmod and
+  add the verified page to `llms.txt` in that same commit.
+- [ ] Add a footer link only to a ready page. Restore a homepage hub link
+  only when that hub is ready. Do not link an unready draft from any live
+  page, sitemap or LLM context file.
+- [ ] Verify rendered noindex/index behavior, FAQ/schema parity, source
+  coverage and hosting-stack routing before release. Noindex is generated
+  by the renderer; do not remove its conditional guard.
+
+No local institution, lender, travel route or revenue model was confirmed
+by the technical build. The spreadsheet's existing-content sources are
+migration provenance, not new official-source verification.
