@@ -368,3 +368,88 @@ that the posts are updated or reviewed in October 2026 are not evidence of
 verification. The source comments point to
 `flagged-items-for-verification.md`; use this inventory for sign-off. Retained `noindex`
 while repairing paths does not restrict direct access to deployed PHP files.
+
+## 14. Phase 2: Karnataka hub and district guides (OWNER VERIFICATION REQUIRED)
+
+All four new pages are draft pages with `noindex, follow` and a comment
+pointing to this inventory. They are not in `sitemap.xml` or `llms.txt`.
+They are reachable through the requested internal links; noindex is not
+access control. No local institution, student-origin, bank, document
+procedure or travel-route fact has been inferred from general knowledge.
+
+**Release rule:** To publish a page, resolve its verification items, remove
+its `noindex` tag, add it to `sitemap.xml` with an accurate `lastmod` from
+that page's Git history, and add it to `llms.txt` in the same commit. Keep
+visible FAQ wording and its FAQPage JSON-LD in exact agreement. Do not
+release an unchecked placeholder as a confirmed fact.
+
+Check each item against owner-approved records or a current official
+institution, lender or visa-authority source. Record the source, date,
+applicable course/intake and owner sign-off. Institution-origin statements
+need actual enquiry evidence, not an assumed local catchment. Do not
+publish student personal records. Confirm actual remuneration, including
+any university payments, before replacing a fee-model placeholder.
+
+### Supported facts reused from existing site files
+
+- `about.php`: Coorg/Kodagu base, no physical office, phone/WhatsApp/video
+  counselling, named team and document responsibilities, PUC/Karnataka
+  state board familiarity, four counselling languages, digital sharing,
+  and the student's own visa appointment as the travel step. Its generic
+  Bengaluru/Chennai reference is not a district-specific jurisdiction rule.
+- `terms.php`: free initial consultation, paid-service fees/scope agreed
+  before paid work, and no admission, scholarship or visa guarantees.
+- `services.php` and the existing Germany/APS, Italy/DSU, backlogs and Coorg
+  blog articles: covered destinations and the linked counselling routes.
+  Reusing existing guidance is not independent verification of current
+  immigration, scholarship or university rules.
+
+### Checklist by page
+
+Each distinct placeholder is listed once below, including any repeated
+occurrence in a visible FAQ and its JSON-LD answer. None is an endorsement
+of an institution or lender, a claim of prior student placements, or a
+confirmed travel instruction.
+
+#### `/study-abroad-consultants-in-karnataka`
+
+Source: `study-abroad-consultants-in-karnataka.php`
+
+- [ ] [VERIFY: Current visa appointment jurisdiction and attendance requirements for Karnataka applicants.]
+- [ ] [VERIFY: OWNER to confirm how ILMERA earns money.]
+
+#### `/study-abroad-counselling-belagavi`
+
+Source: `study-abroad-counselling-belagavi.php`
+
+- [ ] [VERIFY: Belagavi MOI issuing department and destination acceptance.]
+- [ ] [VERIFY: Belagavi attestation or legalisation steps for the selected destination.]
+- [ ] [VERIFY: Belagavi colleges and universities represented in owner-confirmed student enquiries.]
+- [ ] [VERIFY: Belagavi education-loan banks, eligibility, sanction evidence and disbursement terms.]
+- [ ] [VERIFY: Belagavi transcript issuer, application channel, fees and turnaround.]
+- [ ] [VERIFY: OWNER to explain ILMERA payment sources and fee model for Belagavi enquiries.]
+- [ ] [VERIFY: Visa appointment city and travel route from Belagavi for the chosen destination.]
+
+#### `/study-abroad-counselling-shivamogga`
+
+Source: `study-abroad-counselling-shivamogga.php`
+
+- [ ] [VERIFY: Assigned visa appointment city, transport options and travel timing from Shivamogga.]
+- [ ] [VERIFY: OWNER to confirm ILMERA remuneration and written fee scope for Shivamogga students.]
+- [ ] [VERIFY: Shivamogga MOI authorisation, request procedure and accepted wording.]
+- [ ] [VERIFY: Shivamogga education-loan providers, application documents and funding-release conditions.]
+- [ ] [VERIFY: Shivamogga institutions and course backgrounds supported by actual student enquiries.]
+- [ ] [VERIFY: Shivamogga record certification sequence and destination-specific attestation requirements.]
+- [ ] [VERIFY: Shivamogga transcript requests, revised marksheets and current processing timelines.]
+
+#### `/study-abroad-counselling-udupi-manipal`
+
+Source: `study-abroad-counselling-udupi-manipal.php`
+
+- [ ] [VERIFY: Attestation and legalisation requirements for Udupi and Manipal academic records.]
+- [ ] [VERIFY: OWNER to disclose ILMERA income sources and service pricing for Udupi and Manipal.]
+- [ ] [VERIFY: Udupi and Manipal MOI letter process for each awarding institution.]
+- [ ] [VERIFY: Udupi and Manipal colleges, universities and student-origin records approved by the owner.]
+- [ ] [VERIFY: Udupi and Manipal education-loan banks, scholarship treatment and visa-funds evidence.]
+- [ ] [VERIFY: Udupi and Manipal transcript issuers, campus-specific requests and delivery formats.]
+- [ ] [VERIFY: Visa appointment jurisdiction and outward/return journey from Udupi or Manipal.]
