@@ -18,6 +18,8 @@ function ilmera_source_indexable($file, $checkHeaders = true)
             && preg_match('/\bcontent\s*=\s*([\'"])(.*?)\1/i', $tag, $value)
             && preg_match('/\bnoindex\b/i', $value[2])) return false;
     }
+    // This known conditional uses the same article publication guard as links.
+    $source = preg_replace('/if\s*\(\s*!ilmera_post_published\([^;]*?\)\s*\)\s*header\([^;]*?\);/i', '', $source);
     return !$checkHeaders || !preg_match('/header\s*\(\s*[\'"]X-Robots-Tag:\s*[^\'"]*\bnoindex\b/i', $source);
 }
 
