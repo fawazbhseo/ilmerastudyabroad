@@ -1,5 +1,61 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 11: UAE-only GCC draft and read-only tuition-claim audit, 2026-10-15
+
+Three tasks, one commit per task. GCC keeps slug gcc, name GCC, status draft,
+and the exact existing ilmera_summary and summary_provenance values.
+
+1. Replaced destinations/gcc.php with the complete supplied UAE-only content.
+   It has nine technically sourced categories, five FAQs and one Indian
+   consulate advisory URL. who_its_for stays empty. Category count and source
+   acceptance do not verify facts or authorize publication. The provided
+   source/date metadata is retained without claiming an independent review.
+2. Audited Services, homepage, About, all blog posts, place data/entry pages,
+   the shared place renderer and both LLM files without editing site copy.
+   Also traced shared blog/place guide titles and excerpts to includes/posts.
+   Verification section 29, "Free-tuition claims to verify", records 141
+   exact source-line entries: 13 are marked unsure for unclear country
+   attribution and 23 are URL/slug references only, not independent claims.
+   The inventory includes visible text, metadata, schema, contextual headings
+   and conditional scholarship wording. Supplied source context is recorded:
+   Germany has no tuition at most state universities with Baden-Wurttemberg/
+   TUM exceptions and a semester contribution; Slovakia is free only for
+   Slovak-language study; Italian institutions set tuition and no official
+   free-tuition source has been found. No claims were softened in this task.
+3. Added GCC verification section 30 with the exact advisory URL and blockers:
+   UAE-only facts under a GCC name require retitling or broader country
+   coverage before publishing; every line needs confirmation on icp.gov.ae
+   or the UAE government portal, and owner approval of cgidubai.gov.in as an
+   official host. The single advisory is reported as undated. Work hours are
+   approximate, and the owner must decide whether to keep the consulate's
+   agent advice FAQ. Qatar, Saudi Arabia, Oman, Kuwait and Bahrain are not
+   covered; Russia remains not started and needs official government sources.
+
+These notes supersede the earlier GCC-not-started description. Eight records
+now contain supplied sourced content; Russia remains empty. All nine pages
+remain draft, noindex and unlinked from live discovery. Noindex is not
+access control. CSV, sitemap, both LLM files, Services, homepage, About,
+blog/place files, other destination records, shared helpers/header/footer
+and Apache rules are unchanged. Resolve source/scope blockers and follow the
+existing atomic status/CSV/sitemap/LLM release checklist only after sign-off.
+No source page or supplied fact was independently verified or invented.
+
+Full checks were repeated after EACH task, including both documentation
+tasks: 78 PHP lints, 42 clean renders and 252 Chromium cases per task, for
+234 lints, 126 renders and 756 browser cases total. All 42 pages ran at
+375/768/1280px with JavaScript on/off. Checks covered headings, robots,
+menus, destination FAQs/source links/layout, conditional Costs, exact GCC
+identity and preserved summary/provenance, raw/normalized facts, all nine
+draft gates, aliases, host boundaries and FAQ/schema parity. Isolated
+published-data fixtures did not alter repo statuses. Browser resources
+outside the local render/image mapping were blocked. Exact audit lines and
+unchanged audited-file bytes were checked against the Phase 10 baseline.
+
+Line endings are preserved and no em dashes were added. No test artifacts,
+live source verification or deployment. Native hosting/Apache checks remain
+for staging. Model disclosure: report prepared using Arena.ai Agent Mode;
+the underlying model identity is not disclosed.
+
 ## Phase 10: Germany, UK and Italy drafts and source blockers, 2026-10-15
 
 Four tasks, one commit per task. All three pages remain draft, and each

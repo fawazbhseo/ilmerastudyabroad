@@ -2135,3 +2135,93 @@ is softened later, update matching metadata/schema and shared title/excerpt
 sources as appropriate. Earlier verification blockers remain open.
 
 Inventory totals: 141 source-line entries; 13 marked unsure.
+
+
+## 30. Phase 11: GCC page with UAE-only facts (OWNER VERIFICATION REQUIRED)
+
+The supplied content is now in `destinations/gcc.php`, with slug `gcc`, name
+`GCC` and status `draft` unchanged. Its existing ilmera_summary and
+summary_provenance values are preserved exactly. It has nine technically
+sourced categories (intro, english_requirements, costs, scholarships,
+visa_steps, intakes, documents, work_and_stay and faqs), one unique source
+URL and five FAQs. who_its_for is empty. Technical source acceptance and
+category counts are not editorial approval or fact verification.
+
+### Source URL: owner must open and confirm
+
+- [ ] Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE:
+  https://www.cgidubai.gov.in/page/student-advisory/
+
+### GCC publication blockers
+
+- [ ] Resolve the scope/title mismatch before publishing. The page is named
+  GCC but every supplied fact covers the UAE only. Retitle the page to match
+  UAE coverage or add separately sourced coverage of the other countries
+  before publication. No slug or name is changed in this phase; the owner
+  must approve any future title/routing decision. Do not generalize UAE
+  visa, education, insurance or work rules to the whole GCC.
+- [ ] Confirm every line on icp.gov.ae or the UAE government portal and approve
+  cgidubai.gov.in explicitly as an official source host. Every category rests
+  on one Indian consulate advisory, reported as having no date. Its inclusion
+  in official_source_hosts enables technical validation only, not completed
+  owner approval. The supplied 2026-10-15 checked-on metadata is not an
+  advisory publication date or an independent review by this build. Retain
+  current official evidence for each statement and record real review dates.
+- [ ] Verify the work-hours wording independently. The 15 hours per week
+  figure is stated as approximate, not a confirmed universal limit. Check
+  current applicable permission, permit and hour rules on official UAE
+  sources before publishing; review the matching work FAQ at the same time.
+- [ ] Decide whether to keep the agent FAQ. It is the consulate's advice,
+  attributed to that source, not a new ILMERA policy or a claim about all
+  agents. The owner decides whether it belongs on the page. If changed,
+  keep the visible FAQ and FAQPage schema consistent.
+- [ ] Qatar, Saudi Arabia, Oman, Kuwait and Bahrain are not covered. Obtain
+  country-specific official sources before adding them; no country-specific
+  rules or fees should be copied from the UAE advisory.
+- [ ] Russia is still not started. Its empty draft record remains unchanged
+  and needs official Russian or Indian government sources before adding facts.
+
+### Current publication state and prior notes
+
+This section supersedes section 28's statement that GCC is not started and
+older counts of populated records. GCC now contains UAE-only supplied facts,
+not verified GCC-wide coverage. Eight destination records contain supplied
+sourced content; Russia alone remains empty. All nine statuses remain draft.
+The earlier free-tuition audit and other source blockers remain open.
+
+GCC remains noindex and unlinked from live pages, sitemap.xml and LLM
+recommendations despite nine categories. Noindex is not access control;
+direct requests can render the draft. No advisory or corroborating UAE page
+was fetched or independently verified by this build. No fact, fee, date,
+deadline or rule was added from memory. Shared source-host policy is unchanged.
+
+The CSV remains an unchanged empty template, not a synchronized copy of the
+GCC PHP record. Resolve scope and source blockers, fill the reviewed CSV row
+with aligned sources/dates and obtain explicit owner sign-off before release.
+Follow section 18's atomic publication checklist for PHP/CSV status, accurate
+sitemap entry and llms.txt recommendation in one commit, keeping llms-full.txt
+consistent. Do not bypass the existing publication guards.
+
+### Phase 11 validation and agent disclosure
+
+The full technical checks were repeated after each of the three tasks:
+78 PHP lints, 42 clean page renders and 252 Chromium page/width/JavaScript
+cases per task, totaling 234 lints, 126 renders and 756 browser cases.
+All 42 pages were checked at 375/768/1280px with JavaScript on/off. Coverage
+included headings/robots/menus, native destination FAQs, source links,
+layout, conditional Costs sections, exact summary/provenance retention,
+GCC identity, nine-category/draft gates, aliases, source-host boundaries and
+visible/schema FAQ parity. The GCC page has five matching FAQ/schema pairs
+and one deduplicated source. Isolated published-data fixtures tested the
+technical threshold without changing repository statuses. External browser
+resources were blocked, not used for live source verification.
+
+The audit inventory contains 141 exact source-line entries, including 13
+marked unsure and 23 reference-only entries. All audited site and LLM files
+are byte-for-byte unchanged from Phase 10. Line-ending conventions are
+preserved and no em dashes were added. No test artifacts are committed.
+Native response headers, Apache rewrites and production rendering still
+require staging checks. No deployment was performed.
+
+Model disclosure: this report was prepared using Arena.ai Agent Mode.
+The underlying model identity is not disclosed.
