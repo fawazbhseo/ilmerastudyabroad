@@ -61,6 +61,39 @@ Page content is maintained directly in PHP, text and XML files.
   affecting each source file at the sitemap repair commit, not the article
   bylines or filesystem timestamps.
 
+## Place fact spreadsheet and publication
+
+`places-facts-template.csv` has one row for each of the 17 place records.
+Every data field has a matching `_source` column. Lists and FAQs use JSON
+arrays inside CSV cells; empty lists are `[]` and unknown scalar facts are
+empty cells. Keep the headers and slug stable when saving from a spreadsheet.
+The source columns document provenance and owner review; they are not public
+page content. Existing-content sources point to the pre-migration Git revision.
+
+Fill a row with confirmed facts and current sources, then transfer its values
+into the returning PHP array in `places/{slug}.php`. Decode list/FAQ cells to
+PHP arrays, not JSON strings. This is a manual review workflow, not an automatic
+CSV import. Keep unknown values empty; never put verification placeholders in
+public data. FAQ entries have `question` and `answer` keys.
+
+To publish a filled row, complete these steps in one commit:
+
+1. Review the sources and fill at least five of the seven fact categories:
+   `intro_answer`, `local_institutions`, `transcript_and_moi_steps`,
+   `local_loan_options`, `visa_appointment_route`, `local_notes`, `faqs`.
+   A non-empty intro must have 40 to 60 words. Only complete FAQs count.
+   Each category counts once; metadata, related links and shared copy do not.
+2. Set `status` to `published` in the PHP record and spreadsheet. The template
+   still forces noindex if fewer than five valid categories are filled.
+3. Add the clean page URL to `sitemap.xml` with an accurate Git-based `lastmod`.
+4. Add the verified page to `llms.txt`.
+5. Add the footer link only when its target is ready. Do not restore a homepage
+   link to an unready hub. Published pages suppress links to unready place data.
+
+All current records are drafts. This phase adds no live navigation, sitemap
+or LLM-context links. Noindex is not access control: draft URLs can be opened
+directly and may link to other drafts for editorial review.
+
 ## Phase 2: Karnataka hub and district drafts
 
 Four new root-level PHP pages use the existing article layout, CSS
