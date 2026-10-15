@@ -3,6 +3,24 @@ require_once __DIR__ . '/posts.php';
 require_once __DIR__ . '/place-data.php';
 require_once __DIR__ . '/destination-data.php';
 
+/** Reject explicit indexing exclusions without evaluating a page template. */
+function ilmera_source_indexable($file, $checkHeaders = true)
+{
+    if (!is_file($file)) return false;
+    $source = file_get_contents($file);
+    $html = '';
+    foreach (token_get_all($source) as $token) {
+        if (is_array($token) && $token[0] === T_INLINE_HTML) $html .= $token[1];
+    }
+    preg_match_all('/<meta\b[^>]*>/i', $html, $tags);
+    foreach ($tags[0] as $tag) {
+        if (preg_match('/\bname\s*=\s*([\'"])(robots|googlebot)\1/i', $tag)
+            && preg_match('/\bcontent\s*=\s*([\'"])(.*?)\1/i', $tag, $value)
+            && preg_match('/\bnoindex\b/i', $value[2])) return false;
+    }
+    return !$checkHeaders || !preg_match('/header\s*\(\s*[\'"]X-Robots-Tag:\s*[^\'"]*\bnoindex\b/i', $source);
+}
+
 function ilmera_static_pages()
 {
     static $published = null;
@@ -19,8 +37,7 @@ function ilmera_static_pages()
     ];
     return $published = array_values(array_filter($pages, static function ($page) {
         $file = dirname(__DIR__) . '/' . $page['file'];
-        if (!is_file($file)) return false;
-        return !preg_match('/<meta\s+name=["\'](?:robots|googlebot)["\']\s+content=["\'][^"\']*\bnoindex\b/i', file_get_contents($file));
+        return ilmera_source_indexable($file);
     }));
 }
 
@@ -35,14 +52,14 @@ function ilmera_target_published($url)
     $path = rtrim(preg_replace('/\.php\/?$/i', '', $path), '/') ?: '/';
     if ($path === '/index') $path = '/';
     if ($path === '/blog/index') $path = '/blog';
-    if (preg_match('#^/blog/([a-z0-9-]+)$#D', $path, $match)) return ilmera_post_published($match[1]);
+    if (preg_match('#^/blog/([a-z0-9-]+)$#D', $path, $match)) return ilmera_post_published($match[1]) && ilmera_source_indexable(dirname(__DIR__) . '/blog/' . $match[1] . '.php');
     if (preg_match('#^/study-abroad-(?:counselling|consultants-in)-([a-z0-9-]+)$#D', $path, $match)) {
         $place = ilmera_place_load($match[1]);
-        return ilmera_place_indexable($place) && $path === ilmera_place_url($place) && is_file(dirname(__DIR__) . $path . '.php');
+        return ilmera_place_indexable($place) && $path === ilmera_place_url($place) && ilmera_source_indexable(dirname(__DIR__) . $path . '.php') && ilmera_source_indexable(__DIR__ . '/place-page.php', false);
     }
     if (preg_match('#^/study-in-([a-z0-9-]+)$#D', $path, $match)) {
         $destination = ilmera_destination_load($match[1]);
-        return ilmera_destination_indexable($destination) && is_file(dirname(__DIR__) . $path . '.php');
+        return ilmera_destination_indexable($destination) && ilmera_source_indexable(dirname(__DIR__) . $path . '.php') && ilmera_source_indexable(__DIR__ . '/destination-page.php', false);
     }
     foreach (ilmera_static_pages() as $page) if ($path === (rtrim($page['url'], '/') ?: '/')) return true;
     return false;
@@ -73,9 +90,7 @@ function ilmera_place_link($slug, $attributes = [])
 function ilmera_place_groups()
 {
     $groups = ['Karnataka' => [], 'Districts' => [], 'Towns and cities' => []];
-    foreach (glob(dirname(__DIR__) . '/places/*.php') as $file) {
-        $place = ilmera_place_load(basename($file, '.php'));
-        if (!ilmera_place_indexable($place) || !ilmera_target_published(ilmera_place_url($place))) continue;
+    foreach (ilmera_indexable_locations() as $place) {
         $group = $place['slug'] === 'karnataka' ? 'Karnataka' : ($place['type'] === 'district-hub' ? 'Districts' : 'Towns and cities');
         $groups[$group][] = $place;
     }
@@ -148,9 +163,28 @@ function ilmera_published_destinations()
     $destinations = [];
     foreach (ilmera_destination_slugs() as $slug) {
         $destination = ilmera_destination_load($slug);
-        if ($destination && ilmera_target_published(ilmera_destination_url($destination))) $destinations[] = $destination;
+        if ($destination && $destination['status'] === 'published' && ilmera_target_published(ilmera_destination_url($destination))) {
+            $destination['url'] = ilmera_destination_url($destination);
+            $destination['file'] = ltrim($destination['url'], '/') . '.php';
+            $destinations[] = $destination;
+        }
     }
     return $destinations;
+}
+
+/** Indexable location entries, separate from country destinations. */
+function ilmera_indexable_locations()
+{
+    $locations = [];
+    foreach (glob(dirname(__DIR__) . '/places/*.php') as $file) {
+        $place = ilmera_place_load(basename($file, '.php'));
+        if (!$place || !ilmera_target_published(ilmera_place_url($place))) continue;
+        $place['url'] = ilmera_place_url($place);
+        $place['file'] = ltrim($place['url'], '/') . '.php';
+        $locations[] = $place;
+    }
+    usort($locations, static function ($a, $b) { return strcasecmp($a['name'], $b['name']); });
+    return $locations;
 }
 
 function ilmera_destination_target($slug)
