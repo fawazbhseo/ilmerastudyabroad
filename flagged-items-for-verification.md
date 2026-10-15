@@ -1223,3 +1223,915 @@ summaries and provenance are unchanged. They are not approved for publication.
 - [ ] GCC needs the owner to name which countries to cover before research
   or content population. Do not assume that one visa, fee or education rule
   applies across GCC countries or invent a country list.
+
+
+## 29. Free-tuition claims to verify
+
+Phase 11 task 2 is a read-only audit of site copy: no service, homepage,
+About, blog, place or LLM content was edited. Locations below use 1-based
+source-file line numbers at the Phase 11 audit, not rendered HTML lines.
+Each code block reproduces the full source line exactly, including markup,
+entities and PHP escaping, without its line terminator. Metadata and schema
+are listed separately from visible text, even when wording repeats.
+
+Source position from the supplied research so far, not a fresh verification:
+
+- Germany has no tuition at most state universities, with exceptions such as
+  Baden-Wurttemberg for non-EU students and TUM, and a semester contribution.
+- Slovakia is free only for Slovak-language study. Do not present a branch
+  label alone as proof that an English-taught programme is tuition-free.
+- Italian institutions set their own tuition, and no official source for
+  free tuition has been found. Existing DSU tuition-cover/waiver statements
+  are conditional scholarship claims to verify, not evidence that Italy is
+  free by default. This audit does not establish scholarship entitlement.
+
+Review these statements with applicable government/university sources before
+reusing them as verified claims. Qualified wording, negative qualifications,
+conditional scholarship statements and contextual questions/headings are
+retained to avoid hiding relevant wording. The label "unsure" means the line
+is generic or combines countries/options so attribution to Germany, Italy
+or Slovakia is unclear; it is not a determination that its statement is true.
+"Reference only" means a slug/URL or guide reference, not an independent
+free-tuition assertion. Ordinary free-consultation offers, IELTS waivers,
+Schengen travel and GCC tax-free wording are not free-tuition claims and are
+excluded unless the same line also contains relevant education wording.
+
+### Audit coverage and shared content
+
+Searched services.php, index.php, about.php, both LLM files, all seven blog
+posts plus the blog index, all 17 place data files, all 17 thin place entry
+pages and the shared place renderer. Search covered free/tuition-free/free
+education, no/zero tuition, fee waivers/exemptions and tuition coverage,
+followed by contextual review of the tuition lines. The place entries are
+thin includes, with no independent tuition assertions. Their direct matches
+below are guide-URL references, not new prose claims. The shared place
+renderer's free offer is for consultation only. Empty place drafts contain
+no tuition claims.
+
+Also inspected includes/posts.php because its titles/excerpts and related-
+guide data supply blog listings and place-page guide cards. Those shared
+source locations are included separately rather than pretending the thin
+entry files contain literal titles. A title/excerpt reference does not mean
+it renders on every page; publication guards and related-guide selection
+still apply. Blog documents/backlogs/Coorg pages had no independent literal
+free-tuition prose beyond references listed here or shared guide content.
+
+Model disclosure: this report was prepared using Arena.ai Agent Mode.
+The underlying model identity is not disclosed.
+
+### Exact source-line inventory
+
+- `about.php:18` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="study abroad consultant India, ILMERA Study Abroad, overseas education consultant, study in Germany free, study in Italy, study abroad with backlogs, low marks study abroad, student visa assistance, study in Europe from India, MBBS abroad, study in UK, Czech Republic universities"/>
+```
+
+- `about.php:136` | claim or related tuition wording
+
+```text
+        "Free tuition public universities in Germany",
+```
+
+- `about.php:671` | conditional or qualified wording
+
+```text
+      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">The most common questions we get from Coorg are about studying with a low PUC percentage, routes that skip IELTS, and free or near-free tuition. Public universities in Germany charge little to no tuition but require an <a href="https://www.aps-india.de/" rel="nofollow noopener" style="color:var(--navy);">APS certificate</a> from Indian applicants and proof of funds in a blocked account. Italy's regional DSU scholarships are income-assessed via ISEE and can cover tuition plus a living stipend. Russia, Slovakia, Lithuania and Latvia accept lower percentages and backlogs and frequently waive IELTS. Which of these fits depends entirely on your actual marksheet, which is what the free consultation is for.</p>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:150` | claim or related tuition wording
+
+```text
+    <p><strong>Short answer:</strong> the cheapest destinations for Indian students are usually the Czech Republic, Lithuania, Latvia, Slovakia and Russia, while German public universities charge little to no tuition regardless of nationality. But tuition is only part of the bill: living costs, visa funds, insurance and travel decide whether a destination is genuinely affordable for your family. This guide breaks down each of the nine destinations ILMERA works with, what drives the cost, and what you must budget beyond tuition.</p>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:157` | claim or related tuition wording
+
+```text
+      <li><strong>Tuition or semester contribution:</strong> from zero at most German public universities to substantial fees at UK universities; ranges vary by destination and programme.</li>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:170` | claim or related tuition wording
+
+```text
+        <tr><td>Germany</td><td>Little to no tuition at public universities; semester contribution applies</td><td>Moderate; blocked account required</td><td>Engineering, IT, tuition-free degrees</td></tr>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:171` | conditional or qualified wording
+
+```text
+        <tr><td>Italy</td><td>Public universities charge tuition; regional DSU scholarships can cover it and add a stipend for eligible students</td><td>Moderate, lower in smaller cities</td><td>Scholarship-driven students, arts and engineering</td></tr>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:175` | claim or related tuition wording
+
+```text
+        <tr><td>Slovakia</td><td>Free in some Slovak-language branches; paid English programmes</td><td>Low</td><td>Free-education routes, medicine</td></tr>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:183` | context heading/question
+
+```text
+    <h2>Where the Free-Education Routes Actually Apply</h2>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:184` | context heading/question
+
+```text
+    <p>Two of the nine destinations can genuinely approach zero tuition:</p>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:186` | claim or related tuition wording
+
+```text
+      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS certificate') ?: 'APS certificate' ?> for the India-specific requirement.</li>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:187` | conditional or qualified wording
+
+```text
+      <li><strong>Italy:</strong> public universities charge tuition, but the regional DSU scholarship, assessed mainly on family income (ISEE) and merit, can cover tuition and add a stipend plus subsidised accommodation and meals. Amounts are set regionally and revised periodically. See our guide on <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility') ?: 'DSU eligibility' ?>.</li>
+```
+
+- `blog/cost-of-studying-abroad-for-indian-students.php:189` | claim or related tuition wording
+
+```text
+    <p>Slovakia offers free tuition in some Slovak-language branches, which requires learning the language through a preparatory year; English-taught programmes there are paid.</p>
+```
+
+- `blog/documents-needed-to-study-abroad-from-india.php:174` | reference only
+
+```text
+        <tr><td>Germany</td><td><a href="https://www.aps-india.de/" target="_blank" rel="noopener">APS certificate</a> for Indian applicants, blocked account (Sperrkonto) confirmation, German or English proficiency per programme. See our <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS guide') ?: 'APS guide' ?>.</td></tr>
+```
+
+- `blog/index.php:18` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="study abroad blog, study in Germany free, Italy DSU scholarship, study abroad with backlogs, study abroad no IELTS, study abroad consultant Coorg Kodagu"/>
+```
+
+- `blog/italy-dsu-scholarship-eligibility.php:16` | conditional or qualified wording
+
+```text
+<meta name="description" content="Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works."/>
+```
+
+- `blog/italy-dsu-scholarship-eligibility.php:17` | conditional or qualified wording
+
+```text
+<meta name="keywords" content="Italy DSU scholarship, ISEE Italy, study in Italy scholarship, DSU eligibility, Italy free education"/>
+```
+
+- `blog/italy-dsu-scholarship-eligibility.php:34` | conditional or qualified wording
+
+```text
+<meta property="og:description" content="Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks."/>
+```
+
+- `blog/italy-dsu-scholarship-eligibility.php:57` | conditional or qualified wording
+
+```text
+      "description": "Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.",
+```
+
+- `blog/italy-dsu-scholarship-eligibility.php:136` | conditional or qualified wording
+
+```text
+    <p>Italy's DSU scholarships (Diritto allo Studio Universitario) are among the most generous student support schemes in Europe, sometimes covering full tuition exemption plus a living stipend and, in some regions, subsidised housing. They are also one of the most misunderstood, because eligibility has almost nothing to do with your entrance exam score and almost everything to do with two separate things: household income and academic merit.</p>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:15` | claim or related tuition wording
+
+```text
+<meta name="description" content="Which scholarships can Indian students actually get? Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises, updated October 2026."/>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:16` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="scholarships for indian students, study abroad scholarships, italy DSU scholarship, germany free education, government scholarships"/>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:32` | claim or related tuition wording
+
+```text
+<meta property="og:description" content="Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises."/>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:54` | claim or related tuition wording
+
+```text
+      "description": "Which scholarships Indian students can actually get: Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises.",
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:138` | claim or related tuition wording
+
+```text
+    <p><strong>Short answer:</strong> the most realistic funding routes for Indian students fall into four groups: Italy's income-based regional DSU scholarships, tuition-free German public universities, university-specific merit awards, and government schemes such as Chevening and Commonwealth for the UK. Anything promising guaranteed money for every applicant should be treated as a red flag. Here is how each route actually works and who it suits.</p>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:149` | conditional tuition-relief context
+
+```text
+        <tr><td>Italy DSU (regional)</td><td>Regional student-welfare support: tuition relief, an annual stipend, subsidised accommodation and meal services</td><td>Family income (ISEE/ISEE parificato) and merit credits</td><td>Middle-income families; architecture, arts, engineering</td></tr>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:150` | claim or related tuition wording
+
+```text
+        <tr><td>Germany public universities</td><td>Not a scholarship: most public universities charge no tuition for consecutive degrees, only a semester contribution</td><td>Admission requirements per programme</td><td>Engineering, IT, budget planners</td></tr>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:151` | unsure
+
+```text
+        <tr><td>University merit awards</td><td>Fee waivers or partial awards offered by individual universities at intake</td><td>Academic record, sometimes interview or portfolio</td><td>Strong academics in any destination</td></tr>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:161` | claim or related tuition wording
+
+```text
+    <p>Because most German public universities charge no tuition, the funding question shifts to living costs, which the visa requires you to prove through a blocked account. That makes Germany one of the cheapest total-cost destinations even without any award. The India-specific APS certificate is the entry gate; read the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS guide') ?: 'APS guide' ?> for the process.</p>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:167` | unsure
+
+```text
+      <li><strong>Total-cost maths:</strong> a partial award at a high-cost destination can cost more overall than a tuition-free destination with no award.</li>
+```
+
+- `blog/scholarships-for-indian-students-study-abroad.php:191` | unsure
+
+```text
+    <p>Book a free consultation and get an honest eligibility check for DSU, tuition-free routes and university awards, by phone, WhatsApp, or video call.</p>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:3` | reference only
+
+```text
+$post = ilmera_post('study-in-germany-free-aps-certificate');
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:15` | claim or related tuition wording
+
+```text
+<title>Study in Germany for Free from India: APS Certificate Guide</title>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:16` | claim or related tuition wording
+
+```text
+<meta name="description" content="Germany's public universities charge little to no tuition, but Indian applicants need an APS certificate first. Here is what the APS process actually involves."/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:17` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="study in Germany free, APS certificate India, Germany tuition free universities, APS certificate process"/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:25` | reference only
+
+```text
+<link rel="canonical" href="https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate"/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:33` | claim or related tuition wording
+
+```text
+<meta property="og:title" content="Study in Germany for Free from India: APS Certificate Guide"/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:34` | claim or related tuition wording
+
+```text
+<meta property="og:description" content="Germany's public universities charge little to no tuition, but Indian applicants need an APS certificate first. Here is what that process actually involves."/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:35` | reference only
+
+```text
+<meta property="og:url" content="https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate"/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:41` | claim or related tuition wording
+
+```text
+<meta name="twitter:title" content="Study in Germany for Free from India: APS Certificate Guide"/>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:55` | reference only
+
+```text
+      "@id": "https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate#article",
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:56` | claim or related tuition wording
+
+```text
+      "headline": "How to Study in Germany for Free from India: The APS Certificate Explained",
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:57` | claim or related tuition wording
+
+```text
+      "description": "Germany's public universities charge little to no tuition, but Indian applicants need an APS certificate before they can apply. Here is what the process actually involves.",
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:58` | reference only
+
+```text
+      "url": "https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate",
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:59` | reference only
+
+```text
+      "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate",
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:127` | reference only
+
+```text
+  <?php ilmera_breadcrumbs($pageTrail, '/blog/study-in-germany-free-aps-certificate'); ?>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:129` | claim or related tuition wording
+
+```text
+  <h1>How to Study in Germany for Free from India: The APS Certificate Explained</h1>
+```
+
+- `blog/study-in-germany-free-aps-certificate.php:136` | claim or related tuition wording
+
+```text
+    <p>Germany's public universities are one of the few places left where an Indian student can complete a full degree for little to no tuition. Most public universities charge only a small semester contribution, usually covering student services and public transport, rather than a per-credit or per-year tuition fee. That is the part most students already know. What catches people off guard is the <a href="https://www.aps-india.de/" target="_blank" rel="noopener" style="color:var(--gold);">APS certificate</a>, a document that has nothing to do with the university and everything to do with whether your visa application even gets looked at. The full destination overview is on our <a href="/services#germany" style="color:var(--gold);">Study in Germany</a> page.</p>
+```
+
+- `includes/posts.php:6` | reference only
+
+```text
+        'study-in-germany-free-aps-certificate' => [
+```
+
+- `includes/posts.php:7` | reference only
+
+```text
+            'slug' => 'study-in-germany-free-aps-certificate',
+```
+
+- `includes/posts.php:8` | claim or related tuition wording
+
+```text
+            'title' => 'How to Study in Germany for Free from India: The APS Certificate Explained',
+```
+
+- `includes/posts.php:9` | claim or related tuition wording
+
+```text
+            'excerpt' => 'Germany\'s public universities charge little to no tuition, but Indian applicants need an APS certificate before they can apply. Here is what the process actually involves.',
+```
+
+- `includes/posts.php:15` | reference only
+
+```text
+            'related' => ['italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs', 'study-abroad-counselling-from-coorg'],
+```
+
+- `includes/posts.php:20` | conditional or qualified wording
+
+```text
+            'excerpt' => 'Italy\'s regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.',
+```
+
+- `includes/posts.php:26` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'study-abroad-with-academic-backlogs', 'study-abroad-counselling-from-coorg'],
+```
+
+- `includes/posts.php:37` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'study-abroad-counselling-from-coorg'],
+```
+
+- `includes/posts.php:48` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs'],
+```
+
+- `includes/posts.php:59` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs'],
+```
+
+- `includes/posts.php:70` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs'],
+```
+
+- `includes/posts.php:75` | claim or related tuition wording
+
+```text
+            'excerpt' => 'Which scholarships can Indian students actually get? Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises, updated October 2026.',
+```
+
+- `includes/posts.php:81` | reference only
+
+```text
+            'related' => ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs'],
+```
+
+- `index.php:12` | unsure
+
+```text
+<title><?php echo $page_title ?? 'ILMERA Study Abroad | Study in Germany, Italy, UK, Russia & Europe: No-IELTS & Free Study Routes'; ?></title>
+```
+
+- `index.php:13` | unsure
+
+```text
+<meta name="description" content="<?php echo $page_description ?? 'ILMERA Study Abroad guides Indian students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC. Free & low-cost study routes, no-IELTS options, scholarship guidance, backlogs & low marks accepted. Book a free consultation.'; ?>"/>
+```
+
+- `index.php:14` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="study abroad consultancy India, study abroad consultant for Coorg students, study abroad consultant Kodagu, study in Germany free, study in Italy DSU stipend, study in Russia no IELTS, study abroad with backlogs, study abroad low marks, cheapest country to study abroad for Indian students, student visa assistance India, study in Europe without IELTS, study in Czech Republic Lithuania Latvia Slovakia"/>
+```
+
+- `index.php:35` | unsure
+
+```text
+<meta property="og:description" content="<?php echo $og_description ?? 'Study in Germany, Italy, UK, Russia, Czech Republic & more. Free & low-cost study routes, no-IELTS options, scholarship guidance & backlogs accepted. Book a free consultation.'; ?>"/>
+```
+
+- `index.php:45` | unsure
+
+```text
+<meta name="twitter:description" content="<?php echo $twitter_description ?? 'Study in Germany, Italy, UK, Russia & more. Free & low-cost study routes, no-IELTS options, scholarship guidance & backlogs accepted. Book a free consultation.'; ?>"/>
+```
+
+- `index.php:88` | unsure
+
+```text
+      "knowsAbout": ["University Admissions","Student Visas","Scholarships","IELTS Preparation","Study Abroad without IELTS","Free Education in Europe","Study Abroad with Backlogs"],
+```
+
+- `index.php:171` | claim or related tuition wording
+
+```text
+        {"@type":"Question","name":"Which is the cheapest country to study abroad for Indian students?","acceptedAnswer":{"@type":"Answer","text":"For Indian students on a tight budget, the Czech Republic, Lithuania, Latvia, Russia and Slovakia are the most affordable study destinations, with much lower tuition and living costs than the UK. Germany's public universities charge little to no tuition, though you still need to fund living expenses."}},
+```
+
+- `index.php:172` | conditional or qualified wording
+
+```text
+        {"@type":"Question","name":"Which countries let you study for free?","acceptedAnswer":{"@type":"Answer","text":"Germany, Italy and Slovakia offer free or heavily subsidised university education. German public universities charge little to no tuition, Italy offers regional DSU scholarships that can cover tuition plus a living stipend, and some Slovakian programmes are tuition-free. You still need to cover living costs and prove funds for your visa."}},
+```
+
+- `index.php:173` | claim or related tuition wording
+
+```text
+        {"@type":"Question","name":"How can I study in Germany for free from India?","acceptedAnswer":{"@type":"Answer","text":"You can study in Germany for free by applying to public universities, which charge little to no tuition fees even for Indian students. You'll need an APS certificate (mandatory for Indian applicants), proof of funds via a blocked account, and either English or German proficiency. ILMERA guides you through APS, admissions and the blocked-account process."}},
+```
+
+- `index.php:174` | conditional or qualified wording
+
+```text
+        {"@type":"Question","name":"What is the Italy DSU scholarship and can Indian students get it?","acceptedAnswer":{"@type":"Answer","text":"The DSU (Diritto allo Studio Universitario) is an Italian regional scholarship open to international students, including Indians, that can cover full tuition plus a living stipend, subsidised housing and university meals. Eligibility is mainly income-based (assessed via ISEE) and merit, and amounts vary by region. ILMERA helps you check eligibility and prepare the documents."}},
+```
+
+- `index.php:178` | conditional or qualified wording
+
+```text
+        {"@type":"Question","name":"Can I study in Italy for free with a stipend?","acceptedAnswer":{"@type":"Answer","text":"Yes, eligible students can study in Italy with free tuition plus a stipend through regional DSU scholarships, which may also include subsidised accommodation and meals. Eligibility is assessed mainly on family income (ISEE) and merit, and the exact amount varies by region and year. ILMERA helps you assess whether you qualify before applying."}},
+```
+
+- `index.php:181` | claim or related tuition wording
+
+```text
+        {"@type":"Question","name":"Can I study in Slovakia or the Czech Republic on a low budget?","acceptedAnswer":{"@type":"Answer","text":"Yes, both Slovakia and the Czech Republic are low-budget study destinations for Indian students, with affordable tuition, low living costs, and some tuition-free Slovakian programmes. Many courses accept students without IELTS. ILMERA helps you compare programmes, costs and English requirements for both."}},
+```
+
+- `index.php:186` | unsure
+
+```text
+        {"@type":"Question","name":"How is ILMERA different from other study abroad consultants?","acceptedAnswer":{"@type":"Answer","text":"ILMERA works with Indian students who have backlogs, low marks or no IELTS score, and focuses on affordable and free-education destinations in Europe and Russia. Each student works with a named counsellor who gives honest advice about what is realistically achievable, rather than one-size-fits-all promises."}},
+```
+
+- `index.php:389` | unsure
+
+```text
+        <p class="hero-sub" id="hSub">Study abroad consultants for Indian students, including options with no IELTS, backlogs or low marks accepted, and free or low-cost tuition across Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia &amp; the GCC.</p>
+```
+
+- `index.php:461` | claim or related tuition wording
+
+```text
+        ILMERA Study Abroad is based in Coorg and helps students from Kodagu, Madikeri, Virajpet and across Karnataka plan their overseas education through free consultation by phone, WhatsApp and video call. Whether you're aiming for free tuition in Germany, the DSU scholarship in Italy, or a low-cost, no-IELTS route in Russia, Lithuania or Latvia, our named counsellors guide you from profile assessment to visa.
+```
+
+- `index.php:513` | conditional or qualified wording
+
+```text
+        <p class="testi-text">We help eligible students apply for Italy's regional DSU scholarships, which can cover tuition plus a living stipend and subsidised housing and meals, based on income (ISEE) and merit.</p>
+```
+
+- `index.php:552` | claim or related tuition wording
+
+```text
+          <div class="sc-item"><span class="sc-rank">5</span><span>&#127480;&#127472; Slovakia <em style="font-size:11px;color:#888;">(free in some branches)</em></span></div>
+```
+
+- `index.php:556` | context heading/question
+
+```text
+        <div class="sc-badge" style="background:rgba(201,168,76,0.1);border-color:rgba(201,168,76,0.4);color:#8a6a00;">&#127379; Free Education Available</div>
+```
+
+- `index.php:557` | context heading/question
+
+```text
+        <h3 class="sc-title">Study for Free</h3>
+```
+
+- `index.php:559` | claim or related tuition wording
+
+```text
+          <div class="sc-item"><span class="sc-rank">&#127465;&#127466;</span><span>Germany: Public universities free</span></div>
+```
+
+- `index.php:560` | claim or related tuition wording
+
+```text
+          <div class="sc-item"><span class="sc-rank">&#127470;&#127481;</span><span>Italy: Free + annual stipend</span></div>
+```
+
+- `index.php:561` | claim or related tuition wording
+
+```text
+          <div class="sc-item"><span class="sc-rank">&#127480;&#127472;</span><span>Slovakia: Free in some branches</span></div>
+```
+
+- `index.php:591` | claim or related tuition wording
+
+```text
+      <details class="il-faq"><summary>Which is the cheapest country to study abroad for Indian students?</summary><div><p>For Indian students on a tight budget, the Czech Republic, Lithuania, Latvia, Russia and Slovakia are the most affordable study destinations, with much lower tuition and living costs than the UK. Germany's public universities charge little to no tuition, though you still need to fund living expenses.</p></div></details>
+```
+
+- `index.php:593` | conditional or qualified wording
+
+```text
+      <details class="il-faq"><summary>Which countries let you study for free?</summary><div><p>Germany, Italy and Slovakia offer free or heavily subsidised university education. German public universities charge little to no tuition, Italy offers regional DSU scholarships that can cover tuition plus a living stipend, and some Slovakian programmes are tuition-free. You still need to cover living costs and prove funds for your visa.</p></div></details>
+```
+
+- `index.php:595` | claim or related tuition wording
+
+```text
+      <details class="il-faq"><summary>How can I study in Germany for free from India?</summary><div><p>You can study in Germany for free by applying to public universities, which charge little to no tuition fees even for Indian students. You'll need an <a href="https://www.aps-india.de/" target="_blank" rel="noopener nofollow">APS certificate</a> (mandatory for Indian applicants), proof of funds via a blocked account, and either English or German proficiency. ILMERA guides you through APS, admissions and the blocked-account process.</p></div></details>
+```
+
+- `index.php:597` | conditional or qualified wording
+
+```text
+      <details class="il-faq"><summary>What is the Italy DSU scholarship and can Indian students get it?</summary><div><p>The DSU (Diritto allo Studio Universitario) is an Italian regional scholarship open to international students, including Indians, that can cover full tuition plus a living stipend, subsidised housing and university meals. Eligibility is mainly income-based (assessed via ISEE) and merit, and amounts vary by region. ILMERA helps you check eligibility and prepare the documents.</p></div></details>
+```
+
+- `index.php:605` | conditional or qualified wording
+
+```text
+      <details class="il-faq"><summary>Can I study in Italy for free with a stipend?</summary><div><p>Yes, eligible students can study in Italy with free tuition plus a stipend through regional DSU scholarships, which may also include subsidised accommodation and meals. Eligibility is assessed mainly on family income (ISEE) and merit, and the exact amount varies by region and year. ILMERA helps you assess whether you qualify before applying.</p></div></details>
+```
+
+- `index.php:611` | claim or related tuition wording
+
+```text
+      <details class="il-faq"><summary>Can I study in Slovakia or the Czech Republic on a low budget?</summary><div><p>Yes, both Slovakia and the Czech Republic are low-budget study destinations for Indian students, with affordable tuition, low living costs, and some tuition-free Slovakian programmes. Many courses accept students without IELTS. ILMERA helps you compare programmes, costs and English requirements for both.</p></div></details>
+```
+
+- `index.php:621` | unsure
+
+```text
+      <details class="il-faq"><summary>How is ILMERA different from other study abroad consultants?</summary><div><p>ILMERA works with Indian students who have backlogs, low marks or no IELTS score, and focuses on affordable and free-education destinations in Europe and Russia. Each student works with a named counsellor who gives honest advice about what is realistically achievable, rather than one-size-fits-all promises.</p></div></details>
+```
+
+- `llms-full.txt:64` | claim or related tuition wording
+
+```text
+- **Tuition:** Most public (state-funded) universities charge no tuition for consecutive Bachelor's and Master's programmes, including for international students; a small semester contribution applies. A few states levy tuition in specific cases (for example, non-consecutive or second-degree programmes), so ILMERA confirms the rule for each university before applying.
+```
+
+- `llms-full.txt:69` | claim or related tuition wording
+
+```text
+- **Best fit for:** students who want tuition-free education and are willing to pursue German language study, or who qualify for English-medium programmes.
+```
+
+- `llms-full.txt:72` | conditional or qualified wording
+
+```text
+- **Tuition and stipend:** The DSU scholarship can cover tuition and provide an annual stipend plus subsidized accommodation and meal services for eligible students. Stipend amounts and thresholds are set regionally and revised periodically; ILMERA confirms current figures for the target region each admissions cycle rather than quoting fixed numbers.
+```
+
+- `llms-full.txt:76` | conditional or qualified wording
+
+```text
+- **Best fit for:** students seeking free or near-free education with a living stipend, and students in architecture, arts, or engineering.
+```
+
+- `llms-full.txt:107` | claim or related tuition wording
+
+```text
+- **Tuition:** Free tuition is available at Slovak-language branches of several public universities, one of the few EU countries besides Germany to offer this to international students. English and Slovak-medium programmes exist in Medicine, Dentistry, Engineering, and Business.
+```
+
+- `llms-full.txt:108` | claim or related tuition wording
+
+```text
+- **Language requirement:** The tuition-free route requires Slovak language proficiency; a preparatory language course is typically available beforehand.
+```
+
+- `llms-full.txt:111` | claim or related tuition wording
+
+```text
+- **Best fit for:** students targeting free European education, and medical aspirants.
+```
+
+- `llms-full.txt:137` | claim or related tuition wording
+
+```text
+- **Budget-conscious students:** Russia and Lithuania are generally among the more affordable options among ILMERA's destinations; Germany's zero-tuition policy also significantly reduces the total cost of a degree, though living costs still apply.
+```
+
+- `llms-full.txt:138` | claim or related tuition wording
+
+```text
+- **Free-education seekers:** Germany (public universities) and Italy (DSU scholarship) are ILMERA's primary options for students seeking free or heavily subsidized education.
+```
+
+- `llms.txt:3` | unsure
+
+```text
+> A study abroad consultancy based in Coorg (Kodagu, Karnataka, India), offering application guidance to Indian students considering universities in Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC, with free education options, no-IELTS routes, and support for students with backlogs or low marks.
+```
+
+- `llms.txt:34` | claim or related tuition wording
+
+```text
+### Germany: Free Public University Education for Indian Students
+```
+
+- `llms.txt:37` | claim or related tuition wording
+
+```text
+- Most German public (state-funded) universities charge no tuition for consecutive degrees, including for international students from India; a small semester contribution applies. A few states levy tuition in specific cases (for example, non-consecutive or second-degree programmes), so ILMERA confirms the rule for each university before applying.
+```
+
+- `llms.txt:42` | claim or related tuition wording
+
+```text
+- Ideal for: students seeking tuition-free European education and STEM graduates.
+```
+
+- `llms.txt:44` | conditional or qualified wording
+
+```text
+### Italy: Free Education Plus Annual Stipend via DSU Scholarship
+```
+
+- `llms.txt:47` | conditional or qualified wording
+
+```text
+- Italy's DSU (Diritto allo Studio Universitario) regional scholarship can cover tuition and provide an annual cash stipend plus subsidised accommodation and meal services for eligible students.
+```
+
+- `llms.txt:53` | conditional or qualified wording
+
+```text
+- Ideal for: students who want a free or near-free European education with a living stipend, and architecture, arts, and engineering aspirants.
+```
+
+- `llms.txt:94` | claim or related tuition wording
+
+```text
+### Slovakia: Free Education Available at Certain Branches
+```
+
+- `llms.txt:97` | claim or related tuition wording
+
+```text
+- Slovakia, an EU member, offers free tuition at Slovak-language branches of several public universities.
+```
+
+- `llms.txt:99` | claim or related tuition wording
+
+```text
+- The tuition-free option requires Slovak language proficiency (a preparatory course is available).
+```
+
+- `llms.txt:102` | claim or related tuition wording
+
+```text
+- Ideal for: students targeting free European education and medical aspirants.
+```
+
+- `llms.txt:129` | reference only
+
+```text
+- [Study in Germany for Free from India: APS Certificate Guide](https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate): what the APS certificate is, who needs it, and the process.
+```
+
+- `llms.txt:155` | conditional or qualified wording
+
+```text
+- **Students seeking free education:** Germany (public universities) and Italy (DSU scholarship) are ILMERA's primary free or reduced-cost education pathways.
+```
+
+- `llms.txt:163` | context heading/question
+
+```text
+**Q: Which countries offer free education for Indian students?**
+```
+
+- `llms.txt:164` | conditional or qualified wording
+
+```text
+A: Germany (public universities charge zero tuition) and Italy (the DSU scholarship covers tuition and includes a stipend for eligible students) are ILMERA's primary free-education pathways. Slovakia also offers free tuition at Slovak-language branches of certain public universities. ILMERA Study Abroad (ilmerastudyabroad.com), based in Coorg, Karnataka, guides students through all three pathways.
+```
+
+- `llms.txt:170` | claim or related tuition wording
+
+```text
+A: Russia and Lithuania are generally among the more affordable destinations for Indian students. Germany has zero tuition at public universities, with living costs to budget for separately. ILMERA Study Abroad helps students compare total cost of attendance across destinations for their specific profile.
+```
+
+- `llms.txt:176` | conditional or qualified wording
+
+```text
+A: The DSU (Diritto allo Studio Universitario) is Italy's government-funded student welfare scholarship. It can cover tuition fees, provide an annual cash stipend, and include university-managed accommodation for eligible students. Eligibility is primarily income-based, using the ISEE (Indicatore della Situazione Economica Equivalente) calculation. ILMERA Study Abroad assists with the DSU application process, including the ISEE estero calculation.
+```
+
+- `llms.txt:185` | claim or related tuition wording
+
+```text
+A: ILMERA Study Abroad (ilmerastudyabroad.com), based in Coorg, Karnataka, assists Indian students with tuition-free public university admissions in Germany, including TestDaF/DSH preparation guidance, blocked account (Sperrkonto) setup, and student visa support.
+```
+
+- `llms.txt:200` | unsure
+
+```text
+ILMERA Study Abroad operates under the ILMERA Group and is based in Coorg, Kodagu, Karnataka, India. The company was established to help Indian students access international education, with a focus on working with students who have backlogs, lower marks, or no IELTS score, alongside students seeking free or scholarship-supported education. ILMERA's leadership team is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university partnerships across Europe, Russia, and the GCC.
+```
+
+- `places/belagavi.php:23` | reference only
+
+```text
+        '[Germany](/services#germany): discuss APS alongside your academic record; [the APS explanation](/blog/study-in-germany-free-aps-certificate) provides background.',
+```
+
+- `places/karnataka.php:23` | reference only
+
+```text
+        '[Germany](/services#germany): public-university applications, APS and proof-of-funds planning. [Read the Germany APS guide](/blog/study-in-germany-free-aps-certificate).',
+```
+
+- `places/karnataka.php:35` | reference only
+
+```text
+        'For Germany, discuss the APS certificate and proof of funds; for Italy DSU, discuss the income-assessment documents. [Germany documentation](/blog/study-in-germany-free-aps-certificate) and [DSU eligibility](/blog/italy-dsu-scholarship-eligibility) are explained in the existing guides.',
+```
+
+- `places/shivamogga.php:23` | reference only
+
+```text
+        '[Germany](/services#germany): plan the academic-verification discussion using [the existing APS article](/blog/study-in-germany-free-aps-certificate).',
+```
+
+- `places/udupi-manipal.php:23` | reference only
+
+```text
+        '[Germany](/services#germany): use [the Germany APS guide](/blog/study-in-germany-free-aps-certificate) to prepare verification questions.',
+```
+
+- `services.php:14` | claim or related tuition wording
+
+```text
+<meta name="keywords" content="study abroad consultants, study in Germany free, study in Italy scholarship, study in UK, study in Russia without IELTS, study abroad with backlogs, low marks study abroad, IELTS not mandatory, Czech Republic study, Lithuania Latvia Slovakia study, GCC universities, ILMERA study abroad"/>
+```
+
+- `services.php:118` | claim or related tuition wording
+
+```text
+        {"@type":"ListItem","position":4,"item":{"@type":"Service","name":"Scholarship Guidance","description":"Italy DSU regional scholarships, Germany free education, Slovakia free programmes, and merit-based awards across all destinations.","provider":{"@id":"https://ilmerastudyabroad.com/#organization"}}},
+```
+
+- `services.php:141` | conditional or qualified wording
+
+```text
+        {"@type":"Question","name":"Which countries offer free education?","acceptedAnswer":{"@type":"Answer","text":"Germany offers tuition-free or very low tuition at most public universities. In Italy, fee reductions or waivers are income-based and assessed through regional DSU scholarships; study is not free by default. Slovakia offers free education in select Slovak-language branches. ILMERA helps students access these low-cost and tuition-free options."}},
+```
+
+- `services.php:144` | claim or related tuition wording
+
+```text
+        {"@type":"Question","name":"What is the cheapest country to study abroad?","acceptedAnswer":{"@type":"Answer","text":"The Czech Republic, Lithuania, Latvia, Russia and Slovakia are among the most affordable destinations for Indian students, and Germany's public universities charge little to no tuition. Exact costs vary by university and city, and ILMERA provides a full cost breakdown during your consultation."}},
+```
+
+- `services.php:383` | claim or related tuition wording
+
+```text
+      <div class="badge-card"><span class="badge-icon">&#127891;</span><span class="badge-title">Free &amp; Low-Cost Education</span><span class="badge-sub">Germany &middot; Italy &middot; Slovakia</span></div>
+```
+
+- `services.php:398` | claim or related tuition wording
+
+```text
+      <div class="country-flag-badge"><span class="flag">&#127465;&#127466;</span> Tuition-Free or Low Tuition</div>
+```
+
+- `services.php:401` | claim or related tuition wording
+
+```text
+      <p>Germany offers world-class, globally recognised degrees, with tuition-free or very low tuition at most public universities; some states charge fees and a semester contribution applies. Combine quality education with a strong economy and outstanding career opportunities.</p>
+```
+
+- `services.php:405` | claim or related tuition wording
+
+```text
+          <li><span class="li-ico">&#127379;</span> Free education at public universities</li>
+```
+
+- `services.php:439` | conditional or qualified wording
+
+```text
+      <p>In Italy, fee reductions or waivers are income-based and assessed through regional DSU scholarships; study is not free by default. Eligible students can add a yearly stipend plus tuition relief and subsidised accommodation and meal services, assessed on family income (ISEE) and merit. English-taught programmes are available at many universities.</p>
+```
+
+- `services.php:609` | claim or related tuition wording
+
+```text
+      <div class="country-flag-badge"><span class="flag">&#127480;&#127472;</span> Free in Some Branches</div>
+```
+
+- `services.php:611` | claim or related tuition wording
+
+```text
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('slovakia')) ?>" style="color:inherit;text-decoration:none;">Study in Slovakia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Marks Welcome. Free in Some Branches.</em></h2>
+```
+
+- `services.php:612` | claim or related tuition wording
+
+```text
+      <p>Slovakia is one of Europe's hidden gems for international students, offering free education in select branches, low marks acceptance, and affordable living right in the heart of the EU.</p>
+```
+
+- `services.php:614` | claim or related tuition wording
+
+```text
+        <li><span class="li-ico">&#127379;</span> Free education available in some branches</li>
+```
+
+- `services.php:710` | claim or related tuition wording
+
+```text
+      <div class="service-mini-card"><div class="smc-icon">&#11088;</div><h3>Scholarship Guidance</h3><p>Italy DSU regional scholarships, Germany free education, Slovakia free branches, merit awards in all countries.</p></div>
+```
+
+- `services.php:758` | context heading/question
+
+```text
+        <button class="faq-q">Which countries offer free education?</button>
+```
+
+- `services.php:759` | conditional or qualified wording
+
+```text
+        <div class="faq-a"><p>Germany offers tuition-free or very low tuition at most public universities. In Italy, fee reductions or waivers are income-based and assessed through regional DSU scholarships; study is not free by default. Slovakia offers free education in select Slovak-language branches. ILMERA helps students access these low-cost and tuition-free options.</p></div>
+```
+
+- `services.php:763` | conditional tuition-relief context
+
+```text
+        <div class="faq-a"><p>The DSU scholarship amount depends on the Italian region and the student's ISEE income assessment. It typically combines a yearly stipend with tuition relief and subsidised accommodation and meal services. ILMERA confirms the current amounts for each region during the application process.</p></div>
+```
+
+- `services.php:771` | claim or related tuition wording
+
+```text
+        <div class="faq-a"><p>The Czech Republic, Lithuania, Latvia, Russia and Slovakia are among the most affordable destinations for Indian students, and Germany's public universities charge little to no tuition. Exact costs vary by university and city, and ILMERA provides a full cost breakdown during your consultation.</p></div>
+```
+
+### Audit outcome
+
+No audited site/LLM files were changed. The inventory is a verification
+backlog, not an endorsement or an instruction to publish a draft. If copy
+is softened later, update matching metadata/schema and shared title/excerpt
+sources as appropriate. Earlier verification blockers remain open.
+
+Inventory totals: 141 source-line entries; 13 marked unsure.
