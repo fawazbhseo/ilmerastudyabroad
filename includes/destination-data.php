@@ -26,7 +26,14 @@ function ilmera_destination_source($item, $hosts)
     $parts = parse_url($url);
     if (!$parts || ($parts['scheme'] ?? '') !== 'https' || isset($parts['user']) || isset($parts['pass']) || isset($parts['port'])) return null;
     $host = strtolower($parts['host'] ?? '');
-    if (!in_array($host, $hosts, true)) return null;
+    $approved = false;
+    foreach ($hosts as $allowedHost) {
+        if ($host === $allowedHost || substr($host, -strlen('.' . $allowedHost)) === '.' . $allowedHost) {
+            $approved = true;
+            break;
+        }
+    }
+    if (!$approved) return null;
     return ['source_label' => $label, 'source_url' => $url, 'checked_on' => ilmera_destination_date($item['checked_on'] ?? '')];
 }
 
