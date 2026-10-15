@@ -84,9 +84,10 @@ checklisted by page in `flagged-items-for-verification.md`, section 14.
 
 Each page has `noindex, follow` with a comment pointing to that inventory.
 The four pages are **not** in `sitemap.xml`, `llms.txt` or `llms-full.txt`;
-the sitemap still contains 11 URLs. The footer Navigation list and the
-homepage Coorg service-area section link to the hub, but the main header
-navigation is unchanged. The district pages and hub link to each other.
+the sitemap still contains 11 URLs. The footer and homepage links to the
+hub are disabled until verification; the main header navigation remains
+unchanged. The district pages and hub still link to each other. Nothing
+on the live site may link to a page containing a `[VERIFY]` placeholder.
 Noindex does not prevent direct access to a deployed page.
 
 Each page defines WebPage, BreadcrumbList, FAQPage and Service JSON-LD.
@@ -96,11 +97,17 @@ team mentions reference the existing `#jabir`, `#zaheer` and `#fawaz` IDs.
 There is no new review/rating, business-location or author-endorsement claim.
 All eight FAQ question/answer pairs per page match the visible text exactly.
 
-**Publication:** fact-check and resolve the page's placeholders, remove its
-noindex tag, add its URL to `sitemap.xml` with an accurate Git-based lastmod,
-and add it to `llms.txt` in the same commit. Edit the visible FAQ and its
-JSON-LD together when replacing a placeholder. Do not publish a draft just
-because it is already linked internally.
+**Publication:** For each page, complete all five steps in the same commit:
+
+1. Replace every `[VERIFY]` placeholder with a confirmed fact.
+2. Remove the page's `noindex` tag.
+3. Add the page to `sitemap.xml` with an accurate Git-based `lastmod`.
+4. Add the page to `llms.txt`.
+5. Re-add the footer and homepage links.
+
+Edit the visible FAQ and its JSON-LD together when replacing a placeholder.
+Do not re-enable live-site links while any draft they expose still contains
+a `[VERIFY]` placeholder.
 
 ### Phase 2 validation
 

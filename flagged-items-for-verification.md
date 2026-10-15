@@ -373,15 +373,24 @@ while repairing paths does not restrict direct access to deployed PHP files.
 
 All four new pages are draft pages with `noindex, follow` and a comment
 pointing to this inventory. They are not in `sitemap.xml` or `llms.txt`.
-They are reachable through the requested internal links; noindex is not
-access control. No local institution, student-origin, bank, document
-procedure or travel-route fact has been inferred from general knowledge.
+The footer and homepage links are disabled until verification. The draft
+pages still link to each other; noindex is not access control. Nothing on
+the live site may link to a page containing a `[VERIFY]` placeholder. No
+local institution, student-origin, bank, document procedure or travel-route
+fact has been inferred from general knowledge.
 
-**Release rule:** To publish a page, resolve its verification items, remove
-its `noindex` tag, add it to `sitemap.xml` with an accurate `lastmod` from
-that page's Git history, and add it to `llms.txt` in the same commit. Keep
-visible FAQ wording and its FAQPage JSON-LD in exact agreement. Do not
-release an unchecked placeholder as a confirmed fact.
+**Release rule:** To publish each page, complete all five steps in the
+same commit:
+
+1. Replace every `[VERIFY]` placeholder with a confirmed fact.
+2. Remove the page's `noindex` tag.
+3. Add the page to `sitemap.xml` with an accurate `lastmod` from its Git history.
+4. Add the page to `llms.txt`.
+5. Re-add the footer and homepage links.
+
+Keep visible FAQ wording and its FAQPage JSON-LD in exact agreement. Do not
+re-enable live-site links while any draft they expose still contains a
+`[VERIFY]` placeholder.
 
 Check each item against owner-approved records or a current official
 institution, lender or visa-authority source. Record the source, date,
