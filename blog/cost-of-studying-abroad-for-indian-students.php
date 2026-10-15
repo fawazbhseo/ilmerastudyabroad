@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../includes/posts.php';
 $post = ilmera_post('cost-of-studying-abroad-for-indian-students');
+require_once __DIR__ . '/../includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Blog', 'url' => '/blog/'], ['name' => $post['title'], 'url' => '/blog/' . $post['slug']]];
 if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow');
 ?>
 <!DOCTYPE html>
@@ -73,14 +75,6 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
         "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
       },
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"},
-        {"@type":"ListItem","position":3,"name":"Cost of Studying Abroad for Indian Students","item":"https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students"}
-      ]
     }
   ]
 }
@@ -143,7 +137,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <main>
 
 <section class="article-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Costs</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/blog/cost-of-studying-abroad-for-indian-students'); ?>
   <span class="article-tag">Costs</span>
   <h1>Cost of Studying Abroad for Indian Students: A Country-by-Country Comparison</h1>
   <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 6 min read</p>

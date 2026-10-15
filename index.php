@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -154,10 +158,7 @@
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [{"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com/"}]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/#breadcrumb"}
     },
     {
           
@@ -360,6 +361,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .il-faq > div{padding:0 26px 24px;}
 .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;margin:0;}
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
+.breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
+.breadcrumb a{color:var(--grey-mid);text-decoration:none;}
 </style>
 
 </head>
@@ -381,6 +384,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <!-- ═══ HERO ═══ -->
 <section id="hero">
   <div class="hero-inner">
+    <?php ilmera_breadcrumbs($pageTrail, '/'); ?>
     <div class="hero-label" id="hLabel">ILMERA GROUP PRESENTS</div>
        <h1 class="hero-h1" id="hH1">Study Abroad from India<em>Germany · Italy · UK · Russia &amp; Europe</em></h1>
         <p class="hero-sub" id="hSub">Study abroad consultants for Indian students, including options with no IELTS, backlogs or low marks accepted, and free or low-cost tuition across Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia &amp; the GCC.</p>

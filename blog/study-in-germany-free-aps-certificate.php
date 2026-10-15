@@ -1,6 +1,8 @@
 <?php
 require_once __DIR__ . '/../includes/posts.php';
 $post = ilmera_post('study-in-germany-free-aps-certificate');
+require_once __DIR__ . '/../includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Blog', 'url' => '/blog/'], ['name' => $post['title'], 'url' => '/blog/' . $post['slug']]];
 if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow');
 ?>
 <!DOCTYPE html>
@@ -63,14 +65,6 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
       "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"},
       "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"},
-        {"@type":"ListItem","position":3,"name":"How to Study in Germany for Free from India","item":"https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate"}
-      ]
     }
   ]
 }
@@ -130,7 +124,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <main>
 
 <section class="article-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Germany</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/blog/study-in-germany-free-aps-certificate'); ?>
   <span class="article-tag">Germany</span>
   <h1>How to Study in Germany for Free from India: The APS Certificate Explained</h1>
   <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 5 min read</p>

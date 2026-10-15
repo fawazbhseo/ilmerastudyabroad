@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Services', 'url' => '/services']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,13 +105,7 @@
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "description": "ILMERA offers university admissions counselling, student visa assistance, IELTS preparation, scholarship guidance, pre-departure briefings and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC.",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Services","item":"https://ilmerastudyabroad.com/services"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/services#breadcrumb"}
     },
     {
       "@type": "ItemList",
@@ -371,7 +369,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <!-- ═══ MINI HERO ═══ -->
 <div class="mini-hero" id="miniHero">
   <div class="mini-inner">
-    <p class="breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; Services</p>
+    <?php ilmera_breadcrumbs($pageTrail, '/services'); ?>
     <h1 id="heroH1">Study Abroad<em>Destinations &amp; Services</em></h1>
     <p class="mini-hero-sub" id="heroSub">9 destinations. World-class universities. Affordable fees. Scholarships available. Low marks? Backlogs? No IELTS? ILMERA has a path for you.</p>
   </div>

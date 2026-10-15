@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Privacy Policy', 'url' => '/privacy-policy']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,13 +60,7 @@
       "description": "Privacy Policy for ILMERA Study Abroad, an overseas education consultancy based in Coorg, Kodagu, Karnataka, India.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://ilmerastudyabroad.com/privacy-policy"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/privacy-policy#breadcrumb"}
     }
   ]
 }
@@ -110,7 +108,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 <!-- LEGAL HERO -->
 <section class="legal-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; Privacy Policy</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/privacy-policy'); ?>
   <h1>Privacy Policy</h1>
   <p class="sub">How ILMERA Study Abroad collects, uses and protects the information you share with us.</p>
 </section>

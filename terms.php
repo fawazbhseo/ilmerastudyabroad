@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Terms of Use', 'url' => '/terms']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,13 +60,7 @@
       "description": "Terms of Use for ILMERA Study Abroad, an overseas education consultancy based in Coorg, Kodagu, Karnataka, India.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Terms of Use","item":"https://ilmerastudyabroad.com/terms"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/terms#breadcrumb"}
     }
   ]
 }
@@ -110,7 +108,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 <!-- LEGAL HERO -->
 <section class="legal-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; Terms of Use</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/terms'); ?>
   <h1>Terms of Use</h1>
   <p class="sub">The terms that govern your use of the ILMERA Study Abroad website and consultancy services.</p>
 </section>

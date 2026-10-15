@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '/contact']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,15 +148,7 @@
       "primaryImageOfPage": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
       "description": "Contact ILMERA Study Abroad for a free consultation. Study in Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia or GCC. Backlogs and no IELTS welcome.",
       "inLanguage": "en",
-      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/contact/#breadcrumb"}
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://ilmerastudyabroad.com/contact/#breadcrumb",
-      "itemListElement": [
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-        {"@type":"ListItem","position":2,"name":"Contact","item":"https://ilmerastudyabroad.com/contact"}
-      ]
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/contact#breadcrumb"}
     },
     {
       "@type": "ContactPage",
@@ -357,7 +353,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <!-- MINI HERO -->
 <section class="mini-hero" id="miniHero">
   <div class="mini-inner">
-    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> &nbsp;/&nbsp; Contact</nav>
+    <?php ilmera_breadcrumbs($pageTrail, '/contact'); ?>
     <h1 id="heroH1">Contact ILMERA Study Abroad<em>Start Your Global Journey</em></h1>
     <p class="mini-hero-sub" id="heroSub">Free consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia &amp; GCC, no commitment. Low marks, backlogs or no IELTS? We have a path for you.</p>
   </div>

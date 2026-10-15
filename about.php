@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/about']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -166,13 +170,7 @@
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"About","item":"https://ilmerastudyabroad.com/about"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/about#breadcrumb"}
     },
         {
       "@type": "AboutPage",
@@ -569,7 +567,7 @@ img{max-width:100%;height:auto;}
 <!-- ═══ MINI HERO ═══ -->
 <section class="mini-hero" id="miniHero">
   <div class="mini-inner">
-    <p class="breadcrumb"><a href="https://ilmerastudyabroad.com">Home</a> &nbsp;/&nbsp; About</p>
+    <?php ilmera_breadcrumbs($pageTrail, '/about'); ?>
         <h1 id="heroH1">About ILMERA Study Abroad<em>Study Abroad Consultants for Coorg &amp; Kodagu</em></h1>
     <p class="mini-hero-sub" id="heroSub">An overseas education consultancy based in Coorg, run by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>
 

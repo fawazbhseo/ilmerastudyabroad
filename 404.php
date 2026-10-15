@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'url' => '/404']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,6 +68,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .err-links a:hover{color:var(--gold);border-color:rgba(201,168,76,0.4);}
 .err-label{font-size:11px;font-weight:300;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:18px;}
 @media(max-width:768px){.err-code{font-size:72px;}.err-h1{font-size:28px;}.err-wrap{padding:120px 20px 60px;}}
+.breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
+.breadcrumb a{color:var(--grey-mid);text-decoration:none;}
 </style>
 </head>
 <body>
@@ -82,6 +88,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <main>
 <section class="err-wrap">
   <div>
+    <?php ilmera_breadcrumbs($pageTrail, '/404'); ?>
     <span class="err-code">404</span>
     <h1 class="err-h1">This page could not be found</h1>
     <p class="err-sub">The link may be old or mistyped. Everything about studying in Germany, Italy, the UK, Russia and beyond is one click away, or book a free consultation and ask us directly.</p>

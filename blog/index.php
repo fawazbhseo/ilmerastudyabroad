@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . '/../includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Blog', 'url' => '/blog/']];
+?>
 <?php require_once __DIR__ . '/../includes/posts.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,13 +65,7 @@
       "description": "Practical guidance from ILMERA Study Abroad on studying in Germany, Italy, and other destinations, plus honest answers on backlogs, no-IELTS routes, and consultation from Coorg.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/blog/#breadcrumb"}
     },
     {
       "@type": "Blog",
@@ -136,7 +134,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 <!-- BLOG HERO -->
 <section class="blog-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; Blog</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/blog/'); ?>
   <h1>Study Abroad Blog</h1>
   <p class="sub">Practical, honest guidance from the ILMERA Study Abroad team on Germany, Italy, backlogs, no-IELTS routes, and what consultation from Coorg actually looks like.</p>
 </section>
