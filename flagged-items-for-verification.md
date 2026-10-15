@@ -934,3 +934,142 @@ checking noindex, four source links, native FAQs, layout and mobile menus.
 External resources were blocked; no live source contents were checked. No
 test artifacts are committed. Native hosting headers, Apache rewrites and
 production rendering remain staging checks; no deployment was performed.
+
+
+## 22. Phase 9: Lithuania draft (OWNER VERIFICATION REQUIRED)
+
+The complete supplied content is now in `destinations/lithuania.php`, still
+`draft`, with ilmera_summary and summary_provenance preserved exactly.
+Lithuania has five sourced categories in the data model: intro, costs,
+visa_steps, documents and faqs. Three source URLs and four FAQs are present.
+Five categories alone do not authorize publication. Technical source-host
+acceptance is not editorial approval or evidence that a statement is current.
+No source page or supplied fact was independently verified by this build.
+The supplied 2026-10-15 dates are retained, not an independent review date.
+
+This section and section 23 supersede earlier empty-Lithuania/Latvia notes,
+including section 21's count of seven empty records. Czech, Slovakia,
+Lithuania and Latvia now contain supplied sourced content; the other five
+destination records remain empty drafts. All nine destinations remain draft.
+
+### Lithuania source URLs: owner must open and confirm all three
+
+- [ ] Migration Department of Lithuania: Services for persons abroad, Republic of India:
+  https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/
+- [ ] Study in Europe (European Commission): Lithuania country profile:
+  https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania
+- [ ] VILNIUS TECH: Immigration regulations for full-time students:
+  https://vilniustech.lt/en/international-students/immigration-regulations/immigration-regulations-full-time/
+
+### Lithuania publication blockers
+
+- [ ] Obtain explicit owner approval of vilniustech.lt as an official source.
+  It is a university page, not a government host. Inclusion in the supplied
+  official_source_hosts array allows technical validation only; it does not
+  mean that owner approval has been completed.
+- [ ] Resolve the reported conflict between the university's temporary
+  residence permit guidance and the European Commission page, which still
+  describes a national visa. Confirm the current process on the Migration
+  Department page for India listed above before publishing. Reconcile the
+  visa_steps and FAQ wording from current authoritative evidence; do not
+  present technical acceptance of both sources as resolution of the conflict.
+- [ ] Proof-of-funds and insurance minimums were deliberately left out because
+  university sources gave different numbers. Do not add a minimum from memory
+  or select one of the conflicting numbers without verification. Confirm the
+  current requirements with the Migration Department and applicable official
+  sources before adding any figures. The supplied generic funds/insurance
+  wording is not a verified minimum.
+- [ ] Confirm the remaining supplied tuition, living-cost, programme-count,
+  service-fee, service-point, MIGRIS and document statements against the exact
+  sources, including applicability to the intended student and route. Confirm
+  accurate item and page-wide review dates before release.
+
+
+## 23. Phase 9: Latvia draft (OWNER VERIFICATION REQUIRED)
+
+The complete supplied content is now in `destinations/latvia.php`, still
+`draft`, with ilmera_summary and summary_provenance preserved exactly.
+Costs is intentionally empty: no official tuition figure was supplied as
+verified evidence. The page has four sourced categories (intro, visa_steps,
+documents and faqs), three source URLs and four FAQs. It cannot reach the
+five-category publishing gate with its current data, even if status were
+changed to published. Do not change status in this phase.
+
+No source page or supplied fact was independently verified by this build.
+The supplied 2026-10-15 dates are retained and need confirmation against the
+actual review evidence. The supplied European Commission URL retains its
+/fi/ path exactly; the owner must check its content and current applicability.
+
+### Latvia source URLs: owner must open and confirm all three
+
+- [ ] Embassy of Latvia in India: Long stay visa for students, Indian nationals:
+  https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals
+- [ ] Embassy of Latvia in India: Long stay visa for students:
+  https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students
+- [ ] Study in Europe (European Commission): Latvia country profile:
+  https://education.ec.europa.eu/fi/country-profiles/latvia
+
+### Latvia publication blockers
+
+- [ ] Add an official tuition source and at least one more sourced category
+  before publishing. A reviewed, sourced Costs category can supply the fifth
+  category. Do not invent a tuition amount, split an existing group to inflate
+  the count, or use the ILMERA summary as an extra category. Costs stays empty
+  until official evidence is obtained and approved.
+- [ ] Re-confirm the Hello Verify and VFS steps on the embassy pages above
+  before publishing and again before applying. Check verification and
+  transaction-number requirements, appointment booking, service points,
+  interview arrangements and application submission. Do not assume the
+  supplied workflow remains current.
+- [ ] Confirm the remaining supplied visa validity, residence-permit and
+  insurance/document statements against their exact sources, including the
+  intended applicant and route. Verify accurate item/page review dates.
+
+### Draft safeguards and release checklist for both pages
+
+Both pages remain draft, noindex and unlinked from live pages, sitemap.xml
+and LLM recommendations. Noindex is not access control; direct requests can
+render these drafts. The CSV remains an unchanged empty template and does
+not yet mirror either populated PHP record.
+
+Before any publication, resolve all source/process blockers and obtain
+explicit owner sign-off. Fill the reviewed CSV rows with aligned source/date
+fields, meet the five-category threshold and follow section 18's atomic
+release checklist: published PHP/CSV status, accurate sitemap entry and
+llms.txt recommendation in the same commit, with llms-full.txt consistent.
+Do not force links to drafts or bypass the existing guards.
+
+Technical validation passed: 78 PHP lints, 42 clean renders, exact preserved
+summary/provenance lines, all six source URLs, eight visible/schema FAQ pairs,
+draft aliases, no incoming links to drafts and exact/subdomain host-boundary
+checks. Isolated status-only published fixtures confirmed that Lithuania
+passes the technical gate while Latvia remains blocked at four categories;
+repository statuses were never changed. Twelve Chromium cases covered both
+pages at 375/768/1280px with JavaScript on/off, checking noindex, sources,
+all FAQs, conditional Costs sections, layout and mobile menus. External
+resources were blocked and no live source contents were checked. No test
+artifacts are committed. Native hosting headers, Apache rewrites and
+production rendering remain staging checks; no deployment was performed.
+
+
+## 24. Phase 9: Services university-dependent claims (OWNER VERIFICATION REQUIRED)
+
+The following current services.php claims need university-source verification
+or softer wording. This phase records the blockers; it does not certify or
+change these live claims:
+
+- [ ] "IELTS Not Mandatory" for Russia, Lithuania and Latvia. Requirements
+  depend on each university and programme. Verify with applicable university
+  sources or soften the wording so it does not imply a country-wide waiver.
+- [ ] "Lowest Tuition Fees" for Czech, Lithuania, Latvia and Russia. Fees
+  depend on the university and programme. Verify with university sources or
+  soften/remove the unsupported lowest-price comparison.
+- [ ] The FAQ "What is the cheapest country to study abroad?" names Czech
+  Republic, Lithuania, Latvia, Russia and Slovakia as among the most affordable
+  and describes Germany's public-university tuition. Verify the named-country
+  affordability and tuition claims with university sources or soften the
+  wording rather than treating a country ranking as a universal fee promise.
+  If the visible FAQ is revised, update its matching FAQPage answer too.
+
+These checks do not authorize publishing either destination draft. Existing
+Services content and its schema are unchanged and remain subject to review.

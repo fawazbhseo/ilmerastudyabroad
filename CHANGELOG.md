@@ -1,5 +1,56 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 9: Lithuania and Latvia drafts and source blockers, 2026-10-15
+
+Three tasks, one commit per task. Both pages remain draft. All nine
+destinations remain draft; four now contain supplied sourced content and
+five remain empty. These notes supersede historical empty-record counts
+and empty-Lithuania/Latvia descriptions below. Nothing was published.
+
+1. Replaced destinations/lithuania.php with the complete supplied content,
+   retaining its existing ilmera_summary and summary_provenance exactly.
+   Five sourced categories, three source URLs and four FAQs pass technical
+   source validation, but draft status continues to block publication.
+2. Replaced destinations/latvia.php with the complete supplied content,
+   retaining its existing ilmera_summary and summary_provenance exactly.
+   Costs remains intentionally empty. Four sourced categories, three source
+   URLs and four FAQs leave it below the five-category threshold, even in an
+   isolated published-flag test. No tuition amount or extra category was
+   invented to make it eligible.
+3. Added verification sections 22-24 with all three URLs for each destination
+   and explicit blockers: owner approval of the VILNIUS TECH university page,
+   not a government host; resolving its reported residence-permit/national-
+   visa conflict with the European Commission page using the Migration
+   Department page for India; omitted proof-of-funds and insurance minimums
+   because university sources gave different numbers; an official Latvia
+   tuition source and another sourced category; and re-confirming Hello
+   Verify/VFS steps on embassy pages. Also flagged Services' "IELTS Not
+   Mandatory", "Lowest Tuition Fees" and cheapest-country FAQ claims for
+   university-source verification or softer wording. services.php and its
+   matching schema remain unchanged, not newly verified.
+
+All supplied facts, source labels/URLs, host lists and 2026-10-15 metadata
+are retained. No live source content or supplied fact was independently
+verified; technical host acceptance is not editorial approval. Both pages
+stay noindex and unlinked from live pages, sitemap and LLM recommendations.
+Noindex is not access control. The CSV is unchanged and must be populated
+from reviewed content before release. Follow the existing atomic status/
+CSV/sitemap/LLM release checklist only after all blockers and owner sign-off.
+
+Validation: 78 PHP lints and 42 clean page renders; exact preserved summary/
+provenance; five/four-category gates; six exact source URLs; eight visible/
+schema FAQ pairs; draft aliases; no incoming links or discovery entries;
+and source-host boundary checks. Isolated status-only published fixtures
+confirmed Lithuania's eligibility and Latvia's continued four-category block
+without changing repo statuses. Twelve Chromium cases covered both pages at
+375/768/1280px with JavaScript on/off: noindex, sources, all FAQs, conditional
+Costs sections, layout and mobile menus. External resources were blocked.
+Other destination records, Services, shared helpers/header/footer, post/place
+statuses, Apache rules, sitemap, CSV and both LLM files are unchanged.
+Line endings are preserved and no em dashes were added. No test artifacts
+or deployment; native HTTP headers, Apache rewrites and production rendering
+still need staging validation.
+
 ## Phase 8: sourced Slovakia draft and publication blockers, 2026-10-15
 
 Two tasks, one commit per task. All nine destination statuses remain draft.
