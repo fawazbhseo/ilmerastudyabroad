@@ -390,10 +390,10 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </div>
     <div class="hero-div" id="hDiv"></div>
     <div class="hero-stats" id="hStats">
-                  <div class="hero-stat"><span class="stat-num" data-target="9" data-suffix="">0</span><span class="stat-lbl">Study Destinations</span></div>
-      <div class="hero-stat"><span class="stat-num" data-target="3" data-suffix="">0</span><span class="stat-lbl">Named Counsellors</span></div>
-      <div class="hero-stat"><span class="stat-num" data-target="4" data-suffix="">0</span><span class="stat-lbl">Languages Spoken</span></div>
-                  <div class="hero-stat"><span class="stat-num" data-target="2023" data-suffix="">0</span><span class="stat-lbl">Founded</span></div>
+                  <div class="hero-stat"><span class="stat-num" data-target="9" data-suffix="">9</span><span class="stat-lbl">Study Destinations</span></div>
+      <div class="hero-stat"><span class="stat-num" data-target="3" data-suffix="">3</span><span class="stat-lbl">Named Counsellors</span></div>
+      <div class="hero-stat"><span class="stat-num" data-target="4" data-suffix="">4</span><span class="stat-lbl">Languages Spoken</span></div>
+                  <div class="hero-stat"><span class="stat-num" data-target="2023" data-suffix="">2023</span><span class="stat-lbl">Founded</span></div>
 
     </div>
   </div>
@@ -849,13 +849,7 @@ if(window.gsap&&window.ScrollTrigger){
   tl.fromTo('#hSub',{opacity:0,y:25},{opacity:1,y:0,duration:.7,ease:'power2.out'},.85);
   tl.fromTo('#hBtns',{opacity:0,y:18},{opacity:1,y:0,duration:.6,ease:'power2.out'},1.2);
   tl.fromTo('#hDiv',{opacity:0},{opacity:1,duration:.4},1.55);
-  tl.fromTo('#hStats',{opacity:0,y:12},{opacity:1,y:0,duration:.6,ease:'power2.out',
-    onComplete:function(){
-      document.querySelectorAll('.stat-num').forEach(function(el){
-        var t=parseInt(el.getAttribute('data-target'),10);var s=el.getAttribute('data-suffix')||'';var st=null;
-        (function step(ts){if(!st)st=ts;var p=Math.min((ts-st)/1600,1),e=1-Math.pow(1-p,3);el.textContent=Math.floor(e*t)+s;if(p<1)requestAnimationFrame(step);else el.textContent=t+s;})(performance.now());
-      });
-    }},1.6);
+  tl.fromTo('#hStats',{opacity:0,y:12},{opacity:1,y:0,duration:.6,ease:'power2.out'},1.6);
 
   function rev(sel,from){gsap.utils.toArray(sel).forEach(function(el){gsap.fromTo(el,from,{opacity:1,x:0,y:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});});}
   rev('.reveal',{opacity:0,y:55});rev('.reveal-l',{opacity:0,x:-60});rev('.reveal-r',{opacity:0,x:60});

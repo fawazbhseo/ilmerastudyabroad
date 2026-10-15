@@ -600,11 +600,11 @@ img{max-width:100%;height:auto;}
 
       </div>
       <div class="stats-block">
-        <div class="stat-item"><span class="big-num cu" data-target="9" data-suffix="">0</span><span class="stat-desc">Study Destinations</span></div>
-                <div class="stat-item"><span class="big-num cu" data-target="3" data-suffix="">0</span><span class="stat-desc">Named Counsellors</span></div>
+        <div class="stat-item"><span class="big-num cu" data-target="9" data-suffix="">9</span><span class="stat-desc">Study Destinations</span></div>
+                <div class="stat-item"><span class="big-num cu" data-target="3" data-suffix="">3</span><span class="stat-desc">Named Counsellors</span></div>
 
-        <div class="stat-item"><span class="big-num cu" data-target="4" data-suffix="">0</span><span class="stat-desc">Languages Spoken</span></div>
-               <div class="stat-item"><span class="big-num cu" data-target="2023" data-suffix="">0</span><span class="stat-desc">Founded</span></div>
+        <div class="stat-item"><span class="big-num cu" data-target="4" data-suffix="">4</span><span class="stat-desc">Languages Spoken</span></div>
+               <div class="stat-item"><span class="big-num cu" data-target="2023" data-suffix="">2023</span><span class="stat-desc">Founded</span></div>
 
       </div>
     </div>
@@ -840,16 +840,13 @@ if(window.gsap&&window.ScrollTrigger){gsap.registerPlugin(ScrollTrigger);var tl=
 });
 </script>
 
-<!-- ═══ BODY ANIMATIONS (reveals, counters, tilt, magnetic) ═══ -->
+<!-- ═══ BODY ANIMATIONS (reveals, tilt, magnetic) ═══ -->
 <script>
 window.addEventListener('DOMContentLoaded',function(){
 (function(){
 'use strict';
 var prog=document.createElement('div');prog.id='scroll-progress';document.body.appendChild(prog);
 window.addEventListener('scroll',function(){var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;prog.style.width=Math.min(pct,100)+'%';},{passive:true});
-
-/* Count-up helper */
-window.ilCount=function(el){if(el.dataset.counted)return;el.dataset.counted='1';var t=parseInt(el.getAttribute('data-target'),10),s=el.getAttribute('data-suffix')||'',st=null;(function step(ts){if(!st)st=ts;var p=Math.min((ts-st)/1600,1),e=1-Math.pow(1-p,3);el.textContent=Math.floor(e*t)+s;if(p<1)requestAnimationFrame(step);else el.textContent=t+s;})(performance.now());};
 
 function reveal(els,cls,stagger){els.forEach(function(el){el.classList.add(cls);});var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(!e.isIntersecting)return;var idx=Array.prototype.indexOf.call(els,e.target);setTimeout(function(){e.target.classList.add('anim-visible');},stagger?idx%6*120:80);obs.unobserve(e.target);});},{threshold:.12,rootMargin:'0px 0px -50px 0px'});els.forEach(function(el){obs.observe(el);});}
 
@@ -858,7 +855,7 @@ if(window.gsap&&window.ScrollTrigger){
   gsap.utils.toArray('.sec-h2,.sec-label,.story-text h2').forEach(function(el){gsap.fromTo(el,{opacity:0,y:40},{opacity:1,y:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}});});
   var stx=document.querySelector('.story-text');if(stx)gsap.fromTo(stx,{opacity:0,x:-55},{opacity:1,x:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:stx,start:'top 85%',once:true}});
   var stb=document.querySelector('.stats-block');if(stb)gsap.fromTo(stb,{opacity:0,x:55},{opacity:1,x:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:stb,start:'top 85%',once:true}});
-  var si=gsap.utils.toArray('.stat-item');if(si.length)gsap.fromTo(si,{opacity:0,scale:.85},{opacity:1,scale:1,duration:.65,ease:'back.out(1.5)',stagger:.1,scrollTrigger:{trigger:si[0],start:'top 88%',once:true,onEnter:function(){si.forEach(function(item){var n=item.querySelector('.big-num[data-target]');if(n)window.ilCount(n);});}}});
+  var si=gsap.utils.toArray('.stat-item');if(si.length)gsap.fromTo(si,{opacity:0,scale:.85},{opacity:1,scale:1,duration:.65,ease:'back.out(1.5)',stagger:.1,scrollTrigger:{trigger:si[0],start:'top 88%',once:true}});
   var mc=gsap.utils.toArray('.mission-card');if(mc.length)gsap.fromTo(mc,{opacity:0,y:45},{opacity:1,y:0,duration:.75,ease:'power3.out',stagger:.2,scrollTrigger:{trigger:mc[0],start:'top 88%',once:true}});
   var vn=gsap.utils.toArray('.val-node');if(vn.length)gsap.fromTo(vn,{opacity:0,scale:0},{opacity:1,scale:1,duration:.55,ease:'back.out(2)',stagger:.13,scrollTrigger:{trigger:vn[0],start:'top 90%',once:true}});
   var tm=gsap.utils.toArray('.team-card');if(tm.length)gsap.fromTo(tm,{opacity:0,y:55},{opacity:1,y:0,duration:.7,ease:'power3.out',stagger:.16,scrollTrigger:{trigger:tm[0],start:'top 88%',once:true}});
@@ -868,7 +865,6 @@ if(window.gsap&&window.ScrollTrigger){
   reveal(Array.prototype.slice.call(document.querySelectorAll('.mission-card')),'anim-fade-up',true);
   reveal(Array.prototype.slice.call(document.querySelectorAll('.val-node')),'anim-scale-in',true);
   reveal(Array.prototype.slice.call(document.querySelectorAll('.team-card')),'anim-fade-up',true);
-  var nums=document.querySelectorAll('.big-num[data-target]');var no=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){window.ilCount(en.target);no.unobserve(en.target);}});},{threshold:.4});nums.forEach(function(n){no.observe(n);});
 }
 
 /* ── MAGNETIC BUTTONS (desktop) ── */
