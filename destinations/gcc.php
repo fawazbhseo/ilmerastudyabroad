@@ -1,6 +1,14 @@
 <?php
 $cgi = 'https://www.cgidubai.gov.in/page/student-advisory/';
 $cgiLabel = 'Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE';
+$qa = 'https://indianembassyqatar.gov.in/education_Advisory_students';
+$qaLabel = 'Embassy of India, Doha: Advisory for students arriving for university education in Qatar';
+$sa = 'https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia';
+$saLabel = 'Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia';
+$om = 'https://www.indemb-oman.gov.in/eoi.php?id=r-i';
+$omLabel = 'Embassy of India, Muscat: Registration of Indian students in Oman';
+$bh = 'https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf';
+$bhLabel = 'Embassy of India, Bahrain: Registration of Indian Nationals and Indian Students in Bahrain';
 $d = '2026-10-15';
 
 return [
@@ -14,7 +22,7 @@ return [
     'ilmera_summary' => 'Admissions guidance and student visa processing for GCC destinations.',
     'summary_provenance' => 'git:7dfac93:llms-full.txt section 4.9',
     'facts_last_checked' => $d,
-    'official_source_hosts' => ['cgidubai.gov.in'],
+    'official_source_hosts' => ['cgidubai.gov.in', 'indianembassyqatar.gov.in', 'eoiriyadh.gov.in', 'indemb-oman.gov.in', 'eoibahrain.gov.in'],
     'who_its_for' => [],
     'english_requirements' => [
         ['text' => 'In the UAE, most universities teach in English. The consulate says a minimum IELTS Academic band of 5.5 to 7.0, or an equivalent TOEFL score, is typically required depending on the programme and institution. Confirm the requirement with the institution.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
@@ -22,6 +30,7 @@ return [
     'costs' => [
         ['text' => 'The consulate advises students going to the UAE to plan for tuition fees, accommodation, health insurance, daily living costs, books and equipment, visa fees and an emergency fund, and to check tuition fees and refund policies on the institution website before committing.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'The consulate advises paying fees directly to the university official bank account rather than through third parties, and obtaining official receipts for every payment.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
+        ['text' => 'In Qatar, the Embassy of India in Doha notes that the cost of living is higher than in India and that accommodation is more expensive, and advises students to read about general living conditions before they go.', 'source_url' => $qa, 'source_label' => $qaLabel, 'checked_on' => $d],
     ],
     'scholarships' => [
         ['text' => 'The consulate states that scholarships for Indian students going to the UAE include institutional scholarships, Government of India scholarships and bilateral programmes, and encourages students to explore them before relying on self-funding.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
@@ -30,6 +39,7 @@ return [
         ['text' => 'In the UAE, the student residence visa is typically sponsored by the university or institution, or by a parent or relative who is a legal resident. It is valid for up to 12 months and must be renewed each year of the programme.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'The visa application is typically started by the sponsoring institution after admission, through the federal ICP portal or through the General Directorate of Residency and Foreigners Affairs (GDRFA) of the relevant emirate.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'On arrival, applicants above 18 must pass a mandatory medical fitness test at a government-approved centre, which includes a chest X-ray and blood tests. The visa is issued only after passing, and students then apply for an Emirates ID with biometric registration.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
+        ['text' => 'In Qatar, international students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa. The embassy page does not list the steps, so confirm them with the institution.', 'source_url' => $qa, 'source_label' => $qaLabel, 'checked_on' => $d],
     ],
     'intakes' => [
         ['text' => 'UAE universities typically have two main intakes, September and January or February, and some institutions also offer a summer intake. The academic year is generally two semesters of about 16 to 18 weeks, and some universities use trimesters.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
@@ -38,10 +48,12 @@ return [
         ['text' => 'The consulate lists these documents for the UAE: a passport valid for at least 6 months beyond the programme start date with two blank pages, the student entry permit or visa, the official admission or offer letter, proof of tuition payment, accommodation confirmation, and proof of financial sufficiency such as bank statements or scholarship letters.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'Health insurance is mandatory in the UAE. Students on a sponsored university visa need valid cover from arrival, and short-term travel insurance is not accepted for residency. A long-term policy from a UAE-approved insurer is required, and many universities arrange group cover.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'Indian academic documents may need attestation in a set sequence for the UAE, and the consulate notes that the UAE separately requires its own foreign ministry attestation for most official purposes. Check the requirement with the institution and use only government-authorised providers.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
+        ['text' => 'For Saudi Arabia, the Embassy of India in Riyadh lists a confirmed place for the study programme at a recognised educational institution or university, and other documents required by the Saudi mission in India. Confirm the full list with the Saudi mission.', 'source_url' => $sa, 'source_label' => $saLabel, 'checked_on' => $d],
     ],
     'work_and_stay' => [
         ['text' => 'In the UAE, students aged 18 and above may work part-time only with prior written permission from the sponsoring university and a work permit from the Ministry of Human Resources and Emiratisation. Part-time work is generally up to about 15 hours a week or 60 hours a month, though this may vary. Working without a permit can lead to visa cancellation and deportation.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['text' => 'The consulate says recent graduates of universities ranked in the global top 500, as recognised by the UAE Ministry of Education, can apply for a Job Seeker Visa of 60 to 120 days with a financial guarantee. Outstanding graduates may qualify for a 10-year Golden Visa, with a minimum GPA of 3.5 to 3.8 or equivalent and graduation within two years.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
+        ['text' => 'The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia.', 'source_url' => $sa, 'source_label' => $saLabel, 'checked_on' => $d],
     ],
     'faqs' => [
         ['question' => 'Who sponsors the UAE student visa for Indian students?', 'answer' => 'Typically the university or institution, or a parent or relative who is a legal resident of the UAE. The application is usually started by the institution after admission.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
@@ -49,5 +61,11 @@ return [
         ['question' => 'Can Indian students work part-time in the UAE?', 'answer' => 'Only with written permission from the university and a work permit from the UAE labour ministry. Hours are generally limited to about 15 a week, and working without a permit can lead to visa cancellation.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['question' => 'Is health insurance required for students in the UAE?', 'answer' => 'Yes. Students on a sponsored university visa need valid health insurance from arrival, and a long-term policy from a UAE-approved insurer is required. Travel insurance is not accepted.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
         ['question' => 'Should students use an agent to apply to UAE universities?', 'answer' => 'The consulate advises applying directly to the institution wherever possible. If an agent is used, it should be authorised by the institution, and students should avoid anyone who promises guaranteed visas or jobs.', 'source_url' => $cgi, 'source_label' => $cgiLabel, 'checked_on' => $d],
+        ['question' => 'Do Indian students need a student visa to study in Qatar?', 'answer' => 'Students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa, according to the Embassy of India in Doha.', 'source_url' => $qa, 'source_label' => $qaLabel, 'checked_on' => $d],
+        ['question' => 'Can Indian students work in Saudi Arabia on a student visa?', 'answer' => 'No. The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia.', 'source_url' => $sa, 'source_label' => $saLabel, 'checked_on' => $d],
+        ['question' => 'Should Indian students register with the Indian embassy in Qatar?', 'answer' => 'The Embassy of India in Doha advises students to register with it and to stay in touch with the embassy and Indian community organisations for advice or help.', 'source_url' => $qa, 'source_label' => $qaLabel, 'checked_on' => $d],
+        ['question' => 'Should Indian students register with the Indian embassy in Saudi Arabia?', 'answer' => 'The Embassy of India in Riyadh advises students to register with it by filling in the registration form on its website.', 'source_url' => $sa, 'source_label' => $saLabel, 'checked_on' => $d],
+        ['question' => 'Should Indian students register with the Indian embassy in Oman?', 'answer' => 'The Embassy of India in Muscat encourages Indian students in Oman, particularly those pursuing higher studies, to register on the MADAD portal of the Ministry of External Affairs. Students doing a graduation or post-graduation may also fill in the embassy form and email it to the embassy education contact.', 'source_url' => $om, 'source_label' => $omLabel, 'checked_on' => $d],
+        ['question' => 'Should Indian students register with the Indian embassy in Bahrain?', 'answer' => 'The Embassy of India in Bahrain asks students who hold an Indian passport to register on the Global Pravasi Rishta Portal of the Government of India.', 'source_url' => $bh, 'source_label' => $bhLabel, 'checked_on' => $d],
     ],
 ];
