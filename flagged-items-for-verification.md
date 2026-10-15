@@ -15,18 +15,18 @@ brand polish.
   both purposes.
 - The header no longer references a separate "light theme" logo variant,
   because the light/dark theme toggle itself has been removed from the site
-  (see item 4 below) — there is now only one visual theme, so only one logo
+  (see item 4 below) : there is now only one visual theme, so only one logo
   file is needed.
 
 ## 2. Team photo filenames (RESOLVED)
 - Standardized across the whole site to exactly:
   - `assets/images/ilmera.logo.png` (logo)
   - `assets/images/jabirkj.png` (Jabir KJ, Founder)
-  - `assets/images/zaheer.png` (Zaheer KJ, CFO — lowercase "z")
+  - `assets/images/zaheer.png` (Zaheer KJ, CFO : lowercase "z")
   - `assets/images/fawazbh.webp` (Fawaz BH, CMO)
 - **Action needed:** confirm these four files exist at these exact paths
   (case-sensitive) on the live server. `zaheer.png` was previously
-  referenced inconsistently as `Zaheer.png` (capital Z) in some places —
+  referenced inconsistently as `Zaheer.png` (capital Z) in some places :
   if the live server's filesystem is case-sensitive (most Linux hosts are),
   only one of those casings will actually work.
 
@@ -62,7 +62,7 @@ brand polish.
   source of truth and the one referenced in `robots.txt`.
 - **Action needed:** none, unless the site owner specifically wants
   `sitemap.php` to generate its own independent XML instead of redirecting
-  — in that case, say so and the redirect can be replaced with a PHP-
+  : in that case, say so and the redirect can be replaced with a PHP-
   generated sitemap (a version of this was drafted and is easy to restore).
 
 ## 6. Destination/eligibility facts to confirm against current official sources
@@ -79,14 +79,14 @@ for compliance-sensitive claims:
   and are intentionally not quoted as fixed numbers, but should be confirmed
   each admissions cycle.
 - Germany: "public universities charge little to no tuition" and the APS
-  certificate being "mandatory for Indian applicants since 2022" — confirm
+  certificate being "mandatory for Indian applicants since 2022" : confirm
   current APS requirement status and any tuition changes in the state(s)
   ILMERA actually places students in.
 - Czech Republic / Lithuania / Latvia / Slovakia: described qualitatively as
   "low-cost" / "some tuition-free programmes" without specific fee figures.
   If specific fee ranges are added later, they must be sourced and dated.
 - GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman): described as hosting
-  "international branch campuses of UK, US and Australian universities" —
+  "international branch campuses of UK, US and Australian universities" :
   true in general but should be confirmed for whichever specific campuses
   ILMERA actually works with.
 
@@ -138,7 +138,7 @@ outside the scope of a one-time static-site rewrite.
   linking to detail pages that did not exist.
 - A `blog_posts` table was also created via the Table API (schema + 4 rows)
   early in this work, before the static-page approach was finalized. **This
-  table is currently unused** — no page reads from it. It can be deleted if
+  table is currently unused** : no page reads from it. It can be deleted if
   the site owner does not plan to move the blog to a dynamic/database-backed
   model later, or kept as a head start if they do. Flagging so it is not
   mistaken for live content.
@@ -161,7 +161,7 @@ outside the scope of a one-time static-site rewrite.
 - `llms-full.txt`'s leadership section previously stated that "Founder" was
   an informal, non-authoritative variant of Jabir KJ's title; that sentence
   was rewritten since Founder is now his standardized, authoritative title.
-- **Action needed:** none — this is complete. Confirm no other internal
+- **Action needed:** none : this is complete. Confirm no other internal
   documents or external listings (e.g. Google Business Profile, LinkedIn
   company page) still list Jabir KJ as "CEO".
 
@@ -187,3 +187,180 @@ outside the scope of a one-time static-site rewrite.
   `/blog/{slug}` article URLs load correctly (not just that they no longer
   404, but that they render the full page, since a clean console/absence of
   a 404 does not by itself confirm correct rendering).
+
+
+## 13. Phase 1: unpublished draft claim inventory (OWNER VERIFICATION REQUIRED)
+
+The following three posts are not live yet per the owner. They retain
+`noindex, follow` and are not shown on the four-card listing. There are now
+7 article files under `blog/`; all 7 URLs are in the sitemap per the repair
+request. Being present in the sitemap does not verify these drafts. Resolve
+publication/indexing policy before release, and verify every item below
+against the relevant university, scholarship body, consulate or immigration
+source. Record source URL, applicable intake/date, exceptions and owner sign-off.
+No current official-source verification was performed in this repair.
+
+### A. `blog/cost-of-studying-abroad-for-indian-students.php`
+
+**Cost figures and cost comparisons (including zero/free claims):**
+There are no numeric currency amounts or fee ranges in this draft. Its
+amount claims are qualitative, including zero tuition and a free consultation:
+
+- Czech Republic, Lithuania, Latvia, Slovakia and Russia are described as
+  usually the cheapest destinations for Indian students.
+- German public universities: little to no tuition regardless of nationality;
+  zero tuition at most public universities; semester contributions apply.
+  Most public universities charge no tuition for consecutive degrees, but
+  a few states levy fees in specific cases. Living costs are called moderate.
+- Italy: public universities charge tuition; regional DSU can cover tuition
+  and add a stipend, subsidised accommodation and meals. Living costs are
+  moderate and lower in smaller cities. DSU is said to make Italy cheaper
+  than its sticker price for many families.
+- Czech Republic: among the lowest EU tuition levels; low-to-moderate living
+  costs. Lithuania: low tuition and some of the lowest EU living costs;
+  living costs labelled low. Latvia: low tuition and low living costs.
+- Slovakia: free tuition in some Slovak-language branches; English programmes
+  are paid; low living costs. The free route is said to require a preparatory
+  language-learning year.
+- Russia: low tuition and low living costs.
+- UK: substantial tuition, high living costs especially in London; a one-year
+  Master's is said to shorten total cost.
+- GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman): fees vary by university
+  and branch campus; moderate-to-high living costs in Dubai/Qatar.
+- Germany and Italy are said to genuinely approach zero tuition. This
+  statement needs reconciling with the separate Slovakia free-tuition claim.
+- Budget components: tuition/semester contribution; rent, food, transport,
+  insurance; visa funds; application fees, APS certificate, document
+  legalisation, flights and initial settlement money. City/programme
+  differences, later-year tuition changes and scholarship renewal credits
+  affect the total; a full first-year budget is recommended.
+- The consultation and profile-matched country cost breakdown are described
+  as free and carrying no commitment, before applications are filed.
+
+**Document requirements, scholarship support and visa/work claims:**
+
+- Most countries supposedly require proof of funds for at least the first
+  year; Germany requires a blocked account with a government-set minimum
+  that changes periodically. No minimum amount is quoted.
+- APS certificate is presented as an India-specific Germany requirement
+  and a one-off cost; document legalisation is included in the cost chain.
+- DSU assessment: mainly family income (ISEE) and merit; amounts are set
+  regionally and revised periodically. No numeric stipend, threshold or
+  scholarship award amount is quoted. Some scholarships require credit
+  thresholds for renewal.
+- Russia: no IELTS and backlogs accepted at many universities. Latvia:
+  flexible entry. Profile-matched routes are described for students with
+  backlogs, low marks or no IELTS. These are eligibility claims to verify.
+- Slovak-language free tuition requires a language preparatory year.
+- Part-time work rules and work-hour limits differ by country and affect
+  budgets; no specific limit or right to work is quoted.
+
+### B. `blog/documents-needed-to-study-abroad-from-india.php`
+
+**Cost figures and scholarship amounts:** no numeric monetary amounts,
+fee ranges or scholarship award amounts are quoted. Document review and
+first consultation are described as free; verify the service scope.
+
+**Every core document requirement asserted for all destinations:**
+
+- Valid passport: enough blank pages and validity to cover course duration;
+  renew first if it expires soon.
+- Academic records: 10th and 12th marksheets; degree certificates and
+  transcripts for Master's applicants; backlog-clearing documents.
+- University offer/admission letter.
+- Funds evidence: bank statements, loan approval or sponsor letter under
+  destination rules; Germany uses a blocked account and other destinations
+  use their own formats.
+- Language evidence: IELTS/TOEFL where required, Medium-of-Instruction
+  letter, internal test, or German/Italian proficiency for local-medium study.
+- Passport photographs meeting destination specifications; sizes differ.
+- Statement of Purpose and references where the university asks.
+- Destination-valid health insurance, arranged before or at arrival
+  depending on country.
+
+**Every country-specific document, scholarship and visa claim:**
+
+- Germany: APS certificate for Indian applicants, blocked account
+  (Sperrkonto) confirmation, German/English proficiency per programme.
+- Italy: pre-enrolment on the university portal; ISEE income declaration for
+  DSU; translated and legalised academic documents; CIMEA or equivalent
+  statements where asked. No DSU amount is given.
+- UK: CAS letter, TB test certificate where required and English proficiency
+  per course. The Graduate visa is stated as **2 years** for applications
+  on or before **31 December 2026**, and **18 months** from **1 January 2027**,
+  attributed to gov.uk. Verify the official rule, eligibility and exceptions
+  before publication; this repair does not validate those dates or durations.
+- Russia: invitation letter issued through the university, HIV test
+  certificate and recognised medical insurance.
+- Czech Republic, Lithuania, Latvia, Slovakia: apostilled or superlegalised
+  documents per consulate, accommodation confirmation, entry-period travel
+  insurance. Verify each country separately rather than assuming one rule.
+- GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman): university-specific
+  admission documents and sponsor/guardian documents where required;
+  requirements vary by country and institution.
+- Legalisation/apostille steps are said to depend on each consulate; visa
+  amounts and document validity periods vary by destination and intake.
+- Sequencing advice: start passport and APS/verification first because they
+  are said to be slowest and block later work; collect and legalise academics
+  in parallel; file DSU/scholarship documents as the window opens because
+  income documents take weeks; assemble the visa file and book an appointment
+  only after the offer letter arrives. Verify these instructions against
+  the actual application/appointment rules.
+- Consulates in Bengaluru and Chennai are said to have seasonal queues;
+  verify jurisdiction and appointment arrangements for each destination.
+- CFO Zaheer KJ is described as handling transcript/marksheet verification,
+  APS submissions, filing and visa appointment scheduling against intake
+  deadlines; owner should confirm the actual scope and workflow.
+
+### C. `blog/scholarships-for-indian-students-study-abroad.php`
+
+**Cost figures and scholarship amounts:** no numeric currency amounts,
+award ranges or income/credit thresholds are quoted. All qualitative
+funding and eligibility claims still need verification:
+
+- Italy DSU: income-based regional student-welfare support, tuition relief,
+  an annual stipend, subsidised accommodation and meal services. Assessment
+  is family income (ISEE/ISEE parificato) and merit credits; described as
+  suited to middle-income families and architecture, arts and engineering.
+- DSU income thresholds and stipends vary regionally (Lombardy and Sicily
+  are examples); scholarship amounts, deadlines and eligibility thresholds
+  change each cycle. No fixed amount is supplied.
+- German public universities: tuition-free route rather than a scholarship;
+  most public universities charge no tuition for consecutive degrees,
+  only a semester contribution; admission requirements depend on programme.
+  Described as one of the cheapest total-cost destinations without an award.
+- University merit awards: fee waivers or partial awards at intake, based
+  on academics and sometimes interview/portfolio; described as suitable
+  for strong academics in any destination.
+- UK Chevening, Commonwealth and other government schemes: fully or largely
+  funded study for eligible candidates, direct applications to the scheme;
+  assessed on academics, leadership and scheme-specific criteria, described
+  as fitting applicants with work or community records. Verify each scheme
+  and its current eligible courses and benefits separately.
+- Partial awards at expensive destinations may leave a higher total cost
+  than tuition-free destinations without awards. Many awards require
+  credits to renew; DSU renewal depends on required credits.
+- DSU and government-scheme windows are said to close months before intake,
+  with late applications rejected. Check each scheme's actual dates/rules.
+- ILMERA's scholarship eligibility check is described as free, with no
+  promise of an award. Owner should confirm the service scope.
+
+**Document requirements and visa claims:**
+
+- International DSU applicants file an equivalent ISEE declaration through
+  the regional body with translated and legalised documents; confirm the
+  actual regional process and required documents.
+- Germany: visa proof of living funds through a blocked account; APS
+  certificate described as the India-specific entry gate. No minimum
+  blocked-account amount is quoted.
+- University awards may require an interview or portfolio; government
+  schemes have scheme-specific academic/leadership criteria.
+- Founder Jabir KJ is said to be studying at the University of Rome Tor
+  Vergata and to have personally completed DSU/proof-of-funds work; owner
+  should verify the personal-experience assertion before relying on it.
+
+**Editorial release checks for all three drafts:** meta/JSON-LD/byline claims
+that the posts are updated or reviewed in October 2026 are not evidence of
+verification. The source comments still refer to a non-existent
+`TODO_FOR_OWNER.md`; use this inventory for sign-off. Retained `noindex`
+while repairing paths does not restrict direct access to deployed PHP files.

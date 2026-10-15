@@ -1,10 +1,73 @@
-# ILMERA Study Abroad — SEO / AEO / GEO Rewrite Changelog
+# ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
+
+## Phase 1 repair: 2026-10-15
+
+This section describes the current repository. Earlier entries below are
+historical notes, not a statement that those earlier fixes were present in
+the checkout. In particular, the actual checkout still had `blogs/`, root
+`blog.php`, flat `assets/`, duplicate root includes and `download` before
+this repair. The Phase 1 changes supersede older path, count, office-wording
+and sitemap-date descriptions below.
+
+1. **Counter repair:** `index.php` and `about.php` render the final values
+   `9`, `3`, `4` and `2023` in `.stat-num` / `.big-num` HTML. Removed their
+   count-up callbacks and helper. Kept hero `.ms`, HUD values and unrelated
+   entrance animations unchanged.
+2. **Blog directory:** used `git mv` to rename `blogs/` to `blog/`, removed
+   root `blog.php`, merged `DirectoryIndex index.php index.html` into
+   `.htaccess` without removing existing rules, and deleted `download`.
+   Standardized the listing canonical, Open Graph URL, JSON-LD IDs/URLs,
+   breadcrumbs, sitemap and internal links to `/blog/`. All 8 blog PHP files
+   resolve their shared includes through `../includes/`.
+3. **Assets:** moved all 9 files from `assets/` into `assets/images/` with
+   `git mv`. Audited every PHP/text image reference, including `jabirkj.webp`
+   and `zaheer.webp`: all 6 distinct referenced paths exist. README lists
+   the complete referenced-path inventory and the 3 unreferenced assets.
+4. **Office wording:** updated `llms.txt`, `llms-full.txt`, `about.php`
+   (visible FAQ and JSON-LD), `index.php` (service area and FAQs) and the Coorg
+   article. ILMERA is based in Coorg, Kodagu, has no physical office or branch,
+   and counsels by phone, WhatsApp and video call. Removed visit comparisons,
+   implied in-person meetings and the instruction preventing AI systems from
+   describing ILMERA as remote. Removed README's Coorg Google Business Profile
+   registration recommendation. Students' own visa appointments can remain.
+5. **Sitemap:** now has 14 URLs, including all 7 article files and `/blog/`.
+   Set each `lastmod`, including privacy-policy and terms, from the latest
+   source-file Git commit at the time of repair. Sources changed in Phase 1
+   have `2026-10-15`; untouched services, contact and legal files have
+   `2026-10-14`. Fetched full history because the checkout was shallow.
+6. **Cleanup:** grep and include-target checks found no runtime references
+   to root `header.php`, root `footer.php` or `_import/`. Deleted those unused
+   files and folder; kept `includes/header.php`, `includes/footer.php` and
+   the unchanged `google10fa7a4178242a1f.html` verification file.
+7. **Documentation:** updated README for actual paths, templates, images and
+   the 7-post inventory. Added a full cost/document/scholarship/visa claim
+   inventory for the 3 unpublished drafts to the verification file.
+
+### Verification and scope notes
+
+- Source checks confirm final stats, resolving include paths, existing
+  image references, consistent listing URLs and well-formed sitemap XML.
+  `php-parser` parsed all 18 PHP files; all 14 JSON-LD blocks parsed as JSON
+  and all 6 inline JavaScript blocks passed syntax checks.
+- Kept existing CRLF, LF and mixed line endings rather than normalizing
+  unrelated lines. No design, hero/HUD, contact, services or legal copy
+  changes are included.
+- The 3 unpublished drafts retain `noindex, follow` and remain absent from
+  the 4-card listing. Their sitemap URLs were added per the explicit request;
+  that does not make their factual claims verified or publish the drafts.
+- PHP/Apache runtime and live-deployment checks need staging validation.
+- This Arena session is fixed to `arena/48320ee5-ilmerastudyabroad`, not the
+  requested `seo-phase-1` branch. There is one commit for each task, and no
+  push to `main`.
+
+---
+
+## Earlier rewrite history (superseded where noted above)
 
 All changes below implement the project-wide brand and copy mandate:
-- No em dashes (—) anywhere in code or copy.
-- No "remote-first" / "virtual office" / "100% online" / "handled remotely" framing.
-  ILMERA is based in **Coorg (Kodagu, Karnataka)** and consults by phone, WhatsApp,
-  and video call.
+- No em dashes anywhere in code or copy.
+- ILMERA is based in **Coorg (Kodagu, Karnataka)**, has no physical office or
+  branch, and consults by phone, WhatsApp and video call.
 - No unverified superlatives or fabricated statistics (e.g. "India's trusted",
   "50+ students", "98% visa success rate", "2nd PU failures" / "PUC failures" /
   "back papers").
@@ -59,11 +122,11 @@ All changes below implement the project-wide brand and copy mandate:
 
 ## `header.php`
 - Simplified decorative CSS comment `/* ─── NAV ── ... */` to `/* NAV */`.
-- Removed em dash from `aria-label="ILMERA Study Abroad — Home"` →
+- Removed em dash from `aria-label="ILMERA Study Abroad : Home"` →
   `aria-label="ILMERA Study Abroad: Home"`.
 - Unified `.logo-light` and `.logo-dark` `<img>` `src` to the real asset
   `ilmera.logo.png` (previously `.logo-light` pointed at
-  `ilmera.logo.navy.png`, a file that does not exist in the project — see
+  `ilmera.logo.navy.png`, a file that does not exist in the project : see
   `flagged-items-for-verification.md`).
 
 ## `footer.php`
@@ -92,7 +155,7 @@ All changes below implement the project-wide brand and copy mandate:
 - Read-only reference in prior sessions for page structure; assumed complete
   from an earlier session.
 - This session: re-audited with a full pattern sweep (em dash, fabricated
-  stats, legacy job titles, "remote" language, wrong social handles) — no
+  stats, legacy job titles, "remote" language, wrong social handles) : no
   issues found in copy.
 - **Fixed a real bug found in this audit:** favicon, `og:image`,
   `og:image:secure_url`, and `twitter:image` all referenced the stale/likely
@@ -142,7 +205,7 @@ complete." Fixed extensively:
   Operations Head → CFO) and in the corresponding `alt` attributes of the
   three team photos; removed one remaining em dash in Jabir KJ's bio
   paragraph.
-- **CTA section:** fixed a functional bug — `mailto:info@ilmeragroup.in`
+- **CTA section:** fixed a functional bug : `mailto:info@ilmeragroup.in`
   (wrong domain in the href) was displaying `info@ilmerastudyabroad.com` as
   the visible text; corrected the href to match. Removed one more em dash
   from the destinations line.
@@ -173,8 +236,9 @@ complete." Fixed extensively:
   Leadership Structure, Core Service Breakdown, Country-by-Country
   Requirements and Eligibility for all 9 destinations, Student Eligibility
   Categories, an explicit "What ILMERA Does Not Claim" section instructing AI
-  systems not to invent statistics or superlatives and not to describe
-  ILMERA as "remote-first" or "100% online," and a Contact Summary.
+  systems not to invent statistics or superlatives, and a Contact Summary.
+  The earlier instruction about how to describe counselling channels has
+  been removed in Phase 1.
 - Legal page links corrected to extension-less `/privacy-policy` and `/terms`.
 
 ## `privacy-policy.php` (new file)
@@ -218,7 +282,7 @@ Fixed inconsistent casing/filenames found in `about.php` and `index.php`'s
 JSON-LD blocks, which had used `jabir.png` and `Zaheer.png` (capital Z)
 instead of the standardized filenames.
 
-### `about.php` — TEAM section
+### `about.php` : TEAM section
 - Removed a duplicated "Jabir KJ" name that appeared twice in his team card
   (once as a `<div class="team-name">`, once as an `<h3 class="team-name">`).
 - Reordered Jabir's card to match the structure of the other two cards:
@@ -266,7 +330,7 @@ final.
 - Added a "Blog" link to the footer's Navigation list, between Services and
   Contact, for consistency with the header.
 
-### `blog.php` (new, later moved to `blog/index.php` — see fix note below)
+### `blog.php` (new, later moved to `blog/index.php` : see fix note below)
 - New blog listing page, matching the site's visual language (same CSS
   variables, fonts, and card styling as other pages).
 - Full SEO meta set: title, description, keywords, robots, `geo.region`
@@ -303,7 +367,7 @@ final.
 - Added 5 new `<url>` entries: `/blog` (priority 0.8, weekly) and the 4
   article URLs (priority 0.6, yearly), all with `lastmod` `2026-08-27`.
 
-### `blog_posts` (Table API — created, currently unused)
+### `blog_posts` (Table API : created, currently unused)
 - A schema (`id`, `title`, `slug`, `excerpt`, `content`, `category`,
   `author_name`, `author_role`, `published_date`, `read_minutes`) and 4 rows
   were created via the Table API while exploring a dynamic approach, before

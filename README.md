@@ -1,158 +1,108 @@
-# ILMERA Study Abroad — Site Source & SEO/AEO/GEO Rewrite
+# ILMERA Study Abroad: Site Source
 
-Static-hosted PHP marketing site for **ILMERA Study Abroad**, a study-abroad
-consultancy based in Coorg (Kodagu, Karnataka) that guides Indian students
-to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia,
-Slovakia, Russia, and the GCC.
+Plain PHP marketing site served by Apache for ILMERA Study Abroad, based in
+Coorg, Kodagu, Karnataka. ILMERA has no physical office or branch anywhere.
+The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp
+and video call.
 
-This repo has gone through a full-site SEO (Search Engine Optimization), AEO
-(Answer Engine Optimization), and GEO (Generative Engine Optimization) audit
-and rewrite. See `CHANGELOG.md` for the complete list of edits and
-`flagged-items-for-verification.md` for open items the site owner should
-confirm.
+## Structure and routes
 
-## 1. Currently completed features
+There is no build step, CMS or database dependency in this repository.
+Page content is maintained directly in PHP, text and XML files.
 
-- **Clean, consistent brand copy** across every page: no em dashes, no
-  fabricated statistics or unverifiable superlatives, no "remote-first" /
-  "100% online" framing. ILMERA is consistently framed as based in Coorg
-  (Kodagu, Karnataka), reachable by phone, WhatsApp, and video call.
-- **Standardized leadership titles**: Jabir KJ (Founder), Fawaz BH (CMO),
-  Zaheer KJ (CFO) — applied in both visible HTML and JSON-LD structured data.
-- **All blog article authors standardized to Fawaz BH (CMO)**, so every
-  article under `/blog` credits the same, correctly titled author.
-- **Standardized contact details**: Primary `+91 90195 57427`, Secondary
-  `+91 94810 84038`, correct Instagram handle `ilmera.studyabroad`, correct
-  Facebook/LinkedIn handle `ilmerastudyabroad`.
-- **Standardized brand asset path**: `assets/images/ilmera.logo.png` used
-  consistently for the logo, favicon, and Open Graph / Twitter Card images
-  across all six pages.
-- **Structured data (JSON-LD)** on every page: `EducationalOrganization` /
-  `ProfessionalService`, `WebSite`, `WebPage`, `ContactPage`, `AboutPage`,
-  `BreadcrumbList`, `FAQPage`, `Person` (leadership), `Service`, and
-  `Organization` with `contactPoint`, `address`, and `sameAs` all present and
-  consistent.
-- **Clean, extension-less URLs** enforced via `.htaccess` mod_rewrite
-  (`/about`, `/services`, `/contact`, `/privacy-policy`, `/terms` instead of
-  `.php`-suffixed paths), matched consistently across `sitemap.xml`, internal
-  links, canonical tags, and JSON-LD `@id`/URL fields.
-- **AI-crawler access and context files**: `robots.txt` explicitly allows the
-  major AI/LLM crawlers (GPTBot, OAI-SearchBot, ChatGPT-User, PerplexityBot,
-  Google-Extended, ClaudeBot, Applebot-Extended, etc.); `llms.txt` and the new
-  `llms-full.txt` give AI answer engines a structured, accurate summary of
-  the company, leadership, services, destinations, and an explicit
-  instruction not to invent statistics or "remote-first" language about
-  ILMERA.
-- **Two new legal pages**: `/privacy-policy` and `/terms`, matching the
-  site's visual language, with JSON-LD `WebPage` + `BreadcrumbList` schema.
-- **Local SEO/GEO consistency**: `geo.region` / `geo.placename` meta tags
-  corrected to the precise `IN-KA` / "Coorg, Karnataka, India" on every page
-  (previously inconsistent — some pages used a generic "India" tag).
-- **System cleanup**: `htaccess` renamed to `.htaccess` so its rewrite rules
-  actually apply; scratch `_import/tree.json` removed.
-- **Simplified navigation**: removed the light/dark theme toggle button from
-  the header (site now uses one consistent visual theme).
-- **Standardized brand image paths** site-wide: `ilmera.logo.png` (logo),
-  `jabirkj.png` (Jabir KJ), `zaheer.png` (Zaheer KJ), `fawazbh.webp`
-  (Fawaz BH) — fixed inconsistent filenames/casing that existed in some
-  JSON-LD blocks.
-- **Cleaned up the About page team cards**: removed a duplicated name in
-  Jabir KJ's card, unified all three cards to the same structure, and
-  rebalanced bio lengths so all three read as similar length.
-- **Added `sitemap.php`**, which redirects to the canonical `sitemap.xml`
-  (kept as the single source of truth to avoid duplicate-content risk).
-- **Added a Blog section**: a new `/blog` listing page plus 4 static article
-  pages under `/blog/{slug}`, linked from both the header and footer
-  navigation, with full SEO meta tags and `Blog`/`BlogPosting`/`BreadcrumbList`
-  JSON-LD on every blog page. See section 2 for the full path list.
+| URL | Source file |
+|---|---|
+| `/` | `index.php` |
+| `/services` | `services.php` |
+| `/about` | `about.php` |
+| `/contact` | `contact.php` |
+| `/privacy-policy` | `privacy-policy.php` |
+| `/terms` | `terms.php` |
+| `/blog/` | `blog/index.php` |
+| `/blog/study-in-germany-free-aps-certificate` | `blog/study-in-germany-free-aps-certificate.php` |
+| `/blog/italy-dsu-scholarship-eligibility` | `blog/italy-dsu-scholarship-eligibility.php` |
+| `/blog/study-abroad-with-academic-backlogs` | `blog/study-abroad-with-academic-backlogs.php` |
+| `/blog/study-abroad-counselling-from-coorg` | `blog/study-abroad-counselling-from-coorg.php` |
+| `/blog/cost-of-studying-abroad-for-indian-students` | `blog/cost-of-studying-abroad-for-indian-students.php` |
+| `/blog/documents-needed-to-study-abroad-from-india` | `blog/documents-needed-to-study-abroad-from-india.php` |
+| `/blog/scholarships-for-indian-students-study-abroad` | `blog/scholarships-for-indian-students-study-abroad.php` |
+| `/sitemap.xml` | `sitemap.xml` |
+| `/robots.txt` | `robots.txt` |
+| `/llms.txt` | `llms.txt` |
+| `/llms-full.txt` | `llms-full.txt` |
 
-## 2. Functional entry points (paths)
+- There are **7 article files** in `blog/`, plus the listing `blog/index.php`.
+  The listing currently shows the original 4 articles. The cost, documents
+  and scholarships drafts are not live yet per the owner and retain
+  `noindex, follow`. This repair does not publish them or add listing cards.
+  All 7 article URLs are included in the sitemap as explicitly requested;
+  review the draft sitemap entries before publication if they remain held.
+- `.htaccess` requires Apache `mod_rewrite` and permission to apply these
+  directory overrides. It preserves the existing PHP-to-extensionless
+  redirect and internal rewrite rules and sets
+  `DirectoryIndex index.php index.html`.
+- Apache redirects `/blog` to `/blog/` on the live server. The listing's
+  canonical, Open Graph, JSON-LD, breadcrumbs, sitemap and internal links
+  use `/blog/`. Article URLs remain extensionless, without a trailing slash.
+- Shared templates are `includes/header.php` and `includes/footer.php`.
+  Root pages include them using `__DIR__ . '/includes/...'`; blog pages
+  use `__DIR__ . '/../includes/...'`.
+- All 9 image files are in `assets/images/`. There are no files directly
+  inside `assets/` and no `blogs/` directory or root `blog.php`.
+- Unused root `header.php`, `footer.php`, `download` and `_import/` were
+  removed. `google10fa7a4178242a1f.html` remains unchanged.
+- `sitemap.php` redirects to `sitemap.xml`, the sitemap referenced by
+  `robots.txt`. Its 14 entries cover 6 main/legal pages, the blog listing
+  and 7 articles. `lastmod` dates are taken from the latest Git commit
+  affecting each source file at the sitemap repair commit, not the article
+  bylines or filesystem timestamps.
 
-| Path | File | Purpose |
-|---|---|---|
-| `/` | `index.php` | Home page |
-| `/services` | `services.php` | Services detail page |
-| `/about` | `about.php` | About / leadership page |
-| `/contact` | `contact.php` | Contact page |
-| `/privacy-policy` | `privacy-policy.php` | Privacy policy (new) |
-| `/terms` | `terms.php` | Terms of use (new) |
-| `/blog` | `blog/index.php` | Blog listing page (new) |
-| `/blog/study-in-germany-free-aps-certificate` | `blog/study-in-germany-free-aps-certificate.php` | Article: Germany APS certificate (new) |
-| `/blog/italy-dsu-scholarship-eligibility` | `blog/italy-dsu-scholarship-eligibility.php` | Article: Italy DSU scholarship (new) |
-| `/blog/study-abroad-with-academic-backlogs` | `blog/study-abroad-with-academic-backlogs.php` | Article: studying with backlogs (new) |
-| `/blog/study-abroad-counselling-from-coorg` | `blog/study-abroad-counselling-from-coorg.php` | Article: Coorg-based counselling process (new) |
-| `/sitemap.xml` | `sitemap.xml` | XML sitemap |
-| `/robots.txt` | `robots.txt` | Crawler directives |
-| `/llms.txt` | `llms.txt` | AI-crawler summary |
-| `/llms-full.txt` | `llms-full.txt` | AI-crawler full context doc |
+## Phase 1 repairs
 
-All `.php`-suffixed direct requests 301-redirect to their extension-less
-equivalent via `.htaccess`; there are no query-parameter-driven routes.
+The homepage and About stats render `9`, `3`, `4` and `2023` directly in
+HTML. Their count-up code is removed. Hero `.ms` and HUD values and all
+unrelated design and animation remain unchanged.
 
-## 3. Features not yet implemented
+The About physical-office FAQ and its JSON-LD answer plainly say there is
+no walk-in office. The homepage service-area content and FAQs, Coorg blog
+article and both LLM context files describe phone, WhatsApp and video-call
+counselling without implying visits or branches. The LLM context no longer
+instructs AI systems not to describe ILMERA as remote.
 
-- No backend/CMS — all content is hand-authored static PHP with no database.
-  The blog is static too: adding a new article currently means creating a
-  new `.php` file under `blog/` and adding a card to `blog/index.php`, not
-  filling in a form.
-- No visible on-page display of the East African/other-market claims (site
-  is India-focused only, by design).
-- No automated build, lint, or test pipeline (plain PHP/HTML/CSS/JS, no
-  build step).
-- Off-page SEO (backlinks, business directory citations, Google Business
-  Profile) is outside the scope of this static-site rewrite — see the
-  ranking note in `flagged-items-for-verification.md`.
+### Referenced image audit
 
-## 4. Recommended next steps
+Every `assets/images/...` path referenced in PHP or text files exists:
 
-1. Confirm the open items in `flagged-items-for-verification.md`, especially:
-   asset filenames (`ilmera.logo.png`, team photos), destination/eligibility
-   facts, and social handle ownership.
-3. The blog now exists with 4 articles; keep adding new posts periodically
-   for ongoing content freshness (helps both classic SEO and AEO/GEO, since
-   AI answer engines favor frequently updated, specific, well-sourced
-   content). A `blog_posts` Table API schema was also created during this
-   work but is not currently used by any page (see
-   `flagged-items-for-verification.md` item 10) — delete it or wire it up to
-   a dynamic blog later, whichever the site owner prefers.
-4. Periodically refresh `llms.txt` / `llms-full.txt` and the JSON-LD
-   `dateModified`/`lastmod` values whenever real content changes, so AI
-   crawlers and search engines see it as current.
-5. Set realistic ranking expectations: no legitimate technique guarantees a
-   #1 ranking; continued off-page authority building and content additions
-   are the main levers beyond this on-page/technical rewrite.
+- `assets/images/fawazbh.webp`
+- `assets/images/ilmera.logo.png`
+- `assets/images/jabirkj.png`
+- `assets/images/jabirkj.webp`
+- `assets/images/zaheer.png`
+- `assets/images/zaheer.webp`
 
-## 5. Project goals
+The other moved assets are `ilmera.logo.navy.png`, `ilmera.png` and
+`ilmera.white.png`. No missing referenced image files were found.
 
-Give ILMERA Study Abroad an accurate, consistent, and technically sound
-static site that:
-- Represents the business honestly (no fabricated stats/testimonials, no
-  misleading "remote-first" framing).
-- Is fully crawlable and well-structured for classic search engines (SEO),
-  answer engines like Google's AI Overviews and Bing Copilot (AEO), and
-  generative AI assistants like ChatGPT, Claude, and Perplexity (GEO).
-- Uses consistent brand facts (leadership titles, contact numbers, logo,
-  social handles, business location) everywhere they appear.
+## Editing and verification
 
-## 6. Data models / storage
+- Preserve each file's existing line endings. The checkout contains CRLF,
+  LF and one mixed-ending PHP file; avoid whole-file newline conversions.
+- Write complete files when rewriting. Keep repairs scoped and avoid
+  design changes, em dashes, invented facts, statistics, reviews or awards.
+- Confirm destination costs, scholarships, document requirements and visa
+  rules with current official sources before publication. The draft-post
+  inventory is in `flagged-items-for-verification.md`.
+- Source validation passed with `php-parser` for all 18 PHP files, JSON
+  parsing for all 14 JSON-LD blocks and JavaScript syntax checks for all
+  6 inline script blocks. Include, image, stats, URL, sitemap/date and
+  newline-preservation checks also passed.
+- PHP and Apache are not installed in the repair workspace. Source-level
+  checks cannot replace a staging check under the actual hosting stack.
+- After deployment, verify `/blog` redirects to `/blog/`, `/blog/` renders
+  the listing, all 7 article routes resolve, shared templates and images
+  load, sitemap XML parses, and both sets of stats show final values with
+  JavaScript disabled and enabled.
 
-This is a fully static PHP site — all page content lives directly in the
-`.php`, `.txt`, and `.xml` files listed above. `header.php` and `footer.php`
-are shared includes referenced from each page via
-`include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'` (or a relative
-`include 'includes/header.php'` in `index.php`) — the live server is expected
-to resolve these against its actual `DOCUMENT_ROOT`/`includes/` structure.
-
-One RESTful Table API table, `blog_posts`, was created while exploring a
-dynamic blog approach (fields: `id`, `title`, `slug`, `excerpt`, `content`,
-`category`, `author_name`, `author_role`, `published_date`, `read_minutes`;
-4 seed rows). The final blog implementation ended up fully static instead
-(safer for JS-less AI/answer-engine crawlers and consistent with the rest of
-the site), so **this table is not currently read by any page** — it is
-unused infrastructure, flagged in `flagged-items-for-verification.md` item 10.
-
-## 7. Public URLs
-
-Production domain: `https://ilmerastudyabroad.com/` (deployment/hosting is
-managed outside this static-file rewrite; see the Publish tab for one-click
-publishing of this project if hosted from this workspace).
+Production domain: `https://ilmerastudyabroad.com/`. Deployment is managed
+outside this repository. See `CHANGELOG.md` for repair details. No ranking
+position or visa/scholarship outcome is guaranteed by these repairs.
