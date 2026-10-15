@@ -18,6 +18,10 @@ Page content is maintained directly in PHP, text and XML files.
 | `/contact` | `contact.php` |
 | `/privacy-policy` | `privacy-policy.php` |
 | `/terms` | `terms.php` |
+| `/study-abroad-consultants-in-karnataka` | `study-abroad-consultants-in-karnataka.php` |
+| `/study-abroad-counselling-belagavi` | `study-abroad-counselling-belagavi.php` |
+| `/study-abroad-counselling-shivamogga` | `study-abroad-counselling-shivamogga.php` |
+| `/study-abroad-counselling-udupi-manipal` | `study-abroad-counselling-udupi-manipal.php` |
 | `/blog/` | `blog/index.php` |
 | `/blog/study-in-germany-free-aps-certificate` | `blog/study-in-germany-free-aps-certificate.php` |
 | `/blog/italy-dsu-scholarship-eligibility` | `blog/italy-dsu-scholarship-eligibility.php` |
@@ -57,6 +61,64 @@ Page content is maintained directly in PHP, text and XML files.
   affecting each source file at the sitemap repair commit, not the article
   bylines or filesystem timestamps.
 
+## Phase 2: Karnataka hub and district drafts
+
+Four new root-level PHP pages use the existing article layout, CSS
+variables, fonts, FAQ styling and `__DIR__` shared-include pattern:
+
+- The Karnataka hub opens with a 48-word answer, followed by call-based
+  counselling, a neutral consultant-selection checklist, all nine service
+  destination anchors, Karnataka document notes, eight FAQs and district links.
+- Belagavi focuses on issuing-institution checks, transcript requests and
+  matching funding evidence to the application.
+- Shivamogga separates document availability, updated records and funding
+  timelines from the appointment journey.
+- Udupi and Manipal distinguish qualification issuers, document delivery
+  formats and loan/scholarship evidence.
+
+The district guides have different substantive paragraphs and questions.
+They do not invent local colleges, client origins, document procedures,
+lenders or travel connections. Those facts and the owner's fee model
+remain explicit `[VERIFY: ...]` placeholders. All **23 distinct items** are
+checklisted by page in `flagged-items-for-verification.md`, section 14.
+
+Each page has `noindex, follow` with a comment pointing to that inventory.
+The four pages are **not** in `sitemap.xml`, `llms.txt` or `llms-full.txt`;
+the sitemap still contains 11 URLs. The footer Navigation list and the
+homepage Coorg service-area section link to the hub, but the main header
+navigation is unchanged. The district pages and hub link to each other.
+Noindex does not prevent direct access to a deployed page.
+
+Each page defines WebPage, BreadcrumbList, FAQPage and Service JSON-LD.
+Service `areaServed` is Karnataka, India. Only the required nested
+ListItem, Question, Answer and AdministrativeArea objects are added;
+team mentions reference the existing `#jabir`, `#zaheer` and `#fawaz` IDs.
+There is no new review/rating, business-location or author-endorsement claim.
+All eight FAQ question/answer pairs per page match the visible text exactly.
+
+**Publication:** fact-check and resolve the page's placeholders, remove its
+noindex tag, add its URL to `sitemap.xml` with an accurate Git-based lastmod,
+and add it to `llms.txt` in the same commit. Edit the visible FAQ and its
+JSON-LD together when replacing a placeholder. Do not publish a draft just
+because it is already linked internally.
+
+### Phase 2 validation
+
+- All 22 PHP files passed PHP 8.5 WebAssembly lint; all 19 full pages
+  rendered without PHP warnings or errors, including shared templates.
+- All new-page links and service anchors resolve to files/IDs in the repo.
+  Schema/visible FAQ parity, noindex, lead length, placeholder/checklist
+  coverage, existing CSS reuse and newline preservation passed checks.
+- The four new pages passed 16 real Chromium cases at 375px and 1280px,
+  with JavaScript enabled and disabled. Native FAQ toggles worked in both
+  modes; mobile menu open/close worked with JavaScript. No horizontal
+  overflow or JavaScript page errors were detected.
+- Browser checks used rendered PHP output and local image responses, with
+  external font requests blocked. Hosting-stack redirects, real CDN font
+  loading and final visual review still need staging checks under Apache.
+- New pages use CRLF; modified existing files retain their original line
+  endings. No test packages, generated HTML or screenshots were added to Git.
+
 ## Phase 1 repairs
 
 The homepage and About stats render `9`, `3`, `4` and `2023` directly in
@@ -92,12 +154,11 @@ The other moved assets are `ilmera.logo.navy.png`, `ilmera.png` and
 - Confirm destination costs, scholarships, document requirements and visa
   rules with current official sources before publication. The draft-post
   inventory is in `flagged-items-for-verification.md`.
-- Source validation passed with `php-parser` for all 18 PHP files, JSON
-  parsing for all 14 JSON-LD blocks and JavaScript syntax checks for all
-  6 inline script blocks. Include, image, stats, URL, sitemap/date and
-  newline-preservation checks also passed.
-- PHP and Apache are not installed in the repair workspace. Source-level
-  checks cannot replace a staging check under the actual hosting stack.
+- The initial repair checks covered 18 PHP files, 14 JSON-LD blocks and
+  6 inline scripts. Phase 2 adds 4 PHP pages, 4 JSON-LD blocks and 4 inline
+  menu scripts; see the Phase 2 validation above.
+- Native PHP and Apache are not installed in the workspace. The isolated
+  PHP-WASM and Chromium checks do not replace hosting-stack validation.
 - After deployment, verify `/blog` redirects to `/blog/`, `/blog/` renders
   the listing, all 7 article routes resolve, shared templates and images
   load, sitemap XML parses, and both sets of stats show final values with

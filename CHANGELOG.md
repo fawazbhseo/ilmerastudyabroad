@@ -1,5 +1,56 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 2 build: 2026-10-15
+
+Five tasks, one commit per task. These are noindex drafts, not a content
+publication or a change to the header navigation.
+
+1. Added `study-abroad-consultants-in-karnataka.php`: 48-word opening
+   answer, statewide counselling process, neutral selection questions,
+   named-team/service-terms context, nine destination anchors, existing
+   blog links, Karnataka document notes, eight FAQs and district links.
+   The fee model and current appointment jurisdiction remain VERIFY items.
+2. Added `study-abroad-counselling-belagavi.php`,
+   `study-abroad-counselling-shivamogga.php` and
+   `study-abroad-counselling-udupi-manipal.php`. Each has a distinct opening,
+   selection checklist, destination discussion, six local planning topics
+   and eight unique FAQ pairs. Unknown institution/student origins,
+   transcripts, MOI, attestation, lenders and travel routes are placeholders,
+   not guessed facts. Each states that ILMERA has no physical office there
+   or elsewhere and uses phone, WhatsApp and video-call counselling from Coorg.
+3. Added one hub link to the shared footer Navigation list and one to the
+   homepage Coorg service-area section. The shared header is unchanged.
+4. Added a 23-item page-grouped verification checklist, source-file
+   provenance and a same-commit publication rule: resolve placeholders,
+   remove noindex, add the sitemap entry with accurate lastmod and add the
+   page to `llms.txt`. FAQs and their JSON-LD must be edited together.
+5. Updated README and this changelog for the four drafts, current routes,
+   release safeguards and validation results.
+
+### Page conventions and validation
+
+- Reused existing article CSS, the existing FAQ styles and district h3
+  styling, current fonts/variables, logo assets and root-page PHP includes.
+  New files are CRLF; existing files retain their original line endings.
+- Each page has a noindex robots meta tag and a verification-file comment.
+  The sitemap, both LLM context files and Apache rules are unchanged.
+- Each page has WebPage, BreadcrumbList, FAQPage and Service schema, with
+  AdministrativeArea Karnataka, India for `areaServed`. Required nested
+  breadcrumb/FAQ objects and existing Person ID references only; no new
+  business-location, review or rating schema and no implied team endorsement.
+- PHP 8.5 WASM lint passed for all 22 PHP files; all 19 full pages rendered
+  without warnings/errors. The 32 new FAQ pairs match visible text exactly.
+  Leads are 48, 48, 49 and 51 words. All 23 placeholders have checklist items;
+  local body/FAQ paragraphs are not copied between district drafts.
+- Link/anchor checks, noindex checks, CSS reuse, newline preservation and
+  unchanged header/sitemap/LLM checks passed. All 16 Chromium combinations
+  of page, mobile/desktop width and JavaScript enabled/disabled passed,
+  including native FAQs and JavaScript mobile-menu open/close.
+- Chromium used locally rendered PHP and local images; external font
+  requests were blocked. Native Apache routing, final CDN typography and
+  hosting-specific behavior remain staging checks. No local fact-checking
+  or fee-model confirmation is implied by these technical tests.
+
 ## Phase 1 follow-ups
 
 - Removed the 3 `noindex` draft URLs from `sitemap.xml`, leaving 11 URLs.
