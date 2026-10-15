@@ -101,13 +101,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
 <?php include __DIR__ . '/includes/footer.php'; ?>
 <script>
 window.addEventListener('DOMContentLoaded',function(){
-  var nav=document.getElementById('il-nav'),hbg=document.getElementById('hbg'),menu=document.getElementById('mob-nav');
+  var nav=document.getElementById('il-nav');
   window.addEventListener('scroll',function(){if(nav)nav.classList.toggle('scrolled',window.scrollY>60);},{passive:true});
-  if(hbg&&menu)hbg.addEventListener('click',function(){
-    var open=hbg.getAttribute('aria-expanded')!=='true';
-    hbg.classList.toggle('open',open);menu.classList.toggle('open',open);
-    hbg.setAttribute('aria-expanded',String(open));document.body.style.overflow=open?'hidden':'';
-  });
+
 });
 </script>
 </body>

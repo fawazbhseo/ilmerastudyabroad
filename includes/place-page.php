@@ -211,21 +211,7 @@ window.addEventListener('DOMContentLoaded',function(){
     var nav=document.getElementById('il-nav');
     if(nav)nav.classList.toggle('scrolled',window.scrollY>60);
   },{passive:true});
-  var hbg=document.getElementById('hbg'),mnav=document.getElementById('mob-nav');
-  if(hbg&&mnav){
-    hbg.addEventListener('click',function(){
-      var o=hbg.classList.contains('open');
-      hbg.classList.toggle('open',!o);mnav.classList.toggle('open',!o);
-      document.body.style.overflow=o?'':'hidden';
-      hbg.setAttribute('aria-expanded',String(!o));
-    });
-    mnav.querySelectorAll('a').forEach(function(link){
-      link.addEventListener('click',function(){
-        hbg.classList.remove('open');mnav.classList.remove('open');
-        document.body.style.overflow='';hbg.setAttribute('aria-expanded','false');
-      });
-    });
-  }
+
 });
 </script>
 </body>

@@ -725,19 +725,6 @@ window.addEventListener('scroll',function(){
   if(window.scrollY>80){var s=document.getElementById('scrollInd');if(s)s.style.opacity='0';}
 },{passive:true});
 
-/* hamburger */
-var hbg=document.getElementById('hbg'),mnav=document.getElementById('mob-nav');
-if(hbg&&mnav){
-  hbg.addEventListener('click',function(){
-    var o=hbg.classList.contains('open');
-    hbg.classList.toggle('open',!o);mnav.classList.toggle('open',!o);
-    document.body.style.overflow=o?'':'hidden';
-  });
-  mnav.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click',function(){hbg.classList.remove('open');mnav.classList.remove('open');document.body.style.overflow='';});
-  });
-}
-
 /* ═══ THREE.JS BACKGROUND ═══ */
 if(window.THREE){
 var canvas=document.getElementById('space-canvas');

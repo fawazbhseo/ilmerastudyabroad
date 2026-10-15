@@ -74,16 +74,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="il-nav">
-  <a href="https://ilmerastudyabroad.com/" class="nav-logo" aria-label="ILMERA Study Abroad: Home">
-    <img src="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png" alt="ILMERA Study Abroad logo" width="38" height="38"/>
-    <div style="display:flex;flex-direction:column;line-height:1;">
-      <span class="logo-name">ILMERA</span>
-      <span class="logo-sub">Study Abroad</span>
-    </div>
-  </a>
-</nav>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
 <main>
 <section class="err-wrap">
