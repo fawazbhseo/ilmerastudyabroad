@@ -18,7 +18,7 @@
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>
 <meta name="theme-color" content="#04060f"/>
-<link rel="canonical" href="https://ilmerastudyabroad.com/blog"/>
+<link rel="canonical" href="https://ilmerastudyabroad.com/blog/"/>
 
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -30,7 +30,7 @@
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Study Abroad Blog | ILMERA Study Abroad"/>
 <meta property="og:description" content="Practical guidance on studying in Germany, Italy, and other destinations, plus honest answers on backlogs, no-IELTS routes, and consultation from Coorg."/>
-<meta property="og:url" content="https://ilmerastudyabroad.com/blog"/>
+<meta property="og:url" content="https://ilmerastudyabroad.com/blog/"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:secure_url" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:alt" content="ILMERA Study Abroad: Your Gateway to Global Education"/>
@@ -54,8 +54,8 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://ilmerastudyabroad.com/blog#webpage",
-      "url": "https://ilmerastudyabroad.com/blog",
+      "@id": "https://ilmerastudyabroad.com/blog/#webpage",
+      "url": "https://ilmerastudyabroad.com/blog/",
       "name": "Study Abroad Blog | ILMERA Study Abroad",
       "description": "Practical guidance from ILMERA Study Abroad on studying in Germany, Italy, and other destinations, plus honest answers on backlogs, no-IELTS routes, and consultation from Coorg.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
@@ -64,14 +64,14 @@
         "@type": "BreadcrumbList",
         "itemListElement": [
           {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog"}
+          {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"}
         ]
       }
     },
     {
       "@type": "Blog",
-      "@id": "https://ilmerastudyabroad.com/blog#blog",
-      "url": "https://ilmerastudyabroad.com/blog",
+      "@id": "https://ilmerastudyabroad.com/blog/#blog",
+      "url": "https://ilmerastudyabroad.com/blog/",
       "name": "ILMERA Study Abroad Blog",
       "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "blogPost": [
@@ -156,7 +156,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 </head>
 <body>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
 <main>
 
@@ -231,7 +231,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 </main>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
 </body>
 </html>

@@ -97,7 +97,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <a href="/services#uk">Study in the UK</a>
       <a href="/services#russia">Study in Russia</a>
       <a href="/about">About ILMERA</a>
-      <a href="/blog">Blog</a>
+      <a href="/blog/">Blog</a>
       <a href="/privacy-policy">Privacy Policy</a>
     </div>
   </div>

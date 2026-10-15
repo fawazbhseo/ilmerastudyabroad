@@ -54,13 +54,13 @@
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
       "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"},
       "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog#blog"}
+      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog"},
+        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"},
         {"@type":"ListItem","position":3,"name":"Scholarships for Indian Students","item":"https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad"}
       ]
     }
@@ -126,7 +126,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <main>
 
 <section class="article-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog">Blog</a> &nbsp;/&nbsp; Scholarships</nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Scholarships</nav>
   <span class="article-tag">Scholarships</span>
   <h1>Scholarships for Indian Students to Study Abroad: The Honest Guide</h1>
   <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; October 1, 2026 &middot; Reviewed October 2026 &middot; 6 min read</p>
@@ -177,7 +177,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
-    <a href="/blog" class="back-link">&larr; Back to all articles</a>
+    <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>
 

@@ -67,13 +67,13 @@
         "url": "https://ilmerastudyabroad.com",
         "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
       },
-      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog#blog"}
+      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog"},
+        {"@type":"ListItem","position":2,"name":"Blog","item":"https://ilmerastudyabroad.com/blog/"},
         {"@type":"ListItem","position":3,"name":"Documents Needed to Study Abroad from India","item":"https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india"}
       ]
     }
@@ -139,7 +139,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <main>
 
 <section class="article-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog">Blog</a> &nbsp;/&nbsp; Visas</nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Visas</nav>
   <span class="article-tag">Visas &amp; Documents</span>
   <h1>Documents Needed to Study Abroad from India: The Country Checklist</h1>
   <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; October 1, 2026 &middot; Reviewed October 2026 &middot; 6 min read</p>
@@ -199,7 +199,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
-    <a href="/blog" class="back-link">&larr; Back to all articles</a>
+    <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>
 

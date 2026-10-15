@@ -61,7 +61,7 @@ html[data-theme="light"] .hamburger span{background:var(--navy,#1A2E5A);}
   <li><a href="https://ilmerastudyabroad.com/" class="<?php echo $current === 'home' ? 'active' : ''; ?>">Home</a></li>
   <li><a href="/about" class="<?php echo $current === 'about' ? 'active' : ''; ?>">About</a></li>
   <li><a href="/services" class="<?php echo $current === 'services' ? 'active' : ''; ?>">Services</a></li>
-  <li><a href="/blog" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
+  <li><a href="/blog/" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
   <li><a href="/contact" class="<?php echo $current === 'contact' ? 'active' : ''; ?>">Contact</a></li>
 </ul>
   <a href="/contact" class="nav-cta">Book Consultation</a>
@@ -72,7 +72,7 @@ html[data-theme="light"] .hamburger span{background:var(--navy,#1A2E5A);}
   <li><a href="https://ilmerastudyabroad.com/" class="<?php echo $current === 'home' ? 'active' : ''; ?>">Home</a></li>
   <li><a href="/about" class="<?php echo $current === 'about' ? 'active' : ''; ?>">About</a></li>
   <li><a href="/services" class="<?php echo $current === 'services' ? 'active' : ''; ?>">Services</a></li>
-  <li><a href="/blog" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
+  <li><a href="/blog/" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
   <li><a href="/contact" class="<?php echo $current === 'contact' ? 'active' : ''; ?>">Contact</a></li>
 </ul>
 </div>

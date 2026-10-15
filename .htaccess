@@ -1,4 +1,5 @@
 RewriteEngine On
+DirectoryIndex index.php index.html
 
 # If someone requests about.php directly, redirect to /about (SEO-friendly, avoids duplicate content)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
