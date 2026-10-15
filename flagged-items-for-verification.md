@@ -1178,6 +1178,15 @@ officially sourced tuition content before any publication.
   source/item and page-wide review dates. The supplied 2026-10-15 dates do
   not represent an independent source review by this build.
 
+- [ ] Phase 12 owner claim: the owner has described Italian study as having
+  tuition covered by scholarships of up to 8,000 euros at ILMERA partner
+  institutions. No official source for that amount was found in the supplied
+  research. The owner must supply the relevant institutional scholarship
+  pages or written confirmation, including eligibility, coverage and amount.
+  Keep the claim conditional until supported, not a country-wide fee promise
+  or a record of completed awards to ILMERA students. No institution is named
+  and no amount is added to the Italy destination data in this phase.
+
 ### Shared draft safeguards and release checks for all three pages
 
 Germany, UK and Italy remain draft, noindex and unlinked from live pages,
@@ -2137,20 +2146,38 @@ sources as appropriate. Earlier verification blockers remain open.
 Inventory totals: 141 source-line entries; 13 marked unsure.
 
 
-## 30. Phase 11: GCC page with UAE-only facts (OWNER VERIFICATION REQUIRED)
+## 30. Phases 11-12: GCC source review (OWNER VERIFICATION REQUIRED)
 
 The supplied content is now in `destinations/gcc.php`, with slug `gcc`, name
 `GCC` and status `draft` unchanged. Its existing ilmera_summary and
 summary_provenance values are preserved exactly. It has nine technically
 sourced categories (intro, english_requirements, costs, scholarships,
-visa_steps, intakes, documents, work_and_stay and faqs), one unique source
-URL and five FAQs. who_its_for is empty. Technical source acceptance and
+visa_steps, intakes, documents, work_and_stay and faqs), five unique source
+URLs and eleven FAQs. who_its_for is empty. Technical source acceptance and
 category counts are not editorial approval or fact verification.
 
 ### Source URL: owner must open and confirm
 
 - [ ] Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE:
   https://www.cgidubai.gov.in/page/student-advisory/
+
+### Additional Phase 12 source URLs: owner must open and confirm
+
+- [ ] Embassy of India, Doha: Advisory for students arriving for university education in Qatar:
+  https://indianembassyqatar.gov.in/education_Advisory_students
+- [ ] Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia:
+  https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia
+- [ ] Embassy of India, Muscat: Registration of Indian students in Oman:
+  https://www.indemb-oman.gov.in/eoi.php?id=r-i
+- [ ] Embassy of India, Bahrain: Registration of Indian Nationals and Indian Students in Bahrain:
+  https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf
+
+Phase 12 context: the unchanged original blockers below describe the Phase 11
+UAE portion and its review requirements. Their UAE-only/single-advisory scope
+notes do not describe the whole expanded record. Additions (e)-(j) describe
+the current GCC coverage. The original Russia-not-started item is retained
+verbatim with the other blockers, but is historical and superseded by the
+new Russia section 31. No slug or name was changed.
 
 ### GCC publication blockers
 
@@ -2175,19 +2202,43 @@ category counts are not editorial approval or fact verification.
   attributed to that source, not a new ILMERA policy or a claim about all
   agents. The owner decides whether it belongs on the page. If changed,
   keep the visible FAQ and FAQPage schema consistent.
-- [ ] Qatar, Saudi Arabia, Oman, Kuwait and Bahrain are not covered. Obtain
-  country-specific official sources before adding them; no country-specific
-  rules or fees should be copied from the UAE advisory.
+- [ ] (e) The page now also covers Qatar, Saudi Arabia, Oman and Bahrain,
+  but intro_answer is still UAE-only because it can carry only one source.
+  Keep country attribution explicit; added items do not establish complete
+  coverage of any country or a single GCC-wide rule.
+- [ ] (f) The owner must approve these new official hosts explicitly:
+  indianembassyqatar.gov.in, eoiriyadh.gov.in, indemb-oman.gov.in and
+  eoibahrain.gov.in. Technical host acceptance is not completed editorial
+  approval or independent verification.
+- [ ] (g) Qatar and Saudi Arabia facts came from search results of embassy
+  pages. The owner must open each page and confirm every line. The Qatar
+  cost-of-living line appears on one version of the page and not another;
+  confirm it on the live page before publishing.
+- [ ] (h) Oman and Bahrain items only cover student registration with the
+  embassy. The Bahrain source is an undated PDF press release; confirm that
+  it is still current. Do not infer admissions, visa or work rules from it.
+- [ ] (i) Kuwait has no usable study-specific official source. The page at
+  https://indembkwt.gov.in/student-information.php lists institutions and
+  the education officer but gives no visa, fee or work rules, so nothing
+  was added. Kuwait still needs an official source.
+- [ ] (j) The Saudi embassy also has a page titled "Scholarship for Indian
+  students by Saudi government" that was not read and needs checking. No
+  complete official-source coverage of fees, visa steps or intakes has been
+  added for Qatar, Saudi Arabia, Oman, Kuwait or Bahrain. The Qatar visa
+  requirement and Saudi document/visa references are partial guidance, not
+  a sourced application workflow; the Qatar living-cost line is qualitative,
+  not an official fee figure.
 - [ ] Russia is still not started. Its empty draft record remains unchanged
   and needs official Russian or Indian government sources before adding facts.
 
 ### Current publication state and prior notes
 
-This section supersedes section 28's statement that GCC is not started and
-older counts of populated records. GCC now contains UAE-only supplied facts,
-not verified GCC-wide coverage. Eight destination records contain supplied
-sourced content; Russia alone remains empty. All nine statuses remain draft.
-The earlier free-tuition audit and other source blockers remain open.
+This section and section 31 supersede section 28's not-started notes and
+older counts of populated records. GCC now contains supplied items for the
+UAE, Qatar, Saudi Arabia, Oman and Bahrain, with country-specific limits
+above, not verified GCC-wide coverage. All nine destination records now
+contain supplied sourced content and all nine statuses remain draft.
+The earlier audit and other source blockers remain open.
 
 GCC remains noindex and unlinked from live pages, sitemap.xml and LLM
 recommendations despite nine categories. Noindex is not access control;
@@ -2225,3 +2276,84 @@ require staging checks. No deployment was performed.
 
 Model disclosure: this report was prepared using Arena.ai Agent Mode.
 The underlying model identity is not disclosed.
+
+
+## 31. Phase 12: Russia scholarship draft (OWNER VERIFICATION REQUIRED)
+
+The supplied content is now in `destinations/russia.php`, still `draft`, with
+its existing ilmera_summary and summary_provenance preserved exactly. The
+record, thin entry page and slug were already registered; no helper, route,
+navigation, sitemap or LLM registration was added. It has four categories:
+intro_answer, scholarships, visa_steps and faqs. There are four FAQs and one
+source URL. Source acceptance is technical, not editorial verification.
+
+### Russia source URL: owner must open and confirm
+
+- [ ] Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27:
+  https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf
+
+### Russia publication blockers
+
+- [ ] (a) The only source is the Government of India Ministry of Education
+  notice for academic year 2026-27. Its application window has passed,
+  reported as ending 15 February 2026. Obtain the 2027-28 notice before
+  publishing; do not imply that the older notice is an active application
+  opportunity. The reported date has not been independently verified here.
+- [ ] (b) The facts came from search results of the notice PDF. The owner
+  must open the PDF and confirm every line, especially what the scholarship
+  covers besides tuition fees. Confirm the actual item/page review dates;
+  supplied 2026-10-15 metadata is not an independent source review.
+- [ ] (c) The number of scholarship places was deliberately left out. A news
+  site reported 300 for 2026-27 and the official 2025-26 notice listed 200,
+  according to the supplied research. Take any figure from the applicable
+  official PDF only. Neither number is added to the destination data.
+- [ ] (d) This page covers only the government scholarship route. The owner
+  also identifies public and private Russian institution routes for ILMERA
+  application guidance; no official source has been added for those routes.
+  This is prospective guidance, not a claim of completed placements. Costs,
+  visa documents, intakes and route-specific Russian-language requirements
+  remain empty. The notice's one-year language preparation option applies
+  to its scholarship route, not a universal admission rule.
+- [ ] (e) Four categories are below the five-category publishing gate. Add
+  official Russian or Indian government sources for costs, documents or
+  intakes before publication; do not split groups or count summary metadata
+  to inflate the total. Status must remain draft until explicit approval.
+- [ ] (f) Treat tuition fees as the only coverage supported by the supplied
+  notice wording pending PDF review. Do not describe study in Russia as
+  having no tuition across all routes or imply that living costs, insurance,
+  travel or other expenses are covered. Country-wide cost claims on existing
+  pages need review; the current scholarship notice is not evidence for them.
+
+### Phase 12 publication state and validation
+
+All nine destination records now contain supplied sourced content; none is
+approved for publication. GCC and Russia stay draft, noindex and unlinked
+from live pages, sitemap and LLM recommendations. Noindex is not access
+control. The CSV remains an unchanged empty template and must be populated
+from reviewed content before release. Follow section 18's atomic release
+checklist for PHP/CSV status, accurate sitemap entry and llms.txt changes in
+one commit after owner sign-off, keeping llms-full.txt consistent.
+
+No source page or PDF was fetched or independently verified by this build.
+All facts, URLs/labels, host lists and dates are supplied content. Uncovered
+facts were not invented. Existing audited site copy is unchanged.
+
+Full checks were repeated after each of the three tasks: 78 PHP lints,
+42 clean renders and 252 Chromium cases per task, totaling 234 lints,
+126 renders and 756 browser cases. All 42 pages were checked at
+375/768/1280px with JavaScript on/off. Coverage includes headings, robots,
+menus, destination native FAQs, sources, layout and conditional Costs,
+exact summary/provenance retention, GCC identity, raw/normalized facts,
+all nine draft gates, host boundaries, aliases and FAQ/schema parity.
+GCC has nine sourced categories, five unique sources and eleven FAQs;
+Russia has four categories, one source and four FAQs. Isolated published-
+data fixtures confirmed the category threshold without changing repo status.
+External browser resources were blocked, not used for source verification.
+
+The other GCC blockers are retained verbatim, including the historical
+Russia-not-started item expressly superseded above. Other destination data,
+site pages, navigation, helpers/header/footer, Apache rules, CSV, sitemap
+and both LLM files are unchanged. No named institutions or restricted
+terminology were introduced in additions. Line endings are preserved and
+no em dashes were added. No test artifacts or deployment. Native HTTP
+headers, Apache rewrites and production rendering remain staging checks.

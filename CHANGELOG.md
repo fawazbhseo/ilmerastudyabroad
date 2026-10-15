@@ -1,5 +1,62 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 12: expanded GCC advisories and Russia scholarship draft, 2026-10-15
+
+Three tasks, one commit per task. GCC keeps slug gcc and name GCC. Both
+records keep status draft and their exact existing ilmera_summary and
+summary_provenance values. No named institutions or restricted terminology
+were introduced in new content.
+
+1. Replaced destinations/gcc.php with the complete supplied content, adding
+   Qatar and Saudi Arabia items and Oman/Bahrain registration FAQs. The
+   record has nine sourced categories, five source URLs and eleven FAQs.
+   Its one-source intro remains UAE-only. Kuwait has no usable study-specific
+   evidence in the supplied research; no Kuwait facts were added.
+2. Replaced the existing destinations/russia.php with the supplied government
+   scholarship route. Its four categories (intro, scholarships, visa steps
+   and FAQs), one source URL and four FAQs leave it below the five-category
+   gate. Russia was already registered with a thin entry page and draft
+   safeguards, so no registration changes were needed. Navigation, sitemap
+   and both LLM files are untouched.
+3. Replaced GCC blocker (e) with additions (e)-(j), preserving every other
+   GCC blocker verbatim. Added the four new source URLs and host-approval
+   checks, snippet/live-page checks, Qatar version discrepancy, registration-
+   only scope, undated Bahrain PDF, Kuwait evidence gap and unread Saudi
+   scholarship-page lead. Clarified missing detailed fee/visa/intake coverage.
+   Added Russia section 31: expired 2026-27 window reported as ending
+   15 February 2026, required 2027-28 notice, full PDF review, omitted place
+   counts and unverified broader admission routes, four-category gate and
+   tuition-only coverage caution. Added Italy's reported up-to-8,000-euro
+   scholarship claim to its blockers, requiring institutional pages or
+   written confirmation and conditional wording, without naming a partner
+   or implying completed ILMERA student awards/placements.
+
+Phase 12 notes supersede old not-started/count descriptions. All nine
+records now have supplied sourced content and all remain draft. GCC/Russia
+are noindex and unlinked despite their data coverage. Noindex is not access
+control. The unchanged original GCC scope notes describe its Phase 11 UAE
+portion; the retained Russia-not-started item is historical, superseded by
+section 31. Source acceptance is not verification or owner approval. No
+source page/PDF was fetched and no supplied fact was independently verified.
+
+Full checks were repeated after EACH task, including the documentation task:
+78 PHP lints, 42 clean renders and 252 browser cases per task, totaling
+234 lints, 126 renders and 756 Chromium cases. All 42 pages were checked at
+375/768/1280px with JavaScript on/off: headings, robots, menus, destination
+native FAQs, source links, layout and conditional Costs sections. Data checks
+covered exact GCC identity and both summaries/provenance, raw/normalized
+facts, all nine draft gates, aliases, host boundaries and FAQ/schema parity.
+Isolated published-data fixtures never changed repository statuses. External
+browser resources were blocked. Current facts, labels, URLs, hosts and dates
+are owner-supplied; no fees, rules, deadlines or missing facts were invented.
+
+Line endings are preserved and no em dashes were added. Other destinations,
+site pages, navigation, helpers/header/footer, post/place statuses, Apache
+rules, CSV, sitemap and both LLM files are unchanged. The CSV still needs
+reviewed values before the existing atomic status/CSV/sitemap/LLM release
+process. No test artifacts or deployment. Native HTTP/Apache and production
+rendering still require staging validation.
+
 ## Phase 11: UAE-only GCC draft and read-only tuition-claim audit, 2026-10-15
 
 Three tasks, one commit per task. GCC keeps slug gcc, name GCC, status draft,
