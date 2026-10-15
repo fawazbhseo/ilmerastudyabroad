@@ -193,11 +193,15 @@ outside the scope of a one-time static-site rewrite.
 
 The following three posts are not live yet per the owner. They retain
 `noindex, follow` and are not shown on the four-card listing. There are now
-7 article files under `blog/`; all 7 URLs are in the sitemap per the repair
-request. Being present in the sitemap does not verify these drafts. Resolve
-publication/indexing policy before release, and verify every item below
-against the relevant university, scholarship body, consulate or immigration
-source. Record source URL, applicable intake/date, exceptions and owner sign-off.
+7 article files under `blog/`, but only the 4 indexable articles are included
+in the sitemap. The cost, documents and scholarships drafts are excluded
+while they retain `noindex`.
+
+**Release rule:** When each post is fact-checked and its `noindex` tag is
+removed, add it back to `sitemap.xml` in the same commit. Verify every item
+below against the relevant university, scholarship body, consulate or
+immigration source. Record source URL, applicable intake/date, exceptions
+and owner sign-off.
 No current official-source verification was performed in this repair.
 
 ### A. `blog/cost-of-studying-abroad-for-indian-students.php`

@@ -35,8 +35,8 @@ Page content is maintained directly in PHP, text and XML files.
   The listing currently shows the original 4 articles. The cost, documents
   and scholarships drafts are not live yet per the owner and retain
   `noindex, follow`. This repair does not publish them or add listing cards.
-  All 7 article URLs are included in the sitemap as explicitly requested;
-  review the draft sitemap entries before publication if they remain held.
+  Only the 4 indexable article URLs are in the sitemap. Add each draft back
+  in the same commit that fact-checks it and removes its `noindex` tag.
 - `.htaccess` requires Apache `mod_rewrite` and permission to apply these
   directory overrides. It preserves the existing PHP-to-extensionless
   redirect and internal rewrite rules and sets
@@ -52,8 +52,8 @@ Page content is maintained directly in PHP, text and XML files.
 - Unused root `header.php`, `footer.php`, `download` and `_import/` were
   removed. `google10fa7a4178242a1f.html` remains unchanged.
 - `sitemap.php` redirects to `sitemap.xml`, the sitemap referenced by
-  `robots.txt`. Its 14 entries cover 6 main/legal pages, the blog listing
-  and 7 articles. `lastmod` dates are taken from the latest Git commit
+  `robots.txt`. Its 11 entries cover 6 main/legal pages, the blog listing
+  and 4 indexable articles. `lastmod` dates are taken from the latest Git commit
   affecting each source file at the sitemap repair commit, not the article
   bylines or filesystem timestamps.
 

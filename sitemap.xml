@@ -77,25 +77,4 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <url>
-    <loc>https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad</loc>
-    <lastmod>2026-10-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
 </urlset>

@@ -1,6 +1,15 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
-## Phase 1 repair: 2026-10-15
+## Phase 1 follow-ups
+
+- Removed the 3 `noindex` draft URLs from `sitemap.xml`, leaving 11 URLs.
+  Each draft must be fact-checked and added back to the sitemap in the same
+  commit that removes its `noindex` tag. README and the verification
+  inventory now reflect that release rule.
+- The initial repair notes below describe the earlier 14-URL sitemap;
+  this follow-up supersedes those counts and the draft-sitemap caveat.
+
+## Initial Phase 1 repair: 2026-10-15
 
 This section describes the current repository. Earlier entries below are
 historical notes, not a statement that those earlier fixes were present in
