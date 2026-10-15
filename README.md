@@ -108,8 +108,6 @@ equivalent via `.htaccess`; there are no query-parameter-driven routes.
 1. Confirm the open items in `flagged-items-for-verification.md`, especially:
    asset filenames (`ilmera.logo.png`, team photos), destination/eligibility
    facts, and social handle ownership.
-2. Register/verify a Google Business Profile for the Coorg location to
-   strengthen local SEO signals that a static site alone cannot provide.
 3. The blog now exists with 4 articles; keep adding new posts periodically
    for ongoing content freshness (helps both classic SEO and AEO/GEO, since
    AI answer engines favor frequently updated, specific, well-sourced

@@ -348,7 +348,7 @@
           "name": "Does ILMERA Study Abroad have a physical office?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA Study Abroad is based in Coorg, Kodagu, and delivers counselling by phone, WhatsApp and video call so students anywhere in Karnataka or India get the same counsellor and the same process. Enquiries go to +91 94810 84038, +91 90195 57427 or info@ilmerastudyabroad.com."
+            "text": "No. ILMERA does not operate a walk-in office. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call."
           }
         },
         {
@@ -741,7 +741,7 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Is the first consultation free?</summary><div><p>Yes, ILMERA Study Abroad offers a free initial consultation with transparent, honest guidance and no hidden fees.</p></div></details>
 
-      <details class="il-faq"><summary>Does ILMERA Study Abroad have a physical office?</summary><div><p>ILMERA Study Abroad is based in Coorg, Kodagu, and delivers counselling by phone, WhatsApp and video call so students anywhere in Karnataka or India get the same counsellor and the same process. Enquiries go to +91 94810 84038, +91 90195 57427 or info@ilmerastudyabroad.com.</p></div></details>
+      <details class="il-faq"><summary>Does ILMERA Study Abroad have a physical office?</summary><div><p>No. ILMERA does not operate a walk-in office. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call.</p></div></details>
 
       <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>The first consultation is free with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear.</p></div></details>
 

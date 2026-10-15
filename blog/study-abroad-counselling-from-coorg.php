@@ -134,7 +134,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p>ILMERA Study Abroad is based in Coorg, Kodagu, Karnataka, not in one of the metro cities most consultancies operate out of. Students sometimes ask how counselling works without a walk-in city office. The honest answer is that it works the same way most of our actual conversations with universities, embassies, and document verification bodies already happen: by phone, WhatsApp, and video call.</p>
+    <p>ILMERA Study Abroad is based in Coorg, Kodagu, Karnataka. ILMERA does not operate a physical office or branch anywhere. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call.</p>
 
     <h2>What the Process Actually Looks Like</h2>
     <p>A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries. From there, everything, document collection, shortlist discussions, application tracking, and visa preparation, is handled over WhatsApp and video call, with documents shared digitally rather than handed over in person.</p>
@@ -149,7 +149,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </ul>
 
     <h2>Why This Works</h2>
-    <p>Most of what a study-abroad consultancy actually does, reviewing documents, comparing university requirements, tracking application status, preparing visa paperwork, is desk work that does not require a physical meeting. Being based in Coorg means our overheads go into the actual counselling and document work rather than a city-centre office lease, and it means students anywhere in India get the same process, not a version that depends on whether they can visit in person.</p>
+    <p>Most of what a study-abroad consultancy actually does, reviewing documents, comparing university requirements, tracking application status, preparing visa paperwork, is desk work that does not require a physical meeting. ILMERA is based in Coorg and supports students across India by phone, WhatsApp and video call, with documents shared digitally.</p>
 
     <p>If you would rather talk it through directly, a phone call or video call is the fastest way to get a straight answer about your specific situation. You can also read about the <a href="/about" style="color:var(--gold);">team behind ILMERA</a> or the <a href="/services" style="color:var(--gold);">destinations and services</a> we cover.</p>
 
