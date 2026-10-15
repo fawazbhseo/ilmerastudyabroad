@@ -55,6 +55,7 @@
         <li><a href="/services">Services</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact">Contact</a></li>
+        <?php if ($directoryLink = ilmera_link('/all-pages', 'All pages')): ?><li><?= $directoryLink ?></li><?php endif; ?>
       </ul>
     </div>
     <div>

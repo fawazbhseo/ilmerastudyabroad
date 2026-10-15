@@ -118,6 +118,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div style="display:flex;gap:20px;">
       <a href="/privacy-policy" style="font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;">Privacy Policy</a>
       <a href="/terms" style="font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;">Terms of Use</a>
+      <?= ilmera_link('/all-pages', 'All pages', ['style' => 'font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;']) ?>
     </div>
   </div>
 </footer>
