@@ -8,7 +8,7 @@
 <meta name="description" content="The document checklist for studying abroad from India: academic records, proof of funds, passport, language proof and country-specific extras like APS and blocked accounts, updated October 2026."/>
 <meta name="keywords" content="documents required to study abroad from india, study abroad checklist, student visa documents, APS certificate, blocked account germany"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see TODO_FOR_OWNER.md -->
+<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>

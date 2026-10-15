@@ -365,6 +365,6 @@ funding and eligibility claims still need verification:
 
 **Editorial release checks for all three drafts:** meta/JSON-LD/byline claims
 that the posts are updated or reviewed in October 2026 are not evidence of
-verification. The source comments still refer to a non-existent
-`TODO_FOR_OWNER.md`; use this inventory for sign-off. Retained `noindex`
+verification. The source comments point to
+`flagged-items-for-verification.md`; use this inventory for sign-off. Retained `noindex`
 while repairing paths does not restrict direct access to deployed PHP files.

@@ -9,6 +9,8 @@
 - Removed the Terms reference to in-person meetings and renamed Contact
   "Office Hours" to "Counselling Hours", keeping the existing schedule.
   Updated both pages' sitemap `lastmod` values for these copy changes.
+- Updated all 3 draft HTML comments to point to the verification inventory
+  instead of the missing owner TODO file; their `noindex` tags are unchanged.
 - The initial repair notes below describe the earlier 14-URL sitemap;
   this follow-up supersedes those counts and the draft-sitemap caveat.
 

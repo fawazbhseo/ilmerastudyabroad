@@ -8,7 +8,7 @@
 <meta name="description" content="Which scholarships can Indian students actually get? Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises, updated October 2026."/>
 <meta name="keywords" content="scholarships for indian students, study abroad scholarships, italy DSU scholarship, germany free education, government scholarships"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see TODO_FOR_OWNER.md -->
+<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>

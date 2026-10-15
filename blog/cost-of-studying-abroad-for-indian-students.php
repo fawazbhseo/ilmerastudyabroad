@@ -8,7 +8,7 @@
 <meta name="description" content="How much does it cost to study abroad from India? A country-by-country comparison of tuition and living costs across Germany, Italy, the UK, Russia and more, updated October 2026."/>
 <meta name="keywords" content="cost of studying abroad for indian students, cheapest country to study abroad, study abroad cost comparison, tuition fees germany italy russia"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see TODO_FOR_OWNER.md -->
+<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>
