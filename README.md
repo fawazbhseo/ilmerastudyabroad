@@ -1,7 +1,8 @@
 # ILMERA Study Abroad: Site Source
 
 Plain PHP marketing site served by Apache for ILMERA Study Abroad, based in
-Coorg, Kodagu, Karnataka. ILMERA has no physical office or branch anywhere.
+Coorg, Kodagu, Karnataka. ILMERA was founded in 2026 and has no physical
+office or branch anywhere.
 The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp
 and video call.
 
@@ -315,7 +316,7 @@ content pages must be registered in `ilmera_static_pages()` as appropriate.
 
 ## Phase 1 repairs
 
-The homepage and About stats render `9`, `3`, `4` and `2023` directly in
+The homepage and About stats render `9`, `3`, `4` and `2026` directly in
 HTML. Their count-up code is removed. Hero `.ms` and HUD values and all
 unrelated design and animation remain unchanged.
 

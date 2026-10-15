@@ -228,7 +228,8 @@ this repair. The Phase 1 changes supersede older path, count, office-wording
 and sitemap-date descriptions below.
 
 1. **Counter repair:** `index.php` and `about.php` render the final values
-   `9`, `3`, `4` and `2023` in `.stat-num` / `.big-num` HTML. Removed their
+   `9`, `3`, `4` and the founding year in `.stat-num` / `.big-num` HTML
+   (the founding year was corrected to 2026 in Phase 6). Removed their
    count-up callbacks and helper. Kept hero `.ms`, HUD values and unrelated
    entrance animations unchanged.
 2. **Blog directory:** used `git mv` to rename `blogs/` to `blog/`, removed
@@ -407,7 +408,7 @@ complete." Fixed extensively:
 - Hero stats block: replaced fabricated `50+ Students Placed / 30+ Partner
   Universities / 9 Destinations / 98% Visa Success Rate` with neutral,
   verifiable stats: `9 Study Destinations / 3 Named Counsellors / 4 Languages
-  Spoken / 2023 Founded`.
+  Spoken / Founded year (corrected to 2026 in Phase 6)`.
 - "Special Categories" backlog card: removed "2nd PU" / "PU Fail" language,
   reframed as "Academic Backlogs? / Backlogs Accepted."
 - "Study for Free" card list items: removed 3 remaining em dashes

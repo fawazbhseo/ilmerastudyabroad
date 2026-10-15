@@ -97,7 +97,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
 
       "description": "ILMERA Study Abroad is an Indian overseas education consultancy offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. It helps students with low marks or academic backlogs study abroad, matching each profile to countries and universities that will realistically admit them.",
       "slogan": "Your Gateway to Global Education",
-      "foundingDate": "2023",
+      "foundingDate": "2026",
       "contactPoint": [
         {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service","email":"info@ilmerastudyabroad.com","areaServed":"IN","availableLanguage":["English","Kannada","Malayalam","Hindi"]},
         {"@type":"ContactPoint","telephone":"+919481084038","contactType":"customer service","areaServed":"IN"},
@@ -576,7 +576,7 @@ img{max-width:100%;height:auto;}
       <div class="ms"><b>9</b><span>Study Destinations</span></div>
       <div class="ms"><b>3</b><span>Named Counsellors</span></div>
       <div class="ms"><b>4</b><span>Languages Spoken</span></div>
-      <div class="ms"><b>2023</b><span>Founded</span></div>
+      <div class="ms"><b>2026</b><span>Founded</span></div>
     </div>
   </div>
   <div class="scroll-ind" id="scrollInd"><span>Explore</span><div class="scroll-arr"></div></div>
@@ -603,7 +603,7 @@ img{max-width:100%;height:auto;}
                 <div class="stat-item"><span class="big-num cu" data-target="3" data-suffix="">3</span><span class="stat-desc">Named Counsellors</span></div>
 
         <div class="stat-item"><span class="big-num cu" data-target="4" data-suffix="">4</span><span class="stat-desc">Languages Spoken</span></div>
-               <div class="stat-item"><span class="big-num cu" data-target="2023" data-suffix="">2023</span><span class="stat-desc">Founded</span></div>
+               <div class="stat-item"><span class="big-num cu" data-target="2026" data-suffix="">2026</span><span class="stat-desc">Founded</span></div>
 
       </div>
     </div>
@@ -827,7 +827,7 @@ setInterval(spawnEl,1600);for(var si=0;si<6;si++)setTimeout(spawnEl,si*700);
 
 /* ── HUD PARALLAX (desktop only) ── */
 if(!isMob()){
-  var hudData=[{num:'9',lbl:'Study Destinations',x:'5%',y:'22%',depth:.11},{num:'3',lbl:'Named Counsellors',x:'76%',y:'22%',depth:.09},{num:'4',lbl:'Languages Spoken',x:'5%',y:'65%',depth:.13},{num:'2023',lbl:'Founded',x:'76%',y:'65%',depth:.08}];
+  var hudData=[{num:'9',lbl:'Study Destinations',x:'5%',y:'22%',depth:.11},{num:'3',lbl:'Named Counsellors',x:'76%',y:'22%',depth:.09},{num:'4',lbl:'Languages Spoken',x:'5%',y:'65%',depth:.13},{num:'2026',lbl:'Founded',x:'76%',y:'65%',depth:.08}];
   var heroEl=document.getElementById('miniHero');var hudEls=[];
   hudData.forEach(function(d){var el=document.createElement('div');el.className='hud-item';el.innerHTML='<div class="hud-stat"><span class="hud-stat-num">'+d.num+'</span><span class="hud-stat-lbl">'+d.lbl+'</span></div>';el.style.cssText='position:absolute;left:'+d.x+';top:'+d.y+';pointer-events:none;z-index:8;';heroEl.appendChild(el);hudEls.push({el:el,depth:d.depth});});
   var hCX=0,hCY=0;(function hLoop(){var tx=(mx/W-.5)*2*.5,ty=(my/H-.5)*2*.3;hCX=lerp(hCX,tx,.08);hCY=lerp(hCY,ty,.08);hudEls.forEach(function(h){h.el.style.transform='translate3d('+(hCX*-50*h.depth)+'px,'+(hCY*-38*h.depth)+'px,0)';});requestAnimationFrame(hLoop);})();

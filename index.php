@@ -397,7 +397,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
                   <div class="hero-stat"><span class="stat-num" data-target="9" data-suffix="">9</span><span class="stat-lbl">Study Destinations</span></div>
       <div class="hero-stat"><span class="stat-num" data-target="3" data-suffix="">3</span><span class="stat-lbl">Named Counsellors</span></div>
       <div class="hero-stat"><span class="stat-num" data-target="4" data-suffix="">4</span><span class="stat-lbl">Languages Spoken</span></div>
-                  <div class="hero-stat"><span class="stat-num" data-target="2023" data-suffix="">2023</span><span class="stat-lbl">Founded</span></div>
+                  <div class="hero-stat"><span class="stat-num" data-target="2026" data-suffix="">2026</span><span class="stat-lbl">Founded</span></div>
 
     </div>
   </div>
