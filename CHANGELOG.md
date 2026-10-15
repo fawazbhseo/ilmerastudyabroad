@@ -1,5 +1,37 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 6 task 6: guidance cards, not student testimonials
+
+One follow-up task, one commit. The owner confirms ILMERA is new and has no
+placed students. These notes supersede earlier descriptions that could
+suggest completed student journeys or results; tasks 1-5 below are historical.
+
+- Renamed the homepage section to "Study Routes ILMERA Guides" and removed
+  all three decorative quote elements and their unused CSS. Card layout,
+  typography, includes and responsive behavior are retained. Renamed the
+  internal section comments so it is no longer described as testimonials.
+- Changed route-arrangement/track-record wording to prospective discussion
+  and guidance in the homepage cards/FAQ and backlog guide. The matching
+  homepage FAQ schema was updated with its visible answer.
+- Removed placement/job-result wording in the Latvia Services section and
+  replaced it with programme selection and application guidance.
+- Updated both LLM context files to state the owner-confirmed no-placed-
+  students policy, remove placing/current-arrival implications, and describe
+  pre-departure support as prospective guidance rather than completed cases.
+  No fees, dates, deadlines or destination rules were added from memory.
+- Audited public PHP, destination/place data and LLM text for placement,
+  testimonial, success-story and student-results implications. Generic
+  references to university graduates/alumni, academic results, document
+  replacement and contact-form success are not ILMERA student outcomes.
+- Validation: all 78 PHP files linted; all 42 HTML pages rendered cleanly;
+  JSON-LD parsed and homepage FAQ/schema text matched. Eighteen Chromium
+  combinations covered the three changed PHP pages at 375/768/1280px with
+  JavaScript on/off, checking the heading, three quote-free cards, responsive
+  card layout, menus and no runtime errors. External resources were blocked.
+  Draft status/data, publication gates and discovery files are unchanged;
+  LF/CRLF conventions are preserved and no em dashes were added. No deployment
+  or independent verification of existing destination rules was performed.
+
 ## Phase 6: founding year and source-gated destinations, 2026-10-15
 
 Five tasks, one commit per task. ILMERA was founded in 2026, as confirmed by

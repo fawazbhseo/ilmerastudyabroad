@@ -746,3 +746,36 @@ remain necessary. Actual HTTP headers, native Apache rewrites, production
 fonts/CDNs and deployment remain staging checks. Browser tests blocked
 external resources and supplied local images. Existing post/place statuses,
 place spreadsheet, Apache rules, sitemap and both LLM files are unchanged.
+
+
+## 19. No placed students or implied student results (OWNER CONFIRMED)
+
+The owner confirms ILMERA is new and has no placed students. Study-route
+cards and service descriptions must describe prospective counselling and
+application guidance, never testimonials, completed placements, admissions,
+scholarship awards, successful visas or other student results attributed to
+ILMERA. Do not imply a track record through phrases such as a most-common
+route already arranged, students already placed abroad or completed arrivals.
+
+The homepage section is now "Study Routes ILMERA Guides", with all three
+decorative quotation marks and their unused styling removed. Cards retain
+service labels and existing design rather than student names or review
+attribution. Route/FAQ wording and its matching schema use guidance language.
+Related wording in the backlog article, Latvia Services section and both
+LLM files is corrected. The LLM files explicitly record this owner-confirmed
+policy. Existing destination rules and figures were not independently checked
+or expanded; their source-review requirements elsewhere in this file remain.
+
+The content audit included public PHP, blog articles, destination/place data
+and both LLM files. Remaining references to university alumni, students'
+academic results, document replacement, form-submission success and explicitly
+historical removed content are not claims of ILMERA student outcomes. No
+student-result claims or testimonials were added. All draft statuses remain.
+
+Technical checks: all 78 PHP files linted, 42 pages rendered without PHP
+warnings/errors, schema JSON parsed, homepage FAQ/schema parity passed, and
+18 Chromium page/width/JavaScript combinations passed for the changed pages
+at 375/768/1280px, JS on/off. Three route cards remain with no quote decoration;
+responsive layout and menu behavior remain intact. External browser resources
+were blocked; local images were supplied. No test artifacts were committed.
+Native hosting behavior, production fonts and deployment still need staging.

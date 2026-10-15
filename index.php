@@ -165,7 +165,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
       "@type": "FAQPage",
       "@id": "https://ilmerastudyabroad.com/#faq",
       "mainEntity": [
-        {"@type":"Question","name":"Can I study abroad if I have academic backlogs?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. Russia is a route ILMERA arranges for students with academic backlogs, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying."}},
+        {"@type":"Question","name":"Can I study abroad if I have academic backlogs?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. Russia is a route students with academic backlogs can discuss with ILMERA, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying."}},
         {"@type":"Question","name":"Can I study abroad with low marks or a low percentage?","acceptedAnswer":{"@type":"Answer","text":"Yes, students with low marks can study abroad. Russia, Slovakia, Lithuania and Latvia have universities with more accessible entry requirements than many universities in the UK or US. ILMERA reviews your specific percentage and matches you to countries and universities suited to your profile."}},
         {"@type":"Question","name":"Can I study abroad without IELTS?","acceptedAnswer":{"@type":"Answer","text":"Yes, you can study abroad without IELTS in several countries. Russia and Lithuania commonly waive IELTS, and many programmes in Latvia, Slovakia and the Czech Republic accept a Medium-of-Instruction (MOI) letter or an internal English test instead. Germany also frequently waives IELTS when your prior education was in English."}},
         {"@type":"Question","name":"Which is the cheapest country to study abroad for Indian students?","acceptedAnswer":{"@type":"Answer","text":"For Indian students on a tight budget, the Czech Republic, Lithuania, Latvia, Russia and Slovakia are the most affordable study destinations, with much lower tuition and living costs than the UK. Germany's public universities charge little to no tuition, though you still need to fund living expenses."}},
@@ -308,13 +308,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 @media(max-width:768px){.why-grid{grid-template-columns:1fr;}.why-sec{padding:80px 0;}.why-card{padding:36px 28px;}}
 @media(min-width:769px) and (max-width:1024px){.why-grid{grid-template-columns:1fr 1fr;}}
 
-/* ─── TESTIMONIALS ────────────────────────────────── */
+/* STUDY ROUTES */
 .testi-sec{position:relative;z-index:10;padding:130px 0;background:rgba(4,6,15,0.97);}
 .testi-hdr{text-align:center;margin-bottom:64px;}
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1100px;margin:0 auto;}
 .testi-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:40px;border-radius:16px;position:relative;overflow:hidden;transition:transform .35s,border-color .35s;}
 .testi-card:hover{transform:translateY(-6px);border-color:rgba(201,168,76,0.3);}
-.testi-qm{position:absolute;top:8px;right:18px;font-family:'Cormorant Garamond',serif;font-size:110px;color:rgba(255,255,255,0.05);line-height:1;pointer-events:none;user-select:none;}
 .testi-text{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;color:var(--grey-mid);line-height:1.7;margin-bottom:24px;position:relative;z-index:1;}
 .testi-name{font-size:16px;font-weight:600;color:var(--white);margin-bottom:4px;}
 .testi-dest{font-size:13px;font-weight:300;color:var(--gold);}
@@ -486,7 +485,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <article class="why-card reveal">
         <svg class="why-icon" viewBox="0 0 48 48" fill="none"><path d="M8 24 C8 14 14 8 24 8 C34 8 40 14 40 24" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 24 C8 34 14 40 24 40 C34 40 40 34 40 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/><circle cx="8" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="8" r="3" fill="currentColor"/><circle cx="40" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="40" r="3" fill="currentColor"/></svg>
         <h3>End-to-End Support</h3>
-        <p>From your very first enquiry to landing safely at your destination, ILMERA is your constant companion for admissions, visas, scholarships, and pre-departure prep, all in one place.</p>
+        <p>ILMERA offers guidance on admissions, visas, scholarships and pre-departure preparation, starting with your enquiry.</p>
       </article>
       <article class="why-card reveal">
         <svg class="why-icon" viewBox="0 0 48 48" fill="none"><polygon points="24,4 29,18 44,18 32,27 37,42 24,33 11,42 16,27 4,18 19,18" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="24" cy="24" r="5" fill="currentColor" opacity="0.25"/></svg>
@@ -497,29 +496,26 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
+<!-- STUDY ROUTES -->
 <section class="testi-sec">
   <div class="container">
     <div class="testi-hdr">
             <span class="sec-label">How We Help</span>
-      <h2 class="sec-h2 lt reveal">Real Study Routes We Arrange</h2>
+      <h2 class="sec-h2 lt reveal">Study Routes ILMERA Guides</h2>
     </div>
     <div class="testi-grid">
             <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
         <p class="testi-text">We guide students toward destinations that fit their goals, like the UK's Graduate visa: 2 years of post-study work for applications on or before 31 December 2026, and 18 months from 1 January 2027, per gov.uk.</p>
         <div class="testi-name">What ILMERA Helps With</div>
         <div class="testi-dest">&#127468;&#127463; United Kingdom: Admissions &amp; Visa</div>
       </article>
       <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
         <p class="testi-text">We help eligible students apply for Italy's regional DSU scholarships, which can cover tuition plus a living stipend and subsidised housing and meals, based on income (ISEE) and merit.</p>
         <div class="testi-name">What ILMERA Helps With</div>
         <div class="testi-dest">&#127470;&#127481; Italy: DSU Scholarship Guidance</div>
       </article>
       <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
-        <p class="testi-text">For students with backlogs or a low percentage, we arrange low-cost, no-IELTS bachelor's routes in Russia and other budget-friendly countries where such profiles are accepted.</p>
+        <p class="testi-text">For students with backlogs or a low percentage, we discuss low-cost, no-IELTS bachelor's routes in Russia and other budget-friendly countries where such profiles are accepted.</p>
         <div class="testi-name">What ILMERA Helps With</div>
         <div class="testi-dest">&#127479;&#127482; Russia: Backlogs &amp; No-IELTS Routes</div>
       </article>
@@ -586,7 +582,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </div>
     <div style="max-width:820px;margin:0 auto;">
 
-      <details class="il-faq"><summary>Can I study abroad if I have academic backlogs?</summary><div><p>In many cases, yes. Russia is a route ILMERA arranges for students with academic backlogs, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying.</p></div></details>
+      <details class="il-faq"><summary>Can I study abroad if I have academic backlogs?</summary><div><p>In many cases, yes. Russia is a route students with academic backlogs can discuss with ILMERA, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying.</p></div></details>
 
       <details class="il-faq"><summary>Can I study abroad with low marks or a low percentage?</summary><div><p>Yes, students with low marks can study abroad. Russia, Slovakia, Lithuania and Latvia have universities with more accessible entry requirements than many universities in the UK or US. ILMERA reviews your specific percentage and matches you to countries and universities suited to your profile.</p></div></details>
 

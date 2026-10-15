@@ -575,13 +575,13 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-light">
       <div class="country-flag-badge" style="background:rgba(150,0,0,0.08);border-color:rgba(180,0,0,0.35);color:#8b0000;"><span class="flag">&#127473;&#127483;</span> Low Fees &middot; Part-Time Work</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><rect x="8" y="20" width="36" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M18 20 V15 A8 8 0 0 1 34 15 V20" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="26" cy="31" r="5" stroke="currentColor" stroke-width="1.3"/></svg>
-      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('latvia')) ?>" style="color:inherit;text-decoration:none;">Study in Latvia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Fees. Jobs. Placement.</em></h2>
-      <p>Latvia combines low tuition fees with affordable living costs and part-time work opportunities for students. Career and placement support helps you graduate job-ready.</p>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('latvia')) ?>" style="color:inherit;text-decoration:none;">Study in Latvia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Study Options. Application Guidance.</em></h2>
+      <p>Latvia combines low tuition fees with affordable living costs and part-time work opportunities for students. Discuss your study plans and application questions with ILMERA.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#128201;</span> Low marks accepted, no high scores needed</li>
         <li><span class="li-ico">&#128176;</span> Low tuition fees and affordable living costs</li>
         <li><span class="li-ico">&#128188;</span> Part-time work opportunities for students</li>
-        <li><span class="li-ico">&#127919;</span> Strong placement support and career services</li>
+        <li><span class="li-ico">&#127919;</span> Programme selection and application guidance</li>
         <li><span class="li-ico">&#127466;&#127482;</span> EU country with Schengen access</li>
         <li><span class="li-ico">&#127760;</span> English-taught programs available</li>
       </ul>
