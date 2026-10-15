@@ -666,6 +666,16 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </section>
 
+<?php $latestGuides = array_slice(ilmera_published_posts(true), 0, 3); ?>
+<?php if ($latestGuides): ?>
+<section class="testi-sec" id="latest-guides" aria-label="Latest guides">
+  <div class="container">
+    <span class="sec-label">From the Blog</span>
+    <?php ilmera_render_guides($latestGuides, 'Latest guides'); ?>
+  </div>
+</section>
+<?php endif; ?>
+
 <!-- CTA -->
 <section class="cta-sec">
 

@@ -160,6 +160,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
+    <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
+    <?= ilmera_post_service_links($post['slug']) ?>
     <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>

@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/place-data.php';
 require_once __DIR__ . '/breadcrumbs.php';
+require_once __DIR__ . '/links.php';
 
 $placeData = ilmera_place_load($place ?? null);
 if (!$placeData) {
@@ -10,7 +11,6 @@ if (!$placeData) {
     return;
 }
 $placeLive = ilmera_place_indexable($placeData);
-$GLOBALS['ilmera_place_live'] = $placeLive;
 if (!$placeLive) header('X-Robots-Tag: noindex, follow');
 $placePath = ilmera_place_url($placeData);
 $placeUrl = 'https://ilmerastudyabroad.com' . $placePath;
@@ -20,16 +20,21 @@ $placeDescription = $placeData['intro_answer'] !== '' ? $placeData['intro_answer
 $placeLinks = [];
 foreach ($placeData['nearby'] as $slug) {
     $target = ilmera_place_load($slug);
-    if ($target && (!$placeLive || ilmera_place_indexable($target))) $placeLinks[] = $target;
+    if ($target && ilmera_target_published(ilmera_place_url($target))) $placeLinks[] = $target;
 }
 $breadcrumbs = [['name' => 'Home', 'url' => '/']];
 $parents = $placeData['slug'] === 'karnataka' ? [] : ['karnataka'];
 if ($placeData['type'] === 'town' && $placeData['district'] === 'Kodagu') $parents[] = 'kodagu';
+$placeParents = [];
 foreach ($parents as $slug) {
     $parent = ilmera_place_load($slug);
-    if ($parent && ilmera_place_indexable($parent)) $breadcrumbs[] = ['name' => $parent['name'], 'url' => ilmera_place_url($parent)];
+    if ($parent && ilmera_target_published(ilmera_place_url($parent))) {
+        $placeParents[] = $parent;
+        $breadcrumbs[] = ['name' => $parent['name'], 'url' => ilmera_place_url($parent)];
+    }
 }
 $breadcrumbs[] = ['name' => $placeData['name'], 'url' => $placePath];
+$placeLinks = array_values(array_filter($placeLinks, static function ($target) use ($parents) { return !in_array($target['slug'], $parents, true); }));
 $placeGraph = [
     ['@type' => 'WebPage', '@id' => $placeUrl . '#webpage', 'url' => $placeUrl, 'name' => $placeTitle, 'description' => $placeDescription, 'inLanguage' => 'en-IN', 'breadcrumb' => ['@id' => $placeUrl . '#breadcrumb'], 'mainEntity' => ['@id' => $placeUrl . '#service']],
     ['@type' => 'Service', '@id' => $placeUrl . '#service', 'name' => $placeHeading . ' | ILMERA Study Abroad', 'serviceType' => 'Study abroad counselling', 'url' => $placeUrl, 'areaServed' => ['@type' => 'AdministrativeArea', 'name' => 'Karnataka, India']]
@@ -173,18 +178,29 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <p>ILMERA Study Abroad is based in Coorg, Kodagu, and has no physical office. Counselling is by phone, WhatsApp and video call. The initial consultation is free; academic and financial documents are shared digitally for review. University admissions, scholarships and visas are not guaranteed.</p>
       <p>Counsellors review marks, backlogs, budget and course goals, discuss a university shortlist, and guide applications, visa documentation and pre-departure preparation.</p>
       <p>Visa-document guidance is provided through the same contact channels. Any visa appointment is the student's own appointment at the relevant consulate or VFS centre, not a meeting with ILMERA.</p>
-      <p><a href="/contact" style="color:var(--gold);">Arrange a consultation</a> or read about <a href="/blog/study-abroad-counselling-from-coorg" style="color:var(--gold);">counselling from Coorg</a>.</p>
+      <p><a href="/contact" style="color:var(--gold);">Arrange a consultation</a> or read about <?= ilmera_post_link('study-abroad-counselling-from-coorg', 'counselling from Coorg', ['style' => 'color:var(--gold);']) ?: 'counselling from Coorg' ?>.</p>
     </section>
+<?php if ($placeParents): ?>
+    <section>
+      <h2>Parent location guides</h2>
+      <ul>
+<?php foreach ($placeParents as $parent): ?>
+        <li><?= ilmera_place_link($parent['slug'], ['style' => 'color:var(--gold);']) ?></li>
+<?php endforeach; ?>
+      </ul>
+    </section>
+<?php endif; ?>
 <?php if ($placeLinks): ?>
     <section>
       <h2><?= $placeData['slug'] === 'kodagu' ? 'Kodagu place guides' : 'Related place guides' ?></h2>
       <ul>
 <?php foreach ($placeLinks as $target): ?>
-        <li><a href="<?= ilmera_place_escape(ilmera_place_url($target)) ?>" style="color:var(--gold);"><?= ilmera_place_escape($target['name']) ?></a></li>
+        <li><?= ilmera_place_link($target['slug'], ['style' => 'color:var(--gold);']) ?></li>
 <?php endforeach; ?>
       </ul>
     </section>
 <?php endif; ?>
+    <?php ilmera_render_guides(ilmera_place_guides()); ?>
   </div>
 </section>
 </main>

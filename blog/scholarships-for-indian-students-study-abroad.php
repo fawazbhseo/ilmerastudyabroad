@@ -152,10 +152,10 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </table>
 
     <h3>Italy DSU in Practice</h3>
-    <p>DSU is administered regionally, so the income threshold and stipend differ between, say, a university in Lombardy and one in Sicily. International applicants file an equivalent ISEE declaration through the regional body, alongside translated and legalised documents. Renewal in later years depends on earning the required credits. The full assessment is explained in our <a href="/blog/italy-dsu-scholarship-eligibility">DSU eligibility guide</a> and on our <a href="/services#italy">Study in Italy</a> page.</p>
+    <p>DSU is administered regionally, so the income threshold and stipend differ between, say, a university in Lombardy and one in Sicily. International applicants file an equivalent ISEE declaration through the regional body, alongside translated and legalised documents. Renewal in later years depends on earning the required credits. The full assessment is explained in our <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility guide') ?: 'DSU eligibility guide' ?> and on our <a href="/services#italy">Study in Italy</a> page.</p>
 
     <h3>Germany Without a Scholarship</h3>
-    <p>Because most German public universities charge no tuition, the funding question shifts to living costs, which the visa requires you to prove through a blocked account. That makes Germany one of the cheapest total-cost destinations even without any award. The India-specific APS certificate is the entry gate; read the <a href="/blog/study-in-germany-free-aps-certificate">APS guide</a> for the process.</p>
+    <p>Because most German public universities charge no tuition, the funding question shifts to living costs, which the visa requires you to prove through a blocked account. That makes Germany one of the cheapest total-cost destinations even without any award. The India-specific APS certificate is the entry gate; read the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS guide') ?: 'APS guide' ?> for the process.</p>
 
     <h2>How to Judge a Scholarship Offer Critically</h2>
     <ol>
@@ -176,6 +176,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
+    <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
+    <?= ilmera_post_service_links($post['slug']) ?>
     <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>

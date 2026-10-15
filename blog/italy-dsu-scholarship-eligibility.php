@@ -148,7 +148,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <li><strong>Renewal conditions:</strong> keeping the scholarship in year two depends on hitting a minimum credit threshold, which is a separate condition from the one used for first-year eligibility.</li>
     </ul>
 
-    <p>The honest version of this: DSU can make a degree in Italy genuinely affordable, but only if the income declaration is filed correctly and on the region's timeline. That is the part of an Italy application where a document error costs a scholarship, not the entrance exam. For the destination overview, see our <a href="/services#italy" style="color:var(--gold);">Study in Italy</a> page, and the related guide on <a href="/blog/study-abroad-with-academic-backlogs" style="color:var(--gold);">studying abroad with academic backlogs</a>.</p>
+    <p>The honest version of this: DSU can make a degree in Italy genuinely affordable, but only if the income declaration is filed correctly and on the region's timeline. That is the part of an Italy application where a document error costs a scholarship, not the entrance exam. For the destination overview, see our <a href="/services#italy" style="color:var(--gold);">Study in Italy</a> page, and the related guide on <?= ilmera_post_link('study-abroad-with-academic-backlogs', 'studying abroad with academic backlogs', ['style' => 'color:var(--gold);']) ?: 'studying abroad with academic backlogs' ?>.</p>
 
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
@@ -158,6 +158,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
+    <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
+    <?= ilmera_post_service_links($post['slug']) ?>
     <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>

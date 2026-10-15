@@ -180,8 +180,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <h2>Where the Free-Education Routes Actually Apply</h2>
     <p>Two of the nine destinations can genuinely approach zero tuition:</p>
     <ul>
-      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <a href="/blog/study-in-germany-free-aps-certificate">APS certificate</a> for the India-specific requirement.</li>
-      <li><strong>Italy:</strong> public universities charge tuition, but the regional DSU scholarship, assessed mainly on family income (ISEE) and merit, can cover tuition and add a stipend plus subsidised accommodation and meals. Amounts are set regionally and revised periodically. See our guide on <a href="/blog/italy-dsu-scholarship-eligibility">DSU eligibility</a>.</li>
+      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS certificate') ?: 'APS certificate' ?> for the India-specific requirement.</li>
+      <li><strong>Italy:</strong> public universities charge tuition, but the regional DSU scholarship, assessed mainly on family income (ISEE) and merit, can cover tuition and add a stipend plus subsidised accommodation and meals. Amounts are set regionally and revised periodically. See our guide on <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility') ?: 'DSU eligibility' ?>.</li>
     </ul>
     <p>Slovakia offers free tuition in some Slovak-language branches, which requires learning the language through a preparatory year; English-taught programmes there are paid.</p>
 
@@ -204,6 +204,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
+    <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
+    <?= ilmera_post_service_links($post['slug']) ?>
     <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>

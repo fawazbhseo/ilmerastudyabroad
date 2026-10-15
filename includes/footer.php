@@ -1,8 +1,9 @@
-<?php /* includes/footer.php */ ?>
+<?php require_once __DIR__ . '/links.php'; ?>
 <style>
 /* FOOTER */
 #il-footer{background:#04060f;border-top:1px solid rgba(255,255,255,0.07);padding:80px 0 40px;position:relative;z-index:10;}
-.ft-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:64px;}
+.ft-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:40px;margin-bottom:64px;}
+.ft-grid > div{min-width:0;}
 .ft-logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:4px;}
 .ft-logo img{height:34px;width:auto;}
 .ft-lname{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:22px;color:#fff;letter-spacing:.02em;}
@@ -70,6 +71,31 @@
         <li><a href="/services#gcc">&#127760; GCC Countries</a></li>
       </ul>
     </div>
+    <?php $footerGuides = ilmera_published_posts(); ?>
+    <?php if ($footerGuides): ?>
+    <div>
+      <h4 class="ft-h4">Guides</h4>
+      <ul class="ft-links">
+        <?php foreach ($footerGuides as $guide): ?>
+        <li><?= ilmera_post_link($guide['slug']) ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <?php endif; ?>
+    <?php $footerLocations = ilmera_place_groups(); ?>
+    <?php if ($footerLocations): ?>
+    <div>
+      <h4 class="ft-h4">Locations</h4>
+      <?php foreach ($footerLocations as $group => $locations): ?>
+      <h5 style="color:var(--silver);font-weight:400;margin:16px 0 10px;"><?= ilmera_post_escape($group) ?></h5>
+      <ul class="ft-links">
+        <?php foreach ($locations as $location): ?>
+        <li><?= ilmera_place_link($location['slug']) ?></li>
+        <?php endforeach; ?>
+      </ul>
+      <?php endforeach; ?>
+    </div>
+    <?php endif; ?>
     <div>
       <h4 class="ft-h4">Contact</h4>
       <a href="tel:+919019557427" class="ft-ca">&#128222; +91 90195 57427</a>

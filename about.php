@@ -591,6 +591,7 @@ img{max-width:100%;height:auto;}
                 <h2>Why ILMERA Study Abroad<br>Exists</h2>
 
         <p>ILMERA Study Abroad was founded on a simple premise: every deserving student should have a clear, honest, supported pathway to a world-class education, regardless of where they come from. As part of ILMERA Group, the consultancy is run by three named, contactable people rather than a call centre.</p>
+      <p>Explore our <?= ilmera_link('/services', 'destinations and services', ['style' => 'color:inherit;text-decoration:underline;']) ?>, read the <?= ilmera_link('/blog/', 'published guides', ['style' => 'color:inherit;text-decoration:underline;']) ?>, or meet the <?= ilmera_link('/about#team', 'ILMERA team', ['style' => 'color:inherit;text-decoration:underline;']) ?>.</p>
                 <p>ILMERA was built by people who went through the process themselves. Founder Jabir KJ is currently studying at the University of Rome Tor Vergata in Italy, and has personally dealt with the applications, the funding paperwork and the visa appointments he now guides students through. That is the difference between advice read from a brochure and advice from someone who has actually filed the documents.</p>
 
                 <p>ILMERA Study Abroad guides students to universities across nine destinations: Germany, Italy, the United Kingdom, the Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. The consultancy specialises in students other consultancies turn away, including those with academic backlogs, a low percentage, or no IELTS, because those are exactly the profiles that Russia, Slovakia, Lithuania and Latvia routinely accept.</p>
@@ -677,7 +678,7 @@ img{max-width:100%;height:auto;}
 </section>
 
 <!-- ═══ TEAM ═══ -->
-<section class="s-wrap team-sec">
+<section class="s-wrap team-sec" id="team">
   <div class="container">
     <div class="team-hdr">
       <span class="sec-label">The People Behind ILMERA</span>

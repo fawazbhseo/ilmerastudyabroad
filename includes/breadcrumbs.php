@@ -1,16 +1,9 @@
 <?php
-require_once __DIR__ . '/posts.php';
-require_once __DIR__ . '/place-data.php';
+require_once __DIR__ . '/links.php';
 
 function ilmera_breadcrumb_parent_ready($url)
 {
-    $path = rawurldecode(parse_url($url, PHP_URL_PATH) ?: '/');
-    $path = preg_replace('/\.php\/?$/i', '', $path);
-    if (preg_match('#^/blog/([a-z0-9-]+)/?$#i', $path, $match)) return ilmera_post_published(strtolower($match[1]));
-    if (preg_match('#^/study-abroad-(?:counselling|consultants-in)-([a-z0-9-]+)/?$#i', $path, $match)) {
-        return ilmera_place_indexable(ilmera_place_load(strtolower($match[1])));
-    }
-    return in_array($path, ['/', '/about', '/contact', '/services', '/blog', '/blog/', '/terms', '/privacy-policy', '/all-pages'], true);
+    return ilmera_target_published($url);
 }
 
 function ilmera_breadcrumb_trail($trail)

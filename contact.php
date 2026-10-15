@@ -367,6 +367,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <!-- FORM -->
     <div class="form-card reveal-l">
       <h2>Send Us a Message</h2>
+      <p style="margin-bottom:24px;color:var(--grey-dark);">Before your consultation, explore our <?= ilmera_link('/services', 'destinations and services', ['style' => 'color:inherit;text-decoration:underline;']) ?>, read the <?= ilmera_link('/blog/', 'published guides', ['style' => 'color:inherit;text-decoration:underline;']) ?>, or meet the <?= ilmera_link('/about#team', 'ILMERA team', ['style' => 'color:inherit;text-decoration:underline;']) ?>.</p>
       <form id="contactForm" action="https://formsubmit.co/info@ilmerastudyabroad.com" method="POST" novalidate>
 
         <!-- FormSubmit configuration -->

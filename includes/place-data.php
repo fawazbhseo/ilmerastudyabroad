@@ -1,5 +1,5 @@
 <?php
-/* Shared place renderer. Content comes from a reviewed place data array. */
+/* Shared place data normalization and publication readiness checks. */
 if (!function_exists('ilmera_place_text')) {
     function ilmera_place_text($value)
     {
@@ -101,11 +101,8 @@ if (!function_exists('ilmera_place_text')) {
             $path = html_entity_decode($match[2], ENT_QUOTES | ENT_HTML5, 'UTF-8');
             $parts = parse_url($path);
             if ($parts === false || isset($parts['host']) || isset($parts['scheme']) || strpos($path, '//') === 0 || strpos($path, '\\') !== false) return $match[1];
-            $target = null;
-            if (preg_match('#^/study-abroad-(?:counselling|consultants-in)-([a-z0-9-]+)(?:\.php)?/?$#i', rawurldecode($parts['path'] ?? ''), $slugMatch)) {
-                $target = ilmera_place_load(strtolower($slugMatch[1]));
-                if (!$target || (!empty($GLOBALS['ilmera_place_live']) && !ilmera_place_indexable($target))) return $match[1];
-            }
+            require_once __DIR__ . '/links.php';
+            if (!ilmera_target_published($path)) return $match[1];
             return '<a href="' . $match[2] . '" style="color:var(--gold);">' . $match[1] . '</a>';
         }, $escaped);
     }

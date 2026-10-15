@@ -416,6 +416,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         </div>
       </div>
       <a href="/contact" class="svc-cta">Apply for Germany &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('germany'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -461,6 +462,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         </ul>
       </div>
       <a href="/contact" class="svc-cta">Check Italy Scholarship Options &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('italy'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -492,6 +494,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li><span class="li-ico">&#127891;</span> Strong alumni networks worldwide</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for UK &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('uk'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -523,6 +526,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         </ul>
       </div>
       <a href="/contact" class="svc-cta">Apply for Czech Republic &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('czech-republic'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -552,6 +556,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li><span class="li-ico">&#128188;</span> Part-time work opportunities available</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for Lithuania &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('lithuania'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -581,6 +586,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li><span class="li-ico">&#127760;</span> English-taught programs available</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for Latvia &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('latvia'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -612,6 +618,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
           <li><span class="li-ico">&#127760;</span> English-medium programmes available</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for Slovakia &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('slovakia'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -646,6 +653,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li><span class="li-ico">&#127963;</span> Top-ranked universities with quality education</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for Russia &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('russia'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">
@@ -674,6 +682,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li><span class="li-ico">&#127757;</span> Gateway to global career opportunities</li>
       </ul>
       <a href="/contact" class="svc-cta">Apply for GCC &rarr;</a>
+      <?php ilmera_render_guides(ilmera_country_guides('gcc'), 'Planning guides', 3); ?>
     </div>
     <div class="shape-box">
       <div style="position:relative;width:200px;height:200px;">

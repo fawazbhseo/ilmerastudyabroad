@@ -169,8 +169,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><th>Destination</th><th>Extra documents beyond the core</th></tr>
       </thead>
       <tbody>
-        <tr><td>Germany</td><td><a href="https://www.aps-india.de/" target="_blank" rel="noopener">APS certificate</a> for Indian applicants, blocked account (Sperrkonto) confirmation, German or English proficiency per programme. See our <a href="/blog/study-in-germany-free-aps-certificate">APS guide</a>.</td></tr>
-        <tr><td>Italy</td><td>Pre-enrolment on the university portal, ISEE income declaration for the DSU scholarship, translated and legalised academic documents, CIMEA or equivalent statements where asked. See our <a href="/blog/italy-dsu-scholarship-eligibility">DSU eligibility guide</a>.</td></tr>
+        <tr><td>Germany</td><td><a href="https://www.aps-india.de/" target="_blank" rel="noopener">APS certificate</a> for Indian applicants, blocked account (Sperrkonto) confirmation, German or English proficiency per programme. See our <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS guide') ?: 'APS guide' ?>.</td></tr>
+        <tr><td>Italy</td><td>Pre-enrolment on the university portal, ISEE income declaration for the DSU scholarship, translated and legalised academic documents, CIMEA or equivalent statements where asked. See our <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility guide') ?: 'DSU eligibility guide' ?>.</td></tr>
         <tr><td>United Kingdom</td><td>CAS letter from the university, TB test certificate where required, English proficiency per course. Graduate visa rules are date-dependent: 2 years for applications on or before 31 December 2026, 18 months from 1 January 2027, per gov.uk.</td></tr>
         <tr><td>Russia</td><td>Invitation letter issued through the university, HIV test certificate, recognised medical insurance.</td></tr>
         <tr><td>Czech Republic, Lithuania, Latvia, Slovakia</td><td>Apostilled or superlegalised documents per the consulate, accommodation confirmation, travel insurance for the entry period.</td></tr>
@@ -198,6 +198,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
     </div>
 
+    <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
+    <?= ilmera_post_service_links($post['slug']) ?>
     <a href="/blog/" class="back-link">&larr; Back to all articles</a>
   </div>
 </section>
