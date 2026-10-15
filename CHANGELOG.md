@@ -1,5 +1,49 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 8: sourced Slovakia draft and publication blockers, 2026-10-15
+
+Two tasks, one commit per task. All nine destination statuses remain draft.
+This section supersedes historical empty-Slovakia-record notes below; seven
+destination records remain empty, while Czech and Slovakia contain supplied
+sourced content. No destination was published or deployed.
+
+1. Replaced destinations/slovakia.php with the complete owner-supplied file,
+   retaining the exact existing ilmera_summary and summary_provenance values.
+   Status remains draft. Supplied source labels, four URLs, host list, review
+   dates and facts are preserved; no facts were added from memory. The data
+   model accepts six sourced categories (intro, costs, scholarships, visa
+   steps, documents and FAQs), but technical acceptance is not verification
+   or permission to publish. No source pages or supplied facts were
+   independently verified.
+2. Added verification section 21 with all four source URLs and required
+   publication blockers: explicit owner approval of mic.iom.sk as an IOM
+   information centre rather than a government host; written confirmation
+   from a Slovak university of the free-tuition wording for non-EU students,
+   which the owner reports conflicts with a non-official portal's 2,000 to
+   5,000 euros a year; and re-checking the embassy appointment method on the
+   embassy page. The conflicting portal has not been identified or verified
+   here, and its amount is not treated as an established fee. All remaining
+   supplied statements and review dates also need owner/source confirmation.
+
+The Slovakia page remains noindex and unlinked from live pages, sitemap.xml
+and LLM recommendations. Noindex is not access control. The CSV remains the
+unchanged empty template and needs reviewed Slovakia content before release.
+Follow the existing atomic status/CSV/sitemap/LLM release checklist only
+after resolving all blockers and obtaining explicit owner sign-off.
+
+Validation: all 78 PHP files linted and all 42 pages rendered without PHP
+errors. Checks passed for preserved summary/provenance, empty unused groups,
+six sourced categories, four exact source URLs, four visible/schema FAQ
+pairs, host boundaries, draft aliases and no incoming links to drafts. An
+isolated status-only published fixture passed without publishing repository
+content. Six Chromium cases at 375/768/1280px with JavaScript on/off passed
+for Slovakia's noindex, sources, native FAQs, layout and mobile menus.
+External resources were blocked; live source contents were not checked.
+Line-ending conventions are preserved and no em dashes were added. Other
+destination records, post/place statuses, shared helpers/header/footer,
+Apache rules, sitemap, CSV and both LLM files are unchanged. Native headers,
+Apache rewrites and production rendering still require staging checks.
+
 ## Phase 7: sourced Czech draft and prospective-guidance policy, 2026-10-15
 
 Three tasks, one commit per task. No destination was published or deployed.

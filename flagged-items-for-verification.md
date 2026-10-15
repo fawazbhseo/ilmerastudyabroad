@@ -858,3 +858,79 @@ Chromium cases covered the Czech draft at 375/768/1280px, JavaScript on/off,
 including noindex, native FAQs, layout, sources and mobile menus. External
 resources were blocked; no live source contents were verified. No test
 artifacts or synthetic published data are committed.
+
+
+## 21. Phase 8: Slovakia draft (OWNER VERIFICATION REQUIRED)
+
+The owner-supplied content is now in `destinations/slovakia.php`, with status
+still `draft`. Its existing ilmera_summary and summary_provenance are
+unchanged. This section supersedes earlier empty-Slovakia-record notes,
+including section 20's count of eight empty destination records. Czech and
+Slovakia now contain supplied sourced content; the other seven destination
+records remain empty drafts. All nine destinations remain draft.
+
+Slovakia has six sourced categories in the data model: intro, costs,
+scholarships, visa_steps, documents and faqs. There are four source URLs and
+four FAQs. Source coverage and host acceptance are technical checks only,
+not fact verification or editorial approval. No source page or supplied fact
+was independently verified by this build. The supplied 2026-10-15 dates are
+retained and must be confirmed against the actual review evidence.
+
+### Four source URLs: owner must open and confirm
+
+- [ ] Study in Europe (European Commission): Slovakia country profile:
+  https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia
+- [ ] IOM Migration Information Centre Slovakia: Studying at a university in Slovakia:
+  https://www.mic.iom.sk/en/news/894-studying-at-a-university-in-slovakia.html
+- [ ] Embassy of the Slovak Republic in New Delhi: National visa:
+  https://www.mzv.sk/en/web/dilli-en/services/national-visa
+- [ ] Embassy of the Slovak Republic in New Delhi: Contact and appointments:
+  https://mzv.sk/en/web/dilli-en/contact-us
+
+### Publication blockers
+
+- [ ] Approve IOM as an official source explicitly before publishing.
+  mic.iom.sk is an IOM information centre, not a government host. Its inclusion
+  in the supplied official_source_hosts array allows technical source
+  validation only; it does not record completed owner approval of IOM as an
+  official source. Review its authority and the exact statements cited.
+- [ ] Obtain written confirmation from a Slovak university of the free-tuition
+  wording for non-EU students before publishing. The owner reports a conflict
+  with a non-official portal that says 2,000 to 5,000 euros a year. The portal
+  name and URL were not supplied, and neither claim has been independently
+  resolved here. Confirm applicability to the intended student's nationality,
+  programme language, full-time status, institution and study duration; retain
+  the written evidence and reconcile the intro, costs and FAQ wording before
+  release. Do not treat the conflicting portal amount as a verified fee.
+- [ ] Re-check the embassy appointment method on the embassy page before
+  publishing and again before applying. Confirm that the supplied email
+  booking route and cons.delhi@mzv.sk apply to the intended study/national D
+  visa route; do not assume the present method remains current. Review both
+  the national-visa and contact/appointments pages listed above.
+- [ ] Confirm every other supplied statement against its linked source,
+  including the scholarship, budget, document, residence and insurance
+  wording, and record accurate checked-on and page-wide review dates.
+
+### Draft safeguards and release checks
+
+Status remains draft despite six sourced categories. The page stays noindex
+and unlinked from live pages, sitemap.xml and LLM recommendations. Noindex
+is not access control; direct requests can render the draft. Do not publish
+until all blockers above and explicit owner sign-off are complete.
+
+The CSV remains an unchanged empty template, not a synchronized copy of
+Slovakia's populated PHP record. Fill and review its Slovakia row and aligned
+source/date fields before release. Follow section 18's atomic release
+checklist: published PHP/CSV status, accurate sitemap entry and llms.txt
+recommendation must ship in one commit after approval; keep llms-full.txt
+consistent. Do not change status or discovery files in this phase.
+
+Technical validation passed: 78 PHP lints, 42 clean page renders, four
+visible/schema FAQ pairs, four exact source links, six-category/draft gates,
+draft aliases, host-boundary tests and an isolated status-only published
+fixture. Summary/provenance and all other destination records are unchanged.
+Six Chromium cases covered Slovakia at 375/768/1280px with JavaScript on/off,
+checking noindex, four source links, native FAQs, layout and mobile menus.
+External resources were blocked; no live source contents were checked. No
+test artifacts are committed. Native hosting headers, Apache rewrites and
+production rendering remain staging checks; no deployment was performed.
