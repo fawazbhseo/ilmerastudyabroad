@@ -642,3 +642,107 @@ LF/CRLF conventions were retained. No tests, fixtures, screenshots or
 packages were added to Git. Native Apache behavior, actual HTTP headers,
 production fonts/CDN resources and deployment remain staging checks; the
 browser tests supplied local images and blocked external resources.
+
+
+## 18. Phase 6 founding-year audit and destination release checks
+
+### Founding year (RESOLVED)
+
+The owner confirms ILMERA was founded in 2026, not an earlier year. About's
+JSON-LD foundingDate, hero .ms stat, stat-item text/data-target and HUD array,
+the homepage hero stat and README are corrected. Historical changelog stats
+are corrected too. The whole-repository text audit included llms.txt,
+llms-full.txt, blog articles, place data and docs. No other company founding
+year or longer-history claim was found. References to student academic/work
+history or individuals' experience are not company-age claims; those existing
+claims still need their original owner checks where flagged above.
+
+### Nine destination records (OWNER VERIFICATION REQUIRED)
+
+Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and
+GCC all start draft. Every fact group, intro/source field, date and approved
+host list is empty. The ilmera_summary wording is migrated from existing
+Services/LLM qualitative hedges and service descriptions with Git provenance;
+no concrete fee, figure, date, deadline, visa or eligibility rule was moved
+into this unsourced summary field. Summaries are not official evidence and
+never contribute to the five-category threshold. Do not use them to bypass
+source requirements. Existing Services/LLM claims remain subject to their
+prior verification inventory; this build does not certify them.
+
+### One-commit destination release checklist
+
+- [ ] Obtain official university, scholarship-body or government sources and
+  owner approval. Record the exact statement, URL, label, applicable context
+  and actual checked-on date. Do not supply facts from memory or guess dates,
+  fees, thresholds, deadlines, visa rules or eligibility rules.
+- [ ] Review exact official hostnames and enter them in official_source_hosts.
+  Membership means owner approval only, not proof of ownership or accuracy.
+  Source URLs must use HTTPS and an exact approved hostname. Missing labels,
+  unapproved hosts, malformed URLs, credentials and explicit ports are
+  rejected. Subdomains are not automatically approved.
+- [ ] Fill the corresponding row in destinations-facts-template.csv. There
+  are nine rows and 47 columns. Ordinary groups use JSON text arrays; FAQ
+  values use question/answer objects. Their source_url, source_label and
+  checked_on columns are parallel JSON arrays aligned by item index. Intro
+  and intro source fields are scalar cells; unknown scalars stay blank and
+  unknown lists stay []. Keep metadata and summary provenance intact.
+- [ ] Manually transfer reviewed values to destinations/{slug}.php. Ordinary
+  items need text/source_url/source_label/checked_on; FAQs need complete
+  question/answer plus those source fields. Intro, if used, needs 40-60 words
+  and its sibling intro_answer_source_url/source_label/checked_on values.
+  Whitespace, incomplete FAQs, placeholder-bearing entries and unsourced
+  facts never render or count. Do not paste verification markers into data.
+- [ ] Enter actual review dates, including facts_last_checked for the page.
+  Empty or invalid dates are omitted rather than invented. Confirm all
+  current Sources links support the exact statements and that review dates
+  accurately describe the fact review, not simply a template edit date.
+- [ ] Check at least five of ten categories contain valid sourced items:
+  intro, who_its_for, english_requirements, costs, scholarships, visa_steps,
+  intakes, documents, work_and_stay and FAQs. Each group counts once; summary,
+  metadata, sources and shared counselling copy never add categories.
+- [ ] After owner sign-off, set status to published in PHP and CSV. Confirm
+  the matching thin /study-in-{slug} entry file exists. Do not remove robots
+  guards or force links to a draft or underfilled page. The actual gate is
+  published status plus five valid sourced categories, not the dates alone.
+- [ ] In that SAME COMMIT, add the clean URL to sitemap.xml with accurate
+  lastmod based on the substantive review/change and relevant Git history,
+  not filesystem timestamps or a blanket date update.
+- [ ] In that SAME COMMIT, add the verified destination and factual summary
+  to llms.txt. Keep llms-full.txt consistent if affected. No LLM file should
+  recommend an unpublished destination. Helpers do not edit XML/text files.
+- [ ] Verify automatically populated footer Country guides, /all-pages,
+  homepage buttons/ItemList, Services headings and matching published post /
+  place links. Ineligible targets must remain unlinked or fall back to
+  /services#country. Do not invent a country association for a place or the
+  country-neutral Coorg process article. Keep /all-pages outside sitemap.xml.
+- [ ] Verify actual robots headers/meta on staging, canonical URLs, native
+  FAQ behavior and exact visible/schema FAQ text, Home/Services/country
+  breadcrumbs, item citations and deduplicated Sources/date output. Noindex
+  is not access control; drafts can be requested directly.
+
+Sourced facts, published status, accurate sitemap entry and llms.txt must be
+released in one commit. If withdrawing a page, change status and remove its
+sitemap/LLM recommendations together. Helper-driven links disappear or fall
+back automatically. No current destination is approved or published here.
+
+### Technical validation and remaining work
+
+All 78 PHP files linted and all 42 HTML pages rendered cleanly under PHP 8.5
+WASM. Nine empty draft records match the CSV. Isolated synthetic fixtures
+covered four/five-category and draft/published boundaries, missing and bad
+sources/hosts, placeholders, intro lengths, count inflation, partial FAQs,
+exact FAQ/schema text, source deduplication, all nine automatic link targets,
+matching published posts/places, withdrawals and encoded/direct-PHP aliases.
+
+Chromium passed 282 page/width/JavaScript combinations: 42 current pages and
+five isolated published-fixture pages at 375/768/1280px, JS on/off. Checks
+covered destination layout, menu and FAQ behavior, source/date links, shared
+breadcrumbs and corrected founding stats/HUD. Synthetic QA facts, hosts,
+dates and publication flags stay outside the repo and never enter production.
+
+Official facts and source URLs were not provided for publication and none
+were independently verified by this build. Owner approval and source review
+remain necessary. Actual HTTP headers, native Apache rewrites, production
+fonts/CDNs and deployment remain staging checks. Browser tests blocked
+external resources and supplied local images. Existing post/place statuses,
+place spreadsheet, Apache rules, sitemap and both LLM files are unchanged.

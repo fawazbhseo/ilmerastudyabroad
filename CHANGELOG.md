@@ -1,5 +1,64 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 6: founding year and source-gated destinations, 2026-10-15
+
+Five tasks, one commit per task. ILMERA was founded in 2026, as confirmed by
+the owner. All nine new destinations remain draft with empty fact fields.
+No official source facts, fees, dates, deadlines or rules were invented.
+
+1. Corrected About foundingDate, mobile hero stat, stat-item text/data-target
+   and HUD array, the homepage hero stat and README to 2026. Repository text
+   audit included LLM files, posts, places and historical docs. Historical
+   changelog stat references were corrected; no other company founding-year
+   or longer-history claim was identified. Student academic/work history
+   and personal-experience references were not recast as company age.
+2. Added pure destination data helpers, a shared renderer, nine returning
+   PHP arrays and nine thin entry files. Fields are sourced item groups,
+   optional 40-60 word sourced intro, qualitative ilmera_summary with Git
+   provenance, owner-approved official host list and review-date metadata.
+   Only labelled HTTPS sources on that reviewed exact host list render or
+   count. Status published plus five sourced categories enables indexing;
+   otherwise meta/header noindex remains. Sources and real review dates are
+   conditional; placeholders and unsourced facts never render. WebPage,
+   Service, Home/Services/country BreadcrumbList and matching visible FAQPage
+   use the existing includes, design, shared menu and escaping conventions.
+3. Extended common publication checks to destinations. Homepage buttons and
+   schema URLs, and Services headings, use full guides only when eligible,
+   otherwise Services anchors. Added conditional footer Country guides and
+   directory groups. Published posts use matching country links; published
+   places use countries explicitly mentioned in their existing data. Draft
+   source pages do not receive automatic in-content country-guide upgrades.
+4. Added destinations-facts-template.csv: nine draft rows, 47 columns, empty
+   fact/date cells and per-group source URL, source label and checked-on
+   columns. Lists/FAQs and their aligned source columns use JSON arrays.
+   Source review and transfer into PHP arrays are manual, not a CSV import.
+5. Updated README, this changelog and verification section 18 with the data
+   contract and one-commit publication workflow: sourced facts, published
+   status, accurate sitemap lastmod and llms.txt together. Links populate
+   automatically. No destination is added to sitemap or LLM context yet.
+
+### Validation and limits
+
+- All 78 PHP files linted and all 42 HTML pages rendered without PHP errors
+  under PHP 8.5 WASM. Nine draft gates, empty sections/dates, schemas, CSV
+  parity, founding-year references and absence of draft incoming links pass.
+- Isolated synthetic fixtures pass status and four/five-category boundaries,
+  missing/invalid/unapproved sources, placeholders, intro bounds, category
+  inflation, partial FAQs, exact visible/schema parity, source deduplication,
+  all nine incoming guide links and homepage schema URLs, published post /
+  place matching, withdrawal fallbacks and encoded/direct-PHP aliases.
+- Chromium passed 282 cases: 42 pages plus five published-fixture pages,
+  three widths (375/768/1280px), JavaScript on/off. Destination layout, menu,
+  FAQ, sources/dates, breadcrumbs and corrected founding stats/HUD pass.
+- Apache rules, post/place publication records, place spreadsheet, header,
+  11-URL sitemap and both LLM files are unchanged. No draft is promoted;
+  /all-pages stays outside XML. LF/CRLF conventions are preserved, including
+  About's existing mixed endings. No generated QA artifacts were committed.
+- Official ownership/relevance of future sources requires owner review;
+  an allowlist is not independent source verification. Native Apache,
+  actual HTTP headers, production fonts/CDNs and deployment require staging.
+  External browser resources were blocked and local images supplied.
+
 ## Phase 5: shared mobile menu and contained tables, 2026-10-15
 
 Three tasks, one commit per task, on the session branch only. These fixes

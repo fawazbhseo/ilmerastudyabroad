@@ -13,6 +13,9 @@ Page content is maintained directly in PHP, text and XML files. Place-page
 content lives in returning PHP arrays under `places/`; its spreadsheet is
 `places-facts-template.csv`. Blog metadata and publication status live in
 `includes/posts.php`; shared link eligibility lives in `includes/links.php`.
+Destination content lives in `destinations/`, rendered by
+`includes/destination-page.php`, with `destinations-facts-template.csv`
+for source review.
 
 | URL | Source file |
 |---|---|
@@ -23,6 +26,15 @@ content lives in returning PHP arrays under `places/`; its spreadsheet is
 | `/privacy-policy` | `privacy-policy.php` |
 | `/terms` | `terms.php` |
 | `/all-pages` | `all-pages.php` |
+| `/study-in-germany` | `study-in-germany.php` |
+| `/study-in-italy` | `study-in-italy.php` |
+| `/study-in-uk` | `study-in-uk.php` |
+| `/study-in-czech-republic` | `study-in-czech-republic.php` |
+| `/study-in-lithuania` | `study-in-lithuania.php` |
+| `/study-in-latvia` | `study-in-latvia.php` |
+| `/study-in-slovakia` | `study-in-slovakia.php` |
+| `/study-in-russia` | `study-in-russia.php` |
+| `/study-in-gcc` | `study-in-gcc.php` |
 | `/study-abroad-consultants-in-karnataka` | `study-abroad-consultants-in-karnataka.php` |
 | `/study-abroad-consultants-in-kodagu` | `study-abroad-consultants-in-kodagu.php` |
 | `/study-abroad-counselling-madikeri` | `study-abroad-counselling-madikeri.php` |
@@ -58,7 +70,9 @@ content lives in returning PHP arrays under `places/`; its spreadsheet is
   and scholarships drafts are not live yet per the owner and retain
   `noindex, follow`. This repair does not publish them or add listing cards.
   Only the 4 indexable article URLs are in the sitemap. Add each draft back
-  in the same commit that fact-checks it and removes its `noindex` tag.
+  in the same commit that fact-checks it, changes registry status to
+  published and adds its verified `llms.txt` summary. Robots follow the
+  registry; do not remove their conditional guards.
 - `.htaccess` requires Apache `mod_rewrite` and permission to apply these
   directory overrides. It preserves the existing PHP-to-extensionless
   redirect and internal rewrite rules and sets
@@ -70,7 +84,8 @@ content lives in returning PHP arrays under `places/`; its spreadsheet is
   Existing root pages use `__DIR__ . '/includes/...'`; blog pages use
   `__DIR__ . '/../includes/...'`. Thin place entry files include
   `includes/place-page.php`, which loads the shared header and footer
-  relative to its own `__DIR__`.
+  relative to its own `__DIR__`. Destination entries use the same thin-file
+  pattern with `includes/destination-page.php`.
 - All 9 image files are in `assets/images/`. There are no files directly
   inside `assets/` and no `blogs/` directory or root `blog.php`.
 - Unused root `header.php`, `footer.php`, `download` and `_import/` were
@@ -304,15 +319,166 @@ content pages must be registered in `ilmera_static_pages()` as appropriate.
 - Chromium covered all 33 pages at 375px and 1280px with JavaScript on/off
   (132 cases), checking breadcrumbs, layout and runtime errors. Place and
   new-directory menu behavior and native FAQ toggles were exercised.
-- Two pre-existing draft tables still exceed the mobile viewport: cost
-  (472px) and scholarships (530px), at 375px. Their widths match the Phase 3
-  baseline. Existing About mobile-menu wiring also needs a separate repair;
-  it predates this phase. See the verification inventory for follow-up.
+- Phase 4 recorded mobile draft-table overflow and missing About menu
+  wiring. Phase 5 resolved both with scrollable table containers and a
+  single shared header menu script. See verification section 17.
 - Native Apache, actual HTTP response headers, production fonts and hosting
   behavior still require staging checks. Browser tests blocked external
   resources and supplied local images. No official fact verification,
   deployment or outcome guarantee is implied. QA tools/artifacts remain
   outside Git. Existing byte-level newline conventions are retained.
+
+## Phase 6: sourced destination pages and founding year
+
+The owner confirms ILMERA was founded in **2026**. About JSON-LD, its hero
+stat, stat-item text/data-target and HUD array, the homepage hero stat and
+this README use that year. A repository-wide text audit covered the LLM
+files, posts, places and historical docs. No other company founding year or
+longer-history claim was found. Historical changelog stat references were
+corrected too. Existing student academic/work history and personal-experience
+references are not company-age claims; no older company history is implied.
+
+### Destination data and source model
+
+There are nine returning PHP arrays under `destinations/`, nine thin clean-URL
+entry files, `includes/destination-data.php` for pure normalization/readiness,
+and `includes/destination-page.php` for rendering with the existing design,
+header, footer and menu. Apache rewrite rules are unchanged.
+
+Each record contains `slug`, `name`, `status`, `intro_answer`, `who_its_for`,
+`english_requirements`, `costs`, `scholarships`, `visa_steps`, `intakes`,
+`documents`, `work_and_stay`, `faqs`, plus the review metadata below. All nine
+start draft with empty fact groups, empty review dates and no approved source
+hosts. No fees, figures, dates, deadlines or rules were supplied or guessed.
+
+- Each ordinary group is a list of arrays with `text`, `source_url`,
+  `source_label` and `checked_on`. FAQ items use `question` and `answer`
+  instead of `text`, plus the same source fields. Plain strings are not
+  accepted as sourced items. Raw HTML is not public content.
+- `intro_answer` is an optional 40-60 word string. It needs the sibling fields
+  `intro_answer_source_url`, `intro_answer_source_label` and
+  `intro_answer_checked_on`. Invalid-length or unsourced intros are omitted,
+  including from page descriptions.
+- `official_source_hosts` is an owner-reviewed list of exact official-source
+  hostnames. Initially `[]`. Before adding a host, verify that the actual
+  university, scholarship body or government authority owns it and that the
+  linked page supports the exact statement. Host membership is an explicit
+  editorial approval, not automatic proof of official ownership.
+- Every fact item, even qualitative fact items, needs a nonempty source label
+  and a valid HTTPS URL on that exact host list to render or count. Missing,
+  unapproved, malformed, credential-bearing or explicit-port URLs are rejected.
+  Subdomains are not implicitly trusted. Placeholder-bearing text, blank
+  items and incomplete FAQ pairs render nowhere and do not count.
+- `checked_on` stores the actual review date for the item; `facts_last_checked`
+  stores the owner's actual page-wide review date. Use valid ISO calendar
+  dates and keep them consistent with the review evidence. Empty/invalid dates
+  are not printed or replaced with invented dates. These metadata fields do
+  not add fact categories. Fill them before release, even though the gate
+  itself is based on published status and five sourced categories.
+- `ilmera_summary` contains only cautious, nonnumeric qualitative/service
+  wording migrated from existing Services/LLM text. `summary_provenance`
+  records the source Git revision and section. This is not an official fact
+  source. Never add an unsourced figure, date, fee or concrete rule here to
+  bypass the source gate. Summary copy does not count toward readiness.
+
+A destination is indexable only when status is `published` **and at least
+five of the ten fact categories** contain a valid sourced item. The ten are
+intro, the eight ordinary groups above and FAQs. Each group counts once;
+multiple items in a group, summaries, metadata and shared counselling copy
+cannot inflate the count. Otherwise robots meta and X-Robots-Tag force
+noindex, follow, and shared links exclude the page. Noindex is not access
+control: drafts remain directly accessible.
+
+The renderer emits WebPage, Service, the shared Home / Services / Study in X
+BreadcrumbList, and FAQPage only for valid visible FAQ pairs. FAQ citations
+sit outside the answer text so schema answers exactly match visible answers.
+Each rendered fact has a citation to the deduplicated Sources list with
+labelled official links and optional recorded item review dates. The Facts
+last checked field appears only when a valid page-wide date and sourced
+facts exist. Empty sections, empty Sources/FAQ lists and placeholder review
+dates are omitted rather than printed.
+
+### Destination links
+
+The existing link helpers enforce the same destination gate and require an
+actual entry file. Homepage buttons and their ItemList schema URLs, plus
+Services country headings, point to full guides only when eligible; otherwise
+they retain `/services#country` targets. Existing contact CTAs are unchanged.
+
+The footer adds a conditional Country guides column and `/all-pages` a
+conditional group containing only eligible destinations. Existing footer
+Services country anchors remain available. Published articles upgrade their
+matching end-of-post country links; the country-neutral Coorg article keeps
+its process link. Published/ready places link countries already mentioned in
+their own data and upgrade their matching Services Markdown links. No country
+association is invented for a place with no matching country text. Draft
+source posts/places do not get these automatic in-content upgrades. Direct
+PHP, encoded, trailing-slash and query aliases cannot bypass the target gate.
+
+All nine destinations are currently excluded from public links, sitemap and
+LLM context files. The three blog drafts and all 17 place drafts retain their
+existing status. `/all-pages` remains outside `sitemap.xml`.
+
+### Spreadsheet and atomic destination release
+
+`destinations-facts-template.csv` has nine rows and 47 columns: metadata plus
+one value column and `source_url`, `source_label`, `checked_on` columns for
+each of the ten groups. Intro and its source/date cells are scalar strings.
+Other groups use JSON arrays; source/date columns are parallel JSON arrays
+aligned by item index. FAQs use JSON question/answer objects, with the same
+parallel source arrays. Empty lists are `[]`; unknown scalar cells are empty.
+Hosts use a JSON array. The summary/provenance cells mirror the PHP records.
+
+1. Obtain owner-approved facts and official sources. Fill each reviewed CSV
+   value and its aligned source URL, label and real checked-on date. Approve
+   exact official hostnames only after checking ownership and relevance.
+   Do not invent numeric claims or populate unknown fields with markers.
+2. Manually transfer the reviewed data to `destinations/{slug}.php`, building
+   sourced item arrays from the parallel CSV cells. This is not an automatic
+   CSV import. Add valid intro/source fields if used, complete FAQs and an
+   accurate page-wide `facts_last_checked` date. Verify the thin entry exists.
+3. After owner sign-off and at least five valid sourced categories, set status
+   to `published` in both the PHP record and CSV. Never remove conditional
+   robots code or force links to a draft/underfilled page.
+4. In that **same commit**, add the clean destination URL to `sitemap.xml`
+   with accurate lastmod reflecting the actual substantive content/review
+   change, supported by Git history and the release evidence, not filesystem
+   timestamps or a blanket date replacement.
+5. In that **same commit**, add the verified destination and factual summary
+   to `llms.txt`. Keep `llms-full.txt` consistent if affected. Do not recommend
+   a draft in either file. The helpers do not edit these files for you.
+6. Validate robots meta and actual HTTP headers, sources, dates, category
+   count, visible/schema FAQ and breadcrumb parity, Services/homepage schema
+   targets, footer/directory and matching article/place links on staging.
+   Link placements update automatically; no manual footer edits are needed.
+
+Sourced facts, published status, accurate sitemap entry and `llms.txt` belong
+to **one release commit**. For withdrawal, change status and remove sitemap /
+LLM recommendations together; links disappear or revert to Services anchors.
+No destination is published by this build.
+
+### Phase 6 validation and limits
+
+- All 78 PHP files passed PHP 8.5 WASM lint. All 42 HTML pages rendered cleanly,
+  with one shared menu and breadcrumb per page. Nine empty destination drafts,
+  CSV/PHP parity, founding year and no incoming draft links were verified.
+- Isolated synthetic fixtures covered draft/published and four/five-category
+  boundaries; missing/invalid/unapproved sources; placeholders; category
+  inflation; intro word bounds; complete/partial FAQs and exact visible/schema
+  parity; all nine automatic link targets and homepage schema; matching
+  published posts/places; withdrawals and encoded/direct-PHP draft aliases.
+  No synthetic facts, dates, hosts or statuses enter Git.
+- Chromium passed 282 combinations: 42 current pages plus five isolated
+  published-fixture pages, 375/768/1280px, JavaScript on/off. Checks include
+  breadcrumb parity, no runtime errors, destination layout, menus, native
+  FAQs, source targets, dates, no-JS navigation and the corrected founding
+  stats/HUD. Existing menu/table fixes remain in place.
+- No official facts or URLs were provided for publication and none were
+  independently verified. Owner source review remains essential; an approved
+  host list cannot establish the truth of a claim by itself. Actual HTTP
+  headers, native Apache rewrites, production fonts/CDNs and deployment still
+  need staging. External resources were blocked in browser QA; local images
+  were supplied. No QA fixtures, tools or screenshots were committed.
 
 ## Phase 1 repairs
 
@@ -350,7 +516,8 @@ The other moved assets are `ilmera.logo.navy.png`, `ilmera.png` and
   rules with current official sources before publication. The draft-post
   inventory is in `flagged-items-for-verification.md`.
 - The initial repair checks covered 18 PHP files. Phase 3 covered 53;
-  Phase 4 covers 58 PHP files, including the data and shared helpers.
+  Phase 4 covered 58; Phase 6 covers 78 PHP files, including all data and
+  shared helpers.
 - Native PHP and Apache are not installed in the workspace. The isolated
   PHP-WASM and Chromium checks do not replace hosting-stack validation.
 - After deployment, verify `/blog` redirects to `/blog/`, `/blog/` renders
