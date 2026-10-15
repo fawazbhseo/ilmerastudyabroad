@@ -1,0 +1,23 @@
+<?php
+return [
+    'slug' => 'latvia',
+    'name' => 'Latvia',
+    'status' => 'draft',
+    'intro_answer' => '',
+    'intro_answer_source_url' => '',
+    'intro_answer_source_label' => '',
+    'intro_answer_checked_on' => '',
+    'ilmera_summary' => 'ILMERA counsellors review a student\'s academic transcripts, standardized test scores (if any), budget, preferred field of study, and career goals.',
+    'summary_provenance' => 'git:7dfac93:llms-full.txt section 3.1',
+    'facts_last_checked' => '',
+    'official_source_hosts' => [],
+    'who_its_for' => [],
+    'english_requirements' => [],
+    'costs' => [],
+    'scholarships' => [],
+    'visa_steps' => [],
+    'intakes' => [],
+    'documents' => [],
+    'work_and_stay' => [],
+    'faqs' => [],
+];

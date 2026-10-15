@@ -1,0 +1,23 @@
+<?php
+return [
+    'slug' => 'uk',
+    'name' => 'UK',
+    'status' => 'draft',
+    'intro_answer' => '',
+    'intro_answer_source_url' => '',
+    'intro_answer_source_label' => '',
+    'intro_answer_checked_on' => '',
+    'ilmera_summary' => 'Rules can change; ILMERA advises students to confirm current rules at the time of application.',
+    'summary_provenance' => 'git:7dfac93:llms-full.txt section 4.3',
+    'facts_last_checked' => '',
+    'official_source_hosts' => [],
+    'who_its_for' => [],
+    'english_requirements' => [],
+    'costs' => [],
+    'scholarships' => [],
+    'visa_steps' => [],
+    'intakes' => [],
+    'documents' => [],
+    'work_and_stay' => [],
+    'faqs' => [],
+];

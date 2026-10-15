@@ -1,0 +1,23 @@
+<?php
+return [
+    'slug' => 'italy',
+    'name' => 'Italy',
+    'status' => 'draft',
+    'intro_answer' => '',
+    'intro_answer_source_url' => '',
+    'intro_answer_source_label' => '',
+    'intro_answer_checked_on' => '',
+    'ilmera_summary' => 'ILMERA helps identify scholarships, government grants, and stipend programmes suited to a student\'s profile, most notably Italy\'s DSU (Diritto allo Studio Universitario) scholarship.',
+    'summary_provenance' => 'git:7dfac93:llms-full.txt section 3.4',
+    'facts_last_checked' => '',
+    'official_source_hosts' => [],
+    'who_its_for' => [],
+    'english_requirements' => [],
+    'costs' => [],
+    'scholarships' => [],
+    'visa_steps' => [],
+    'intakes' => [],
+    'documents' => [],
+    'work_and_stay' => [],
+    'faqs' => [],
+];

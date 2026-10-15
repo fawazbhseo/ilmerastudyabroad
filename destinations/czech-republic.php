@@ -1,0 +1,23 @@
+<?php
+return [
+    'slug' => 'czech-republic',
+    'name' => 'Czech Republic',
+    'status' => 'draft',
+    'intro_answer' => '',
+    'intro_answer_source_url' => '',
+    'intro_answer_source_label' => '',
+    'intro_answer_checked_on' => '',
+    'ilmera_summary' => 'Exact costs vary by university, city and programme, so check the official university page for current fees.',
+    'summary_provenance' => 'git:7dfac93:services.php #czech-republic',
+    'facts_last_checked' => '',
+    'official_source_hosts' => [],
+    'who_its_for' => [],
+    'english_requirements' => [],
+    'costs' => [],
+    'scholarships' => [],
+    'visa_steps' => [],
+    'intakes' => [],
+    'documents' => [],
+    'work_and_stay' => [],
+    'faqs' => [],
+];
