@@ -461,6 +461,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         Students from Kodagu often have strong academics but limited access to specialised study-abroad advice locally. ILMERA closes that gap: you get the same country-by-country cost breakdowns, eligibility checks (including for backlogs and low marks), and honest guidance that students in Bangalore or Mangalore receive, from wherever you are in Coorg.
       </p>
       <p style="font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;">ILMERA is based in Coorg, Kodagu, and has no physical office or branch. Counselling is by phone, WhatsApp and video call. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>
+      <p style="font-size:15px;font-weight:300;line-height:1.8;margin-top:16px;"><a href="/study-abroad-consultants-in-karnataka" style="color:var(--navy);">Explore study abroad guidance for students across Karnataka</a></p>
       <a href="/contact" class="btn-gold reveal" style="margin-top:28px;">Book a Free Online Consultation</a>
     </div>
   </div>
