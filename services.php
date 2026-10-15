@@ -397,7 +397,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-dark">
       <div class="country-flag-badge"><span class="flag">&#127465;&#127466;</span> Tuition-Free or Low Tuition</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><path d="M6 40 L26 6 L46 40 Z" stroke="currentColor" stroke-width="1.5" fill="none"/><line x1="14" y1="30" x2="38" y2="30" stroke="currentColor" stroke-width="1.5"/><circle cx="26" cy="38" r="3.5" fill="currentColor"/></svg>
-      <h2>Study in Germany<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">World-Class Education. Brighter Future.</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('germany')) ?>" style="color:inherit;text-decoration:none;">Study in Germany</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">World-Class Education. Brighter Future.</em></h2>
       <p>Germany offers world-class, globally recognised degrees, with tuition-free or very low tuition at most public universities; some states charge fees and a semester contribution applies. Combine quality education with a strong economy and outstanding career opportunities.</p>
       <div class="highlight-box">
         <div class="highlight-title"><span>&#11088;</span> Why Germany?</div>
@@ -435,7 +435,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-light">
       <div class="country-flag-badge" style="background:rgba(0,100,40,0.1);border-color:rgba(0,150,60,0.4);color:#006428;"><span class="flag">&#127470;&#127481;</span> Income-Based Fees + DSU Stipend</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><polygon points="26,4 31,19 47,19 34,29 39,45 26,35 13,45 18,29 5,19 21,19" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
-      <h2>Study in Italy<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Your Dream Education Awaits!</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('italy')) ?>" style="color:inherit;text-decoration:none;">Study in Italy</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Your Dream Education Awaits!</em></h2>
       <p>In Italy, fee reductions or waivers are income-based and assessed through regional DSU scholarships; study is not free by default. Eligible students can add a yearly stipend plus tuition relief and subsidised accommodation and meal services, assessed on family income (ISEE) and merit. English-taught programmes are available at many universities.</p>
       <div class="highlight-box on-light" style="background:rgba(0,100,40,0.06);border-color:rgba(0,150,60,0.25);">
         <div class="highlight-title" style="color:#006428;"><span>&#127942;</span> Scholarship Benefits (DSU)</div>
@@ -484,7 +484,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-dark">
       <div class="country-flag-badge"><span class="flag">&#127468;&#127463;</span> Globally Ranked</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><rect x="8" y="12" width="36" height="28" rx="3" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="22" x2="44" y2="22" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="33" r="4" stroke="currentColor" stroke-width="1.3"/></svg>
-      <h2>Study in the<br>United Kingdom</h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('uk')) ?>" style="color:inherit;text-decoration:none;">Study in the</a><br>United Kingdom</h2>
       <p>The UK is home to some of the world's most prestigious universities including Oxford, Cambridge, Imperial and UCL. A UK degree is recognised globally and opens doors to international careers.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#127963;</span> World-renowned universities with global rankings</li>
@@ -512,7 +512,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-light">
       <div class="country-flag-badge" style="background:rgba(0,0,150,0.08);border-color:rgba(0,0,180,0.35);color:#000096;"><span class="flag">&#127464;&#127487;</span> From &#8377;1.5 Lakh/Year</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><rect x="6" y="6" width="30" height="40" rx="2" stroke="currentColor" stroke-width="1.5"/><line x1="13" y1="17" x2="29" y2="17" stroke="currentColor" stroke-width="1.2"/><line x1="13" y1="24" x2="29" y2="24" stroke="currentColor" stroke-width="1.2"/><line x1="13" y1="31" x2="22" y2="31" stroke="currentColor" stroke-width="1.2"/></svg>
-      <h2>Study in Czech Republic<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Unlock Your Future</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('czech-republic')) ?>" style="color:inherit;text-decoration:none;">Study in Czech Republic</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Unlock Your Future</em></h2>
       <p>The Czech Republic keeps tuition well below Western Europe, in the heart of Europe. Exact costs vary by university, city and programme, so check the official university page for current fees.</p>
       <div class="highlight-box on-light">
         <div class="highlight-title"><span>&#11088;</span> Why Czech Republic?</div>
@@ -547,7 +547,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-dark">
       <div class="country-flag-badge"><span class="flag">&#127473;&#127481;</span> Low Marks &middot; No IELTS</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><path d="M6 36 Q22 18 40 24 L48 18 L46 28 L40 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M11 40 L20 33 L25 38 L16 45 Z" stroke="currentColor" stroke-width="1.3" fill="none"/></svg>
-      <h2>Study in Lithuania<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Start Your Career in Europe</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('lithuania')) ?>" style="color:inherit;text-decoration:none;">Study in Lithuania</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Start Your Career in Europe</em></h2>
       <p>Lithuania is one of Europe's most affordable and welcoming study destinations. English-taught programmes are available at several universities, and English requirements vary by university and programme, making it a good fit for students who want quality without barriers.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#128201;</span> Low marks accepted here</li>          <li><span class="li-ico">&#10060;</span> IELTS not mandatory for most programmes</li>          <li><span class="li-ico">&#127468;&#127463;</span> English-taught programmes available</li>
@@ -575,7 +575,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-light">
       <div class="country-flag-badge" style="background:rgba(150,0,0,0.08);border-color:rgba(180,0,0,0.35);color:#8b0000;"><span class="flag">&#127473;&#127483;</span> Low Fees &middot; Part-Time Work</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><rect x="8" y="20" width="36" height="24" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M18 20 V15 A8 8 0 0 1 34 15 V20" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="26" cy="31" r="5" stroke="currentColor" stroke-width="1.3"/></svg>
-      <h2>Study in Latvia<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Fees. Jobs. Placement.</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('latvia')) ?>" style="color:inherit;text-decoration:none;">Study in Latvia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Fees. Jobs. Placement.</em></h2>
       <p>Latvia combines low tuition fees with affordable living costs and part-time work opportunities for students. Career and placement support helps you graduate job-ready.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#128201;</span> Low marks accepted, no high scores needed</li>
@@ -608,7 +608,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-dark">
       <div class="country-flag-badge"><span class="flag">&#127480;&#127472;</span> Free in Some Branches</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><polygon points="26,4 31,19 47,19 34,29 39,45 26,35 13,45 18,29 5,19 21,19" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
-      <h2>Study in Slovakia<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Marks Welcome. Free in Some Branches.</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('slovakia')) ?>" style="color:inherit;text-decoration:none;">Study in Slovakia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Low Marks Welcome. Free in Some Branches.</em></h2>
       <p>Slovakia is one of Europe's hidden gems for international students, offering free education in select branches, low marks acceptance, and affordable living right in the heart of the EU.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#127379;</span> Free education available in some branches</li>
@@ -637,7 +637,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-dark">
       <div class="country-flag-badge"><span class="flag">&#127479;&#127482;</span> Backlogs Accepted &middot; No IELTS</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><circle cx="26" cy="22" r="12" stroke="currentColor" stroke-width="1.5"/><path d="M14 44 Q14 32 26 32 Q38 32 38 44" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
-      <h2>Study in Russia<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">An Accessible Path to a Bachelor's Degree</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('russia')) ?>" style="color:inherit;text-decoration:none;">Study in Russia</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">An Accessible Path to a Bachelor's Degree</em></h2>
       <p>Russia is a practical option for students with low marks or academic backlogs. You can complete your Bachelor's degree at a comparatively low cost, and entry requirements vary by university and programme.</p>
       <div class="highlight-box" style="background:rgba(200,0,0,0.06);border-color:rgba(200,0,0,0.2);">
         <div class="highlight-title" style="color:#e05555;"><span>&#128640;</span> Backlogs and Low Marks Accepted</div>
@@ -672,7 +672,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="svc-text on-light">
       <div class="country-flag-badge" style="background:rgba(0,100,0,0.08);border-color:rgba(0,130,0,0.35);color:#006400;"><span class="flag">&#127760;</span> UAE &middot; Saudi &middot; Kuwait &middot; Qatar &middot; Bahrain &middot; Oman</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><circle cx="26" cy="26" r="18" stroke="currentColor" stroke-width="1.5" fill="none"/><ellipse cx="26" cy="26" rx="9" ry="18" stroke="currentColor" stroke-width="1" fill="none"/><line x1="8" y1="26" x2="44" y2="26" stroke="currentColor" stroke-width="1"/></svg>
-      <h2>Study in GCC Countries<br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">World-Class Campuses. Tax-Free Life.</em></h2>
+      <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('gcc')) ?>" style="color:inherit;text-decoration:none;">Study in GCC Countries</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">World-Class Campuses. Tax-Free Life.</em></h2>
       <p>The GCC region (UAE, Saudi Arabia, Kuwait, Qatar, Bahrain and Oman) offers outstanding universities, internationally recognised degrees, and a thriving career environment with world-class infrastructure.</p>
       <ul class="svc-list">          <li><span class="li-ico">&#127963;</span> International branch campuses of global universities</li>
           <li><span class="li-ico">&#128188;</span> Strong employment and career opportunities</li>

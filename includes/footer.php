@@ -72,6 +72,17 @@
         <li><a href="/services#gcc">&#127760; GCC Countries</a></li>
       </ul>
     </div>
+    <?php $footerDestinations = ilmera_published_destinations(); ?>
+    <?php if ($footerDestinations): ?>
+    <div>
+      <h4 class="ft-h4">Country guides</h4>
+      <ul class="ft-links">
+        <?php foreach ($footerDestinations as $destinationGuide): ?>
+        <li><?= ilmera_destination_link($destinationGuide['slug']) ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <?php endif; ?>
     <?php $footerGuides = ilmera_published_posts(); ?>
     <?php if ($footerGuides): ?>
     <div>

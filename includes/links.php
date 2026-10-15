@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/posts.php';
 require_once __DIR__ . '/place-data.php';
+require_once __DIR__ . '/destination-data.php';
 
 function ilmera_static_pages()
 {
@@ -38,6 +39,10 @@ function ilmera_target_published($url)
     if (preg_match('#^/study-abroad-(?:counselling|consultants-in)-([a-z0-9-]+)$#D', $path, $match)) {
         $place = ilmera_place_load($match[1]);
         return ilmera_place_indexable($place) && $path === ilmera_place_url($place) && is_file(dirname(__DIR__) . $path . '.php');
+    }
+    if (preg_match('#^/study-in-([a-z0-9-]+)$#D', $path, $match)) {
+        $destination = ilmera_destination_load($match[1]);
+        return ilmera_destination_indexable($destination) && is_file(dirname(__DIR__) . $path . '.php');
     }
     foreach (ilmera_static_pages() as $page) if ($path === (rtrim($page['url'], '/') ?: '/')) return true;
     return false;
@@ -129,10 +134,52 @@ function ilmera_post_service_links($slug)
     ];
     $links = [];
     foreach ($targets[$slug] ?? [] as $section => $label) {
-        $link = ilmera_link('/services#' . $section, $label, ['style' => 'color:var(--gold);']);
+        $url = ilmera_post_published($slug) && in_array($section, ilmera_destination_slugs(), true) ? ilmera_destination_target($section) : '/services#' . $section;
+        $link = ilmera_link($url, $label, ['style' => 'color:var(--gold);']);
         if ($link !== '') $links[] = $link;
     }
     $contact = ilmera_link('/contact', 'Contact ILMERA about your plans', ['style' => 'color:var(--gold);']);
     if ($contact !== '') $links[] = $contact;
     return $links ? '<p style="margin-top:24px;">' . implode(' &middot; ', $links) . '</p>' : '';
+}
+
+function ilmera_published_destinations()
+{
+    $destinations = [];
+    foreach (ilmera_destination_slugs() as $slug) {
+        $destination = ilmera_destination_load($slug);
+        if ($destination && ilmera_target_published(ilmera_destination_url($destination))) $destinations[] = $destination;
+    }
+    return $destinations;
+}
+
+function ilmera_destination_target($slug)
+{
+    if (!in_array($slug, ilmera_destination_slugs(), true)) return '/services';
+    $url = '/study-in-' . $slug;
+    return ilmera_target_published($url) ? $url : '/services#' . $slug;
+}
+
+function ilmera_destination_link($slug, $label = null, $attributes = [])
+{
+    $destination = ilmera_destination_load($slug);
+    return $destination ? ilmera_link(ilmera_destination_url($destination), $label ?? ('Study in ' . $destination['name']), $attributes) : '';
+}
+
+function ilmera_place_destination_links($data)
+{
+    if (!ilmera_place_indexable($data)) return '';
+    $content = array_intersect_key($data, array_flip(['intro_answer', 'local_institutions', 'transcript_and_moi_steps', 'local_loan_options', 'visa_appointment_route', 'local_notes', 'faqs']));
+    $text = '';
+    array_walk_recursive($content, static function ($value) use (&$text) { if (is_string($value)) $text .= ' ' . $value; });
+    $links = [];
+    foreach (ilmera_published_destinations() as $destination) {
+        $name = preg_quote($destination['name'], '/');
+        if ($destination['slug'] === 'uk') $name = '(?:UK|United Kingdom)';
+        if (preg_match('/(?<![a-z])' . $name . '(?![a-z])/i', $text)) {
+            $link = ilmera_destination_link($destination['slug'], null, ['style' => 'color:var(--gold);']);
+            if ($link !== '') $links[] = '<li>' . $link . '</li>';
+        }
+    }
+    return $links ? '<section><h2>Destination guides</h2><ul>' . implode('', $links) . '</ul></section>' : '';
 }

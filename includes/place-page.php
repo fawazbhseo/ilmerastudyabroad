@@ -154,7 +154,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <section>
       <h2><?= ilmera_place_escape($heading) ?></h2>
 <?php foreach ($placeData[$field] as $text): ?>
-      <p><?= ilmera_place_inline($text) ?></p>
+      <p><?= ilmera_place_inline($text, $placeLive) ?></p>
 <?php endforeach; ?>
     </section>
 <?php endif; ?>
@@ -162,7 +162,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php if ($placeData['visa_appointment_route'] !== ''): ?>
     <section>
       <h2>Visa appointment planning</h2>
-      <p><?= ilmera_place_inline($placeData['visa_appointment_route']) ?></p>
+      <p><?= ilmera_place_inline($placeData['visa_appointment_route'], $placeLive) ?></p>
     </section>
 <?php endif; ?>
 <?php if ($placeData['faqs']): ?>
@@ -200,6 +200,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ul>
     </section>
 <?php endif; ?>
+    <?= ilmera_place_destination_links($placeData) ?>
     <?php ilmera_render_guides(ilmera_place_guides()); ?>
   </div>
 </section>

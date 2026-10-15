@@ -94,16 +94,17 @@ if (!function_exists('ilmera_place_text')) {
         return htmlspecialchars($text, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
     }
 
-    function ilmera_place_inline($text)
+    function ilmera_place_inline($text, $linkDestinations = false)
     {
         $escaped = ilmera_place_escape($text);
-        return preg_replace_callback('/\[([^\[\]]+)\]\((\/[^\s()]*)\)/u', static function ($match) {
+        return preg_replace_callback('/\[([^\[\]]+)\]\((\/[^\s()]*)\)/u', static function ($match) use ($linkDestinations) {
             $path = html_entity_decode($match[2], ENT_QUOTES | ENT_HTML5, 'UTF-8');
             $parts = parse_url($path);
             if ($parts === false || isset($parts['host']) || isset($parts['scheme']) || strpos($path, '//') === 0 || strpos($path, '\\') !== false) return $match[1];
             require_once __DIR__ . '/links.php';
+            if ($linkDestinations && preg_match('#^/services(?:\.php)?/?$#i', $parts['path'] ?? '') && in_array($parts['fragment'] ?? '', ilmera_destination_slugs(), true)) $path = ilmera_destination_target($parts['fragment']);
             if (!ilmera_target_published($path)) return $match[1];
-            return '<a href="' . $match[2] . '" style="color:var(--gold);">' . $match[1] . '</a>';
+            return '<a href="' . ilmera_place_escape($path) . '" style="color:var(--gold);">' . $match[1] . '</a>';
         }, $escaped);
     }
 }

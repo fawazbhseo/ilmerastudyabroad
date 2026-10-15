@@ -75,6 +75,16 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--gold);outline-offse
       </ul>
     </section>
 <?php endif; ?>
+<?php $publishedDestinations = ilmera_published_destinations(); if ($publishedDestinations): ?>
+    <section class="directory-group">
+      <h2>Country guides</h2>
+      <ul>
+<?php foreach ($publishedDestinations as $destinationGuide): ?>
+        <li><?= ilmera_destination_link($destinationGuide['slug']) ?></li>
+<?php endforeach; ?>
+      </ul>
+    </section>
+<?php endif; ?>
 <?php foreach ($placeGroups as $group => $locations): ?>
     <section class="directory-group">
       <h2><?= ilmera_post_escape($group) ?></h2>

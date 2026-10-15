@@ -193,15 +193,15 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
       "@id": "https://ilmerastudyabroad.com/#destinations",
       "name": "Study Abroad Destinations",
       "itemListElement": [
-                {"@type":"ListItem","position":1,"name":"Study in Germany","url":"https://ilmerastudyabroad.com/services#germany"},
-        {"@type":"ListItem","position":2,"name":"Study in Italy","url":"https://ilmerastudyabroad.com/services#italy"},
-        {"@type":"ListItem","position":3,"name":"Study in the UK","url":"https://ilmerastudyabroad.com/services#uk"},
-        {"@type":"ListItem","position":4,"name":"Study in Czech Republic","url":"https://ilmerastudyabroad.com/services#czech-republic"},
-        {"@type":"ListItem","position":5,"name":"Study in Lithuania","url":"https://ilmerastudyabroad.com/services#lithuania"},
-        {"@type":"ListItem","position":6,"name":"Study in Latvia","url":"https://ilmerastudyabroad.com/services#latvia"},
-        {"@type":"ListItem","position":7,"name":"Study in Slovakia","url":"https://ilmerastudyabroad.com/services#slovakia"},
-        {"@type":"ListItem","position":8,"name":"Study in Russia","url":"https://ilmerastudyabroad.com/services#russia"},
-        {"@type":"ListItem","position":9,"name":"Study in GCC Countries","url":"https://ilmerastudyabroad.com/services#gcc"}
+                {"@type":"ListItem","position":1,"name":"Study in Germany","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('germany'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":2,"name":"Study in Italy","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('italy'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":3,"name":"Study in the UK","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('uk'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":4,"name":"Study in Czech Republic","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('czech-republic'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":5,"name":"Study in Lithuania","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('lithuania'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":6,"name":"Study in Latvia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('latvia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":7,"name":"Study in Slovakia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('slovakia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":8,"name":"Study in Russia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('russia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":9,"name":"Study in GCC Countries","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('gcc'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>}
 
       ]
     }
@@ -437,15 +437,15 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   <div class="container">
     <h2 class="sec-h2 lt reveal" style="text-align:center;font-size:34px;margin-bottom:36px;">Choose Your Study Destination</h2>
     <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:900px;margin:0 auto;">
-      <a href="/services#germany" class="btn-ghost">Study in Germany</a>
-      <a href="/services#italy" class="btn-ghost">Study in Italy</a>
-      <a href="/services#uk" class="btn-ghost">Study in the UK</a>
-      <a href="/services#czech-republic" class="btn-ghost">Study in Czech Republic</a>
-      <a href="/services#lithuania" class="btn-ghost">Study in Lithuania</a>
-      <a href="/services#latvia" class="btn-ghost">Study in Latvia</a>
-      <a href="/services#slovakia" class="btn-ghost">Study in Slovakia</a>
-      <a href="/services#russia" class="btn-ghost">Study in Russia</a>
-      <a href="/services#gcc" class="btn-ghost">Study in GCC Countries</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('germany')) ?>" class="btn-ghost">Study in Germany</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('italy')) ?>" class="btn-ghost">Study in Italy</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('uk')) ?>" class="btn-ghost">Study in the UK</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('czech-republic')) ?>" class="btn-ghost">Study in Czech Republic</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('lithuania')) ?>" class="btn-ghost">Study in Lithuania</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('latvia')) ?>" class="btn-ghost">Study in Latvia</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('slovakia')) ?>" class="btn-ghost">Study in Slovakia</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('russia')) ?>" class="btn-ghost">Study in Russia</a>
+      <a href="<?= ilmera_place_escape(ilmera_destination_target('gcc')) ?>" class="btn-ghost">Study in GCC Countries</a>
     </div>
   </div>
 </section>
