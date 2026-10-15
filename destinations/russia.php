@@ -1,23 +1,38 @@
 <?php
+$edu = 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf';
+$eduLabel = 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27';
+$d = '2026-10-15';
+
 return [
     'slug' => 'russia',
     'name' => 'Russia',
     'status' => 'draft',
-    'intro_answer' => '',
-    'intro_answer_source_url' => '',
-    'intro_answer_source_label' => '',
-    'intro_answer_checked_on' => '',
+    'intro_answer' => 'Indian students can apply for Russian Government scholarships through the official education-in-russia.com website. The Indian Ministry of Education notice states that the scholarship covers tuition fees, that students do not have to pass tests or exams, and that students who do not speak Russian can study Russian first for one year.',
+    'intro_answer_source_url' => $edu,
+    'intro_answer_source_label' => $eduLabel,
+    'intro_answer_checked_on' => $d,
     'ilmera_summary' => 'Exact fees vary by university and programme and should be confirmed at time of application.',
     'summary_provenance' => 'git:7dfac93:llms-full.txt section 4.8',
-    'facts_last_checked' => '',
-    'official_source_hosts' => [],
+    'facts_last_checked' => $d,
+    'official_source_hosts' => ['education.gov.in'],
     'who_its_for' => [],
     'english_requirements' => [],
     'costs' => [],
-    'scholarships' => [],
-    'visa_steps' => [],
+    'scholarships' => [
+        ['text' => 'The Ministry of Education of India notice for the academic year 2026-27 describes a scholarship programme of the Government of the Russian Federation for Indian citizens at Russian higher education institutions. It covers bachelor, specialist, master and PhD study and advanced training courses, and the notice states that the scholarship covers tuition fees. Check the notice for anything else it does or does not cover.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+        ['text' => 'Applications are submitted only through the official website education-in-russia.com. The Indian Ministry of Education states that it has no role in nomination or selection.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+        ['text' => 'The notice states that students do not have to pass tests or exams for this programme, and that students who do not speak Russian can choose to study Russian for one year first.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+    ],
+    'visa_steps' => [
+        ['text' => 'The notice describes a second stage after selection in which selected students are distributed to universities and obtain a visa. The Ministry of Science and Higher Education of the Russian Federation carries out this stage together with Russian universities.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+    ],
     'intakes' => [],
     'documents' => [],
     'work_and_stay' => [],
-    'faqs' => [],
+    'faqs' => [
+        ['question' => 'How do Indian students apply for Russian Government scholarships?', 'answer' => 'Applications are submitted only through the official website education-in-russia.com. The Indian Ministry of Education states that it has no role in nomination or selection.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+        ['question' => 'Do students need to speak Russian for the Russian Government scholarship?', 'answer' => 'Not necessarily. The notice states that students who do not speak Russian can choose to study Russian for one year first.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+        ['question' => 'Are tests or exams required for the Russian Government scholarship?', 'answer' => 'The notice states that students do not have to pass tests or exams for this programme.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+        ['question' => 'Who arranges the university place and visa after selection?', 'answer' => 'After selection, the Ministry of Science and Higher Education of the Russian Federation distributes selected students to universities and handles the visa stage together with Russian universities.', 'source_url' => $edu, 'source_label' => $eduLabel, 'checked_on' => $d],
+    ],
 ];
