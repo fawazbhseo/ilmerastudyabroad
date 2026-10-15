@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/../includes/posts.php';
+$post = ilmera_post('documents-needed-to-study-abroad-from-india');
+if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +13,7 @@
 <meta name="description" content="The document checklist for studying abroad from India: academic records, proof of funds, passport, language proof and country-specific extras like APS and blocked accounts, updated October 2026."/>
 <meta name="keywords" content="documents required to study abroad from india, study abroad checklist, student visa documents, APS certificate, blocked account germany"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="noindex, follow"/><!-- held back until the owner confirms figures; see flagged-items-for-verification.md -->
+<meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>
@@ -47,8 +52,8 @@
       "description": "The document checklist for studying abroad from India: academic records, proof of funds, passport, language proof and country-specific extras like APS and blocked accounts.",
       "url": "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
-      "datePublished": "2026-10-01",
-      "dateModified": "2026-10-01",
+      "datePublished": <?= json_encode($post['datePublished']) ?>,
+      "dateModified": <?= json_encode($post['dateModified']) ?>,
       "articleSection": "Visas",
       "inLanguage": "en-IN",
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
@@ -142,7 +147,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Visas</nav>
   <span class="article-tag">Visas &amp; Documents</span>
   <h1>Documents Needed to Study Abroad from India: The Country Checklist</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; October 1, 2026 &middot; Reviewed October 2026 &middot; 6 min read</p>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 6 min read</p>
 </section>
 
 <section class="s-wrap article-body">

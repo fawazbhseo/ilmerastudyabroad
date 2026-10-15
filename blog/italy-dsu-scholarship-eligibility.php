@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/../includes/posts.php';
+$post = ilmera_post('italy-dsu-scholarship-eligibility');
+if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +14,8 @@
 <meta name="description" content="Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works."/>
 <meta name="keywords" content="Italy DSU scholarship, ISEE Italy, study in Italy scholarship, DSU eligibility, Italy free education"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-<meta name="googlebot" content="index, follow"/>
+<meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
+<meta name="googlebot" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/>
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>
@@ -50,8 +55,8 @@
       "description": "Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.",
       "url": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
-      "datePublished": "2025-08-20",
-      "dateModified": "2026-10-01",
+      "datePublished": <?= json_encode($post['datePublished']) ?>,
+      "dateModified": <?= json_encode($post['dateModified']) ?>,
       "articleSection": "Italy",
       "inLanguage": "en-IN",
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
@@ -128,7 +133,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; Italy</nav>
   <span class="article-tag">Italy</span>
   <h1>Italy's DSU Scholarship: Who Actually Qualifies</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; August 20, 2025 &middot; Reviewed October 2026 &middot; 4 min read</p>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 4 min read</p>
 </section>
 
 <section class="s-wrap article-body">

@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../includes/posts.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,36 +75,9 @@
       "url": "https://ilmerastudyabroad.com/blog/",
       "name": "ILMERA Study Abroad Blog",
       "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "blogPost": [
-        {
-          "@type": "BlogPosting",
-          "headline": "How to Study in Germany for Free from India: The APS Certificate Explained",
-          "url": "https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate",
-          "datePublished": "2025-08-13",
-          "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"}
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Italy's DSU Scholarship: Who Actually Qualifies",
-          "url": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
-          "datePublished": "2025-08-20",
-          "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"}
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Studying Abroad with Academic Backlogs: What Is Actually Possible",
-          "url": "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
-          "datePublished": "2025-08-27",
-          "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"}
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "Study Abroad Counselling from Coorg: How the Process Works Without a City Office",
-          "url": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
-          "datePublished": "2025-09-03",
-          "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"}
-        }
-      ]
+      "blogPost": <?= json_encode(array_map(static function ($post) {
+          return ['@type' => 'BlogPosting', 'headline' => $post['title'], 'url' => 'https://ilmerastudyabroad.com/blog/' . $post['slug'], 'datePublished' => $post['datePublished'], 'dateModified' => $post['dateModified'], 'author' => ['@id' => 'https://ilmerastudyabroad.com/#fawaz']];
+      }, ilmera_published_posts()), JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_SLASHES) ?>
     }
   ]
 }
@@ -172,49 +146,18 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   <div class="container">
     <div class="blog-grid">
 
+<?php foreach (ilmera_published_posts() as $listedPost): ?>
       <article class="blog-card">
-        <span class="blog-tag">Germany</span>
-        <h2>How to Study in Germany for Free from India: The APS Certificate Explained</h2>
-        <p>Germany's public universities charge little to no tuition, but Indian applicants need an APS certificate before they can apply. Here is what the process actually involves.</p>
+        <span class="blog-tag"><?= ilmera_post_escape($listedPost['category']) ?></span>
+        <h2><?= ilmera_post_escape($listedPost['title']) ?></h2>
+        <p><?= ilmera_post_escape($listedPost['excerpt']) ?></p>
         <div class="blog-meta">
           <span class="author">Fawaz BH, CMO</span>
-          <span>5 min read</span>
+          <span><?= (int) $listedPost['readMinutes'] ?> min read</span>
         </div>
-        <a href="/blog/study-in-germany-free-aps-certificate" class="blog-read">Read Article &rarr;</a>
+        <a href="/blog/<?= ilmera_post_escape($listedPost['slug']) ?>" class="blog-read">Read <?= ilmera_post_escape($listedPost['title']) ?> &rarr;</a>
       </article>
-
-      <article class="blog-card">
-        <span class="blog-tag">Italy</span>
-        <h2>Italy's DSU Scholarship: Who Actually Qualifies</h2>
-        <p>Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.</p>
-        <div class="blog-meta">
-          <span class="author">Fawaz BH, CMO</span>
-          <span>4 min read</span>
-        </div>
-        <a href="/blog/italy-dsu-scholarship-eligibility" class="blog-read">Read Article &rarr;</a>
-      </article>
-
-      <article class="blog-card">
-        <span class="blog-tag">No-IELTS</span>
-        <h2>Studying Abroad with Academic Backlogs: What Is Actually Possible</h2>
-        <p>Backlogs do not automatically rule out studying abroad. Several countries have more flexible entry processes. Here is a realistic look at where those options exist.</p>
-        <div class="blog-meta">
-          <span class="author">Fawaz BH, CMO</span>
-          <span>4 min read</span>
-        </div>
-        <a href="/blog/study-abroad-with-academic-backlogs" class="blog-read">Read Article &rarr;</a>
-      </article>
-
-      <article class="blog-card">
-        <span class="blog-tag">Coorg</span>
-        <h2>Study Abroad Counselling from Coorg: How the Process Works Without a City Office</h2>
-        <p>ILMERA is based in Coorg, Kodagu, and works with students by phone, WhatsApp, and video call. Here is exactly what that process looks like, step by step.</p>
-        <div class="blog-meta">
-          <span class="author">Fawaz BH, CMO</span>
-          <span>4 min read</span>
-        </div>
-        <a href="/blog/study-abroad-counselling-from-coorg" class="blog-read">Read Article &rarr;</a>
-      </article>
+<?php endforeach; ?>
 
     </div>
   </div>

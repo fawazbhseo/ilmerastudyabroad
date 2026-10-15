@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/../includes/posts.php';
+$post = ilmera_post('study-abroad-with-academic-backlogs');
+if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +14,8 @@
 <meta name="description" content="Backlogs do not automatically rule out studying abroad. Several countries have more flexible entry processes. Here is a realistic look at where those options exist."/>
 <meta name="keywords" content="study abroad with backlogs, no IELTS study abroad, backlog friendly countries, study abroad low marks"/>
 <meta name="author" content="Fawaz BH"/>
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
-<meta name="googlebot" content="index, follow"/>
+<meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
+<meta name="googlebot" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/>
 <meta name="language" content="English"/>
 <meta name="geo.region" content="IN-KA"/>
 <meta name="geo.placename" content="Coorg, Karnataka, India"/>
@@ -50,8 +55,8 @@
       "description": "Backlogs do not automatically rule out studying abroad. Several countries have more flexible entry processes. Here is a realistic look at where those options exist.",
       "url": "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
-      "datePublished": "2025-08-27",
-      "dateModified": "2026-10-01",
+      "datePublished": <?= json_encode($post['datePublished']) ?>,
+      "dateModified": <?= json_encode($post['dateModified']) ?>,
       "articleSection": "No-IELTS",
       "inLanguage": "en-IN",
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
@@ -128,7 +133,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; No-IELTS</nav>
   <span class="article-tag">No-IELTS</span>
   <h1>Studying Abroad with Academic Backlogs: What Is Actually Possible</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; August 27, 2025 &middot; Reviewed October 2026 &middot; 4 min read</p>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 4 min read</p>
 </section>
 
 <section class="s-wrap article-body">
