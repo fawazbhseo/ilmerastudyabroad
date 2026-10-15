@@ -588,16 +588,57 @@ need their actual route file.
   8.5 WASM. Isolated synthetic tests exercised status changes, 4/5-category
   boundaries, placeholder/FAQ rejection, parent hierarchy, group ordering,
   date changes, empty columns and encoded/direct-PHP draft-link aliases.
-- Chromium covered 132 combinations (33 pages, two widths, JS on/off), with
-  local images and external resources blocked. Breadcrumb parity and no
-  runtime errors passed. Two pre-existing draft tables still overflow at
-  375px: cost has 472px content width, scholarships 530px, both unchanged
-  from the Phase 3 baseline. Fix these separately before publishing them.
-- The About page's existing mobile hamburger did not open its menu during
-  QA; its original page has no hamburger handler. Other existing non-place
-  templates need a menu-wiring audit. That pre-existing behavior was not
-  repaired in this publication/navigation phase. Place-template and new
-  `/all-pages` menus were exercised successfully.
+- Phase 4 Chromium checks recorded mobile table overflow in the cost and
+  scholarships drafts and missing menu wiring on About and other templates.
+  Both issues are resolved by the Phase 5 shared-menu and table-container
+  fixes. See section 17 for the current validation and remaining checks.
 - Actual HTTP headers, native Apache routing, production fonts and hosting
   behavior remain staging checks. No deployment, live-source fact audit,
   local financial/travel verification or outcome guarantee was performed.
+
+
+## 17. Phase 5 menu and draft-table fixes (RESOLVED)
+
+The two technical findings from Phase 4 are resolved. This does not verify
+any article claims or authorize publication of the three draft posts.
+
+### Shared mobile menu
+
+- `includes/header.php` now owns the single mobile menu script. It toggles
+  on the button, closes on every menu link and Escape, and keeps button
+  aria-expanded, labels and the menu's aria-hidden/inert state synchronized.
+  Body scrolling is restored after closing; Escape returns button focus.
+  Resizing above 768px closes the overlay rather than leaving scroll locked.
+- Duplicated Home, Contact, `/all-pages` and place-renderer handlers are
+  removed. About, Services, blog pages, legal pages and all other pages
+  using the shared header receive the same behavior. The 404 page now uses
+  that header too, retaining its existing error content and styling.
+- Verified all 33 HTML pages at both 375px and 768px with JavaScript on/off
+  (132 Chromium combinations). Every menu opens and closes on the button,
+  closes on each of its five links and Escape, and maintains the expected
+  ARIA, focus, inert and body-scroll states. Resize/scroll restoration were
+  also exercised. All navigation destinations remain reachable with
+  JavaScript disabled via the footer or existing static 404 page links.
+
+### Scrollable draft tables
+
+- Every table in the cost, documents and scholarships draft posts is inside
+  a labelled, keyboard-focusable region with overflow-x: auto. Existing
+  table contents and styling are unchanged; the only added styling contains
+  horizontal overflow. At both tested widths, with JavaScript on/off,
+  document width stays within the viewport and wide tables scroll inside
+  their own containers. The earlier 375px page-width overflow is resolved.
+- All three posts remain draft/noindex. Registry status, robots guards,
+  sitemap and both LLM files are unchanged. Their official-source claims
+  still require the owner checks in section 13 and the atomic release
+  workflow in section 16. Technical fixes are not editorial sign-off.
+
+### Validation limits
+
+All 58 PHP files passed PHP 8.5 WASM lint and all 33 full pages rendered
+without warnings/errors, with one shared menu implementation. Table HTML
+contents were compared exactly against the pre-fix version, and existing
+LF/CRLF conventions were retained. No tests, fixtures, screenshots or
+packages were added to Git. Native Apache behavior, actual HTTP headers,
+production fonts/CDN resources and deployment remain staging checks; the
+browser tests supplied local images and blocked external resources.

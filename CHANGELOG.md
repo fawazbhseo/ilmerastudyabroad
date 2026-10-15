@@ -1,5 +1,50 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 5: shared mobile menu and contained tables, 2026-10-15
+
+Three tasks, one commit per task, on the session branch only. These fixes
+resolve the menu and draft-table issues recorded during Phase 4 QA.
+
+1. Centralized mobile menu behavior in `includes/header.php`: button toggle,
+   close on any navigation link, close on Escape, synchronized aria-expanded
+   and labels, closed-menu inert/aria-hidden state, and restored body scroll.
+   Escape returns focus to the button; resizing above the mobile breakpoint
+   closes the overlay. Removed per-page handlers from Home, Contact,
+   `/all-pages` and the place renderer. Services and other shared-header
+   pages now use the same handler without needing their own script. The 404
+   page now includes the shared header rather than its logo-only navigation;
+   its existing error-page styling and static content are retained.
+2. Wrapped each table in the cost, documents and scholarships draft posts
+   in a keyboard-focusable, labelled region with overflow-x: auto. Wide
+   tables scroll within their containers instead of widening the page.
+   Table contents, existing table styling, robots directives and all post
+   publication metadata are unchanged. All three posts remain noindex.
+3. Updated this changelog and the verification inventory to mark the two
+   Phase 4 findings resolved and record the checks below. No unrelated
+   content, design, publication, sitemap or LLM-context changes were made.
+
+### Validation and remaining checks
+
+- All 58 PHP files passed PHP 8.5 WASM lint. All 33 full HTML pages rendered
+  without PHP warnings/errors and with exactly one shared menu script.
+- Chromium passed 132 combinations: all 33 pages at 375px and 768px, with
+  JavaScript enabled and disabled. This includes Home, About, Services,
+  Contact, blog listing, every article, Terms, Privacy, 404, `/all-pages`
+  and all 17 place pages.
+- Menu checks cover opening/closing by button, closing on each of the five
+  menu links, Escape, focus return, aria-expanded/aria-hidden, inert state,
+  body scroll restoration, and closing above the mobile breakpoint.
+  Navigation links remain reachable without JavaScript through the footer
+  or the 404 page's existing static links.
+- All three draft tables stay within the page viewport at both widths,
+  with JavaScript on/off. Oversized tables scroll internally at 375px.
+  Table HTML contents match the pre-fix version exactly; robots remain
+  noindex. The post registry, footer, sitemap, LLM files and README are
+  unchanged. Existing LF/CRLF conventions are preserved.
+- Native Apache, actual HTTP headers and production font/CDN loading still
+  require staging. Browser tests supplied local images and blocked external
+  resources. No deployment or owner fact verification was performed.
+
 ## Phase 4: breadcrumbs, internal links and publication switches, 2026-10-15
 
 Five tasks, one commit per task. All three unverified articles and all 17
