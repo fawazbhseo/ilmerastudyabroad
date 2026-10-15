@@ -1,0 +1,78 @@
+<?php
+return [
+    'slug' => 'karnataka',
+    'name' => 'Karnataka',
+    'type' => 'district-hub',
+    'district' => '',
+    'status' => 'draft',
+    'intro_answer' => 'ILMERA Study Abroad is a consultancy based in Coorg, Kodagu, supporting Karnataka students by phone, WhatsApp and video call. Its focus includes German public-university routes, Italy\'s regional DSU scholarships and study options across Europe, Russia, the UK and the GCC, with profile assessment, admission guidance and visa-document support.',
+    'local_institutions' => [],
+    'transcript_and_moi_steps' => [],
+    'local_loan_options' => [],
+    'visa_appointment_route' => '',
+    'local_notes' => [
+        'Ask for clear answers about payment, responsibility and eligibility before you agree to a service. A student or parent can use the same neutral questions with any consultancy; written terms and an identifiable person handling the application help make the decision understandable.',
+        'How are you paid: by the student, by universities, or through another arrangement?',
+        'Can we see written fees, payment stages, refund terms and the exact scope of support?',
+        'Who is our named counsellor, and how can we contact that person?',
+        'How will you assess our marks, backlogs, language evidence and budget honestly?',
+        'Will you confirm that admission, scholarships and visas are not guaranteed?',
+        'Who checks, submits and tracks our documents, and who keeps the originals?',
+        'ILMERA names Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Its About page identifies Zaheer as handling document verification and application filing. The initial consultation is free; the Terms say paid-service fees and scope are agreed before work begins and outcomes are not guaranteed. [Meet the team](/about) and [read the Terms](/terms).',
+        'ILMERA advises on Germany, Italy, the Czech Republic, Lithuania, Latvia, Slovakia, Russia, the UK and the GCC. The route should follow the student\'s academic record, course choice and budget, rather than a promise of admission, a scholarship or a visa.',
+        '[Germany](/services#germany): public-university applications, APS and proof-of-funds planning. [Read the Germany APS guide](/blog/study-in-germany-free-aps-certificate).',
+        '[Italy DSU](/services#italy): regional scholarship guidance based on income and merit. [Read the Italy DSU guide](/blog/italy-dsu-scholarship-eligibility).',
+        '[Czech Republic](/services#czech-republic): course and university matching.',
+        '[Lithuania](/services#lithuania): university selection and application support.',
+        '[Latvia](/services#latvia): programme and eligibility discussions.',
+        '[Slovakia](/services#slovakia): course and language-route assessment.',
+        '[Russia](/services#russia): academic-profile and admission guidance.',
+        '[UK](/services#uk): course selection and student-visa preparation.',
+        '[GCC](/services#gcc): university and student-visa guidance.',
+        'For academic-profile questions, see [the guide to studying abroad with backlogs](/blog/study-abroad-with-academic-backlogs). Requirements must be checked for the chosen programme.',
+        'The existing About page describes familiarity with PUC and Karnataka state board marksheets and counselling in Kannada, Malayalam, Hindi and English. It also describes digital document sharing, with Zaheer KJ handling verification, APS submissions and application tracking.',
+        'Bring the marksheets and transcripts relevant to your course level to the discussion; identify any backlog documents that need review.',
+        'For Germany, discuss the APS certificate and proof of funds; for Italy DSU, discuss the income-assessment documents. [Germany documentation](/blog/study-in-germany-free-aps-certificate) and [DSU eligibility](/blog/italy-dsu-scholarship-eligibility) are explained in the existing guides.',
+        'The About page mentions Bengaluru or Chennai for many European visa appointments. Do not treat that as a universal appointment location.',
+    ],
+    'faqs' => [
+        [
+            'question' => 'Where is ILMERA based, and does it have a physical office?',
+            'answer' => 'ILMERA is based in Coorg, Kodagu, Karnataka. It has no physical office. Counselling is by phone, WhatsApp and video call.',
+        ],
+        [
+            'question' => 'Can students anywhere in Karnataka use ILMERA counselling?',
+            'answer' => 'Yes. ILMERA works with students across Karnataka by phone, WhatsApp and video call. Documents are shared digitally; the student attends their own visa appointment at the relevant consulate or VFS centre.',
+        ],
+        [
+            'question' => 'Is the first consultation free?',
+            'answer' => 'Yes. The initial consultation is free and carries no obligation. Fees, payment terms and the scope of any paid service are agreed before that work begins.',
+        ],
+        [
+            'question' => 'How does ILMERA earn money?',
+            'answer' => '',
+        ],
+        [
+            'question' => 'Does ILMERA guide students applying to Germany?',
+            'answer' => 'Yes. ILMERA advises on German public-university applications, APS and proof-of-funds preparation. Admission and visa decisions remain with the relevant institutions and authorities.',
+        ],
+        [
+            'question' => 'What does Italy DSU guidance cover?',
+            'answer' => 'ILMERA explains regional DSU scholarship eligibility, including family-income assessment and merit requirements. A scholarship is not guaranteed; the applicable regional rules need to be checked.',
+        ],
+        [
+            'question' => 'Can a student with backlogs or no IELTS score ask for advice?',
+            'answer' => 'Yes. ILMERA reviews marks, backlogs and available language evidence against the chosen programme. This is an eligibility assessment, not a guarantee of admission or an IELTS waiver.',
+        ],
+        [
+            'question' => 'Who handles document support at ILMERA?',
+            'answer' => 'The existing About page identifies CFO Zaheer KJ as handling transcript and marksheet verification, APS submissions, application filing, visa-document sets and appointment scheduling.',
+        ],
+    ],
+    'nearby' => [
+        'kodagu',
+        'belagavi',
+        'shivamogga',
+        'udupi-manipal',
+    ],
+];
