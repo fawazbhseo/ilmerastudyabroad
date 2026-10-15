@@ -112,6 +112,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .article-body li{font-size:16px;font-weight:300;color:var(--grey-light);line-height:1.85;margin-bottom:10px;}
 .article-body strong{color:var(--white);font-weight:500;}
 .article-body a{color:var(--gold);}
+.article-body .table-scroll{max-width:100%;overflow-x:auto;}
 .article-body table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;}
 .article-body th{font-weight:500;color:var(--gold);text-align:left;padding:10px 12px;border-bottom:1px solid rgba(201,168,76,0.4);text-transform:uppercase;letter-spacing:.06em;font-size:12px;}
 .article-body td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,0.08);color:var(--grey-light);vertical-align:top;line-height:1.6;}
@@ -164,6 +165,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </ol>
 
     <h2>Country-Specific Extras</h2>
+    <div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0">
     <table>
       <thead>
         <tr><th>Destination</th><th>Extra documents beyond the core</th></tr>
@@ -177,6 +179,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><td>GCC (UAE, Saudi, Qatar, Kuwait, Bahrain, Oman)</td><td>University-specific admission documents, sponsor or guardian documents where required; requirements differ by country and institution.</td></tr>
       </tbody>
     </table>
+    </div>
 
     <h2>The Order That Saves You Time</h2>
     <p>Counsellor experience says sequence matters more than speed:</p>

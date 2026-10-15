@@ -99,6 +99,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .article-body li{font-size:16px;font-weight:300;color:var(--grey-light);line-height:1.85;margin-bottom:10px;}
 .article-body strong{color:var(--white);font-weight:500;}
 .article-body a{color:var(--gold);}
+.article-body .table-scroll{max-width:100%;overflow-x:auto;}
 .article-body table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;}
 .article-body th{font-weight:500;color:var(--gold);text-align:left;padding:10px 12px;border-bottom:1px solid rgba(201,168,76,0.4);text-transform:uppercase;letter-spacing:.06em;font-size:12px;}
 .article-body td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,0.08);color:var(--grey-light);vertical-align:top;line-height:1.6;}
@@ -139,6 +140,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div class="confirm">Scholarship amounts, deadlines and eligibility thresholds change every cycle. Verify them against the official scheme websites and the target university before applying.</div>
 
     <h2>The Four Realistic Routes</h2>
+    <div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0">
     <table>
       <thead>
         <tr><th>Route</th><th>How it works</th><th>Assessed on</th><th>Best fit</th></tr>
@@ -150,6 +152,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><td>Government schemes (UK Chevening, Commonwealth, others)</td><td>Fully or largely funded study for eligible candidates, applied for directly with the scheme</td><td>Academics, leadership, scheme-specific criteria</td><td>High-achieving applicants with work or community record</td></tr>
       </tbody>
     </table>
+    </div>
 
     <h3>Italy DSU in Practice</h3>
     <p>DSU is administered regionally, so the income threshold and stipend differ between, say, a university in Lombardy and one in Sicily. International applicants file an equivalent ISEE declaration through the regional body, alongside translated and legalised documents. Renewal in later years depends on earning the required credits. The full assessment is explained in our <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility guide') ?: 'DSU eligibility guide' ?> and on our <a href="/services#italy">Study in Italy</a> page.</p>

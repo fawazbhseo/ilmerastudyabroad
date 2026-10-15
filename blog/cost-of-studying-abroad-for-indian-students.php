@@ -111,6 +111,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .article-body li{font-size:16px;font-weight:300;color:var(--grey-light);line-height:1.85;margin-bottom:10px;}
 .article-body strong{color:var(--white);font-weight:500;}
 .article-body a{color:var(--gold);}
+.article-body .table-scroll{max-width:100%;overflow-x:auto;}
 .article-body table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;}
 .article-body th{font-weight:500;color:var(--gold);text-align:left;padding:10px 12px;border-bottom:1px solid rgba(201,168,76,0.4);text-transform:uppercase;letter-spacing:.06em;font-size:12px;}
 .article-body td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,0.08);color:var(--grey-light);vertical-align:top;line-height:1.6;}
@@ -160,6 +161,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </ol>
 
     <h2>Country-by-Country Overview</h2>
+    <div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0">
     <table>
       <thead>
         <tr><th>Destination</th><th>Tuition signal</th><th>Living cost signal</th><th>Best for</th></tr>
@@ -176,6 +178,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><td>GCC (UAE, Saudi, Qatar, Kuwait, Bahrain, Oman)</td><td>Varies by university and branch campus</td><td>Moderate to high in Dubai/Qatar</td><td>Near-home international degrees</td></tr>
       </tbody>
     </table>
+    </div>
 
     <h2>Where the Free-Education Routes Actually Apply</h2>
     <p>Two of the nine destinations can genuinely approach zero tuition:</p>
