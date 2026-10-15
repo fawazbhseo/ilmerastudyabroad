@@ -431,23 +431,20 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </div>
 
-<!-- DESTINATION QUICK LINKS (crawlable internal links) -->
+<!-- STATUS-DRIVEN DESTINATION LINKS -->
+<?php $homeDestinations = ilmera_published_destinations(); if ($homeDestinations): ?>
 <section style="position:relative;z-index:10;background:rgba(4,6,15,0.97);padding:60px 0;">
   <div class="container">
     <h2 class="sec-h2 lt reveal" style="text-align:center;font-size:34px;margin-bottom:36px;">Choose Your Study Destination</h2>
     <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:900px;margin:0 auto;">
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('germany')) ?>" class="btn-ghost">Study in Germany</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('italy')) ?>" class="btn-ghost">Study in Italy</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('uk')) ?>" class="btn-ghost">Study in the UK</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('czech-republic')) ?>" class="btn-ghost">Study in Czech Republic</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('lithuania')) ?>" class="btn-ghost">Study in Lithuania</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('latvia')) ?>" class="btn-ghost">Study in Latvia</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('slovakia')) ?>" class="btn-ghost">Study in Slovakia</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('russia')) ?>" class="btn-ghost">Study in Russia</a>
-      <a href="<?= ilmera_place_escape(ilmera_destination_target('gcc')) ?>" class="btn-ghost">Study in GCC Countries</a>
+<?php foreach ($homeDestinations as $destinationGuide): ?>
+      <?= ilmera_link($destinationGuide['url'], $destinationGuide['name'], ['class' => 'btn-ghost']) ?>
+<?php endforeach; ?>
     </div>
   </div>
 </section>
+<?php endif; ?>
+<div class="container"><?php ilmera_discovery_links(ilmera_indexable_locations(), 'Locations we support'); ?></div>
 
 <!-- SERVICE AREA: COORG / KODAGU (service-area business, no physical office claimed) -->
 <section class="s-wrap" id="coorg-kodagu">

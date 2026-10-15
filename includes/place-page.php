@@ -200,6 +200,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ul>
     </section>
 <?php endif; ?>
+    <p><?= ilmera_link('/services', 'Explore study abroad services', ['style' => 'color:var(--gold);']) ?></p>
+    <?php if ($placeLive && !$placeLinks && !$placeParents) ilmera_discovery_links(ilmera_indexable_locations(), 'Other location guides', $placePath); ?>
     <?= ilmera_place_destination_links($placeData) ?>
     <?php ilmera_render_guides(ilmera_place_guides()); ?>
   </div>

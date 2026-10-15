@@ -35,7 +35,7 @@
 <div class="container">
   <div class="ft-grid">
     <div>
-      <a href="https://ilmerastudyabroad.com/" class="ft-logo" aria-label="ILMERA Study Abroad: Home">
+      <a href="/" class="ft-logo" aria-label="ILMERA Study Abroad: Home">
         <img src="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png" alt="ILMERA Study Abroad logo" width="34" height="34" loading="lazy"/>
         <div style="display:flex;flex-direction:column;line-height:1;"><span class="ft-lname">ILMERA</span><span class="ft-lsub">Study Abroad</span></div>
       </a>
@@ -50,7 +50,7 @@
     <div>
       <h4 class="ft-h4">Navigation</h4>
       <ul class="ft-links">
-        <li><a href="https://ilmerastudyabroad.com/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/services">Services</a></li>
         <li><a href="/blog/">Blog</a></li>
@@ -58,27 +58,13 @@
         <?php if ($directoryLink = ilmera_link('/all-pages', 'All pages')): ?><li><?= $directoryLink ?></li><?php endif; ?>
       </ul>
     </div>
-    <div>
-      <h4 class="ft-h4">Destinations</h4>
-      <ul class="ft-links">
-        <li><a href="/services#germany">&#127465;&#127466; Germany</a></li>
-        <li><a href="/services#italy">&#127470;&#127481; Italy</a></li>
-        <li><a href="/services#uk">&#127468;&#127463; United Kingdom</a></li>
-        <li><a href="/services#czech-republic">&#127464;&#127487; Czech Republic</a></li>
-        <li><a href="/services#lithuania">&#127473;&#127481; Lithuania</a></li>
-        <li><a href="/services#latvia">&#127473;&#127483; Latvia</a></li>
-        <li><a href="/services#slovakia">&#127480;&#127472; Slovakia</a></li>
-        <li><a href="/services#russia">&#127479;&#127482; Russia</a></li>
-        <li><a href="/services#gcc">&#127760; GCC Countries</a></li>
-      </ul>
-    </div>
     <?php $footerDestinations = ilmera_published_destinations(); ?>
     <?php if ($footerDestinations): ?>
     <div>
-      <h4 class="ft-h4">Country guides</h4>
+      <h4 class="ft-h4">Destinations</h4>
       <ul class="ft-links">
         <?php foreach ($footerDestinations as $destinationGuide): ?>
-        <li><?= ilmera_destination_link($destinationGuide['slug']) ?></li>
+        <li><?= ilmera_link($destinationGuide['url'], $destinationGuide['name']) ?></li>
         <?php endforeach; ?>
       </ul>
     </div>
@@ -94,18 +80,14 @@
       </ul>
     </div>
     <?php endif; ?>
-    <?php $footerLocations = ilmera_place_groups(); ?>
-    <?php if ($footerLocations): ?>
+    <?php $footerLocations = ilmera_indexable_locations(); if ($footerLocations): ?>
     <div>
       <h4 class="ft-h4">Locations</h4>
-      <?php foreach ($footerLocations as $group => $locations): ?>
-      <h5 style="color:var(--silver);font-weight:400;margin:16px 0 10px;"><?= ilmera_post_escape($group) ?></h5>
       <ul class="ft-links">
-        <?php foreach ($locations as $location): ?>
-        <li><?= ilmera_place_link($location['slug']) ?></li>
+        <?php foreach ($footerLocations as $location): ?>
+        <li><?= ilmera_link($location['url'], $location['name']) ?></li>
         <?php endforeach; ?>
       </ul>
-      <?php endforeach; ?>
     </div>
     <?php endif; ?>
     <div>

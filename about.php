@@ -748,6 +748,7 @@ img{max-width:100%;height:auto;}
   </div>
 </section>
 
+<div class="container"><p style="padding:28px 0;line-height:1.8;">For course selection and application guidance, explore our <?= ilmera_link('/services', 'study abroad services') ?>.</p></div>
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

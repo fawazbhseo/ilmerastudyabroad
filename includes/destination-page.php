@@ -159,6 +159,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ol>
     </section>
 <?php endif; ?>
+    <?php if ($destinationLive) ilmera_discovery_links(ilmera_published_destinations(), 'Other destinations', $destinationPath); ?>
     <section class="author-card" style="display:block;">
       <h2>Counselling with ILMERA</h2>
       <p>ILMERA Study Abroad is based in Coorg, Kodagu, and has no physical office. Counselling is by phone, WhatsApp and video call.</p>

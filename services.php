@@ -778,6 +778,10 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </section>
 
+<div class="container">
+  <?php ilmera_discovery_links(ilmera_published_destinations(), 'Destination guides'); ?>
+  <?php ilmera_discovery_links(ilmera_indexable_locations(), 'Location guides'); ?>
+</div>
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>

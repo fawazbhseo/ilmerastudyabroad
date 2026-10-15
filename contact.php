@@ -873,7 +873,11 @@ document.querySelectorAll('.btn-submit,.nav-cta,.cta-link').forEach(function(btn
 })();
 });
 </script>
-    </main>
+    <div class="container">
+  <p style="padding:28px 0;line-height:1.8;">Before contacting a counsellor, review our <?= ilmera_link('/services', 'study abroad services') ?>.</p>
+  <?php ilmera_discovery_links(ilmera_indexable_locations(), 'Counselling for your location'); ?>
+</div>
+</main>
     <!-- Body End -->
 
 

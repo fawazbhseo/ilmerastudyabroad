@@ -217,3 +217,17 @@ function ilmera_place_destination_links($data)
     }
     return $links ? '<section><h2>Destination guides</h2><ul>' . implode('', $links) . '</ul></section>' : '';
 }
+
+/** Render a deduplicated block from discovery records, never a page list. */
+function ilmera_discovery_links($pages, $heading, $exclude = '')
+{
+    $links = [];
+    foreach ($pages as $page) {
+        $url = $page['url'];
+        if ($url === $exclude || isset($links[$url])) continue;
+        $link = ilmera_link($url, $page['name'], ['style' => 'color:var(--gold,#C9A84C);text-decoration:underline;text-underline-offset:3px;']);
+        if ($link !== '') $links[$url] = '<li style="margin-bottom:10px;">' . $link . '</li>';
+    }
+    if (!$links) return;
+    echo '<section class="discovery-links" style="padding:32px 0;" aria-label="' . ilmera_post_escape($heading) . '"><h2 style="font-family:Outfit,sans-serif;font-size:24px;line-height:1.4;margin-bottom:18px;">' . ilmera_post_escape($heading) . '</h2><ul style="padding-left:20px;line-height:1.8;">' . implode('', $links) . '</ul></section>';
+}
