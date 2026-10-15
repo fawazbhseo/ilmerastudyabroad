@@ -197,11 +197,13 @@ The following three posts are not live yet per the owner. They retain
 in the sitemap. The cost, documents and scholarships drafts are excluded
 while they retain `noindex`.
 
-**Release rule:** When each post is fact-checked and its `noindex` tag is
-removed, add it back to `sitemap.xml` in the same commit. Verify every item
-below against the relevant university, scholarship body, consulate or
-immigration source. Record source URL, applicable intake/date, exceptions
-and owner sign-off.
+**Release rule (Phase 4):** After fact-checking, publish through
+`includes/posts.php` status, accurate metadata dates, a `sitemap.xml` entry
+with accurate lastmod and a verified `llms.txt` summary in **one commit**.
+Do not remove robots guards; they follow the registry. Links populate
+automatically. Verify every item below against the relevant university,
+scholarship body, consulate or immigration source. Record source URL,
+applicable intake/date, exceptions and owner sign-off. See section 16.
 No current official-source verification was performed in this repair.
 
 ### A. `blog/cost-of-studying-abroad-for-indian-students.php`
@@ -378,11 +380,12 @@ unresolved research, not text to paste into a page. Existing-content
 provenance is recorded in the spreadsheet; it is not independent current
 verification of immigration or university requirements.
 
-All 17 Phase 3 records remain drafts. Live footer/homepage links are still
-disabled; none of these URLs is in the sitemap or either LLM context file.
-Drafts can be requested directly and can link to other drafts. Noindex is
-not access control. Follow section 15 for the current publication gate and
-same-commit release workflow; do not manually remove robots tags in entries.
+All 17 place records remain drafts. Publication-aware footer/homepage
+helpers do not link to them; none is in the sitemap or either LLM file.
+Drafts can be requested directly, but shared link helpers suppress draft
+targets on all pages. Noindex is not access control. Follow sections 15 and
+16 for readiness and the same-commit release workflow; do not manually
+remove robots tags or add footer links to bypass publication checks.
 
 Check each item against owner-approved records or a current official
 institution, lender or visa-authority source. Record the source, date,
@@ -498,7 +501,8 @@ valid categories each, and the 13 new records have zero. A published flag
 alone cannot enable indexing. The template forces robots-meta and HTTP
 noindex unless status is published and at least five valid categories are
 present. Empty content sections and empty FAQPage schema are not emitted.
-The same readiness check hides links to unready data from published pages.
+The same readiness check hides links to unready data on all pages,
+including drafts, through the Phase 4 link helpers.
 
 ### One-commit publication checklist
 
@@ -513,9 +517,9 @@ The same readiness check hides links to unready data from published pages.
   both the PHP record and the spreadsheet only after owner approval.
 - [ ] Add the clean URL to `sitemap.xml` with accurate Git-based lastmod and
   add the verified page to `llms.txt` in that same commit.
-- [ ] Add a footer link only to a ready page. Restore a homepage hub link
-  only when that hub is ready. Do not link an unready draft from any live
-  page, sitemap or LLM context file.
+- [ ] Check automatically populated footer, parent/nearby guides,
+  breadcrumbs and `/all-pages`. Do not add manual links to bypass the
+  shared gate. No unready page belongs in sitemap or LLM context files.
 - [ ] Verify rendered noindex/index behavior, FAQ/schema parity, source
   coverage and hosting-stack routing before release. Noindex is generated
   by the renderer; do not remove its conditional guard.
@@ -523,3 +527,77 @@ The same readiness check hides links to unready data from published pages.
 No local institution, lender, travel route or revenue model was confirmed
 by the technical build. The spreadsheet's existing-content sources are
 migration provenance, not new official-source verification.
+
+
+## 16. Phase 4 publication and navigation release checks
+
+This section supersedes earlier manual noindex-removal or footer-addition
+instructions. Four existing guides remain published; the cost, documents
+and scholarships guides stay draft until the claims in section 13 are
+verified. All 17 places stay draft; the minimum-five-category gate remains.
+The technical changes are not an owner sign-off or fact verification.
+
+### Publish one reviewed page atomically
+
+- [ ] Verify and record sources, current intake/date, exceptions and owner
+  approval. Retain unknown place fields as empty data, not marker text.
+  A place needs at least five valid local-fact categories; metadata,
+  navigation and shared process copy never count toward that threshold.
+- [ ] For a post, set `status` to `published` in `includes/posts.php`; set
+  accurate `datePublished` and `dateModified` dates after review. The draft
+  scaffold date must not be passed off as actual first publication.
+- [ ] For a place, transfer reviewed CSV facts to its returning PHP array
+  and set status to published in both. Confirm a matching thin route file,
+  district/type accuracy and complete FAQ pairs before releasing it.
+- [ ] In the **same commit**, add the clean canonical URL to `sitemap.xml`
+  with accurate `lastmod` based on the substantive content/release date
+  and relevant Git history, not filesystem timestamps or blanket dates.
+- [ ] In the **same commit**, add the verified page and a factual summary
+  to `llms.txt`. Keep `llms-full.txt` consistent if its content is affected.
+  Never recommend a draft or underfilled place in either LLM context file.
+- [ ] Confirm the generated robots meta and actual HTTP X-Robots-Tag agree
+  with eligibility on staging. Do not delete conditional robots code.
+- [ ] Confirm automatic listing/latest/related/service/footer/directory
+  links and visible/schema breadcrumbs. A post's configured related slugs
+  are filtered and filled with other published posts as needed. Locations
+  appear in order: Karnataka, districts, towns/cities. Empty columns and
+  groups must not appear. No manual footer or related-list edit is needed.
+- [ ] Keep `/all-pages` footer-linked and published-only, but **do not add
+  it to `sitemap.xml`**. It is a human directory, not the XML sitemap.
+- [ ] Check local links/anchors, visible FAQ/schema parity, clean URLs and
+  hosting rewrites. Unpublished ancestors are skipped in both breadcrumb
+  outputs; do not link them as a workaround for an incomplete hierarchy.
+
+Status, accurate sitemap lastmod and `llms.txt` belong to the same release
+commit. Helpers do not edit XML/text files. If withdrawing a post/place,
+change status and remove its sitemap/LLM recommendations in one commit;
+the helper-driven links stop linking it automatically. New static pages
+need registration in `ilmera_static_pages()`; new place/post records also
+need their actual route file.
+
+### Content scope and unresolved follow-up
+
+- Country sections use published planning guides where no dedicated country
+  guide exists. The Coorg process guide links to `/services#process`; no
+  unrelated destination is attributed to it. No new country claims were
+  added to make an internal link look more specific.
+- Existing `nearby` selections are editorial related places, not verified
+  nearest locations. Confirm them before adding proximity/travel claims.
+  All unknown district labels remain empty rather than guessed.
+- All 58 PHP files linted and all 33 HTML pages rendered cleanly under PHP
+  8.5 WASM. Isolated synthetic tests exercised status changes, 4/5-category
+  boundaries, placeholder/FAQ rejection, parent hierarchy, group ordering,
+  date changes, empty columns and encoded/direct-PHP draft-link aliases.
+- Chromium covered 132 combinations (33 pages, two widths, JS on/off), with
+  local images and external resources blocked. Breadcrumb parity and no
+  runtime errors passed. Two pre-existing draft tables still overflow at
+  375px: cost has 472px content width, scholarships 530px, both unchanged
+  from the Phase 3 baseline. Fix these separately before publishing them.
+- The About page's existing mobile hamburger did not open its menu during
+  QA; its original page has no hamburger handler. Other existing non-place
+  templates need a menu-wiring audit. That pre-existing behavior was not
+  repaired in this publication/navigation phase. Place-template and new
+  `/all-pages` menus were exercised successfully.
+- Actual HTTP headers, native Apache routing, production fonts and hosting
+  behavior remain staging checks. No deployment, live-source fact audit,
+  local financial/travel verification or outcome guarantee was performed.

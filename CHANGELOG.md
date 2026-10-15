@@ -1,5 +1,65 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 4: breadcrumbs, internal links and publication switches, 2026-10-15
+
+Five tasks, one commit per task. All three unverified articles and all 17
+place records remain draft. No new local facts, office claims or business,
+rating or review schema were introduced. Earlier instructions to remove
+robots tags or manually add footer links are superseded by this workflow.
+
+1. Added the seven-record `includes/posts.php` registry. Listing cards and
+   Blog schema include only published records; article robots directives,
+   publication/modification dates and related selections use the registry.
+2. Added one-array visible/schema breadcrumbs on every HTML page, including
+   Home and 404. Draft ancestors are skipped consistently. Extracted pure
+   place-data functions so ancestor checks do not render a page.
+3. Added centralized published-target link helpers, gated inline article
+   and place-note links, end-of-article related/service/contact links,
+   homepage latest guides, planning guides in nine country sections,
+   contextual About/Contact team links, conditional footer columns and
+   ready-only parent/nearby/guide navigation on place pages. General process
+   articles link to the process section rather than an unrelated country.
+4. Added `/all-pages`, grouped from the same published-page helpers and
+   linked from shared and 404 footers. The directory is intentionally not
+   added to the XML sitemap. It currently lists 12 distinct published URLs.
+5. Updated README and verification/release instructions: owner approval,
+   publish status, accurate sitemap lastmod and `llms.txt` in one commit.
+   Relevant links appear automatically; no manual footer additions.
+
+### Validation and remaining limits
+
+- PHP 8.5 WASM: all 58 files linted; all 33 full HTML pages rendered without
+  warnings/errors. Visible/schema breadcrumb parity, schema references,
+  metadata dates, robots, related/latest guides, nine country sections,
+  directory membership and internal route/anchor checks pass.
+- Isolated fixture tests cover post publication and withdrawal, automatic
+  links, dates, latest ordering, empty columns, the five-category place
+  gate, omitted draft ancestors, place hierarchy/group order and inline
+  encoded/direct-PHP/query draft-link suppression.
+- Chromium: 132 page/width/JavaScript cases passed breadcrumb/layout/runtime
+  checks with two explicitly recorded pre-existing draft-table overflow
+  exceptions: cost 472px and scholarships 530px at a 375px viewport, equal
+  to the Phase 3 baseline. Place/directory menus and native FAQs work in
+  the exercised cases. The existing About hamburger needs separate repair.
+- Apache rules, header source, place records/spreadsheet, the 11-URL sitemap,
+  both LLM files and Google verification are unchanged. LF/CRLF conventions
+  are preserved. No test packages, fixtures or screenshots were committed.
+- Hosting rewrites, HTTP headers and production fonts require staging.
+  External browser resources were blocked; local images were supplied.
+  No owner facts were independently verified and no deployment was made.
+
+### Atomic publication rule
+
+For a reviewed post, update its registry status and accurate publication /
+modification dates; for a reviewed place, populate at least five valid fact
+categories and update status in PHP and CSV. In the same commit, add its
+canonical URL to `sitemap.xml` with accurate lastmod and add its verified
+summary to `llms.txt`. Keep `llms-full.txt` consistent if affected. Never
+manually remove guards or add draft links. Footer, breadcrumbs, related
+lists and `/all-pages` populate automatically. `/all-pages` remains outside
+`sitemap.xml`. Unpublishing also removes sitemap/LLM recommendations in the
+same commit. See README and verification section 16 for the release steps.
+
 ## Phase 3: scalable place pages, 2026-10-15
 
 Five tasks, one commit per task. No draft is promoted or linked from the
