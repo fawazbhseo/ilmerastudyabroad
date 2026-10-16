@@ -3148,3 +3148,14 @@ Added no tracking script, event sender or third-party dependency. Provider,
 property, consent and an actual enquiry-success signal remain owner inputs.
 The measurement report distinguishes CTA clicks from confirmed delivery and
 excludes personal/student information from any proposed future events.
+
+## Phase 19 task 9: official eligibility and off-page limits, 2026-10-16
+
+Opened Google official eligibility and representation guidelines. Online-only
+businesses are listed as ineligible for Business Profile; service-area rules
+require actual customer visits, not a virtual workaround. No profile or
+address was invented. Directory onboarding does not prove acceptance of the
+confirmed online-only model. Sulekha access was denied, the requested UrbanPro
+category was missing and Justdial onboarding requests an address. None was
+certified eligible; these remain owner due-diligence candidates. Existing
+social handles only, no new account or submission, no fictional student proof.
