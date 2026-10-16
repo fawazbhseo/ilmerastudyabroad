@@ -69,7 +69,7 @@ $articleGraph = [[
     'https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html',
     'https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa',
     'https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/',
-    'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/indian-nationals',
+    'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
 ]
 ]];
 if (ilmera_post_published($post['slug'])) $articleGraph[0]['datePublished'] = $post['datePublished'];
@@ -176,7 +176,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li id="source-CZ"><a href="https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html" rel="noopener noreferrer">Czech Embassy New Delhi: current long-term application guidance</a></li>
         <li id="source-SK-V"><a href="https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa" rel="noopener noreferrer">Slovak Embassy New Delhi: national visa</a></li>
         <li id="source-LT-V"><a href="https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/" rel="noopener noreferrer">Lithuanian Migration Department: India services</a></li>
-        <li id="source-LV-V"><a href="https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/indian-nationals" rel="noopener noreferrer">Latvian Embassy India: Indian-national students</a></li>
+        <li id="source-LV-V"><a href="https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals" rel="noopener noreferrer">Latvian Embassy India: long-stay visa for Indian-national students</a></li>
       </ul>
     </section>
     <div class="author-card">

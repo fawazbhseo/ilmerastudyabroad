@@ -41,7 +41,7 @@ return [
     'visa_steps' => [
         [
             'text' => 'Applications for a Slovak national visa are submitted at a diplomatic mission of the Slovak Republic. Indian applicants use the Embassy in New Delhi.',
-            'source_url' => 'https://www.mzv.sk/en/web/dilli-en/services/national-visa',
+            'source_url' => 'https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa',
             'source_label' => 'Embassy of the Slovak Republic in New Delhi: National visa',
             'checked_on' => '2026-10-16',
         ],
@@ -79,7 +79,7 @@ return [
         [
             'question' => 'Where do Indian students apply for a Slovak national visa?',
             'answer' => 'At the Embassy of the Slovak Republic in New Delhi. Check the embassy page for the current appointment method.',
-            'source_url' => 'https://www.mzv.sk/en/web/dilli-en/services/national-visa',
+            'source_url' => 'https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa',
             'source_label' => 'Embassy of the Slovak Republic in New Delhi: National visa',
             'checked_on' => '2026-10-16',
         ],

@@ -46,7 +46,7 @@
           "checked_on": "2026-10-16"
         },
         {
-          "url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
           "label": "European Commission: Latvia profile",
           "checked_on": "2026-10-16"
         },
@@ -56,8 +56,8 @@
           "checked_on": "2026-10-16"
         },
         {
-          "url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "label": "Indian Consulate Dubai: student advisory, redirected to the 2026 document",
+          "url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "label": "Indian Consulate Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16"
         }
       ],
@@ -105,7 +105,7 @@
         {
           "text": "The Latvia profile estimates living costs of 450 to 700 euros monthly, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and must be budgeted separately.",
           "source_urls": [
-            "https://education.ec.europa.eu/fi/country-profiles/latvia"
+            "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia"
           ],
           "checked_on": "2026-10-16",
           "verified": true
@@ -121,7 +121,7 @@
         {
           "text": "The Dubai consulate advisory recommends checking written admission and payment terms, including refunds, and budgeting for accommodation, insurance and other expenses. This UAE advice is not a price estimate for all GCC countries.",
           "source_urls": [
-            "https://www.cgidubai.gov.in/page/student-advisory/"
+            "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc"
           ],
           "checked_on": "2026-10-16",
           "verified": true
@@ -147,13 +147,14 @@
       ],
       "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
       "failed_gates": [],
-      "file_sha256": "bdc1481cb76aa748d99d80162b9d0b98001bb95b75898d1169c9c85e62242dd9",
+      "file_sha256": "56c65eb7c9c5a8ca17bb1d8b4fce5af25b93c859c315b20e982acf5cbe468704",
       "metadata": {
         "title": "Cost of Studying Abroad: Official Country Examples",
         "excerpt": "Compare sourced tuition and living-cost examples for six countries, plus UAE budgeting advice. Separate estimates from visa financial requirements.",
         "dateModified": "2026-10-16",
         "datePublished": "2026-10-16"
-      }
+      },
+      "phase16_rechecked_on": "2026-10-16"
     },
     "documents-needed-to-study-abroad-from-india": {
       "checked_on": "2026-10-16",
@@ -196,8 +197,8 @@
           "checked_on": "2026-10-16"
         },
         {
-          "url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/indian-nationals",
-          "label": "Latvian Embassy India: Indian-national students",
+          "url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "label": "Latvian Embassy India: long-stay visa for Indian-national students",
           "checked_on": "2026-10-16"
         }
       ],
@@ -261,7 +262,7 @@
         {
           "text": "The Latvian embassy requires Indian-national student applicants to complete the Hello Verify process before VFS booking and to provide the transaction number. Its student instructions describe identity, study, funding, accommodation and insurance evidence. Follow the embassy's complete instructions for the individual application.",
           "source_urls": [
-            "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/indian-nationals"
+            "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals"
           ],
           "checked_on": "2026-10-16",
           "verified": true
@@ -287,13 +288,14 @@
       ],
       "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
       "failed_gates": [],
-      "file_sha256": "6c8263d052516cfe61de6fa87e2e19b0d27dedb83e8431ee81788f00ef27f720",
+      "file_sha256": "40cb55ec66b9451910d21fe78591c34c0192dc41a02827e35e1c511e2d97cbe3",
       "metadata": {
         "title": "Documents Needed to Study Abroad: Build a Route-Specific Checklist",
         "excerpt": "Official document examples for selected study routes. Separate admission, financial evidence and visa instructions instead of relying on one universal checklist.",
         "dateModified": "2026-10-16",
         "datePublished": "2026-10-16"
-      }
+      },
+      "phase16_rechecked_on": "2026-10-16"
     },
     "scholarships-for-indian-students-study-abroad": {
       "checked_on": "2026-10-16",

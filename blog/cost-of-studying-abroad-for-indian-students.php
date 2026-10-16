@@ -66,9 +66,9 @@ $articleGraph = [[
     'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
     'https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia',
     'https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania',
-    'https://education.ec.europa.eu/fi/country-profiles/latvia',
+    'https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia',
     'https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants',
-    'https://www.cgidubai.gov.in/page/student-advisory/',
+    'https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc',
 ]
 ]];
 if (ilmera_post_published($post['slug'])) $articleGraph[0]['datePublished'] = $post['datePublished'];
@@ -172,9 +172,9 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <li id="source-IT"><a href="https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/" rel="noopener noreferrer">Italian Consulate Bengaluru: study in Italy</a></li>
         <li id="source-SK-E"><a href="https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia" rel="noopener noreferrer">European Commission: Slovakia profile</a></li>
         <li id="source-LT-E"><a href="https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania" rel="noopener noreferrer">European Commission: Lithuania profile</a></li>
-        <li id="source-LV-E"><a href="https://education.ec.europa.eu/fi/country-profiles/latvia" rel="noopener noreferrer">European Commission: Latvia profile</a></li>
+        <li id="source-LV-E"><a href="https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia" rel="noopener noreferrer">European Commission: Latvia profile</a></li>
         <li id="source-UK-F"><a href="https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants" rel="noopener noreferrer">GOV.UK: Student visa financial evidence</a></li>
-        <li id="source-UAE"><a href="https://www.cgidubai.gov.in/page/student-advisory/" rel="noopener noreferrer">Indian Consulate Dubai: student advisory, redirected to the 2026 document</a></li>
+        <li id="source-UAE"><a href="https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc" rel="noopener noreferrer">Indian Consulate Dubai: UAE student advisory (2026 document)</a></li>
       </ul>
     </section>
     <div class="author-card">

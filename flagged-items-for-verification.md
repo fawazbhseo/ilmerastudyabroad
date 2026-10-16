@@ -2772,3 +2772,46 @@ permits only task 1 link removals there. The strict discovery guard must fail
 on those names. This is an unresolved permission blocker, not a passing
 exception. Both LLM files also retain prohibited wording under that same
 restriction. No page status changed; no earlier blocker was rewritten.
+
+## Phase 16 task 3: current citation repairs and transport limit
+
+Reopened every distinct official citation URL found across the 37 published
+HTML pages, including the Graduate visa citation also in both public LLM
+files. The short Latvia Indian-national path still returns a missing-page
+body. Replaced it in the Documents article and its matched source journal
+with the opened /students/indian-nationals page on the same approved host.
+That page explicitly supports the retained Hello Verify/VFS and document
+paragraph. Updated the source label and rechecked_on evidence; checked_on
+remains 16 October 2026 because both checks occurred on that date.
+
+The Dubai landing URL redirected successfully to the 2026 official document
+in this pass, unlike its earlier HTTP 500. Use that opened direct document
+instead. Also made the existing European Commission Latvia, Riyadh and
+Slovak national-visa redirects direct, on the same approved hosts. Removed
+the unsupported Qatar statement that the embassy lists no application steps;
+kept its sourced visa-applicability fact and added confirmation advice.
+All active source rows and affected article hashes were matched again.
+
+Latvia retains five categories: intro, costs, visa steps, documents and FAQ.
+No Latvia line was removed and no page status or sitemap URL changed.
+Historical source attempts and all earlier blockers remain in place.
+
+reports/phase-16-citations.json records all fresh source opens. The fetch tool
+exposes content success/error, not raw headers/status on successful fetches.
+It cannot honestly certify numeric HTTP 200 for each external citation.
+No other substantive missing page was found, but the strict all-citations-200
+transport requirement remains unverified until an unrestricted staging check.
+No failed or soft-missing page has been labelled verified evidence.
+
+Task 3 inventory correction before finalizing its commit: the initial
+host-filtered extraction counted 23 original citations and missed two existing
+static tuition-footer sources. A fresh broader link sweep found the Slovak
+Ministry tuition page and Universitaly procedures page. Both were freshly
+opened substantively too. The complete totals are 25 original distinct URLs
+and 23 current distinct URLs after removing duplicate redirect aliases.
+The maintained tools/published_citations.py inventories all published anchors,
+schema citations and both LLM files without that destination-host filter;
+three regression cases cover legacy/unknown hosts, schema-only citations and
+explicit contact/social exclusions. Neither legacy footer host was added to
+the destination approval lists. Universitaly still does not substantiate the
+owner amount or partners. The earlier all-200 transport limitation remains.

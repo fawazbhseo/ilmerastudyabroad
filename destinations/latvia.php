@@ -19,7 +19,7 @@ return [
     'costs' => [
         [
             'text' => 'The European Commission Latvia profile estimates student living expenses at 450 to 700 euros per month, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and is separate from that living-cost estimate.',
-            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_url' => 'https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia',
             'source_label' => 'European Commission: Latvia tuition and living costs',
             'checked_on' => '2026-10-16',
         ],
@@ -67,7 +67,7 @@ return [
         ],
         [
             'text' => 'Non-EU students need health insurance that covers emergency medical care, inpatient treatment, emergency transportation to a medical facility, and repatriation in case of serious illness.',
-            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_url' => 'https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia',
             'source_label' => 'Study in Europe (European Commission): Latvia country profile',
             'checked_on' => '2026-10-16',
         ],
@@ -98,7 +98,7 @@ return [
         [
             'question' => 'Is health insurance required for students in Latvia?',
             'answer' => 'Yes. Non-EU students need health insurance covering emergency care, inpatient treatment, emergency transport and repatriation in case of serious illness.',
-            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_url' => 'https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia',
             'source_label' => 'Study in Europe (European Commission): Latvia country profile',
             'checked_on' => '2026-10-16',
         ],

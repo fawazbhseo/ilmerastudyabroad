@@ -267,7 +267,7 @@
         },
         {
           "field": "visa_steps[0]",
-          "source_url": "https://www.mzv.sk/en/web/dilli-en/services/national-visa",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
           "source_label": "Embassy of the Slovak Republic in New Delhi: National visa",
           "checked_on": "2026-10-16",
           "confirmed_text": "Applications for a Slovak national visa are submitted at a diplomatic mission of the Slovak Republic. Indian applicants use the Embassy in New Delhi."
@@ -303,7 +303,7 @@
         },
         {
           "field": "faqs[1]",
-          "source_url": "https://www.mzv.sk/en/web/dilli-en/services/national-visa",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
           "source_label": "Embassy of the Slovak Republic in New Delhi: National visa",
           "checked_on": "2026-10-16",
           "confirmed_text": "At the Embassy of the Slovak Republic in New Delhi. Check the embassy page for the current appointment method.",
@@ -344,7 +344,9 @@
       "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
       "verified_categories": 6,
-      "final_status": "published"
+      "final_status": "published",
+      "phase16_rechecked_on": "2026-10-16",
+      "phase16_note": "Active retained source references reopened; redirects made direct; unsupported Qatar no-steps clause replaced with planning advice. Historical original-field records retained."
     },
     "uk": {
       "entry": "study-in-uk.php",
@@ -670,7 +672,7 @@
         },
         {
           "field": "costs[0]",
-          "source_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "source_url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
           "source_label": "European Commission: Latvia tuition and living costs",
           "checked_on": "2026-10-16",
           "confirmed_text": "The European Commission Latvia profile estimates student living expenses at 450 to 700 euros per month, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and is separate from that living-cost estimate."
@@ -719,7 +721,7 @@
         },
         {
           "field": "documents[2]",
-          "source_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "source_url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
           "source_label": "Study in Europe (European Commission): Latvia country profile",
           "checked_on": "2026-10-16",
           "confirmed_text": "Non-EU students need health insurance that covers emergency medical care, inpatient treatment, emergency transportation to a medical facility, and repatriation in case of serious illness."
@@ -750,7 +752,7 @@
         },
         {
           "field": "faqs[3]",
-          "source_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "source_url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
           "source_label": "Study in Europe (European Commission): Latvia country profile",
           "checked_on": "2026-10-16",
           "confirmed_text": "Yes. Non-EU students need health insurance covering emergency care, inpatient treatment, emergency transport and repatriation in case of serious illness.",
@@ -773,7 +775,9 @@
       "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
       "verified_categories": 5,
-      "final_status": "published"
+      "final_status": "published",
+      "phase16_rechecked_on": "2026-10-16",
+      "phase16_note": "Active retained source references reopened; redirects made direct; unsupported Qatar no-steps clause replaced with planning advice. Historical original-field records retained."
     },
     "gcc": {
       "entry": "study-in-gcc.php",
@@ -782,29 +786,29 @@
       "retained_line_reviews": [
         {
           "field": "intro_answer",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "In the UAE, the student residence visa is typically sponsored by the university or by a parent or relative who is a legal resident. It is valid for up to 12 months and renewed each year. The visa process usually starts with the sponsoring institution after admission, through the ICP portal or the GDRFA of the emirate."
         },
         {
           "field": "english_requirements[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "In the UAE, most universities teach in English. The consulate says a minimum IELTS Academic band of 5.5 to 7.0, or an equivalent TOEFL score, is typically required depending on the programme and institution. Confirm the requirement with the institution."
         },
         {
           "field": "costs[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate advises students going to the UAE to plan for tuition fees, accommodation, health insurance, daily living costs, books and equipment, visa fees and an emergency fund, and to check tuition fees and refund policies on the institution website before committing."
         },
         {
           "field": "costs[1]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate advises paying fees directly to the university official bank account rather than through third parties, and obtaining official receipts for every payment."
         },
@@ -817,29 +821,29 @@
         },
         {
           "field": "scholarships[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate states that scholarships for Indian students going to the UAE include institutional scholarships, Government of India scholarships and bilateral programmes, and encourages students to explore them before relying on self-funding."
         },
         {
           "field": "visa_steps[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "In the UAE, the student residence visa is typically sponsored by the university or institution, or by a parent or relative who is a legal resident. It is valid for up to 12 months and must be renewed each year of the programme."
         },
         {
           "field": "visa_steps[1]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The visa application is typically started by the sponsoring institution after admission, through the federal ICP portal or through the General Directorate of Residency and Foreigners Affairs (GDRFA) of the relevant emirate."
         },
         {
           "field": "visa_steps[2]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "On arrival, applicants above 18 must pass a mandatory medical fitness test at a government-approved centre, which includes a chest X-ray and blood tests. The visa is issued only after passing, and students then apply for an Emirates ID with biometric registration."
         },
@@ -848,100 +852,100 @@
           "source_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
           "source_label": "Embassy of India, Doha: Advisory for students arriving for university education in Qatar",
           "checked_on": "2026-10-16",
-          "confirmed_text": "In Qatar, international students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa. The embassy page does not list the steps, so confirm them with the institution."
+          "confirmed_text": "In Qatar, international students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa. Confirm the current application steps and document requirements with the institution."
         },
         {
           "field": "intakes[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "UAE universities typically have two main intakes, September and January or February, and some institutions also offer a summer intake. The academic year is generally two semesters of about 16 to 18 weeks, and some universities use trimesters."
         },
         {
           "field": "documents[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate lists these documents for the UAE: a passport valid for at least 6 months beyond the programme start date with two blank pages, the student entry permit or visa, the official admission or offer letter, proof of tuition payment, accommodation confirmation, and proof of financial sufficiency such as bank statements or scholarship letters."
         },
         {
           "field": "documents[1]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "Health insurance is mandatory in the UAE. Students on a sponsored university visa need valid cover from arrival, and short-term travel insurance is not accepted for residency. A long-term policy from a UAE-approved insurer is required, and many universities arrange group cover."
         },
         {
           "field": "documents[2]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "Indian academic documents may need attestation in a set sequence for the UAE, and the consulate notes that the UAE separately requires its own foreign ministry attestation for most official purposes. Check the requirement with the institution and use only government-authorised providers."
         },
         {
           "field": "documents[3]",
-          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "source_url": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
           "source_label": "Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia",
           "checked_on": "2026-10-16",
           "confirmed_text": "For Saudi Arabia, the Embassy of India in Riyadh lists a confirmed place for the study programme at a recognised educational institution or university, and other documents required by the Saudi mission in India. Confirm the full list with the Saudi mission."
         },
         {
           "field": "work_and_stay[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "In the UAE, students aged 18 and above may work part-time only with prior written permission from the sponsoring university and a work permit from the Ministry of Human Resources and Emiratisation. Part-time work is generally up to about 15 hours a week or 60 hours a month, though this may vary. Working without a permit can lead to visa cancellation and deportation."
         },
         {
           "field": "work_and_stay[1]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate says recent graduates of universities ranked in the global top 500, as recognised by the UAE Ministry of Education, can apply for a Job Seeker Visa of 60 to 120 days with a financial guarantee. Outstanding graduates may qualify for a 10-year Golden Visa, with a minimum GPA of 3.5 to 3.8 or equivalent and graduation within two years."
         },
         {
           "field": "work_and_stay[2]",
-          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "source_url": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
           "source_label": "Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia",
           "checked_on": "2026-10-16",
           "confirmed_text": "The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia."
         },
         {
           "field": "faqs[0]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "Typically the university or institution, or a parent or relative who is a legal resident of the UAE. The application is usually started by the institution after admission.",
           "question": "Who sponsors the UAE student visa for Indian students?"
         },
         {
           "field": "faqs[1]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate advises confirming that the institution is accredited by the relevant UAE authority (CAA, KHDA or ADEK), and that the chosen programme is separately accredited, to make sure the degree is recognised.",
           "question": "How can Indian students check that a UAE university is recognised?"
         },
         {
           "field": "faqs[2]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "Only with written permission from the university and a work permit from the UAE labour ministry. Hours are generally limited to about 15 a week, and working without a permit can lead to visa cancellation.",
           "question": "Can Indian students work part-time in the UAE?"
         },
         {
           "field": "faqs[3]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "Yes. Students on a sponsored university visa need valid health insurance from arrival, and a long-term policy from a UAE-approved insurer is required. Travel insurance is not accepted.",
           "question": "Is health insurance required for students in the UAE?"
         },
         {
           "field": "faqs[4]",
-          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
-          "source_label": "Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE",
+          "source_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "source_label": "Consulate General of India, Dubai: UAE student advisory (2026 document)",
           "checked_on": "2026-10-16",
           "confirmed_text": "The consulate advises applying directly to the institution wherever possible. If an agent is used, it should be authorised by the institution, and students should avoid anyone who promises guaranteed visas or jobs.",
           "question": "Should students use an agent to apply to UAE universities?"
@@ -956,7 +960,7 @@
         },
         {
           "field": "faqs[6]",
-          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "source_url": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
           "source_label": "Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia",
           "checked_on": "2026-10-16",
           "confirmed_text": "No. The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia.",
@@ -972,7 +976,7 @@
         },
         {
           "field": "faqs[8]",
-          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "source_url": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
           "source_label": "Embassy of India, Riyadh: Useful information for Indian students in Saudi Arabia",
           "checked_on": "2026-10-16",
           "confirmed_text": "The Embassy of India in Riyadh advises students to register with it by filling in the registration form on its website.",
@@ -1027,7 +1031,9 @@
         "Saudi Arabia": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
         "Bahrain": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf"
       },
-      "final_status": "published"
+      "final_status": "published",
+      "phase16_rechecked_on": "2026-10-16",
+      "phase16_note": "Active retained source references reopened; redirects made direct; unsupported Qatar no-steps clause replaced with planning advice. Historical original-field records retained."
     },
     "russia": {
       "entry": "study-in-russia.php",
