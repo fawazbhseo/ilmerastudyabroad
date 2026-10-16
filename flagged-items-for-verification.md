@@ -2529,3 +2529,28 @@ The Italy DSU article remains withheld for unsupported regional benefits.
 Contact tuition FAQs and decorative labels were also qualified by country;
 contact.php uses the same opened Phase A tuition sources, not general
 zero-cost claims. No source was verified from a search excerpt.
+
+### Phase B task 3: opened-source review, 2026-10-16
+
+Reviewed in order: Germany, Italy, Slovakia, UK, Czech Republic, Lithuania,
+Latvia, GCC, Russia. phase14-source-review.json records each retained field,
+URL, checked date and exact confirmed text. Every original fact/FAQ field is
+accounted for; unsupported, superseded and disallowed-source lines are removed
+rather than marked verified. Summary and provenance values are unchanged.
+
+| Page | Opened source evidence and changes | Remaining source gate |
+|---|---|---|
+| Germany | DAAD finance: tuition exceptions, corrected contribution range, separate living costs and limited work; visas and side-jobs pages also opened. | None for retained lines; categories checked next. |
+| Italy | Bengaluru consulate: admissions, pre-enrolment, appointments, interview, processing, DOV and email warning. Opened linked checklist is 2025-26, not a later intake checklist. Universitaly current procedures also opened, but not added to the destination host list. | No invented later-intake checklist or scholarship entitlement. |
+| Slovakia | EC profile and embassy national-visa/contact pages opened. Old generic email-booking and document-age claims removed. The international-organisation source was opened but excluded by the stricter host policy. | Reconfirm the study-specific booking method before applying. |
+| UK | GOV.UK financial guidance and English/overview pages opened. Funding amounts confirmed, and exemptions clarified. | None for retained lines; categories checked next. |
+| Czech Republic | Embassy current application/booking pages, old 2018 checklist, Interior study visa and archived funds page opened. Tuition portal redirected to a missing page. Current translation, appointment and insurance conditions retained; outdated tuition/range and archived funds claims removed. | Original tuition source unavailable; redirected portal host is outside existing approval. Keep draft pending approved replacement evidence. |
+| Lithuania | EC tuition/insurance profile and Migration Department India appointment page opened. Institution-specific immigration source opened but excluded; its D-visa regime and funds statements removed. | Do not resolve conflicting visa descriptions using an unapproved institutional source. |
+| Latvia | Embassy Indian-national and general student pages and EC profile opened. Existing appointment, verification and insurance lines confirmed. | None for retained lines; categories checked next. |
+| GCC | Dubai advisory redirects to a 2026 document, opened through relevant sections. Qatar advisory, Saudi student table and Bahrain PDF opened. Bahrain release is dated 31 May 2022. Oman URL returned File not found; Kuwait has no usable evidence. | Exclude Oman/Kuwait. Visible scope note required before publishing the remaining four-country material. |
+| Russia | Cited Ministry PDF returned a missing page. Search did not supply an opened current replacement. | Zero verified categories this session. Keep all existing source dates unchanged; current notice and expired-window details remain unverified. |
+
+No source-host list was broadened. Non-government/institution-specific hosts
+were removed, not silently approved. A successful HTTP page load containing
+an error or archive banner is not current factual verification. The JSON
+contains no claim that an unavailable Russian notice was read.

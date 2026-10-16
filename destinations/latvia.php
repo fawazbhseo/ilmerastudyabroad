@@ -1,45 +1,107 @@
 <?php
-$ind = 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals';
-$indLabel = 'Embassy of Latvia in India: Long stay visa for students, Indian nationals';
-$stu = 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students';
-$stuLabel = 'Embassy of Latvia in India: Long stay visa for students';
-$eu = 'https://education.ec.europa.eu/fi/country-profiles/latvia';
-$euLabel = 'Study in Europe (European Commission): Latvia country profile';
-$d = '2026-10-15';
-
 return [
     'slug' => 'latvia',
     'name' => 'Latvia',
     'status' => 'draft',
     'intro_answer' => 'Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.',
-    'intro_answer_source_url' => $ind,
-    'intro_answer_source_label' => $indLabel,
-    'intro_answer_checked_on' => $d,
+    'intro_answer_source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+    'intro_answer_source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+    'intro_answer_checked_on' => '2026-10-16',
     'ilmera_summary' => 'ILMERA counsellors review a student\'s academic transcripts, standardized test scores (if any), budget, preferred field of study, and career goals.',
     'summary_provenance' => 'git:7dfac93:llms-full.txt section 3.1',
-    'facts_last_checked' => $d,
-    'official_source_hosts' => ['mfa.gov.lv', 'education.ec.europa.eu'],
+    'facts_last_checked' => '2026-10-16',
+    'official_source_hosts' => [
+        'mfa.gov.lv',
+        'education.ec.europa.eu',
+    ],
     'who_its_for' => [],
     'english_requirements' => [],
     'costs' => [],
     'scholarships' => [],
     'visa_steps' => [
-        ['text' => 'Indian nationals enrolled at accredited Latvian institutions apply for the long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days, and on entering Latvia the student applies for a residence permit at the Office of Citizenship and Migration Affairs.', 'source_url' => $ind, 'source_label' => $indLabel, 'checked_on' => $d],
-        ['text' => 'Applicants from India must have their visa support document verified by the service provider Hello Verify India Private Limited before submitting the visa application. The embassy states that no appointment is given at VFS without the Hello Verify transaction number.', 'source_url' => $stu, 'source_label' => $stuLabel, 'checked_on' => $d],
-        ['text' => 'Appointments for submission and for a video or in-person interview with the embassy are booked through the VFS Global Latvia call centre in India, and the application is submitted at a VFS Global Latvia visa application centre.', 'source_url' => $stu, 'source_label' => $stuLabel, 'checked_on' => $d],
-        ['text' => 'The application form is completed online at epak.pmlp.gov.lv as a national visa (type D). VFS Global India applies service charges and a fee for the video conference, and documents count as submitted when the embassy receives them from VFS.', 'source_url' => $ind, 'source_label' => $indLabel, 'checked_on' => $d],
+        [
+            'text' => 'Indian nationals enrolled at accredited Latvian institutions apply for the long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days, and on entering Latvia the student applies for a residence permit at the Office of Citizenship and Migration Affairs.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'text' => 'Applicants from India must have their visa support document verified by the service provider Hello Verify India Private Limited before submitting the visa application. The embassy states that no appointment is given at VFS without the Hello Verify transaction number.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'text' => 'Appointments for submission and for a video or in-person interview with the embassy are booked through the VFS Global Latvia call centre in India, and the application is submitted at a VFS Global Latvia visa application centre.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'text' => 'The application form is completed online at epak.pmlp.gov.lv as a national visa (type D). VFS Global India applies service charges and a fee for the video conference, and documents count as submitted when the embassy receives them from VFS.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+            'checked_on' => '2026-10-16',
+        ],
     ],
     'intakes' => [],
     'documents' => [
-        ['text' => 'A proof of intended residence in Latvia must be submitted with the visa application.', 'source_url' => $ind, 'source_label' => $indLabel, 'checked_on' => $d],
-        ['text' => 'A medical insurance policy is required. It can be obtained in the country of residence, in another country, or taken out by the inviting person.', 'source_url' => $ind, 'source_label' => $indLabel, 'checked_on' => $d],
-        ['text' => 'Non-EU students need health insurance that covers emergency medical care, inpatient treatment, emergency transportation to a medical facility, and repatriation in case of serious illness.', 'source_url' => $eu, 'source_label' => $euLabel, 'checked_on' => $d],
+        [
+            'text' => 'A proof of intended residence in Latvia must be submitted with the visa application.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'text' => 'A medical insurance policy is required. It can be obtained in the country of residence, in another country, or taken out by the inviting person.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'text' => 'Non-EU students need health insurance that covers emergency medical care, inpatient treatment, emergency transportation to a medical facility, and repatriation in case of serious illness.',
+            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_label' => 'Study in Europe (European Commission): Latvia country profile',
+            'checked_on' => '2026-10-16',
+        ],
     ],
     'work_and_stay' => [],
     'faqs' => [
-        ['question' => 'Where do Indian students apply for a Latvian study visa?', 'answer' => 'At the Embassy of Latvia in India, through a VFS Global Latvia visa application centre, followed by a video or in-person interview with the embassy.', 'source_url' => $stu, 'source_label' => $stuLabel, 'checked_on' => $d],
-        ['question' => 'What is Hello Verify and why is it needed for Latvia?', 'answer' => 'Applicants from India applying for a long stay visa for studies must have their visa support document verified by Hello Verify India Private Limited before booking the VFS appointment.', 'source_url' => $stu, 'source_label' => $stuLabel, 'checked_on' => $d],
-        ['question' => 'What happens after arriving in Latvia on the study visa?', 'answer' => 'Students apply for a residence permit at the Office of Citizenship and Migration Affairs after entering on the 90-day long stay visa.', 'source_url' => $ind, 'source_label' => $indLabel, 'checked_on' => $d],
-        ['question' => 'Is health insurance required for students in Latvia?', 'answer' => 'Yes. Non-EU students need health insurance covering emergency care, inpatient treatment, emergency transport and repatriation in case of serious illness.', 'source_url' => $eu, 'source_label' => $euLabel, 'checked_on' => $d],
+        [
+            'question' => 'Where do Indian students apply for a Latvian study visa?',
+            'answer' => 'At the Embassy of Latvia in India, through a VFS Global Latvia visa application centre, followed by a video or in-person interview with the embassy.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'question' => 'What is Hello Verify and why is it needed for Latvia?',
+            'answer' => 'Applicants from India applying for a long stay visa for studies must have their visa support document verified by Hello Verify India Private Limited before booking the VFS appointment.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'question' => 'What happens after arriving in Latvia on the study visa?',
+            'answer' => 'Students apply for a residence permit at the Office of Citizenship and Migration Affairs after entering on the 90-day long stay visa.',
+            'source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
+            'source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',
+            'checked_on' => '2026-10-16',
+        ],
+        [
+            'question' => 'Is health insurance required for students in Latvia?',
+            'answer' => 'Yes. Non-EU students need health insurance covering emergency care, inpatient treatment, emergency transport and repatriation in case of serious illness.',
+            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_label' => 'Study in Europe (European Commission): Latvia country profile',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
+    'publication_review' => [
+        'checked_on' => '2026-10-16',
+        'intro_verified' => true,
+        'all_retained_lines_verified' => true,
+        'approved_hosts_only' => true,
+        'original_sources_resolved' => true,
+        'blockers' => [],
     ],
 ];

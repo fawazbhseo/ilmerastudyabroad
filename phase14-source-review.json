@@ -1,0 +1,854 @@
+{
+  "checked_on": "2026-10-16",
+  "policy": "Only opened official text on approved hosts counts; search excerpts are not evidence.",
+  "destinations": {
+    "germany": {
+      "entry": "study-in-germany.php",
+      "data_file": "destinations/germany.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting."
+        },
+        {
+          "field": "costs[0]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Bachelor programmes and most master programmes at state institutions generally have no tuition. Continuing education master programmes and private institutions may charge tuition."
+        },
+        {
+          "field": "costs[1]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Baden-Wuerttemberg charges non-EU citizens 1,500 euros per semester for bachelor, master, Diplom and state examination programmes. Doctoral students are exempt from this charge."
+        },
+        {
+          "field": "costs[2]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Bavarian institutions may charge tuition to students from outside the EU or EEA. The amount depends on the institution and degree."
+        },
+        {
+          "field": "costs[3]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "All students pay a semester contribution of between 70 and 430 euros, separate from tuition, at enrolment and before each semester. A transport ticket may be included."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Students from outside the EU or EEA must present proof of financial resources already when they apply for a study visa. Check the exact amount and accepted forms of proof with the German mission or DAAD before applying."
+        },
+        {
+          "field": "work_and_stay[0]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "International students do not have unlimited permission to work in Germany. Check the current rules before planning to earn money during study."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Every student pays a semester contribution of between 70 and 430 euros at enrolment and before each semester. This is separate from tuition. A transport ticket may be included."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. Students from outside the EU or EEA must present proof of financial resources when they apply for a study visa."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Only within limits. International students do not have unlimited permission to work, so the current rules should be checked first."
+        }
+      ],
+      "original_fields_reviewed": [
+        "costs[0]",
+        "costs[1]",
+        "costs[2]",
+        "costs[3]",
+        "documents[0]",
+        "work_and_stay[0]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "italy": {
+      "entry": "study-in-italy.php",
+      "data_file": "destinations/italy.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate lists three mandatory steps: apply for admission on the chosen institution website within its deadline, apply online for pre-enrolment on the Universitaly portal within the deadlines, and once pre-enrolled apply for the visa."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A D visa is needed if the course lasts more than 90 days, and a C visa if it lasts less than 90 days."
+        },
+        {
+          "field": "visa_steps[2]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Visa applications are submitted only by prior appointment at a VFS centre. The consulate names Bangalore, Chennai and Hyderabad."
+        },
+        {
+          "field": "visa_steps[3]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "All students must attend a mandatory video interview when they submit the visa application."
+        },
+        {
+          "field": "visa_steps[4]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Under Italian law, processing of a D visa application can take up to 90 days from the day the consulate receives it. If the consulate asks for extra documents, the total time is likely to be longer."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate currently links a study visa checklist labelled 2025-2026 and recommends complete documentation. That linked edition is historical; confirm the checklist for the intended intake rather than applying an old deadline."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "If the Italian institution requires a Declaration of Value (DOV) and the previous studies were completed in an Indian state under the Bengaluru consulate, the consulate publishes a separate DOV checklist."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. The consulate lists pre-enrolment on the Universitaly portal, within the deadlines, as a mandatory step after applying for admission and before applying for the visa."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A D visa for courses lasting more than 90 days and a C visa for courses lasting less than 90 days."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. All students must attend a mandatory video interview when they submit the application at the VFS centre."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The Consulate General of Italy in Bengaluru states that its official visa email is bangalore.visa@esteri.it, and it warns students to ignore messages from other addresses that claim to come from the consulate and never to share personal or financial information with them."
+        }
+      ],
+      "original_fields_reviewed": [
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "visa_steps[2]",
+        "visa_steps[3]",
+        "visa_steps[4]",
+        "documents[0]",
+        "documents[1]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "slovakia": {
+      "entry": "study-in-slovakia.php",
+      "data_file": "destinations/slovakia.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution."
+        },
+        {
+          "field": "costs[0]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The European Commission profile states that Slovak-language study may have no tuition and foreign-language programmes, including English, carry tuition. Confirm the selected programme fee; living expenses are separate."
+        },
+        {
+          "field": "costs[1]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The study portal estimates a total yearly budget of around 7,000 to 15,000 euros, including tuition and living costs."
+        },
+        {
+          "field": "scholarships[0]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The National Scholarship Programme of the Slovak Republic supports study, research and teaching stays and is open to international students, PhD candidates and researchers. Check the programme page for current eligibility and deadlines."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/services/national-visa",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Applications for a Slovak national visa are submitted at a diplomatic mission of the Slovak Republic. Indian applicants use the Embassy in New Delhi."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/contact-us",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The embassy contact page says visa applications are accepted by prior appointment. Check the current study-specific booking procedure; an employment booking route is not a student booking route."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The embassy basic national-visa list includes an application form, a valid travel document, photograph, evidence of the purpose of residence and health insurance. Additional documents depend on the applicable category."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "For non-EU students, the European Commission profile lists proof of admission, financial means and health insurance among the usual application requirements. Contact the embassy for the detailed route-specific list."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Slovak-language study may have no tuition, while programmes taught in English or other foreign languages carry tuition. Check the programme and budget separately for living costs."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://www.mzv.sk/en/web/dilli-en/services/national-visa",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "At the Embassy of the Slovak Republic in New Delhi. Check the embassy page for the current appointment method."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. The European Commission study portal says students apply directly to the chosen faculty or university."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The European Commission profile lists health insurance among the usual visa or residence application requirements for non-EU students. The embassy gives the detailed requirements for the applicable route."
+        }
+      ],
+      "original_fields_reviewed": [
+        "costs[0]",
+        "costs[1]",
+        "costs[2]",
+        "scholarships[0]",
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "documents[0]",
+        "documents[1]",
+        "documents[2]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "uk": {
+      "entry": "study-in-uk.php",
+      "data_file": "destinations/uk.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances."
+        },
+        {
+          "field": "costs[0]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Where financial evidence is required, applicants need funds for course fees shown on the Confirmation of Acceptance for Studies (CAS), plus living costs. GOV.UK describes exemptions for some applicants."
+        },
+        {
+          "field": "costs[1]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "For most courses, GOV.UK sets living costs at 1,171 pounds for each month of the course outside London and 1,529 pounds for each month in London, up to a maximum of 9 months. These amounts changed in the past, so check the page for the current figures."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Money can be shown through a student loan from a government, a government-sponsored loan company or a regulated student loans scheme, an official financial sponsorship, the applicant own money, a parent money with a letter confirming they agree to its use, or a partner money in some cases."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "When using personal or family money, the funds must have been held for 28 days in a row, counted back from the closing balance date on the most recent evidence. The evidence must be from no more than 31 days before the visa application date."
+        },
+        {
+          "field": "documents[2]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Accepted evidence includes paper or electronic bank statements, building society passbooks, certificates of deposit and letters from the bank. The evidence must show the account holder name, the bank name and the amount held. Funds in another currency are converted to pounds at the OANDA spot rate on the application date."
+        },
+        {
+          "field": "documents[3]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "These cannot be used as proof of funds: overdrafts, cryptocurrency, stocks and shares, pensions, accounts at banks not regulated in their own country, and accounts that do not use electronic record keeping."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Enough to pay the course fees shown on the CAS plus living costs. GOV.UK sets living costs at 1,171 pounds a month outside London and 1,529 pounds a month in London, up to 9 months. Check the page for the current figures."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The funds must have been held for 28 days in a row, counted back from the closing balance date on the most recent evidence, and the evidence must be from no more than 31 days before the application."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes, if the parent controls the account and provides a letter confirming they agree to the money being used for the student."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian citizenship does not provide the listed nationality-based exemption. Other exemptions can apply, including an application for permission to stay after at least 12 months in the UK with a valid visa. Check the applicable circumstances."
+        }
+      ],
+      "original_fields_reviewed": [
+        "costs[0]",
+        "costs[1]",
+        "documents[0]",
+        "documents[1]",
+        "documents[2]",
+        "documents[3]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "czech-republic": {
+      "entry": "study-in-czech-republic.php",
+      "data_file": "destinations/czech-republic.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A Czech long-term study visa is intended for third-country nationals undertaking eligible studies. Applications are normally made in person at a diplomatic mission. The visa can be valid for a maximum of one year. Check the study definition, documents and appointment procedure before submitting an application."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian applicants for a long-term visa or long-term residence permit for study submit the application in person at the Czech Embassy in New Delhi, and an appointment must be booked beforehand."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/booking_appointments_for_submission_of.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Appointments for Indian study applicants are given through registration windows announced by the embassy. A missed or late appointment is cancelled, so a new one must be arranged. Check the embassy page for the current dates."
+        },
+        {
+          "field": "visa_steps[2]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The embassy lists a 60-day decision period for study visa and study residence applications. Suspension of administrative proceedings can prolong the actual elapsed time."
+        },
+        {
+          "field": "visa_steps[3]",
+          "source_url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A long-term visa, including extensions, can be valid for a maximum of 1 year in total. A longer stay needs a long-term residence permit, which can also be applied for directly at the embassy."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The embassy lists the travel document, photograph, proof of accommodation, evidence of the purpose of stay, financial evidence and criminal-record documentation, with conditions and exceptions. Use its current list rather than an older checklist."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Documents submitted with the application must be in Czech; bank statements may be accepted without translation. Indian public documents require an apostille, and originals or official copies are required as specified."
+        },
+        {
+          "field": "documents[2]",
+          "source_url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Before receiving the visa, applicants normally provide medical insurance evidence. The Ministry of the Interior explains different insurance arrangements and exceptions, including rules for applicants under 18."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In person at the Czech Embassy in New Delhi, after booking an appointment through the embassy process."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The embassy lists a 60-day period for study visa and study residence decisions; a suspension of proceedings can prolong the elapsed time."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. Documents submitted with the application must be in Czech, although bank statements may be accepted without a translation."
+        }
+      ],
+      "original_fields_reviewed": [
+        "costs[0]",
+        "costs[1]",
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "visa_steps[2]",
+        "visa_steps[3]",
+        "documents[0]",
+        "documents[1]",
+        "documents[2]",
+        "documents[3]",
+        "documents[4]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "draft; unresolved original-source gate",
+      "blockers": [
+        "Original tuition portal returned a missing page after redirect to a host not in the existing approved list. No approved replacement tuition source was opened. Archived financial guidance and the 2018 checklist are not used as current guidance."
+      ]
+    },
+    "lithuania": {
+      "entry": "study-in-lithuania.php",
+      "data_file": "destinations/lithuania.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees."
+        },
+        {
+          "field": "costs[0]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The European Commission study portal gives average tuition of from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes, and estimates living costs at 500 to 800 euros a month. Fees vary by institution and programme."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "For Indian applicants, the Migration Department lists VFS Global centres in New Delhi and Mumbai for temporary residence permits. Appointments are booked only through the Lithuanian migration information system MIGRIS, after the application is submitted."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The external service provider applies a customer service fee of 110 euros. The state fee for processing the application is listed separately by the Migration Department."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Health insurance is mandatory for international students, and non-EU students must obtain private insurance or register with the Lithuanian health system."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Applications go through the Lithuanian migration system MIGRIS, and the Migration Department lists VFS Global centres in New Delhi and Mumbai as the service points for Indian applicants."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Fees vary by university and programme. The European Commission study portal gives averages from 1,300 euros a year for bachelor, 2,300 for master and 8,400 for doctoral programmes."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. Health insurance is mandatory, and non-EU students must obtain private insurance or register with the Lithuanian health system."
+        }
+      ],
+      "original_fields_reviewed": [
+        "costs[0]",
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "visa_steps[2]",
+        "documents[0]",
+        "documents[1]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "latvia": {
+      "entry": "study-in-latvia.php",
+      "data_file": "destinations/latvia.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian nationals enrolled at accredited Latvian institutions apply for the long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days, and on entering Latvia the student applies for a residence permit at the Office of Citizenship and Migration Affairs."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Applicants from India must have their visa support document verified by the service provider Hello Verify India Private Limited before submitting the visa application. The embassy states that no appointment is given at VFS without the Hello Verify transaction number."
+        },
+        {
+          "field": "visa_steps[2]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Appointments for submission and for a video or in-person interview with the embassy are booked through the VFS Global Latvia call centre in India, and the application is submitted at a VFS Global Latvia visa application centre."
+        },
+        {
+          "field": "visa_steps[3]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The application form is completed online at epak.pmlp.gov.lv as a national visa (type D). VFS Global India applies service charges and a fee for the video conference, and documents count as submitted when the embassy receives them from VFS."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A proof of intended residence in Latvia must be submitted with the visa application."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A medical insurance policy is required. It can be obtained in the country of residence, in another country, or taken out by the inviting person."
+        },
+        {
+          "field": "documents[2]",
+          "source_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Non-EU students need health insurance that covers emergency medical care, inpatient treatment, emergency transportation to a medical facility, and repatriation in case of serious illness."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "At the Embassy of Latvia in India, through a VFS Global Latvia visa application centre, followed by a video or in-person interview with the embassy."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Applicants from India applying for a long stay visa for studies must have their visa support document verified by Hello Verify India Private Limited before booking the VFS appointment."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Students apply for a residence permit at the Office of Citizenship and Migration Affairs after entering on the 90-day long stay visa."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. Non-EU students need health insurance covering emergency care, inpatient treatment, emergency transport and repatriation in case of serious illness."
+        }
+      ],
+      "original_fields_reviewed": [
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "visa_steps[2]",
+        "visa_steps[3]",
+        "documents[0]",
+        "documents[1]",
+        "documents[2]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "gcc": {
+      "entry": "study-in-gcc.php",
+      "data_file": "destinations/gcc.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [
+        {
+          "field": "intro_answer",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In the UAE, the student residence visa is typically sponsored by the university or by a parent or relative who is a legal resident. It is valid for up to 12 months and renewed each year. The visa process usually starts with the sponsoring institution after admission, through the ICP portal or the GDRFA of the emirate."
+        },
+        {
+          "field": "english_requirements[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In the UAE, most universities teach in English. The consulate says a minimum IELTS Academic band of 5.5 to 7.0, or an equivalent TOEFL score, is typically required depending on the programme and institution. Confirm the requirement with the institution."
+        },
+        {
+          "field": "costs[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate advises students going to the UAE to plan for tuition fees, accommodation, health insurance, daily living costs, books and equipment, visa fees and an emergency fund, and to check tuition fees and refund policies on the institution website before committing."
+        },
+        {
+          "field": "costs[1]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate advises paying fees directly to the university official bank account rather than through third parties, and obtaining official receipts for every payment."
+        },
+        {
+          "field": "costs[2]",
+          "source_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In Qatar, the Embassy of India in Doha notes that the cost of living is higher than in India and that accommodation is more expensive, and advises students to read about general living conditions before they go."
+        },
+        {
+          "field": "scholarships[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate states that scholarships for Indian students going to the UAE include institutional scholarships, Government of India scholarships and bilateral programmes, and encourages students to explore them before relying on self-funding."
+        },
+        {
+          "field": "visa_steps[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In the UAE, the student residence visa is typically sponsored by the university or institution, or by a parent or relative who is a legal resident. It is valid for up to 12 months and must be renewed each year of the programme."
+        },
+        {
+          "field": "visa_steps[1]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The visa application is typically started by the sponsoring institution after admission, through the federal ICP portal or through the General Directorate of Residency and Foreigners Affairs (GDRFA) of the relevant emirate."
+        },
+        {
+          "field": "visa_steps[2]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "On arrival, applicants above 18 must pass a mandatory medical fitness test at a government-approved centre, which includes a chest X-ray and blood tests. The visa is issued only after passing, and students then apply for an Emirates ID with biometric registration."
+        },
+        {
+          "field": "visa_steps[3]",
+          "source_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In Qatar, international students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa. The embassy page does not list the steps, so confirm them with the institution."
+        },
+        {
+          "field": "intakes[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "UAE universities typically have two main intakes, September and January or February, and some institutions also offer a summer intake. The academic year is generally two semesters of about 16 to 18 weeks, and some universities use trimesters."
+        },
+        {
+          "field": "documents[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate lists these documents for the UAE: a passport valid for at least 6 months beyond the programme start date with two blank pages, the student entry permit or visa, the official admission or offer letter, proof of tuition payment, accommodation confirmation, and proof of financial sufficiency such as bank statements or scholarship letters."
+        },
+        {
+          "field": "documents[1]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Health insurance is mandatory in the UAE. Students on a sponsored university visa need valid cover from arrival, and short-term travel insurance is not accepted for residency. A long-term policy from a UAE-approved insurer is required, and many universities arrange group cover."
+        },
+        {
+          "field": "documents[2]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Indian academic documents may need attestation in a set sequence for the UAE, and the consulate notes that the UAE separately requires its own foreign ministry attestation for most official purposes. Check the requirement with the institution and use only government-authorised providers."
+        },
+        {
+          "field": "documents[3]",
+          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "For Saudi Arabia, the Embassy of India in Riyadh lists a confirmed place for the study programme at a recognised educational institution or university, and other documents required by the Saudi mission in India. Confirm the full list with the Saudi mission."
+        },
+        {
+          "field": "work_and_stay[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "In the UAE, students aged 18 and above may work part-time only with prior written permission from the sponsoring university and a work permit from the Ministry of Human Resources and Emiratisation. Part-time work is generally up to about 15 hours a week or 60 hours a month, though this may vary. Working without a permit can lead to visa cancellation and deportation."
+        },
+        {
+          "field": "work_and_stay[1]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate says recent graduates of universities ranked in the global top 500, as recognised by the UAE Ministry of Education, can apply for a Job Seeker Visa of 60 to 120 days with a financial guarantee. Outstanding graduates may qualify for a 10-year Golden Visa, with a minimum GPA of 3.5 to 3.8 or equivalent and graduation within two years."
+        },
+        {
+          "field": "work_and_stay[2]",
+          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia."
+        },
+        {
+          "field": "faqs[0]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Typically the university or institution, or a parent or relative who is a legal resident of the UAE. The application is usually started by the institution after admission."
+        },
+        {
+          "field": "faqs[1]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate advises confirming that the institution is accredited by the relevant UAE authority (CAA, KHDA or ADEK), and that the chosen programme is separately accredited, to make sure the degree is recognised."
+        },
+        {
+          "field": "faqs[2]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Only with written permission from the university and a work permit from the UAE labour ministry. Hours are generally limited to about 15 a week, and working without a permit can lead to visa cancellation."
+        },
+        {
+          "field": "faqs[3]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Yes. Students on a sponsored university visa need valid health insurance from arrival, and a long-term policy from a UAE-approved insurer is required. Travel insurance is not accepted."
+        },
+        {
+          "field": "faqs[4]",
+          "source_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The consulate advises applying directly to the institution wherever possible. If an agent is used, it should be authorised by the institution, and students should avoid anyone who promises guaranteed visas or jobs."
+        },
+        {
+          "field": "faqs[5]",
+          "source_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "Students who do not hold a valid Qatar residence permit, excluding GCC citizens, must apply for a student visa, according to the Embassy of India in Doha."
+        },
+        {
+          "field": "faqs[6]",
+          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "No. The Embassy of India in Riyadh states that the holder of a Saudi student visa is not permitted to work in Saudi Arabia."
+        },
+        {
+          "field": "faqs[7]",
+          "source_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The Embassy of India in Doha advises students to register with it and to stay in touch with the embassy and Indian community organisations for advice or help."
+        },
+        {
+          "field": "faqs[8]",
+          "source_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The Embassy of India in Riyadh advises students to register with it by filling in the registration form on its website."
+        },
+        {
+          "field": "faqs[9]",
+          "source_url": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "A Bahrain embassy press release dated 31 May 2022 requested Indian-passport students to register on the Global Pravasi Rishta Portal. This dated registration notice is not current visa or scholarship guidance."
+        }
+      ],
+      "original_fields_reviewed": [
+        "english_requirements[0]",
+        "costs[0]",
+        "costs[1]",
+        "costs[2]",
+        "scholarships[0]",
+        "visa_steps[0]",
+        "visa_steps[1]",
+        "visa_steps[2]",
+        "visa_steps[3]",
+        "intakes[0]",
+        "documents[0]",
+        "documents[1]",
+        "documents[2]",
+        "documents[3]",
+        "work_and_stay[0]",
+        "work_and_stay[1]",
+        "work_and_stay[2]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]",
+        "faqs[4]",
+        "faqs[5]",
+        "faqs[6]",
+        "faqs[7]",
+        "faqs[8]",
+        "faqs[9]",
+        "faqs[10]"
+      ],
+      "decision": "Verified retained lines; publication decision in task 5",
+      "blockers": []
+    },
+    "russia": {
+      "entry": "study-in-russia.php",
+      "data_file": "destinations/russia.php",
+      "attempted_on": "2026-10-16",
+      "retained_line_reviews": [],
+      "original_fields_reviewed": [
+        "scholarships[0]",
+        "scholarships[1]",
+        "scholarships[2]",
+        "visa_steps[0]",
+        "faqs[0]",
+        "faqs[1]",
+        "faqs[2]",
+        "faqs[3]"
+      ],
+      "decision": "draft; unresolved original-source gate",
+      "blockers": [
+        "Cited 2026-27 notice returned a missing page. No current-year notice or five categories verified from opened official sources. Previously supplied expired closing date is not independently confirmed."
+      ]
+    }
+  }
+}

@@ -23,7 +23,7 @@ return [
             'checked_on' => '2026-10-16',
         ],
         [
-            'text' => 'The state of Baden-Württemberg charges non-EU citizens tuition fees of 1,500 euros per semester for its degree programmes.',
+            'text' => 'Baden-Wuerttemberg charges non-EU citizens 1,500 euros per semester for bachelor, master, Diplom and state examination programmes. Doctoral students are exempt from this charge.',
             'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
             'source_label' => 'DAAD: Costs of education and living in Germany',
             'checked_on' => '2026-10-16',
@@ -49,7 +49,7 @@ return [
             'text' => 'Students from outside the EU or EEA must present proof of financial resources already when they apply for a study visa. Check the exact amount and accepted forms of proof with the German mission or DAAD before applying.',
             'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
             'source_label' => 'DAAD: Costs of education and living in Germany',
-            'checked_on' => '2026-10-15',
+            'checked_on' => '2026-10-16',
         ],
     ],
     'work_and_stay' => [
@@ -57,7 +57,7 @@ return [
             'text' => 'International students do not have unlimited permission to work in Germany. Check the current rules before planning to earn money during study.',
             'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
             'source_label' => 'DAAD: Costs of education and living in Germany',
-            'checked_on' => '2026-10-15',
+            'checked_on' => '2026-10-16',
         ],
     ],
     'faqs' => [
@@ -80,14 +80,22 @@ return [
             'answer' => 'Yes. Students from outside the EU or EEA must present proof of financial resources when they apply for a study visa.',
             'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
             'source_label' => 'DAAD: Costs of education and living in Germany',
-            'checked_on' => '2026-10-15',
+            'checked_on' => '2026-10-16',
         ],
         [
             'question' => 'Can international students work in Germany while studying?',
             'answer' => 'Only within limits. International students do not have unlimited permission to work, so the current rules should be checked first.',
             'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
             'source_label' => 'DAAD: Costs of education and living in Germany',
-            'checked_on' => '2026-10-15',
+            'checked_on' => '2026-10-16',
         ],
+    ],
+    'publication_review' => [
+        'checked_on' => '2026-10-16',
+        'intro_verified' => true,
+        'all_retained_lines_verified' => true,
+        'approved_hosts_only' => true,
+        'original_sources_resolved' => true,
+        'blockers' => [],
     ],
 ];
