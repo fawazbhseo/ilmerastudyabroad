@@ -29,3 +29,13 @@ Task 1's runtime, parser and browser setup/debug attempts are described in tools
 ## Unverified owner/live boundary
 
 No live deployment, native Apache rewrite/redirect/query/access-control acceptance, raw external-source HTTP status, form delivery, independent review, ranking or AI citation measurement was performed. The 29 factual gaps and 15 partial prompts remain open for their exact evidence, not waived. Empty proof is still empty. Owner-only actions need real consent/access/evidence. Deployment remains complete-live-backup first, owner direct-live upload and live smoke checks, with restoration of every backed-up file and setting on error; no staging or partial rollback.
+
+
+## Task 7 sign-off, separate from bounded cycles
+
+The first Task 7 attempt passed site checks but its new handoff assertion
+found an incorrect reporting expectation: seven FAQs occupy four pages,
+not five. The current reports and assertion were corrected and the full
+fresh Task 7 suite passed on rerun (396.44 seconds), including preservation.
+The failed handoff log is retained outside Git. No public content was
+changed to fix this reporting error; no second Task 6 cycle was needed.

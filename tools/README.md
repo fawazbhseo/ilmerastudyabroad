@@ -245,3 +245,33 @@ All results are in `reports/phase-19-checks.json`. The cycle log distinguishes
 local publication failures from inaccessible research and owner/live checks.
 Never run mutation fixtures against the live docroot. The active owner
 workflow is backup-first direct-live deployment and live smoke testing.
+
+
+## Phase 20 actual research and resume maintenance
+
+The supplied document was opened completely in Task 1. The current keyword
+and prompt maps replace the provisional reports; their exact historical
+versions remain archived. Source metrics were not invented, and all 38
+fitting primary targets/metadata surfaces were retained. The active prompt
+inventory is 50, not the historical unknown-inventory/owner-target fallback.
+`check_cycle_consistency.py` now validates the real map via check_phase20.py.
+Seven FAQ additions and one unordered state-hub directory schema are the
+only publication output changes. All destination/place data, journals,
+statuses, entity/proof files and both LLM documents remain unchanged.
+
+Use the existing strict commands plus:
+
+```sh
+python3 tools/check_phase20.py --base-url http://127.0.0.1:8080
+php tools/test_strategy_schema.php
+python3 tools/check_phase20_handoff.py
+```
+
+The reproducible local suite and browser adapter are in tools/phase20/.
+Its dependencies/evidence live outside Git; read its README for environment
+limits and the complete fresh task checks. The suite never deploys or
+submits forms. No earlier staging advice overrides the standing owner
+workflow: complete LIVE backup first, direct-live owner upload, live smoke
+tests and restore every backed-up file/setting on error. No staging or
+partial rollback is authorized. Empty proof and official-source gaps remain
+open even when local technical acceptance passes.

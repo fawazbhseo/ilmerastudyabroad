@@ -362,7 +362,7 @@
       "section": "2B / 2; 3 / prompts 9,18,43,44,46,48,49",
       "recommendation": "Make supported answers easier to extract",
       "status": "done in this phase",
-      "action": "Seven direct FAQs on five existing pages reuse facts and preserve exact visible/schema parity. No unsupported completion counted as answered."
+      "action": "Seven direct FAQs on four existing pages reuse facts and preserve exact visible/schema parity. No unsupported completion counted as answered."
     },
     {
       "id": "R53",

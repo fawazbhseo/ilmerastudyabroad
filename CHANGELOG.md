@@ -1290,3 +1290,34 @@ Ready locally for owner-controlled direct-live deployment after a complete
 backup, with provisional strategy acceptance and mandatory live testing.
 No claim of live acceptance, rankings, external HTTP health or real enquiry
 delivery. All proof slots remain empty; missing evidence is not filled in.
+
+
+## 2026-10-16, Phase 20: actual strategy review and conservative completion
+
+- Task 1 (`946c8b3`, completed before resume): full supplied document inventory,
+  50 prompts and 17 explicit query fragments, no numeric volume/difficulty.
+- Resume audit (`38b1cc5`): fetched and matched the remote session branch;
+  Task 1 was done, Task 2 had no written maps. No work discarded or repeated.
+- Task 2: maps rebuilt from the actual inventory, all 38 published pages,
+  distinct primary and 2-3 secondary targets each. Page checkpoints after 10,
+  20 and 30 rows; original Phase 19 maps archived intact.
+- Task 3: every existing primary still fits; no title, description, H1,
+  opening or public metadata file rewritten just to force a change.
+- Task 4: seven FAQs on four existing pages, from facts already on the site.
+  Final prompt counts: 6 answered, 15 partly answered, 29 explicit gaps.
+  Both visible FAQ and schema come from the same established data/helper.
+- Task 5: 54 atomic recommendation actions: 14 already done, 3 done this
+  phase, 16 rejected by rule, 21 owner-only/evidence-dependent. Added one
+  unordered four-entry ItemList describing existing state-hub links.
+- Task 6: first full cycle clean; stopped early, no fixes or repeated failure.
+- Task 7: append-only handoff, complete file/surface inventory, explicit
+  owner/live limitations and another fresh complete sign-off suite.
+
+No new pages, page-status changes, destination facts, summaries/provenance,
+source journals, places data, proof slots, identity or LLM bytes changed.
+The Italy conditional owner sentence and cautions remain unchanged. Founder
+identity is not expanded from strategy assertions. No accounts, reviews,
+analytics, submissions, outreach, main push, merge or deployment performed.
+All local checks pass; actual live acceptance and owner evidence remain
+separate. Reports: phase-20-release-check.md, phase-20-progress.md,
+phase-20-cycles.md, keyword-map.md, prompt-map.md and strategy-doc-conflicts.md.

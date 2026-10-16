@@ -1,6 +1,6 @@
 # Phase 20 prompt coverage dispositions
 
-Task 4, 2026-10-16. Reviewed every one of the 46 partly answered/gap prompts from Task 2. Seven direct FAQs were added on five existing published pages. Two prompts now have complete scoped answers: online-model verification (44) and existing languages/online Karnataka coverage (46). Final coverage: **6 answered, 15 partly answered, 29 gap**. Four already answered prompts (14, 23, 47, 50) were not rewritten.
+Task 4, 2026-10-16. Reviewed every one of the 46 partly answered/gap prompts from Task 2. Seven direct FAQs were added on four existing published pages. Two prompts now have complete scoped answers: online-model verification (44) and existing languages/online Karnataka coverage (46). Final coverage: **6 answered, 15 partly answered, 29 gap**. Four already answered prompts (14, 23, 47, 50) were not rewritten.
 
 No page added, status changed, destination record edited or proof slot filled. Existing direct-answer paragraphs remain intact. The established presentation helper emits each extra FAQ from the same data into visible HTML and FAQPage JSON-LD. No separate schema-only answer is authored.
 

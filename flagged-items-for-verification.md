@@ -3199,3 +3199,66 @@ characters and fits the limit; adding the usual brand suffix would make it
 61. The earlier note referred imprecisely to the heading itself. The chosen
 shorter semantic title with branding is within budget; the full primary
 remains in the H1/opening. No passing page is rewritten for this clarification.
+
+
+## Phase 20, 2026-10-16: actual document review and bounded sign-off
+
+Resolved only the missing-document-link/access/inventory blocker: the actual
+supplied document opened and all six export chunks were read in Task 1.
+The completed inventory has 50 prompts and 17 query fragments, no supplied
+numeric volumes/difficulty. Phase 19's provisional wording remains in its
+historical records; it is not retroactively rewritten into research proof.
+
+Conservative resume decisions: fetched/matched the remote session branch;
+Task 1 was complete, no partly written Task 2 maps existed. Retained all 38
+fitting primary targets, titles, descriptions, H1s and openings, rather than
+forcing synonym changes or rewriting passing pages. Archived the provisional
+maps and access-only conflict log before replacing their current versions.
+No new regional/national/eligibility page is justified by generic duplicate
+copy or an unsourced procedure. No held page released.
+
+Seven FAQ additions reuse existing facts. Dates for the UK Master's-context
+Graduate visa FAQ were already in the homepage and were rechecked on the
+opened GOV.UK overview; newly seen charges/rules were not copied. The state
+hub's unordered ItemList describes only its four existing visible guide
+links, not a ranking. All destination/place data and publication/source
+journals stay byte-identical, protecting all summaries and provenance.
+All five production proof slots remain EMPTY despite research assertions.
+
+Still open, not closed by strategy data or generic disclaimers:
+- 29 prompt gaps and 15 partial answers, with exact missing facts in
+  prompt-map.md and phase-20-map.json. In particular official local revenue,
+  apostille/MOI/APS procedures, language/marks/backlog thresholds, lender and
+  agricultural collateral rules, immigration outcomes and current individual
+  financial/award evidence require substantive approved sources.
+- Owner-approved service prices, scope/refunds/financial relationships,
+  individual partner or award evidence, genuine review evidence and consent,
+  actual media/video/event material and authorized personal profiles.
+- Platform eligibility, authorized accounts and approval for any profile,
+  directory or outreach. No invented registration address, premises or GBP
+  workaround. Authentic content is not a guarantee of ranking or AI citation.
+- Analytics/provider/privacy/success decisions remain owner-only; no tracker
+  or third-party script added. Live rankings, AI visibility and enquiry
+  delivery are not independently measured by this local suite.
+- Raw external-source HTTP status/redirect verification and native Apache
+  redirect/rewrite/query/access-control checks remain unverified here.
+  Successful fetch wrappers and the local adapter are not those checks.
+
+Live readiness is not accepted by repository QA alone. Owner must first
+back up the COMPLETE live site and settings, deploy directly live under the
+standing workflow, run the live smoke checklist and verify actual enquiry
+receipt. On errors restore ALL backed-up files and settings, not a partial
+rollback. No staging, upload, main push, merge or deployment occurred here.
+Historical blockers are preserved. Only the specifically resolved document
+access/inventory uncertainty is closed.
+
+Task 7 handoff correction: seven added FAQs are on FOUR existing pages
+(selection guide, Coorg process article, scholarship article and UK guide).
+Earlier Phase 20 checkpoint text incorrectly said five pages. The new
+append-only handoff assertion caught this reporting error after all site
+checks passed. Reports were corrected, and a fresh complete Task 7 suite
+is required before final sign-off. No public content change is needed.
+
+Task 7 completion: after correcting the four-page FAQ count, the entire
+fresh sign-off suite passed, including append-only and line-ending checks.
+This closes the reporting discrepancy only, not any owner/live/source gap.
