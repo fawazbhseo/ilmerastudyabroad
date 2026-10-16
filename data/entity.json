@@ -1,0 +1,29 @@
+{
+  "name": "ILMERA Study Abroad",
+  "url": "https://ilmerastudyabroad.com/",
+  "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+  "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises.",
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "India"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Karnataka"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/ilmerastudyabroad",
+    "https://www.instagram.com/ilmera.studyabroad",
+    "https://www.linkedin.com/company/ilmerastudyabroad"
+  ],
+  "services": [
+    "Profile review",
+    "Admissions guidance",
+    "Visa-document preparation",
+    "Scholarship planning",
+    "Pre-departure preparation"
+  ],
+  "countries_note": "Published destination guidance covers Germany, Italy, the UK, Lithuania, Latvia, Slovakia and the GCC. GCC business support spans UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain; official-source coverage has the separate limits stated on the GCC page."
+}

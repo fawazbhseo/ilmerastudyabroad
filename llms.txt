@@ -20,12 +20,11 @@ ILMERA is a new consultancy founded in 2026. It does not publish student results
 
 ## Core Services
 
-- [University Selection & Profile Matching](https://ilmerastudyabroad.com/services): Counsellors evaluate academic history, budget, preferred field, and career goals to discuss programme-specific university options.
-- [Application & Admissions Assistance](https://ilmerastudyabroad.com/services): Support for university applications, including SOP writing, document preparation, admission letters, and university liaison.
-- [Student Visa Processing](https://ilmerastudyabroad.com/services): Visa file preparation, document review, and interview coaching for each destination's visa process.
-- [Scholarship & Financial Aid Guidance](https://ilmerastudyabroad.com/services): Guidance on programme-specific funding conditions and written award terms.
-- [Pre-Departure Guidance](https://ilmerastudyabroad.com/services): Guidance on accommodation planning, travel preparation, SIM card setup and local orientation.
-- [Online Initial Consultation](https://ilmerastudyabroad.com/contact): Students can book a no-cost, no-commitment consultation by phone, WhatsApp, or video call to discuss their profile and explore options with a counsellor.
+- [Profile review](https://ilmerastudyabroad.com/services)
+- [Admissions guidance](https://ilmerastudyabroad.com/services)
+- [Visa-document preparation](https://ilmerastudyabroad.com/services)
+- [Scholarship planning](https://ilmerastudyabroad.com/services)
+- [Pre-departure preparation](https://ilmerastudyabroad.com/services)
 
 ---
 
@@ -189,3 +188,17 @@ Terms of Use: https://ilmerastudyabroad.com/terms
 ## Page Index
 
 - [ILMERA published page directory](https://ilmerastudyabroad.com/all-pages): ILMERA published page directory. Browse the published destinations, location guides and student planning articles.
+
+---
+
+## Canonical entity reference
+
+ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises.
+
+- Profile review
+- Admissions guidance
+- Visa-document preparation
+- Scholarship planning
+- Pre-departure preparation
+
+Published destination guidance covers Germany, Italy, the UK, Lithuania, Latvia, Slovakia and the GCC. GCC business support spans UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain; official-source coverage has the separate limits stated on the GCC page.

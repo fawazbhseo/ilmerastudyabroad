@@ -5,6 +5,7 @@ No existing LLM generator preceded Phase 18. Only directory entries are rebuilt;
 the document structure, policy copy and owner caveats remain hand-maintained.
 """
 import argparse
+import json
 from html.parser import HTMLParser
 from pathlib import Path
 import re
@@ -142,6 +143,18 @@ def validate_directory(text, entries, inventory):
             'blog_articles': sum(r['kind'] == 'blog' for r in entries)}
 
 
+def entity_reference(root):
+    data = json.loads((root / 'data/entity.json').read_text())
+    return '\n\n---\n\n## Canonical entity reference\n\n' + data['description'] + '\n\n' + '\n'.join('- ' + item for item in data['services']) + '\n\n' + data['countries_note'] + '\n'
+
+
+def rebuild_entity(text, root):
+    marker = '\n\n---\n\n## Canonical entity reference\n'
+    if marker in text:
+        text = text.split(marker, 1)[0]
+    return text.rstrip() + entity_reference(root)
+
+
 def check(base, root):
     entries, inventory = directory_entries(base, root), routes(root)
     result = {}
@@ -149,6 +162,8 @@ def check(base, root):
         status, _, body = fetch(base, '/' + name)
         assert status == 200 and body == (root / name).read_bytes(), (name, 'Served parity')
         result[name] = validate_directory(body.decode(), entries, inventory)
+        if (root / 'data/entity.json').exists():
+            assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')
     return result
 
 
@@ -165,6 +180,8 @@ def main():
         assert b'\r' not in raw, (name, 'Expected existing LF format')
         before = raw.decode()
         after = rebuild(before, name, entries)
+        if (args.root / 'data/entity.json').exists():
+            after = rebuild_entity(after, args.root)
         validate_llm_text(args.root, name, after)
         validate_directory(after, entries, inventory)
         if args.write:

@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/entity.php';
 /** Reviewed presentation overlays. Publication data and its source gates stay intact. */
 function ilmera_presentation_escape($text)
 {
@@ -9,8 +10,11 @@ function ilmera_presentation_graph($node, $entry)
 {
     if (!is_array($node)) return $node;
     $type = $node['@type'] ?? '';
+    if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#organization' && $type === 'Organization') return ['@id'=>'https://ilmerastudyabroad.com/#organization'];
+    if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#jabir' && $type === 'Person') return ['@id'=>'https://ilmerastudyabroad.com/#jabir'];
     if (in_array($type, ['WebPage', 'Article', 'BlogPosting', 'Service'], true)) {
         $node['description'] = $entry['description'];
+        if (in_array($type, ['WebPage','Article','BlogPosting'], true) && in_array($entry['kind'], ['destination','article'], true)) $node['dateModified'] = '2026-10-16';
         if (isset($node['name'])) $node['name'] = $entry['title'];
         if (isset($node['headline'])) $node['headline'] = $entry['h1'];
     }
@@ -20,6 +24,7 @@ function ilmera_presentation_graph($node, $entry)
     foreach ($node as $key => $value) {
         if (is_array($value)) $node[$key] = ilmera_presentation_graph($value, $entry);
     }
+    if (isset($node['@graph'])) $node['@graph'] = array_values(array_filter($node['@graph'], static function($g){return isset($g['@type']);}));
     return $node;
 }
 
@@ -51,7 +56,9 @@ function ilmera_present_page($html)
     $html = preg_replace_callback('~<script type="application/ld\+json">(.*?)</script>~s', static function ($match) use ($entry) {
         $graph = json_decode($match[1], true);
         if (!is_array($graph)) return $match[0];
-        return '<script type="application/ld+json">' . json_encode(ilmera_presentation_graph($graph, $entry), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) . '</script>';
+        $graph = ilmera_presentation_graph($graph, $entry);
+        if (!isset($graph['@graph']) && !isset($graph['@type'])) return '';
+        return '<script type="application/ld+json">' . json_encode($graph, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) . '</script>';
     }, $html);
     if (isset($entry['answer_data'])) {
         $answer = $entry['answer_data'];
@@ -70,6 +77,12 @@ function ilmera_present_page($html)
                 $html = str_replace('</head>', '<script type="application/ld+json">'.$json.'</script></head>', $html);
             }
         }
+    }
+    $html = str_replace('</head>', ilmera_entity_markup() . '</head>', $html);
+    if (in_array($path, ['/about','/contact','/study-abroad-consultants-in-karnataka'], true)) $html = str_replace('</main>', ilmera_entity_visible() . '</main>', $html);
+    if (in_array($entry['kind'], ['destination','article'], true)) {
+        $review = '<p class="last-reviewed">Last reviewed <time datetime="2026-10-16">16 October 2026</time></p>';
+        $html = preg_replace('~(<div class="direct-answer-block"[^>]*>)~', '$1'.$review, $html, 1);
     }
     return $html;
 }

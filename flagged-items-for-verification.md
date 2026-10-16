@@ -3128,3 +3128,15 @@ rule; its new answer is limited to honest record preparation. No document
 prompts are invented. The fee-schedule gap remains open. Rendering additions
 are recorded in data/answer-map.json with source-file provenance; underlying
 source gates and destination records remain intact.
+
+## Phase 19 task 5: one canonical identity, 2026-10-16
+
+The canonical identity uses only existing site/footer profiles, existing main
+contact details, existing Founder name/role and the online counselling model.
+No biography, street address, affiliation proof or new profile was invented.
+A minimal existing-data Founder Person replaces competing detailed Founder
+schema; other existing team records are not expanded. All pages resolve the
+same Organization ID and full definition, with audience areas distinct from
+premises. About, Contact and Karnataka have the same visible entity/service
+block; both LLM references are generated from the same data. Destination and
+article review dates match schema dateModified without editing source facts.

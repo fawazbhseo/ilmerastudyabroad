@@ -76,7 +76,7 @@ def main():
         for graph in content.graphs:
             assert graph.get('@type'), (route, 'schema type')
             if info['kind'] == 'place' and graph['@type'] == 'Service':
-                assert graph['provider']['telephone'] == '+919019557427', route
+                assert graph['provider'] == {'@id': HOST + '/#organization'}, route
                 assert graph['provider']['@id'] == HOST + '/#organization', route
                 assert 'address' not in graph and 'address' not in graph['provider'], route
         if info['kind'] == 'place':

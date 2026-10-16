@@ -61,6 +61,21 @@ def check(base, root):
         if (root / 'data/answer-map.json').exists() and entry['kind'] in ('place', 'destination', 'article'):
             assert len(surface.direct) == 1 and 40 <= len(surface.direct[0].split()) <= 60, (path, 'Direct answer')
             assert len(re.findall(r'<details class="il-faq"', html)) >= 4, (path, 'Four visible FAQs')
+        if (root / 'data/entity.json').exists():
+            graphs = []
+            for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+                value = json.loads(raw); graphs.extend(value.get('@graph', [value]))
+            orgs = [g for g in graphs if g.get('@type') == 'Organization' and g.get('@id') == 'https://ilmerastudyabroad.com/#organization']
+            entity = json.loads((root / 'data/entity.json').read_text())
+            assert len(orgs) == 1, (path, 'One canonical Organization')
+            for key in ('name','url','logo','description','areaServed','sameAs'):
+                assert orgs[0][key] == entity[key], (path, key)
+            assert orgs[0]['telephone'] == '+919019557427' and orgs[0]['knowsAbout'] == entity['services'], path
+            if entry['kind'] in ('destination','article'):
+                assert '<time datetime="2026-10-16">' in html, (path, 'Visible review date')
+                for g in graphs:
+                    if g.get('@type') in ('WebPage','Article','BlogPosting'):
+                        assert g.get('dateModified') == '2026-10-16', (path, 'Review/schema date parity')
         text = ' '.join(PublishedContent(html, include_government_citations=True).parts)
         assert not re.search(r'\bILMERA(?: Study Abroad)?\s+(?:is\s+)?(?:India.s\s+|the\s+)?(?:best|top|leading|no\.?\s*1)\b', text, re.I), (path, 'Superlative claim')
         assert not re.search(r'"(?:aggregateRating|@type"\s*:\s*"(?:Review|LocalBusiness))', html), (path, 'Disallowed proof schema')

@@ -38,19 +38,19 @@ These are the site's stated leadership roles for ILMERA: Jabir KJ is the Founder
 
 ## 3. Core Service Breakdown
 
-### 3.1 University Selection & Profile Matching
+### 3.1 Profile review
 ILMERA counsellors review a student's academic transcripts, standardized test scores (if any), budget, preferred field of study, and career goals. Based on this profile, counsellors discuss programme-specific options in the published destination guidance below. Matching accounts for entry requirements, tuition affordability, and the student's likelihood of admission.
 
-### 3.2 Application & Admissions Assistance
+### 3.2 Admissions guidance
 This service covers Statement of Purpose (SOP) writing support, document preparation and verification (transcripts, certificates, recommendation letters), formatting of applications to each university's specific requirements, submission tracking, and direct liaison with university admissions offices on the student's behalf.
 
-### 3.3 Student Visa Processing
+### 3.3 Visa-document preparation
 ILMERA prepares the visa document file for each destination's specific requirements, reviews financial and academic documents for accuracy and completeness, and coaches students for visa interviews where applicable (for example, for the selected study-visa route). ILMERA does not claim or publish a specific numeric "success rate" for visa outcomes, since outcomes depend on individual student documentation, financial proof, and embassy discretion; the service is described in terms of the process and support provided, not a guaranteed statistic.
 
-### 3.4 Scholarship & Financial Aid Guidance
+### 3.4 Scholarship planning
 ILMERA provides guidance on programme-specific funding conditions and written award terms. Scholarship eligibility and coverage must be checked before relying on funding.
 
-### 3.5 Pre-Departure Guidance
+### 3.5 Pre-departure preparation
 ILMERA offers prospective pre-departure guidance on accommodation options, travel logistics, local SIM card setup, banking and cultural orientation for the destination country. This describes guidance, not completed student journeys.
 
 ### 3.6 Online Initial Consultation
@@ -178,3 +178,17 @@ To keep AI-generated summaries of ILMERA accurate, note the following:
 ## 10. Page Index
 
 - [ILMERA published page directory](https://ilmerastudyabroad.com/all-pages): ILMERA published page directory. Browse the published destinations, location guides and student planning articles.
+
+---
+
+## Canonical entity reference
+
+ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises.
+
+- Profile review
+- Admissions guidance
+- Visa-document preparation
+- Scholarship planning
+- Pre-departure preparation
+
+Published destination guidance covers Germany, Italy, the UK, Lithuania, Latvia, Slovakia and the GCC. GCC business support spans UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain; official-source coverage has the separate limits stated on the GCC page.

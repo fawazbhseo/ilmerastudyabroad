@@ -814,6 +814,211 @@
           "status": "PASS"
         }
       }
+    },
+    "5": {
+      "git_parent": "fcb2f80",
+      "seconds": 127.04,
+      "llm_sha256": {
+        "llms.txt": "872291de2b743210b879598cf9891d1f5bda42a8cf10108d5c89cca427ca4688",
+        "llms-full.txt": "6f7e11cdc95ed0ac371ccdc9f5f387bf73ffc35cedfeb2b81af988cc2f07e0f4"
+      },
+      "checks": {
+        "PHP lints": {
+          "count": 86,
+          "status": "PASS"
+        },
+        "renders and schema": {
+          "count": 43,
+          "self_canonicals": 42,
+          "faq_parity": true,
+          "draft_count": 4,
+          "status": "PASS"
+        },
+        "university names": {
+          "failures": [],
+          "status": "PASS"
+        },
+        "prohibited wording": {
+          "failures": [],
+          "status": "PASS"
+        },
+        "em dashes": {
+          "failures": [],
+          "status": "PASS"
+        },
+        "schema draft links": {
+          "failures": [],
+          "status": "PASS"
+        },
+        "online presence": {
+          "failures": [],
+          "schema_no_storefront": true,
+          "notes": 17,
+          "status": "PASS"
+        },
+        "GCC business/source scope and schema parity": {
+          "business_countries": 6,
+          "source_countries": 5,
+          "kuwait_facts_added": 0,
+          "status": "PASS"
+        },
+        "discovery": {
+          "details": {
+            "sitemap": [
+              "https://ilmerastudyabroad.com/",
+              "https://ilmerastudyabroad.com/services",
+              "https://ilmerastudyabroad.com/about",
+              "https://ilmerastudyabroad.com/contact",
+              "https://ilmerastudyabroad.com/blog/",
+              "https://ilmerastudyabroad.com/privacy-policy",
+              "https://ilmerastudyabroad.com/terms",
+              "https://ilmerastudyabroad.com/all-pages",
+              "https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka",
+              "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+              "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+              "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+              "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+              "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+              "https://ilmerastudyabroad.com/study-in-germany",
+              "https://ilmerastudyabroad.com/study-in-italy",
+              "https://ilmerastudyabroad.com/study-in-uk",
+              "https://ilmerastudyabroad.com/study-in-lithuania",
+              "https://ilmerastudyabroad.com/study-in-latvia",
+              "https://ilmerastudyabroad.com/study-in-slovakia",
+              "https://ilmerastudyabroad.com/study-in-gcc",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+              "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+              "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+              "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+            ],
+            "indexable": 38,
+            "blocked": 5,
+            "routes": 43,
+            "llm_directory": {
+              "llms.txt": {
+                "metadata_entries": 32,
+                "published_urls": 38,
+                "destinations": 7,
+                "locations": 17,
+                "blog_articles": 6
+              },
+              "llms-full.txt": {
+                "metadata_entries": 32,
+                "published_urls": 38,
+                "destinations": 7,
+                "locations": 17,
+                "blog_articles": 6
+              }
+            }
+          },
+          "status": "PASS"
+        },
+        "name-guard-tests": {
+          "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nOK\n",
+          "status": "PASS"
+        },
+        "whole-site-wording-tests": {
+          "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.002s\n\nOK\n",
+          "status": "PASS"
+        },
+        "LLM-directory-tests": {
+          "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n",
+          "status": "PASS"
+        },
+        "LLM-directory-idempotence": {
+          "output": "PASS {'llms.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}, 'llms-full.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}}\n",
+          "status": "PASS"
+        },
+        "LLM-policy-tests": {
+          "output": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.250s\n\nOK\n",
+          "status": "PASS"
+        },
+        "online-presence-tests": {
+          "output": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.003s\n\nOK\n",
+          "status": "PASS"
+        },
+        "citation-inventory-tests": {
+          "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+          "status": "PASS"
+        },
+        "italy-claim-tests": {
+          "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n",
+          "status": "PASS"
+        },
+        "italy-exact-claims": {
+          "output": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6, '/llms.txt': 2, '/llms-full.txt': 1} total 22\n",
+          "status": "PASS"
+        },
+        "publication": {
+          "output": "PASS 42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity\n",
+          "status": "PASS"
+        },
+        "check_destination_sources.php": {
+          "output": "{\"passed\":15}\n\n",
+          "status": "PASS"
+        },
+        "check_place_publication.php": {
+          "output": "{\"passed\":27}\n\n",
+          "status": "PASS"
+        },
+        "check_place_contact.php": {
+          "output": "PASS existing contact channels, shared phone and no local office schema\n\n",
+          "status": "PASS"
+        },
+        "data-export": {
+          "sha256": "51feceb9d8160f7e3a836c9b2782c9f908a29791e1218ac040ca52dfcf1ed07e",
+          "status": "PASS"
+        },
+        "location-content": {
+          "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 6.41 percent\nProse words: 382 to 396\n",
+          "status": "PASS"
+        },
+        "stored source records and sitemap parity": {
+          "external_http_verified": false,
+          "status": "PASS"
+        },
+        "destination summary provenance and status preservation": {
+          "destinations": 9,
+          "status": "PASS"
+        },
+        "Phase 19 unchanged statuses and GCC protected fields": {
+          "status": "PASS"
+        },
+        "fresh rendered location overlap": {
+          "locations": 17,
+          "pairs": 136,
+          "max_shared_percent": 13.505311,
+          "worst_pair": [
+            "/study-abroad-counselling-siddapura",
+            "/study-abroad-counselling-virajpet"
+          ],
+          "status": "PASS"
+        },
+        "line endings and LLM permission": {
+          "status": "PASS"
+        },
+        "phase19-on-page-policy": {
+          "output": "PASS {'published_pages': 38, 'unique_short_metadata': True, 'one_h1': True, 'primary_in_heading_and_opening': True, 'destination_data_byte_identical': True}\n",
+          "status": "PASS"
+        },
+        "browser": {
+          "output": "PASS 43 pages 375 JS true\nPASS 43 pages 375 JS false\nPASS 43 pages 768 JS true\nPASS 43 pages 768 JS false\nPASS 43 pages 1280 JS true\nPASS 43 pages 1280 JS false\nPASS 258 browser cases\n",
+          "status": "PASS"
+        }
+      }
     }
   }
 }
