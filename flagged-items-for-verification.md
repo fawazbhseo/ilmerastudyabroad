@@ -3025,3 +3025,17 @@ obsolete byte restriction must be replaced by strict content policy checks,
 not by a self-comparing hash or a waiver. Page-directory additions are task 2.
 The owner deploys directly to live; no staging workflow is assumed. The live
 server address/transport/delivery checks remain separate from local QA.
+
+## Phase 18 task 2: published-page directory decisions, 2026-10-16
+
+No existing LLM generator was found in the repository. Added a maintained,
+standard-library builder that reads fresh rendered metadata, not guessed
+source labels. Directory entries use exact page titles and descriptions,
+canonical absolute addresses, and the existing Markdown link/description
+format. Existing generic core-service explanations and company/contact/legal
+URLs are retained; no stale draft-oriented core-page metadata is copied into
+new LLM copy. Both documents represent all 37 published addresses, including
+seven destinations, 17 location guides, five blog articles and both indexes.
+The two already-listed short-file articles are refreshed rather than counted
+as newly discovered pages. The four held routes/information remain excluded.
+No page metadata, status, source gate, journal or sitemap has been changed.

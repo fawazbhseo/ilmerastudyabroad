@@ -184,3 +184,24 @@ copy and records current hashes as identity evidence, not an edit prohibition.
 Run `python3 tools/test_llm_policy.py` to exercise the policy failure cases.
 The maintained internal alias list includes names removed during reconciliation.
 This is not publication copy and must not be used to suggest partnerships.
+
+### Published-page directory maintenance
+
+No earlier LLM generator was found. Phase 18 adds a small maintained builder:
+
+```sh
+python3 tools/build_llms_directory.py --base-url http://127.0.0.1:8080
+python3 tools/build_llms_directory.py --base-url http://127.0.0.1:8080 --write
+python3 tools/test_llm_directory.py
+```
+
+Default mode checks idempotence and exact rendered title/meta-description
+parity. `--write` updates the existing Markdown destination, location, blog
+and index entries in both files, preserving the hand-maintained policy copy.
+Only published, actually indexable pages qualify. Existing company/contact/
+services/legal URLs remain in their established sections. Every indexable
+site URL must be represented, and all 29 editorial directory entries plus
+the blog and all-pages indexes must match the fresh rendered metadata.
+`check_discovery.py` and the publication checker enforce this by default.
+Use a local verification copy for this builder, never a mutation fixture
+or a production docroot. Live smoke testing uses the owner checklist instead.

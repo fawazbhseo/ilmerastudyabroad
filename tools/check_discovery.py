@@ -257,7 +257,9 @@ def check(base, root, enforce_names=True):
         failures = {path: hits for path, text in public_text.items() if path not in blocked
                     and (hits := blocked_name_matches(text, names))}
         assert not failures, ('Blocked institution names in published content', failures)
-    return {'sitemap': urls, 'indexable': len(expected), 'blocked': len(blocked), 'routes': len(inventory)}, pages
+    from build_llms_directory import check as check_llm_directory
+    llm_directory = check_llm_directory(base, root)
+    return {'sitemap': urls, 'indexable': len(expected), 'blocked': len(blocked), 'routes': len(inventory), 'llm_directory': llm_directory}, pages
 
 
 def assert_visibility(base, target, visible):
