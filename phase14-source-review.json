@@ -989,6 +989,14 @@
           "checked_on": "2026-10-16",
           "confirmed_text": "A Bahrain embassy press release dated 31 May 2022 requested Indian-passport students to register on the Global Pravasi Rishta Portal. This dated registration notice is not current visa or scholarship guidance.",
           "question": "Should Indian students register with the Indian embassy in Bahrain?"
+        },
+        {
+          "field": "faqs[10]",
+          "source_url": "https://www.indemb-oman.gov.in/registerstd/",
+          "source_label": "Embassy of India, Muscat: Registration of Indian Students",
+          "checked_on": "2026-10-16",
+          "confirmed_text": "The Embassy of India in Muscat requests Indian students residing in Muscat, Oman for education or training to register with the embassy. This registration information does not establish admission, visa or work requirements.",
+          "question": "Does the Indian embassy provide student registration in Oman?"
         }
       ],
       "original_fields_reviewed": [
@@ -1024,16 +1032,35 @@
       "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
       "verified_categories": 9,
-      "scope_note": "Coverage: UAE, Qatar, Saudi Arabia and a dated Bahrain registration notice. This is not a complete six-country GCC guide. Oman and Kuwait are excluded because no usable, opened evidence was confirmed for them in this review.",
+      "scope_note": "ILMERA supports students applying to universities in all six GCC countries: UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.",
       "country_scope": {
-        "UAE": "https://www.cgidubai.gov.in/page/student-advisory/",
+        "UAE": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
         "Qatar": "https://indianembassyqatar.gov.in/education_Advisory_students",
-        "Saudi Arabia": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
-        "Bahrain": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf"
+        "Saudi Arabia": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
+        "Bahrain": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf",
+        "Oman": "https://www.indemb-oman.gov.in/registerstd/"
       },
       "final_status": "published",
       "phase16_rechecked_on": "2026-10-16",
-      "phase16_note": "Active retained source references reopened; redirects made direct; unsupported Qatar no-steps clause replaced with planning advice. Historical original-field records retained."
+      "phase16_note": "Active retained source references reopened; redirects made direct; unsupported Qatar no-steps clause replaced with planning advice. Historical original-field records retained.",
+      "review_notice": "Official-source information on this page currently covers the UAE, Qatar, Saudi Arabia, Oman and Bahrain; Oman and Bahrain coverage is limited to student registration. Kuwait information is not yet available here from a verified official source, so students should confirm Kuwait requirements directly with the relevant institution and authority.",
+      "phase17_owner_scope": {
+        "confirmed_on": "2026-10-16",
+        "countries": [
+          "UAE",
+          "Saudi Arabia",
+          "Qatar",
+          "Kuwait",
+          "Oman",
+          "Bahrain"
+        ],
+        "basis": "Final owner statement confirms university partnerships across all six countries. This is business scope, not government/embassy affiliation or proof of country rules."
+      },
+      "phase17_source_limits": {
+        "Oman": "Opened replacement registration page on the already approved host. Registration only, not admission/visa/work rules.",
+        "Bahrain": "Existing notice dated 31 May 2022; registration only.",
+        "Kuwait": "Opened official directory page, but no usable student rules accepted. No Kuwait fact or verified source added to published coverage."
+      }
     },
     "russia": {
       "entry": "study-in-russia.php",

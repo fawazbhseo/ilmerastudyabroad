@@ -1,0 +1,37 @@
+{
+  "checked_on": "2026-10-16",
+  "method": "fetch_page; substantive body inspected, not a raw response-header certificate",
+  "records": [
+    {
+      "url": "https://www.indemb-oman.gov.in/eoi.php?id=r-i",
+      "outcome": "File not found body. Rejected as evidence.",
+      "raw_http_status": null
+    },
+    {
+      "url": "https://www.indemb-oman.gov.in/",
+      "chunks_opened": [
+        0,
+        1
+      ],
+      "outcome": "Official navigation identifies the current student registration page.",
+      "raw_http_status": null
+    },
+    {
+      "url": "https://www.indemb-oman.gov.in/registerstd/",
+      "chunks_opened": [
+        0,
+        1
+      ],
+      "outcome": "Substantive registration request for Indian students residing in Muscat for education/training. Added only that request with checked_on. No form submitted or personal information collected.",
+      "raw_http_status": null
+    },
+    {
+      "url": "https://indembkwt.gov.in/student-information.php",
+      "chunks_opened": [
+        0
+      ],
+      "outcome": "Official directory and education contact information; not usable current student admission/visa/work rules. No Kuwait fact added; source blocker stays open.",
+      "raw_http_status": null
+    }
+  ]
+}

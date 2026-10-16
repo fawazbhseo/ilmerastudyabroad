@@ -15,12 +15,17 @@ $destinationUrl = 'https://ilmerastudyabroad.com' . $destinationPath;
 $destinationHeading = 'Study in ' . $destinationData['name'];
 $destinationTitle = $destinationHeading . ' | ILMERA Study Abroad';
 $destinationDescription = $destinationData['intro_answer'] ?: ($destinationData['ilmera_summary'] ?: $destinationTitle);
+if ($destinationData['slug'] === 'gcc') $destinationDescription = $destinationData['scope_note'] . ' ' . $destinationData['review_notice'];
 $destinationTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Services', 'url' => '/services'], ['name' => $destinationHeading, 'url' => $destinationPath]];
 $destinationSources = ilmera_destination_sources($destinationData);
 $destinationGraph = [
     ['@type' => 'WebPage', '@id' => $destinationUrl . '#webpage', 'url' => $destinationUrl, 'name' => $destinationTitle, 'description' => $destinationDescription, 'inLanguage' => 'en-IN', 'breadcrumb' => ['@id' => $destinationUrl . '#breadcrumb'], 'mainEntity' => ['@id' => $destinationUrl . '#service']],
     ['@type' => 'Service', '@id' => $destinationUrl . '#service', 'url' => $destinationUrl, 'name' => $destinationTitle, 'serviceType' => 'Study abroad counselling', 'provider' => ['@id' => 'https://ilmerastudyabroad.com/#organization']]
 ];
+if ($destinationData['slug'] === 'gcc') {
+    $destinationGraph[1]['description'] = $destinationDescription;
+    $destinationGraph[1]['areaServed'] = array_map(static function ($country) { return ['@type' => 'Country', 'name' => $country]; }, ['UAE', 'Saudi Arabia', 'Qatar', 'Kuwait', 'Oman', 'Bahrain']);
+}
 if ($destinationData['faqs']) {
     $questions = [];
     foreach ($destinationData['faqs'] as $faq) $questions[] = ['@type' => 'Question', 'name' => $faq['question'], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']]];

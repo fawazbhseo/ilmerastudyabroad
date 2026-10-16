@@ -2909,3 +2909,30 @@ owner-presence blockers will be formally closed by the task-3 append; no other
 blocker is erased here. Both LLM files remain byte-identical to Phase 17 start.
 Their existing restricted content still prevents an unconditional global
 wording/name sign-off. No page status was changed.
+
+## Phase 17 task 2: GCC business scope versus source scope, 2026-10-16
+
+The visible first note now states ILMERA supports university applications in
+all six GCC countries, on the final owner statement. Partnership scope is
+universities only; no government or embassy affiliation is claimed. The
+second visible note separately names the five countries with official-source
+material and states the missing Kuwait rules/confirmation requirement.
+Metadata and WebPage/Service descriptions use both notes; Service areaServed
+lists all six as business scope, not six sets of verified country rules.
+The protected intro_answer, slug, name, summary and provenance are unchanged.
+
+The old Oman registration URL still returned a missing-file body. Opened the
+current registration page linked from the embassy navigation, on the same
+already approved host: https://www.indemb-oman.gov.in/registerstd/ . Its
+substantive request applies to Indian students residing in Muscat for
+education or training. Added only that registration request as a sourced FAQ
+with checked_on 2026-10-16 and an exact matching journal row. Oman and Bahrain
+coverage remains registration-only; Bahrain retains its 31 May 2022 date.
+No Oman admission, visa or work rule was inferred.
+
+Opened the Kuwait embassy student-information page again. It provides a
+directory and contact information, not usable current student rules for this
+page. No Kuwait factual line, source citation or host-list expansion was
+added. Missing verified Kuwait requirements remain an OPEN source blocker.
+reports/phase-17-source-opens.json records the fresh opens and limits. Content
+success is not raw transport-status proof. No page status or LLM file changed.

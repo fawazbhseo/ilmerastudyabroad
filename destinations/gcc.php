@@ -205,8 +205,16 @@ return [
             'source_label' => 'Embassy of India, Bahrain: Registration of Indian Nationals and Indian Students in Bahrain',
             'checked_on' => '2026-10-16',
         ],
+        [
+            'question' => 'Does the Indian embassy provide student registration in Oman?',
+            'answer' => 'The Embassy of India in Muscat requests Indian students residing in Muscat, Oman for education or training to register with the embassy. This registration information does not establish admission, visa or work requirements.',
+            'source_url' => 'https://www.indemb-oman.gov.in/registerstd/',
+            'source_label' => 'Embassy of India, Muscat: Registration of Indian Students',
+            'checked_on' => '2026-10-16',
+        ],
     ],
-    'scope_note' => 'Coverage: UAE, Qatar, Saudi Arabia and a dated Bahrain registration notice. This is not a complete six-country GCC guide. Oman and Kuwait are excluded because no usable, opened evidence was confirmed for them in this review.',
+    'scope_note' => 'ILMERA supports students applying to universities in all six GCC countries: UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.',
+    'review_notice' => 'Official-source information on this page currently covers the UAE, Qatar, Saudi Arabia, Oman and Bahrain; Oman and Bahrain coverage is limited to student registration. Kuwait information is not yet available here from a verified official source, so students should confirm Kuwait requirements directly with the relevant institution and authority.',
     'publication_review' => [
         'checked_on' => '2026-10-16',
         'intro_verified' => true,
