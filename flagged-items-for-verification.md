@@ -2936,3 +2936,41 @@ page. No Kuwait factual line, source citation or host-list expansion was
 added. Missing verified Kuwait requirements remain an OPEN source blocker.
 reports/phase-17-source-opens.json records the fresh opens and limits. Content
 success is not raw transport-status proof. No page status or LLM file changed.
+
+## Phase 17 task 3: targeted owner-blocker closures, 2026-10-16
+
+These dated resolutions supersede only the two owner-input uncertainties
+named below. Historical entries stay intact as a record of earlier review;
+no unrelated blocker or source-verification requirement is rewritten.
+
+- [x] CLOSED: owner confirmation of office presence and counselling model.
+  Final owner statement received 16 October 2026: ILMERA operates virtually;
+  it has no physical office and no in-person counselling location anywhere.
+  Online-only counselling is now an owner-confirmed business fact, not an
+  inferred location service. This resolves earlier uncertainty about whether
+  to call the service online and any request to confirm a counselling office
+  or branch. It does not confirm an address, local procedure, local provider
+  or venue. The Contact postal record is locality-only, not a delivery or
+  registered address claim, and is labelled as unrelated to counselling
+  premises. No street address or coordinates were supplied or invented.
+
+- [x] CLOSED: owner confirmation of GCC service countries.
+  Final owner statement received 16 October 2026: ILMERA has partnered across
+  UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain. In the site wording,
+  partnerships refer only to universities, never governments or embassies;
+  no university is named. This resolves owner-input requests about the list
+  of countries supported and broad university-partnership country scope.
+  It is not government corroboration of business relationships, proof of an
+  individual agreement, a confirmed award or a shared six-country visa rule.
+
+- [ ] OPEN: Kuwait student-rule evidence. The official embassy directory was
+  opened again during task 2, but no usable current admission/visa/work rules
+  were accepted. Kuwait remains outside the page's verified source coverage.
+  Confirm requirements directly with the relevant institution and authority;
+  add a factual line only after opening a supporting approved official page.
+
+Oman registration now has an opened replacement on the existing approved
+host. Both Oman and Bahrain source coverage remains registration-only and
+Bahrain retains its historic notice date. None of this closes Kuwait's gap.
+All other source, award, attribution, delivery, LLM-content and native-staging
+blockers remain as previously recorded. No page status or LLM byte changed.

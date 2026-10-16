@@ -1159,3 +1159,36 @@ External raw-HTTP-200 evidence and native Apache/deployment behavior remain
 unverified. The final decision is NOT READY for staging acceptance or
 production sign-off. Owner amount/partner and withheld-page blockers remain;
 no machine or source-open pass is a substitute for those approvals.
+
+## Phase 17: confirmed online model and GCC scope, 2026-10-16
+
+Four tasks, one commit each, on arena/48320ee5-ilmerastudyabroad; PR 1.
+No main push, merge, deployment, page-status change or LLM-file edit.
+
+- Task 1: applied final owner-confirmed online-only counselling across the
+  17 location titles/headings/metadata and plain authored travel notes,
+  sitewide contact wording, Coorg article labels and organisation schema.
+  Removed address duplicates and a legacy contact node. Kept only the
+  Contact organisation's existing Coorg postal locality, explicitly labelled
+  as not counselling premises and not a street/delivery address. Place
+  areaServed stays an audience; no storefront, coordinates or local office.
+  Added a physical-presence guard and seven regression cases. Complete
+  published-surface line inventory: reports/phase-17-task-1-lines.md.
+- Task 2: separated owner-confirmed university support across all six GCC
+  countries from five-country official-source coverage. Opened the replacement
+  Oman student-registration page and added only its registration request,
+  with checked_on and matched FAQ/journal/schema. Kuwait directory was opened
+  but no usable rules added. Kuwait remains a source blocker. Protected GCC
+  intro, slug, name, summary and provenance remain unchanged.
+- Task 3: appended targeted dated closures for the owner-office-model and
+  GCC-country-list uncertainties only. Kept historical blocker text intact
+  and explicitly retained Kuwait and every unrelated open requirement.
+- Task 4: complete fresh local release verification and evidence report,
+  including sitemap, structured data, links, line/file inventories and limits.
+
+Every task repeats full parsing/render/browser/discovery checks. The updated
+17 guides have 382-396 authored words, maximum authored overlap 6.410% and
+maximum rendered-main overlap 13.476562%, all 136 pairs below 15%.
+The unchanged LLM files still prevent unconditional wording/name acceptance;
+strict discovery/publication commands must report that rather than waive it.
+Native Apache, external transport and real delivery remain staging checks.
