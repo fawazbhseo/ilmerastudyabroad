@@ -2,7 +2,7 @@
 
 Source inventory: strategy-doc-summary.md and strategy-doc-research.json, read 2026-10-16. Baseline: Phase 19 `ad09f84`. No numeric volumes or keyword-difficulty figures were supplied. Priority is intent and relevance, never fabricated demand. The 17 explicit document query strings/fragments remain separately inventoried; page-specific normalized targets and mandatory navigational labels are not additional measured research keywords.
 
-Checkpoint coverage: **20/38 published pages**, one distinct primary and two or three secondaries each. IN PROGRESS; remaining pages are not claimed complete.
+Checkpoint coverage: **30/38 published pages**, one distinct primary and two or three secondaries each. IN PROGRESS; remaining pages are not claimed complete.
 
 | Published page | Primary | Secondary targets | Document basis and intent priority |
 | --- | --- | --- | --- |
@@ -26,6 +26,16 @@ Checkpoint coverage: **20/38 published pages**, one distinct primary and two or 
 | `/study-abroad-counselling-gonikoppal` | study abroad consultancy in Gonikoppal | online counselling for Gonikoppal students; map the request before collecting records | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
 | `/study-abroad-counselling-hassan` | study abroad consultancy in Hassan | online counselling for Hassan students; separate the known price from the planning estimate | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
 | `/study-abroad-counselling-kushalnagar` | study abroad consultancy in Kushalnagar | online counselling for Kushalnagar students; turn the offer into a list of obligations | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-madikeri` | study abroad consultancy in Madikeri | online counselling for Madikeri students; start with dates rather than a persuasive story | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-mangaluru` | study abroad consultancy in Mangaluru | online counselling for Mangaluru students; understand the proposed support before describing it | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-mysuru` | study abroad consultancy in Mysuru | online counselling for Mysuru students; read the record as the recipient will see it | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-ponnampet` | study abroad consultancy in Ponnampet | online counselling for Ponnampet students; collect evidence before drafting the introduction | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-shivamogga` | study abroad consultancy in Shivamogga | online counselling for Shivamogga students; identify whose deadline you are recording | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-siddapura` | study abroad consultancy in Siddapura | online counselling for Siddapura students; ask why a record is needed before sending it | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-somwarpet` | study abroad consultancy in Somwarpet | online counselling for Somwarpet students; describe the record using its actual status | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-udupi-manipal` | study abroad consultancy in Udupi and Manipal | online counselling for Udupi and Manipal students; read the structure as a set of commitments | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-virajpet` | study abroad consultancy in Virajpet | online counselling for Virajpet students; review the completed form, not only the document folder | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-in-gcc` | study in GCC countries from India | study in GCC countries from Karnataka; GCC countries study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
 
 ## Comparison with Phase 19
 
