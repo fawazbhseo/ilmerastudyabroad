@@ -15,29 +15,23 @@ if (!$placeLive) header('X-Robots-Tag: noindex, follow');
 $placePath = ilmera_place_url($placeData);
 $placeUrl = 'https://ilmerastudyabroad.com' . $placePath;
 $placeHeading = ($placeData['type'] === 'district-hub' ? 'Study Abroad Consultancy for ' : 'Study Abroad Counselling for ') . $placeData['name'] . ' Students';
-$placeTitle = $placeHeading . ' | ILMERA';
-$placeDescription = $placeData['intro_answer'] !== '' ? $placeData['intro_answer'] : $placeTitle;
+$placeHeading = $placeData['heading'] ?: $placeHeading;
+$placeTitle = $placeData['page_title'] ?: $placeHeading . ' | ILMERA';
+$placeDescription = $placeData['meta_description'] ?: ($placeData['intro_answer'] ?: $placeTitle);
 $placeLinks = [];
 foreach ($placeData['nearby'] as $slug) {
     $target = ilmera_place_load($slug);
     if ($target && ilmera_target_published(ilmera_place_url($target))) $placeLinks[] = $target;
 }
 $breadcrumbs = [['name' => 'Home', 'url' => '/']];
-$parents = $placeData['slug'] === 'karnataka' ? [] : ['karnataka'];
-if ($placeData['type'] === 'town' && $placeData['district'] === 'Kodagu') $parents[] = 'kodagu';
+// Related guides are editorial links, not unsourced administrative claims.
+$parents = [];
 $placeParents = [];
-foreach ($parents as $slug) {
-    $parent = ilmera_place_load($slug);
-    if ($parent && ilmera_target_published(ilmera_place_url($parent))) {
-        $placeParents[] = $parent;
-        $breadcrumbs[] = ['name' => $parent['name'], 'url' => ilmera_place_url($parent)];
-    }
-}
 $breadcrumbs[] = ['name' => $placeData['name'], 'url' => $placePath];
 $placeLinks = array_values(array_filter($placeLinks, static function ($target) use ($parents) { return !in_array($target['slug'], $parents, true); }));
 $placeGraph = [
     ['@type' => 'WebPage', '@id' => $placeUrl . '#webpage', 'url' => $placeUrl, 'name' => $placeTitle, 'description' => $placeDescription, 'inLanguage' => 'en-IN', 'breadcrumb' => ['@id' => $placeUrl . '#breadcrumb'], 'mainEntity' => ['@id' => $placeUrl . '#service']],
-    ['@type' => 'Service', '@id' => $placeUrl . '#service', 'name' => $placeHeading . ' | ILMERA Study Abroad', 'serviceType' => 'Study abroad counselling', 'url' => $placeUrl, 'areaServed' => ['@type' => 'AdministrativeArea', 'name' => 'Karnataka, India']]
+    ['@type' => 'Service', '@id' => $placeUrl . '#service', 'name' => $placeHeading . ' | ILMERA Study Abroad', 'serviceType' => 'Study abroad counselling', 'url' => $placeUrl, 'areaServed' => ['@type' => 'Place', 'name' => $placeData['name']], 'provider' => ['@type' => 'Organization', '@id' => 'https://ilmerastudyabroad.com/#organization', 'name' => 'ILMERA Study Abroad', 'url' => 'https://ilmerastudyabroad.com/', 'telephone' => '+919019557427']]
 ];
 if ($placeData['faqs']) {
     $questions = [];
@@ -56,8 +50,6 @@ $placeJson = json_encode(['@context' => 'https://schema.org', '@graph' => $place
 <meta name="description" content="<?= ilmera_place_escape($placeDescription) ?>"/>
 <meta name="robots" content="<?= $placeLive ? 'index, follow' : 'noindex, follow' ?>"><!-- Release checks: flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
-<meta name="geo.region" content="IN-KA"/>
-<meta name="geo.placename" content="Coorg, Karnataka, India"/>
 <meta name="theme-color" content="#04060f"/>
 <link rel="canonical" href="<?= ilmera_place_escape($placeUrl) ?>"/>
 <link rel="icon" type="image/png" href="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -149,6 +141,14 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php if ($placeData['intro_answer'] !== ''): ?>
     <p><?= ilmera_place_escape($placeData['intro_answer']) ?></p>
 <?php endif; ?>
+<?php foreach ($placeData['sections'] as $section): ?>
+    <section class="place-editorial-section">
+      <h2><?= ilmera_place_escape($section['heading']) ?></h2>
+<?php foreach ($section['paragraphs'] as $paragraph): ?>
+      <p><?= ilmera_place_escape($paragraph) ?></p>
+<?php endforeach; ?>
+    </section>
+<?php endforeach; ?>
 <?php foreach (['local_institutions' => 'Local institutions', 'transcript_and_moi_steps' => 'Transcripts and Medium-of-Instruction letters', 'local_loan_options' => 'Local education-loan options', 'local_notes' => 'Local planning notes'] as $field => $heading): ?>
 <?php if ($placeData[$field]): ?>
     <section>

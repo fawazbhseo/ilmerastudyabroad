@@ -33,6 +33,15 @@ if (!function_exists('ilmera_place_text')) {
         $result['name'] = ilmera_place_text($data['name']);
         $result['district'] = ilmera_place_text($data['district']);
         if ($result['name'] === '') return null;
+        foreach (['page_title', 'heading', 'meta_description', 'reviewed_on'] as $key) $result[$key] = ilmera_place_text($data[$key] ?? '');
+        $result['local_facts_used'] = ($data['local_facts_used'] ?? true) === true;
+        $result['local_fact_sources'] = is_array($data['local_fact_sources'] ?? null) ? $data['local_fact_sources'] : [];
+        $result['sections'] = [];
+        foreach (is_array($data['sections'] ?? null) ? $data['sections'] : [] as $section) {
+            $heading = ilmera_place_text($section['heading'] ?? '');
+            $paragraphs = ilmera_place_strings($section['paragraphs'] ?? []);
+            if ($heading !== '' && $paragraphs) $result['sections'][] = ['heading' => $heading, 'paragraphs' => $paragraphs];
+        }
         $result['intro_answer'] = ilmera_place_text($data['intro_answer'] ?? '');
         $words = preg_match_all('/\S+/u', $result['intro_answer']);
         if ($words < 40 || $words > 60) $result['intro_answer'] = '';

@@ -5,71 +5,20 @@ return [
     'type' => 'city',
     'district' => '',
     'status' => 'draft',
-    'intro_answer' => 'Students in Udupi and Manipal can use ILMERA Study Abroad to discuss course choices, scholarships and application documents by phone, WhatsApp and video call. The consultancy is based in Coorg, Kodagu, and has no physical office. Its routes include Germany, Italy DSU, other European destinations, Russia, the UK and the GCC.',
+    'intro_answer' => 'Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],
     'local_loan_options' => [],
     'visa_appointment_route' => '',
-    'local_notes' => [
-        'For Udupi and Manipal applicants, an understandable handover is a useful starting point: know which person handles each record and which costs are separate. A parent and student can ask these questions together before deciding what assistance to buy.',
-        'Does your income come from student fees, university payments or another source?',
-        'Will a written agreement separate service charges, payment dates and refund conditions?',
-        'Who is our identified counsellor when we need a decision explained?',
-        'How will you assess our exact course history rather than make a general eligibility promise?',
-        'Will you avoid guaranteed admission, scholarship and visa claims?',
-        'Who controls document submission and how do we receive application updates?',
-        'On ILMERA\'s existing site, Jabir KJ is Founder, Fawaz BH is CMO and Zaheer KJ is CFO. Zaheer\'s documented role covers records, applications and visa-file coordination. The first consultation is free; the [Terms of Use](/terms) require agreement on fees and scope before paid services begin.',
-        'Start with the course you want to study and compare the destinations ILMERA already advises on. Keeping academic evidence and total-cost questions together can help you ask for a reasoned shortlist without assuming that a scholarship or visa will follow.',
-        '[Germany](/services#germany): use [the Germany APS guide](/blog/study-in-germany-free-aps-certificate) to prepare verification questions.',
-        '[Italy DSU](/services#italy): distinguish scholarship eligibility from admission with [the Italy DSU explanation](/blog/italy-dsu-scholarship-eligibility).',
-        '[Czech Republic](/services#czech-republic): consider which course options match the intended qualification.',
-        '[Lithuania](/services#lithuania): check proposed entry criteria against the full academic record.',
-        '[Latvia](/services#latvia): identify the language and academic evidence for each option.',
-        '[Slovakia](/services#slovakia): compare the teaching language with your preparation plans.',
-        '[Russia](/services#russia): discuss course suitability before assembling an application.',
-        '[UK](/services#uk): keep the admission checklist distinct from visa documents.',
-        '[GCC](/services#gcc): narrow down the institution before discussing the student-visa process.',
-        'For a record containing repeated subjects, [the backlog questions guide](/blog/study-abroad-with-academic-backlogs) offers background for the consultation rather than an assured route.',
-        'Prepare an institution-by-institution document list if your qualifications were issued in different places.',
-        'Record the full institution and course names as shown on your own certificates, without assuming that a place name identifies the awarding body.',
-        'Ask the receiving university what delivery format it needs before requesting records from each issuer.',
-        'If your undergraduate and later study records differ, ask which institution must provide the language evidence for the application.',
-        'Keep a list of any required original, certified copy or legalised document and have the destination checklist reviewed before arranging certification.',
-        'Ask how a proposed loan and any scholarship will be documented together; do not assume an award replaces the funding evidence a visa authority asks for.',
-        'Confirm where you must attend and which documents you must carry before choosing the outward and return journey from Udupi or Manipal.',
-    ],
+    'local_notes' => [],
     'faqs' => [
         [
-            'question' => 'Can I attend a physical ILMERA office in Udupi or Manipal?',
-            'answer' => 'No. ILMERA operates no physical office in Udupi, Manipal or any other location. It is based in Coorg, Kodagu; counselling takes place by phone, WhatsApp and video call.',
+            'question' => 'What should an Udupi or Manipal student compare beyond a course title?',
+            'answer' => 'Examine compulsory and optional content, assessment, project requirements and the conditions attached to features that matter to your choice.',
         ],
         [
-            'question' => 'What local institutions are confirmed for Udupi and Manipal?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How do transcript delivery arrangements work for these campuses?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Which institution should supply my Udupi or Manipal MOI letter?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Which Udupi or Manipal records need legalisation?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Which local banks can document an education loan with a scholarship?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Where should a Udupi or Manipal applicant attend a visa appointment?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How is ILMERA remunerated for Udupi and Manipal students?',
-            'answer' => '',
+            'question' => 'Can an optional module be treated as a guaranteed part of the plan?',
+            'answer' => 'Only if the actual course rules support that assumption. Check availability and selection conditions with the institution before relying on it.',
         ],
     ],
     'nearby' => [
@@ -77,4 +26,30 @@ return [
         'belagavi',
         'shivamogga',
     ],
+    'page_title' => 'Comparing the learning experience | Udupi and Manipal study guidance | ILMERA',
+    'heading' => 'Udupi and Manipal Counselling: Compare How a Course Is Taught',
+    'meta_description' => 'For students from Udupi and Manipal: compare course structure, assessment and learning requirements instead of relying only on a degree title.',
+    'sections' => [
+        [
+            'heading' => 'Read the structure as a set of commitments',
+            'paragraphs' => [
+                'Look at which subjects are compulsory, which are optional and how choices are made. An interesting option may not be something every student can take, so check the conditions attached to it. Identify whether the published structure concerns the intended intake and qualification rather than another version of the course. Note any project, research or practical component that matters to your decision and ask how it fits into the programme. Do not describe a feature as guaranteed simply because it appears in promotional material. Your comparison should show what the current course description establishes and which details still require a response from the responsible academic or admissions team.',
+            ],
+        ],
+        [
+            'heading' => 'Consider how you prefer to demonstrate learning',
+            'paragraphs' => [
+                'Review the published assessment information where available and think about the kind of work it describes. Written examinations, extended assignments and group work may make different demands; the point is to understand the actual requirements, not to label one format universally easier. Reflect on the learning methods you have used before and where you would need preparation. If accessibility or another personal requirement affects course participation, ask the appropriate institution for a specific response. This page makes no claim about facilities in Udupi or Manipal or about support offered by a particular overseas institution. Those are factual questions to investigate for the individual course.',
+            ],
+        ],
+        [
+            'heading' => 'Connect the comparison to an application reason',
+            'paragraphs' => [
+                'After reviewing the structure and assessment, explain why an option fits what you want to learn. Use evidence from the course rather than a broad statement that studying overseas is better. Keep the reasoning proportionate: a module description can support an academic interest, but it does not prove a future employment result. If several courses remain suitable, compare the trade-offs explicitly and identify what could change your preference. Recheck the relevant details before submitting, especially if you first researched the course some time earlier. The outcome should be a considered learning choice that you can explain in your own words, not a selection based solely on a familiar title or an unverified promise.',
+            ],
+        ],
+    ],
+    'local_facts_used' => false,
+    'local_fact_sources' => [],
+    'reviewed_on' => '2026-10-16',
 ];

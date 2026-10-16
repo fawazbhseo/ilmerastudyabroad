@@ -5,71 +5,20 @@ return [
     'type' => 'city',
     'district' => '',
     'status' => 'draft',
-    'intro_answer' => 'Shivamogga applicants can discuss overseas courses with ILMERA Study Abroad through phone, WhatsApp and video call. Based in Coorg, Kodagu, with no physical office, ILMERA reviews academic profiles and supports applications across Germany, Italy DSU and its other destinations. This guide separates that counselling from unconfirmed local document procedures.',
+    'intro_answer' => 'An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],
     'local_loan_options' => [],
     'visa_appointment_route' => '',
-    'local_notes' => [
-        'Use the first discussion to separate counselling advice from tasks you must complete with your institution, lender and visa authority. Asking the following questions can make a Shivamogga application plan easier to track without relying on a promised outcome.',
-        'Who funds the consultancy service, and are there payments from universities?',
-        'Can the quoted price, refund rules and included work be put in writing?',
-        'What is the name and contact method of the counsellor responsible for our case?',
-        'Will eligibility advice account for pending results, backlogs and language proof?',
-        'Can you confirm that admission and visa decisions are outside your control?',
-        'Which person reviews records, submits files and tells us about missing items?',
-        'The ILMERA team is named on the About page: Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Document review, filing and deadline tracking are described as Zaheer\'s responsibilities. ILMERA offers a free initial consultation and does not guarantee university or visa outcomes. [Read the team responsibilities](/about) before agreeing a service scope.',
-        'Keep the intended intake and your available academic records together when reviewing ILMERA\'s destinations. These routes can be discussed through the same call-based service; a shortlist is still subject to the individual programme and the student\'s profile.',
-        '[Germany](/services#germany): plan the academic-verification discussion using [the existing APS article](/blog/study-in-germany-free-aps-certificate).',
-        '[Italy DSU](/services#italy): examine the regional funding criteria in [the DSU eligibility article](/blog/italy-dsu-scholarship-eligibility).',
-        '[Czech Republic](/services#czech-republic): set out your subject preferences before matching courses.',
-        '[Lithuania](/services#lithuania): ask what the proposed university needs from your records.',
-        '[Latvia](/services#latvia): compare course requirements with the documents already available.',
-        '[Slovakia](/services#slovakia): separate language preparation questions from degree entry.',
-        '[Russia](/services#russia): discuss the relevance of each result to your application.',
-        '[UK](/services#uk): build questions about course entry and the later visa file.',
-        '[GCC](/services#gcc): identify the country and university before discussing requirements.',
-        'The [academic-backlog article](/blog/study-abroad-with-academic-backlogs) can help frame a conversation about incomplete or repeated subjects; it is not an admission decision.',
-        'For Shivamogga planning, keep a record of which documents are ready and which still require an institutional response.',
-        'Identify the programme and institution for each stage of study before assembling a document timeline.',
-        'If a result has changed, ask how to obtain the current record and keep the version used for each application clear.',
-        'Ask the institution to confirm who may sign an MOI request and check the intended university\'s wording before requesting a letter.',
-        'Clarify the required certification order before arranging an attestation step, especially if a replacement record is still pending.',
-        'Ask the lender when funds become available and what evidence it can provide, then compare that answer with the application timeline. This page does not identify a confirmed local lender.',
-        'After the correct appointment city is confirmed, work backwards from the reporting time to plan departure and return from Shivamogga.',
-    ],
+    'local_notes' => [],
     'faqs' => [
         [
-            'question' => 'Must I travel to an ILMERA location from Shivamogga?',
-            'answer' => 'No. There is no ILMERA physical office to attend, including in Shivamogga. The consultancy is based in Coorg, Kodagu; calls, WhatsApp and video calls are the counselling channels.',
+            'question' => 'How should a Shivamogga applicant label a personal target date?',
+            'answer' => 'Mark it explicitly as your planning target and keep it separate from the official deadline, source and submission instructions.',
         ],
         [
-            'question' => 'Which Shivamogga study backgrounds can this guide name?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How should I arrange updated Shivamogga transcripts?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Who can authorise a Shivamogga MOI request?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'In what order should Shivamogga records be certified?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How can I compare education-loan options in Shivamogga?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How do I plan travel from Shivamogga to a visa appointment?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'What payment arrangements apply to Shivamogga counselling?',
-            'answer' => '',
+            'question' => 'What happens when one document dependency is delayed?',
+            'answer' => 'Trace the effect on later tasks, record a review point and consider which independent actions can still proceed. Do not silently assume the original timetable remains achievable.',
         ],
     ],
     'nearby' => [
@@ -77,4 +26,30 @@ return [
         'belagavi',
         'udupi-manipal',
     ],
+    'page_title' => 'Building a dependency calendar | Shivamogga study guidance | ILMERA',
+    'heading' => 'Shivamogga Study Planning: Build a Dependency Calendar',
+    'meta_description' => 'For Shivamogga students: work backwards from verified deadlines, identify document dependencies and keep application timing assumptions visible.',
+    'sections' => [
+        [
+            'heading' => 'Identify whose deadline you are recording',
+            'paragraphs' => [
+                'Label every date by its source and purpose. A course application deadline, an offer response date and an appointment registration window do not describe the same event. Save the original instruction and check any time-zone or submission-method detail that it includes. Where a date has not yet been published, keep it unknown rather than copying a previous year\'s window. Add your own earlier target only if it is clearly labelled as a planning choice. This distinction helps prevent a personal reminder from being repeated as an official rule. Review the calendar whenever the course or intended intake changes, because an apparently small change can invalidate an earlier assumption.',
+            ],
+        ],
+        [
+            'heading' => 'Draw the chain behind each submission',
+            'paragraphs' => [
+                'For an important action, list what must already be available before it can happen. A document request may depend on an issuer\'s response; a complete form may depend on information that is still being clarified. Put those dependencies in sequence instead of assigning every task the same due date. Identify which actions you control and which depend on someone else\'s process. Allow a planning margin without presenting it as a guaranteed processing time. No local courier duration, appointment city or issuing-office turnaround is asserted here for Shivamogga. Ask the relevant provider or authority for current details where those facts affect the plan.',
+            ],
+        ],
+        [
+            'heading' => 'Use review points rather than silent slippage',
+            'paragraphs' => [
+                'Choose points at which you will reassess a task that has not progressed. Record what follow-up is appropriate and what decision becomes necessary if the dependency remains unresolved. When a date changes, trace the effect through the rest of the calendar rather than editing one isolated cell. A delayed item may affect several later actions, while another task may be able to proceed independently. Keep evidence of submission and distinguish it from a draft that is merely ready to send. At the final review, confirm which dates are still current and which actions have actually been completed. The purpose is a visible, revisable sequence, not a promise that every external decision will arrive on the timetable you prefer.',
+            ],
+        ],
+    ],
+    'local_facts_used' => false,
+    'local_fact_sources' => [],
+    'reviewed_on' => '2026-10-16',
 ];

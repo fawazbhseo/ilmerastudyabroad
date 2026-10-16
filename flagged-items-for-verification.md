@@ -2588,3 +2588,17 @@ GCC visibly names its four-country scope, explicitly excludes Oman/Kuwait,
 and labels the Bahrain registration notice as dated 31 May 2022 rather than
 current visa advice. The country sections each carry their own source.
 Both LLM files remain unchanged; discovery snapshot work is scheduled in E.
+
+### Phase C task 6: seventeen distinct location guides
+
+Rewrote every location with a different counselling problem and original
+intro, three substantive sections, two answered FAQs, title, description and
+H1. Each has at least 350 words of intro plus section prose, excluding FAQs,
+headings, navigation and boilerplate. No named institutions, local banks,
+travel routes, distances, issuing offices or processing-time claims were used.
+No local practical facts therefore require an external source citation.
+Service schema uses only the existing sitewide organisation and main contact
+number from contact.php; area served is an audience, not an office address.
+Removed inferred administrative breadcrumbs and location metatags. Related
+guides are editorial links, not assertions of proximity. All remain draft
+until task 8 measures and enforces the stronger publication gate.

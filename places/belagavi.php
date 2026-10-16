@@ -5,71 +5,20 @@ return [
     'type' => 'city',
     'district' => '',
     'status' => 'draft',
-    'intro_answer' => 'For Belagavi students planning overseas study, ILMERA offers profile assessment and application guidance from its base in Coorg, Kodagu. Counselling uses phone, WhatsApp and video call, not a physical office. Discuss Germany, Italy DSU and the other destinations ILMERA covers while keeping local document and travel questions separate.',
+    'intro_answer' => 'Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],
     'local_loan_options' => [],
     'visa_appointment_route' => '',
-    'local_notes' => [
-        'For a Belagavi enquiry, ask who will own each task between the first marksheet review and the final application. Request written answers on payment and responsibility before handing over documents or committing to support.',
-        'What are all sources of payment for your advice, including any university payments?',
-        'Will the written fee terms identify deliverables, payment stages and refunds?',
-        'Which named counsellor will handle our questions and updates?',
-        'What does our actual record allow, including any backlogs or language gaps?',
-        'Will you state plainly that neither admission nor a visa can be guaranteed?',
-        'Who checks the transcript, files the application and returns any originals?',
-        'ILMERA identifies Jabir KJ as Founder, Zaheer KJ as CFO and Fawaz BH as CMO. Its published document role for Zaheer includes verification and application filing. The first consultation has no charge, and the Terms set out agreement on further fees before paid work starts. [Check the published service terms](/terms).',
-        'Use your academic documents and budget to compare the destinations ILMERA covers. The links below are starting points for a course-specific assessment, not a statement that a Belagavi qualification automatically satisfies an admission rule.',
-        '[Germany](/services#germany): discuss APS alongside your academic record; [the APS explanation](/blog/study-in-germany-free-aps-certificate) provides background.',
-        '[Italy DSU](/services#italy): review income-assessment preparation with [the regional scholarship guide](/blog/italy-dsu-scholarship-eligibility).',
-        '[Czech Republic](/services#czech-republic): ask how your intended course will be shortlisted.',
-        '[Lithuania](/services#lithuania): compare a proposed programme with your marksheet.',
-        '[Latvia](/services#latvia): bring questions about the available language evidence.',
-        '[Slovakia](/services#slovakia): clarify the language of the particular degree.',
-        '[Russia](/services#russia): assess your complete academic history before applying.',
-        '[UK](/services#uk): separate university requirements from visa preparation.',
-        '[GCC](/services#gcc): discuss the destination and institution individually.',
-        'If your record includes uncleared subjects, use [the existing backlog guidance](/blog/study-abroad-with-academic-backlogs) to prepare questions rather than assume eligibility.',
-        'Build the Belagavi checklist around who issued each document, who accepts it and who can confirm the process.',
-        'Distinguish the college attended from the institution named on the degree when preparing an enquiry.',
-        'Ask which issuing institution should receive the transcript request and what format the intended university needs.',
-        'Before requesting an MOI letter, ask the chosen programme what language evidence it accepts; do not assume a letter replaces an English test.',
-        'List the documents that need certification separately from the documents merely shared with the counsellor.',
-        'Ask a prospective lender for its document list and written terms, then compare its funding evidence with the destination requirements. No local bank is endorsed here.',
-        'Set the appointment city before planning onward transport from Belagavi; do not choose a city just because another applicant attended there.',
-    ],
+    'local_notes' => [],
     'faqs' => [
         [
-            'question' => 'Is there an ILMERA physical office in Belagavi?',
-            'answer' => 'No. ILMERA has no physical office in Belagavi or elsewhere. It is based in Coorg, Kodagu, and provides counselling by phone, WhatsApp and video call.',
+            'question' => 'What should a Belagavi enquiry brief contain?',
+            'answer' => 'State the qualification, intended subject, budget boundary and the specific decision on which you need help. Separate settled choices from questions that still require investigation.',
         ],
         [
-            'question' => 'Which Belagavi colleges do enquiries come from?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Where should a Belagavi student request transcripts?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Can I obtain an MOI letter through my Belagavi institution?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'What attestation steps apply to Belagavi-issued records?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Which Belagavi banks can support an education loan?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'Which visa appointment journey should I plan from Belagavi?',
-            'answer' => '',
-        ],
-        [
-            'question' => 'How is ILMERA paid for a Belagavi enquiry?',
-            'answer' => '',
+            'question' => 'How do I handle work outside the original counselling scope?',
+            'answer' => 'Ask for the new deliverable, responsibility and payment terms in writing before authorising it. Keep the amended understanding with the original agreement.',
         ],
     ],
     'nearby' => [
@@ -77,4 +26,30 @@ return [
         'shivamogga',
         'udupi-manipal',
     ],
+    'page_title' => 'Agreeing the counselling brief | Belagavi study guidance | ILMERA',
+    'heading' => 'Study Abroad Counselling for Belagavi: Scope and Responsibilities',
+    'meta_description' => 'For Belagavi students: define counselling responsibilities, compare written service terms and prepare a clear application brief with ILMERA.',
+    'sections' => [
+        [
+            'heading' => 'Describe the task before choosing the support',
+            'paragraphs' => [
+                'Write down the decisions you have already made and the questions that are still open. A request to compare courses is different from a request to organise an application that is already selected. Explain which qualification you hold, what subject you want to study and what would make a proposed route unsuitable. Then ask which parts of that brief the counsellor can address. Keep the response alongside your own notes so that later conversations do not quietly change the assignment. If you are seeking help with only one stage, say so explicitly. There is no benefit in treating every enquiry as the same package or assuming that an early conversation authorises a submission.',
+            ],
+        ],
+        [
+            'heading' => 'Make ownership visible in the agreement',
+            'paragraphs' => [
+                'For each deliverable, identify who prepares it, who checks it and who gives the final approval. A document can be complete without being submitted, and a submitted form can still require a response from you. Ask how those handovers will be recorded. Read the proposed scope together with the payment stages and any cancellation or refund terms before agreeing to paid work. Raise differences between a verbal explanation and the written version while they can still be resolved. Keep your own copy of the agreement and of any later changes. These are practical questions for assessing a service, not evidence that admission or funding is assured.',
+            ],
+        ],
+        [
+            'heading' => 'Use a decision record when the brief changes',
+            'paragraphs' => [
+                'An application plan may change after you learn more about a course or reconsider the budget. Record the reason for each material change rather than simply replacing the old shortlist. Note whether the change affects documents, deadlines or work already requested. If a new task falls outside the original agreement, ask for its scope and cost before proceeding. At the end of a discussion, summarise the next action in your own words and invite corrections. That small check can expose a misunderstanding before it becomes an expensive assumption. Belagavi is the audience for this guide; no local office, college connection or appointment facility is implied by the counselling offer.',
+            ],
+        ],
+    ],
+    'local_facts_used' => false,
+    'local_fact_sources' => [],
+    'reviewed_on' => '2026-10-16',
 ];
