@@ -21,7 +21,7 @@ checks['PHP syntax']={'status':'PASS','files':len(files),'runtime':'PHP 8.5 WASM
 print('PASS PHP syntax',len(files),flush=True)
 for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','test_llm_directory.py','test_llm_policy.py','test_presence.py','test_wording.py']:
  run(name,[sys.executable,'tools/'+name])
-for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php']:
+for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])
 run('authored location overlap',[sys.executable,'tools/check_location_content.py'])
 for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py']:

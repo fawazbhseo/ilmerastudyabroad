@@ -28,6 +28,31 @@ def validate(root,base=None):
  text=' '.join((root/'reports/prompt-map.md').read_text().split())
  assert f"{counts['answered']} answered, {counts['partly answered']} partly answered, {counts['gap']} gap" in text
  assert '38/38' in (root/'reports/keyword-map.md').read_text()
+ if base:
+  for path,entry in seo.items():
+   body=fetch(base,path)[2].decode()
+   for tag in re.findall(r'<meta\b[^>]*>',body):
+    attrs=dict(re.findall(r'([\w:-]+)="([^"]*)"',tag))
+    key=attrs.get('property',attrs.get('name',''))
+    if key in ['og:title','twitter:title']:assert html.unescape(attrs['content'])==entry['title'],(path,key)
+    if key in ['og:description','twitter:description']:assert html.unescape(attrs['content'])==entry['description'],(path,key)
+   for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>',body,re.S):
+    graph=json.loads(raw)
+    for node in graph.get('@graph',[graph]):
+     if node.get('@type') not in ['WebPage','Article','BlogPosting','Service']:continue
+     if 'description' in node:assert node['description']==entry['description'],(path,'schema description')
+     if 'name' in node:assert node['name']==entry['title'],(path,'schema name')
+     if 'headline' in node:assert node['headline']==entry['h1'],(path,'schema headline')
+ if base:
+  body=fetch(base,'/study-abroad-consultants-in-karnataka')[2].decode()
+  visible=re.search(r'<h2>Related place guides</h2>\s*<ul>(.*?)</ul>',body,re.S)[1]
+  links=[(u,html.unescape(re.sub('<[^>]+>','',n)).strip()) for u,n in re.findall(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>',visible,re.S)]
+  graphs=[json.loads(raw) for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>',body,re.S)]
+  lists=[g for g in graphs if g.get('@type')=='ItemList'];assert len(lists)==1
+  graph=lists[0];assert graph['numberOfItems']==len(links) and graph['itemListOrder'].endswith('ItemListUnordered')
+  for position,(item,(url,label)) in enumerate(zip(graph['itemListElement'],links),1):
+   assert item['position']==position and item['item']['name']==label
+   assert item['item']['url']=='https://ilmerastudyabroad.com'+url and url in published
  # Stronger than field-level protection: all destination and location data and journals stay byte-identical.
  protected=list((root/'destinations').glob('*.php'))+list((root/'places').glob('*.php'))+[root/p for p in ['phase14-source-review.json','phase14-location-review.json','phase14-article-review.json','phase14-publication-report.md','includes/posts.php','data/proof.php','data/entity.json']]
  for path in protected:

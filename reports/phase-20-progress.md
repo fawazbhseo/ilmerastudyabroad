@@ -17,8 +17,8 @@ needed to resume mapping. No files or earlier work were discarded.
 | 1. Complete document inventory | done | `946c8b3`; PR checkpoint 6213330417; 50 prompts, 17 fragments, no volumes; task 1 full checks PASS |
 | 2. Keyword and prompt maps | done | 38/38 keyword pages mapped; 50 prompts: 4 answered, 17 partly answered, 29 gaps. Checkpoints `73a9ba9`, `9d4d651`, `3700dd6`; full checks PASS (89 PHP parses, 43 renders, 258 browser cases); completion `aba0b24` |
 | 3. Apply supported target improvements | done | `eea69f6`; all 38 surfaces retained; fresh full QA PASS |
-| 4. Sourced prompt coverage | done | Commit containing this update; seven FAQs on five pages; 6 answered / 15 partial / 29 gaps; fresh full QA PASS |
-| 5. Recommendation classification | not started | Existing conflicts report still provisional |
+| 4. Sourced prompt coverage | done | `8f7000b`; seven FAQs on five pages; 6 answered / 15 partial / 29 gaps; fresh full QA PASS |
+| 5. Recommendation classification | done | Commit containing this update; 54 actions classified; unordered four-guide list schema; full QA PASS |
 | 6. Bounded full cycles | not started | At most four; stop clean or on a repeated failure |
 | 7. Append-only handoff and sign-off | not started | Owner/live/source blockers retained |
 

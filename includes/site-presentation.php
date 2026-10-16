@@ -29,6 +29,26 @@ function ilmera_presentation_graph($node, $entry)
     return $node;
 }
 
+/** Describe only the already-visible related-guide list, never a ranking. */
+function ilmera_related_place_list_schema($html, $publishedMap)
+{
+    if (!preg_match('~<h2>Related place guides</h2>\s*<ul>(.*?)</ul>~s', $html, $list)) return '';
+    preg_match_all('~<a\b[^>]*href="(/[^"]*)"[^>]*>(.*?)</a>~s', $list[1], $links, PREG_SET_ORDER);
+    $items = [];
+    $seen = [];
+    foreach ($links as $link) {
+        $path = html_entity_decode($link[1], ENT_QUOTES | ENT_HTML5, 'UTF-8');
+        if (!isset($publishedMap[$path]) || $publishedMap[$path]['kind'] !== 'place' || isset($seen[$path])) continue;
+        $name = trim(html_entity_decode(strip_tags($link[2]), ENT_QUOTES | ENT_HTML5, 'UTF-8'));
+        if ($name === '') continue;
+        $seen[$path] = true;
+        $items[] = ['@type'=>'ListItem', 'position'=>count($items)+1, 'item'=>['@type'=>'WebPage', '@id'=>'https://ilmerastudyabroad.com'.$path, 'url'=>'https://ilmerastudyabroad.com'.$path, 'name'=>$name]];
+    }
+    if (!$items) return '';
+    $graph = ['@context'=>'https://schema.org', '@type'=>'ItemList', '@id'=>'https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka#related-places', 'name'=>'Related place guides', 'itemListOrder'=>'https://schema.org/ItemListUnordered', 'numberOfItems'=>count($items), 'itemListElement'=>$items];
+    return '<script type="application/ld+json">'.json_encode($graph, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT).'</script>';
+}
+
 function ilmera_present_page($html)
 {
     if (!preg_match('~<link[^>]+rel="canonical"[^>]+href="https://ilmerastudyabroad.com([^"]*)"~', $html, $match)) return $html;
@@ -85,6 +105,7 @@ function ilmera_present_page($html)
         $review = '<p class="last-reviewed">Last reviewed <time datetime="2026-10-16">16 October 2026</time></p>';
         $html = preg_replace('~(<div class="direct-answer-block"[^>]*>)~', '$1'.$review, $html, 1);
     }
+    if ($path === '/study-abroad-consultants-in-karnataka') $html = str_replace('</head>', ilmera_related_place_list_schema($html, $map).'</head>', $html);
     $proof = ilmera_proof_blocks($path);
     if ($proof['html'] !== '') $html = str_replace('</main>', $proof['html'].'</main>', $html);
     if (isset($entry['answer_data'])) {
