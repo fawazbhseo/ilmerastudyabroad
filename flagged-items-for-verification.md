@@ -2635,3 +2635,30 @@ the shared contact card and related links, excluding sitewide header/footer.
 Maximum overlap is 14.147287%, between Siddapura and Virajpet. Both authored
 and stricter rendered-main scores pass and are enforced by the runtime gate.
 Twenty-five positive/negative location-gate assertions pass.
+
+### Phase D task 9: three article reviews and additional DSU draft
+
+Published the cost, documents and scholarships articles after rewriting them
+to opened approved official evidence, dated 2026-10-16. Each has an explicit
+scope, per-claim citations, source list, corrected metadata and matching FAQ
+markup. Their first publication in this review is dated 2026-10-16, not the
+old draft date. phase14-article-review.json records exact claims, URLs, checked
+dates, file hashes, metadata and removals. Publication fails closed if a
+reviewed file or its metadata changes without review.
+Cost comparison no longer ranks destinations or invents suitability, Russian
+language/backlog rules, blanket blocked accounts or unsupported awards.
+Documents no longer gives a universal checklist, mandatory APS for everyone,
+DSU declarations or invented local queues/processing experience. Scholarships
+distinguishes tuition policy, opportunities, actual awards and sponsor proof;
+no current-call eligibility or Italy award amount is asserted.
+The DAAD scholarship overview was opened in this task; other cited official
+pages were opened earlier in this session and relevant text re-read.
+
+The additional Italy DSU article stays draft. Unverified household thresholds,
+renewal rules, regional claims and experience assertions were removed. Only
+the exact conditional owner wording remains, visibly labelled owner-supplied
+and not official verification. The opened consulate background does not
+verify the amount or partner entitlement. A current approved official award
+call and documentary authority for the partner claim are still required.
+The APS article remains draft because its central procedural host is outside
+the approved policy. Both extra drafts remain absent from discovery.

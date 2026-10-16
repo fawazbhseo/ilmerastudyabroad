@@ -12,9 +12,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-<title>Italy DSU Scholarship: Who Qualifies | ILMERA Study Abroad</title>
-<meta name="description" content="Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."/>
-<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
+<title><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?> | ILMERA</title>
+<meta name="description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="googlebot" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/>
@@ -30,45 +29,44 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
-<meta property="og:title" content="Italy DSU Scholarship: Who Qualifies"/>
-<meta property="og:description" content="Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."/>
+<meta property="og:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta property="og:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:secure_url" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Italy DSU Scholarship: Who Qualifies"/>
-<meta name="twitter:description" content="How DSU scholarship eligibility is assessed for Italian universities: ISEE, merit, and what students often get wrong."/>
+<meta name="twitter:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta name="twitter:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BlogPosting",
-      "@id": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility#article",
-      "headline": "Italy's DSU Scholarship: Who Actually Qualifies",
-      "description": "Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.",
-      "url": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
-      "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
-      "datePublished": <?= json_encode($post['datePublished']) ?>,
-      "dateModified": <?= json_encode($post['dateModified']) ?>,
-      "articleSection": "Italy",
-      "inLanguage": "en-IN",
-      "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"},
-      "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
-    }
-  ]
+<?php
+$articleFaqs = [];
+$articleUrl = 'https://ilmerastudyabroad.com/blog/' . $post['slug'];
+$articleGraph = [[
+    '@type' => 'BlogPosting', '@id' => $articleUrl . '#article', 'url' => $articleUrl,
+    'headline' => $post['title'], 'description' => $post['excerpt'],
+    'mainEntityOfPage' => $articleUrl, 'dateModified' => $post['dateModified'],
+    'inLanguage' => 'en-IN', 'articleSection' => $post['category'],
+    'author' => ['@type' => 'Person', '@id' => 'https://ilmerastudyabroad.com/#fawaz', 'name' => 'Fawaz BH'],
+    'publisher' => ['@id' => 'https://ilmerastudyabroad.com/#organization'],
+    'citation' => [
+    'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
+]
+]];
+if (ilmera_post_published($post['slug'])) $articleGraph[0]['datePublished'] = $post['datePublished'];
+if ($articleFaqs) {
+    $questions = [];
+    foreach ($articleFaqs as $faq) $questions[] = ['@type' => 'Question', 'name' => $faq['question'], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']]];
+    $articleGraph[] = ['@type' => 'FAQPage', '@id' => $articleUrl . '#faq', 'mainEntity' => $questions];
 }
-</script>
+?>
+<script type="application/ld+json"><?= json_encode(['@context' => 'https://schema.org', '@graph' => $articleGraph], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
 
 <style>
 :root{
@@ -122,34 +120,28 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
 <main>
-
 <section class="article-hero">
   <?php ilmera_breadcrumbs($pageTrail, '/blog/italy-dsu-scholarship-eligibility'); ?>
   <span class="article-tag">Italy</span>
-  <h1>Italy's DSU Scholarship: Who Actually Qualifies</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 4 min read</p>
+  <h1><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?></h1>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; Reviewed <time datetime="2026-10-16">16 October 2026</time></p>
 </section>
-
 <section class="s-wrap article-body">
   <div class="container">
-
+    <p>Do not use this draft to determine DSU eligibility or an application amount. Income thresholds, required household evidence, renewal rules and deadlines are not confirmed here. A current approved official award call is needed before those details can be published.</p>
+    <div class="confirm">Draft review notice: no current regional award call on an approved host has been opened. The conditional owner statement below is not an officially verified award or evidence of a partner arrangement.</div>
+    <h2>Owner-supplied conditional guidance</h2>
     <p>Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
-
-    <h2>The Two Pillars of Eligibility</h2>
-    <p>DSU scholarships are assessed on income and merit as two independent tracks, and a student generally needs to satisfy both, not just one. The income component is measured through an equivalent ISEE calculation for international students, which converts your family's financial situation into Italy's standardised household income indicator. The merit component looks at your prior academic record and, for renewing students, credits earned during the current program.</p>
-
-    <h2>How the Income Assessment Works</h2>
-    <p>Because ISEE is an Italian domestic tool, international applicants submit an equivalent declaration through their regional DSU body (such as ESU, ERSU, or ADiSU, depending on the region and university), along with documents translated and legalised as required. This income threshold varies by region and is revised periodically, which is exactly why a shortlist built without checking the target region's current DSU rules is one of the most common mistakes we see.</p>
-
-    <h2>What Trips Students Up</h2>
-    <ul>
-      <li><strong>Regional variation:</strong> DSU is administered regionally, not nationally, so the income threshold and stipend amount at a university in Rome can differ from one in Milan or Turin.</li>
-      <li><strong>Documentation timing:</strong> equivalent income declarations and legalised documents take time to prepare, and DSU application windows are fixed, not flexible.</li>
-      <li><strong>Renewal conditions:</strong> keeping the scholarship in year two depends on hitting a minimum credit threshold, which is a separate condition from the one used for first-year eligibility.</li>
-    </ul>
-
-    <p>The honest version of this: DSU can make a degree in Italy genuinely affordable, but only if the income declaration is filed correctly and on the region's timeline. That is the part of an Italy application where a document error costs a scholarship, not the entrance exam. For the destination overview, see our <a href="/services#italy" style="color:var(--gold);">Study in Italy</a> page, and the related guide on <?= ilmera_post_link('study-abroad-with-academic-backlogs', 'studying abroad with academic backlogs', ['style' => 'color:var(--gold);']) ?: 'studying abroad with academic backlogs' ?>.</p>
-
+    <h2>What the opened official background confirms</h2>
+    <p>The Italian consulate says institutions set their own admission requirements and tuition fees. Its admissions guidance does not verify the owner-supplied scholarship amount or establish a regional award entitlement. <a href="#source-IT">[IT]</a></p>
+    <h2>Planning questions</h2>
+    <p>Before a publication decision, obtain the current official award call, the eligible programme and intake, the award coverage and amount, and documentary authority for any partner claim. This draft supplies none of those missing confirmations.</p>
+    <section aria-labelledby="article-sources"><h2 id="article-sources">Official sources</h2>
+      <p>Source text reviewed on <time datetime="2026-10-16">16 October 2026</time>. Estimates retain their stated scope; historical editions are not treated as current rules.</p>
+      <ul>
+        <li id="source-IT"><a href="https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/" rel="noopener noreferrer">Italian Consulate Bengaluru: study in Italy</a></li>
+      </ul>
+    </section>
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
@@ -157,21 +149,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <div class="role">CMO, ILMERA Study Abroad</div>
       </div>
     </div>
-
     <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
     <?= ilmera_post_service_links($post['slug']) ?>
-    <a href="/blog/" class="back-link">&larr; Back to all articles</a>
+    <p><a href="/services">Study planning services</a> or <a href="/contact">discuss your questions with ILMERA</a>.</p>
+    <a href="/blog/" class="back-link">&larr; Back to articles</a>
   </div>
 </section>
-
-<section class="article-cta">
-  <div class="container">
-    <h2>Considering Italy?</h2>
-    <p>Book a no-charge consultation and we will check your DSU eligibility against the region and university you have in mind.</p>
-    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
-  </div>
-</section>
-
 </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

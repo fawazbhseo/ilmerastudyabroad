@@ -11,9 +11,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
-<title>Scholarships for Indian Students to Study Abroad: Honest Guide | ILMERA</title>
-<meta name="description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
-<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
+<title><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?> | ILMERA</title>
+<meta name="description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
@@ -28,44 +27,56 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
-<meta property="og:title" content="Scholarships for Indian Students to Study Abroad: Honest Guide"/>
-<meta property="og:description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
+<meta property="og:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta property="og:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Scholarships for Indian Students to Study Abroad: Honest Guide"/>
-<meta name="twitter:description" content="Which scholarships Indian students can actually get, and how to qualify, updated October 2026."/>
+<meta name="twitter:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta name="twitter:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BlogPosting",
-      "@id": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad#article",
-      "headline": "Scholarships for Indian Students to Study Abroad: The Honest Guide",
-      "description": "Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.",
-      "url": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
-      "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
-      "datePublished": <?= json_encode($post['datePublished']) ?>,
-      "dateModified": <?= json_encode($post['dateModified']) ?>,
-      "articleSection": "Scholarships",
-      "inLanguage": "en-IN",
-      "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "author": {"@id": "https://ilmerastudyabroad.com/#fawaz"},
-      "publisher": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
-    }
-  ]
+<?php
+$articleFaqs = [
+    [
+        'question' => 'Does a scholarship overview establish my personal eligibility?',
+        'answer' => 'No. A general official overview points to opportunities. Check the current scheme rules for your nationality, study level and circumstances before treating an award as available to you.',
+    ],
+    [
+        'question' => 'What UK sponsorship evidence is needed if the CAS does not record it?',
+        'answer' => 'GOV.UK requires a sponsor confirmation letter with the specified identity, contact, duration and funding details. Read the full guidance for the applicable case.',
+    ],
+];
+$articleUrl = 'https://ilmerastudyabroad.com/blog/' . $post['slug'];
+$articleGraph = [[
+    '@type' => 'BlogPosting', '@id' => $articleUrl . '#article', 'url' => $articleUrl,
+    'headline' => $post['title'], 'description' => $post['excerpt'],
+    'mainEntityOfPage' => $articleUrl, 'dateModified' => $post['dateModified'],
+    'inLanguage' => 'en-IN', 'articleSection' => $post['category'],
+    'author' => ['@type' => 'Person', '@id' => 'https://ilmerastudyabroad.com/#fawaz', 'name' => 'Fawaz BH'],
+    'publisher' => ['@id' => 'https://ilmerastudyabroad.com/#organization'],
+    'citation' => [
+    'https://www.daad.de/en/studying-in-germany/scholarships/',
+    'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
+    'https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia',
+    'https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants',
+    'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
+]
+]];
+if (ilmera_post_published($post['slug'])) $articleGraph[0]['datePublished'] = $post['datePublished'];
+if ($articleFaqs) {
+    $questions = [];
+    foreach ($articleFaqs as $faq) $questions[] = ['@type' => 'Question', 'name' => $faq['question'], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']]];
+    $articleGraph[] = ['@type' => 'FAQPage', '@id' => $articleUrl . '#faq', 'mainEntity' => $questions];
 }
-</script>
+?>
+<script type="application/ld+json"><?= json_encode(['@context' => 'https://schema.org', '@graph' => $articleGraph], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
 
 <style>
 :root{
@@ -124,53 +135,42 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
 <main>
-
 <section class="article-hero">
   <?php ilmera_breadcrumbs($pageTrail, '/blog/scholarships-for-indian-students-study-abroad'); ?>
   <span class="article-tag">Scholarships</span>
-  <h1>Scholarships for Indian Students to Study Abroad: The Honest Guide</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 6 min read</p>
+  <h1><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?></h1>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; Reviewed <time datetime="2026-10-16">16 October 2026</time></p>
 </section>
-
 <section class="s-wrap article-body">
   <div class="container">
-
-    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
-
-    <div class="confirm">Scholarship amounts, deadlines and eligibility thresholds change every cycle. Verify them against the official scheme websites and the target university before applying.</div>
-
-    <h2>The Four Realistic Routes</h2>
-    <div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0">
-    <table>
-      <thead>
-        <tr><th>Route</th><th>How it works</th><th>Assessed on</th><th>Best fit</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Italy DSU (regional)</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Family income (ISEE/ISEE parificato) and merit credits</td><td>Middle-income families; architecture, arts, engineering</td></tr>
-        <tr><td>Germany public universities</td><td>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</td><td>Admission requirements per programme</td><td>Engineering, IT, budget planners</td></tr>
-        <tr><td>University merit awards</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Academic record, sometimes interview or portfolio</td><td>Strong academics in any destination</td></tr>
-        <tr><td>Government schemes (UK Chevening, Commonwealth, others)</td><td>Fully or largely funded study for eligible candidates, applied for directly with the scheme</td><td>Academics, leadership, scheme-specific criteria</td><td>High-achieving applicants with work or community record</td></tr>
-      </tbody>
-    </table>
-    </div>
-
-    <h3>Italy DSU in Practice</h3>
-    <p>DSU is administered regionally, so the income threshold and stipend differ between, say, a university in Lombardy and one in Sicily. International applicants file an equivalent ISEE declaration through the regional body, alongside translated and legalised documents. Renewal in later years depends on earning the required credits. The full assessment is explained in our <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility guide') ?: 'DSU eligibility guide' ?> and on our <a href="/services#italy">Study in Italy</a> page.</p>
-
-    <h3>Germany Without a Scholarship</h3>
-    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</p>
-
-    <h2>How to Judge a Scholarship Offer Critically</h2>
-    <ol>
-      <li><strong>Source check:</strong> every legitimate scheme publishes its own rules on an official website. If a consultant cannot point you there, walk away.</li>
-      <li><strong>Renewal terms:</strong> ask what keeps the money in year two. Many awards require credit thresholds.</li>
-      <li>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</li>
-      <li><strong>Deadline reality:</strong> DSU windows and government schemes close months before intake; applications filed late are simply rejected.</li>
-    </ol>
-
-    <h2>What ILMERA Does Differently</h2>
-    <p>ILMERA never promises a scholarship; it checks your eligibility honestly before you spend money on applications. Founder Jabir KJ, currently studying at the University of Rome Tor Vergata, has personally worked through the DSU and proof-of-funds process and advises students on it. The eligibility check is part of the no-charge consultation: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>.</p>
-
+    <p>A scholarship enquiry should distinguish a published opportunity from an award actually made to you. Begin with the provider&#x27;s current eligibility and terms, then check what the support covers and how it is documented. The official examples below explain those distinctions without promising an award, amount or application outcome.</p>
+    <div class="confirm">This is an evidence-checking guide, not a list of currently open awards for every Indian applicant. No current Italy DSU amount, regional threshold or personal entitlement is claimed.</div>
+    <h2>Germany: funding opportunities are distinct from tuition policy</h2>
+    <p>DAAD says international students can apply to scholarship organisations, including DAAD and other funding bodies, and points readers to its scholarship database for suitable offers. That overview does not establish eligibility for a particular Indian applicant or confirm a currently open call. <a href="#source-DAAD-S">[DAAD-S]</a></p>
+    <p>DAAD separately describes the normal tuition position at state institutions: bachelor programmes and most master programmes generally have no tuition, with continuing education and private-institution exceptions. Baden-Wuerttemberg charges non-EU tuition for specified degree programmes, excluding doctorates, and Bavarian institutions may also charge non-EU/EEA tuition. Semester contributions and living expenses remain. A tuition policy is not a scholarship award. <a href="#source-DAAD-F">[DAAD-F]</a></p>
+    <p>For financial proof, DAAD lists receipt of a recognised scholarship among possible evidence alongside other forms of funding. It advises checking the relevant mission for the applicable amount and purpose of stay; an application for funding is not proof of receipt. <a href="#source-DAAD-F">[DAAD-F]</a></p>
+    <h2>Slovakia: distinguish a study stay from assumed degree funding</h2>
+    <p>The European Commission profile describes the National Scholarship Programme of the Slovak Republic as supporting study, research and teaching stays for international students, doctoral candidates and researchers. It also mentions bilateral and mobility opportunities. The profile is a starting point, not confirmation that an Indian applicant meets a current scheme&#x27;s detailed criteria. <a href="#source-SK-E">[SK-E]</a></p>
+    <h2>UK: an official sponsorship needs evidence</h2>
+    <p>GOV.UK says official financial sponsorship can be used as funding evidence for the Student route. If it is not recorded on the CAS, a sponsor confirmation letter is needed. The guidance specifies the date, sponsor identity and contact details, duration, and the amount provided or confirmation of full fee and living-cost support. This is a visa evidence rule, not a promise that a sponsor will select an applicant. <a href="#source-UK-F">[UK-F]</a></p>
+    <h2>Italy: keep the missing award evidence visible</h2>
+    <p>The Bengaluru consulate page explains institution-specific admissions and tuition fees. It does not provide the current regional DSU eligibility call or verify an award amount. This guide therefore publishes no Italy scholarship amount, household threshold or renewal-credit rule. <a href="#source-IT">[IT]</a></p>
+    <h2>Planning questions</h2>
+    <p>Before applying, record the actual award provider, eligible nationality and study level, current call, closing date, coverage, payment timing and any renewal conditions. Seek clarification when the terms are ambiguous. Do not pay for a study plan that depends on an award merely because an overview mentions funding opportunities.</p>
+    <h2>Frequently asked questions</h2>
+<?php foreach ($articleFaqs as $faq): ?>
+      <details class="il-faq"><summary><?= htmlspecialchars($faq["question"], ENT_QUOTES, "UTF-8") ?></summary><div><p><?= htmlspecialchars($faq["answer"], ENT_QUOTES, "UTF-8") ?></p></div></details>
+<?php endforeach; ?>
+    <section aria-labelledby="article-sources"><h2 id="article-sources">Official sources</h2>
+      <p>Source text reviewed on <time datetime="2026-10-16">16 October 2026</time>. Estimates retain their stated scope; historical editions are not treated as current rules.</p>
+      <ul>
+        <li id="source-DAAD-S"><a href="https://www.daad.de/en/studying-in-germany/scholarships/" rel="noopener noreferrer">DAAD: scholarships and funding</a></li>
+        <li id="source-DAAD-F"><a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/" rel="noopener noreferrer">DAAD: costs of education and living</a></li>
+        <li id="source-SK-E"><a href="https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia" rel="noopener noreferrer">European Commission: Slovakia profile</a></li>
+        <li id="source-UK-F"><a href="https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants" rel="noopener noreferrer">GOV.UK: Student visa financial evidence</a></li>
+        <li id="source-IT"><a href="https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/" rel="noopener noreferrer">Italian Consulate Bengaluru: study in Italy</a></li>
+      </ul>
+    </section>
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
@@ -178,21 +178,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <div class="role">CMO, ILMERA Study Abroad</div>
       </div>
     </div>
-
     <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
     <?= ilmera_post_service_links($post['slug']) ?>
-    <a href="/blog/" class="back-link">&larr; Back to all articles</a>
+    <p><a href="/services">Study planning services</a> or <a href="/contact">discuss your questions with ILMERA</a>.</p>
+    <a href="/blog/" class="back-link">&larr; Back to articles</a>
   </div>
 </section>
-
-<section class="article-cta">
-  <div class="container">
-    <h2>Curious Whether You Qualify?</h2>
-    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
-    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
-  </div>
-</section>
-
 </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

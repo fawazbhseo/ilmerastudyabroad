@@ -11,9 +11,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
-<title>Cost of Studying Abroad for Indian Students: Country Comparison | ILMERA</title>
-<meta name="description" content="How much does it cost to study abroad from India? A country-by-country comparison of tuition and living costs across Germany, Italy, the UK, Russia and more, updated October 2026."/>
-<meta name="keywords" content="cost of studying abroad for indian students, cheapest country to study abroad, study abroad cost comparison, tuition fees germany italy russia"/>
+<title><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?> | ILMERA</title>
+<meta name="description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
@@ -28,57 +27,58 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
-<meta property="og:title" content="Cost of Studying Abroad for Indian Students: Country Comparison"/>
-<meta property="og:description" content="A country-by-country comparison of tuition and living costs for Indian students, updated October 2026."/>
+<meta property="og:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta property="og:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Cost of Studying Abroad for Indian Students: Country Comparison"/>
-<meta name="twitter:description" content="Tuition and living cost comparison across nine destinations, updated October 2026."/>
+<meta name="twitter:title" content="<?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?>"/>
+<meta name="twitter:description" content="<?= htmlspecialchars($post['excerpt'], ENT_QUOTES, 'UTF-8') ?>"/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap" rel="stylesheet"/>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "BlogPosting",
-      "@id": "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students#article",
-      "headline": "Cost of Studying Abroad for Indian Students: Country Comparison",
-      "description": "A country-by-country comparison of tuition and living costs for Indian students across nine destinations, updated October 2026.",
-      "url": "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
-      "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
-      "datePublished": <?= json_encode($post['datePublished']) ?>,
-      "dateModified": <?= json_encode($post['dateModified']) ?>,
-      "articleSection": "Costs",
-      "inLanguage": "en-IN",
-      "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "author": {
-        "@type": "Person",
-        "@id": "https://ilmerastudyabroad.com/#fawaz",
-        "name": "Fawaz BH",
-        "jobTitle": "CMO",
-        "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-        "url": "https://fawazbhseo.in"
-      },
-      "publisher": {
-        "@type": "EducationalOrganization",
-        "@id": "https://ilmerastudyabroad.com/#organization",
-        "name": "ILMERA Study Abroad",
-        "url": "https://ilmerastudyabroad.com",
-        "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
-      },
-      "isPartOf": {"@id": "https://ilmerastudyabroad.com/blog/#blog"}
-    }
-  ]
+<?php
+$articleFaqs = [
+    [
+        'question' => 'Does no tuition mean the whole course is funded?',
+        'answer' => 'No. DAAD distinguishes tuition from semester contributions and living expenses. A tuition policy is not evidence that an applicant has received a scholarship.',
+    ],
+    [
+        'question' => 'Are UK maintenance amounts a complete living-cost forecast?',
+        'answer' => 'No. GOV.UK states financial-evidence requirements for the Student route. Budget separately for actual course and personal expenses, and check whether an evidence exemption applies.',
+    ],
+];
+$articleUrl = 'https://ilmerastudyabroad.com/blog/' . $post['slug'];
+$articleGraph = [[
+    '@type' => 'BlogPosting', '@id' => $articleUrl . '#article', 'url' => $articleUrl,
+    'headline' => $post['title'], 'description' => $post['excerpt'],
+    'mainEntityOfPage' => $articleUrl, 'dateModified' => $post['dateModified'],
+    'inLanguage' => 'en-IN', 'articleSection' => $post['category'],
+    'author' => ['@type' => 'Person', '@id' => 'https://ilmerastudyabroad.com/#fawaz', 'name' => 'Fawaz BH'],
+    'publisher' => ['@id' => 'https://ilmerastudyabroad.com/#organization'],
+    'citation' => [
+    'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
+    'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
+    'https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia',
+    'https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania',
+    'https://education.ec.europa.eu/fi/country-profiles/latvia',
+    'https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants',
+    'https://www.cgidubai.gov.in/page/student-advisory/',
+]
+]];
+if (ilmera_post_published($post['slug'])) $articleGraph[0]['datePublished'] = $post['datePublished'];
+if ($articleFaqs) {
+    $questions = [];
+    foreach ($articleFaqs as $faq) $questions[] = ['@type' => 'Question', 'name' => $faq['question'], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $faq['answer']]];
+    $articleGraph[] = ['@type' => 'FAQPage', '@id' => $articleUrl . '#faq', 'mainEntity' => $questions];
 }
-</script>
+?>
+<script type="application/ld+json"><?= json_encode(['@context' => 'https://schema.org', '@graph' => $articleGraph], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
 
 <style>
 :root{
@@ -136,69 +136,47 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php include __DIR__ . '/../includes/header.php'; ?>
 
 <main>
-
 <section class="article-hero">
   <?php ilmera_breadcrumbs($pageTrail, '/blog/cost-of-studying-abroad-for-indian-students'); ?>
   <span class="article-tag">Costs</span>
-  <h1>Cost of Studying Abroad for Indian Students: A Country-by-Country Comparison</h1>
-  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 6 min read</p>
+  <h1><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8') ?></h1>
+  <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; Reviewed <time datetime="2026-10-16">16 October 2026</time></p>
 </section>
-
 <section class="s-wrap article-body">
   <div class="container">
-
-    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</p>
-
-    <div class="confirm">Figures change every intake. Always confirm current tuition and blocked-account or living-cost amounts on the official university and immigration websites for your destination before you apply.</div>
-
-    <h2>Total Cost of Attendance, Not Just Tuition</h2>
-    <p>Families comparing destinations on tuition alone routinely underestimate the total. A realistic budget has four layers:</p>
-    <ol>
-      <li>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</li>
-      <li><strong>Living costs:</strong> rent, food, transport and insurance vary enormously between, say, a student town in Latvia and central London.</li>
-      <li><strong>Proof of funds for the visa:</strong> most countries require you to show money for at least the first year. Germany uses a blocked account with a government-set minimum that changes periodically, so check the current amount.</li>
-      <li><strong>One-off costs:</strong> application fees, APS certificate (Germany), document legalisation, flights and initial settlement money.</li>
-    </ol>
-
-    <h2>Country-by-Country Overview</h2>
-    <div class="table-scroll" role="region" aria-label="Scrollable table" tabindex="0">
-    <table>
-      <thead>
-        <tr><th>Destination</th><th>Tuition signal</th><th>Living cost signal</th><th>Best for</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Germany</td><td>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</td><td>Moderate; blocked account required</td><td>Engineering, IT, programme-specific degrees</td></tr>
-        <tr><td>Italy</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Moderate, lower in smaller cities</td><td>Scholarship-driven students, arts and engineering</td></tr>
-        <tr><td>Czech Republic</td><td>Among the lowest tuition levels in the EU</td><td>Low to moderate</td><td>Budget Master's, medicine, EU access</td></tr>
-        <tr><td>Lithuania</td><td>Low tuition; some of the lowest living costs in the EU</td><td>Low</td><td>Budget-conscious bachelor's students</td></tr>
-        <tr><td>Latvia</td><td>Low tuition, flexible entry</td><td>Low</td><td>Accessible EU degrees</td></tr>
-        <tr><td>Slovakia</td><td>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</td><td>Low</td><td>programme-specific routes, medicine</td></tr>
-        <tr><td>Russia</td><td>Low tuition, no IELTS, backlogs accepted at many universities</td><td>Low</td><td>MBBS, backlogs, tight budgets</td></tr>
-        <tr><td>United Kingdom</td><td>Tuition applies; one-year Master's shortens total cost</td><td>High, especially London</td><td>Ranked degrees, finance, law</td></tr>
-        <tr><td>GCC (UAE, Saudi, Qatar, Kuwait, Bahrain, Oman)</td><td>Varies by university and branch campus</td><td>Moderate to high in Dubai/Qatar</td><td>Near-home international degrees</td></tr>
-      </tbody>
-    </table>
-    </div>
-
-    <h2>Where Tuition Conditions Differ</h2>
-    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
-    <ul>
-      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <?= ilmera_post_link('study-in-germany-conditional-aps-certificate', 'APS certificate') ?: 'APS certificate' ?> for the India-specific requirement.</li>
-      <li><strong>Italy:</strong> public universities charge tuition, but the regional DSU scholarship, assessed mainly on family income (ISEE) and merit, can cover tuition and add a stipend plus subsidised accommodation and meals. Amounts are set regionally and revised periodically. See our guide on <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility') ?: 'DSU eligibility' ?>.</li>
-    </ul>
-    <p>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</p>
-
-    <h2>How to Compare Two Countries Fairly</h2>
-    <ol>
-      <li>Write down the full first-year cost for each option: tuition, city rent, insurance, visa funds and flights, using current figures from each university.</li>
-      <li>Check scholarship eligibility before ruling a country out; DSU makes Italy cheaper than its sticker price for many families.</li>
-      <li>Ask what happens in year two and three: tuition can change, and some scholarships require credit thresholds to renew.</li>
-      <li>Include the earning side: part-time work rules differ by country and affect the real budget; check the current work-hour rules for your destination.</li>
-    </ol>
-
-    <h2>What ILMERA Does Differently</h2>
-    <p>ILMERA gives every student a country-by-country cost breakdown matched to their actual marksheet and budget before any application is filed, including routes for students with backlogs, low marks or no IELTS. The consultation is no-charge and carries no commitment: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>, or compare destinations on our <a href="/services">destinations page</a>.</p>
-
+    <p>Compare the type of expense as well as the amount. A tuition policy, a living-cost estimate and an immigration funding threshold answer different questions. The examples below are attributed to official education or government sources reviewed on 16 October 2026; they are not individual quotations or guaranteed future prices.</p>
+    <div class="confirm">Coverage: Germany, Italy, Slovakia, UK, Lithuania, Latvia and UAE budgeting advice. This is not a complete nine-destination price list or a ranking of the cheapest routes.</div>
+    <h2>Germany: tuition exceptions and separate expenses</h2>
+    <p>At state institutions, bachelor programmes and most master programmes normally have no tuition. Continuing education master programmes and private institutions may charge. Baden-Wuerttemberg charges non-EU citizens 1,500 euros per semester for bachelor, master, Diplom and state examination programmes, excluding doctoral students. Bavarian institutions may also charge non-EU/EEA tuition. <a href="#source-DAAD-F">[DAAD-F]</a></p>
+    <p>DAAD gives a semester contribution range of 70 to 430 euros, separate from tuition, and living expenses of 900 to 1,200 euros per month depending on the location. Its displayed 992-euro financial-proof amount is explicitly dated January 2025, so this guide does not present it as a confirmed 2026 requirement. <a href="#source-DAAD-F">[DAAD-F]</a></p>
+    <h2>Italy and Slovakia: check the programme and language</h2>
+    <p>The Italian consulate says each institution has its own tuition fees, admission criteria and deadlines. It does not establish a regional scholarship award or confirm an amount payable to an applicant. No Italy scholarship amount is included in this cost comparison. <a href="#source-IT">[IT]</a></p>
+    <p>The European Commission Slovakia profile says Slovak-language study may have no tuition, while foreign-language programmes, including English, cost approximately 750 to 11,000 euros per year. It describes a minimum living budget around 350 euros monthly and a more comfortable estimate of 500 to 700 euros monthly. These are profile estimates, not a programme quotation. <a href="#source-SK-E">[SK-E]</a></p>
+    <h2>Lithuania and Latvia: distinguish tuition from living costs</h2>
+    <p>The Lithuania profile lists annual tuition starting at 1,300 euros for bachelor study, 2,300 euros for master study and 8,400 euros for doctoral study. Its living-cost estimate is 500 to 800 euros monthly. Starting amounts do not describe every programme. <a href="#source-LT-E">[LT-E]</a></p>
+    <p>The Latvia profile estimates living costs of 450 to 700 euros monthly, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and must be budgeted separately. <a href="#source-LV-E">[LV-E]</a></p>
+    <h2>UK: a visa funding threshold is not a complete budget</h2>
+    <p>Where financial evidence is required for the Student route, GOV.UK requires course fees shown on the CAS and living funds of 1,171 pounds monthly outside London or 1,529 pounds monthly in London, for up to nine months. Exemptions apply in specified circumstances. These are immigration evidence amounts, not a forecast of every applicant&#x27;s actual expenses. <a href="#source-UK-F">[UK-F]</a></p>
+    <h2>UAE: obtain the terms before committing money</h2>
+    <p>The Dubai consulate advisory recommends checking written admission and payment terms, including refunds, and budgeting for accommodation, insurance and other expenses. This UAE advice is not a price estimate for all GCC countries. <a href="#source-UAE">[UAE]</a></p>
+    <h2>Planning questions</h2>
+    <p>Build your own worksheet from the actual course fee, dated accommodation information and the applicable immigration rules. Mark unknown costs clearly, avoid counting an unconfirmed award as available cash and ask which payments are refundable before making a commitment.</p>
+    <h2>Frequently asked questions</h2>
+<?php foreach ($articleFaqs as $faq): ?>
+      <details class="il-faq"><summary><?= htmlspecialchars($faq["question"], ENT_QUOTES, "UTF-8") ?></summary><div><p><?= htmlspecialchars($faq["answer"], ENT_QUOTES, "UTF-8") ?></p></div></details>
+<?php endforeach; ?>
+    <section aria-labelledby="article-sources"><h2 id="article-sources">Official sources</h2>
+      <p>Source text reviewed on <time datetime="2026-10-16">16 October 2026</time>. Estimates retain their stated scope; historical editions are not treated as current rules.</p>
+      <ul>
+        <li id="source-DAAD-F"><a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/" rel="noopener noreferrer">DAAD: costs of education and living</a></li>
+        <li id="source-IT"><a href="https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/" rel="noopener noreferrer">Italian Consulate Bengaluru: study in Italy</a></li>
+        <li id="source-SK-E"><a href="https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia" rel="noopener noreferrer">European Commission: Slovakia profile</a></li>
+        <li id="source-LT-E"><a href="https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania" rel="noopener noreferrer">European Commission: Lithuania profile</a></li>
+        <li id="source-LV-E"><a href="https://education.ec.europa.eu/fi/country-profiles/latvia" rel="noopener noreferrer">European Commission: Latvia profile</a></li>
+        <li id="source-UK-F"><a href="https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants" rel="noopener noreferrer">GOV.UK: Student visa financial evidence</a></li>
+        <li id="source-UAE"><a href="https://www.cgidubai.gov.in/page/student-advisory/" rel="noopener noreferrer">Indian Consulate Dubai: student advisory, redirected to the 2026 document</a></li>
+      </ul>
+    </section>
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
@@ -206,21 +184,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <div class="role">CMO, ILMERA Study Abroad</div>
       </div>
     </div>
-
     <?php ilmera_render_guides(ilmera_post_related($post['slug'])); ?>
     <?= ilmera_post_service_links($post['slug']) ?>
-    <a href="/blog/" class="back-link">&larr; Back to all articles</a>
+    <p><a href="/services">Study planning services</a> or <a href="/contact">discuss your questions with ILMERA</a>.</p>
+    <a href="/blog/" class="back-link">&larr; Back to articles</a>
   </div>
 </section>
-
-<section class="article-cta">
-  <div class="container">
-    <h2>Want a Cost Sheet for Your Profile?</h2>
-    <p>Book a no-charge consultation and get a country-by-country breakdown matched to your marks and budget, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
-  </div>
-</section>
-
 </main>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>
