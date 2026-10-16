@@ -5,21 +5,28 @@ require_once __DIR__ . '/links.php';
 function ilmera_sitemap_pages()
 {
     $pages = [];
+    // Editorial dates survive checkout/deploy; build-time mtimes do not.
+    $staticDates = ['/' => '2026-10-16', '/services' => '2026-10-16', '/about' => '2026-10-16', '/contact' => '2026-10-16', '/blog/' => '2026-10-16', '/privacy-policy' => '2026-10-15', '/terms' => '2026-10-16', '/all-pages' => '2026-10-16'];
     foreach (ilmera_static_pages() as $page) {
         $page['name'] = $page['title'];
+        $page['lastmod'] = $staticDates[$page['url']] ?? '';
         $pages[$page['url']] = $page;
     }
     foreach (ilmera_published_posts() as $post) {
         $url = '/blog/' . $post['slug'];
         if (!ilmera_target_published($url)) continue;
-        $pages[$url] = ['url' => $url, 'name' => $post['title'], 'file' => 'blog/' . $post['slug'] . '.php'];
+        $pages[$url] = ['url' => $url, 'name' => $post['title'], 'file' => 'blog/' . $post['slug'] . '.php', 'lastmod' => $post['dateModified']];
     }
     foreach (ilmera_published_destinations() as $page) {
+        $source = ilmera_destination_load($page['slug']);
+        $page['lastmod'] = $source['publication_review']['checked_on'] ?? '';
         $page['data_file'] = 'destinations/' . $page['slug'] . '.php';
         $page['template_file'] = 'includes/destination-page.php';
         $pages[$page['url']] = $page;
     }
     foreach (ilmera_indexable_locations() as $page) {
+        $source = ilmera_place_load($page['slug']);
+        $page['lastmod'] = $source['reviewed_on'] ?? '';
         $page['data_file'] = 'places/' . $page['slug'] . '.php';
         $page['template_file'] = 'includes/place-page.php';
         $pages[$page['url']] = $page;
@@ -29,15 +36,7 @@ function ilmera_sitemap_pages()
 
 function ilmera_sitemap_lastmod($page)
 {
-    $times = [];
-    foreach (['file', 'data_file', 'template_file'] as $field) {
-        if (!isset($page[$field])) continue;
-        $file = dirname(__DIR__) . '/' . $page[$field];
-        if (is_file($file)) $times[] = filemtime($file);
-    }
-    if (!$times) return '';
-    $timestamp = max($times);
-    return $timestamp > 0 && $timestamp <= time() ? gmdate('Y-m-d', $timestamp) : '';
+    return ilmera_destination_date($page['lastmod'] ?? '');
 }
 
 function ilmera_sitemap_xml()

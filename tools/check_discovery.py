@@ -175,32 +175,51 @@ def fixtures(base, root, fixture_root):
     originals = {p: p.read_bytes() for p in [destination, location, entry]}
     durl, lurl = '/study-in-germany', '/study-abroad-consultants-in-karnataka'
     try:
-        assert_visibility(base, durl, False)
-        assert_visibility(base, lurl, False)
-        destination.write_bytes(originals[destination].replace(b"'status' => 'draft'", b"'status' => 'published'", 1))
+        check(base, fixture_root)
         assert_visibility(base, durl, True)
-        check(base, fixture_root)
-        # Two synthetic groups meet the existing location gate only in this copy.
-        data = originals[location].replace(b"'status' => 'draft'", b"'status' => 'published'", 1)
-        data = data.replace(b"'transcript_and_moi_steps' => []", b"'transcript_and_moi_steps' => ['Isolated workflow check.']", 1)
-        data = data.replace(b"'local_loan_options' => []", b"'local_loan_options' => ['Isolated document check.']", 1)
-        location.write_bytes(data)
         assert_visibility(base, lurl, True)
+        destination.write_bytes(originals[destination].replace(b"'status' => 'published'", b"'status' => 'draft'", 1))
+        assert_visibility(base, durl, False)
         check(base, fixture_root)
+        destination.write_bytes(originals[destination])
+        assert_visibility(base, durl, True)
+        changed = originals[destination].replace(b"'text' => '", b"'text' => 'Changed claim. ", 1)
+        assert changed != originals[destination]
+        destination.write_bytes(changed)
+        assert_visibility(base, durl, False)
+        check(base, fixture_root)
+        destination.write_bytes(originals[destination])
+        location.write_bytes(originals[location].replace(b"'status' => 'published'", b"'status' => 'draft'", 1))
+        assert_visibility(base, lurl, False)
+        check(base, fixture_root)
+        location.write_bytes(originals[location])
+        assert_visibility(base, lurl, True)
         entry.write_bytes(originals[entry].replace(b'include __DIR__', b"header('X-Robots-Tag: noindex, follow');\ninclude __DIR__", 1))
         assert_visibility(base, lurl, False)
         check(base, fixture_root)
         entry.write_bytes(originals[entry])
         assert_visibility(base, lurl, True)
-        location.write_bytes(originals[location])
+        changed = originals[location].replace(b"'intro_answer' => '", b"'intro_answer' => 'Changed wording. ", 1)
+        assert changed != originals[location]
+        location.write_bytes(changed)
         assert_visibility(base, lurl, False)
-        destination.write_bytes(originals[destination])
-        assert_visibility(base, durl, False)
+        check(base, fixture_root)
+        location.write_bytes(originals[location])
+        article = fixture_root / 'blog/cost-of-studying-abroad-for-indian-students.php'
+        article_original = article.read_bytes()
+        try:
+            article.write_bytes(article_original + b"\n<!-- Isolated evidence mismatch -->\n")
+            assert_visibility(base, '/blog/cost-of-studying-abroad-for-indian-students', False)
+            check(base, fixture_root)
+        finally:
+            article.write_bytes(article_original)
+        assert_visibility(base, lurl, True)
+        assert_visibility(base, durl, True)
         check(base, fixture_root)
     finally:
         for p, value in originals.items():
             p.write_bytes(value)
-    print('PASS isolated destination publication/revert and location indexable/noindex/revert')
+    print('PASS isolated status, source mismatch, cohort mismatch, noindex header and article mismatch/revert')
 
 
 def main():

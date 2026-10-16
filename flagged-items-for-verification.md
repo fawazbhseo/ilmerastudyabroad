@@ -2662,3 +2662,28 @@ verify the amount or partner entitlement. A current approved official award
 call and documentary authority for the partner claim are still required.
 The APS article remains draft because its central procedural host is outside
 the approved policy. Both extra drafts remain absent from discovery.
+
+### Phase E task 10: discovery and editorial dates
+
+Reconciled the status-driven homepage, Services, About/Contact links, blog
+index, related guides, location pages, footer, directory and dynamic sitemap.
+All 37 indexable routes have sitemap entries and inbound links. Czech,
+Russia, APS, DSU and the utility 404 are excluded. No published-noindex target
+is exposed. Existing guards now consume the stronger destination, location
+and article evidence gates; no static draft link was added.
+
+Regenerated sitemap.xml from the same shared generator as /sitemap.xml.
+Lastmod uses recorded editorial dates rather than checkout/deploy mtimes:
+2026-10-16 for changed content, new publication and dynamic directories;
+privacy policy retains 2026-10-15. The two earlier published articles have
+actual Phase A edits, so their modified dates are corrected to 2026-10-16.
+No original publication history was inferred from filesystem timestamps.
+
+Both LLM files remain byte-identical by explicit instruction. They need a
+separate authorised follow-up to reconcile newly published guides, changed
+claims and any withheld article references. No generator was presumed and
+no mechanical exception was used to override the file freeze.
+
+Updated isolated discovery fixtures for the new gates: status demotion,
+source-text mismatch, location-cohort mismatch, explicit noindex header and
+article-hash mismatch must remove links/sitemap entries and restore cleanly.
