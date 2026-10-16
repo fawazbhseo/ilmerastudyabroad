@@ -2514,3 +2514,18 @@ Their audited tuition paragraphs, metadata and FAQ/schema counterparts were
 rewritten. Generic award context remains unverified, not country-specific.
 All source-line references above refer to the preserved historical audit;
 no statement in that audit is treated as proof of current verification.
+
+Task 2, checked 2026-10-16: the existing APS article keeps its canonical slug.
+Its title, description, visible introduction and structured headline/description
+now describe tuition conditions and procedure applicability rather than a
+universal entitlement. DAAD finance and visa pages were opened; APS India
+was opened and supports document verification, general applicability and its
+procedure overview, not a universal requirement or a promised processing time.
+APS host aps-india.de is outside the existing owner-approved source-host list,
+so the article is now draft/noindex. It is not included among the 29 original
+draft pages. To release it, replace its APS-specific material with an opened
+source on an approved host, or obtain an explicit later source-policy change.
+The Italy DSU article remains withheld for unsupported regional benefits.
+Contact tuition FAQs and decorative labels were also qualified by country;
+contact.php uses the same opened Phase A tuition sources, not general
+zero-cost claims. No source was verified from a search excerpt.

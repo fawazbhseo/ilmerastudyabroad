@@ -5,13 +5,13 @@ function ilmera_posts()
     static $posts = [
         'study-in-germany-free-aps-certificate' => [
             'slug' => 'study-in-germany-free-aps-certificate',
-            'title' => 'How to Study in Germany for conditional from India: The APS Certificate Explained',
-            'excerpt' => 'Germany\'s public universities charge little to no tuition, but Indian applicants need an APS certificate before they can apply. Here is what the process actually involves.',
+            'title' => 'Germany Tuition and APS: Check the Applicable Route',
+            'excerpt' => 'Check public-programme tuition exceptions, separate living costs and the APS procedure that applies to your academic background. No admission or visa outcome is guaranteed.',
             'category' => 'Germany',
             'readMinutes' => 5,
             'datePublished' => '2025-08-13',
-            'dateModified' => '2026-10-01',
-            'status' => 'published',
+            'dateModified' => '2026-10-16',
+            'status' => 'draft',
             'related' => ['italy-dsu-scholarship-eligibility', 'study-abroad-with-academic-backlogs', 'study-abroad-counselling-from-coorg'],
         ],
         'italy-dsu-scholarship-eligibility' => [
