@@ -2,7 +2,7 @@
 return [
     'slug' => 'italy',
     'name' => 'Italy',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.',
     'intro_answer_source_url' => 'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
     'intro_answer_source_label' => 'Consulate General of Italy in Bengaluru: Study in Italy',

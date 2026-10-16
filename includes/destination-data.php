@@ -49,6 +49,9 @@ function ilmera_destination_normalize($data, $slug)
     }
     $result['official_source_hosts'] = array_values(array_unique($result['official_source_hosts']));
     $result['ilmera_summary'] = ilmera_place_text($data['ilmera_summary'] ?? '');
+    $result['publication_review'] = is_array($data['publication_review'] ?? null) ? $data['publication_review'] : [];
+    $result['scope_note'] = ilmera_place_text($data['scope_note'] ?? '');
+    $result['review_notice'] = ilmera_place_text($data['review_notice'] ?? '');
     $result['facts_last_checked'] = ilmera_destination_date($data['facts_last_checked'] ?? '');
     $result['intro_answer'] = '';
     $result['intro_source'] = null;
@@ -96,9 +99,53 @@ function ilmera_destination_fact_count($data)
     return $count;
 }
 
+/** Reviewed evidence, not a live crawler. A changed claim needs another review. */
+function ilmera_destination_evidence_matches($data)
+{
+    if (!is_array($data)) return false;
+    $review = $data['publication_review'] ?? [];
+    foreach (['intro_verified', 'all_retained_lines_verified', 'approved_hosts_only', 'original_sources_resolved'] as $gate) {
+        if (($review[$gate] ?? false) !== true) return false;
+    }
+    static $journal = null;
+    if ($journal === null) {
+        $file = dirname(__DIR__) . '/phase14-source-review.json';
+        $journal = is_file($file) ? json_decode(file_get_contents($file), true) : [];
+        if (!is_array($journal)) $journal = [];
+    }
+    $entry = $journal['destinations'][$data['slug']] ?? [];
+    $allowed = $journal['approved_hosts'][$data['slug']] ?? [];
+    $rows = $entry['retained_line_reviews'] ?? [];
+    if (!$rows || !$allowed || ($entry['blockers'] ?? []) || $data['intro_answer'] === '') return false;
+    if ($data['slug'] === 'gcc' && ($data['scope_note'] === '' || $data['scope_note'] !== ($entry['scope_note'] ?? ''))) return false;
+    $expected = ['intro_answer' => array_merge(['text' => $data['intro_answer']], $data['intro_source'] ?? [])];
+    foreach (array_merge(array_keys(ilmera_destination_groups()), ['faqs']) as $field) {
+        foreach ($data[$field] as $index => $item) $expected[$field . '[' . $index . ']'] = $item;
+    }
+    if (count($rows) !== count($expected)) return false;
+    foreach ($rows as $row) {
+        $field = $row['field'] ?? '';
+        if (!isset($expected[$field])) return false;
+        $item = $expected[$field];
+        if (($item['text'] ?? $item['answer'] ?? '') !== ($row['confirmed_text'] ?? '') ||
+            ($item['question'] ?? '') !== ($row['question'] ?? '') ||
+            ($item['source_url'] ?? '') !== ($row['source_url'] ?? '') ||
+            ($item['source_label'] ?? '') !== ($row['source_label'] ?? '') ||
+            ($item['checked_on'] ?? '') !== ($row['checked_on'] ?? '') || empty($row['checked_on'])) return false;
+        $host = strtolower(parse_url($row['source_url'], PHP_URL_HOST) ?? '');
+        $approved = preg_match('/(?:^|\.)(?:gov\.in|nic\.in)$/D', $host) === 1;
+        foreach ($allowed as $official) {
+            if ($host === $official || str_ends_with($host, '.' . $official)) $approved = true;
+        }
+        if (!$approved) return false;
+        unset($expected[$field]);
+    }
+    return !$expected;
+}
+
 function ilmera_destination_indexable($data)
 {
-    return is_array($data) && $data['status'] === 'published' && ilmera_destination_fact_count($data) >= 5;
+    return is_array($data) && $data['status'] === 'published' && ilmera_destination_fact_count($data) >= 5 && ilmera_destination_evidence_matches($data);
 }
 
 function ilmera_destination_url($data)

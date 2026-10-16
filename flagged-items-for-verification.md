@@ -2569,3 +2569,22 @@ Czech Republic 4, Lithuania 5, Latvia 5, GCC 9 and Russia 0.
 The Czech tuition-portal and Russian notice failures are not filled with
 generic or invented categories. They remain exact publication blockers.
 The JSON also records the approved-host snapshot; no new host was approved.
+
+### Phase B task 5: publication decisions
+
+Published Germany, Italy, Slovakia, UK, Lithuania, Latvia and the scoped GCC
+guide. Each has at least five genuine sourced categories, a verified intro,
+no restricted promotional wording or named institutions, and matched visible
+FAQs and schema. The runtime gate now matches every intro/fact/FAQ text,
+question, source URL, label and date to the committed review journal; changing
+one without review removes publication eligibility. Status alone is not a gate.
+The reviewed approved-host snapshot must also match each citation host.
+
+Czech Republic remains draft: four verified categories and an unresolved
+tuition source/redirect-host gate. Russia remains draft: zero verified
+categories and a missing current notice. Its expired supplied date and lack
+of verification are visibly disclosed, without upgrading old source dates.
+GCC visibly names its four-country scope, explicitly excludes Oman/Kuwait,
+and labels the Bahrain registration notice as dated 31 May 2022 rather than
+current visa advice. The country sections each carry their own source.
+Both LLM files remain unchanged; discovery snapshot work is scheduled in E.

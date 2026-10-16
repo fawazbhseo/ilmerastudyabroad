@@ -2,7 +2,7 @@
 return [
     'slug' => 'slovakia',
     'name' => 'Slovakia',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution.',
     'intro_answer_source_url' => 'https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia',
     'intro_answer_source_label' => 'Study in Europe (European Commission): Slovakia country profile',

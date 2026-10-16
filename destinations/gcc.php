@@ -2,7 +2,7 @@
 return [
     'slug' => 'gcc',
     'name' => 'GCC',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'In the UAE, the student residence visa is typically sponsored by the university or by a parent or relative who is a legal resident. It is valid for up to 12 months and renewed each year. The visa process usually starts with the sponsoring institution after admission, through the ICP portal or the GDRFA of the emirate.',
     'intro_answer_source_url' => 'https://www.cgidubai.gov.in/page/student-advisory/',
     'intro_answer_source_label' => 'Consulate General of India, Dubai: Advisory for Indian students proceeding to the UAE',

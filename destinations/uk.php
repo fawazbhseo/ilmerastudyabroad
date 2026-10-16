@@ -2,7 +2,7 @@
 return [
     'slug' => 'uk',
     'name' => 'UK',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.',
     'intro_answer_source_url' => 'https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants',
     'intro_answer_source_label' => 'GOV.UK: Financial evidence for Student and Child Student visa applicants',

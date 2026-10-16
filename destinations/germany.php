@@ -2,7 +2,7 @@
 return [
     'slug' => 'germany',
     'name' => 'Germany',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.',
     'intro_answer_source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/finances/',
     'intro_answer_source_label' => 'DAAD: Costs of education and living in Germany',

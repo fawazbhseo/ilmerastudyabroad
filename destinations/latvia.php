@@ -2,7 +2,7 @@
 return [
     'slug' => 'latvia',
     'name' => 'Latvia',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.',
     'intro_answer_source_url' => 'https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals',
     'intro_answer_source_label' => 'Embassy of Latvia in India: Long stay visa for students, Indian nationals',

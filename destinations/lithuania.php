@@ -2,7 +2,7 @@
 return [
     'slug' => 'lithuania',
     'name' => 'Lithuania',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees.',
     'intro_answer_source_url' => 'https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania',
     'intro_answer_source_label' => 'Study in Europe (European Commission): Lithuania country profile',

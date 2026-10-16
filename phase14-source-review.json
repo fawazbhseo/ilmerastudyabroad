@@ -108,9 +108,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 6
+      "verified_categories": 6,
+      "final_status": "published"
     },
     "italy": {
       "entry": "study-in-italy.php",
@@ -226,9 +227,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 5
+      "verified_categories": 5,
+      "final_status": "published"
     },
     "slovakia": {
       "entry": "study-in-slovakia.php",
@@ -339,9 +341,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 6
+      "verified_categories": 6,
+      "final_status": "published"
     },
     "uk": {
       "entry": "study-in-uk.php",
@@ -456,9 +459,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 6
+      "verified_categories": 6,
+      "final_status": "published"
     },
     "czech-republic": {
       "entry": "study-in-czech-republic.php",
@@ -563,11 +567,12 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "draft; unresolved original-source gate",
+      "decision": "Draft: Original tuition portal returned a missing page after redirect to a host not in the existing approved list. No approved replacement tuition source was opened. Archived financial guidance and the 2018 checklist are not used as current guidance.",
       "blockers": [
         "Original tuition portal returned a missing page after redirect to a host not in the existing approved list. No approved replacement tuition source was opened. Archived financial guidance and the 2018 checklist are not used as current guidance."
       ],
-      "verified_categories": 4
+      "verified_categories": 4,
+      "final_status": "draft"
     },
     "lithuania": {
       "entry": "study-in-lithuania.php",
@@ -646,9 +651,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 5
+      "verified_categories": 5,
+      "final_status": "published"
     },
     "latvia": {
       "entry": "study-in-latvia.php",
@@ -764,9 +770,10 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 5
+      "verified_categories": 5,
+      "final_status": "published"
     },
     "gcc": {
       "entry": "study-in-gcc.php",
@@ -1010,9 +1017,17 @@
         "faqs[9]",
         "faqs[10]"
       ],
-      "decision": "Verified retained lines; publication decision in task 5",
+      "decision": "Published: at least five verified categories, matched intro/lines, approved opened sources, reviewed copy and FAQ/schema parity.",
       "blockers": [],
-      "verified_categories": 9
+      "verified_categories": 9,
+      "scope_note": "Coverage: UAE, Qatar, Saudi Arabia and a dated Bahrain registration notice. This is not a complete six-country GCC guide. Oman and Kuwait are excluded because no usable, opened evidence was confirmed for them in this review.",
+      "country_scope": {
+        "UAE": "https://www.cgidubai.gov.in/page/student-advisory/",
+        "Qatar": "https://indianembassyqatar.gov.in/education_Advisory_students",
+        "Saudi Arabia": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+        "Bahrain": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf"
+      },
+      "final_status": "published"
     },
     "russia": {
       "entry": "study-in-russia.php",
@@ -1029,11 +1044,12 @@
         "faqs[2]",
         "faqs[3]"
       ],
-      "decision": "draft; unresolved original-source gate",
+      "decision": "Draft: Cited 2026-27 notice returned a missing page. No current-year notice or five categories verified from opened official sources. Previously supplied expired closing date is not independently confirmed.",
       "blockers": [
         "Cited 2026-27 notice returned a missing page. No current-year notice or five categories verified from opened official sources. Previously supplied expired closing date is not independently confirmed."
       ],
-      "verified_categories": 0
+      "verified_categories": 0,
+      "final_status": "draft"
     }
   },
   "approved_hosts": {

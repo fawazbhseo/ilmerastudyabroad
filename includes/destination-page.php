@@ -118,6 +118,9 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 </section>
 <section class="s-wrap article-body">
   <div class="container">
+<?php foreach (['scope_note', 'review_notice'] as $notice): if ($destinationData[$notice] === '') continue; ?>
+    <p class="verification-note"><?= ilmera_place_escape($destinationData[$notice]) ?></p>
+<?php endforeach; ?>
 <?php if ($destinationData['intro_answer'] !== ''): ?>
     <p><?= ilmera_place_escape($destinationData['intro_answer']) ?><?= ilmera_destination_citation($destinationData['intro_source'], $destinationSources) ?></p>
 <?php endif; ?>
