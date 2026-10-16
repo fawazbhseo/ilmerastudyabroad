@@ -2815,3 +2815,32 @@ three regression cases cover legacy/unknown hosts, schema-only citations and
 explicit contact/social exclusions. Neither legacy footer host was added to
 the destination approval lists. Universitaly still does not substantiate the
 owner amount or partners. The earlier all-200 transport limitation remains.
+
+## Phase 16 task 4: exact owner sentence and matched cautions
+
+The existing 19 published amount occurrences already used the required exact
+sentence. Preserved it verbatim in every occurrence and placed explicit
+owner-provided conditional guidance and written-award budgeting cautions
+alongside it, consistently in visible copy and matching FAQ schema. Retained
+the existing tuition-source owner disclaimer. Added an explicit No to the
+Home FAQ about relying on an unwritten award. Removed DSU from the nearby
+Home route label and the Services amount question so the owner figure is not
+presented as an officially verified regional DSU amount. Neutralized the
+Contact metadata phrase describing Italy as no-charge education.
+
+The amount and partner relationships remain owner-supplied, not official
+proof. No university name or page status was introduced. The Italy DSU
+article remains draft/noindex and was not edited or linked. Both LLM files
+remain limited to task-1 authorized link removals; their broader Italy and
+prohibited wording remains a release blocker, not an exception to readiness.
+Maintained exact-sentence checks inspect published surfaces plus both LLM
+files, reject common 8,000/8000/8k/eight-thousand variants, and require the
+matched owner label and written-award caution at every amount occurrence.
+
+Task 4 FAQ visibility correction: the added attribution/cautions exposed the
+fixed 300/340px FAQ height caps on Services and Contact. Removed those open
+height caps so mobile answers are not clipped, and added no-JavaScript answer
+visibility fallbacks. Extended the fresh browser assertions to actually open
+and close button FAQs with JavaScript on, check the full answer fits, and
+check full answer readability with JavaScript off. This does not claim live
+external-resource or native Apache verification.

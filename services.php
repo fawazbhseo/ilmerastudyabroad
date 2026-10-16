@@ -138,8 +138,8 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Services', 'url' => 
       "mainEntity": [
         {"@type":"Question","name":"Which countries can I study in with no IELTS?","acceptedAnswer":{"@type":"Answer","text":"Many programmes accept alternatives to IELTS, but English requirements vary by university and programme. Check the official programme page."}},
         {"@type":"Question","name":"Can I study abroad with low marks or backlogs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Russia accepts students with low marks and academic backlogs for bachelor's degree programs. Slovakia, Lithuania and Latvia also accept students with lower academic scores. ILMERA finds a study-abroad pathway that matches your actual profile."}},
-        {"@type":"Question","name":"How do tuition and scholarship conditions differ?","acceptedAnswer":{"@type":"Answer","text":"At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."}},
-        {"@type":"Question","name":"How much is the Italy DSU scholarship?","acceptedAnswer":{"@type":"Answer","text":"Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."}},
+        {"@type":"Question","name":"How do tuition and scholarship conditions differ?","acceptedAnswer":{"@type":"Answer","text":"At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment."}},
+        {"@type":"Question","name":"What conditional scholarship guidance does ILMERA provide for Italy?","acceptedAnswer":{"@type":"Answer","text":"Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment."}},
         {"@type":"Question","name":"How does ILMERA support the visa application process?","acceptedAnswer":{"@type":"Answer","text":"ILMERA prepares your documents, reviews your application for accuracy and coaches you for the visa interview across all 9 destinations, including the UK, Germany, Italy, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries."}},
         {"@type":"Question","name":"How does teaching language affect tuition in Slovakia?","acceptedAnswer":{"@type":"Answer","text":"Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees."}},
         {"@type":"Question","name":"How do I get started with ILMERA?","acceptedAnswer":{"@type":"Answer","text":"Book a no-charge, no-obligation consultation by calling +91 90195 57427 or +91 94810 84038, emailing info@ilmerastudyabroad.com, or messaging on WhatsApp. ILMERA is based in Coorg, Kodagu, Karnataka, and consults with students by phone, WhatsApp and video call."}}
@@ -305,7 +305,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .faq-q::after{content:'+';position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:26px;font-weight:300;color:var(--gold);transition:transform .3s;line-height:1;}
 .faq-item.open .faq-q::after{transform:translateY(-50%) rotate(45deg);}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .4s ease;}
-.faq-item.open .faq-a{max-height:300px;padding:0 4px 24px;}
+.faq-item.open .faq-a{max-height:none;padding:0 4px 24px;}
 .faq-a p{font-size:15px;font-weight:300;color:var(--grey-mid);line-height:1.7;}
 @media(max-width:768px){.faq-sec{padding:70px 0;}.faq-q{font-size:15px;padding:20px 44px 20px 4px;}}
 
@@ -348,6 +348,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 
 </style>
+<noscript><style>.faq-a{max-height:none!important;overflow:visible;padding-bottom:22px;}</style></noscript>
 </head>
 <body>
 
@@ -436,7 +437,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <div class="country-flag-badge" style="background:rgba(0,100,40,0.1);border-color:rgba(0,150,60,0.4);color:#006428;"><span class="flag">&#127470;&#127481;</span> Conditional scholarship guidance</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><polygon points="26,4 31,19 47,19 34,29 39,45 26,35 13,45 18,29 5,19 21,19" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
       <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('italy')) ?>" style="color:inherit;text-decoration:none;">Study in Italy</a><br><em style="font-style:italic;font-size:0.7em;color:var(--gold);">Your Dream Education Awaits!</em></h2>
-      <p>Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
+      <p>Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p>
       <div class="highlight-box on-light" style="background:rgba(0,100,40,0.06);border-color:rgba(0,150,60,0.25);">
         <div class="highlight-title" style="color:#006428;"><span>&#127942;</span> Check award conditions</div>
         <ul class="svc-list">
@@ -708,7 +709,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <div class="service-mini-card"><div class="smc-icon">&#127891;</div><h3>Admissions Counselling</h3><p>Profile evaluation, university shortlisting, SOP/LOR review, and application management across all 9 destinations.</p></div>
       <div class="service-mini-card"><div class="smc-icon">&#128203;</div><h3>Visa Assistance</h3><p>Document checklist, application prep and mock interview coaching for every destination.</p></div>
       <div class="service-mini-card"><div class="smc-icon">&#128218;</div><h3>Language Preparation</h3><p>IELTS &amp; TOEFL coaching. IELTS is not mandatory for many Russia &amp; Lithuania programmes.</p></div>
-      <div class="service-mini-card"><div class="smc-icon">&#11088;</div><h3>Scholarship Guidance</h3><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p></div>
+      <div class="service-mini-card"><div class="smc-icon">&#11088;</div><h3>Scholarship Guidance</h3><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div>
       <div class="service-mini-card"><div class="smc-icon">&#9992;</div><h3>Pre-Departure Briefings</h3><p>Country-specific cultural orientation, banking, accommodation, SIM, campus registration and emergency contacts.</p></div>
       <div class="service-mini-card"><div class="smc-icon">&#128188;</div><h3>Career Counselling</h3><p>Career pathway mapping, internship guidance, post-study work visa info for all 9 destinations.</p></div>
     </div>
@@ -757,11 +758,11 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
       <div class="faq-item">
         <button class="faq-q">How do tuition and scholarship conditions differ?</button>
-        <div class="faq-a"><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p></div>
+        <div class="faq-a"><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div>
       </div>
       <div class="faq-item">
-        <button class="faq-q">How much is the Italy DSU scholarship?</button>
-        <div class="faq-a"><p>Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p></div>
+        <button class="faq-q">What conditional scholarship guidance does ILMERA provide for Italy?</button>
+        <div class="faq-a"><p>Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">How does ILMERA support the visa application process?</button>
