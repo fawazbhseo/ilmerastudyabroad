@@ -13,8 +13,22 @@ return [
     'official_source_hosts' => [
         'gov.uk',
     ],
-    'who_its_for' => [],
-    'english_requirements' => [],
+    'who_its_for' => [
+        [
+            'text' => 'The Student visa route is for applicants aged 16 or over with an offer from a licensed student sponsor, sufficient funding and the required English ability. Applicants aged 16 or 17 need parental consent.',
+            'source_url' => 'https://www.gov.uk/student-visa',
+            'source_label' => 'GOV.UK: Student visa eligibility',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
+    'english_requirements' => [
+        [
+            'text' => 'Applicants usually need to prove their English ability. GOV.UK describes qualifying education and approved tests; a degree taught in English outside the UK may require an Ecctis assessment. For degree-level study, a higher education provider can assess English, but the level must still be equivalent to CEFR B2.',
+            'source_url' => 'https://www.gov.uk/student-visa/knowledge-of-english',
+            'source_label' => 'GOV.UK: Student visa knowledge of English',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
     'costs' => [
         [
             'text' => 'Where financial evidence is required, applicants need funds for course fees shown on the Confirmation of Acceptance for Studies (CAS), plus living costs. GOV.UK describes exemptions for some applicants.',

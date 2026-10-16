@@ -15,7 +15,14 @@ return [
     ],
     'who_its_for' => [],
     'english_requirements' => [],
-    'costs' => [],
+    'costs' => [
+        [
+            'text' => 'The Bengaluru consulate states that each institution has its own tuition fees. Confirm the selected institution and programme fee; the visa procedure does not establish scholarship entitlement.',
+            'source_url' => 'https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/',
+            'source_label' => 'Italian Consulate Bengaluru: institution-specific admission requirements and fees',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
     'scholarships' => [],
     'visa_steps' => [
         [

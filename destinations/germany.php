@@ -42,7 +42,14 @@ return [
         ],
     ],
     'scholarships' => [],
-    'visa_steps' => [],
+    'visa_steps' => [
+        [
+            'text' => 'DAAD distinguishes the student visa for applicants already accepted by an institution from the prospective student visa for applicants awaiting admission or an entrance examination. Check the applicable route with the German mission before applying.',
+            'source_url' => 'https://www.daad.de/en/studying-in-germany/living-in-germany/visa/',
+            'source_label' => 'DAAD: Visas, student and prospective student routes',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
     'intakes' => [],
     'documents' => [
         [

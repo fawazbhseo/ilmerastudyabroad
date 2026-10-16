@@ -16,7 +16,14 @@ return [
     ],
     'who_its_for' => [],
     'english_requirements' => [],
-    'costs' => [],
+    'costs' => [
+        [
+            'text' => 'The European Commission Latvia profile estimates student living expenses at 450 to 700 euros per month, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and is separate from that living-cost estimate.',
+            'source_url' => 'https://education.ec.europa.eu/fi/country-profiles/latvia',
+            'source_label' => 'European Commission: Latvia tuition and living costs',
+            'checked_on' => '2026-10-16',
+        ],
+    ],
     'scholarships' => [],
     'visa_steps' => [
         [

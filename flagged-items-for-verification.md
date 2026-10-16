@@ -2554,3 +2554,18 @@ No source-host list was broadened. Non-government/institution-specific hosts
 were removed, not silently approved. A successful HTTP page load containing
 an error or archive banner is not current factual verification. The JSON
 contains no claim that an unavailable Russian notice was read.
+
+### Phase B task 4: substantive category completion
+
+Only opened, approved sources were used for additions, checked 2026-10-16.
+Germany gained the DAAD student/prospective-student visa distinction. Italy
+gained the consulate statement that each institution sets tuition. UK gained
+GOV.UK eligibility and English-evidence rules, including provider assessment
+and the degree-level B2 requirement, not a universal test waiver. Latvia gained
+the EC profile living-cost estimate, explicitly separate from tuition.
+Exact new lines, URLs and dates are in phase14-source-review.json.
+Verified category totals: Germany 6, Italy 5, Slovakia 5, UK 6,
+Czech Republic 4, Lithuania 5, Latvia 5, GCC 9 and Russia 0.
+The Czech tuition-portal and Russian notice failures are not filled with
+generic or invented categories. They remain exact publication blockers.
+The JSON also records the approved-host snapshot; no new host was approved.
