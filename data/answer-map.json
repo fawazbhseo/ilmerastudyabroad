@@ -34,9 +34,36 @@
   "/blog/how-to-choose-study-abroad-consultant-karnataka": {
     "question": "What should I know about how to choose a study abroad consultant in Karnataka?",
     "answer": "Compare the written scope, charges, responsibilities and refund terms before agreeing to counselling. Ask how documents are handled and how recommendations are supported. Confirm course recognition with the responsible bodies, keep control of your records and avoid treating advice or a partnership statement as a guarantee of an admission, visa or award.",
-    "extra_faqs": [],
+    "extra_faqs": [
+      {
+        "question": "Which costs should parents separate before agreeing to counselling?",
+        "answer": "Keep study costs and counselling charges separate. Check tuition, any semester contributions, living costs and the written service scope, charges and refund terms. Published country examples are not an individual quotation, and this site does not publish a complete service-specific fee schedule."
+      },
+      {
+        "question": "Can a comparison guarantee admission with low marks or backlogs?",
+        "answer": "No. A comparison cannot establish that a particular academic record will be accepted. Present the complete record, check the actual programme requirements and compare the written counselling scope before choosing support. Counselling does not guarantee admission or a visa."
+      },
+      {
+        "question": "Does online-only delivery itself establish that a consultant is trustworthy?",
+        "answer": "No. An online model does not by itself verify the counsellor or promised service. Check the named contact, written scope, charges, privacy and refund terms, and look for evidence that can be checked independently. ILMERA counsels by phone, WhatsApp and video call, with no counselling premises. Counselling does not guarantee admission or a visa."
+      }
+    ],
     "basis": "blog/how-to-choose-study-abroad-consultant-karnataka.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 18,
+        "source": "Cost article; selection guide sections 1 and 5 and existing fee FAQ."
+      },
+      {
+        "prompt_id": 43,
+        "source": "Backlog article existing eligibility FAQ; selection guide sections 1 and 2."
+      },
+      {
+        "prompt_id": 44,
+        "source": "Selection guide ten checks, online-counselling FAQ, no-guarantee FAQ; Coorg process article."
+      }
+    ]
   },
   "/blog/scholarships-for-indian-students-study-abroad": {
     "question": "What should I know about scholarships for Indian students abroad?",
@@ -49,10 +76,20 @@
       {
         "question": "Should a tuition policy be treated as a scholarship award?",
         "answer": "No. A tuition policy is not a scholarship award. Semester contributions and living expenses must be considered separately."
+      },
+      {
+        "question": "Does scholarship planning establish a complete ISEE documentation service?",
+        "answer": "No. ILMERA lists scholarship planning among its services, but that does not establish a published Karnataka ISEE procedure or an individual scholarship award. Ask for written service tasks and check the current instructions of the relevant authority before treating advice as a complete document workflow."
       }
     ],
     "basis": "blog/scholarships-for-indian-students-study-abroad.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 48,
+        "source": "Canonical entity service list; scholarship article Italy evidence section; selection guide written scope."
+      }
+    ]
   },
   "/blog/study-abroad-counselling-from-coorg": {
     "question": "What should I know about online study abroad counselling for Coorg students?",
@@ -73,10 +110,28 @@
       {
         "question": "How are applications discussed after that conversation?",
         "answer": "The page describes digital document collection, shortlist discussions, application tracking and visa preparation through the existing online channels."
+      },
+      {
+        "question": "Can families in Kodagu, Shivamogga and Chikkamagaluru request Kannada or Malayalam counselling?",
+        "answer": "Yes. ILMERA's existing service information lists English, Kannada, Malayalam and Hindi. Counselling is online by phone, WhatsApp or video call for students in Karnataka; it does not require travel to ILMERA counselling premises. Confirm the language for your conversation when getting in touch."
+      },
+      {
+        "question": "What does ILMERA publish about its team and application process?",
+        "answer": "The site identifies Jabir KJ as Founder, Fawaz BH as CMO and Zaheer KJ as CFO. The published process begins with a profile discussion and continues with shortlisting, applications and document preparation. A team profile or process description is not an independently verified customer review."
       }
     ],
     "basis": "blog/study-abroad-counselling-from-coorg.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 46,
+        "source": "About existing Coorg/languages FAQ; Contact language schema; canonical entity India/Karnataka coverage and existing published location guides."
+      },
+      {
+        "prompt_id": 49,
+        "source": "About existing team roles; Coorg process article Step by Step; empty proof slots."
+      }
+    ]
   },
   "/blog/study-abroad-with-academic-backlogs": {
     "question": "What should I know about study abroad with academic backlogs?",
@@ -424,8 +479,19 @@
   "/study-in-uk": {
     "question": "What should I check before planning to study in UK from India?",
     "answer": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.",
-    "extra_faqs": [],
+    "extra_faqs": [
+      {
+        "question": "How should I assess a UK Master's against the Graduate visa dates?",
+        "answer": "For the Master's context, GOV.UK lists a 2-year Graduate visa for applications on or before 31 December 2026 and 18 months from 1 January 2027. These dates alone do not establish the value of a particular course. Compare the actual costs, course objectives and applicable conditions before deciding. Source: https://www.gov.uk/graduate-visa"
+      }
+    ],
     "basis": "study-in-uk.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 9,
+        "source": "Existing homepage UK language FAQ and its GOV.UK Graduate visa citation, reopened on 2026-10-16; cost article individual-budget guidance."
+      }
+    ]
   }
 }
