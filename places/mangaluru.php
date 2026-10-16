@@ -4,7 +4,7 @@ return [
     'name' => 'Mangaluru',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

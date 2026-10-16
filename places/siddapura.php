@@ -4,7 +4,7 @@ return [
     'name' => 'Siddapura',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Application records may contain information that should not be circulated casually. This guide for Siddapura students focuses on deliberate sharing and clear permission during counselling. It is a practical workflow, not a security certification or a statement that any messaging service guarantees confidentiality or the removal of every copy.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

@@ -4,7 +4,7 @@ return [
     'name' => 'Hassan',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'An overseas study budget should show where the money comes from as well as where it might go. For students from Hassan, this guide offers a way to discuss affordability without relying on an uncertain award or hoped-for job. Use actual course quotations and current official requirements when available.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

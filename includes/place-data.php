@@ -86,9 +86,44 @@ if (!function_exists('ilmera_place_text')) {
         return $count;
     }
 
+    function ilmera_place_content_hash($data)
+    {
+        $payload = [];
+        foreach (['page_title', 'heading', 'meta_description', 'intro_answer', 'sections', 'faqs'] as $field) $payload[] = $data[$field] ?? null;
+        return hash('sha256', json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+    }
+
+    function ilmera_place_evidence_matches($data)
+    {
+        if (!is_array($data)) return false;
+        static $journal = null, $cohortValid = null;
+        if ($journal === null) {
+            $file = dirname(__DIR__) . '/phase14-location-review.json';
+            $journal = is_file($file) ? json_decode(file_get_contents($file), true) : [];
+            if (!is_array($journal)) $journal = [];
+        }
+        $entry = $journal['locations'][$data['slug']] ?? [];
+        if (($entry['copy_reviewed'] ?? false) !== true || ($entry['schema_reviewed'] ?? false) !== true ||
+            ($data['local_facts_used'] ?? true) !== false || !empty($data['local_fact_sources']) ||
+            ilmera_place_content_hash($data) !== ($entry['content_sha256'] ?? '') ||
+            ($journal['max_shared_percent'] ?? 100) > 15 || ($journal['rendered_main_overlap']['max_shared_percent'] ?? 100) > 15) return false;
+        $prose = $data['intro_answer'];
+        foreach ($data['sections'] as $section) $prose .= ' ' . implode(' ', $section['paragraphs']);
+        if (preg_match_all('/\S+/u', $prose) < 350 || !$data['page_title'] || !$data['heading'] || !$data['meta_description'] || !$data['faqs']) return false;
+        // An edited peer also needs another pairwise check, not a stale score.
+        if ($cohortValid === null) {
+            $cohortValid = !empty($journal['locations']);
+            foreach ($journal['locations'] ?? [] as $slug => $peerReview) {
+                $peer = ilmera_place_load($slug);
+                if (!$peer || ilmera_place_content_hash($peer) !== ($peerReview['content_sha256'] ?? '')) $cohortValid = false;
+            }
+        }
+        return $cohortValid;
+    }
+
     function ilmera_place_indexable($data)
     {
-        return is_array($data) && $data['status'] === 'published' && ilmera_place_fact_count($data) >= 5;
+        return is_array($data) && $data['status'] === 'published' && ilmera_place_evidence_matches($data);
     }
 
     function ilmera_place_url($data)

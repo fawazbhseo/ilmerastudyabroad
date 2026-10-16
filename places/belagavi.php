@@ -4,7 +4,7 @@ return [
     'name' => 'Belagavi',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

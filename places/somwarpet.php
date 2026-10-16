@@ -4,7 +4,7 @@ return [
     'name' => 'Somwarpet',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'A backlog discussion is more useful when the full academic record is available. This guide for Somwarpet students explains how to distinguish cleared subjects, outstanding results and repeated attempts before asking about eligibility. It makes no claim that a particular number of backlogs is accepted by every institution or destination.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

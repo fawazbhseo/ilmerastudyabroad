@@ -4,7 +4,7 @@ return [
     'name' => 'Ponnampet',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Students from Ponnampet preparing a study statement can begin with the reasons they can explain honestly, rather than with a borrowed model answer. This guide offers a drafting method for linking interests, preparation and the selected course. It does not supply an admissions formula or promise that particular wording will succeed.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

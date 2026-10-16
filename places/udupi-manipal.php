@@ -4,7 +4,7 @@ return [
     'name' => 'Udupi and Manipal',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

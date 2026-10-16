@@ -4,7 +4,7 @@ return [
     'name' => 'Madikeri',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'For a Madikeri applicant, a clear academic timeline can make a profile discussion more precise. Arrange the record as it actually happened before trying to explain an interruption or change. This guide focuses on consistency and supporting evidence, not on claiming that any gap has an automatic admissions outcome.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

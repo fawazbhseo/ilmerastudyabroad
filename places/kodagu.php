@@ -4,7 +4,7 @@ return [
     'name' => 'Kodagu',
     'type' => 'district-hub',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'A study plan may involve a student, family members and a counsellor, but those participants do not have identical responsibilities. This Kodagu guide explains how to organise a shared discussion while keeping the student\'s academic reasons visible. It does not assume a family structure, funding arrangement or preferred destination for any applicant.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

@@ -4,7 +4,7 @@ return [
     'name' => 'Chikkamagaluru',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'For a Chikkamagaluru student, language preparation is easier to discuss when the required evidence is written down precisely. Start with the selected programme and distinguish its admissions requirement from any separate immigration question. This guide helps organise those enquiries without suggesting that one letter or test result works everywhere.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

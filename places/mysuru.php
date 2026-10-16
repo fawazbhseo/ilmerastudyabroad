@@ -4,7 +4,7 @@ return [
     'name' => 'Mysuru',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Small differences between academic records can become important questions during an application. For students from Mysuru, this guide sets out a careful consistency review without prescribing a local transcript or correction procedure. The issuing body and the intended recipient should confirm how a specific discrepancy is to be resolved.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

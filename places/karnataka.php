@@ -4,7 +4,7 @@ return [
     'name' => 'Karnataka',
     'type' => 'district-hub',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Students across Karnataka can approach course selection as a series of documented decisions rather than a search for one universally best destination. This guide focuses on comparison criteria, unresolved questions and reasons for excluding options. ILMERA discussions can start from your academic record and priorities, without promising a particular admission result.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

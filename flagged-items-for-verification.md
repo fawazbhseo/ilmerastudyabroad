@@ -2614,3 +2614,24 @@ Its areaServed names the intended audience, not a physical location.
 The shared contact card now states the existing Coorg/Kodagu base and no
 physical office concisely, without inventing a local meeting arrangement.
 Authored guides do not use an unsupported online-counselling label.
+
+### Phase C task 8: measured location publication
+
+All 17 guides pass and are published. Authored prose is 367-381 words per
+page before counting headings or FAQs. All 136 city-normalised pairwise
+comparisons pass: maximum shared contiguous five-word coverage is 3.311%,
+well below 15%. The committed report records every pair and exact content
+hashes. Every title, meta description, H1 and FAQ question is unique.
+No local practical facts were asserted, so local external-source lists are
+empty, deliberately. Existing contact/service pages support business facts.
+Service markup has a sitewide provider/contact, no invented local address.
+The runtime gate replaces the obsolete five-category location requirement
+with prose, review, source-scope, unique-copy and schema gates. A changed
+page or peer invalidates the measured cohort until it is reviewed again.
+Duplicate or edited pages cannot be published by a status toggle alone.
+
+Task 8 also measured all 136 pairs of full rendered main content, including
+the shared contact card and related links, excluding sitewide header/footer.
+Maximum overlap is 14.147287%, between Siddapura and Virajpet. Both authored
+and stricter rendered-main scores pass and are enforced by the runtime gate.
+Twenty-five positive/negative location-gate assertions pass.

@@ -4,7 +4,7 @@ return [
     'name' => 'Gonikoppal',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Students from Gonikoppal who are asked for household or financial records can begin by organising what exists before requesting anything new. This guide is about an evidence inventory, not eligibility for a particular award. The accepting body determines the documents, reporting periods and verification steps that apply to an application.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

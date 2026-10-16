@@ -4,7 +4,7 @@ return [
     'name' => 'Kushalnagar',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Receiving an offer is a point for careful reading, not a reason to stop checking the plan. For students from Kushalnagar, this guide explains how to examine conditions and dependencies before responding. It does not interpret a particular offer or suggest that an admission document also decides a visa application.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

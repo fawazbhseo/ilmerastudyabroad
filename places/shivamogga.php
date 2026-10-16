@@ -4,7 +4,7 @@ return [
     'name' => 'Shivamogga',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

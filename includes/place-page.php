@@ -176,7 +176,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <section aria-labelledby="place-counselling-process" class="author-card" style="display:block;">
       <h2 id="place-counselling-process">How ILMERA counselling works</h2>
       <p>ILMERA is based in Coorg, Kodagu, with no physical office. Contact is by phone, WhatsApp or video call. Admissions, awards and visas are decided by the relevant bodies, not guaranteed by counselling.</p>
-      <p><a href="/contact" style="color:var(--gold);">Arrange a consultation</a> or read about <?= ilmera_post_link('study-abroad-counselling-from-coorg', 'counselling from Coorg', ['style' => 'color:var(--gold);']) ?: 'counselling from Coorg' ?>.</p>
+      <p><a href="/contact" style="color:var(--gold);">Discuss this plan</a></p>
     </section>
 <?php if ($placeParents): ?>
     <section>
@@ -201,7 +201,6 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <p><?= ilmera_link('/services', 'Explore study abroad services', ['style' => 'color:var(--gold);']) ?></p>
     <?php if ($placeLive && !$placeLinks && !$placeParents) ilmera_discovery_links(ilmera_indexable_locations(), 'Other location guides', $placePath); ?>
     <?= ilmera_place_destination_links($placeData) ?>
-    <?php ilmera_render_guides(ilmera_place_guides()); ?>
   </div>
 </section>
 </main>

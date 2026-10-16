@@ -4,7 +4,7 @@ return [
     'name' => 'Bengaluru',
     'type' => 'city',
     'district' => '',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'A student from Bengaluru considering a different academic field needs more than an attractive course title. Use counselling to connect the proposed subject with evidence from previous study and to identify unanswered prerequisite questions. This page provides a way to investigate that transition without assuming that a change will be accepted.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],

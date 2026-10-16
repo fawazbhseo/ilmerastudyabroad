@@ -4,7 +4,7 @@ return [
     'name' => 'Virajpet',
     'type' => 'town',
     'district' => 'Kodagu',
-    'status' => 'draft',
+    'status' => 'published',
     'intro_answer' => 'Before an application leaves the preparation stage, the applicant should understand what is being submitted. This Virajpet guide focuses on that handover: checking the form, matching the evidence and keeping a submission record. It is not a destination visa checklist and does not claim that a complete file guarantees approval.',
     'local_institutions' => [],
     'transcript_and_moi_steps' => [],
