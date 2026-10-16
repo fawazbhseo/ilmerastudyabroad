@@ -1242,3 +1242,51 @@ already live per owner. Ready for owner-controlled live deployment after a
 complete backup, not certified as deployed or accepted on the actual server.
 Restore the backed-up live files/settings if post-deployment checks fail.
 Kuwait requirements, four held pages and award/source-proof limits remain.
+
+## Phase 19: provisional strategy implementation and bounded review, 2026-10-16
+
+Eleven tasks, one commit each, on arena/48320ee5-ilmerastudyabroad, with a
+pushed PR 1 checkpoint after each fresh full suite. No main push or deployment.
+
+- Task 1: provisional distinct primary/secondary map for all 37 then-published
+  pages. The titled strategy document was inaccessible through ID-only Docs
+  tools; no prompts, volumes or section recommendations were fabricated.
+- Task 2: unique short titles, descriptions, H1s and natural target openings
+  through a server-side presentation map, synchronizing social/page schema
+  while preserving source facts and all destination records. Removed repeated
+  location opening boilerplate when overlap checking caught it.
+- Task 3: the explicitly requested Karnataka consultant-choice guide, ten
+  family checks and honest ILMERA self-assessment. One new published article;
+  no existing page status change. Blog, directory, sitemap and LLM generation
+  include it. No invented fee, agreement, performance or review evidence.
+- Task 4: 40-60 word direct answers and at least four visible matching FAQs
+  on all 30 published destination/location/article pages. Existing facts and
+  preparation advice only. Owner-target coverage: three answered, one fee
+  gap. Document prompt inventory remains unknown, not complete coverage.
+- Task 5: canonical Organization data, existing company profiles only,
+  minimal existing-data Founder Person, matching entity/service references
+  on About/Contact/Karnataka and generated LLMs, matching review dates.
+- Task 6: two descriptive contact CTAs on editorial pages and five empty,
+  fail-closed owner proof slots. No empty placeholders or proof schema.
+- Task 7: headings, breadcrumbs, images, click depth, metadata and technical
+  audit. Added a missing secondary image loading hint. Live server behavior
+  and existing font stylesheet cost remain honestly unverified/unmeasured.
+- Task 8: no existing analytics tag found, so no tracker added. Documented
+  owner/provider/privacy/success-signal decisions without collecting data.
+- Task 9: real-feedback process and off-page due diligence. Opened Google's
+  official policies: online-only model is ineligible for Business Profile.
+  Directory candidates were not falsely certified as eligible.
+- Task 10: one full clean cycle after tasks 1-9; stopped early without rewriting
+  passing pages. Recursive schema and prompt-status consistency checks pass.
+- Task 11: append-only documentation, complete metadata/file inventory,
+  owner/live limits and a further full sign-off suite.
+
+Counts: 38 indexable pages (7 destinations, 17 locations, 6 articles, 8 other),
+four unchanged editorial drafts and one separate noindex 404 utility. All
+nine destination records, summaries, provenance and facts remain byte-identical
+to a083aff. Location authored content/source gates remain unchanged.
+
+Ready locally for owner-controlled direct-live deployment after a complete
+backup, with provisional strategy acceptance and mandatory live testing.
+No claim of live acceptance, rankings, external HTTP health or real enquiry
+delivery. All proof slots remain empty; missing evidence is not filled in.

@@ -3159,3 +3159,43 @@ confirmed online-only model. Sulekha access was denied, the requested UrbanPro
 category was missing and Justdial onboarding requests an address. None was
 certified eligible; these remain owner due-diligence candidates. Existing
 social handles only, no new account or submission, no fictional student proof.
+
+## Phase 19 task 11: targeted sign-off and unchanged blockers, 2026-10-16
+
+- [x] Local on-page/entity/answer/CTA/technical checks pass with the existing
+  publication cohort preserved plus only the explicitly requested new guide.
+- [x] Cycle 1 is clean locally; no further rewrite cycle is justified.
+- [ ] Strategy document link/ID and actual research inventory remain missing.
+  No document-derived keyword volumes, prompt counts or section conflicts
+  can be certified. The fallback map is explicitly provisional.
+- [ ] A real service-specific fee schedule and written scope/refund terms,
+  approved proof and consent remain owner inputs. All proof slots stay empty.
+- [ ] Online-only acceptance by the directory candidates remains unconfirmed;
+  no listing or account was created. Existing company-profile control should
+  be confirmed by the owner. No workaround for Google eligibility is proposed.
+- [ ] Analytics provider/property/consent and actual success transport remain
+  owner decisions. No tag or new third-party script was added.
+- [ ] Actual live addresses, native routing/redirects, external HTTP status,
+  live rankings, enquiry delivery and Search Console processing are unverified.
+
+Earlier Kuwait/source/category/award and four-held-page blockers remain open.
+No prior blocker is rewritten or silently closed. The exact conditional Italy
+sentence is not award proof. Online counselling is not local premises.
+
+Conservative implementation decisions: canonical identity is separate from
+page-specific descriptions; old generic source facts stay visible unchanged.
+Server-side overlays keep title/social/page-schema values synchronized without
+editing protected destination data. Additional answer provenance is recorded
+in its data map. Render checks, not just data-file hashes, cover these layers.
+Source-journal hash updates only reconcile the article include bytes.
+
+The owner deploys directly live after backing up the complete current live
+files/settings. Phase 13 server rules are already live per owner. Mandatory
+live smoke tests and restoration of the backed-up files on errors remain;
+no staging step, main push, merge or deployment was performed by the agent.
+
+Task 3 title-decision clarification: the full guide heading alone is 52
+characters and fits the limit; adding the usual brand suffix would make it
+61. The earlier note referred imprecisely to the heading itself. The chosen
+shorter semantic title with branding is within budget; the full primary
+remains in the H1/opening. No passing page is rewritten for this clarification.

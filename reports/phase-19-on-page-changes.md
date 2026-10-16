@@ -41,3 +41,9 @@ Provisional keyword basis: reports/keyword-map.md. Existing facts/sources/status
 | `/study-in-slovakia` | Study in Slovakia from India \| ILMERA | Study in Slovakia from India: check the programme, application evidence and official guidance before planning your next step. | Study in Slovakia from India |
 | `/study-in-uk` | Study in UK from India \| ILMERA | Study in UK from India: check the programme, application evidence and official guidance before planning your next step. | Study in UK from India |
 | `/terms` | ILMERA terms of use | ILMERA terms of use. Read the scope of website use and counselling responsibilities before relying on any application guidance. | ILMERA terms of use |
+
+## New task 3 guide surfaces
+
+| Route | Title | Description | H1 |
+| --- | --- | --- | --- |
+| `/blog/how-to-choose-study-abroad-consultant-karnataka` | Choose a Study Abroad Consultant in Karnataka \| ILMERA | How to choose a study abroad consultant in Karnataka: ten checks on written scope, fees, documents, privacy and promises. | How to choose a study abroad consultant in Karnataka |

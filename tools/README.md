@@ -216,3 +216,32 @@ remains separate. The publication command also requires the independent exact
 Italy amount/attribution/caution check across the whole published site.
 `python3 tools/test_wording.py` covers normalized/encoded wording regressions.
 Drafts and the separate noindex utility page retain their existing boundaries.
+
+## Phase 19 presentation, identity and bounded review
+
+`data/seo-map.json` holds provisional page targets and reviewed short surfaces.
+Published entry points use `includes/site-presentation.php` before output,
+so titles, descriptions, H1/openings, social metadata and page/service/article
+schema agree in server-delivered HTML. `data/answer-map.json` records existing
+page provenance for bounded answers/FAQ additions. Protected destination data
+and existing source/publication gates are not rewritten. `data/entity.json`
+is the canonical identity; the existing LLM builder also maintains its shared
+entity reference. Empty owner proof stays in `data/proof.php`; see
+`reports/proof-slots.md` before any owner-approved activation.
+
+Additional fresh local checks:
+
+```sh
+python3 tools/check_phase19.py --base-url http://127.0.0.1:8080
+python3 tools/check_technical_seo.py --base-url http://127.0.0.1:8080
+php tools/test_proof.php
+python3 tools/build_llms_directory.py --base-url http://127.0.0.1:8080
+```
+
+The independent cycle checker reads the just-captured full-suite snapshots,
+not historical browser evidence. Phase 19 used fresh PHP 8.5 WASM rendering
+and Chromium at three widths with scripts enabled/disabled after every task.
+All results are in `reports/phase-19-checks.json`. The cycle log distinguishes
+local publication failures from inaccessible research and owner/live checks.
+Never run mutation fixtures against the live docroot. The active owner
+workflow is backup-first direct-live deployment and live smoke testing.

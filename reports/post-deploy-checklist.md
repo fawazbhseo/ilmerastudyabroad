@@ -14,7 +14,7 @@ Owner checklist, 2026-10-16. Deploy directly to the live site; no staging step.
 
 3. **Test the actual live website**, on a phone and a computer. Open the
    homepage, Services, Contact, Blog, All Pages and `/sitemap.xml`. Follow links
-   to all seven published destinations, 17 location guides and five articles.
+   to all seven published destinations, 17 location guides and six articles.
    Check that each address opens the intended page with readable content.
    Try an old `.php` address and a missing address to check the existing
    redirects and not-found response.
