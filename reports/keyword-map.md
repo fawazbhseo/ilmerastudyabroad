@@ -50,3 +50,7 @@ Date: 2026-10-16. Strategy document could not be opened by title using the avail
 - Coorg counselling article explains the process; the Kodagu location page addresses family coordination. Avoid assigning the same primary target to both.
 - Broad homepage/service queries overlap in intent. Brand/navigation scope is retained provisionally rather than claiming regional rankings.
 - Document-derived prompt/keyword completeness cannot be confirmed until an actual document link or ID is available. No page is added for an unresolved research gap.
+
+## Task 3 authorized guide addition
+
+`/blog/how-to-choose-study-abroad-consultant-karnataka`: primary `how to choose a study abroad consultant in Karnataka`; secondary targets `written counselling scope and fees`, `consultant accountability checks`, `counselling privacy and refund terms`. Owner-requested guide, not document research. Thirty-eight published routes now have distinct primary targets. No existing status changed.

@@ -3,6 +3,17 @@
 function ilmera_posts()
 {
     static $posts = [
+        'how-to-choose-study-abroad-consultant-karnataka' => [
+            'slug' => 'how-to-choose-study-abroad-consultant-karnataka',
+            'title' => 'How to choose a study abroad consultant in Karnataka',
+            'excerpt' => 'Ten practical checks for families comparing counselling scope, fees, document handling, privacy and responsibilities.',
+            'category' => 'Planning',
+            'readMinutes' => 6,
+            'datePublished' => '2026-10-16',
+            'dateModified' => '2026-10-16',
+            'status' => 'published',
+            'related' => ['study-abroad-counselling-from-coorg', 'documents-needed-to-study-abroad-from-india'],
+        ],
         'study-in-germany-free-aps-certificate' => [
             'slug' => 'study-in-germany-free-aps-certificate',
             'title' => 'Germany Tuition and APS: Check the Applicable Route',

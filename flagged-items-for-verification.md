@@ -3108,3 +3108,13 @@ its content-hash gate are unchanged. Article review file hashes were updated
 only for the new presentation include, not for a source/fact/status change.
 All keyword assignments remain provisional pending the inaccessible strategy
 document. Exact title/description/H1 values are in the on-page change report.
+
+## Phase 19 task 3: explicitly authorized guide, 2026-10-16
+
+Added only the requested consultant-choice guide. Existing statuses remain
+unchanged; the new article has its own published entry under the established
+general-guide pattern. Ten checks are reader advice, not promised outcomes.
+Missing fee/individual agreement/student-proof information is explicit.
+The full heading/primary target is longer than the short-title budget, so
+the title uses the faithful shorter Choose wording. No keyword research
+or strategy-document proof was invented.

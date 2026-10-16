@@ -12,7 +12,7 @@ Exact document headings, FAQ matches and section citations cannot be supplied.
 
 | Owner target | Intended page / exact heading | Status | Reason / suggested page type |
 | --- | --- | --- | --- |
-| How to choose a study abroad consultant in Karnataka | Planned task 3 guide / heading of the same wording | gap | Add the explicitly requested educational checklist guide |
+| How to choose a study abroad consultant in Karnataka | `/blog/how-to-choose-study-abroad-consultant-karnataka` / How to choose a study abroad consultant in Karnataka | answered | Ten checks, repo-based self-assessment and four visible FAQs |
 | Study abroad consultancy fees India | Services / fee information | gap | No public fee schedule verified; owner fee explainer needed |
 | Documents needed to study abroad from India | Existing documents article / route-specific checklist | partly answered | Existing sourced route examples, not a universal document list |
 | Scholarships for Indian students abroad | Existing scholarships article / eligibility and evidence | partly answered | Existing conditional funding examples, not individual award proof |
