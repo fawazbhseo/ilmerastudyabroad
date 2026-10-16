@@ -14,6 +14,7 @@ class Surface(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
         self.titles, self.h1s, self.openings, self.descriptions = [], [], [], []
+        self.direct = []
         self.target = None
         self.feed(text)
 
@@ -24,6 +25,9 @@ class Surface(HTMLParser):
             self.target.append('')
         if tag == 'p' and a.get('class') == 'seo-opening':
             self.target = self.openings
+            self.target.append('')
+        if tag == 'p' and a.get('class') == 'direct-answer':
+            self.target = self.direct
             self.target.append('')
         if tag == 'meta' and a.get('name') == 'description':
             self.descriptions.append(a.get('content'))
@@ -54,6 +58,9 @@ def check(base, root):
         assert surface.openings == [entry['opening']] and entry['primary'].casefold() in entry['opening'].casefold(), (path, 'Opening')
         assert entry['title'] not in seen_titles and entry['description'] not in seen_desc, (path, 'Duplicate metadata')
         seen_titles.add(entry['title']); seen_desc.add(entry['description'])
+        if (root / 'data/answer-map.json').exists() and entry['kind'] in ('place', 'destination', 'article'):
+            assert len(surface.direct) == 1 and 40 <= len(surface.direct[0].split()) <= 60, (path, 'Direct answer')
+            assert len(re.findall(r'<details class="il-faq"', html)) >= 4, (path, 'Four visible FAQs')
         text = ' '.join(PublishedContent(html, include_government_citations=True).parts)
         assert not re.search(r'\bILMERA(?: Study Abroad)?\s+(?:is\s+)?(?:India.s\s+|the\s+)?(?:best|top|leading|no\.?\s*1)\b', text, re.I), (path, 'Superlative claim')
         assert not re.search(r'"(?:aggregateRating|@type"\s*:\s*"(?:Review|LocalBusiness))', html), (path, 'Disallowed proof schema')

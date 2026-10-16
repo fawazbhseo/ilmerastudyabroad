@@ -3118,3 +3118,13 @@ Missing fee/individual agreement/student-proof information is explicit.
 The full heading/primary target is longer than the short-title budget, so
 the title uses the faithful shorter Choose wording. No keyword research
 or strategy-document proof was invented.
+
+## Phase 19 task 4: bounded answer overlays, 2026-10-16
+
+Direct answers and added FAQs use only existing page introductions, authored
+sections or preparation advice. Existing sourced facts are not rewritten.
+The older backlog article is not treated as proof of a programme eligibility
+rule; its new answer is limited to honest record preparation. No document
+prompts are invented. The fee-schedule gap remains open. Rendering additions
+are recorded in data/answer-map.json with source-file provenance; underlying
+source gates and destination records remain intact.

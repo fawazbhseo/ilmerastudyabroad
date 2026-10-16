@@ -14,6 +14,9 @@ function ilmera_presentation_graph($node, $entry)
         if (isset($node['name'])) $node['name'] = $entry['title'];
         if (isset($node['headline'])) $node['headline'] = $entry['h1'];
     }
+    if ($type === 'FAQPage' && !empty($entry['answer_data']['extra_faqs'])) {
+        foreach ($entry['answer_data']['extra_faqs'] as $faq) $node['mainEntity'][] = ['@type'=>'Question','name'=>$faq['question'],'acceptedAnswer'=>['@type'=>'Answer','text'=>$faq['answer']]];
+    }
     foreach ($node as $key => $value) {
         if (is_array($value)) $node[$key] = ilmera_presentation_graph($value, $entry);
     }
@@ -27,6 +30,8 @@ function ilmera_present_page($html)
     $map = json_decode(file_get_contents(dirname(__DIR__) . '/data/seo-map.json'), true);
     if (!isset($map[$path]) || preg_match('~<meta[^>]+name="robots"[^>]+content="[^"]*noindex~i', $html)) return $html;
     $entry = $map[$path];
+    $answers = json_decode(file_get_contents(dirname(__DIR__) . '/data/answer-map.json'), true);
+    if (isset($answers[$path])) $entry['answer_data'] = $answers[$path];
     $title = ilmera_presentation_escape($entry['title']);
     $description = ilmera_presentation_escape($entry['description']);
     $html = preg_replace('~<title>.*?</title>~s', '<title>' . $title . '</title>', $html, 1);
@@ -48,6 +53,24 @@ function ilmera_present_page($html)
         if (!is_array($graph)) return $match[0];
         return '<script type="application/ld+json">' . json_encode(ilmera_presentation_graph($graph, $entry), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) . '</script>';
     }, $html);
+    if (isset($entry['answer_data'])) {
+        $answer = $entry['answer_data'];
+        $block = '<div class="direct-answer-block" style="max-width:760px;margin:24px auto;text-align:left;"><h2>' . ilmera_presentation_escape($answer['question']) . '</h2><p class="direct-answer">' . ilmera_presentation_escape($answer['answer']) . '</p></div>';
+        $html = preg_replace('~(<p class="seo-opening"[^>]*>.*?</p>)~s', '$1' . $block, $html, 1);
+        if ($answer['extra_faqs']) {
+            $faqHtml = '<section class="s-wrap article-body"><div class="container"><h2>Further questions</h2>';
+            $entities = [];
+            foreach ($answer['extra_faqs'] as $faq) {
+                $faqHtml .= '<details class="il-faq"><summary>' . ilmera_presentation_escape($faq['question']) . '</summary><div><p>' . ilmera_presentation_escape($faq['answer']) . '</p></div></details>';
+                $entities[] = ['@type'=>'Question','name'=>$faq['question'],'acceptedAnswer'=>['@type'=>'Answer','text'=>$faq['answer']]];
+            }
+            $html = str_replace('</main>', $faqHtml . '</div></section></main>', $html);
+            if (!preg_match('~"@type"\s*:\s*"FAQPage"~', $html)) {
+                $json = json_encode(['@context'=>'https://schema.org','@type'=>'FAQPage','@id'=>'https://ilmerastudyabroad.com'.$path.'#faq','mainEntity'=>$entities], JSON_UNESCAPED_SLASHES|JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT);
+                $html = str_replace('</head>', '<script type="application/ld+json">'.$json.'</script></head>', $html);
+            }
+        }
+    }
     return $html;
 }
 
