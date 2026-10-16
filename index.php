@@ -1,3 +1,8 @@
+<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +10,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <!-- ════════════════════ PRIMARY SEO META ════════════════════ -->
-<title><?php echo $page_title ?? 'ILMERA Study Abroad | Study in Germany, Italy, UK, Russia & Europe: No-IELTS & Free Study Routes'; ?></title>
-<meta name="description" content="<?php echo $page_description ?? 'ILMERA Study Abroad guides Indian students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC. Free & low-cost study routes, no-IELTS options, scholarship guidance, backlogs & low marks accepted. Book a free consultation.'; ?>"/>
-<meta name="keywords" content="study abroad consultancy India, study abroad consultant for Coorg students, study abroad consultant Kodagu, study in Germany free, study in Italy DSU stipend, study in Russia no IELTS, study abroad with backlogs, study abroad low marks, cheapest country to study abroad for Indian students, student visa assistance India, study in Europe without IELTS, study in Czech Republic Lithuania Latvia Slovakia"/>
+<title><?php echo $page_title ?? 'ILMERA Study Abroad | Study in Germany, Italy, UK, Russia & Europe: No-IELTS & Study Cost Planning'; ?></title>
+<meta name="description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="ILMERA Study Abroad"/>
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
 <meta name="googlebot" content="index, follow"/>
@@ -28,7 +33,7 @@
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:url" content="<?php echo $page_url ?? 'https://ilmerastudyabroad.com/'; ?>"/>
 <meta property="og:title" content="<?php echo $og_title ?? 'ILMERA Study Abroad: Your Gateway to Global Education'; ?>"/>
-<meta property="og:description" content="<?php echo $og_description ?? 'Study in Germany, Italy, UK, Russia, Czech Republic & more. Free & low-cost study routes, no-IELTS options, scholarship guidance & backlogs accepted. Book a free consultation.'; ?>"/>
+<meta property="og:description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:alt" content="ILMERA Study Abroad logo"/>
 <meta property="og:locale" content="en_IN"/>
@@ -38,7 +43,7 @@
 <!-- ════════════════════ TWITTER / X CARD ════════════════════ -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="<?php echo $twitter_title ?? 'ILMERA Study Abroad: Your Gateway to Global Education'; ?>"/>
-<meta name="twitter:description" content="<?php echo $twitter_description ?? 'Study in Germany, Italy, UK, Russia & more. Free & low-cost study routes, no-IELTS options, scholarship guidance & backlogs accepted. Book a free consultation.'; ?>"/>
+<meta name="twitter:description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta name="twitter:image:alt" content="ILMERA Study Abroad logo"/>
 
@@ -56,7 +61,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
       "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
@@ -66,22 +71,16 @@
         "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, Karnataka, offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, Karnataka, offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries.",
             "email": "info@ilmerastudyabroad.com",
       "telephone": "+91-9019557427",
 
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
       "contactPoint": [
         {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service","email":"info@ilmerastudyabroad.com","areaServed":"IN","availableLanguage":["English","Kannada","Malayalam","Hindi"]},
         {"@type":"ContactPoint","telephone":"+919481084038","contactType":"customer service","areaServed":"IN"}
       ],
       "areaServed": ["Germany","Italy","United Kingdom","Czech Republic","Lithuania","Latvia","Slovakia","Russia","Saudi Arabia","UAE","Kuwait","Qatar","Bahrain","Oman","India","Karnataka","Kodagu","Coorg"],
-      "knowsAbout": ["University Admissions","Student Visas","Scholarships","IELTS Preparation","Study Abroad without IELTS","Free Education in Europe","Study Abroad with Backlogs"],
+      "knowsAbout": ["University Admissions","Student Visas","Scholarships","IELTS Preparation","Study Abroad without IELTS","European study cost planning","Study Abroad with Backlogs"],
      "serviceType": ["University Admissions Counselling","Student Visa Assistance","Scholarship Guidance","Language Test Preparation","Pre-Departure Briefings","Career Counselling Abroad","Online Study Abroad Counselling"],
       "availableChannel": {
         "@type": "ServiceChannel",
@@ -154,36 +153,33 @@
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [{"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com/"}]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/#breadcrumb"}
     },
     {
           
       "@type": "FAQPage",
       "@id": "https://ilmerastudyabroad.com/#faq",
       "mainEntity": [
-        {"@type":"Question","name":"Can I study abroad if I have academic backlogs?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. Russia is a route ILMERA arranges for students with academic backlogs, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying."}},
+        {"@type":"Question","name":"Can I study abroad if I have academic backlogs?","acceptedAnswer":{"@type":"Answer","text":"In many cases, yes. Russia is a route students with academic backlogs can discuss with ILMERA, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying."}},
         {"@type":"Question","name":"Can I study abroad with low marks or a low percentage?","acceptedAnswer":{"@type":"Answer","text":"Yes, students with low marks can study abroad. Russia, Slovakia, Lithuania and Latvia have universities with more accessible entry requirements than many universities in the UK or US. ILMERA reviews your specific percentage and matches you to countries and universities suited to your profile."}},
         {"@type":"Question","name":"Can I study abroad without IELTS?","acceptedAnswer":{"@type":"Answer","text":"Yes, you can study abroad without IELTS in several countries. Russia and Lithuania commonly waive IELTS, and many programmes in Latvia, Slovakia and the Czech Republic accept a Medium-of-Instruction (MOI) letter or an internal English test instead. Germany also frequently waives IELTS when your prior education was in English."}},
-        {"@type":"Question","name":"Which is the cheapest country to study abroad for Indian students?","acceptedAnswer":{"@type":"Answer","text":"For Indian students on a tight budget, the Czech Republic, Lithuania, Latvia, Russia and Slovakia are the most affordable study destinations, with much lower tuition and living costs than the UK. Germany's public universities charge little to no tuition, though you still need to fund living expenses."}},
-        {"@type":"Question","name":"Which countries let you study for free?","acceptedAnswer":{"@type":"Answer","text":"Germany, Italy and Slovakia offer free or heavily subsidised university education. German public universities charge little to no tuition, Italy offers regional DSU scholarships that can cover tuition plus a living stipend, and some Slovakian programmes are tuition-free. You still need to cover living costs and prove funds for your visa."}},
-        {"@type":"Question","name":"How can I study in Germany for free from India?","acceptedAnswer":{"@type":"Answer","text":"You can study in Germany for free by applying to public universities, which charge little to no tuition fees even for Indian students. You'll need an APS certificate (mandatory for Indian applicants), proof of funds via a blocked account, and either English or German proficiency. ILMERA guides you through APS, admissions and the blocked-account process."}},
-        {"@type":"Question","name":"What is the Italy DSU scholarship and can Indian students get it?","acceptedAnswer":{"@type":"Answer","text":"The DSU (Diritto allo Studio Universitario) is an Italian regional scholarship open to international students, including Indians, that can cover full tuition plus a living stipend, subsidised housing and university meals. Eligibility is mainly income-based (assessed via ISEE) and merit, and amounts vary by region. ILMERA helps you check eligibility and prepare the documents."}},
+        {"@type":"Question","name":"How should I compare total study budgets?","acceptedAnswer":{"@type":"Answer","text":"Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees."}},
+        {"@type":"Question","name":"How do tuition and scholarship conditions differ?","acceptedAnswer":{"@type":"Answer","text":"At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment."}},
+        {"@type":"Question","name":"What tuition costs should a Germany applicant check?","acceptedAnswer":{"@type":"Answer","text":"At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply."}},
+        {"@type":"Question","name":"What conditional scholarship guidance applies to Italy?","acceptedAnswer":{"@type":"Answer","text":"Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment."}},
         {"@type":"Question","name":"How much does it cost to study abroad from India?","acceptedAnswer":{"@type":"Answer","text":"The total cost of studying abroad from India varies widely by country. Budget European destinations like the Czech Republic, Lithuania, Latvia and Russia can cost significantly less per year than the UK, which is among the more expensive options. Your real cost depends on tuition, city, and living expenses; ILMERA gives you a country-by-country breakdown before you decide."}},
         {"@type":"Question","name":"Is studying in Russia good for Indian students with a low budget?","acceptedAnswer":{"@type":"Answer","text":"Yes, Russia is one of the most budget-friendly options for Indian students, with low tuition, affordable living costs, no IELTS requirement, and acceptance of backlogs and low marks. It's a common route for bachelor's and medical (MBBS) programmes. ILMERA helps you shortlist recognised universities and handle the admission and visa process."}},
         {"@type":"Question","name":"Do I need IELTS to study in the UK?","acceptedAnswer":{"@type":"Answer","text":"Most UK universities require IELTS (commonly 5.5–6.5 depending on the course), though some accept a Medium-of-Instruction letter or their own English test. The UK also offers a Graduate visa for post-study work: 2 years for applications on or before 31 December 2026, and 18 months for applications from 1 January 2027, per gov.uk. ILMERA advises whether your profile needs IELTS and which universities may waive it."}},
-        {"@type":"Question","name":"Can I study in Italy for free with a stipend?","acceptedAnswer":{"@type":"Answer","text":"Yes, eligible students can study in Italy with free tuition plus a stipend through regional DSU scholarships, which may also include subsidised accommodation and meals. Eligibility is assessed mainly on family income (ISEE) and merit, and the exact amount varies by region and year. ILMERA helps you assess whether you qualify before applying."}},
+        {"@type":"Question","name":"Can I count on an Italy scholarship before a written award?","acceptedAnswer":{"@type":"Answer","text":"No. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment."}},
         {"@type":"Question","name":"Which European countries are cheapest and don't require IELTS?","acceptedAnswer":{"@type":"Answer","text":"The Czech Republic, Lithuania, Latvia and Slovakia are among the cheapest European destinations that often don't require IELTS, frequently accepting a Medium-of-Instruction letter or an internal English test instead. These countries also offer lower tuition and living costs than Western Europe. ILMERA confirms the current requirement for each programme before you apply."}},
         {"@type":"Question","name":"Can I study in Lithuania or Latvia after 12th with low marks?","acceptedAnswer":{"@type":"Answer","text":"Yes, Lithuania and Latvia accept Indian students after 12th with modest academic marks, offer English-taught bachelor's programmes, and often don't require IELTS. Tuition and living costs are among the lowest in the EU. ILMERA reviews your marksheet and shortlists programmes that match your profile."}},
-        {"@type":"Question","name":"Can I study in Slovakia or the Czech Republic on a low budget?","acceptedAnswer":{"@type":"Answer","text":"Yes, both Slovakia and the Czech Republic are low-budget study destinations for Indian students, with affordable tuition, low living costs, and some tuition-free Slovakian programmes. Many courses accept students without IELTS. ILMERA helps you compare programmes, costs and English requirements for both."}},
+        {"@type":"Question","name":"How does teaching language affect tuition in Slovakia?","acceptedAnswer":{"@type":"Answer","text":"Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees."}},
         {"@type":"Question","name":"Can I study in the GCC (UAE, Saudi Arabia, Qatar) as an Indian student?","acceptedAnswer":{"@type":"Answer","text":"Yes, Indian students can study in GCC countries such as the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman, where cities like Dubai host international branch campuses of UK, US and Australian universities. This suits students who want a globally-recognised degree closer to home or near family working in the Gulf. ILMERA advises on universities, courses and student visas across the GCC."}},
-        {"@type":"Question","name":"What is the step-by-step process to study abroad through a consultant?","acceptedAnswer":{"@type":"Answer","text":"The process is: a free profile assessment, country and university shortlisting, application and admission, scholarship or funding guidance, visa documentation and application, then pre-departure preparation. With ILMERA, one counsellor guides you through every stage from first enquiry to arrival, so you always know the next step."}},
+        {"@type":"Question","name":"What is the step-by-step process to study abroad through a consultant?","acceptedAnswer":{"@type":"Answer","text":"The process is: a no-charge profile assessment, country and university shortlisting, application and admission, scholarship or funding guidance, visa documentation and application, then pre-departure preparation. With ILMERA, one counsellor guides you through every stage from first enquiry to arrival, so you always know the next step."}},
         {"@type":"Question","name":"When should I start my study abroad application and how long does it take?","acceptedAnswer":{"@type":"Answer","text":"You should ideally start 6–12 months before your intended intake, because admissions, scholarship deadlines (like Italy's DSU) and visa processing each take time. Starting early gives you the widest choice of universities and funding. ILMERA maps your timeline backwards from your target intake so you don't miss deadlines."}},
-        {"@type":"Question","name":"What is ILMERA Study Abroad and is it legitimate?","acceptedAnswer":{"@type":"Answer","text":"ILMERA Study Abroad is an Indian study abroad consultancy, part of the ILMERA Group, based in Coorg, Kodagu, Karnataka, that guides students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. It is led by a named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers a free initial consultation with honest eligibility advice rather than guaranteed-admission promises."}},
-        {"@type":"Question","name":"How is ILMERA different from other study abroad consultants?","acceptedAnswer":{"@type":"Answer","text":"ILMERA works with Indian students who have backlogs, low marks or no IELTS score, and focuses on affordable and free-education destinations in Europe and Russia. Each student works with a named counsellor who gives honest advice about what is realistically achievable, rather than one-size-fits-all promises."}},
-        {"@type":"Question","name":"Is there a study abroad consultant for students from Coorg and Kodagu?","acceptedAnswer":{"@type":"Answer","text":"Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call, so you get the same counsellor and process whether or not you can visit in person. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a free consultation to start from anywhere in Kodagu."}}
+        {"@type":"Question","name":"What is ILMERA Study Abroad and is it legitimate?","acceptedAnswer":{"@type":"Answer","text":"ILMERA Study Abroad is an Indian study abroad consultancy, part of the ILMERA Group, based in Coorg, Kodagu, Karnataka, that guides students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. It is led by a named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers a no-charge initial consultation with honest eligibility advice rather than guaranteed-admission promises."}},
+        {"@type":"Question","name":"How is ILMERA different from other study abroad consultants?","acceptedAnswer":{"@type":"Answer","text":"ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call. Discuss your academic record, budget and course preferences before choosing an application route."}},
+        {"@type":"Question","name":"Is there a study abroad consultant for students from Coorg and Kodagu?","acceptedAnswer":{"@type":"Answer","text":"Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA counselling is online only; these channels do not involve travel to counselling premises. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu."}}
       ]
     },
 
@@ -192,15 +188,15 @@
       "@id": "https://ilmerastudyabroad.com/#destinations",
       "name": "Study Abroad Destinations",
       "itemListElement": [
-                {"@type":"ListItem","position":1,"name":"Study in Germany","url":"https://ilmerastudyabroad.com/services#germany"},
-        {"@type":"ListItem","position":2,"name":"Study in Italy","url":"https://ilmerastudyabroad.com/services#italy"},
-        {"@type":"ListItem","position":3,"name":"Study in the UK","url":"https://ilmerastudyabroad.com/services#uk"},
-        {"@type":"ListItem","position":4,"name":"Study in Czech Republic","url":"https://ilmerastudyabroad.com/services#czech-republic"},
-        {"@type":"ListItem","position":5,"name":"Study in Lithuania","url":"https://ilmerastudyabroad.com/services#lithuania"},
-        {"@type":"ListItem","position":6,"name":"Study in Latvia","url":"https://ilmerastudyabroad.com/services#latvia"},
-        {"@type":"ListItem","position":7,"name":"Study in Slovakia","url":"https://ilmerastudyabroad.com/services#slovakia"},
-        {"@type":"ListItem","position":8,"name":"Study in Russia","url":"https://ilmerastudyabroad.com/services#russia"},
-        {"@type":"ListItem","position":9,"name":"Study in GCC Countries","url":"https://ilmerastudyabroad.com/services#gcc"}
+                {"@type":"ListItem","position":1,"name":"Study in Germany","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('germany'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":2,"name":"Study in Italy","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('italy'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":3,"name":"Study in the UK","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('uk'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":4,"name":"Study in Czech Republic","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('czech-republic'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":5,"name":"Study in Lithuania","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('lithuania'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":6,"name":"Study in Latvia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('latvia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":7,"name":"Study in Slovakia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('slovakia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":8,"name":"Study in Russia","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('russia'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>},
+        {"@type":"ListItem","position":9,"name":"Study in GCC Countries","url":<?= json_encode('https://ilmerastudyabroad.com' . ilmera_destination_target('gcc'), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP) ?>}
 
       ]
     }
@@ -307,13 +303,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 @media(max-width:768px){.why-grid{grid-template-columns:1fr;}.why-sec{padding:80px 0;}.why-card{padding:36px 28px;}}
 @media(min-width:769px) and (max-width:1024px){.why-grid{grid-template-columns:1fr 1fr;}}
 
-/* ─── TESTIMONIALS ────────────────────────────────── */
+/* STUDY ROUTES */
 .testi-sec{position:relative;z-index:10;padding:130px 0;background:rgba(4,6,15,0.97);}
 .testi-hdr{text-align:center;margin-bottom:64px;}
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1100px;margin:0 auto;}
 .testi-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);padding:40px;border-radius:16px;position:relative;overflow:hidden;transition:transform .35s,border-color .35s;}
 .testi-card:hover{transform:translateY(-6px);border-color:rgba(201,168,76,0.3);}
-.testi-qm{position:absolute;top:8px;right:18px;font-family:'Cormorant Garamond',serif;font-size:110px;color:rgba(255,255,255,0.05);line-height:1;pointer-events:none;user-select:none;}
 .testi-text{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:18px;color:var(--grey-mid);line-height:1.7;margin-bottom:24px;position:relative;z-index:1;}
 .testi-name{font-size:16px;font-weight:600;color:var(--white);margin-bottom:4px;}
 .testi-dest{font-size:13px;font-weight:300;color:var(--gold);}
@@ -360,6 +355,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .il-faq > div{padding:0 26px 24px;}
 .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;margin:0;}
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
+.breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
+.breadcrumb a{color:var(--grey-mid);text-decoration:none;}
 </style>
 
 </head>
@@ -381,19 +378,20 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <!-- ═══ HERO ═══ -->
 <section id="hero">
   <div class="hero-inner">
+    <?php ilmera_breadcrumbs($pageTrail, '/'); ?>
     <div class="hero-label" id="hLabel">ILMERA GROUP PRESENTS</div>
        <h1 class="hero-h1" id="hH1">Study Abroad from India<em>Germany · Italy · UK · Russia &amp; Europe</em></h1>
-        <p class="hero-sub" id="hSub">Study abroad consultants for Indian students, including options with no IELTS, backlogs or low marks accepted, and free or low-cost tuition across Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia &amp; the GCC.</p>
+        <p class="hero-sub" id="hSub">Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</p>
     <div class="hero-btns" id="hBtns">
           <a href="/services" class="btn-gold">Explore Study Destinations</a>
-      <a href="/contact" class="btn-ghost">Book Free Consultation</a>
+      <a href="/contact" class="btn-ghost">Book no-charge Consultation</a>
     </div>
     <div class="hero-div" id="hDiv"></div>
     <div class="hero-stats" id="hStats">
-                  <div class="hero-stat"><span class="stat-num" data-target="9" data-suffix="">0</span><span class="stat-lbl">Study Destinations</span></div>
-      <div class="hero-stat"><span class="stat-num" data-target="3" data-suffix="">0</span><span class="stat-lbl">Named Counsellors</span></div>
-      <div class="hero-stat"><span class="stat-num" data-target="4" data-suffix="">0</span><span class="stat-lbl">Languages Spoken</span></div>
-                  <div class="hero-stat"><span class="stat-num" data-target="2023" data-suffix="">0</span><span class="stat-lbl">Founded</span></div>
+                  <div class="hero-stat"><span class="stat-num" data-target="9" data-suffix="">9</span><span class="stat-lbl">Study Destinations</span></div>
+      <div class="hero-stat"><span class="stat-num" data-target="3" data-suffix="">3</span><span class="stat-lbl">Named Counsellors</span></div>
+      <div class="hero-stat"><span class="stat-num" data-target="4" data-suffix="">4</span><span class="stat-lbl">Languages Spoken</span></div>
+                  <div class="hero-stat"><span class="stat-num" data-target="2026" data-suffix="">2026</span><span class="stat-lbl">Founded</span></div>
 
     </div>
   </div>
@@ -428,23 +426,20 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </div>
 
-<!-- DESTINATION QUICK LINKS (crawlable internal links) -->
+<!-- STATUS-DRIVEN DESTINATION LINKS -->
+<?php $homeDestinations = ilmera_published_destinations(); if ($homeDestinations): ?>
 <section style="position:relative;z-index:10;background:rgba(4,6,15,0.97);padding:60px 0;">
   <div class="container">
     <h2 class="sec-h2 lt reveal" style="text-align:center;font-size:34px;margin-bottom:36px;">Choose Your Study Destination</h2>
     <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;max-width:900px;margin:0 auto;">
-      <a href="/services#germany" class="btn-ghost">Study in Germany</a>
-      <a href="/services#italy" class="btn-ghost">Study in Italy</a>
-      <a href="/services#uk" class="btn-ghost">Study in the UK</a>
-      <a href="/services#czech-republic" class="btn-ghost">Study in Czech Republic</a>
-      <a href="/services#lithuania" class="btn-ghost">Study in Lithuania</a>
-      <a href="/services#latvia" class="btn-ghost">Study in Latvia</a>
-      <a href="/services#slovakia" class="btn-ghost">Study in Slovakia</a>
-      <a href="/services#russia" class="btn-ghost">Study in Russia</a>
-      <a href="/services#gcc" class="btn-ghost">Study in GCC Countries</a>
+<?php foreach ($homeDestinations as $destinationGuide): ?>
+      <?= ilmera_link($destinationGuide['url'], $destinationGuide['name'], ['class' => 'btn-ghost']) ?>
+<?php endforeach; ?>
     </div>
   </div>
 </section>
+<?php endif; ?>
+<div class="container"><?php ilmera_discovery_links(ilmera_indexable_locations(), 'Locations we support'); ?></div>
 
 <!-- SERVICE AREA: COORG / KODAGU (service-area business, no physical office claimed) -->
 <section class="s-wrap" id="coorg-kodagu">
@@ -455,13 +450,13 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </div>
     <div style="max-width:820px;margin:0 auto;text-align:center;">
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.8;">
-        ILMERA Study Abroad is based in Coorg and helps students from Kodagu, Madikeri, Virajpet and across Karnataka plan their overseas education through free consultation by phone, WhatsApp and video call. Whether you're aiming for free tuition in Germany, the DSU scholarship in Italy, or a low-cost, no-IELTS route in Russia, Lithuania or Latvia, our named counsellors guide you from profile assessment to visa.
+        ILMERA Study Abroad is based in Coorg and helps students from Kodagu, Madikeri, Virajpet and across Karnataka plan their overseas education through conditional consultation by phone, WhatsApp and video call. Whether you're aiming for conditional tuition in Germany, the DSU scholarship in Italy, or a low-cost, no-IELTS route in Russia, Lithuania or Latvia, our named counsellors guide you from profile assessment to visa.
       </p>
       <p style="font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.8;margin-top:16px;">
         Students from Kodagu often have strong academics but limited access to specialised study-abroad advice locally. ILMERA closes that gap: you get the same country-by-country cost breakdowns, eligibility checks (including for backlogs and low marks), and honest guidance that students in Bangalore or Mangalore receive, from wherever you are in Coorg.
       </p>
-      <p style="font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;">Sessions run on the phone or a video call from our Coorg base; the only in-person step is your visa appointment at the relevant consulate or VFS centre.</p>
-      <a href="/contact" class="btn-gold reveal" style="margin-top:28px;">Book a Free Online Consultation</a>
+      <p style="font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>
+      <a href="/contact" class="btn-gold reveal" style="margin-top:28px;">Book a no-charge Online Consultation</a>
     </div>
   </div>
 </section>
@@ -482,7 +477,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <article class="why-card reveal">
         <svg class="why-icon" viewBox="0 0 48 48" fill="none"><path d="M8 24 C8 14 14 8 24 8 C34 8 40 14 40 24" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M8 24 C8 34 14 40 24 40 C34 40 40 34 40 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/><circle cx="8" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="8" r="3" fill="currentColor"/><circle cx="40" cy="24" r="3" fill="currentColor"/><circle cx="24" cy="40" r="3" fill="currentColor"/></svg>
         <h3>End-to-End Support</h3>
-        <p>From your very first enquiry to landing safely at your destination, ILMERA is your constant companion for admissions, visas, scholarships, and pre-departure prep, all in one place.</p>
+        <p>ILMERA offers guidance on admissions, visas, scholarships and pre-departure preparation, starting with your enquiry.</p>
       </article>
       <article class="why-card reveal">
         <svg class="why-icon" viewBox="0 0 48 48" fill="none"><polygon points="24,4 29,18 44,18 32,27 37,42 24,33 11,42 16,27 4,18 19,18" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="24" cy="24" r="5" fill="currentColor" opacity="0.25"/></svg>
@@ -493,29 +488,26 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </section>
 
-<!-- TESTIMONIALS -->
+<!-- STUDY ROUTES -->
 <section class="testi-sec">
   <div class="container">
     <div class="testi-hdr">
             <span class="sec-label">How We Help</span>
-      <h2 class="sec-h2 lt reveal">Real Study Routes We Arrange</h2>
+      <h2 class="sec-h2 lt reveal">Study Routes ILMERA Guides</h2>
     </div>
     <div class="testi-grid">
             <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
         <p class="testi-text">We guide students toward destinations that fit their goals, like the UK's Graduate visa: 2 years of post-study work for applications on or before 31 December 2026, and 18 months from 1 January 2027, per gov.uk.</p>
         <div class="testi-name">What ILMERA Helps With</div>
         <div class="testi-dest">&#127468;&#127463; United Kingdom: Admissions &amp; Visa</div>
       </article>
       <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
-        <p class="testi-text">We help eligible students apply for Italy's regional DSU scholarships, which can cover tuition plus a living stipend and subsidised housing and meals, based on income (ISEE) and merit.</p>
+        <p class="testi-text">Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p>
         <div class="testi-name">What ILMERA Helps With</div>
-        <div class="testi-dest">&#127470;&#127481; Italy: DSU Scholarship Guidance</div>
+        <div class="testi-dest">&#127470;&#127481; Italy: Conditional Scholarship Guidance</div>
       </article>
       <article class="testi-card reveal-r">
-        <div class="testi-qm">"</div>
-        <p class="testi-text">For students with backlogs or a low percentage, we arrange low-cost, no-IELTS bachelor's routes in Russia and other budget-friendly countries where such profiles are accepted.</p>
+        <p class="testi-text">For students with backlogs or a low percentage, we discuss low-cost, no-IELTS bachelor's routes in Russia and other budget-friendly countries where such profiles are accepted.</p>
         <div class="testi-name">What ILMERA Helps With</div>
         <div class="testi-dest">&#127479;&#127482; Russia: Backlogs &amp; No-IELTS Routes</div>
       </article>
@@ -549,16 +541,16 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
           <div class="sc-item"><span class="sc-rank">2</span><span>&#127473;&#127481; Lithuania</span></div>
           <div class="sc-item"><span class="sc-rank">3</span><span>&#127473;&#127483; Latvia</span></div>
           <div class="sc-item"><span class="sc-rank">4</span><span>&#127479;&#127482; Russia</span></div>
-          <div class="sc-item"><span class="sc-rank">5</span><span>&#127480;&#127472; Slovakia <em style="font-size:11px;color:#888;">(free in some branches)</em></span></div>
+          <div class="sc-item"><span class="sc-rank">5</span><span>&#127480;&#127472; Slovakia <em style="font-size:11px;color:#888;">(subject to programme conditions)</em></span></div>
         </div>
       </div>
       <div class="special-card reveal-l">
-        <div class="sc-badge" style="background:rgba(201,168,76,0.1);border-color:rgba(201,168,76,0.4);color:#8a6a00;">&#127379; Free Education Available</div>
-        <h3 class="sc-title">Study for Free</h3>
+        <div class="sc-badge" style="background:rgba(201,168,76,0.1);border-color:rgba(201,168,76,0.4);color:#8a6a00;">&#127379; Language-based tuition rules</div>
+        <h3 class="sc-title">Plan Study Funding</h3>
         <div class="sc-list">
-          <div class="sc-item"><span class="sc-rank">&#127465;&#127466;</span><span>Germany: Public universities free</span></div>
-          <div class="sc-item"><span class="sc-rank">&#127470;&#127481;</span><span>Italy: Free + annual stipend</span></div>
-          <div class="sc-item"><span class="sc-rank">&#127480;&#127472;</span><span>Slovakia: Free in some branches</span></div>
+          <div class="sc-item"><span class="sc-rank">&#127465;&#127466;</span><span>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</span></div>
+          <div class="sc-item"><span class="sc-rank">&#127470;&#127481;</span><span>Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</span></div>
+          <div class="sc-item"><span class="sc-rank">&#127480;&#127472;</span><span>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</span></div>
         </div>
       </div>
       <div class="special-card reveal-r">
@@ -582,19 +574,19 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </div>
     <div style="max-width:820px;margin:0 auto;">
 
-      <details class="il-faq"><summary>Can I study abroad if I have academic backlogs?</summary><div><p>In many cases, yes. Russia is a route ILMERA arranges for students with academic backlogs, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying.</p></div></details>
+      <details class="il-faq"><summary>Can I study abroad if I have academic backlogs?</summary><div><p>In many cases, yes. Russia is a route students with academic backlogs can discuss with ILMERA, with low tuition fees and no IELTS requirement at many universities. Eligibility depends on your specific marksheet, so ILMERA reviews each profile before applying.</p></div></details>
 
       <details class="il-faq"><summary>Can I study abroad with low marks or a low percentage?</summary><div><p>Yes, students with low marks can study abroad. Russia, Slovakia, Lithuania and Latvia have universities with more accessible entry requirements than many universities in the UK or US. ILMERA reviews your specific percentage and matches you to countries and universities suited to your profile.</p></div></details>
 
       <details class="il-faq"><summary>Can I study abroad without IELTS?</summary><div><p>Yes, you can study abroad without IELTS in several countries. Russia and Lithuania commonly waive IELTS, and many programmes in Latvia, Slovakia and the Czech Republic accept a Medium-of-Instruction (MOI) letter or an internal English test instead. Germany also frequently waives IELTS when your prior education was in English.</p></div></details>
 
-      <details class="il-faq"><summary>Which is the cheapest country to study abroad for Indian students?</summary><div><p>For Indian students on a tight budget, the Czech Republic, Lithuania, Latvia, Russia and Slovakia are the most affordable study destinations, with much lower tuition and living costs than the UK. Germany's public universities charge little to no tuition, though you still need to fund living expenses.</p></div></details>
+      <details class="il-faq"><summary>How should I compare total study budgets?</summary><div><p>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</p></div></details>
 
-      <details class="il-faq"><summary>Which countries let you study for free?</summary><div><p>Germany, Italy and Slovakia offer free or heavily subsidised university education. German public universities charge little to no tuition, Italy offers regional DSU scholarships that can cover tuition plus a living stipend, and some Slovakian programmes are tuition-free. You still need to cover living costs and prove funds for your visa.</p></div></details>
+      <details class="il-faq"><summary>How do tuition and scholarship conditions differ?</summary><div><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div></details>
 
-      <details class="il-faq"><summary>How can I study in Germany for free from India?</summary><div><p>You can study in Germany for free by applying to public universities, which charge little to no tuition fees even for Indian students. You'll need an <a href="https://www.aps-india.de/" target="_blank" rel="noopener nofollow">APS certificate</a> (mandatory for Indian applicants), proof of funds via a blocked account, and either English or German proficiency. ILMERA guides you through APS, admissions and the blocked-account process.</p></div></details>
+      <details class="il-faq"><summary>What tuition costs should a Germany applicant check?</summary><div><p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</p></div></details>
 
-      <details class="il-faq"><summary>What is the Italy DSU scholarship and can Indian students get it?</summary><div><p>The DSU (Diritto allo Studio Universitario) is an Italian regional scholarship open to international students, including Indians, that can cover full tuition plus a living stipend, subsidised housing and university meals. Eligibility is mainly income-based (assessed via ISEE) and merit, and amounts vary by region. ILMERA helps you check eligibility and prepare the documents.</p></div></details>
+      <details class="il-faq"><summary>What conditional scholarship guidance applies to Italy?</summary><div><p>Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div></details>
 
       <details class="il-faq"><summary>How much does it cost to study abroad from India?</summary><div><p>The total cost of studying abroad from India varies widely by country. Budget European destinations like the Czech Republic, Lithuania, Latvia and Russia can cost significantly less per year than the UK, which is among the more expensive options. Your real cost depends on tuition, city, and living expenses; ILMERA gives you a country-by-country breakdown before you decide.</p></div></details>
 
@@ -602,25 +594,25 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
       <details class="il-faq"><summary>Do I need IELTS to study in the UK?</summary><div><p>Most UK universities require IELTS (commonly 5.5–6.5 depending on the course), though some accept a Medium-of-Instruction letter or their own English test. The UK also offers a Graduate visa for post-study work: 2 years for applications on or before 31 December 2026, and 18 months for applications from 1 January 2027, per <a href="https://www.gov.uk/graduate-visa" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">gov.uk</a>. ILMERA advises whether your profile needs IELTS and which universities may waive it.</p></div></details>
 
-      <details class="il-faq"><summary>Can I study in Italy for free with a stipend?</summary><div><p>Yes, eligible students can study in Italy with free tuition plus a stipend through regional DSU scholarships, which may also include subsidised accommodation and meals. Eligibility is assessed mainly on family income (ISEE) and merit, and the exact amount varies by region and year. ILMERA helps you assess whether you qualify before applying.</p></div></details>
+      <details class="il-faq"><summary>Can I count on an Italy scholarship before a written award?</summary><div><p>No. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p></div></details>
 
       <details class="il-faq"><summary>Which European countries are cheapest and don't require IELTS?</summary><div><p>The Czech Republic, Lithuania, Latvia and Slovakia are among the cheapest European destinations that often don't require IELTS, frequently accepting a Medium-of-Instruction letter or an internal English test instead. These countries also offer lower tuition and living costs than Western Europe. ILMERA confirms the current requirement for each programme before you apply.</p></div></details>
 
       <details class="il-faq"><summary>Can I study in Lithuania or Latvia after 12th with low marks?</summary><div><p>Yes, Lithuania and Latvia accept Indian students after 12th with modest academic marks, offer English-taught bachelor's programmes, and often don't require IELTS. Tuition and living costs are among the lowest in the EU. ILMERA reviews your marksheet and shortlists programmes that match your profile.</p></div></details>
 
-      <details class="il-faq"><summary>Can I study in Slovakia or the Czech Republic on a low budget?</summary><div><p>Yes, both Slovakia and the Czech Republic are low-budget study destinations for Indian students, with affordable tuition, low living costs, and some tuition-free Slovakian programmes. Many courses accept students without IELTS. ILMERA helps you compare programmes, costs and English requirements for both.</p></div></details>
+      <details class="il-faq"><summary>How does teaching language affect tuition in Slovakia?</summary><div><p>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</p></div></details>
 
       <details class="il-faq"><summary>Can I study in the GCC (UAE, Saudi Arabia, Qatar) as an Indian student?</summary><div><p>Yes, Indian students can study in GCC countries such as the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman, where cities like Dubai host international branch campuses of UK, US and Australian universities. This suits students who want a globally-recognised degree closer to home or near family working in the Gulf. ILMERA advises on universities, courses and student visas across the GCC.</p></div></details>
 
-      <details class="il-faq"><summary>What is the step-by-step process to study abroad through a consultant?</summary><div><p>The process is: a free profile assessment, country and university shortlisting, application and admission, scholarship or funding guidance, visa documentation and application, then pre-departure preparation. With ILMERA, one counsellor guides you through every stage from first enquiry to arrival, so you always know the next step.</p></div></details>
+      <details class="il-faq"><summary>What is the step-by-step process to study abroad through a consultant?</summary><div><p>The process is: a no-charge profile assessment, country and university shortlisting, application and admission, scholarship or funding guidance, visa documentation and application, then pre-departure preparation. With ILMERA, one counsellor guides you through every stage from first enquiry to arrival, so you always know the next step.</p></div></details>
 
       <details class="il-faq"><summary>When should I start my study abroad application and how long does it take?</summary><div><p>You should ideally start 6–12 months before your intended intake, because admissions, scholarship deadlines (like Italy's DSU) and visa processing each take time. Starting early gives you the widest choice of universities and funding. ILMERA maps your timeline backwards from your target intake so you don't miss deadlines.</p></div></details>
 
-      <details class="il-faq"><summary>What is ILMERA Study Abroad and is it legitimate?</summary><div><p>ILMERA Study Abroad is an Indian study abroad consultancy, part of the ILMERA Group, based in Coorg, Kodagu, Karnataka, that guides students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. It is led by a named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers a free initial consultation with honest eligibility advice rather than guaranteed-admission promises.</p></div></details>
+      <details class="il-faq"><summary>What is ILMERA Study Abroad and is it legitimate?</summary><div><p>ILMERA Study Abroad is an Indian study abroad consultancy, part of the ILMERA Group, based in Coorg, Kodagu, Karnataka, that guides students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. It is led by a named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers a no-charge initial consultation with honest eligibility advice rather than guaranteed-admission promises.</p></div></details>
 
-      <details class="il-faq"><summary>How is ILMERA different from other study abroad consultants?</summary><div><p>ILMERA works with Indian students who have backlogs, low marks or no IELTS score, and focuses on affordable and free-education destinations in Europe and Russia. Each student works with a named counsellor who gives honest advice about what is realistically achievable, rather than one-size-fits-all promises.</p></div></details>
+      <details class="il-faq"><summary>How is ILMERA different from other study abroad consultants?</summary><div><p>ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call. Discuss your academic record, budget and course preferences before choosing an application route.</p></div></details>
 
-      <details class="il-faq"><summary>Is there a study abroad consultant for students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call, so you get the same counsellor and process whether or not you can visit in person. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a free consultation to start from anywhere in Kodagu.</p></div></details>
+      <details class="il-faq"><summary>Is there a study abroad consultant for students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA counselling is online only; these channels do not involve travel to counselling premises. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu.</p></div></details>
 
     </div>
   </div>
@@ -662,17 +654,28 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
   </div>
 </section>
 
+<?php $latestGuides = array_slice(ilmera_published_posts(true), 0, 3); ?>
+<?php if ($latestGuides): ?>
+<section class="testi-sec" id="latest-guides" aria-label="Latest guides">
+  <div class="container">
+    <span class="sec-label">From the Blog</span>
+    <?php ilmera_render_guides($latestGuides, 'Latest guides'); ?>
+  </div>
+</section>
+<?php endif; ?>
+
 <!-- CTA -->
 <section class="cta-sec">
 
   <div class="cta-beam"></div>
   <div class="container" style="position:relative;">
     <h2 class="cta-h2 reveal">Your Dream University<br>Awaits in 9 Countries</h2>
-        <p class="cta-sub reveal">Germany · Italy · UK · Czech Republic · Lithuania · Latvia · Slovakia · Russia · GCC: free consultation, no commitment.</p>
-    <a href="/contact" class="btn-gold reveal" style="font-size:14px;padding:18px 48px;">Book Your Free Consultation</a>
+        <p class="cta-sub reveal">Germany · Italy · UK · Czech Republic · Lithuania · Latvia · Slovakia · Russia · GCC: no-charge consultation, no commitment.</p>
+    <a href="/contact" class="btn-gold reveal" style="font-size:14px;padding:18px 48px;">Book Your no-charge Consultation</a>
     <p class="cta-sub reveal" style="margin-top:24px;font-size:15px;">Email us: <a href="mailto:info@ilmerastudyabroad.com" style="color:var(--gold);text-decoration:none;">info@ilmerastudyabroad.com</a></p>
   </div>
 </section>
+<div class="container"><section class="source-review"><h2>Tuition guidance sources</h2><p>Checked 16 October 2026: <a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/">DAAD tuition and living costs</a>; <a href="https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/">Slovak Ministry tuition rules</a>; <a href="https://www.universitaly.it/it/studenti-stranieri">Universitaly international student procedures</a>. The Italy scholarship statement is owner-provided conditional guidance, not an officially confirmed award. Confirm written award terms before budgeting it.</p></section></div>
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
@@ -710,19 +713,6 @@ window.addEventListener('scroll',function(){
   if(nav)nav.classList.toggle('scrolled',window.scrollY>60);
   if(window.scrollY>80){var s=document.getElementById('scrollInd');if(s)s.style.opacity='0';}
 },{passive:true});
-
-/* hamburger */
-var hbg=document.getElementById('hbg'),mnav=document.getElementById('mob-nav');
-if(hbg&&mnav){
-  hbg.addEventListener('click',function(){
-    var o=hbg.classList.contains('open');
-    hbg.classList.toggle('open',!o);mnav.classList.toggle('open',!o);
-    document.body.style.overflow=o?'':'hidden';
-  });
-  mnav.querySelectorAll('a').forEach(function(a){
-    a.addEventListener('click',function(){hbg.classList.remove('open');mnav.classList.remove('open');document.body.style.overflow='';});
-  });
-}
 
 /* ═══ THREE.JS BACKGROUND ═══ */
 if(window.THREE){
@@ -849,13 +839,7 @@ if(window.gsap&&window.ScrollTrigger){
   tl.fromTo('#hSub',{opacity:0,y:25},{opacity:1,y:0,duration:.7,ease:'power2.out'},.85);
   tl.fromTo('#hBtns',{opacity:0,y:18},{opacity:1,y:0,duration:.6,ease:'power2.out'},1.2);
   tl.fromTo('#hDiv',{opacity:0},{opacity:1,duration:.4},1.55);
-  tl.fromTo('#hStats',{opacity:0,y:12},{opacity:1,y:0,duration:.6,ease:'power2.out',
-    onComplete:function(){
-      document.querySelectorAll('.stat-num').forEach(function(el){
-        var t=parseInt(el.getAttribute('data-target'),10);var s=el.getAttribute('data-suffix')||'';var st=null;
-        (function step(ts){if(!st)st=ts;var p=Math.min((ts-st)/1600,1),e=1-Math.pow(1-p,3);el.textContent=Math.floor(e*t)+s;if(p<1)requestAnimationFrame(step);else el.textContent=t+s;})(performance.now());
-      });
-    }},1.6);
+  tl.fromTo('#hStats',{opacity:0,y:12},{opacity:1,y:0,duration:.6,ease:'power2.out'},1.6);
 
   function rev(sel,from){gsap.utils.toArray(sel).forEach(function(el){gsap.fromTo(el,from,{opacity:1,x:0,y:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});});}
   rev('.reveal',{opacity:0,y:55});rev('.reveal-l',{opacity:0,x:-60});rev('.reveal-r',{opacity:0,x:60});

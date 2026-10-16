@@ -1,3 +1,8 @@
+<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Terms of Use', 'url' => '/terms']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,13 +61,7 @@
       "description": "Terms of Use for ILMERA Study Abroad, an overseas education consultancy based in Coorg, Kodagu, Karnataka, India.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"Terms of Use","item":"https://ilmerastudyabroad.com/terms"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/terms#breadcrumb"}
     }
   ]
 }
@@ -110,7 +109,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
 <!-- LEGAL HERO -->
 <section class="legal-hero">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://ilmerastudyabroad.com/">Home</a> &nbsp;/&nbsp; Terms of Use</nav>
+  <?php ilmera_breadcrumbs($pageTrail, '/terms'); ?>
   <h1>Terms of Use</h1>
   <p class="sub">The terms that govern your use of the ILMERA Study Abroad website and consultancy services.</p>
 </section>
@@ -125,7 +124,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <p>These Terms of Use ("Terms") govern your access to and use of the website ilmerastudyabroad.com and the consultancy services offered by ILMERA Study Abroad ("ILMERA," "we," "us," or "our"), a division of the ILMERA Group based in Coorg, Kodagu, Karnataka, India. By accessing our website or engaging our services, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use our website or services.</p>
 
       <h2>2. About Our Services</h2>
-      <p>ILMERA Study Abroad provides overseas education consultancy services, including university selection and profile matching, application and admissions assistance, student visa process support, scholarship and financial aid guidance, and pre-departure and arrival support. Consultations are conducted by phone, WhatsApp, and video call, in addition to any in-person meetings, from our base in Coorg, Kodagu, Karnataka.</p>
+      <p>ILMERA Study Abroad provides overseas education consultancy services, including university selection and profile matching, application and admissions assistance, student visa process support, scholarship and financial aid guidance, and pre-departure and arrival support. Consultations are conducted by phone, WhatsApp, and video call from our base in Coorg, Kodagu, Karnataka.</p>
 
       <h2>3. Nature of Guidance Provided</h2>
       <p>ILMERA acts as a consultant and facilitator. We provide guidance based on the information you share with us, our knowledge of destination countries, and current publicly available requirements. We do not control, and cannot guarantee, decisions made by universities, scholarship bodies, embassies, or visa authorities. Admission offers, scholarship awards, and visa approvals are granted solely at the discretion of the relevant university, institution, or government authority.</p>
@@ -141,7 +140,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ul>
 
       <h2>5. Fees and Payments</h2>
-      <p>The initial consultation offered by ILMERA is free of charge and involves no obligation. Where you choose to engage ILMERA for further services, applicable fees, payment terms, and the scope of services will be explained and agreed with you directly before any paid service begins. Fees, once agreed and paid for services rendered, are generally non-refundable except as otherwise agreed in writing or as required by applicable law, since our work (research, document preparation, application filing, and liaison with institutions) is performed regardless of the final admission or visa outcome.</p>
+      <p>The initial consultation offered by ILMERA is no-charge of charge and involves no obligation. Where you choose to engage ILMERA for further services, applicable fees, payment terms, and the scope of services will be explained and agreed with you directly before any paid service begins. Fees, once agreed and paid for services rendered, are generally non-refundable except as otherwise agreed in writing or as required by applicable law, since our work (research, document preparation, application filing, and liaison with institutions) is performed regardless of the final admission or visa outcome.</p>
 
       <h2>6. Third-Party Institutions</h2>
       <p>ILMERA facilitates connections with universities, scholarship programmes, and visa authorities but is not responsible for the actions, policies, fees, or decisions of these third parties. Tuition fees, scholarship terms, visa rules, and admission criteria are set by the respective institutions and government authorities and may change at any time. We recommend verifying critical details directly with the relevant institution or official government source before making final decisions.</p>

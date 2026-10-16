@@ -1,4 +1,10 @@
 RewriteEngine On
+DirectoryIndex index.php index.html
+
+# One canonical sitemap endpoint, generated from the shared discovery helpers.
+RewriteCond %{THE_REQUEST} \s/+sitemap(?:\.php)?[\s?] [NC]
+RewriteRule ^sitemap(?:\.php)?$ /sitemap.xml [R=301,L]
+RewriteRule ^sitemap\.xml$ sitemap.php [END]
 
 # If someone requests about.php directly, redirect to /about (SEO-friendly, avoids duplicate content)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]

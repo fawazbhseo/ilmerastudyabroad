@@ -1,0 +1,497 @@
+{
+  "/blog/cost-of-studying-abroad-for-indian-students": {
+    "question": "What should I know about cost of studying abroad for Indian students?",
+    "answer": "Compare the type of expense as well as the amount. A tuition policy, a living-cost estimate and an immigration funding threshold answer different questions. The examples below are attributed to official education or government sources reviewed on 16 October 2026; they are not individual quotations or guaranteed future prices.",
+    "extra_faqs": [
+      {
+        "question": "Should tuition and living costs be compared as one figure?",
+        "answer": "Compare the type of expense as well as the amount. A tuition policy, a living-cost estimate and an immigration funding threshold answer different questions."
+      },
+      {
+        "question": "Can these examples replace a current individual quotation?",
+        "answer": "No. The examples are attributed to the official sources on this page; they are not individual quotations or guaranteed future prices."
+      }
+    ],
+    "basis": "blog/cost-of-studying-abroad-for-indian-students.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/blog/documents-needed-to-study-abroad-from-india": {
+    "question": "What should I know about documents needed to study abroad from India?",
+    "answer": "Start with the actual course, applicant circumstances and immigration route. The official examples below show why one universal document pack is unsafe. Some records concern admission, others financial evidence or an appointment procedure. Use the accepting body's current instructions for the final list and keep unanswered questions visible.",
+    "extra_faqs": [
+      {
+        "question": "Where should a document checklist start?",
+        "answer": "Start with the actual course, applicant circumstances and immigration route. Use the accepting body's current instructions for the final list."
+      },
+      {
+        "question": "Are admission records and financial evidence interchangeable?",
+        "answer": "No. Some records concern admission, others financial evidence or an appointment procedure. Keep the applicable instructions and unanswered questions visible."
+      }
+    ],
+    "basis": "blog/documents-needed-to-study-abroad-from-india.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+    "question": "What should I know about how to choose a study abroad consultant in Karnataka?",
+    "answer": "Compare the written scope, charges, responsibilities and refund terms before agreeing to counselling. Ask how documents are handled and how recommendations are supported. Confirm course recognition with the responsible bodies, keep control of your records and avoid treating advice or a partnership statement as a guarantee of an admission, visa or award.",
+    "extra_faqs": [
+      {
+        "question": "Which costs should parents separate before agreeing to counselling?",
+        "answer": "Keep study costs and counselling charges separate. Check tuition, any semester contributions, living costs and the written service scope, charges and refund terms. Published country examples are not an individual quotation, and this site does not publish a complete service-specific fee schedule."
+      },
+      {
+        "question": "Can a comparison guarantee admission with low marks or backlogs?",
+        "answer": "No. A comparison cannot establish that a particular academic record will be accepted. Present the complete record, check the actual programme requirements and compare the written counselling scope before choosing support. Counselling does not guarantee admission or a visa."
+      },
+      {
+        "question": "Does online-only delivery itself establish that a consultant is trustworthy?",
+        "answer": "No. An online model does not by itself verify the counsellor or promised service. Check the named contact, written scope, charges, privacy and refund terms, and look for evidence that can be checked independently. ILMERA counsels by phone, WhatsApp and video call, with no counselling premises. Counselling does not guarantee admission or a visa."
+      }
+    ],
+    "basis": "blog/how-to-choose-study-abroad-consultant-karnataka.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 18,
+        "source": "Cost article; selection guide sections 1 and 5 and existing fee FAQ."
+      },
+      {
+        "prompt_id": 43,
+        "source": "Backlog article existing eligibility FAQ; selection guide sections 1 and 2."
+      },
+      {
+        "prompt_id": 44,
+        "source": "Selection guide ten checks, online-counselling FAQ, no-guarantee FAQ; Coorg process article."
+      }
+    ]
+  },
+  "/blog/scholarships-for-indian-students-study-abroad": {
+    "question": "What should I know about scholarships for Indian students abroad?",
+    "answer": "A scholarship enquiry should distinguish a published opportunity from an award actually made to you. Begin with the provider's current eligibility and terms, then check what the support covers and how it is documented. The official examples below explain those distinctions without promising an award, amount or application outcome.",
+    "extra_faqs": [
+      {
+        "question": "Is a published opportunity the same as an award?",
+        "answer": "No. Distinguish a published opportunity from an award actually made to you; check current eligibility, coverage and written terms."
+      },
+      {
+        "question": "Should a tuition policy be treated as a scholarship award?",
+        "answer": "No. A tuition policy is not a scholarship award. Semester contributions and living expenses must be considered separately."
+      },
+      {
+        "question": "Does scholarship planning establish a complete ISEE documentation service?",
+        "answer": "No. ILMERA lists scholarship planning among its services, but that does not establish a published Karnataka ISEE procedure or an individual scholarship award. Ask for written service tasks and check the current instructions of the relevant authority before treating advice as a complete document workflow."
+      }
+    ],
+    "basis": "blog/scholarships-for-indian-students-study-abroad.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 48,
+        "source": "Canonical entity service list; scholarship article Italy evidence section; selection guide written scope."
+      }
+    ]
+  },
+  "/blog/study-abroad-counselling-from-coorg": {
+    "question": "What should I know about online study abroad counselling for Coorg students?",
+    "answer": "ILMERA offers online counselling only, by phone, WhatsApp and video call, with no counselling premises anywhere. A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries.",
+    "extra_faqs": [
+      {
+        "question": "How does ILMERA counsel Coorg students?",
+        "answer": "ILMERA offers online counselling by phone, WhatsApp and video call, with documents shared digitally."
+      },
+      {
+        "question": "Is a physical meeting required for this counselling process?",
+        "answer": "No. The page describes online-only counselling with no counselling premises."
+      },
+      {
+        "question": "What is discussed in an initial conversation?",
+        "answer": "The page describes a phone or scheduled video conversation about the academic background, budget and target countries."
+      },
+      {
+        "question": "How are applications discussed after that conversation?",
+        "answer": "The page describes digital document collection, shortlist discussions, application tracking and visa preparation through the existing online channels."
+      },
+      {
+        "question": "Can families in Kodagu, Shivamogga and Chikkamagaluru request Kannada or Malayalam counselling?",
+        "answer": "Yes. ILMERA's existing service information lists English, Kannada, Malayalam and Hindi. Counselling is online by phone, WhatsApp or video call for students in Karnataka; it does not require travel to ILMERA counselling premises. Confirm the language for your conversation when getting in touch."
+      },
+      {
+        "question": "What does ILMERA publish about its team and application process?",
+        "answer": "The site identifies Jabir KJ as Founder, Fawaz BH as CMO and Zaheer KJ as CFO. The published process begins with a profile discussion and continues with shortlisting, applications and document preparation. A team profile or process description is not an independently verified customer review."
+      }
+    ],
+    "basis": "blog/study-abroad-counselling-from-coorg.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 46,
+        "source": "About existing Coorg/languages FAQ; Contact language schema; canonical entity India/Karnataka coverage and existing published location guides."
+      },
+      {
+        "prompt_id": 49,
+        "source": "About existing team roles; Coorg process article Step by Step; empty proof slots."
+      }
+    ]
+  },
+  "/blog/study-abroad-with-academic-backlogs": {
+    "question": "What should I know about study abroad with academic backlogs?",
+    "answer": "For a backlog enquiry, describe the actual academic record and explain how subjects were cleared. Do not hide a backlog in an application. Match the record to the selected programme and ask about its current criteria rather than treating a general country description as a decision about your eligibility.",
+    "extra_faqs": [
+      {
+        "question": "How should I present a backlog record?",
+        "answer": "Describe the record honestly and distinguish cleared from ongoing subjects. Keep the explanation consistent with the academic documents."
+      },
+      {
+        "question": "Should a backlog be hidden in an application?",
+        "answer": "No. The guide advises a clear explanation of what happened and how it was resolved rather than concealing the record."
+      },
+      {
+        "question": "Does this guide confirm my admission eligibility?",
+        "answer": "No. Match your actual academic history to the selected programme's current criteria and ask the receiving body about uncertainties."
+      },
+      {
+        "question": "What should I discuss before shortlisting?",
+        "answer": "Discuss the academic record, how backlogs were cleared and the intended course. A general country description is not a programme-specific decision."
+      }
+    ],
+    "basis": "blog/study-abroad-with-academic-backlogs.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-consultants-in-karnataka": {
+    "question": "What makes a Karnataka student's shortlist defensible?",
+    "answer": "Students across Karnataka can approach course selection as a series of documented decisions rather than a search for one universally best destination. This guide focuses on comparison criteria, unresolved questions and reasons for excluding options. ILMERA discussions can start from your academic record and priorities, without promising a particular admission result.",
+    "extra_faqs": [
+      {
+        "question": "How can Karnataka students decide what the comparison must answer?",
+        "answer": "Write a short description of the study outcome you want before compiling a longlist. Identify essential features separately from preferences."
+      },
+      {
+        "question": "How can Karnataka students give unanswered questions their own place?",
+        "answer": "For each option, separate a published fact from an inference and from a question still awaiting a response. A missing answer is not a positive result and should not disappear merely because another feature looks attractive."
+      }
+    ],
+    "basis": "study-abroad-consultants-in-karnataka.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-consultants-in-kodagu": {
+    "question": "How can a Kodagu family prepare for a joint counselling call?",
+    "answer": "A study plan may involve a student, family members and a counsellor, but those participants do not have identical responsibilities. This Kodagu guide explains how to organise a shared discussion while keeping the student's academic reasons visible. It does not assume a family structure, funding arrangement or preferred destination for any applicant.",
+    "extra_faqs": [
+      {
+        "question": "How can Kodagu students prepare separate concerns before the joint conversation?",
+        "answer": "Invite each person involved to write the questions that matter to them. The student may want to understand course content, while another participant may be concerned about timing or financial commitments."
+      },
+      {
+        "question": "How can Kodagu students distinguish participation from authority to act?",
+        "answer": "Agree who may receive updates and who may approve a submission or a payment. Being included in a discussion does not automatically authorise someone to change an application."
+      }
+    ],
+    "basis": "study-abroad-consultants-in-kodagu.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-belagavi": {
+    "question": "What should a Belagavi enquiry brief contain?",
+    "answer": "Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.",
+    "extra_faqs": [
+      {
+        "question": "How can Belagavi students describe the task before choosing the support?",
+        "answer": "Write down the decisions you have already made and the questions that are still open. A request to compare courses is different from a request to organise an application that is already selected."
+      },
+      {
+        "question": "How can Belagavi students make ownership visible in the agreement?",
+        "answer": "For each deliverable, identify who prepares it, who checks it and who gives the final approval. A document can be complete without being submitted, and a submitted form can still require a response from you."
+      }
+    ],
+    "basis": "study-abroad-counselling-belagavi.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-bengaluru": {
+    "question": "How can a Bengaluru student explain a proposed subject switch?",
+    "answer": "A student from Bengaluru considering a different academic field needs more than an attractive course title. Use counselling to connect the proposed subject with evidence from previous study and to identify unanswered prerequisite questions. This page provides a way to investigate that transition without assuming that a change will be accepted.",
+    "extra_faqs": [
+      {
+        "question": "How can Bengaluru students translate your interest into an academic question?",
+        "answer": "Describe what you want to learn in the new field, not only the job title you hope to hold afterwards. Look at the actual modules and the skills they appear to require."
+      },
+      {
+        "question": "How can Bengaluru students separate demonstrated preparation from a future plan?",
+        "answer": "Make two lists: preparation you can document now and preparation you intend to complete. For existing evidence, identify the transcript entry, project or other record that supports your description."
+      }
+    ],
+    "basis": "study-abroad-counselling-bengaluru.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-chikkamagaluru": {
+    "question": "Can a Chikkamagaluru applicant assume an instruction letter replaces a test?",
+    "answer": "For a Chikkamagaluru student, language preparation is easier to discuss when the required evidence is written down precisely. Start with the selected programme and distinguish its admissions requirement from any separate immigration question. This guide helps organise those enquiries without suggesting that one letter or test result works everywhere.",
+    "extra_faqs": [
+      {
+        "question": "How can Chikkamagaluru students find the requirement that belongs to your course?",
+        "answer": "Record the language requirement beside the exact course and intake you are considering. Include the page date or the date on which you read it, and save the relevant wording rather than relying on an informal summary."
+      },
+      {
+        "question": "How can Chikkamagaluru students treat alternative proof as a question, not a shortcut?",
+        "answer": "If you want to use a medium-of-instruction letter or previous study instead of a test, ask whether that specific evidence is accepted for the chosen purpose. Explain who would issue the document and what it would actually certify."
+      }
+    ],
+    "basis": "study-abroad-counselling-chikkamagaluru.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-gonikoppal": {
+    "question": "What is the starting point for household evidence in a Gonikoppal enquiry?",
+    "answer": "Students from Gonikoppal who are asked for household or financial records can begin by organising what exists before requesting anything new. This guide is about an evidence inventory, not eligibility for a particular award. The accepting body determines the documents, reporting periods and verification steps that apply to an application.",
+    "extra_faqs": [
+      {
+        "question": "How can Gonikoppal students map the request before collecting records?",
+        "answer": "Copy each requested document into a simple inventory and note the person, period and subject to which it relates. A request about income is not necessarily a request about assets, and a record for one family member does not automatically describe the household."
+      },
+      {
+        "question": "How can Gonikoppal students keep periods and explanations consistent?",
+        "answer": "Review the dates across the records you intend to use. If different documents cover different periods, describe the difference instead of presenting them as identical."
+      }
+    ],
+    "basis": "study-abroad-counselling-gonikoppal.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-hassan": {
+    "question": "How should a Hassan student treat an expected scholarship in a budget?",
+    "answer": "An overseas study budget should show where the money comes from as well as where it might go. For students from Hassan, this guide offers a way to discuss affordability without relying on an uncertain award or hoped-for job. Use actual course quotations and current official requirements when available.",
+    "extra_faqs": [
+      {
+        "question": "How can Hassan students separate the known price from the planning estimate?",
+        "answer": "Start with a cost list whose entries are labelled clearly. A published programme fee, an accommodation estimate and a currency assumption have different levels of certainty."
+      },
+      {
+        "question": "How can Hassan students test a plan that does not depend on the best case?",
+        "answer": "Prepare a version of the budget without unconfirmed funding. If the plan requires a scholarship, explain what happens if no award is made or payment arrives later than hoped."
+      }
+    ],
+    "basis": "study-abroad-counselling-hassan.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-kushalnagar": {
+    "question": "What should a Kushalnagar student extract from an offer letter?",
+    "answer": "Receiving an offer is a point for careful reading, not a reason to stop checking the plan. For students from Kushalnagar, this guide explains how to examine conditions and dependencies before responding. It does not interpret a particular offer or suggest that an admission document also decides a visa application.",
+    "extra_faqs": [
+      {
+        "question": "How can Kushalnagar students turn the offer into a list of obligations?",
+        "answer": "Read the whole document and identify each condition separately. Note what must be supplied, who must issue it and the point at which it is due."
+      },
+      {
+        "question": "How can Kushalnagar students check what acceptance commits you to?",
+        "answer": "Before responding, look for the acceptance method, response deadline and any financial terms that accompany the offer. Establish whether a payment is required, what it is for and what the written refund conditions say."
+      }
+    ],
+    "basis": "study-abroad-counselling-kushalnagar.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-madikeri": {
+    "question": "How should a Madikeri applicant begin discussing a study gap?",
+    "answer": "For a Madikeri applicant, a clear academic timeline can make a profile discussion more precise. Arrange the record as it actually happened before trying to explain an interruption or change. This guide focuses on consistency and supporting evidence, not on claiming that any gap has an automatic admissions outcome.",
+    "extra_faqs": [
+      {
+        "question": "How can Madikeri students start with dates rather than a persuasive story?",
+        "answer": "List periods of study in order and identify the qualification or activity associated with each. Use the dates supported by your records, and flag uncertainty rather than filling it with an invented month."
+      },
+      {
+        "question": "How can Madikeri students explain an interruption without overstating it?",
+        "answer": "Describe what happened during an interval in plain language and identify which parts can be documented. There is no need to manufacture an activity merely because an empty period feels uncomfortable."
+      }
+    ],
+    "basis": "study-abroad-counselling-madikeri.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-mangaluru": {
+    "question": "What should a Mangaluru student ask a proposed sponsor first?",
+    "answer": "A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.",
+    "extra_faqs": [
+      {
+        "question": "How can Mangaluru students understand the proposed support before describing it?",
+        "answer": "Ask the person offering support what they intend to cover and when that support would be available. The amount, timing and purpose all matter to your own plan."
+      },
+      {
+        "question": "How can Mangaluru students ask the evidence question for the actual route?",
+        "answer": "Once the study option is identified, check who may provide funding evidence and what form the relevant body requires. Rules cannot be inferred from the family relationship alone."
+      }
+    ],
+    "basis": "study-abroad-counselling-mangaluru.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-mysuru": {
+    "question": "What should a Mysuru applicant do about different name spellings?",
+    "answer": "Small differences between academic records can become important questions during an application. For students from Mysuru, this guide sets out a careful consistency review without prescribing a local transcript or correction procedure. The issuing body and the intended recipient should confirm how a specific discrepancy is to be resolved.",
+    "extra_faqs": [
+      {
+        "question": "How can Mysuru students read the record as the recipient will see it?",
+        "answer": "Create an inventory of the academic documents relevant to the proposed course. Note the name shown on each, the qualification described and the body identified as the issuer."
+      },
+      {
+        "question": "How can Mysuru students establish the requested form before ordering copies?",
+        "answer": "Find out whether the recipient wants an uploaded copy, a certified record, a sealed transcript or transmission directly from an issuer. Those are different requests and may require different arrangements."
+      }
+    ],
+    "basis": "study-abroad-counselling-mysuru.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-ponnampet": {
+    "question": "Where can a Ponnampet student find material for an original study statement?",
+    "answer": "Students from Ponnampet preparing a study statement can begin with the reasons they can explain honestly, rather than with a borrowed model answer. This guide offers a drafting method for linking interests, preparation and the selected course. It does not supply an admissions formula or promise that particular wording will succeed.",
+    "extra_faqs": [
+      {
+        "question": "How can Ponnampet students collect evidence before drafting the introduction?",
+        "answer": "Write brief notes about the experiences that led to your academic interest. Choose details you can describe accurately: a subject you studied, a question you investigated or a task that changed what you wanted to learn."
+      },
+      {
+        "question": "How can Ponnampet students answer the prompt through the selected course?",
+        "answer": "Read the requested statement instructions before deciding the structure. Identify the questions, length limit and any separate sections."
+      }
+    ],
+    "basis": "study-abroad-counselling-ponnampet.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-shivamogga": {
+    "question": "How should a Shivamogga applicant label a personal target date?",
+    "answer": "An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.",
+    "extra_faqs": [
+      {
+        "question": "How can Shivamogga students identify whose deadline you are recording?",
+        "answer": "Label every date by its source and purpose. A course application deadline, an offer response date and an appointment registration window do not describe the same event."
+      },
+      {
+        "question": "How can Shivamogga students draw the chain behind each submission?",
+        "answer": "For an important action, list what must already be available before it can happen. A document request may depend on an issuer's response; a complete form may depend on information that is still being clarified."
+      }
+    ],
+    "basis": "study-abroad-counselling-shivamogga.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-siddapura": {
+    "question": "What should a Siddapura student clarify before sharing a document bundle?",
+    "answer": "Application records may contain information that should not be circulated casually. This guide for Siddapura students focuses on deliberate sharing and clear permission during counselling. It is a practical workflow, not a security certification or a statement that any messaging service guarantees confidentiality or the removal of every copy.",
+    "extra_faqs": [
+      {
+        "question": "How can Siddapura students ask why a record is needed before sending it?",
+        "answer": "Identify the application task for which a document is requested and who needs to see it. A preliminary discussion may require different information from a final submission, so ask about the scope before forwarding an entire archive."
+      },
+      {
+        "question": "How can Siddapura students keep credentials separate from counselling materials?",
+        "answer": "Do not include passwords or account recovery information in a document bundle. Establish how an application account will be accessed and who can authorise changes."
+      }
+    ],
+    "basis": "study-abroad-counselling-siddapura.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-somwarpet": {
+    "question": "What should a Somwarpet applicant bring to a backlog discussion?",
+    "answer": "A backlog discussion is more useful when the full academic record is available. This guide for Somwarpet students explains how to distinguish cleared subjects, outstanding results and repeated attempts before asking about eligibility. It makes no claim that a particular number of backlogs is accepted by every institution or destination.",
+    "extra_faqs": [
+      {
+        "question": "How can Somwarpet students describe the record using its actual status?",
+        "answer": "Gather the relevant marksheets and identify what each result means in the issuing system. Separate a subject that has been cleared from one that remains outstanding, and distinguish an awaited result from a failed attempt."
+      },
+      {
+        "question": "How can Somwarpet students ask eligibility questions without seeking a blanket promise?",
+        "answer": "Identify the intended course and qualification level before asking whether the academic record fits. Quote any published rule that appears relevant and explain your situation accurately."
+      }
+    ],
+    "basis": "study-abroad-counselling-somwarpet.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-udupi-manipal": {
+    "question": "What should an Udupi or Manipal student compare beyond a course title?",
+    "answer": "Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.",
+    "extra_faqs": [
+      {
+        "question": "How can Udupi and Manipal students read the structure as a set of commitments?",
+        "answer": "Look at which subjects are compulsory, which are optional and how choices are made. An interesting option may not be something every student can take, so check the conditions attached to it."
+      },
+      {
+        "question": "How can Udupi and Manipal students consider how you prefer to demonstrate learning?",
+        "answer": "Review the published assessment information where available and think about the kind of work it describes. Written examinations, extended assignments and group work may make different demands; the point is to understand the actual requirements, not to label one format universally easier."
+      }
+    ],
+    "basis": "study-abroad-counselling-udupi-manipal.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-abroad-counselling-virajpet": {
+    "question": "What should a Virajpet student approve before submission?",
+    "answer": "Before an application leaves the preparation stage, the applicant should understand what is being submitted. This Virajpet guide focuses on that handover: checking the form, matching the evidence and keeping a submission record. It is not a destination visa checklist and does not claim that a complete file guarantees approval.",
+    "extra_faqs": [
+      {
+        "question": "How can Virajpet students review the completed form, not only the document folder?",
+        "answer": "Ask to see the information prepared for submission and read it against your own records. A folder may contain accurate documents while the form describes them incorrectly."
+      },
+      {
+        "question": "How can Virajpet students confirm that each attachment has a purpose?",
+        "answer": "Match every requested item with the file that is meant to answer it. Check completeness, readability and whether the recipient has specified a format or method of delivery."
+      }
+    ],
+    "basis": "study-abroad-counselling-virajpet.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-gcc": {
+    "question": "How does the UAE example describe student residence sponsorship?",
+    "answer": "In the UAE, the student residence visa is typically sponsored by the university or by a parent or relative who is a legal resident. It is valid for up to 12 months and renewed each year. The visa process usually starts with the sponsoring institution after admission, through the ICP portal or the GDRFA of the emirate.",
+    "extra_faqs": [],
+    "basis": "study-in-gcc.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-germany": {
+    "question": "What should I check before planning to study in Germany from India?",
+    "answer": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.",
+    "extra_faqs": [],
+    "basis": "study-in-germany.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-italy": {
+    "question": "What should I check before planning to study in Italy from India?",
+    "answer": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.",
+    "extra_faqs": [],
+    "basis": "study-in-italy.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-latvia": {
+    "question": "What should I check before planning to study in Latvia from India?",
+    "answer": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.",
+    "extra_faqs": [],
+    "basis": "study-in-latvia.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-lithuania": {
+    "question": "What should I check before planning to study in Lithuania from India?",
+    "answer": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees.",
+    "extra_faqs": [
+      {
+        "question": "How should the Lithuania tuition estimates be used?",
+        "answer": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees."
+      }
+    ],
+    "basis": "study-in-lithuania.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-slovakia": {
+    "question": "What should I check before planning to study in Slovakia from India?",
+    "answer": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution.",
+    "extra_faqs": [],
+    "basis": "study-in-slovakia.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16"
+  },
+  "/study-in-uk": {
+    "question": "What should I check before planning to study in UK from India?",
+    "answer": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.",
+    "extra_faqs": [
+      {
+        "question": "How should I assess a UK Master's against the Graduate visa dates?",
+        "answer": "For the Master's context, GOV.UK lists a 2-year Graduate visa for applications on or before 31 December 2026 and 18 months from 1 January 2027. These dates alone do not establish the value of a particular course. Compare the actual costs, course objectives and applicable conditions before deciding. Source: https://www.gov.uk/graduate-visa"
+      }
+    ],
+    "basis": "study-in-uk.php; existing rendered introduction/sections/FAQs",
+    "reviewed_on": "2026-10-16",
+    "phase20_basis": [
+      {
+        "prompt_id": 9,
+        "source": "Existing homepage UK language FAQ and its GOV.UK Graduate visa citation, reopened on 2026-10-16; cost article individual-budget guidance."
+      }
+    ]
+  }
+}
