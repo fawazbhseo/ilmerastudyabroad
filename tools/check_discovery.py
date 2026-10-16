@@ -3,12 +3,14 @@
 import argparse
 from collections import Counter
 from datetime import date
+from html import unescape
 from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
 import shutil
 import subprocess
+import unicodedata
 from urllib.error import HTTPError
 from urllib.parse import unquote, urljoin, urlsplit
 from urllib.request import urlopen
@@ -86,6 +88,52 @@ def internal_url(current, href):
     return unquote(u.path) or '/', unquote(u.fragment)
 
 
+class PublishedContent(HTMLParser):
+    """Collect public text, metadata, alt/link text and decoded JSON-LD."""
+    def __init__(self, text):
+        super().__init__(convert_charrefs=True)
+        self.parts, self.script_data = [], []
+        self.skip, self.ldjson, self.government_citation = None, False, False
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag in ('script', 'style'):
+            self.skip, self.ldjson = tag, tag == 'script' and a.get('type') == 'application/ld+json'
+            self.script_data = []
+            return
+        if tag == 'a':
+            host = (urlsplit(a.get('href', '')).hostname or '').lower()
+            # Only government citation anchors may retain institution names.
+            self.government_citation = host.endswith(('.gov.in', '.nic.in', '.gov.uk', '.gov.cz', '.mfa.gov.lv', '.esteri.it')) or host in ('gov.uk', 'education.ec.europa.eu', 'www.mzv.sk', 'mzv.sk')
+        if not self.skip and not self.government_citation:
+            self.parts.extend(value for key, value in attrs if value and key in ('content', 'alt', 'title', 'aria-label', 'href', 'src'))
+
+    def handle_data(self, text):
+        if self.ldjson:
+            self.script_data.append(text)
+        elif not self.skip and not self.government_citation:
+            self.parts.append(text)
+
+    def handle_endtag(self, tag):
+        if tag == 'script' and self.ldjson:
+            self.parts.append(json.dumps(json.loads(''.join(self.script_data)), ensure_ascii=False))
+        if tag == self.skip:
+            self.skip, self.ldjson = None, False
+        if tag == 'a':
+            self.government_citation = False
+
+
+def blocked_name_matches(text, names):
+    value = re.sub(r'[\s_]+', ' ', unicodedata.normalize('NFKC', unescape(unquote(text)))).casefold()
+    return [name for name in names if re.search(r'(?<!\w)' + re.escape(name.casefold()) + r'(?!\w)', value)]
+
+
+def blocked_names(root):
+    path = root / 'tools/blocked-names.txt'
+    return [line.strip() for line in path.read_text().splitlines() if line.strip() and not line.startswith('#')]
+
+
 def expected_llm_bytes(root, name):
     """Phase 16 permits only removal of the two withheld-article link lines."""
     before = subprocess.check_output(['git', 'show', 'c2c8b9f:' + name], cwd=root)
@@ -95,9 +143,9 @@ def expected_llm_bytes(root, name):
                     if not any(url in line for url in held))
 
 
-def check(base, root):
+def check(base, root, enforce_names=True):
     inventory = routes(root)
-    pages, blocked = {}, set()
+    pages, blocked, public_text = {}, set(), {}
     for path, info in inventory.items():
         status, headers, body = fetch(base, path)
         assert status == 200, ('Editorial route HTTP status', path, status)
@@ -110,6 +158,7 @@ def check(base, root):
         else:
             assert page.canonical == [HOST + path], ('Canonical mismatch', path, page.canonical)
         pages[path] = page
+        public_text[path] = ' ' .join(PublishedContent(body.decode()).parts)
     status, _, xml = fetch(base, '/sitemap.xml')
     assert status == 200, 'Sitemap HTTP status'
     tree = ET.fromstring(xml)
@@ -150,12 +199,18 @@ def check(base, root):
         status, _, body = fetch(base, '/' + name)
         assert status == 200, ('Public discovery text status', name, status)
         text = body.decode()
+        public_text['/' + name] = text
         for target in blocked:
             assert not re.search(re.escape(HOST + target) + r'(?:[)#?\s]|$)', text), ('LLM link to withheld page', name, target)
     assert all(inbound[p] > 0 for p in expected), 'Indexable orphan'
     status, _, robots = fetch(base, '/robots.txt')
     assert status == 200 and ('Sitemap: ' + HOST + '/sitemap.xml').encode() in robots
     assert not re.search(rb'^Disallow:\s*(?:/\s*$|/sitemap)', robots, re.M), 'Sitemap blocked by robots'
+    if enforce_names:
+        names = blocked_names(root)
+        failures = {path: hits for path, text in public_text.items() if path not in blocked
+                    and (hits := blocked_name_matches(text, names))}
+        assert not failures, ('Blocked institution names in published content', failures)
     return {'sitemap': urls, 'indexable': len(expected), 'blocked': len(blocked), 'routes': len(inventory)}, pages
 
 

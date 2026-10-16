@@ -2755,3 +2755,20 @@ Existing university names and prohibited wording in these public text files
 remain release blockers, not exceptions that make a strict check pass.
 Historical reports and suppressed internal related-post arrays are not live
 discovery links and have not been erased. Earlier blockers remain unchanged.
+
+## Phase 16 task 2: institution-name cleanup and permission blocker
+
+Neutralized the named Italian institution in About visible copy and schema,
+removed its named affiliation/Wikipedia identity, and replaced the named UK
+examples in Services with programme-comparison advice. No partnership,
+recognition or career result was invented. All changed lines are recorded in
+the Phase 16 release report. Added tools/blocked-names.txt and a strict default
+discovery guard covering public text, metadata, schema, alt and link text,
+including both public LLM files. Government citation anchors are the only
+name exception.
+
+The named UK institutions remain at llms.txt:58 because the explicit approval
+permits only task 1 link removals there. The strict discovery guard must fail
+on those names. This is an unresolved permission blocker, not a passing
+exception. Both LLM files also retain prohibited wording under that same
+restriction. No page status changed; no earlier blocker was rewritten.

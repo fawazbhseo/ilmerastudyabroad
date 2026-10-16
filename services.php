@@ -486,7 +486,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <div class="country-flag-badge"><span class="flag">&#127468;&#127463;</span> Globally Ranked</div>
       <svg class="svc-icon" viewBox="0 0 52 52" fill="none" aria-hidden="true"><rect x="8" y="12" width="36" height="28" rx="3" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="22" x2="44" y2="22" stroke="currentColor" stroke-width="1.5"/><circle cx="18" cy="33" r="4" stroke="currentColor" stroke-width="1.3"/></svg>
       <h2><a href="<?= ilmera_place_escape(ilmera_destination_target('uk')) ?>" style="color:inherit;text-decoration:none;">Study in the</a><br>United Kingdom</h2>
-      <p>The UK is home to some of the world's most prestigious universities including Oxford, Cambridge, Imperial and UCL. A UK degree is recognised globally and opens doors to international careers.</p>
+      <p>Compare universities in the UK by programme content, entry requirements, tuition and the qualification awarded. Check recognition requirements for your intended next step rather than assuming a particular career outcome.</p>
       <ul class="svc-list">
         <li><span class="li-ico">&#127963;</span> World-renowned universities with global rankings</li>
         <li><span class="li-ico">&#128218;</span> 1-year Master's programmes, faster and cost-effective</li>

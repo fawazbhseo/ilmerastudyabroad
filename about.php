@@ -192,15 +192,10 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "name": "Jabir KJ",
       "givenName": "Jabir",
       "jobTitle": "Founder",
-      "description": "Jabir KJ is Founder of ILMERA Study Abroad and a financial consultant. He is currently a student at the University of Rome Tor Vergata in Italy and advises Indian students on total cost planning, Italy's DSU regional scholarships, proof-of-funds documentation and blocked accounts for German student visas.",
+      "description": "Jabir KJ is Founder of ILMERA Study Abroad and a financial consultant. He is currently a student at a university in Italy and advises Indian students on total cost planning, Italy's DSU regional scholarships, proof-of-funds documentation and blocked accounts for German student visas.",
       "image": "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "founder": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "affiliation": {
-        "@type": "CollegeOrUniversity",
-        "name": "University of Rome Tor Vergata",
-        "sameAs": "https://en.wikipedia.org/wiki/University_of_Rome_Tor_Vergata"
-      },
       "knowsAbout": [
         "Study abroad cost planning for Indian students",
         "Italy DSU regional scholarships and ISEE assessment",
@@ -322,7 +317,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Who is Jabir KJ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at the University of Rome Tor Vergata in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas."
+            "text": "Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at a university in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas."
           }
         },
         {
@@ -592,7 +587,7 @@ img{max-width:100%;height:auto;}
 
         <p>ILMERA Study Abroad was founded on a simple premise: every deserving student should have a clear, honest, supported pathway to a world-class education, regardless of where they come from. As part of ILMERA Group, the consultancy is run by three named, contactable people rather than a call centre.</p>
       <p>Explore our <?= ilmera_link('/services', 'destinations and services', ['style' => 'color:inherit;text-decoration:underline;']) ?>, read the <?= ilmera_link('/blog/', 'published guides', ['style' => 'color:inherit;text-decoration:underline;']) ?>, or meet the <?= ilmera_link('/about#team', 'ILMERA team', ['style' => 'color:inherit;text-decoration:underline;']) ?>.</p>
-                <p>ILMERA was built by people who went through the process themselves. Founder Jabir KJ is currently studying at the University of Rome Tor Vergata in Italy, and has personally dealt with the applications, the funding paperwork and the visa appointments he now guides students through. That is the difference between advice read from a brochure and advice from someone who has actually filed the documents.</p>
+                <p>ILMERA was built by people who went through the process themselves. Founder Jabir KJ is currently studying at a university in Italy, and has personally dealt with the applications, the funding paperwork and the visa appointments he now guides students through. That is the difference between advice read from a brochure and advice from someone who has actually filed the documents.</p>
 
                 <p>ILMERA Study Abroad guides students to universities across nine destinations: Germany, Italy, the United Kingdom, the Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. The consultancy specialises in students other consultancies turn away, including those with academic backlogs, a low percentage, or no IELTS, because those are exactly the profiles that Russia, Slovakia, Lithuania and Latvia routinely accept.</p>
         <p>ILMERA is based in Coorg and works with students by phone, WhatsApp and video call, so a student in Madikeri, Virajpet, Kushalnagar or Somwarpet gets the same counsellor, the same country-by-country cost breakdown and the same honest eligibility check as a student anywhere else in India.</p>
@@ -693,7 +688,7 @@ img{max-width:100%;height:auto;}
 
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Jabir KJ</h3>
         <div class="team-role">Founder</div>
-        <p class="team-bio"><strong>Jabir KJ is Founder of ILMERA Study Abroad</strong> and a financial consultant, currently studying at the University of Rome Tor Vergata in Italy. He leads the side of the process students find hardest: money, mapping real costs, checking eligibility for Italy's DSU scholarships, and preparing the proof-of-funds documents that visa applications turn on.</p>
+        <p class="team-bio"><strong>Jabir KJ is Founder of ILMERA Study Abroad</strong> and a financial consultant, currently studying at a university in Italy. He leads the side of the process students find hardest: money, mapping real costs, checking eligibility for Italy's DSU scholarships, and preparing the proof-of-funds documents that visa applications turn on.</p>
 
         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
@@ -730,7 +725,7 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Does ILMERA Study Abroad work with students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district, including Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet, through phone, WhatsApp and video counselling. The full process, from profile assessment to visa documentation, is handled directly by the team. CMO Fawaz BH is based in Kushal Nagar, Kodagu, and counselling is available in English, Kannada, Malayalam and Hindi.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Jabir KJ?</summary><div><p>Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at the University of Rome Tor Vergata in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas.</p></div></details>
+      <details class="il-faq"><summary>Who is Jabir KJ?</summary><div><p>Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at a university in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas.</p></div></details>
 
       <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content.</p></div></details>
 
