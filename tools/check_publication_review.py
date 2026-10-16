@@ -9,7 +9,7 @@ import re
 import subprocess
 from urllib.parse import urlsplit
 
-from check_discovery import HOST, Page, check, fetch, routes
+from check_discovery import HOST, Page, check, expected_llm_bytes, fetch, routes
 
 
 class Content(HTMLParser):
@@ -94,7 +94,7 @@ def main():
             assert not entry['failed_gates'] and all(c['verified'] and c['source_urls'] for c in entry['retained_claims']), slug
     frozen = {}
     for name in ['llms.txt', 'llms-full.txt']:
-        before = subprocess.check_output(['git', 'show', 'a643836:' + name], cwd=root)
+        before = expected_llm_bytes(root, name)
         now = (root / name).read_bytes()
         assert before == now, name
         frozen[name] = hashlib.sha256(now).hexdigest()

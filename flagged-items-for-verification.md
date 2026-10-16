@@ -2741,3 +2741,17 @@ URLs/dates and the matched source journal are unchanged except confirmed copy.
 Correction to the task-4 narrative tally: Slovakia has six verified categories,
 not five, including the sourced scholarship category. The machine journal
 and final 29-page table already show the correct six. Earlier notes retained.
+
+## Phase 16 task 1: limited LLM permission
+
+Removed only the two withheld-article link lines from llms.txt. Neither link
+exists in llms-full.txt, so that file is unchanged. APS and DSU remain draft,
+noindex and absent from rendered navigation, schema and the sitemap.
+
+Conservative permission decision: the explicit approval allows changes to the
+two LLM files for task 1 removals only, despite later requests mentioning names
+and prohibited wording there. No other LLM edit is authorized in this phase.
+Existing university names and prohibited wording in these public text files
+remain release blockers, not exceptions that make a strict check pass.
+Historical reports and suppressed internal related-post arrays are not live
+discovery links and have not been erased. Earlier blockers remain unchanged.

@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import re
 import shutil
+import subprocess
 from urllib.error import HTTPError
 from urllib.parse import unquote, urljoin, urlsplit
 from urllib.request import urlopen
@@ -85,6 +86,15 @@ def internal_url(current, href):
     return unquote(u.path) or '/', unquote(u.fragment)
 
 
+def expected_llm_bytes(root, name):
+    """Phase 16 permits only removal of the two withheld-article link lines."""
+    before = subprocess.check_output(['git', 'show', 'c2c8b9f:' + name], cwd=root)
+    held = [b'https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate',
+            b'https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility']
+    return b''.join(line for line in before.splitlines(keepends=True)
+                    if not any(url in line for url in held))
+
+
 def check(base, root):
     inventory = routes(root)
     pages, blocked = {}, set()
@@ -136,6 +146,12 @@ def check(base, root):
         status, headers, _ = fetch(base, path)
         assert status == 200, ('Broken internal resource', path, status)
         assert 'noindex' not in ' '.join(v for k, v in headers.items() if k.lower() == 'x-robots-tag').lower(), path
+    for name in ['llms.txt', 'llms-full.txt']:
+        status, _, body = fetch(base, '/' + name)
+        assert status == 200, ('Public discovery text status', name, status)
+        text = body.decode()
+        for target in blocked:
+            assert not re.search(re.escape(HOST + target) + r'(?:[)#?\s]|$)', text), ('LLM link to withheld page', name, target)
     assert all(inbound[p] > 0 for p in expected), 'Indexable orphan'
     status, _, robots = fetch(base, '/robots.txt')
     assert status == 200 and ('Sitemap: ' + HOST + '/sitemap.xml').encode() in robots
