@@ -13,8 +13,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
 <title>Italy DSU Scholarship: Who Qualifies | ILMERA Study Abroad</title>
-<meta name="description" content="Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works."/>
-<meta name="keywords" content="Italy DSU scholarship, ISEE Italy, study in Italy scholarship, DSU eligibility, Italy free education"/>
+<meta name="description" content="Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="googlebot" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/>
@@ -31,7 +31,7 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Italy DSU Scholarship: Who Qualifies"/>
-<meta property="og:description" content="Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks."/>
+<meta property="og:description" content="Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:secure_url" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -54,7 +54,7 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
       "@type": "BlogPosting",
       "@id": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility#article",
       "headline": "Italy's DSU Scholarship: Who Actually Qualifies",
-      "description": "Italy's regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.",
+      "description": "Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.",
       "url": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
       "datePublished": <?= json_encode($post['datePublished']) ?>,
@@ -133,7 +133,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p>Italy's DSU scholarships (Diritto allo Studio Universitario) are among the most generous student support schemes in Europe, sometimes covering full tuition exemption plus a living stipend and, in some regions, subsidised housing. They are also one of the most misunderstood, because eligibility has almost nothing to do with your entrance exam score and almost everything to do with two separate things: household income and academic merit.</p>
+    <p>Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
 
     <h2>The Two Pillars of Eligibility</h2>
     <p>DSU scholarships are assessed on income and merit as two independent tracks, and a student generally needs to satisfy both, not just one. The income component is measured through an equivalent ISEE calculation for international students, which converts your family's financial situation into Italy's standardised household income indicator. The merit component looks at your prior academic record and, for renewing students, credits earned during the current program.</p>
@@ -167,8 +167,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Considering Italy?</h2>
-    <p>Book a free consultation and we will check your DSU eligibility against the region and university you have in mind.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation and we will check your DSU eligibility against the region and university you have in mind.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

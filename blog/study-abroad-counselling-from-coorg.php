@@ -169,8 +169,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Ready to Talk Through Your Options?</h2>
-    <p>Book a free consultation by phone, WhatsApp, or video call, wherever you are.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation by phone, WhatsApp, or video call, wherever you are.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

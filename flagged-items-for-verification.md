@@ -2477,3 +2477,40 @@ Additional isolated publication coverage passed 48 Chromium cases: eight
 pages with two eligible destinations and two eligible locations, at three
 widths with JavaScript on/off, including deduplicated discovery/footer blocks.
 All temporary data was restored outside the production repository.
+
+## 33. Phase 14: source-backed publication review, 2026-10-16
+
+Task 1: reviewed all 141 audit entries, including all 13 ambiguous entries.
+Website tuition assertions are being qualified by country; article-specific
+APS corrections follow in task 2. Reference-only paths remain unchanged.
+The two ambiguous LLM entries and every other LLM audit entry are deferred
+under the explicit file freeze. Both LLM files must remain unchanged.
+Germany guidance was checked against the opened DAAD finance page, including
+Baden-Wuerttemberg and Bavaria exceptions, contributions and living expenses.
+Slovak-language duration rules and charged foreign-language study were checked
+on the opened Slovak Ministry tuition page. Universitaly procedures were
+opened, but do not substantiate the owner scholarship amount or partner claim.
+The exact owner Italy sentence is conditional commercial guidance, not an
+independently verified award. The Italy DSU article is withheld as draft while
+its regional conditions and unsupported benefit claims await official evidence.
+Generic merit-award context is not attributed to a country or marked verified.
+Prior source blockers remain unresolved unless a later task explicitly records
+opened evidence and the exact corrected lines. No search snippet is evidence.
+
+Phase A source URLs opened on 2026-10-16:
+- https://www.daad.de/en/studying-in-germany/living-in-germany/finances/
+  Confirmed general public-course tuition conditions, Baden-Wuerttemberg,
+  Bavaria, semester contributions and separate living expenses.
+- https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/
+  Confirmed language and standard-duration conditions; foreign-language fees.
+- https://www.universitaly.it/it/studenti-stranieri
+  Confirmed admissions/visa responsibilities only, not scholarship amounts.
+  Initial /tuition-fees/ ministry URL was a missing page and is not evidence.
+Affected website files: about.php, index.php, services.php, blog/index.php,
+blog/cost-of-studying-abroad-for-indian-students.php,
+blog/scholarships-for-indian-students-study-abroad.php,
+blog/italy-dsu-scholarship-eligibility.php and includes/posts.php.
+Their audited tuition paragraphs, metadata and FAQ/schema counterparts were
+rewritten. Generic award context remains unverified, not country-specific.
+All source-line references above refer to the preserved historical audit;
+no statement in that audit is treated as proof of current verification.

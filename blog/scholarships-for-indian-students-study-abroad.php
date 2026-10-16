@@ -12,8 +12,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
 <title>Scholarships for Indian Students to Study Abroad: Honest Guide | ILMERA</title>
-<meta name="description" content="Which scholarships can Indian students actually get? Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises, updated October 2026."/>
-<meta name="keywords" content="scholarships for indian students, study abroad scholarships, italy DSU scholarship, germany free education, government scholarships"/>
+<meta name="description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
 <meta name="language" content="English"/>
@@ -29,7 +29,7 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Scholarships for Indian Students to Study Abroad: Honest Guide"/>
-<meta property="og:description" content="Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises."/>
+<meta property="og:description" content="Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
@@ -51,7 +51,7 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
       "@type": "BlogPosting",
       "@id": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad#article",
       "headline": "Scholarships for Indian Students to Study Abroad: The Honest Guide",
-      "description": "Which scholarships Indian students can actually get: Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises.",
+      "description": "Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.",
       "url": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
       "datePublished": <?= json_encode($post['datePublished']) ?>,
@@ -135,7 +135,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p><strong>Short answer:</strong> the most realistic funding routes for Indian students fall into four groups: Italy's income-based regional DSU scholarships, tuition-free German public universities, university-specific merit awards, and government schemes such as Chevening and Commonwealth for the UK. Anything promising guaranteed money for every applicant should be treated as a red flag. Here is how each route actually works and who it suits.</p>
+    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
 
     <div class="confirm">Scholarship amounts, deadlines and eligibility thresholds change every cycle. Verify them against the official scheme websites and the target university before applying.</div>
 
@@ -146,9 +146,9 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><th>Route</th><th>How it works</th><th>Assessed on</th><th>Best fit</th></tr>
       </thead>
       <tbody>
-        <tr><td>Italy DSU (regional)</td><td>Regional student-welfare support: tuition relief, an annual stipend, subsidised accommodation and meal services</td><td>Family income (ISEE/ISEE parificato) and merit credits</td><td>Middle-income families; architecture, arts, engineering</td></tr>
-        <tr><td>Germany public universities</td><td>Not a scholarship: most public universities charge no tuition for consecutive degrees, only a semester contribution</td><td>Admission requirements per programme</td><td>Engineering, IT, budget planners</td></tr>
-        <tr><td>University merit awards</td><td>Fee waivers or partial awards offered by individual universities at intake</td><td>Academic record, sometimes interview or portfolio</td><td>Strong academics in any destination</td></tr>
+        <tr><td>Italy DSU (regional)</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Family income (ISEE/ISEE parificato) and merit credits</td><td>Middle-income families; architecture, arts, engineering</td></tr>
+        <tr><td>Germany public universities</td><td>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</td><td>Admission requirements per programme</td><td>Engineering, IT, budget planners</td></tr>
+        <tr><td>University merit awards</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Academic record, sometimes interview or portfolio</td><td>Strong academics in any destination</td></tr>
         <tr><td>Government schemes (UK Chevening, Commonwealth, others)</td><td>Fully or largely funded study for eligible candidates, applied for directly with the scheme</td><td>Academics, leadership, scheme-specific criteria</td><td>High-achieving applicants with work or community record</td></tr>
       </tbody>
     </table>
@@ -158,18 +158,18 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <p>DSU is administered regionally, so the income threshold and stipend differ between, say, a university in Lombardy and one in Sicily. International applicants file an equivalent ISEE declaration through the regional body, alongside translated and legalised documents. Renewal in later years depends on earning the required credits. The full assessment is explained in our <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility guide') ?: 'DSU eligibility guide' ?> and on our <a href="/services#italy">Study in Italy</a> page.</p>
 
     <h3>Germany Without a Scholarship</h3>
-    <p>Because most German public universities charge no tuition, the funding question shifts to living costs, which the visa requires you to prove through a blocked account. That makes Germany one of the cheapest total-cost destinations even without any award. The India-specific APS certificate is the entry gate; read the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS guide') ?: 'APS guide' ?> for the process.</p>
+    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</p>
 
     <h2>How to Judge a Scholarship Offer Critically</h2>
     <ol>
       <li><strong>Source check:</strong> every legitimate scheme publishes its own rules on an official website. If a consultant cannot point you there, walk away.</li>
       <li><strong>Renewal terms:</strong> ask what keeps the money in year two. Many awards require credit thresholds.</li>
-      <li><strong>Total-cost maths:</strong> a partial award at a high-cost destination can cost more overall than a tuition-free destination with no award.</li>
+      <li>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</li>
       <li><strong>Deadline reality:</strong> DSU windows and government schemes close months before intake; applications filed late are simply rejected.</li>
     </ol>
 
     <h2>What ILMERA Does Differently</h2>
-    <p>ILMERA never promises a scholarship; it checks your eligibility honestly before you spend money on applications. Founder Jabir KJ, currently studying at the University of Rome Tor Vergata, has personally worked through the DSU and proof-of-funds process and advises students on it. The eligibility check is part of the free consultation: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>.</p>
+    <p>ILMERA never promises a scholarship; it checks your eligibility honestly before you spend money on applications. Founder Jabir KJ, currently studying at the University of Rome Tor Vergata, has personally worked through the DSU and proof-of-funds process and advises students on it. The eligibility check is part of the no-charge consultation: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>.</p>
 
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
@@ -188,8 +188,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Curious Whether You Qualify?</h2>
-    <p>Book a free consultation and get an honest eligibility check for DSU, tuition-free routes and university awards, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

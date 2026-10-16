@@ -147,14 +147,14 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p><strong>Short answer:</strong> the cheapest destinations for Indian students are usually the Czech Republic, Lithuania, Latvia, Slovakia and Russia, while German public universities charge little to no tuition regardless of nationality. But tuition is only part of the bill: living costs, visa funds, insurance and travel decide whether a destination is genuinely affordable for your family. This guide breaks down each of the nine destinations ILMERA works with, what drives the cost, and what you must budget beyond tuition.</p>
+    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</p>
 
     <div class="confirm">Figures change every intake. Always confirm current tuition and blocked-account or living-cost amounts on the official university and immigration websites for your destination before you apply.</div>
 
     <h2>Total Cost of Attendance, Not Just Tuition</h2>
     <p>Families comparing destinations on tuition alone routinely underestimate the total. A realistic budget has four layers:</p>
     <ol>
-      <li><strong>Tuition or semester contribution:</strong> from zero at most German public universities to substantial fees at UK universities; ranges vary by destination and programme.</li>
+      <li>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</li>
       <li><strong>Living costs:</strong> rent, food, transport and insurance vary enormously between, say, a student town in Latvia and central London.</li>
       <li><strong>Proof of funds for the visa:</strong> most countries require you to show money for at least the first year. Germany uses a blocked account with a government-set minimum that changes periodically, so check the current amount.</li>
       <li><strong>One-off costs:</strong> application fees, APS certificate (Germany), document legalisation, flights and initial settlement money.</li>
@@ -167,12 +167,12 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <tr><th>Destination</th><th>Tuition signal</th><th>Living cost signal</th><th>Best for</th></tr>
       </thead>
       <tbody>
-        <tr><td>Germany</td><td>Little to no tuition at public universities; semester contribution applies</td><td>Moderate; blocked account required</td><td>Engineering, IT, tuition-free degrees</td></tr>
-        <tr><td>Italy</td><td>Public universities charge tuition; regional DSU scholarships can cover it and add a stipend for eligible students</td><td>Moderate, lower in smaller cities</td><td>Scholarship-driven students, arts and engineering</td></tr>
+        <tr><td>Germany</td><td>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.</td><td>Moderate; blocked account required</td><td>Engineering, IT, programme-specific degrees</td></tr>
+        <tr><td>Italy</td><td>Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or admission outcome is guaranteed.</td><td>Moderate, lower in smaller cities</td><td>Scholarship-driven students, arts and engineering</td></tr>
         <tr><td>Czech Republic</td><td>Among the lowest tuition levels in the EU</td><td>Low to moderate</td><td>Budget Master's, medicine, EU access</td></tr>
         <tr><td>Lithuania</td><td>Low tuition; some of the lowest living costs in the EU</td><td>Low</td><td>Budget-conscious bachelor's students</td></tr>
         <tr><td>Latvia</td><td>Low tuition, flexible entry</td><td>Low</td><td>Accessible EU degrees</td></tr>
-        <tr><td>Slovakia</td><td>Free in some Slovak-language branches; paid English programmes</td><td>Low</td><td>Free-education routes, medicine</td></tr>
+        <tr><td>Slovakia</td><td>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</td><td>Low</td><td>programme-specific routes, medicine</td></tr>
         <tr><td>Russia</td><td>Low tuition, no IELTS, backlogs accepted at many universities</td><td>Low</td><td>MBBS, backlogs, tight budgets</td></tr>
         <tr><td>United Kingdom</td><td>Tuition applies; one-year Master's shortens total cost</td><td>High, especially London</td><td>Ranked degrees, finance, law</td></tr>
         <tr><td>GCC (UAE, Saudi, Qatar, Kuwait, Bahrain, Oman)</td><td>Varies by university and branch campus</td><td>Moderate to high in Dubai/Qatar</td><td>Near-home international degrees</td></tr>
@@ -180,13 +180,13 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </table>
     </div>
 
-    <h2>Where the Free-Education Routes Actually Apply</h2>
-    <p>Two of the nine destinations can genuinely approach zero tuition:</p>
+    <h2>Where Tuition Conditions Differ</h2>
+    <p>At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
     <ul>
-      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <?= ilmera_post_link('study-in-germany-free-aps-certificate', 'APS certificate') ?: 'APS certificate' ?> for the India-specific requirement.</li>
+      <li><strong>Germany:</strong> most public universities charge no tuition for consecutive degrees; you pay a semester contribution and prove living funds through a blocked account. A few states levy fees in specific cases, so ILMERA checks the rule for each university. See our guide to the <?= ilmera_post_link('study-in-germany-conditional-aps-certificate', 'APS certificate') ?: 'APS certificate' ?> for the India-specific requirement.</li>
       <li><strong>Italy:</strong> public universities charge tuition, but the regional DSU scholarship, assessed mainly on family income (ISEE) and merit, can cover tuition and add a stipend plus subsidised accommodation and meals. Amounts are set regionally and revised periodically. See our guide on <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'DSU eligibility') ?: 'DSU eligibility' ?>.</li>
     </ul>
-    <p>Slovakia offers free tuition in some Slovak-language branches, which requires learning the language through a preparatory year; English-taught programmes there are paid.</p>
+    <p>Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees.</p>
 
     <h2>How to Compare Two Countries Fairly</h2>
     <ol>
@@ -197,7 +197,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </ol>
 
     <h2>What ILMERA Does Differently</h2>
-    <p>ILMERA gives every student a country-by-country cost breakdown matched to their actual marksheet and budget before any application is filed, including routes for students with backlogs, low marks or no IELTS. The consultation is free and carries no commitment: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>, or compare destinations on our <a href="/services">destinations page</a>.</p>
+    <p>ILMERA gives every student a country-by-country cost breakdown matched to their actual marksheet and budget before any application is filed, including routes for students with backlogs, low marks or no IELTS. The consultation is no-charge and carries no commitment: book it at <a href="/contact">ilmerastudyabroad.com/contact</a>, or compare destinations on our <a href="/services">destinations page</a>.</p>
 
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
@@ -216,8 +216,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Want a Cost Sheet for Your Profile?</h2>
-    <p>Book a free consultation and get a country-by-country breakdown matched to your marks and budget, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation and get a country-by-country breakdown matched to your marks and budget, by phone, WhatsApp, or video call.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

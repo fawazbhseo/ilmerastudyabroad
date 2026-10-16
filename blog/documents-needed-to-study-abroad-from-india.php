@@ -191,7 +191,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </ol>
 
     <h2>What ILMERA Verifies for Every Student</h2>
-    <p>CFO Zaheer KJ runs the document chain for ILMERA students: transcript and marksheet verification, APS submissions, application filing, and visa appointment scheduling, with each file tracked against its intake deadline. The document review is part of the free first consultation; book it at <a href="/contact">ilmerastudyabroad.com/contact</a> or read about <a href="/services">our services</a>.</p>
+    <p>CFO Zaheer KJ runs the document chain for ILMERA students: transcript and marksheet verification, APS submissions, application filing, and visa appointment scheduling, with each file tracked against its intake deadline. The document review is part of the no-charge first consultation; book it at <a href="/contact">ilmerastudyabroad.com/contact</a> or read about <a href="/services">our services</a>.</p>
 
     <div class="author-card">
       <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
@@ -210,8 +210,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Not Sure Which Documents Apply to You?</h2>
-    <p>Book a free consultation and get a destination-specific checklist matched to your profile, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation and get a destination-specific checklist matched to your profile, by phone, WhatsApp, or video call.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

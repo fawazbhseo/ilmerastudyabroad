@@ -15,7 +15,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Blog', 'url' => '/bl
 ════════════════════════════════════════════════════════════ -->
 <title>Study Abroad Blog | ILMERA Study Abroad</title>
 <meta name="description" content="Practical guidance from ILMERA Study Abroad on studying in Germany, Italy, and other destinations, plus honest answers on backlogs, no-IELTS routes, and consultation from Coorg."/>
-<meta name="keywords" content="study abroad blog, study in Germany free, Italy DSU scholarship, study abroad with backlogs, study abroad no IELTS, study abroad consultant Coorg Kodagu"/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="ILMERA Study Abroad"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="googlebot" content="index, follow"/>
@@ -165,8 +165,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="blog-cta">
   <div class="container">
     <h2>Have a Question We Haven't Covered?</h2>
-    <p>Book a free consultation and get an honest answer for your specific profile, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation and get an honest answer for your specific profile, by phone, WhatsApp, or video call.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

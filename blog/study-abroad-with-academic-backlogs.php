@@ -167,8 +167,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Have Backlogs and Not Sure Where You Stand?</h2>
-    <p>Book a free consultation and get an honest, profile-specific answer on which universities and countries fit your academic history.</p>
-    <a href="/contact" class="btn-gold">Book a Free Consultation</a>
+    <p>Book a no-charge consultation and get an honest, profile-specific answer on which universities and countries fit your academic history.</p>
+    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
   </div>
 </section>
 

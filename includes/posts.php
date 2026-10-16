@@ -5,7 +5,7 @@ function ilmera_posts()
     static $posts = [
         'study-in-germany-free-aps-certificate' => [
             'slug' => 'study-in-germany-free-aps-certificate',
-            'title' => 'How to Study in Germany for Free from India: The APS Certificate Explained',
+            'title' => 'How to Study in Germany for conditional from India: The APS Certificate Explained',
             'excerpt' => 'Germany\'s public universities charge little to no tuition, but Indian applicants need an APS certificate before they can apply. Here is what the process actually involves.',
             'category' => 'Germany',
             'readMinutes' => 5,
@@ -17,12 +17,12 @@ function ilmera_posts()
         'italy-dsu-scholarship-eligibility' => [
             'slug' => 'italy-dsu-scholarship-eligibility',
             'title' => 'Italy\'s DSU Scholarship: Who Actually Qualifies',
-            'excerpt' => 'Italy\'s regional DSU scholarships can cover tuition plus a living stipend, but eligibility is based on income (ISEE) and merit, not just marks. Here is how the assessment works.',
+            'excerpt' => 'Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.',
             'category' => 'Italy',
             'readMinutes' => 4,
             'datePublished' => '2025-08-20',
-            'dateModified' => '2026-10-01',
-            'status' => 'published',
+            'dateModified' => '2026-10-16',
+            'status' => 'draft',
             'related' => ['study-in-germany-free-aps-certificate', 'study-abroad-with-academic-backlogs', 'study-abroad-counselling-from-coorg'],
         ],
         'study-abroad-with-academic-backlogs' => [
@@ -72,7 +72,7 @@ function ilmera_posts()
         'scholarships-for-indian-students-study-abroad' => [
             'slug' => 'scholarships-for-indian-students-study-abroad',
             'title' => 'Scholarships for Indian Students to Study Abroad: The Honest Guide',
-            'excerpt' => 'Which scholarships can Indian students actually get? Italy DSU, German tuition-free universities, university awards and government schemes, explained without inflated promises, updated October 2026.',
+            'excerpt' => 'Which scholarships can Indian students actually get? Italy DSU, German conditional tuition planning universities, university awards and government schemes, explained without inflated promises, updated October 2026.',
             'category' => 'Scholarships',
             'readMinutes' => 6,
             'datePublished' => '2026-10-01',

@@ -175,7 +175,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php endif; ?>
     <section aria-labelledby="place-counselling-process" class="author-card" style="display:block;">
       <h2 id="place-counselling-process">How ILMERA counselling works</h2>
-      <p>ILMERA Study Abroad is based in Coorg, Kodagu, and has no physical office. Counselling is by phone, WhatsApp and video call. The initial consultation is free; academic and financial documents are shared digitally for review. University admissions, scholarships and visas are not guaranteed.</p>
+      <p>ILMERA Study Abroad is based in Coorg, Kodagu, and has no physical office. Counselling is by phone, WhatsApp and video call. The initial consultation is no-charge; academic and financial documents are shared digitally for review. University admissions, scholarships and visas are not guaranteed.</p>
       <p>Counsellors review marks, backlogs, budget and course goals, discuss a university shortlist, and guide applications, visa documentation and pre-departure preparation.</p>
       <p>Visa-document guidance is provided through the same contact channels. Any visa appointment is the student's own appointment at the relevant consulate or VFS centre, not a meeting with ILMERA.</p>
       <p><a href="/contact" style="color:var(--gold);">Arrange a consultation</a> or read about <?= ilmera_post_link('study-abroad-counselling-from-coorg', 'counselling from Coorg', ['style' => 'color:var(--gold);']) ?: 'counselling from Coorg' ?>.</p>

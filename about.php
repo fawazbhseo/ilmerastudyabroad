@@ -13,9 +13,9 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
      PRIMARY SEO META: About Page
 ═══════════════════════════════════════════════════════════════ -->
 <title>About ILMERA Study Abroad | Study Abroad Consultants for Coorg &amp; Kodagu</title>
-<meta name="description" content="ILMERA Study Abroad is based in Coorg, Kodagu and works with students across Karnataka and India. Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. Free online consultation."/>
+<meta name="description" content="ILMERA Study Abroad is based in Coorg, Kodagu and works with students across Karnataka and India. Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. no-charge online consultation."/>
 
-<meta name="keywords" content="study abroad consultant India, ILMERA Study Abroad, overseas education consultant, study in Germany free, study in Italy, study abroad with backlogs, low marks study abroad, student visa assistance, study in Europe from India, MBBS abroad, study in UK, Czech Republic universities"/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="ILMERA Study Abroad"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="googlebot" content="index, follow"/>
@@ -40,7 +40,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
 
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="About ILMERA Study Abroad | Study Abroad Consultants for Coorg &amp; Kodagu"/>
-<meta property="og:description" content="Meet the named team behind ILMERA Study Abroad: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. Free online consultation."/>
+<meta property="og:description" content="Meet the named team behind ILMERA Study Abroad: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. no-charge online consultation."/>
 
 <meta property="og:url" content="https://ilmerastudyabroad.com/about"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -133,7 +133,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
         "Student visa applications",
         "Study abroad with academic backlogs",
         "Study abroad without IELTS",
-        "Free tuition public universities in Germany",
+        "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.",
         "Italy DSU regional scholarships",
         "APS certificate for Indian applicants to Germany",
         "Low-cost study destinations in Eastern Europe",
@@ -297,7 +297,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       },
       "offers": {
         "@type": "Offer",
-        "name": "Free initial consultation",
+        "name": "no-charge initial consultation",
         "price": "0",
         "priceCurrency": "INR",
         "availability": "https://schema.org/InStock"
@@ -354,7 +354,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "How much does ILMERA Study Abroad charge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The first consultation is free with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear."
+            "text": "The first consultation is no-charge with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear."
           }
         },
         {
@@ -362,15 +362,15 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Is ILMERA Study Abroad legitimate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives free initial consultations with honest eligibility assessments instead of guaranteed-admission promises."
+            "text": "ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives no-charge initial consultations with honest eligibility assessments instead of guaranteed-admission promises."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the first consultation free?",
+          "name": "Is the first consultation no-charge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, ILMERA Study Abroad offers a free initial consultation with transparent, honest guidance and no hidden fees."
+            "text": "Yes, ILMERA Study Abroad offers a no-charge initial consultation with transparent, honest guidance and no hidden fees."
           }
         }
       ]
@@ -665,14 +665,14 @@ img{max-width:100%;height:auto;}
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">ILMERA is based in Coorg. CMO <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);">Fawaz BH</a> lives and works in Kushal Nagar, Kodagu, where he also runs an independent SEO consultancy. In practice that means counselling in Kannada, Malayalam, Hindi or English, an understanding of PUC and Karnataka state board marksheets and how foreign admissions offices read them, and someone who knows the district rather than a call centre reading a script.</p>
 
       <h3 style="font-size:20px;font-weight:600;color:var(--deep-navy);margin:36px 0 14px;">How counselling actually works</h3>
-      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">You call <a href="tel:+919481084038" style="color:var(--navy);">+91 94810 84038</a>, call <a href="tel:+919019557427" style="color:var(--navy);">+91 90195 57427</a>, or WhatsApp <a href="https://wa.me/421944485186" style="color:var(--navy);">+421 944485186</a> and book a free slot. Founder Jabir KJ or a counsellor reviews your marksheets and budget on a video call and tells you honestly which countries will realistically admit you. Documents are shared digitally; CFO Zaheer KJ verifies them and files your applications. Visa appointments are booked at the relevant consulate, which for most European destinations means Bengaluru or Chennai, and it is the only travel the process requires.</p>
+      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">You call <a href="tel:+919481084038" style="color:var(--navy);">+91 94810 84038</a>, call <a href="tel:+919019557427" style="color:var(--navy);">+91 90195 57427</a>, or WhatsApp <a href="https://wa.me/421944485186" style="color:var(--navy);">+421 944485186</a> and book a no-charge slot. Founder Jabir KJ or a counsellor reviews your marksheets and budget on a video call and tells you honestly which countries will realistically admit you. Documents are shared digitally; CFO Zaheer KJ verifies them and files your applications. Visa appointments are booked at the relevant consulate, which for most European destinations means Bengaluru or Chennai, and it is the only travel the process requires.</p>
 
       <h3 style="font-size:20px;font-weight:600;color:var(--deep-navy);margin:36px 0 14px;">What Kodagu students most often ask about</h3>
-      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">The most common questions we get from Coorg are about studying with a low PUC percentage, routes that skip IELTS, and free or near-free tuition. Public universities in Germany charge little to no tuition but require an <a href="https://www.aps-india.de/" rel="nofollow noopener" style="color:var(--navy);">APS certificate</a> from Indian applicants and proof of funds in a blocked account. Italy's regional DSU scholarships are income-assessed via ISEE and can cover tuition plus a living stipend. Russia, Slovakia, Lithuania and Latvia accept lower percentages and backlogs and frequently waive IELTS. Which of these fits depends entirely on your actual marksheet, which is what the free consultation is for.</p>
+      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.</p>
 
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:28px;">Full destination-by-destination detail is on our <a href="https://ilmerastudyabroad.com/" style="color:var(--navy);">study abroad guide</a>, and you can reach us any time via the <a href="https://ilmerastudyabroad.com/contact" style="color:var(--navy);">contact page</a>.</p>
 
-      <a href="/contact" class="btn-gold">Book a Free Online Consultation</a>
+      <a href="/contact" class="btn-gold">Book a no-charge Online Consultation</a>
     </div>
   </div>
 </section>
@@ -736,19 +736,20 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is CFO at ILMERA Study Abroad. He manages the document side of every student application: transcript and marksheet verification, APS submissions for Germany, university application filing, student visa document sets, appointment scheduling, and tracking each file against its intake deadline.</p></div></details>
 
-      <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives free initial consultations with honest eligibility assessments instead of guaranteed-admission promises.</p></div></details>
+      <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives no-charge initial consultations with honest eligibility assessments instead of guaranteed-admission promises.</p></div></details>
 
-      <details class="il-faq"><summary>Is the first consultation free?</summary><div><p>Yes, ILMERA Study Abroad offers a free initial consultation with transparent, honest guidance and no hidden fees.</p></div></details>
+      <details class="il-faq"><summary>Is the first consultation no-charge?</summary><div><p>Yes, ILMERA Study Abroad offers a no-charge initial consultation with transparent, honest guidance and no hidden fees.</p></div></details>
 
       <details class="il-faq"><summary>Does ILMERA Study Abroad have a physical office?</summary><div><p>No. ILMERA does not operate a walk-in office. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call.</p></div></details>
 
-      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>The first consultation is free with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear.</p></div></details>
+      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>The first consultation is no-charge with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear.</p></div></details>
 
     </div>
   </div>
 </section>
 
 <div class="container"><p style="padding:28px 0;line-height:1.8;">For course selection and application guidance, explore our <?= ilmera_link('/services', 'study abroad services') ?>.</p></div>
+<div class="container"><section class="source-review"><h2>Tuition guidance sources</h2><p>Checked 16 October 2026: <a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/">DAAD tuition and living costs</a>; <a href="https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/">Slovak Ministry tuition rules</a>; <a href="https://www.universitaly.it/it/studenti-stranieri">Universitaly international student procedures</a>. The Italy scholarship statement is owner-provided conditional guidance, not an officially confirmed award. Confirm written award terms before budgeting it.</p></section></div>
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
