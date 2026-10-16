@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>
 <?php
 require_once __DIR__ . '/includes/breadcrumbs.php';
 $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Terms of Use', 'url' => '/terms']];

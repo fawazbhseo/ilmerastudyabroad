@@ -3097,3 +3097,14 @@ section citations or conflicts were fabricated. Core targets and existing
 navigational/article intents are explicitly provisional. Consultancy fees
 remain an owner-data gap. A new guide is explicitly authorized in task 3;
 no existing publication status may change. All destination data is frozen.
+
+## Phase 19 task 2: conservative presentation layer, 2026-10-16
+
+Metadata/H1/opening changes are centralized in data/seo-map.json and applied
+server-side before delivery, including social and page/service/article schema.
+Destination records, summaries, provenance and facts remain byte-identical.
+Existing sourced prose remains visible verbatim. Location authored data and
+its content-hash gate are unchanged. Article review file hashes were updated
+only for the new presentation include, not for a source/fact/status change.
+All keyword assignments remain provisional pending the inaccessible strategy
+document. Exact title/description/H1 values are in the on-page change report.

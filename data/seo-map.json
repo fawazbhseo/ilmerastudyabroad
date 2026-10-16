@@ -1,0 +1,335 @@
+{
+  "/about": {
+    "primary": "about ILMERA Study Abroad",
+    "title": "About ILMERA Study Abroad",
+    "description": "About ILMERA Study Abroad. Read about the online counselling model, existing leadership roles and application guidance services.",
+    "h1": "About ILMERA Study Abroad",
+    "opening": "About ILMERA Study Abroad: Read about the online counselling model, existing leadership roles and application guidance services.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/all-pages": {
+    "primary": "ILMERA published page directory",
+    "title": "ILMERA published page directory",
+    "description": "ILMERA published page directory. Browse the published destinations, location guides and student planning articles.",
+    "h1": "ILMERA published page directory",
+    "opening": "ILMERA published page directory: Browse the published destinations, location guides and student planning articles.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/blog/cost-of-studying-abroad-for-indian-students": {
+    "primary": "cost of studying abroad for Indian students",
+    "title": "Cost of studying abroad for Indian students | ILMERA",
+    "description": "Cost of studying abroad for Indian students: practical guidance on study abroad budget planning, with limits and evidence kept clear.",
+    "h1": "Cost of studying abroad for Indian students",
+    "opening": "Cost of studying abroad for Indian students requires careful planning. This article explains study abroad budget planning and distinguishes preparation from an admission, visa or funding decision.",
+    "kind": "article",
+    "provisional": true
+  },
+  "/blog/documents-needed-to-study-abroad-from-india": {
+    "primary": "documents needed to study abroad from India",
+    "title": "Documents needed to study abroad from India | ILMERA",
+    "description": "Documents needed to study abroad from India: practical guidance on admission document planning, with limits and evidence kept clear.",
+    "h1": "Documents needed to study abroad from India",
+    "opening": "Documents needed to study abroad from India requires careful planning. This article explains admission document planning and distinguishes preparation from an admission, visa or funding decision.",
+    "kind": "article",
+    "provisional": true
+  },
+  "/blog/": {
+    "primary": "ILMERA study abroad blog",
+    "title": "ILMERA study abroad blog",
+    "description": "ILMERA study abroad blog. Read practical articles on budgets, documents, scholarship evidence, academic records and online counselling.",
+    "h1": "ILMERA study abroad blog",
+    "opening": "ILMERA study abroad blog: Read practical articles on budgets, documents, scholarship evidence, academic records and online counselling.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/blog/scholarships-for-indian-students-study-abroad": {
+    "primary": "scholarships for Indian students abroad",
+    "title": "Scholarships for Indian students abroad | ILMERA",
+    "description": "Scholarships for Indian students abroad: practical guidance on scholarship eligibility evidence, with limits and evidence kept clear.",
+    "h1": "Scholarships for Indian students abroad",
+    "opening": "Scholarships for Indian students abroad requires careful planning. This article explains scholarship eligibility evidence and distinguishes preparation from an admission, visa or funding decision.",
+    "kind": "article",
+    "provisional": true
+  },
+  "/blog/study-abroad-counselling-from-coorg": {
+    "primary": "online study abroad counselling for Coorg students",
+    "title": "Online study abroad counselling for Coorg students | ILMERA",
+    "description": "Online study abroad counselling for Coorg students: practical guidance on Coorg online application guidance, with limits and evidence kept clear.",
+    "h1": "Online study abroad counselling for Coorg students",
+    "opening": "Online study abroad counselling for Coorg students requires careful planning. This article explains Coorg online application guidance and distinguishes preparation from an admission, visa or funding decision.",
+    "kind": "article",
+    "provisional": true
+  },
+  "/blog/study-abroad-with-academic-backlogs": {
+    "primary": "study abroad with academic backlogs",
+    "title": "Study abroad with academic backlogs | ILMERA",
+    "description": "Study abroad with academic backlogs: practical guidance on backlog application planning, with limits and evidence kept clear.",
+    "h1": "Study abroad with academic backlogs",
+    "opening": "Study abroad with academic backlogs requires careful planning. This article explains backlog application planning and distinguishes preparation from an admission, visa or funding decision.",
+    "kind": "article",
+    "provisional": true
+  },
+  "/contact": {
+    "primary": "contact ILMERA Study Abroad",
+    "title": "Contact ILMERA Study Abroad",
+    "description": "Contact ILMERA Study Abroad. Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+    "h1": "Contact ILMERA Study Abroad",
+    "opening": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/": {
+    "primary": "ILMERA Study Abroad",
+    "title": "ILMERA Study Abroad",
+    "description": "ILMERA Study Abroad. Discuss your study plans through online counselling, with programme requirements and written funding terms checked separately.",
+    "h1": "ILMERA Study Abroad",
+    "opening": "ILMERA Study Abroad: Discuss your study plans through online counselling, with programme requirements and written funding terms checked separately.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/privacy-policy": {
+    "primary": "ILMERA privacy policy",
+    "title": "ILMERA privacy policy",
+    "description": "ILMERA privacy policy. Read how enquiry information is collected, used and handled, and how to raise a privacy question.",
+    "h1": "ILMERA privacy policy",
+    "opening": "ILMERA privacy policy: Read how enquiry information is collected, used and handled, and how to raise a privacy question.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/services": {
+    "primary": "ILMERA study abroad services",
+    "title": "ILMERA study abroad services",
+    "description": "ILMERA study abroad services. Review profile matching, admissions, visa documents, scholarship planning and pre-departure support.",
+    "h1": "ILMERA study abroad services",
+    "opening": "ILMERA study abroad services: Review profile matching, admissions, visa documents, scholarship planning and pre-departure support.",
+    "kind": "page",
+    "provisional": true
+  },
+  "/study-abroad-consultants-in-karnataka": {
+    "primary": "study abroad consultants in Karnataka",
+    "title": "Study abroad consultants in Karnataka | ILMERA",
+    "description": "Study abroad consultants in Karnataka: decide what the comparison must answer. Online application planning with ILMERA.",
+    "h1": "Study abroad consultants in Karnataka",
+    "opening": "Study abroad consultants in Karnataka: decide what the comparison must answer.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-consultants-in-kodagu": {
+    "primary": "study abroad consultancy in Kodagu",
+    "title": "Study abroad consultancy in Kodagu | ILMERA",
+    "description": "Study abroad consultancy in Kodagu: prepare separate concerns before the joint conversation. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Kodagu",
+    "opening": "Study abroad consultancy in Kodagu: prepare separate concerns before the joint conversation.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-belagavi": {
+    "primary": "study abroad consultancy in Belagavi",
+    "title": "Study abroad consultancy in Belagavi | ILMERA",
+    "description": "Study abroad consultancy in Belagavi: describe the task before choosing the support. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Belagavi",
+    "opening": "Study abroad consultancy in Belagavi: describe the task before choosing the support.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-bengaluru": {
+    "primary": "study abroad consultancy in Bengaluru",
+    "title": "Study abroad consultancy in Bengaluru | ILMERA",
+    "description": "Study abroad consultancy in Bengaluru: translate your interest into an academic question. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Bengaluru",
+    "opening": "Study abroad consultancy in Bengaluru: translate your interest into an academic question.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-chikkamagaluru": {
+    "primary": "study abroad consultancy in Chikkamagaluru",
+    "title": "Study abroad consultancy in Chikkamagaluru | ILMERA",
+    "description": "Study abroad consultancy in Chikkamagaluru: find the requirement that belongs to your course. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Chikkamagaluru",
+    "opening": "Study abroad consultancy in Chikkamagaluru: find the requirement that belongs to your course.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-gonikoppal": {
+    "primary": "study abroad consultancy in Gonikoppal",
+    "title": "Study abroad consultancy in Gonikoppal | ILMERA",
+    "description": "Study abroad consultancy in Gonikoppal: map the request before collecting records. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Gonikoppal",
+    "opening": "Study abroad consultancy in Gonikoppal: map the request before collecting records.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-hassan": {
+    "primary": "study abroad consultancy in Hassan",
+    "title": "Study abroad consultancy in Hassan | ILMERA",
+    "description": "Study abroad consultancy in Hassan: separate the known price from the planning estimate. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Hassan",
+    "opening": "Study abroad consultancy in Hassan: separate the known price from the planning estimate.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-kushalnagar": {
+    "primary": "study abroad consultancy in Kushalnagar",
+    "title": "Study abroad consultancy in Kushalnagar | ILMERA",
+    "description": "Study abroad consultancy in Kushalnagar: turn the offer into a list of obligations. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Kushalnagar",
+    "opening": "Study abroad consultancy in Kushalnagar: turn the offer into a list of obligations.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-madikeri": {
+    "primary": "study abroad consultancy in Madikeri",
+    "title": "Study abroad consultancy in Madikeri | ILMERA",
+    "description": "Study abroad consultancy in Madikeri: start with dates rather than a persuasive story. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Madikeri",
+    "opening": "Study abroad consultancy in Madikeri: start with dates rather than a persuasive story.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-mangaluru": {
+    "primary": "study abroad consultancy in Mangaluru",
+    "title": "Study abroad consultancy in Mangaluru | ILMERA",
+    "description": "Study abroad consultancy in Mangaluru: understand the proposed support before describing it. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Mangaluru",
+    "opening": "Study abroad consultancy in Mangaluru: understand the proposed support before describing it.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-mysuru": {
+    "primary": "study abroad consultancy in Mysuru",
+    "title": "Study abroad consultancy in Mysuru | ILMERA",
+    "description": "Study abroad consultancy in Mysuru: read the record as the recipient will see it. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Mysuru",
+    "opening": "Study abroad consultancy in Mysuru: read the record as the recipient will see it.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-ponnampet": {
+    "primary": "study abroad consultancy in Ponnampet",
+    "title": "Study abroad consultancy in Ponnampet | ILMERA",
+    "description": "Study abroad consultancy in Ponnampet: collect evidence before drafting the introduction. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Ponnampet",
+    "opening": "Study abroad consultancy in Ponnampet: collect evidence before drafting the introduction.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-shivamogga": {
+    "primary": "study abroad consultancy in Shivamogga",
+    "title": "Study abroad consultancy in Shivamogga | ILMERA",
+    "description": "Study abroad consultancy in Shivamogga: identify whose deadline you are recording. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Shivamogga",
+    "opening": "Study abroad consultancy in Shivamogga: identify whose deadline you are recording.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-siddapura": {
+    "primary": "study abroad consultancy in Siddapura",
+    "title": "Study abroad consultancy in Siddapura | ILMERA",
+    "description": "Study abroad consultancy in Siddapura: ask why a record is needed before sending it. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Siddapura",
+    "opening": "Study abroad consultancy in Siddapura: ask why a record is needed before sending it.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-somwarpet": {
+    "primary": "study abroad consultancy in Somwarpet",
+    "title": "Study abroad consultancy in Somwarpet | ILMERA",
+    "description": "Study abroad consultancy in Somwarpet: describe the record using its actual status. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Somwarpet",
+    "opening": "Study abroad consultancy in Somwarpet: describe the record using its actual status.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-udupi-manipal": {
+    "primary": "study abroad consultancy in Udupi and Manipal",
+    "title": "Study abroad consultancy in Udupi and Manipal | ILMERA",
+    "description": "Study abroad consultancy in Udupi and Manipal: read the structure as a set of commitments. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Udupi and Manipal",
+    "opening": "Study abroad consultancy in Udupi and Manipal: read the structure as a set of commitments.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-abroad-counselling-virajpet": {
+    "primary": "study abroad consultancy in Virajpet",
+    "title": "Study abroad consultancy in Virajpet | ILMERA",
+    "description": "Study abroad consultancy in Virajpet: review the completed form, not only the document folder. Online application planning with ILMERA.",
+    "h1": "Study abroad consultancy in Virajpet",
+    "opening": "Study abroad consultancy in Virajpet: review the completed form, not only the document folder.",
+    "kind": "place",
+    "provisional": true
+  },
+  "/study-in-gcc": {
+    "primary": "study in GCC countries from India",
+    "title": "Study in GCC countries from India | ILMERA",
+    "description": "Study in GCC countries from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in GCC countries from India",
+    "opening": "Study in GCC countries from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-germany": {
+    "primary": "study in Germany from India",
+    "title": "Study in Germany from India | ILMERA",
+    "description": "Study in Germany from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in Germany from India",
+    "opening": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-italy": {
+    "primary": "study in Italy from India",
+    "title": "Study in Italy from India | ILMERA",
+    "description": "Study in Italy from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in Italy from India",
+    "opening": "Study in Italy from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-latvia": {
+    "primary": "study in Latvia from India",
+    "title": "Study in Latvia from India | ILMERA",
+    "description": "Study in Latvia from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in Latvia from India",
+    "opening": "Study in Latvia from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-lithuania": {
+    "primary": "study in Lithuania from India",
+    "title": "Study in Lithuania from India | ILMERA",
+    "description": "Study in Lithuania from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in Lithuania from India",
+    "opening": "Study in Lithuania from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-slovakia": {
+    "primary": "study in Slovakia from India",
+    "title": "Study in Slovakia from India | ILMERA",
+    "description": "Study in Slovakia from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in Slovakia from India",
+    "opening": "Study in Slovakia from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/study-in-uk": {
+    "primary": "study in UK from India",
+    "title": "Study in UK from India | ILMERA",
+    "description": "Study in UK from India: check the programme, application evidence and official guidance before planning your next step.",
+    "h1": "Study in UK from India",
+    "opening": "Study in UK from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.",
+    "kind": "destination",
+    "provisional": true
+  },
+  "/terms": {
+    "primary": "ILMERA terms of use",
+    "title": "ILMERA terms of use",
+    "description": "ILMERA terms of use. Read the scope of website use and counselling responsibilities before relying on any application guidance.",
+    "h1": "ILMERA terms of use",
+    "opening": "ILMERA terms of use: Read the scope of website use and counselling responsibilities before relying on any application guidance.",
+    "kind": "page",
+    "provisional": true
+  }
+}
