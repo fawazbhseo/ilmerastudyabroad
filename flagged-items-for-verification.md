@@ -3002,3 +3002,26 @@ The final presence check includes government citation anchors too. The
 separate names guard's official-label exception cannot hide an office or
 meeting offer. A ninth presence regression case tests this exact boundary;
 this does not broaden source approvals or waive existing LLM failures.
+
+## Phase 18 task 1: full LLM reconciliation approved, 2026-10-16
+
+The owner now permits full edits to both public LLM documents. This supersedes
+only the earlier LLM edit restriction, not the content/source/status gates.
+Retained the Markdown document/section/bullet/FAQ structure, with seven
+published destination subsections. Removed unpublished destination promotion
+and unverified broad eligibility/recognition/award implications rather than
+carrying them into the new directory. No site page status was changed.
+
+Public institution names and prohibited claims were neutralized. The Italy
+amount now uses the exact approved sentence, with the same local owner label
+and written-award caution as the published pages. Online-only counselling is
+explicit. The GCC business/source statements exactly match the visible page,
+including registration-only limits and missing Kuwait requirements.
+
+The internal technical denylist retains removed aliases only to prevent
+reintroduction; they are not published or repeated in new handoff prose.
+Government labels/official portal names remain only where applicable. The
+obsolete byte restriction must be replaced by strict content policy checks,
+not by a self-comparing hash or a waiver. Page-directory additions are task 2.
+The owner deploys directly to live; no staging workflow is assumed. The live
+server address/transport/delivery checks remain separate from local QA.

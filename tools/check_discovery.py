@@ -160,13 +160,27 @@ def blocked_names(root):
     return [line.strip() for line in path.read_text().splitlines() if line.strip() and not line.startswith('#')]
 
 
-def expected_llm_bytes(root, name):
-    """Phase 16 permits only removal of the two withheld-article link lines."""
-    before = subprocess.check_output(['git', 'show', 'c2c8b9f:' + name], cwd=root)
-    held = [b'https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate',
-            b'https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility']
-    return b''.join(line for line in before.splitlines(keepends=True)
-                    if not any(url in line for url in held))
+def validate_llm_text(root, name, text):
+    """Phase 18 permits edits, not policy exceptions or draft promotion."""
+    from check_italy_claims import check_parts
+    assert name in ('llms.txt', 'llms-full.txt'), name
+    assert text.startswith('# ILMERA') and '\n## ' in text and '\n- ' in text, (name, 'Markdown structure')
+    assert not blocked_name_matches(text, blocked_names(root)), (name, 'Institution name')
+    assert not re.search(r'\bfree\b|tuition[- ]free', text, re.I), (name, 'Prohibited cost wording')
+    assert '\u2014' not in text, (name, 'Prohibited punctuation')
+    assert not physical_presence_matches(text), (name, 'Physical-presence implication')
+    assert re.search(r'\bonline[ -]only\b', text, re.I), (name, 'Explicit online-only model missing')
+    assert check_parts([text]) >= 1, (name, 'Exact conditional Italy sentence missing')
+    gcc = json.loads((root / 'phase14-source-review.json').read_text())['destinations']['gcc']
+    for key in ('scope_note', 'review_notice'):
+        assert gcc[key] in text, (name, 'GCC scope mismatch', key)
+    inventory = routes(root)
+    for route, info in inventory.items():
+        if info['status'] == 'draft':
+            assert not re.search(re.escape(HOST + route) + r'(?:[)#?\s]|$)', text), (name, 'Draft URL', route)
+    assert not re.search(r'\b(?:Czech Republic|Russia|Russian|APS|DSU)\b', text, re.I), (name, 'Unpublished destination/article information')
+    return {'content_policy': 'PASS', 'italy_exact_occurrences': check_parts([text]),
+            'online_only': True, 'gcc_scope_parity': True, 'draft_information_absent': True}
 
 
 def check(base, root, enforce_names=True):
@@ -226,6 +240,7 @@ def check(base, root, enforce_names=True):
         status, _, body = fetch(base, '/' + name)
         assert status == 200, ('Public discovery text status', name, status)
         text = body.decode()
+        validate_llm_text(root, name, text)
         public_text['/' + name] = text
         presence_text['/' + name] = text
         for target in blocked:

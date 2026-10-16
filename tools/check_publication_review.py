@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit all clean routes, structured data, source policies and frozen files."""
+"""Audit all clean routes, structured data, source policies and authorized LLM content."""
 import argparse
 import hashlib
 from html.parser import HTMLParser
@@ -9,7 +9,7 @@ import re
 import subprocess
 from urllib.parse import urlsplit
 
-from check_discovery import HOST, Page, check, expected_llm_bytes, fetch, routes
+from check_discovery import HOST, Page, check, validate_llm_text, fetch, routes
 
 
 class Content(HTMLParser):
@@ -92,18 +92,19 @@ def main():
             assert approved(source['url'], articles['approved_hosts']), (slug, source)
         if entry['verified']:
             assert not entry['failed_gates'] and all(c['verified'] and c['source_urls'] for c in entry['retained_claims']), slug
-    frozen = {}
+    llm_checks = {}
     for name in ['llms.txt', 'llms-full.txt']:
-        before = expected_llm_bytes(root, name)
         now = (root / name).read_bytes()
-        assert before == now, name
-        frozen[name] = hashlib.sha256(now).hexdigest()
+        status, _, served = fetch(args.base_url, '/' + name)
+        assert status == 200 and served == now, (name, 'Served/working copy parity')
+        llm_checks[name] = validate_llm_text(root, name, now.decode())
+        llm_checks[name]['sha256'] = hashlib.sha256(now).hexdigest()
     snapshot = (root / 'sitemap.xml').read_bytes()
     assert snapshot == fetch(args.base_url, '/sitemap.xml')[2], 'Static/runtime sitemap mismatch'
-    output = {'checked_on': '2026-10-16', 'environment': 'PHP 8.5 WASM HTTP adapter, not native Apache', 'discovery': result, 'routes': checked, 'frozen_sha256': frozen, 'sitemap_snapshot_matches_runtime': True}
+    output = {'checked_on': '2026-10-16', 'environment': 'PHP 8.5 WASM HTTP adapter, not native Apache', 'discovery': result, 'routes': checked, 'llm_content_checks': llm_checks, 'sitemap_snapshot_matches_runtime': True}
     if args.report:
         args.report.write_text(json.dumps(output, indent=2)+'\n')
-    print('PASS', len(checked)-1, 'editorial self-canonicals;', len(checked), 'route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM hashes and sitemap parity')
+    print('PASS', len(checked)-1, 'editorial self-canonicals;', len(checked), 'route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity')
 
 
 if __name__ == '__main__':

@@ -8,3 +8,12 @@ Imperial College London
 Imperial
 University of Manchester
 UCL
+University of Bologna
+Sapienza University of Rome
+Politecnico di Milano
+University of Turin
+Peoples' Friendship University of Russia
+RUDN
+Sechenov University
+Kazan Federal University
+Ural Federal University

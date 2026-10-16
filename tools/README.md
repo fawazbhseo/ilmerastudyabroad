@@ -170,3 +170,17 @@ Local PHP adapter and captured-render browser checks are not native Apache,
 external raw-transport or contact-delivery proof. The complete final results,
 line/file inventories and limitations are in reports/phase-17-verification.md
 and reports/phase-17-checks.json. No merge or deployment is implied.
+
+## Phase 18: authorized LLM edits, strict replacement policy
+
+The owner's Phase 18 approval supersedes the historical LLM byte restriction
+above. No current check compares an LLM file with a historical frozen version.
+`check_discovery.validate_llm_text` instead rejects blocked names, prohibited
+cost wording, physical-presence implications, draft promotion and punctuation;
+it requires explicit online-only counselling, the exact conditional Italy
+sentence with immediate attribution/caution, and both exact visible GCC notes.
+`check_publication_review.py` checks that the served bytes match the working
+copy and records current hashes as identity evidence, not an edit prohibition.
+Run `python3 tools/test_llm_policy.py` to exercise the policy failure cases.
+The maintained internal alias list includes names removed during reconciliation.
+This is not publication copy and must not be used to suggest partnerships.
