@@ -117,3 +117,56 @@ final rendered-main overlap measurement too, not just authored prose.
 Reports: reports/phase-16-release-check.md, phase-16-checks.json and
 phase-16-citations.json. Historical reports and blockers remain untouched;
 new findings are appended. No main push, merge or deployment is implied.
+
+## Phase 17 online-presence and GCC maintenance, 2026-10-16
+
+The owner has now confirmed online-only counselling, with no physical office
+or in-person counselling location anywhere, and university partnerships in
+all six GCC countries. Only these owner-input uncertainties are closed.
+Kuwait official student-rule evidence is still open. No page status may be
+changed and neither LLM file may be edited under Phase 17 instructions.
+
+Run the earlier strict validation commands plus:
+
+```sh
+python3 tools/test_presence.py
+```
+
+The discovery guard scans public text, metadata, alt/link attributes, decoded
+JSON-LD and both public LLM files for physical-presence offers, including
+plural premises, proximity, walk-in and meeting wording. Narrow exceptions
+cover exact negative owner disclosures, the required no-travel sentence,
+academic campus references and existing official immigration/interview text.
+They do not exempt an entire paragraph or a second meeting offer. Nine
+regression cases cover those boundaries. Government citation anchors are not
+exempt from this presence guard, even though the separate names guard has a
+source-label exception. The final phase audit also checks
+actual location Service/Organization areaServed, absence of storefront types
+and address/coordinates, visible notes, and 136 fresh full-main comparisons.
+
+Place copy edits require fresh content hashes, authored pairwise checks and
+full rendered-main overlap before updating phase14-location-review.json.
+Keep every guide above 350 authored words and every pair below 15%; FAQ and
+shared contact text do not count toward the prose minimum. Preserve statuses.
+
+GCC scope_note is owner-confirmed six-country university application support;
+review_notice separately identifies the five countries with sourced material
+and the missing Kuwait rules. Metadata and WebPage/Service descriptions must
+match both notes. Oman and Bahrain remain registration-only coverage. The
+protected GCC intro_answer, slug, name, summary and provenance must not change.
+Do not generalize an embassy registration request into admission/visa/work
+rules or claim government/embassy business affiliation. A directory is not
+proof of a current student rule. Update exact source rows after a real open.
+
+The existing Contact address record is only a Coorg/Kodagu/Karnataka/India
+postal locality, not a street, delivery address or counselling premises. Keep
+that labelled partial record only in the Contact organisation. Do not invent
+a registered address or add location street/geo data. Local areaServed is the
+student audience for online counselling, never evidence of a local venue.
+
+The strict global name/wording result remains blocked by restricted existing
+LLM content. Never waive that failure or change those files to obtain a pass.
+Local PHP adapter and captured-render browser checks are not native Apache,
+external raw-transport or contact-delivery proof. The complete final results,
+line/file inventories and limitations are in reports/phase-17-verification.md
+and reports/phase-17-checks.json. No merge or deployment is implied.

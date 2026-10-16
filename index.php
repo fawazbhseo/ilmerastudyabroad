@@ -540,7 +540,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
           <div class="sc-item"><span class="sc-rank">2</span><span>&#127473;&#127481; Lithuania</span></div>
           <div class="sc-item"><span class="sc-rank">3</span><span>&#127473;&#127483; Latvia</span></div>
           <div class="sc-item"><span class="sc-rank">4</span><span>&#127479;&#127482; Russia</span></div>
-          <div class="sc-item"><span class="sc-rank">5</span><span>&#127480;&#127472; Slovakia <em style="font-size:11px;color:#888;">(conditional in some branches)</em></span></div>
+          <div class="sc-item"><span class="sc-rank">5</span><span>&#127480;&#127472; Slovakia <em style="font-size:11px;color:#888;">(subject to programme conditions)</em></span></div>
         </div>
       </div>
       <div class="special-card reveal-l">

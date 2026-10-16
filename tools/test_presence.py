@@ -30,6 +30,18 @@ class PresenceTests(unittest.TestCase):
         self.assertFalse(physical_presence_matches('International branch campuses'))
         self.assertTrue(physical_presence_matches('International branch campuses. ILMERA has a branch in Coorg.'))
 
+    def test_plural_premises_offers(self):
+        for value in ('Our offices in Kodagu', 'ILMERA branches near you', 'Office appointments available'):
+            self.assertTrue(physical_presence_matches(value), value)
+        self.assertFalse(physical_presence_matches('International branch campus'))
+        self.assertFalse(physical_presence_matches('Slovak-language branches of several public universities.'))
+        self.assertTrue(physical_presence_matches('ILMERA has branches in Kodagu.'))
+
+    def test_official_link_does_not_waive_a_meeting_offer(self):
+        html = '<a href="https://www.gov.uk/student-visa">Visit our office</a>'
+        parts = PublishedContent(html, include_government_citations=True).parts
+        self.assertTrue(physical_presence_matches(' '.join(parts)))
+
     def test_plain_online_copy(self):
         self.assertFalse(physical_presence_matches('Online counselling for students from Kodagu by video call.'))
 

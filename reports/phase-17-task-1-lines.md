@@ -40,3 +40,25 @@ to their full published cohorts. No page status or LLM file was changed.
 | `places/udupi-manipal.php` | 29-31; after 48 (zero lines) | 29-31; 49 |
 | `places/virajpet.php` | 30-32; after 49 (zero lines) | 30-32; 50 |
 | `services.php` | 57; 64; 68-73 | 57; 64; after 67 (zero lines) |
+
+## Final audit supplement
+
+The task-4 audit clarified two remaining directory labels without changing
+their URLs: the Contact discovery heading now explicitly says online
+counselling for students from the listed places, and the shared footer
+heading identifies the list as students supported online rather than premises.
+These are additional task-1a surface corrections finalized by the last audit.
+
+| File | Final changed line | Change |
+|---|---|---|
+| `contact.php` | 849 | Online audience label |
+| `includes/footer.php` | 85 | Online audience label |
+
+Task-1 line 168 in includes/destination-page.php is finally line 173 after
+the five task-2 scope/schema lines inserted above it. All other task-1
+source-line positions above remain as recorded, with deletions identified
+by their original ranges.
+
+The final audit also clarified the Home study-route qualifier as programme
+conditions instead of an ambiguous academic-branch label: `index.php:543`.
+Its route, status and surrounding tuition qualifications are unchanged.

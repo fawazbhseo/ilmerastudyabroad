@@ -82,7 +82,7 @@
     <?php endif; ?>
     <?php $footerLocations = ilmera_indexable_locations(); if ($footerLocations): ?>
     <div>
-      <h4 class="ft-h4">Locations</h4>
+      <h4 class="ft-h4">Students we support online</h4>
       <ul class="ft-links">
         <?php foreach ($footerLocations as $location): ?>
         <li><?= ilmera_link($location['url'], $location['name']) ?></li>

@@ -90,8 +90,9 @@ def internal_url(current, href):
 
 class PublishedContent(HTMLParser):
     """Collect public text, metadata, alt/link text and decoded JSON-LD."""
-    def __init__(self, text):
+    def __init__(self, text, include_government_citations=False):
         super().__init__(convert_charrefs=True)
+        self.include_government_citations = include_government_citations
         self.parts, self.script_data = [], []
         self.skip, self.ldjson, self.government_citation = None, False, False
         self.feed(text)
@@ -105,7 +106,7 @@ class PublishedContent(HTMLParser):
         if tag == 'a':
             host = (urlsplit(a.get('href', '')).hostname or '').lower()
             # Only government citation anchors may retain institution names.
-            self.government_citation = host.endswith(('.gov.in', '.nic.in', '.gov.uk', '.gov.cz', '.mfa.gov.lv', '.esteri.it')) or host in ('gov.uk', 'education.ec.europa.eu', 'www.mzv.sk', 'mzv.sk')
+            self.government_citation = not self.include_government_citations and (host.endswith(('.gov.in', '.nic.in', '.gov.uk', '.gov.cz', '.mfa.gov.lv', '.esteri.it')) or host in ('gov.uk', 'education.ec.europa.eu', 'www.mzv.sk', 'mzv.sk'))
         if not self.skip and not self.government_citation:
             self.parts.extend(value for key, value in attrs if value and key in ('content', 'alt', 'title', 'aria-label', 'href', 'src'))
 
@@ -134,11 +135,11 @@ PRESENCE_SAFE_CONTEXTS = [
     r"\boffice of citizenship and migration affairs\b",
     r"\bissuing[- ]office\b",
     r"\badmissions offices?\b",
-    r"\b(?:international )?branch campuses\b",
+    r"\b(?:international )?branch campus(?:es)?\b",
     r"\b(?:video or )?in[- ]person interview with the embassy\b",
 ]
 PRESENCE_BLOCKED = re.compile(
-    r"\b(?:office|branch|walk[- ]?ins?|near[- ](?:you|me)|in[- ]person|"
+    r"\b(?:offices?|branch|(?:our|local) branches|branches in|ilmera(?:'s)?(?: \w+){0,4} branches|walk[- ]?ins?|near[- ](?:you|me)|in[- ]person|"
     r"visit (?:us|ilmera|our (?:premises|branch|office))|counselling location)\b", re.I)
 
 
@@ -170,7 +171,7 @@ def expected_llm_bytes(root, name):
 
 def check(base, root, enforce_names=True):
     inventory = routes(root)
-    pages, blocked, public_text = {}, set(), {}
+    pages, blocked, public_text, presence_text = {}, set(), {}, {}
     for path, info in inventory.items():
         status, headers, body = fetch(base, path)
         assert status == 200, ('Editorial route HTTP status', path, status)
@@ -184,6 +185,7 @@ def check(base, root, enforce_names=True):
             assert page.canonical == [HOST + path], ('Canonical mismatch', path, page.canonical)
         pages[path] = page
         public_text[path] = ' ' .join(PublishedContent(body.decode()).parts)
+        presence_text[path] = ' '.join(PublishedContent(body.decode(), include_government_citations=True).parts)
     status, _, xml = fetch(base, '/sitemap.xml')
     assert status == 200, 'Sitemap HTTP status'
     tree = ET.fromstring(xml)
@@ -225,13 +227,14 @@ def check(base, root, enforce_names=True):
         assert status == 200, ('Public discovery text status', name, status)
         text = body.decode()
         public_text['/' + name] = text
+        presence_text['/' + name] = text
         for target in blocked:
             assert not re.search(re.escape(HOST + target) + r'(?:[)#?\s]|$)', text), ('LLM link to withheld page', name, target)
     assert all(inbound[p] > 0 for p in expected), 'Indexable orphan'
     status, _, robots = fetch(base, '/robots.txt')
     assert status == 200 and ('Sitemap: ' + HOST + '/sitemap.xml').encode() in robots
     assert not re.search(rb'^Disallow:\s*(?:/\s*$|/sitemap)', robots, re.M), 'Sitemap blocked by robots'
-    presence_failures = {path: hits for path, text in public_text.items() if path not in blocked
+    presence_failures = {path: hits for path, text in presence_text.items() if path not in blocked
                          and (hits := physical_presence_matches(text))}
     assert not presence_failures, ('Physical-presence phrases in published content', presence_failures)
     if enforce_names:

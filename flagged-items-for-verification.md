@@ -2974,3 +2974,31 @@ host. Both Oman and Bahrain source coverage remains registration-only and
 Bahrain retains its historic notice date. None of this closes Kuwait's gap.
 All other source, award, attribution, delivery, LLM-content and native-staging
 blockers remain as previously recorded. No page status or LLM byte changed.
+
+## Phase 17 task 4: final verification decisions, 2026-10-16
+
+The final audit clarified two directory headings as online student audiences
+instead of an ambiguous location list, without altering any target URL.
+These final surface corrections are included in the task-1 line inventory
+supplement. Expanded the physical-presence regression check to plural offers;
+its narrow negative-disclosure and official-interview exceptions still do
+not waive a separate local-meeting offer. No actual university name or
+prohibited wording was added. Both LLM files remain exactly as at Phase 17
+start, so their pre-existing name/wording failures must remain reported.
+
+All page-status flags and the published/noindex/sitemap cohort are preserved.
+The raw external-source transport, native Apache behavior and actual delivery
+limits remain open checks, not successful results inferred from the local
+adapter. Only the two dated owner-input closures from task 3 are closed.
+
+Final audit supplement: the Home study-route qualifier now says programme
+conditions rather than referring ambiguously to academic branches. The
+presence guard distinguishes academic uses of that plural noun from offers
+of ILMERA/local premises; those boundary cases have explicit regressions.
+No academic tuition claim in the restricted LLM files was edited or accepted
+as newly verified merely because it is not a physical-presence offer.
+
+The final presence check includes government citation anchors too. The
+separate names guard's official-label exception cannot hide an office or
+meeting offer. A ninth presence regression case tests this exact boundary;
+this does not broaden source approvals or waive existing LLM failures.
