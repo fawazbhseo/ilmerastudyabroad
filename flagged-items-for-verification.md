@@ -3140,3 +3140,11 @@ same Organization ID and full definition, with audience areas distinct from
 premises. About, Contact and Karnataka have the same visible entity/service
 block; both LLM references are generated from the same data. Destination and
 article review dates match schema dateModified without editing source facts.
+
+## Phase 19 task 8: measurement owner decision, 2026-10-16
+
+No existing analytics tag or transport was found in executable site source.
+Added no tracking script, event sender or third-party dependency. Provider,
+property, consent and an actual enquiry-success signal remain owner inputs.
+The measurement report distinguishes CTA clicks from confirmed delivery and
+excludes personal/student information from any proposed future events.
