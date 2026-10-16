@@ -24,9 +24,9 @@ return [
     'nearby' => [
         'karnataka',
     ],
-    'page_title' => 'Clarifying sponsor support | Mangaluru study guidance | ILMERA',
-    'heading' => 'Mangaluru Study Planning: Clarify the Funding Conversation',
-    'meta_description' => 'For Mangaluru applicants: discuss proposed sponsor support, distinguish willingness from available evidence and identify route-specific funding questions.',
+    'page_title' => 'Online: Clarifying sponsor support | Mangaluru study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Mangaluru: Clarify the Funding Conversation',
+    'meta_description' => 'Online counselling guide. For Mangaluru applicants: discuss proposed sponsor support, distinguish willingness from available evidence and identify route-specific funding questions.',
     'sections' => [
         [
             'heading' => 'Understand the proposed support before describing it',
@@ -44,6 +44,7 @@ return [
             'heading' => 'Plan for a change in the support arrangement',
             'paragraphs' => [
                 'Consider what happens if the expected contribution is reduced, delayed or withdrawn. Identify which commitments have already been made and which can still be postponed. Update the study budget when the funding conversation changes instead of leaving the original assumption in place. If alternative support becomes available, check its evidence requirements afresh rather than assuming it can simply replace the earlier arrangement. Keep the applicant informed about financial statements made in their name. Before authorising an application or payment, review the plan against the support that is genuinely available at that point. Counselling should help expose dependencies, not turn an informal expression of goodwill into a guarantee of admission, funding or permission to travel.',
+                'Counselling is online, and students from Mangaluru do not need to travel to an office.',
             ],
         ],
     ],

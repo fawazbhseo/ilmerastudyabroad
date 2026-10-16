@@ -38,8 +38,8 @@ function ilmera_posts()
         ],
         'study-abroad-counselling-from-coorg' => [
             'slug' => 'study-abroad-counselling-from-coorg',
-            'title' => 'Study Abroad Counselling from Coorg: How the Process Works Without a City Office',
-            'excerpt' => 'ILMERA is based in Coorg, Kodagu, and works with students by phone, WhatsApp, and video call. Here is exactly what that process looks like, step by step.',
+            'title' => 'Online Study Abroad Counselling for Coorg Students: How the Process Works',
+            'excerpt' => 'ILMERA provides online counselling for students from Coorg and Kodagu by phone, WhatsApp and video call. Here is exactly what that process looks like, step by step.',
             'category' => 'Coorg',
             'readMinutes' => 4,
             'datePublished' => '2025-09-03',

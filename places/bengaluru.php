@@ -24,9 +24,9 @@ return [
     'nearby' => [
         'karnataka',
     ],
-    'page_title' => 'Changing academic direction | Bengaluru study guidance | ILMERA',
-    'heading' => 'Bengaluru Study Abroad Guidance: Assessing a Subject Change',
-    'meta_description' => 'Bengaluru students can structure a subject-change discussion around prerequisites, relevant evidence and realistic alternatives before applying abroad.',
+    'page_title' => 'Online: Changing academic direction | Bengaluru study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Bengaluru: Assessing a Subject Change',
+    'meta_description' => 'Online counselling guide. Bengaluru students can structure a subject-change discussion around prerequisites, relevant evidence and realistic alternatives before applying abroad.',
     'sections' => [
         [
             'heading' => 'Translate your interest into an academic question',
@@ -44,6 +44,7 @@ return [
             'heading' => 'Keep alternatives academically coherent',
             'paragraphs' => [
                 'If the first choice does not fit, compare alternatives by the learning they offer rather than by how closely their names resemble the original option. A related subject may address the same interest through a different starting point; it may also introduce prerequisites of its own. Write a reason for retaining or rejecting each alternative. Avoid building an application around a transition story that cannot be supported by your actual record. Before submission, read the proposed explanation against every academic document and correct any contradiction. This Bengaluru guide is a planning resource for the discussion, not a claim about local employer demand or a guarantee that a particular change of discipline is possible.',
+                'Counselling is online, and students from Bengaluru do not need to travel to an office.',
             ],
         ],
     ],

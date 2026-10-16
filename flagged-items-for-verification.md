@@ -2883,3 +2883,29 @@ tools/README.md, produce the broad citation inventory, and record actual GET
 status/redirect/body evidence before sign-off. Any future LLM reconciliation
 requires permission beyond task-1 link removals and a complete fresh rerun.
 No merge, deploy or main push was authorized or performed.
+
+## Phase 17 task 1: final owner operating model, 2026-10-16
+
+Applied the owner's final statement: ILMERA operates virtually, with no
+physical office and no in-person counselling location anywhere. All 17
+location titles/headings/metadata now identify online counselling, each has
+one plain online/no-office-travel sentence in its authored content, and the
+shared site contact wording is explicit about online-only delivery.
+
+The contact record contained only Coorg, Kodagu/Karnataka and India, not a
+street, building, postcode, delivery address or coordinates. Retained that
+partial postal locality in the Contact organisation only, explicitly labelled
+as a locality record and not counselling premises. No registered-address or
+mail-delivery claim was invented. Removed other schema address copies and
+the duplicate contact node with a legacy storefront-style identifier. The
+location Service uses an Organization provider with the actual place in
+areaServed; neither node has a street address, coordinates or storefront type.
+
+Physical-presence checks distinguish exact negative owner disclosures and
+no-travel statements from offers to meet locally. Official visa interviews
+and the name of an immigration authority are not ILMERA counselling premises.
+No government procedure was converted into an online-only promise. Historical
+owner-presence blockers will be formally closed by the task-3 append; no other
+blocker is erased here. Both LLM files remain byte-identical to Phase 17 start.
+Their existing restricted content still prevents an unconditional global
+wording/name sign-off. No page status was changed.

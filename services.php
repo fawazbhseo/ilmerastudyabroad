@@ -54,23 +54,17 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Services', 'url' => 
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
       "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
       "url": "https://ilmerastudyabroad.com",
       "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, offering university admissions, student visa assistance, scholarship guidance, language test preparation and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries. Students consult with ILMERA by phone, WhatsApp and video call.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, offering university admissions, student visa assistance, scholarship guidance, language test preparation and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries. Students consult with ILMERA by phone, WhatsApp and video call.",
       "telephone": "+919019557427",
       "email": "info@ilmerastudyabroad.com",
       "foundingLocation": {"@type": "Place", "name": "Coorg, Karnataka, India"},
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
       "areaServed": ["Germany","Italy","United Kingdom","Czech Republic","Lithuania","Latvia","Slovakia","Russia","Saudi Arabia","UAE","Kuwait","Qatar","Bahrain","Oman","India"],
       "serviceType": ["University Admissions Counselling","Student Visa Assistance","Scholarship Guidance","Language Test Preparation","Pre-Departure Briefings","Career Counselling Abroad"],
       "contactPoint": [{

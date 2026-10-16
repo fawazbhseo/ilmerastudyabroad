@@ -12,8 +12,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-<title>Study Abroad Counselling from Coorg: How It Works | ILMERA</title>
-<meta name="description" content="ILMERA is based in Coorg, Kodagu, and works with students by phone, WhatsApp, and video call. Here is exactly what that process looks like, step by step."/>
+<title>Online Study Abroad Counselling for Coorg Students | ILMERA</title>
+<meta name="description" content="ILMERA provides online counselling for students from Coorg and Kodagu by phone, WhatsApp and video call. Here is exactly what that process looks like, step by step."/>
 <meta name="keywords" content="study abroad consultant Coorg, study abroad consultant Kodagu, study abroad counselling Karnataka, online study abroad consultation"/>
 <meta name="author" content="Fawaz BH"/>
 <meta name="robots" content="<?= ilmera_post_published($post['slug']) ? 'index, follow' : 'noindex, follow' ?>"/><!-- Status: includes/posts.php; release checks: flagged-items-for-verification.md -->
@@ -30,15 +30,15 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
 
 <meta property="og:type" content="article"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
-<meta property="og:title" content="Study Abroad Counselling from Coorg: How It Works"/>
-<meta property="og:description" content="ILMERA is based in Coorg, Kodagu, and works with students by phone, WhatsApp, and video call. Here is exactly what that process looks like."/>
+<meta property="og:title" content="Online Study Abroad Counselling for Coorg Students"/>
+<meta property="og:description" content="ILMERA provides online counselling for students from Coorg and Kodagu by phone, WhatsApp and video call. Here is exactly what that process looks like."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:secure_url" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Study Abroad Counselling from Coorg: How It Works"/>
+<meta name="twitter:title" content="Online Study Abroad Counselling for Coorg Students"/>
 <meta name="twitter:description" content="Exactly how ILMERA's Coorg-based counselling process works, step by step, by phone, WhatsApp, and video call."/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
@@ -53,8 +53,8 @@ if (!ilmera_post_published($post['slug'])) header('X-Robots-Tag: noindex, follow
     {
       "@type": "BlogPosting",
       "@id": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg#article",
-      "headline": "Study Abroad Counselling from Coorg: How the Process Works Without a City Office",
-      "description": "ILMERA is based in Coorg, Kodagu, and works with students by phone, WhatsApp, and video call. Here is exactly what that process looks like, step by step.",
+      "headline": "Online Study Abroad Counselling for Coorg Students: How the Process Works",
+      "description": "ILMERA provides online counselling for students from Coorg and Kodagu by phone, WhatsApp and video call. Here is exactly what that process looks like, step by step.",
       "url": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
       "mainEntityOfPage": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
       "datePublished": <?= json_encode($post['datePublished']) ?>,
@@ -126,17 +126,17 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-hero">
   <?php ilmera_breadcrumbs($pageTrail, '/blog/study-abroad-counselling-from-coorg'); ?>
   <span class="article-tag">Coorg</span>
-  <h1>Study Abroad Counselling from Coorg: How the Process Works Without a City Office</h1>
+  <h1>Online Study Abroad Counselling for Coorg Students: How the Process Works</h1>
   <p class="article-byline">By <span class="name">Fawaz BH, CMO</span> &middot; <?= date('F j, Y', strtotime($post['datePublished'])) ?> &middot; Reviewed October 2026 &middot; 4 min read</p>
 </section>
 
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p>ILMERA Study Abroad is based in Coorg, Kodagu, Karnataka. ILMERA does not operate a physical office or branch anywhere. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call.</p>
+    <p>ILMERA offers online counselling only, by phone, WhatsApp and video call, with no counselling premises anywhere. The founders are from Coorg, Kodagu.</p>
 
     <h2>What the Process Actually Looks Like</h2>
-    <p>A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries. From there, everything, document collection, shortlist discussions, application tracking, and visa preparation, is handled over WhatsApp and video call, with documents shared digitally rather than handed over in person.</p>
+    <p>A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries. From there, everything, document collection, shortlist discussions, application tracking, and visa preparation, is handled over WhatsApp and video call, with documents shared digitally throughout the online counselling process.</p>
 
     <h2>Step by Step</h2>
     <ul>

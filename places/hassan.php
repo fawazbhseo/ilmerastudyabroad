@@ -24,9 +24,9 @@ return [
     'nearby' => [
         'karnataka',
     ],
-    'page_title' => 'Testing the budget boundary | Hassan study guidance | ILMERA',
-    'heading' => 'Hassan Study Abroad Counselling: Test the Budget Before Applying',
-    'meta_description' => 'For Hassan students: separate confirmed costs from estimates, test funding assumptions and define a budget stop point before overseas applications.',
+    'page_title' => 'Online: Testing the budget boundary | Hassan study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Hassan: Test the Budget Before Applying',
+    'meta_description' => 'Online counselling guide. For Hassan students: separate confirmed costs from estimates, test funding assumptions and define a budget stop point before overseas applications.',
     'sections' => [
         [
             'heading' => 'Separate the known price from the planning estimate',
@@ -44,6 +44,7 @@ return [
             'heading' => 'Agree the point at which to pause',
             'paragraphs' => [
                 'Define a maximum commitment before paying application-related charges. Ask which unresolved costs must be clarified before the next payment and which changes would cause you to reconsider the route. Keep that boundary visible when comparing offers so that a persuasive course description does not quietly change the financial decision. Revisit the worksheet when a fee, funding condition or accommodation assumption changes. A pause can be a reasoned outcome of counselling, not a failure to proceed. Keep dated copies of the budget and the supporting quotations so you can explain why a decision was made. Affordability should remain a question answered by evidence and your circumstances, not by an assurance that everything will work out later.',
+                'Counselling is online, and students from Hassan do not need to travel to an office.',
             ],
         ],
     ],

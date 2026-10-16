@@ -27,9 +27,9 @@ return [
         'somwarpet',
         'siddapura',
     ],
-    'page_title' => 'Reading a conditional offer | Kushalnagar study guidance | ILMERA',
-    'heading' => 'Kushalnagar Study Guidance: Understand Offer Conditions',
-    'meta_description' => 'Kushalnagar students can review an offer by listing its conditions, evidence deadlines, payment terms and unresolved questions before accepting.',
+    'page_title' => 'Online: Reading a conditional offer | Kushalnagar study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Kushalnagar: Understand Offer Conditions',
+    'meta_description' => 'Online counselling guide. Kushalnagar students can review an offer by listing its conditions, evidence deadlines, payment terms and unresolved questions before accepting.',
     'sections' => [
         [
             'heading' => 'Turn the offer into a list of obligations',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Keep admission, enrolment and immigration distinct',
             'paragraphs' => [
                 'Build a short sequence showing the next actions after a response to the offer. Identify what remains subject to review and which documents are still outstanding. An offer can be important evidence without settling every later requirement. Do not present it as permission to travel, an award of funding or confirmation that all conditions have been satisfied. Recheck the plan if the course, intake or applicant details change. When asking for counselling help, provide the complete offer rather than only the opening page, with sensitive information shared through an agreed channel. Kushalnagar students can use this method to make the next decision explicit instead of moving automatically from an encouraging message to a financial commitment.',
+                'Counselling is online, and students from Kushalnagar do not need to travel to an office.',
             ],
         ],
     ],

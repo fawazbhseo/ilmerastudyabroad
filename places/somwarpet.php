@@ -27,9 +27,9 @@ return [
         'madikeri',
         'kushalnagar',
     ],
-    'page_title' => 'Presenting a backlog record accurately | Somwarpet study guidance | ILMERA',
-    'heading' => 'Somwarpet Study Guidance: Explain the Complete Academic Record',
-    'meta_description' => 'Somwarpet students can organise backlog and repeat-attempt records, distinguish cleared from outstanding subjects and ask precise eligibility questions.',
+    'page_title' => 'Online: Presenting a backlog record accurately | Somwarpet study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Somwarpet: Explain the Complete Academic Record',
+    'meta_description' => 'Online counselling guide. Somwarpet students can organise backlog and repeat-attempt records, distinguish cleared from outstanding subjects and ask precise eligibility questions.',
     'sections' => [
         [
             'heading' => 'Describe the record using its actual status',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Update the plan when the record changes',
             'paragraphs' => [
                 'When a new result arrives, review the application information prepared from the previous record. Update working summaries and identify whether a submitted application needs an official correction or additional document. Ask the recipient how that update should be provided instead of sending conflicting versions without explanation. If a result remains pending, keep it visible in the timeline and discuss the dependencies it creates. There may be a reason to wait for clearer evidence before committing to a route. Counselling should help you frame that decision using the real record, not hide an unresolved subject behind confident language. Before final approval, check that the application and supporting statement tell the same academic story.',
+                'Counselling is online, and students from Somwarpet do not need to travel to an office.',
             ],
         ],
     ],

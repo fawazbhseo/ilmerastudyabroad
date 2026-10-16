@@ -31,7 +31,7 @@ $breadcrumbs[] = ['name' => $placeData['name'], 'url' => $placePath];
 $placeLinks = array_values(array_filter($placeLinks, static function ($target) use ($parents) { return !in_array($target['slug'], $parents, true); }));
 $placeGraph = [
     ['@type' => 'WebPage', '@id' => $placeUrl . '#webpage', 'url' => $placeUrl, 'name' => $placeTitle, 'description' => $placeDescription, 'inLanguage' => 'en-IN', 'breadcrumb' => ['@id' => $placeUrl . '#breadcrumb'], 'mainEntity' => ['@id' => $placeUrl . '#service']],
-    ['@type' => 'Service', '@id' => $placeUrl . '#service', 'name' => $placeHeading . ' | ILMERA Study Abroad', 'serviceType' => 'Study abroad counselling', 'url' => $placeUrl, 'areaServed' => ['@type' => 'Place', 'name' => $placeData['name']], 'provider' => ['@type' => 'Organization', '@id' => 'https://ilmerastudyabroad.com/#organization', 'name' => 'ILMERA Study Abroad', 'url' => 'https://ilmerastudyabroad.com/', 'telephone' => '+919019557427']]
+    ['@type' => 'Service', '@id' => $placeUrl . '#service', 'name' => $placeHeading . ' | ILMERA Study Abroad', 'serviceType' => 'Online study abroad counselling', 'url' => $placeUrl, 'areaServed' => ['@type' => 'Place', 'name' => $placeData['name']], 'provider' => ['@type' => 'Organization', '@id' => 'https://ilmerastudyabroad.com/#organization', 'name' => 'ILMERA Study Abroad', 'url' => 'https://ilmerastudyabroad.com/', 'telephone' => '+919019557427', 'description' => 'Online counselling only; no counselling premises.', 'areaServed' => ['@type' => 'Place', 'name' => $placeData['name']]]]
 ];
 if ($placeData['faqs']) {
     $questions = [];
@@ -175,7 +175,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <?php endif; ?>
     <section aria-labelledby="place-counselling-process" class="author-card" style="display:block;">
       <h2 id="place-counselling-process">How ILMERA counselling works</h2>
-      <p>ILMERA is based in Coorg, Kodagu, with no physical office. Contact is by phone, WhatsApp or video call. Admissions, awards and visas are decided by the relevant bodies, not guaranteed by counselling.</p>
+      <p>Contact ILMERA online by phone, WhatsApp or video call.</p>
       <p><a href="/contact" style="color:var(--gold);">Discuss this plan</a></p>
     </section>
 <?php if ($placeParents): ?>

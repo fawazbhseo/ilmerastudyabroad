@@ -39,7 +39,7 @@
         <img src="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png" alt="ILMERA Study Abroad logo" width="34" height="34" loading="lazy"/>
         <div style="display:flex;flex-direction:column;line-height:1;"><span class="ft-lname">ILMERA</span><span class="ft-lsub">Study Abroad</span></div>
       </a>
-      <p class="ft-tagline">Your Gateway to Global Education. Based in Coorg, Kodagu, Karnataka.</p>
+      <p class="ft-tagline">Online counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.</p>
       <div class="social-row">
         <a href="https://www.linkedin.com/company/ilmerastudyabroad" class="social-btn" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
         <a href="https://www.instagram.com/ilmera.studyabroad" class="social-btn" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg></a>

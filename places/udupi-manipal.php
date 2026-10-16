@@ -26,9 +26,9 @@ return [
         'belagavi',
         'shivamogga',
     ],
-    'page_title' => 'Comparing the learning experience | Udupi and Manipal study guidance | ILMERA',
-    'heading' => 'Udupi and Manipal Counselling: Compare How a Course Is Taught',
-    'meta_description' => 'For students from Udupi and Manipal: compare course structure, assessment and learning requirements instead of relying only on a degree title.',
+    'page_title' => 'Online: Comparing the learning experience | Udupi and Manipal study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Udupi and Manipal: Compare How a Course Is Taught',
+    'meta_description' => 'Online counselling guide. For students from Udupi and Manipal: compare course structure, assessment and learning requirements instead of relying only on a degree title.',
     'sections' => [
         [
             'heading' => 'Read the structure as a set of commitments',
@@ -46,6 +46,7 @@ return [
             'heading' => 'Connect the comparison to an application reason',
             'paragraphs' => [
                 'After reviewing the structure and assessment, explain why an option fits what you want to learn. Use evidence from the course rather than a broad statement that studying overseas is better. Keep the reasoning proportionate: a module description can support an academic interest, but it does not prove a future employment result. If several courses remain suitable, compare the trade-offs explicitly and identify what could change your preference. Recheck the relevant details before submitting, especially if you first researched the course some time earlier. The outcome should be a considered learning choice that you can explain in your own words, not a selection based solely on a familiar title or an unverified promise.',
+                'Counselling is online, and students from Udupi and Manipal do not need to travel to an office.',
             ],
         ],
     ],

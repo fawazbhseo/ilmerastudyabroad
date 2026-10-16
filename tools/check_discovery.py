@@ -124,6 +124,31 @@ class PublishedContent(HTMLParser):
             self.government_citation = False
 
 
+# Physical-presence denials and official immigration procedures are not offers
+# of ILMERA premises. Keep these narrowly scoped; do not waive whole paragraphs.
+PRESENCE_SAFE_CONTEXTS = [
+    r"\b(?:no|not(?: an?| any)?|without(?: an?| any)?) (?:physical |local |walk[- ]in )?office(?: or branch(?: anywhere)?)?\b",
+    r"\bdoes not operate a (?:physical )?office(?: or branch(?: anywhere)?)?\b",
+    r"\bdo not need to travel to an office\b",
+    r"\b(?:no|not(?: an?| any)?|without(?: an?| any)?) counselling location\b",
+    r"\boffice of citizenship and migration affairs\b",
+    r"\bissuing[- ]office\b",
+    r"\badmissions offices?\b",
+    r"\b(?:international )?branch campuses\b",
+    r"\b(?:video or )?in[- ]person interview with the embassy\b",
+]
+PRESENCE_BLOCKED = re.compile(
+    r"\b(?:office|branch|walk[- ]?ins?|near[- ](?:you|me)|in[- ]person|"
+    r"visit (?:us|ilmera|our (?:premises|branch|office))|counselling location)\b", re.I)
+
+
+def physical_presence_matches(text):
+    value = re.sub(r"[\s_]+", " ", unicodedata.normalize('NFKC', unescape(unquote(text)))).casefold()
+    for safe in PRESENCE_SAFE_CONTEXTS:
+        value = re.sub(safe, ' ', value)
+    return sorted(set(m.group(0) for m in PRESENCE_BLOCKED.finditer(value)))
+
+
 def blocked_name_matches(text, names):
     value = re.sub(r'[\s_]+', ' ', unicodedata.normalize('NFKC', unescape(unquote(text)))).casefold()
     return [name for name in names if re.search(r'(?<!\w)' + re.escape(name.casefold()) + r'(?!\w)', value)]
@@ -206,6 +231,9 @@ def check(base, root, enforce_names=True):
     status, _, robots = fetch(base, '/robots.txt')
     assert status == 200 and ('Sitemap: ' + HOST + '/sitemap.xml').encode() in robots
     assert not re.search(rb'^Disallow:\s*(?:/\s*$|/sitemap)', robots, re.M), 'Sitemap blocked by robots'
+    presence_failures = {path: hits for path, text in public_text.items() if path not in blocked
+                         and (hits := physical_presence_matches(text))}
+    assert not presence_failures, ('Physical-presence phrases in published content', presence_failures)
     if enforce_names:
         names = blocked_names(root)
         failures = {path: hits for path, text in public_text.items() if path not in blocked

@@ -24,9 +24,9 @@ return [
     'nearby' => [
         'karnataka',
     ],
-    'page_title' => 'Checking names and academic records | Mysuru study guidance | ILMERA',
-    'heading' => 'Mysuru Application Guidance: Check Record Consistency',
-    'meta_description' => 'Mysuru students can prepare academic records by checking names, identifying the issuing body and resolving discrepancies before overseas submission.',
+    'page_title' => 'Online: Checking names and academic records | Mysuru study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Mysuru: Check Record Consistency',
+    'meta_description' => 'Online counselling guide. Mysuru students can prepare academic records by checking names, identifying the issuing body and resolving discrepancies before overseas submission.',
     'sections' => [
         [
             'heading' => 'Read the record as the recipient will see it',
@@ -44,6 +44,7 @@ return [
             'heading' => 'Close discrepancies before the final upload',
             'paragraphs' => [
                 'Review whether each flagged difference has been corrected or explained in the manner requested. Save the issuer\'s or recipient\'s response together with the affected document. Check that all pages are readable, complete and in the intended order; an attractive cover sheet does not compensate for a missing result page. When a corrected record arrives, make clear which working copy it replaces and recheck any forms prepared from the older version. Keep a copy of the exact files ultimately submitted. A consistent record makes an application easier to understand, but it does not by itself establish equivalence, eligibility or admission. Those decisions remain with the relevant institution or authority, not with this document-organising exercise.',
+                'Counselling is online, and students from Mysuru do not need to travel to an office.',
             ],
         ],
     ],

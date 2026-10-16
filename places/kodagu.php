@@ -31,9 +31,9 @@ return [
         'ponnampet',
         'siddapura',
     ],
-    'page_title' => 'Coordinating the family decision | Kodagu study guidance | ILMERA',
-    'heading' => 'Kodagu Counselling: Make the Study Decision Understandable Together',
-    'meta_description' => 'For Kodagu students and families: organise a shared study decision, distinguish advice from consent and keep academic and financial responsibilities clear.',
+    'page_title' => 'Online: Coordinating the family decision | Kodagu study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Kodagu: Make the Study Decision Understandable Together',
+    'meta_description' => 'Online counselling guide. For Kodagu students and families: organise a shared study decision, distinguish advice from consent and keep academic and financial responsibilities clear.',
     'sections' => [
         [
             'heading' => 'Prepare separate concerns before the joint conversation',
@@ -44,13 +44,14 @@ return [
         [
             'heading' => 'Distinguish participation from authority to act',
             'paragraphs' => [
-                'Agree who may receive updates and who may approve a submission or a payment. Being included in a discussion does not automatically authorise someone to change an application. Keep the applicant involved in reviewing statements made in their name. If another person is helping gather records, identify what they have been asked to obtain and what remains the applicant\'s responsibility. Ask for a written summary when instructions affect several people. This can reduce crossed messages without inventing a new decision maker. ILMERA\'s existing contact arrangements use phone, WhatsApp and video call; participation should be arranged through those channels rather than through an assumed local office meeting.',
+                'Agree who may receive updates and who may approve a submission or a payment. Being included in a discussion does not automatically authorise someone to change an application. Keep the applicant involved in reviewing statements made in their name. If another person is helping gather records, identify what they have been asked to obtain and what remains the applicant\'s responsibility. Ask for a written summary when instructions affect several people. This can reduce crossed messages without inventing a new decision maker. ILMERA\'s existing contact arrangements use phone, WhatsApp and video call; participation is online through those channels.',
             ],
         ],
         [
             'heading' => 'Return to the unresolved decision after each stage',
             'paragraphs' => [
                 'At the end of a family discussion, identify what has been decided, what has been deferred and what evidence is needed next. Do not record silence as agreement. If a disagreement concerns affordability, investigate the cost assumptions rather than describing it as an academic objection. If it concerns course suitability, return to the learning objectives rather than only the destination. Keep a shared summary that can be corrected before the next action. A considered choice may involve postponement or an alternative route. This page offers a conversation structure for students from Kodagu, not a claim that all families have the same expectations or that counselling can guarantee a particular outcome.',
+                'Counselling is online, and students from Kodagu do not need to travel to an office.',
             ],
         ],
     ],

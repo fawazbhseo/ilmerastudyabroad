@@ -26,9 +26,9 @@ return [
         'belagavi',
         'udupi-manipal',
     ],
-    'page_title' => 'Building a dependency calendar | Shivamogga study guidance | ILMERA',
-    'heading' => 'Shivamogga Study Planning: Build a Dependency Calendar',
-    'meta_description' => 'For Shivamogga students: work backwards from verified deadlines, identify document dependencies and keep application timing assumptions visible.',
+    'page_title' => 'Online: Building a dependency calendar | Shivamogga study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Shivamogga: Build a Dependency Calendar',
+    'meta_description' => 'Online counselling guide. For Shivamogga students: work backwards from verified deadlines, identify document dependencies and keep application timing assumptions visible.',
     'sections' => [
         [
             'heading' => 'Identify whose deadline you are recording',
@@ -46,6 +46,7 @@ return [
             'heading' => 'Use review points rather than silent slippage',
             'paragraphs' => [
                 'Choose points at which you will reassess a task that has not progressed. Record what follow-up is appropriate and what decision becomes necessary if the dependency remains unresolved. When a date changes, trace the effect through the rest of the calendar rather than editing one isolated cell. A delayed item may affect several later actions, while another task may be able to proceed independently. Keep evidence of submission and distinguish it from a draft that is merely ready to send. At the final review, confirm which dates are still current and which actions have actually been completed. The purpose is a visible, revisable sequence, not a promise that every external decision will arrive on the timetable you prefer.',
+                'Counselling is online, and students from Shivamogga do not need to travel to an office.',
             ],
         ],
     ],

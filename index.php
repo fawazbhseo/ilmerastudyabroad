@@ -60,7 +60,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
       "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
@@ -70,16 +70,10 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
         "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, Karnataka, offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, Karnataka, offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries.",
             "email": "info@ilmerastudyabroad.com",
       "telephone": "+91-9019557427",
 
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
       "contactPoint": [
         {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service","email":"info@ilmerastudyabroad.com","areaServed":"IN","availableLanguage":["English","Kannada","Malayalam","Hindi"]},
         {"@type":"ContactPoint","telephone":"+919481084038","contactType":"customer service","areaServed":"IN"}
@@ -184,7 +178,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
         {"@type":"Question","name":"When should I start my study abroad application and how long does it take?","acceptedAnswer":{"@type":"Answer","text":"You should ideally start 6–12 months before your intended intake, because admissions, scholarship deadlines (like Italy's DSU) and visa processing each take time. Starting early gives you the widest choice of universities and funding. ILMERA maps your timeline backwards from your target intake so you don't miss deadlines."}},
         {"@type":"Question","name":"What is ILMERA Study Abroad and is it legitimate?","acceptedAnswer":{"@type":"Answer","text":"ILMERA Study Abroad is an Indian study abroad consultancy, part of the ILMERA Group, based in Coorg, Kodagu, Karnataka, that guides students to universities in Germany, Italy, the UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. It is led by a named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers a no-charge initial consultation with honest eligibility advice rather than guaranteed-admission promises."}},
         {"@type":"Question","name":"How is ILMERA different from other study abroad consultants?","acceptedAnswer":{"@type":"Answer","text":"ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call. Discuss your academic record, budget and course preferences before choosing an application route."}},
-        {"@type":"Question","name":"Is there a study abroad consultant for students from Coorg and Kodagu?","acceptedAnswer":{"@type":"Answer","text":"Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA does not operate a physical office or branch; counselling is available through these channels. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu."}}
+        {"@type":"Question","name":"Is there a study abroad consultant for students from Coorg and Kodagu?","acceptedAnswer":{"@type":"Answer","text":"Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA counselling is online only; these channels do not involve travel to counselling premises. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu."}}
       ]
     },
 
@@ -460,7 +454,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <p style="font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.8;margin-top:16px;">
         Students from Kodagu often have strong academics but limited access to specialised study-abroad advice locally. ILMERA closes that gap: you get the same country-by-country cost breakdowns, eligibility checks (including for backlogs and low marks), and honest guidance that students in Bangalore or Mangalore receive, from wherever you are in Coorg.
       </p>
-      <p style="font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;">ILMERA is based in Coorg, Kodagu, and has no physical office or branch. Counselling is by phone, WhatsApp and video call. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>
+      <p style="font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>
       <a href="/contact" class="btn-gold reveal" style="margin-top:28px;">Book a no-charge Online Consultation</a>
     </div>
   </div>
@@ -617,7 +611,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 
       <details class="il-faq"><summary>How is ILMERA different from other study abroad consultants?</summary><div><p>ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call. Discuss your academic record, budget and course preferences before choosing an application route.</p></div></details>
 
-      <details class="il-faq"><summary>Is there a study abroad consultant for students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA does not operate a physical office or branch; counselling is available through these channels. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu.</p></div></details>
+      <details class="il-faq"><summary>Is there a study abroad consultant for students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students from Kodagu and across Karnataka by phone, WhatsApp and video call. ILMERA counselling is online only; these channels do not involve travel to counselling premises. The full process, profile assessment, university shortlisting, admissions and visa support, covers Germany, Italy, the UK, Russia and other European destinations. Book a no-charge consultation to start from anywhere in Kodagu.</p></div></details>
 
     </div>
   </div>

@@ -76,7 +76,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["EducationalOrganization","ProfessionalService"],
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
             "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
@@ -95,7 +95,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
 
-      "description": "ILMERA Study Abroad is an Indian overseas education consultancy offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. It helps students with low marks or academic backlogs study abroad, matching each profile to countries and universities that will realistically admit them.",
+      "description": "ILMERA Study Abroad provides online overseas education counselling for Indian students offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. It helps students with low marks or academic backlogs study abroad, matching each profile to countries and universities that will realistically admit them.",
       "slogan": "Your Gateway to Global Education",
       "foundingDate": "2026",
       "contactPoint": [
@@ -105,12 +105,6 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       ],
             "email": "info@ilmerastudyabroad.com",
       "telephone": "+919019557427",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
       "areaServed": [
         {"@type":"AdministrativeArea","name":"Kodagu"},
         {"@type":"AdministrativeArea","name":"Coorg"},
@@ -177,7 +171,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "@id": "https://ilmerastudyabroad.com/about#aboutpage",
       "url": "https://ilmerastudyabroad.com/about",
       "name": "About ILMERA Study Abroad: Study Abroad Consultants for Coorg and Kodagu",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, serving students across Karnataka and India, led by Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, serving students across Karnataka and India, led by Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "mainEntity": {"@id": "https://ilmerastudyabroad.com/#organization"},
@@ -217,15 +211,6 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "image": "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
       "url": "https://fawazbhseo.in",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "homeLocation": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Kushal Nagar",
-          "addressRegion": "Kodagu, Karnataka",
-          "addressCountry": "IN"
-        }
-      },
       "hasCredential": [
         {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Ahrefs Academy Certification"},
         {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Semrush AI Visibility Essentials"},
@@ -338,10 +323,10 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
         },
         {
           "@type": "Question",
-          "name": "Does ILMERA Study Abroad have a physical office?",
+          "name": "How does ILMERA provide online counselling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. ILMERA does not operate a walk-in office. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call."
+            "text": "ILMERA offers online counselling only, by phone, WhatsApp and video call, without any counselling premises."
           }
         },
         {
@@ -735,7 +720,7 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Is the first consultation no-charge?</summary><div><p>Yes, ILMERA Study Abroad offers a no-charge initial consultation with transparent, honest guidance and no hidden fees.</p></div></details>
 
-      <details class="il-faq"><summary>Does ILMERA Study Abroad have a physical office?</summary><div><p>No. ILMERA does not operate a walk-in office. The founders are from Coorg, Kodagu, and counselling is by phone, WhatsApp and video call.</p></div></details>
+      <details class="il-faq"><summary>How does ILMERA provide online counselling?</summary><div><p>ILMERA offers online counselling only, by phone, WhatsApp and video call, without any counselling premises.</p></div></details>
 
       <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>The first consultation is no-charge with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear.</p></div></details>
 

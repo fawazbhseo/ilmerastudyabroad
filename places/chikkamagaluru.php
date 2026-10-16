@@ -24,9 +24,9 @@ return [
     'nearby' => [
         'karnataka',
     ],
-    'page_title' => 'Planning language evidence | Chikkamagaluru study guidance | ILMERA',
-    'heading' => 'Chikkamagaluru Counselling: Build a Language-Evidence Plan',
-    'meta_description' => 'A language-evidence planning guide for Chikkamagaluru students: record accepted proof, separate admission and visa questions, and avoid assumed waivers.',
+    'page_title' => 'Online: Planning language evidence | Chikkamagaluru study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Chikkamagaluru: Build a Language-Evidence Plan',
+    'meta_description' => 'Online counselling guide. A language-evidence planning guide for Chikkamagaluru students: record accepted proof, separate admission and visa questions, and avoid assumed waivers.',
     'sections' => [
         [
             'heading' => 'Find the requirement that belongs to your course',
@@ -44,6 +44,7 @@ return [
             'heading' => 'Allow time for evidence, review and a fallback',
             'paragraphs' => [
                 'Build a language-evidence schedule around the actual application dependency. Identify what you need before you can submit, what can follow later if expressly allowed and what still needs confirmation. If a test is part of the plan, consider preparation, result availability and any further attempt you might decide is necessary; do not assume dates or outcomes that have not been confirmed. Review the completed evidence against the requirement before attaching it. Where a decision remains uncertain, discuss a fallback rather than removing the uncertainty from the checklist. No local test-centre availability or travel route is asserted here for Chikkamagaluru; those practical details need their own current confirmation.',
+                'Counselling is online, and students from Chikkamagaluru do not need to travel to an office.',
             ],
         ],
     ],

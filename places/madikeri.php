@@ -27,9 +27,9 @@ return [
         'somwarpet',
         'kushalnagar',
     ],
-    'page_title' => 'Explaining the academic timeline | Madikeri study guidance | ILMERA',
-    'heading' => 'Madikeri Counselling: Build an Accurate Academic Timeline',
-    'meta_description' => 'A chronology guide for Madikeri students: organise study dates, describe interruptions truthfully and support application explanations with relevant records.',
+    'page_title' => 'Online: Explaining the academic timeline | Madikeri study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Madikeri: Build an Accurate Academic Timeline',
+    'meta_description' => 'Online counselling guide. A chronology guide for Madikeri students: organise study dates, describe interruptions truthfully and support application explanations with relevant records.',
     'sections' => [
         [
             'heading' => 'Start with dates rather than a persuasive story',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Cross-check the account wherever it appears',
             'paragraphs' => [
                 'Compare the timeline with the dates in your CV, application forms and supporting statement. Differences may be innocent, but they should be understood and corrected where appropriate before submission. Keep a note of any explanation that has been provided so that a later enquiry can be answered consistently. If new evidence changes a date, update the relevant working documents rather than only the latest form. Review the final narrative in your own voice and confirm that you could explain it if asked. No claim is made here about the prevalence of study gaps in Madikeri or about an institution\'s tolerance; the focus is an accurate individual record and a transparent discussion of remaining questions.',
+                'Counselling is online, and students from Madikeri do not need to travel to an office.',
             ],
         ],
     ],

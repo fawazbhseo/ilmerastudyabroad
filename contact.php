@@ -26,7 +26,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
 <!-- ════════════════════════════════════════════════════════════
      AEO / GEO HINTS (Answer & Generative Engine Optimization)
 ════════════════════════════════════════════════════════════ -->
-<meta name="ai-content-summary" content="ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, Karnataka, offering no-charge consultations, university admissions, student visa assistance, scholarship guidance and language test preparation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries. ILMERA works with students who have low marks, academic backlogs or no IELTS score, matching each student to the right country and university. Led by Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ."/>
+<meta name="ai-content-summary" content="ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, Karnataka, offering no-charge consultations, university admissions, student visa assistance, scholarship guidance and language test preparation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC countries. ILMERA works with students who have low marks, academic backlogs or no IELTS score, matching each student to the right country and university. Led by Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ."/>
 <meta name="subject" content="Study Abroad Consultancy & no-charge Consultation"/>
 <meta name="topic" content="Study Abroad, University Admissions, Student Visa, Scholarships"/>
 <meta name="coverage" content="Worldwide"/>
@@ -81,7 +81,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "EducationalOrganization",
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
       "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
@@ -93,13 +93,14 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
         "height": 512
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, offering no-charge consultations, university admissions, student visa assistance, scholarship guidance, language test preparation and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. ILMERA works with students who have low marks, academic backlogs or no IELTS score, matching each profile to countries and universities that will realistically admit them.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, offering no-charge consultations, university admissions, student visa assistance, scholarship guidance, language test preparation and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. ILMERA works with students who have low marks, academic backlogs or no IELTS score, matching each profile to countries and universities that will realistically admit them.",
       "slogan": "Your Gateway to Global Education",
       "telephone": "+919019557427",
       "email": "info@ilmerastudyabroad.com",
       "foundingLocation": {"@type": "Place", "name": "Coorg, Karnataka, India"},
       "address": {
         "@type": "PostalAddress",
+        "name": "Postal locality only; not a counselling location",
         "addressLocality": "Coorg",
         "addressRegion": "Kodagu, Karnataka",
         "addressCountry": "IN"
@@ -172,40 +173,8 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
         {"@type":"Question","name":"Do you offer support after I arrive at my destination?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Our relationship doesn't end at the airport. ILMERA provides post-arrival support covering accommodation, banking, local SIM cards, campus registration, and emergency contacts."}},
         {"@type":"Question","name":"What is ILMERA's fee structure?","acceptedAnswer":{"@type":"Answer","text":"Your initial consultation is completely no-charge with no obligation. Our service packages are transparent and tailored to the level of support you need, from application-only packages to comprehensive end-to-end guidance. Full fee details are shared during your first consultation after we understand your specific needs and goals."}}
       ]
-    },
-    {
-      "@type": "Organization",
-      "@id": "https://ilmerastudyabroad.com/#localbusiness",
-      "name": "ILMERA Study Abroad",
-      "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "telephone": "+919019557427",
-      "email": "info@ilmerastudyabroad.com",
-      "url": "https://ilmerastudyabroad.com",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
-      "contactPoint": [{
-        "@type": "ContactPoint",
-        "telephone": "+919019557427",
-        "contactType": "customer service",
-        "areaServed": "IN"
-      },{
-        "@type": "ContactPoint",
-        "telephone": "+919481084038",
-        "contactType": "customer service",
-        "areaServed": "IN"
-      }],
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      "priceRange": "no-charge Consultation Available"
     }
+
   ]
 }
 </script>
@@ -452,10 +421,11 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </div>
       <div class="c-item">
         <span class="c-icon">&#127760;</span>
-        <div><span class="c-lbl">How We Work</span><span class="c-val">Based in Coorg, Kodagu, Karnataka. We consult by phone, WhatsApp and video call, so students anywhere in Karnataka or India get the same counsellor and process.</span></div>
+        <div><span class="c-lbl">How We Work</span><span class="c-val">ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling premises anywhere.</span></div>
       </div>
       <div class="c-item">
         <span class="c-icon">&#128336;</span>
+        <div><span class="c-lbl">Postal record</span><span class="c-val">Coorg, Kodagu, Karnataka, India (locality only). No street or delivery address is listed. This is not a counselling location.</span></div>
         <div><span class="c-lbl">Counselling Hours</span><span class="c-val">Monday &ndash; Saturday<br>9:00 AM &ndash; 6:00 PM IST</span></div>
       </div>
 

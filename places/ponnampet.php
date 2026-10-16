@@ -27,9 +27,9 @@ return [
         'gonikoppal',
         'virajpet',
     ],
-    'page_title' => 'Writing an authentic study statement | Ponnampet study guidance | ILMERA',
-    'heading' => 'Ponnampet Counselling: Develop Your Own Study Explanation',
-    'meta_description' => 'A statement-planning guide for Ponnampet students: connect learning goals to evidence, answer the actual prompt and keep the application in your own voice.',
+    'page_title' => 'Online: Writing an authentic study statement | Ponnampet study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Ponnampet: Develop Your Own Study Explanation',
+    'meta_description' => 'Online counselling guide. A statement-planning guide for Ponnampet students: connect learning goals to evidence, answer the actual prompt and keep the application in your own voice.',
     'sections' => [
         [
             'heading' => 'Collect evidence before drafting the introduction',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Revise for truth as well as presentation',
             'paragraphs' => [
                 'Read each draft against the rest of the application. Check that dates, qualifications and activities agree with the record you are submitting. Remove claims you could not explain naturally if asked to discuss them. Ask a reviewer to identify unclear reasoning rather than merely polish the tone. You should understand and approve every sentence that remains. Keep the final version associated with its intended course so that a later adaptation does not accidentally carry over an irrelevant detail. For Ponnampet students, the practical goal is an explanation that belongs to the applicant and addresses the actual request. No template, professional wording or counselling service can guarantee how an admissions team will assess it.',
+                'Counselling is online, and students from Ponnampet do not need to travel to an office.',
             ],
         ],
     ],

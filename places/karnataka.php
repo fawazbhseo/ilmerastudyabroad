@@ -27,9 +27,9 @@ return [
         'shivamogga',
         'udupi-manipal',
     ],
-    'page_title' => 'Turning a longlist into a defensible shortlist | Karnataka study guidance | ILMERA',
-    'heading' => 'Karnataka Study Abroad Guidance: Build a Reasoned Shortlist',
-    'meta_description' => 'A shortlist framework for Karnataka students: define priorities, compare evidence consistently and keep a record of why each overseas course is retained.',
+    'page_title' => 'Online: Turning a longlist into a defensible shortlist | Karnataka study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Karnataka: Build a Reasoned Shortlist',
+    'meta_description' => 'Online counselling guide. A shortlist framework for Karnataka students: define priorities, compare evidence consistently and keep a record of why each overseas course is retained.',
     'sections' => [
         [
             'heading' => 'Decide what the comparison must answer',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Reduce the list by reasons, not momentum',
             'paragraphs' => [
                 'Review the longlist against the essential criteria first. Record why an option is removed so that it does not keep returning without new evidence. For the remaining choices, write a brief explanation of the academic fit, the financial assumptions and the unresolved dependencies. Discuss those explanations rather than comparing promotional phrases. Before moving to applications, decide what additional evidence could change the order of preference. The shortlist should remain open to a justified revision but not to an unexplained switch. This Karnataka page does not claim statewide admissions statistics or relationships with named institutions; its purpose is to make an individual selection process clear enough to question and update.',
+                'Counselling is online, and students from Karnataka do not need to travel to an office.',
             ],
         ],
     ],

@@ -27,9 +27,9 @@ return [
         'virajpet',
         'kushalnagar',
     ],
-    'page_title' => 'Sharing documents deliberately | Siddapura study guidance | ILMERA',
-    'heading' => 'Siddapura Counselling: Share Application Records Carefully',
-    'meta_description' => 'A document-sharing workflow for Siddapura students: agree the purpose, limit unnecessary copies and keep control of the version approved for submission.',
+    'page_title' => 'Online: Sharing documents deliberately | Siddapura study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Siddapura: Share Application Records Carefully',
+    'meta_description' => 'Online counselling guide. A document-sharing workflow for Siddapura students: agree the purpose, limit unnecessary copies and keep control of the version approved for submission.',
     'sections' => [
         [
             'heading' => 'Ask why a record is needed before sending it',
@@ -46,7 +46,8 @@ return [
         [
             'heading' => 'Track the approved version and the remaining copies',
             'paragraphs' => [
-                'Use a clear version label for the documents you have reviewed and a separate working area for drafts. Before sending a replacement, identify what it supersedes so the older file is not submitted by mistake. Ask the service provider about its document-handling and retention practices, and keep the response with your agreement. If you want a record deleted, make a specific request and seek confirmation rather than assuming a chat deletion removes all copies. Keep the documents you need for your own records in an arrangement you understand. Siddapura is the audience for this guide; no local storage facility, office or special access to an application system is being offered.',
+                'Use a clear version label for the documents you have reviewed and a separate working area for drafts. Before sending a replacement, identify what it supersedes so the older file is not submitted by mistake. Ask the service provider about its document-handling and retention practices, and keep the response with your agreement. If you want a record deleted, make a specific request and seek confirmation rather than assuming a chat deletion removes all copies. Keep the documents you need for your own records in an arrangement you understand. This online guide is for students from Siddapura; it offers preparation advice, not document storage or special access to an application system.',
+                'Counselling is online, and students from Siddapura do not need to travel to an office.',
             ],
         ],
     ],

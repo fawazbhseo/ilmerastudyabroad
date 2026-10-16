@@ -26,9 +26,9 @@ return [
         'shivamogga',
         'udupi-manipal',
     ],
-    'page_title' => 'Agreeing the counselling brief | Belagavi study guidance | ILMERA',
-    'heading' => 'Study Abroad Counselling for Belagavi: Scope and Responsibilities',
-    'meta_description' => 'For Belagavi students: define counselling responsibilities, compare written service terms and prepare a clear application brief with ILMERA.',
+    'page_title' => 'Online: Agreeing the counselling brief | Belagavi study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Belagavi: Scope and Responsibilities',
+    'meta_description' => 'Online counselling guide. For Belagavi students: define counselling responsibilities, compare written service terms and prepare a clear application brief with ILMERA.',
     'sections' => [
         [
             'heading' => 'Describe the task before choosing the support',
@@ -46,6 +46,7 @@ return [
             'heading' => 'Use a decision record when the brief changes',
             'paragraphs' => [
                 'An application plan may change after you learn more about a course or reconsider the budget. Record the reason for each material change rather than simply replacing the old shortlist. Note whether the change affects documents, deadlines or work already requested. If a new task falls outside the original agreement, ask for its scope and cost before proceeding. At the end of a discussion, summarise the next action in your own words and invite corrections. That small check can expose a misunderstanding before it becomes an expensive assumption. Belagavi is the audience for this guide; no local office, college connection or appointment facility is implied by the counselling offer.',
+                'Counselling is online, and students from Belagavi do not need to travel to an office.',
             ],
         ],
     ],

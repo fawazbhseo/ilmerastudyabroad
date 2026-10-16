@@ -27,9 +27,9 @@ return [
         'ponnampet',
         'virajpet',
     ],
-    'page_title' => 'Organising household evidence | Gonikoppal study guidance | ILMERA',
-    'heading' => 'Gonikoppal Study Planning: Organise Household Documents',
-    'meta_description' => 'Gonikoppal students can prepare household evidence with a document inventory, clear reporting periods and truthful explanations of missing records.',
+    'page_title' => 'Online: Organising household evidence | Gonikoppal study guidance | ILMERA',
+    'heading' => 'Online counselling for students from Gonikoppal: Organise Household Documents',
+    'meta_description' => 'Online counselling guide. Gonikoppal students can prepare household evidence with a document inventory, clear reporting periods and truthful explanations of missing records.',
     'sections' => [
         [
             'heading' => 'Map the request before collecting records',
@@ -47,6 +47,7 @@ return [
             'heading' => 'Review the pack as a connected account',
             'paragraphs' => [
                 'Once the documents are assembled, read the application narrative beside the records rather than reviewing each file in isolation. Names, relationships and reporting periods should be understandable together. Flag discrepancies for the appropriate issuer or recipient to resolve, and retain the response. Share only the information necessary for the stated purpose through an agreed channel. Keep an inventory of the final files, including which versions were submitted and which remain working copies. A well-organised pack can make questions easier to answer, but it cannot establish entitlement to funding or replace the decision of the awarding body. Discuss those limits before allowing an expected award to influence the study budget.',
+                'Counselling is online, and students from Gonikoppal do not need to travel to an office.',
             ],
         ],
     ],
