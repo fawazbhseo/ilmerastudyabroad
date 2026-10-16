@@ -1,5 +1,45 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 14: source verification and gated publication, 2026-10-16
+
+Twelve tasks, one commit per task, on arena/48320ee5-ilmerastudyabroad.
+PR: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1
+No merge, deployment or main-branch change.
+
+- Phase A: resolved the 141-entry tuition audit, qualified Germany/Slovakia
+  tuition conditions and retained only the exact conditional Italy owner
+  wording where applicable. Corrected APS without changing its canonical slug;
+  APS and DSU withheld where official/source-host evidence does not pass.
+- Phase B: opened-source per-line journal for all nine destinations. Added
+  substantive supported categories only. Published Germany, Italy, Slovakia,
+  UK, Lithuania, Latvia and scoped GCC. Czech Republic and Russia remain draft
+  with exact unavailable-source/category/current-notice blockers. GCC visibly
+  excludes Oman/Kuwait and dates the Bahrain registration-only material.
+- Phase C: seventeen original location guides, 367-381 prose words each,
+  unique surfaces/FAQs and Service schema using existing contact details.
+  No invented local practical facts or offices. All 136 pairs pass: maximum
+  overlap 3.311% authored, 14.147287% rendered main, both below 15%. All publish
+  through content-hash/cohort/source-scope/schema gates, not a category count.
+- Phase D: published the cost, documents and scholarships articles with
+  explicit coverage, official citations, source lists, corrected metadata and
+  matching FAQ markup. Removed unsupported rankings, universal-document rules,
+  amounts, named-institution and experience claims. Additional DSU remains draft
+  with owner wording explicitly distinguished from verified official facts.
+- Phase E: status-aware discovery and sitemap reconciled. All 37 indexable
+  routes have sitemap entries and inbound links; four drafts and utility 404
+  excluded. Durable editorial lastmod replaces deployment/checkout mtimes.
+  LLM files remain byte-frozen by instruction; separate follow-up recorded.
+- Phase F: phase14-publication-report.md contains the exact 29-page final
+  table, source references, failed gates, owner inputs and every changed file.
+  The original 29 finish at 27 published / 2 draft, plus APS/DSU withheld.
+
+Full lint/render/browser/discovery QA after each task. Final automated results
+are in phase14-validation.json; evidence and uniqueness journals are separate.
+Native Apache 2.4 staging is still required for inherited sitemap rewrite,
+clean-URL/query behavior and production access controls. .htaccess is unchanged
+and its CRLF bytes preserved. Do not infer deployment from publication flags.
+
+
 ## Phase 12: expanded GCC advisories and Russia scholarship draft, 2026-10-15
 
 Three tasks, one commit per task. GCC keeps slug gcc and name GCC. Both

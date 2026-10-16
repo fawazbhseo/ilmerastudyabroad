@@ -27,7 +27,7 @@ return [
     'scholarships' => [],
     'visa_steps' => [
         [
-            'text' => 'For Indian applicants, the Migration Department lists VFS Global centres in New Delhi and Mumbai for temporary residence permits. Appointments are booked only through the Lithuanian migration information system MIGRIS, after the application is submitted.',
+            'text' => 'For Indian applicants, the Migration Department lists VFS Global centres in New Delhi and Mumbai for temporary residence permits. Book only through MIGRIS after the application status becomes Submitted to external service provider, not merely after starting or submitting the application.',
             'source_url' => 'https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/',
             'source_label' => 'Migration Department of Lithuania: Services for persons abroad, Republic of India',
             'checked_on' => '2026-10-16',

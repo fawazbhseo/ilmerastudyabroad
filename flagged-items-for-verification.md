@@ -2717,3 +2717,27 @@ Apache 2.4 staging must still confirm /sitemap and /sitemap.php redirect to
 query strings behave correctly, and private include/data/tool paths remain
 appropriately protected by the staging configuration. The adapter is not
 proof of mod_rewrite or production access controls. No deployment was made.
+
+### Phase F task 12: final decision record
+
+See phase14-publication-report.md for the exact 29-page table, per-page
+confirmed source references, failed gates, precise owner inputs and complete
+changed-file list. Final original-target outcome: 27 published, Czech/Russia
+draft. The additional APS/DSU drafts remain withheld and absent from discovery.
+All earlier blocker history is retained; no earlier failed fetch is re-labelled
+as successful. Every task has its own commit and each Phase A-F has a PR
+checkpoint. Native Apache staging, LLM reconciliation and the explicit source
+requirements for held pages remain outstanding, not silently completed.
+No owner question was needed, no unapproved host was added, no protected
+summary/provenance value was changed outside the authorised tuition review,
+and no new address, phone, local office, institution name or outcome claim
+was introduced. Both LLM files and .htaccess retain baseline bytes.
+
+Final task-12 precision review: UK FAQ now explicitly scopes the 28-day bank
+rule to personal/parent/partner funds, not loans or official sponsorship.
+Lithuania booking now gives the exact MIGRIS external-provider-ready status,
+not merely submission. Both are supported by already opened source text;
+URLs/dates and the matched source journal are unchanged except confirmed copy.
+Correction to the task-4 narrative tally: Slovakia has six verified categories,
+not five, including the sourced scholarship category. The machine journal
+and final 29-page table already show the correct six. Earlier notes retained.

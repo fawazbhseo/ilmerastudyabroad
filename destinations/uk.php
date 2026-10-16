@@ -83,7 +83,7 @@ return [
         ],
         [
             'question' => 'How long must the money be in the account for a UK Student visa?',
-            'answer' => 'The funds must have been held for 28 days in a row, counted back from the closing balance date on the most recent evidence, and the evidence must be from no more than 31 days before the application.',
+            'answer' => 'For personal, parent or partner bank funds, GOV.UK normally requires the balance to have been held for 28 consecutive days, counted back from the closing balance on the latest evidence. That evidence must be no more than 31 days before application. Loan and official-sponsorship evidence follows separate instructions.',
             'source_url' => 'https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants',
             'source_label' => 'GOV.UK: Financial evidence for Student and Child Student visa applicants',
             'checked_on' => '2026-10-16',
