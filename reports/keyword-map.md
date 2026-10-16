@@ -2,7 +2,7 @@
 
 Source inventory: strategy-doc-summary.md and strategy-doc-research.json, read 2026-10-16. Baseline: Phase 19 `ad09f84`. No numeric volumes or keyword-difficulty figures were supplied. Priority is intent and relevance, never fabricated demand. The 17 explicit document query strings/fragments remain separately inventoried; page-specific normalized targets and mandatory navigational labels are not additional measured research keywords.
 
-Checkpoint coverage: **10/38 published pages**, one distinct primary and two or three secondaries each. IN PROGRESS; remaining pages are not claimed complete.
+Checkpoint coverage: **20/38 published pages**, one distinct primary and two or three secondaries each. IN PROGRESS; remaining pages are not claimed complete.
 
 | Published page | Primary | Secondary targets | Document basis and intent priority |
 | --- | --- | --- | --- |
@@ -16,6 +16,16 @@ Checkpoint coverage: **10/38 published pages**, one distinct primary and two or 
 | `/blog/study-abroad-with-academic-backlogs` | study abroad with academic backlogs | backlog application planning; academic record explanations | 3 / relevant student-question group; 4 / sourced planning needs; Direct decision/support intent |
 | `/contact` | contact ILMERA Study Abroad | online counselling enquiry; study abroad application discussion | Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable; Navigation and policy support |
 | `/` | ILMERA Study Abroad | online study abroad counselling; study abroad application guidance | Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable; Navigation and policy support |
+| `/privacy-policy` | ILMERA privacy policy | enquiry data use; contact information privacy | Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable; Navigation and policy support |
+| `/services` | ILMERA study abroad services | admissions guidance; visa document guidance; scholarship planning | Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable; Navigation and policy support |
+| `/study-abroad-consultants-in-karnataka` | study abroad consultants in Karnataka | overseas education consultants in Karnataka; online counselling for Karnataka students | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-consultants-in-kodagu` | study abroad consultancy in Kodagu | online counselling for Kodagu students; prepare separate concerns before the joint conversation | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-belagavi` | study abroad consultancy in Belagavi | online counselling for Belagavi students; describe the task before choosing the support | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-bengaluru` | study abroad consultancy in Bengaluru | online counselling for Bengaluru students; translate your interest into an academic question | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-chikkamagaluru` | study abroad consultancy in Chikkamagaluru | online counselling for Chikkamagaluru students; find the requirement that belongs to your course | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-gonikoppal` | study abroad consultancy in Gonikoppal | online counselling for Gonikoppal students; map the request before collecting records | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-hassan` | study abroad consultancy in Hassan | online counselling for Hassan students; separate the known price from the planning estimate | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
+| `/study-abroad-counselling-kushalnagar` | study abroad consultancy in Kushalnagar | online counselling for Kushalnagar students; turn the offer into a list of obligations | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
 
 ## Comparison with Phase 19
 
