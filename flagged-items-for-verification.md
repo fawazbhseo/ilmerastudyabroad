@@ -2602,3 +2602,15 @@ number from contact.php; area served is an audience, not an office address.
 Removed inferred administrative breadcrumbs and location metatags. Related
 guides are editorial links, not assertions of proximity. All remain draft
 until task 8 measures and enforces the stronger publication gate.
+
+### Phase C task 7: business-presence and contact audit
+
+The existing contact.php explicitly offers phone, WhatsApp and video calls.
+No location page claims a branch, walk-in appointment, local office, partner
+college, local address or city-specific phone. No new contact number or
+address was introduced. Service schema repeats only +919019557427, already
+the main contact in contact.php, and the existing sitewide organisation URL.
+Its areaServed names the intended audience, not a physical location.
+The shared contact card now states the existing Coorg/Kodagu base and no
+physical office concisely, without inventing a local meeting arrangement.
+Authored guides do not use an unsupported online-counselling label.
