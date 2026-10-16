@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/entity.php';
+require_once __DIR__ . '/proof.php';
 /** Reviewed presentation overlays. Publication data and its source gates stay intact. */
 function ilmera_presentation_escape($text)
 {
@@ -78,11 +79,19 @@ function ilmera_present_page($html)
             }
         }
     }
-    $html = str_replace('</head>', ilmera_entity_markup() . '</head>', $html);
+    $html = str_replace('</head>', ilmera_entity_markup($path) . '</head>', $html);
     if (in_array($path, ['/about','/contact','/study-abroad-consultants-in-karnataka'], true)) $html = str_replace('</main>', ilmera_entity_visible() . '</main>', $html);
     if (in_array($entry['kind'], ['destination','article'], true)) {
         $review = '<p class="last-reviewed">Last reviewed <time datetime="2026-10-16">16 October 2026</time></p>';
         $html = preg_replace('~(<div class="direct-answer-block"[^>]*>)~', '$1'.$review, $html, 1);
+    }
+    $proof = ilmera_proof_blocks($path);
+    if ($proof['html'] !== '') $html = str_replace('</main>', $proof['html'].'</main>', $html);
+    if (isset($entry['answer_data'])) {
+        $cta = $entry['cta'] ?? ['Discuss '.$entry['primary'].' online', 'Ask ILMERA about '.$entry['primary']];
+        $link = static function($label) use ($entry) { return '<p class="conversion-cta"><a class="btn-gold" style="max-width:100%;white-space:normal;line-height:1.5;text-transform:none;" data-page-type="'.($entry['kind']==='place'?'location':$entry['kind']).'" href="/contact">'.ilmera_presentation_escape($label).'</a></p>'; };
+        $html = preg_replace('~(<p class="direct-answer">.*?</p>)~s', '$1'.$link($cta[0]), $html, 1);
+        $html = str_replace('</main>', '<section class="s-wrap article-body"><div class="container">'.$link($cta[1]).'</div></section></main>', $html);
     }
     return $html;
 }

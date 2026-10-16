@@ -76,6 +76,9 @@ def check(base, root):
                 for g in graphs:
                     if g.get('@type') in ('WebPage','Article','BlogPosting'):
                         assert g.get('dateModified') == '2026-10-16', (path, 'Review/schema date parity')
+        if (root / 'data/proof.php').exists() and entry['kind'] in ('place','destination','article'):
+            assert len(re.findall(r'<p class="conversion-cta">', html)) == 2, (path, 'Two contact CTAs')
+            assert 'class="owner-proof"' not in html, (path, 'Empty proof must not render')
         text = ' '.join(PublishedContent(html, include_government_citations=True).parts)
         assert not re.search(r'\bILMERA(?: Study Abroad)?\s+(?:is\s+)?(?:India.s\s+|the\s+)?(?:best|top|leading|no\.?\s*1)\b', text, re.I), (path, 'Superlative claim')
         assert not re.search(r'"(?:aggregateRating|@type"\s*:\s*"(?:Review|LocalBusiness))', html), (path, 'Disallowed proof schema')
