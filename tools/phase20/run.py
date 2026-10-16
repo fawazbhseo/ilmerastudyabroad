@@ -24,7 +24,7 @@ for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','tes
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php']:
  run(name,['php','tools/'+name])
 run('authored location overlap',[sys.executable,'tools/check_location_content.py'])
-for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py']:
+for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py']:
  run(name,[sys.executable,'tools/'+name,'--base-url',base])
 manifest={};faq_count=0
 norm=lambda s:' '.join(html.unescape(re.sub('<[^>]+>','',s)).split())
@@ -62,6 +62,7 @@ for i,(path,info) in enumerate(routes(ROOT).items()):
 (a.evidence/'snapshots.json').write_text(json.dumps(manifest,indent=2)+'\n')
 checks['render schema and strict policy']={'status':'PASS','routes':len(manifest),'faq_pairs':faq_count,'faq_exact_visible_schema_parity':True}
 print('PASS fresh renders/schema/wording',len(manifest),flush=True)
+run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
 run('browser',['node','tools/phase20/browser.cjs',str(a.evidence)])
 # Full rendered main overlap, matching the established five-token coverage method.
 from check_location_content import inspect

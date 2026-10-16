@@ -2,7 +2,7 @@
 
 Source inventory: strategy-doc-summary.md and strategy-doc-research.json, read 2026-10-16. Baseline: Phase 19 `ad09f84`. No numeric volumes or keyword-difficulty figures were supplied. Priority is intent and relevance, never fabricated demand. The 17 explicit document query strings/fragments remain separately inventoried; page-specific normalized targets and mandatory navigational labels are not additional measured research keywords.
 
-Checkpoint coverage: **30/38 published pages**, one distinct primary and two or three secondaries each. IN PROGRESS; remaining pages are not claimed complete.
+Checkpoint coverage: **38/38 published pages**, one distinct primary and two or three secondaries each. COMPLETE.
 
 | Published page | Primary | Secondary targets | Document basis and intent priority |
 | --- | --- | --- | --- |
@@ -36,6 +36,14 @@ Checkpoint coverage: **30/38 published pages**, one distinct primary and two or 
 | `/study-abroad-counselling-udupi-manipal` | study abroad consultancy in Udupi and Manipal | online counselling for Udupi and Manipal students; read the structure as a set of commitments | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
 | `/study-abroad-counselling-virajpet` | study abroad consultancy in Virajpet | online counselling for Virajpet students; review the completed form, not only the document folder | 4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed; Direct decision/support intent |
 | `/study-in-gcc` | study in GCC countries from India | study in GCC countries from Karnataka; GCC countries study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-germany` | study in Germany from India | study in Germany from Karnataka; Germany study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-italy` | study in Italy from India | study in Italy from Karnataka; Italy study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-latvia` | study in Latvia from India | study in Latvia from Karnataka; Latvia study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-lithuania` | study in Lithuania from India | study in Lithuania from Karnataka; Lithuania study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-slovakia` | study in Slovakia from India | study in Slovakia from Karnataka; Slovakia study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/study-in-uk` | study in UK from India | study in UK from Karnataka; UK study application planning | 5A / priority 7; section 3 country, cost, visa and language intents; Direct decision/support intent |
+| `/terms` | ILMERA terms of use | counselling service terms; application responsibilities | Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable; Navigation and policy support |
+| `/blog/how-to-choose-study-abroad-consultant-karnataka` | how to choose a study abroad consultant in Karnataka | written counselling scope and fees; consultant accountability checks; counselling privacy and refund terms | 2B / items 2 and 4; 3 / prompts 43-50; safe substitute for 5A / priority 3; Direct decision/support intent |
 
 ## Comparison with Phase 19
 

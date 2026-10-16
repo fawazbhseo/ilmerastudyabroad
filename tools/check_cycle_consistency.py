@@ -50,17 +50,15 @@ def check(root, captures):
         for graph in Graphs(html).graphs: allowed_schema(graph)
         public += 1
     assert public == 38, ('Unexpected publication cohort', public)
-    prompts = ' '.join((root / 'reports/prompt-map.md').read_text().split())
-    assert 'Document prompt inventory: unknown' in prompts and 'No AI prompts are fabricated' in prompts
-    assert 'fee' in prompts.lower() and 'gap' in prompts and 'No public fee schedule' in prompts
-    assert '3 answered, 0 partly answered, 1 gap' in prompts
+    from check_phase20 import validate
+    mapping = validate(root)
     identity = json.loads((root / 'data/entity.json').read_text())
     for name in ('llms.txt','llms-full.txt'):
         text = (root / name).read_text()
         assert identity['description'] in text and all('- '+s in text for s in identity['services']), name
     return {'published_captures':public,'recursive_schema_policy':'PASS','names_wording_punctuation':'PASS',
             'prompt_status_reasons':'PASS','canonical_entity_llm_parity':'PASS',
-            'strategy_prompt_inventory':'unknown; owner source access required',
+            'strategy_prompt_inventory':mapping['prompt_statuses'],
             'external_http_status_verified':False,'live_rankings_verified':False}
 
 
