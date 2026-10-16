@@ -2687,3 +2687,33 @@ no mechanical exception was used to override the file freeze.
 Updated isolated discovery fixtures for the new gates: status demotion,
 source-text mismatch, location-cohort mismatch, explicit noindex header and
 article-hash mismatch must remove links/sitemap entries and restore cleanly.
+
+### Phase E task 11: full validation and fail-closed regression tests
+
+Validated 42 HTTP route renders: all 41 editorial routes have self-canonicals;
+the noindex utility 404 deliberately has no canonical. All 37 published
+editorial routes are indexable, and the four drafts plus utility are blocked.
+Every rendered JSON-LD block parses, location Service provider/contact facts
+match the existing sitewide details, FAQ/schema text matches, and no rendered
+visible text contains an em dash. Internal targets/fragments, inbound links,
+robots and exact runtime/static sitemap parity pass. Both LLM byte hashes
+match the pre-phase baseline. phase14-validation.json records per-route data.
+
+Negative tests also reject unreviewed notices, legacy local-note injections,
+changed review dates and edited claim/question/source fields. Article gates
+check approved hosts and that each confirmed claim points to a reviewed
+source. Neither held APS nor DSU can be revived by a status-only toggle.
+Russia retains its explicit alternative of a verified current-year notice
+or five verified categories; its notice-verification flag is false.
+Isolated fixture tests cover status changes, source/cohort/article mismatch,
+explicit noindex headers, held-article status toggles and clean restoration.
+
+Environment limit: native PHP/Apache is not installed. PHP 8.5 WASM parser
+and serialised HTTP renders plus Chromium captured-render tests were used.
+External font/social navigation was not a production-network verification.
+No .htaccess change was made in Phase 14; its CRLF bytes are preserved.
+Apache 2.4 staging must still confirm /sitemap and /sitemap.php redirect to
+/sitemap.xml, the XML internal rewrite ends without a loop, clean URLs and
+query strings behave correctly, and private include/data/tool paths remain
+appropriately protected by the staging configuration. The adapter is not
+proof of mod_rewrite or production access controls. No deployment was made.

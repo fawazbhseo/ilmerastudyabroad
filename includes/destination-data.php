@@ -116,7 +116,9 @@ function ilmera_destination_evidence_matches($data)
     $entry = $journal['destinations'][$data['slug']] ?? [];
     $allowed = $journal['approved_hosts'][$data['slug']] ?? [];
     $rows = $entry['retained_line_reviews'] ?? [];
+    if ($data['slug'] === 'russia' && ($review['current_year_notice_verified'] ?? false) === true && ($entry['current_year_notice_verified'] ?? false) !== true) return false;
     if (!$rows || !$allowed || ($entry['blockers'] ?? []) || $data['intro_answer'] === '') return false;
+    foreach (['scope_note', 'review_notice'] as $notice) if ($data[$notice] !== ($entry[$notice] ?? '')) return false;
     if ($data['slug'] === 'gcc' && ($data['scope_note'] === '' || $data['scope_note'] !== ($entry['scope_note'] ?? ''))) return false;
     $expected = ['intro_answer' => array_merge(['text' => $data['intro_answer']], $data['intro_source'] ?? [])];
     foreach (array_merge(array_keys(ilmera_destination_groups()), ['faqs']) as $field) {
@@ -145,7 +147,9 @@ function ilmera_destination_evidence_matches($data)
 
 function ilmera_destination_indexable($data)
 {
-    return is_array($data) && $data['status'] === 'published' && ilmera_destination_fact_count($data) >= 5 && ilmera_destination_evidence_matches($data);
+    if (!is_array($data) || $data['status'] !== 'published') return false;
+    $minimum = $data['slug'] === 'russia' && ($data['publication_review']['current_year_notice_verified'] ?? false) === true ? 1 : 5;
+    return ilmera_destination_fact_count($data) >= $minimum && ilmera_destination_evidence_matches($data);
 }
 
 function ilmera_destination_url($data)

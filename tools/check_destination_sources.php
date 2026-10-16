@@ -33,6 +33,9 @@ foreach (['czech-republic', 'russia'] as $slug) {
     $copy['status'] = 'published';
     $check(!ilmera_destination_indexable($copy));
 }
+$copy = $germany;
+$copy['review_notice'] = 'An unreviewed factual statement.';
+$check(!ilmera_destination_indexable($copy));
 $gcc = ilmera_destination_load('gcc');
 $check(ilmera_destination_indexable($gcc));
 $gcc['scope_note'] = '';

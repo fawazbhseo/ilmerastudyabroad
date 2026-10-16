@@ -1049,7 +1049,8 @@
         "Cited 2026-27 notice returned a missing page. No current-year notice or five categories verified from opened official sources. Previously supplied expired closing date is not independently confirmed."
       ],
       "verified_categories": 0,
-      "final_status": "draft"
+      "final_status": "draft",
+      "current_year_notice_verified": false
     }
   },
   "approved_hosts": {

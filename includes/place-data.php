@@ -107,6 +107,8 @@ if (!function_exists('ilmera_place_text')) {
             ($data['local_facts_used'] ?? true) !== false || !empty($data['local_fact_sources']) ||
             ilmera_place_content_hash($data) !== ($entry['content_sha256'] ?? '') ||
             ($journal['max_shared_percent'] ?? 100) > 15 || ($journal['rendered_main_overlap']['max_shared_percent'] ?? 100) > 15) return false;
+        foreach (['local_institutions', 'transcript_and_moi_steps', 'local_loan_options', 'visa_appointment_route', 'local_notes'] as $field) if (!empty($data[$field])) return false;
+        if ($data['reviewed_on'] !== ($entry['checked_on'] ?? '')) return false;
         $prose = $data['intro_answer'];
         foreach ($data['sections'] as $section) $prose .= ' ' . implode(' ', $section['paragraphs']);
         if (preg_match_all('/\S+/u', $prose) < 350 || !$data['page_title'] || !$data['heading'] || !$data['meta_description'] || !$data['faqs']) return false;

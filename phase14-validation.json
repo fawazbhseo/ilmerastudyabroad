@@ -1,0 +1,391 @@
+{
+  "checked_on": "2026-10-16",
+  "environment": "PHP 8.5 WASM HTTP adapter, not native Apache",
+  "discovery": {
+    "sitemap": [
+      "https://ilmerastudyabroad.com/",
+      "https://ilmerastudyabroad.com/services",
+      "https://ilmerastudyabroad.com/about",
+      "https://ilmerastudyabroad.com/contact",
+      "https://ilmerastudyabroad.com/blog/",
+      "https://ilmerastudyabroad.com/privacy-policy",
+      "https://ilmerastudyabroad.com/terms",
+      "https://ilmerastudyabroad.com/all-pages",
+      "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+      "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+      "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+      "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+      "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+      "https://ilmerastudyabroad.com/study-in-germany",
+      "https://ilmerastudyabroad.com/study-in-italy",
+      "https://ilmerastudyabroad.com/study-in-uk",
+      "https://ilmerastudyabroad.com/study-in-lithuania",
+      "https://ilmerastudyabroad.com/study-in-latvia",
+      "https://ilmerastudyabroad.com/study-in-slovakia",
+      "https://ilmerastudyabroad.com/study-in-gcc",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+      "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+      "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+      "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+    ],
+    "indexable": 37,
+    "blocked": 5,
+    "routes": 42
+  },
+  "routes": [
+    {
+      "route": "/404",
+      "status": 200,
+      "indexable": false,
+      "self_canonical": false,
+      "utility": true,
+      "schema_graphs": 1
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 10
+    },
+    {
+      "route": "/all-pages",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 3
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 3
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 3
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "status": 200,
+      "indexable": false,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 3
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "status": 200,
+      "indexable": false,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 7
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 6
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 7
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "status": 200,
+      "indexable": false,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-gcc",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-germany",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-italy",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-latvia",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-lithuania",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-russia",
+      "status": 200,
+      "indexable": false,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-slovakia",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/study-in-uk",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 4
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "indexable": true,
+      "self_canonical": true,
+      "utility": false,
+      "schema_graphs": 2
+    }
+  ],
+  "frozen_sha256": {
+    "llms.txt": "45c47123208af4b1edb873160830d4f4c28b9c9967430a775cab1434ea773bf5",
+    "llms-full.txt": "b4c6fa65818b41540b0a5dd82770633bf72f1a1d706fdad7286f75e253f06e68"
+  },
+  "sitemap_snapshot_matches_runtime": true
+}

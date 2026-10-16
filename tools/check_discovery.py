@@ -213,6 +213,19 @@ def fixtures(base, root, fixture_root):
             check(base, fixture_root)
         finally:
             article.write_bytes(article_original)
+        posts_file = fixture_root / 'includes/posts.php'
+        posts_original = posts_file.read_text()
+        try:
+            changed = posts_original
+            for held in ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility']:
+                pattern = r"(^        '" + re.escape(held) + r"' => \[.*?^        \],)"
+                changed = re.sub(pattern, lambda m: m[0].replace("'status' => 'draft'", "'status' => 'published'", 1), changed, count=1, flags=re.S | re.M)
+            posts_file.write_text(changed)
+            for held in ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility']:
+                assert_visibility(base, '/blog/' + held, False)
+            check(base, fixture_root)
+        finally:
+            posts_file.write_text(posts_original)
         assert_visibility(base, lurl, True)
         assert_visibility(base, durl, True)
         check(base, fixture_root)

@@ -94,7 +94,7 @@ function ilmera_post_published($slug)
 {
     $post = ilmera_post($slug);
     if (!$post || $post['status'] !== 'published' || !is_file(dirname(__DIR__) . '/blog/' . $post['slug'] . '.php')) return false;
-    $reviewed = ['cost-of-studying-abroad-for-indian-students', 'documents-needed-to-study-abroad-from-india', 'scholarships-for-indian-students-study-abroad'];
+    $reviewed = ['study-in-germany-free-aps-certificate', 'italy-dsu-scholarship-eligibility', 'cost-of-studying-abroad-for-indian-students', 'documents-needed-to-study-abroad-from-india', 'scholarships-for-indian-students-study-abroad'];
     if (!in_array($slug, $reviewed, true)) return true;
     static $journal = null;
     if ($journal === null) {
@@ -106,7 +106,21 @@ function ilmera_post_published($slug)
     if (($entry['verified'] ?? false) !== true || !empty($entry['failed_gates']) ||
         hash_file('sha256', dirname(__DIR__) . '/blog/' . $slug . '.php') !== ($entry['file_sha256'] ?? '')) return false;
     foreach ($entry['metadata'] ?? [] as $key => $value) if (($post[$key] ?? null) !== $value) return false;
-    return !empty($entry['sources']) && ($entry['approved_hosts_only'] ?? false) === true;
+    if (empty($entry['sources']) || ($entry['approved_hosts_only'] ?? false) !== true) return false;
+    $urls = [];
+    foreach ($entry['sources'] as $source) {
+        $url = $source['url'] ?? '';
+        $host = strtolower(parse_url($url, PHP_URL_HOST) ?? '');
+        $approved = preg_match('/(?:^|\.)(?:gov\.in|nic\.in)$/D', $host) === 1;
+        foreach ($journal['approved_hosts'] ?? [] as $official) if ($host === $official || str_ends_with($host, '.' . $official)) $approved = true;
+        if (!$approved || parse_url($url, PHP_URL_SCHEME) !== 'https' || empty($source['checked_on'])) return false;
+        $urls[] = $url;
+    }
+    foreach ($entry['retained_claims'] ?? [] as $claim) {
+        if (($claim['verified'] ?? false) !== true || empty($claim['source_urls'])) return false;
+        foreach ($claim['source_urls'] as $url) if (!in_array($url, $urls, true)) return false;
+    }
+    return !empty($entry['retained_claims']);
 }
 
 function ilmera_published_posts($latest = false)

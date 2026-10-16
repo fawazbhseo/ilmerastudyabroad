@@ -81,6 +81,7 @@ return [
     'publication_review' => [
         'checked_on' => '2026-10-16',
         'intro_verified' => false,
+        'current_year_notice_verified' => false,
         'all_retained_lines_verified' => false,
         'approved_hosts_only' => true,
         'original_sources_resolved' => false,
