@@ -1192,3 +1192,53 @@ maximum rendered-main overlap 13.476562%, all 136 pairs below 15%.
 The unchanged LLM files still prevent unconditional wording/name acceptance;
 strict discovery/publication commands must report that rather than waive it.
 Native Apache, external transport and real delivery remain staging checks.
+
+## Phase 18: reconciled LLM discovery and direct-live handoff, 2026-10-16
+
+Six tasks, one commit per task, on arena/48320ee5-ilmerastudyabroad; PR 1.
+No main push, merge, deployment, page-status or sitemap change.
+
+1. Reconciled both owner-authorized LLM documents: removed institution names,
+   prohibited claims and held-page promotion; made online-only counselling
+   explicit; preserved the exact conditional Italy owner sentence with local
+   attribution/caution and both exact visible GCC scope notes. Replaced the
+   obsolete byte restriction with genuine content/served-parity checks.
+   Every changed LLM line is recorded before task 2 shifted later numbers in
+   reports/phase-18-task-1-lines.md, using baseline 05e63e9 and task 1 7d45837.
+2. Added the missing published-page directory in the existing Markdown format,
+   using freshly rendered titles and descriptions: seven destinations,
+   17 locations, five articles, plus blog/page indexes. Both LLM files now
+   represent all 37 published addresses. New canonical listings: 28 short,
+   31 full; two existing short-file articles were refreshed. No earlier
+   generator existed, so added an idempotent maintained directory builder.
+3. Passed strict names/wording/discovery/publication across the whole published
+   site, including both LLM files. Default discovery now checks prohibited
+   wording across visible copy, metadata, decoded URLs and schema. Retained
+   the narrow citation-label name rule without exempting presence or wording.
+4. Added reports/post-deploy-checklist.md: complete live backup first, direct
+   live upload, actual live page/contact/sitemap tests, no-cost citation-link
+   checks, Search Console submission and restore of backed-up files on errors.
+5. Added reports/phase-18-release-check.md and machine evidence. Local gates
+   PASS; actual live addresses, native server execution, external raw HTTP
+   health and real enquiry/channel delivery remain unverified owner checks.
+6. Appended only these new historical resolutions/decisions and repeated the
+   complete fresh local suite. Earlier blocker entries remain unchanged.
+
+Each task repeats 83 PHP parses, 42 fresh renders, 41 editorial self-canonicals
+and 252 browser cases, plus strict discovery, source/contact/publication,
+FAQ/schema, status, line-ending and location-overlap checks. The final
+regression set includes seven wording, nine directory, twelve LLM-policy,
+six name, nine presence, three citation and four Italy cases, in addition to
+PHP gate tests. All current local checks PASS without an LLM exception.
+
+Counts unchanged: 37 indexable pages (7 destinations, 17 locations, 5 articles,
+8 other), four editorial drafts and one separate noindex 404 utility. Expanded
+original-target accounting remains 27 published / 4 held. Seventeen guides
+have 382-396 authored words, maximum shared authored coverage 6.410 percent
+and fresh rendered-main coverage 13.476562 percent over 136 pairs.
+
+The owner deploys directly live, with no staging step; Phase 13 .htaccess is
+already live per owner. Ready for owner-controlled live deployment after a
+complete backup, not certified as deployed or accepted on the actual server.
+Restore the backed-up live files/settings if post-deployment checks fail.
+Kuwait requirements, four held pages and award/source-proof limits remain.

@@ -3039,3 +3039,51 @@ seven destinations, 17 location guides, five blog articles and both indexes.
 The two already-listed short-file articles are refreshed rather than counted
 as newly discovered pages. The four held routes/information remain excluded.
 No page metadata, status, source gate, journal or sitemap has been changed.
+
+## Phase 18 task 6: dated targeted closures and live handoff, 2026-10-16
+
+These notes append resolutions; all historical blocker text is unchanged.
+
+- [x] CLOSED: permission uncertainty preventing LLM reconciliation. Phase 18
+  explicitly authorizes complete edits to both documents. Earlier immutable-
+  byte instructions are superseded, not the substantive publication policy.
+- [x] CLOSED: historical public LLM institution-name and prohibited-wording
+  release failures. Both files are cleaned and the strict current whole-site
+  names, wording, discovery and publication commands PASS without exclusions.
+  The replacement checks require the exact Italy sentence with attribution/
+  caution, explicit online-only counselling and exact visible GCC notes.
+- [x] CLOSED: missing published editorial page listings in both LLM files.
+  Exact rendered title/meta-description entries cover all seven destinations,
+  17 locations, five articles and two published indexes. Existing core URLs
+  remain; all 37 indexable addresses are represented. The maintained builder
+  is idempotent, rejects stale metadata, and never generates a held/noindex
+  page entry. The line audit preserves task 1 numbers before these additions.
+- [ ] OPEN: usable current official Kuwait requirements. Nothing new was
+  sourced in this phase. Oman/Bahrain coverage stays registration-only.
+- [ ] OPEN: existing source/category/award/approval blockers for all four held
+  pages. No source host, page status, hash journal or sitemap was changed.
+  The exact owner amount is still conditional guidance, not official proof
+  of award terms or an individual university relationship.
+- [ ] OPEN: actual live page addresses/native server behavior, raw external
+  citation HTTP health, live enquiry/channel delivery and Search Console
+  processing. No local adapter/browser pass closes these checks.
+
+Conservative deployment decision: the owner works directly on live, not
+staging. Phase 13 .htaccess is already live per owner; no reapplication is
+required here. Earlier staging instructions are historical workflow notes,
+not the current deployment plan. The underlying live server evidence remains
+outstanding. Back up the complete current live files/settings first, test
+on the actual live site after deployment and restore the backed-up files
+if errors occur. Do not limit restoration to the server rules file.
+
+Ready for owner-controlled direct-live deployment after backup because all
+local gates now pass. Not certified as already deployed or finally accepted
+live. The release report uses FAIL: not verified for missing live evidence,
+not to imply a live failure was observed. No deploy, main push or merge.
+
+The initial task 3 run stopped on resource exhaustion in the long-running
+local WASM adapter, not on an accepted content exception. Restarted it and
+reran the complete suite successfully. An early online-only negative test
+was corrected to remove both letter cases before a successful fresh rerun;
+no content gate was relaxed. Machine evidence records completed passing runs.
+No new external-source verification or raw-status certification was inferred.

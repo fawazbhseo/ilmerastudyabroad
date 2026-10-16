@@ -80,6 +80,7 @@ percent over 136 pairs, within the 15 percent limit.
 | 3 | PASS | 94.14 |
 | 4 | PASS | 103.79 |
 | 5 | PASS | 98.33 |
+| 6 | PASS | 96.01 |
 
 The initial task 3 attempt stopped when the long-running WASM test adapter
 exhausted its resources. The adapter was restarted; the complete fresh task 3
@@ -208,6 +209,7 @@ flags. All listed routes below appear in both files.
 
 ## Every changed file since Phase 18 baseline
 
+- `CHANGELOG.md`
 - `flagged-items-for-verification.md`
 - `llms-full.txt`
 - `llms.txt`
