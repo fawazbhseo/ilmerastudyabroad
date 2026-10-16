@@ -61,6 +61,8 @@ def main():
     args = p.parse_args()
     root = args.root
     result, _ = check(args.base_url, root)
+    from check_italy_claims import check as check_italy_claims
+    italy_claims = check_italy_claims(args.base_url, root)
     checked = []
     for route, info in routes(root).items():
         status, headers, body = fetch(args.base_url, route)
@@ -101,7 +103,7 @@ def main():
         llm_checks[name]['sha256'] = hashlib.sha256(now).hexdigest()
     snapshot = (root / 'sitemap.xml').read_bytes()
     assert snapshot == fetch(args.base_url, '/sitemap.xml')[2], 'Static/runtime sitemap mismatch'
-    output = {'checked_on': '2026-10-16', 'environment': 'PHP 8.5 WASM HTTP adapter, not native Apache', 'discovery': result, 'routes': checked, 'llm_content_checks': llm_checks, 'sitemap_snapshot_matches_runtime': True}
+    output = {'checked_on': '2026-10-16', 'environment': 'PHP 8.5 WASM HTTP adapter, not native Apache', 'discovery': result, 'routes': checked, 'llm_content_checks': llm_checks, 'italy_exact_claims': italy_claims, 'sitemap_snapshot_matches_runtime': True}
     if args.report:
         args.report.write_text(json.dumps(output, indent=2)+'\n')
     print('PASS', len(checked)-1, 'editorial self-canonicals;', len(checked), 'route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity')

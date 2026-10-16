@@ -160,13 +160,20 @@ def blocked_names(root):
     return [line.strip() for line in path.read_text().splitlines() if line.strip() and not line.startswith('#')]
 
 
+def prohibited_wording_matches(text):
+    """Scan publication copy, decoded URLs and structured data consistently."""
+    value = unicodedata.normalize('NFKC', unescape(unquote(text))).casefold()
+    value = re.sub(r'[\s_\u2010\u2011]+', ' ', value)
+    return sorted(set(m.group(0) for m in re.finditer(r'\bfree\b|\btuition[-\s]*free\b', value)))
+
+
 def validate_llm_text(root, name, text):
     """Phase 18 permits edits, not policy exceptions or draft promotion."""
     from check_italy_claims import check_parts
     assert name in ('llms.txt', 'llms-full.txt'), name
     assert text.startswith('# ILMERA') and '\n## ' in text and '\n- ' in text, (name, 'Markdown structure')
     assert not blocked_name_matches(text, blocked_names(root)), (name, 'Institution name')
-    assert not re.search(r'\bfree\b|tuition[- ]free', text, re.I), (name, 'Prohibited cost wording')
+    assert not prohibited_wording_matches(text), (name, 'Prohibited cost wording')
     assert '\u2014' not in text, (name, 'Prohibited punctuation')
     assert not physical_presence_matches(text), (name, 'Physical-presence implication')
     assert re.search(r'\bonline[ -]only\b', text, re.I), (name, 'Explicit online-only model missing')
@@ -252,6 +259,9 @@ def check(base, root, enforce_names=True):
     presence_failures = {path: hits for path, text in presence_text.items() if path not in blocked
                          and (hits := physical_presence_matches(text))}
     assert not presence_failures, ('Physical-presence phrases in published content', presence_failures)
+    wording_failures = {path: hits for path, text in presence_text.items() if path not in blocked
+                        and (hits := prohibited_wording_matches(text))}
+    assert not wording_failures, ('Prohibited wording in published content', wording_failures)
     if enforce_names:
         names = blocked_names(root)
         failures = {path: hits for path, text in public_text.items() if path not in blocked

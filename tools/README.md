@@ -205,3 +205,14 @@ the blog and all-pages indexes must match the fresh rendered metadata.
 `check_discovery.py` and the publication checker enforce this by default.
 Use a local verification copy for this builder, never a mutation fixture
 or a production docroot. Live smoke testing uses the owner checklist instead.
+
+### Phase 18 strict defaults
+
+Discovery now enforces prohibited cost wording across published visible copy,
+metadata, decoded URLs, FAQ/schema and both LLM documents, not only inside the
+LLM-specific policy. Government citation labels are not exempt from wording
+or physical-presence checks. The narrow existing institution-label exception
+remains separate. The publication command also requires the independent exact
+Italy amount/attribution/caution check across the whole published site.
+`python3 tools/test_wording.py` covers normalized/encoded wording regressions.
+Drafts and the separate noindex utility page retain their existing boundaries.
