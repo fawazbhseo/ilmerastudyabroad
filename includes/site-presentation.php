@@ -93,6 +93,13 @@ function ilmera_present_page($html)
         $html = preg_replace('~(<p class="direct-answer">.*?</p>)~s', '$1'.$link($cta[0]), $html, 1);
         $html = str_replace('</main>', '<section class="s-wrap article-body"><div class="container">'.$link($cta[1]).'</div></section></main>', $html);
     }
+    $imageIndex = 0;
+    $html = preg_replace_callback('~<img\b[^>]*>~i', static function($match) use (&$imageIndex) {
+        $tag = $match[0];
+        $loading = $imageIndex++ === 0 ? 'eager' : 'lazy';
+        if (!preg_match('~\bloading=~i', $tag)) $tag = preg_replace('~/?>(\s*)$~', ' loading="'.$loading.'"/>$1', $tag);
+        return $tag;
+    }, $html);
     return $html;
 }
 

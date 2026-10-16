@@ -1,0 +1,16 @@
+{
+  "pages": 38,
+  "heading_order": "PASS",
+  "breadcrumb_visible_schema_parity": "PASS",
+  "image_instances": 88,
+  "image_alt_dimensions_loading": "PASS",
+  "max_click_depth": 1,
+  "orphans": 0,
+  "canonical_targets_direct_200": true,
+  "existing_external_font_stylesheets": [
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+  ],
+  "native_redirect_chains_verified": false,
+  "live_performance_verified": false
+}
