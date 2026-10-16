@@ -53,6 +53,7 @@ is [phase-16-checks.json](phase-16-checks.json).
 | 3 | 83 PASS | 42 PASS | 252 PASS | PASS | FAIL: restricted LLM names | 78.44 |
 | 4 | 83 PASS | 42 PASS | 252 PASS | PASS | FAIL: restricted LLM names | 93.04 |
 | 5 | 83 PASS | 42 PASS | 252 PASS | PASS | FAIL: restricted LLM names | 86.48 |
+| 6 | 83 PASS | 42 PASS | 252 PASS | PASS | FAIL: restricted LLM names | 83.14 |
 
 Task 1's older CLI passed before the name guard was introduced in task 2;
 its separate names/wording scans already failed. That older pass is not a
@@ -166,7 +167,7 @@ was added. The draft DSU article and frozen LLM wording were not edited here.
 Numbers are at the named task commits, not historical source-audit numbers.
 `zero lines` marks a pure insertion/deletion anchor. Every modified/deleted
 line in that task is covered below, including the guard and decision files.
-The removed named-affiliation block is About old lines 198-203; its deletion
+The removed named-affiliation block is About old lines 199-203; its deletion
 has no new content line. Later task 4 adds one head line on Services, so its
 neutralized programme-comparison line is finally 490 rather than 489.
 
@@ -246,6 +247,7 @@ Relative to the Phase 15 handoff `c2c8b9f`; unchanged `llms-full.txt`,
 `sitemap.xml`, robots, page statuses and historical reports are not listed.
 This inventory includes the current release evidence/documentation files.
 
+- `CHANGELOG.md`
 - `about.php`
 - `blog/cost-of-studying-abroad-for-indian-students.php`
 - `blog/documents-needed-to-study-abroad-from-india.php`
@@ -262,6 +264,7 @@ This inventory includes the current release evidence/documentation files.
 - `reports/phase-16-citations.json`
 - `reports/phase-16-release-check.md`
 - `services.php`
+- `tools/README.md`
 - `tools/blocked-names.txt`
 - `tools/check_discovery.py`
 - `tools/check_italy_claims.py`

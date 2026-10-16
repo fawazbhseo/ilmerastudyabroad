@@ -44,3 +44,76 @@ release. No deployment or merge is implied by a repository publication flag.
 Do not edit either LLM file during this phase. Their frozen SHA-256 hashes are
 recorded in `phase14-validation.json`. A separate authorised content and
 publication-status reconciliation is required for those files.
+
+## Phase 16 maintenance note, 2026-10-16
+
+The Phase 14 freeze paragraph above is historical. The only later LLM
+permission is Phase 16 task 1: remove the held APS/DSU article link lines.
+Both files must otherwise equal the Phase 15 handoff c2c8b9f bytes.
+check_discovery.expected_llm_bytes enforces that exact authorized difference;
+llms-full.txt remains unchanged. Do not edit names, wording, dates or other
+LLM text under this limited permission.
+
+Use an authorized PHP/Apache staging copy, not the adapter, for release
+sign-off. Example commands (BASE is your authorized staging HTTPS origin):
+
+```sh
+find . -path './.git' -prune -o -type f -name '*.php' -exec php -l {} \;
+python3 tools/test_discovery.py
+python3 tools/test_citations.py
+python3 tools/test_italy_claims.py
+php tools/check_destination_sources.php
+php tools/check_place_publication.php
+php tools/check_place_contact.php
+python3 tools/check_location_content.py
+python3 tools/check_italy_claims.py --base-url "$BASE"
+python3 tools/published_citations.py --base-url "$BASE" --output /tmp/current-citations.json
+python3 tools/check_discovery.py --base-url "$BASE"
+python3 tools/check_publication_review.py --base-url "$BASE"
+```
+
+The default discovery/publication commands currently FAIL, correctly, because
+llms.txt still contains listed institution names under the edit restriction.
+Both public LLM files also fail the release-wide prohibited-wording scan.
+Do not remove list entries, exempt public LLM files or turn off name
+checks to make the release appear to pass. A diagnostic core run with
+check(..., enforce_names=False) isolates links/sitemap/robots only; it is not
+a release command or a substitute for the strict result.
+
+Maintain tools/blocked-names.txt when a new university alias is found. The
+guard checks visible copy, metadata, alt/link attributes and decoded JSON-LD,
+as well as both public LLM files. Only government citation anchors may retain
+institution names; business affiliation and ordinary public copy may not.
+Six regression cases cover these boundaries and escaped/URL aliases.
+
+published_citations.py inventories all non-social external anchors, schema
+citation fields and both public LLM files, without a destination-host
+allowlist that could hide legacy/unknown-host references. It does not crawl
+external sources or approve new hosts. Its explicit contact/social/owner-bio
+exclusions are documented in the module. Three tests cover unfiltered footer
+hosts, schema-only references and exclusions. Review the entire output.
+For every external citation, perform an authorized GET with raw status and
+redirect headers, require final HTTP 200, inspect the substantive body and
+confirm the retained statement on an approved same-topic source. A successful
+fetch wrapper or a soft-missing HTTP-200 body is not verification. The Phase
+16 fetch interface did not expose raw status on success, so that transport
+requirement remains unverified rather than assumed.
+
+check_italy_claims.py requires the exact owner sentence at 8,000-euro contexts
+plus matching local owner attribution and written-award caution. Four tests
+cover the exact text, missing labels/cautions, common amount variants and
+unrelated programme fees. It is not proof of an award or partner. Keep FAQ
+schema/visible parity and test actual full answer readability at mobile
+widths with JavaScript on/off; fixed FAQ height caps can hide qualifications.
+
+The Phase 16 report records 83 PHP parses, 42 renders and 252 browser cases
+fresh after each task. The local PHP 8.5 WASM adapter and Chromium captured
+HTML/local-image replay do not verify native Apache or external assets.
+Repeat real rewrite/redirect/query/access-control/HTTPS-host/contact checks,
+raw external-source transport checks, and all default acceptance checks
+before staging sign-off. Keep all four held pages excluded. Use the full
+final rendered-main overlap measurement too, not just authored prose.
+
+Reports: reports/phase-16-release-check.md, phase-16-checks.json and
+phase-16-citations.json. Historical reports and blockers remain untouched;
+new findings are appended. No main push, merge or deployment is implied.

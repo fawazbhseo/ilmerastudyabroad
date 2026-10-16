@@ -2,7 +2,7 @@
   "checked_on": "2026-10-16",
   "branch": "arena/48320ee5-ilmerastudyabroad",
   "application_change_checkpoint": "0aa08b6",
-  "latest_task_verified": 5,
+  "latest_task_verified": 6,
   "environment": "PHP 8.5 WASM parser and local HTTP adapter; Chromium replay of freshly captured HTML and local images; not native Apache, external assets aborted",
   "release_pass": false,
   "staging_readiness": "NOT READY for staging acceptance or production sign-off",
@@ -789,6 +789,164 @@
         "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
       },
       "seconds": 86.48,
+      "task_commit": "9a4209d"
+    },
+    "6": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "citation-inventory-tests": {
+        "pass": true,
+        "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      },
+      "italy-claim-tests": {
+        "pass": true,
+        "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "italy-exact-claims": {
+        "pass": true,
+        "output": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6} total 19\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 14.147287,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 83.14,
       "task_commit": "documentation/report checkpoint; see git history"
     }
   }

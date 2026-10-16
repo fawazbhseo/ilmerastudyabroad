@@ -1121,3 +1121,41 @@ Additional isolated publication coverage passed 48 Chromium cases: eight
 pages with two eligible destinations and two eligible locations, at three
 widths with JavaScript on/off, including deduplicated discovery/footer blocks.
 All temporary data was restored outside the production repository.
+
+## Phase 16: release-blocker fixes and final check, 2026-10-16
+
+Six task commits on arena/48320ee5-ilmerastudyabroad; PR 1 remains open.
+No merge, deployment, main push or publication-status change.
+
+1. Removed only the two held APS/DSU article link lines from llms.txt.
+   llms-full.txt is baseline-identical. All other LLM bytes remain restricted.
+2. Neutralized named university references in published About/Services copy
+   and schema; removed the named affiliation block. Added the maintained
+   blocked-name list and strict discovery guard with six regression cases.
+3. Reopened all 25 original distinct official citations, including two legacy
+   tuition-footer sources; the final inventory has 23 distinct direct URLs.
+   Replaced the soft-missing Latvia path, made opened redirects direct and
+   corrected the unsupported Qatar no-steps clause. Active source rows and
+   affected article hashes match. Latvia still has five categories.
+4. Preserved the exact 8,000-euro owner sentence at all 19 published
+   occurrences; added local owner/written-award cautions with FAQ parity.
+   Removed nearby verified-DSU implications and the Contact metadata Italy
+   no-charge-education phrase. Removed open FAQ height caps and added
+   no-JavaScript answer visibility on Services/Contact. Added a maintained
+   exact-claim checker and four regression cases.
+5. Created reports/phase-16-release-check.md, phase-16-checks.json and the
+   citation-open inventory. Reports include every task-2/task-4 changed line
+   range, every Phase 16 changed file and all 37 final sitemap URLs.
+6. Appended this changelog and verification/maintenance decisions, retained
+   all historical blocker text and repeated the complete fresh checks.
+
+Every task: 83 PHP parses, 42 fresh renders and 252 Chromium cases, plus
+fresh discovery/source/place/contact checks. Final authored location overlap
+is 3.311%; fresh full rendered-main maximum is 14.147287%, all 136 pairs.
+Local sitemap/status/canonical/schema/FAQ/internal-link checks pass. The
+strict final discovery/publication commands correctly FAIL on restricted
+llms.txt names; both public LLM files also retain prohibited wording.
+External raw-HTTP-200 evidence and native Apache/deployment behavior remain
+unverified. The final decision is NOT READY for staging acceptance or
+production sign-off. Owner amount/partner and withheld-page blockers remain;
+no machine or source-open pass is a substitute for those approvals.

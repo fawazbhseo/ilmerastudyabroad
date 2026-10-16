@@ -2844,3 +2844,42 @@ visibility fallbacks. Extended the fresh browser assertions to actually open
 and close button FAQs with JavaScript on, check the full answer fits, and
 check full answer readability with JavaScript off. This does not claim live
 external-resource or native Apache verification.
+
+## Phase 16 tasks 5 and 6: final release decision and maintenance
+
+Final decision: NOT READY for staging acceptance or production sign-off.
+The authorized fixes are recorded in reports/phase-16-release-check.md;
+phase-16-checks.json contains fresh per-task evidence and the full sitemap.
+The report lists all changed files and all task-2/task-4 changed line ranges.
+Each of six tasks has fresh full lint/render/browser/discovery checks.
+
+Final counts remain 27 published / 2 draft in the original 29 targets;
+including the additional held APS/DSU articles, 27 published / 4 draft.
+The entire site has 37 indexable published HTML pages, four draft editorial
+pages and a separate noindex 404 utility. All 37 sitemap entries are locally
+200/self-canonical/not-noindex; static/runtime XML matches. No statuses or
+sitemap entries were changed during Phase 16. Nine destination summaries and
+provenance remain byte-preserved. All 17 location guides pass authored and
+fresh full rendered-main 136-pair checks (3.311% and 14.147287% maxima).
+
+Strict discovery and publication CLIs FAIL on restricted llms.txt names;
+prohibited wording remains in both public LLM files. Do not waive this,
+quietly change restricted bytes, prune the blocked-name list to hide it,
+or advertise diagnostic core output as a release pass. Task-1 link removals
+are the only LLM permission currently applied. Six names-guard, three
+citation-inventory and four exact-claim regression cases pass.
+
+All 25 original official citations were freshly opened, with one soft
+missing page repaired and 23 distinct final URLs. Content opens are not raw
+HTTP-200 certificates. Native Apache rewriting/redirects/query preservation,
+private staging access, HTTPS/canonical-host policy and real external asset
+and contact delivery still need authorized staging verification. Noindex is
+not authentication. The owner 8,000-euro and partner claims are conditional
+guidance, not verified awards. Earlier source/owner/status blockers remain
+exactly as recorded; this append does not erase or replace them.
+
+Maintenance: run the default strict commands and unit checks documented in
+tools/README.md, produce the broad citation inventory, and record actual GET
+status/redirect/body evidence before sign-off. Any future LLM reconciliation
+requires permission beyond task-1 link removals and a complete fresh rerun.
+No merge, deploy or main push was authorized or performed.
