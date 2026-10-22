@@ -1321,3 +1321,32 @@ analytics, submissions, outreach, main push, merge or deployment performed.
 All local checks pass; actual live acceptance and owner evidence remain
 separate. Reports: phase-20-release-check.md, phase-20-progress.md,
 phase-20-cycles.md, keyword-map.md, prompt-map.md and strategy-doc-conflicts.md.
+
+
+## Phase 22, 2026-10-22: owner-confirmed service scope
+
+Completed the report-only conflict scan, Services assistance/exclusions and
+matching FAQs, page-level scoped answers with a ten-page checkpoint, factual
+selection checklist and existing founder biography, one canonical entity and
+both generated LLMs, empty-proof owner-input report and bounded verification.
+Added 20 same-source FAQ pairs without changing official facts, original
+summaries/provenance, publication statuses, metadata or held gates. Prompt
+classification remains honestly 6 answered, 15 partly answered and 29 gaps.
+The exact approved bio is in the existing About founder profile and existing
+Person description, not an additional founder or credential. Partner-payment
+copy is a disclosure policy, not a receipt/nonreceipt claim. Detailed fees and
+refund terms are not yet published. All proof slots remain empty.
+
+One full Task 7 cycle passed and stopped early: 91 PHP files, 43 rendered
+routes, 258 browser cases, 205 exact FAQ pairs and 1,230 interactions. Both
+location overlap checks pass. The existing LLM generator preserves country
+copy, published-only rendered directory entries and mandatory Italy/GCC
+cautions. Narrow exact-sentence business-scope exceptions do not release
+held URLs or official information. A legacy priced consultation Offer and
+unprovided business-price claims were removed; none are added.
+
+Final sign-off is in reports/phase-22-release-check.md, with all changed files
+and affected routes. No main push, merge, deployment, form submission,
+external account, ranking or live-delivery proof. Backup-first live, native
+Apache/public HTTP, actual delivery, official-source gaps and missing owner
+proof remain separate. Older blockers are retained, not rewritten.

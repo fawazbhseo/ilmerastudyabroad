@@ -3285,3 +3285,41 @@ unprovided proof slot. Other team roles are not newly assigned from the
 founder's responsibilities. No lender recommendation, account-opening,
 appointment-booking, appeal or outcome commitment is inferred. Final source,
 owner, backup-first direct-live and actual delivery blockers remain open.
+
+
+## Phase 22 final handoff, 2026-10-22
+
+Service assistance, the existing founder biography/responsibility and a
+transparent disclosure policy are now owner-confirmed and published within
+the bounded scope. They do not prove a threshold, processing time, award,
+recognition/safety outcome, lender decision, individual partner agreement,
+payment receipt/nonreceipt, review or registration identifier. Twenty new
+FAQ pairs and updates do not close the official-fact gaps: 6 answered,
+15 partial and 29 gaps remain in the 50-prompt map.
+
+The old general consular-city example is retained under the no-country-fact-
+change constraint with an immediate individual-case verification caution.
+It is not current routing evidence, a booking service or a single-trip
+promise. No new official policy was researched or asserted in this phase.
+The mandatory conditional Italy statement remains owner-attributed, not
+proof of an award amount or partner agreement.
+
+Owner-only missing inputs: detailed fee/inclusion/payment/refund table;
+actual one-sentence partner-payment disclosure; exact testimonial/name/
+permission evidence; registration label/identifier/record; any further
+publishable team responsibilities. All proof slots are still empty. No
+placement estimate is allowed. The approved basic founder description does
+not fabricate a proof URL or populate a proof record. Prohibited price,
+Offer, Review, rating and LocalBusiness schema remain absent.
+
+Existing source/status/proof gates remain active. The canonical entity scope
+exception is limited to the approved description/list; other identity fields
+and protected bytes remain unchanged. LLM exceptions strip only exact
+approved business sentences; appended held rules and every held URL remain
+rejected. Earlier implementation capabilities do not override this policy.
+
+Local checks pass, not live acceptance. Native Apache redirects/headers,
+external raw HTTP, contact delivery, actual performance/ranking, complete
+live backup and all-file/settings restore readiness remain unverified here.
+No direct upload, main push, merge or deployment occurred. Retain all prior
+applicable blockers and require backup-first approval before any live work.
