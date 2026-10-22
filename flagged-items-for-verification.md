@@ -3323,3 +3323,24 @@ external raw HTTP, contact delivery, actual performance/ranking, complete
 live backup and all-file/settings restore readiness remain unverified here.
 No direct upload, main push, merge or deployment occurred. Retain all prior
 applicable blockers and require backup-first approval before any live work.
+
+## Phase 23 conservative decisions, 2026-10-22
+
+Final owner facts A-F supersede Phase 22's policy-only payments and earlier
+feedback statements, without rewriting their historical blockers. Student
+charges and actual partner payments are now publishable; no inclusions,
+payment schedule, refund terms, routing, results or registration is inferred.
+The fee proof slot remains empty. Fee range goes only in visible HTML and
+FAQ answers, including matching FAQPage/explicit LLM Q/A text, never metadata,
+Organization/Person/Service descriptions or price/Offer properties.
+
+All three current About photos/bios are owner-confirmed real and verified.
+Preserve original assets and bio HTML. Fawaz's existing photo is 1,541,656
+bytes, over 300 KB: report it rather than silently replacing/recompressing an
+explicitly protected real photo. Person-specific filenames and viewed
+portraits show no obvious placeholder issue. CSS avatar classes are not
+placeholder filenames. No new portrait, credential or profile URL is added.
+Existing Fawaz bio claims are inventoried for PR re-confirmation; no current
+bio requires an institutional-name exemption. Both Udyam values remain absent:
+publish no business-registration line, number or identifier. Country authority
+registration notices are separate, unchanged destination evidence.
