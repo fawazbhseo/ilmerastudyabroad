@@ -1385,3 +1385,45 @@ All required local checks pass; local PHP WASM/Chromium is not live Apache,
 public HTTP, asset MIME, performance or enquiry-delivery proof. No main push,
 merge, deployment, form submission, outreach, account or server-setting change.
 Backup-first direct-live and all-file/settings restore requirements remain.
+
+## Phase 24: owner-approved registration, finance bio and portrait derivatives, 2026-10-22
+
+Published only the approved ILMERA Study Abroad enterprise name/Udyam number,
+exact About/Contact statement and non-endorsement caveat, plus a canonical
+Organization PropertyValue identifier. The private-source registration gate
+accepts only the exact authorized record; generic proof/source/consent gates
+and the four other empty proof slots remain unchanged. Both LLM documents use
+the existing generator and the same public projection. No certificate file or
+private certificate field was copied. The actual certificate is not available
+here, so its address/private values cannot independently be compared. Existing
+Contact/locality/address data remains unchanged; no mismatch is asserted.
+
+Replaced only Zaheer's placeholder variants with the approved CFO/company-
+finance-function sentence in About, Home, team/Person data, both LLM documents
+and the About FAQ. No optional background was supplied. Jabir/Fawaz biography
+variants, title labels, alt text and all original portrait bytes remain exact.
+
+Added real 384-square and 192-square WebP whole-frame derivatives, quality 82,
+19,056 and 7,892 bytes. The original 1,541,656-byte PNG under its WebP name
+is preserved at the same path. About/Home src/srcset and Fawaz Person/LLM
+image URLs use the derivatives. Original blog author portraits and all social
+metadata remain unchanged; no original-portrait og:image exists in 43 renders.
+A reproduction/format/size tool and image evidence accompany the assets.
+
+Owner inputs now omit supplied registration values, retaining fee inclusions,
+schedule/refund terms and future genuine feedback. Private activity-description
+CA/portal follow-up, optional Zaheer background and accuracy/currentness of
+existing Fawaz certifications/diploma are documented for the owner. Internal
+report/tool folders have Apache deny rules, mirrored by the local adapter;
+native enforcement still needs verification. No published/held page status or
+root rewrite bytes changed. Destination facts, summaries/provenance and older
+source/live blockers remain intact. No held page is released or discovered.
+
+One bounded executable local cycle passed, 514.09 seconds, then stopped early.
+Task-level full suites and final sign-off are recorded in phase-24-checks.json,
+phase-24-progress.md, phase-24-cycles.md and phase-24-release-check.md. Actual
+baseline comparison found 38 changed published renders and five byte-identical
+held/utility renders. Local PHP WASM/Chromium is not native Apache, public
+HTTP/MIME, access-control, performance, backup/restore or contact-delivery proof.
+Live deployment is NOT CLEARED. No main push, merge, deployment, form
+submission, account, outreach or live server-setting change was performed.
