@@ -20,7 +20,7 @@ country facts, statuses, summaries/provenance and source gates stay intact.
 | --- | --- | --- |
 | 1. Report-only scan and team inventory | done | Ten finding groups, 38 published routes, three complete team inventories; baseline full suite PASS, 91 PHP/43 renders/258 browser |
 | 2. Actual student-charge and partner-payment disclosure | done | Four shared sections/eight FAQs; actual payment facts replace old policy-only text; About/Terms stale amounts wording corrected; full checks PASS; independent exact-section/FAQ-only fee/photo-bio-proof review PASS |
-| 3. Preserve verified team and canonical Person data | not started | Existing files/bios only; title/alt requirements |
+| 3. Preserve verified team and canonical Person data | done | Original bio HTML/assets preserved; full titles/alts, three canonical Persons and real image URLs; browser verified 18 photo cases; full suite PASS |
 | 4. Registration gate | not started | Both values absent, publish nothing |
 | 5. Discovery and entity consistency | not started | Existing generator, published URLs only |
 | 6. Remaining owner inputs | not started | No made-up terms, proof or registration |
@@ -33,3 +33,5 @@ recorded. Task-level results are separate from the bounded Task 7 cycles.
 No main push, merge, deployment, form submission or external account.
 
 Task 2 directly affects eight HTML routes plus both LLMs, below a ten-page HTML batch. Shared presentation changes are atomic component updates, not individual page rewrites. Bios and every photo byte remain unchanged.
+
+Task 3 uses one shared entity/image component for the 38 generated outputs, not 38 individually rewritten pages. About/Home title labels and alt text changed; all photo hashes and exact existing About bio HTML are unchanged. No joint-founder wording edit or bio-name exemption was needed.

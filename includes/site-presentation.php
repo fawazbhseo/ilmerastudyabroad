@@ -13,7 +13,7 @@ function ilmera_presentation_graph($node, $entry)
     if (!is_array($node)) return $node;
     $type = $node['@type'] ?? '';
     if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#organization' && $type === 'Organization') return ['@id'=>'https://ilmerastudyabroad.com/#organization'];
-    if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#jabir' && $type === 'Person') return ['@id'=>'https://ilmerastudyabroad.com/#jabir'];
+    if ($type === 'Person' && in_array($node['@id'] ?? '', array_column(ilmera_entity_team(), '@id'), true)) return ['@id'=>$node['@id']];
     $scopeService = $type === 'Service' && strpos($node['@id'] ?? '', 'https://ilmerastudyabroad.com/services#service-') === 0;
     if (!$scopeService && in_array($type, ['WebPage', 'Article', 'BlogPosting', 'Service'], true)) {
         $node['description'] = $entry['description'];
@@ -71,6 +71,15 @@ function ilmera_present_page($html)
         if (preg_match('~(?:name|property)="(?:og:title|twitter:title)"~', $tag)) {
             return preg_replace('~content="[^"]*"~', 'content="' . $title . '"', $tag);
         }
+        // Preserve each original real portrait; standardise its alt, not its pixels.
+        if (preg_match('~\bsrc="([^"]+)"~', $tag, $src)) {
+            $imagePath = parse_url(html_entity_decode($src[1], ENT_QUOTES | ENT_HTML5, 'UTF-8'), PHP_URL_PATH);
+            foreach (ilmera_entity_team() as $member) {
+                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH)) continue;
+                $alt = ilmera_presentation_escape($member['name'].', '.$member['jobTitle'].', ILMERA Study Abroad');
+                $tag = preg_replace('~\balt="[^"]*"~', 'alt="'.$alt.'"', $tag);
+            }
+        }
         return $tag;
     }, $html);
     $html = preg_replace('~(<h1\b[^>]*>).*?(</h1>)~s', '$1' . ilmera_presentation_escape($entry['h1']) . '$2', $html, 1);
@@ -122,6 +131,15 @@ function ilmera_present_page($html)
         $tag = $match[0];
         $loading = $imageIndex++ === 0 ? 'eager' : 'lazy';
         if (!preg_match('~\bloading=~i', $tag)) $tag = preg_replace('~/?>(\s*)$~', ' loading="'.$loading.'"/>$1', $tag);
+        // Preserve each original real portrait; standardise its alt, not its pixels.
+        if (preg_match('~\bsrc="([^"]+)"~', $tag, $src)) {
+            $imagePath = parse_url(html_entity_decode($src[1], ENT_QUOTES | ENT_HTML5, 'UTF-8'), PHP_URL_PATH);
+            foreach (ilmera_entity_team() as $member) {
+                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH)) continue;
+                $alt = ilmera_presentation_escape($member['name'].', '.$member['jobTitle'].', ILMERA Study Abroad');
+                $tag = preg_replace('~\balt="[^"]*"~', 'alt="'.$alt.'"', $tag);
+            }
+        }
         return $tag;
     }, $html);
     return $html;

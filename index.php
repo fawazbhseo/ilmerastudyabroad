@@ -627,7 +627,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     </div>
     <div class="testi-grid">
       <article class="testi-card reveal-r" itemscope itemtype="https://schema.org/Person">
-        <picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder of ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
+        <picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
         <div class="testi-name" itemprop="name"><a href="https://www.linkedin.com/in/jabir-kj-920300428" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.5);" itemprop="url" target="_blank" rel="noopener">Jabir KJ</a></div>
         <div class="testi-dest" itemprop="jobTitle">Founder</div>
         <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p>
@@ -636,18 +636,18 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         </a>
       </article>
       <article class="testi-card reveal-r" itemscope itemtype="https://schema.org/Person">
-        <img src="/assets/images/fawazbh.webp" alt="Fawaz BH, CMO at ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/>
+        <img src="/assets/images/fawazbh.webp" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/>
         <div class="testi-name" itemprop="name"><a href="https://fawazbhseo.in" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.5);" itemprop="url">Fawaz BH</a></div>
-        <div class="testi-dest" itemprop="jobTitle">CMO</div>
+        <div class="testi-dest" itemprop="jobTitle">Chief Marketing Officer</div>
         <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Drives ILMERA's digital presence and helps students find clear, honest information about their study-abroad options.</p>
         <a href="https://www.linkedin.com/in/fawazbh" target="_blank" rel="noopener" aria-label="Fawaz BH on LinkedIn" style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;border:1px solid rgba(201,168,76,0.35);margin-top:20px;transition:border-color .3s,background .3s;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z" fill="#C9A84C"/></svg>
         </a>
       </article>
       <article class="testi-card reveal-r" itemscope itemtype="https://schema.org/Person">
-        <picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, CFO at ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
+        <picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
         <div class="testi-name" itemprop="name">Zaheer KJ</div>
-        <div class="testi-dest" itemprop="jobTitle">CFO</div>
+        <div class="testi-dest" itemprop="jobTitle">Chief Financial Officer</div>
         <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">CFO at ILMERA Study Abroad. Ask which person is responsible for any further agreed tasks.</p>
       </article>
     </div>

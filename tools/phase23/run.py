@@ -63,7 +63,7 @@ for i,(path,info) in enumerate(routes(ROOT).items()):
 checks['render schema and strict policy']={'status':'PASS','routes':len(manifest),'faq_pairs':faq_count,'faq_exact_visible_schema_parity':True}
 print('PASS fresh renders/schema/wording',len(manifest),flush=True)
 run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
-run('browser',['node','tools/phase20/browser.cjs',str(a.evidence)])
+run('browser',['node','tools/phase23/browser.cjs',str(a.evidence)])
 # Full rendered main overlap, matching the established five-token coverage method.
 from check_location_content import inspect
 raw=subprocess.check_output(['php','-r','$o=[];foreach(glob("places/*.php") as $f){$d=include $f;$o[$d["slug"]]=$d;}echo json_encode($o);'],cwd=ROOT)

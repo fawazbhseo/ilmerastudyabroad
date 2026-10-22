@@ -645,12 +645,12 @@ img{max-width:100%;height:auto;}
     <div class="team-hdr">
       <span class="sec-label">The People Behind ILMERA</span>
       <h2 class="sec-h2 dk">Meet the ILMERA Study Abroad Team</h2>
-      <p style="max-width:720px;margin:18px auto 0;font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;text-align:center;">ILMERA Study Abroad is run by three named, contactable people rather than an anonymous call centre. Every student is assigned to one of them directly.</p>
+      <p style="max-width:720px;margin:18px auto 0;font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;text-align:center;">ILMERA Study Abroad is run by three named, contactable people rather than an anonymous call centre. Families can ask which person is responsible for the tasks in their written scope.</p>
 
     </div>
     <div class="team-grid">
     <article class="team-card">
-        <div class="team-avatar"><picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder of ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
+        <div class="team-avatar"><picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         
 
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Jabir KJ</h3>
@@ -661,17 +661,17 @@ img{max-width:100%;height:auto;}
         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
             <article class="team-card">
-        <div class="team-avatar"><img src="/assets/images/fawazbh.webp" alt="Fawaz BH, CMO at ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
+        <div class="team-avatar"><img src="/assets/images/fawazbh.webp" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
-        <div class="team-role">CMO</div>
+        <div class="team-role">Chief Marketing Officer</div>
         <p class="team-bio"><strong>Fawaz BH is CMO at ILMERA Study Abroad</strong> and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);text-decoration:underline;">fawazbhseo.in</a>, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.</p>
 
         <a href="https://linkedin.com/in/fawazbh" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Fawaz BH on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
             <article class="team-card">
-        <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, CFO at ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
+        <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
-        <div class="team-role">CFO</div>
+        <div class="team-role">Chief Financial Officer</div>
         <p class="team-bio">Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.</p>
       </article>
 

@@ -31,11 +31,15 @@ function ilmera_entity_visible()
     return $html . '</ul><p>' . ilmera_presentation_escape($data['countries_note']) . '</p></section>';
 }
 
+/** Existing verified team, one canonical Person per member. */
+function ilmera_entity_team()
+{
+    return json_decode(file_get_contents(dirname(__DIR__) . '/data/team.json'), true)['members'];
+}
 function ilmera_entity_markup($path)
 {
-    $founder = ['@type'=>'Person','@id'=>'https://ilmerastudyabroad.com/#jabir','name'=>'Jabir KJ','jobTitle'=>'Founder','worksFor'=>['@id'=>'https://ilmerastudyabroad.com/#organization']];
-    $founder['description'] = ilmera_scope_data()['founder_bio'];
+    $team = ilmera_entity_team();
     $proof = ilmera_proof_blocks($path);
-    if ($proof['founder_description']) $founder['description'] = $proof['founder_description'];
-    return '<script type="application/ld+json">' . json_encode(['@context'=>'https://schema.org','@graph'=>[ilmera_entity_graph($path), $founder]], JSON_UNESCAPED_SLASHES|JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT) . '</script>';
+    if ($proof['founder_description']) $team[0]['description'] = $proof['founder_description'];
+    return '<script type="application/ld+json">' . json_encode(['@context'=>'https://schema.org','@graph'=>array_merge([ilmera_entity_graph($path)], $team)], JSON_UNESCAPED_SLASHES|JSON_HEX_TAG|JSON_HEX_AMP|JSON_HEX_APOS|JSON_HEX_QUOT) . '</script>';
 }
