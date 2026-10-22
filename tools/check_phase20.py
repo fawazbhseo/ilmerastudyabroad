@@ -4,7 +4,8 @@ import argparse,collections,html,json,pathlib,re,subprocess
 from check_discovery import routes,fetch
 
 def validate(root,base=None):
- d=json.loads((root/'reports/phase-20-map.json').read_text());source=json.loads((root/'reports/strategy-doc-research.json').read_text());seo=json.loads((root/'data/seo-map.json').read_text())
+ map_path=root/('reports/phase-22-map.json' if (root/'reports/phase-22-map.json').exists() else 'reports/phase-20-map.json')
+ d=json.loads(map_path.read_text());source=json.loads((root/'reports/strategy-doc-research.json').read_text());seo=json.loads((root/'data/seo-map.json').read_text())
  assert len(source['keywords'])==17 and len(source['prompts'])==50
  assert all(k['volume'] is None and k['difficulty'] is None for k in source['keywords'])
  published={p for p,i in routes(root).items() if i['status']=='published' and p!='/404'}

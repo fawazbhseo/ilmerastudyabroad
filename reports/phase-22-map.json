@@ -1,0 +1,1401 @@
+{
+  "document_id": "1Cmqec7D4msWmpPo5gsndFYa4KvckeTE6XsZXLduJNyM",
+  "baseline": "95ab613",
+  "keyword_fragments": 17,
+  "keywords": [
+    {
+      "page": "/about",
+      "primary": "about ILMERA Study Abroad",
+      "secondary": [
+        "online counselling services",
+        "ILMERA team"
+      ],
+      "phase19_primary": "about ILMERA Study Abroad",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/all-pages",
+      "primary": "ILMERA published page directory",
+      "secondary": [
+        "destination guides",
+        "location guides"
+      ],
+      "phase19_primary": "ILMERA published page directory",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "primary": "cost of studying abroad for Indian students",
+      "secondary": [
+        "study abroad budget planning",
+        "tuition and living costs"
+      ],
+      "phase19_primary": "cost of studying abroad for Indian students",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "3 / relevant student-question group; 4 / sourced planning needs",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "primary": "documents needed to study abroad from India",
+      "secondary": [
+        "admission document planning",
+        "visa document evidence"
+      ],
+      "phase19_primary": "documents needed to study abroad from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "3 / relevant student-question group; 4 / sourced planning needs",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/",
+      "primary": "ILMERA study abroad blog",
+      "secondary": [
+        "study abroad planning guides",
+        "Indian student guidance"
+      ],
+      "phase19_primary": "ILMERA study abroad blog",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "primary": "scholarships for Indian students abroad",
+      "secondary": [
+        "scholarship eligibility evidence",
+        "written funding terms"
+      ],
+      "phase19_primary": "scholarships for Indian students abroad",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "3 / relevant student-question group; 4 / sourced planning needs",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/study-abroad-counselling-from-coorg",
+      "primary": "online study abroad counselling for Coorg students",
+      "secondary": [
+        "Coorg online application guidance",
+        "counselling by video call"
+      ],
+      "phase19_primary": "online study abroad counselling for Coorg students",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "3 / relevant student-question group; 4 / sourced planning needs",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/study-abroad-with-academic-backlogs",
+      "primary": "study abroad with academic backlogs",
+      "secondary": [
+        "backlog application planning",
+        "academic record explanations"
+      ],
+      "phase19_primary": "study abroad with academic backlogs",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "3 / relevant student-question group; 4 / sourced planning needs",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/contact",
+      "primary": "contact ILMERA Study Abroad",
+      "secondary": [
+        "online counselling enquiry",
+        "study abroad application discussion"
+      ],
+      "phase19_primary": "contact ILMERA Study Abroad",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/",
+      "primary": "ILMERA Study Abroad",
+      "secondary": [
+        "online study abroad counselling",
+        "study abroad application guidance"
+      ],
+      "phase19_primary": "ILMERA Study Abroad",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/privacy-policy",
+      "primary": "ILMERA privacy policy",
+      "secondary": [
+        "enquiry data use",
+        "contact information privacy"
+      ],
+      "phase19_primary": "ILMERA privacy policy",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/services",
+      "primary": "ILMERA study abroad services",
+      "secondary": [
+        "admissions guidance",
+        "visa document guidance",
+        "scholarship planning"
+      ],
+      "phase19_primary": "ILMERA study abroad services",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-consultants-in-karnataka",
+      "primary": "study abroad consultants in Karnataka",
+      "secondary": [
+        "overseas education consultants in Karnataka",
+        "online counselling for Karnataka students"
+      ],
+      "phase19_primary": "study abroad consultants in Karnataka",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-consultants-in-kodagu",
+      "primary": "study abroad consultancy in Kodagu",
+      "secondary": [
+        "online counselling for Kodagu students",
+        "prepare separate concerns before the joint conversation"
+      ],
+      "phase19_primary": "study abroad consultancy in Kodagu",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-belagavi",
+      "primary": "study abroad consultancy in Belagavi",
+      "secondary": [
+        "online counselling for Belagavi students",
+        "describe the task before choosing the support"
+      ],
+      "phase19_primary": "study abroad consultancy in Belagavi",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-bengaluru",
+      "primary": "study abroad consultancy in Bengaluru",
+      "secondary": [
+        "online counselling for Bengaluru students",
+        "translate your interest into an academic question"
+      ],
+      "phase19_primary": "study abroad consultancy in Bengaluru",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-chikkamagaluru",
+      "primary": "study abroad consultancy in Chikkamagaluru",
+      "secondary": [
+        "online counselling for Chikkamagaluru students",
+        "find the requirement that belongs to your course"
+      ],
+      "phase19_primary": "study abroad consultancy in Chikkamagaluru",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-gonikoppal",
+      "primary": "study abroad consultancy in Gonikoppal",
+      "secondary": [
+        "online counselling for Gonikoppal students",
+        "map the request before collecting records"
+      ],
+      "phase19_primary": "study abroad consultancy in Gonikoppal",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-hassan",
+      "primary": "study abroad consultancy in Hassan",
+      "secondary": [
+        "online counselling for Hassan students",
+        "separate the known price from the planning estimate"
+      ],
+      "phase19_primary": "study abroad consultancy in Hassan",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-kushalnagar",
+      "primary": "study abroad consultancy in Kushalnagar",
+      "secondary": [
+        "online counselling for Kushalnagar students",
+        "turn the offer into a list of obligations"
+      ],
+      "phase19_primary": "study abroad consultancy in Kushalnagar",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-madikeri",
+      "primary": "study abroad consultancy in Madikeri",
+      "secondary": [
+        "online counselling for Madikeri students",
+        "start with dates rather than a persuasive story"
+      ],
+      "phase19_primary": "study abroad consultancy in Madikeri",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-mangaluru",
+      "primary": "study abroad consultancy in Mangaluru",
+      "secondary": [
+        "online counselling for Mangaluru students",
+        "understand the proposed support before describing it"
+      ],
+      "phase19_primary": "study abroad consultancy in Mangaluru",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-mysuru",
+      "primary": "study abroad consultancy in Mysuru",
+      "secondary": [
+        "online counselling for Mysuru students",
+        "read the record as the recipient will see it"
+      ],
+      "phase19_primary": "study abroad consultancy in Mysuru",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-ponnampet",
+      "primary": "study abroad consultancy in Ponnampet",
+      "secondary": [
+        "online counselling for Ponnampet students",
+        "collect evidence before drafting the introduction"
+      ],
+      "phase19_primary": "study abroad consultancy in Ponnampet",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-shivamogga",
+      "primary": "study abroad consultancy in Shivamogga",
+      "secondary": [
+        "online counselling for Shivamogga students",
+        "identify whose deadline you are recording"
+      ],
+      "phase19_primary": "study abroad consultancy in Shivamogga",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-siddapura",
+      "primary": "study abroad consultancy in Siddapura",
+      "secondary": [
+        "online counselling for Siddapura students",
+        "ask why a record is needed before sending it"
+      ],
+      "phase19_primary": "study abroad consultancy in Siddapura",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-somwarpet",
+      "primary": "study abroad consultancy in Somwarpet",
+      "secondary": [
+        "online counselling for Somwarpet students",
+        "describe the record using its actual status"
+      ],
+      "phase19_primary": "study abroad consultancy in Somwarpet",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-udupi-manipal",
+      "primary": "study abroad consultancy in Udupi and Manipal",
+      "secondary": [
+        "online counselling for Udupi and Manipal students",
+        "read the structure as a set of commitments"
+      ],
+      "phase19_primary": "study abroad consultancy in Udupi and Manipal",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-abroad-counselling-virajpet",
+      "primary": "study abroad consultancy in Virajpet",
+      "secondary": [
+        "online counselling for Virajpet students",
+        "review the completed form, not only the document folder"
+      ],
+      "phase19_primary": "study abroad consultancy in Virajpet",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "4 / regional remote hubs; 5A / priority 2 or 6; 1B where the location is explicitly listed",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-gcc",
+      "primary": "study in GCC countries from India",
+      "secondary": [
+        "study in GCC countries from Karnataka",
+        "GCC countries study application planning"
+      ],
+      "phase19_primary": "study in GCC countries from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-germany",
+      "primary": "study in Germany from India",
+      "secondary": [
+        "study in Germany from Karnataka",
+        "Germany study application planning"
+      ],
+      "phase19_primary": "study in Germany from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-italy",
+      "primary": "study in Italy from India",
+      "secondary": [
+        "study in Italy from Karnataka",
+        "Italy study application planning"
+      ],
+      "phase19_primary": "study in Italy from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-latvia",
+      "primary": "study in Latvia from India",
+      "secondary": [
+        "study in Latvia from Karnataka",
+        "Latvia study application planning"
+      ],
+      "phase19_primary": "study in Latvia from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-lithuania",
+      "primary": "study in Lithuania from India",
+      "secondary": [
+        "study in Lithuania from Karnataka",
+        "Lithuania study application planning"
+      ],
+      "phase19_primary": "study in Lithuania from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-slovakia",
+      "primary": "study in Slovakia from India",
+      "secondary": [
+        "study in Slovakia from Karnataka",
+        "Slovakia study application planning"
+      ],
+      "phase19_primary": "study in Slovakia from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/study-in-uk",
+      "primary": "study in UK from India",
+      "secondary": [
+        "study in UK from Karnataka",
+        "UK study application planning"
+      ],
+      "phase19_primary": "study in UK from India",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "5A / priority 7; section 3 country, cost, visa and language intents",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/terms",
+      "primary": "ILMERA terms of use",
+      "secondary": [
+        "counselling service terms",
+        "application responsibilities"
+      ],
+      "phase19_primary": "ILMERA terms of use",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "Existing navigation/legal routing label retained; 2B entity consistency and 5A / priority 1 where applicable",
+      "priority": "Navigation and policy support",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "primary": "how to choose a study abroad consultant in Karnataka",
+      "secondary": [
+        "written counselling scope and fees",
+        "consultant accountability checks",
+        "counselling privacy and refund terms"
+      ],
+      "phase19_primary": "how to choose a study abroad consultant in Karnataka",
+      "changed": false,
+      "reason": "Retained: existing target fits the actual page and document intent; no stronger supported replacement. Navigation labels are not invented document keywords.",
+      "document_basis": "2B / items 2 and 4; 3 / prompts 43-50; safe substitute for 5A / priority 3",
+      "priority": "Direct decision/support intent",
+      "volume": null,
+      "difficulty": null
+    }
+  ],
+  "prompts": [
+    {
+      "id": 1,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Which country is best for MS in Mechanical Engineering with [prohibited tuition wording redacted] public universities for a [academic issuer redacted] graduate?",
+      "policy_redacted": true,
+      "page": "/study-in-germany",
+      "heading": "What academic and language checks does ILMERA help with for Germany?",
+      "status": "partly answered",
+      "basis": "Published DAAD-backed tuition conditions, not Mechanical Engineering selection. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current course-specific eligibility for the named degree background, subject prerequisites and a supported country comparison.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 2,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Germany vs Italy for Indian students: which has easier part-time jobs and PR pathways in 2026?",
+      "policy_redacted": false,
+      "page": "/study-in-germany",
+      "heading": "Does ILMERA advise on Germany and Italy work or stay pathways?",
+      "status": "partly answered",
+      "basis": "Limited work permission is explained; no comparative employment claim. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current Italy work conditions and comparable post-study residence rules; no evidence of easier jobs or permanent residence outcomes.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 3,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Best European countries to study Bachelor's after 2nd PUC in Karnataka with 55% marks.",
+      "policy_redacted": false,
+      "page": "/blog/study-abroad-with-academic-backlogs",
+      "heading": "What academic review can ILMERA provide for marks or backlogs?",
+      "status": "gap",
+      "basis": "The existing guide disclaims individual admission eligibility. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Programme-specific Bachelor admission rules for a Karnataka 2nd PUC applicant with 55 percent and recognition of that qualification.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 4,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Can I get admission in UK or Europe if I have 6 backlogs in [academic issuer redacted] engineering?",
+      "policy_redacted": true,
+      "page": "/blog/study-abroad-with-academic-backlogs",
+      "heading": "What academic review can ILMERA provide for marks or backlogs?",
+      "status": "partly answered",
+      "basis": "A complete academic record and individual shortlisting discussion are covered. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current programme-level UK/Europe acceptance rules for six active or cleared backlogs and the particular qualification.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 5,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Is Russia safe and MCI/NMC approved for MBBS or Bachelor's for students from Karnataka?",
+      "policy_redacted": false,
+      "page": "/services",
+      "heading": "Our Core Services",
+      "status": "gap",
+      "basis": "Review location only; no official Russia safety or medical recognition answer.",
+      "missing_fact": "Current official Russia student safety advice and the responsible Indian medical recognition/licensing requirements for the actual programme.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer"
+    },
+    {
+      "id": 6,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Which Schengen countries accept students with a 3-year B.Com or BCA degree from [academic issuers redacted]?",
+      "policy_redacted": true,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "Review location only, not a three-year-degree equivalence decision. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Programme-specific recognition and subject/credit requirements for the actual three-year B.Com/BCA qualification in each proposed Schengen destination.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 7,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Best study abroad destinations in GCC (Dubai, Qatar, Oman) with [prohibited cost wording redacted] job opportunities for Karnataka students.",
+      "policy_redacted": true,
+      "page": "/study-in-gcc",
+      "heading": "Does ILMERA offer advice on student work or staying in the GCC?",
+      "status": "partly answered",
+      "basis": "The UAE conditional permit example is supported; Saudi rules differ. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current Qatar and Oman student-work and tax rules, qualification-specific job evidence and an objective comparison. Registration notices are not work permission.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 8,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Czech Republic vs Lithuania vs Latvia: which country has the highest visa approval rate and lowest living cost for Indian students?",
+      "policy_redacted": false,
+      "page": "/study-in-lithuania",
+      "heading": "What does ILMERA help compare for Lithuania study plans?",
+      "status": "partly answered",
+      "basis": "The retained country profile supplies scoped Lithuania living-cost estimates. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Comparable current living costs across all three requested countries and reliable cohort-specific visa approval data. Held destination remains held.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 9,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Is a 1-year UK Master's still worth it after the January 2027 Graduate Visa reduction to 18 months?",
+      "policy_redacted": false,
+      "page": "/study-in-uk",
+      "heading": "How does ILMERA help compare a UK course and check admission evidence?",
+      "status": "partly answered",
+      "basis": "New direct FAQ reuses: Existing homepage UK language FAQ and its GOV.UK Graduate visa citation, reopened on 2026-10-16; cost article individual-budget guidance. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Programme-specific total cost, graduate outcomes and the family's objectives; policy dates alone cannot establish financial or personal value.",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 10,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Total cost of studying in Germany from Karnataka including blocked account, APS fee, and flight tickets in INR.",
+      "policy_redacted": false,
+      "page": "/study-in-germany",
+      "heading": "What help does ILMERA offer with Germany budgets, bank information and APS?",
+      "status": "partly answered",
+      "basis": "Tuition exceptions and semester contribution are sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current blocked-account requirement, APS charge, applicant-specific travel costs and dated currency conversion for a complete INR budget.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 11,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "How to get the DSU scholarship in Italy for [prohibited tuition wording redacted] and annual stipend if my family income in Karnataka is below 5 lakhs?",
+      "policy_redacted": true,
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "heading": "How does ILMERA help with scholarships and supporting documents?",
+      "status": "gap",
+      "basis": "An overview is not a DSU award procedure or income rule. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current regional DSU call, income/assets eligibility, accepted evidence, deadlines and award/payment terms for the applicant.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 12,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Which documents from Karnataka Nadakacheri (Tahsildar office) are needed for Italy ISEE Parificato scholarship calculation?",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No Karnataka revenue-document workflow is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Official Karnataka issuing procedures and the selected regional ISEE/DSU authority's current accepted income, asset and family evidence requirements.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 13,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Cheapest countries in Europe to study abroad under 5 lakh rupees total budget without scholarship.",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "partly answered",
+      "basis": "The article distinguishes tuition, separate costs and individual estimates. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "A fully sourced, programme/city-specific total budget within the requested ceiling, including all compulsory and travel costs without assuming an award.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 14,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Does Slovakia really offer [prohibited tuition wording redacted] in public universities for international students, and what is the catch?",
+      "policy_redacted": true,
+      "page": "/study-in-slovakia",
+      "heading": "How does language affect tuition in Slovakia?",
+      "status": "answered",
+      "basis": "The answer distinguishes Slovak-language standard-duration public study, chargeable English study and separate expenses.",
+      "missing_fact": "",
+      "placement": "Existing answer"
+    },
+    {
+      "id": 15,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "How much money do parents need to show in a bank account for a Lithuania or Latvia student visa?",
+      "policy_redacted": false,
+      "page": "/study-in-lithuania",
+      "heading": "What does ILMERA help compare for Lithuania study plans?",
+      "status": "gap",
+      "basis": "Living-cost estimates are not an immigration proof-of-funds balance. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official Lithuania and Latvia maintenance-fund thresholds, accepted evidence, duration and exceptions for the applicant's route.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 16,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Are there any Karnataka government scholarships (like Prabuddha Overseas Scholarship) for students going to Europe or UK?",
+      "policy_redacted": false,
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "heading": "How does ILMERA help with scholarships and supporting documents?",
+      "status": "gap",
+      "basis": "The published funding examples do not establish a Karnataka government scheme. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current Karnataka scheme notice, eligibility, covered destinations/courses, application dates and official application process.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 17,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Monthly living expenses in Rome vs Milan for an Indian student receiving the regional DSU stipend.",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "The article does not establish city living costs or stipend payment. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Comparable current Rome/Milan student budgets and the actual regional DSU award, amount, payment schedule and covered costs.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 18,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Hidden costs of studying abroad that [prohibited cost wording redacted] consultancies in Bangalore do not tell parents upfront.",
+      "policy_redacted": true,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "Which costs should parents separate before agreeing to counselling?",
+      "status": "partly answered",
+      "basis": "New direct FAQ reuses: Cost article; selection guide sections 1 and 5 and existing fee FAQ.",
+      "missing_fact": "Competitor-specific verified charges and evidence for the claimed concealment; a complete owner-approved ILMERA fee schedule is also absent.",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+    },
+    {
+      "id": 19,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Do I have to go to Bangalore or Chennai VFS for a German, Italian, or Czech Republic student visa if I live in Coorg or Mangalore?",
+      "policy_redacted": false,
+      "page": "/study-in-italy",
+      "heading": "What help does ILMERA offer with visa appointments and refusal questions?",
+      "status": "partly answered",
+      "basis": "The retained Italy procedure names appointment centres, not universal jurisdiction. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current mission jurisdiction and application-centre routing for each German, Italian and Czech route and applicant residence; no single-trip guarantee.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 20,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How long does APS certificate verification take in 2026 for Karnataka State Board (2nd PUC) and [academic issuer redacted] degree certificates?",
+      "policy_redacted": true,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What APS, finance and refusal-related guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No APS timeline is established; the held APS article remains excluded. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official APS processing guidance and the relevant certificate/issuer-specific procedure and actual processing evidence.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 21,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How to get MEA Apostille in Karnataka on 2nd PUC marksheet and birth certificate for Italy DSU and CIMEA verification?",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No Karnataka apostille or Italy scholarship legalisation workflow is established. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Official issuing, authentication, apostille, translation and acceptance instructions for each requested Karnataka document and Italian authority.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 22,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Why do Italy student visas get rejected at the Mumbai or Bengaluru consulate, and how to avoid financial document rejection?",
+      "policy_redacted": false,
+      "page": "/study-in-italy",
+      "heading": "What help does ILMERA offer with visa appointments and refusal questions?",
+      "status": "gap",
+      "basis": "A complete/current checklist is advised, but specific financial refusal reasons are not established. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Official refusal grounds and current applicable financial-evidence conditions; no promise that preparation prevents refusal.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 23,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "What is the minimum bank balance maturation period required for a UK student visa in 2026?",
+      "policy_redacted": false,
+      "page": "/study-in-uk",
+      "heading": "How long must the money be in the account for a UK Student visa?",
+      "status": "answered",
+      "basis": "Sourced FAQ gives 28 consecutive days, evidence within 31 days, and separate loan/sponsorship instructions.",
+      "missing_fact": "",
+      "placement": "Existing answer"
+    },
+    {
+      "id": 24,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Can I reapply for a German or Lithuanian student visa after a visa refusal from another consultancy?",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What APS, finance and refusal-related guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No country-specific refusal/reapplication rules are sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current German and Lithuanian reapplication rules, disclosure requirements and the actual refusal reasons/case history.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 25,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Checklist of documents required from a coffee estate or agricultural family in Kodagu/Chikkamagaluru to prove family income for European visas.",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "Generic financial evidence is not an agricultural-family checklist. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "The accepting mission/lender's official accepted agricultural-income/asset evidence and Karnataka document-issuing rules for the case.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 26,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How to book an appointment at VFS Global Bengaluru when slots for Italy or Germany national D-visa are showing unavailable?",
+      "policy_redacted": false,
+      "page": "/study-in-italy",
+      "heading": "What help does ILMERA offer with visa appointments and refusal questions?",
+      "status": "partly answered",
+      "basis": "Prior appointment is required in the retained Italy procedure. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official unavailable-slot instructions for both destinations and real appointment availability; no bypass, booking success or guaranteed slot asserted.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 27,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Which German public universities accept Medium of Instruction (MOI) certificate from [academic issuers redacted] instead of IELTS?",
+      "policy_redacted": true,
+      "page": "/study-in-germany",
+      "heading": "What academic and language checks does ILMERA help with for Germany?",
+      "status": "gap",
+      "basis": "No programme-specific MOI waiver list is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current programme language-evidence rules for the exact prior qualification; publishing institutional names remains disallowed.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 28,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Can I study in Italy with an English-taught degree and get the DSU scholarship without taking IELTS?",
+      "policy_redacted": false,
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "heading": "How does ILMERA help with scholarships and supporting documents?",
+      "status": "gap",
+      "basis": "The site does not establish combined admission, language waiver and DSU entitlement. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current programme English evidence and regional DSU admission/eligibility requirements, including any language-test condition.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 29,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "List of universities in Lithuania, Latvia, and Slovakia that accept Indian students without IELTS in 2026.",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "A named-institution list cannot be supplied under the rules. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current programme-specific language evidence in each requested country; use an unnamed conditional explanation only after verification.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 30,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Is Duolingo or PTE accepted for UK student visas in 2026, or is IELTS UKVI mandatory?",
+      "policy_redacted": false,
+      "page": "/study-in-uk",
+      "heading": "How does ILMERA help compare a UK course and check admission evidence?",
+      "status": "partly answered",
+      "basis": "The retained GOV.UK example explains qualifying evidence and degree-level provider assessment. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current approved test/provider/product conditions for the named tests and the applicant's sponsor/route; no blanket IELTS requirement or waiver.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 31,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "How to get a Medium of Instruction (MOI) letter from [academic issuers redacted]?",
+      "policy_redacted": true,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No academic-issuer MOI procedure is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "The actual issuer's official application, format, fees and delivery instructions for MOI letters; institution names cannot be published.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 32,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Do I need German A1 or A2 certificate from [language provider redacted] before applying for a German student visa?",
+      "policy_redacted": true,
+      "page": "/study-in-germany",
+      "heading": "What academic and language checks does ILMERA help with for Germany?",
+      "status": "gap",
+      "basis": "No universal German A1/A2 condition is established. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current course-language and visa-route requirements for the applicant and accepted language certification.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 33,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "What happens if my IELTS score is 5.5 overall with 5.0 in one module: which European countries will still accept my application?",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What academic and supporting-document guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "General language evidence does not establish acceptance at the requested scores. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current programme-level minimum overall/component scores and acceptance of the applicant's specific test and qualification.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 34,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Does Russia require IELTS or Russian language entrance exams for English-medium Bachelor's programs?",
+      "policy_redacted": false,
+      "page": "/services",
+      "heading": "Our Core Services",
+      "status": "gap",
+      "basis": "No approved Russia language/entrance-exam evidence is supplied by this strategy.",
+      "missing_fact": "Current official programme-specific language and entrance-exam requirements; the held Russia destination remains held.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer"
+    },
+    {
+      "id": 35,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Can we get an education loan from SBI, Canara Bank, or Karnataka Bank using Kodagu Jamma Bane or coffee plantation land as collateral?",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No lender collateral policy is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "The named lender's written acceptance, legal-title/valuation conditions for Jamma Bane or plantation land and applicant-specific credit assessment.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 36,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Which NBFCs (Credila, Avanse, InCred, Auxilo) give non-collateral education loans for universities in Italy, Czech Republic, or Latvia?",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No lender/course approval or unsecured-loan policy is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current lender-approved destination/course rules, unsecured-loan criteria, pricing and an individual written decision.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 37,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "How to open a German Blocked Account (Expatrio, Coracle, Fintiba) from a local bank branch in Mysuru, Hubballi, or Madikeri?",
+      "policy_redacted": false,
+      "page": "/study-in-germany",
+      "heading": "What help does ILMERA offer with Germany budgets, bank information and APS?",
+      "status": "gap",
+      "basis": "Proof of funds is required, but provider account-opening steps are not sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official accepted blocked-account arrangements and the chosen provider/bank's verified opening/remittance instructions and charges.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 38,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Can an education loan sanction letter be used as proof of funds for an Italian or Lithuanian student visa?",
+      "policy_redacted": false,
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "heading": "What APS, finance and refusal-related guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "UK loan evidence cannot be transferred to Italy or Lithuania. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current Italian and Lithuanian official acceptance criteria for loan sanction/disbursement evidence for the actual route.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 39,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "What is the RBI LRS (Liberalised Remittance Scheme) TCS rule in 2026 when transferring blocked account money from India to Germany?",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No RBI/tax instruction is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official LRS/TCS education-remittance rules, thresholds, exceptions and the bank's implementation for the transaction.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 40,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Best banks in Karnataka for lowest interest rate education loans under the Vidyalakshmi / PM-Vidyalaxmi portal.",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No comparative loan-rate evidence is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current official portal eligibility and comparable lender rate/charge/collateral terms for the applicant; no unsupported bank ranking.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 41,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Do banks disburse education loans for living expenses before visa approval if the university in Germany or Italy has [prohibited tuition wording redacted]?",
+      "policy_redacted": true,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "Tuition policy does not determine loan disbursement. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "The lender's written living-cost disbursement rules before visa approval and the specific sanction conditions.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 42,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Who can be a co-applicant for a study abroad loan if my parents are agriculturists in Karnataka without ITR (Income Tax Returns)?",
+      "policy_redacted": false,
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "heading": "What financial and budget guidance does ILMERA provide?",
+      "status": "gap",
+      "basis": "No co-applicant or alternative-income lender policy is sourced. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Current lender-specific co-applicant eligibility, accepted agricultural income evidence and treatment of applicants without tax returns.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 43,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Who are the best study abroad consultants in Karnataka for low marks, backlogs, and budget European universities?",
+      "policy_redacted": false,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "What admission and application guidance can families ask ILMERA about?",
+      "status": "partly answered",
+      "basis": "New direct FAQ reuses: Backlog article existing eligibility FAQ; selection guide sections 1 and 2. Owner confirms the bounded assistance described by this FAQ.",
+      "missing_fact": "Independently supported provider comparisons and programme-specific backlog/marks acceptance evidence; no ILMERA superiority claim.",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity",
+      "owner_scope": "Owner assistance clarified; remaining official/third-party fact is not established by business scope."
+    },
+    {
+      "id": 44,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Is it safe to use an online/remote study abroad consultancy instead of visiting an office on MG Road in Bangalore?",
+      "policy_redacted": false,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "Does online-only delivery itself establish that a consultant is trustworthy?",
+      "status": "answered",
+      "basis": "New direct FAQ reuses: Selection guide ten checks, online-counselling FAQ, no-guarantee FAQ; Coorg process article.",
+      "missing_fact": "",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+    },
+    {
+      "id": 45,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Why do big study abroad consultancies push UK and Canada private colleges instead of [prohibited tuition wording redacted] public universities in Germany and Italy?",
+      "policy_redacted": true,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "10. Independence from sales pressure",
+      "status": "gap",
+      "basis": "Recommendation checks do not prove competitors' incentives or conduct.",
+      "missing_fact": "Verified competitor-specific commission arrangements and evidence of the claimed steering; do not infer motives from premises or country coverage.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer"
+    },
+    {
+      "id": 46,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Are there any study abroad consultants in Coorg (Kodagu), Shivamogga, or Chikmagalur who speak Kannada and Malayalam?",
+      "policy_redacted": false,
+      "page": "/blog/study-abroad-counselling-from-coorg",
+      "heading": "Can families in Kodagu, Shivamogga and Chikkamagaluru request Kannada or Malayalam counselling?",
+      "status": "answered",
+      "basis": "New direct FAQ reuses: About existing Coorg/languages FAQ; Contact language schema; canonical entity India/Karnataka coverage and existing published location guides.",
+      "missing_fact": "",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+    },
+    {
+      "id": 47,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "How to verify if a study abroad consultant is genuine when they do not have a physical walk-in office?",
+      "policy_redacted": false,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "What should a family check before choosing a counsellor?",
+      "status": "answered",
+      "basis": "The ten checks address written scope, fees, responsible contacts, reviews, recognition, partner transparency and privacy without relying on premises.",
+      "missing_fact": "",
+      "placement": "Existing answer"
+    },
+    {
+      "id": 48,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Which consultancy in Karnataka actually helps with Italy DSU scholarship and ISEE documentation rather than just university admission?",
+      "policy_redacted": false,
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "heading": "Does scholarship planning establish a complete ISEE documentation service?",
+      "status": "partly answered",
+      "basis": "New direct FAQ reuses: Canonical entity service list; scholarship article Italy evidence section; selection guide written scope.",
+      "missing_fact": "Owner-approved exact ISEE/document service scope plus current official regional and Karnataka procedures; individual partner/award evidence remains absent.",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+    },
+    {
+      "id": 49,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Reviews of ILMERA Study Abroad: who are the founders and how does their application process work?",
+      "policy_redacted": false,
+      "page": "/blog/study-abroad-counselling-from-coorg",
+      "heading": "What does ILMERA publish about its team and application process?",
+      "status": "partly answered",
+      "basis": "New direct FAQ reuses: About existing team roles; Coorg process article Step by Step; empty proof slots.",
+      "missing_fact": "Genuine independently verifiable review evidence with permission, and explicit owner confirmation before describing additional people as founders.",
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+    },
+    {
+      "id": 50,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "What questions should parents ask a study abroad counsellor in the first consultation call to spot fake visa guarantees?",
+      "policy_redacted": false,
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "heading": "What should a family check before choosing a counsellor?",
+      "status": "answered",
+      "basis": "The written-scope and no-guarantee checks provide concrete questions before agreeing to counselling.",
+      "missing_fact": "",
+      "placement": "Existing answer"
+    }
+  ],
+  "phase": 22,
+  "owner_answers_date": "2026-10-22",
+  "scope_pages_completed": [
+    "/study-in-germany",
+    "/study-in-italy",
+    "/study-in-uk",
+    "/study-in-lithuania",
+    "/study-in-gcc",
+    "/blog/cost-of-studying-abroad-for-indian-students",
+    "/blog/documents-needed-to-study-abroad-from-india",
+    "/blog/scholarships-for-indian-students-study-abroad",
+    "/blog/study-abroad-with-academic-backlogs",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka"
+  ],
+  "scope_faq_placements": [
+    {
+      "page": "/study-in-germany",
+      "question": "What academic and language checks does ILMERA help with for Germany?",
+      "prompt_ids": [
+        1,
+        27,
+        32
+      ]
+    },
+    {
+      "page": "/study-in-germany",
+      "question": "What help does ILMERA offer with Germany budgets, bank information and APS?",
+      "prompt_ids": [
+        10,
+        37
+      ]
+    },
+    {
+      "page": "/study-in-germany",
+      "question": "Does ILMERA advise on Germany and Italy work or stay pathways?",
+      "prompt_ids": [
+        2
+      ]
+    },
+    {
+      "page": "/study-in-italy",
+      "question": "What help does ILMERA offer with visa appointments and refusal questions?",
+      "prompt_ids": [
+        19,
+        22,
+        26
+      ]
+    },
+    {
+      "page": "/study-in-uk",
+      "question": "How does ILMERA help compare a UK course and check admission evidence?",
+      "prompt_ids": [
+        9,
+        30
+      ]
+    },
+    {
+      "page": "/study-in-lithuania",
+      "question": "What does ILMERA help compare for Lithuania study plans?",
+      "prompt_ids": [
+        8,
+        15
+      ]
+    },
+    {
+      "page": "/study-in-gcc",
+      "question": "Does ILMERA offer advice on student work or staying in the GCC?",
+      "prompt_ids": [
+        7
+      ]
+    },
+    {
+      "page": "/blog/cost-of-studying-abroad-for-indian-students",
+      "question": "What financial and budget guidance does ILMERA provide?",
+      "prompt_ids": [
+        13,
+        17,
+        35,
+        36,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "question": "What academic and supporting-document guidance does ILMERA provide?",
+      "prompt_ids": [
+        6,
+        12,
+        21,
+        25,
+        29,
+        31,
+        33
+      ]
+    },
+    {
+      "page": "/blog/documents-needed-to-study-abroad-from-india",
+      "question": "What APS, finance and refusal-related guidance does ILMERA provide?",
+      "prompt_ids": [
+        20,
+        24,
+        38
+      ]
+    },
+    {
+      "page": "/blog/scholarships-for-indian-students-study-abroad",
+      "question": "How does ILMERA help with scholarships and supporting documents?",
+      "prompt_ids": [
+        11,
+        16,
+        28
+      ]
+    },
+    {
+      "page": "/blog/study-abroad-with-academic-backlogs",
+      "question": "What academic review can ILMERA provide for marks or backlogs?",
+      "prompt_ids": [
+        3,
+        4
+      ]
+    },
+    {
+      "page": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "question": "What admission and application guidance can families ask ILMERA about?",
+      "prompt_ids": [
+        43
+      ]
+    }
+  ]
+}

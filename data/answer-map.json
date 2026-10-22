@@ -10,10 +10,16 @@
       {
         "question": "Can these examples replace a current individual quotation?",
         "answer": "No. The examples are attributed to the official sources on this page; they are not individual quotations or guaranteed future prices."
+      },
+      {
+        "question": "What financial and budget guidance does ILMERA provide?",
+        "answer": "ILMERA guides students on financial requirements, bank accounts and education loan information. ILMERA compares tuition fees and living expenses to help students choose study destinations. Lender selection, loan decisions and account opening remain with the student and the relevant provider. Tax and investment advice are outside ILMERA's scope. ILMERA does not decide collateral acceptance, co-applicant eligibility, rates, disbursement or remittance treatment. Lenders and banks make those decisions under their own rules. No individual budget or award is promised."
       }
     ],
     "basis": "blog/cost-of-studying-abroad-for-indian-students.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/blog/documents-needed-to-study-abroad-from-india": {
     "question": "What should I know about documents needed to study abroad from India?",
@@ -26,10 +32,20 @@
       {
         "question": "Are admission records and financial evidence interchangeable?",
         "answer": "No. Some records concern admission, others financial evidence or an appointment procedure. Keep the applicable instructions and unanswered questions visible."
+      },
+      {
+        "question": "What academic and supporting-document guidance does ILMERA provide?",
+        "answer": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents. A qualification, MOI letter or test score is not automatically accepted; the accepting body's instructions govern the particular case. Local issuer, apostille and agricultural-income procedures are not established by this service description."
+      },
+      {
+        "question": "What APS, finance and refusal-related guidance does ILMERA provide?",
+        "answer": "ILMERA guides students through APS requirements and document preparation for Germany. ILMERA guides students on financial requirements, bank accounts and education loan information. ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance. This is not a processing-time, loan-evidence acceptance or visa reapplication rule. Authorities, lenders and banks make their own decisions; no appointment or outcome is promised."
       }
     ],
     "basis": "blog/documents-needed-to-study-abroad-from-india.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/blog/how-to-choose-study-abroad-consultant-karnataka": {
     "question": "What should I know about how to choose a study abroad consultant in Karnataka?",
@@ -46,6 +62,10 @@
       {
         "question": "Does online-only delivery itself establish that a consultant is trustworthy?",
         "answer": "No. An online model does not by itself verify the counsellor or promised service. Check the named contact, written scope, charges, privacy and refund terms, and look for evidence that can be checked independently. ILMERA counsels by phone, WhatsApp and video call, with no counselling premises. Counselling does not guarantee admission or a visa."
+      },
+      {
+        "question": "What admission and application guidance can families ask ILMERA about?",
+        "answer": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. ILMERA guides applications online by phone, WhatsApp and video call. Compare the written scope with your needs; there is no promise of admission or an independent provider ranking."
       }
     ],
     "basis": "blog/how-to-choose-study-abroad-consultant-karnataka.php; existing rendered introduction/sections/FAQs",
@@ -63,7 +83,9 @@
         "prompt_id": 44,
         "source": "Selection guide ten checks, online-counselling FAQ, no-guarantee FAQ; Coorg process article."
       }
-    ]
+    ],
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/blog/scholarships-for-indian-students-study-abroad": {
     "question": "What should I know about scholarships for Indian students abroad?",
@@ -80,6 +102,10 @@
       {
         "question": "Does scholarship planning establish a complete ISEE documentation service?",
         "answer": "No. ILMERA lists scholarship planning among its services, but that does not establish a published Karnataka ISEE procedure or an individual scholarship award. Ask for written service tasks and check the current instructions of the relevant authority before treating advice as a complete document workflow."
+      },
+      {
+        "question": "How does ILMERA help with scholarships and supporting documents?",
+        "answer": "ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships. ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents. Scholarship bodies decide awards. This assistance does not establish a current regional DSU call, ISEE acceptance process, language waiver or Karnataka scheme eligibility."
       }
     ],
     "basis": "blog/scholarships-for-indian-students-study-abroad.php; existing rendered introduction/sections/FAQs",
@@ -89,7 +115,9 @@
         "prompt_id": 48,
         "source": "Canonical entity service list; scholarship article Italy evidence section; selection guide written scope."
       }
-    ]
+    ],
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/blog/study-abroad-counselling-from-coorg": {
     "question": "What should I know about online study abroad counselling for Coorg students?",
@@ -152,10 +180,16 @@
       {
         "question": "What should I discuss before shortlisting?",
         "answer": "Discuss the academic record, how backlogs were cleared and the intended course. A general country description is not a programme-specific decision."
+      },
+      {
+        "question": "What academic review can ILMERA provide for marks or backlogs?",
+        "answer": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. ILMERA guides admission applications; the university makes the admission decision. No acceptance of a particular qualification, mark or backlog record is promised."
       }
     ],
     "basis": "blog/study-abroad-with-academic-backlogs.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/study-abroad-consultants-in-karnataka": {
     "question": "What makes a Karnataka student's shortlist defensible?",
@@ -432,23 +466,52 @@
   "/study-in-gcc": {
     "question": "How does the UAE example describe student residence sponsorship?",
     "answer": "In the UAE, the student residence visa is typically sponsored by the university or by a parent or relative who is a legal resident. It is valid for up to 12 months and renewed each year. The visa process usually starts with the sponsoring institution after admission, through the ICP portal or the GDRFA of the emirate.",
-    "extra_faqs": [],
+    "extra_faqs": [
+      {
+        "question": "Does ILMERA offer advice on student work or staying in the GCC?",
+        "answer": "ILMERA does not provide advice on working during study or staying after study. ILMERA helps with study planning and application guidance. Business coverage does not establish current student-work, tax or stay rules; registration notices are not permission to work."
+      }
+    ],
     "basis": "study-in-gcc.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/study-in-germany": {
     "question": "What should I check before planning to study in Germany from India?",
     "answer": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.",
-    "extra_faqs": [],
+    "extra_faqs": [
+      {
+        "question": "What academic and language checks does ILMERA help with for Germany?",
+        "answer": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents. This does not establish acceptance of a particular qualification, MOI letter or language certificate. Check the selected programme and route."
+      },
+      {
+        "question": "What help does ILMERA offer with Germany budgets, bank information and APS?",
+        "answer": "ILMERA guides students on financial requirements, bank accounts and education loan information. ILMERA compares tuition fees and living expenses to help students choose study destinations. ILMERA guides students through APS requirements and document preparation for Germany. Lender selection, loan decisions and account opening remain with the student and the relevant provider. Tax and investment advice are outside ILMERA's scope. Current official amounts, APS charges and provider instructions still need checking; no processing time is promised."
+      },
+      {
+        "question": "Does ILMERA advise on Germany and Italy work or stay pathways?",
+        "answer": "ILMERA does not provide advice on working during study or staying after study. Existing policy examples are not a comparison of job availability or a promise of residence. Consult the responsible authorities for current rules."
+      }
+    ],
     "basis": "study-in-germany.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/study-in-italy": {
     "question": "What should I check before planning to study in Italy from India?",
     "answer": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.",
-    "extra_faqs": [],
+    "extra_faqs": [
+      {
+        "question": "What help does ILMERA offer with visa appointments and refusal questions?",
+        "answer": "ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance. ILMERA does not book or promise appointment slots, decide visa applications or promise to prevent refusal. Current jurisdiction, unavailable-slot instructions and official refusal rules remain separate checks."
+      }
+    ],
     "basis": "study-in-italy.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/study-in-latvia": {
     "question": "What should I check before planning to study in Latvia from India?",
@@ -464,10 +527,16 @@
       {
         "question": "How should the Lithuania tuition estimates be used?",
         "answer": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees."
+      },
+      {
+        "question": "What does ILMERA help compare for Lithuania study plans?",
+        "answer": "ILMERA compares tuition fees and living expenses to help students choose study destinations. ILMERA guides students on financial requirements, bank accounts and education loan information. Lender selection, loan decisions and account opening remain with the student and the relevant provider. Tax and investment advice are outside ILMERA's scope. This does not supply current visa maintenance thresholds, approval-rate comparisons or a personal quotation."
       }
     ],
     "basis": "study-in-lithuania.php; existing rendered introduction/sections/FAQs",
-    "reviewed_on": "2026-10-16"
+    "reviewed_on": "2026-10-16",
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   },
   "/study-in-slovakia": {
     "question": "What should I check before planning to study in Slovakia from India?",
@@ -483,6 +552,10 @@
       {
         "question": "How should I assess a UK Master's against the Graduate visa dates?",
         "answer": "For the Master's context, GOV.UK lists a 2-year Graduate visa for applications on or before 31 December 2026 and 18 months from 1 January 2027. These dates alone do not establish the value of a particular course. Compare the actual costs, course objectives and applicable conditions before deciding. Source: https://www.gov.uk/graduate-visa"
+      },
+      {
+        "question": "How does ILMERA help compare a UK course and check admission evidence?",
+        "answer": "ILMERA compares tuition fees and living expenses to help students choose study destinations. ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. Programme costs, the applicant's priorities and current test/provider conditions still need checking. ILMERA does not provide advice on working during study or staying after study."
       }
     ],
     "basis": "study-in-uk.php; existing rendered introduction/sections/FAQs",
@@ -492,6 +565,8 @@
         "prompt_id": 9,
         "source": "Existing homepage UK language FAQ and its GOV.UK Graduate visa citation, reopened on 2026-10-16; cost article individual-budget guidance."
       }
-    ]
+    ],
+    "scope_reviewed_on": "2026-10-22",
+    "phase22_basis": "Owner final service answers dated 2026-10-22; no new official rule or number."
   }
 }
