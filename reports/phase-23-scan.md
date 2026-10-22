@@ -154,3 +154,14 @@ permission and verified video; no evidence is invented now.
 Task 1 full baseline results are recorded in phase-23-checks.json. A technical
 baseline pass is not approval of the payment/fee inconsistencies above. Local
 PHP WASM/Chromium is not native Apache, public HTTP or delivery evidence.
+
+## Final media cross-check annotation
+
+The real existing `assets/images/fawazbh.webp` contains PNG image data, despite
+its existing extension, which explains its larger size. Intrinsic dimensions
+are 1254 x 1254; all six viewport/JS browser cases loaded it successfully.
+This is a format/size exception, not a generic placeholder finding. Preserve
+its original name and bytes under the owner's exact-photo rule. No re-encode,
+rename or server MIME change is made. Native live asset-header acceptance and
+any future optimisation need separate authorization; local loading is not
+proof of live MIME configuration. The inventory records all five actual formats.

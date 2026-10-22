@@ -24,7 +24,7 @@ country facts, statuses, summaries/provenance and source gates stay intact.
 | 4. Registration gate | done | No registration output or identifier; proof bytes unchanged; semantic guard covers all 38 pages and LLMs; full suite PASS |
 | 5. Discovery and entity consistency | done | Nonnumeric canonical payment summary, existing team labels and generated bios/images; active Phase 23 map, no factual gap boost; full checks PASS |
 | 6. Remaining owner inputs | done | Report now requests only inclusions/schedule/refund terms, both Udyam values and future genuine feedback with permission/video; no missing team item; full suite PASS |
-| 7. Bounded full cycles | not started | Maximum four, early stop clean, stop repeated failure twice |
+| 7. Bounded full cycles | done | Cycle 1 PASS, early stop: 92 lint/43 render/258 browser/18 photo/1,278 FAQ interactions; original photo size/format exception reported |
 | 8. Append-only documentation and release | not started | All changed pages/files and live limits |
 
 Each completed task gets a full lint/render/browser/discovery/strict suite,

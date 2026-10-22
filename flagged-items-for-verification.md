@@ -3360,3 +3360,13 @@ and real image URLs, without editing any biography. The old combined legal/
 brand label is now brand only: a registered business name was not supplied.
 No registration or legal-name inference is made. Existing group/destination
 facts and all original proof/source/status gates remain unchanged.
+
+### Phase 23 media-format exception
+
+The protected Fawaz portrait `assets/images/fawazbh.webp` contains PNG data
+under its existing extension, 1254 x 1254 and 1,541,656 bytes. This is not a
+placeholder photo. All browser photo cases loaded it, but that does not prove
+native live headers/MIME acceptance. Preserve its name/bytes as explicitly
+required; no silent re-encode, rename or server-setting change. Future media
+optimisation/MIME review is separate authorized work. Required checks pass;
+no claim that every asset is under the file-size budget or optimised.

@@ -101,5 +101,12 @@
       "person_note": "Existing About JSON-LD Person",
       "visual_check": "Portrait viewed; no generic placeholder content apparent. Identity/authenticity is owner-confirmed, not inferred from appearance."
     }
-  ]
+  ],
+  "format_cross_check": {
+    "assets/images/jabirkj.png": "PNG",
+    "assets/images/jabirkj.webp": "WEBP",
+    "assets/images/fawazbh.webp": "PNG content under existing .webp filename; original preserved",
+    "assets/images/zaheer.png": "PNG",
+    "assets/images/zaheer.webp": "WEBP"
+  }
 }
