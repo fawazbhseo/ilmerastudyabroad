@@ -21,8 +21,8 @@ a source URL or an address comparison. Preserve the original Fawaz asset.
 | 1. Registration and generated references | done | Full rerun PASS, 92 PHP/43 renders/258 browser cases/36 portrait checks/1,278 FAQ interactions; commit `ba0a62c` |
 | 2. Zaheer finance-function bio | done | Full suite PASS 528.04s; exact sentence in About/Home/team/Person/both LLMs/FAQ; commit `57f4e54` |
 | 3. Genuine WebP derivatives | done | Full suite PASS 531.28s; 384 WebP 19,056 bytes, 192 WebP 7,892 bytes; commit `ce62c61` |
-| 4. Remaining owner inputs | done | Full suite PASS 518.10s; supplied registration removed; private owner follow-ups and artifact access guards; this task commit |
-| 5. Bounded full verification | not started | At most three, early clean stop, repeated failure twice stop |
+| 4. Remaining owner inputs | done | Full suite PASS 518.10s; supplied registration removed; private owner follow-ups and artifact access guards; commit `5542b0b` |
+| 5. Bounded full verification | done | Cycle 1 local PASS 514.09s, early stop; 38 changed/5 unchanged renders; certificate/live limitations retained; this task commit |
 | 6. Append-only release handoff | not started | All changed pages/files and live/owner limits |
 
 Each task gets full lint/render/browser/discovery/strict checks, commit/push
@@ -75,3 +75,9 @@ checks and 1,278 FAQ interactions. Report/tool folder 403s were checked in the
 local adapter; the matching Apache rules still require native verification.
 No published/held page status, root rewrite bytes, address, country fact or
 biography/title/alt changed in this task. Fee and future-feedback inputs remain.
+
+Task 5 protection expansion: all baseline files outside the denied internal
+report/tool folders are byte-protected except the exact authorized Phase 24
+source/LLM/image list and append-only logs. Extra public files of any extension
+are rejected, including certificate copies. Both new portrait HTTP bodies and
+local image/webp MIME are verified; native live MIME remains unverified.

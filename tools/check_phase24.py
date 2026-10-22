@@ -85,6 +85,16 @@ def validate_scope(root,base):
 
 def validate(root,base,stage=6):
  validate_scope(root,base)
+ if stage>=5:
+  for file in ['CHANGELOG.md','flagged-items-for-verification.md']:
+   assert (root/file).read_bytes().startswith(old(root,file)),('Append-only history',file)
+  allowed={'about.php','index.php','data/proof.php','data/team.json','includes/proof.php','includes/site-presentation.php','assets/images/fawazbh-192.webp','assets/images/fawazbh-384.webp','llms.txt','llms-full.txt','CHANGELOG.md','flagged-items-for-verification.md'}
+  existing=subprocess.check_output(['git','ls-tree','-r','--name-only',BASELINE],cwd=root,text=True).splitlines()
+  current=set(subprocess.check_output(['git','ls-files'],cwd=root,text=True).splitlines())|set(subprocess.check_output(['git','ls-files','--others','--exclude-standard'],cwd=root,text=True).splitlines())
+  def website_file(file):return not file.startswith(('reports/','tools/'))
+  for file in existing:
+   if website_file(file) and file not in allowed:assert (root/file).read_bytes()==old(root,file),('Unapproved website/source/contact change',file)
+  assert {f for f in current-set(existing) if website_file(f)}<=allowed,'Unapproved public file, including certificate copies'
  if stage>=4:
   for folder in ['reports','tools']:
    assert (root/folder/'.htaccess').read_bytes()==b'# Internal owner evidence and verification artifacts, not website content.\r\nRequire all denied\r\n'
@@ -147,7 +157,8 @@ def validate(root,base,stage=6):
    path=root/f'assets/images/fawazbh-{width}.webp';data=path.read_bytes()
    assert len(data)<60000 and data[:4]==b'RIFF' and data[8:12]==b'WEBP'
    with Image.open(path) as im:assert im.format=='WEBP' and im.size==(width,width)
-   assert fetch(base,'/'+path.relative_to(root).as_posix())[2]==data
+   status,headers,body=fetch(base,'/'+path.relative_to(root).as_posix())
+   assert status==200 and body==data and {k.lower():v for k,v in headers.items()}['content-type'].split(';')[0]=='image/webp'
   asset_map['/assets/images/fawazbh-384.webp']=team[1]
   asset_map['/assets/images/fawazbh-192.webp']=team[1]
  expected_pages={'/services','/contact','/blog/how-to-choose-study-abroad-consultant-karnataka','/blog/cost-of-studying-abroad-for-indian-students'}
@@ -212,6 +223,6 @@ def validate(root,base,stage=6):
   if stage>=2:assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text and ZAHEER in text
   for line in text.splitlines():
    if '₹3 lakh' in line or '₹15 lakh' in line:assert line.startswith('A: '),(file,'Fee range outside FAQ text')
- return dict(published_pages=pages,team_members=3,photos_and_bios_preserved=True,photo_instances=photo_instances,oversized_originals=oversized,registration_output='EXACT APPROVED PUBLIC PROJECTION',fee_proof='EMPTY',fee_range_only_visible_or_faq=True)
+ return dict(published_pages=pages,team_members=3,original_photos_preserved=True,jabir_fawaz_bios_preserved=True,approved_zaheer_consistent=True,photo_instances=photo_instances,oversized_originals=oversized,registration_output='EXACT APPROVED PUBLIC PROJECTION',fee_proof='EMPTY',fee_range_only_visible_or_faq=True)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--root',type=pathlib.Path,default=pathlib.Path(__file__).resolve().parents[1]);p.add_argument('--base-url',required=True);p.add_argument('--stage',type=int,default=6);a=p.parse_args();print('PASS',json.dumps(validate(a.root,a.base_url,a.stage)))

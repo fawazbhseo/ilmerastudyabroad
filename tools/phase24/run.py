@@ -5,7 +5,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'tools'))
 from check_discovery import routes,fetch,PublishedContent,blocked_name_matches,blocked_names,prohibited_wording_matches,physical_presence_matches
 from check_cycle_consistency import Graphs,allowed_schema
-p=argparse.ArgumentParser();p.add_argument('--task',required=True);p.add_argument('--stage',type=int,required=True);p.add_argument('--evidence',type=pathlib.Path,required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--task',required=True);p.add_argument('--stage',type=int,required=True);p.add_argument('--baseline-captures',type=pathlib.Path);p.add_argument('--evidence',type=pathlib.Path,required=True);a=p.parse_args()
 a.evidence.mkdir(parents=True,exist_ok=True);start=time.time();checks={};base='http://127.0.0.1:8080'
 def run(label,args):
  t=time.time();r=subprocess.run(args,cwd=ROOT,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
@@ -62,6 +62,22 @@ for i,(path,info) in enumerate(routes(ROOT).items()):
 (a.evidence/'snapshots.json').write_text(json.dumps(manifest,indent=2)+'\n')
 checks['render schema and strict policy']={'status':'PASS','routes':len(manifest),'faq_pairs':faq_count,'faq_exact_visible_schema_parity':True}
 print('PASS fresh renders/schema/wording',len(manifest),flush=True)
+if a.stage>=5:
+ assert a.baseline_captures,'Full baseline render comparison is required for final phases'
+ before=json.loads((a.baseline_captures/'snapshots.json').read_text());assert set(before)==set(manifest)
+ changed=[];unchanged=0
+ for path,item in manifest.items():
+  old_bytes=(a.baseline_captures/before[path]['file']).read_bytes();new_bytes=(a.evidence/item['file']).read_bytes()
+  if old_bytes==new_bytes:unchanged+=1
+  else:
+   assert item['info']['status']=='published' and path!='/404',(path,'Held/utility render changed')
+   changed.append({'route':path,'baseline_sha256':hashlib.sha256(old_bytes).hexdigest(),'current_sha256':hashlib.sha256(new_bytes).hexdigest()})
+ assert len(changed)==38 and unchanged==5
+ inventory={'baseline':'9157825a90487f656b2b6c566405107a819f9857','compared_routes':43,'changed_published_routes':changed,'unchanged_held_or_utility_count':unchanged,'all_held_or_utility_byte_identical':True}
+ (ROOT/'reports/phase-24-render-inventory.json').write_text(json.dumps(inventory,indent=2)+'\n')
+ checks['baseline render delta']={'status':'PASS','compared':43,'changed_published':38,'held_utility_unchanged':5}
+ print('PASS baseline render delta',flush=True)
+
 run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
 run('browser',['node','tools/phase24/browser.cjs',str(a.evidence)])
 # Full rendered main overlap, matching the established five-token coverage method.
