@@ -101,7 +101,7 @@
       },
       {
         "question": "Does scholarship planning establish a complete ISEE documentation service?",
-        "answer": "No. ILMERA lists scholarship planning among its services, but that does not establish a published Karnataka ISEE procedure or an individual scholarship award. Ask for written service tasks and check the current instructions of the relevant authority before treating advice as a complete document workflow."
+        "answer": "ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships. ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents. This confirmed assistance does not establish a complete ISEE handling service or the current Karnataka and regional issuing/acceptance procedures. Ask for the applicable written tasks and check the responsible authority's instructions; no award is promised."
       },
       {
         "question": "How does ILMERA help with scholarships and supporting documents?",
@@ -145,7 +145,7 @@
       },
       {
         "question": "What does ILMERA publish about its team and application process?",
-        "answer": "The site identifies Jabir KJ as Founder, Fawaz BH as CMO and Zaheer KJ as CFO. The published process begins with a profile discussion and continues with shortlisting, applications and document preparation. A team profile or process description is not an independently verified customer review."
+        "answer": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance. ILMERA reviews academic qualifications, guides applications and explains visa-document requirements through phone, WhatsApp and video call. A team profile or process description is not a customer review. Publishable review text and the associated permission record have not been supplied for this update."
       }
     ],
     "basis": "blog/study-abroad-counselling-from-coorg.php; existing rendered introduction/sections/FAQs",
@@ -159,7 +159,8 @@
         "prompt_id": 49,
         "source": "About existing team roles; Coorg process article Step by Step; empty proof slots."
       }
-    ]
+    ],
+    "scope_reviewed_on": "2026-10-22"
   },
   "/blog/study-abroad-with-academic-backlogs": {
     "question": "What should I know about study abroad with academic backlogs?",

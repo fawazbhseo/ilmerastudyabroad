@@ -166,8 +166,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="blog-cta">
   <div class="container">
     <h2>Have a Question We Haven't Covered?</h2>
-    <p>Book a no-charge consultation and get an honest answer for your specific profile, by phone, WhatsApp, or video call.</p>
-    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
+    <p>Book a online consultation and get an honest answer for your specific profile, by phone, WhatsApp, or video call.</p>
+    <a href="/contact" class="btn-gold">Book a online Consultation</a>
   </div>
 </section>
 

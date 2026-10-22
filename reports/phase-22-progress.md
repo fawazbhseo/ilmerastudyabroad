@@ -22,7 +22,7 @@ identifier or placement count is inferred.
 | --- | --- | --- |
 | 1. Scope scan, report only | done | `5ca8589`; 20 finding groups, all 38 published routes and both LLM files scanned; full Task 1 checks PASS |
 | 2. Services sections and matching FAQs | done | `a58bc9e`; eight scope topics, exclusions, seven exact visible/schema FAQs; ItemList/HowTo aligned; final full suite PASS |
-| 3. Page-level scope answers and prompt map | in progress, ten-page checkpoint | Germany, Italy, UK, Lithuania, GCC, cost, documents, scholarships, backlogs, selection; 13 shared visible/schema FAQs added. No official gap falsely closed. |
+| 3. Page-level scope answers and prompt map | done | Germany, Italy, UK, Lithuania, GCC, cost, documents, scholarships, backlogs, selection; 13 shared visible/schema FAQs added. No official gap falsely closed. Ten-page checkpoint `e4ed4fd` pushed; Coorg scope FAQ and Home/Contact/Terms/blog/shared CTA scope now completed. Final full checks PASS. |
 | 4. Selection guide and existing founder profile | not started | Exact approved biography only |
 | 5. Canonical Organization and LLM generator | not started | No new profile, price or offer |
 | 6. Empty proof and remaining owner inputs | not started | Keep unprovided proof empty |

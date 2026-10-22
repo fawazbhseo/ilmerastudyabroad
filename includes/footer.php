@@ -96,7 +96,7 @@
       <a href="tel:+919481084038" class="ft-ca">&#128222; +91 94810 84038</a>
       <a href="mailto:info@ilmerastudyabroad.com" class="ft-ca">&#9993; info@ilmerastudyabroad.com</a>
       <a href="https://wa.me/421944485186" class="ft-ca">&#128172; WhatsApp Us</a>
-      <a href="/contact" class="ft-cta">Book no-charge Consultation</a>
+      <a href="/contact" class="ft-cta">Book online Consultation</a>
     </div>
   </div>
   <div class="ft-bottom">

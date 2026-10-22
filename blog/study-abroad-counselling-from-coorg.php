@@ -134,18 +134,18 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="s-wrap article-body">
   <div class="container">
 
-    <p>ILMERA offers online counselling only, by phone, WhatsApp and video call, with no counselling premises anywhere. The founders are from Coorg, Kodagu.</p>
+    <p>ILMERA offers online counselling only, by phone, WhatsApp and video call, with no counselling premises anywhere.</p>
 
     <h2>What the Process Actually Looks Like</h2>
-    <p>A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries. From there, everything, document collection, shortlist discussions, application tracking, and visa preparation, is handled over WhatsApp and video call, with documents shared digitally throughout the online counselling process.</p>
+    <p>A first conversation is usually a phone call or a scheduled video call where we go through your academic background, budget, and target countries. ILMERA then guides applications and supporting-document preparation through phone, WhatsApp and video call.</p>
 
     <h2>Step by Step</h2>
     <ul>
       <li><strong>Initial call:</strong> a phone or video consultation to understand your profile, budget, and preferred countries.</li>
       <li><strong>Document review:</strong> transcripts, certificates, and financial documents are shared over WhatsApp or email for review.</li>
       <li><strong>University shortlist:</strong> discussed over a follow-up call, with reasoning for why each option fits your profile.</li>
-      <li><strong>Application and follow-up:</strong> applications are tracked and updates shared as they come in from universities.</li>
-      <li><strong>Visa and pre-departure:</strong> visa document preparation and pre-departure guidance are handled the same way, call by call, message by message.</li>
+      <li><strong>Application guidance:</strong> Jabir KJ, Founder, is responsible for university research, admissions and application guidance. The university makes its own admission decision.</li>
+      <li><strong>Visa and documents:</strong> guidance on visa documentation, appointment procedures and supporting documents is discussed through the existing online channels.</li>
     </ul>
 
     <h2>Why This Works</h2>
@@ -170,8 +170,8 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 <section class="article-cta">
   <div class="container">
     <h2>Ready to Talk Through Your Options?</h2>
-    <p>Book a no-charge consultation by phone, WhatsApp, or video call, wherever you are.</p>
-    <a href="/contact" class="btn-gold">Book a no-charge Consultation</a>
+    <p>Book a online consultation by phone, WhatsApp, or video call, wherever you are.</p>
+    <a href="/contact" class="btn-gold">Book a online Consultation</a>
   </div>
 </section>
 
