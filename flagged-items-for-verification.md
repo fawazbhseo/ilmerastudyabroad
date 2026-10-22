@@ -3419,3 +3419,15 @@ Existing website audit dates, contact details and country facts are not
 certificate data and remain unchanged. Privacy verification must distinguish
 new registration payload from pre-existing public contact/audit information;
 unknown certificate-private values cannot be independently compared here.
+
+### Phase 24 Task 2 biography boundary
+
+No optional Zaheer background was supplied. His replacement uses only the
+approved CFO and company-finance-function facts, identically in active pages,
+Person data and both generated LLM documents. No student payment, loan or
+advisory duty is inferred. Jabir/Fawaz biography variants remain exact.
+Historical audit inventories and negative-test strings retain the old text as
+evidence, not as active biographies. Owner-only reports/test tools will receive
+directory access restrictions with the owner-input report task. An unchanged
+general About sentence about asking who is responsible for written tasks is
+not Zaheer's placeholder and has not been removed.

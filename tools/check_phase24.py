@@ -167,7 +167,7 @@ def validate(root,base,stage=6):
   assert text.count(NUMBER)==1+expected_count,(route,'Number outside Organization/visible block')
   assert 'Owner-supplied Udyam certificate' not in text and 'reviewed_on' not in text
   if stage>=2:
-   assert not re.search(r'Ask ILMERA to identify|Ask which person is responsible',text,re.I)
+   assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text,(route,'Old Zaheer bio')
    if route in ['/','/about']:assert ZAHEER in visible,(route,'Visible Zaheer bio')
   # New certificate data is allowlisted, not inferred from existing contact data.
   registration_blocks=re.findall(r'<section class="owner-proof".*?</section>',text,re.S)

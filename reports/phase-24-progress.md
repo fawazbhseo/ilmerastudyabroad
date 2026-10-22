@@ -18,8 +18,8 @@ a source URL or an address comparison. Preserve the original Fawaz asset.
 
 | Task | Status | Evidence / checkpoint |
 | --- | --- | --- |
-| 1. Registration and generated references | done | Full rerun PASS, 92 PHP/43 renders/258 browser cases/36 portrait checks/1,278 FAQ interactions; this task commit |
-| 2. Zaheer finance-function bio | not started | Approved sentence only; other bios/titles/alts unchanged |
+| 1. Registration and generated references | done | Full rerun PASS, 92 PHP/43 renders/258 browser cases/36 portrait checks/1,278 FAQ interactions; commit `ba0a62c` |
+| 2. Zaheer finance-function bio | done | Full suite PASS 528.04s; exact sentence in About/Home/team/Person/both LLMs/FAQ; this task commit |
 | 3. Genuine WebP derivatives | not started | Original untouched; format/size/load verification |
 | 4. Remaining owner inputs | not started | Remove registration request; activity mismatch and optional background |
 | 5. Bounded full verification | not started | At most three, early clean stop, repeated failure twice stop |
@@ -48,3 +48,14 @@ Task 1 final full suite PASS, 624.36 seconds. The two distinct harness failures
 above were resolved; the separate browser diagnostic also completed all 258
 cases. Registration exact-record negative tests reject every missing/modified
 field and extra private field. Original generic proof gates remain unchanged.
+
+Task 2 preflight found an overbroad negative-test fragment matching the
+unchanged general About sentence asking families to identify responsibilities.
+That sentence is not Zaheer's placeholder. Narrowed the check to the two full
+legacy bio strings; source-equivalence still permits only the exact approved
+replacement. No general About text was altered. Full suite rerun required.
+
+Task 2 final: 92 PHP lints, 43 renders, 258 browser cases, 36 portrait
+checks, 213 exact FAQ pairs and 1,278 interactions PASS. Full source
+equivalence permits only the approved Zaheer substitution. Jabir/Fawaz
+biography variants, titles, alt text and existing original portraits unchanged.

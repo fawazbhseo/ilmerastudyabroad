@@ -234,7 +234,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "name": "Zaheer KJ",
       "givenName": "Zaheer",
       "jobTitle": "CFO",
-      "description": "Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.",
+      "description": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.",
       "image": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
@@ -300,7 +300,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Who is Zaheer KJ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope."
+            "text": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function."
           }
         },
         {
@@ -672,7 +672,7 @@ img{max-width:100%;height:auto;}
         <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
         <div class="team-role">Chief Financial Officer</div>
-        <p class="team-bio">Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.</p>
+        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.</p>
       </article>
 
     </div>
@@ -697,7 +697,7 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.</p></div></details>
+      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.</p></div></details>
 
       <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. Its existing team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>
 

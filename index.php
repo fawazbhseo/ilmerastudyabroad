@@ -648,7 +648,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         <picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
         <div class="testi-name" itemprop="name">Zaheer KJ</div>
         <div class="testi-dest" itemprop="jobTitle">Chief Financial Officer</div>
-        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">CFO at ILMERA Study Abroad. Ask which person is responsible for any further agreed tasks.</p>
+        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.</p>
       </article>
     </div>
   </div>
