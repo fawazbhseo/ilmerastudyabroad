@@ -20,8 +20,8 @@ identifier or placement count is inferred.
 
 | Task | Status | Commit / evidence |
 | --- | --- | --- |
-| 1. Scope scan, report only | done | Commit containing this update; 20 finding groups, all 38 published routes and both LLM files scanned; full Task 1 checks PASS |
-| 2. Services sections and matching FAQs | not started | No site changes yet |
+| 1. Scope scan, report only | done | `5ca8589`; 20 finding groups, all 38 published routes and both LLM files scanned; full Task 1 checks PASS |
+| 2. Services sections and matching FAQs | done | This commit; eight scope topics, exclusions, seven exact visible/schema FAQs; ItemList/HowTo aligned; final full suite PASS |
 | 3. Page-level scope answers and prompt map | not started | Checkpoint each ten edited pages |
 | 4. Selection guide and existing founder profile | not started | Exact approved biography only |
 | 5. Canonical Organization and LLM generator | not started | No new profile, price or offer |

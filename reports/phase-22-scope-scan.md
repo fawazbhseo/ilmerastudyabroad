@@ -85,3 +85,11 @@ No published factual denial of all loan, visa or local-document help was found. 
 ## Verification boundary
 
 Fresh Task 1: all 90 PHP files parsed, all 43 routes rendered, 258 browser cases and 1,110 FAQ interactions, strict discovery/names/wording/schema, sitemap/LLM/FAQ parity and both overlap checks passed. The scan is report-only; the listed business inconsistencies remain scheduled work. No deployment, external raw HTTP proof, native Apache acceptance or enquiry delivery is inferred.
+
+### Task 2 source-schema confirmation
+
+The source locations in S01/S02 also include the old Services ItemList and
+HowTo service descriptions at baseline `services.php:103-128`. These are
+live service records, unlike the suppressed legacy Organization. They are
+replaced along with the visible cards/process in Task 2, from the approved
+scope data. Existing test success alone was not treated as semantic approval.
