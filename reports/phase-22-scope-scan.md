@@ -102,3 +102,18 @@ remaining proof slots being empty. Task 5 removes that Offer entirely rather
 than inferring a fee. The remaining old consultation-price line in the short
 LLM Contact section is also removed by the existing generator. Independent
 semantic checks now reject any Offer and any unprovided business-price claim.
+
+### Task 7 final manual source cross-check
+
+S08/S09/S12 also cover baseline `about.php:640-650`, the About CFO Person
+specialism array at `about.php:253-259`, and `index.php:651`: full filing,
+additional named duties, automatic-fit and one-trip wording needed narrowing
+in addition to the earlier founder/profile replacements. These are now
+explicit guidance, independent decisions and no trip/appointment promise.
+The old general consular-city example is retained as existing country copy,
+not changed into a new routing rule; an immediate case-specific verification
+caution is added. Its factual validation remains an official-source gap, not
+owner confirmation. The noindex utility `404.php:11,21,29,85,88` also repeated
+an unprovided consultation-price claim; it is removed without changing the
+route's status. Neither development check success nor a generic example is
+represented as confirmation of a routing or single-trip outcome.

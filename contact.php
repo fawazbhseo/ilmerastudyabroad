@@ -13,7 +13,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
      PRIMARY SEO META
 ════════════════════════════════════════════════════════════ -->
 <title>Contact ILMERA Study Abroad | online Consultation for Germany, Italy, UK, Russia & More</title>
-<meta name="description" content="Contact ILMERA Study Abroad for a online study abroad consultation. Expert guidance for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC. Low marks, backlogs or no IELTS? ILMERA reviews qualifications and explains admission criteria. Call +91 90195 57427."/>
+<meta name="description" content="Contact ILMERA Study Abroad for an online study abroad consultation. Expert guidance for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC. Low marks, backlogs or no IELTS? ILMERA reviews qualifications and explains admission criteria. Call +91 90195 57427."/>
 <meta name="keywords" content="study abroad consultant, study in Germany, Italy scholarship conditions, study in UK, study in Russia without IELTS, study abroad with backlogs, online study abroad consultation, ILMERA Study Abroad, student visa assistance, scholarship guidance, study in Czech Republic, study in Lithuania, study in Latvia, study in Slovakia, GCC education"/>
 <meta name="author" content="ILMERA Study Abroad"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
@@ -40,7 +40,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Contact ILMERA Study Abroad | online Consultation for Germany, Italy, UK, Russia & More"/>
-<meta property="og:description" content="Get a online study abroad consultation with ILMERA. Germany & Italy online education, Russia without IELTS, paths for backlogs & low marks. Call +91 90195 57427."/>
+<meta property="og:description" content="Get an online study abroad consultation with ILMERA. Germany & Italy online education, Russia without IELTS, paths for backlogs & low marks. Call +91 90195 57427."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/contact"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:image:secure_url" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -148,7 +148,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "primaryImageOfPage": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "Contact ILMERA Study Abroad for a online consultation. Study in Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia or GCC. Backlogs and no IELTS welcome.",
+      "description": "Contact ILMERA Study Abroad for an online consultation. Study in Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia or GCC. Backlogs and no IELTS welcome.",
       "inLanguage": "en",
       "breadcrumb": {"@id": "https://ilmerastudyabroad.com/contact#breadcrumb"}
     },
@@ -157,7 +157,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
       "@id": "https://ilmerastudyabroad.com/contact/#contactpage",
       "url": "https://ilmerastudyabroad.com/contact",
       "name": "Contact ILMERA Study Abroad",
-      "description": "Get in touch with ILMERA for a online study abroad consultation: Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC.",
+      "description": "Get in touch with ILMERA for an online study abroad consultation: Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC.",
       "mainEntity": {"@id": "https://ilmerastudyabroad.com/#organization"}
     },
     {

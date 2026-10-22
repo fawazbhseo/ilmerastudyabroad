@@ -8,7 +8,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'ur
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Page Not Found (404) | ILMERA Study Abroad</title>
-<meta name="description" content="That page could not be found. Browse ILMERA Study Abroad's destinations, services and blog, or book a no-charge consultation by phone, WhatsApp or video call."/>
+<meta name="description" content="That page could not be found. Browse ILMERA Study Abroad's destinations, services and blog, or book an online consultation by phone, WhatsApp or video call."/>
 <meta name="robots" content="noindex, follow"/>
 <meta name="theme-color" content="#04060f"/>
 <link rel="icon" type="image/png" href="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -18,7 +18,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'ur
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Page Not Found | ILMERA Study Abroad"/>
-<meta property="og:description" content="That page could not be found. Explore destinations, services and guides, or book a no-charge consultation."/>
+<meta property="og:description" content="That page could not be found. Explore destinations, services and guides, or book an online consultation."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/404"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
@@ -26,7 +26,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'ur
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Page Not Found | ILMERA Study Abroad"/>
-<meta name="twitter:description" content="That page could not be found. Explore destinations, services and guides, or book a no-charge consultation."/>
+<meta name="twitter:description" content="That page could not be found. Explore destinations, services and guides, or book an online consultation."/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
 <!-- Fonts -->
@@ -82,10 +82,10 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <?php ilmera_breadcrumbs($pageTrail, '/404'); ?>
     <span class="err-code">404</span>
     <h1 class="err-h1">This page could not be found</h1>
-    <p class="err-sub">The link may be old or mistyped. Everything about studying in Germany, Italy, the UK, Russia and beyond is one click away, or book a no-charge consultation and ask us directly.</p>
+    <p class="err-sub">The link may be old or mistyped. Everything about studying in Germany, Italy, the UK, Russia and beyond is one click away, or book an online consultation and ask us directly.</p>
     <div class="err-btns">
       <a href="/" class="btn-gold">Back to Home</a>
-      <a href="/contact" class="btn-ghost">Book no-charge Consultation</a>
+      <a href="/contact" class="btn-ghost">Book online Consultation</a>
     </div>
     <span class="err-label">Popular Pages</span>
     <div class="err-links">

@@ -39,7 +39,10 @@ def validate(root,base):
   assert not any(x.get('@type') in ['Offer','Review','AggregateRating','LocalBusiness'] for x in nodes),route
   visible=' '.join(PublishedContent(re.sub(r'<script\b.*?</script>','',text,flags=re.S),include_government_citations=True).parts)
   assert not re.search(r'no[ -]charge|at no cost|non.refundable',visible,re.I),(route,'Unprovided business pricing/refund assertion')
-  if route=='/about':assert visible.count(bio)==1 and 'financial consultant' not in visible
+  assert not re.search(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')
+  if route=='/about':
+   assert visible.count(bio)==1 and 'financial consultant' not in visible
+   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'
   if route=='/services':
    assert 'What ILMERA helps with' in visible and 'What ILMERA does not do' in visible
    assert scope['not_offered'] in visible
