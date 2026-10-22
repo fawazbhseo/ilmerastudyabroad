@@ -21,7 +21,7 @@ country facts, statuses, summaries/provenance and source gates stay intact.
 | 1. Report-only scan and team inventory | done | Ten finding groups, 38 published routes, three complete team inventories; baseline full suite PASS, 91 PHP/43 renders/258 browser |
 | 2. Actual student-charge and partner-payment disclosure | done | Four shared sections/eight FAQs; actual payment facts replace old policy-only text; About/Terms stale amounts wording corrected; full checks PASS; independent exact-section/FAQ-only fee/photo-bio-proof review PASS |
 | 3. Preserve verified team and canonical Person data | done | Original bio HTML/assets preserved; full titles/alts, three canonical Persons and real image URLs; browser verified 18 photo cases; full suite PASS |
-| 4. Registration gate | not started | Both values absent, publish nothing |
+| 4. Registration gate | done | No registration output or identifier; proof bytes unchanged; semantic guard covers all 38 pages and LLMs; full suite PASS |
 | 5. Discovery and entity consistency | not started | Existing generator, published URLs only |
 | 6. Remaining owner inputs | not started | No made-up terms, proof or registration |
 | 7. Bounded full cycles | not started | Maximum four, early stop clean, stop repeated failure twice |

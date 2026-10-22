@@ -24,7 +24,7 @@ for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','tes
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])
 run('authored location overlap',[sys.executable,'tools/check_location_content.py'])
-for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py','check_phase22.py']:
+for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py','check_phase22.py','check_phase23.py']:
  run(name,[sys.executable,'tools/'+name,'--base-url',base])
 manifest={};faq_count=0
 norm=lambda s:' '.join(html.unescape(re.sub('<[^>]+>','',s)).split())
