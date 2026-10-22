@@ -3262,3 +3262,26 @@ is required before final sign-off. No public content change is needed.
 Task 7 completion: after correcting the four-page FAQ count, the entire
 fresh sign-off suite passed, including append-only and line-ending checks.
 This closes the reporting discrepancy only, not any owner/live/source gap.
+
+## Phase 22 scope decisions, 2026-10-22
+
+Owner service answers now replace the earlier unresolved scope questions,
+not official country rules or proof evidence. Report-only Task 1 does not
+change publication. Runtime and test administration are not site changes.
+
+The request to exclude unprovided fee/price/proof figures applies to ILMERA's
+business pricing and proof, not the already sourced destination cost facts
+or the mandatory conditional Italy owner sentence. Those must remain intact.
+Legacy no-charge service-price claims and default refund terms are not
+supported by the final owner answers and are scheduled for replacement with
+an explicit unpublished-terms statement. No new amounts or refund conditions
+will be inferred. Official work/stay facts remain facts, but do not imply
+that ILMERA offers work/stay advice. Remaining old operational service claims
+beyond the final owner scope are scheduled for removal or narrowing.
+
+The approved founder biography will be added to the existing profile and
+Person description without inventing a public evidence URL or filling any
+unprovided proof slot. Other team roles are not newly assigned from the
+founder's responsibilities. No lender recommendation, account-opening,
+appointment-booking, appeal or outcome commitment is inferred. Final source,
+owner, backup-first direct-live and actual delivery blockers remain open.
