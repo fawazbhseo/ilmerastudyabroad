@@ -824,7 +824,8 @@
       "status": "partly answered",
       "basis": "New direct FAQ reuses: Cost article; selection guide sections 1 and 5 and existing fee FAQ.",
       "missing_fact": "Competitor-specific verified charges and evidence for the claimed concealment; a complete owner-approved ILMERA fee schedule is also absent.",
-      "placement": "Added Task 4 visible FAQ with exact FAQPage parity"
+      "placement": "Added Task 4 visible FAQ with exact FAQPage parity",
+      "owner_scope": "Owner confirms a service-fee/payment policy and transparent disclosure of any university/partner payment arrangements. No amounts/terms or receipt/nonreceipt assertion is supplied."
     },
     {
       "id": 19,
@@ -1197,8 +1198,9 @@
       "heading": "10. Independence from sales pressure",
       "status": "gap",
       "basis": "Recommendation checks do not prove competitors' incentives or conduct.",
-      "missing_fact": "Verified competitor-specific commission arrangements and evidence of the claimed steering; do not infer motives from premises or country coverage.",
-      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer"
+      "missing_fact": "Verified competitor-specific commission arrangements and evidence of the claimed steering; do not infer motives from premises or country coverage. Actual ILMERA arrangement/receipt/nonreceipt disclosure is also not supplied; only the policy is confirmed.",
+      "placement": "Existing partial answer or nearest published review location; not a claimed complete answer",
+      "owner_scope": "Owner confirms a service-fee/payment policy and transparent disclosure of any university/partner payment arrangements. No amounts/terms or receipt/nonreceipt assertion is supplied."
     },
     {
       "id": 46,
