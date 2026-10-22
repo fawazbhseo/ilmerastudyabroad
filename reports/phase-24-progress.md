@@ -20,8 +20,8 @@ a source URL or an address comparison. Preserve the original Fawaz asset.
 | --- | --- | --- |
 | 1. Registration and generated references | done | Full rerun PASS, 92 PHP/43 renders/258 browser cases/36 portrait checks/1,278 FAQ interactions; commit `ba0a62c` |
 | 2. Zaheer finance-function bio | done | Full suite PASS 528.04s; exact sentence in About/Home/team/Person/both LLMs/FAQ; commit `57f4e54` |
-| 3. Genuine WebP derivatives | done | Full suite PASS 531.28s; 384 WebP 19,056 bytes, 192 WebP 7,892 bytes; this task commit |
-| 4. Remaining owner inputs | not started | Remove registration request; activity mismatch and optional background |
+| 3. Genuine WebP derivatives | done | Full suite PASS 531.28s; 384 WebP 19,056 bytes, 192 WebP 7,892 bytes; commit `ce62c61` |
+| 4. Remaining owner inputs | done | Full suite PASS 518.10s; supplied registration removed; private owner follow-ups and artifact access guards; this task commit |
 | 5. Bounded full verification | not started | At most three, early clean stop, repeated failure twice stop |
 | 6. Append-only release handoff | not started | All changed pages/files and live/owner limits |
 
@@ -69,3 +69,9 @@ published blog author portraits and two held author portraits retain the
 original asset; its alt alias preserves their existing full alt text. All
 existing social metadata remains unchanged. Render comparison against the
 archived baseline: 38 published changes, five held/utility renders identical.
+
+Task 4 full suite PASS: 92 PHP, 43 renders, 258 browser, 36 portrait
+checks and 1,278 FAQ interactions. Report/tool folder 403s were checked in the
+local adapter; the matching Apache rules still require native verification.
+No published/held page status, root rewrite bytes, address, country fact or
+biography/title/alt changed in this task. Fee and future-feedback inputs remain.

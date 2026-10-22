@@ -1,11 +1,11 @@
-# Remaining owner inputs after Phase 23
+# Remaining owner inputs after Phase 24
 
-Reviewed 2026-10-22 against final owner facts A-F. This supersedes the earlier
-input request, not historical blockers or source gates. Student-charge range,
-additional university fees, actual payments from some partner universities,
-written-policy existence, no-feedback status and the three existing verified
-team photos/bios/titles are now confirmed. Do not request these as missing.
-No number, term, biography, credential, result or registration value is inferred.
+Reviewed 2026-10-22 against the final owner facts. The enterprise name and
+Udyam number are supplied, approved and no longer missing inputs. Public
+registration is limited to the authorized statement, caveat and Organization
+identifier. No certificate file or private certificate fields were published.
+Zaheer's replacement bio uses only the approved CFO/finance-function facts.
+Existing Jabir/Fawaz bios and all title/alt labels are unchanged.
 
 ## 1. Per-service inclusions
 
@@ -48,21 +48,7 @@ Would update: Services, Contact, the selection checklist, cost guide, About
 fee answers, Terms and matching visible/FAQ/LLM text after review. No schema
 pricing, guarantee or placeholder policy is enabled by this report.
 
-## 4. Udyam number AND business name
-
-Both owner values remain missing. Supply the real UDYAM NUMBER and UDYAM
-BUSINESS NAME exactly as the record shows them, with an appropriate safe
-supporting record and publication approval. Neither is inferred from ILMERA's
-brand or group name. If either remains missing, publish nothing about
-ILMERA's registration: no type, label, badge, identifier or missing-value text.
-
-Would turn on: the permitted About and Contact registration line only after
-BOTH values and existing safe-source/approval validation pass a separate
-review. The current registration proof slot is empty. Do not infer government
-approval, endorsement, accreditation, a physical office or a partner link.
-Existing country-authority student-registration notices remain separate facts.
-
-## 5. Future genuine feedback, only when it exists
+## 4. Future genuine feedback, only when it exists
 
 ILMERA is a new consultancy with no student feedback yet and no published
 student reviews. Do not request or invent a current testimonial, rating,
@@ -78,28 +64,55 @@ The choosing guide, Coorg process FAQ and both LLMs would then need an accurate
 updated evidence statement. Do not add Review, aggregateRating or result/count
 schema, and do not infer permission from the mere existence of a video.
 
-## Team: nothing missing under Task 3c
+## 5. Private registration activity correction
 
-All three existing About photos, bio texts and approved titles are present:
-Jabir KJ, Founder; Fawaz BH, Chief Marketing Officer; Zaheer KJ, Chief Financial
-Officer. Owner confirms these are real and verified. All existing photo files
-and bio variants are retained. Canonical Person descriptions use the existing
-card bios, with the real image URLs and no new biography or credential.
-No additional photo/bio is requested and no placeholder is substituted.
+The owner states that the certificate's NIC activity reads accommodation in
+student residences. This does not describe ILMERA's business. The owner should
+ask a CA or check the Udyam portal about updating it. The agent did not publish
+the activity code or copy it into website text, schema or LLM documents. No
+numeric activity code was supplied here, and none is inferred. This is an
+owner-only follow-up, not a description of ILMERA's services.
 
-Fawaz's original image exceeds 300 KB and is recorded in the scan/inventory.
-Preserving it is intentional under the exact-photo instruction. Any future
-optimisation is separate authorized work, not a missing or fake portrait.
-Existing credential/practice claims are listed in PR #1 for re-confirmation;
-no current university-name exception was necessary.
+The certificate file itself is unavailable in this workspace. The existing
+Contact locality has not been changed, and a comparison against the private
+certificate address cannot be performed. No mismatch is asserted. Owner-only
+reports and test tools are denied direct Apache access by directory rules;
+this is configuration, not an independently verified live access-control test.
+
+## 6. Optional Zaheer background
+
+No extra background facts were supplied. His current approved sentence is:
+
+> Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.
+
+Additional background is optional, not a publication blocker for this bio.
+Only owner-supplied facts may be considered later. Do not infer qualifications,
+employers, institutions, awards, experience, personal details or student duties.
+The present title and alt text remain unchanged.
+
+## 7. Confirm existing Fawaz claims
+
+The existing card bio states certifications from Ahrefs Academy and Semrush.
+The About FAQ also states an Advanced Diploma in Digital Marketing from Adrex
+Media School. The owner should confirm that these statements are accurate and
+current. They were not independently verified in Phase 24 and have not been
+rewritten, expanded or used as evidence of service outcomes. No new credential
+or source/profile link has been added. Jabir's existing biography is unchanged.
+
+Fawaz's original portrait is retained byte-for-byte at the same path. Genuine
+384-square and 192-square WebP derivatives are used for team display; original
+social-image metadata remains unchanged. No replacement photo is
+requested.
 
 ## Continuing boundaries
 
-All five optional proof records remain empty and byte-identical to the
-Phase 23 baseline; no activation or validation gate is bypassed. The approved
-existing team/entity data is not an invented proof URL or testimonial record.
-No placement count is authorized. Historical proof-renderer capabilities do
-not authorize prohibited schema. Fee figures remain visible/FAQ text only.
+The exact approved registration record is the sole populated optional proof
+slot. Testimonials, placement count, founder-proof records and fee proof remain
+empty. The private-certificate registration path accepts only the exact owner
+record; generic approval/source/consent validators have not been weakened.
+No placement count or pricing schema is authorized. Historical renderer
+capabilities do not authorize prohibited schema. Fee figures remain visible
+or FAQ text only.
 
 Official admission, language, scholarship/ISEE, APS timing, visa, banking,
 lending, tax and document-issuer requirements need their own current official

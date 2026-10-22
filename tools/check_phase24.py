@@ -85,6 +85,15 @@ def validate_scope(root,base):
 
 def validate(root,base,stage=6):
  validate_scope(root,base)
+ if stage>=4:
+  for folder in ['reports','tools']:
+   assert (root/folder/'.htaccess').read_bytes()==b'# Internal owner evidence and verification artifacts, not website content.\r\nRequire all denied\r\n'
+  for path in ['/reports/owner-inputs-needed.md','/reports/phase-23-team-inventory.json','/tools/check_phase24.py']:
+   assert fetch(base,path)[0]==403,(path,'Internal artifact access')
+  owner=' '.join((root/'reports/owner-inputs-needed.md').read_text().split())
+  assert 'Both owner values remain missing' not in owner and '## 4. Udyam' not in owner
+  for phrase in ['accommodation in student residences','ask a CA','Udyam portal','Optional Zaheer background','Ahrefs Academy and Semrush','Adrex Media School','accurate and','Payment schedule','Refund and cancellation','Future genuine feedback']:
+   assert phrase in owner,('Required owner follow-up',phrase)
  payment=json.loads((root/'data/payment-disclosure.json').read_text());inventory=json.loads((root/'reports/phase-23-team-inventory.json').read_text())['team'];team=json.loads((root/'data/team.json').read_text())['members']
  assert payment['student_charge']=="ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee."
  assert payment['university_payments']=='ILMERA also receives payments from some partner universities.'

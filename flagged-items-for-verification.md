@@ -3444,3 +3444,24 @@ through an explicit original-asset alias; no biography/title/alt is changed.
 No og:image uses that original portrait in any of the 43 rendered routes, so
 there is no such social-image reference to replace. All social metadata stays
 unchanged. Local byte/format/load checks do not establish native live MIME.
+
+### Phase 24 Task 4 private owner follow-ups
+
+The owner-input report no longer requests registration values. It records
+the owner's private activity-description concern for CA/Udyam portal follow-up,
+without a numeric activity code or any certificate file. Optional Zaheer
+background, currentness/accuracy confirmation for the existing Fawaz
+certifications/diploma, fee inclusions/schedule/refund terms and future genuine
+feedback remain owner matters. Existing biography claims are not re-verified
+or expanded by this report.
+
+Reports and test tools are internal artifacts, not public website copy.
+Directory-specific Apache deny rules protect these folders without changing
+the root rewrite file, any published/held page status, discovery or content.
+The Phase 24 local adapter mirrors the report denial to avoid serving internal
+owner notes. Local 403 checks do not prove native Apache access control;
+verify it after authorized live preparation, with backup/restore ready.
+Historical audit inventories and their previous bio strings remain intact,
+not active public biographies. No certificate address comparison is possible
+without the actual private certificate; no address is changed or mismatch
+invented. No new physical contact location is implied.
