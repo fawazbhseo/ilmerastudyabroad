@@ -3403,3 +3403,19 @@ deployment. Preserve earlier official-rule/source blockers and the complete
 backup-first direct-live/all-file-settings restore workflow. Only the owner
 can supply the remaining actual policy details, both registration values and
 future genuine feedback evidence; no missing team photo or bio is requested.
+
+## Phase 24 conservative decisions, 2026-10-22
+
+Only the two owner-transcribed registration values and mandated caveat are
+public. No certificate file is present with this request/workspace. Its private
+address cannot be inspected or compared, so no mismatch is asserted. Existing
+Contact locality is unchanged; PR #1 will state the unavailable comparison.
+
+Private provenance is the exact owner-supplied certificate source statement,
+not a fabricated HTTPS URL. Registration-specific approval accepts only the
+exact authorized record; other proof validation remains unchanged. No review
+date, source text or private certificate field is rendered with registration.
+Existing website audit dates, contact details and country facts are not
+certificate data and remain unchanged. Privacy verification must distinguish
+new registration payload from pre-existing public contact/audit information;
+unknown certificate-private values cannot be independently compared here.

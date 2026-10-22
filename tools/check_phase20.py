@@ -58,7 +58,11 @@ def validate(root,base=None):
  # Phase 22 owner-approved entity description/service fields may differ.
  protected=list((root/'destinations').glob('*.php'))+list((root/'places').glob('*.php'))+[root/p for p in ['phase14-source-review.json','phase14-location-review.json','phase14-article-review.json','phase14-publication-report.md','includes/posts.php','data/proof.php']]
  for path in protected:
-  assert path.read_bytes()==subprocess.check_output(['git','show','ad09f84:'+path.relative_to(root).as_posix()],cwd=root),('Protected data',path)
+  expected_bytes=subprocess.check_output(['git','show','ad09f84:'+path.relative_to(root).as_posix()],cwd=root)
+  if path.relative_to(root).as_posix()=='data/proof.php' and (root/'reports/phase-24-progress.md').exists():
+   from check_phase24 import proof_source
+   expected_bytes=proof_source(root)
+  assert path.read_bytes()==expected_bytes,('Protected data',path)
  # Narrow current-phase exception, not a blanket entity/proof exemption.
  entity_path=root/'data/entity.json'
  original=json.loads(subprocess.check_output(['git','show','ad09f84:data/entity.json'],cwd=root))

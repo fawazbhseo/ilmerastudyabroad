@@ -6,6 +6,7 @@ existing country policy copy, document structure and owner cautions are retained
 """
 import argparse
 import json
+import subprocess
 from html.parser import HTMLParser
 from pathlib import Path
 import re
@@ -203,13 +204,15 @@ def rebuild_team(text, name, root):
     lines.append('Team profiles: https://ilmerastudyabroad.com/about#team. Photos and existing bios are owner-confirmed real and verified; they are not student reviews or results.')
     heading = '## Leadership' if name == 'llms.txt' else '## 2. Leadership Structure'
     text = section(text, heading, '\n\n'.join(lines))
-    # Registered business name was not supplied. Retain the existing brand only.
+    # Keep the existing brand label; registration is a separate gated statement.
     return text.replace('**Legal / brand name:**', '**Brand name:**')
 
 
 def entity_reference(root):
     data = json.loads((root / 'data/entity.json').read_text())
-    return '\n\n---\n\n## Canonical entity reference\n\n' + data['description'] + '\n\n' + '\n'.join('- ' + item for item in data['services']) + '\n\n' + data['countries_note'] + '\n'
+    registration = json.loads(subprocess.check_output(['php', '-r', 'require "includes/proof.php"; echo json_encode(ilmera_registration_public());'], cwd=root))
+    public = '\n\n' + registration['statement'] + '\n\n' + registration['caveat'] if registration else ''
+    return '\n\n---\n\n## Canonical entity reference\n\n' + data['description'] + '\n\n' + '\n'.join('- ' + item for item in data['services']) + '\n\n' + data['countries_note'] + public + '\n'
 
 
 def rebuild_entity(text, root):

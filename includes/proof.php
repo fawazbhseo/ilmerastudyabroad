@@ -17,6 +17,25 @@ function ilmera_proof_approved($record, $fields, $consent = false)
     return true;
 }
 
+/** Private owner provenance: only this exact record, no extra certificate fields. */
+function ilmera_registration_public($data = null)
+{
+    if ($data === null) $data = include dirname(__DIR__) . '/data/proof.php';
+    $expected = [
+        'label' => 'Udyam registration',
+        'value' => 'UDYAM-KR-18-0023330',
+        'approved' => true,
+        'source' => 'Owner-supplied Udyam certificate',
+        'reviewed_on' => '2026-10-22',
+    ];
+    if (($data['registration_details'] ?? null) !== [$expected]) return null;
+    return [
+        'statement' => 'ILMERA Study Abroad is registered under Udyam (MSME), registration number '.$expected['value'].'.',
+        'caveat' => "Udyam registration is a business registration. It does not mean any authority has approved or endorsed ILMERA's services.",
+        'identifier' => ['@type'=>'PropertyValue', 'propertyID'=>'Udyam', 'value'=>$expected['value']],
+    ];
+}
+
 function ilmera_proof_blocks($path, $data = null)
 {
     if ($data === null) $data = include dirname(__DIR__) . '/data/proof.php';
@@ -38,11 +57,12 @@ function ilmera_proof_blocks($path, $data = null)
             $result['founder_description'] = $record['bio'];
         }
     }
-    if (in_array($path, ['/about','/contact'], true)) {
-        foreach ($data['registration_details'] ?? [] as $record) {
-            if (!ilmera_proof_approved($record, ['label','value'])) continue;
-            $blocks[] = '<p>'.$escape($record['label']).': '.$escape($record['value']).'</p>';
-            $result['identifiers'][] = ['@type'=>'PropertyValue','name'=>$record['label'],'value'=>$record['value']];
+    $registration = ilmera_registration_public($data);
+    if ($registration !== null) {
+        // One canonical Organization identifier, independent of the current page.
+        $result['identifiers'][] = $registration['identifier'];
+        if (in_array($path, ['/about','/contact'], true)) {
+            $blocks[] = '<p>'.$escape($registration['statement']).'</p><p>'.$escape($registration['caveat']).'</p>';
         }
     }
     if (in_array($path, ['/services','/contact'], true)) {
