@@ -3344,3 +3344,19 @@ Existing Fawaz bio claims are inventoried for PR re-confirmation; no current
 bio requires an institutional-name exemption. Both Udyam values remain absent:
 publish no business-registration line, number or identifier. Country authority
 registration notices are separate, unchanged destination evidence.
+
+### Phase 23 consistency clarification
+
+Canonical Organization payment copy contains no numeric range. The exact
+approved range is in visible disclosure paragraphs and FAQ answers, including
+explicit Q/A lines in both generated LLM files. No price properties, Offer
+or per-service terms are added. Existing assistance/service lists describe
+general guidance, not contractual tasks included in the charge. Source map
+counts stay conservative: no-feedback status is not performance evidence,
+and actual ILMERA payments do not establish competitor motives.
+
+Both LLM team sections now reuse the existing owner-verified card biographies
+and real image URLs, without editing any biography. The old combined legal/
+brand label is now brand only: a registered business name was not supplied.
+No registration or legal-name inference is made. Existing group/destination
+facts and all original proof/source/status gates remain unchanged.

@@ -189,6 +189,24 @@ def rebuild_scope(text, name, root):
     return text
 
 
+def rebuild_team(text, name, root):
+    """Existing owner-verified identities/bios only, no new credential or person."""
+    path = root / 'data/team.json'
+    if not path.exists():
+        return text
+    members = json.loads(path.read_text())['members']
+    lines = ["ILMERA Study Abroad's existing team:"]
+    for member in members:
+        lines.append('- **' + member['name'] + ', ' + member['jobTitle'] + '.** ' + member['description'] + ' Photo: ' + member['image'])
+    scope = json.loads((root / 'data/service-scope.json').read_text())
+    lines.append(scope['founder_role'])
+    lines.append('Team profiles: https://ilmerastudyabroad.com/about#team. Photos and existing bios are owner-confirmed real and verified; they are not student reviews or results.')
+    heading = '## Leadership' if name == 'llms.txt' else '## 2. Leadership Structure'
+    text = section(text, heading, '\n\n'.join(lines))
+    # Registered business name was not supplied. Retain the existing brand only.
+    return text.replace('**Legal / brand name:**', '**Brand name:**')
+
+
 def entity_reference(root):
     data = json.loads((root / 'data/entity.json').read_text())
     return '\n\n---\n\n## Canonical entity reference\n\n' + data['description'] + '\n\n' + '\n'.join('- ' + item for item in data['services']) + '\n\n' + data['countries_note'] + '\n'
@@ -225,7 +243,7 @@ def main():
         raw = path.read_bytes()
         assert b'\r' not in raw, (name, 'Expected existing LF format')
         before = raw.decode()
-        after = rebuild_scope(rebuild(before, name, entries), name, args.root)
+        after = rebuild_team(rebuild_scope(rebuild(before, name, entries), name, args.root), name, args.root)
         if (args.root / 'data/entity.json').exists():
             after = rebuild_entity(after, args.root)
         validate_llm_text(args.root, name, after)

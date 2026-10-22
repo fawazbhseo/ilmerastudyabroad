@@ -6,5 +6,6 @@
   "policy": "ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site.",
   "before_paying": "Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.",
   "no_feedback": "ILMERA is a new consultancy and has no student feedback yet. There are no published student reviews.",
-  "future_feedback": "Future feedback will be published only with written permission and verified video."
+  "future_feedback": "Future feedback will be published only with written permission and verified video.",
+  "schema_payment_summary": "ILMERA charges the student a service charge on top of the university's own fee. ILMERA also receives payments from some partner universities."
 }

@@ -21,6 +21,7 @@ function ilmera_payment_section($path)
     $d = ilmera_payment_data();
     $html = '<section class="s-wrap article-body payment-disclosure" aria-label="Service charges and how ILMERA is paid"><div class="container" style="max-width:960px;"><h2>Service charges and how ILMERA is paid</h2>';
     foreach (['student_charge','university_payments','policy','before_paying'] as $key) $html .= '<p>'.ilmera_presentation_escape($d[$key]).'</p>';
+    if ($path === '/services') $html .= ilmera_entity_team_visible();
     $entities = [];
     foreach (ilmera_payment_faqs() as $f) {
         $html .= '<details class="il-faq" style="padding:16px 0;"><summary>'.ilmera_presentation_escape($f['question']).'</summary><div><p>'.ilmera_presentation_escape($f['answer']).'</p></div></details>';

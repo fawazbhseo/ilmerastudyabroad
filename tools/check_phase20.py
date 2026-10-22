@@ -4,7 +4,7 @@ import argparse,collections,html,json,pathlib,re,subprocess
 from check_discovery import routes,fetch
 
 def validate(root,base=None):
- map_path=root/('reports/phase-22-map.json' if (root/'reports/phase-22-map.json').exists() else 'reports/phase-20-map.json')
+ map_path=next(root/name for name in ['reports/phase-23-map.json','reports/phase-22-map.json','reports/phase-20-map.json'] if (root/name).exists())
  d=json.loads(map_path.read_text());source=json.loads((root/'reports/strategy-doc-research.json').read_text());seo=json.loads((root/'data/seo-map.json').read_text())
  assert len(source['keywords'])==17 and len(source['prompts'])==50
  assert all(k['volume'] is None and k['difficulty'] is None for k in source['keywords'])
@@ -68,6 +68,9 @@ def validate(root,base=None):
   assert scope['reviewed_on']=='2026-10-22' and len(scope['services'])==8
   expected['description']+=' Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.'
   expected['services']=list(scope['services'].values())
+ if (root/'reports/phase-23-map.json').exists():
+  # Final owner A/B allow only this nonnumeric payment-description addition.
+  expected['description']+=' '+"ILMERA charges the student a service charge on top of the university's own fee. ILMERA also receives payments from some partner universities."
  assert json.loads(entity_path.read_text())==expected,('Only explicitly approved entity scope fields may change',entity_path)
  protected.append(entity_path)
  return dict(published_pages=38,unique_primaries=38,changed_primaries=0,document_fragments=17,prompts=50,prompt_statuses=dict(counts),protected_files=len(protected),destination_and_location_data_unchanged=True)
