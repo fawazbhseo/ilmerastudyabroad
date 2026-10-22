@@ -25,7 +25,7 @@ identifier or placement count is inferred.
 | 3. Page-level scope answers and prompt map | done | Germany, Italy, UK, Lithuania, GCC, cost, documents, scholarships, backlogs, selection; 13 shared visible/schema FAQs added. No official gap falsely closed. Ten-page checkpoint `e4ed4fd` pushed; Coorg scope FAQ and Home/Contact/Terms/blog/shared CTA scope now completed. Final full checks PASS. |
 | 4. Selection guide and existing founder profile | done | Existing About profile and canonical Person use exact bio; founder role/checklist/disclosure updated; full checks PASS |
 | 5. Canonical Organization and LLM generator | done | Single canonical description/eight owner services; existing generator updates both LLMs; exact sentence-only scope exception does not release draft URLs/facts; final full checks PASS |
-| 6. Empty proof and remaining owner inputs | not started | Keep unprovided proof empty |
+| 6. Empty proof and remaining owner inputs | done | All five slots remain empty; owner-inputs-needed.md specifies required fields and affected output without enabling schema; full checks PASS |
 | 7. Bounded repeat cycles | not started | Up to four; stop clean or repeated failure |
 | 8. Append-only handoff and sign-off | not started | Live/owner/source limits retained |
 
