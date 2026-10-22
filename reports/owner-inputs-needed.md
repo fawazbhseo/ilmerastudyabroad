@@ -1,107 +1,109 @@
-# Remaining owner inputs after Phase 22
+# Remaining owner inputs after Phase 23
 
-Reviewed 2026-10-22. This is an input request, not public proof or permission to
-populate a slot. No amounts, testimonial wording, registration identifiers,
-placement figures, payment recipients or additional responsibilities are
-inferred. All five records in `data/proof.php` remain empty and byte-identical
-to the baseline. No placeholder/sample record has been added.
+Reviewed 2026-10-22 against final owner facts A-F. This supersedes the earlier
+input request, not historical blockers or source gates. Student-charge range,
+additional university fees, actual payments from some partner universities,
+written-policy existence, no-feedback status and the three existing verified
+team photos/bios/titles are now confirmed. Do not request these as missing.
+No number, term, biography, credential, result or registration value is inferred.
 
-## 1. Service-fee and payment table
+## 1. Per-service inclusions
 
-The owner confirms that a policy exists and covers inclusions and refunds.
-Detailed amounts and terms are not yet supplied. Provide an approved table
-with these fields for each applicable service:
+Supply the actual written tasks included in each applicable service charge,
+any exclusions, applicable destination/course scope, named responsibility and
+owner approval/effective date. Published general assistance topics are not a
+contractual list of tasks included in a charge. Do not infer inclusions from
+the existing Services assistance list, the charge range or a team biography.
+No example package or hypothetical inclusion record should be populated.
 
-- Exact service label and its relationship to the published assistance scope.
-- Specific included tasks, exclusions and the person responsible.
-- Actual charge and currency, stating which charges belong to ILMERA and which
-  are paid to a third party. Do not combine study costs with counselling fees.
-- Payment milestones, due conditions, accepted payment arrangement and what
-  written confirmation the family receives.
-- Cancellation/refund conditions, exclusions, the request procedure and any
-  applicable agreed timing. No default nonrefund condition is assumed.
-- Effective/review date, owner approval and a safe HTTPS supporting record
-  acceptable to the existing proof checks. Do not expose private documents.
+Would update: Services and Contact disclosure/fee answers, the choosing-
+consultant checklist, the cost guide and matching FAQ/LLM references after
+separate review. Any About/Terms policy references would need matching text.
+No Offer or numeric price schema is authorized. Keep the fee proof slot empty.
 
-Affected: Services, Contact, About fee FAQs, Terms, the choosing-consultant
-checklist, canonical discovery references and both LLM documents. Until the
-complete approved information passes review, they state that detailed fees
-and refund terms are not yet published. No price, Offer, Review or rating
-schema is authorized by this request. Existing source/approval checks are
-necessary but do not themselves grant schema or publication permission.
+## 2. Payment schedule and conditions
 
-## 2. Actual university/partner-payment disclosure
+Supply the actual written payment milestones, due conditions and applicable
+policy version. Confirm how the family identifies the university fee versus
+ILMERA's service charge in the applicable written agreement. The published
+charge range and partner-payment fact do not establish a schedule, collection
+route, payment recipient for a particular invoice or other payment conditions.
+No routing, advance/deposit, instalment or timing is inferred now.
 
-The approved statement is a transparency policy, not a statement of receipt
-or nonreceipt. Supply one publishable sentence stating the actual position:
-whether ILMERA receives any university/partner payment and, if it does, the
-relevant party/type and circumstances to disclose to a family. Supply owner
-approval and a safe supporting record for review. Do not infer an arrangement
-from an unnamed partnership, country coverage or a competitor's practices.
+Would update: the same Services/Contact/selection/cost disclosures and FAQ
+answers, policy references in About/Terms and both generated LLM documents.
+Written source/approval review is still required. Do not create a price field,
+Offer record or unsupported tax/financial advice.
 
-Affected: the choosing-consultant payment row and matching service/discovery
-policy references. No partner list, government affiliation, payment amount,
-ranking or competitor-motive claim follows from the policy alone. No new
-schema type is needed.
+## 3. Refund and cancellation terms
 
-## 3. A genuine testimonial and its publication permission
+Supply the actual written refund/cancellation conditions, exclusions, procedure,
+policy version and owner approval. The owner confirms that a policy covers
+these topics, not what the conditions are. Do not infer a default nonrefund
+rule, a refund entitlement, an amount or a processing time. Until supplied,
+the public text says the policy terms are not yet published and families
+should obtain them in writing before paying.
 
-The owner says feedback and written permission exist; actual publishable
-material has not been supplied. For any proposed item provide the exact
-approved feedback text, the student's approved display name, explicit written
-permission covering this website/public use, a review date and a safe HTTPS
-supporting record. Keep sensitive case information private. Permission is
-not a substitute for authentic feedback or claim verification.
+Would update: Services, Contact, the selection checklist, cost guide, About
+fee answers, Terms and matching visible/FAQ/LLM text after review. No schema
+pricing, guarantee or placeholder policy is enabled by this report.
 
-Affected: the optional About testimonial block and the Coorg/selection-guide
-statements about currently published customer evidence. Nothing renders from
-an empty slot. Do not create Review or aggregateRating schema, ratings,
-student-result counts, incentives, manufactured praise or example feedback.
-Existing authenticity, consent, safe-source and policy gates remain required.
+## 4. Udyam number AND business name
 
-## 4. Registration identification
+Both owner values remain missing. Supply the real UDYAM NUMBER and UDYAM
+BUSINESS NAME exactly as the record shows them, with an appropriate safe
+supporting record and publication approval. Neither is inferred from ILMERA's
+brand or group name. If either remains missing, publish nothing about
+ILMERA's registration: no type, label, badge, identifier or missing-value text.
 
-The owner confirms registration exists, but no publishable details were
-supplied. Provide the exact registration label, identifier/number, the
-relevant official/public record or safe supporting HTTPS record, current
-review date and publication approval. Verify that the identifier describes
-the correct legal entity. Registration is not an office, accreditation,
-partnership, educational recognition or government-affiliation claim.
+Would turn on: the permitted About and Contact registration line only after
+BOTH values and existing safe-source/approval validation pass a separate
+review. The current registration proof slot is empty. Do not infer government
+approval, endorsement, accreditation, a physical office or a partner link.
+Existing country-authority student-registration notices remain separate facts.
 
-Affected: optional About/Contact registration blocks and any matching
-Organization identifier considered after separate approval. No identifier,
-placeholder number, LocalBusiness or physical-location schema is enabled now.
+## 5. Future genuine feedback, only when it exists
 
-## 5. Other publishable team names and responsibilities
+ILMERA is a new consultancy with no student feedback yet and no published
+student reviews. Do not request or invent a current testimonial, rating,
+student count, placement figure, result or past journey. Once genuine feedback
+exists, supply the exact text, approved display name, written publication
+permission, verified video and a safe reviewable evidence/approval record.
+Keep sensitive case details private and review each factual claim. No sample
+feedback or unverifiable third-party account is acceptable.
 
-Confirm the exact publishable name/title of any other team member and the
-specific tasks that person actually handles. Identify who is responsible
-for a particular student's further agreed tasks. No founder status,
-credential, institution, specialist duty or personal history will be inferred.
-The existing nonfounder identity labels are not newly assigned duties.
+Would turn on: an approved About feedback block only after all authenticity,
+permission, verified-video, source and policy gates pass separate review.
+The choosing guide, Coorg process FAQ and both LLMs would then need an accurate
+updated evidence statement. Do not add Review, aggregateRating or result/count
+schema, and do not infer permission from the mere existence of a video.
 
-Jabir KJ is already confirmed as Founder with university research, admissions
-and application-guidance responsibility. His exact approved basic biography
-is in the existing About profile and existing Person description. This does
-not require or invent a verification URL, credential or extra founder proof
-record. The optional founder-proof slot remains empty and its validation is
-unchanged.
+## Team: nothing missing under Task 3c
 
-Affected: existing About team descriptions, Coorg process FAQ, the selection
-checklist and matching existing identity/discovery references. Do not add
-people, founder profiles or credentials from an unsupplied answer.
+All three existing About photos, bio texts and approved titles are present:
+Jabir KJ, Founder; Fawaz BH, Chief Marketing Officer; Zaheer KJ, Chief Financial
+Officer. Owner confirms these are real and verified. All existing photo files
+and bio variants are retained. Canonical Person descriptions use the existing
+card bios, with the real image URLs and no new biography or credential.
+No additional photo/bio is requested and no placeholder is substituted.
 
-## What is deliberately not requested or unlocked
+Fawaz's original image exceeds 300 KB and is recorded in the scan/inventory.
+Preserving it is intentional under the exact-photo instruction. Any future
+optimisation is separate authorized work, not a missing or fake portrait.
+Existing credential/practice claims are listed in PR #1 for re-confirmation;
+no current university-name exception was necessary.
 
-- No placement figure: the owner is unsure and instructed that none be
-  published. Keep the slot null; do not estimate from applications or enquiries.
-- Official eligibility, visa, scholarship, banking, tax and processing rules
-  are not owner-only inputs. Their current official evidence remains separate.
-- Russia/Czech destinations and APS/DSU articles stay draft. Business guidance
-  on those subjects does not release a page or supply its missing rules.
-- Testimonial, placement, registration and fee slots remain empty. No price,
-  Offer, Review, aggregateRating or LocalBusiness output is enabled. Historical
-  proof-renderer capabilities are not permission to use prohibited schema.
-- No direct live upload without a complete live backup and an all-file/settings
-  restore plan. Local tests do not prove Apache behaviour, public HTTP,
-  rankings, performance or successful contact delivery.
+## Continuing boundaries
+
+All five optional proof records remain empty and byte-identical to the
+Phase 23 baseline; no activation or validation gate is bypassed. The approved
+existing team/entity data is not an invented proof URL or testimonial record.
+No placement count is authorized. Historical proof-renderer capabilities do
+not authorize prohibited schema. Fee figures remain visible/FAQ text only.
+
+Official admission, language, scholarship/ISEE, APS timing, visa, banking,
+lending, tax and document-issuer requirements need their own current official
+evidence; they are not owner-only inputs. No held route is released. Direct
+live work still needs a complete backup, all-file/settings restore readiness
+and explicit authorization. Local tests do not prove Apache/public HTTP,
+actual contact delivery, rankings or performance.

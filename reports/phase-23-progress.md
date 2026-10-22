@@ -23,7 +23,7 @@ country facts, statuses, summaries/provenance and source gates stay intact.
 | 3. Preserve verified team and canonical Person data | done | Original bio HTML/assets preserved; full titles/alts, three canonical Persons and real image URLs; browser verified 18 photo cases; full suite PASS |
 | 4. Registration gate | done | No registration output or identifier; proof bytes unchanged; semantic guard covers all 38 pages and LLMs; full suite PASS |
 | 5. Discovery and entity consistency | done | Nonnumeric canonical payment summary, existing team labels and generated bios/images; active Phase 23 map, no factual gap boost; full checks PASS |
-| 6. Remaining owner inputs | not started | No made-up terms, proof or registration |
+| 6. Remaining owner inputs | done | Report now requests only inclusions/schedule/refund terms, both Udyam values and future genuine feedback with permission/video; no missing team item; full suite PASS |
 | 7. Bounded full cycles | not started | Maximum four, early stop clean, stop repeated failure twice |
 | 8. Append-only documentation and release | not started | All changed pages/files and live limits |
 
