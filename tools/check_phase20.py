@@ -54,10 +54,22 @@ def validate(root,base=None):
   for position,(item,(url,label)) in enumerate(zip(graph['itemListElement'],links),1):
    assert item['position']==position and item['item']['name']==label
    assert item['item']['url']=='https://ilmerastudyabroad.com'+url and url in published
- # Stronger than field-level protection: all destination and location data and journals stay byte-identical.
- protected=list((root/'destinations').glob('*.php'))+list((root/'places').glob('*.php'))+[root/p for p in ['phase14-source-review.json','phase14-location-review.json','phase14-article-review.json','phase14-publication-report.md','includes/posts.php','data/proof.php','data/entity.json']]
+ # Destination/place/proof/journal bytes remain protected. Only the explicit
+ # Phase 22 owner-approved entity description/service fields may differ.
+ protected=list((root/'destinations').glob('*.php'))+list((root/'places').glob('*.php'))+[root/p for p in ['phase14-source-review.json','phase14-location-review.json','phase14-article-review.json','phase14-publication-report.md','includes/posts.php','data/proof.php']]
  for path in protected:
   assert path.read_bytes()==subprocess.check_output(['git','show','ad09f84:'+path.relative_to(root).as_posix()],cwd=root),('Protected data',path)
+ # Narrow current-phase exception, not a blanket entity/proof exemption.
+ entity_path=root/'data/entity.json'
+ original=json.loads(subprocess.check_output(['git','show','ad09f84:data/entity.json'],cwd=root))
+ expected=dict(original)
+ if (root/'reports/phase-22-map.json').exists():
+  scope=json.loads((root/'data/service-scope.json').read_text())
+  assert scope['reviewed_on']=='2026-10-22' and len(scope['services'])==8
+  expected['description']+=' Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.'
+  expected['services']=list(scope['services'].values())
+ assert json.loads(entity_path.read_text())==expected,('Only explicitly approved entity scope fields may change',entity_path)
+ protected.append(entity_path)
  return dict(published_pages=38,unique_primaries=38,changed_primaries=0,document_fragments=17,prompts=50,prompt_statuses=dict(counts),protected_files=len(protected),destination_and_location_data_unchanged=True)
 
 if __name__=='__main__':

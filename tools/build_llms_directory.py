@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Maintain published-page LLM entries from actual rendered title/description.
 
-No existing LLM generator preceded Phase 18. Only directory entries are rebuilt;
-the document structure, policy copy and owner caveats remain hand-maintained.
+No existing LLM generator preceded Phase 18. Directory entries and dated owner business scope are rebuilt;
+existing country policy copy, document structure and owner cautions are retained.
 """
 import argparse
 import json
@@ -143,6 +143,38 @@ def validate_directory(text, entries, inventory):
             'blog_articles': sum(r['kind'] == 'blog' for r in entries)}
 
 
+def rebuild_scope(text, name, root):
+    """Owner business scope only; country facts and held routes are untouched."""
+    path = root / 'data/service-scope.json'
+    if not path.exists():
+        return text
+    scope = json.loads(path.read_text())
+    entity = json.loads((root / 'data/entity.json').read_text())
+    assert entity['services'] == list(scope['services'].values())
+    sentences = list(scope['services'].values())
+    boundaries = '\n\n'.join(scope[k] for k in ('not_offered','decisions','finance_limit','fees','disclosure'))
+    if name == 'llms.txt':
+        content = '\n'.join('- [' + sentence + '](https://ilmerastudyabroad.com/services)' for sentence in sentences)
+        text = section(text, '## Core Services', content + '\n\n' + boundaries)
+        text = re.sub(r'^- \*\*Jabir KJ, Founder:\*\*[^\n]*', '- **Jabir KJ, Founder:** ' + scope['founder_role'], text, flags=re.M)
+        text = re.sub(r'(?m)^A: 1\) Book an online consultation[^\n]*', 'A: ' + scope['founder_role'] + ' ILMERA reviews academic qualifications and guides applications, scholarship documents and visa documentation online. These are prospective services, not past student results. ' + scope['decisions'], text)
+        text = re.sub(r'(?m)^A: ILMERA offers a no-charge initial consultation[^\n]*', 'A: ' + scope['fees'] + ' Contact https://ilmerastudyabroad.com/contact for the applicable written scope and terms.', text)
+    else:
+        labels = ['Academic and admissions review','Financial information','Scholarship applications','Study budgets','Visa documents and procedures','Supporting documents','Academic document preparation','Medical-study counselling']
+        content = '\n\n'.join('### 3.' + str(i) + ' ' + label + '\n' + sentence for i,(label,sentence) in enumerate(zip(labels,sentences),1))
+        content += '\n\nOnline counselling is by phone, WhatsApp and video call.\n\n' + boundaries
+        text = section(text, '## 3. Core Service Breakdown', content)
+        text = re.sub(r'^- \*\*Jabir KJ, Founder\.\*\*[^\n]*', '- **Jabir KJ, Founder.** ' + scope['founder_role'], text, flags=re.M)
+        text = re.sub(r'^\*\*Business model:\*\*[^\n]*', '**Business model:** ' + entity['description'], text, flags=re.M)
+    # Retain existing titles, never infer another team member's service duties.
+    text = re.sub(r'(?m)^(- \*\*(?:Fawaz BH|Zaheer KJ),[^\n]*?\*\*)[^\n]*', r'\1', text)
+    text = text.replace(' The founders are from Coorg, Kodagu.', '')
+    text = text.replace("ILMERA's core philosophy is that no student should be left behind: the team works with students who have academic backlogs, low marks, or no IELTS score, matching each profile to a suitable destination and institution.", "ILMERA reviews academic qualifications and admission criteria, including questions about marks, backlogs and English-language evidence.")
+    text = text.replace('ILMERA counsellors provide the current figures at the time a student applies, and official government or university sources should be treated as authoritative for exact current numbers.', 'check current official government or university sources before relying on any figure.')
+    text = text.replace('; no-charge initial consultation', '; detailed fee and refund terms are not yet published')
+    return text
+
+
 def entity_reference(root):
     data = json.loads((root / 'data/entity.json').read_text())
     return '\n\n---\n\n## Canonical entity reference\n\n' + data['description'] + '\n\n' + '\n'.join('- ' + item for item in data['services']) + '\n\n' + data['countries_note'] + '\n'
@@ -171,7 +203,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--base-url', required=True)
     p.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
-    p.add_argument('--write', action='store_true', help='Update only the directory entries in both files')
+    p.add_argument('--write', action='store_true', help='Update rendered directory entries and owner-approved service scope in both files')
     args = p.parse_args()
     entries, inventory = directory_entries(args.base_url, args.root), routes(args.root)
     for name in ('llms.txt', 'llms-full.txt'):
@@ -179,7 +211,7 @@ def main():
         raw = path.read_bytes()
         assert b'\r' not in raw, (name, 'Expected existing LF format')
         before = raw.decode()
-        after = rebuild(before, name, entries)
+        after = rebuild_scope(rebuild(before, name, entries), name, args.root)
         if (args.root / 'data/entity.json').exists():
             after = rebuild_entity(after, args.root)
         validate_llm_text(args.root, name, after)

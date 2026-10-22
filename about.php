@@ -96,7 +96,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
 
-      "description": "ILMERA Study Abroad provides online overseas education counselling for Indian students offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. It helps students with low marks or academic backlogs study abroad, matching each profile to countries and universities that will realistically admit them.",
+      "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.",
       "slogan": "Your Gateway to Global Education",
       "foundingDate": "2026",
       "contactPoint": [
@@ -275,13 +275,6 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
         "availableLanguage": ["English","Kannada","Malayalam","Hindi"],
         "servicePhone": {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service"},
         "serviceUrl": "https://ilmerastudyabroad.com/contact"
-      },
-      "offers": {
-        "@type": "Offer",
-        "name": "online initial consultation",
-        "price": "0",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock"
       },
       "mainEntityOfPage": {"@id": "https://ilmerastudyabroad.com/about#aboutpage"}
     },

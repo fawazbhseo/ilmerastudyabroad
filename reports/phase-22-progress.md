@@ -24,7 +24,7 @@ identifier or placement count is inferred.
 | 2. Services sections and matching FAQs | done | `a58bc9e`; eight scope topics, exclusions, seven exact visible/schema FAQs; ItemList/HowTo aligned; final full suite PASS |
 | 3. Page-level scope answers and prompt map | done | Germany, Italy, UK, Lithuania, GCC, cost, documents, scholarships, backlogs, selection; 13 shared visible/schema FAQs added. No official gap falsely closed. Ten-page checkpoint `e4ed4fd` pushed; Coorg scope FAQ and Home/Contact/Terms/blog/shared CTA scope now completed. Final full checks PASS. |
 | 4. Selection guide and existing founder profile | done | Existing About profile and canonical Person use exact bio; founder role/checklist/disclosure updated; full checks PASS |
-| 5. Canonical Organization and LLM generator | not started | No new profile, price or offer |
+| 5. Canonical Organization and LLM generator | done | Single canonical description/eight owner services; existing generator updates both LLMs; exact sentence-only scope exception does not release draft URLs/facts; final full checks PASS |
 | 6. Empty proof and remaining owner inputs | not started | Keep unprovided proof empty |
 | 7. Bounded repeat cycles | not started | Up to four; stop clean or repeated failure |
 | 8. Append-only handoff and sign-off | not started | Live/owner/source limits retained |
@@ -32,3 +32,20 @@ identifier or placement count is inferred.
 Every completed task receives a fresh full lint/render/browser/discovery/
 strict suite, a commit/push and a PR #1 checkpoint. Results belong to
 phase-22-checks.json, never overwritten into historical Phase 20 results.
+
+### Task 5 semantic verification notes
+
+A new independent checker now tests all 38 published business identities,
+the exact existing Person biography, eight genuine service descriptions,
+unchanged original direct answers/source dates, empty proof/pricing outputs,
+line endings and negative held-content cases. Its initial assertions needed
+two test-authoring corrections: count only ILMERA's identity, not an unrelated
+pre-existing credential issuer; exclude JSON-LD when counting visible bio text.
+No unrelated identity/credential was changed to satisfy those assertions.
+
+The stricter check also exposed an old priced consultation Offer in About and
+a remaining LLM consultation-price line. Both were removed. Page metadata
+normalisation formerly replaced nested Service topics with generic page text;
+identified owner Service nodes now retain their actual approved descriptions.
+The completed full Task 5 suite passed after these fixes. These development
+checks are not represented as clean bounded Task 7 cycles.

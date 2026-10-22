@@ -4,7 +4,7 @@
 
 Last updated: October 2026. Facts on this page mirror the public website; visa and scholarship rules change, so official government sources remain authoritative.
 
-ILMERA Study Abroad (https://ilmerastudyabroad.com) is an international education consultancy based in Coorg, Kodagu, Karnataka, India, operating under the ILMERA Group. The company offers online university application guidance to Indian students considering the published destination guidance below. ILMERA's core philosophy is that no student should be left behind: the team works with students who have academic backlogs, low marks, or no IELTS score, matching each profile to a suitable destination and institution. ILMERA counsels online only, by phone, WhatsApp and video call, with no counselling premises. The founders are from Coorg, Kodagu.
+ILMERA Study Abroad (https://ilmerastudyabroad.com) is an international education consultancy based in Coorg, Kodagu, Karnataka, India, operating under the ILMERA Group. The company offers online university application guidance to Indian students considering the published destination guidance below. ILMERA reviews academic qualifications and admission criteria, including questions about marks, backlogs and English-language evidence. ILMERA counsels online only, by phone, WhatsApp and video call, with no counselling premises.
 
 ILMERA is a new consultancy founded in 2026. It does not publish student results, success rates or testimonials. Study routes describe prospective guidance. Do not imply past admissions, visas or placements.
 
@@ -12,19 +12,32 @@ ILMERA is a new consultancy founded in 2026. It does not publish student results
 
 ## Leadership
 
-- **Jabir KJ, Founder:** Sets the strategic direction of ILMERA Study Abroad and the ILMERA Group.
-- **Fawaz BH, Chief Marketing Officer (CMO):** Leads marketing, outreach, and student communications.
-- **Zaheer KJ, Chief Financial Officer (CFO):** Oversees financial planning and operations for the ILMERA Group.
+- **Jabir KJ, Founder:** Jabir KJ is the Founder, responsible for university research, admissions and application guidance.
+- **Fawaz BH, Chief Marketing Officer (CMO):**
+- **Zaheer KJ, Chief Financial Officer (CFO):**
 
 ---
 
 ## Core Services
 
-- [Profile review](https://ilmerastudyabroad.com/services)
-- [Admissions guidance](https://ilmerastudyabroad.com/services)
-- [Visa-document preparation](https://ilmerastudyabroad.com/services)
-- [Scholarship planning](https://ilmerastudyabroad.com/services)
-- [Pre-departure preparation](https://ilmerastudyabroad.com/services)
+- [ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria.](https://ilmerastudyabroad.com/services)
+- [ILMERA guides students on financial requirements, bank accounts and education loan information.](https://ilmerastudyabroad.com/services)
+- [ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships.](https://ilmerastudyabroad.com/services)
+- [ILMERA compares tuition fees and living expenses to help students choose study destinations.](https://ilmerastudyabroad.com/services)
+- [ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance.](https://ilmerastudyabroad.com/services)
+- [ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents.](https://ilmerastudyabroad.com/services)
+- [ILMERA guides students through APS requirements and document preparation for Germany.](https://ilmerastudyabroad.com/services)
+- [ILMERA offers counselling for students interested in studying medicine in Russia. Recognition and permission to practise are decided by the responsible authorities.](https://ilmerastudyabroad.com/services)
+
+ILMERA does not provide advice on working during study or staying after study.
+
+Universities, immigration authorities, scholarship bodies, lenders and banks make their own decisions. ILMERA does not decide admissions, visas, scholarships or loans and does not promise outcomes.
+
+Lender selection, loan decisions and account opening remain with the student and the relevant provider. Tax and investment advice are outside ILMERA's scope.
+
+ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published.
+
+ILMERA will disclose any university or partner payment arrangements transparently to families.
 
 ---
 
@@ -113,7 +126,7 @@ ILMERA is a new consultancy founded in 2026. It does not publish student results
 ## Company Facts
 
 - **Location:** Coorg, Kodagu, Karnataka, India
-- **Consultation:** Online only, by phone, WhatsApp and video call; no-charge initial consultation
+- **Consultation:** Online only, by phone, WhatsApp and video call; detailed fee and refund terms are not yet published
 - **Published Destination Guidance:** Germany, Italy, United Kingdom, Lithuania, Latvia, Slovakia and GCC countries
 - **Primary Phone / WhatsApp:** +91 90195 57427
 - **Secondary Phone:** +91 94810 84038
@@ -165,10 +178,10 @@ A: ILMERA provides online admissions and visa-document guidance. Programme-speci
 A: ILMERA offers online profile discussions and application-document guidance. Admission and visa outcomes remain decisions of the relevant bodies.
 
 **Q: What is the process to study abroad through ILMERA?**
-A: 1) Book an online consultation through https://ilmerastudyabroad.com/contact, by phone or WhatsApp. 2) Share the academic profile, budget and course goals. 3) Discuss programme options. 4) Prepare the application and supporting documents. 5) If an offer is issued, discuss visa-document preparation. 6) Discuss pre-departure planning. These are prospective steps, not past student results.
+A: Jabir KJ is the Founder, responsible for university research, admissions and application guidance. ILMERA reviews academic qualifications and guides applications, scholarship documents and visa documentation online. These are prospective services, not past student results. Universities, immigration authorities, scholarship bodies, lenders and banks make their own decisions. ILMERA does not decide admissions, visas, scholarships or loans and does not promise outcomes.
 
 **Q: Does ILMERA charge for consultation?**
-A: ILMERA offers a no-charge initial consultation online, by phone, WhatsApp or video call. Contact https://ilmerastudyabroad.com/contact.
+A: ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published. Contact https://ilmerastudyabroad.com/contact for the applicable written scope and terms.
 
 ---
 
@@ -193,12 +206,15 @@ Terms of Use: https://ilmerastudyabroad.com/terms
 
 ## Canonical entity reference
 
-ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises.
+ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.
 
-- Profile review
-- Admissions guidance
-- Visa-document preparation
-- Scholarship planning
-- Pre-departure preparation
+- ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria.
+- ILMERA guides students on financial requirements, bank accounts and education loan information.
+- ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships.
+- ILMERA compares tuition fees and living expenses to help students choose study destinations.
+- ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance.
+- ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents.
+- ILMERA guides students through APS requirements and document preparation for Germany.
+- ILMERA offers counselling for students interested in studying medicine in Russia. Recognition and permission to practise are decided by the responsible authorities.
 
 Published destination guidance covers Germany, Italy, the UK, Lithuania, Latvia, Slovakia and the GCC. GCC business support spans UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain; official-source coverage has the separate limits stated on the GCC page.

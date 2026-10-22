@@ -93,3 +93,12 @@ HowTo service descriptions at baseline `services.php:103-128`. These are
 live service records, unlike the suppressed legacy Organization. They are
 replaced along with the visible cards/process in Task 2, from the approved
 scope data. Existing test success alone was not treated as semantic approval.
+
+### Task 5 schema/pricing backstop
+
+The S10 legacy About pricing finding also included the nested consultation
+Offer at baseline `about.php:279-285`. It carried an unprovided price, despite
+remaining proof slots being empty. Task 5 removes that Offer entirely rather
+than inferring a fee. The remaining old consultation-price line in the short
+LLM Contact section is also removed by the existing generator. Independent
+semantic checks now reject any Offer and any unprovided business-price claim.

@@ -39,7 +39,7 @@ function ilmera_scope_service_schema()
     $labels = ['admissions'=>'Admissions review','finance'=>'Financial information','scholarships'=>'Scholarship guidance','budgets'=>'Cost comparison','visa'=>'Visa-document guidance','documents'=>'Supporting-document guidance','aps'=>'Germany APS guidance','medicine'=>'Russia medicine counselling'];
     $items = [];
     foreach ($d['services'] as $key=>$text) {
-        $items[] = ['@type'=>'ListItem','position'=>count($items)+1,'item'=>['@type'=>'Service','name'=>$labels[$key],'description'=>$text,'provider'=>['@id'=>'https://ilmerastudyabroad.com/#organization']]];
+        $items[] = ['@type'=>'ListItem','position'=>count($items)+1,'item'=>['@type'=>'Service','@id'=>'https://ilmerastudyabroad.com/services#service-'.$key,'name'=>$labels[$key],'description'=>$text,'provider'=>['@id'=>'https://ilmerastudyabroad.com/#organization']]];
     }
     return ['@type'=>'ItemList','name'=>'ILMERA Study Abroad Services','numberOfItems'=>count($items),'itemListElement'=>$items];
 }

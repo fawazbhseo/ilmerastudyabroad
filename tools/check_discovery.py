@@ -185,7 +185,18 @@ def validate_llm_text(root, name, text):
     for route, info in inventory.items():
         if info['status'] == 'draft':
             assert not re.search(re.escape(HOST + route) + r'(?:[)#?\s]|$)', text), (name, 'Draft URL', route)
-    assert not re.search(r'\b(?:Czech Republic|Russia|Russian|APS|DSU)\b', text, re.I), (name, 'Unpublished destination/article information')
+    policy_text = text
+    scope_path = root / 'data/service-scope.json'
+    if scope_path.exists() and (root / 'reports/phase-22-map.json').exists():
+        scope = json.loads(scope_path.read_text())
+        assert scope['reviewed_on'] == '2026-10-22'
+        # Exempt only exact owner-confirmed business sentences, never a section,
+        # arbitrary country prose, a partial match or a withheld route URL.
+        approved = list(scope['services'].values())
+        approved.append(json.loads((root / 'data/entity.json').read_text())['description'])
+        for sentence in approved:
+            policy_text = policy_text.replace(sentence, '')
+    assert not re.search(r'\b(?:Czech Republic|Russia|Russian|APS|DSU)\b', policy_text, re.I), (name, 'Unpublished destination/article information')
     return {'content_policy': 'PASS', 'italy_exact_occurrences': check_parts([text]),
             'online_only': True, 'gcc_scope_parity': True, 'draft_information_absent': True}
 

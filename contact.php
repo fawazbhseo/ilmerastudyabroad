@@ -94,7 +94,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
         "height": 512
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, offering online consultations, university admissions, student visa assistance, scholarship guidance, language test preparation and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. ILMERA works with students who have low marks, academic backlogs or no IELTS score, matching each profile to countries and universities that will realistically admit them.",
+      "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.",
       "slogan": "Your Gateway to Global Education",
       "telephone": "+919019557427",
       "email": "info@ilmerastudyabroad.com",
@@ -108,7 +108,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Contact', 'url' => '
       },
       "areaServed": ["Germany","Italy","United Kingdom","Czech Republic","Lithuania","Latvia","Slovakia","Russia","Saudi Arabia","UAE","Kuwait","Qatar","Bahrain","Oman","India"],
       "knowsAbout": ["University Admissions","Student Visa","Study Abroad Scholarships","IELTS Alternatives","Study cost planning in Europe","Study Abroad with Backlogs"],
-      "serviceType": ["University Admissions Counselling","Student Visa Assistance","Scholarship Guidance","Language Test Preparation","Pre-Departure Briefings","Financial and Document Guidance"],
+      "serviceType": ["ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria.", "ILMERA guides students on financial requirements, bank accounts and education loan information.", "ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships.", "ILMERA compares tuition fees and living expenses to help students choose study destinations.", "ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance.", "ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents.", "ILMERA guides students through APS requirements and document preparation for Germany.", "ILMERA offers counselling for students interested in studying medicine in Russia. Recognition and permission to practise are decided by the responsible authorities."],
       "sameAs": [
         "https://www.instagram.com/ilmera.studyabroad",
         "https://www.linkedin.com/company/ilmerastudyabroad"

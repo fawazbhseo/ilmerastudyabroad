@@ -13,7 +13,8 @@ function ilmera_presentation_graph($node, $entry)
     $type = $node['@type'] ?? '';
     if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#organization' && $type === 'Organization') return ['@id'=>'https://ilmerastudyabroad.com/#organization'];
     if (($node['@id'] ?? '') === 'https://ilmerastudyabroad.com/#jabir' && $type === 'Person') return ['@id'=>'https://ilmerastudyabroad.com/#jabir'];
-    if (in_array($type, ['WebPage', 'Article', 'BlogPosting', 'Service'], true)) {
+    $scopeService = $type === 'Service' && strpos($node['@id'] ?? '', 'https://ilmerastudyabroad.com/services#service-') === 0;
+    if (!$scopeService && in_array($type, ['WebPage', 'Article', 'BlogPosting', 'Service'], true)) {
         $node['description'] = $entry['description'];
         if (in_array($type, ['WebPage','Article','BlogPosting'], true) && in_array($entry['kind'], ['destination','article'], true)) $node['dateModified'] = '2026-10-16';
         if (isset($node['name'])) $node['name'] = $entry['title'];

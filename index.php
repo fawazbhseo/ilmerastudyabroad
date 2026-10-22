@@ -71,7 +71,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
         "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-      "description": "ILMERA Study Abroad provides online academic review, admissions/application guidance, financial information and scholarship and visa-document guidance for Indian students.",
+      "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.",
             "email": "info@ilmerastudyabroad.com",
       "telephone": "+91-9019557427",
 
@@ -81,7 +81,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
       ],
       "areaServed": ["Germany","Italy","United Kingdom","Czech Republic","Lithuania","Latvia","Slovakia","Russia","Saudi Arabia","UAE","Kuwait","Qatar","Bahrain","Oman","India","Karnataka","Kodagu","Coorg"],
       "knowsAbout": ["University Admissions","Student Visas","Scholarships","IELTS Preparation","Study Abroad without IELTS","European study cost planning","Study Abroad with Backlogs"],
-     "serviceType": ["University Admissions Counselling","Student Visa Assistance","Scholarship Guidance","Language Test Preparation","Pre-Departure Briefings","Career Counselling Abroad","Online Study Abroad Counselling"],
+     "serviceType": ["ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria.", "ILMERA guides students on financial requirements, bank accounts and education loan information.", "ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships.", "ILMERA compares tuition fees and living expenses to help students choose study destinations.", "ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance.", "ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents.", "ILMERA guides students through APS requirements and document preparation for Germany.", "ILMERA offers counselling for students interested in studying medicine in Russia. Recognition and permission to practise are decided by the responsible authorities."],
       "availableChannel": {
         "@type": "ServiceChannel",
         "serviceType": "Phone, WhatsApp and video call counselling",

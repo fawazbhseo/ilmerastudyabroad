@@ -2,7 +2,7 @@
   "name": "ILMERA Study Abroad",
   "url": "https://ilmerastudyabroad.com/",
   "logo": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
-  "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises.",
+  "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.",
   "areaServed": [
     {
       "@type": "Country",
@@ -19,11 +19,14 @@
     "https://www.linkedin.com/company/ilmerastudyabroad"
   ],
   "services": [
-    "Profile review",
-    "Admissions guidance",
-    "Visa-document preparation",
-    "Scholarship planning",
-    "Pre-departure preparation"
+    "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria.",
+    "ILMERA guides students on financial requirements, bank accounts and education loan information.",
+    "ILMERA helps students identify scholarships and guides them through applications and required documents, including Italy DSU scholarships.",
+    "ILMERA compares tuition fees and living expenses to help students choose study destinations.",
+    "ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance.",
+    "ILMERA guides students on obtaining income certificates, MOI letters and other supporting documents.",
+    "ILMERA guides students through APS requirements and document preparation for Germany.",
+    "ILMERA offers counselling for students interested in studying medicine in Russia. Recognition and permission to practise are decided by the responsible authorities."
   ],
   "countries_note": "Published destination guidance covers Germany, Italy, the UK, Lithuania, Latvia, Slovakia and the GCC. GCC business support spans UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain; official-source coverage has the separate limits stated on the GCC page."
 }
