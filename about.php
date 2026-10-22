@@ -316,7 +316,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "How much does ILMERA Study Abroad charge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published."
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge."
           }
         },
         {
@@ -332,7 +332,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Where can I check the consultation terms?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published."
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge."
           }
         }
       ]
@@ -605,7 +605,7 @@ img{max-width:100%;height:auto;}
       <div class="val-node"><div class="val-circle">1</div><span class="val-label">Integrity</span><span class="val-desc">Honest guidance, always</span></div>
       <div class="val-node"><div class="val-circle">2</div><span class="val-label">Student-First</span><span class="val-desc">Every decision serves the student</span></div>
       <div class="val-node"><div class="val-circle">3</div><span class="val-label">Excellence</span><span class="val-desc">Uncompromising quality in all we do</span></div>
-      <div class="val-node"><div class="val-circle">4</div><span class="val-label">Transparency</span><span class="val-desc">No hidden fees, no surprises</span></div>
+      <div class="val-node"><div class="val-circle">4</div><span class="val-label">Transparency</span><span class="val-desc">Ask for written policy terms</span></div>
            <div class="val-node"><div class="val-circle">5</div><span class="val-label">Access</span><span class="val-desc">Same guidance in Kodagu as in Bangalore</span></div>
 
     </div>
@@ -701,11 +701,11 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. Its existing team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>
 
-      <details class="il-faq"><summary>Where can I check the consultation terms?</summary><div><p>ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published.</p></div></details>
+      <details class="il-faq"><summary>Where can I check the consultation terms?</summary><div><p>ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.</p></div></details>
 
       <details class="il-faq"><summary>How does ILMERA provide online counselling?</summary><div><p>ILMERA offers online counselling only, by phone, WhatsApp and video call, without any counselling premises.</p></div></details>
 
-      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published.</p></div></details>
+      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.</p></div></details>
 
     </div>
   </div>

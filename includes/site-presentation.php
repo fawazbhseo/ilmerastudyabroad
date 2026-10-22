@@ -1,6 +1,7 @@
 <?php
 require_once __DIR__ . '/entity.php';
 require_once __DIR__ . '/proof.php';
+require_once __DIR__ . '/payment-disclosure.php';
 /** Reviewed presentation overlays. Publication data and its source gates stay intact. */
 function ilmera_presentation_escape($text)
 {
@@ -115,6 +116,7 @@ function ilmera_present_page($html)
         $html = preg_replace('~(<p class="direct-answer">.*?</p>)~s', '$1'.$link($cta[0]), $html, 1);
         $html = str_replace('</main>', '<section class="s-wrap article-body"><div class="container">'.$link($cta[1]).'</div></section></main>', $html);
     }
+    if (in_array($path, ilmera_payment_pages(), true)) $html = str_replace('</main>', ilmera_payment_section($path).'</main>', $html);
     $imageIndex = 0;
     $html = preg_replace_callback('~<img\b[^>]*>~i', static function($match) use (&$imageIndex) {
         $tag = $match[0];

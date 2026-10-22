@@ -166,6 +166,20 @@ def rebuild_scope(text, name, root):
         text = section(text, '## 3. Core Service Breakdown', content)
         text = re.sub(r'^- \*\*Jabir KJ, Founder\.\*\*[^\n]*', '- **Jabir KJ, Founder.** ' + scope['founder_role'], text, flags=re.M)
         text = re.sub(r'^\*\*Business model:\*\*[^\n]*', '**Business model:** ' + entity['description'], text, flags=re.M)
+    payment_path = root / 'data/payment-disclosure.json'
+    if payment_path.exists():
+        payment = json.loads(payment_path.read_text())
+        text = text.replace('Does ILMERA charge for consultation?', 'Where can families ask for written service-fee terms?')
+        text = re.sub(r'(?m)^A: ILMERA has a (?:written )?service-fee and payment policy[^\n]*', 'A: ' + scope['fees'] + ' Contact https://ilmerastudyabroad.com/contact.', text)
+        text = text.replace('detailed fee and refund terms are not yet published', 'per-service policy terms are not yet published')
+        # Numeric owner range is FAQ text only, not company/schema descriptions.
+        faq = '**Q: Does ILMERA charge a fee?**\nA: ' + payment['student_charge'] + ' ' + payment['policy'] + ' ' + payment['before_paying']
+        faq += '\n\n**Q: Does ILMERA receive payments from universities?**\nA: ' + payment['university_payments']
+        heading = '## Core Services' if name == 'llms.txt' else '## 3. Core Service Breakdown'
+        start = text.index(heading) + len(heading)
+        end = text.index('\n---\n', start)
+        text = text[:end].rstrip() + '\n\n' + payment['no_feedback'] + ' ' + payment['future_feedback'] + '\n\n' + faq + '\n' + text[end:]
+
     # Retain existing titles, never infer another team member's service duties.
     text = re.sub(r'(?m)^(- \*\*(?:Fawaz BH|Zaheer KJ),[^\n]*?\*\*)[^\n]*', r'\1', text)
     text = text.replace(' The founders are from Coorg, Kodagu.', '')

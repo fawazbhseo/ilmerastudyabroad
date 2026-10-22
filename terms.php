@@ -140,7 +140,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ul>
 
       <h2>5. Fees and Payments</h2>
-      <p>ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published. Ask for the applicable written scope, charges and refund terms before agreeing to a service. No fee amount or default refund condition is stated here.</p>
+      <p>ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA also receives payments from some partner universities. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge. Ask for the applicable written scope, charges and refund terms before agreeing to a service. No unpublished inclusions, payment schedule or refund conditions are stated here.</p>
 
       <h2>6. Third-Party Institutions</h2>
       <p>ILMERA facilitates connections with universities, scholarship programmes, and visa authorities but is not responsible for the actions, policies, fees, or decisions of these third parties. Tuition fees, scholarship terms, visa rules, and admission criteria are set by the respective institutions and government authorities and may change at any time. We recommend verifying critical details directly with the relevant institution or official government source before making final decisions.</p>

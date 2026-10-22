@@ -19,7 +19,7 @@ country facts, statuses, summaries/provenance and source gates stay intact.
 | Task | Status | Evidence / checkpoint |
 | --- | --- | --- |
 | 1. Report-only scan and team inventory | done | Ten finding groups, 38 published routes, three complete team inventories; baseline full suite PASS, 91 PHP/43 renders/258 browser |
-| 2. Actual student-charge and partner-payment disclosure | not started | Visible/FAQ only, no price schema, fee proof empty |
+| 2. Actual student-charge and partner-payment disclosure | done | Four shared sections/eight FAQs; actual payment facts replace old policy-only text; About/Terms stale amounts wording corrected; full checks PASS; independent exact-section/FAQ-only fee/photo-bio-proof review PASS |
 | 3. Preserve verified team and canonical Person data | not started | Existing files/bios only; title/alt requirements |
 | 4. Registration gate | not started | Both values absent, publish nothing |
 | 5. Discovery and entity consistency | not started | Existing generator, published URLs only |
@@ -31,3 +31,5 @@ Each completed task gets a full lint/render/browser/discovery/strict suite,
 commit/push and PR #1 checkpoint. Each ten-page long-task checkpoint must be
 recorded. Task-level results are separate from the bounded Task 7 cycles.
 No main push, merge, deployment, form submission or external account.
+
+Task 2 directly affects eight HTML routes plus both LLMs, below a ten-page HTML batch. Shared presentation changes are atomic component updates, not individual page rewrites. Bios and every photo byte remain unchanged.

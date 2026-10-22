@@ -14,8 +14,9 @@
   "not_offered": "ILMERA does not provide advice on working during study or staying after study.",
   "decisions": "Universities, immigration authorities, scholarship bodies, lenders and banks make their own decisions. ILMERA does not decide admissions, visas, scholarships or loans and does not promise outcomes.",
   "finance_limit": "Lender selection, loan decisions and account opening remain with the student and the relevant provider. Tax and investment advice are outside ILMERA's scope.",
-  "fees": "ILMERA has a service-fee and payment policy covering service inclusions and refund terms. Detailed amounts, payment conditions and refund terms are not yet published.",
-  "disclosure": "ILMERA will disclose any university or partner payment arrangements transparently to families.",
+  "fees": "ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.",
+  "disclosure": "ILMERA also receives payments from some partner universities.",
   "founder_role": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance.",
-  "founder_bio": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities."
+  "founder_bio": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+  "phase23_payment_basis": "Owner final facts A-D, 2026-10-22; range is in payment-disclosure.json, not service/schema descriptions."
 }

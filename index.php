@@ -482,7 +482,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <article class="why-card reveal">
         <svg class="why-icon" viewBox="0 0 48 48" fill="none"><polygon points="24,4 29,18 44,18 32,27 37,42 24,33 11,42 16,27 4,18 19,18" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="24" cy="24" r="5" fill="currentColor" opacity="0.25"/></svg>
                 <h3>Personalised, Honest Guidance</h3>
-        <p>Every student gets a counsellor who maps their exact marks, budget and goals to the right country and university, and tells them honestly when a route won't work. No false promises, no hidden agents.</p>
+        <p>Every student gets a counsellor who maps their exact marks, budget and goals to the right country and university, and tells them honestly when a route won't work. Ask for the written scope and payment disclosure before paying.</p>
       </article>
     </div>
   </div>
