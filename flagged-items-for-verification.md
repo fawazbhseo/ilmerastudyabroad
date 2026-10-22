@@ -3370,3 +3370,36 @@ native live headers/MIME acceptance. Preserve its name/bytes as explicitly
 required; no silent re-encode, rename or server-setting change. Future media
 optimisation/MIME review is separate authorized work. Required checks pass;
 no claim that every asset is under the file-size budget or optimised.
+
+
+## Phase 23 final handoff, 2026-10-22
+
+Final owner A-F replace old policy-only/unknown-payment and feedback statements,
+not historical source/live blockers. Actual student-charge range and some
+partner-university receipts are now disclosed, without naming a university,
+claiming price competitiveness or inventing fee routing. Range appears only
+in visible/FAQ text, including explicit LLM Q/A. No price properties or Offer
+schema; fee proof and all other proof slots stay empty. General service scope
+is not a contractual list of fee inclusions. Written terms must be requested
+before paying; inclusions, schedule and refund conditions are still absent.
+
+All three existing team photos/bios/titles are owner-confirmed real and
+verified, not placeholders. Original bytes and bio variants remain exact;
+full title labels/alt and existing canonical Persons are aligned. No new
+biography, credential, profile URL, founder or institutional-name exception.
+The PR lists existing bio claims for re-confirmation. Fawaz's size/format
+exception is preserved and reported; no silent asset or MIME change.
+
+Neither Udyam number nor business name is supplied. Publish nothing about
+ILMERA business registration, no partial label, identifier or missing-value
+placeholder. No current student feedback exists; future publication needs
+written permission, verified video and existing authenticity/source approval.
+No rating, review schema, placement estimate, student count, award or result.
+
+All required local checks pass, not live deployment clearance. Native Apache,
+public raw HTTP, real enquiry delivery, complete live backup/restore readiness
+and live asset MIME acceptance remain unverified. No main push, merge or
+deployment. Preserve earlier official-rule/source blockers and the complete
+backup-first direct-live/all-file-settings restore workflow. Only the owner
+can supply the remaining actual policy details, both registration values and
+future genuine feedback evidence; no missing team photo or bio is requested.

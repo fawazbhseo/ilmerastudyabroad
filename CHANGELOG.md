@@ -1350,3 +1350,38 @@ and affected routes. No main push, merge, deployment, form submission,
 external account, ranking or live-delivery proof. Backup-first live, native
 Apache/public HTTP, actual delivery, official-source gaps and missing owner
 proof remain separate. Older blockers are retained, not rewritten.
+
+
+## Phase 23, 2026-10-22: actual payments and preserved verified team
+
+Completed eight tasks: report-only fee/payment/team scan; actual student-charge
+and partner-payment disclosures with exact FAQs; preservation of all three
+verified portraits/bios and three canonical image-bearing Persons; absent-
+registration gate; existing-generator discovery consistency; remaining owner
+inputs; one clean bounded required-check cycle; append-only release handoff.
+
+Four requested pages now share the same disclosure and eight new visible/
+FAQ schema pairs. Amounts are visible/FAQ text only; no price/Offer schema or
+fee proof record. Written policy exists, but no inclusions, schedule, refund
+conditions or routing are inferred. The consultant checklist separates general
+assistance from fee inclusions and states new/no-feedback status, with written
+permission and verified video required for future feedback. No result or
+business-registration output is enabled. Neither Udyam value was supplied.
+
+All original photo bytes and existing About/Home bio variants are preserved.
+Titles/alt text now match approved full titles. Fawaz's large original and
+PNG-content/.webp-name exception are reported, not silently changed. No
+placeholder, new biography, credential, university-name exemption or founder
+is added. One Person per member uses real image URLs and existing card bios.
+
+Canonical nonnumeric payment/team facts match generated LLMs, visible output
+and schema. Source/status/proof/summary/provenance/destination metadata gates
+remain unchanged; earlier maps are retained. Prompt counts remain 6 answered,
+15 partial and 29 gaps, not improved by missing performance or official proof.
+
+Fresh checks and cycle evidence: reports/phase-23-checks.json and
+phase-23-cycles.md. Full inventory/readiness: phase-23-release-check.md.
+All required local checks pass; local PHP WASM/Chromium is not live Apache,
+public HTTP, asset MIME, performance or enquiry-delivery proof. No main push,
+merge, deployment, form submission, outreach, account or server-setting change.
+Backup-first direct-live and all-file/settings restore requirements remain.
