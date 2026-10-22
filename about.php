@@ -203,7 +203,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "givenName": "Fawaz",
       "jobTitle": "CMO",
       "description": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs the consultancy FawazBHSEO and leads ILMERA's search and content strategy.",
-      "image": "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
+      "image": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
       "url": "https://fawazbhseo.in",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "hasCredential": [
@@ -661,7 +661,7 @@ img{max-width:100%;height:auto;}
         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
             <article class="team-card">
-        <div class="team-avatar"><img src="/assets/images/fawazbh.webp" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
+        <div class="team-avatar"><img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="88px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
         <div class="team-role">Chief Marketing Officer</div>
         <p class="team-bio"><strong>Fawaz BH is CMO at ILMERA Study Abroad</strong> and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);text-decoration:underline;">fawazbhseo.in</a>, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.</p>

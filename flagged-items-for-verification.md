@@ -3431,3 +3431,16 @@ evidence, not as active biographies. Owner-only reports/test tools will receive
 directory access restrictions with the owner-input report task. An unchanged
 general About sentence about asking who is responsible for written tasks is
 not Zaheer's placeholder and has not been removed.
+
+### Phase 24 Task 3 portrait scope
+
+The genuine WebP derivatives are 384 square (19,056 bytes) and 192 square
+(7,892 bytes), quality 82, whole-square resizing only. The 1,541,656-byte
+original PNG under its existing WebP filename is untouched. About/Home team
+src/srcset and canonical Person/generated LLM photo URLs use the derivatives.
+Existing blog author portraits keep the original asset, as they are outside
+the requested team-image replacement. Their original full alt labels remain
+through an explicit original-asset alias; no biography/title/alt is changed.
+No og:image uses that original portrait in any of the 43 rendered routes, so
+there is no such social-image reference to replace. All social metadata stays
+unchanged. Local byte/format/load checks do not establish native live MIME.

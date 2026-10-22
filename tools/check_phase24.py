@@ -127,7 +127,12 @@ def validate(root,base,stage=6):
  if stage>=2:expected_team['members'][2]['description']=ZAHEER
  if stage>=3:expected_team['members'][1]['image']='https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp'
  assert json.loads((root/'data/team.json').read_text())==expected_team
+ presentation=old(root,'includes/site-presentation.php')
  if stage>=3:
+  presentation=presentation.replace(b"if ($imagePath !== parse_url($member['image'], PHP_URL_PATH)) continue;",b"if ($imagePath !== parse_url($member['image'], PHP_URL_PATH) && !($member['name'] === 'Fawaz BH' && $imagePath === '/assets/images/fawazbh.webp')) continue;")
+ assert (root/'includes/site-presentation.php').read_bytes()==presentation,'Only the original-portrait alt alias is authorized'
+ if stage>=3:
+  assert subprocess.run(['python3','tools/phase24/build_portraits.py'],cwd=root,capture_output=True).returncode==0,'Derivative reproduction'
   from PIL import Image
   for width in [192,384]:
    path=root/f'assets/images/fawazbh-{width}.webp';data=path.read_bytes()

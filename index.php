@@ -117,7 +117,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/']];
           "name": "Fawaz BH",
           "jobTitle": "CMO",
           "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-          "image": "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
+          "image": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
           "url": "https://fawazbhseo.in",
           "sameAs": ["https://fawazbhseo.in"]
         },
@@ -636,7 +636,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
         </a>
       </article>
       <article class="testi-card reveal-r" itemscope itemtype="https://schema.org/Person">
-        <img src="/assets/images/fawazbh.webp" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/>
+        <img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="96px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/>
         <div class="testi-name" itemprop="name"><a href="https://fawazbhseo.in" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.5);" itemprop="url">Fawaz BH</a></div>
         <div class="testi-dest" itemprop="jobTitle">Chief Marketing Officer</div>
         <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Drives ILMERA's digital presence and helps students find clear, honest information about their study-abroad options.</p>
