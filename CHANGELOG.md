@@ -1480,3 +1480,8 @@ push, merge, upload, enquiry submission, account or outreach action.
 ## 2026-10-23 - Phase 25 Stage 1 task 1
 
 Report-only reference audit, exhaustive tokens/uses and template/scene/team inventory; all-route immutable render baseline; local Lighthouse samples and 360/768/1280 screenshots. No public site source changed. Full current syntax/render/browser/discovery/strict suite passed (662.30s). Local mirrors are not field or native-hosting evidence. Stage 2 is not authorized.
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 2
+
+Shared reference-token visual system, pure opt-in presentation hook and locally licensed existing font families. Four-route allowlist remains OFF until pilot application. No current render, content, schema, internal link, reference request or publication change. Full suite PASS (556.79s); all 43 default renders byte-identical.

@@ -21,6 +21,7 @@ checks['PHP syntax']={'status':'PASS','files':len(files),'runtime':'PHP 8.5 WASM
 print('PASS PHP syntax',len(files),flush=True)
 for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','test_llm_directory.py','test_llm_policy.py','test_presence.py','test_wording.py','test_team_bio_policy.py']:
  run(name,[sys.executable,'tools/'+name])
+if a.stage>=2:run('visual opt-in and local-font policy',['php','tools/phase25/test_visual.php'])
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])
 if a.stage>=1:run('access policy patterns, not native engine',[sys.executable,'tools/test_public_exposure.py'])
@@ -65,7 +66,7 @@ for i,(path,info) in enumerate(routes(ROOT).items()):
 checks['render schema and strict policy']={'status':'PASS','routes':len(manifest),'faq_pairs':faq_count,'faq_exact_visible_schema_parity':True}
 print('PASS fresh renders/schema/wording',len(manifest),flush=True)
 run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
-run('browser',['node','tools/phase24b/browser.cjs',str(a.evidence),'5'])
+run('browser',['node','tools/phase25/browser.cjs',str(a.evidence),'5'])
 # Full rendered main overlap, matching the established five-token coverage method.
 from check_location_content import inspect
 raw=subprocess.check_output(['php','-r','$o=[];foreach(glob("places/*.php") as $f){$d=include $f;$o[$d["slug"]]=$d;}echo json_encode($o);'],cwd=ROOT)

@@ -31,3 +31,11 @@ Phase25 guard replaces historical Phase24b source-transform expectations with
 immutable Phase24b blob checks, exact authorized card transforms, all-43-route
 word/link/image/JSON-LD parity, and strict pilot route allowlisting. Historical
 Phase24b tools/evidence remain intact. No tests are silently skipped.
+
+Bundled pilot font assets: `@fontsource-variable/outfit@5.2.8` and
+`@fontsource-variable/cormorant-garamond@5.2.6`, Latin normal variable woff2,
+original OFL license notices alongside. No new font family or blocking stylesheet.
+`pngjs@7.0.0` stitches screenshots; lossless RGB PNG recompression preserves pixels.
+Phase25 browser checks programmatically finish finite transitions before checking
+end-state geometry. The same route/viewport/JS/FAQ/photo assertions are retained;
+this avoids spending wall-clock time on every closing FAQ transition.

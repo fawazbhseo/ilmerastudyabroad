@@ -71,7 +71,7 @@ def validate(root,base,stage,baseline):
  if stage>=5:assert set(changed)==PILOTS|{'/','/about'},changed
  existing=set(subprocess.check_output(['git','ls-tree','-r','--name-only',BASE],cwd=root,text=True).splitlines())
  current=set(subprocess.check_output(['git','ls-files'],cwd=root,text=True).splitlines())|set(subprocess.check_output(['git','ls-files','--others','--exclude-standard'],cwd=root,text=True).splitlines())
- allowed={'includes/visual-system.php','includes/visual-config.php','assets/css/visual-system.css'} if stage>=2 else set()
+ allowed={'includes/visual-system.php','includes/visual-config.php','assets/css/visual-system.css','assets/fonts/outfit-latin.woff2','assets/fonts/cormorant-garamond-latin.woff2','assets/fonts/outfit-OFL.txt','assets/fonts/cormorant-garamond-OFL.txt'} if stage>=2 else set()
  if stage>=4:allowed|={'assets/js/hero-still.js','assets/images/hero-still-720.webp','assets/images/hero-still-1440.webp'}
  extras={f for f in current-existing if not f.startswith(('reports/','tools/'))}
  assert extras<=allowed,('Unexpected public source/asset',extras-allowed)
@@ -86,7 +86,7 @@ def validate(root,base,stage,baseline):
   css=(root/'assets/css/visual-system.css').read_text()
   assert {expand(h.lower()) for h in re.findall(r'#[\da-fA-F]{3,8}\b',css)}<=palette,'New colour outside reference palette'
   assert set(re.findall(r'border-radius:([^;}]+)',css))<={'3px','12px','0','inherit'},'More than two new component radii'
-  assert set(re.findall(r"font-family:([^;}]+)",css))<={"'Outfit',sans-serif","'Cormorant Garamond',serif"}
+  assert set(re.findall(r"font-family:([^;}]+)",css))<={"'Outfit',sans-serif","'Cormorant Garamond',serif","'Outfit'","'Cormorant Garamond'"}
  return {'scope':scope,'routes':43,'changed_routes':changed,'exact_words_links_schema_images':True,'protected_sources':True,'local_exposure':check_local(root,base)}
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--base-url',required=True);p.add_argument('--stage',type=int,required=True);p.add_argument('--baseline-captures',type=pathlib.Path,required=True);a=p.parse_args();print('PASS',json.dumps(validate(pathlib.Path(__file__).resolve().parents[1],a.base_url,a.stage,a.baseline_captures)))

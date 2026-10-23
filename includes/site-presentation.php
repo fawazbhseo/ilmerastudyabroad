@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/visual-system.php';
 require_once __DIR__ . '/entity.php';
 require_once __DIR__ . '/proof.php';
 require_once __DIR__ . '/payment-disclosure.php';
@@ -53,6 +54,7 @@ function ilmera_related_place_list_schema($html, $publishedMap)
 
 function ilmera_present_page($html)
 {
+    $html = ilmera_visual_present($html);
     if (!preg_match('~<link[^>]+rel="canonical"[^>]+href="https://ilmerastudyabroad.com([^"]*)"~', $html, $match)) return $html;
     $path = $match[1] ?: '/';
     $map = json_decode(file_get_contents(dirname(__DIR__) . '/data/seo-map.json'), true);
