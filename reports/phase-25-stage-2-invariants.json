@@ -11,7 +11,7 @@
         "header": true,
         "footer": false
       },
-      "sha256": "ce8cfda4d81d21066bf038ea6812b054f054ebf4c48ceec9f2eb44e45841076e"
+      "sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842"
     },
     {
       "route": "/about",
@@ -37,7 +37,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "1ea708ab77bf2cd5332646b1fd433bcfcc8ecf31728153311d25134ac8cbc428"
+      "sha256": "54afbdd2131668447decc543b5d92871c6dbeb7f2ac54bc5f6c258c6fcf93a1f"
     },
     {
       "route": "/blog/cost-of-studying-abroad-for-indian-students",
@@ -50,7 +50,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "a22277ea0108cff7b5f08edd9f5d137e4fec88234a0951320ae83cc6ccc15763"
+      "sha256": "0965c68478b55a099de486cde815fc6b4a91500ee70ff5a527090047da98ea3b"
     },
     {
       "route": "/blog/documents-needed-to-study-abroad-from-india",
@@ -63,7 +63,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "d9bc9980f13ee1afae218dd25b7279f3a5d0cfceaa26b95f255fdc19b245776e"
+      "sha256": "26e021c230b4516b99724f4f08f2d92c7487fadad3595d20cf51f3cdc006a3d7"
     },
     {
       "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
@@ -76,7 +76,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "0411a2bacc728911a14b38414ba7406dda60c279f2e7dd2a7486cd2c006c9ff8"
+      "sha256": "c2d0d2a1904b48280e07c100e086d2e6dfdd4e5afe59a95826e20b9f600154ee"
     },
     {
       "route": "/blog/",
@@ -89,7 +89,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "8b90ce08078cc0ce86e7dd2cfb65865760cf1654ae1b11c1e97f6d9c8e5785d6"
+      "sha256": "e315e65181c32cd20207d324192d5f444eff67f8f46a7a73e264062262ceb0e4"
     },
     {
       "route": "/blog/italy-dsu-scholarship-eligibility",
@@ -102,7 +102,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "6e02d342a171c89ca0ffdd8274b6740d85edaecb4da60e16ca188dde68e23583"
+      "sha256": "aa4e4ad62baddd66be09239dd33ac146e503fcc52e0b8aca55a4d38e3cea119f"
     },
     {
       "route": "/blog/scholarships-for-indian-students-study-abroad",
@@ -115,7 +115,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "1d2533cc85e1d66a6b10393c3e673cea4f089cf2d2e54a1a6bb6b07a255c632a"
+      "sha256": "a805331abe446ea32e6ac90b5e1edfc996405f4748144980f63c03bbac2e8eaa"
     },
     {
       "route": "/blog/study-abroad-counselling-from-coorg",
@@ -128,7 +128,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "d5a8d072b47cfa216ab785259584b2199207fe68c80b0db3eb617b93734f92eb"
+      "sha256": "88940e5e6bd310b058438b4ab053e068107bbab8c3cd386668fa7a77f78c7923"
     },
     {
       "route": "/blog/study-abroad-with-academic-backlogs",
@@ -141,7 +141,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "266b5ff1621ab97ae8db73dd4c605e30e2153e3cdf467676b56bfc4614022f1b"
+      "sha256": "236690ab5556054c9b3f8ffde2081dcea5035ebae244fd7de5ded0943c1cbd75"
     },
     {
       "route": "/blog/study-in-germany-free-aps-certificate",
@@ -154,7 +154,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "e89e49fccc5f97e86c85ddcdb67d4ffee8edee371d3263c342211de00c86d182"
+      "sha256": "ee5743e2bf603c23f4002a417848af6a8916909bea30c55d8493b93479759972"
     },
     {
       "route": "/contact",
@@ -193,7 +193,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "3978eb4ddfb5bfd3a47a319da3ad5b052c13251c0153d23d0a198dfdd85f599a"
+      "sha256": "c865738d13d42af0a8641a8514cdff7bad06716250abc987f61d4768e0b4b43d"
     },
     {
       "route": "/services",
@@ -219,7 +219,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "7fc6ec081b6948971bf77a3a1c60de12ca4738869fe879300b7a4999141edbae"
+      "sha256": "fd525579da887a4980a9841848c45d52244678dbf684a02be722703d1f6df370"
     },
     {
       "route": "/study-abroad-consultants-in-kodagu",
@@ -232,7 +232,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "796d83932a27b0046691b2c2815039f9e749494982e2d8167336356d8e382f24"
+      "sha256": "6cb2a5529e5ab80aa555761f61c44c55138585d7cd96fd0ae049a95771c1326a"
     },
     {
       "route": "/study-abroad-counselling-belagavi",
@@ -245,7 +245,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "cbbc14e67095fa0d4962a7d52488b8ee8ac387c06f12de8d456d185df9090093"
+      "sha256": "68a7423adbdaf2951619570d6a7f71c37c8247bc5f93f4f94078582e6655555c"
     },
     {
       "route": "/study-abroad-counselling-bengaluru",
@@ -258,7 +258,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "bbdcb93dab9471e384f8edb8d640d298ec3cf4b44747cd968e35f5ff72376edc"
+      "sha256": "9c8353ce07f9d38e660f6d366f2e86298098b9e54900f3f3a152f8e2bb8cb8f3"
     },
     {
       "route": "/study-abroad-counselling-chikkamagaluru",
@@ -271,7 +271,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "2f66eb8547e30a8df7471ffc1d26b86a86faa6034b96398424a01015cb7c66c1"
+      "sha256": "02bd0a6223ec7673ea78461f34120673392d3ff5382221f17103b8ab4769ef90"
     },
     {
       "route": "/study-abroad-counselling-gonikoppal",
@@ -284,7 +284,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "9c40a9d0664b5adfe5495a612d6b5b122b7bafc66a8825501c98a0890c89ab09"
+      "sha256": "001a59fa4083527f2530f15af65703bd075c82442dd692a3f9db33e01900defb"
     },
     {
       "route": "/study-abroad-counselling-hassan",
@@ -297,7 +297,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "36b557d003b8e00d0c01074e6daac14fe396bedb54bed4c1a0aa369a4541f044"
+      "sha256": "de3291e8d14dd3646a6357ffd927b1576a56258d97648263a40eea712d6c767a"
     },
     {
       "route": "/study-abroad-counselling-kushalnagar",
@@ -310,7 +310,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "b92522422facccafe191eefb5f9b78b986dffec1e3cc5a0a012ecbde51a895e8"
+      "sha256": "3ed3c81b2b120d89e469aedfee166cc5851432b13f3697be96ec6d397ae111bd"
     },
     {
       "route": "/study-abroad-counselling-madikeri",
@@ -323,7 +323,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "93ede71b8ede09697a5fe7f5353a08f8eda6b4666d8b0ad5496120bef39da252"
+      "sha256": "a78d1cd2d16cd12a6c8791c63ca85a9385818a9c44697bab49d4a76b1805bcce"
     },
     {
       "route": "/study-abroad-counselling-mangaluru",
@@ -336,7 +336,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "5e0c647ee3ecdde1f4146e94f43a4f1bac19cc87d98f0bc6e00b2b55207524ad"
+      "sha256": "844cf067fcca665f7a2f6a7f129e1f64b49950b8ae13dfd47b49de14b3e208eb"
     },
     {
       "route": "/study-abroad-counselling-mysuru",
@@ -349,7 +349,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "4721b74ceb61420e045e282dcdf13d9cc3d6b382e310e496380d951b5a7874e3"
+      "sha256": "0014dc04e34efd8b1b71dfe396d8faa1f39b93c3dcaafe7b8ca8dec4981af06c"
     },
     {
       "route": "/study-abroad-counselling-ponnampet",
@@ -362,7 +362,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "132eda04489a33d0a77522a3d3e88a5f66b9331d051d365708621730636ba63b"
+      "sha256": "15b4361fad3a842dc82d5768429d5bffc8b1aa36d68eb2ee9ae23da168d2aea4"
     },
     {
       "route": "/study-abroad-counselling-shivamogga",
@@ -375,7 +375,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "78a75ae4cc937d6ab24bba4ef22ccb4a7776357bb55595ee00128dd22cf32120"
+      "sha256": "f90960068c938ce9e533804e22d4f4b5be66e9413a66b7a4127fd8c353080555"
     },
     {
       "route": "/study-abroad-counselling-siddapura",
@@ -388,7 +388,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "f0f24b268c3f9826eafb1ad2d1add464623623365deed2f00b24b8913f6c44b9"
+      "sha256": "5ed5f70179634b98db87ea7deb8c9c04c47718b15f9f4097590958ccf1bd536f"
     },
     {
       "route": "/study-abroad-counselling-somwarpet",
@@ -401,7 +401,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "521691f8c54b4d9411bc4fd5e0644be32edc9b1e6475b218bc6bb1b57eff4aee"
+      "sha256": "3e699c8cc78da87dcf4519174e9a75259d16055d6a565d2a5cd1c94a80f7c6e9"
     },
     {
       "route": "/study-abroad-counselling-udupi-manipal",
@@ -414,7 +414,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "bd96f2f86710077d7832db8db726aab44175d3ec26199bac419cda6f7028669e"
+      "sha256": "27685ef9b062f1bcd1b3f1c4edcba470148f4fd8c0fb50845f40d88a97aa16fb"
     },
     {
       "route": "/study-abroad-counselling-virajpet",
@@ -427,7 +427,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "9202900f3afa78662e01f33598f1d5b0cc293b50d2dc5f324788320290394846"
+      "sha256": "afe1b98e7fe63867012e1d735578bfddd6384d361880e540819f04fb7e07d9e4"
     },
     {
       "route": "/study-in-czech-republic",
@@ -440,7 +440,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "67b3a8a05c3b4aa49c7c65ee17817c8251f770d33f809148d2d3c022cc43353b"
+      "sha256": "7b10e61a1bad4c659870f2c7d9b3928b4df6b19977059853037940cdb6a74f64"
     },
     {
       "route": "/study-in-gcc",
@@ -453,7 +453,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "24bbb1d104f32115d8e3bdc21859c05212ae5de84aa2ee2457a9640071c90e49"
+      "sha256": "8da6439fe96502d78becaa1ce9d1f5c1debd55c1a8474216cc1c686b6850a552"
     },
     {
       "route": "/study-in-germany",
@@ -466,7 +466,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "7aa06a37459f7d826b19ee590de4962d97d86b58157f3a2c4b56780d022bda75"
+      "sha256": "956784cb08c4124af46027018a899150ea46ccf12fde0a12bc8223613dbc1c0b"
     },
     {
       "route": "/study-in-italy",
@@ -479,7 +479,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "519df0c9fd6416b3807d5e807e5cb5720206426e386fe93b7d9b13e6df0dd25c"
+      "sha256": "f7ea2ee44fb098da80d9059fbc328ac2cf4f48071703c3e9ed4c68afa05ec444"
     },
     {
       "route": "/study-in-latvia",
@@ -492,7 +492,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "8353283f150bd1decbeb35836c9c94feebfa0d5d86cf015d238efd027c8273be"
+      "sha256": "285587efb4d65035087e65ce3dd584ac83aacb4a7f80e2bd6dd8f0f18178d185"
     },
     {
       "route": "/study-in-lithuania",
@@ -505,7 +505,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "65c94f093e52a0d5c7f4e8bf04f571b77a44740e198ea3be946ed8a784398772"
+      "sha256": "84b0e772ef695bd5219f01ab2c6b6709bb84d58ff59d54567121628f61a49064"
     },
     {
       "route": "/study-in-russia",
@@ -518,7 +518,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "1ba1fe2f0d5e59ce2eb992e29ca5dfcf8115e6e39809125b2c413199bfa0dfee"
+      "sha256": "2fc9c46b3f1570a11065b343a5f62f4e005d4b670632e25465d163a1c1d6236a"
     },
     {
       "route": "/study-in-slovakia",
@@ -531,7 +531,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "8aaeb8d88b60fdb908e750d7d2ed73f176140fed2bc01fc5c5de061558494323"
+      "sha256": "464ac0f65fdfd377a13fbae801cde6f55ecdef6832ca8b485472e76e746923c1"
     },
     {
       "route": "/study-in-uk",
@@ -544,7 +544,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "c0ce85740512cf11971f3087176e68e415dc53a7a2b84a18cb0fde155435342c"
+      "sha256": "0a941931461c2f454f96436943f0a81cf2d468fb6f4ad6934a8c1a4e47145440"
     },
     {
       "route": "/terms",
@@ -557,7 +557,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "d48269eba09b0bcd1e2d22877bcde8f12c405370ddaa43812eb40b2ea9a9155a"
+      "sha256": "1cbb782864a2c011046e1380013de3fcb9a36630def77d1708fa38645bea5ccd"
     }
   ],
   "passed": true,

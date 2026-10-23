@@ -223,3 +223,9 @@ body.p25 main .btn-ghost{color:#1A2E5A;border-color:#1A2E5A;border-radius:3px;mi
 body.p25 main .btn-ghost:hover{color:#FFFFFF;background:#1A2E5A;}
 body.p25 .err-links a{border:1px solid #E8EDF5;border-radius:3px;background:#FFFFFF;color:#1A2E5A;transform:none;}
 @media(max-width:768px){body.p25 .legal-hero,body.p25 .directory-hero,body.p25 .err-wrap{padding:110px 22px 40px;}body.p25 .legal-hero h1,body.p25 .directory-hero h1,body.p25 .err-h1{font-size:34px;}body.p25 .directory-grid{grid-template-columns:1fr;}body.p25 .legal-sec,body.p25 .directory-content{padding:48px 0;}}
+
+body.p25 .legal-card a{text-decoration:underline;text-underline-offset:.2em;}
+
+/* Visible focus distinguishes both light reading and dark hero/accent regions. */
+body.p25 :is(.mini-hero,.article-hero,.blog-hero,.legal-hero,.directory-hero,.err-wrap,.article-cta,.blog-cta,.p25-dark) :focus-visible{outline-color:#C9A84C;}
+body.p25.p25-utility #il-footer .ft-legal a:hover{color:#FFFFFF!important;}

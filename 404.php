@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/includes/visual-system.php'; ilmera_visual_start(); ?>
+<?php require_once __DIR__ . '/includes/visual-system.php'; ilmera_visual_start('error'); ?>
 <?php
 require_once __DIR__ . '/includes/breadcrumbs.php';
 $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'url' => '/404']];

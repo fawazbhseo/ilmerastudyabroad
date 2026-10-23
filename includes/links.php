@@ -233,3 +233,12 @@ function ilmera_discovery_links($pages, $heading, $exclude = '')
     if (!$links) return;
     echo '<section class="discovery-links" style="padding:32px 0;" aria-label="' . ilmera_post_escape($heading) . '"><h2 style="font-family:Outfit,sans-serif;font-size:24px;line-height:1.4;margin-bottom:18px;">' . ilmera_post_escape($heading) . '</h2><ul style="padding-left:20px;line-height:1.8;">' . implode('', $links) . '</ul></section>';
 }
+
+/* Phase25 held-article visual startup; metadata above remains unchanged. */
+$visualPath = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+$visualSlug = basename($visualPath ?? '');
+if (strpos($visualPath ?? '', '/blog/') === 0 && isset(ilmera_posts()[$visualSlug]) && !ilmera_post_published($visualSlug)) {
+    require_once __DIR__ . '/visual-system.php';
+    ilmera_visual_start();
+}
+/* End Phase25 held-article visual startup. */

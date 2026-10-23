@@ -11,7 +11,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task2B places: complete.
 - Task2C articles/index: complete.
 - Task2D legal/utility: complete.
-- Task3 verification: not started; maximum3 cycles, stop a repeated failure twice.
+- Task3 verification: completed with declared immutable-reference/404/target deviations; two cycles plus scoped recovery, no all-green release claim. One final cycle remains within the maximum3 if performance changes a template.
 - Task4 performance: not started.
 - Task5 owner review sheet: not started.
 - Task6 release sign-off: not started.
@@ -45,3 +45,11 @@ Article role now covers all8 articles, including2 held, and the blog index. Four
 Privacy, terms, all-pages and404 now use shared legal/utility roles. All39 non-reference routes are styled, four references excluded. Legal/directory introductions move to the first light section without changing any token or order.404 splits after its original H1 into hero/light content; its abbreviated footer keeps every original word/link and gains reference bottom-row structure, not invented full-footer content.
 
 Literal header markup now matches the reference after active-link normalization on all43 pages. On five previously unprocessed pages only loading=eager was added to the existing first header logo. Fetch timing is not image content; the strict checker explicitly records this single timing attribute and still requires every image byte/URL/alt/dimension/style and all other attributes unchanged. Footer markup matches on42/43;404 remains the documented content-preservation exception. All43 semantic/source/palette comparisons PASS.
+
+## Task3 checkpoint
+
+Cycle1/2 guard findings were fixed without changing any protected metadata or loosening original hash checks. Both held articles AND includes/posts.php are byte-exact; pure held visual startup is appended to the unchanged link-helper module. Recovery passed43 fresh renders/126 FAQ pairs,258 browser cases360/768/1280 JS-on/off, discovery/sitemap/canonicals/robots/structured data/strict wording/broken-link policies and location overlap. Earlier cycle2 unit/lint logs retained, recovery syntax repeated.
+
+Expanded chrome120 cases: all38 full-footer rebuilt routes match Home, header matches all39;404 shortened-footer differences remain explicit.117 rebuilt region/width probes PASS: first posthero light, readable light longform, not fully dark, at most1 dark accent, no overflow, text visible.14 blocked-font JS-on/off probes show painted heading glyphs and visible body. All-template AA:42 rebuilt cases have0 axe violations;24 immutable-reference cases each retain a contrast violation. Five reference motion-on transient overflow cases are recorded; rebuilt samples have none. Header/footer stacked targets below44px remain at reference pitch under decisionD.
+
+RuleC remains FAIL for About360, despite exact unchanged source/HTML and no shared CSS injection. No tolerance waiver, reference redesign, fabricated native proof or deployment. Bounded logs explain failures, repairs and scope conflicts; no retry loop for immutable reference findings.

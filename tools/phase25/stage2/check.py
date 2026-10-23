@@ -31,17 +31,18 @@ for route,info in routes(ROOT).items():
 # Publication data, graph sources, original images and every original runtime file
 # outside the named pure presentation integration points remain byte exact.
 base='3f0e1417845291097c22e0fd02e0641752a48dd7'
-allowed={'assets/css/visual-system.css','includes/visual-system.php','includes/visual-config.php','includes/site-presentation.php','includes/destination-page.php','includes/place-page.php','blog/italy-dsu-scholarship-eligibility.php','blog/study-in-germany-free-aps-certificate.php','404.php'}
+allowed={'assets/css/visual-system.css','includes/visual-system.php','includes/visual-config.php','includes/site-presentation.php','includes/destination-page.php','includes/place-page.php','includes/links.php','blog/italy-dsu-scholarship-eligibility.php','blog/study-in-germany-free-aps-certificate.php','404.php'}
 for f in subprocess.check_output(['git','ls-tree','-r','--name-only',base],cwd=ROOT,text=True).splitlines():
  if f.startswith(('tools/','reports/')) or f in allowed:continue
  old=subprocess.check_output(['git','show',base+':'+f],cwd=ROOT)
  if f in ['CHANGELOG.md','flagged-items-for-verification.md']:assert (ROOT/f).read_bytes().startswith(old),f
  else:assert (ROOT/f).read_bytes()==old,('protected file',f)
+old_links=subprocess.check_output(['git','show',base+':includes/links.php'],cwd=ROOT);assert (ROOT/'includes/links.php').read_bytes().split(b'\n/* Phase25 held-article visual startup;')[0]==old_links
 # Strict full source content guard for templates: only presentation buffer startup
 # can be added, never arbitrary edits hidden by a rendered sample.
 for f in ['includes/destination-page.php','includes/place-page.php','blog/italy-dsu-scholarship-eligibility.php','blog/study-in-germany-free-aps-certificate.php','404.php']:
  old=subprocess.check_output(['git','show',base+':'+f],cwd=ROOT);now=(ROOT/f).read_bytes()
- now=re.sub(rb"<\?php require_once __DIR__ \. '/(?:\.\./)?(?:includes/)?visual-system\.php'; ilmera_visual_start\(\); \?>\r?\n",b'',now,count=1)
+ now=re.sub(rb"<\?php require_once __DIR__ \. '/(?:\.\./)?(?:includes/)?visual-system\.php'; ilmera_visual_start\((?:'error')?\); \?>\r?\n",b'',now,count=1)
  assert now==old,('template changed beyond startup',f)
 # Every new visible colour must derive from actual immutable reference values.
 refs='\n'.join(baseline[p]['html'] for p in ['/','/services','/about','/contact'])
