@@ -1,5 +1,6 @@
 const {chromium}=require('playwright'),packed=require('@sparticuz/chromium'),fs=require('fs');
 (async()=>{
+ const stage=+(process.argv[3]||1);let fawazPortraits=0;
  const manifest=JSON.parse(fs.readFileSync(process.argv[2]+'/snapshots.json','utf8'));
  const browser=await chromium.launch({executablePath:await packed.executablePath(),args:packed.args.filter(a=>!['--single-process','--in-process-gpu'].includes(a)),headless:true});let cases=0,faqs=0,teamPhotos=0;
  for(const js of [false,true])for(const width of [375,768,1280]){
@@ -50,9 +51,18 @@ const {chromium}=require('playwright'),packed=require('@sparticuz/chromium'),fs=
      teamPhotos++;
     }
    }
+   if(stage>=2){
+    if(await page.evaluate(()=>document.documentElement.outerHTML.includes('/assets/images/fawazbh.webp')))throw Error('Original portrait remains on '+route);
+    const images=page.locator('img[src*="/assets/images/fawazbh-"]');
+    for(let i=0;i<await images.count();i++){
+     await images.nth(i).evaluate(e=>e.scrollIntoView({block:'center'}));
+     await page.waitForFunction(i=>{const e=document.querySelectorAll('img[src*="/assets/images/fawazbh-"]')[i];return e.complete&&e.naturalWidth>0&&e.naturalHeight>0&&/\/fawazbh-(192|384)\.webp$/.test(new URL(e.currentSrc).pathname);},i,{timeout:15000});
+     fawazPortraits++;
+    }
+   }
    cases++;console.log('PASS case',JSON.stringify({route,js,width}));
   }
   await context.close();
  }
- await browser.close();console.log(JSON.stringify({status:'PASS',cases,faq_expansions:faqs,team_photo_checks:teamPhotos,viewports:[375,768,1280],javascript:[false,true],external_requests:'aborted; no live font/performance/delivery assertion'}));
+ await browser.close();console.log(JSON.stringify({status:'PASS',cases,faq_expansions:faqs,team_photo_checks:teamPhotos,fawaz_derivative_load_checks:fawazPortraits,viewports:[375,768,1280],javascript:[false,true],external_requests:'aborted; no live font/performance/delivery assertion'}));
 })().catch(e=>{console.error(e);process.exit(1)});

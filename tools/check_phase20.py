@@ -62,6 +62,14 @@ def validate(root,base=None):
   if path.relative_to(root).as_posix()=='data/proof.php' and (root/'reports/phase-24-progress.md').exists():
    from check_phase24 import proof_source
    expected_bytes=proof_source(root)
+  if path.relative_to(root).as_posix()=='phase14-article-review.json' and path.read_bytes()!=expected_bytes and (root/'reports/phase-24b-progress.md').exists():
+   # Exact image-src-only checksums, not new evidence or a publication override.
+   from phase24b.approved import expected_source
+   expected_bytes=expected_source(root,'phase14-article-review.json',2)
+   journal=json.loads(expected_bytes)
+   for slug in journal['articles']:
+    article='blog/'+slug+'.php'
+    assert (root/article).read_bytes()==expected_source(root,article,2),('Only the approved portrait edit may refresh a checksum',article)
   assert path.read_bytes()==expected_bytes,('Protected data',path)
  # Narrow current-phase exception, not a blanket entity/proof exemption.
  entity_path=root/'data/entity.json'

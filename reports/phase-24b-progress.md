@@ -13,8 +13,8 @@ destination facts and Jabir bio/photo/title/alt remain protected.
 
 | Task | Status | Evidence/checkpoint |
 | --- | --- | --- |
-| 1. Owner-approved bios and profile links | done | Exact bios, Fawaz-only sameAs, narrow institute context guard; full suite PASS 556.92s; this task commit |
-| 2. All rendered Fawaz portraits | not started | Original retained, derivatives for all visible uses |
+| 1. Owner-approved bios and profile links | done | Exact bios, Fawaz-only sameAs, narrow institute context guard; full suite PASS 556.92s; commit `dab255e` |
+| 2. All rendered Fawaz portraits | done | Full suite PASS 554.92s; all 43 renders have zero original uses; 54 derivative browser loads; this task commit |
 | 3. Public-file exposure audit and deny rules | not started | Complete file inventory, native-server limitation and exact live probes |
 | 4. Bounded verification | not started | At most two cycles; early clean stop; repeated failure twice stop |
 | 5. Append-only sign-off | not started | Full final suite, every changed file and bio surface |
@@ -22,3 +22,32 @@ destination facts and Jabir bio/photo/title/alt remain protected.
 One commit/push/full-suite/PR #1 checkpoint per task. Historical Phase 24
 assertions stay historical; current coverage will preserve their invariants
 with exact exceptions for the authorized bios, portraits and additive denies.
+
+Task 2 preflight caught existing reviewed-article hash gates after the image
+src edits. Refreshed only four exact file checksums, preserving all other
+journal bytes and flags/facts, with a narrow protected-data exception requiring
+the exact portrait-only source transform. Full publication checks remain active.
+No gate was disabled and no held route was released. Full suite still required.
+
+Task 2 first full suite passed all lint/unit/render/discovery/schema/strict
+checks, then the new derivative-load browser assertion rejected responsive
+images because naturalWidth is density-corrected with width-descriptor srcset
+(88/96 CSS pixels, not necessarily encoded 192/384). Corrected the harness to
+require successful intrinsic load and a 192/384 derivative currentSrc. Added
+the existing independent portrait reproduction/encoding/dimension/original-
+integrity tool to the full suite. No website/image change was made for this
+harness correction. Full rerun required, not a bounded Task 4 cycle.
+
+Before browser completion, stopped the partial rerun to correct a deployment-
+origin issue identified in source review: old author src URLs were absolute
+production URLs. New src URLs are origin-relative so the derivative loads on
+both the local preview and live origin, without contacting the unchanged live
+site for unpublished assets. Width/height/loading/alt are still exact. Only
+the exact portrait src and the four corresponding checksums change. Full suite
+will start again on this final state; the stopped partial run is not a pass.
+
+Task 2 final full suite passed on final origin-relative source state: 92 PHP,
+43 renders, 258 browser cases, 36 team checks, 54 Fawaz derivative loads,
+213 exact FAQ pairs/1,278 interactions. Original and derivative bytes are
+unchanged; no remaining rendered original portrait reference or exception.
+Only two held author src attributes change, not their publication state.

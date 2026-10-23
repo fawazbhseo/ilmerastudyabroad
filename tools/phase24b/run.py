@@ -23,6 +23,7 @@ for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','tes
  run(name,[sys.executable,'tools/'+name])
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])
+if a.stage>=2:run('portrait encoding and original integrity',[sys.executable,'tools/phase24/build_portraits.py'])
 run('authored location overlap',[sys.executable,'tools/check_location_content.py'])
 for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py','check_phase24b.py']:
  run(name,[sys.executable,'tools/'+name,'--base-url',base]+(['--stage',str(a.stage),'--baseline-captures',str(a.baseline_captures)] if name=='check_phase24b.py' else []))
@@ -79,7 +80,7 @@ if a.stage>=1:
  print('PASS baseline render delta',flush=True)
 
 run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
-run('browser',['node','tools/phase24b/browser.cjs',str(a.evidence)])
+run('browser',['node','tools/phase24b/browser.cjs',str(a.evidence),str(a.stage)])
 # Full rendered main overlap, matching the established five-token coverage method.
 from check_location_content import inspect
 raw=subprocess.check_output(['php','-r','$o=[];foreach(glob("places/*.php") as $f){$d=include $f;$o[$d["slug"]]=$d;}echo json_encode($o);'],cwd=ROOT)

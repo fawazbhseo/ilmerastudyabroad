@@ -154,7 +154,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <p>If you would rather talk it through directly, a phone call or video call is the fastest way to get a straight answer about your specific situation. You can also read about the <a href="/about" style="color:var(--gold);">team behind ILMERA</a> or the <a href="/services" style="color:var(--gold);">destinations and services</a> we cover.</p>
 
     <div class="author-card">
-      <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
+      <img src="/assets/images/fawazbh-192.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
         <div class="name">Fawaz BH</div>
         <div class="role">CMO, ILMERA Study Abroad</div>

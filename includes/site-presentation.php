@@ -75,7 +75,7 @@ function ilmera_present_page($html)
         if (preg_match('~\bsrc="([^"]+)"~', $tag, $src)) {
             $imagePath = parse_url(html_entity_decode($src[1], ENT_QUOTES | ENT_HTML5, 'UTF-8'), PHP_URL_PATH);
             foreach (ilmera_entity_team() as $member) {
-                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH) && !($member['name'] === 'Fawaz BH' && $imagePath === '/assets/images/fawazbh.webp')) continue;
+                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH) && !($member['name'] === 'Fawaz BH' && in_array($imagePath, ['/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp'], true))) continue;
                 $alt = ilmera_presentation_escape($member['name'].', '.$member['jobTitle'].', ILMERA Study Abroad');
                 $tag = preg_replace('~\balt="[^"]*"~', 'alt="'.$alt.'"', $tag);
             }
@@ -135,7 +135,7 @@ function ilmera_present_page($html)
         if (preg_match('~\bsrc="([^"]+)"~', $tag, $src)) {
             $imagePath = parse_url(html_entity_decode($src[1], ENT_QUOTES | ENT_HTML5, 'UTF-8'), PHP_URL_PATH);
             foreach (ilmera_entity_team() as $member) {
-                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH) && !($member['name'] === 'Fawaz BH' && $imagePath === '/assets/images/fawazbh.webp')) continue;
+                if ($imagePath !== parse_url($member['image'], PHP_URL_PATH) && !($member['name'] === 'Fawaz BH' && in_array($imagePath, ['/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp'], true))) continue;
                 $alt = ilmera_presentation_escape($member['name'].', '.$member['jobTitle'].', ILMERA Study Abroad');
                 $tag = preg_replace('~\balt="[^"]*"~', 'alt="'.$alt.'"', $tag);
             }

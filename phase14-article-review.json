@@ -147,7 +147,7 @@
       ],
       "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
       "failed_gates": [],
-      "file_sha256": "9e04c012ce6ebe202d864e374470b0ddacf2d057b84cbb3b14b6b0cfe622202b",
+      "file_sha256": "9d7d4ab680ffb1d01688c1433f3f7a87bf3093cf1b0a085139c159c5936e2d06",
       "metadata": {
         "title": "Cost of Studying Abroad: Official Country Examples",
         "excerpt": "Compare sourced tuition and living-cost examples for six countries, plus UAE budgeting advice. Separate estimates from visa financial requirements.",
@@ -288,7 +288,7 @@
       ],
       "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
       "failed_gates": [],
-      "file_sha256": "ea7bedbb88e28467730fd27578dec9d86e087ff358f23ebc1b626d35bbc439fd",
+      "file_sha256": "e8ba9efc53a5a72f4aa0c1531e9c42355b8a2887b265513a6e472181c14e6d48",
       "metadata": {
         "title": "Documents Needed to Study Abroad: Build a Route-Specific Checklist",
         "excerpt": "Official document examples for selected study routes. Separate admission, financial evidence and visa instructions instead of relying on one universal checklist.",
@@ -399,7 +399,7 @@
       ],
       "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
       "failed_gates": [],
-      "file_sha256": "df9ca3867f18cfd72cba2f6759b1a614884f6d26f8026370fed5370506b09b30",
+      "file_sha256": "7fb048f05eb66c3cad82978acb5c39c484910f1dab52a04542a78a020ce46bce",
       "metadata": {
         "title": "Scholarships for Indian Students: Check Eligibility and Evidence",
         "excerpt": "Use official funding examples to distinguish tuition policy, scholarship opportunities and documented sponsorship. No unverified award amounts or promises.",
@@ -438,7 +438,7 @@
       "failed_gates": [
         "No opened approved current DSU award call; owner amount and partner entitlement unverified."
       ],
-      "file_sha256": "709901415f41da48df6b15973e023b758ba3e5d5ab39d70571570ace67fe8b2d",
+      "file_sha256": "fd3806921210beafcd7a97ffc8aa69e1fb8f608735afa4e87e14a051bd146faa",
       "metadata": {
         "title": "Italy Scholarship Planning: Verification Needed",
         "excerpt": "Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.",

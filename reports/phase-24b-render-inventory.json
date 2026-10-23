@@ -15,12 +15,12 @@
     {
       "route": "/blog/cost-of-studying-abroad-for-indian-students",
       "baseline_sha256": "321717417acc6205ef4657f4e971bc212ffce8bf78bdbc83c1966ced4378320d",
-      "current_sha256": "702985621c49aec3ea99809aef9c010b7fd5e8bcbd73869f76c2838e8faab41f"
+      "current_sha256": "e5cb94f19a5858b3976e1477f4f75cdc1cfa45217fb27d3c925e55fb49b4db69"
     },
     {
       "route": "/blog/documents-needed-to-study-abroad-from-india",
       "baseline_sha256": "761eaa1d634d572ab06497aeda10e10c1a375b7626957ee24f36d3db65ede77d",
-      "current_sha256": "f8c9295586441d63a17eb246cc0693e440f5add03777778d243165bb53f65747"
+      "current_sha256": "426f189ebf3dcf7d524d6f84dc5cc2f20dad0357ec32811864701260854f4ccd"
     },
     {
       "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
@@ -33,19 +33,29 @@
       "current_sha256": "435f59036869b690f348e5834fd5f631f3e1ac510dfd822253e7ee4cd69b0c67"
     },
     {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "baseline_sha256": "320019a6fc998fd7d2e6ba498f69e16187b8b44da88ef60467f5749a190f8163",
+      "current_sha256": "3c513832188a4b740774420e8428409531571924cd43aa81240f7a1dbe23480f"
+    },
+    {
       "route": "/blog/scholarships-for-indian-students-study-abroad",
       "baseline_sha256": "ce1e8d44c0adb6e493fe93a4ce3b40dae9a05733959f96935b3e717499ee1355",
-      "current_sha256": "377bc49de98c76ad38a3d59e8a2fbeff9109a3a7ae1bfc2fc149b51c4e1aa854"
+      "current_sha256": "3a430874d899a811b49be14ebec41501298001cc2f70f5a6b57f3b8756477ccf"
     },
     {
       "route": "/blog/study-abroad-counselling-from-coorg",
       "baseline_sha256": "986ddb3756d4ce92e4e443ff30f434bb88b71630a463c24debac84bca4a1c68c",
-      "current_sha256": "24869bd4a1967069db3cd8865589387c45ad857870322348482eea9cd442870f"
+      "current_sha256": "a313f3d2989a45818761fb0a481e370d7f0b87cc12b0567854941ea9b3ea3cae"
     },
     {
       "route": "/blog/study-abroad-with-academic-backlogs",
       "baseline_sha256": "6080fce8d5479f3814ea356b454b7993df78f9c8809d086b54b1bccf8c36a02d",
-      "current_sha256": "68f736d3e07dec709c541e1e9aa9733f4d622774fd479f407af045abded28529"
+      "current_sha256": "58ef2755bbe09e828644d41fa2eeab2ec62953acfb020c21daaf3a8ff28eeb44"
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "baseline_sha256": "f804c90545c858a20860290ad3ce21e275753cd0006f71d1b1549c02ae929dc3",
+      "current_sha256": "fb8fa9a35b7b55a4134e16507049c9e65b71de55f164ecaa0bdfbb26bea0898f"
     },
     {
       "route": "/contact",
@@ -193,6 +203,6 @@
       "current_sha256": "3da8396b7ab1402667e9cd67cf715c951f493025d6a1bc3757667b8e9ba47917"
     }
   ],
-  "unchanged_held_or_utility_count": 5,
-  "held_portrait_only_exceptions": false
+  "unchanged_held_or_utility_count": 3,
+  "held_portrait_only_exceptions": true
 }

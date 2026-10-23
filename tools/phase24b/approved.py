@@ -1,5 +1,5 @@
 """Exact authorized source transformations, used independently by current checks."""
-import json,re,subprocess
+import hashlib,json,re,subprocess
 from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS
 BASELINE='0c5c437b901aacbff12e0a66df1d8e098627f334'
 DENY=b'# Internal owner evidence and verification artifacts, not website content.\r\nRequire all denied\r\n'
@@ -28,8 +28,14 @@ def expected_source(root,file,stage=5):
    text=text.replace('"sameAs": ["https://fawazbhseo.in"]','"sameAs": '+json.dumps(FAWAZ_SAME_AS))
    for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('"name": "'+name+'",','"name": "'+name+'", "description": '+json.dumps(bio)+',')
   return text.encode()
+ if stage>=2 and file=='phase14-article-review.json':
+  journal=json.loads(data)
+  for slug,entry in journal['articles'].items():
+   article='blog/'+slug+'.php';new_hash=hashlib.sha256(expected_source(root,article,2)).hexdigest()
+   data=data.replace(entry['file_sha256'].encode(),new_hash.encode())
+  return data
  if stage>=2 and file.startswith('blog/') and file.endswith('.php'):
-  return re.sub(rb'(<img\b[^>]*\bsrc=")(https://ilmerastudyabroad.com)?/assets/images/fawazbh\.webp(")',lambda m:m[1]+(m[2] or b'')+b'/assets/images/fawazbh-192.webp'+m[3],data)
+  return re.sub(rb'(<img\b[^>]*\bsrc=")(https://ilmerastudyabroad.com)?/assets/images/fawazbh\.webp(")',lambda m:m[1]+b'/assets/images/fawazbh-192.webp'+m[3],data)
  if stage>=2 and file=='includes/site-presentation.php':
   return data.replace(b"$imagePath === '/assets/images/fawazbh.webp'",b"in_array($imagePath, ['/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp'], true)")
  if stage>=3 and file=='.htaccess':return data+ROOT_DENY

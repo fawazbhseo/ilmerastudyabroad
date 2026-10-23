@@ -152,7 +152,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <p>The same logic applies to No-IELTS routes: several universities accept alternative English proficiency proofs (like a Medium of Instruction certificate or an internal English test) for students who never took IELTS or want to avoid it. Whether that applies to you depends entirely on the specific university and country, which is why this decision should be made case by case rather than assumed. Russia is a destination students with backlogs can discuss with ILMERA; see the <a href="/services#russia" style="color:var(--gold);">Study in Russia</a> overview and the related guide on <?= ilmera_post_link('italy-dsu-scholarship-eligibility', 'Italy\'s DSU scholarship', ['style' => 'color:var(--gold);']) ?: 'Italy\'s DSU scholarship' ?>.</p>
 
     <div class="author-card">
-      <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
+      <img src="/assets/images/fawazbh-192.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
         <div class="name">Fawaz BH</div>
         <div class="role">CMO, ILMERA Study Abroad</div>

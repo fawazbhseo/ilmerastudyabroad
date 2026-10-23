@@ -3503,3 +3503,14 @@ matching Person/FAQ/LLM descriptions. It is a training institute, not a
 university. Do not remove or broaden the university blocklist. Historical
 audit inventories and negative-test strings remain evidence, not active bios.
 No certificate private fields, source gates or held-route statuses change.
+
+### Phase 24b Task 2 publication-integrity maintenance
+
+The portrait-src preflight correctly detected that four existing reviewed
+article byte checksums no longer matched after the requested image change.
+Only those four `file_sha256` strings were refreshed for the exact verified
+portrait-src-only transformation. No verified flag, failed gate, source,
+claim, metadata, date, status, summary or provenance field changed. The current
+checker allows only these exact checksum replacements and independently
+requires the matching article bytes. Generic publication/hash checks stay
+active; this is not new source approval. Both held articles remain held.

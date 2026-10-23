@@ -118,7 +118,7 @@ def validate(root,base,stage=5,baseline_captures=None):
   imgs=re.findall(r'<img\b[^>]*>',text);previous_imgs=re.findall(r'<img\b[^>]*>',before)
   assert len(imgs)==len(previous_imgs)
   for tag,previous in zip(imgs,previous_imgs):
-   if stage>=2 and '/assets/images/fawazbh.webp' in previous:previous=previous.replace('/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp')
+   if stage>=2 and '/assets/images/fawazbh.webp' in previous:previous=previous.replace('https://ilmerastudyabroad.com/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp').replace('/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp')
    assert tag==previous,(route,'Portrait attribute or other image change')
    if 'fawazbh-' in tag:portrait_count+=1
   if info['status']!='published' or route=='/404':continue

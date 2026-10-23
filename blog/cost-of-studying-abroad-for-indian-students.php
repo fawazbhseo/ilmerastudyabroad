@@ -179,7 +179,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       </ul>
     </section>
     <div class="author-card">
-      <img src="https://ilmerastudyabroad.com/assets/images/fawazbh.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
+      <img src="/assets/images/fawazbh-192.webp" alt="Fawaz BH, CMO of ILMERA Study Abroad" width="56" height="56" loading="lazy"/>
       <div>
         <div class="name">Fawaz BH</div>
         <div class="role">CMO, ILMERA Study Abroad</div>
