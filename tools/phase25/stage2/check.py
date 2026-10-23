@@ -9,7 +9,17 @@ for route,info in routes(ROOT).items():
  status,headers,body=fetch('http://127.0.0.1:8080',route);assert status==200,(route,status)
  text=body.decode();old=baseline[route]['html'];expected=cards_only(old,route) if route in ['/','/about'] else old
  a,b=Words(text),Words(expected)
- assert a.words==b.words,(route,'text/order');assert a.links==b.links,(route,'link attributes');assert a.images==b.images,(route,'image attributes/content');assert Graphs(text).graphs==Graphs(old).graphs,(route,'JSON-LD')
+ assert a.words==b.words,(route,'text/order');assert a.links==b.links,(route,'link attributes');image_timing_only=False
+ if a.images!=b.images:
+  # DecisionD literal reference markup adds ONLY loading=eager to the first
+  # header logo on five previously unprocessed pages. Image bytes/URLs/alt/
+  # dimensions/styles and every other image attribute remain strictly exact.
+  import copy
+  ai,bi=copy.deepcopy(a.images),copy.deepcopy(b.images)
+  assert ai[0][1].get('src')=='https://ilmerastudyabroad.com/assets/images/ilmera.logo.png' and ai[0][1].get('width')=='38'
+  assert bi[0][1].get('loading') is None and ai[0][1].pop('loading')=='eager'
+  assert ai==bi,(route,'image content/attributes beyond header timing');image_timing_only=True
+ assert Graphs(text).graphs==Graphs(old).graphs,(route,'JSON-LD')
  for pat in [r'<link[^>]*rel="canonical"[^>]*>',r'<meta[^>]*name="robots"[^>]*>']:
   assert re.findall(pat,text)==re.findall(pat,old),(route,'discovery metadata')
  assert '/assets/js/hero-still.js' not in text and '/assets/images/hero-still-' not in text,route
@@ -17,7 +27,7 @@ for route,info in routes(ROOT).items():
  nav=lambda s:re.search(r'<nav id="il-nav">.*?</nav>',s,re.S)[0]
  footer=lambda s:re.search(r'<footer\b.*?</footer>',s,re.S)[0]
  reference=baseline['/']['html'];chrome={'header':normalized(nav(text))==normalized(nav(reference)),'footer':footer(text)==footer(reference)}
- rows.append({'route':route,'kind':info['kind'],'status':info['status'],'shared_visual':'class="p25 p25-' in text,'exact_text_links_images_schema':True,'chrome':chrome,'sha256':hashlib.sha256(body).hexdigest()})
+ rows.append({'route':route,'kind':info['kind'],'status':info['status'],'shared_visual':'class="p25 p25-' in text,'exact_text_links_images_schema':True,'header_loading_timing_aligned':image_timing_only,'chrome':chrome,'sha256':hashlib.sha256(body).hexdigest()})
 # Publication data, graph sources, original images and every original runtime file
 # outside the named pure presentation integration points remain byte exact.
 base='3f0e1417845291097c22e0fd02e0641752a48dd7'

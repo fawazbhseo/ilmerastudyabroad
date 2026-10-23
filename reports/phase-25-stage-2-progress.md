@@ -10,7 +10,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task2A destinations: complete.
 - Task2B places: complete.
 - Task2C articles/index: complete.
-- Task2D legal/utility: not started.
+- Task2D legal/utility: complete.
 - Task3 verification: not started; maximum3 cycles, stop a repeated failure twice.
 - Task4 performance: not started.
 - Task5 owner review sheet: not started.
@@ -39,3 +39,9 @@ Place role now applies to the shared template: all17 published locations and any
 ## Task2C checkpoint
 
 Article role now covers all8 articles, including2 held, and the blog index. Four-route allowlisting and still-tier code are removed; template classification now controls application. Held articles get only visual startup, preserving their original robots/status/schema/copy. All43 exact semantic/source/palette comparisons PASS.35 routes styled.
+
+## Task2D checkpoint
+
+Privacy, terms, all-pages and404 now use shared legal/utility roles. All39 non-reference routes are styled, four references excluded. Legal/directory introductions move to the first light section without changing any token or order.404 splits after its original H1 into hero/light content; its abbreviated footer keeps every original word/link and gains reference bottom-row structure, not invented full-footer content.
+
+Literal header markup now matches the reference after active-link normalization on all43 pages. On five previously unprocessed pages only loading=eager was added to the existing first header logo. Fetch timing is not image content; the strict checker explicitly records this single timing attribute and still requires every image byte/URL/alt/dimension/style and all other attributes unchanged. Footer markup matches on42/43;404 remains the documented content-preservation exception. All43 semantic/source/palette comparisons PASS.
