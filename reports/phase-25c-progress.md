@@ -7,7 +7,7 @@
 1. Reference structural gate and three-pair pixel noise calibration: complete.12/12 PASS;0 structural differences; all meet pixel backstop. Source refs untouched.
 2. Serial fresh-process interleaved7-by7 A/B measurement, controls and IQR: complete, acceptance FAIL. All3 permitted sessions unreliable; final session has14 routes with7A/7B. All failed/partial runs retained. No more performance retries.
 3. Template diagnosis and uniform tier choice: complete assessment. Uniformity PASS; reliable budget/necessity proof FAIL. Existing whole-template policy retained, no unsafe source edits.
-4. Chrome geometry tolerance below0.1px, accepted404 abbreviated footer: pending.
+4. Chrome geometry tolerance below0.1px, accepted404 abbreviated footer: complete.120/120 PASS; max tolerated0.016px; zero differences>=0.1px. No source edits.
 5. Reference accessibility/overflow report only: pending.
 6. Re-verification, maximum2 cycles, release report/sign-off: pending.
 
@@ -28,3 +28,7 @@ All12 combinations have0 structural differences. Three independent baseline pair
 ## Task3 checkpoint
 
 Germany, Italy, GCC, Mysuru and Bengaluru each have7A/7B observations under Task2 method. Dominant LCP in every probe/arm is P.direct-answer in Outfit16px300, not hero image/title. Identified all-font-set gate dependency, removed external font network in destination inline tier and immutable paragraph variation; no unique German markup fault or reliable necessity proof established. No speculative font-gate edit from an unreliable session. Existing template-level lighter policy retained for all9 destinations (including held), gradient/selfhost for all17 places and all8 articles (including held), and other rebuilt templates. Choosing article raw LCP ratio2.2117 also FAILS; nine of ten rebuilt routes numerically pass, none certified. All underlying data retained, no added performance rerun.
+
+## Task4 checkpoint
+
+Full120-row comparison PASS. Every visible header/footer node geometry/text/order plus canonical computed styles compared. Maximum tolerated0.016px, no>=0.1px differences. Active-link transition normalization artifact corrected in test harness only and initial result retained externally.404 short footer accepted, header still checked.
