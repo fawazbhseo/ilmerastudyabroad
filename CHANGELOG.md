@@ -1495,3 +1495,8 @@ Exact owner short biographies in Home/About cards only, with equal-height team g
 ## 2026-10-23 - Phase 25 Stage 1 task 4
 
 Text-free actual reference-scene stills at 720/1440px (24,574/37,226 bytes), deferred decorative canvas loader, static reduced-motion behavior, Save-Data/hidden-tab/JS-off fallback, and one explicit sitewide scene OFF constant. No new WebGL/library/parallax; defaults preserve reference output and keep pilot application OFF. ON/OFF unit checks and full suite PASS (536.86s).
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 5
+
+Applied only the four pilot routes through the shared visual overlay. Light long-form reading areas, same reference fonts/palette/grid, static scenes, high-contrast keyboard states and44px controls. Actual custom fonts now verified; licensed subsets inline without a new blocking resource. All content/FAQ/schema/link/status/portrait guards remain exact. Team-only footprint fixes preserve reference section bounds at approval widths. Full suite PASS707.31s plus final corrected-font/strict/screenshot checks. Strict raw reference raster is11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; NOT waived, no rollout clearance.

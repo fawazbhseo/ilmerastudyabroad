@@ -40,4 +40,28 @@ Decorative aria-hidden canvases draw the responsive still after two content fram
 
 Pilot enable switch remains OFF until task 5. Four opt-in/exclusion tests plus explicit scene ON/OFF tests PASS. Full lint/unit/render/browser/discovery/strict suite PASS in 536.86s. The two stills are 24,574 and 37,226 bytes. Default-off pilot application still produces no pilot render changes.
 
-Tasks 5-6 pending. Stage 2 not started.
+Task 4 commit: `5453480`, pushed with PR #1 checkpoint.
+
+## Task 5: four pilots only and visual self-review
+
+Enabled the existing hardcoded four-route allowlist only. The pure visual pass now runs after existing content overlays, so long introductions move into the first light reading container without changing a single word, heading order, link/image attribute or JSON-LD value. Global scene policy stays before early returns so its explicit OFF switch also covers utilities/held routes. No destination/place/article source or publication journal was edited.
+
+Self-review corrections: dark opaque fixed pilot nav remains legible while scrolling over light sections, inline token-based gold links become reference navy on light, all interactive hit areas are at least44px, table wrapping stays inside the viewport, FAQ/keyboard focus states use high-contrast palette pairs. No static text/card hover movement. Footer/nav keep reference content, fonts/palette/grid; their pilot hit areas are deliberately larger for accessibility. Gradient fallback and faint static scene keep gold labels >=4.5 even over a hypothetical white scene pixel (worst-case5.11).
+
+Initial QA exposed narrow footer/nav links and a test incorrectly checking pointer-mode focus-visible. Widened real hit areas; keyboard-mode focus now explicitly tested. Final pilot QA:24 JS-on/off cases at360/768/1280,126 FAQ expansions,12 axe WCAG A/AA runs with zero violations, zero targets below44px and tested menu Escape/focus. Save-Data zero still requests; hidden state zero before resume/one after; reduced motion/static normal each one responsive still. Hidden branch is document.hidden emulation, not OS throttling evidence.
+
+Reference footprint correction: shorter/equal team cards initially moved following sections. Added exact team-only section minima and a Home768 bottom-padding adjustment, preserving original team section bounds at all three requested viewports. Card widths/photos/name/title styles and grid gaps are unchanged; all six fixed team rectangles equal baseline. This resolves the earlier flagged downstream-flow concern at the approval screenshot sizes. Source guard permits only exact generated team-only CSS, not arbitrary reference styling.
+
+Capture correction: complete all finite GSAP/custom reveal classes and use original immutable baseline HTML replay for before images; allow only the static pilot loader's two RAFs while reference motion stays frozen. Original before captures remain in earlier task commits; final before/after use an identical corrected capture technique. No baseline performance values or source snapshot bytes are rebased. Full screenshots, strict outside-team pixel checks and full suite outcome below.
+
+Task 6 pending. Stage 2 not started.
+
+### Task 5 late self-review corrections
+
+Raw fresh-context reference screenshots initially differed by tiny compositor rounding values (mostly one colour-channel level), even for byte-identical Services/Contact. A same-source repeat calibration demonstrated the harness issue. Use deterministic software compositing, sRGB and capture-only disabled WebGL dithering; do not add a pixel tolerance or hide outside-team differences. Re-shoot both sides with identical flags, then rerun the zero-tolerance reference test. No website scene source changes.
+
+Font-bound inspection also caught a real visual issue: font-display optional could report fonts loaded while still rendering system fallback. Replaced that approach with small licensed same-family Unicode subsets embedded in the existing inline stylesheet. Outfit keeps its original variable weights; Cormorant is instantiated at700, its only pilot heading/brand weight, with original glyph metrics. Coverage is derived from all four immutable pilot texts; absent original emoji/non-Latin glyphs retain normal system fallback. No third design family or blocking request. Chromium platform-font checks now require actual custom Cormorant/Outfit glyphs in all24 pilot JS-on/off cases. Re-shoot pilots after this correction. Font subset generation is deterministic and preserves original OFL notices. Full suite PASS707.31s plus final font/syntax/all43-route strict and24-case font-bound checks; the final task6 run will repeat the full suite on the final gate state.
+
+### Task 5 checkpoint result
+
+Full suite PASS707.31s, followed by corrected-font all24-case checks, all43-route strict comparison, deterministic font regeneration check and final screenshot self-review. Forty-eight before/after images are provided with links/embeds in phase-25-pilot-review.md. Exact reference pixels:11/12 PASS; Home1280 has9 one-level navigation-CTA corner pixels remaining. That strict criterion is NOT waived and is NOT reported as passed; retain it as a pilot-gate blocker for owner review. No source/style change outside the authorized team area explains an intentional reference redesign. No Stage2 rollout.

@@ -1,8 +1,8 @@
 /* Reference roles: Outfit / Cormorant Garamond; 1200px grid, 60/22px gutters.
    All colours are immutable-reference tokens. Only 3px and 12px component radii.
    The class is emitted ONLY for the four owner-approved Stage 1 pilot routes. */
-@font-face{font-family:'Outfit';font-style:normal;font-weight:100 900;font-display:optional;src:url('/assets/fonts/outfit-latin.woff2') format('woff2');}
-@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300 700;font-display:optional;src:url('/assets/fonts/cormorant-garamond-latin.woff2') format('woff2');}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:100 900;font-display:swap;src:url('/assets/fonts/outfit-latin.woff2') format('woff2');}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:700;font-display:swap;src:url('/assets/fonts/cormorant-garamond-latin.woff2') format('woff2');}
 body.p25{font-family:'Outfit',sans-serif;font-weight:300;color:#4A5568;background:#F0F4FF;}
 body.p25 .container{max-width:1200px;margin-inline:auto;padding-inline:60px;}
 body.p25 main{--white:#0a1628;--silver:#4A5568;--grey-mid:#4A5568;--grey-light:#E8EDF5;}
@@ -81,5 +81,28 @@ body.p25 .breadcrumb a,body.p25 .article-body li a,body.p25 .sources-list a{disp
 
 /* Same palette fallback with no request, shift, moving layer or decorative glow. */
 body.p25 .article-hero,body.p25 .blog-hero{background:linear-gradient(135deg,#0a1628,#04060f);}
-body.p25 .p25-hero-scene{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:.45;pointer-events:none;}
-body.p25.p25-article .p25-hero-scene{opacity:.25;}
+body.p25 .p25-hero-scene{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:.15;pointer-events:none;}
+body.p25.p25-article .p25-hero-scene{opacity:.1;}
+
+/* Pilot review refinements: readable inline links and robust fixed navigation. */
+body.p25 #il-nav{background:#04060f;}
+body.p25 main{--gold:#1A2E5A;line-height:1.8;}
+body.p25 .article-hero,body.p25 .blog-hero{--gold:#C9A84C;}
+body.p25 .article-body .seo-opening,body.p25 .blog-sec .seo-opening{max-width:70ch!important;margin:0 0 24px!important;font-size:16px;line-height:1.8;}
+body.p25 .article-body .direct-answer-block{max-width:70ch!important;margin:24px 0 48px!important;}
+body.p25 .article-body .direct-answer-block h2{font-size:28px;}
+body.p25 main .direct-answer-block .conversion-cta .btn-gold{background:#C9A84C;border-color:#C9A84C;color:#04060f;}
+body.p25 main .direct-answer-block .conversion-cta .btn-gold:hover,body.p25 main .direct-answer-block .conversion-cta .btn-gold:focus-visible{background:#04060f;border-color:#04060f;color:#FFFFFF;}
+body.p25 main a:not(.btn-gold){display:inline-flex;align-items:center;min-width:44px;min-height:44px;max-width:100%;}
+body.p25 main .owner-proof{max-width:1200px!important;margin:0 auto!important;padding:32px 60px!important;}
+body.p25 main .owner-proof>*{max-width:70ch;}
+body.p25 main .owner-proof h2{font-family:'Cormorant Garamond',serif;font-size:36px;color:#0a1628;line-height:1.2;margin:0 0 24px;}
+body.p25 main .owner-proof p{margin-bottom:24px;}
+body.p25 .payment-disclosure .container{max-width:1200px!important;}
+body.p25 .blog-sec .container>p{max-width:70ch;font-size:16px;line-height:1.8;margin-bottom:24px;}
+body.p25.p25-legal .article-hero,body.p25.p25-utility .article-hero{padding-top:110px;padding-bottom:40px;}
+@media(max-width:768px){body.p25 main .owner-proof{padding:32px 22px!important;}body.p25 main .owner-proof h2{font-size:30px;}}
+@media(prefers-reduced-motion:reduce){html:has(body.p25){scroll-behavior:auto;}}
+body.p25 #il-nav .nav-logo,body.p25 #il-footer .ft-logo{min-height:44px;}
+body.p25 #mob-nav a{display:inline-flex;align-items:center;min-width:44px;min-height:44px;}
+body.p25 #il-nav .nav-links a,body.p25 #il-footer a{min-width:44px;}

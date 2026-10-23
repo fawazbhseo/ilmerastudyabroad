@@ -48,11 +48,14 @@ def validate(root,base,stage,baseline):
    # Only exact card paragraphs and team-area equal-height CSS may change.
    expected=cards_only(old.decode(), '/' if f=='index.php' else '/about').encode()
    now=re.sub(rb'/\* Phase 25 team-only equal heights \*/#team \.(?:testi|team)-grid\{grid-auto-rows:1fr;\}',b'',now)
+   if stage>=5:
+    from phase25.footprint import styles
+    footprint=styles(root,f);assert now.count(footprint)==1,('Missing exact team-only footprint CSS',f);now=now.replace(footprint,b'',1)
    assert now==expected,('Reference source outside card exception',f)
   elif f not in source_exceptions:assert now==old,('Protected source/facts/status/assets',f)
  if stage>=2:
   data=(root/'includes/site-presentation.php').read_bytes();old=subprocess.check_output(['git','show',BASE+':includes/site-presentation.php'],cwd=root)
-  data=data.replace(b"require_once __DIR__ . '/visual-system.php';\n",b'',1).replace(b"    $html = ilmera_visual_present($html);\n",b'',1)
+  data=data.replace(b"require_once __DIR__ . '/visual-system.php';\n",b'',1).replace(b"    $html = ilmera_visual_present($html);\n",b'',1).replace(b"    $html = ilmera_visual_scene_policy($html);\n",b'',1)
   assert data==old,'Presentation logic other than isolated visual hook changed'
  for route,info in routes(root).items():
   status,headers,body=fetch(base,route);assert status==200

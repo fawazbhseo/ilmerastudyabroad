@@ -70,6 +70,9 @@ checks['render schema and strict policy']={'status':'PASS','routes':len(manifest
 print('PASS fresh renders/schema/wording',len(manifest),flush=True)
 run('independent cycle consistency',[sys.executable,'tools/check_cycle_consistency.py','--captures',str(a.evidence)])
 run('browser',['node','tools/phase25/browser.cjs',str(a.evidence),'5'])
+if a.stage>=5:
+ run('explicit all-state reference-palette contrast',[sys.executable,'tools/phase25/contrast.py'])
+ run('pilot 360 768 1280 JS on off accessibility and scene branches',['node','tools/phase25/pilot.cjs'])
 # Full rendered main overlap, matching the established five-token coverage method.
 from check_location_content import inspect
 raw=subprocess.check_output(['php','-r','$o=[];foreach(glob("places/*.php") as $f){$d=include $f;$o[$d["slug"]]=$d;}echo json_encode($o);'],cwd=ROOT)

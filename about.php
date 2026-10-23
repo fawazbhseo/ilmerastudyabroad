@@ -498,7 +498,7 @@ img{max-width:100%;height:auto;}
 .il-faq > div{padding:0 26px 24px;}
 .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-mid);line-height:1.75;margin:0;}
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
-/* Phase 25 team-only equal heights */#team .team-grid{grid-auto-rows:1fr;}</style>
+/* Phase 25 team-only equal heights */#team .team-grid{grid-auto-rows:1fr;}/* Phase 25 team footprint */#team{min-height:1152.71875px;}@media(min-width:701px) and (max-width:1024px){#team{min-height:1292.78125px;}}@media(max-width:600px){#team{min-height:2041.96875px;}}/* End Phase 25 team footprint */</style>
 </head>
 <body>
 

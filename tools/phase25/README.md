@@ -47,3 +47,25 @@ drawing buffer does not modify source. Pillow WebP quality78/method6 encodes
 Single sitewide switch: includes/visual-config.php, ILMERA_SCENES_ENABLED.
 Default ON does not change reference HTML; OFF hides overlays, removes reference
 Three.js loading and omits pilot canvases/loader, yielding plain palette heroes.
+
+For final pilots serve tools/phase25/server.cjs, the same local manual adapter plus
+explicit font/woff2 MIME. This is not production MIME/native-server evidence.
+`pilot.cjs` adds360/768/1280 JS-on/off, all FAQs, axe-core4.11.0 WCAG A/AA,
+44px bounds, menu/Escape, keyboard focus, Save-Data/reduced-motion/hidden branches.
+Hidden state is document.hidden emulation, not OS scheduler proof.
+`contrast.py` checks default/hover/focus palette pairs and a conservative white
+scene pixel at0.15 opacity over navy: worst ratio5.11, required4.5.
+`footprint.py` emits only audited team section minima/padding, preserving reference
+section bounds at the three screenshot widths while equalizing short cards.
+`screenshots.cjs before --baseline` replays the immutable original HTML, never
+the edited page, to apply identical capture-harness corrections to both sides.
+
+Final font correction supersedes optional-display notes above: subset_fonts.py
+uses fontTools/Brotli with recalcTimestamp=False. Original licensed Outfit keeps
+variable weights; Cormorant is instantiated at700 (the only pilot role weight).
+All available original glyphs used by the four immutable pilot texts are kept,
+with original metrics. PHP embeds their base64 bytes in existing inline CSS; no
+new font request or design family. CDP platform-font checks cover all24 cases.
+Capture pre-paint no-motion/GSAP-end styles and software/sRGB/dither flags are
+harness-only. Do not relax pixels.py: its remaining9 one-level Home1280
+nav-CTA-corner pixels are an explicit failing pilot gate, not a claimed PASS.

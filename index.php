@@ -357,7 +357,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
 .breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
 .breadcrumb a{color:var(--grey-mid);text-decoration:none;}
-/* Phase 25 team-only equal heights */#team .testi-grid{grid-auto-rows:1fr;}</style>
+/* Phase 25 team-only equal heights */#team .testi-grid{grid-auto-rows:1fr;}/* Phase 25 team footprint */#team{min-height:962.1875px;}@media(max-width:768px){#team{min-height:clamp(1485px,calc(2013px - 68.75vw),1765.5px);padding-bottom:79.5px!important;}}/* End Phase 25 team footprint */</style>
 
 </head>
 <body>
