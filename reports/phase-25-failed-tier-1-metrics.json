@@ -1,0 +1,246 @@
+{
+  "environment": "Local PHP 8.5 WASM, Chromium 143, Lighthouse 12.8.2 mobile simulated Slow 4G/4x CPU; npm-mirrored fonts and exact CDN script versions; absolute first-party assets served from checkout. Not field or live hosting data. Three cold navigations; medians. Mirrored resource transfer accounting is CDP-reported, not CDN compression evidence.",
+  "lighthouseVersion": "12.8.2",
+  "results": [
+    {
+      "route": "/study-in-germany",
+      "samples": [
+        {
+          "lcp_ms": 2430.9229204866647,
+          "cls": 0.006799055684881995,
+          "tbt_ms": 221,
+          "transfer_bytes": 228333,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1309.788656876515,
+          "cls": 0.006799055684881995,
+          "tbt_ms": 5,
+          "transfer_bytes": 228333,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2431.425240973277,
+          "cls": 0.006799055684881995,
+          "tbt_ms": 17,
+          "transfer_bytes": 228333,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2430.9229204866647,
+        "cls": 0.006799055684881995,
+        "tbt_ms": 17,
+        "transfer_bytes": 228333,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "samples": [
+        {
+          "lcp_ms": 1264.714856876124,
+          "cls": 0.04959928391341048,
+          "tbt_ms": 2.5,
+          "transfer_bytes": 224239,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2431.52232048685,
+          "cls": 0.04959928391341048,
+          "tbt_ms": 13,
+          "transfer_bytes": 224239,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2280.7441204862466,
+          "cls": 0.04959928391341048,
+          "tbt_ms": 20,
+          "transfer_bytes": 224239,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2280.7441204862466,
+        "cls": 0.04959928391341048,
+        "tbt_ms": 13,
+        "transfer_bytes": 224239,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "samples": [
+        {
+          "lcp_ms": 2281.1255807302887,
+          "cls": 0.10073080491990548,
+          "tbt_ms": 75,
+          "transfer_bytes": 231679,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2431.064980730164,
+          "cls": 0.10073080491990548,
+          "tbt_ms": 179,
+          "transfer_bytes": 231679,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1307.3131045846685,
+          "cls": 0.10073080491990548,
+          "tbt_ms": 0.5,
+          "transfer_bytes": 231679,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<h2>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2281.1255807302887,
+        "cls": 0.10073080491990548,
+        "tbt_ms": 75,
+        "transfer_bytes": 231679,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/blog/",
+      "samples": [
+        {
+          "lcp_ms": 2280.8201204862303,
+          "cls": 0.03209189647580164,
+          "tbt_ms": 2,
+          "transfer_bytes": 223203,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2281.045980730417,
+          "cls": 0.03209189647580164,
+          "tbt_ms": 8,
+          "transfer_bytes": 223203,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2433.042380729999,
+          "cls": 0.03209189647580164,
+          "tbt_ms": 18,
+          "transfer_bytes": 223203,
+          "requests": 6,
+          "scripts": [
+            {
+              "url": "http://127.0.0.1:8080/assets/js/hero-still.js",
+              "transfer_bytes": 2095
+            }
+          ],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2281.045980730417,
+        "cls": 0.03209189647580164,
+        "tbt_ms": 8,
+        "transfer_bytes": 223203,
+        "requests": 6
+      }
+    }
+  ]
+}

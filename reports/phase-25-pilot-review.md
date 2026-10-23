@@ -78,3 +78,7 @@ Pilot-only nav/footer/link hit boxes are larger than their immutable reference e
 The missing-font article and optional-font fallback were corrected with small OFL same-family subsets embedded in existing inline CSS. Outfit retains its variable weights; Cormorant uses the exact700 role. Existing non-Latin/emoji system fallback is retained where the original Latin font has no glyph. No new design family or blocking font request.
 
 Metrics are measured separately in task6; no performance clearance is claimed here. The native hosting/backup/layout/MIME/contact-delivery blockers remain unchanged.
+
+## Task 6 final candidate supersedes the still/font-loading description above
+
+All final after-images were reshot for the measured palette-gradient tier: zero scene-image or scene-script requests on all four pilots. Same-family font subsets stay embedded in existing CSS, with block display and an atomic two-face first-text paint gate (3s/error failsafe; JS-off never gets the pending class). This corrects partial-font shifts without adding font HTTP requests. Final matched-order performance medians pass all original limits; failed candidates are retained. See phase-25-stage-1-report.md and phase-25-pilot-gate.json. The9-pixel Home1280 reference raster blocker remains unresolved and zero tolerance remains unchanged.

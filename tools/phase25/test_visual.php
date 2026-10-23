@@ -10,6 +10,10 @@ foreach (['/study-in-germany','/study-abroad-counselling-mysuru','/blog/how-to-c
     need(strpos($v, 'id="ilmera-visual-system"') !== false, 'Missing shared CSS');
     need(strpos($v, '<main>Exact words</main>') !== false, 'Content changed');
     need(strpos($v, '<link rel="stylesheet"') === false, 'Added render-blocking stylesheet');
+    need(substr_count($v, 'data:font/woff2;base64,') === 2, 'Missing inline reference faces');
+    need(strpos($v, 'href="/assets/fonts/') === false, 'Unexpected critical font HTTP request');
+    need(strpos($v, '/assets/js/hero-still.js') === false && strpos($v, 'class="p25-hero-scene"') === false, 'Budget tier still enabled');
+    need(strpos($v, "Promise.all([document.fonts.load") !== false && strpos($v, 'setTimeout(show,3000)') !== false, 'Missing atomic font paint/failsafe');
 }
 foreach (['/','/services','/about','/contact','/privacy-policy','/terms','/404','/all-pages','/study-in-italy','/study-in-russia','/study-abroad-counselling-bengaluru'] as $route) {
     $s='<head><link rel="canonical" href="https://ilmerastudyabroad.com'.$route.'"></head><body>Exact</body>';

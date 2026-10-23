@@ -42,17 +42,21 @@ function ilmera_visual_present($html)
     if ($intro !== '') {
         $html = preg_replace_callback('~(<section class="s-wrap (?:article-body|blog-sec)"[^>]*>\s*<div class="container">)~', static function ($parts) use ($intro) { return $parts[1] . $intro; }, $html, 1);
     }
-    if (ILMERA_SCENES_ENABLED) {
+    if (ILMERA_SCENES_ENABLED && (ILMERA_PILOT_SCENE_TIERS[$pilots[$match[1]]] ?? 'plain') === 'still') {
         // Canvas is decorative and not an LCP image candidate. Absolute sizing
         // keeps content geometry independent of decoding, including JS-off.
         $html = preg_replace('~(<section class="(?:article-hero|blog-hero)"[^>]*>)~', '$1<canvas class="p25-hero-scene" aria-hidden="true" role="presentation"></canvas>', $html, 1);
         $html = str_replace('</head>', '<script src="/assets/js/hero-still.js" defer></script></head>', $html);
     }
     $css = file_get_contents(dirname(__DIR__) . '/assets/css/visual-system.css');
-    // Inline the small same-family subsets so reference glyphs are available
-    // at first layout, without font-swap CLS or a new blocking network resource.
+    // Same-family subset bytes stay inside the EXISTING inline stylesheet.
+    // Atomically decoding both faces before the first visible text frame avoids
+    // partial-font swaps, without a new render-blocking or critical font request.
     foreach (['outfit-latin.woff2','cormorant-garamond-latin.woff2'] as $font) {
         $css = str_replace('/assets/fonts/'.$font, 'data:font/woff2;base64,'.base64_encode(file_get_contents(dirname(__DIR__).'/assets/fonts/'.$font)), $css);
     }
-    return str_replace('</head>', '<style id="ilmera-visual-system">' . $css . '</style></head>', $html);
+    $fontGate = <<<'HTML'
+<script>(function(){if(!document.fonts)return;var root=document.documentElement,timer;function show(){root.classList.remove('p25-font-pending');clearTimeout(timer);}root.classList.add('p25-font-pending');timer=setTimeout(show,3000);Promise.all([document.fonts.load('300 16px Outfit'),document.fonts.load('700 48px "Cormorant Garamond"')]).then(show,show);})();</script>
+HTML;
+    return str_replace('</head>', '<style id="ilmera-visual-system">'.$css.'</style>'.$fontGate.'</head>', $html);
 }

@@ -69,3 +69,16 @@ new font request or design family. CDP platform-font checks cover all24 cases.
 Capture pre-paint no-motion/GSAP-end styles and software/sRGB/dither flags are
 harness-only. Do not relax pixels.py: its remaining9 one-level Home1280
 nav-CTA-corner pixels are an explicit failing pilot gate, not a claimed PASS.
+
+Task6 final strategy supersedes swap-only font notes: two same-family subsets
+remain data-embedded in existing inline CSS, display:block; a tiny inline
+FontFaceSet loader makes their first JS-on text paint atomic, with3s/error
+failsafe. JS-off never gets the pending root class. No font HTTP request.
+All four production pilot tiers are plain reference-palette gradients after
+failed budgets; stills remain an available component fixture, not enabled.
+metrics.cjs now matches BOTH phases to the same ordered seven routes; storage
+resets each navigation but the browser process is reused. Prior unmatched
+candidates remain in failed-tier-1..4 JSON. Never widen original budgets.
+gate.py --require-pass fails on any outstanding performance/colour/technical/
+zero-tolerance pixel blocker, independently of the full technical suite.
+Reference RGB bases normalize to equivalent hex; no new colour is authorized.

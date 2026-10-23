@@ -5,16 +5,14 @@
       "js": false,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "Study in Germany from India",
         "hero": 328.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -40,16 +38,14 @@
       "js": false,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 376.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -75,16 +71,14 @@
       "js": false,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 364.671875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -110,16 +104,14 @@
       "js": false,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "ILMERA study abroad blog",
         "hero": 328.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -145,16 +137,14 @@
       "js": false,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "Study in Germany from India",
         "hero": 289.09375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -180,16 +170,14 @@
       "js": false,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 337.28125,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -215,16 +203,14 @@
       "js": false,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 302.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -250,16 +236,14 @@
       "js": false,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "ILMERA study abroad blog",
         "hero": 289.09375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -285,16 +269,14 @@
       "js": false,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "Study in Germany from India",
         "hero": 361.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -320,16 +302,14 @@
       "js": false,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 409.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -355,16 +335,14 @@
       "js": false,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 352.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -390,16 +368,14 @@
       "js": false,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "ILMERA study abroad blog",
         "hero": 361.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 300
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -425,16 +401,14 @@
       "js": true,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "Study in Germany from India",
         "hero": 328.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 360
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -462,16 +436,14 @@
       "js": true,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 376.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 360
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -499,16 +471,14 @@
       "js": true,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 364.671875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 360
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -536,16 +506,14 @@
       "js": true,
       "width": 360,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 360,
         "width": 360,
         "h1": "ILMERA study abroad blog",
         "hero": 328.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 360
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -573,16 +541,14 @@
       "js": true,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "Study in Germany from India",
         "hero": 289.09375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 768
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -610,16 +576,14 @@
       "js": true,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 337.28125,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 768
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -647,16 +611,14 @@
       "js": true,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 302.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 768
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -684,16 +646,14 @@
       "js": true,
       "width": 768,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 768,
         "width": 768,
         "h1": "ILMERA study abroad blog",
         "hero": 289.09375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 768
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -721,16 +681,14 @@
       "js": true,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "Study in Germany from India",
         "hero": 361.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 1280
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -758,16 +716,14 @@
       "js": true,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "Study abroad consultancy in Mysuru",
         "hero": 409.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 1280
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -795,16 +751,14 @@
       "js": true,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "How to choose a study abroad consultant in Karnataka",
         "hero": 352.375,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 1280
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -832,16 +786,14 @@
       "js": true,
       "width": 1280,
       "shape": {
+        "visibility": "visible",
+        "fontPending": false,
         "scroll": 1280,
         "width": 1280,
         "h1": "ILMERA study abroad blog",
         "hero": 361.1875,
         "firstLight": "rgb(240, 244, 255)",
-        "canvas": {
-          "hidden": "true",
-          "role": "presentation",
-          "width": 1280
-        }
+        "canvas": null
       },
       "fonts": {
         "h1": [
@@ -869,12 +821,12 @@
   "scene_states": [
     {
       "state": "normal",
-      "still_requests": 1,
+      "still_requests": 0,
       "hidden": "document.hidden branch emulated; not OS throttling proof"
     },
     {
       "state": "reduced-motion",
-      "still_requests": 1,
+      "still_requests": 0,
       "hidden": "document.hidden branch emulated; not OS throttling proof"
     },
     {
@@ -884,7 +836,7 @@
     },
     {
       "state": "hidden",
-      "still_requests": 1,
+      "still_requests": 0,
       "hidden": "document.hidden branch emulated; not OS throttling proof"
     }
   ],

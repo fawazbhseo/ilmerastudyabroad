@@ -1,0 +1,962 @@
+{
+  "stage": 1,
+  "rollout_authorized": false,
+  "stage_2_started": false,
+  "baseline_unchanged_sha256": "6120327931012ce35aa6e9b43c32712a0fbcaee7d6ea1fcdb9d97a91d5d1f1a3",
+  "after_metrics_sha256": "dcb8da453d7333501295026ec3fdb93284ebe0b0b4b5080f3987e7be5692c145",
+  "matched_measurement_order": true,
+  "measurement_order": [
+    "/",
+    "/services",
+    "/contact",
+    "/study-in-germany",
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "/blog/"
+  ],
+  "measurement_note": "Three storage-reset navigations per route, same ordered reference prefix as baseline; browser process reused, not a cold process for each sample. Local simulated medians, not field or native-hosting evidence. Unchanged reference controls show substantial run-to-run variation. All earlier candidate failures retained. No threshold widened.",
+  "limits": {
+    "added_transfer_bytes_strictly_under": 150000,
+    "cls_strictly_under": 0.1,
+    "cls_no_worse_than_baseline": true,
+    "lcp_multiplier": 1.1,
+    "tbt_added_ms": 50
+  },
+  "pilots": [
+    {
+      "route": "/study-in-germany",
+      "before": {
+        "lcp_ms": 1592.006328438138,
+        "cls": 0.053536100474154,
+        "tbt_ms": 0,
+        "transfer_bytes": 230549,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 1175.7048409737956,
+        "cls": 0,
+        "tbt_ms": 2,
+        "transfer_bytes": 189456,
+        "requests": 4
+      },
+      "added_transfer_bytes": -41093,
+      "lcp_limit_ms": 1751.206961281952,
+      "tbt_limit_ms": 50,
+      "new_render_blocking": [],
+      "lcp_elements": [
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">"
+      ],
+      "checks": {
+        "added_transfer_under_150000_bytes": true,
+        "no_new_render_blocking_resource": true,
+        "cls_no_worse_and_under_0_1": true,
+        "lcp_within_110_percent": true,
+        "tbt_within_baseline_plus_50_ms": true,
+        "lcp_is_text_or_container": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "before": {
+        "lcp_ms": 1588.4658284381187,
+        "cls": 0.04555956032903773,
+        "tbt_ms": 0,
+        "transfer_bytes": 226502,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 1192.8111807299147,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 185362,
+        "requests": 4
+      },
+      "added_transfer_bytes": -41140,
+      "lcp_limit_ms": 1747.3124112819307,
+      "tbt_limit_ms": 50,
+      "new_render_blocking": [],
+      "lcp_elements": [
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">"
+      ],
+      "checks": {
+        "added_transfer_under_150000_bytes": true,
+        "no_new_render_blocking_resource": true,
+        "cls_no_worse_and_under_0_1": true,
+        "lcp_within_110_percent": true,
+        "tbt_within_baseline_plus_50_ms": true,
+        "lcp_is_text_or_container": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "before": {
+        "lcp_ms": 2182.250954584182,
+        "cls": 0,
+        "tbt_ms": 50,
+        "transfer_bytes": 143512,
+        "requests": 2
+      },
+      "after": {
+        "lcp_ms": 1173.507380730132,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 192802,
+        "requests": 4
+      },
+      "added_transfer_bytes": 49290,
+      "lcp_limit_ms": 2400.4760500426005,
+      "tbt_limit_ms": 100,
+      "new_render_blocking": [],
+      "lcp_elements": [
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">",
+        "<p class=\"direct-answer\">"
+      ],
+      "checks": {
+        "added_transfer_under_150000_bytes": true,
+        "no_new_render_blocking_resource": true,
+        "cls_no_worse_and_under_0_1": true,
+        "lcp_within_110_percent": true,
+        "tbt_within_baseline_plus_50_ms": true,
+        "lcp_is_text_or_container": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "before": {
+        "lcp_ms": 2182.742952292062,
+        "cls": 0.10286651077066893,
+        "tbt_ms": 0,
+        "transfer_bytes": 211307,
+        "requests": 7
+      },
+      "after": {
+        "lcp_ms": 1158.9221807300514,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 184326,
+        "requests": 4
+      },
+      "added_transfer_bytes": -26981,
+      "lcp_limit_ms": 2401.0172475212685,
+      "tbt_limit_ms": 50,
+      "new_render_blocking": [],
+      "lcp_elements": [
+        "<p class=\"sub\">",
+        "<p class=\"sub\">",
+        "<p class=\"sub\">"
+      ],
+      "checks": {
+        "added_transfer_under_150000_bytes": true,
+        "no_new_render_blocking_resource": true,
+        "cls_no_worse_and_under_0_1": true,
+        "lcp_within_110_percent": true,
+        "tbt_within_baseline_plus_50_ms": true,
+        "lcp_is_text_or_container": true
+      },
+      "passed": true
+    }
+  ],
+  "performance_passed": true,
+  "colour_allowlist": {
+    "passed": true,
+    "palette": [
+      "#000000",
+      "#000096",
+      "#0000b4",
+      "#006400",
+      "#006428",
+      "#008200",
+      "#009600",
+      "#00963c",
+      "#00b450",
+      "#00d46a",
+      "#04060f",
+      "#081237",
+      "#0a1628",
+      "#0a163c",
+      "#0d1b3e",
+      "#0f1c36",
+      "#0f2355",
+      "#10022",
+      "#10024",
+      "#10060",
+      "#11088",
+      "#127379",
+      "#127463",
+      "#127464",
+      "#127465",
+      "#127466",
+      "#127468",
+      "#127470",
+      "#127472",
+      "#127473",
+      "#127479",
+      "#127480",
+      "#127481",
+      "#127482",
+      "#127483",
+      "#127487",
+      "#127757",
+      "#127760",
+      "#127891",
+      "#127919",
+      "#127942",
+      "#127961",
+      "#127963",
+      "#127969",
+      "#128172",
+      "#128176",
+      "#128184",
+      "#128188",
+      "#128196",
+      "#128197",
+      "#128201",
+      "#128218",
+      "#128222",
+      "#128300",
+      "#128336",
+      "#128640",
+      "#128706",
+      "#14285a",
+      "#1a2e5a",
+      "#243659",
+      "#2a3b5c",
+      "#3a4a6b",
+      "#4488ff",
+      "#4a5568",
+      "#5a6b8c",
+      "#640000",
+      "#8377",
+      "#888888",
+      "#8a6a00",
+      "#8a98b8",
+      "#8b0000",
+      "#960000",
+      "#9854",
+      "#9992",
+      "#9993",
+      "#aabbff",
+      "#b40000",
+      "#b8934a",
+      "#c80000",
+      "#c8d3e8",
+      "#c9a84c",
+      "#cc0000",
+      "#d4b05a",
+      "#dc0000",
+      "#e05555",
+      "#e53e3e",
+      "#e8edf5",
+      "#f0f4ff",
+      "#f4f6fb",
+      "#ffffff"
+    ],
+    "files": [
+      {
+        "file": "assets/css/visual-system.css",
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/visual-system.php",
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "404.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "about.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "all-pages.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/documents-needed-to-study-abroad-from-india.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/index.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/italy-dsu-scholarship-eligibility.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/scholarships-for-indian-students-study-abroad.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/study-abroad-counselling-from-coorg.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/study-abroad-with-academic-backlogs.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "blog/study-in-germany-free-aps-certificate.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "contact.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "data/proof.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/czech-republic.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/gcc.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/germany.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/italy.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/latvia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/lithuania.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/russia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/slovakia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "destinations/uk.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/breadcrumbs.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/destination-data.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/destination-page.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/entity.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/footer.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/header.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/links.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/payment-disclosure.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/place-data.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/place-page.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/posts.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/proof.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/service-scope.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/site-presentation.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "includes/sitemap-data.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "index.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/belagavi.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/bengaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/chikkamagaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/gonikoppal.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/hassan.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/karnataka.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/kodagu.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/kushalnagar.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/madikeri.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/mangaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/mysuru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/ponnampet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/shivamogga.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/siddapura.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/somwarpet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/udupi-manipal.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "places/virajpet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "privacy-policy.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "services.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "sitemap.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-consultants-in-karnataka.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-consultants-in-kodagu.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-belagavi.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-bengaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-chikkamagaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-gonikoppal.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-hassan.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-kushalnagar.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-madikeri.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-mangaluru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-mysuru.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-ponnampet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-shivamogga.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-siddapura.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-somwarpet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-udupi-manipal.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-abroad-counselling-virajpet.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-czech-republic.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-gcc.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-germany.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-italy.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-latvia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-lithuania.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-russia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-slovakia.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "study-in-uk.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "terms.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/build-sitemap.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/check_destination_sources.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/check_place_contact.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/check_place_publication.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/test_proof.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      },
+      {
+        "file": "tools/test_strategy_schema.php",
+        "new_colours": [],
+        "outside_reference_palette": [],
+        "outside_reference_rgb_bases": []
+      }
+    ]
+  },
+  "technical_suite_passed": true,
+  "strict_reference_pixels_passed": false,
+  "strict_reference_pixel_comparisons": [
+    {
+      "reference": "home",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        10178,
+        360,
+        11944
+      ]
+    },
+    {
+      "reference": "home",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        8279,
+        768,
+        9765
+      ]
+    },
+    {
+      "reference": "home",
+      "width": 1280,
+      "changed_pixels_outside_team": 9,
+      "difference_bounds": [
+        1033,
+        18,
+        1220,
+        54
+      ],
+      "only_allowed_mask": [
+        0,
+        7540,
+        1280,
+        8504
+      ]
+    },
+    {
+      "reference": "services",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "services",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "services",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "about",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        7115,
+        360,
+        9158
+      ]
+    },
+    {
+      "reference": "about",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        4727,
+        768,
+        6021
+      ]
+    },
+    {
+      "reference": "about",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        4666,
+        1280,
+        5820
+      ]
+    },
+    {
+      "reference": "contact",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "contact",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "contact",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    }
+  ],
+  "runtime_sha256": {
+    "includes/visual-config.php": "d2ceb0c997843eed829519a17c4c2ce88111ec2f5d9f15a9c7197e63cf59d47b",
+    "includes/visual-system.php": "f620302346eacbedd33a9441d18e40470b362ff6d87967976233265a2058ca90",
+    "includes/site-presentation.php": "e27d3b78ce9dc3d1b64c24736bc8ec66d129542ab55b8fe392fc753915d1661e",
+    "assets/css/visual-system.css": "4bb00d034d9d0e09e671134df275bfbff59fc72befc1f253234aef5ec7492005",
+    "assets/fonts/outfit-latin.woff2": "db614390b3f3ac79f7731a50d6ff2494c818aaf788475322b83c3ff9faa9e854",
+    "assets/fonts/cormorant-garamond-latin.woff2": "0ee72c59334ef2ffee83ebb314be26d74fcae1be428c9e1035eaf60ee293f3b4",
+    "assets/js/hero-still.js": "729840c176b90a5910d625e637bdd1eee175e81a838977dc850e299bc6b0a2ba"
+  },
+  "gate_passed": false,
+  "status": "BLOCKED",
+  "release_sentence": "Pilot complete. Waiting for owner approval before rollout."
+}

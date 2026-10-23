@@ -127,5 +127,5 @@
       "only_allowed_mask": null
     }
   ],
-  "scope": "All pixels exact for Services/Contact. All pixels outside original unchanged #team section footprint exact for Home/About; team-only changes explicitly authorized."
+  "scope": "Required zero-tolerance comparison: all Services/Contact pixels; all Home/About pixels outside the measured unchanged original team-section footprint. Result is reported by passed/comparisons, not assumed by this scope description."
 }

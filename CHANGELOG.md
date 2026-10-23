@@ -1500,3 +1500,10 @@ Text-free actual reference-scene stills at 720/1440px (24,574/37,226 bytes), def
 ## 2026-10-23 - Phase 25 Stage 1 task 5
 
 Applied only the four pilot routes through the shared visual overlay. Light long-form reading areas, same reference fonts/palette/grid, static scenes, high-contrast keyboard states and44px controls. Actual custom fonts now verified; licensed subsets inline without a new blocking resource. All content/FAQ/schema/link/status/portrait guards remain exact. Team-only footprint fixes preserve reference section bounds at approval widths. Full suite PASS707.31s plus final corrected-font/strict/screenshot checks. Strict raw reference raster is11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; NOT waived, no rollout clearance.
+
+
+## 2026-10-23 - Phase25 Stage1 task6 pilot gate
+
+Kept fixed budgets and prior failures. Final four pilots use the lighter reference-palette gradient, no scene fetch/library/script. Same-family inline font subsets now paint atomically with a short failsafe and readable JS-off; zero CLS in final local samples. Final matched-order/three-navigation medians pass all performance budgets. Corrected measurement route order and RGB/hex reference-token equivalence without changing baseline thresholds, words or palette.48 screenshots retained, final pilot after-images reshot. Strict reference raster remains11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; gate BLOCKED, no rollout, merge or deployment. Final report and complete changed-file manifest added.
+
+Task6 final full technical suite PASS581.55s. Independent strict pilot release gate correctly remains BLOCKED on9 Home1280 reference corner pixels; performance/colour/technical criteria pass. No Stage2 work.

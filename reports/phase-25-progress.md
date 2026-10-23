@@ -65,3 +65,13 @@ Font-bound inspection also caught a real visual issue: font-display optional cou
 ### Task 5 checkpoint result
 
 Full suite PASS707.31s, followed by corrected-font all24-case checks, all43-route strict comparison, deterministic font regeneration check and final screenshot self-review. Forty-eight before/after images are provided with links/embeds in phase-25-pilot-review.md. Exact reference pixels:11/12 PASS; Home1280 has9 one-level navigation-CTA corner pixels remaining. That strict criterion is NOT waived and is NOT reported as passed; retain it as a pilot-gate blocker for owner review. No source/style change outside the authorized team area explains an intentional reference redesign. No Stage2 rollout.
+
+## Task 6: final pilot gate (no rollout)
+
+Retained four failed candidate measurement files. Dropped all four pilot scenes to a reference-palette gradient and zero scene fetch/script. Font subsets remain inline; block display plus atomic first-text paint removes partial-font shifts, with3s/error failsafe and visible JS-off. Local font HTTP preloads were tried and discarded; no extra critical font request remains.
+
+Corrected measurement order to match the unchanged baseline: Home/Services/Contact reference prefix, then the four pilots, three storage-reset navigations each, same persistent browser process. Original budgets/medians are not weakened. Final pilot medians all PASS: Germany LCP1175.705ms/CLS0/TBT2ms; Mysuru1192.811/0/0; article1173.507/0/0; blog1158.922/0/0. Added transfer:-41093/-41140/+49290/-26981B, all<150000B. No new render-blocking resource. Reference controls vary substantially between local runs; no field/live-hosting improvement claims.
+
+First task6 full run stopped at a colour-check extraction bug: original reference rgba(13,27,62,.97) had not been normalized to equivalent#0d1b3e. Fixed the reference-token extractor, not application colours or palette restrictions; same actual immutable RGB base only. Final full suite is being repeated with strengthened no-blank-body/zero-scene checks. All48 screenshots retained; final12 pilot after-images reshot/losslessly recompressed. Strict reference raster remains11/12 PASS,9 one-level Home1280 CTA-corner pixels unresolved. Gate stays BLOCKED; no Stage2.
+
+Task6 final full syntax/unit/render/browser/discovery/strict suite PASS in581.55s (35 check groups), including strengthened actual-font/no-blank-body/zero-scene assertions. All24 pilot cases,126 FAQ expansions,12 axe runs pass. Final gate.py --require-pass intentionally exits1: performance/colour/technical PASS, strict reference raster FAIL on the9 Home1280 corner pixels. Baseline budgets and zero pixel tolerance remain unchanged. No Stage2, merge or deployment.

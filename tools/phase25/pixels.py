@@ -11,5 +11,5 @@ for name in ['home','services','about','contact']:
    assert before['teamSection']==after['teamSection'],(name,width,'team footprint changed')
    r=before['teamSection'];mask=[0,math.floor(r['y']),width,math.ceil(r['y']+r['height'])];diff.paste((0,0,0),tuple(mask))
   bbox=diff.getbbox();rows.append({'reference':name,'width':width,'changed_pixels_outside_team':sum(1 for p in diff.get_flattened_data() if p!=(0,0,0)),'difference_bounds':bbox,'only_allowed_mask':mask})
-result={'tolerance':0,'viewports':[360,768,1280],'passed':all(r['difference_bounds'] is None for r in rows),'comparisons':rows,'scope':'All pixels exact for Services/Contact. All pixels outside original unchanged #team section footprint exact for Home/About; team-only changes explicitly authorized.'}
+result={'tolerance':0,'viewports':[360,768,1280],'passed':all(r['difference_bounds'] is None for r in rows),'comparisons':rows,'scope':'Required zero-tolerance comparison: all Services/Contact pixels; all Home/About pixels outside the measured unchanged original team-section footprint. Result is reported by passed/comparisons, not assumed by this scope description.'}
 (root/'reports/phase-25-reference-pixels.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result));assert result['passed'],'Reference pixel change outside allowed team section'

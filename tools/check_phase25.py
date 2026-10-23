@@ -86,7 +86,11 @@ def validate(root,base,stage,baseline):
  if stage>=2:
   palette=set()
   for filename in ['index.php','services.php','about.php','contact.php','includes/header.php','includes/footer.php']:
-   palette|={h.lower() for h in re.findall(r'#[\da-fA-F]{3,8}\b',subprocess.check_output(['git','show',BASE+':'+filename],cwd=root,text=True))}
+   reference=subprocess.check_output(['git','show',BASE+':'+filename],cwd=root,text=True)
+   palette|={h.lower() for h in re.findall(r'#[\da-fA-F]{3,8}\b',reference)}
+   # Same immutable RGB base, alternate hex spelling; opacity tints are allowed.
+   # E.g. original rgba(13,27,62,.97) uses precisely #0d1b3e, not a new colour.
+   palette|={'#%02x%02x%02x'%tuple(map(int,rgb)) for rgb in re.findall(r'rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})(?:\s*,[^)]*)?\)',reference)}
   def expand(h):return '#'+''.join(c*2 for c in h[1:]) if len(h)==4 else h
   palette={expand(h) for h in palette}
   css=(root/'assets/css/visual-system.css').read_text()
