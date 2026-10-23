@@ -87,6 +87,8 @@ def validate(root,base,stage,baseline):
   def expand(h):return '#'+''.join(c*2 for c in h[1:]) if len(h)==4 else h
   palette={expand(h) for h in palette}
   css=(root/'assets/css/visual-system.css').read_text()
+  shared=css+(root/'includes/visual-system.php').read_text()
+  assert {expand(h.lower()) for h in re.findall(r'#[\da-fA-F]{3,8}\b',shared)}<=palette,'Shared include colour outside reference palette'
   assert {expand(h.lower()) for h in re.findall(r'#[\da-fA-F]{3,8}\b',css)}<=palette,'New colour outside reference palette'
   assert set(re.findall(r'border-radius:([^;}]+)',css))<={'3px','12px','0','inherit'},'More than two new component radii'
   assert set(re.findall(r"font-family:([^;}]+)",css))<={"'Outfit',sans-serif","'Cormorant Garamond',serif","'Outfit'","'Cormorant Garamond'"}

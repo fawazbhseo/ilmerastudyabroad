@@ -78,3 +78,8 @@ body.p25 #il-footer .ft-links{gap:0;}
 body.p25 .breadcrumb a,body.p25 .article-body li a,body.p25 .sources-list a{display:inline-flex;align-items:center;min-height:44px;}
 @media(max-width:768px){body.p25 .container,body.p25 .article-body .container{padding-inline:22px;}body.p25 .article-hero,body.p25 .blog-hero{padding:110px 22px 48px;}body.p25.p25-article .article-hero{padding-top:100px;padding-bottom:32px;}body.p25 .article-hero h1,body.p25 .blog-hero h1{font-size:34px;}body.p25 .article-body,body.p25 .blog-sec{padding:48px 0;}body.p25 .article-body h2{font-size:30px;}body.p25 .blog-grid{grid-template-columns:1fr;}body.p25 .il-faq summary{padding:18px 20px;}body.p25 th,body.p25 td{padding:12px;font-size:14px;}}
 @media(prefers-reduced-motion:reduce){body.p25,body.p25 *{scroll-behavior:auto;animation:none;transition:none;}}
+
+/* Same palette fallback with no request, shift, moving layer or decorative glow. */
+body.p25 .article-hero,body.p25 .blog-hero{background:linear-gradient(135deg,#0a1628,#04060f);}
+body.p25 .p25-hero-scene{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:.45;pointer-events:none;}
+body.p25.p25-article .p25-hero-scene{opacity:.25;}

@@ -21,6 +21,9 @@ checks['PHP syntax']={'status':'PASS','files':len(files),'runtime':'PHP 8.5 WASM
 print('PASS PHP syntax',len(files),flush=True)
 for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','test_llm_directory.py','test_llm_policy.py','test_presence.py','test_wording.py','test_team_bio_policy.py']:
  run(name,[sys.executable,'tools/'+name])
+if a.stage>=4:
+ run('scene ON',['php','tools/phase25/test_scenes.php','on'])
+ run('scene OFF',['php','tools/phase25/test_scenes.php','off'])
 if a.stage>=2:run('visual opt-in and local-font policy',['php','tools/phase25/test_visual.php'])
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])

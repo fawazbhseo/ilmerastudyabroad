@@ -1490,3 +1490,8 @@ Shared reference-token visual system, pure opt-in presentation hook and locally 
 ## 2026-10-23 - Phase 25 Stage 1 task 3
 
 Exact owner short biographies in Home/About cards only, with equal-height team grids. Removed the redundant second Jabir card role paragraph as part of its exact card-bio replacement; existing About FAQ is untouched. Full Person descriptions, Fawaz/Zaheer full FAQ biographies, sameAs, both LLM files, photos/names/titles/alt text and all other content remain unchanged. Counts 127/130/126, spread 4 PASS; eight narrow-context regressions and full suite PASS (542.04s).
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 4
+
+Text-free actual reference-scene stills at 720/1440px (24,574/37,226 bytes), deferred decorative canvas loader, static reduced-motion behavior, Save-Data/hidden-tab/JS-off fallback, and one explicit sitewide scene OFF constant. No new WebGL/library/parallax; defaults preserve reference output and keep pilot application OFF. ON/OFF unit checks and full suite PASS (536.86s).

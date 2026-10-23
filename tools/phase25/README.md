@@ -39,3 +39,11 @@ original OFL license notices alongside. No new font family or blocking styleshee
 Phase25 browser checks programmatically finish finite transitions before checking
 end-state geometry. The same route/viewport/JS/FAQ/photo assertions are retained;
 this avoids spending wall-clock time on every closing FAQ transition.
+
+`build_still.cjs` captures only the actual WebGL canvas (not a screenshot of its
+page rectangle), avoiding embedded headings/navigation. Capture-only preserved
+drawing buffer does not modify source. Pillow WebP quality78/method6 encodes
+720x900 and1440x900, recorded hashes/sizes in phase-25-hero-assets.json.
+Single sitewide switch: includes/visual-config.php, ILMERA_SCENES_ENABLED.
+Default ON does not change reference HTML; OFF hides overlays, removes reference
+Three.js loading and omits pilot canvases/loader, yielding plain palette heroes.

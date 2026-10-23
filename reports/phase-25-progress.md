@@ -30,4 +30,14 @@ Closer source inspection correction to Task 1: About's Jabir card contained both
 
 Short texts are allowed only in the six actual card paragraphs. Regression tests reject shortened schema/FAQ/prose/other-route usage and extra claims; the full-bio training-institute exception is unchanged. Full lint/unit/render/browser/discovery/strict suite PASS in 542.04s. Eight bio-policy regressions pass; all 43 renders preserve exact text/order except the explicit card replacement/removal, identical links/images/JSON-LD and protected source/status data. All 38 published canonical team records and both LLM files remain unchanged.
 
-Tasks 4-6 pending. Stage 2 not started.
+Task 3 commit: `4844f3f`, pushed with PR #1 checkpoint.
+
+## Task 4: static hero tiers and single global switch
+
+Generated text-free mobile/desktop WebP stills directly from the unchanged Home scene (720x900 and 1440x900, each <120,000 bytes). Capture-only preserveDrawingBuffer/seed/frozen first frame do not alter the website's reference scene. Sizes and hashes: phase-25-hero-assets.json. No stock imagery, new scene library, WebGL runtime or parallax added to pilots.
+
+Decorative aria-hidden canvases draw the responsive still after two content frames plus idle scheduling. Canvas is not an LCP image candidate. Position is absolute with no content size dependency. No recurring RAF/animation exists; reduced-motion remains static. Save-Data makes no image request; hidden tabs defer scheduling/drawing and resume on visibility. JS-off/error fallback is the same reference-palette gradient. One `ILMERA_SCENES_ENABLED` constant turns off reference WebGL loading/visible overlays and pilot stills sitewide, yielding a plain palette hero. Default true leaves reference output unchanged. Article role has shorter padding and a quieter static still; future legal/404 roles are not applied in Stage 1.
+
+Pilot enable switch remains OFF until task 5. Four opt-in/exclusion tests plus explicit scene ON/OFF tests PASS. Full lint/unit/render/browser/discovery/strict suite PASS in 536.86s. The two stills are 24,574 and 37,226 bytes. Default-off pilot application still produces no pilot render changes.
+
+Tasks 5-6 pending. Stage 2 not started.
