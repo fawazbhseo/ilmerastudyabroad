@@ -137,6 +137,7 @@ https://ilmerastudyabroad.com/reports/phase-24-release-check.md
 https://ilmerastudyabroad.com/reports/phase-24-render-inventory.json
 https://ilmerastudyabroad.com/reports/phase-24b-bio-edits.md
 https://ilmerastudyabroad.com/reports/phase-24b-checks.json
+https://ilmerastudyabroad.com/reports/phase-24b-cycles.md
 https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.json
 https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.md
 https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt

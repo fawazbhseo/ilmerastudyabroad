@@ -15,8 +15,8 @@ destination facts and Jabir bio/photo/title/alt remain protected.
 | --- | --- | --- |
 | 1. Owner-approved bios and profile links | done | Exact bios, Fawaz-only sameAs, narrow institute context guard; full suite PASS 556.92s; commit `dab255e` |
 | 2. All rendered Fawaz portraits | done | Full suite PASS 554.92s; all 43 renders have zero original uses; 54 derivative browser loads; commit `0890780` |
-| 3. Public-file exposure audit and deny rules | done | Full suite PASS 575.33s; 220 non-page files, 222 denial probes, 55 positive resources/12 assets; native rules unverified; this task commit |
-| 4. Bounded verification | not started | At most two cycles; early clean stop; repeated failure twice stop |
+| 3. Public-file exposure audit and deny rules | done | Full suite PASS 575.33s; 220 non-page files, 222 denial probes, 55 positive resources/12 assets; native rules unverified; commit `2f289b9` |
+| 4. Bounded verification | done | Cycle 1 local PASS 560.67s, early stop; cycle 2 not run, no repeated failure; native/live limits retained; this task commit |
 | 5. Append-only sign-off | not started | Full final suite, every changed file and bio surface |
 
 One commit/push/full-suite/PR #1 checkpoint per task. Historical Phase 24

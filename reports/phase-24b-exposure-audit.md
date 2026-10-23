@@ -62,7 +62,7 @@ Complete backup and all-file/settings restore readiness remain prerequisites.
 
 ## Complete file inventory
 
-220 non-page files: 202 denied, 18 intentionally public. Exact machine-readable rows include prior block, new rule, full URL and expected result. No log/backup file was found; deny/probe coverage still exists for both extensions.
+221 non-page files: 203 denied, 18 intentionally public. Exact machine-readable rows include prior block, new rule, full URL and expected result. No log/backup file was found; deny/probe coverage still exists for both extensions.
 
 | File | Before | After / expected |
 | --- | --- | --- |
@@ -206,6 +206,7 @@ Complete backup and all-file/settings restore readiness remain prerequisites.
 | `reports/phase-24-render-inventory.json` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-bio-edits.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-checks.json` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
+| `reports/phase-24b-cycles.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-exposure-audit.json` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-exposure-audit.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-live-url-checks.txt` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
@@ -449,6 +450,7 @@ https://ilmerastudyabroad.com/reports/phase-24-release-check.md
 https://ilmerastudyabroad.com/reports/phase-24-render-inventory.json
 https://ilmerastudyabroad.com/reports/phase-24b-bio-edits.md
 https://ilmerastudyabroad.com/reports/phase-24b-checks.json
+https://ilmerastudyabroad.com/reports/phase-24b-cycles.md
 https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.json
 https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.md
 https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt
@@ -598,4 +600,4 @@ https://ilmerastudyabroad.com/study-in-uk
 https://ilmerastudyabroad.com/terms
 ```
 
-Local adapter results (not native engine results): `{"status": "PASS local adapter only", "denied_or_absent_probes": 222, "public_resources_200": 55, "site_assets_200": 12, "native_engine_rules_tested": false}`.
+Local adapter results (not native engine results): `{"status": "PASS local adapter only", "denied_or_absent_probes": 223, "public_resources_200": 55, "site_assets_200": 12, "native_engine_rules_tested": false}`.
