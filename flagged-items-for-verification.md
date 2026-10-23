@@ -3607,3 +3607,8 @@ feedback still need their separate owner evidence; no values are inferred.
 
 - Stage2 final bounded cycle3: six destination fallback AA cases PASS; fresh43 semantic/source/font-tier and original protected-data/publication/discovery/SEO guards PASS. Exact chrome has one approximately0.016px Germany1280 nav auto-margin drift after authorized inline fallback, plus the known shortened404 footer. These remain explicit exactness failures, not rounded away. Three-cycle limit reached; no more retries.
 - Stage2 final release record is NOT READY. Seven live font/cache URLs are future verification targets, not live deployment claims. Local adapter returns200/font/woff2 only; no native cache headers.16 review images are internal GitHub evidence, not website assets or upload material. All previous blockers preserved.
+
+
+## Phase25c Task2: performance certification remains blocked (2026-10-23)
+
+All three permitted fresh-process interleaved A/B sessions failed unchanged-reference median reliability. Reference A/B HTML hashes are identical. First session Home and partial Services data, all four second-session controls, and all fourteen final-session routes are retained in reports/phase-25c-task2-ab.json. No fourth session, baseline relabelling, budget relaxation or field/live claim. Numerical rebuilt-route passes cannot certify an unreliable session. Performance release gate remains FAIL pending separately authorized reliable evidence. Native-host/delivery/layout/backup/restore and earlier business/source/proof blockers remain untouched.
