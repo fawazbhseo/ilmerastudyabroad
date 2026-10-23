@@ -202,16 +202,10 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "name": "Fawaz BH",
       "givenName": "Fawaz",
       "jobTitle": "CMO",
-      "description": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs the consultancy FawazBHSEO and leads ILMERA's search and content strategy.",
+      "description": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
       "image": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
       "url": "https://fawazbhseo.in",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "hasCredential": [
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Ahrefs Academy Certification"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Semrush AI Visibility Essentials"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Semrush Technical SEO & AI Search Essentials"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"diploma","name":"Advanced Diploma in Digital Marketing","recognizedBy":{"@type":"Organization","name":"Adrex Media School"}}
-      ],
       "knowsAbout": [
         "Search engine optimisation",
         "Answer Engine Optimisation",
@@ -220,12 +214,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
         "Schema.org structured data"
       ],
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
-      "sameAs": [
-        "https://fawazbhseo.in",
-        "https://fawazbhseo.in/about/",
-        "https://www.linkedin.com/in/fawazbh",
-        "https://www.instagram.com/f.a.b.u_"
-      ],
+      "sameAs": ["https://fawazbhseo.in/", "https://www.linkedin.com/in/fawazbh"],
       "mainEntityOfPage": {"@id": "https://ilmerastudyabroad.com/about#webpage"}
     },
     {
@@ -234,7 +223,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
       "name": "Zaheer KJ",
       "givenName": "Zaheer",
       "jobTitle": "CFO",
-      "description": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.",
+      "description": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
       "image": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
@@ -292,7 +281,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Who is Fawaz BH?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content."
+            "text": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School."
           }
         },
         {
@@ -300,7 +289,7 @@ $pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/a
           "name": "Who is Zaheer KJ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function."
+            "text": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation."
           }
         },
         {
@@ -664,7 +653,7 @@ img{max-width:100%;height:auto;}
         <div class="team-avatar"><img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="88px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
         <div class="team-role">Chief Marketing Officer</div>
-        <p class="team-bio"><strong>Fawaz BH is CMO at ILMERA Study Abroad</strong> and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);text-decoration:underline;">fawazbhseo.in</a>, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.</p>
+        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p>
 
         <a href="https://linkedin.com/in/fawazbh" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Fawaz BH on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
@@ -672,7 +661,7 @@ img{max-width:100%;height:auto;}
         <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
         <div class="team-role">Chief Financial Officer</div>
-        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.</p>
+        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>
       </article>
 
     </div>
@@ -695,9 +684,9 @@ img{max-width:100%;height:auto;}
 
       <details class="il-faq"><summary>Who is Jabir KJ?</summary><div><p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content.</p></div></details>
+      <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.</p></div></details>
+      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p></div></details>
 
       <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. Its existing team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>
 

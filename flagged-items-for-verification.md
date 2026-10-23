@@ -3485,3 +3485,21 @@ optional Zaheer background, written fee inclusions/schedule/refund terms and
 future genuine feedback with written permission/verified video remain owner
 follow-ups. No additional background, policy term, result, office or financial
 service is inferred. Historical source/status/destination blockers remain.
+
+## Phase 24b conservative decisions, 2026-10-23
+
+The owner now explicitly approves both replacement bios, superseding the
+Phase 24 minimal Zaheer bio and Fawaz preservation instruction. Opened the
+portfolio homepage and About page, both complete across two returned chunks.
+Ahrefs/Semrush certifications, the named digital-marketing diploma and the
+early-2025 SEO start all match the requested Fawaz wording. The portfolio
+links to the approved LinkedIn URL. These are owner/first-party statements,
+not independent issuer verification. No requested detail requires reduction.
+Other external role/outcome/service/contact claims were not imported; approved
+ILMERA role labels and Jabir-only founder attribution remain authoritative.
+
+Adrex Media School is allowed only within the two exact approved bios and
+matching Person/FAQ/LLM descriptions. It is a training institute, not a
+university. Do not remove or broaden the university blocklist. Historical
+audit inventories and negative-test strings remain evidence, not active bios.
+No certificate private fields, source gates or held-route statuses change.
