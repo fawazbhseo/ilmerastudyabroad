@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/visual-system.php'; ilmera_visual_start(); ?>
 <?php
 require_once __DIR__ . '/destination-data.php';
 require_once __DIR__ . '/breadcrumbs.php';

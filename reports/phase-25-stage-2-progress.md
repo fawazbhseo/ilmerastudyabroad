@@ -7,7 +7,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 ## Task status
 
 - Task1 header/footer/fonts: complete.
-- Task2A destinations: not started.
+- Task2A destinations: complete.
 - Task2B places: not started.
 - Task2C articles/index: not started.
 - Task2D legal/utility: not started.
@@ -27,3 +27,7 @@ Seven self-hosted Latin files supply the exact reference mirror weights: Outfit3
 Before runtime edits, two original baseline passes were recorded. About had a larger transient background difference. A controlled repeated calibration (fixed clocks and suppressed repeating decorative timers, harness only) also reproduces9 one-level CTA-corner pixels at exactly the Home Stage1 locations on unchanged About1280, within0.01percent. Home emits no shared stylesheet, so new shared CSS cannot cause its9 corner pixels. Treat those9 within-rule pixels as accepted anti-aliasing noise under decisionC, not a waiver for larger differences. About768 self-noise remains above the rule and will not be claimed accepted. Both raw and controlled noise reports retained.
 
 All43 semantic/source/palette comparisons PASS. Four pilots only remain opted in. Full rollout and bounded verification follow.
+
+## Task2A checkpoint
+
+Destination role now applies at template level to all9 routes (7 published,2 held). Shared held-template startup runs only the visual buffer, not publication/SEO presentation. Held statuses/robots/discovery remain exact. All43 text/order/link/image/JSON-LD/source/palette checks PASS.12 routes currently styled:9 destinations plus the other3 existing pilots. No still URLs or loader emitted.

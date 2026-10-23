@@ -58,7 +58,7 @@ function ilmera_present_page($html)
     if (!preg_match('~<link[^>]+rel="canonical"[^>]+href="https://ilmerastudyabroad.com([^"]*)"~', $html, $match)) return $html;
     $path = $match[1] ?: '/';
     $map = json_decode(file_get_contents(dirname(__DIR__) . '/data/seo-map.json'), true);
-    if (!isset($map[$path]) || preg_match('~<meta[^>]+name="robots"[^>]+content="[^"]*noindex~i', $html)) return $html;
+    if (!isset($map[$path]) || preg_match('~<meta[^>]+name="robots"[^>]+content="[^"]*noindex~i', $html)) return ilmera_visual_present($html);
     $entry = $map[$path];
     $answers = json_decode(file_get_contents(dirname(__DIR__) . '/data/answer-map.json'), true);
     if (isset($answers[$path])) $entry['answer_data'] = $answers[$path];

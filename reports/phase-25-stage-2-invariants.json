@@ -70,7 +70,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "bf77605f2864b71f5a3f56eddcd0a6a08a90c7ced1921d30da734e013648acdd"
+      "sha256": "9e747a5006a15e705391d8ec74ddd96ee0b6bc867ca344e37aee51b7874c6142"
     },
     {
       "route": "/blog/",
@@ -82,7 +82,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "8ff03876a74defc653d1ec57c1bbd2c0e5975b45056b19e7f43dc62180ccf4de"
+      "sha256": "560f0c87fdaa41e0538780bf7d1238e9c9878b93319afad5ea8f02d06cab7a66"
     },
     {
       "route": "/blog/italy-dsu-scholarship-eligibility",
@@ -322,7 +322,7 @@
         "header": true,
         "footer": true
       },
-      "sha256": "4ec54fd8e376674e50bca31a1cef799096dd84f8284718e554a9cf49e17c2e05"
+      "sha256": "743445efc1cb1d7bfe1d26d369d5d1531e69963be5518f97a08831cbef6a0946"
     },
     {
       "route": "/study-abroad-counselling-ponnampet",
@@ -400,25 +400,25 @@
       "route": "/study-in-czech-republic",
       "kind": "destination",
       "status": "draft",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": false,
         "footer": true
       },
-      "sha256": "29d60fccf80a367913e1f31a2c7d6ed3e25db99e118c7743189c176ddc4e32cc"
+      "sha256": "7bcd0ba82725f54206d317804bb0777bae68ecf53b81c5097deb97bc28881ead"
     },
     {
       "route": "/study-in-gcc",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "4c0a2d4b3522ed4ea45e5b018f53ffbdea6eeac146d6269c6b617740ebddde48"
+      "sha256": "6b986fd398209ddab8ba834871ab749d34534bd5e9ad4db70c97e5c2f82318e9"
     },
     {
       "route": "/study-in-germany",
@@ -430,79 +430,79 @@
         "header": true,
         "footer": true
       },
-      "sha256": "0346d7a0d99c4255d509f1702a7953e26f24cab6ed806fe380367d23597be1ab"
+      "sha256": "6ae54125ba9f9a3e81ecaaa02a8733a205cd7c0d6f90cb6a32909ba252e54102"
     },
     {
       "route": "/study-in-italy",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "412357e276b880981f4e02049cca39024cc9c0348fdf7ed15efe71316410c009"
+      "sha256": "1ceae859a83b211da0febdacd7e0bae0e9e2965e1dcced989827bd419d153aba"
     },
     {
       "route": "/study-in-latvia",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "8150d930f342fc5e839c4be8f6c5927563c74f28aa4a1d19a0d5404b683b7bc7"
+      "sha256": "3b7444473b9c759acc0871482869da29a2f1c09aa86cff69bbb338a07e099319"
     },
     {
       "route": "/study-in-lithuania",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "0c8e3d513fd5ed1878e754ad37900bb1b08c09deeadf70669696b21fe9614626"
+      "sha256": "1de7597e65972c1fa509fd5b43802160ccf99006a1d7c072b347730a81d0c49d"
     },
     {
       "route": "/study-in-russia",
       "kind": "destination",
       "status": "draft",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": false,
         "footer": true
       },
-      "sha256": "c3f456a9332aaf96c53ca2777e347fc3c97871c4cb0b5d3dd41919383ace383d"
+      "sha256": "b6ea708a11fd1e6eebabb49d338bcef0da054f6864d05b36352fa4dbda067694"
     },
     {
       "route": "/study-in-slovakia",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "5b10e36a32606a710e28d31b451ad5b94fc6008286facf42eb7a50324fd071df"
+      "sha256": "b6165d204752e9c6d54eaded9fa9de292d125b7090d957f4a29bfc62ec8f3e16"
     },
     {
       "route": "/study-in-uk",
       "kind": "destination",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "b41aadcd12d2d7f6868daeecf3f06212d19136ded64d7144c5004927ee00164c"
+      "sha256": "a68228eb6c8d5aea0323ebb503274e8e1342d989a7b42c5ea8774a39d45165a7"
     },
     {
       "route": "/terms",
