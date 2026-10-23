@@ -3612,3 +3612,8 @@ feedback still need their separate owner evidence; no values are inferred.
 ## Phase25c Task2: performance certification remains blocked (2026-10-23)
 
 All three permitted fresh-process interleaved A/B sessions failed unchanged-reference median reliability. Reference A/B HTML hashes are identical. First session Home and partial Services data, all four second-session controls, and all fourteen final-session routes are retained in reports/phase-25c-task2-ab.json. No fourth session, baseline relabelling, budget relaxation or field/live claim. Numerical rebuilt-route passes cannot certify an unreliable session. Performance release gate remains FAIL pending separately authorized reliable evidence. Native-host/delivery/layout/backup/restore and earlier business/source/proof blockers remain untouched.
+
+
+## Phase25c Task3: uniform tiers, unproven fallback necessity (2026-10-23)
+
+All9 destination members retain plain navy/inline matching fonts; all17 places and all8 articles retain gradient/selfhost matching fonts, including held members. Fresh7A/7B diagnostics identify P.direct-answer, Outfit16px300 as the dominant LCP across Germany/Italy/GCC/Mysuru/Bengaluru. No unique German markup fault proved. Shared all-document-font-set gate is a plausible cost centre but changing it without reliable CLS/LCP controls is not validated. New controls remain unreliable, so the original Stage2 fallback necessity claim is not re-certified. Choosing article raw LCP also exceeds1.10 baseline in the final session; preserve this failure despite unreliable controls. No page-specific exception or source/content edit.
