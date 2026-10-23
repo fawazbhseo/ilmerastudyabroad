@@ -3566,3 +3566,9 @@ into hosting. No relocation, deployment or contact submission is performed.
 Earlier certificate-private comparison and official-source/held/live limits
 remain untouched. Fee terms, private activity correction and future genuine
 feedback still need their separate owner evidence; no values are inferred.
+
+## Phase 25 Stage 1 audit decisions (23 October 2026)
+
+- Actual immutable references are not uniformly light: their default heroes are dark, Home/Services have multiple dark bands and some existing glow, grain, pills, glass and hover decoration. Preserve reference output, do not silently redesign it. Pilot long-form areas will use existing light reference surfaces; the new system will not copy those decorative embellishments. Stage 1 remains limited to four named pilot routes and six team-card paragraphs.
+- Exact owner card counts include punctuation/spaces: Jabir 127, Zaheer 130, Fawaz 126, spread 4 (<=6). No conflict or wording adjustment is needed. Full canonical bios, About FAQs and both LLM descriptions remain mandatory outside cards. No separate longer team section exists beyond the About biography FAQs; preserve those answers rather than invent a new biography.
+- Baseline screenshots and performance are local only. Outbound font/CDN hosts cannot be accessed here; the harness mirrors the exact Three/GSAP versions and same font families/weights from npm. Lighthouse transfer accounting is synthetic/local, not actual CDN compression or field data. Existing native hosting, deny enforcement, nonpublic layout, backup/restore and contact delivery blockers are unchanged.

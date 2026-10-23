@@ -1,0 +1,464 @@
+[
+  {
+    "phase": "before",
+    "name": "home",
+    "route": "/",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 15197,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 398.5,
+        "width": 320,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance.",
+        "rect": {
+          "x": 20,
+          "y": 10416.890625,
+          "width": 320,
+          "height": 398.5
+        }
+      },
+      {
+        "height": 577,
+        "width": 320,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 20,
+          "y": 10839.390625,
+          "width": 320,
+          "height": 577
+        }
+      },
+      {
+        "height": 393.5,
+        "width": 320,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 20,
+          "y": 11440.390625,
+          "width": 320,
+          "height": 393.5
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "services",
+    "route": "/services",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 21773,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "about",
+    "route": "/about",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 13997,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 461.375,
+        "width": 316,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+        "rect": {
+          "x": 22,
+          "y": 7493.09375,
+          "width": 316,
+          "height": 461.375
+        }
+      },
+      {
+        "height": 563.03125,
+        "width": 316,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 22,
+          "y": 7982.46875,
+          "width": 316,
+          "height": 563.03125
+        }
+      },
+      {
+        "height": 409.5625,
+        "width": 316,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 22,
+          "y": 8573.5,
+          "width": 316,
+          "height": 409.5625
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "contact",
+    "route": "/contact",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 8918,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 7651,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 6899,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 12835,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 6260,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "home",
+    "route": "/",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 12085,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 347.5,
+        "width": 728,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance.",
+        "rect": {
+          "x": 20,
+          "y": 8518.4375,
+          "width": 728,
+          "height": 347.5
+        }
+      },
+      {
+        "height": 424,
+        "width": 728,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 20,
+          "y": 8889.9375,
+          "width": 728,
+          "height": 424
+        }
+      },
+      {
+        "height": 317,
+        "width": 728,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 20,
+          "y": 9337.9375,
+          "width": 728,
+          "height": 317
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "services",
+    "route": "/services",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 16861,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "about",
+    "route": "/about",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 9213,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 747.78125,
+        "width": 222.65625,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+        "rect": {
+          "x": 22,
+          "y": 5058.265625,
+          "width": 222.65625,
+          "height": 747.78125
+        }
+      },
+      {
+        "height": 747.78125,
+        "width": 222.671875,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 272.65625,
+          "y": 5058.265625,
+          "width": 222.671875,
+          "height": 747.78125
+        }
+      },
+      {
+        "height": 747.78125,
+        "width": 222.671875,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 523.328125,
+          "y": 5058.265625,
+          "width": 222.671875,
+          "height": 747.78125
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "contact",
+    "route": "/contact",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 6908,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 5508,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 4484,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 6964,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 4297,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "home",
+    "route": "/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 10735,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 593,
+        "width": 344,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance.",
+        "rect": {
+          "x": 100,
+          "y": 7800.078125,
+          "width": 344,
+          "height": 593
+        }
+      },
+      {
+        "height": 593,
+        "width": 344,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 468,
+          "y": 7800.078125,
+          "width": 344,
+          "height": 593
+        }
+      },
+      {
+        "height": 593,
+        "width": 344,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 836,
+          "y": 7800.078125,
+          "width": 344,
+          "height": 593
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "services",
+    "route": "/services",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 17061,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "about",
+    "route": "/about",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 8831,
+    "fonts": "loaded",
+    "teams": [
+      {
+        "height": 563.03125,
+        "width": 314.65625,
+        "name": "Jabir KJ",
+        "bio": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+        "rect": {
+          "x": 140,
+          "y": 5042.21875,
+          "width": 314.65625,
+          "height": 563.03125
+        }
+      },
+      {
+        "height": 563.03125,
+        "width": 314.671875,
+        "name": "Fawaz BH",
+        "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+        "rect": {
+          "x": 482.65625,
+          "y": 5042.21875,
+          "width": 314.671875,
+          "height": 563.03125
+        }
+      },
+      {
+        "height": 563.03125,
+        "width": 314.65625,
+        "name": "Zaheer KJ",
+        "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.",
+        "rect": {
+          "x": 825.328125,
+          "y": 5042.21875,
+          "width": 314.65625,
+          "height": 563.03125
+        }
+      }
+    ]
+  },
+  {
+    "phase": "before",
+    "name": "contact",
+    "route": "/contact",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 6040,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 5333,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 4297,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 6854,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "before",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 3257,
+    "fonts": "loaded",
+    "teams": []
+  }
+]
