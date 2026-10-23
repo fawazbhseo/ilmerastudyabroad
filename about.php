@@ -498,7 +498,7 @@ img{max-width:100%;height:auto;}
 .il-faq > div{padding:0 26px 24px;}
 .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-mid);line-height:1.75;margin:0;}
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
-</style>
+/* Phase 25 team-only equal heights */#team .team-grid{grid-auto-rows:1fr;}</style>
 </head>
 <body>
 
@@ -644,8 +644,7 @@ img{max-width:100%;height:auto;}
 
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Jabir KJ</h3>
         <div class="team-role">Founder</div>
-        <p class="team-bio">Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.</p>
-        <p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p>
+        <p class="team-bio">Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance.</p>
 
         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
@@ -653,7 +652,7 @@ img{max-width:100%;height:auto;}
         <div class="team-avatar"><img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="88px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
         <div class="team-role">Chief Marketing Officer</div>
-        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p>
+        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu.</p>
 
         <a href="https://linkedin.com/in/fawazbh" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Fawaz BH on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
@@ -661,7 +660,7 @@ img{max-width:100%;height:auto;}
         <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
         <div class="team-role">Chief Financial Officer</div>
-        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>
+        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>
       </article>
 
     </div>

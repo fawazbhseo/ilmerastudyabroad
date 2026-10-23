@@ -1485,3 +1485,8 @@ Report-only reference audit, exhaustive tokens/uses and template/scene/team inve
 ## 2026-10-23 - Phase 25 Stage 1 task 2
 
 Shared reference-token visual system, pure opt-in presentation hook and locally licensed existing font families. Four-route allowlist remains OFF until pilot application. No current render, content, schema, internal link, reference request or publication change. Full suite PASS (556.79s); all 43 default renders byte-identical.
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 3
+
+Exact owner short biographies in Home/About cards only, with equal-height team grids. Removed the redundant second Jabir card role paragraph as part of its exact card-bio replacement; existing About FAQ is untouched. Full Person descriptions, Fawaz/Zaheer full FAQ biographies, sameAs, both LLM files, photos/names/titles/alt text and all other content remain unchanged. Counts 127/130/126, spread 4 PASS; eight narrow-context regressions and full suite PASS (542.04s).

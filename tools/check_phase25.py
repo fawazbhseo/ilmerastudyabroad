@@ -32,9 +32,12 @@ def cards_only(text,route):
   for name,bio in SHORT_CARD_BIOS.items():
    if m[2].startswith(name+' '):return m[1]+bio+m[3]
   return m[0]
- return re.sub(pattern,replace,text,flags=re.S)
+ text=re.sub(pattern,replace,text,flags=re.S)
+ if route=='/about':
+  text=re.sub(r'^        <p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance\.</p>\r?\n','',text,count=1,flags=re.M)
+ return text
 def validate(root,base,stage,baseline):
- scope=validate_scope(root,base);manifest=json.loads((baseline/'snapshots.json').read_text());changed=[]
+ scope=validate_scope(root,base,short_cards=stage>=3);manifest=json.loads((baseline/'snapshots.json').read_text());changed=[]
  source_exceptions={'includes/site-presentation.php'} if stage>=2 else set()
  if stage>=3:source_exceptions|={'index.php','about.php'}
  for f in subprocess.check_output(['git','ls-tree','-r','--name-only',BASE],cwd=root,text=True).splitlines():
@@ -44,7 +47,7 @@ def validate(root,base,stage,baseline):
   elif f in ['index.php','about.php'] and stage>=3:
    # Only exact card paragraphs and team-area equal-height CSS may change.
    expected=cards_only(old.decode(), '/' if f=='index.php' else '/about').encode()
-   now=re.sub(rb'/\* Phase 25 team-only equal heights \*/[^\r\n]*',b'',now)
+   now=re.sub(rb'/\* Phase 25 team-only equal heights \*/#team \.(?:testi|team)-grid\{grid-auto-rows:1fr;\}',b'',now)
    assert now==expected,('Reference source outside card exception',f)
   elif f not in source_exceptions:assert now==old,('Protected source/facts/status/assets',f)
  if stage>=2:

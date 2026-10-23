@@ -165,3 +165,7 @@ All four references and four future pilots were captured at 360, 768 and 1280px,
 | `/blog/` | 211307 | 7 | 2182.74 | 0.102867 | 0 |
 
 Screenshot harness correction before Task 1 checkpoint: complete the finite reference GSAP reveals before freezing motion. Chromium/SwiftShader can repeat full-page tiles above 8192px; screenshots are stitched from real 900px viewport rasters to prevent that artifact. Fixed navigation appears only in the top tile. This changes capture technique only, not site source. The identical technique will be used after edits.
+
+## Task 3 source-inspection correction
+
+About's Jabir card had two biography paragraphs: the canonical founder description in `.team-bio` and a duplicate role paragraph beneath it. The About FAQ uses the role paragraph, not the canonical description. Task 3 replaces the card biography with the exact new text and removes the redundant second card paragraph; it does not alter the existing FAQ. Fawaz/Zaheer full biographies remain in their FAQ answers. No separate longer biography section exists. Full canonical Person descriptions and both LLM files remain unchanged.

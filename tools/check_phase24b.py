@@ -15,7 +15,7 @@ def walk(v):
  elif isinstance(v,list):
   for x in v:yield from walk(x)
 
-def validate_scope(root,base):
+def validate_scope(root,base,short_cards=False):
  scope=json.loads((root/'data/service-scope.json').read_text());entity=json.loads((root/'data/entity.json').read_text())
  assert scope['reviewed_on']=='2026-10-22'
  assert list(scope['services'])==['admissions','finance','scholarships','budgets','visa','documents','aps','medicine']
@@ -53,7 +53,7 @@ def validate_scope(root,base):
   assert not re.search(r'no[ -]charge|at no cost|non.refundable',visible,re.I),(route,'Unprovided business pricing/refund assertion')
   assert not re.search(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')
   if route=='/about':
-   assert visible.count(bio)==1 and 'financial consultant' not in visible
+   assert visible.count(bio)==(0 if short_cards else 1) and 'financial consultant' not in visible
    assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'
   if route=='/services':
    assert 'What ILMERA helps with' in visible and 'What ILMERA does not do' in visible
