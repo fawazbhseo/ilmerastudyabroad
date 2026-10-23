@@ -12,6 +12,28 @@
   },
   {
     "phase": "after",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 6057,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 6101,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
     "name": "mysuru",
     "route": "/study-abroad-counselling-mysuru",
     "width": 360,
@@ -45,17 +67,6 @@
   },
   {
     "phase": "after",
-    "name": "germany",
-    "route": "/study-in-germany",
-    "width": 768,
-    "scrollWidth": 768,
-    "height": 6057,
-    "teamSection": null,
-    "fonts": "loaded",
-    "teams": []
-  },
-  {
-    "phase": "after",
     "name": "mysuru",
     "route": "/study-abroad-counselling-mysuru",
     "width": 768,
@@ -83,17 +94,6 @@
     "width": 768,
     "scrollWidth": 768,
     "height": 4567,
-    "teamSection": null,
-    "fonts": "loaded",
-    "teams": []
-  },
-  {
-    "phase": "after",
-    "name": "germany",
-    "route": "/study-in-germany",
-    "width": 1280,
-    "scrollWidth": 1280,
-    "height": 6101,
     "teamSection": null,
     "fonts": "loaded",
     "teams": []

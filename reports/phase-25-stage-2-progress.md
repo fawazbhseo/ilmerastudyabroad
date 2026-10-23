@@ -13,7 +13,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task2D legal/utility: complete.
 - Task3 verification: completed with declared immutable-reference/404/target deviations; two cycles plus scoped recovery, no all-green release claim. One final cycle remains within the maximum3 if performance changes a template.
 - Task4 performance: complete. All seven rebuilt samples PASS after destination-only plain/inline fallback; unchanged Services control FAILS LCP. Overall performance gate remains FAIL, no waiver.
-- Task5 owner review sheet: not started.
+- Task5 owner review sheet: complete.16 final full-page captures, raw branch embeds,1280/360 in requested order; Germany pilot3 widths refreshed.
 - Task6 release sign-off: not started.
 
 RuleC replaces the prior zero-tolerance rule by explicit owner authorization, not an automatic test relaxation. First measure two unchanged baseline captures. Exact reference chrome wins over minimum hit size when an invisible extension cannot avoid overlapping adjacent targets. References remain excluded from font and template rollout. Generated stills remain unreferenced.
@@ -65,3 +65,7 @@ Unchanged Contact control also fails LCP/CLS (8786.532ms/.004813818 versus1939.8
 Final destination fallback median: LCP1181.228ms, CLS0, TBT3ms, transfer200010bytes (minus30539), requests4. All other rebuilt samples retain gradient/self-hosted; all7 rebuilt samples PASS every unchanged budget. All have CLS0; no new blocking resource. Raw initial failure and full remeasurement retained.
 
 Final unchanged Services control LCP8941.540ms exceeds2315.607ms cap; FAIL. Contact passes final but failed initial. Reference heroes stay unchanged; do not claim source-driven speedups or waive local control variance. Three added-page baselines are labelled supplemental immutable-HTML replay; original seven Stage1 per-route baseline values are untouched. No more unchanged-reference performance retries to pursue a pass.
+
+## Task5 checkpoint
+
+Contact sheet contains Services reference, Germany, Mysuru, article, blog, privacy, all-pages and404, each1280 then360, with one role-description line per image.16 final full-page browser captures use lossless WebP, or PNG beyond its16383px size limit; byte-for-byte decoded RGB checks PASS. Germany's three pilot PNGs/layout refreshed for the measured plain/inline tier. No website imagery was generated or replaced.
