@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../includes/visual-system.php'; ilmera_visual_start(); ?>
 <?php
 require_once __DIR__ . '/../includes/posts.php';
 $post = ilmera_post('italy-dsu-scholarship-eligibility');

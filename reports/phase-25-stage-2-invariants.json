@@ -40,25 +40,25 @@
       "route": "/blog/cost-of-studying-abroad-for-indian-students",
       "kind": "page",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "e5cb94f19a5858b3976e1477f4f75cdc1cfa45217fb27d3c925e55fb49b4db69"
+      "sha256": "c70438938cc5c268358318b8d7710d1f05d0100e88185465bf2c283d07882918"
     },
     {
       "route": "/blog/documents-needed-to-study-abroad-from-india",
       "kind": "page",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "426f189ebf3dcf7d524d6f84dc5cc2f20dad0357ec32811864701260854f4ccd"
+      "sha256": "9133d23f91898eebb082120ba070e15458c04be1f3931e77010c688911ff40d2"
     },
     {
       "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
@@ -88,61 +88,61 @@
       "route": "/blog/italy-dsu-scholarship-eligibility",
       "kind": "page",
       "status": "draft",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": false,
         "footer": true
       },
-      "sha256": "3c513832188a4b740774420e8428409531571924cd43aa81240f7a1dbe23480f"
+      "sha256": "5424483eed16d588f77daff38dabdcfcec0a4b2db1744461467499fc493fdec8"
     },
     {
       "route": "/blog/scholarships-for-indian-students-study-abroad",
       "kind": "page",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "3a430874d899a811b49be14ebec41501298001cc2f70f5a6b57f3b8756477ccf"
+      "sha256": "6fcf1958ac486a88a97baf3a98ad978ca82ae17011f830433f89f5e6b9f84ea9"
     },
     {
       "route": "/blog/study-abroad-counselling-from-coorg",
       "kind": "page",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "a313f3d2989a45818761fb0a481e370d7f0b87cc12b0567854941ea9b3ea3cae"
+      "sha256": "40a5dbc30ee4fbb3c518d3bb31fd14351d0354c09677dd9a457de6507eab55b9"
     },
     {
       "route": "/blog/study-abroad-with-academic-backlogs",
       "kind": "page",
       "status": "published",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "58ef2755bbe09e828644d41fa2eeab2ec62953acfb020c21daaf3a8ff28eeb44"
+      "sha256": "a4c0e03d75789e5be346763a53d28ee60a8fa482be4dbedffdeff6132ed3e9b7"
     },
     {
       "route": "/blog/study-in-germany-free-aps-certificate",
       "kind": "page",
       "status": "draft",
-      "shared_visual": false,
+      "shared_visual": true,
       "exact_text_links_images_schema": true,
       "chrome": {
         "header": false,
         "footer": true
       },
-      "sha256": "fb8fa9a35b7b55a4134e16507049c9e65b71de55f164ecaa0bdfbb26bea0898f"
+      "sha256": "9f908c2e3d3c76a9c4609d3805e3f55ecd38ff2b5f99b927d1a9807036fe2262"
     },
     {
       "route": "/contact",

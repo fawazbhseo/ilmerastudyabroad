@@ -15,13 +15,11 @@ function ilmera_visual_scene_policy($html)
 
 function ilmera_visual_present($html)
 {
-    if (!ILMERA_VISUAL_PILOTS_ENABLED) return $html;
     preg_match('~<link[^>]+rel="canonical"[^>]+href="https://ilmerastudyabroad.com([^"]*)"~', $html, $match);
     $path = $match[1] ?? parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
     if (in_array($path, ['/', '/services', '/about', '/contact'], true)) return $html;
     $kind = ilmera_visual_template($path);
-    $pilots = ['/study-in-germany', '/study-abroad-counselling-mysuru', '/blog/how-to-choose-study-abroad-consultant-karnataka', '/blog/'];
-    if (!$kind || (!in_array($kind, ILMERA_VISUAL_TEMPLATE_GROUPS, true) && !in_array($path, $pilots, true))) return $html;
+    if (!$kind || !in_array($kind, ILMERA_VISUAL_TEMPLATE_GROUPS, true)) return $html;
     $html = preg_replace('~<body>~', '<body class="p25 p25-' . $kind . '">', $html, 1);
     // Inline shared CSS: no extra render-blocking request. Existing font stylesheet
     // is replaced with local same-family font faces, not another blocking stylesheet.

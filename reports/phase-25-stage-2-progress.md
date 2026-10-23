@@ -9,7 +9,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task1 header/footer/fonts: complete.
 - Task2A destinations: complete.
 - Task2B places: complete.
-- Task2C articles/index: not started.
+- Task2C articles/index: complete.
 - Task2D legal/utility: not started.
 - Task3 verification: not started; maximum3 cycles, stop a repeated failure twice.
 - Task4 performance: not started.
@@ -35,3 +35,7 @@ Destination role now applies at template level to all9 routes (7 published,2 hel
 ## Task2B checkpoint
 
 Place role now applies to the shared template: all17 published locations and any held instance without a publication-status condition. Current inventory has no held place route. All43 semantic/source/palette comparisons PASS.28 routes styled; no facts, scope/contact data, internal links or metadata changed.
+
+## Task2C checkpoint
+
+Article role now covers all8 articles, including2 held, and the blog index. Four-route allowlisting and still-tier code are removed; template classification now controls application. Held articles get only visual startup, preserving their original robots/status/schema/copy. All43 exact semantic/source/palette comparisons PASS.35 routes styled.
