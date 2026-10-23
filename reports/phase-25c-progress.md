@@ -8,7 +8,7 @@
 2. Serial fresh-process interleaved7-by7 A/B measurement, controls and IQR: complete, acceptance FAIL. All3 permitted sessions unreliable; final session has14 routes with7A/7B. All failed/partial runs retained. No more performance retries.
 3. Template diagnosis and uniform tier choice: complete assessment. Uniformity PASS; reliable budget/necessity proof FAIL. Existing whole-template policy retained, no unsafe source edits.
 4. Chrome geometry tolerance below0.1px, accepted404 abbreviated footer: complete.120/120 PASS; max tolerated0.016px; zero differences>=0.1px. No source edits.
-5. Reference accessibility/overflow report only: pending.
+5. Reference accessibility/overflow report only: complete. All24 contrast groups/387 node instances and5 overflow cases documented; no fixes applied to refs.
 6. Re-verification, maximum2 cycles, release report/sign-off: pending.
 
 ## Decisions
@@ -32,3 +32,7 @@ Germany, Italy, GCC, Mysuru and Bengaluru each have7A/7B observations under Task
 ## Task4 checkpoint
 
 Full120-row comparison PASS. Every visible header/footer node geometry/text/order plus canonical computed styles compared. Maximum tolerated0.016px, no>=0.1px differences. Active-link transition normalization artifact corrected in test harness only and initial result retained externally.404 short footer accepted, header still checked.
+
+## Task5 checkpoint
+
+Report-only reports/phase-25-reference-a11y.md lists every node across24 original contrast groups (387 node instances), selector, measured foreground/background/ratio vs4.5 and nearest passing existing-palette single-foreground suggestion. All5 overflow cases reproduced exactly: Home360/768 rightmost hidden article.testi-card.reveal-r translateX60 yields+40px; About360/768 hidden div.stats-block translateX55 yields+33px; Contact360 hidden contact-info translateX60 yields+36px. Effective opacity0 at sampled layout-edge frames, body overflow hidden, horizontal-wheel scrollX0. Document scrollWidth remains enlarged in offscreen start states even after returning to top; not asserted resolved or compositor noise. No reference source/style fix applied.

@@ -3617,3 +3617,8 @@ All three permitted fresh-process interleaved A/B sessions failed unchanged-refe
 ## Phase25c Task3: uniform tiers, unproven fallback necessity (2026-10-23)
 
 All9 destination members retain plain navy/inline matching fonts; all17 places and all8 articles retain gradient/selfhost matching fonts, including held members. Fresh7A/7B diagnostics identify P.direct-answer, Outfit16px300 as the dominant LCP across Germany/Italy/GCC/Mysuru/Bengaluru. No unique German markup fault proved. Shared all-document-font-set gate is a plausible cost centre but changing it without reliable CLS/LCP controls is not validated. New controls remain unreliable, so the original Stage2 fallback necessity claim is not re-certified. Choosing article raw LCP also exceeds1.10 baseline in the final session; preserve this failure despite unreliable controls. No page-specific exception or source/content edit.
+
+
+## Phase25c Task5: reference-only accessibility report (2026-10-23)
+
+All24 historical contrast groups/387 affected node instances retain selector, measured foreground/background/ratio and minimal existing-palette suggestion in reports/phase-25-reference-a11y.md. No suggestion applied. Five JS-on layout-overflow cases exactly reproduced: Home360/768 hidden team-card reveal translateX60 creates40px excess, About360/768 hidden stats-block translateX55 creates33px excess, Contact360 hidden contact-info translateX60 creates36px excess. Effective opacity0 and horizontal-wheel scrollX0 observed; numerical document overflow persists while these below-fold reveal start states are hidden. This is not pixel/compositor noise and not claimed fixed. Reference source remains immutable, as required; report-only accepted constraint, not blanket user-visible clipping proof.
