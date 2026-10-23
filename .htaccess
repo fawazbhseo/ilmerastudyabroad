@@ -14,3 +14,10 @@ RewriteRule ^ /%1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php [L]
+
+# Phase 24b: internal notes, scripts and audit data are not public website files.
+<FilesMatch "(?i)(?:\.(?:md|py|cjs|log|bak|csv)$|^phase.*\.json$|^\.)">
+    Require all denied
+</FilesMatch>
+# Git metadata must never be uploaded or served.
+RedirectMatch 403 "(?i)^/\.git(?:/|$)"

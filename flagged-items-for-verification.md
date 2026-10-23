@@ -3514,3 +3514,30 @@ claim, metadata, date, status, summary or provenance field changed. The current
 checker allows only these exact checksum replacements and independently
 requires the matching article bytes. Generic publication/hash checks stay
 active; this is not new source approval. Both held articles remain held.
+
+### Phase 24b Task 3 exposure and deployment decision
+
+Audit assumes repository root is the live web root and lists every current
+non-page file, including local caches, plus folders and exact owner GET URLs.
+Git internals are protected as an excluded namespace, without reading private
+credential files. The previous local adapter denied several internal paths
+without corresponding native rules; its 403s were not native hosting evidence.
+
+Add folder denies for includes/data and for internal destination/place arrays;
+keep existing report/tool denies. No browser-fetched data file was found.
+Append root denies for requested note/script/log/backup/phase-JSON patterns,
+plus private CSV exports, dotfiles and accidental Git requests. Existing
+rewrite bytes stay an exact prefix, not a rewritten rule. Apache 2.4/LiteSpeed
+syntax is used; native enforcement cannot be tested by the local WASM adapter.
+Local policy-mirror probes and all positive resource tests are separate from
+that unverified native requirement. Exact live URLs/results are in the audit.
+
+Owner deployment decision: internal folders, notes, tooling, reports, caches,
+audit exports and Git metadata should not be uploaded into live hosting at
+all. Required PHP runtime data/includes/destination/place files cannot simply
+be omitted under current relative paths. Approve a non-public runtime layout
+and tested path configuration before excluding or relocating those required
+runtime files. This phase does not relocate them or deploy. Current web-root
+denies are defense in depth, not a substitute for that deployment decision.
+Complete backup/all-file-settings restore and actual native live probes remain
+prerequisites; no published/held status or factual destination data changes.

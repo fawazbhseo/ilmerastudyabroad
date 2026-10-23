@@ -85,7 +85,7 @@ def validate(root,base,stage=5,baseline_captures=None):
    assert (root/file).read_bytes().startswith(old(root,file)),('Append-only',file)
   else:assert (root/file).read_bytes()==expected_source(root,file,stage),('Unapproved source/asset/contact/fact change',file)
  extras={f for f in current-set(existing) if not f.startswith(('reports/','tools/'))}
- assert extras <= ({'data/.htaccess','includes/.htaccess'} if stage>=3 else set()),('Unexpected public file',extras)
+ assert extras <= ({'data/.htaccess','includes/.htaccess','destinations/.htaccess','places/.htaccess'} if stage>=3 else set()),('Unexpected public file',extras)
  for file in ['index.php','about.php','.htaccess']:
   data=(root/file).read_bytes();previous=old(root,file)
   assert data.count(b'\n')-data.count(b'\r\n')==previous.count(b'\n')-previous.count(b'\r\n'),('Line-ending type',file)
@@ -143,7 +143,7 @@ def validate(root,base,stage=5,baseline_captures=None):
   assert t.replace(FAWAZ,'').replace(ZAHEER,'').count('Adrex Media School')==0
   for m in original_members[1:]:assert m['description'] not in t
  if stage>=3:
-  for folder in ['reports','tools','includes','data']:assert (root/folder/'.htaccess').read_bytes()==DENY
+  for folder in ['reports','tools','includes','data','destinations','places']:assert (root/folder/'.htaccess').read_bytes()==DENY
   assert (root/'.htaccess').read_bytes()==old(root,'.htaccess')+ROOT_DENY
   from phase24b.exposure import check_local
   exposure=check_local(root,base)

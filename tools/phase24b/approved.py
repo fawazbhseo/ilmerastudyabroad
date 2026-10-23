@@ -3,7 +3,7 @@ import hashlib,json,re,subprocess
 from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS
 BASELINE='0c5c437b901aacbff12e0a66df1d8e098627f334'
 DENY=b'# Internal owner evidence and verification artifacts, not website content.\r\nRequire all denied\r\n'
-ROOT_DENY=b'\r\n# Phase 24b: internal notes, scripts and audit data are not public website files.\r\n<FilesMatch "(?i)(?:\\.(?:md|py|cjs|log|bak)$|^phase.*\\.json$)">\r\n    Require all denied\r\n</FilesMatch>\r\n'
+ROOT_DENY=b'\r\n# Phase 24b: internal notes, scripts and audit data are not public website files.\r\n<FilesMatch "(?i)(?:\\.(?:md|py|cjs|log|bak|csv)$|^phase.*\\.json$|^\\.)">\r\n    Require all denied\r\n</FilesMatch>\r\n# Git metadata must never be uploaded or served.\r\nRedirectMatch 403 "(?i)^/\\.git(?:/|$)"\r\n'
 def old(root,file):return subprocess.check_output(['git','show',BASELINE+':'+file],cwd=root)
 def expected_source(root,file,stage=5):
  data=old(root,file)

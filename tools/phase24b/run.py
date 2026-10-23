@@ -23,6 +23,7 @@ for name in ['test_discovery.py','test_citations.py','test_italy_claims.py','tes
  run(name,[sys.executable,'tools/'+name])
 for name in ['check_destination_sources.php','check_place_contact.php','check_place_publication.php','test_proof.php','test_strategy_schema.php']:
  run(name,['php','tools/'+name])
+if a.stage>=3:run('access policy patterns, not native engine',[sys.executable,'tools/test_public_exposure.py'])
 if a.stage>=2:run('portrait encoding and original integrity',[sys.executable,'tools/phase24/build_portraits.py'])
 run('authored location overlap',[sys.executable,'tools/check_location_content.py'])
 for name in ['check_discovery.py','check_publication_review.py','check_italy_claims.py','check_phase19.py','check_technical_seo.py','build_llms_directory.py','check_phase20.py','check_phase24b.py']:

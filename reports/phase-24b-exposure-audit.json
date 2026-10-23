@@ -1,0 +1,2174 @@
+{
+  "baseline": "0c5c437b901aacbff12e0a66df1d8e098627f334",
+  "assumption": "repository root equals web root",
+  "native_apache_litespeed_verified": false,
+  "local_adapter_is_not_directive_engine": true,
+  "browser_fetched_data_files": [],
+  "browser_data_check": "No browser fetch/XHR/axios/getJSON or src/href/action request to data/ in public source. PHP file_get_contents/include are server-side.",
+  "before_gaps": [
+    "root Markdown notes and phase JSON exports",
+    "includes/ and data/ had no directory deny",
+    "destinations/ and places/ contained internal PHP arrays without repository deny",
+    "private root CSV templates/audit export",
+    "root scripts/log/backup extension patterns and accidental Git metadata"
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "url": "https://ilmerastudyabroad.com/.gitignore",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": ".htaccess",
+      "url": "https://ilmerastudyabroad.com/.htaccess",
+      "category": "internal-denied",
+      "before_block": "server normally protects this config; do not depend on that default",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "url": "https://ilmerastudyabroad.com/CHANGELOG.md",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "README.md",
+      "url": "https://ilmerastudyabroad.com/README.md",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "assets/images/fawazbh-192.webp",
+      "url": "https://ilmerastudyabroad.com/assets/images/fawazbh-192.webp",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/fawazbh-384.webp",
+      "url": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/fawazbh.webp",
+      "url": "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/ilmera.logo.navy.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.navy.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/ilmera.logo.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/ilmera.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/ilmera.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/ilmera.white.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/ilmera.white.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/jabirkj.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/jabirkj.webp",
+      "url": "https://ilmerastudyabroad.com/assets/images/jabirkj.webp",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/zaheer.png",
+      "url": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "assets/images/zaheer.webp",
+      "url": "https://ilmerastudyabroad.com/assets/images/zaheer.webp",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "data/.htaccess",
+      "url": "https://ilmerastudyabroad.com/data/.htaccess",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/answer-map.json",
+      "url": "https://ilmerastudyabroad.com/data/answer-map.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/entity.json",
+      "url": "https://ilmerastudyabroad.com/data/entity.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/payment-disclosure.json",
+      "url": "https://ilmerastudyabroad.com/data/payment-disclosure.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/proof.php",
+      "url": "https://ilmerastudyabroad.com/data/proof.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/seo-map.json",
+      "url": "https://ilmerastudyabroad.com/data/seo-map.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/service-scope.json",
+      "url": "https://ilmerastudyabroad.com/data/service-scope.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "data/team.json",
+      "url": "https://ilmerastudyabroad.com/data/team.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "data/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations-facts-template.csv",
+      "url": "https://ilmerastudyabroad.com/destinations-facts-template.csv",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/.htaccess",
+      "url": "https://ilmerastudyabroad.com/destinations/.htaccess",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/czech-republic.php",
+      "url": "https://ilmerastudyabroad.com/destinations/czech-republic.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/gcc.php",
+      "url": "https://ilmerastudyabroad.com/destinations/gcc.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/germany.php",
+      "url": "https://ilmerastudyabroad.com/destinations/germany.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/italy.php",
+      "url": "https://ilmerastudyabroad.com/destinations/italy.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/latvia.php",
+      "url": "https://ilmerastudyabroad.com/destinations/latvia.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/lithuania.php",
+      "url": "https://ilmerastudyabroad.com/destinations/lithuania.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/russia.php",
+      "url": "https://ilmerastudyabroad.com/destinations/russia.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/slovakia.php",
+      "url": "https://ilmerastudyabroad.com/destinations/slovakia.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "destinations/uk.php",
+      "url": "https://ilmerastudyabroad.com/destinations/uk.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "destinations/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "favicon.ico",
+      "url": "https://ilmerastudyabroad.com/favicon.ico",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "url": "https://ilmerastudyabroad.com/flagged-items-for-verification.md",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "google10fa7a4178242a1f.html",
+      "url": "https://ilmerastudyabroad.com/google10fa7a4178242a1f.html",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "includes/.htaccess",
+      "url": "https://ilmerastudyabroad.com/includes/.htaccess",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/breadcrumbs.php",
+      "url": "https://ilmerastudyabroad.com/includes/breadcrumbs.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/destination-data.php",
+      "url": "https://ilmerastudyabroad.com/includes/destination-data.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "url": "https://ilmerastudyabroad.com/includes/destination-page.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/entity.php",
+      "url": "https://ilmerastudyabroad.com/includes/entity.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/footer.php",
+      "url": "https://ilmerastudyabroad.com/includes/footer.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/header.php",
+      "url": "https://ilmerastudyabroad.com/includes/header.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/links.php",
+      "url": "https://ilmerastudyabroad.com/includes/links.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/payment-disclosure.php",
+      "url": "https://ilmerastudyabroad.com/includes/payment-disclosure.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/place-data.php",
+      "url": "https://ilmerastudyabroad.com/includes/place-data.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/place-page.php",
+      "url": "https://ilmerastudyabroad.com/includes/place-page.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/posts.php",
+      "url": "https://ilmerastudyabroad.com/includes/posts.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/proof.php",
+      "url": "https://ilmerastudyabroad.com/includes/proof.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/service-scope.php",
+      "url": "https://ilmerastudyabroad.com/includes/service-scope.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "url": "https://ilmerastudyabroad.com/includes/site-presentation.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "includes/sitemap-data.php",
+      "url": "https://ilmerastudyabroad.com/includes/sitemap-data.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "includes/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "llms-full.txt",
+      "url": "https://ilmerastudyabroad.com/llms-full.txt",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "llms.txt",
+      "url": "https://ilmerastudyabroad.com/llms.txt",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "phase14-article-review.json",
+      "url": "https://ilmerastudyabroad.com/phase14-article-review.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "phase14-audit-resolution.csv",
+      "url": "https://ilmerastudyabroad.com/phase14-audit-resolution.csv",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "phase14-location-review.json",
+      "url": "https://ilmerastudyabroad.com/phase14-location-review.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "phase14-publication-report.md",
+      "url": "https://ilmerastudyabroad.com/phase14-publication-report.md",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "phase14-source-review.json",
+      "url": "https://ilmerastudyabroad.com/phase14-source-review.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "phase14-validation.json",
+      "url": "https://ilmerastudyabroad.com/phase14-validation.json",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "url": "https://ilmerastudyabroad.com/places-facts-template.csv",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "root FilesMatch deny",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/.htaccess",
+      "url": "https://ilmerastudyabroad.com/places/.htaccess",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/belagavi.php",
+      "url": "https://ilmerastudyabroad.com/places/belagavi.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/bengaluru.php",
+      "url": "https://ilmerastudyabroad.com/places/bengaluru.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/chikkamagaluru.php",
+      "url": "https://ilmerastudyabroad.com/places/chikkamagaluru.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/gonikoppal.php",
+      "url": "https://ilmerastudyabroad.com/places/gonikoppal.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/hassan.php",
+      "url": "https://ilmerastudyabroad.com/places/hassan.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/karnataka.php",
+      "url": "https://ilmerastudyabroad.com/places/karnataka.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/kodagu.php",
+      "url": "https://ilmerastudyabroad.com/places/kodagu.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/kushalnagar.php",
+      "url": "https://ilmerastudyabroad.com/places/kushalnagar.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/madikeri.php",
+      "url": "https://ilmerastudyabroad.com/places/madikeri.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/mangaluru.php",
+      "url": "https://ilmerastudyabroad.com/places/mangaluru.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/mysuru.php",
+      "url": "https://ilmerastudyabroad.com/places/mysuru.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/ponnampet.php",
+      "url": "https://ilmerastudyabroad.com/places/ponnampet.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/shivamogga.php",
+      "url": "https://ilmerastudyabroad.com/places/shivamogga.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/siddapura.php",
+      "url": "https://ilmerastudyabroad.com/places/siddapura.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/somwarpet.php",
+      "url": "https://ilmerastudyabroad.com/places/somwarpet.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/udupi-manipal.php",
+      "url": "https://ilmerastudyabroad.com/places/udupi-manipal.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "places/virajpet.php",
+      "url": "https://ilmerastudyabroad.com/places/virajpet.php",
+      "category": "internal-denied",
+      "before_block": "no repository access block",
+      "after_rule": "places/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/.htaccess",
+      "url": "https://ilmerastudyabroad.com/reports/.htaccess",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/keyword-map.md",
+      "url": "https://ilmerastudyabroad.com/reports/keyword-map.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/measurement-plan.md",
+      "url": "https://ilmerastudyabroad.com/reports/measurement-plan.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/off-page-plan.md",
+      "url": "https://ilmerastudyabroad.com/reports/off-page-plan.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/owner-inputs-needed.md",
+      "url": "https://ilmerastudyabroad.com/reports/owner-inputs-needed.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/owner-questions.md",
+      "url": "https://ilmerastudyabroad.com/reports/owner-questions.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-15-handoff.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-15-handoff.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-16-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-16-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-16-citations.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-16-citations.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-16-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-16-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-17-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-17-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-17-source-opens.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-17-source-opens.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-17-task-1-lines.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-17-task-1-lines.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-17-verification.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-17-verification.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-18-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-18-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-18-llm-pages.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-18-llm-pages.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-18-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-18-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-18-strict-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-18-strict-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-18-task-1-lines.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-18-task-1-lines.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-cycles.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-cycles.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-guide-review.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-guide-review.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-on-page-changes.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-on-page-changes.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-provisional-keyword-map.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-provisional-keyword-map.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-provisional-prompt-map.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-provisional-prompt-map.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-provisional-strategy-conflicts.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-provisional-strategy-conflicts.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-technical-audit.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-technical-audit.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-19-technical.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-19-technical.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-cycles.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-cycles.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-map.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-map.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-on-page-review.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-on-page-review.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-progress.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-progress.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-prompt-coverage.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-prompt-coverage.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-recommendations.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-recommendations.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-20-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-20-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-cycles.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-cycles.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-map.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-map.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-progress.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-progress.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-22-scope-scan.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-22-scope-scan.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-cycles.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-cycles.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-map.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-map.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-progress.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-progress.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-registration-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-registration-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-scan.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-23-team-inventory.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-cycles.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-cycles.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-image-check.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-image-check.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-progress.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-registration-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-registration-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24-render-inventory.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24-render-inventory.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-bio-edits.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-checks.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-checks.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-live-url-checks.txt",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-portfolio-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-portfolio-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-portrait-check.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-portrait-check.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-progress.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-progress.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/phase-24b-render-inventory.json",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/post-deploy-checklist.md",
+      "url": "https://ilmerastudyabroad.com/reports/post-deploy-checklist.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/prompt-map.md",
+      "url": "https://ilmerastudyabroad.com/reports/prompt-map.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/proof-slots.md",
+      "url": "https://ilmerastudyabroad.com/reports/proof-slots.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/strategy-doc-conflicts.md",
+      "url": "https://ilmerastudyabroad.com/reports/strategy-doc-conflicts.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/strategy-doc-research.json",
+      "url": "https://ilmerastudyabroad.com/reports/strategy-doc-research.json",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "reports/strategy-doc-summary.md",
+      "url": "https://ilmerastudyabroad.com/reports/strategy-doc-summary.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://ilmerastudyabroad.com/robots.txt",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "sitemap.php",
+      "url": "https://ilmerastudyabroad.com/sitemap.php",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://ilmerastudyabroad.com/sitemap.xml",
+      "category": "intentional-public",
+      "before_block": "no repository access block",
+      "after_rule": "intentional public asset/discovery/verification resource",
+      "expected_live": "200 (sitemap.php may canonical-redirect under existing native rewrite)"
+    },
+    {
+      "file": "tools/.htaccess",
+      "url": "https://ilmerastudyabroad.com/tools/.htaccess",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/README.md",
+      "url": "https://ilmerastudyabroad.com/tools/README.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/build_llms_directory.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/build_llms_directory.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_cycle_consistency.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_cycle_consistency.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_discovery.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_discovery.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_italy_claims.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_italy_claims.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_location_content.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_location_content.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_phase20.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_phase20.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/check_phase24.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/check_phase24.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/published_citations.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/published_citations.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/__pycache__/team_bio_policy.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/team_bio_policy.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/blocked-names.txt",
+      "url": "https://ilmerastudyabroad.com/tools/blocked-names.txt",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/build-sitemap.php",
+      "url": "https://ilmerastudyabroad.com/tools/build-sitemap.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/build_llms_directory.py",
+      "url": "https://ilmerastudyabroad.com/tools/build_llms_directory.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_cycle_consistency.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_cycle_consistency.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_destination_sources.php",
+      "url": "https://ilmerastudyabroad.com/tools/check_destination_sources.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_discovery.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_discovery.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_italy_claims.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_italy_claims.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_location_content.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_location_content.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase19.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase19.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase20.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase20.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase20_handoff.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase20_handoff.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase22.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase22.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase23.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase23.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase24.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_phase24b.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_place_contact.php",
+      "url": "https://ilmerastudyabroad.com/tools/check_place_contact.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_place_publication.php",
+      "url": "https://ilmerastudyabroad.com/tools/check_place_publication.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_publication_review.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_publication_review.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/check_technical_seo.py",
+      "url": "https://ilmerastudyabroad.com/tools/check_technical_seo.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase20/README.md",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/README.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase20/browser.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/browser.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase20/build_maps.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/build_maps.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase20/run.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/run.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase20/server.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/server.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase22/build_prompt_map.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase22/build_prompt_map.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase22/run.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase22/run.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase23/browser.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase23/browser.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase23/build_prompt_map.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase23/build_prompt_map.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase23/run.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase23/run.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24/browser.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase24/browser.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24/build_portraits.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase24/build_portraits.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24/run.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase24/run.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24/server.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase24/server.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/__pycache__/approved.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/approved.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/__pycache__/exposure.cpython-311.pyc",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/exposure.cpython-311.pyc",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/approved.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/browser.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/browser.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/exposure.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/exposure.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/run.py",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/run.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/phase24b/server.cjs",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/server.cjs",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/published_citations.py",
+      "url": "https://ilmerastudyabroad.com/tools/published_citations.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/team_bio_policy.py",
+      "url": "https://ilmerastudyabroad.com/tools/team_bio_policy.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_citations.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_citations.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_discovery.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_discovery.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_italy_claims.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_italy_claims.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_llm_directory.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_llm_directory.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_llm_policy.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_llm_policy.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_presence.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_presence.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_proof.php",
+      "url": "https://ilmerastudyabroad.com/tools/test_proof.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_public_exposure.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_public_exposure.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_strategy_schema.php",
+      "url": "https://ilmerastudyabroad.com/tools/test_strategy_schema.php",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_team_bio_policy.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
+      "file": "tools/test_wording.py",
+      "url": "https://ilmerastudyabroad.com/tools/test_wording.py",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "tools/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    }
+  ],
+  "folders": [
+    {
+      "folder": "assets/",
+      "url": "https://ilmerastudyabroad.com/assets/",
+      "expected_live": "public page/asset namespace",
+      "after_rule": "no folder deny intended"
+    },
+    {
+      "folder": "assets/images/",
+      "url": "https://ilmerastudyabroad.com/assets/images/",
+      "expected_live": "public page/asset namespace",
+      "after_rule": "no folder deny intended"
+    },
+    {
+      "folder": "blog/",
+      "url": "https://ilmerastudyabroad.com/blog/",
+      "expected_live": "public page/asset namespace",
+      "after_rule": "no folder deny intended"
+    },
+    {
+      "folder": "data/",
+      "url": "https://ilmerastudyabroad.com/data/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "data/.htaccess"
+    },
+    {
+      "folder": "destinations/",
+      "url": "https://ilmerastudyabroad.com/destinations/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "destinations/.htaccess"
+    },
+    {
+      "folder": "includes/",
+      "url": "https://ilmerastudyabroad.com/includes/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "includes/.htaccess"
+    },
+    {
+      "folder": "places/",
+      "url": "https://ilmerastudyabroad.com/places/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "places/.htaccess"
+    },
+    {
+      "folder": "reports/",
+      "url": "https://ilmerastudyabroad.com/reports/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "reports/.htaccess"
+    },
+    {
+      "folder": "tools/",
+      "url": "https://ilmerastudyabroad.com/tools/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/__pycache__/",
+      "url": "https://ilmerastudyabroad.com/tools/__pycache__/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase20/",
+      "url": "https://ilmerastudyabroad.com/tools/phase20/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase22/",
+      "url": "https://ilmerastudyabroad.com/tools/phase22/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase23/",
+      "url": "https://ilmerastudyabroad.com/tools/phase23/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase24/",
+      "url": "https://ilmerastudyabroad.com/tools/phase24/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase24b/",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": "tools/phase24b/__pycache__/",
+      "url": "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "tools/.htaccess"
+    },
+    {
+      "folder": ".git/ (never deploy)",
+      "url": "https://ilmerastudyabroad.com/.git/",
+      "expected_live": "403 or 404, no listing or file contents",
+      "after_rule": "root RedirectMatch 403; never upload metadata"
+    }
+  ],
+  "live_deny_urls": [
+    "https://ilmerastudyabroad.com/.git/",
+    "https://ilmerastudyabroad.com/.git/HEAD",
+    "https://ilmerastudyabroad.com/.gitignore",
+    "https://ilmerastudyabroad.com/.htaccess",
+    "https://ilmerastudyabroad.com/CHANGELOG.md",
+    "https://ilmerastudyabroad.com/README.md",
+    "https://ilmerastudyabroad.com/data/",
+    "https://ilmerastudyabroad.com/data/.htaccess",
+    "https://ilmerastudyabroad.com/data/answer-map.json",
+    "https://ilmerastudyabroad.com/data/entity.json",
+    "https://ilmerastudyabroad.com/data/payment-disclosure.json",
+    "https://ilmerastudyabroad.com/data/proof.php",
+    "https://ilmerastudyabroad.com/data/seo-map.json",
+    "https://ilmerastudyabroad.com/data/service-scope.json",
+    "https://ilmerastudyabroad.com/data/team.json",
+    "https://ilmerastudyabroad.com/destinations-facts-template.csv",
+    "https://ilmerastudyabroad.com/destinations/",
+    "https://ilmerastudyabroad.com/destinations/.htaccess",
+    "https://ilmerastudyabroad.com/destinations/czech-republic.php",
+    "https://ilmerastudyabroad.com/destinations/gcc.php",
+    "https://ilmerastudyabroad.com/destinations/germany.php",
+    "https://ilmerastudyabroad.com/destinations/italy.php",
+    "https://ilmerastudyabroad.com/destinations/latvia.php",
+    "https://ilmerastudyabroad.com/destinations/lithuania.php",
+    "https://ilmerastudyabroad.com/destinations/russia.php",
+    "https://ilmerastudyabroad.com/destinations/slovakia.php",
+    "https://ilmerastudyabroad.com/destinations/uk.php",
+    "https://ilmerastudyabroad.com/flagged-items-for-verification.md",
+    "https://ilmerastudyabroad.com/includes/",
+    "https://ilmerastudyabroad.com/includes/.htaccess",
+    "https://ilmerastudyabroad.com/includes/breadcrumbs.php",
+    "https://ilmerastudyabroad.com/includes/destination-data.php",
+    "https://ilmerastudyabroad.com/includes/destination-page.php",
+    "https://ilmerastudyabroad.com/includes/entity.php",
+    "https://ilmerastudyabroad.com/includes/footer.php",
+    "https://ilmerastudyabroad.com/includes/header.php",
+    "https://ilmerastudyabroad.com/includes/links.php",
+    "https://ilmerastudyabroad.com/includes/payment-disclosure.php",
+    "https://ilmerastudyabroad.com/includes/place-data.php",
+    "https://ilmerastudyabroad.com/includes/place-page.php",
+    "https://ilmerastudyabroad.com/includes/posts.php",
+    "https://ilmerastudyabroad.com/includes/proof.php",
+    "https://ilmerastudyabroad.com/includes/service-scope.php",
+    "https://ilmerastudyabroad.com/includes/site-presentation.php",
+    "https://ilmerastudyabroad.com/includes/sitemap-data.php",
+    "https://ilmerastudyabroad.com/phase14-article-review.json",
+    "https://ilmerastudyabroad.com/phase14-audit-resolution.csv",
+    "https://ilmerastudyabroad.com/phase14-location-review.json",
+    "https://ilmerastudyabroad.com/phase14-publication-report.md",
+    "https://ilmerastudyabroad.com/phase14-source-review.json",
+    "https://ilmerastudyabroad.com/phase14-validation.json",
+    "https://ilmerastudyabroad.com/phase24b-access-probe.bak",
+    "https://ilmerastudyabroad.com/phase24b-access-probe.cjs",
+    "https://ilmerastudyabroad.com/phase24b-access-probe.json",
+    "https://ilmerastudyabroad.com/phase24b-access-probe.log",
+    "https://ilmerastudyabroad.com/phase24b-access-probe.py",
+    "https://ilmerastudyabroad.com/places-facts-template.csv",
+    "https://ilmerastudyabroad.com/places/",
+    "https://ilmerastudyabroad.com/places/.htaccess",
+    "https://ilmerastudyabroad.com/places/belagavi.php",
+    "https://ilmerastudyabroad.com/places/bengaluru.php",
+    "https://ilmerastudyabroad.com/places/chikkamagaluru.php",
+    "https://ilmerastudyabroad.com/places/gonikoppal.php",
+    "https://ilmerastudyabroad.com/places/hassan.php",
+    "https://ilmerastudyabroad.com/places/karnataka.php",
+    "https://ilmerastudyabroad.com/places/kodagu.php",
+    "https://ilmerastudyabroad.com/places/kushalnagar.php",
+    "https://ilmerastudyabroad.com/places/madikeri.php",
+    "https://ilmerastudyabroad.com/places/mangaluru.php",
+    "https://ilmerastudyabroad.com/places/mysuru.php",
+    "https://ilmerastudyabroad.com/places/ponnampet.php",
+    "https://ilmerastudyabroad.com/places/shivamogga.php",
+    "https://ilmerastudyabroad.com/places/siddapura.php",
+    "https://ilmerastudyabroad.com/places/somwarpet.php",
+    "https://ilmerastudyabroad.com/places/udupi-manipal.php",
+    "https://ilmerastudyabroad.com/places/virajpet.php",
+    "https://ilmerastudyabroad.com/reports/",
+    "https://ilmerastudyabroad.com/reports/.htaccess",
+    "https://ilmerastudyabroad.com/reports/keyword-map.md",
+    "https://ilmerastudyabroad.com/reports/measurement-plan.md",
+    "https://ilmerastudyabroad.com/reports/off-page-plan.md",
+    "https://ilmerastudyabroad.com/reports/owner-inputs-needed.md",
+    "https://ilmerastudyabroad.com/reports/owner-questions.md",
+    "https://ilmerastudyabroad.com/reports/phase-15-handoff.md",
+    "https://ilmerastudyabroad.com/reports/phase-16-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-16-citations.json",
+    "https://ilmerastudyabroad.com/reports/phase-16-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-17-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-17-source-opens.json",
+    "https://ilmerastudyabroad.com/reports/phase-17-task-1-lines.md",
+    "https://ilmerastudyabroad.com/reports/phase-17-verification.md",
+    "https://ilmerastudyabroad.com/reports/phase-18-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-18-llm-pages.json",
+    "https://ilmerastudyabroad.com/reports/phase-18-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-18-strict-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-18-task-1-lines.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-19-cycles.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-guide-review.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-on-page-changes.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-provisional-keyword-map.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-provisional-prompt-map.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-provisional-strategy-conflicts.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-technical-audit.md",
+    "https://ilmerastudyabroad.com/reports/phase-19-technical.json",
+    "https://ilmerastudyabroad.com/reports/phase-20-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-20-cycles.md",
+    "https://ilmerastudyabroad.com/reports/phase-20-map.json",
+    "https://ilmerastudyabroad.com/reports/phase-20-on-page-review.md",
+    "https://ilmerastudyabroad.com/reports/phase-20-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-20-prompt-coverage.md",
+    "https://ilmerastudyabroad.com/reports/phase-20-recommendations.json",
+    "https://ilmerastudyabroad.com/reports/phase-20-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-22-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-22-cycles.md",
+    "https://ilmerastudyabroad.com/reports/phase-22-map.json",
+    "https://ilmerastudyabroad.com/reports/phase-22-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-22-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-22-scope-scan.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-23-cycles.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-map.json",
+    "https://ilmerastudyabroad.com/reports/phase-23-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-registration-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-scan.md",
+    "https://ilmerastudyabroad.com/reports/phase-23-team-inventory.json",
+    "https://ilmerastudyabroad.com/reports/phase-24-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-24-cycles.md",
+    "https://ilmerastudyabroad.com/reports/phase-24-image-check.json",
+    "https://ilmerastudyabroad.com/reports/phase-24-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-24-registration-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-24-release-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-24-render-inventory.json",
+    "https://ilmerastudyabroad.com/reports/phase-24b-bio-edits.md",
+    "https://ilmerastudyabroad.com/reports/phase-24b-checks.json",
+    "https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.json",
+    "https://ilmerastudyabroad.com/reports/phase-24b-exposure-audit.md",
+    "https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt",
+    "https://ilmerastudyabroad.com/reports/phase-24b-portfolio-check.md",
+    "https://ilmerastudyabroad.com/reports/phase-24b-portrait-check.json",
+    "https://ilmerastudyabroad.com/reports/phase-24b-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json",
+    "https://ilmerastudyabroad.com/reports/post-deploy-checklist.md",
+    "https://ilmerastudyabroad.com/reports/prompt-map.md",
+    "https://ilmerastudyabroad.com/reports/proof-slots.md",
+    "https://ilmerastudyabroad.com/reports/strategy-doc-conflicts.md",
+    "https://ilmerastudyabroad.com/reports/strategy-doc-research.json",
+    "https://ilmerastudyabroad.com/reports/strategy-doc-summary.md",
+    "https://ilmerastudyabroad.com/tools/",
+    "https://ilmerastudyabroad.com/tools/.htaccess",
+    "https://ilmerastudyabroad.com/tools/README.md",
+    "https://ilmerastudyabroad.com/tools/__pycache__/",
+    "https://ilmerastudyabroad.com/tools/__pycache__/build_llms_directory.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_cycle_consistency.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_discovery.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_italy_claims.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_location_content.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_phase20.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/check_phase24.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/published_citations.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/__pycache__/team_bio_policy.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/blocked-names.txt",
+    "https://ilmerastudyabroad.com/tools/build-sitemap.php",
+    "https://ilmerastudyabroad.com/tools/build_llms_directory.py",
+    "https://ilmerastudyabroad.com/tools/check_cycle_consistency.py",
+    "https://ilmerastudyabroad.com/tools/check_destination_sources.php",
+    "https://ilmerastudyabroad.com/tools/check_discovery.py",
+    "https://ilmerastudyabroad.com/tools/check_italy_claims.py",
+    "https://ilmerastudyabroad.com/tools/check_location_content.py",
+    "https://ilmerastudyabroad.com/tools/check_phase19.py",
+    "https://ilmerastudyabroad.com/tools/check_phase20.py",
+    "https://ilmerastudyabroad.com/tools/check_phase20_handoff.py",
+    "https://ilmerastudyabroad.com/tools/check_phase22.py",
+    "https://ilmerastudyabroad.com/tools/check_phase23.py",
+    "https://ilmerastudyabroad.com/tools/check_phase24.py",
+    "https://ilmerastudyabroad.com/tools/check_phase24b.py",
+    "https://ilmerastudyabroad.com/tools/check_place_contact.php",
+    "https://ilmerastudyabroad.com/tools/check_place_publication.php",
+    "https://ilmerastudyabroad.com/tools/check_publication_review.py",
+    "https://ilmerastudyabroad.com/tools/check_technical_seo.py",
+    "https://ilmerastudyabroad.com/tools/phase20/",
+    "https://ilmerastudyabroad.com/tools/phase20/README.md",
+    "https://ilmerastudyabroad.com/tools/phase20/browser.cjs",
+    "https://ilmerastudyabroad.com/tools/phase20/build_maps.py",
+    "https://ilmerastudyabroad.com/tools/phase20/run.py",
+    "https://ilmerastudyabroad.com/tools/phase20/server.cjs",
+    "https://ilmerastudyabroad.com/tools/phase22/",
+    "https://ilmerastudyabroad.com/tools/phase22/build_prompt_map.py",
+    "https://ilmerastudyabroad.com/tools/phase22/run.py",
+    "https://ilmerastudyabroad.com/tools/phase23/",
+    "https://ilmerastudyabroad.com/tools/phase23/browser.cjs",
+    "https://ilmerastudyabroad.com/tools/phase23/build_prompt_map.py",
+    "https://ilmerastudyabroad.com/tools/phase23/run.py",
+    "https://ilmerastudyabroad.com/tools/phase24/",
+    "https://ilmerastudyabroad.com/tools/phase24/browser.cjs",
+    "https://ilmerastudyabroad.com/tools/phase24/build_portraits.py",
+    "https://ilmerastudyabroad.com/tools/phase24/run.py",
+    "https://ilmerastudyabroad.com/tools/phase24/server.cjs",
+    "https://ilmerastudyabroad.com/tools/phase24b/",
+    "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/",
+    "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/approved.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/phase24b/__pycache__/exposure.cpython-311.pyc",
+    "https://ilmerastudyabroad.com/tools/phase24b/approved.py",
+    "https://ilmerastudyabroad.com/tools/phase24b/browser.cjs",
+    "https://ilmerastudyabroad.com/tools/phase24b/exposure.py",
+    "https://ilmerastudyabroad.com/tools/phase24b/run.py",
+    "https://ilmerastudyabroad.com/tools/phase24b/server.cjs",
+    "https://ilmerastudyabroad.com/tools/published_citations.py",
+    "https://ilmerastudyabroad.com/tools/team_bio_policy.py",
+    "https://ilmerastudyabroad.com/tools/test_citations.py",
+    "https://ilmerastudyabroad.com/tools/test_discovery.py",
+    "https://ilmerastudyabroad.com/tools/test_italy_claims.py",
+    "https://ilmerastudyabroad.com/tools/test_llm_directory.py",
+    "https://ilmerastudyabroad.com/tools/test_llm_policy.py",
+    "https://ilmerastudyabroad.com/tools/test_presence.py",
+    "https://ilmerastudyabroad.com/tools/test_proof.php",
+    "https://ilmerastudyabroad.com/tools/test_public_exposure.py",
+    "https://ilmerastudyabroad.com/tools/test_strategy_schema.php",
+    "https://ilmerastudyabroad.com/tools/test_team_bio_policy.py",
+    "https://ilmerastudyabroad.com/tools/test_wording.py"
+  ],
+  "absent_file_types": {
+    ".log": true,
+    ".bak": true
+  },
+  "owner_decision": "Do not upload reports/, tools/, notes, audit exports, caches or Git metadata into live hosting. Required runtime includes/data/destination/place files must stay PHP-readable: use an owner-approved non-public layout before omitting or relocating them. This patch does not relocate runtime paths.",
+  "positive_live_urls_expected_200": [
+    "https://ilmerastudyabroad.com/",
+    "https://ilmerastudyabroad.com/about",
+    "https://ilmerastudyabroad.com/all-pages",
+    "https://ilmerastudyabroad.com/assets/images/fawazbh-192.webp",
+    "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
+    "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
+    "https://ilmerastudyabroad.com/assets/images/ilmera.logo.navy.png",
+    "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+    "https://ilmerastudyabroad.com/assets/images/ilmera.png",
+    "https://ilmerastudyabroad.com/assets/images/ilmera.white.png",
+    "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
+    "https://ilmerastudyabroad.com/assets/images/jabirkj.webp",
+    "https://ilmerastudyabroad.com/assets/images/zaheer.png",
+    "https://ilmerastudyabroad.com/assets/images/zaheer.webp",
+    "https://ilmerastudyabroad.com/blog/",
+    "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+    "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+    "https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+    "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+    "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+    "https://ilmerastudyabroad.com/contact",
+    "https://ilmerastudyabroad.com/favicon.ico",
+    "https://ilmerastudyabroad.com/google10fa7a4178242a1f.html",
+    "https://ilmerastudyabroad.com/llms-full.txt",
+    "https://ilmerastudyabroad.com/llms.txt",
+    "https://ilmerastudyabroad.com/privacy-policy",
+    "https://ilmerastudyabroad.com/robots.txt",
+    "https://ilmerastudyabroad.com/services",
+    "https://ilmerastudyabroad.com/sitemap.xml",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet",
+    "https://ilmerastudyabroad.com/study-in-gcc",
+    "https://ilmerastudyabroad.com/study-in-germany",
+    "https://ilmerastudyabroad.com/study-in-italy",
+    "https://ilmerastudyabroad.com/study-in-latvia",
+    "https://ilmerastudyabroad.com/study-in-lithuania",
+    "https://ilmerastudyabroad.com/study-in-slovakia",
+    "https://ilmerastudyabroad.com/study-in-uk",
+    "https://ilmerastudyabroad.com/terms"
+  ],
+  "local_adapter_results": {
+    "status": "PASS local adapter only",
+    "denied_or_absent_probes": 222,
+    "public_resources_200": 55,
+    "site_assets_200": 12,
+    "native_engine_rules_tested": false
+  }
+}

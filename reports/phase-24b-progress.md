@@ -14,8 +14,8 @@ destination facts and Jabir bio/photo/title/alt remain protected.
 | Task | Status | Evidence/checkpoint |
 | --- | --- | --- |
 | 1. Owner-approved bios and profile links | done | Exact bios, Fawaz-only sameAs, narrow institute context guard; full suite PASS 556.92s; commit `dab255e` |
-| 2. All rendered Fawaz portraits | done | Full suite PASS 554.92s; all 43 renders have zero original uses; 54 derivative browser loads; this task commit |
-| 3. Public-file exposure audit and deny rules | not started | Complete file inventory, native-server limitation and exact live probes |
+| 2. All rendered Fawaz portraits | done | Full suite PASS 554.92s; all 43 renders have zero original uses; 54 derivative browser loads; commit `0890780` |
+| 3. Public-file exposure audit and deny rules | done | Full suite PASS 575.33s; 220 non-page files, 222 denial probes, 55 positive resources/12 assets; native rules unverified; this task commit |
 | 4. Bounded verification | not started | At most two cycles; early clean stop; repeated failure twice stop |
 | 5. Append-only sign-off | not started | Full final suite, every changed file and bio surface |
 
@@ -51,3 +51,10 @@ Task 2 final full suite passed on final origin-relative source state: 92 PHP,
 213 exact FAQ pairs/1,278 interactions. Original and derivative bytes are
 unchanged; no remaining rendered original portrait reference or exception.
 Only two held author src attributes change, not their publication state.
+
+Task 3 complete: additive root directives, exact original rewrite prefix and
+CRLF preserved. No browser data-file exception needed. Required runtime files
+remain PHP-readable. Local adapter policy probes pass but it does not parse
+Apache/LiteSpeed rules. Exact native GET URLs and expected 403/404/no contents
+are in the audit and live-url checklist. Owner non-public deployment-layout
+decision and all earlier native/backup/delivery blockers remain explicit.
