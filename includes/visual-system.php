@@ -49,14 +49,10 @@ function ilmera_visual_present($html)
         $html = str_replace('</head>', '<script src="/assets/js/hero-still.js" defer></script></head>', $html);
     }
     $css = file_get_contents(dirname(__DIR__) . '/assets/css/visual-system.css');
-    // Same-family subset bytes stay inside the EXISTING inline stylesheet.
-    // Atomically decoding both faces before the first visible text frame avoids
-    // partial-font swaps, without a new render-blocking or critical font request.
-    foreach (['outfit-latin.woff2','cormorant-garamond-latin.woff2'] as $font) {
-        $css = str_replace('/assets/fonts/'.$font, 'data:font/woff2;base64,'.base64_encode(file_get_contents(dirname(__DIR__).'/assets/fonts/'.$font)), $css);
-    }
+    // Self-hosted exact Latin reference weights; only first-frame faces preload.
+    $fontPreload = '<link rel="preload" href="/assets/fonts/outfit-reference-300.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/cormorant-garamond-reference-700.woff2" as="font" type="font/woff2" crossorigin>';
     $fontGate = <<<'HTML'
-<script>(function(){if(!document.fonts)return;var root=document.documentElement,timer;function show(){root.classList.remove('p25-font-pending');clearTimeout(timer);}root.classList.add('p25-font-pending');timer=setTimeout(show,3000);Promise.all([document.fonts.load('300 16px Outfit'),document.fonts.load('700 48px "Cormorant Garamond"')]).then(show,show);})();</script>
+<script>(function(){if(!document.fonts)return;var root=document.documentElement,timer;function show(){root.classList.remove('p25-font-pending');clearTimeout(timer);}root.classList.add('p25-font-pending');timer=setTimeout(show,3000);Promise.all([document.fonts.load('300 16px Outfit'),document.fonts.load('700 48px "Cormorant Garamond"')]).then(function(){return document.fonts.ready;}).then(show,show);})();</script>
 HTML;
-    return str_replace('</head>', '<style id="ilmera-visual-system">'.$css.'</style>'.$fontGate.'</head>', $html);
+    return str_replace('</head>', $fontPreload.'<style id="ilmera-visual-system">'.$css.'</style>'.$fontGate.'</head>', $html);
 }

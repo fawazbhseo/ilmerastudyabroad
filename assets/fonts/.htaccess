@@ -1,0 +1,9 @@
+# Additive policy scoped only to this font directory. Parent rules unchanged.
+<IfModule mod_mime.c>
+    AddType font/woff2 .woff2
+</IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.woff2$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>

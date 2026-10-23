@@ -1,0 +1,44 @@
+[
+  {
+    "family": "Outfit",
+    "weight": 300,
+    "url": "/assets/fonts/outfit-reference-300.woff2",
+    "bytes": 13956
+  },
+  {
+    "family": "Outfit",
+    "weight": 400,
+    "url": "/assets/fonts/outfit-reference-400.woff2",
+    "bytes": 14032
+  },
+  {
+    "family": "Outfit",
+    "weight": 500,
+    "url": "/assets/fonts/outfit-reference-500.woff2",
+    "bytes": 13528
+  },
+  {
+    "family": "Outfit",
+    "weight": 600,
+    "url": "/assets/fonts/outfit-reference-600.woff2",
+    "bytes": 14140
+  },
+  {
+    "family": "Outfit",
+    "weight": 700,
+    "url": "/assets/fonts/outfit-reference-700.woff2",
+    "bytes": 14060
+  },
+  {
+    "family": "Cormorant Garamond",
+    "weight": 400,
+    "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+    "bytes": 22908
+  },
+  {
+    "family": "Cormorant Garamond",
+    "weight": 700,
+    "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+    "bytes": 22392
+  }
+]

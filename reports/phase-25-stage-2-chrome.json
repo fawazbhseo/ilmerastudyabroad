@@ -1,0 +1,80 @@
+{
+  "rows": [
+    {
+      "route": "/",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "differences": []
+    }
+  ],
+  "passed": true
+}

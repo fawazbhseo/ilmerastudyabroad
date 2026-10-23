@@ -1,0 +1,152 @@
+{
+  "owner_rule": {
+    "max_channel_delta": 2,
+    "max_different_percent": 0.01
+  },
+  "comparison": "before",
+  "passed": false,
+  "rows": [
+    {
+      "name": "home",
+      "width": 360,
+      "changed_pixels": 0,
+      "page_pixels": 5470920,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "changed_pixels": 0,
+      "page_pixels": 9281280,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "home",
+      "width": 1280,
+      "changed_pixels": 0,
+      "page_pixels": 13740800,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "services",
+      "width": 360,
+      "changed_pixels": 0,
+      "page_pixels": 7838280,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "services",
+      "width": 768,
+      "changed_pixels": 0,
+      "page_pixels": 12949248,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "services",
+      "width": 1280,
+      "changed_pixels": 0,
+      "page_pixels": 21838080,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "about",
+      "width": 360,
+      "changed_pixels": 0,
+      "page_pixels": 5038920,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "changed_pixels": 687822,
+      "page_pixels": 7075584,
+      "max_channel_delta": 4,
+      "percent": 9.721063307283186,
+      "bounds": [
+        0,
+        0,
+        595,
+        7753
+      ],
+      "passed": false,
+      "mask": null
+    },
+    {
+      "name": "about",
+      "width": 1280,
+      "changed_pixels": 9,
+      "page_pixels": 11303680,
+      "max_channel_delta": 1,
+      "percent": 7.962008832521799e-05,
+      "bounds": [
+        1033,
+        18,
+        1220,
+        54
+      ],
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "contact",
+      "width": 360,
+      "changed_pixels": 0,
+      "page_pixels": 3210480,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "contact",
+      "width": 768,
+      "changed_pixels": 0,
+      "page_pixels": 5305344,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    },
+    {
+      "name": "contact",
+      "width": 1280,
+      "changed_pixels": 0,
+      "page_pixels": 7731200,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true,
+      "mask": null
+    }
+  ]
+}

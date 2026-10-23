@@ -1,0 +1,29 @@
+# Phase 25 Stage 2 progress
+
+Owner authorization: 2026-10-23, decisions A-F. Session branch only; PR1. No deployment or merge.
+
+Resume safety: clean checkout fetched and aligned with remote session branch at3f0e1417845291097c22e0fd02e0641752a48dd7. Stage1 report, progress, audit, complete token inventory and git history reviewed. No prior Stage2 checkpoint exists. Baseline renders reconstructed byte-for-byte from the immutable Phase24b capture, not current pages.
+
+## Task status
+
+- Task1 header/footer/fonts: complete.
+- Task2A destinations: not started.
+- Task2B places: not started.
+- Task2C articles/index: not started.
+- Task2D legal/utility: not started.
+- Task3 verification: not started; maximum3 cycles, stop a repeated failure twice.
+- Task4 performance: not started.
+- Task5 owner review sheet: not started.
+- Task6 release sign-off: not started.
+
+RuleC replaces the prior zero-tolerance rule by explicit owner authorization, not an automatic test relaxation. First measure two unchanged baseline captures. Exact reference chrome wins over minimum hit size when an invisible extension cannot avoid overlapping adjacent targets. References remain excluded from font and template rollout. Generated stills remain unreferenced.
+
+## Task1 checkpoint
+
+Four pilots re-shot at360/768/1280. Exact visible chrome property comparison with Home passes all12 pilot/width cases (active link colour excluded; unpainted zero-width border colour is not a visible difference). Removed pilot opaque nav, footer gaps, transformed typography and visible hit-size overrides. Original include markup is untouched. Invisible hit extensions apply only where targets cannot overlap. Stacked footer links/contact lines remain at reference pitch, a declared44px exception under decisionD.
+
+Seven self-hosted Latin files supply the exact reference mirror weights: Outfit300/400/500/600/700 and Cormorant400/700. Only Outfit300 and Cormorant700 preload. Metric aliases use system fallback x-height/vertical overrides, not additional design families. Atomic text-paint gate and3s/error failsafe remain; JS-off never receives the hidden class. Font directory has additive IfModule-guarded MIME/cache directives; root.htaccess bytes unchanged. Native caching is not proven locally.
+
+Before runtime edits, two original baseline passes were recorded. About had a larger transient background difference. A controlled repeated calibration (fixed clocks and suppressed repeating decorative timers, harness only) also reproduces9 one-level CTA-corner pixels at exactly the Home Stage1 locations on unchanged About1280, within0.01percent. Home emits no shared stylesheet, so new shared CSS cannot cause its9 corner pixels. Treat those9 within-rule pixels as accepted anti-aliasing noise under decisionC, not a waiver for larger differences. About768 self-noise remains above the rule and will not be claimed accepted. Both raw and controlled noise reports retained.
+
+All43 semantic/source/palette comparisons PASS. Four pilots only remain opted in. Full rollout and bounded verification follow.

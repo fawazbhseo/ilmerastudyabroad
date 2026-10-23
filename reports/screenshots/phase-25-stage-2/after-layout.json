@@ -1,0 +1,134 @@
+[
+  {
+    "phase": "after",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 8366,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 7139,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 12537,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 360,
+    "scrollWidth": 360,
+    "height": 6400,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 6057,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 4696,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 7719,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 768,
+    "scrollWidth": 768,
+    "height": 4567,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "germany",
+    "route": "/study-in-germany",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 6101,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "mysuru",
+    "route": "/study-abroad-counselling-mysuru",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 4701,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "article",
+    "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 7976,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  },
+  {
+    "phase": "after",
+    "name": "blog",
+    "route": "/blog/",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "height": 3400,
+    "teamSection": null,
+    "fonts": "loaded",
+    "teams": []
+  }
+]

@@ -1,0 +1,529 @@
+{
+  "routes": [
+    {
+      "route": "/404",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": false,
+        "footer": false
+      },
+      "sha256": "046f39ab6fdf324fff1180080471621dd62410b800e24032ca93c8787d1682d8"
+    },
+    {
+      "route": "/about",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724"
+    },
+    {
+      "route": "/all-pages",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "a11ffff07b5c0b525f52f798ed00d9522f6464eff2642f22a28cf75da3b1e43e"
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "e5cb94f19a5858b3976e1477f4f75cdc1cfa45217fb27d3c925e55fb49b4db69"
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "426f189ebf3dcf7d524d6f84dc5cc2f20dad0357ec32811864701260854f4ccd"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": true,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "bf77605f2864b71f5a3f56eddcd0a6a08a90c7ced1921d30da734e013648acdd"
+    },
+    {
+      "route": "/blog/",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": true,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "8ff03876a74defc653d1ec57c1bbd2c0e5975b45056b19e7f43dc62180ccf4de"
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "kind": "page",
+      "status": "draft",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": false,
+        "footer": true
+      },
+      "sha256": "3c513832188a4b740774420e8428409531571924cd43aa81240f7a1dbe23480f"
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "3a430874d899a811b49be14ebec41501298001cc2f70f5a6b57f3b8756477ccf"
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "a313f3d2989a45818761fb0a481e370d7f0b87cc12b0567854941ea9b3ea3cae"
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "58ef2755bbe09e828644d41fa2eeab2ec62953acfb020c21daaf3a8ff28eeb44"
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "kind": "page",
+      "status": "draft",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": false,
+        "footer": true
+      },
+      "sha256": "fb8fa9a35b7b55a4134e16507049c9e65b71de55f164ecaa0bdfbb26bea0898f"
+    },
+    {
+      "route": "/contact",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a"
+    },
+    {
+      "route": "/",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc"
+    },
+    {
+      "route": "/privacy-policy",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "9a16864f9e9642a52bf1f985ce227380931ab81fab531109973a77cbd4160cc4"
+    },
+    {
+      "route": "/services",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a"
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "13fae2dd2924e8d6b9fb18a07a0a8d40511d1b16c5e3da876e82f8f9d531375f"
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "e8ca912b104eb99f2b330078f3a9e6b7052849b32b9f02114641a7a06612dd11"
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "e986e76871704a0c85e86d2d7da1e93b9ad1b88a1ed7596649f5133357522c70"
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "438ca208d74f4fa1da5de6ca5887dec3dd737e3568ce58937602c552e19b9e54"
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "f97b278e4b15ca42802d61dddb9c8c47452e7d1072a2ea36ed397526a034ea32"
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "7ba60c4db940b47310326fb68e3aa4146c956ffad05b76faecfcbdacb591fd14"
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "763acb64211320f72cd50ec291b4694df52f670da8365ea3bbf1620445feda36"
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "07fcef41dcf3174cc8dbaae31ce4a5491c3c6b75e8bc8995b9733d1fb2dd05f6"
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "992031c81ace28737676f2f3497bafcdca848bcb650629449bac2074d0414d22"
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "3c9defb23732b4f62930e533812421ec64a95c560425bd13dded4a31c534aadf"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": true,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "4ec54fd8e376674e50bca31a1cef799096dd84f8284718e554a9cf49e17c2e05"
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "12dc6fd9e664ce9bd14d3a027f74bdabbac755ceb8cb2913858ffbeeca9f6ccf"
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "d1c1f0e55a03e3045814d1e1ded913bbc47fc56c3f791389d49d0158d0205bce"
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "2bd5789493bfdf21435003347d30a63ea4a9e806a7865194c371ee87d160b62b"
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "a061b2123d392440faedfca3462284020d4e8b21faca6686b77ac8ae8574efcd"
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "643a1fc9940d09ed1dde83b67fd0f42673d586504697e8558c76c729a0c0c842"
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "kind": "place",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "e1e4937c85dd3cc37a9f802c4f18ac65fd42adb8f74f572888fad3e3a8d32e59"
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "kind": "destination",
+      "status": "draft",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": false,
+        "footer": true
+      },
+      "sha256": "29d60fccf80a367913e1f31a2c7d6ed3e25db99e118c7743189c176ddc4e32cc"
+    },
+    {
+      "route": "/study-in-gcc",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "4c0a2d4b3522ed4ea45e5b018f53ffbdea6eeac146d6269c6b617740ebddde48"
+    },
+    {
+      "route": "/study-in-germany",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": true,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "0346d7a0d99c4255d509f1702a7953e26f24cab6ed806fe380367d23597be1ab"
+    },
+    {
+      "route": "/study-in-italy",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "412357e276b880981f4e02049cca39024cc9c0348fdf7ed15efe71316410c009"
+    },
+    {
+      "route": "/study-in-latvia",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "8150d930f342fc5e839c4be8f6c5927563c74f28aa4a1d19a0d5404b683b7bc7"
+    },
+    {
+      "route": "/study-in-lithuania",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "0c8e3d513fd5ed1878e754ad37900bb1b08c09deeadf70669696b21fe9614626"
+    },
+    {
+      "route": "/study-in-russia",
+      "kind": "destination",
+      "status": "draft",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": false,
+        "footer": true
+      },
+      "sha256": "c3f456a9332aaf96c53ca2777e347fc3c97871c4cb0b5d3dd41919383ace383d"
+    },
+    {
+      "route": "/study-in-slovakia",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "5b10e36a32606a710e28d31b451ad5b94fc6008286facf42eb7a50324fd071df"
+    },
+    {
+      "route": "/study-in-uk",
+      "kind": "destination",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "b41aadcd12d2d7f6868daeecf3f06212d19136ded64d7144c5004927ee00164c"
+    },
+    {
+      "route": "/terms",
+      "kind": "page",
+      "status": "published",
+      "shared_visual": false,
+      "exact_text_links_images_schema": true,
+      "chrome": {
+        "header": true,
+        "footer": true
+      },
+      "sha256": "3da8396b7ab1402667e9cd67cf715c951f493025d6a1bc3757667b8e9ba47917"
+    }
+  ],
+  "passed": true,
+  "palette_passed": true,
+  "reference_exclusions": [
+    "/",
+    "/services",
+    "/about",
+    "/contact"
+  ],
+  "footer_exception": "404 baseline has an abbreviated footer. Preserving every word/link/image prevents adding the full reference footer. Kept its contents and recorded the unavoidable structural deviation."
+}

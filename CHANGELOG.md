@@ -1507,3 +1507,8 @@ Applied only the four pilot routes through the shared visual overlay. Light long
 Kept fixed budgets and prior failures. Final four pilots use the lighter reference-palette gradient, no scene fetch/library/script. Same-family inline font subsets now paint atomically with a short failsafe and readable JS-off; zero CLS in final local samples. Final matched-order/three-navigation medians pass all performance budgets. Corrected measurement route order and RGB/hex reference-token equivalence without changing baseline thresholds, words or palette.48 screenshots retained, final pilot after-images reshot. Strict reference raster remains11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; gate BLOCKED, no rollout, merge or deployment. Final report and complete changed-file manifest added.
 
 Task6 final full technical suite PASS581.55s. Independent strict pilot release gate correctly remains BLOCKED on9 Home1280 reference corner pixels; performance/colour/technical criteria pass. No Stage2 work.
+
+
+## 2026-10-23 - Phase25 Stage2 task1
+
+Aligned the four pilots to canonical reference chrome without changing source include markup. Self-hosted exact reference Latin weights, metric fallbacks, first-frame preloads and no-blank failsafe; additive font-directory cache/MIME policy only.12 pilot screenshots refreshed; all43 semantic/source/palette checks pass. Same-source repeat raster calibration and44px spacing exceptions recorded. No deployment.
