@@ -1427,3 +1427,51 @@ held/utility renders. Local PHP WASM/Chromium is not native Apache, public
 HTTP/MIME, access-control, performance, backup/restore or contact-delivery proof.
 Live deployment is NOT CLEARED. No main push, merge, deployment, form
 submission, account, outreach or live server-setting change was performed.
+
+## Phase 24b: final owner bios, complete portrait replacement and exposure audit, 2026-10-23
+
+Replaced both Fawaz/Zaheer biography variants verbatim with the newly approved
+owner text in Home/About, canonical team/Person data, matching About FAQs/schema
+and both existing-generator LLM documents. Fawaz-only sameAs now has exactly
+the approved portfolio root and LinkedIn URL. His complete homepage/About were
+opened: requested certification/diploma details and early-2025 SEO start match.
+This is owner/first-party confirmation, not issuer authentication. Unrelated
+external role/marketing/contact/result claims were not imported. Jabir's bio,
+photo, title/alt and record remain exact. The training institute is permitted
+only within the two exact bios and matching schema/FAQ/LLM contexts; stray or
+mutated context fails, and the university blocklist stays unchanged. Legacy
+separate credential nodes were removed in favour of the exact description.
+
+All seven remaining blog-author uses of the 1.5 MB Fawaz original now use the
+192 WebP through origin-relative src URLs; Home/About responsive derivatives
+remain. All widths/heights/lazy loading/alts and original/derivative bytes stay
+exact. Four reviewed-article checksums alone were refreshed for the exact src
+transforms; no status, failed gate, source, claim, metadata, date, summary or
+provenance field changed. The strict gate/hash checks remain active. No rendered
+page or DOM uses the original, which is retained untouched at its original path.
+
+Inventoried all actual non-page files/folders, including local caches. Existing
+report/tool denies retained; added native-compatible directory denies for
+includes/data and internal destination/place arrays. No browser-fetched data
+exception was found. Root only appends denies for requested note/script/log/
+backup/phase-JSON patterns plus private CSV/dotfile/Git protection; original
+rewrite bytes and CRLF remain an exact prefix. Local denial mirrors and all
+public routes/discovery/verification/assets pass, but do not parse .htaccess.
+Exact live GET URLs and expected 403/404/no contents are in the exposure audit
+and live-url checklist. Native Apache/LiteSpeed execution is NOT VERIFIED.
+
+Owner deployment decision: internal folders/notes/tooling/reports/exports/
+caches/Git metadata should not be uploaded into live hosting. Required PHP
+runtime folders need a tested non-public layout/path configuration before
+omission or relocation; no runtime move or hosting change occurs here. Current
+owner inputs remove the now-supplied bio/credential confirmations and keep
+written fee inclusions/payment schedule/refund terms, private activity follow-up
+and future genuine feedback as open matters. Older source/status/live blockers
+remain, with new superseding owner facts recorded rather than history rewritten.
+
+The first bounded executable cycle passed in 560.67 seconds, early stop; cycle
+2 not run. Per-task full-suite evidence, exhaustive changed files/bio surfaces
+and pass/fail live limits are in the Phase 24b reports. Live deployment NOT
+CLEARED: native access/rewrite/public HTTP/MIME, backup/all-file-settings restore,
+non-public runtime layout and actual contact delivery are not verified. No main
+push, merge, upload, enquiry submission, account or outreach action.

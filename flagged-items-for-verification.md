@@ -3541,3 +3541,28 @@ runtime files. This phase does not relocate them or deploy. Current web-root
 denies are defense in depth, not a substitute for that deployment decision.
 Complete backup/all-file-settings restore and actual native live probes remain
 prerequisites; no published/held status or factual destination data changes.
+
+### Phase 24b final superseding facts and release limits, 2026-10-23
+
+Both final bios are owner-confirmed and used verbatim. Fawaz's requested
+certifications/diploma/early-2025 start also match the complete opened portfolio
+home/About pages. Earlier requests for those exact biography/currentness facts
+are resolved, not missing inputs. No issuer authentication is claimed; no
+unrequested external role, ranking, client, contact or outcome claim was copied.
+Jabir's bio/photo/title/alt remains exact. Approved sameAs is Fawaz Person only.
+
+All rendered original portrait uses are removed, with no exception. The
+original and both derivatives remain byte-identical. Only exact portrait src
+and four necessary article checksums change, not any publication/source gate
+or policy/factual field. Historical text/test strings stay internal evidence.
+
+The first bounded cycle passed, early stop; cycle 2 was not needed. This does
+not clear native hosting, deployment layout, complete backup/restore or actual
+contact delivery. The adapter does not execute .htaccess. Exact live GET URLs
+must return 403/404 without contents/listing, while all positive public controls
+must stay 200. Current runtime folders cannot be omitted without an approved
+non-public path layout. Do not upload internal artifacts/notes/caches/metadata
+into hosting. No relocation, deployment or contact submission is performed.
+Earlier certificate-private comparison and official-source/held/live limits
+remain untouched. Fee terms, private activity correction and future genuine
+feedback still need their separate owner evidence; no values are inferred.

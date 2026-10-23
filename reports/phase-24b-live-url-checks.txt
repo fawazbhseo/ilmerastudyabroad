@@ -144,6 +144,7 @@ https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt
 https://ilmerastudyabroad.com/reports/phase-24b-portfolio-check.md
 https://ilmerastudyabroad.com/reports/phase-24b-portrait-check.json
 https://ilmerastudyabroad.com/reports/phase-24b-progress.md
+https://ilmerastudyabroad.com/reports/phase-24b-release-check.md
 https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json
 https://ilmerastudyabroad.com/reports/post-deploy-checklist.md
 https://ilmerastudyabroad.com/reports/prompt-map.md

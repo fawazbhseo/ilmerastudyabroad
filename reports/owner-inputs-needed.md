@@ -1,11 +1,12 @@
-# Remaining owner inputs after Phase 24
+# Remaining owner inputs after Phase 24b
 
-Reviewed 2026-10-22 against the final owner facts. The enterprise name and
+Reviewed 2026-10-23 against final Phase 24b owner facts. The enterprise name and
 Udyam number are supplied, approved and no longer missing inputs. Public
 registration is limited to the authorized statement, caveat and Organization
 identifier. No certificate file or private certificate fields were published.
-Zaheer's replacement bio uses only the approved CFO/finance-function facts.
-Existing Jabir/Fawaz bios and all title/alt labels are unchanged.
+Both Phase 24b bios are owner-approved verbatim. Fawaz's requested credential
+and start-date details also match his opened portfolio. Jabir's bio/photo and
+all title/alt labels remain unchanged.
 
 ## 1. Per-service inclusions
 
@@ -79,30 +80,39 @@ certificate address cannot be performed. No mismatch is asserted. Owner-only
 reports and test tools are denied direct Apache access by directory rules;
 this is configuration, not an independently verified live access-control test.
 
-## 6. Optional Zaheer background
+## 6. Team facts now supplied
 
-No extra background facts were supplied. His current approved sentence is:
+Both approved Phase 24b bios are published verbatim. Zaheer's digital-marketing
+certification and finance/paperwork responsibilities are owner-confirmed facts,
+not inferred from Fawaz's portfolio. Fawaz's Ahrefs/Semrush certifications,
+training-institute diploma and early-2025 SEO start match the opened homepage
+and About page. The former missing-background/credential-currentness requests
+are no longer open inputs for these exact bios. This is owner/first-party
+confirmation, not independent authentication by certificate issuers.
 
-> Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.
+No additional biography, portrait or profile link is required now. Optional
+future detail would require a new owner fact and publication review; do not
+invent experience, employers, institutions, awards, student duties or results.
+Jabir's existing bio/photo/title/alt remains exact. All original image files
+remain untouched; no rendered page uses Fawaz's 1.5 MB original, and every team
+or author portrait now uses the existing genuine WebP derivatives.
 
-Additional background is optional, not a publication blocker for this bio.
-Only owner-supplied facts may be considered later. Do not infer qualifications,
-employers, institutions, awards, experience, personal details or student duties.
-The present title and alt text remain unchanged.
+## 7. Deployment layout and actual host verification
 
-## 7. Confirm existing Fawaz claims
+Owner deployment decision: internal folders/notes/reports/tools/caches/exports
+and Git metadata should not be uploaded to the live hosting folder at all.
+Required runtime includes/data/destination/place files must remain PHP-readable.
+Current relative paths cannot simply lose those directories. Approve a tested
+non-public runtime layout/path configuration before moving or omitting them.
+This phase adds web-root defense-in-depth denies without relocation/deployment.
 
-The existing card bio states certifications from Ahrefs Academy and Semrush.
-The About FAQ also states an Advanced Diploma in Digital Marketing from Adrex
-Media School. The owner should confirm that these statements are accurate and
-current. They were not independently verified in Phase 24 and have not been
-rewritten, expanded or used as evidence of service outcomes. No new credential
-or source/profile link has been added. Jabir's existing biography is unchanged.
-
-Fawaz's original portrait is retained byte-for-byte at the same path. Genuine
-384-square and 192-square WebP derivatives are used for team display; original
-social-image metadata remains unchanged. No replacement photo is
-requested.
+Native Apache/LiteSpeed enforcement and existing rewrites must be verified on
+the actual host. Exact negative GET URLs and expected 403/404/no contents are
+in phase-24b-live-url-checks.txt; all public positive controls are listed in the
+exposure audit. Local adapter policy probes do not parse or execute .htaccess.
+Complete backup, all-file/settings restore readiness, actual public HTTP/MIME
+and separately authorized contact-delivery verification remain owner/live
+prerequisites. No enquiry was submitted and no staging/live upload occurred.
 
 ## Continuing boundaries
 

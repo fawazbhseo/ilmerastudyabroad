@@ -1190,6 +1190,14 @@
       "expected_live": "403 or 404, no file contents"
     },
     {
+      "file": "reports/phase-24b-release-check.md",
+      "url": "https://ilmerastudyabroad.com/reports/phase-24b-release-check.md",
+      "category": "internal-denied",
+      "before_block": "reports/tools directory Require all denied",
+      "after_rule": "reports/.htaccess: Require all denied",
+      "expected_live": "403 or 404, no file contents"
+    },
+    {
       "file": "reports/phase-24b-render-inventory.json",
       "url": "https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json",
       "category": "internal-denied",
@@ -2031,6 +2039,7 @@
     "https://ilmerastudyabroad.com/reports/phase-24b-portfolio-check.md",
     "https://ilmerastudyabroad.com/reports/phase-24b-portrait-check.json",
     "https://ilmerastudyabroad.com/reports/phase-24b-progress.md",
+    "https://ilmerastudyabroad.com/reports/phase-24b-release-check.md",
     "https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json",
     "https://ilmerastudyabroad.com/reports/post-deploy-checklist.md",
     "https://ilmerastudyabroad.com/reports/prompt-map.md",
@@ -2175,7 +2184,7 @@
   ],
   "local_adapter_results": {
     "status": "PASS local adapter only",
-    "denied_or_absent_probes": 223,
+    "denied_or_absent_probes": 224,
     "public_resources_200": 55,
     "site_assets_200": 12,
     "native_engine_rules_tested": false

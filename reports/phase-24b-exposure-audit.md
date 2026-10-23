@@ -62,7 +62,7 @@ Complete backup and all-file/settings restore readiness remain prerequisites.
 
 ## Complete file inventory
 
-221 non-page files: 203 denied, 18 intentionally public. Exact machine-readable rows include prior block, new rule, full URL and expected result. No log/backup file was found; deny/probe coverage still exists for both extensions.
+222 non-page files: 204 denied, 18 intentionally public. Exact machine-readable rows include prior block, new rule, full URL and expected result. No log/backup file was found; deny/probe coverage still exists for both extensions.
 
 | File | Before | After / expected |
 | --- | --- | --- |
@@ -213,6 +213,7 @@ Complete backup and all-file/settings restore readiness remain prerequisites.
 | `reports/phase-24b-portfolio-check.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-portrait-check.json` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-progress.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
+| `reports/phase-24b-release-check.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/phase-24b-render-inventory.json` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/post-deploy-checklist.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
 | `reports/prompt-map.md` | reports/tools directory Require all denied | reports/.htaccess: Require all denied; 403 or 404, no file contents |
@@ -457,6 +458,7 @@ https://ilmerastudyabroad.com/reports/phase-24b-live-url-checks.txt
 https://ilmerastudyabroad.com/reports/phase-24b-portfolio-check.md
 https://ilmerastudyabroad.com/reports/phase-24b-portrait-check.json
 https://ilmerastudyabroad.com/reports/phase-24b-progress.md
+https://ilmerastudyabroad.com/reports/phase-24b-release-check.md
 https://ilmerastudyabroad.com/reports/phase-24b-render-inventory.json
 https://ilmerastudyabroad.com/reports/post-deploy-checklist.md
 https://ilmerastudyabroad.com/reports/prompt-map.md
@@ -600,4 +602,4 @@ https://ilmerastudyabroad.com/study-in-uk
 https://ilmerastudyabroad.com/terms
 ```
 
-Local adapter results (not native engine results): `{"status": "PASS local adapter only", "denied_or_absent_probes": 223, "public_resources_200": 55, "site_assets_200": 12, "native_engine_rules_tested": false}`.
+Local adapter results (not native engine results): `{"status": "PASS local adapter only", "denied_or_absent_probes": 224, "public_resources_200": 55, "site_assets_200": 12, "native_engine_rules_tested": false}`.

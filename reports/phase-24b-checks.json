@@ -665,6 +665,176 @@
           "output_tail": ""
         }
       }
+    },
+    "task5": {
+      "task": "task5",
+      "checked_on": "2026-10-23",
+      "parent": "eff43f9a0d12209330856a0ecdd11ef1b3a86a76",
+      "seconds": 543.85,
+      "environment": "PHP 8.5 WASM adapter/CLI and Chromium; external browser requests aborted",
+      "live_deployment": false,
+      "native_apache": false,
+      "external_raw_http": false,
+      "contact_delivery": false,
+      "checks": {
+        "PHP syntax": {
+          "status": "PASS",
+          "files": 92,
+          "runtime": "PHP 8.5 WASM CLI"
+        },
+        "test_discovery.py": {
+          "status": "PASS",
+          "seconds": 0.09,
+          "output_tail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nOK\n"
+        },
+        "test_citations.py": {
+          "status": "PASS",
+          "seconds": 0.07,
+          "output_tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+        },
+        "test_italy_claims.py": {
+          "status": "PASS",
+          "seconds": 0.07,
+          "output_tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+        },
+        "test_llm_directory.py": {
+          "status": "PASS",
+          "seconds": 0.11,
+          "output_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.003s\n\nOK\n"
+        },
+        "test_llm_policy.py": {
+          "status": "PASS",
+          "seconds": 0.42,
+          "output_tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.348s\n\nOK\n"
+        },
+        "test_presence.py": {
+          "status": "PASS",
+          "seconds": 0.08,
+          "output_tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+        },
+        "test_wording.py": {
+          "status": "PASS",
+          "seconds": 0.07,
+          "output_tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+        },
+        "test_team_bio_policy.py": {
+          "status": "PASS",
+          "seconds": 0.08,
+          "output_tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.006s\n\nOK\n"
+        },
+        "check_destination_sources.php": {
+          "status": "PASS",
+          "seconds": 0.74,
+          "output_tail": "{\"passed\":15}\n"
+        },
+        "check_place_contact.php": {
+          "status": "PASS",
+          "seconds": 0.68,
+          "output_tail": "PASS existing contact channels, shared phone and no local office schema\n"
+        },
+        "check_place_publication.php": {
+          "status": "PASS",
+          "seconds": 0.67,
+          "output_tail": "{\"passed\":27}\n"
+        },
+        "test_proof.php": {
+          "status": "PASS",
+          "seconds": 0.66,
+          "output_tail": "PASS exact private-source registration projection, field mutations, privacy and unchanged generic gates\n"
+        },
+        "test_strategy_schema.php": {
+          "status": "PASS",
+          "seconds": 0.66,
+          "output_tail": "PASS 7 related-guide ItemList boundaries\n"
+        },
+        "access policy patterns, not native engine": {
+          "status": "PASS",
+          "seconds": 0.08,
+          "output_tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+        },
+        "portrait encoding and original integrity": {
+          "status": "PASS",
+          "seconds": 3.69,
+          "output_tail": "{\"status\": \"PASS\", \"original_bytes\": 1541656, \"original_sha256\": \"9b2b087bd07f454a9dc54985ce4429ab11f92a7e00c3202ab87c297bbcd530dd\", \"derivatives\": [{\"path\": \"assets/images/fawazbh-384.webp\", \"bytes\": 19056, \"format\": \"WEBP\", \"dimensions\": [384, 384]}, {\"path\": \"assets/images/fawazbh-192.webp\", \"bytes\": 7892, \"format\": \"WEBP\", \"dimensions\": [192, 192]}], \"operation\": \"whole-square LANCZOS resize, WebP quality 82 method 6; no crop or retouching\"}\n"
+        },
+        "authored location overlap": {
+          "status": "PASS",
+          "seconds": 0.69,
+          "output_tail": "PASS 17 unique guides; 136 pairs; maximum shared coverage 6.41 percent\nProse words: 382 to 396\n"
+        },
+        "check_discovery.py": {
+          "status": "PASS",
+          "seconds": 7.08,
+          "output_tail": "-abroad-counselling-hassan\",\n    \"https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka\",\n    \"https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-madikeri\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-mysuru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-siddapura\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-virajpet\"\n  ],\n  \"indexable\": 38,\n  \"blocked\": 5,\n  \"routes\": 43,\n  \"llm_directory\": {\n    \"llms.txt\": {\n      \"metadata_entries\": 32,\n      \"published_urls\": 38,\n      \"destinations\": 7,\n      \"locations\": 17,\n      \"blog_articles\": 6\n    },\n    \"llms-full.txt\": {\n      \"metadata_entries\": 32,\n      \"published_urls\": 38,\n      \"destinations\": 7,\n      \"locations\": 17,\n      \"blog_articles\": 6\n    }\n  }\n}\nPASS HTTP statuses, canonicals, robots, sitemap coverage, inbound links, internal targets and fragments\n"
+        },
+        "check_publication_review.py": {
+          "status": "PASS",
+          "seconds": 12.85,
+          "output_tail": "PASS 42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity\n"
+        },
+        "check_italy_claims.py": {
+          "status": "PASS",
+          "seconds": 2.47,
+          "output_tail": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6, '/llms.txt': 2, '/llms-full.txt': 1} total 22\n"
+        },
+        "check_phase19.py": {
+          "status": "PASS",
+          "seconds": 2.61,
+          "output_tail": "PASS {'published_pages': 38, 'unique_short_metadata': True, 'one_h1': True, 'primary_in_heading_and_opening': True, 'destination_data_byte_identical': True}\n"
+        },
+        "check_technical_seo.py": {
+          "status": "PASS",
+          "seconds": 2.44,
+          "output_tail": "PASS {\"pages\": 38, \"heading_order\": \"PASS\", \"breadcrumb_visible_schema_parity\": \"PASS\", \"image_instances\": 88, \"image_alt_dimensions_loading\": \"PASS\", \"max_click_depth\": 1, \"orphans\": 0, \"canonical_targets_direct_200\": true, \"existing_external_font_stylesheets\": [\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap\", \"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap\"], \"native_redirect_chains_verified\": false, \"live_performance_verified\": false}\n"
+        },
+        "build_llms_directory.py": {
+          "status": "PASS",
+          "seconds": 6.9,
+          "output_tail": "PASS {'llms.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}, 'llms-full.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}}\n"
+        },
+        "check_phase20.py": {
+          "status": "PASS",
+          "seconds": 5.44,
+          "output_tail": "PASS {\"published_pages\": 38, \"unique_primaries\": 38, \"changed_primaries\": 0, \"document_fragments\": 17, \"prompts\": 50, \"prompt_statuses\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"protected_files\": 33, \"destination_and_location_data_unchanged\": true}\n"
+        },
+        "check_phase24b.py": {
+          "status": "PASS",
+          "seconds": 9.04,
+          "output_tail": "oad\", \"/blog/study-abroad-counselling-from-coorg\", \"/blog/study-abroad-with-academic-backlogs\", \"/contact\", \"/\", \"/privacy-policy\", \"/services\", \"/study-abroad-consultants-in-karnataka\", \"/study-abroad-consultants-in-kodagu\", \"/study-abroad-counselling-belagavi\", \"/study-abroad-counselling-bengaluru\", \"/study-abroad-counselling-chikkamagaluru\", \"/study-abroad-counselling-gonikoppal\", \"/study-abroad-counselling-hassan\", \"/study-abroad-counselling-kushalnagar\", \"/study-abroad-counselling-madikeri\", \"/study-abroad-counselling-mangaluru\", \"/study-abroad-counselling-mysuru\", \"/study-abroad-counselling-ponnampet\", \"/study-abroad-counselling-shivamogga\", \"/study-abroad-counselling-siddapura\", \"/study-abroad-counselling-somwarpet\", \"/study-abroad-counselling-udupi-manipal\", \"/study-abroad-counselling-virajpet\", \"/study-in-gcc\", \"/study-in-germany\", \"/study-in-italy\", \"/study-in-latvia\", \"/study-in-lithuania\", \"/study-in-slovakia\", \"/study-in-uk\", \"/terms\"], \"visible_bio_pages\": [\"/\", \"/about\"], \"about_bio_faqs\": 2, \"exact_bios\": true, \"jabir_unchanged\": true, \"university_blocklist_unchanged\": true, \"original_rendered_uses\": [], \"fawaz_derivative_portrait_instances\": 9, \"exposure\": {\"status\": \"PASS local adapter only\", \"denied_or_absent_probes\": 224, \"public_resources_200\": 55, \"site_assets_200\": 12, \"native_engine_rules_tested\": false}, \"registration_and_other_schema_unchanged\": true}\n"
+        },
+        "render schema and strict policy": {
+          "status": "PASS",
+          "routes": 43,
+          "faq_pairs": 213,
+          "faq_exact_visible_schema_parity": true
+        },
+        "baseline render delta": {
+          "status": "PASS",
+          "compared": 43,
+          "changed": 40,
+          "unchanged": 3
+        },
+        "independent cycle consistency": {
+          "status": "PASS",
+          "seconds": 1.05,
+          "output_tail": "PASS {\"published_captures\": 38, \"recursive_schema_policy\": \"PASS\", \"names_wording_punctuation\": \"PASS\", \"prompt_status_reasons\": \"PASS\", \"canonical_entity_llm_parity\": \"PASS\", \"strategy_prompt_inventory\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"external_http_status_verified\": false, \"live_rankings_verified\": false}\n"
+        },
+        "browser": {
+          "status": "PASS",
+          "seconds": 423.12,
+          "output_tail": "study-abroad-counselling-mysuru\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-ponnampet\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-shivamogga\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-siddapura\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-somwarpet\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-udupi-manipal\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-virajpet\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-czech-republic\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-gcc\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-germany\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-italy\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-latvia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-lithuania\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-russia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-slovakia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-uk\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/terms\",\"js\":true,\"width\":1280}\n{\"status\":\"PASS\",\"cases\":258,\"faq_expansions\":1278,\"team_photo_checks\":36,\"fawaz_derivative_load_checks\":54,\"viewports\":[375,768,1280],\"javascript\":[false,true],\"external_requests\":\"aborted; no live font/performance/delivery assertion\"}\n"
+        },
+        "rendered location overlap": {
+          "status": "PASS",
+          "pairs": 136,
+          "maximum_percent": 13.24200913242009
+        },
+        "whitespace": {
+          "status": "PASS",
+          "seconds": 0.01,
+          "output_tail": ""
+        }
+      }
     }
   }
 }
