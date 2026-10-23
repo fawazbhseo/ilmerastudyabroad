@@ -1,0 +1,51 @@
+[
+  {
+    "url": "/assets/fonts/outfit-reference-300.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/outfit-reference-400.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/outfit-reference-500.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/outfit-reference-600.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/outfit-reference-700.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  },
+  {
+    "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+    "local_status": 200,
+    "local_content_type": "font/woff2",
+    "cache_control": null,
+    "native_apache_proof": false
+  }
+]

@@ -11,10 +11,10 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task2B places: complete.
 - Task2C articles/index: complete.
 - Task2D legal/utility: complete.
-- Task3 verification: completed with declared immutable-reference/404/target deviations; two cycles plus scoped recovery, no all-green release claim. One final cycle remains within the maximum3 if performance changes a template.
+- Task3 verification: complete bounded attempts;3 cycles used including final destination-only regression. Core checks PASS; exactness/reference failures remain explicit. No more cycles.
 - Task4 performance: complete. All seven rebuilt samples PASS after destination-only plain/inline fallback; unchanged Services control FAILS LCP. Overall performance gate remains FAIL, no waiver.
 - Task5 owner review sheet: complete.16 final full-page captures, raw branch embeds,1280/360 in requested order; Germany pilot3 widths refreshed.
-- Task6 release sign-off: not started.
+- Task6 release sign-off: complete local report; NOT READY for deployment. No merge/deploy.
 
 RuleC replaces the prior zero-tolerance rule by explicit owner authorization, not an automatic test relaxation. First measure two unchanged baseline captures. Exact reference chrome wins over minimum hit size when an invisible extension cannot avoid overlapping adjacent targets. References remain excluded from font and template rollout. Generated stills remain unreferenced.
 
@@ -69,3 +69,7 @@ Final unchanged Services control LCP8941.540ms exceeds2315.607ms cap; FAIL. Cont
 ## Task5 checkpoint
 
 Contact sheet contains Services reference, Germany, Mysuru, article, blog, privacy, all-pages and404, each1280 then360, with one role-description line per image.16 final full-page browser captures use lossless WebP, or PNG beyond its16383px size limit; byte-for-byte decoded RGB checks PASS. Germany's three pilot PNGs/layout refreshed for the measured plain/inline tier. No website imagery was generated or replaced.
+
+## Task6 final checkpoint
+
+Final source/tier tests PASS; release acceptance FAIL. All39 non-reference routes use the system; destination9 alone plain/inline after measured failure, other30 gradient/selfhost. Four reference sources unchanged since Stage1. Final exact-header property check adds a tiny approximately0.016px Germany1280 auto-margin deviation after inline fallback, disclosed rather than waived. Literal404 full footer, reference raster/AA/overflow and Services performance failures stay open. Native/cache/delivery/security/backup/certificate blockers unchanged. Every changed Stage2 file, exact future live font URLs, local measurements, sampling limitations, final tiers and all deviations are listed in phase-25-release-check.md.

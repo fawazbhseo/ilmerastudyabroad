@@ -1512,3 +1512,11 @@ Task6 final full technical suite PASS581.55s. Independent strict pilot release g
 ## 2026-10-23 - Phase25 Stage2 task1
 
 Aligned the four pilots to canonical reference chrome without changing source include markup. Self-hosted exact reference Latin weights, metric fallbacks, first-frame preloads and no-blank failsafe; additive font-directory cache/MIME policy only.12 pilot screenshots refreshed; all43 semantic/source/palette checks pass. Same-source repeat raster calibration and44px spacing exceptions recorded. No deployment.
+
+## 2026-10-23 Phase25 Stage2 local rollout and release record
+
+- Rolled out template roles to39 non-reference routes, including held pages without changing publication status, words/order, links, image content or schema. Four reference sources remain unchanged since approved Stage1 team work.
+- Aligned canonical Home chrome, self-hosted reference font weights and font-only guarded cache policy. Measured destination LCP failure triggers plain navy/inline-font escape hatch for that template alone; other30 rebuilt routes keep gradient/selfhost.
+- Preserved all original held-article hashes/protected metadata. Bounded3-cycle verification, local performance candidates,16 desktop/mobile full-page review images and complete file/deviation inventory recorded.
+- NOT READY: About360 reference raster above ruleC; immutable-reference AA/overflow; shortened404 footer; approximately0.016px destination desktop auto-margin deviation; final Services control LCP failure. Stacked footer44px exceptions follow decisionD. No threshold waiver, reference redesign, main push, merge or deployment.
+- Native Apache/LiteSpeed ACL/rewrite/cache/MIME/CSP/delivery/runtime-layout proof, backup/restore, actual certificate and all prior business-proof/source/review/fee/scope blockers remain open.

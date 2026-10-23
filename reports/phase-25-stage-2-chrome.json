@@ -6,6 +6,11 @@
       "differences": []
     },
     {
+      "route": "/study-in-germany",
+      "width": 360,
+      "differences": []
+    },
+    {
       "route": "/404",
       "width": 360,
       "differences": [
@@ -726,271 +731,16 @@
           "property": "height",
           "reference": "133px",
           "actual": "75px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "height",
-          "reference": "15px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontSize",
-          "reference": "12px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontWeight",
-          "reference": "300"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontFamily",
-          "reference": "Outfit"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "lineHeight",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "letterSpacing",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "padding",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "margin",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "gap",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "backgroundColor",
-          "reference": "rgba(0, 0, 0, 0)"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "border",
-          "reference": "0px none"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "borderRadius",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "display",
-          "reference": "block"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "color",
-          "reference": "rgb(138, 152, 184)"
         }
       ]
     },
     {
-      "route": "/all-pages",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/cost-of-studying-abroad-for-indian-students",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/documents-needed-to-study-abroad-from-india",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/italy-dsu-scholarship-eligibility",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/scholarships-for-indian-students-study-abroad",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-abroad-counselling-from-coorg",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-abroad-with-academic-backlogs",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-in-germany-free-aps-certificate",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/privacy-policy",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-consultants-in-karnataka",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-consultants-in-kodagu",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-belagavi",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-bengaluru",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-chikkamagaluru",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-gonikoppal",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-hassan",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-kushalnagar",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-madikeri",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-mangaluru",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-mysuru",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-ponnampet",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-shivamogga",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-siddapura",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-somwarpet",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-udupi-manipal",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-virajpet",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-czech-republic",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-gcc",
-      "width": 360,
+      "route": "/",
+      "width": 768,
       "differences": []
     },
     {
       "route": "/study-in-germany",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-italy",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-latvia",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-lithuania",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-russia",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-slovakia",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/study-in-uk",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/terms",
-      "width": 360,
-      "differences": []
-    },
-    {
-      "route": "/",
       "width": 768,
       "differences": []
     },
@@ -1715,273 +1465,25 @@
           "property": "height",
           "reference": "119px",
           "actual": "75px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "height",
-          "reference": "15px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontSize",
-          "reference": "12px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontWeight",
-          "reference": "300"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontFamily",
-          "reference": "Outfit"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "lineHeight",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "letterSpacing",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "padding",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "margin",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "gap",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "backgroundColor",
-          "reference": "rgba(0, 0, 0, 0)"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "border",
-          "reference": "0px none"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "borderRadius",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "display",
-          "reference": "block"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "color",
-          "reference": "rgb(138, 152, 184)"
         }
       ]
-    },
-    {
-      "route": "/all-pages",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/cost-of-studying-abroad-for-indian-students",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/documents-needed-to-study-abroad-from-india",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/italy-dsu-scholarship-eligibility",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/scholarships-for-indian-students-study-abroad",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-abroad-counselling-from-coorg",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-abroad-with-academic-backlogs",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/blog/study-in-germany-free-aps-certificate",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/privacy-policy",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-consultants-in-karnataka",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-consultants-in-kodagu",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-belagavi",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-bengaluru",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-chikkamagaluru",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-gonikoppal",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-hassan",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-kushalnagar",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-madikeri",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-mangaluru",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-mysuru",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-ponnampet",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-shivamogga",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-siddapura",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-somwarpet",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-udupi-manipal",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-abroad-counselling-virajpet",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-czech-republic",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-gcc",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-germany",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-italy",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-latvia",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-lithuania",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-russia",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-slovakia",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/study-in-uk",
-      "width": 768,
-      "differences": []
-    },
-    {
-      "route": "/terms",
-      "width": 768,
-      "differences": []
     },
     {
       "route": "/",
       "width": 1280,
       "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "differences": [
+        {
+          "selector": ".nav-links",
+          "property": "margin",
+          "reference": "0px 222.734px",
+          "actual": "0px 222.75px"
+        }
+      ]
     },
     {
       "route": "/404",
@@ -2704,78 +2206,378 @@
           "property": "height",
           "reference": "57px",
           "actual": "44px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "height",
-          "reference": "15px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontSize",
-          "reference": "12px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontWeight",
-          "reference": "300"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "fontFamily",
-          "reference": "Outfit"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "lineHeight",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "letterSpacing",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "padding",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "margin",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "gap",
-          "reference": "normal"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "backgroundColor",
-          "reference": "rgba(0, 0, 0, 0)"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "border",
-          "reference": "0px none"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "borderRadius",
-          "reference": "0px"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "display",
-          "reference": "block"
-        },
-        {
-          "selector": ".ft-copy",
-          "property": "color",
-          "reference": "rgb(138, 152, 184)"
         }
       ]
+    },
+    {
+      "route": "/all-pages",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/terms",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/all-pages",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "differences": []
     },
     {
       "route": "/all-pages",
@@ -2928,11 +2730,6 @@
       "differences": []
     },
     {
-      "route": "/study-in-germany",
-      "width": 1280,
-      "differences": []
-    },
-    {
       "route": "/study-in-italy",
       "width": 1280,
       "differences": []
@@ -2969,5 +2766,5 @@
     }
   ],
   "passed": false,
-  "passed_except_abbreviated_404": true
+  "passed_except_abbreviated_404": false
 }
