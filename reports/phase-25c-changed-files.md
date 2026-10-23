@@ -1,0 +1,62 @@
+# Every Phase25c changed file
+
+Scope: difference from Stage2 endpoint4dc4c5c, including the final uncommitted Task6 evidence that this manifest ships with. No public runtime, presentation, page, metadata, image, font or publication-data file changed in Phase25c. Historical Stage2 full manifest remains in the retained release report.
+
+56 files:
+
+- `CHANGELOG.md`
+- `flagged-items-for-verification.md`
+- `reports/phase-25-reference-a11y.md`
+- `reports/phase-25-release-check.md`
+- `reports/phase-25c-ab-fixtures.json`
+- `reports/phase-25c-accessibility.json`
+- `reports/phase-25c-changed-files.md`
+- `reports/phase-25c-checks.json`
+- `reports/phase-25c-chrome.json`
+- `reports/phase-25c-chrome.md`
+- `reports/phase-25c-contrast.json`
+- `reports/phase-25c-final-checks.json`
+- `reports/phase-25c-invariants.json`
+- `reports/phase-25c-performance.md`
+- `reports/phase-25c-progress.md`
+- `reports/phase-25c-reference-a11y-data.json`
+- `reports/phase-25c-reference-gate.json`
+- `reports/phase-25c-reference-gate.md`
+- `reports/phase-25c-reference-overflow.json`
+- `reports/phase-25c-reference-structure.json`
+- `reports/phase-25c-regions-fonts.json`
+- `reports/phase-25c-structures/about-1280.json.gz`
+- `reports/phase-25c-structures/about-360.json.gz`
+- `reports/phase-25c-structures/about-768.json.gz`
+- `reports/phase-25c-structures/contact-1280.json.gz`
+- `reports/phase-25c-structures/contact-360.json.gz`
+- `reports/phase-25c-structures/contact-768.json.gz`
+- `reports/phase-25c-structures/home-1280.json.gz`
+- `reports/phase-25c-structures/home-360.json.gz`
+- `reports/phase-25c-structures/home-768.json.gz`
+- `reports/phase-25c-structures/services-1280.json.gz`
+- `reports/phase-25c-structures/services-360.json.gz`
+- `reports/phase-25c-structures/services-768.json.gz`
+- `reports/phase-25c-task2-ab.json`
+- `reports/phase-25c-template-diagnosis.json`
+- `reports/phase-25c-template-diagnosis.md`
+- `tools/phase25c/README.md`
+- `tools/phase25c/a11y_report.py`
+- `tools/phase25c/ab.cjs`
+- `tools/phase25c/ab_report.py`
+- `tools/phase25c/accessibility.cjs`
+- `tools/phase25c/browser.cjs`
+- `tools/phase25c/check.py`
+- `tools/phase25c/chrome.cjs`
+- `tools/phase25c/contrast.py`
+- `tools/phase25c/fixture-server.cjs`
+- `tools/phase25c/fixtures.py`
+- `tools/phase25c/overflow.cjs`
+- `tools/phase25c/pixels.py`
+- `tools/phase25c/reference.cjs`
+- `tools/phase25c/regions.cjs`
+- `tools/phase25c/release.py`
+- `tools/phase25c/render.cjs`
+- `tools/phase25c/requirements.txt`
+- `tools/phase25c/run.py`
+- `tools/phase25c/tiers.py`

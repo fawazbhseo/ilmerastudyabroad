@@ -1,3 +1,126 @@
+# Phase25c current release check
+
+**NOT READY FOR LIVE DEPLOYMENT.** Local verification/reporting tasks are checkpointed; required performance gates and native/proof readiness still FAIL. No merge, main push, deployment, submission or outreach. No public presentation/source changes in Phase25c.
+
+Date2026-10-23. PR: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1 . Session branch `arena/48320ee5-ilmerastudyabroad`. One final full verification cycle used of the permitted two. No fourth performance reliability session. The structural/noise gate, strict sub0.1px chrome tolerance,404 short-footer acceptance and report-only reference a11y instructions supersede the older Stage2 criteria retained below.
+
+## Current acceptance matrix
+
+| Check | Result | Evidence / limits |
+|---|---|---|
+| PHP lints, units,43 renders, strict wording/discovery/sitemap/schema/source/LLM/overlap | PASS | 35 check groups; existing guards not weakened |
+| 43-route text/order/links/image-content/JSON-LD invariants | PASS | Exact Phase24b except approved team bios; prior five header loading=eager timing attributes disclosed |
+| Browser JSon/off360/768/1280 | PASS | 258 cases, 1278 FAQ interactions, 36 photo checks, 54 derivative loads |
+| Reference source and rendered HTML immutable | PASS | Four source files byte-exact Stage1; fresh HTML SHA values unchanged since Task1 |
+| Reference structural and calibrated pixel gate | PASS | 12/12 PASS,0 structural diffs; all current maxdelta0/SSIM1; no source change |
+| Header/footer geometry | PASS | 120/120 PASS, max tolerated0.016px strictly below0.1px;404 abbreviated footer accepted |
+| Rebuilt palette/contrast/a11y | PASS | 42 rebuilt axe cases0 violations;9 explicit palette/state pairs>=4.5 |
+| Light reading areas, no fully-dark rebuilt pages or overflow | PASS | 117 region/width cases; first posthero and longform light, at most one dark accent |
+| Font failure-condition body/glyph visibility | PASS | 14 local HTTP-font-blocked JSon/off conditions; inline destination has no HTTP font dependency, not font-decode-failure proof |
+| Reference report-only a11y/overflow inventory | PASS | All24 groups/387 original+4 fresh node instances (391 total),5 reproduced layout-overflow cases reported; not fixed |
+| One hero tier/font method per whole template | PASS | 9 destination/17 place/8 article plus other rebuilt templates, held members included |
+| Task2 performance reliability and unchanged budgets | FAIL | FAIL: all3 sessions unreliable; final14 routes7A/7B; nine of ten rebuilt raw passes, Choosing LCP FAIL; reference Services LCP/TBT and Contact/About TBT FAIL |
+| Reliable proof of fallback necessity/validated font-gate repair | FAIL | Not established by unreliable controls; current whole-template conservative policy retained without speculative source edit |
+| Native Apache/LiteSpeed and live deployment readiness | FAIL | No native rewrite/ACL/cache/MIME/CSP/runtime-layout/contact-delivery/backup-restore or actual certificate proof; prior blockers retained |
+
+## All12 reference results
+
+| Reference |360|768|1280|
+|---|---|---|---|
+| home | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 |
+| services | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 |
+| about | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 |
+| contact | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 | PASS:0 structural diffs, delta0, SSIM1 |
+
+About360 baseline self-noise: maxdelta3, up to505576 differing pixels, minimum SSIM0.999324385. Current is exact. Full3-pair per-case floors and structures: phase-25c-reference-gate.md/JSON and phase-25c-structures/. This is calibrated capture noise, not a shared-CSS defect or a waiver of any real structural difference.
+
+## New seven-by-seven performance table
+
+### Method and complete results
+
+**Local simulated Lighthouse data only. Not field data, actual CDN timing or native/live hosting proof.**
+
+Immutable Stage1 HTML is A for the four references; immutable Phase24b HTML is A elsewhere. Independently frozen current HTML is B. Both use the same HTTP document/static fixture server and exact npm CDN mirrors. Each sample uses a fresh isolated-profile Chromium process, standard Lighthouse mobile simulated Slow4G/4x CPU, storage reset, serial execution. Seven A and seven B per completed route. Round0 A/B, round1 B/A, alternating through round6. No other browser/capture/QA benchmark runs overlap. Shared-host scheduling and software GPU remain limitations.
+
+IQR is Q3 minus Q1, with linear-interpolated sample quartiles. JSON retains quartiles, every raw sample, passive LCP DOM/font/gate events, and failed or incomplete sessions. Disabling the oversized **post-trace report screenshot** in reruns does not disable page animations or alter the A/B throttling or metric budgets. Each arm within a session uses identical settings.
+
+Reliability: every reference must have max(A/B,B/A) median LCP ratio<=1.10, a conservative symmetric reading. No tolerance added to the actual route budgets: added transfer<150000B, no new external blocking request, CLS<=A AND<0.1, LCP<=1.10A, TBT<=A+50ms. A control failure invalidates certification of that session, including otherwise numerically passing routes.
+
+## Retained sessions
+
+| Session | Completeness | Control symmetric ratios | Reliable |
+|---|---|---|---|
+| 1 | 24 samples, 1 complete routes | /=4.9769 | NO |
+| 2 | 56 samples, 4 complete routes | /=1.0095, /services=1.0038, /contact=5.4517, /about=1.0164 | NO |
+| 3 | 196 samples, 14 complete routes | /=5.0419, /services=4.8435, /contact=1.0200, /about=1.0089 | NO |
+
+## Session3 table: UNRELIABLE, NOT CERTIFIED
+
+Cells show **median [IQR]**. Bytes are raw local transfer totals; added bytes are B minus A. Ratios and tests use unrounded values. No baseline relabelled or failed sample deleted.
+
+| Route | LCP A ms [IQR] | LCP B ms [IQR] | B/A | Transfer A/B [IQR] B | Added B | CLS A/B [IQR] | TBT A/B ms [IQR] | New blocking | Verdict |
+|---|---:|---:|---:|---|---:|---|---|---:|---|
+| `/` | 9292.3 [7723.8] | 1843.0 [3716.6] | 0.1983 | 1068515 [0] / 1068515 [0] | 0 | 0.000769 [0.000005] / 0.000769 [0.000015] | 1761.0 [586.0] / 1773.0 [237.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/services` | 1997.1 [7635.6] | 9672.8 [7846.7] | 4.8435 | 1093114 [0] / 1093114 [0] | 0 | 0.000000 [0.003797] / 0.000000 [0.000000] | 1946.0 [334.3] / 2209.0 [345.8] | 0 | FAIL: lcp,tbt |
+| `/contact` | 10786.9 [975.1] | 11002.5 [4752.7] | 1.0200 | 1049851 [0] / 1049851 [0] | 0 | 0.000000 [0.000000] / 0.000000 [0.000000] | 3399.5 [967.5] / 3621.5 [616.8] | 0 | FAIL: tbt |
+| `/about` | 9147.1 [179.5] | 9228.7 [171.9] | 1.0089 | 1047496 [0] / 1047496 [0] | 0 | 0.007303 [0.001027] / 0.006758 [0.003311] | 1661.0 [238.0] / 1826.0 [222.5] | 0 | FAIL: tbt |
+| `/study-in-germany` | 3037.7 [195.3] | 1147.4 [53.4] | 0.3777 | 230530 [0] / 199991 [0] | -30539 | 0.053536 [0.025454] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/study-in-italy` | 2919.3 [120.2] | 1172.6 [50.0] | 0.4017 | 228478 [0] / 197938 [0] | -30540 | 0.055367 [0.018332] / 0.000000 [0.000000] | 0.0 [0.0] / 8.5 [39.5] | 0 | NOT CERTIFIED (raw PASS) |
+| `/study-in-gcc` | 3068.7 [135.0] | 1313.2 [88.6] | 0.4280 | 239266 [0] / 208727 [0] | -30539 | 0.042830 [0.014711] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [12.8] | 0 | NOT CERTIFIED (raw PASS) |
+| `/study-abroad-counselling-mysuru` | 2918.7 [1.5] | 1652.4 [315.7] | 0.5662 | 226483 [0] / 233615 [0] | 7132 | 0.045560 [0.020526] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/study-abroad-counselling-bengaluru` | 2918.5 [63.2] | 1652.4 [314.8] | 0.5662 | 226586 [0] / 233718 [0] | 7132 | 0.073798 [0.053247] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/blog/how-to-choose-study-abroad-consultant-karnataka` | 1031.3 [64.3] | 2280.9 [314.3] | 2.2117 | 143493 [0] / 241184 [0] | 97691 | 0.000000 [0.000000] / 0.000000 [0.000000] | 0.0 [11.5] / 0.0 [3.0] | 0 | FAIL: lcp |
+| `/blog/documents-needed-to-study-abroad-from-india` | 3187.3 [121.0] | 1802.9 [628.7] | 0.5657 | 233830 [0] / 255209 [0] | 21379 | 0.032218 [0.010288] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/blog/` | 2771.1 [270.4] | 1654.1 [628.6] | 0.5969 | 211288 [0] / 232579 [0] | 21291 | 0.102867 [0.031043] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/privacy-policy` | 2993.3 [161.9] | 1652.5 [351.8] | 0.5521 | 231468 [0] / 229212 [0] | -2256 | 0.058473 [0.029236] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [0.0] | 0 | NOT CERTIFIED (raw PASS) |
+| `/all-pages` | 2769.5 [140.2] | 1652.3 [389.8] | 0.5966 | 203636 [0] / 224963 [0] | 21327 | 0.022408 [0.000000] / 0.000000 [0.000000] | 0.0 [0.0] / 0.0 [11.0] | 0 | NOT CERTIFIED (raw PASS) |
+
+## Decision
+
+All permitted reliability attempts exhausted. No further performance retry or baseline/budget relaxation.
+**Performance acceptance: FAIL / not certified.** Reference HTML A/B hashes are byte-identical, yet the reference medians can show large simulated variance. This is not proof of a reference design/source regression or a measured live improvement. It does prevent a release performance sign-off. Required native hosting, backup/restore, contact delivery, certificate/source and deployment blockers remain open.
+
+
+## Final whole-template tiers
+
+| Template | Count | Hero | Fonts |
+|---|---:|---|---|
+| Destination, including held |9| Plain reference navy | Inline two matching variable faces, retained; necessity not re-certified |
+| Place |17| Reference-palette gradient | Selfhost seven static reference weights, two abovefold preloads |
+| Article, including held |8| Reference-palette gradient | Same selfhost method across all articles |
+| Blog index |1| Reference-palette gradient | Selfhost |
+| Legal |2| Reference-palette gradient | Selfhost |
+| Directory |1| Reference-palette gradient | Selfhost |
+|404/error |1| Reference-palette gradient | Selfhost |
+| References |4| Original unchanged | Original unchanged |
+
+Global scene switch retained; generated stills disabled/unreferenced. Full route membership, actual LCP nodes/fonts and gate analysis: phase-25c-template-diagnosis.md/JSON. No reliable necessity proof or validated new font-gate repair is claimed.
+
+## Every remaining deviation, exception and blocker
+
+1. **Performance not certified:** all3 allowed control sessions unreliable. Final Home symmetric ratio5.0419 and Services4.8435 exceed1.10. Choosing article raw LCP2280.9ms vs1031.3ms (2.2117x) also fails; Services raw LCP/TBT, Contact/About raw TBT fail. All results remain failures, not noise-waived budget passes. Nine rebuilt raw passes cannot certify the session.
+2. **Fallback necessity/repair unproven:** all9 destinations retain plain/inline conservatively. Shared all-font-set paint gate is a plausible cost centre; no unique German markup defect proved and no speculative gate change committed. A heavier default tier was not newly certified.
+3. **Reference contrast report-only:**24 original finding groups/387 original+4 fresh node instances (391 total) remain, with selector, foreground/background, ratio vs4.5 and minimal existing-palette suggestions. None applied.
+4. **Reference numerical layout overflow:** Home360/768 hidden team reveal translateX60 yields+40px, About360/768 hidden stats reveal translateX55 yields+33px, Contact360 hidden info reveal translateX60 yields+36px. Effective opacity0, body clipping and wheel scrollX0 observed; start-state scrollWidth excess persists after returning to top. Not a scene/pixel-noise issue and not claimed fixed or harmless in every possible animation frame. Fresh AA Contact360 width395px versus396px in the dedicated probe is a1px frame variation of the same case.
+5. **404 abbreviated footer accepted:** original words/links retained; not full reference footer. Header still matches.
+6. **Subpixel chrome accepted:**1318 individual values differ strictly below0.1px, max0.016px. No>=0.1px or non-geometric mismatch after active-state normalization. Initial colour-transition normalization artifact retained externally and corrected in the harness, not source.
+7. **Reference gutter differences retained:** rebuilt chrome follows canonical Home20px mobile gutter; About/Contact references retain22/24px and are compared with their own immutable baselines.
+8. **44px reference-pitch constraint:** stacked footer links/contact rows retain legacy pitch below44px to avoid overlapping invisible hit areas; other invisible extensions preserve reference paint. Existing reference small targets are not redesigned.
+9. **Five existing header timing-only attributes:** first logo loading=eager on404 and four held pages is the prior accepted presentation timing delta from Phase24b. Image bytes/URLs/alt/dimensions/styles unchanged. No Phase25c image changes.
+10. **Representative/local performance only:**14 requested-plus-About routes, not field/live proof or every one of43 pages.404 has no separate performance navigation; all-pages is its utility-family representative. Exact npm CDN mirrors and equal HTTP fixture delivery do not model real CDN/native cache/MIME/CSP/HTTP transport. Shared-host/software GPU scheduling remains a limitation.
+11. **JSoff instrumentation scope:** primary browser disables application JS; axe uses its serialized app-script-stripped DOM in a separate instrumentation-only context. Functional browser blocks external requests and finishes finite animations before geometry. No native/live claim from this method.
+12. **Font failure scope:**14 HTTP-font-blocked JSon/off conditions show visible body/glyphs. Inline destination has no HTTP font dependency, so this is not corrupt/decode/CSP-font failure proof. Seven future native font/cache URLs remain below in historical evidence; local adapter cannot prove native headers.
+13. **Native/proof go-live blockers:** no native Apache/LiteSpeed rewrite/404 invocation/ACL/cache/MIME/CSP/private-runtime-layout/contact-delivery proof or full backup/restore test. Actual registration certificate remains unavailable. All earlier registration, fees/payment/refund, reviews, scope, source/fact-verification and held-publication blockers stay open; no private certificate/contact/address/NIC details exposed.
+14. **Deployment exclusions:** tools/reports/Git/runtime caches and test fixtures are not website upload material. Private-runtime/deny enforcement and deployment layout remain unverified. No merge/main push/deploy or account/submission/outreach action.
+
+## Every changed file
+
+Exact Phase25c manifest (all paths, no omissions): [phase-25c-changed-files.md](phase-25c-changed-files.md). Historical Stage2 manifest is preserved below.
+
+**Plain-language readiness:** the reference layout and chrome gates now pass under the authorized rules, but performance cannot be signed off and the article LCP failure remains unresolved. Do not deploy this branch. Further reliable performance evidence/validated whole-template repair and all native/backup/proof approvals are required.
+
+<!-- PHASE25C_HISTORY -->
+
 # Phase25 Stage2 release check
 
 **Decision: NOT READY FOR DEPLOYMENT.** Local rollout and owner review package completed; acceptance failures below remain failures. No merge, main push, deployment, submission, account action or outreach. PR: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1 . Session branch: `arena/48320ee5-ilmerastudyabroad`.

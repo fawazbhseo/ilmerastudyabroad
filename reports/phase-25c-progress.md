@@ -9,7 +9,7 @@
 3. Template diagnosis and uniform tier choice: complete assessment. Uniformity PASS; reliable budget/necessity proof FAIL. Existing whole-template policy retained, no unsafe source edits.
 4. Chrome geometry tolerance below0.1px, accepted404 abbreviated footer: complete.120/120 PASS; max tolerated0.016px; zero differences>=0.1px. No source edits.
 5. Reference accessibility/overflow report only: complete. All24 contrast groups/387 node instances and5 overflow cases documented; no fixes applied to refs.
-6. Re-verification, maximum2 cycles, release report/sign-off: pending.
+6. Re-verification, maximum2 cycles, release report/sign-off: complete. Cycle1 local QA PASS; overall acceptance FAIL / NOT READY. Second cycle unused, no additional performance retry.
 
 ## Decisions
 
@@ -36,3 +36,7 @@ Full120-row comparison PASS. Every visible header/footer node geometry/text/orde
 ## Task5 checkpoint
 
 Report-only reports/phase-25-reference-a11y.md lists every node across24 original contrast groups (387 node instances), selector, measured foreground/background/ratio vs4.5 and nearest passing existing-palette single-foreground suggestion. All5 overflow cases reproduced exactly: Home360/768 rightmost hidden article.testi-card.reveal-r translateX60 yields+40px; About360/768 hidden div.stats-block translateX55 yields+33px; Contact360 hidden contact-info translateX60 yields+36px. Effective opacity0 at sampled layout-edge frames, body overflow hidden, horizontal-wheel scrollX0. Document scrollWidth remains enlarged in offscreen start states even after returning to top; not asserted resolved or compositor noise. No reference source/style fix applied.
+
+## Task6 checkpoint
+
+One full final cycle completed in617.96s plus region/failsafe tail.35 core groups PASS,43 source/semantic/schema/discovery/wording renders,258 browser cases/1278 FAQ/36 photos/54 derivative loads,42 rebuilt axe cases0 violations,117 region cases and14 visibility/failure conditions PASS. Final refs retain24 contrast groups with391 nodes (387 original+4 extra fresh nodes) and the same5 overflow cases; report supplemented without retry or source fixes. Final Contact360 width395px vs dedicated396px records animation-frame variation, not resolution. Reference source/fresh HTML hashes unchanged. No public runtime/presentation file changed from Stage2. Performance, reliable fallback necessity/validated repair and native/proof/live readiness remain FAIL. Release report includes every changed file, all12 reference cases, complete7A/7B table, tiers and all deviations. No second full cycle, fourth performance session, main push, merge or deploy.

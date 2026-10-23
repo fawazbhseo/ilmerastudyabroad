@@ -1,4 +1,60 @@
 {
+  "fresh_additional_nodes": [
+    {
+      "route": "/services",
+      "width": 1280,
+      "javascript": true,
+      "selector": "#russia > .svc-grid > .on-dark.svc-text.anim-fade-left > .highlight-box > .highlight-title",
+      "foreground": "#cb4f50",
+      "background": "#141526",
+      "observed_ratio": 4.09,
+      "required": 4.5,
+      "suggested_foreground": "#e05555",
+      "suggested_ratio": 4.8069011933918295,
+      "original_failure_summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #cb4f50, background color: #141526, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "javascript": true,
+      "selector": ".container > .sec-label",
+      "foreground": "#c9a84c",
+      "background": "#e9edf8",
+      "observed_ratio": 1.95,
+      "required": 4.5,
+      "suggested_foreground": "#5a6b8c",
+      "suggested_ratio": 4.579054092011982,
+      "original_failure_summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "javascript": true,
+      "selector": "#team > .container > .team-hdr > .sec-label",
+      "foreground": "#c9a84c",
+      "background": "#e9edf8",
+      "observed_ratio": 1.95,
+      "required": 4.5,
+      "suggested_foreground": "#5a6b8c",
+      "suggested_ratio": 4.579054092011982,
+      "original_failure_summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "javascript": true,
+      "selector": "#faq-h2",
+      "foreground": "#0a1628",
+      "background": "#04060f",
+      "observed_ratio": 1.11,
+      "required": 4.5,
+      "suggested_foreground": "#888888",
+      "suggested_ratio": 5.7065487756463416,
+      "original_failure_summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1"
+    }
+  ],
+  "original_node_instances": 387,
+  "total_retained_node_instances": 391,
   "contrast_groups": [
     {
       "finding": 1,

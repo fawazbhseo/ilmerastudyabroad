@@ -3622,3 +3622,16 @@ All9 destination members retain plain navy/inline matching fonts; all17 places a
 ## Phase25c Task5: reference-only accessibility report (2026-10-23)
 
 All24 historical contrast groups/387 affected node instances retain selector, measured foreground/background/ratio and minimal existing-palette suggestion in reports/phase-25-reference-a11y.md. No suggestion applied. Five JS-on layout-overflow cases exactly reproduced: Home360/768 hidden team-card reveal translateX60 creates40px excess, About360/768 hidden stats-block translateX55 creates33px excess, Contact360 hidden contact-info translateX60 creates36px excess. Effective opacity0 and horizontal-wheel scrollX0 observed; numerical document overflow persists while these below-fold reveal start states are hidden. This is not pixel/compositor noise and not claimed fixed. Reference source remains immutable, as required; report-only accepted constraint, not blanket user-visible clipping proof.
+
+
+## Phase25c final sign-off: NOT READY (2026-10-23)
+
+Task1 now passes12/12 under the authorized structural/noise gate; Task4 passes120/120 with max0.016px tolerated strictly below0.1px. These replace the old pixel-only/exact-subpixel acceptance failures, not historical evidence. No reference or other public runtime source changed. One permitted final full QA cycle completed; no second cycle or fourth performance session pursued.
+
+Performance remains FAIL/uncertified after all3 reliability sessions; Choosing article raw LCP2.2117x, Services raw LCP/TBT and Contact/About raw TBT failures retained. No reliable necessity proof or validated new font-gate/template repair claimed. Whole-template9 destination/17 place/8 article policies are uniform, including held pages.
+
+Fresh final reference axe retains24 groups/all387 original affected nodes plus4 additional sampled nodes (Services1280 highlight title; About1280 section label, team label and FAQ heading), all documented with4.5 target/palette-only suggestions,391 total retained nodes. No fixes applied. Same5 reference numerical overflow cases persist; Contact360 final sample395px vs dedicated probe396px is frame-dependent, not resolution. Hidden reveal transforms/body clipping/wheel scrollX0 observed, not a blanket all-frame no-clipping claim.
+
+Accepted/retained limitations:404 short footer; canonical Home20px mobile gutter while references keep22/24px; legacy stacked footer/contact target pitch below44px; prior5 first-logo eager timing attributes only; JSoff axe serialized instrumentation method; external-aborted functional browser/finite-animation geometry method;14 HTTP-font-failure conditions (inline destination has no font HTTP dependency, no decode/CSP failure proof); no separate404 performance navigation; local simulated equal-delivery/npm-mirror data only.
+
+No native Apache/LiteSpeed rewrite/404/ACL/cache/MIME/CSP/private-runtime-layout/contact-delivery or full backup/restore proof; actual certificate unavailable; all earlier registration/fees/payment/refund/reviews/scope/source/held-publication blockers preserved. Tools/reports/Git/caches/test fixtures are not upload material. No sensitive certificate/private contact/address/NIC values exposed, no main push/merge/deploy/account/submission/outreach.

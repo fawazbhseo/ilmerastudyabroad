@@ -513,6 +513,19 @@ Foreground/background and observed ratio are taken verbatim from axe failure sum
 | `.container > p > a[href$="services"]` | `#0000ee` | `#04060f` | 2.15 /4.5 | foreground `#4488ff`, predicted 5.98:1 |
 | `.team-disclosure > a[href$="about#team"]` | `#0000ee` | `#04060f` | 2.15 /4.5 | foreground `#4488ff`, predicted 5.98:1 |
 
+## Final-cycle additional node observations
+
+The final full cycle retains the same24 reference finding groups and all387 original affected nodes, plus these4 newly sampled nodes (391 total). They are not removed by a retry. Original sources remain unchanged; no fix applied. Large-text axe thresholds may be3:1, but this report uses the owner target4.5:1.
+
+| Page / width / JS | Selector | FG / BG | Observed / required | Minimal existing-palette suggestion |
+|---|---|---|---|---|
+| `/services` /1280 /True | `#russia > .svc-grid > .on-dark.svc-text.anim-fade-left > .highlight-box > .highlight-title` | `#cb4f50` / `#141526` | 4.09 /4.5 | foreground `#e05555`, predicted 4.81:1 |
+| `/about` /1280 /True | `.container > .sec-label` | `#c9a84c` / `#e9edf8` | 1.95 /4.5 | foreground `#5a6b8c`, predicted 4.58:1 |
+| `/about` /1280 /True | `#team > .container > .team-hdr > .sec-label` | `#c9a84c` / `#e9edf8` | 1.95 /4.5 | foreground `#5a6b8c`, predicted 4.58:1 |
+| `/about` /1280 /True | `#faq-h2` | `#0a1628` / `#04060f` | 1.11 /4.5 | foreground `#888888`, predicted 5.71:1 |
+
+Final-cycle Contact360 sampled scrollWidth395px versus396px in the dedicated early-frame probe; the same case remains. This1px animation-frame variation is not asserted resolved or pixel-compositor noise.
+
 ## Five retained overflow cases
 
 A larger scrollWidth alone is not proof that readable content is clipped or that a user can pan sideways. The new sampler observes original animations without changing reference CSS or disabling scenes. Early frames, naturally settled scroll/reveal state and a horizontal-wheel attempt are retained in phase-25c-reference-overflow.json. Invisible transformed nodes are included because they can affect layout overflow without painting. Fixed decorative layers are not assumed to be the scroll-container cause merely because their rectangles exceed the viewport.

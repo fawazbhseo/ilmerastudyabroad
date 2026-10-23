@@ -1,0 +1,111 @@
+{
+  "phase": "25c",
+  "date": "2026-10-23",
+  "pr": "https://github.com/fawazbhseo/ilmerastudyabroad/pull/1",
+  "verification_parent": "f25a0ce2b8bda8874f5aeac0ece6ccfc7b04858a",
+  "final_cycles_used": 1,
+  "final_cycles_maximum": 2,
+  "second_cycle": "not spent: no public runtime/presentation change; known performance reliability failure cannot be repaired by another unauthorized performance session",
+  "checks": [
+    {
+      "check": "PHP lints, units,43 renders, strict wording/discovery/sitemap/schema/source/LLM/overlap",
+      "status": "PASS",
+      "detail": "35 check groups; existing guards not weakened"
+    },
+    {
+      "check": "43-route text/order/links/image-content/JSON-LD invariants",
+      "status": "PASS",
+      "detail": "Exact Phase24b except approved team bios; prior five header loading=eager timing attributes disclosed"
+    },
+    {
+      "check": "Browser JSon/off360/768/1280",
+      "status": "PASS",
+      "detail": "258 cases, 1278 FAQ interactions, 36 photo checks, 54 derivative loads"
+    },
+    {
+      "check": "Reference source and rendered HTML immutable",
+      "status": "PASS",
+      "detail": "Four source files byte-exact Stage1; fresh HTML SHA values unchanged since Task1"
+    },
+    {
+      "check": "Reference structural and calibrated pixel gate",
+      "status": "PASS",
+      "detail": "12/12 PASS,0 structural diffs; all current maxdelta0/SSIM1; no source change"
+    },
+    {
+      "check": "Header/footer geometry",
+      "status": "PASS",
+      "detail": "120/120 PASS, max tolerated0.016px strictly below0.1px;404 abbreviated footer accepted"
+    },
+    {
+      "check": "Rebuilt palette/contrast/a11y",
+      "status": "PASS",
+      "detail": "42 rebuilt axe cases0 violations;9 explicit palette/state pairs>=4.5"
+    },
+    {
+      "check": "Light reading areas, no fully-dark rebuilt pages or overflow",
+      "status": "PASS",
+      "detail": "117 region/width cases; first posthero and longform light, at most one dark accent"
+    },
+    {
+      "check": "Font failure-condition body/glyph visibility",
+      "status": "PASS",
+      "detail": "14 local HTTP-font-blocked JSon/off conditions; inline destination has no HTTP font dependency, not font-decode-failure proof"
+    },
+    {
+      "check": "Reference report-only a11y/overflow inventory",
+      "status": "PASS",
+      "detail": "All24 groups/387 original+4 fresh node instances (391 total),5 reproduced layout-overflow cases reported; not fixed"
+    },
+    {
+      "check": "One hero tier/font method per whole template",
+      "status": "PASS",
+      "detail": "9 destination/17 place/8 article plus other rebuilt templates, held members included"
+    },
+    {
+      "check": "Task2 performance reliability and unchanged budgets",
+      "status": "FAIL",
+      "detail": "FAIL: all3 sessions unreliable; final14 routes7A/7B; nine of ten rebuilt raw passes, Choosing LCP FAIL; reference Services LCP/TBT and Contact/About TBT FAIL"
+    },
+    {
+      "check": "Reliable proof of fallback necessity/validated font-gate repair",
+      "status": "FAIL",
+      "detail": "Not established by unreliable controls; current whole-template conservative policy retained without speculative source edit"
+    },
+    {
+      "check": "Native Apache/LiteSpeed and live deployment readiness",
+      "status": "FAIL",
+      "detail": "No native rewrite/ACL/cache/MIME/CSP/runtime-layout/contact-delivery/backup-restore or actual certificate proof; prior blockers retained"
+    }
+  ],
+  "reference_sources_sha256": {
+    "index.php": "bc03d3a5b23e85cd7682e3d2d9118b9a417fec77792247d2edc626376d28fe43",
+    "services.php": "4da5d8b95fa68bb7f6be4a5ccf99fdc32a28947c9207104b5b8019f9b25888b1",
+    "about.php": "a9a2839bd09c1f930c960d220d5375cc870ffdb62d093d100da91c48a96bcc95",
+    "contact.php": "634697a2ee0b1c9bcea2c7bff958f2bee0affc7a052a8a485a2c4e3a4ae29ac2"
+  },
+  "reference_fresh_html_sha256": {
+    "/": {
+      "sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "unchanged_since_structural_capture": true
+    },
+    "/services": {
+      "sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "unchanged_since_structural_capture": true
+    },
+    "/about": {
+      "sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "unchanged_since_structural_capture": true
+    },
+    "/contact": {
+      "sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "unchanged_since_structural_capture": true
+    }
+  },
+  "public_runtime_changed_since_stage2": false,
+  "all_release_criteria_passed": false,
+  "ready_for_live_deployment": false,
+  "deployed": false,
+  "main_pushed": false,
+  "merged": false
+}
