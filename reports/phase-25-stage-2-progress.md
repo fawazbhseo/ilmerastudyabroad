@@ -8,7 +8,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 
 - Task1 header/footer/fonts: complete.
 - Task2A destinations: complete.
-- Task2B places: not started.
+- Task2B places: complete.
 - Task2C articles/index: not started.
 - Task2D legal/utility: not started.
 - Task3 verification: not started; maximum3 cycles, stop a repeated failure twice.
@@ -31,3 +31,7 @@ All43 semantic/source/palette comparisons PASS. Four pilots only remain opted in
 ## Task2A checkpoint
 
 Destination role now applies at template level to all9 routes (7 published,2 held). Shared held-template startup runs only the visual buffer, not publication/SEO presentation. Held statuses/robots/discovery remain exact. All43 text/order/link/image/JSON-LD/source/palette checks PASS.12 routes currently styled:9 destinations plus the other3 existing pilots. No still URLs or loader emitted.
+
+## Task2B checkpoint
+
+Place role now applies to the shared template: all17 published locations and any held instance without a publication-status condition. Current inventory has no held place route. All43 semantic/source/palette comparisons PASS.28 routes styled; no facts, scope/contact data, internal links or metadata changed.
