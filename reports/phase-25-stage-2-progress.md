@@ -12,7 +12,7 @@ Resume safety: clean checkout fetched and aligned with remote session branch at3
 - Task2C articles/index: complete.
 - Task2D legal/utility: complete.
 - Task3 verification: completed with declared immutable-reference/404/target deviations; two cycles plus scoped recovery, no all-green release claim. One final cycle remains within the maximum3 if performance changes a template.
-- Task4 performance: not started.
+- Task4 performance: complete. All seven rebuilt samples PASS after destination-only plain/inline fallback; unchanged Services control FAILS LCP. Overall performance gate remains FAIL, no waiver.
 - Task5 owner review sheet: not started.
 - Task6 release sign-off: not started.
 
@@ -53,3 +53,15 @@ Cycle1/2 guard findings were fixed without changing any protected metadata or lo
 Expanded chrome120 cases: all38 full-footer rebuilt routes match Home, header matches all39;404 shortened-footer differences remain explicit.117 rebuilt region/width probes PASS: first posthero light, readable light longform, not fully dark, at most1 dark accent, no overflow, text visible.14 blocked-font JS-on/off probes show painted heading glyphs and visible body. All-template AA:42 rebuilt cases have0 axe violations;24 immutable-reference cases each retain a contrast violation. Five reference motion-on transient overflow cases are recorded; rebuilt samples have none. Header/footer stacked targets below44px remain at reference pitch under decisionD.
 
 RuleC remains FAIL for About360, despite exact unchanged source/HTML and no shared CSS injection. No tolerance waiver, reference redesign, fabricated native proof or deployment. Bounded logs explain failures, repairs and scope conflicts; no retry loop for immutable reference findings.
+
+### Task4 measured fallback
+
+Candidate1 default gradient/self-hosted: all rebuilt samples except Germany pass; Germany LCP2430.752ms exceeds immutable1592.006ms baseline*1.1. All rebuilt CLS0, TBT0, added transfer below150000bytes and no new blocking resources. Only destination template drops to plain reference-navy hero plus the permitted Stage1 inline-font escape hatch, triggered by its measured budget failure. Other templates keep gradient/self-hosted fonts. Full original seven-route prefix plus three additional samples will be remeasured with three storage-reset navigation medians.
+
+Unchanged Contact control also fails LCP/CLS (8786.532ms/.004813818 versus1939.857ms/0). Its reference hero/source cannot be tier-dropped under decisionB. This is retained as a failed control, not waived or redesigned. No source changes to the four references. Additional baselines are labelled immutable-HTML replay, not invented Stage1 measurements.
+
+## Task4 checkpoint
+
+Final destination fallback median: LCP1181.228ms, CLS0, TBT3ms, transfer200010bytes (minus30539), requests4. All other rebuilt samples retain gradient/self-hosted; all7 rebuilt samples PASS every unchanged budget. All have CLS0; no new blocking resource. Raw initial failure and full remeasurement retained.
+
+Final unchanged Services control LCP8941.540ms exceeds2315.607ms cap; FAIL. Contact passes final but failed initial. Reference heroes stay unchanged; do not claim source-driven speedups or waive local control variance. Three added-page baselines are labelled supplemental immutable-HTML replay; original seven Stage1 per-route baseline values are untouched. No more unchanged-reference performance retries to pursue a pass.

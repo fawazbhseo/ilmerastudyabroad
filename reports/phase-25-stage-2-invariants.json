@@ -6,6 +6,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": true,
       "chrome": {
         "header": true,
@@ -19,6 +21,8 @@
       "status": "published",
       "shared_visual": false,
       "exact_text_links_images_schema": true,
+      "font_tier": "unchanged reference",
+      "hero_tier": "unchanged reference",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -32,6 +36,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -45,6 +51,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -58,6 +66,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -71,6 +81,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -84,6 +96,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -97,6 +111,8 @@
       "status": "draft",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": true,
       "chrome": {
         "header": true,
@@ -110,6 +126,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -123,6 +141,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -136,6 +156,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -149,6 +171,8 @@
       "status": "draft",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": true,
       "chrome": {
         "header": true,
@@ -162,6 +186,8 @@
       "status": "published",
       "shared_visual": false,
       "exact_text_links_images_schema": true,
+      "font_tier": "unchanged reference",
+      "hero_tier": "unchanged reference",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -175,6 +201,8 @@
       "status": "published",
       "shared_visual": false,
       "exact_text_links_images_schema": true,
+      "font_tier": "unchanged reference",
+      "hero_tier": "unchanged reference",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -188,6 +216,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -201,6 +231,8 @@
       "status": "published",
       "shared_visual": false,
       "exact_text_links_images_schema": true,
+      "font_tier": "unchanged reference",
+      "hero_tier": "unchanged reference",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -214,6 +246,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -227,6 +261,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -240,6 +276,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -253,6 +291,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -266,6 +306,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -279,6 +321,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -292,6 +336,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -305,6 +351,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -318,6 +366,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -331,6 +381,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -344,6 +396,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -357,6 +411,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -370,6 +426,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -383,6 +441,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -396,6 +456,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -409,6 +471,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -422,6 +486,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
@@ -435,12 +501,14 @@
       "status": "draft",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "7b10e61a1bad4c659870f2c7d9b3928b4df6b19977059853037940cdb6a74f64"
+      "sha256": "ddc9393bc1f4895f9d1f6cb6629d690933609b5fc1616ea8e50d5c32c2f174e0"
     },
     {
       "route": "/study-in-gcc",
@@ -448,12 +516,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "8da6439fe96502d78becaa1ce9d1f5c1debd55c1a8474216cc1c686b6850a552"
+      "sha256": "233678cacb0db01287a5faec4ab5392a5d563bed9ce687055987036758c81b87"
     },
     {
       "route": "/study-in-germany",
@@ -461,12 +531,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "956784cb08c4124af46027018a899150ea46ccf12fde0a12bc8223613dbc1c0b"
+      "sha256": "9ade1bd0fe2d3d2632bdd8f2cc1788972fd84a04a12787dadfcf86243e5fc13c"
     },
     {
       "route": "/study-in-italy",
@@ -474,12 +546,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "f7ea2ee44fb098da80d9059fbc328ac2cf4f48071703c3e9ed4c68afa05ec444"
+      "sha256": "77daa973aa1554a949ab0205692cbc65e174991d29079e26a6dbbd3f07ecf82f"
     },
     {
       "route": "/study-in-latvia",
@@ -487,12 +561,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "285587efb4d65035087e65ce3dd584ac83aacb4a7f80e2bd6dd8f0f18178d185"
+      "sha256": "ae76ce3d2c3e91173b8ff514977e94b8463b7e66d851a7ee15c4673878a0fe6b"
     },
     {
       "route": "/study-in-lithuania",
@@ -500,12 +576,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "84b0e772ef695bd5219f01ab2c6b6709bb84d58ff59d54567121628f61a49064"
+      "sha256": "579fb8060591b0ee5d01727046a545cc56ea88443b9f181a2baf3b1edfb1eb75"
     },
     {
       "route": "/study-in-russia",
@@ -513,12 +591,14 @@
       "status": "draft",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": true,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "2fc9c46b3f1570a11065b343a5f62f4e005d4b670632e25465d163a1c1d6236a"
+      "sha256": "d51c8e80f2b8893c4763dac99ba4b1641fb36c7fbe95b61d3c0074c8d4e982fe"
     },
     {
       "route": "/study-in-slovakia",
@@ -526,12 +606,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "464ac0f65fdfd377a13fbae801cde6f55ecdef6832ca8b485472e76e746923c1"
+      "sha256": "3b3167e7f2897ddf6b08d8521a259ac6cdcfca5ff72f94ca67de175da8740303"
     },
     {
       "route": "/study-in-uk",
@@ -539,12 +621,14 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "inline measured fallback",
+      "hero_tier": "plain measured fallback",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,
         "footer": true
       },
-      "sha256": "0a941931461c2f454f96436943f0a81cf2d468fb6f4ad6934a8c1a4e47145440"
+      "sha256": "7f747d4bf944c0b9f8e4d443a4bab99a49a8808dbc93a40af4c38e200d213a9c"
     },
     {
       "route": "/terms",
@@ -552,6 +636,8 @@
       "status": "published",
       "shared_visual": true,
       "exact_text_links_images_schema": true,
+      "font_tier": "selfhost",
+      "hero_tier": "gradient",
       "header_loading_timing_aligned": false,
       "chrome": {
         "header": true,

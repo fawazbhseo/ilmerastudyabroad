@@ -4,6 +4,7 @@ ROOT=pathlib.Path(__file__).resolve().parents[3];sys.path.insert(0,str(ROOT/'too
 from check_phase25 import Words,cards_only
 from check_discovery import routes,fetch
 from check_cycle_consistency import Graphs
+font_config=json.loads(subprocess.check_output(['php','-r',"require 'includes/visual-config.php'; echo json_encode([ILMERA_VISUAL_INLINE_FONT_TEMPLATES,ILMERA_VISUAL_PLAIN_HERO_TEMPLATES]);"],cwd=ROOT));
 baseline=json.loads((ROOT/'reports/phase-25-baseline-renders.json').read_text())['routes'];rows=[]
 for route,info in routes(ROOT).items():
  status,headers,body=fetch('http://127.0.0.1:8080',route);assert status==200,(route,status)
@@ -23,11 +24,16 @@ for route,info in routes(ROOT).items():
  for pat in [r'<link[^>]*rel="canonical"[^>]*>',r'<meta[^>]*name="robots"[^>]*>']:
   assert re.findall(pat,text)==re.findall(pat,old),(route,'discovery metadata')
  assert '/assets/js/hero-still.js' not in text and '/assets/images/hero-still-' not in text,route
+ template = 'directory' if route=='/all-pages' else 'error' if route=='/404' else (re.search(r'class="p25 p25-([^"]+)',text)[1] if 'class="p25 p25-' in text else None)
+ if template:
+  assert text.count('data:font/woff2;base64,')==(2 if template in font_config[0] else 0),(route,'font tier')
+  assert text.count('rel="preload" href="/assets/fonts/')==(0 if template in font_config[0] else 2),(route,'abovefold font preloads')
+  if template in font_config[1]:assert '\nbody.p25 :is(.mini-hero' in text,(route,'plain tier')
  normalized=lambda v:re.sub(r'\bactive\b','',v)
  nav=lambda s:re.search(r'<nav id="il-nav">.*?</nav>',s,re.S)[0]
  footer=lambda s:re.search(r'<footer\b.*?</footer>',s,re.S)[0]
  reference=baseline['/']['html'];chrome={'header':normalized(nav(text))==normalized(nav(reference)),'footer':footer(text)==footer(reference)}
- rows.append({'route':route,'kind':info['kind'],'status':info['status'],'shared_visual':'class="p25 p25-' in text,'exact_text_links_images_schema':True,'header_loading_timing_aligned':image_timing_only,'chrome':chrome,'sha256':hashlib.sha256(body).hexdigest()})
+ rows.append({'route':route,'kind':info['kind'],'status':info['status'],'shared_visual':'class="p25 p25-' in text,'exact_text_links_images_schema':True,'font_tier':'inline measured fallback' if template in font_config[0] else 'selfhost' if template else 'unchanged reference','hero_tier':'plain measured fallback' if template in font_config[1] else 'gradient' if template else 'unchanged reference','header_loading_timing_aligned':image_timing_only,'chrome':chrome,'sha256':hashlib.sha256(body).hexdigest()})
 # Publication data, graph sources, original images and every original runtime file
 # outside the named pure presentation integration points remain byte exact.
 base='3f0e1417845291097c22e0fd02e0641752a48dd7'
