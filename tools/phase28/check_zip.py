@@ -15,6 +15,9 @@ with zipfile.ZipFile(a.zip) as z:
         b=z.read(f);assert len(b)==rows[f]['bytes'] and hashlib.sha256(b).hexdigest()==rows[f]['sha256'],f
         assert b==(ROOT/f).read_bytes(),('Current HEAD/worktree runtime differs',f)
         assert b==subprocess.check_output(['git','show','850d0af:'+f],cwd=ROOT),('Starting HEAD blob differs',f)
+    for f in ['reports/.htaccess','tools/.htaccess']:
+        policy=[s.strip() for s in z.read(f).decode().splitlines() if s.strip() and not s.lstrip().startswith('#')]
+        assert policy==['Require all denied'],(f,policy)
     denies=sorted(f for f in names if pathlib.Path(f).name=='.htaccess');assert len(denies)==8 and denies==sorted(m['all_htaccess'])
-result={'archive':a.zip.name,'source_head':'850d0af5c083b06e3c65abc997fcab6708121c6f','manifest_runtime_commit':m['source_commit'],'file_count':len(names),'manifest_count':len(rows),'all_hashes_sizes_match':True,'all_current_runtime_bytes_match':True,'all_eight_htaccess':denies,'no_extra_or_duplicate_or_unsafe_entries':True,'no_markdown_git_releases_or_tool_report_contents':True,'root_layout_ready_for_public_html':True,'bytes':a.zip.stat().st_size,'sha256':hashlib.sha256(a.zip.read_bytes()).hexdigest(),'passed':True}
+result={'archive':a.zip.name,'source_head':'850d0af5c083b06e3c65abc997fcab6708121c6f','manifest_runtime_commit':m['source_commit'],'file_count':len(names),'manifest_count':len(rows),'all_hashes_sizes_match':True,'reports_tools_deny_only':True,'all_current_runtime_bytes_match':True,'all_eight_htaccess':denies,'no_extra_or_duplicate_or_unsafe_entries':True,'no_markdown_git_releases_or_tool_report_contents':True,'root_layout_ready_for_public_html':True,'bytes':a.zip.stat().st_size,'sha256':hashlib.sha256(a.zip.read_bytes()).hexdigest(),'passed':True}
 a.out.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

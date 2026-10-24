@@ -1,4 +1,4 @@
-# Current full-branch deploy payload: Phase27
+# Current full-branch deploy payload: Phase28 artifact, unchanged Phase27 runtime
 
 **Replaces the stale117-file content-only list. This pack contains content phases14-26b AND Phase25 design. No deployment or owner acceptance performed.**
 
@@ -9,7 +9,7 @@ Source runtime commit: `a3d696f7942b2df5c76d660c2b9f3252881ce314` on `arena/4832
 - **130 upload files**. Source snapshot has524 tracked files; **394 excluded tracked source files**. The final Phase27 file set adds23 internal paths: **417 total excluded tracked files out of547**; the130 upload files are unchanged. Exact final exclusions are in phase-27-excluded-files.json. Untracked caches, node_modules and Git internals are unbounded exclusions, not included in those counts.
 - Per-file bytes/SHA256: [phase-27-payload-manifest.json](phase-27-payload-manifest.json). Every excluded source path/reason: [phase-27-excluded-files.json](phase-27-excluded-files.json). Neither report is uploaded.
 - Offline reproducible export: `python3 tools/phase27/export.py --out /new/empty/temporary/folder --zip /new/artifact.zip`. This reads the pinned Git blobs, verifies every hash and refuses existing destinations. It does not deploy or regenerate site files.
-- Prepared ZIP outside Git: `/home/user/phase27/ilmera-phase27-a3d696f.zip`, 681792B, SHA256 `7c7fc3284b924df08b6c63c2ee27329d3b10298304b591679944a590b8f2fee4`. Its entries exactly match the manifest. Extract contents to the hosting root, not a wrapper folder; never upload the ZIP itself into the public folder.
+- Historical Phase27 ZIP outside Git (superseded by the committed Phase28 download below): `/home/user/phase27/ilmera-phase27-a3d696f.zip`, 681792B, SHA256 `7c7fc3284b924df08b6c63c2ee27329d3b10298304b591679944a590b8f2fee4`. Its entries exactly match the manifest. Extract contents to the hosting root, not a wrapper folder; never upload the ZIP itself into the public folder.
 
 ## Phase28 downloadable repository artifact
 

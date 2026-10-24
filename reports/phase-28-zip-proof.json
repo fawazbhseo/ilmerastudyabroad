@@ -5,6 +5,7 @@
   "file_count": 130,
   "manifest_count": 130,
   "all_hashes_sizes_match": true,
+  "reports_tools_deny_only": true,
   "all_current_runtime_bytes_match": true,
   "all_eight_htaccess": [
     ".htaccess",
