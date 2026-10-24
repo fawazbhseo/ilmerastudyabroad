@@ -11,6 +11,10 @@ Source runtime commit: `a3d696f7942b2df5c76d660c2b9f3252881ce314` on `arena/4832
 - Offline reproducible export: `python3 tools/phase27/export.py --out /new/empty/temporary/folder --zip /new/artifact.zip`. This reads the pinned Git blobs, verifies every hash and refuses existing destinations. It does not deploy or regenerate site files.
 - Prepared ZIP outside Git: `/home/user/phase27/ilmera-phase27-a3d696f.zip`, 681792B, SHA256 `7c7fc3284b924df08b6c63c2ee27329d3b10298304b591679944a590b8f2fee4`. Its entries exactly match the manifest. Extract contents to the hosting root, not a wrapper folder; never upload the ZIP itself into the public folder.
 
+## Phase28 downloadable repository artifact
+
+Current-HEAD export: `releases/ilmera-deploy-850d0af.zip`,681792 bytes, SHA256 `31442c174e64b701a46db9bb935e88c85f0e201a4707297e70e9a3d06146d9d6`. Its130 entries match the unchanged upload manifest. The earlier external-only ZIP remains historical; use the committed artifact now. releases/ is excluded from all publication/export/discovery. Its deny rule is repository safety only, not a ninth upload policy. See phase-28-payload-proof.json for the fresh ZIP-extracted clean-folder proof with releases/ present in the repo.
+
 ## Mandatory runtime exceptions and privacy
 
 Blanket internal-folder/JSON exclusions BREAK this application. Retain includes/, data/, destinations/, places/ PHP runtime and all nine JSON inputs below. PHP reads them on disk; no browser needs direct access. Do not move them without a separately tested path/layout change, which is out of scope here.
@@ -27,7 +31,7 @@ Blanket internal-folder/JSON exclusions BREAK this application. Retain includes/
 
 The three root review journals gate approved publication/source/hash records. The six data JSON files drive canonical entity/team, answers, SEO and service/payment disclosures. `data/proof.php` is also mandatory. Dropping them can hide pages, remove disclosures or change structured data. The clean proof below verifies they were retained.
 
-All8 tracked .htaccess files are included unchanged. Explicit safety exceptions to the reports/tools exclusion are **only reports/.htaccess and tools/.htaccess**, placed in otherwise empty directories. No report or tool content is uploaded. This reconciles the requirement to retain every .htaccess with excluding internal contents.
+All8 payload .htaccess files are included unchanged. The ninth tracked policy, releases/.htaccess, protects the repository artifact folder and is excluded with that folder. Explicit safety exceptions to the reports/tools exclusion are **only reports/.htaccess and tools/.htaccess**, placed in otherwise empty directories. No report or tool content is uploaded. This reconciles the requirement to retain every .htaccess with excluding internal contents.
 
 | Private scope | Protection to retain | Owner native check |
 |---|---|---|
@@ -44,7 +48,7 @@ All7 static reference weights AND2 variable faces are included: PHP reads the va
 
 ## Do not upload
 
-Every file not in the exact allowlist. In particular: report/tool contents except their2 deny-only files; all Markdown including all.md/README/CHANGELOG/flagged items; all other phase*.json/internal JSON/CSV exports; Git metadata/credentials; runtime caches/__pycache__/.cache/node_modules; fixtures/test-only PHP/Python/JS; generated screenshots, evidence/snapshots, old archives/ZIPs and unused assets. Keep backups outside web access. The9 runtime JSON exceptions above are intentional, not optional exports.
+Every file not in the exact allowlist. In particular: report/tool contents except their2 deny-only files; all Markdown including all.md/README/CHANGELOG/flagged items; all other phase*.json/internal JSON/CSV exports; Git metadata/credentials; runtime caches/__pycache__/.cache/node_modules; fixtures/test-only PHP/Python/JS; generated screenshots, evidence/snapshots, old archives/ZIPs and unused assets. **Exclude the entire releases/ folder, including its ZIP and deny .htaccess.** It is not a website route or sitemap entry. Keep backups outside web access. The9 runtime JSON exceptions above are intentional, not optional exports.
 
 Never point public_html at an entire Git checkout. Git deployment must use a private checkout then publish only this allowlist, with no .git or other excluded files. If the host cannot filter, use manual upload of the pack. Replacing files does not delete old unlisted files: reconcile against the old backup and remove obsolete internal artifacts while access is disabled. No new public source/path design is introduced.
 

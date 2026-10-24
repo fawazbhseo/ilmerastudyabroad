@@ -746,5 +746,15 @@
       "tools/phase27/verify.py"
     ],
     "basis": "Final Phase27 file set, including final handoff/manifest. Public runtime remains source_commit; no deletion/new public file. Git metadata and untracked caches/node modules not finitely counted."
+  },
+  "excluded_namespaces": [
+    "releases/"
+  ],
+  "phase28_archive": {
+    "repository_path": "releases/ilmera-deploy-850d0af.zip",
+    "excluded_from_payload": true,
+    "release_directory_policy_not_in_upload_manifest": true,
+    "payload_htaccess_count": 8,
+    "tracked_policy_count_with_releases": 9
   }
 }
