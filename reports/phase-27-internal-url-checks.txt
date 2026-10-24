@@ -1,4 +1,4 @@
-# Each URL must finish403/404, no file contents or directory listing. Native live check by owner; no GET performed here. Includes current pack inputs, excluded source artifacts and representative accidental caches/Git.
+# Each URL must finish403/404, no contents/listing. Final Phase27 source+runtime/private-artifact inventory, with representative accidental Git/caches. Owner native live tests, not a report of live GETs.
 https://ilmerastudyabroad.com/.cache/
 https://ilmerastudyabroad.com/.env
 https://ilmerastudyabroad.com/.git/HEAD
@@ -252,12 +252,22 @@ https://ilmerastudyabroad.com/reports/phase-26b-progress.md
 https://ilmerastudyabroad.com/reports/phase-26b-remaining-references.json
 https://ilmerastudyabroad.com/reports/phase-26b-verification.json
 https://ilmerastudyabroad.com/reports/phase-26b-verification.md
+https://ilmerastudyabroad.com/reports/phase-27-changed-files.md
+https://ilmerastudyabroad.com/reports/phase-27-checklist-proof.json
 https://ilmerastudyabroad.com/reports/phase-27-excluded-files.json
+https://ilmerastudyabroad.com/reports/phase-27-handoff.md
+https://ilmerastudyabroad.com/reports/phase-27-internal-url-checks.txt
 https://ilmerastudyabroad.com/reports/phase-27-payload-manifest.json
 https://ilmerastudyabroad.com/reports/phase-27-payload-proof.json
 https://ilmerastudyabroad.com/reports/phase-27-progress.md
 https://ilmerastudyabroad.com/reports/phase-27-public-url-checks.tsv
 https://ilmerastudyabroad.com/reports/phase-27-raw-wording-hits.json
+https://ilmerastudyabroad.com/reports/phase-27-readiness-source-map.json
+https://ilmerastudyabroad.com/reports/phase-27-readiness.md
+https://ilmerastudyabroad.com/reports/phase-27-reference-observations.json
+https://ilmerastudyabroad.com/reports/phase-27-scope-proof.json
+https://ilmerastudyabroad.com/reports/phase-27-verification.json
+https://ilmerastudyabroad.com/reports/phase-27-verification.md
 https://ilmerastudyabroad.com/reports/post-deploy-checklist.md
 https://ilmerastudyabroad.com/reports/post-deploy-checklist.pdf
 https://ilmerastudyabroad.com/reports/prompt-map.md
@@ -448,10 +458,12 @@ https://ilmerastudyabroad.com/tools/phase26b/check.py
 https://ilmerastudyabroad.com/tools/phase26b/compare.py
 https://ilmerastudyabroad.com/tools/phase26b/expected.py
 https://ilmerastudyabroad.com/tools/phase26b/run.py
+https://ilmerastudyabroad.com/tools/phase27/README.md
 https://ilmerastudyabroad.com/tools/phase27/checklist.cjs
 https://ilmerastudyabroad.com/tools/phase27/export.py
 https://ilmerastudyabroad.com/tools/phase27/payload.py
 https://ilmerastudyabroad.com/tools/phase27/server.cjs
+https://ilmerastudyabroad.com/tools/phase27/verify.py
 https://ilmerastudyabroad.com/tools/published_citations.py
 https://ilmerastudyabroad.com/tools/team_bio_policy.py
 https://ilmerastudyabroad.com/tools/test_citations.py

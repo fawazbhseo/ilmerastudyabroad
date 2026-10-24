@@ -3684,3 +3684,6 @@ Raw browser/source Find for free also matches7 held APS URL identifiers and2 exi
 
 
 Phase27 PSI baseline limit: the choosing-consultant guide was introduced in Phase19 (ebe71c4) and is absent from origin/main/Phase13 tree. Owner still records all5 requested live URLs, but if this URL is missing, mark status/no baseline; do not compare404 performance or invent/substitute a baseline. Its relative LCP/score acceptance stays unverified until an explicit owner decision; post-release absolute measurements remain possible. No live request or metric was fabricated.
+
+
+Phase27 final evidence boundaries: all35 functional groups PASS556.78s, but fresh immutable-reference audit has426 node observations in24 groups,41 case-selector observations outside the retained391; all fresh selectors retained and no historical node pruned, cause/fix not claimed. Same5 overflow cases remain. Final130 uploads/417 tracked exclusions at547-file Phase27 set; source394 exclusions plus23 new internal files. No fourth performance session, actual native/CDN/contact/PSI/backup/Console proof or readiness verdict. Owner acceptance remains their decision, with missing choosing-guide baseline explicitly unverified. All public runtime files/config/assets/line endings remain a3d696f bytes.

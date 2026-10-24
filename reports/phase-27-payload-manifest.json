@@ -716,5 +716,35 @@
     "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
   ],
   "no_symlinks": true,
-  "payload_root": "/home/user/phase27/payload"
+  "payload_root": "/home/user/phase27/payload",
+  "final_phase27_inventory": {
+    "total_tracked_files": 547,
+    "excluded_tracked_files": 417,
+    "additional_internal_paths": [
+      "reports/phase-27-changed-files.md",
+      "reports/phase-27-checklist-proof.json",
+      "reports/phase-27-excluded-files.json",
+      "reports/phase-27-handoff.md",
+      "reports/phase-27-internal-url-checks.txt",
+      "reports/phase-27-payload-manifest.json",
+      "reports/phase-27-payload-proof.json",
+      "reports/phase-27-progress.md",
+      "reports/phase-27-public-url-checks.tsv",
+      "reports/phase-27-raw-wording-hits.json",
+      "reports/phase-27-readiness-source-map.json",
+      "reports/phase-27-readiness.md",
+      "reports/phase-27-reference-observations.json",
+      "reports/phase-27-scope-proof.json",
+      "reports/phase-27-verification.json",
+      "reports/phase-27-verification.md",
+      "reports/post-deploy-checklist.pdf",
+      "tools/phase27/README.md",
+      "tools/phase27/checklist.cjs",
+      "tools/phase27/export.py",
+      "tools/phase27/payload.py",
+      "tools/phase27/server.cjs",
+      "tools/phase27/verify.py"
+    ],
+    "basis": "Final Phase27 file set, including final handoff/manifest. Public runtime remains source_commit; no deletion/new public file. Git metadata and untracked caches/node modules not finitely counted."
+  }
 }

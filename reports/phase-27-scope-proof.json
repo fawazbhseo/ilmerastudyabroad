@@ -743,5 +743,39 @@
     "reports/post-deploy-checklist.md"
   ],
   "root_logs_append_only": true,
-  "line_endings_preserved_by_full_byte_identity": true
+  "line_endings_preserved_by_full_byte_identity": true,
+  "final_changed_paths": [
+    "CHANGELOG.md",
+    "flagged-items-for-verification.md",
+    "reports/deploy-payload.md",
+    "reports/phase-27-changed-files.md",
+    "reports/phase-27-checklist-proof.json",
+    "reports/phase-27-excluded-files.json",
+    "reports/phase-27-handoff.md",
+    "reports/phase-27-internal-url-checks.txt",
+    "reports/phase-27-payload-manifest.json",
+    "reports/phase-27-payload-proof.json",
+    "reports/phase-27-progress.md",
+    "reports/phase-27-public-url-checks.tsv",
+    "reports/phase-27-raw-wording-hits.json",
+    "reports/phase-27-readiness-source-map.json",
+    "reports/phase-27-readiness.md",
+    "reports/phase-27-reference-observations.json",
+    "reports/phase-27-scope-proof.json",
+    "reports/phase-27-verification.json",
+    "reports/phase-27-verification.md",
+    "reports/post-deploy-checklist.md",
+    "reports/post-deploy-checklist.pdf",
+    "tools/phase27/README.md",
+    "tools/phase27/checklist.cjs",
+    "tools/phase27/export.py",
+    "tools/phase27/payload.py",
+    "tools/phase27/server.cjs",
+    "tools/phase27/verify.py"
+  ],
+  "final_counts": {
+    "tracked": 547,
+    "upload": 130,
+    "excluded": 417
+  }
 }
