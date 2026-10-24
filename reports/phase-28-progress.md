@@ -7,3 +7,5 @@
 3. Complete PASS. GitHub metadata supplied the direct raw URL; GitHub Contents API raw binary fetch matches681792 bytes and SHA256. Raw-host direct fetch is outside network allowlist, stated explicitly. Exactly two plain Markdown lines appended; prior bytes unchanged. Offline regenerated PDF stays2 A4 pages; extracted old PDF text remains exact prefix and only new text is the two appended lines (whitespace and typographic ligatures normalized).
 4. Existing full lint/discovery and no-public-change proof: pending.
 5. Append logs, final push and PR1 checkpoint: pending.
+
+Task3 formatting follow-up: the two note sentences are a separate plain paragraph, one visible PDF line each. Only separator/hard-break whitespace added around the note. All preexisting Markdown bytes and normalized PDF text remain unchanged; still2 A4 pages.

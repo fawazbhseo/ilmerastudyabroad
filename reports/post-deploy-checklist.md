@@ -103,5 +103,6 @@ Send back: failing URL, screenshot/error status and before/after PageSpeed numbe
 ## (k) Search Console, after owner acceptance
 
 Resubmit https://ilmerastudyabroad.com/sitemap.xml. Use URL Inspection to request indexing for [Karnataka](https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka), [Germany](https://ilmerastudyabroad.com/study-in-germany), [Italy](https://ilmerastudyabroad.com/study-in-italy), [UK](https://ilmerastudyabroad.com/study-in-uk) and the [choosing-consultant guide](https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka). Record outcomes; requests do not guarantee indexing/rankings. Never request the four held pages.
-Unzip ilmera-deploy-850d0af.zip locally, preserving its130-file root folder structure.
-Upload only the extracted contents into public_html, with hidden .htaccess files; do not upload the ZIP or releases folder.
+
+Unzip ilmera-deploy-850d0af.zip locally, preserving its 130-file folder structure.  
+Upload contents with hidden .htaccess files into public_html; exclude the ZIP and releases folder.
