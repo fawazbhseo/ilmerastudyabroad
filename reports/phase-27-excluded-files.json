@@ -1,0 +1,1582 @@
+{
+  "source_commit": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "excluded_count": 394,
+  "files": [
+    {
+      "path": ".gitignore",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "assets/images/fawazbh.webp",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/images/hero-still-1440.webp",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/images/hero-still-720.webp",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/images/ilmera.logo.navy.png",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/images/ilmera.png",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/images/ilmera.white.png",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "assets/js/hero-still.js",
+      "reason": "Unused asset: not referenced/read by current runtime; stills disabled and original/alternate images not requested."
+    },
+    {
+      "path": "destinations-facts-template.csv",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "flagged-items-for-verification.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "phase14-audit-resolution.csv",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "phase14-publication-report.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "phase14-validation.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "places-facts-template.csv",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/deploy-payload.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/keyword-map.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/measurement-plan.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/off-page-plan.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/owner-inputs-needed.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/owner-questions.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-15-handoff.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-16-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-16-citations.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-16-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-17-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-17-source-opens.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-17-task-1-lines.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-17-verification.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-18-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-18-llm-pages.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-18-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-18-strict-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-18-task-1-lines.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-guide-review.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-on-page-changes.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-provisional-keyword-map.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-provisional-prompt-map.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-provisional-strategy-conflicts.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-technical-audit.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-19-technical.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-map.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-on-page-review.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-prompt-coverage.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-recommendations.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-20-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-map.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-22-scope-scan.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-map.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-registration-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-scan.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-23-team-inventory.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-image-check.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-registration-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24-render-inventory.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-bio-edits.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-exposure-audit.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-exposure-audit.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-live-url-checks.txt",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-portfolio-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-portrait-check.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-24b-render-inventory.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-after-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-after-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-audit.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-baseline-renders.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-before-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-before-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-contact-sheet.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-contrast.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-failed-tier-1-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-failed-tier-2-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-failed-tier-3-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-failed-tier-4-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-font-assets.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-hero-assets.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-pilot-gate.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-pilot-qa.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-pilot-review.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-reference-a11y.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-reference-pixels.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-reference-tokens.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-release-check.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-1-files.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-1-report.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-accessibility.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-after-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-after-performance.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-baseline-noise.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-before-extra-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-chrome.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-contact-assets.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-controlled-noise.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-cycles.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-fallback-metrics.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-fallback-performance.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-final-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-final-destination-axe.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-font-assets.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-font-http-local.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-initial-privacy-axe.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-invariants.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-reference-raster.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-regions-fonts.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-stage-2-team-region-raster.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-team-baseline-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-team-current-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-team-fixed-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25-team-footprints.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-ab-fixtures.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-accessibility.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-changed-files.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-chrome.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-chrome.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-contrast.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-final-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-invariants.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-performance.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-reference-a11y-data.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-reference-gate.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-reference-gate.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-reference-overflow.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-reference-structure.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-regions-fonts.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/about-1280.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/about-360.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/about-768.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/contact-1280.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/contact-360.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/contact-768.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/home-1280.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/home-360.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/home-768.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/services-1280.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/services-360.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-structures/services-768.json.gz",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-task2-ab.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-template-diagnosis.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-25c-template-diagnosis.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-base-inventory.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-candidate-delta.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-changed-files.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-content-pr-draft.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-design-release-plan.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-history-prefix.txt",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-internal-url-checks.txt",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-payload-checks.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-payload-manifest.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-public-url-checks.tsv",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-reference-comparison.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-release-split.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-team-only.patch",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-verification.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26-verification.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-changed-files.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-comparison.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-findings.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-findings.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-handoff.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-invariants.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-progress.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-remaining-references.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-verification.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/phase-26b-verification.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/post-deploy-checklist.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/prompt-map.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/proof-slots.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-article-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-article-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-article-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-blog-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-blog-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-blog-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-germany-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-germany-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-germany-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-layout.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-mysuru-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-mysuru-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/after-mysuru-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-404-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-404-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-all-pages-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-all-pages-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-article-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-article-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-blog-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-blog-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-germany-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-germany-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-mysuru-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-mysuru-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-privacy-1280.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-privacy-360.webp",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-services-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25-stage-2/review-services-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-about-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-about-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-about-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-article-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-article-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-article-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-blog-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-blog-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-blog-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-contact-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-contact-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-contact-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-germany-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-germany-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-germany-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-home-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-home-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-home-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-mysuru-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-mysuru-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-mysuru-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-services-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-services-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/after-services-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-about-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-about-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-about-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-article-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-article-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-article-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-blog-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-blog-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-blog-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-contact-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-contact-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-contact-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-germany-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-germany-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-germany-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-home-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-home-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-home-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-mysuru-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-mysuru-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-mysuru-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-services-1280.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-services-360.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/screenshots/phase-25/before-services-768.png",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/strategy-doc-conflicts.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/strategy-doc-research.json",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "reports/strategy-doc-summary.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/blocked-names.txt",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/build-sitemap.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/build_llms_directory.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_cycle_consistency.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_destination_sources.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_discovery.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_italy_claims.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_location_content.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase19.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase20.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase20_handoff.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase22.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase23.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase24.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase24b.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_phase25.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_place_contact.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_place_publication.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_publication_review.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/check_technical_seo.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase20/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase20/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase20/build_maps.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase20/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase20/server.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase22/build_prompt_map.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase22/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase23/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase23/build_prompt_map.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase23/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24/build_portraits.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24/server.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24b/approved.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24b/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24b/exposure.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24b/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase24b/server.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/audit.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/build_still.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/capture.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/contrast.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/env.sh",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/footprint.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/gate.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/metrics.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/pilot.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/pixels.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/resources.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/screenshots.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/server.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/accessibility.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/check.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/chrome.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/contact.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/contact_assets.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/final.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/metrics.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/performance.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/policy.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/raster.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/regions.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/release.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/stage2/screenshots.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/subset_fonts.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/test_scenes.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25/test_visual.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/a11y_report.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/ab.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/ab_report.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/accessibility.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/browser.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/check.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/chrome.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/contrast.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/fixture-server.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/fixtures.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/overflow.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/pixels.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/reference.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/regions.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/release.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/render.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/requirements.txt",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase25c/tiers.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26/payload.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26/prepare.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26/render.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26/visual.cjs",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26b/README.md",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26b/check.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26b/compare.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26b/expected.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/phase26b/run.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/published_citations.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/team_bio_policy.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_citations.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_discovery.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_italy_claims.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_llm_directory.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_llm_policy.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_presence.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_proof.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_public_exposure.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_strategy_schema.php",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_team_bio_policy.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    },
+    {
+      "path": "tools/test_wording.py",
+      "reason": "Internal/historical owner evidence, tool, test, cache or export; not runtime."
+    }
+  ]
+}

@@ -3672,3 +3672,12 @@ Phase26b conservative retention: old Phase26 patch, manifest, ZIP and external c
 
 
 Phase26b final verification:35 core groups PASS580.09s,43 previous-commit HTML comparisons exact after only approved Zaheer substitutions,38 published/sitemap URLs,14 policy regressions and258 browser cases.66 extra accessibility cases have0 rebuilt violations. Fresh reference audit sampled24 groups/390 node observations and5 overflows; historical391 observations remain intact, no source repair or finding removal claimed. Initial axe dependency failure retained, full fresh rerun after external install. PR1 checkpoint explicitly authorized in Phase26b is posted; prior Phase26 no-comment statements remain accurate historical records, not current restrictions. No content branch/payload rebuild, new performance lab, main push, merge, deployment or actual contact submission.
+
+
+## Phase27 combined current-branch deployment pack (2026-10-24)
+
+Owner now plans a single combined content/design release of current arena branch over Phase13, with live PSI before/after and backup rollback. This supersedes the Phase26 split-branch packaging workflow, not historical performance/native/business/proof/source findings. No deployment performed or readiness decided here. Runtime pinned to a3d696f; Phase27 modifies no public file.
+
+Payload130 files, source exclusions394 at a3d696f, plus all later Phase27 artifacts. Retain9 protected runtime JSON inputs; blanket phase/internal JSON/folder omissions break gates. Include all8 tracked .htaccess files, including reports/.htaccess and tools/.htaccess as deny-only exceptions with no other contents. Include2 variable faces read by PHP,7 static faces, CSS/visual helpers and OFL licences. Unreferenced stills/original portrait/alternate logos excluded. Clean VM has no host source mount; all43 outputs exactly match repo. CDN/contact and native access/cache/CSP/MIME/rewrite/backup remain owner checks.
+
+Raw browser/source Find for free also matches7 held APS URL identifiers and2 existing freely substrings. Full-word policy remains unchanged; do not edit/rename these under this no-public-change phase. Report all hits and distinguish identifiers/ordinary substring matches from prohibited fee claims. Rollback must disable public access and restore exact backup/remove new private files before dropping denies; restoring old root rules alone can expose new runtime inputs.
