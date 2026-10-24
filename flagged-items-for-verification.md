@@ -3649,3 +3649,8 @@ Isolated164d6de plus narrow six-file team/policy patch passes the original Phase
 ## Phase26 payload exclusion correction (2026-10-24)
 
 A blanket phase14-*.json/internal-JSON omission would break publication/runtime gates. Exact mandatory exceptions: phase14-source-review.json, phase14-location-review.json, phase14-article-review.json and data/answer-map.json, entity.json, payment-disclosure.json, seo-map.json, service-scope.json, team.json. Root/folder deny rules must prevent HTTP disclosure while PHP retains disk access. Protected runtime folders data/includes/destinations/places plus their deny files are mandatory. reports/tools/Markdown/CSV/Git/caches/fixtures remain excluded.117-file isolated payload matches all43 source renders,38 published,38 sitemap URLs and12 first-party asset byte streams. Existing CDN fonts/scripts/contact service remain external dependencies, not proved by the local adapter. No Apache/live delivery or deployment claim.
+
+
+## Phase26 rollback privacy decision (2026-10-24)
+
+An overwrite-only Phase13 restore plus removal of the new deny files could expose new review JSON/runtime files left on disk. Checklist therefore requires restoring the exact backup file set, removing newly uploaded files absent from that backup while the site is offline, then restoring old root/subfolder rules and removing only newly added deny files. Do not remove protection while new internal inputs remain. Existing child .htaccess versions must be restored rather than deleted. Owner must prove backup/restore and native denies/contact delivery; no submission performed here.

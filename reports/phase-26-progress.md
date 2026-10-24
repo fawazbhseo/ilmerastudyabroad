@@ -14,6 +14,6 @@ Prepare an isolated reproducible candidate outside Git from git archive164d6de i
 2. Team-only candidate patch: complete in isolated archive only. Six changed files: Home/About, policy/tests and exact historical check expectations. Eight policy tests PASS. No shared design imports. Release-branch application BLOCKED.
 3. Candidate verification: complete PASS, original Phase24b full stage5 suite and12/12 relative reference comparisons. Release-branch run still BLOCKED. Team-height/downstream reflow explicitly disclosed.
 4. Clean isolated payload proof and manifest: complete PASS.117 files,43 exact renders/38 published,38 sitemap URLs,12 first-party assets. Nine required JSON exceptions retained with direct-HTTP protection.
-5. Owner deployment checklist: pending.
+5. Owner deployment checklist: complete. Compact checklist plus42 public endpoint checks and full denied URL inventory;20 representative errors, actual receipt and privacy-safe rollback included.
 6. Separate release PR: BLOCKED, must not repurpose PR1.
 7. Later design release plan on session branch: pending.
