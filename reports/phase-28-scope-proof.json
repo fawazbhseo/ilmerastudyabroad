@@ -2175,13 +2175,17 @@
     "releases/ilmera-deploy-850d0af.zip"
   ],
   "changed_paths": [
+    "CHANGELOG.md",
+    "flagged-items-for-verification.md",
     "releases/.htaccess",
     "releases/ilmera-deploy-850d0af.zip",
     "reports/deploy-payload.md",
     "reports/phase-27-payload-manifest.json",
+    "reports/phase-28-changed-files.md",
     "reports/phase-28-checklist-proof.json",
     "reports/phase-28-download-proof.json",
     "reports/phase-28-excluded-files.json",
+    "reports/phase-28-handoff.md",
     "reports/phase-28-payload-proof.json",
     "reports/phase-28-progress.md",
     "reports/phase-28-scope-proof.json",

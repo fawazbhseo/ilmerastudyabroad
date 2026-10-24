@@ -458,8 +458,10 @@
     "releases/.htaccess": 403
   },
   "native_htaccess_acl_rewrite_cache_mime_csp_verified": false,
-  "tracked_plus_pending_source_count_at_task2": 554,
-  "excluded_count_at_task2": 424,
+  "tracked_plus_pending_source_count_at_check": 563,
+  "excluded_count_at_check": 433,
   "exclusion_ledger": "phase-28-excluded-files.json",
+  "final_source_file_count": 563,
+  "final_excluded_count": 433,
   "later_internal_reports_may_grow_exclusion_count": true
 }

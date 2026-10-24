@@ -21880,5 +21880,7 @@
     "historical_observations_preserved": true
   },
   "performance_retry": false,
-  "native_server_or_deployment_proof": false
+  "native_server_or_deployment_proof": false,
+  "reference_comparison_caveat": "Fresh518 reference nodes and4 overflow cases differ from Phase27 fresh426 nodes/5 overflows and earlier historical391 nodes. All historical files remain byte-identical; no pruning, fix or source-cause diagnosis is claimed. Reference24 groups and historical5 overflow cases remain unresolved.",
+  "archive_parent_caveat": "archive_parent is the actual immutable archive source. The unchanged runner records the shared Git HEAD as parent later during the run; only internal/documentation commits advanced it. Scope guard verifies public runtime identity before and after."
 }

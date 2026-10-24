@@ -6,9 +6,9 @@ Source runtime commit: `a3d696f7942b2df5c76d660c2b9f3252881ce314` on `arena/4832
 
 ## Exact counts and identity
 
-- **130 upload files**. Source snapshot has524 tracked files; **394 excluded tracked source files**. The final Phase27 file set adds23 internal paths: **417 total excluded tracked files out of547**; the130 upload files are unchanged. Exact final exclusions are in phase-27-excluded-files.json. Untracked caches, node_modules and Git internals are unbounded exclusions, not included in those counts.
+- **130 upload files**. Source snapshot has524 tracked files; **394 excluded tracked source files**. The historical final Phase27 file set adds23 internal paths: **417 total excluded tracked files out of547**; the130 upload files are unchanged. Historical Phase27 exclusions are in phase-27-excluded-files.json. **Final Phase28:563 tracked files =130 upload +433 excluded**, including both releases/ files; current full exclusions are in phase-28-excluded-files.json. Untracked caches, node_modules and Git internals are unbounded exclusions, not included in those counts.
 - Per-file bytes/SHA256: [phase-27-payload-manifest.json](phase-27-payload-manifest.json). Every excluded source path/reason: [phase-27-excluded-files.json](phase-27-excluded-files.json). Neither report is uploaded.
-- Offline reproducible export: `python3 tools/phase27/export.py --out /new/empty/temporary/folder --zip /new/artifact.zip`. This reads the pinned Git blobs, verifies every hash and refuses existing destinations. It does not deploy or regenerate site files.
+- Offline manifest-verified export: `python3 tools/phase27/export.py --out /new/empty/temporary/folder --zip /new/artifact.zip`. This reads the pinned Git blobs, verifies every hash and refuses existing destinations. It does not deploy or regenerate site files.
 - Historical Phase27 ZIP outside Git (superseded by the committed Phase28 download below): `/home/user/phase27/ilmera-phase27-a3d696f.zip`, 681792B, SHA256 `7c7fc3284b924df08b6c63c2ee27329d3b10298304b591679944a590b8f2fee4`. Its entries exactly match the manifest. Extract contents to the hosting root, not a wrapper folder; never upload the ZIP itself into the public folder.
 
 ## Phase28 downloadable repository artifact
@@ -202,3 +202,5 @@ Raw search caveat: `free` substring hits are7 legacy held APS URL identifiers an
 
 Phase28 direct GitHub download: https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-850d0af.zip
 The branch-ref GitHub Contents API binary was fetched and matched all681792 bytes/SHA256. Direct raw-host fetching is outside this sandbox network allowlist.
+
+Phase28 reproduction from its actual starting HEAD: `python3 tools/phase27/export.py --source-ref 850d0af5c083b06e3c65abc997fcab6708121c6f --out /new/empty/folder --zip /new/artifact.zip`. `--source-ref HEAD` also verifies all blobs against the unchanged manifest on later documentation-only commits. ZIP metadata may differ across rebuilds; per-file manifest bytes/hashes are the runtime identity.

@@ -3687,3 +3687,10 @@ Phase27 PSI baseline limit: the choosing-consultant guide was introduced in Phas
 
 
 Phase27 final evidence boundaries: all35 functional groups PASS556.78s, but fresh immutable-reference audit has426 node observations in24 groups,41 case-selector observations outside the retained391; all fresh selectors retained and no historical node pruned, cause/fix not claimed. Same5 overflow cases remain. Final130 uploads/417 tracked exclusions at547-file Phase27 set; source394 exclusions plus23 new internal files. No fourth performance session, actual native/CDN/contact/PSI/backup/Console proof or readiness verdict. Owner acceptance remains their decision, with missing choosing-guide baseline explicitly unverified. All public runtime files/config/assets/line endings remain a3d696f bytes.
+
+## Phase28 artifact availability, not owner acceptance (2026-10-24)
+
+- Download availability is resolved: releases/ilmera-deploy-850d0af.zip is committed and its GitHub Contents API raw binary matches681792 bytes/SHA256. Direct raw.githubusercontent.com URL comes from GitHub metadata; this sandbox host allowlist does not permit fetching that host directly.
+- Prior blockers are not rewritten or waived. Native Apache/LiteSpeed ACL/AllowOverride/rewrite/ErrorDocument/cache/MIME/CSP, actual contact delivery, backup restoration, private URL smoke checks, owner PSI/baseline decisions, source/business/certificate gaps and held Russia/Czech/APS/DSU remain as recorded. No deployment, Console submission or performance lab retry.
+- Fresh functional observations are not a repair claim:24 reference contrast groups,518 reference nodes and4 overflow cases this run. Phase27 fresh426 nodes/5 overflows and earlier historical391-node inventory remain byte-identical and unresolved. No pruning, inferred source cause or declaration that the historical fifth overflow was fixed.
+- The releases/ deny rule is additional repository safety and is not in the130-file upload ZIP. Never publish the whole checkout or upload the ZIP/releases directory. Owner still verifies actual native hosting behavior.

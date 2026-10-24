@@ -1563,3 +1563,11 @@ Aligned the four pilots to canonical reference chrome without changing source in
 - Replaced checklist:995 words, verified2-page PDF, five-page mobile PSI before/after tables, both upload methods,9 smoke pages/current bios/Udyam/disclosures,20 private links/full inventory,7 font/cache URLs, contact receipt, safe500/exact-backup rollback and five Console requests. Choosing guide absent from Phase13 tree: no substituted404 baseline.
 - Three-column report classifies19 live checks,8 monitor topics,18 later owner actions with risks and complete source-section index; no acceptance verdict. Fresh35-group full functional suite PASS556.78s (97 PHP lint,258 browser,66 a11y); no new performance session. All public/source/config/asset bytes and line endings unchanged.
 - Historical reference391 nodes preserved; fresh426 observations including41 additional case-selector samples and same24 contrast groups/5 overflows retained for owner review, not repaired/pruned. Progress-writer metadata error fixed after saved test success, no source/test waiver. PR1 checkpoint posted; all earlier native/performance/template/business/proof/source blockers retained.
+
+## Phase28 downloadable deploy artifact (2026-10-24)
+
+- Rebuilt with the existing export tool from starting HEAD850d0af; committed releases/ilmera-deploy-850d0af.zip,681792 bytes,130 exact manifest members and8 upload .htaccess files. Per-file hashes/sizes and downloaded GitHub API binary match.
+- Entire releases/ directory is excluded from payload and sitemap. Its additional deny-only .htaccess is repository safety, not a ninth upload rule. All original public/runtime bytes remain unchanged.
+- Fresh ZIP-only clean proof:43 byte-identical renders,38 sitemap entries,20 asset GET/HEAD checks. Existing full35-group suite PASS600.60s,97 PHP,258 browser cases and66 accessibility cases,0 rebuilt axe violations. No performance rerun or native-host/deployment certification.
+- Two plain unzip/upload text lines added to checklist/PDF, with only paragraph/hard-break whitespace. Every prior Markdown byte and normalized PDF text preserved; PDF remains2 A4 pages.
+- GitHub download URL and byte-fetch proof, final exclusions, scope guard and every changed path recorded in Phase28 reports. Branch-only commits/pushes and PR1 checkpoint; no new PR, merge or deployment.
