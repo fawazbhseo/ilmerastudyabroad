@@ -3639,3 +3639,8 @@ No native Apache/LiteSpeed rewrite/404/ACL/cache/MIME/CSP/private-runtime-layout
 ## Phase26 session branch restriction (2026-10-24)
 
 Owner requested release/content-phase-24b from164d6de and a separate content PR. This session can create/commit/push only its fixed arena/48320ee5-ilmerastudyabroad branch. No release branch or substitute PR will be fabricated. Candidate preparation/testing is isolated outside Git; production files on arena stay unchanged. Reports and reproducible patch/payload evidence are checkpointed on the only authorized branch. PR1 metadata/comments/state are not modified; pushes to its source branch necessarily update its diff. A separately authorized session is required to create the content branch/PR. No main push, merge or deployment. All prior native/proof/backup/business blockers retained.
+
+
+## Phase26 candidate verification scope (2026-10-24)
+
+Isolated164d6de plus narrow six-file team/policy patch passes the original Phase24b full stage5 runner/browser (fresh43 routes,38 published,38 sitemap URLs), with exact card-only expectation updates. This is not a release-branch commit or native/live-host verification. Services/Contact source unchanged; Home/About only short cards and one grid-auto-rows rule each. Shorter/equalized team sections change their height and downstream positions; relative outside-team geometry/styles match, not claimed full-page pixel or absolute-footer equality. No extra footprint/design styling imported. Full bios/schema/FAQ/LLMs preserved. Original lab/design blockers remain separate from this content candidate.

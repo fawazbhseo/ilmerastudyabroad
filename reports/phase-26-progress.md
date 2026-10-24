@@ -12,7 +12,7 @@ Prepare an isolated reproducible candidate outside Git from git archive164d6de i
 
 1. Baseline content inventory: complete. Branch creation/push BLOCKED by session restriction. Independent archive exactly164d6de, no Phase25 files. Counts in phase-26-base-inventory.json.
 2. Team-only candidate patch: complete in isolated archive only. Six changed files: Home/About, policy/tests and exact historical check expectations. Eight policy tests PASS. No shared design imports. Release-branch application BLOCKED.
-3. Candidate verification: pending; release-branch verification unavailable.
+3. Candidate verification: complete PASS, original Phase24b full stage5 suite and12/12 relative reference comparisons. Release-branch run still BLOCKED. Team-height/downstream reflow explicitly disclosed.
 4. Clean isolated payload proof and manifest: pending.
 5. Owner deployment checklist: pending.
 6. Separate release PR: BLOCKED, must not repurpose PR1.
