@@ -5,7 +5,7 @@
 Owner now plans a combined content plus Phase25 design release from this branch over Phase13. This supersedes the split-release packaging plan, not the unresolved performance/native/proof/source facts. No public file may change. Source runtime is pinned to a3d696f; all subsequent phase commits are documentation/tools only.
 
 1. Complete PASS.130 upload files/394 excluded tracked source files at a3d696f. Clean isolated PHP memory filesystem proves43 exact renders,38 published/38 sitemap URLs,20 asset paths GET/HEAD and denied private probes. All8 .htaccess retained; reports/tools contain deny files only. Runtime9 JSON/variable font/CSS exceptions recorded. External CDN/native/live limits explicit.
-2. Complete.973-word Markdown and verified two-page PDF. All(a)-(k) sections, five-page before/after PSI tables, both upload methods, exact cards/disclosures/Udyam,20 clickable private URLs/full inventory,7 font URLs, contact receipt, safe backup/500 rollback and Search Console steps.42 public/discovery URL checks included.
-3. Report-only readiness classification: pending.
+2. Complete.995-word Markdown and verified two-page PDF. All(a)-(k) sections, five-page before/after PSI tables, both upload methods, exact cards/disclosures/Udyam,20 clickable private URLs/full inventory,7 font URLs, contact receipt, safe backup/500 rollback and Search Console steps.42 public/discovery URL checks included.
+3. Complete. Three-column factual table:19 live acceptance checks,8 monitor topics,18 later owner actions, each with risk. All required source headings/ranges/hashes indexed; superseded history separated without deleting blockers. Choosing-guide before-PSI baseline absent from Phase13 flagged; checklist still2 pages/995 words. No acceptance decision made.
 4. No-public-change diff, full lint and discovery: pending.
 5. Append logs, final branch push and PR1 checkpoint: pending.

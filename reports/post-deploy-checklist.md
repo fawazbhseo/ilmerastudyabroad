@@ -6,7 +6,7 @@ No deployment done here. Use the130-file pack in deploy-payload.md, never the ol
 
 Download ALL live public_html files, hidden files, root/child .htaccess and hosting/PHP settings. Store the backup outside web access, verify it opens and confirm how to restore it. Record the old file list. Keep host-panel access and an offline/rollback window ready.
 
-Run PageSpeed Insights **mobile** on the current Phase13 live pages. Save dated result links/screenshots and fill this table. Use the same URLs/device settings afterward; retain every run, not the best score.
+Run PageSpeed Insights **mobile** on the current Phase13 live pages. Save dated result links/screenshots and fill this table. Use the same URLs/device settings afterward; retain every run. If a URL is absent, record its status/no baseline. The choosing guide was added after Phase13: never use a404 score or another page as its baseline.
 
 | Before: page | LCP | CLS | Performance score |
 |---|---|---|---|
