@@ -3654,3 +3654,10 @@ A blanket phase14-*.json/internal-JSON omission would break publication/runtime 
 ## Phase26 rollback privacy decision (2026-10-24)
 
 An overwrite-only Phase13 restore plus removal of the new deny files could expose new review JSON/runtime files left on disk. Checklist therefore requires restoring the exact backup file set, removing newly uploaded files absent from that backup while the site is offline, then restoring old root/subfolder rules and removing only newly added deny files. Do not remove protection while new internal inputs remain. Existing child .htaccess versions must be restored rather than deleted. Owner must prove backup/restore and native denies/contact delivery; no submission performed here.
+
+
+## Phase26 final content/design handoff (2026-10-24)
+
+Content candidate is verified but NOT a pushed release branch: release/content-phase-24b was not created and no separate PR/content commit exists. Do not treat arena checkpoint hashes as content-release hashes, or deploy/cherry-pick its design ancestry. Start an authorized release checkout at164d6de, apply only the narrow team patch and content documentation, rerun and record the actual commit/PR. Original arena public/design files unchanged; PR1 metadata/comments/state not touched though source docs/tooling diff changes.
+
+Later design release remains separate: all3 lab control sessions unreliable; owner to measure stable live content baseline and then design with PageSpeed Insights. Choosing-consultant article raw LCP regression and destination plain/inline versus other-template gradient/selfhost choice remain unvalidated. Reference24 contrast groups (391 retained node instances)/5 reveal-layout overflow cases are report-only;7 font/cache URLs are future design tests, not content payload. No new performance retry, source/design edit, field claim or deployment. All native Apache/LiteSpeed/ACL/rewrite/404/MIME/cache/CSP/private-layout/contact/backup/restore/certificate/fee/refund/review/scope/source blockers remain open.

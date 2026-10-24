@@ -16,4 +16,10 @@ Prepare an isolated reproducible candidate outside Git from git archive164d6de i
 4. Clean isolated payload proof and manifest: complete PASS.117 files,43 exact renders/38 published,38 sitemap URLs,12 first-party assets. Nine required JSON exceptions retained with direct-HTTP protection.
 5. Owner deployment checklist: complete. Compact checklist plus42 public endpoint checks and full denied URL inventory;20 representative errors, actual receipt and privacy-safe rollback included.
 6. Separate release PR: BLOCKED and documented with exact title/head/base, real boundary hash, patch identity and full description draft. No PR URL/content commit fabricated; PR1 not repurposed.
-7. Later design release plan on session branch: pending.
+7. Later design release plan on session branch: complete. PSI-before/after owner plan, unresolved article LCP/template choice,24 reference groups/5 overflow cases and7 future font/cache URLs; no design edit.
+
+## Final disposition
+
+Tasks1/2/3 are proven only as isolated archives/candidate, not as a release branch. Task6 remains BLOCKED by the fixed session branch. No new content branch, content commit or PR link exists. All7 task checkpoints are on arena only, with no public source/design change, main push, merge, contact submission or deployment. Existing PR1 metadata/comments/state are not edited; its underlying source diff gains these documentation/tooling commits.
+
+Candidate: six exact source/policy files differ from164d6de (only Home/About are public). Full original Phase24b suite PASS,43 rendered/38 published,38 sitemap URLs,12 relative reference cases PASS with explicit team-height reflow. Clean payload117 files, all43 route outputs byte-identical and12 first-party assets verified. Critical three root review journals/six data JSON inputs remain protected runtime exceptions to broad exclusions. Owner checklist and later-design plan separate. See phase-26-release-split.md for handoff, limits and exact changed-file/payload lists.
