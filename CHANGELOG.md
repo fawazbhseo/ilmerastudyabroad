@@ -1542,3 +1542,13 @@ Aligned the four pilots to canonical reference chrome without changing source in
 - Exact117-file payload proved in a clean isolated folder:43 byte-identical route outputs and12 first-party assets. Three root phase14 review journals and six data JSON inputs are required exceptions to internal-JSON exclusions; retain root/folder HTTP denies. No native Apache or live/contact-delivery proof.
 - Added exact upload allowlist/hash inventory, compact owner checklist,42 public endpoint checks,224 denied URL inventory, blocked content-PR description and separate later-design PSI/font/cache/accessibility plan. Reports/tools/Git/caches/fixtures never upload. Privacy-safe rollback removes new unbacked-up internal files before dropping denies.
 - No deployment performed; all native/backup/proof/business/source blockers retained. Actual release branch/PR creation and re-verification require a separately authorized checkout/session.
+
+
+## Phase26b owner finance-only biography correction (2026-10-24)
+
+- Fetched all remotes first; content release branch absent. Changed and pushed only arena/48320ee5-ilmerastudyabroad; PR1 checkpoint added, unmerged. No main push/deploy/submission.
+- Replaced Zaheer full bio and both cards with exact final finance/paperwork/documentation text, including canonical Person descriptions, About visible/schema FAQ and generated LLM entries. Five runtime/canonical files changed, byte-exact substitution only. Active owner-input report corrected. Jabir/Fawaz copy, Fawaz diploma/sameAs, labels/titles/images/alt/statuses/other wording/schema/discovery unchanged.
+- Fawaz-only training-institute allow-entry and14 person/card/visible and schema FAQ/LLM regression tests. Card lengths127/122/126, spread5.
+- Full local functional suite35 groups PASS580.09s,97 PHP lint,43 renders/38 published/38 sitemap URLs,258 browser cases/1278 FAQ/36 photos/54 derivatives.66 accessibility cases with0 rebuilt violations; reference24 groups/5 overflow cases retained. Initial missing-axe infrastructure failure preserved, complete fresh rerun after external dependency fix. No extra performance session.
+- Every route full HTML bytes equal independently rendered pre-change commit after only the exact Zaheer text replacements; links/images/other JSON-LD/canonicals/metadata unchanged. CRLF/mixed line endings preserved. Historical reports/logs/import templates not rewritten;359 unchanged matching references have file/line/reason inventory. Old Phase26 payload/patch are superseded, not deployable current artifacts.
+- Native server/cache/ACL/rewrite/404/CSP/MIME/contact/backup/restore and prior design/performance/proof/business/source blockers remain.

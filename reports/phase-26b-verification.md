@@ -25,3 +25,7 @@ No native Apache/LiteSpeed/ACL/AllowOverride/rewrite/404 invocation/cache/MIME/C
 ## Approved card lengths
 
 Jabir127, Zaheer122, Fawaz126. Spread5, required<=6. Only new approved Zaheer text is permitted for both full bio and card; Adrex allow-entry remains only the unchanged Fawaz full bio.
+
+### Reference observations remain open
+
+The fresh audit records24 reference finding groups/390 node observations and the same5 overflow cases. Prior historical report retains all391 node observations (387 original plus4 additional); none is pruned or rewritten. The fresh observation count is not a claimed accessibility repair or permission to alter references. Full fresh case/node evidence is embedded in phase-26b-verification.json.
