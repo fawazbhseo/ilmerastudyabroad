@@ -82,9 +82,9 @@ this is configuration, not an independently verified live access-control test.
 
 ## 6. Team facts now supplied
 
-Both approved Phase 24b bios are published verbatim. Zaheer's digital-marketing
-certification and finance/paperwork responsibilities are owner-confirmed facts,
-not inferred from Fawaz's portfolio. Fawaz's Ahrefs/Semrush certifications,
+Owner final decision dated 2026-10-24: Zaheer's biography is finance-only.
+Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation.
+No Zaheer training credential is published or awaiting confirmation. Fawaz's Ahrefs/Semrush certifications,
 training-institute diploma and early-2025 SEO start match the opened homepage
 and About page. The former missing-background/credential-currentness requests
 are no longer open inputs for these exact bios. This is owner/first-party
