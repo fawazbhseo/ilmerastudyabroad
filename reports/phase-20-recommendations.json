@@ -1,0 +1,388 @@
+{
+  "recommendations": [
+    {
+      "id": "R01",
+      "section": "Introduction; 1B; 2A",
+      "recommendation": "Organic/AI dominance and claimed existing brand rankings",
+      "status": "owner-only",
+      "action": "Measure through owner-authorized live search/AI observations and a defined method. No ranking or citation guarantee; none independently verified here."
+    },
+    {
+      "id": "R02",
+      "section": "1A; 2B / 1",
+      "recommendation": "Structured comparison tables for extraction",
+      "status": "already done",
+      "action": "Selection guide has a criteria-based self-assessment table; do not copy competitor ratings, testimonials, inferred metrics or a self-ranking table."
+    },
+    {
+      "id": "R03",
+      "section": "1A; 5A / 2-3",
+      "recommendation": "Rating/review and premises-based schema patterns",
+      "status": "rejected by a rule",
+      "action": "No rating, review or premises-based business schema. Retain canonical Organization, allowed page/Service/Breadcrumb/FAQ schema only."
+    },
+    {
+      "id": "R04",
+      "section": "2B / 2",
+      "recommendation": "Short direct extraction answers",
+      "status": "already done",
+      "action": "Thirty editorial pages already have 40-60 word direct answers; retain sourced limits."
+    },
+    {
+      "id": "R05",
+      "section": "2B / 3; 4 / 2",
+      "recommendation": "Named entity identity and existing profile links",
+      "status": "already done",
+      "action": "Canonical Organization and minimal existing founder data, plus three already-established organization profiles; no invented personal sameAs."
+    },
+    {
+      "id": "R06",
+      "section": "2B / 3; 4 / 2; 5A / 1",
+      "recommendation": "New academic affiliations, founder biography and claimed geographic credentials",
+      "status": "rejected by a rule",
+      "action": "No academic institution names or unverified biography/affiliation. Do not infer residence or authority from a phone country code."
+    },
+    {
+      "id": "R07",
+      "section": "2B / 4",
+      "recommendation": "Written fees and commission transparency",
+      "status": "owner-only",
+      "action": "Existing guide asks for scope/fees/refunds; owner must supply approved service-specific prices, terms and any financial relationships. No invented pricing or commission policy."
+    },
+    {
+      "id": "R08",
+      "section": "2B / 5",
+      "recommendation": "Dated official policy grounding",
+      "status": "already done",
+      "action": "Existing sourced country/guide facts retain scoped review dates. Strategy claims are not official sources."
+    },
+    {
+      "id": "R09",
+      "section": "2B / citation pattern claims; 5C / 3",
+      "recommendation": "Quantified citation dominance or guaranteed AI inclusion",
+      "status": "rejected by a rule",
+      "action": "No retrieval-percentage or guaranteed-inclusion claim. Existing measurement plan states observational limits."
+    },
+    {
+      "id": "R10",
+      "section": "4 / technical audit flag; 5A / 1",
+      "recommendation": "Fix conflicting About counters",
+      "status": "already done",
+      "action": "Current source renders the established values and founded 2026; no reported zero/uninitialized values or earlier founding date copied. Passing About page not rewritten."
+    },
+    {
+      "id": "R11",
+      "section": "4 / 1",
+      "recommendation": "Explain remote counselling honestly",
+      "status": "already done",
+      "action": "Online-only delivery and no counselling premises are consistently stated, with written-scope guidance."
+    },
+    {
+      "id": "R12",
+      "section": "4 / 1; 5A / 2",
+      "recommendation": "Assert a rent/commission advantage and competitor steering motives",
+      "status": "rejected by a rule",
+      "action": "Remote delivery does not establish a commission model or other firms' motives. Substitute neutral selection criteria and written terms."
+    },
+    {
+      "id": "R13",
+      "section": "4 / 2; 5B / 5",
+      "recommendation": "Founder visual walkthroughs and claimed first-hand procedures",
+      "status": "owner-only",
+      "action": "Authentic owner material, permission, verified scope and official supporting procedure evidence needed; all proof slots remain empty."
+    },
+    {
+      "id": "R14",
+      "section": "4 / 3a; 5A / 4",
+      "recommendation": "Karnataka DSU/ISEE/revenue-certificate/legalisation guide",
+      "status": "owner-only",
+      "action": "Exact regional award call, Karnataka issuer procedure and document acceptance evidence absent. No workflow page; see prompts 11,12,21,25,28,48."
+    },
+    {
+      "id": "R15",
+      "section": "4 / 3b; 5A / 5",
+      "recommendation": "Academic eligibility mapping and exact acceptance thresholds",
+      "status": "owner-only",
+      "action": "Need current programme-specific recognition, subject and backlog criteria. Existing backlog planning guide is retained, not an acceptance table."
+    },
+    {
+      "id": "R16",
+      "section": "4 / 3c",
+      "recommendation": "Agricultural and coffee-estate financial proof instructions",
+      "status": "owner-only",
+      "action": "Need accepting mission/lender evidence and relevant Karnataka issuer rules; no invented certificate checklist or collateral approval."
+    },
+    {
+      "id": "R17",
+      "section": "4 / 4; 5A / 6",
+      "recommendation": "Honest differentiated regional remote hubs",
+      "status": "already done",
+      "action": "Seventeen existing location guides cover different application-planning topics with no local-office claims and protected source gates."
+    },
+    {
+      "id": "R18",
+      "section": "4 / 4",
+      "recommendation": "Promise one biometric trip and founder-based local delivery",
+      "status": "rejected by a rule",
+      "action": "No single-trip or appointment outcome promise; do not add unverified founder location/service details."
+    },
+    {
+      "id": "R19",
+      "section": "5A / 1",
+      "recommendation": "Add three enriched founder Person profiles and academic ties",
+      "status": "rejected by a rule",
+      "action": "Retain only existing minimal founder identity; executive roles do not establish additional founders or affiliations."
+    },
+    {
+      "id": "R20",
+      "section": "5A / 1; 5B / 3",
+      "recommendation": "Adopt the document's earlier founding year",
+      "status": "rejected by a rule",
+      "action": "Keep founded 2026; research does not override the established owner record."
+    },
+    {
+      "id": "R21",
+      "section": "5A / 2",
+      "recommendation": "Karnataka master hub, Service and FAQ schema",
+      "status": "already done",
+      "action": "Existing published Karnataka hub has Service/FAQ and contextual related district links, supported by the published directory."
+    },
+    {
+      "id": "R22",
+      "section": "5A / 2",
+      "recommendation": "ItemList on the state hub",
+      "status": "done in this phase",
+      "action": "Added one unordered ItemList derived only from the four already-visible Related place guides links, with exact label/URL parity and published-place filtering. No ranking, visible copy or metadata rewritten."
+    },
+    {
+      "id": "R23",
+      "section": "5A / 2",
+      "recommendation": "Biometric/VFS travel logistics",
+      "status": "owner-only",
+      "action": "Country/applicant jurisdiction and current centre instructions need verification. Existing Italy example does not establish a universal Karnataka trip."
+    },
+    {
+      "id": "R24",
+      "section": "5A / 3",
+      "recommendation": "Self-ranking comparative article and ILMERA superiority labels",
+      "status": "rejected by a rule",
+      "action": "Use the existing neutral how-to-choose guide and criteria table, not a ranked endorsement or unsupported comparative claims."
+    },
+    {
+      "id": "R25",
+      "section": "5A / 3",
+      "recommendation": "Article and FAQ for a consultant-selection guide",
+      "status": "already done",
+      "action": "Published selection article follows the existing Article/FAQ pattern; no duplicate comparison page added."
+    },
+    {
+      "id": "R26",
+      "section": "5A / 4",
+      "recommendation": "HowTo/FAQ for a detailed regional award workflow",
+      "status": "owner-only",
+      "action": "HowTo is not categorically prohibited, but no supported steps exist. Do not invent a procedural schema or publish the held award article."
+    },
+    {
+      "id": "R27",
+      "section": "5A / 5",
+      "recommendation": "Low-marks/backlog problem-solving content",
+      "status": "already done",
+      "action": "Existing article explains complete records and individual decisions without numeric acceptance promises."
+    },
+    {
+      "id": "R28",
+      "section": "5A / 6",
+      "recommendation": "Six of the proposed seven city/hub audiences",
+      "status": "already done",
+      "action": "Existing Bengaluru, Mysuru, Mangaluru, Belagavi, Shivamogga and Udupi/Manipal guides retained. URLs are established; do not duplicate them under new slugs."
+    },
+    {
+      "id": "R29",
+      "section": "5A / 6",
+      "recommendation": "Hubballi-Dharwad hub",
+      "status": "owner-only",
+      "action": "No sufficiently distinct sourced local procedures for a new regional guide. Generic remote material already exists; do not create a thin duplicate."
+    },
+    {
+      "id": "R30",
+      "section": "5A / 6",
+      "recommendation": "Academic-issuer MOI, bank nuances and city travel workflows",
+      "status": "owner-only",
+      "action": "Need issuer/lender/mission official evidence. No institution names published; Wikidata city identifiers are not proof of an office or a procedure."
+    },
+    {
+      "id": "R31",
+      "section": "5A / 7",
+      "recommendation": "Seven currently publishable country pillars",
+      "status": "already done",
+      "action": "Seven existing country guides have scoped official-source coverage and FAQ patterns; keep all destination bytes and journals unchanged."
+    },
+    {
+      "id": "R32",
+      "section": "5A / 7",
+      "recommendation": "Publish all nine destination pillars regardless of gates",
+      "status": "rejected by a rule",
+      "action": "Czech and Russia destination records remain held. Section 5A is not evidence for release; held article gates also remain intact."
+    },
+    {
+      "id": "R33",
+      "section": "5A / 7",
+      "recommendation": "Course schema, current fees/INR conversions, intakes, funding and waiver tables",
+      "status": "owner-only",
+      "action": "Only actual sourced scoped facts can be used. A counselling destination is not a verified course offering; no new Course schema, conversion or universal threshold invented."
+    },
+    {
+      "id": "R34",
+      "section": "5A / 8",
+      "recommendation": "Separate national expansion landing page",
+      "status": "owner-only",
+      "action": "Existing entity already serves India online. A distinct sourced national page and positioning need owner scope and nonduplicative value; no thin duplicate published."
+    },
+    {
+      "id": "R35",
+      "section": "5A / 8",
+      "recommendation": "National superiority positioning",
+      "status": "rejected by a rule",
+      "action": "Keep factual online service scope, not a superiority or outcome assertion."
+    },
+    {
+      "id": "R36",
+      "section": "5B / 1",
+      "recommendation": "Trustpilot account and genuine review collection",
+      "status": "owner-only",
+      "action": "Owner verifies platform eligibility/access, privacy and authentic reviewer participation. No account created or review published here."
+    },
+    {
+      "id": "R37",
+      "section": "5B / 1",
+      "recommendation": "Target a review count and prescribe hometown/counsellor wording",
+      "status": "rejected by a rule",
+      "action": "No fabricated counts, scripted sentiment or manufactured verification. Genuine voluntary reviews only; no proof slot activation."
+    },
+    {
+      "id": "R38",
+      "section": "5B / 2",
+      "recommendation": "Official LinkedIn company identity",
+      "status": "already done",
+      "action": "Existing official company URL is retained in canonical sameAs and both LLM references."
+    },
+    {
+      "id": "R39",
+      "section": "5B / 2",
+      "recommendation": "Personal LinkedIn profiles and remote location settings",
+      "status": "owner-only",
+      "action": "Owner confirms actual profiles, platform settings and consent; do not invent personal URLs or premises."
+    },
+    {
+      "id": "R40",
+      "section": "5B / 3",
+      "recommendation": "Crunchbase and Wikidata entity creation",
+      "status": "owner-only",
+      "action": "Need authorized account access, platform eligibility/notability and independent evidence; no submissions or claimed eligibility. Use only established 2026 identity if approved."
+    },
+    {
+      "id": "R41",
+      "section": "5B / 4",
+      "recommendation": "Sulekha/Justdial online-mode listings",
+      "status": "owner-only",
+      "action": "Their acceptance of an online-only business remains unverified. Confirm current policy; no invented registered address or walk-in profile."
+    },
+    {
+      "id": "R42",
+      "section": "5B / 5",
+      "recommendation": "Produce and embed a batch of owner videos",
+      "status": "owner-only",
+      "action": "Authentic approved assets, consent, transcripts and official support are needed. No invented VideoObject, testimonial, location or result."
+    },
+    {
+      "id": "R43",
+      "section": "5C / 1",
+      "recommendation": "Regional education-news outreach",
+      "status": "owner-only",
+      "action": "Owner-approved factual story and independently supported quotes only; no messages sent or claims of media coverage."
+    },
+    {
+      "id": "R44",
+      "section": "5C / 1; 5C / 5",
+      "recommendation": "Promote prohibited tuition language and unsupported country/award outcomes",
+      "status": "rejected by a rule",
+      "action": "Use conditional existing tuition policy, written award cautions and neutral process education; no prohibited promotional wording."
+    },
+    {
+      "id": "R45",
+      "section": "5C / 2",
+      "recommendation": "Transparent useful community participation",
+      "status": "owner-only",
+      "action": "Owner/team may answer genuinely with disclosure and sourced facts. No account actions, fake students or fabricated cases."
+    },
+    {
+      "id": "R46",
+      "section": "5C / 2",
+      "recommendation": "Publish unsupported DSU, APS, backlog or visa case instructions",
+      "status": "rejected by a rule",
+      "action": "No invented procedures, acceptance decisions, timelines or case evidence. Source gaps remain explicitly recorded."
+    },
+    {
+      "id": "R47",
+      "section": "5C / 3",
+      "recommendation": "Relevant independent editorial outreach",
+      "status": "owner-only",
+      "action": "Owner approves truthful outreach with material-connection disclosure where needed; no inclusion, indexation or citation promised."
+    },
+    {
+      "id": "R48",
+      "section": "5C / 3",
+      "recommendation": "Self-authored supposedly independent ranked comparisons",
+      "status": "rejected by a rule",
+      "action": "No misleading independence or ILMERA ranking claim; keep the neutral selection guide."
+    },
+    {
+      "id": "R49",
+      "section": "5C / 4",
+      "recommendation": "Large named-institution eligibility/scholarship dataset",
+      "status": "rejected by a rule",
+      "action": "Institution-name prohibition and missing programme-level evidence prevent the proposed dataset. Existing unnamed published directory/LLM exports remain the safe substitute."
+    },
+    {
+      "id": "R50",
+      "section": "5C / 5",
+      "recommendation": "College webinars and event notices",
+      "status": "owner-only",
+      "action": "Owner arranges actual events, approval, consent and sourced curriculum. Do not invent partners, hosts, attendance, events or academic endorsements."
+    },
+    {
+      "id": "R51",
+      "section": "5C / 5",
+      "recommendation": "Promise link-count superiority as an outcome",
+      "status": "rejected by a rule",
+      "action": "No claimed causal ranking uplift or stronger-authority count guarantee. Genuine relevant notices are not guaranteed ranking results."
+    },
+    {
+      "id": "R52",
+      "section": "2B / 2; 3 / prompts 9,18,43,44,46,48,49",
+      "recommendation": "Make supported answers easier to extract",
+      "status": "done in this phase",
+      "action": "Seven direct FAQs on four existing pages reuse facts and preserve exact visible/schema parity. No unsupported completion counted as answered."
+    },
+    {
+      "id": "R53",
+      "section": "1B; 5A / 2,6,7",
+      "recommendation": "Source-driven targets, unique intent and published-only internal discovery",
+      "status": "done in this phase",
+      "action": "Document-reviewed maps cover all 38 pages and 50 prompts; zero fitting primary targets changed. Existing internal links, sitemap and both LLM generator defaults pass."
+    },
+    {
+      "id": "R54",
+      "section": "Introduction; no-GBP model",
+      "recommendation": "Avoid a premises-dependent Google listing workaround",
+      "status": "already done",
+      "action": "Existing official-Google-based off-page plan establishes the online-only eligibility restriction. No false premises or service-area profile created."
+    }
+  ],
+  "counts": {
+    "owner-only": 21,
+    "already done": 14,
+    "rejected by a rule": 16,
+    "done in this phase": 3
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "checked_on": "2026-10-16",
+  "approved_hosts": [
+    "cgidubai.gov.in",
+    "consbangalore.esteri.it",
+    "daad.de",
+    "education.ec.europa.eu",
+    "education.gov.in",
+    "eoibahrain.gov.in",
+    "eoiriyadh.gov.in",
+    "gov.uk",
+    "indemb-oman.gov.in",
+    "indianembassyqatar.gov.in",
+    "ipc.gov.cz",
+    "mfa.gov.lv",
+    "migracija.lrv.lt",
+    "mv.gov.cz",
+    "mzv.gov.cz",
+    "mzv.sk",
+    "studyin.cz"
+  ],
+  "articles": {
+    "cost-of-studying-abroad-for-indian-students": {
+      "checked_on": "2026-10-16",
+      "verified": true,
+      "approved_hosts_only": true,
+      "sources": [
+        {
+          "url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "label": "DAAD: costs of education and living",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "label": "Italian Consulate Bengaluru: study in Italy",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "label": "European Commission: Slovakia profile",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+          "label": "European Commission: Lithuania profile",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
+          "label": "European Commission: Latvia profile",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "label": "GOV.UK: Student visa financial evidence",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+          "label": "Indian Consulate Dubai: UAE student advisory (2026 document)",
+          "checked_on": "2026-10-16"
+        }
+      ],
+      "retained_claims": [
+        {
+          "text": "At state institutions, bachelor programmes and most master programmes normally have no tuition. Continuing education master programmes and private institutions may charge. Baden-Wuerttemberg charges non-EU citizens 1,500 euros per semester for bachelor, master, Diplom and state examination programmes, excluding doctoral students. Bavarian institutions may also charge non-EU/EEA tuition.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "DAAD gives a semester contribution range of 70 to 430 euros, separate from tuition, and living expenses of 900 to 1,200 euros per month depending on the location. Its displayed 992-euro financial-proof amount is explicitly dated January 2025, so this guide does not present it as a confirmed 2026 requirement.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Italian consulate says each institution has its own tuition fees, admission criteria and deadlines. It does not establish a regional scholarship award or confirm an amount payable to an applicant. No Italy scholarship amount is included in this cost comparison.",
+          "source_urls": [
+            "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The European Commission Slovakia profile says Slovak-language study may have no tuition, while foreign-language programmes, including English, cost approximately 750 to 11,000 euros per year. It describes a minimum living budget around 350 euros monthly and a more comfortable estimate of 500 to 700 euros monthly. These are profile estimates, not a programme quotation.",
+          "source_urls": [
+            "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Lithuania profile lists annual tuition starting at 1,300 euros for bachelor study, 2,300 euros for master study and 8,400 euros for doctoral study. Its living-cost estimate is 500 to 800 euros monthly. Starting amounts do not describe every programme.",
+          "source_urls": [
+            "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Latvia profile estimates living costs of 450 to 700 euros monthly, including accommodation, food, local transport and study materials. Tuition varies by institution and programme and must be budgeted separately.",
+          "source_urls": [
+            "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "Where financial evidence is required for the Student route, GOV.UK requires course fees shown on the CAS and living funds of 1,171 pounds monthly outside London or 1,529 pounds monthly in London, for up to nine months. Exemptions apply in specified circumstances. These are immigration evidence amounts, not a forecast of every applicant's actual expenses.",
+          "source_urls": [
+            "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Dubai consulate advisory recommends checking written admission and payment terms, including refunds, and budgeting for accommodation, insurance and other expenses. This UAE advice is not a price estimate for all GCC countries.",
+          "source_urls": [
+            "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "Does no tuition mean the whole course is funded?",
+          "text": "No. DAAD distinguishes tuition from semester contributions and living expenses. A tuition policy is not evidence that an applicant has received a scholarship.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "Are UK maintenance amounts a complete living-cost forecast?",
+          "text": "No. GOV.UK states financial-evidence requirements for the Student route. Budget separately for actual course and personal expenses, and check whether an evidence exemption applies.",
+          "source_urls": [
+            "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        }
+      ],
+      "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
+      "failed_gates": [],
+      "file_sha256": "9d7d4ab680ffb1d01688c1433f3f7a87bf3093cf1b0a085139c159c5936e2d06",
+      "metadata": {
+        "title": "Cost of Studying Abroad: Official Country Examples",
+        "excerpt": "Compare sourced tuition and living-cost examples for six countries, plus UAE budgeting advice. Separate estimates from visa financial requirements.",
+        "dateModified": "2026-10-16",
+        "datePublished": "2026-10-16"
+      },
+      "phase16_rechecked_on": "2026-10-16"
+    },
+    "documents-needed-to-study-abroad-from-india": {
+      "checked_on": "2026-10-16",
+      "verified": true,
+      "approved_hosts_only": true,
+      "sources": [
+        {
+          "url": "https://www.daad.de/en/studying-in-germany/living-in-germany/visa/",
+          "label": "DAAD: visas",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "label": "Italian Consulate Bengaluru: study in Italy",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "label": "GOV.UK: Student visa financial evidence",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.gov.uk/student-visa/knowledge-of-english",
+          "label": "GOV.UK: Student visa English evidence",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+          "label": "Czech Embassy New Delhi: current long-term application guidance",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
+          "label": "Slovak Embassy New Delhi: national visa",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+          "label": "Lithuanian Migration Department: India services",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+          "label": "Latvian Embassy India: long-stay visa for Indian-national students",
+          "checked_on": "2026-10-16"
+        }
+      ],
+      "retained_claims": [
+        {
+          "text": "DAAD describes usual study-visa evidence including a valid passport, health insurance, financial resources, previous study, language ability and admission or the relevant academic qualification. The applicable visa route depends on the applicant's position in the admission process; confirm the detailed list with the German mission.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/visa/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Bengaluru consulate directs Italy applicants through institution-specific admissions and Universitaly pre-enrolment. It describes a Declaration of Value where required by the institution. The checklist it links is labelled 2025-2026; do not apply that historical edition or its deadline to a later intake without confirmation.",
+          "source_urls": [
+            "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "GOV.UK describes accepted funding sources including specified student loans, official financial sponsorship and personal or qualifying parent/partner funds. Where personal bank evidence is used, the required balance is normally held for 28 consecutive days and the closing evidence must be no more than 31 days before application. Specified financial-evidence exemptions apply.",
+          "source_urls": [
+            "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "GOV.UK describes English evidence through qualifying education or approved tests, with an Ecctis assessment for a qualifying overseas English-taught degree. A higher education provider can assess degree-level English, but the level must still be equivalent to CEFR B2. This is not a universal test waiver.",
+          "source_urls": [
+            "https://www.gov.uk/student-visa/knowledge-of-english"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Czech embassy lists the travel document, photograph, accommodation, purpose of stay, funds and criminal-record documentation, with conditions and exceptions. Application documents must be in Czech; bank statements may be accepted without translation. Indian public documents require an apostille, and originals or official copies are required as specified.",
+          "source_urls": [
+            "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Slovak embassy basic national-visa list includes the application form, travel document, photograph, purpose of residence and health insurance. Additional requirements depend on the category. Do not turn this basic list into a claim that every student route needs exactly the same pack.",
+          "source_urls": [
+            "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Lithuanian Migration Department lists temporary residence permit services at India service points in New Delhi and Mumbai. Appointments are booked in MIGRIS after the application status becomes Submitted to external service provider. This service-point instruction is not itself a complete student residence document list.",
+          "source_urls": [
+            "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Latvian embassy requires Indian-national student applicants to complete the Hello Verify process before VFS booking and to provide the transaction number. Its student instructions describe identity, study, funding, accommodation and insurance evidence. Follow the embassy's complete instructions for the individual application.",
+          "source_urls": [
+            "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "Can one language document be assumed to work for every UK student?",
+          "text": "No. GOV.UK describes different evidence routes and conditions. A provider assessment for degree-level study still requires English equivalent to CEFR B2.",
+          "source_urls": [
+            "https://www.gov.uk/student-visa/knowledge-of-english"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "Is a historical Italy checklist proof of later-intake requirements?",
+          "text": "No. The consulate currently links a checklist labelled 2025-2026. Confirm the edition and instructions for the intended intake instead of extending an old deadline.",
+          "source_urls": [
+            "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        }
+      ],
+      "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
+      "failed_gates": [],
+      "file_sha256": "e8ba9efc53a5a72f4aa0c1531e9c42355b8a2887b265513a6e472181c14e6d48",
+      "metadata": {
+        "title": "Documents Needed to Study Abroad: Build a Route-Specific Checklist",
+        "excerpt": "Official document examples for selected study routes. Separate admission, financial evidence and visa instructions instead of relying on one universal checklist.",
+        "dateModified": "2026-10-16",
+        "datePublished": "2026-10-16"
+      },
+      "phase16_rechecked_on": "2026-10-16"
+    },
+    "scholarships-for-indian-students-study-abroad": {
+      "checked_on": "2026-10-16",
+      "verified": true,
+      "approved_hosts_only": true,
+      "sources": [
+        {
+          "url": "https://www.daad.de/en/studying-in-germany/scholarships/",
+          "label": "DAAD: scholarships and funding",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+          "label": "DAAD: costs of education and living",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+          "label": "European Commission: Slovakia profile",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+          "label": "GOV.UK: Student visa financial evidence",
+          "checked_on": "2026-10-16"
+        },
+        {
+          "url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "label": "Italian Consulate Bengaluru: study in Italy",
+          "checked_on": "2026-10-16"
+        }
+      ],
+      "retained_claims": [
+        {
+          "text": "DAAD says international students can apply to scholarship organisations, including DAAD and other funding bodies, and points readers to its scholarship database for suitable offers. That overview does not establish eligibility for a particular Indian applicant or confirm a currently open call.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/scholarships/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "DAAD separately describes the normal tuition position at state institutions: bachelor programmes and most master programmes generally have no tuition, with continuing education and private-institution exceptions. Baden-Wuerttemberg charges non-EU tuition for specified degree programmes, excluding doctorates, and Bavarian institutions may also charge non-EU/EEA tuition. Semester contributions and living expenses remain. A tuition policy is not a scholarship award.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "For financial proof, DAAD lists receipt of a recognised scholarship among possible evidence alongside other forms of funding. It advises checking the relevant mission for the applicable amount and purpose of stay; an application for funding is not proof of receipt.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The European Commission profile describes the National Scholarship Programme of the Slovak Republic as supporting study, research and teaching stays for international students, doctoral candidates and researchers. It also mentions bilateral and mobility opportunities. The profile is a starting point, not confirmation that an Indian applicant meets a current scheme's detailed criteria.",
+          "source_urls": [
+            "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "GOV.UK says official financial sponsorship can be used as funding evidence for the Student route. If it is not recorded on the CAS, a sponsor confirmation letter is needed. The guidance specifies the date, sponsor identity and contact details, duration, and the amount provided or confirmation of full fee and living-cost support. This is a visa evidence rule, not a promise that a sponsor will select an applicant.",
+          "source_urls": [
+            "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "text": "The Bengaluru consulate page explains institution-specific admissions and tuition fees. It does not provide the current regional DSU eligibility call or verify an award amount. This guide therefore publishes no Italy scholarship amount, household threshold or renewal-credit rule.",
+          "source_urls": [
+            "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "Does a scholarship overview establish my personal eligibility?",
+          "text": "No. A general official overview points to opportunities. Check the current scheme rules for your nationality, study level and circumstances before treating an award as available to you.",
+          "source_urls": [
+            "https://www.daad.de/en/studying-in-germany/scholarships/",
+            "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        },
+        {
+          "question": "What UK sponsorship evidence is needed if the CAS does not record it?",
+          "text": "GOV.UK requires a sponsor confirmation letter with the specified identity, contact, duration and funding details. Read the full guidance for the applicable case.",
+          "source_urls": [
+            "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        }
+      ],
+      "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
+      "failed_gates": [],
+      "file_sha256": "7fb048f05eb66c3cad82978acb5c39c484910f1dab52a04542a78a020ce46bce",
+      "metadata": {
+        "title": "Scholarships for Indian Students: Check Eligibility and Evidence",
+        "excerpt": "Use official funding examples to distinguish tuition policy, scholarship opportunities and documented sponsorship. No unverified award amounts or promises.",
+        "dateModified": "2026-10-16",
+        "datePublished": "2026-10-16"
+      }
+    },
+    "italy-dsu-scholarship-eligibility": {
+      "checked_on": "2026-10-16",
+      "verified": false,
+      "approved_hosts_only": true,
+      "sources": [
+        {
+          "url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+          "label": "Italian Consulate Bengaluru: study in Italy",
+          "checked_on": "2026-10-16"
+        }
+      ],
+      "retained_claims": [
+        {
+          "text": "Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.",
+          "source_urls": [],
+          "checked_on": null,
+          "verified": false
+        },
+        {
+          "text": "The Italian consulate says institutions set their own admission requirements and tuition fees. Its admissions guidance does not verify the owner-supplied scholarship amount or establish a regional award entitlement.",
+          "source_urls": [
+            "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/"
+          ],
+          "checked_on": "2026-10-16",
+          "verified": true
+        }
+      ],
+      "removed_claims": "Unsupported universal documents, country rankings, blanket language/backlog claims, unsourced scholarship rules/amounts, named-institution and personal-experience claims removed.",
+      "failed_gates": [
+        "No opened approved current DSU award call; owner amount and partner entitlement unverified."
+      ],
+      "file_sha256": "fd3806921210beafcd7a97ffc8aa69e1fb8f608735afa4e87e14a051bd146faa",
+      "metadata": {
+        "title": "Italy Scholarship Planning: Verification Needed",
+        "excerpt": "Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility.",
+        "dateModified": "2026-10-16",
+        "datePublished": "2025-08-20"
+      }
+    }
+  }
+}

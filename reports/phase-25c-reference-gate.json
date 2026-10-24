@@ -1,0 +1,854 @@
+{
+  "structural_pass_criterion": true,
+  "max_delta": 4,
+  "minimum_ssim": 0.999,
+  "rows": [
+    {
+      "name": "home",
+      "route": "/",
+      "width": 360,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          20,
+          10416.9,
+          320,
+          424
+        ],
+        [
+          20,
+          10864.9,
+          320,
+          424
+        ],
+        [
+          20,
+          11312.9,
+          320,
+          424
+        ]
+      ],
+      "height": 15197,
+      "data": "reports/phase-25c-structures/home-360.json.gz",
+      "baseline_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "current_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5062920
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5062920
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5062920
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 5062920
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 768,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          20,
+          8518.4,
+          728,
+          373
+        ],
+        [
+          20,
+          8915.4,
+          728,
+          373
+        ],
+        [
+          20,
+          9312.4,
+          728,
+          373
+        ]
+      ],
+      "height": 12085,
+      "data": "reports/phase-25c-structures/home-768.json.gz",
+      "baseline_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "current_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 8464464
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 8464464
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 8464464
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 8464464
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1280,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          100,
+          7800.1,
+          344,
+          440
+        ],
+        [
+          468,
+          7800.1,
+          344,
+          440
+        ],
+        [
+          836,
+          7800.1,
+          344,
+          440
+        ]
+      ],
+      "height": 10735,
+      "data": "reports/phase-25c-structures/home-1280.json.gz",
+      "baseline_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "current_html_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 13285688
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 13285688
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 13285688
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 13285688
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "services",
+      "route": "/services",
+      "width": 360,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [],
+      "height": 21773,
+      "data": "reports/phase-25c-structures/services-360.json.gz",
+      "baseline_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "current_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7838280
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7838280
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7838280
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 7838280
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "services",
+      "route": "/services",
+      "width": 768,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [],
+      "height": 16861,
+      "data": "reports/phase-25c-structures/services-768.json.gz",
+      "baseline_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "current_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 12949248
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 12949248
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 12949248
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 12949248
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "services",
+      "route": "/services",
+      "width": 1280,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": false
+        }
+      ],
+      "cardBoxes": [],
+      "height": 17061,
+      "data": "reports/phase-25c-structures/services-1280.json.gz",
+      "baseline_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "current_html_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 21838080
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 21838080
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 21838080
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 21838080
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "about",
+      "route": "/about",
+      "width": 360,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          22,
+          7493.1,
+          316,
+          401.4
+        ],
+        [
+          22,
+          7922.5,
+          316,
+          401.4
+        ],
+        [
+          22,
+          8351.8,
+          316,
+          401.4
+        ]
+      ],
+      "height": 13997,
+      "data": "reports/phase-25c-structures/about-360.json.gz",
+      "baseline_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "current_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 4657508
+        },
+        {
+          "max_delta": 3,
+          "differing_pixels": 505576,
+          "ssim": 0.9993243845928507,
+          "outside_card_pixels": 4657508
+        },
+        {
+          "max_delta": 3,
+          "differing_pixels": 505576,
+          "ssim": 0.9993243845928507,
+          "outside_card_pixels": 4657508
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 3,
+        "differing_pixels": 505576,
+        "ssim": 0.9993243845928507
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 4657508
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "about",
+      "route": "/about",
+      "width": 768,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          22,
+          5058.3,
+          222.7,
+          470.7
+        ],
+        [
+          272.7,
+          5058.3,
+          222.7,
+          470.7
+        ],
+        [
+          523.3,
+          5058.3,
+          222.7,
+          470.7
+        ]
+      ],
+      "height": 9213,
+      "data": "reports/phase-25c-structures/about-768.json.gz",
+      "baseline_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "current_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 6760014
+        },
+        {
+          "max_delta": 4,
+          "differing_pixels": 690547,
+          "ssim": 0.9995663594076483,
+          "outside_card_pixels": 6760014
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 6760014
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 4,
+        "differing_pixels": 690547,
+        "ssim": 0.9995663594076483
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 6760014
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "about",
+      "route": "/about",
+      "width": 1280,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [
+        [
+          140,
+          5042.2,
+          314.7,
+          401.4
+        ],
+        [
+          482.7,
+          5042.2,
+          314.7,
+          401.4
+        ],
+        [
+          825.3,
+          5042.2,
+          314.7,
+          401.4
+        ]
+      ],
+      "height": 8831,
+      "data": "reports/phase-25c-structures/about-1280.json.gz",
+      "baseline_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "current_html_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 10923388
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 10923388
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 10923388
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 10923388
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "contact",
+      "route": "/contact",
+      "width": 360,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [],
+      "height": 8914,
+      "data": "reports/phase-25c-structures/contact-360.json.gz",
+      "baseline_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "current_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 3209040
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 3209040
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 3209040
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 3209040
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "contact",
+      "route": "/contact",
+      "width": 768,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [],
+      "height": 6904,
+      "data": "reports/phase-25c-structures/contact-768.json.gz",
+      "baseline_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "current_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5302272
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5302272
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 5302272
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 5302272
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    },
+    {
+      "name": "contact",
+      "route": "/contact",
+      "width": 1280,
+      "structural_pass": true,
+      "difference_count": 0,
+      "noiseStructures": [
+        {
+          "pair": 0,
+          "identical": true
+        },
+        {
+          "pair": 1,
+          "identical": true
+        },
+        {
+          "pair": 2,
+          "identical": true
+        }
+      ],
+      "cardBoxes": [],
+      "height": 6036,
+      "data": "reports/phase-25c-structures/contact-1280.json.gz",
+      "baseline_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "current_html_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "noise_pairs": [
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7726080
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7726080
+        },
+        {
+          "max_delta": 0,
+          "differing_pixels": 0,
+          "ssim": 1.0,
+          "outside_card_pixels": 7726080
+        }
+      ],
+      "noise_floor": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0
+      },
+      "current_pixels": {
+        "max_delta": 0,
+        "differing_pixels": 0,
+        "ssim": 1.0,
+        "outside_card_pixels": 7726080
+      },
+      "pixel_backstop_pass": true,
+      "within_noise_floor": true,
+      "passed": true,
+      "reason": "Structure exact; pixel backstop met"
+    }
+  ],
+  "passed": true
+}

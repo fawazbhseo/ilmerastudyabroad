@@ -1,0 +1,46 @@
+{
+  "reviewed_on": "2026-10-23",
+  "basis": "Owner-approved Phase 24b bios; Jabir unchanged. First-party portfolio supports Fawaz credentials and SEO start.",
+  "members": [
+    {
+      "@type": "Person",
+      "@id": "https://ilmerastudyabroad.com/#jabir",
+      "name": "Jabir KJ",
+      "jobTitle": "Founder",
+      "worksFor": {
+        "@id": "https://ilmerastudyabroad.com/#organization"
+      },
+      "image": "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
+      "description": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+      "sameAs": [
+        "https://linkedin.com/in/jabir-kj-920300428"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ilmerastudyabroad.com/#fawaz",
+      "name": "Fawaz BH",
+      "jobTitle": "Chief Marketing Officer",
+      "worksFor": {
+        "@id": "https://ilmerastudyabroad.com/#organization"
+      },
+      "image": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
+      "description": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+      "sameAs": [
+        "https://fawazbhseo.in/",
+        "https://www.linkedin.com/in/fawazbh"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ilmerastudyabroad.com/#zaheer",
+      "name": "Zaheer KJ",
+      "jobTitle": "Chief Financial Officer",
+      "worksFor": {
+        "@id": "https://ilmerastudyabroad.com/#organization"
+      },
+      "image": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
+      "description": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation."
+    }
+  ]
+}

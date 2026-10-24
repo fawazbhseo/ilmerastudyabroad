@@ -1,0 +1,112 @@
+{
+  "baseline": "6befa0f",
+  "reviewed_on": "2026-10-22",
+  "team": [
+    {
+      "name": "Jabir KJ",
+      "title": "Founder",
+      "approved_title": "Founder",
+      "bio_html": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+      "bio_text": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
+      "source": "about.php",
+      "source_line": 652,
+      "alt": "Jabir KJ, Founder of ILMERA Study Abroad",
+      "display_width": 88,
+      "display_height": 88,
+      "loading": "lazy",
+      "images": [
+        {
+          "path": "/assets/images/jabirkj.png",
+          "width": 192,
+          "height": 192,
+          "bytes": 46374,
+          "sha256": "b4d2e443f8677081c2f8e330cb286144df00c256cd9fbedde718722ebb3d445b",
+          "over_300KB": false,
+          "placeholder_name": false
+        },
+        {
+          "path": "/assets/images/jabirkj.webp",
+          "width": 192,
+          "height": 192,
+          "bytes": 8302,
+          "sha256": "88069b124c6df86c5c598fecd88c1ecdc2173ef136f49d137448027422b63ac9",
+          "over_300KB": false,
+          "placeholder_name": false
+        }
+      ],
+      "person_exists": true,
+      "person_note": "Canonical Jabir Person on published routes",
+      "visual_check": "Portrait viewed; no generic placeholder content apparent. Identity/authenticity is owner-confirmed, not inferred from appearance."
+    },
+    {
+      "name": "Fawaz BH",
+      "title": "CMO",
+      "approved_title": "Chief Marketing Officer",
+      "bio_html": "<strong>Fawaz BH is CMO at ILMERA Study Abroad</strong> and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at <a href=\"https://fawazbhseo.in\" rel=\"noopener\" style=\"color:var(--navy);text-decoration:underline;\">fawazbhseo.in</a>, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.",
+      "bio_text": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.",
+      "source": "about.php",
+      "source_line": 663,
+      "alt": "Fawaz BH, CMO at ILMERA Study Abroad",
+      "display_width": 88,
+      "display_height": 88,
+      "loading": "lazy",
+      "images": [
+        {
+          "path": "/assets/images/fawazbh.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 1541656,
+          "sha256": "9b2b087bd07f454a9dc54985ce4429ab11f92a7e00c3202ab87c297bbcd530dd",
+          "over_300KB": true,
+          "placeholder_name": false
+        }
+      ],
+      "person_exists": true,
+      "person_note": "Existing About JSON-LD Person",
+      "visual_check": "Portrait viewed; no generic placeholder content apparent. Identity/authenticity is owner-confirmed, not inferred from appearance."
+    },
+    {
+      "name": "Zaheer KJ",
+      "title": "CFO",
+      "approved_title": "Chief Financial Officer",
+      "bio_html": "Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.",
+      "bio_text": "Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.",
+      "source": "about.php",
+      "source_line": 671,
+      "alt": "Zaheer KJ, CFO at ILMERA Study Abroad",
+      "display_width": 88,
+      "display_height": 88,
+      "loading": "lazy",
+      "images": [
+        {
+          "path": "/assets/images/zaheer.png",
+          "width": 192,
+          "height": 192,
+          "bytes": 47311,
+          "sha256": "cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f",
+          "over_300KB": false,
+          "placeholder_name": false
+        },
+        {
+          "path": "/assets/images/zaheer.webp",
+          "width": 192,
+          "height": 192,
+          "bytes": 11014,
+          "sha256": "47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db",
+          "over_300KB": false,
+          "placeholder_name": false
+        }
+      ],
+      "person_exists": true,
+      "person_note": "Existing About JSON-LD Person",
+      "visual_check": "Portrait viewed; no generic placeholder content apparent. Identity/authenticity is owner-confirmed, not inferred from appearance."
+    }
+  ],
+  "format_cross_check": {
+    "assets/images/jabirkj.png": "PNG",
+    "assets/images/jabirkj.webp": "WEBP",
+    "assets/images/fawazbh.webp": "PNG content under existing .webp filename; original preserved",
+    "assets/images/zaheer.png": "PNG",
+    "assets/images/zaheer.webp": "WEBP"
+  }
+}

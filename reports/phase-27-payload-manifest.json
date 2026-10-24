@@ -1,0 +1,760 @@
+{
+  "source_commit": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "scope": "entire current branch including Phase25 design and Phase26b finance-only bio; NOT the old117-file content candidate",
+  "files": [
+    {
+      "path": ".htaccess",
+      "bytes": 969,
+      "sha256": "660f6611834716f7befe4a29ff4c1e69832934cfc9764f3eab517a0b5e9351cb"
+    },
+    {
+      "path": "404.php",
+      "bytes": 7904,
+      "sha256": "2f9fc981044bb92f68e794bb0f5b43cf5e8164473273eba802ebe6cca5550b94"
+    },
+    {
+      "path": "about.php",
+      "bytes": 75145,
+      "sha256": "bb5460d63aa98a63b001d956b251326d856a0bed72adbe1f091d3d5358e173ba"
+    },
+    {
+      "path": "all-pages.php",
+      "bytes": 5801,
+      "sha256": "a388cc951cc9dd627383d550ef310abbcefd5cdc4ff91726cc70aa36be9dfc7e"
+    },
+    {
+      "path": "assets/css/visual-system.css",
+      "bytes": 23490,
+      "sha256": "2f7086f6124c68f5ab7a5fbc864e61b2b25b29219914de06119231aa248cf71f"
+    },
+    {
+      "path": "assets/fonts/.htaccess",
+      "bytes": 296,
+      "sha256": "abbda2062f1e1c57c9771a8b50a002ba3f239fa04d20f0efaf714ce0264d41e8"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-OFL.txt",
+      "bytes": 4504,
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-latin.woff2",
+      "bytes": 10456,
+      "sha256": "0ee72c59334ef2ffee83ebb314be26d74fcae1be428c9e1035eaf60ee293f3b4"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-400.woff2",
+      "bytes": 22908,
+      "sha256": "727acdbfd81848bcc9a5c2a6c64ba1b97ba93c69515382785483ce0cc068be08"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-700.woff2",
+      "bytes": 22392,
+      "sha256": "949a2a601dd37c9aeb888b1ce6ce17383173aaea128af4a16df45e77e6fcd903"
+    },
+    {
+      "path": "assets/fonts/outfit-OFL.txt",
+      "bytes": 4387,
+      "sha256": "0e5fcef5d93bfcae273c11c00f0bb453d3b5491860e1ac8b658767b7577c938f"
+    },
+    {
+      "path": "assets/fonts/outfit-latin.woff2",
+      "bytes": 17084,
+      "sha256": "db614390b3f3ac79f7731a50d6ff2494c818aaf788475322b83c3ff9faa9e854"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-300.woff2",
+      "bytes": 13956,
+      "sha256": "ef88e74f63ce75b54cce4d5a4087c6f180750b9ebae6ab6e5bf2a9939bf6958f"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-400.woff2",
+      "bytes": 14032,
+      "sha256": "71f028fd2349990b3f8aa643abe767e82e0f596be407ae66f0004ff164121bdb"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-500.woff2",
+      "bytes": 13528,
+      "sha256": "fc9bff941def6d924a71632bd8a93190528872eae6414844f3c367ff948d92fd"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-600.woff2",
+      "bytes": 14140,
+      "sha256": "8cfe15c2c6de6ef8efff3eedbd52a383ac9ef23d6c23f6cd9f9b838f5f37dc36"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-700.woff2",
+      "bytes": 14060,
+      "sha256": "5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706"
+    },
+    {
+      "path": "assets/images/fawazbh-192.webp",
+      "bytes": 7892,
+      "sha256": "fc27a85edaa4ec5dbd231b51d28f20cacdcce2bdc3cb7ed27c17fa68eca3ba76"
+    },
+    {
+      "path": "assets/images/fawazbh-384.webp",
+      "bytes": 19056,
+      "sha256": "a3c401504f579ac5add974098560858fb8718993007318029278f31ae6488f3b"
+    },
+    {
+      "path": "assets/images/ilmera.logo.png",
+      "bytes": 98340,
+      "sha256": "6fd63c7cfdc05ca354237b98f0869cccbde222bf4b0b5dc55233ef7b9e097fc6"
+    },
+    {
+      "path": "assets/images/jabirkj.png",
+      "bytes": 46374,
+      "sha256": "b4d2e443f8677081c2f8e330cb286144df00c256cd9fbedde718722ebb3d445b"
+    },
+    {
+      "path": "assets/images/jabirkj.webp",
+      "bytes": 8302,
+      "sha256": "88069b124c6df86c5c598fecd88c1ecdc2173ef136f49d137448027422b63ac9"
+    },
+    {
+      "path": "assets/images/zaheer.png",
+      "bytes": 47311,
+      "sha256": "cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f"
+    },
+    {
+      "path": "assets/images/zaheer.webp",
+      "bytes": 11014,
+      "sha256": "47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db"
+    },
+    {
+      "path": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "bytes": 16850,
+      "sha256": "9d7d4ab680ffb1d01688c1433f3f7a87bf3093cf1b0a085139c159c5936e2d06"
+    },
+    {
+      "path": "blog/documents-needed-to-study-abroad-from-india.php",
+      "bytes": 17855,
+      "sha256": "e8ba9efc53a5a72f4aa0c1531e9c42355b8a2887b265513a6e472181c14e6d48"
+    },
+    {
+      "path": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "bytes": 14628,
+      "sha256": "7a3381505ba28a1cc1ec6839863c53ee244166a2ad6fdafd35697e2ff6a8b8b4"
+    },
+    {
+      "path": "blog/index.php",
+      "bytes": 10778,
+      "sha256": "68fa591ced9d5eb936cf9aea565f4a573562846aaa6c4e59aa42827414cbbe4e"
+    },
+    {
+      "path": "blog/italy-dsu-scholarship-eligibility.php",
+      "bytes": 11258,
+      "sha256": "fd3806921210beafcd7a97ffc8aa69e1fb8f608735afa4e87e14a051bd146faa"
+    },
+    {
+      "path": "blog/scholarships-for-indian-students-study-abroad.php",
+      "bytes": 16072,
+      "sha256": "7fb048f05eb66c3cad82978acb5c39c484910f1dab52a04542a78a020ce46bce"
+    },
+    {
+      "path": "blog/study-abroad-counselling-from-coorg.php",
+      "bytes": 11915,
+      "sha256": "3947b7fb08218a29f5e5db90cff5138d07dd807b6e39716f6f2ed346d0464c58"
+    },
+    {
+      "path": "blog/study-abroad-with-academic-backlogs.php",
+      "bytes": 12768,
+      "sha256": "91ac6545badec32b3e21c0404f6a75522f32af9acf698a198e8ee8319cae1d2e"
+    },
+    {
+      "path": "blog/study-in-germany-free-aps-certificate.php",
+      "bytes": 12141,
+      "sha256": "b7ee7ebb27d577e1dba58133475234bfbb0f7f4db1d3ac46c5f6778faa0c2550"
+    },
+    {
+      "path": "contact.php",
+      "bytes": 66292,
+      "sha256": "634697a2ee0b1c9bcea2c7bff958f2bee0affc7a052a8a485a2c4e3a4ae29ac2"
+    },
+    {
+      "path": "data/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    },
+    {
+      "path": "data/answer-map.json",
+      "bytes": 47087,
+      "sha256": "d70fd5794091ed2d1a6af4f5c15c89bcf986989616dedccd36e748c8b3626f74"
+    },
+    {
+      "path": "data/entity.json",
+      "bytes": 2464,
+      "sha256": "81fbda98cfd8a54dd58fc5cb475e676a26c10dd43494d3b0f1bfeb44ce600340"
+    },
+    {
+      "path": "data/payment-disclosure.json",
+      "bytes": 1138,
+      "sha256": "1abfeaae9d046025bb6bd77ab71df83a28cb9ea51aea6abe359ad3d27b285ea8"
+    },
+    {
+      "path": "data/proof.php",
+      "bytes": 468,
+      "sha256": "ecefe4ef7c4f55ebaf9b3e3f29e4f2a11d8528d934fa8dfd5fcb1323884fee08"
+    },
+    {
+      "path": "data/seo-map.json",
+      "bytes": 23432,
+      "sha256": "a1f8e62a2ef238e6812ff6e64d4f6192aceb21452fc90f1ed444b810f62e5276"
+    },
+    {
+      "path": "data/service-scope.json",
+      "bytes": 2494,
+      "sha256": "47dcdba726c5dbcd17897d94b4b0a861f114e6ec515b4e0535db89d53c1521b3"
+    },
+    {
+      "path": "data/team.json",
+      "bytes": 2030,
+      "sha256": "35cb45fc1222d47dd39c2b022addea6c2a7cb8765cfcc01115e3f3ff7a8f9ca4"
+    },
+    {
+      "path": "destinations/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    },
+    {
+      "path": "destinations/czech-republic.php",
+      "bytes": 7630,
+      "sha256": "cf0407523240d008916a1e5a6a289421ea92c5e476e8874e8fc4f597ef172bda"
+    },
+    {
+      "path": "destinations/gcc.php",
+      "bytes": 17707,
+      "sha256": "6db58df85f2d6d21dd1419572e5e846b0e599d51e666bf734c192a72ef2d4cd6"
+    },
+    {
+      "path": "destinations/germany.php",
+      "bytes": 6761,
+      "sha256": "2aa14f954c8937be695e664b1fc9ed9a3759e2986ddc15d6889beb896429e370"
+    },
+    {
+      "path": "destinations/italy.php",
+      "bytes": 7873,
+      "sha256": "31b1d68973a9af9d558bc11ce6b32e086e057a75aa559712604a05686b843296"
+    },
+    {
+      "path": "destinations/latvia.php",
+      "bytes": 7967,
+      "sha256": "f4a13cae2465636b2ea36a7a0cc796c0e355a644b1f7b8ebc5f7ec5976d9a0f4"
+    },
+    {
+      "path": "destinations/lithuania.php",
+      "bytes": 5550,
+      "sha256": "a8c636c9fc7abd0470b137594b94d3fb7949f20f4a2e0059fa3b70a90e2d3ad4"
+    },
+    {
+      "path": "destinations/russia.php",
+      "bytes": 7064,
+      "sha256": "b7344b9b6614c0321999a61bc5716bfa83d2870d4e9fb6ea55b33d00989de899"
+    },
+    {
+      "path": "destinations/slovakia.php",
+      "bytes": 6807,
+      "sha256": "3e8cac1ca1821edb7941cd4ed613bfa63182927afa8865cb64e70b19c7890bf3"
+    },
+    {
+      "path": "destinations/uk.php",
+      "bytes": 8467,
+      "sha256": "c61a8263e579e2922684d76b835ee60983a8ce39deb2830fb823f7cedd781012"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 4286,
+      "sha256": "d56f454c1b22b448f00503c856b9a8079475e9eec6b1efccc86b1fd58534b679"
+    },
+    {
+      "path": "google10fa7a4178242a1f.html",
+      "bytes": 53,
+      "sha256": "ac24b3229f0855ab347e78ddf8588756f33479657459805addf802e201bfc92a"
+    },
+    {
+      "path": "includes/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    },
+    {
+      "path": "includes/breadcrumbs.php",
+      "bytes": 1663,
+      "sha256": "d07ac0d14e6b6f87c4554ccdbd07db56464a676c8c4bfeef8c083ba473f1c139"
+    },
+    {
+      "path": "includes/destination-data.php",
+      "bytes": 9438,
+      "sha256": "fc17211f547b456343081b6dc7dfbf7ecc15d20fc54403f65370953bad8cdfe9"
+    },
+    {
+      "path": "includes/destination-page.php",
+      "bytes": 12424,
+      "sha256": "ff93a4f875b559d71c3115672684c98cc907b77b3bd944b5b0855154a884795d"
+    },
+    {
+      "path": "includes/entity.php",
+      "bytes": 2580,
+      "sha256": "a9d0b3e6b993db7c1c442f5e888abdebfd699e371b3101a592bd6b2aab288c9c"
+    },
+    {
+      "path": "includes/footer.php",
+      "bytes": 8201,
+      "sha256": "52c606828e1065acfbe62115fdbb4fa593ca0487081e454334fba5936550a240"
+    },
+    {
+      "path": "includes/header.php",
+      "bytes": 7182,
+      "sha256": "f1a5666aec8a7b80e25b743c19110950c367f1373242217099e4d21760bdb63e"
+    },
+    {
+      "path": "includes/links.php",
+      "bytes": 12752,
+      "sha256": "886bbefc854f85a652d382e5caeef32fbe575fe2b50b3398aa95df2e7841435e"
+    },
+    {
+      "path": "includes/payment-disclosure.php",
+      "bytes": 1977,
+      "sha256": "258847ed695eec19d0a4fa791be49f4e1c12478fcac2be9f713a570c3174c949"
+    },
+    {
+      "path": "includes/place-data.php",
+      "bytes": 8434,
+      "sha256": "9ecce15409d5ac6348c479c496e292c7138e973db3dc00c3337cc493b7e3333e"
+    },
+    {
+      "path": "includes/place-page.php",
+      "bytes": 13435,
+      "sha256": "6020d83eeeac11f4b72e41eacd49940c6f83bb34a8ef4b536d47b19d769ec7b2"
+    },
+    {
+      "path": "includes/posts.php",
+      "bytes": 9114,
+      "sha256": "fe3f312e467e9d7b9d46b3d667da4350d6a20a0ae9b3b87f9ec112552a39c40e"
+    },
+    {
+      "path": "includes/proof.php",
+      "bytes": 5108,
+      "sha256": "13a0285a4a0495f0492cbeb305e0fbbeef885314b0f9a849231918f4a4aa7425"
+    },
+    {
+      "path": "includes/service-scope.php",
+      "bytes": 3993,
+      "sha256": "d4f09736d8ba9adb47f2dbc55785c420be9787b675f02b0d7d933d3c896fe10b"
+    },
+    {
+      "path": "includes/site-presentation.php",
+      "bytes": 11273,
+      "sha256": "ce43a45f205a9256e0429571ff22ec3df87ab2fd2dad27f32e95d408db292d1f"
+    },
+    {
+      "path": "includes/sitemap-data.php",
+      "bytes": 2408,
+      "sha256": "13a1e920ea86620ad7404d9bcab665678d9c3b9991f40986e80185bca8bd05ad"
+    },
+    {
+      "path": "includes/visual-config.php",
+      "bytes": 848,
+      "sha256": "f68570eb69bef74850f06c4d54b488fcdf1ec1a5a81f37d563eef53dab4e2c76"
+    },
+    {
+      "path": "includes/visual-system.php",
+      "bytes": 7898,
+      "sha256": "95858ce9008bebf54b58075d07a653441233cf7d5dc67b5815a790a62b6b9a6f"
+    },
+    {
+      "path": "index.php",
+      "bytes": 85160,
+      "sha256": "5ec4bcf5ca18b262588952150838d9e92985d68a5ae620e7579a9057eaa58b3a"
+    },
+    {
+      "path": "llms-full.txt",
+      "bytes": 22111,
+      "sha256": "097dc9abb2eeb8377a091843d0b20489c8f04141e81da757e8bfe852078e7299"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 24501,
+      "sha256": "ad99c63172bbf4029b2937a0fb824b21f422345b10f4a8764c5c172344db61d8"
+    },
+    {
+      "path": "phase14-article-review.json",
+      "bytes": 25521,
+      "sha256": "2d7a71ab15ff3167c5ea5d5dafb5de24b6a057576e677528a695f3711fcb519d"
+    },
+    {
+      "path": "phase14-location-review.json",
+      "bytes": 22736,
+      "sha256": "252510cfc9e60dc00bfe91255d85320d1b73c6f627866b20e9500d41a6ddbeab"
+    },
+    {
+      "path": "phase14-source-review.json",
+      "bytes": 74154,
+      "sha256": "80eb69b4a7a70f162a2cf270e0221a80b761d325c2685ceddb0c0e2cf4563fae"
+    },
+    {
+      "path": "places/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    },
+    {
+      "path": "places/belagavi.php",
+      "bytes": 4474,
+      "sha256": "091c0653e3ef037bd7af0522bb98195c9751c2531b9fa9f50ba2423f6eba6d6d"
+    },
+    {
+      "path": "places/bengaluru.php",
+      "bytes": 4583,
+      "sha256": "a72348f273f40fed28312c64a412071223d0fa6bd9085778407cf75cb47df2d2"
+    },
+    {
+      "path": "places/chikkamagaluru.php",
+      "bytes": 4604,
+      "sha256": "69f23aa0174c56e2c4735639084dbb886a649b3b0f2ba700e0e950434f716380"
+    },
+    {
+      "path": "places/gonikoppal.php",
+      "bytes": 4633,
+      "sha256": "33d88d5b15d71bacaedbb1f283eb86d50afa1b28971070141e6b3f5a6f940867"
+    },
+    {
+      "path": "places/hassan.php",
+      "bytes": 4406,
+      "sha256": "b618383155075bb0c564a8b77a6454f78b49f00315d1e0e65f4fee670eb47fcf"
+    },
+    {
+      "path": "places/karnataka.php",
+      "bytes": 4681,
+      "sha256": "b42265c20440f1d92f7236f59036d748bdd76b7c9efcf8d2322405c3d5db96ac"
+    },
+    {
+      "path": "places/kodagu.php",
+      "bytes": 4689,
+      "sha256": "e7baab44e0c5903e821a873b2c5e55bacb697c68fb8af07b6225a5d9f67f4594"
+    },
+    {
+      "path": "places/kushalnagar.php",
+      "bytes": 4528,
+      "sha256": "a54a8caca296bc0baa8029943aab6b4edfddb3743b736156df30fa658dc757af"
+    },
+    {
+      "path": "places/madikeri.php",
+      "bytes": 4598,
+      "sha256": "373c9033c1b2aaec0dfb8ae9fe60886809ae221b832c690633cc6dd783b0cae9"
+    },
+    {
+      "path": "places/mangaluru.php",
+      "bytes": 4643,
+      "sha256": "86d74674ab9c6195e0cbd925d94f1118b1dbc476c8087a0f6468bfcc18076cbd"
+    },
+    {
+      "path": "places/mysuru.php",
+      "bytes": 4587,
+      "sha256": "3ea32edd15cd3681fd05a4070cc7a12b267942547c280b4cd011fa0591a1f2f3"
+    },
+    {
+      "path": "places/ponnampet.php",
+      "bytes": 4684,
+      "sha256": "8ffd85b53ea9bd3b1e8a40bac6ce6a8e51be5d4d8e8ad1cacab5d522635807aa"
+    },
+    {
+      "path": "places/shivamogga.php",
+      "bytes": 4528,
+      "sha256": "432420abf7fb9f6d1535e7150876e5935783c143adbed38417dff8f12ce588b7"
+    },
+    {
+      "path": "places/siddapura.php",
+      "bytes": 4644,
+      "sha256": "489d4601332a8846e4d592696aa6d05af058355dba43d0a2f9212b78514a649a"
+    },
+    {
+      "path": "places/somwarpet.php",
+      "bytes": 4691,
+      "sha256": "d6c30cbdc69175b0b69c194e6c2da38d2bfd17bc37344aacaa18e8317204b521"
+    },
+    {
+      "path": "places/udupi-manipal.php",
+      "bytes": 4650,
+      "sha256": "93658572dc0ed5ef6f9d2aded20653ec7fac115405b4075daecdfee1652b55ec"
+    },
+    {
+      "path": "places/virajpet.php",
+      "bytes": 4609,
+      "sha256": "14c8be5bc79b1da8d88a335fe1459b24132ef0863d246da7f40d0318104f5e92"
+    },
+    {
+      "path": "privacy-policy.php",
+      "bytes": 12385,
+      "sha256": "bcfe3e889f51a04c984f84232f6e2d72eeefb8f83ef2de9c5449d1239aa5e678"
+    },
+    {
+      "path": "reports/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 896,
+      "sha256": "1547d6509231507a8e84350c975b45abc22cf79646dd93d6518ad6b62eb32a80"
+    },
+    {
+      "path": "services.php",
+      "bytes": 84455,
+      "sha256": "4da5d8b95fa68bb7f6be4a5ccf99fdc32a28947c9207104b5b8019f9b25888b1"
+    },
+    {
+      "path": "sitemap.php",
+      "bytes": 142,
+      "sha256": "536a08d40515e0f819cf6c9418a4b0a5bb28b6e8c4c040a77b82d6da8ea7dd3d"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 4853,
+      "sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb"
+    },
+    {
+      "path": "study-abroad-consultants-in-karnataka.php",
+      "bytes": 145,
+      "sha256": "63d171436b94729fb1151caf697e09fdda57e8fc71c0e642f17f14e73beb03ed"
+    },
+    {
+      "path": "study-abroad-consultants-in-kodagu.php",
+      "bytes": 142,
+      "sha256": "dc58ac2d5cf467846d5a5d88b7a602da913997a7399a23b7d1b990339a4a7a56"
+    },
+    {
+      "path": "study-abroad-counselling-belagavi.php",
+      "bytes": 144,
+      "sha256": "8569ed1180f7569ef9edc19d1add9bc960295fc7f009105a40485f37fdf203ad"
+    },
+    {
+      "path": "study-abroad-counselling-bengaluru.php",
+      "bytes": 145,
+      "sha256": "3bb7bd9b6ce2a0bded5925559528b1b3947d502c66b224cd016d416328d2ab54"
+    },
+    {
+      "path": "study-abroad-counselling-chikkamagaluru.php",
+      "bytes": 150,
+      "sha256": "f4ddff551eaf30abfda7b6e6161bbb78018578daf46f30f1f7463dcbb691f3b2"
+    },
+    {
+      "path": "study-abroad-counselling-gonikoppal.php",
+      "bytes": 146,
+      "sha256": "7b44b418650b3b405411c2b273533602f61dafe654f5102ce176ba321617491b"
+    },
+    {
+      "path": "study-abroad-counselling-hassan.php",
+      "bytes": 142,
+      "sha256": "7861fc22b3a4a179bcdb80e29e9e85b32ea321e7da1b0a28188bbd9950f97086"
+    },
+    {
+      "path": "study-abroad-counselling-kushalnagar.php",
+      "bytes": 147,
+      "sha256": "7cfdb76c5eff0c4041f7de5afd4aede9bf7c17e7c3137234d7be2f18b8992d3b"
+    },
+    {
+      "path": "study-abroad-counselling-madikeri.php",
+      "bytes": 144,
+      "sha256": "0c725d6b405ac574c6913a05114192db0830376e5db0f77fffe5031f87006e50"
+    },
+    {
+      "path": "study-abroad-counselling-mangaluru.php",
+      "bytes": 145,
+      "sha256": "c7f921cc379c99e186ba6581e9cfd6b41394e08f2297b76eef2bbdcd2ca588f5"
+    },
+    {
+      "path": "study-abroad-counselling-mysuru.php",
+      "bytes": 142,
+      "sha256": "a33db2c6f60c418d76d977465cfa3d0c03ea1ab9448b7e757219f2282ef6eee7"
+    },
+    {
+      "path": "study-abroad-counselling-ponnampet.php",
+      "bytes": 145,
+      "sha256": "9e562ce8f83b4a0f1fa2a310d05e90cbd8a287eb4b56cb6332d358c06622394d"
+    },
+    {
+      "path": "study-abroad-counselling-shivamogga.php",
+      "bytes": 146,
+      "sha256": "628bdf9cd36de86a665d87948bbd9da319654fdae7bec680597da62d8b27f16b"
+    },
+    {
+      "path": "study-abroad-counselling-siddapura.php",
+      "bytes": 145,
+      "sha256": "6c0f16d742f8df2a4be8d466d760feb6309ea7dca45ee008e47ab6d9481ef700"
+    },
+    {
+      "path": "study-abroad-counselling-somwarpet.php",
+      "bytes": 145,
+      "sha256": "ffef272069a438522dc81fb3d552c241cce502e9bc7c3d220ba267176b51326d"
+    },
+    {
+      "path": "study-abroad-counselling-udupi-manipal.php",
+      "bytes": 149,
+      "sha256": "3b86ac35796d52abd787e7481b1eeaa8400732589b42430f908daf0a9b56d259"
+    },
+    {
+      "path": "study-abroad-counselling-virajpet.php",
+      "bytes": 144,
+      "sha256": "dcd586d6ef3b20e5b94d91bd552adf90b094fbe6851d7e12738da3be187c2099"
+    },
+    {
+      "path": "study-in-czech-republic.php",
+      "bytes": 94,
+      "sha256": "4ae3173109a265f2e11bf88272f56615cfad4f166bb16979b3dcd27c2584f540"
+    },
+    {
+      "path": "study-in-gcc.php",
+      "bytes": 151,
+      "sha256": "3a3dfb9bbf792dbfdeef1df1dd2b946ca56f26840977a183aba7f29135c09742"
+    },
+    {
+      "path": "study-in-germany.php",
+      "bytes": 155,
+      "sha256": "55eac97163c432f303ec3adcfca71449f4564283cb8d1e21f8bcb95e08d25957"
+    },
+    {
+      "path": "study-in-italy.php",
+      "bytes": 153,
+      "sha256": "43992ec2d013d4cd7578077f8878289144bc15a08738fb28834025f6e6292b98"
+    },
+    {
+      "path": "study-in-latvia.php",
+      "bytes": 154,
+      "sha256": "967a8b00d4968c95e9f372ede5bec94ceb5f89ba10c16c82da9c605498b65ae1"
+    },
+    {
+      "path": "study-in-lithuania.php",
+      "bytes": 157,
+      "sha256": "33461b00e923b7483d11ff72f9dec2631f4988c09dc821ffe1b5c4be16720b92"
+    },
+    {
+      "path": "study-in-russia.php",
+      "bytes": 86,
+      "sha256": "1f3a264697834e81249a63090d494d08d12de8798bad69efc36bb4baf5a91ea3"
+    },
+    {
+      "path": "study-in-slovakia.php",
+      "bytes": 156,
+      "sha256": "45e7a07ae40bf44d9c3c1d47cf56caecaedfa7695091ae1d8a1209c90d4bfede"
+    },
+    {
+      "path": "study-in-uk.php",
+      "bytes": 150,
+      "sha256": "d541855e9b8895556c249538a60623b6f790912642210b003ab7370906ec52f8"
+    },
+    {
+      "path": "terms.php",
+      "bytes": 13624,
+      "sha256": "6ebc101e222a1a20c4db8418663ee7198038d5a111a792917930d4bcf1b7a7a7"
+    },
+    {
+      "path": "tools/.htaccess",
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
+    }
+  ],
+  "upload_count": 130,
+  "excluded_source_tracked_count": 394,
+  "source_tracked_count": 524,
+  "count_basis": "Git-tracked snapshot at source_commit; all additional Phase27 reports/tools and untracked caches are excluded too. No finite count claimed for Git internals/node modules/caches.",
+  "runtime_json_exceptions": [
+    "data/answer-map.json",
+    "data/entity.json",
+    "data/payment-disclosure.json",
+    "data/seo-map.json",
+    "data/service-scope.json",
+    "data/team.json",
+    "phase14-article-review.json",
+    "phase14-location-review.json",
+    "phase14-source-review.json"
+  ],
+  "all_htaccess": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ],
+  "runtime_assets_read_or_licensed": [
+    "assets/css/visual-system.css",
+    "assets/fonts/cormorant-garamond-OFL.txt",
+    "assets/fonts/cormorant-garamond-latin.woff2",
+    "assets/fonts/cormorant-garamond-reference-400.woff2",
+    "assets/fonts/cormorant-garamond-reference-700.woff2",
+    "assets/fonts/outfit-OFL.txt",
+    "assets/fonts/outfit-latin.woff2",
+    "assets/fonts/outfit-reference-300.woff2",
+    "assets/fonts/outfit-reference-400.woff2",
+    "assets/fonts/outfit-reference-500.woff2",
+    "assets/fonts/outfit-reference-600.woff2",
+    "assets/fonts/outfit-reference-700.woff2",
+    "favicon.ico"
+  ],
+  "referenced_first_party_assets": [
+    "assets/fonts/cormorant-garamond-reference-400.woff2",
+    "assets/fonts/cormorant-garamond-reference-700.woff2",
+    "assets/fonts/outfit-reference-300.woff2",
+    "assets/fonts/outfit-reference-400.woff2",
+    "assets/fonts/outfit-reference-500.woff2",
+    "assets/fonts/outfit-reference-600.woff2",
+    "assets/fonts/outfit-reference-700.woff2",
+    "assets/images/fawazbh-192.webp",
+    "assets/images/fawazbh-384.webp",
+    "assets/images/ilmera.logo.png",
+    "assets/images/jabirkj.png",
+    "assets/images/jabirkj.webp",
+    "assets/images/zaheer.png",
+    "assets/images/zaheer.webp"
+  ],
+  "external_asset_dependencies": [
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+  ],
+  "no_symlinks": true,
+  "payload_root": "/home/user/phase27/payload",
+  "final_phase27_inventory": {
+    "total_tracked_files": 547,
+    "excluded_tracked_files": 417,
+    "additional_internal_paths": [
+      "reports/phase-27-changed-files.md",
+      "reports/phase-27-checklist-proof.json",
+      "reports/phase-27-excluded-files.json",
+      "reports/phase-27-handoff.md",
+      "reports/phase-27-internal-url-checks.txt",
+      "reports/phase-27-payload-manifest.json",
+      "reports/phase-27-payload-proof.json",
+      "reports/phase-27-progress.md",
+      "reports/phase-27-public-url-checks.tsv",
+      "reports/phase-27-raw-wording-hits.json",
+      "reports/phase-27-readiness-source-map.json",
+      "reports/phase-27-readiness.md",
+      "reports/phase-27-reference-observations.json",
+      "reports/phase-27-scope-proof.json",
+      "reports/phase-27-verification.json",
+      "reports/phase-27-verification.md",
+      "reports/post-deploy-checklist.pdf",
+      "tools/phase27/README.md",
+      "tools/phase27/checklist.cjs",
+      "tools/phase27/export.py",
+      "tools/phase27/payload.py",
+      "tools/phase27/server.cjs",
+      "tools/phase27/verify.py"
+    ],
+    "basis": "Final Phase27 file set, including final handoff/manifest. Public runtime remains source_commit; no deletion/new public file. Git metadata and untracked caches/node modules not finitely counted."
+  },
+  "excluded_namespaces": [
+    "releases/"
+  ],
+  "phase28_archive": {
+    "repository_path": "releases/ilmera-deploy-850d0af.zip",
+    "excluded_from_payload": true,
+    "release_directory_policy_not_in_upload_manifest": true,
+    "payload_htaccess_count": 8,
+    "tracked_policy_count_with_releases": 9
+  }
+}

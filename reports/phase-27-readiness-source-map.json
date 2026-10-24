@@ -1,0 +1,2960 @@
+{
+  "required_sources": [
+    "reports/phase-25-release-check.md",
+    "reports/phase-25c-performance.md",
+    "reports/phase-26-release-split.md",
+    "reports/phase-26b-verification.md",
+    "flagged-items-for-verification.md"
+  ],
+  "supporting_current_facts": [
+    "reports/phase-26b-handoff.md",
+    "reports/owner-inputs-needed.md"
+  ],
+  "method": "All headings/ranges from full original source text indexed. Current remaining issues deduplicated manually into19 live,8 monitor and18 later-owner rows. Historical pre-closure wording is not treated as a new blocker. No source log rewritten.",
+  "sources": [
+    {
+      "file": "reports/phase-25-release-check.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "c2d7227649f222c67b3bc96549c33b761c0a381eb2d35007c3233253dc9ec4cd",
+      "lines": 341,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 6,
+          "heading": "# Phase25c current release check",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 7,
+          "line_end": 25,
+          "heading": "## Current acceptance matrix",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 26,
+          "line_end": 36,
+          "heading": "## All12 reference results",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 37,
+          "line_end": 38,
+          "heading": "## New seven-by-seven performance table",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 39,
+          "line_end": 48,
+          "heading": "### Method and complete results",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 49,
+          "line_end": 56,
+          "heading": "## Retained sessions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 57,
+          "line_end": 77,
+          "heading": "## Session3 table: UNRELIABLE, NOT CERTIFIED",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 78,
+          "line_end": 83,
+          "heading": "## Decision",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 84,
+          "line_end": 98,
+          "heading": "## Final whole-template tiers",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 99,
+          "line_end": 115,
+          "heading": "## Every remaining deviation, exception and blocker",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 116,
+          "line_end": 123,
+          "heading": "## Every changed file",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 124,
+          "line_end": 129,
+          "heading": "# Phase25 Stage2 release check",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 130,
+          "line_end": 152,
+          "heading": "## Acceptance matrix",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 153,
+          "line_end": 169,
+          "heading": "## Final tiers and switches",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 170,
+          "line_end": 194,
+          "heading": "## Performance before / final after",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 195,
+          "line_end": 207,
+          "heading": "## Four-reference raster results",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 208,
+          "line_end": 227,
+          "heading": "## Accessibility, cycles and deviations",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 228,
+          "line_end": 243,
+          "heading": "## Exact live font/cache test URLs",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 244,
+          "line_end": 251,
+          "heading": "## Owner review and task checkpoints",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 252,
+          "line_end": 341,
+          "heading": "## Every changed file in Stage2",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "reports/phase-25c-performance.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "465501366c833a6aed3ac74d233ed0a9ac2d27eff89aa70e7ecf1273d8ea0484",
+      "lines": 43,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 10,
+          "heading": "# Phase25c interleaved A/B performance",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 11,
+          "line_end": 18,
+          "heading": "## Retained sessions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 19,
+          "line_end": 39,
+          "heading": "## Session3 table: UNRELIABLE, NOT CERTIFIED",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 40,
+          "line_end": 43,
+          "heading": "## Decision",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "reports/phase-26-release-split.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "a108525e9fbcfb95f3686797b13c11d49b572731a967acb88a2a63f828d99d2e",
+      "lines": 44,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 6,
+          "heading": "# Phase26 release split: handoff and limits",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 7,
+          "line_end": 14,
+          "heading": "## Identities",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 15,
+          "line_end": 23,
+          "heading": "## Verification results",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 24,
+          "line_end": 31,
+          "heading": "## Exact upload and exclusion lists",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 32,
+          "line_end": 37,
+          "heading": "## Owner and later design",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 38,
+          "line_end": 41,
+          "heading": "## Every remaining limit",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 42,
+          "line_end": 44,
+          "heading": "## Every file changed on each branch",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "reports/phase-26b-verification.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "069788d35c94042addbc96a95e199cf55cdfd9753a0d24f3fb7507b2369e0f20",
+      "lines": 31,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 4,
+          "heading": "# Phase26b verification",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 5,
+          "line_end": 10,
+          "heading": "## Full coverage",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 11,
+          "line_end": 18,
+          "heading": "## Previous-commit comparison",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 19,
+          "line_end": 24,
+          "heading": "## Evidence isolation and limits",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 25,
+          "line_end": 28,
+          "heading": "## Approved card lengths",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 29,
+          "line_end": 31,
+          "heading": "### Reference observations remain open",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "0e4ca314b3ded82a41b1e743f19f22081a094e2335472bc4ce43cadfd6824ffc",
+      "lines": 3674,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 7,
+          "heading": "# Flagged Items for Manual Verification",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 8,
+          "line_end": 20,
+          "heading": "## 1. Logo asset path (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 21,
+          "line_end": 32,
+          "heading": "## 2. Team photo filenames (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 33,
+          "line_end": 42,
+          "heading": "## 3. About page team cards (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 43,
+          "line_end": 56,
+          "heading": "## 4. Light/dark theme toggle removed",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 57,
+          "line_end": 67,
+          "heading": "## 5. sitemap.php added alongside sitemap.xml",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 68,
+          "line_end": 92,
+          "heading": "## 6. Destination/eligibility facts to confirm against current official sources",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 93,
+          "line_end": 104,
+          "heading": "## 7. Social handles and contact details",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 105,
+          "line_end": 111,
+          "heading": "## 8. Minor cosmetic whitespace in about.php",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 112,
+          "line_end": 124,
+          "heading": "## 9. On the \"#1 ranking\" goal",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 125,
+          "line_end": 150,
+          "heading": "## 10. New Blog feature added (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 151,
+          "line_end": 167,
+          "heading": "## 11. Jabir KJ's title corrected from \"CEO\" to \"Founder\" (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 168,
+          "line_end": 191,
+          "heading": "## 12. Blog pages returning 404 (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 192,
+          "line_end": 208,
+          "heading": "## 13. Phase 1: unpublished draft claim inventory (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 209,
+          "line_end": 263,
+          "heading": "### A. `blog/cost-of-studying-abroad-for-indian-students.php`",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 264,
+          "line_end": 320,
+          "heading": "### B. `blog/documents-needed-to-study-abroad-from-india.php`",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 321,
+          "line_end": 373,
+          "heading": "### C. `blog/scholarships-for-indian-students-study-abroad.php`",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 374,
+          "line_end": 396,
+          "heading": "## 14. Migrated Phase 2 verification checklist (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 397,
+          "line_end": 410,
+          "heading": "### Supported facts reused from existing site files",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 411,
+          "line_end": 417,
+          "heading": "### Checklist by page",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 418,
+          "line_end": 424,
+          "heading": "#### `/study-abroad-consultants-in-karnataka`",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 425,
+          "line_end": 436,
+          "heading": "#### `/study-abroad-counselling-belagavi`",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 437,
+          "line_end": 448,
+          "heading": "#### `/study-abroad-counselling-shivamogga`",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 449,
+          "line_end": 460,
+          "heading": "#### `/study-abroad-counselling-udupi-manipal`",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 461,
+          "line_end": 462,
+          "heading": "## 15. Phase 3 data completion and release checks",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 463,
+          "line_end": 484,
+          "heading": "### Inventory and unresolved scope",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 485,
+          "line_end": 506,
+          "heading": "### Data contract and threshold",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 507,
+          "line_end": 531,
+          "heading": "### One-commit publication checklist",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 532,
+          "line_end": 539,
+          "heading": "## 16. Phase 4 publication and navigation release checks",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 540,
+          "line_end": 577,
+          "heading": "### Publish one reviewed page atomically",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 578,
+          "line_end": 599,
+          "heading": "### Content scope and unresolved follow-up",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 600,
+          "line_end": 604,
+          "heading": "## 17. Phase 5 menu and draft-table fixes (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 605,
+          "line_end": 622,
+          "heading": "### Shared mobile menu",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 623,
+          "line_end": 635,
+          "heading": "### Scrollable draft tables",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 636,
+          "line_end": 646,
+          "heading": "### Validation limits",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 647,
+          "line_end": 648,
+          "heading": "## 18. Phase 6 founding-year audit and destination release checks",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 649,
+          "line_end": 659,
+          "heading": "### Founding year (RESOLVED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 660,
+          "line_end": 671,
+          "heading": "### Nine destination records (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 672,
+          "line_end": 728,
+          "heading": "### One-commit destination release checklist",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 729,
+          "line_end": 751,
+          "heading": "### Technical validation and remaining work",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 752,
+          "line_end": 784,
+          "heading": "## 19. No placed students or implied student results (OWNER CONFIRMED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 785,
+          "line_end": 801,
+          "heading": "## 20. Phase 7: fully sourced Czech draft, not approved for publication",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 802,
+          "line_end": 823,
+          "heading": "### Owner must open and confirm all six source URLs",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 824,
+          "line_end": 862,
+          "heading": "### Publication and policy checks still required",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 863,
+          "line_end": 878,
+          "heading": "## 21. Phase 8: Slovakia draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 879,
+          "line_end": 889,
+          "heading": "### Four source URLs: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 890,
+          "line_end": 913,
+          "heading": "### Publication blockers",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 914,
+          "line_end": 938,
+          "heading": "### Draft safeguards and release checks",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 939,
+          "line_end": 954,
+          "heading": "## 22. Phase 9: Lithuania draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 955,
+          "line_end": 963,
+          "heading": "### Lithuania source URLs: owner must open and confirm all three",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 964,
+          "line_end": 987,
+          "heading": "### Lithuania publication blockers",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 988,
+          "line_end": 1002,
+          "heading": "## 23. Phase 9: Latvia draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1003,
+          "line_end": 1011,
+          "heading": "### Latvia source URLs: owner must open and confirm all three",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1012,
+          "line_end": 1027,
+          "heading": "### Latvia publication blockers",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1028,
+          "line_end": 1054,
+          "heading": "### Draft safeguards and release checklist for both pages",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1055,
+          "line_end": 1077,
+          "heading": "## 24. Phase 9: Services university-dependent claims (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1078,
+          "line_end": 1086,
+          "heading": "## 25. Phase 10: Germany draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1087,
+          "line_end": 1091,
+          "heading": "### Germany source URL: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1092,
+          "line_end": 1111,
+          "heading": "### Germany publication blockers and missing official sources",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1112,
+          "line_end": 1119,
+          "heading": "## 26. Phase 10: UK draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1120,
+          "line_end": 1124,
+          "heading": "### UK source URL: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1125,
+          "line_end": 1147,
+          "heading": "### UK publication blockers and missing official coverage",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1148,
+          "line_end": 1157,
+          "heading": "## 27. Phase 10: Italy draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1158,
+          "line_end": 1162,
+          "heading": "### Italy source URL: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1163,
+          "line_end": 1189,
+          "heading": "### Italy publication blockers",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1190,
+          "line_end": 1223,
+          "heading": "### Shared draft safeguards and release checks for all three pages",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1224,
+          "line_end": 1236,
+          "heading": "## 28. Phase 10: Russia and GCC not started (OWNER INPUT REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1237,
+          "line_end": 1267,
+          "heading": "## 29. Free-tuition claims to verify",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1268,
+          "line_end": 1290,
+          "heading": "### Audit coverage and shared content",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1291,
+          "line_end": 1895,
+          "heading": "### Exact source-line inventory",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1896,
+          "line_end": 1913,
+          "heading": "### Germany: Free Public University Education for Indian Students",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1914,
+          "line_end": 1931,
+          "heading": "### Italy: Free Education Plus Annual Stipend via DSU Scholarship",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 1932,
+          "line_end": 2138,
+          "heading": "### Slovakia: Free Education Available at Certain Branches",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2139,
+          "line_end": 2148,
+          "heading": "### Audit outcome",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2149,
+          "line_end": 2158,
+          "heading": "## 30. Phases 11-12: GCC source review (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2159,
+          "line_end": 2163,
+          "heading": "### Source URL: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2164,
+          "line_end": 2181,
+          "heading": "### Additional Phase 12 source URLs: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2182,
+          "line_end": 2233,
+          "heading": "### GCC publication blockers",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2234,
+          "line_end": 2255,
+          "heading": "### Current publication state and prior notes",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2256,
+          "line_end": 2280,
+          "heading": "### Phase 11 validation and agent disclosure",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2281,
+          "line_end": 2289,
+          "heading": "## 31. Phase 12: Russia scholarship draft (OWNER VERIFICATION REQUIRED)",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2290,
+          "line_end": 2294,
+          "heading": "### Russia source URL: owner must open and confirm",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2295,
+          "line_end": 2326,
+          "heading": "### Russia publication blockers",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2327,
+          "line_end": 2360,
+          "heading": "### Phase 12 publication state and validation",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2361,
+          "line_end": 2369,
+          "heading": "## 32. Phase 13: discovery, sitemap and location quality (OWNER REVIEW REQUIRED)",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2370,
+          "line_end": 2396,
+          "heading": "### Status-driven discovery and sitemap",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2397,
+          "line_end": 2439,
+          "heading": "### Serving and verification",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2440,
+          "line_end": 2465,
+          "heading": "### Read-only location quality report",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2466,
+          "line_end": 2480,
+          "heading": "#### Exact shared lines and duplication evidence",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2481,
+          "line_end": 2532,
+          "heading": "## 33. Phase 14: source-backed publication review, 2026-10-16",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2533,
+          "line_end": 2557,
+          "heading": "### Phase B task 3: opened-source review, 2026-10-16",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2558,
+          "line_end": 2572,
+          "heading": "### Phase B task 4: substantive category completion",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2573,
+          "line_end": 2591,
+          "heading": "### Phase B task 5: publication decisions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2592,
+          "line_end": 2605,
+          "heading": "### Phase C task 6: seventeen distinct location guides",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2606,
+          "line_end": 2617,
+          "heading": "### Phase C task 7: business-presence and contact audit",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2618,
+          "line_end": 2638,
+          "heading": "### Phase C task 8: measured location publication",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2639,
+          "line_end": 2665,
+          "heading": "### Phase D task 9: three article reviews and additional DSU draft",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2666,
+          "line_end": 2690,
+          "heading": "### Phase E task 10: discovery and editorial dates",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2691,
+          "line_end": 2720,
+          "heading": "### Phase E task 11: full validation and fail-closed regression tests",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2721,
+          "line_end": 2744,
+          "heading": "### Phase F task 12: final decision record",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2745,
+          "line_end": 2758,
+          "heading": "## Phase 16 task 1: limited LLM permission",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2759,
+          "line_end": 2775,
+          "heading": "## Phase 16 task 2: institution-name cleanup and permission blocker",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2776,
+          "line_end": 2818,
+          "heading": "## Phase 16 task 3: current citation repairs and transport limit",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2819,
+          "line_end": 2847,
+          "heading": "## Phase 16 task 4: exact owner sentence and matched cautions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2848,
+          "line_end": 2886,
+          "heading": "## Phase 16 tasks 5 and 6: final release decision and maintenance",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2887,
+          "line_end": 2912,
+          "heading": "## Phase 17 task 1: final owner operating model, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2913,
+          "line_end": 2939,
+          "heading": "## Phase 17 task 2: GCC business scope versus source scope, 2026-10-16",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2940,
+          "line_end": 2977,
+          "heading": "## Phase 17 task 3: targeted owner-blocker closures, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 2978,
+          "line_end": 3005,
+          "heading": "## Phase 17 task 4: final verification decisions, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3006,
+          "line_end": 3028,
+          "heading": "## Phase 18 task 1: full LLM reconciliation approved, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3029,
+          "line_end": 3042,
+          "heading": "## Phase 18 task 2: published-page directory decisions, 2026-10-16",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3043,
+          "line_end": 3090,
+          "heading": "## Phase 18 task 6: dated targeted closures and live handoff, 2026-10-16",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3091,
+          "line_end": 3100,
+          "heading": "## Phase 19 task 1: provisional strategy mapping, 2026-10-16",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3101,
+          "line_end": 3111,
+          "heading": "## Phase 19 task 2: conservative presentation layer, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3112,
+          "line_end": 3121,
+          "heading": "## Phase 19 task 3: explicitly authorized guide, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3122,
+          "line_end": 3131,
+          "heading": "## Phase 19 task 4: bounded answer overlays, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3132,
+          "line_end": 3143,
+          "heading": "## Phase 19 task 5: one canonical identity, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3144,
+          "line_end": 3151,
+          "heading": "## Phase 19 task 8: measurement owner decision, 2026-10-16",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3152,
+          "line_end": 3162,
+          "heading": "## Phase 19 task 9: official eligibility and off-page limits, 2026-10-16",
+          "related_table_ids": [
+            "L19",
+            "M03",
+            "A08",
+            "A09",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3163,
+          "line_end": 3203,
+          "heading": "## Phase 19 task 11: targeted sign-off and unchanged blockers, 2026-10-16",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3204,
+          "line_end": 3265,
+          "heading": "## Phase 20, 2026-10-16: actual document review and bounded sign-off",
+          "related_table_ids": [
+            "L12",
+            "M02",
+            "A14",
+            "A15",
+            "A16"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3266,
+          "line_end": 3289,
+          "heading": "## Phase 22 scope decisions, 2026-10-22",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3290,
+          "line_end": 3326,
+          "heading": "## Phase 22 final handoff, 2026-10-22",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3327,
+          "line_end": 3347,
+          "heading": "## Phase 23 conservative decisions, 2026-10-22",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3348,
+          "line_end": 3363,
+          "heading": "### Phase 23 consistency clarification",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3364,
+          "line_end": 3374,
+          "heading": "### Phase 23 media-format exception",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3375,
+          "line_end": 3406,
+          "heading": "## Phase 23 final handoff, 2026-10-22",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3407,
+          "line_end": 3422,
+          "heading": "## Phase 24 conservative decisions, 2026-10-22",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3423,
+          "line_end": 3434,
+          "heading": "### Phase 24 Task 2 biography boundary",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3435,
+          "line_end": 3447,
+          "heading": "### Phase 24 Task 3 portrait scope",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3448,
+          "line_end": 3468,
+          "heading": "### Phase 24 Task 4 private owner follow-ups",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3469,
+          "line_end": 3488,
+          "heading": "### Phase 24 final release boundaries, 2026-10-22",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3489,
+          "line_end": 3506,
+          "heading": "## Phase 24b conservative decisions, 2026-10-23",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3507,
+          "line_end": 3517,
+          "heading": "### Phase 24b Task 2 publication-integrity maintenance",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3518,
+          "line_end": 3544,
+          "heading": "### Phase 24b Task 3 exposure and deployment decision",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3545,
+          "line_end": 3569,
+          "heading": "### Phase 24b final superseding facts and release limits, 2026-10-23",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3570,
+          "line_end": 3611,
+          "heading": "## Phase 25 Stage 1 audit decisions (23 October 2026)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3612,
+          "line_end": 3616,
+          "heading": "## Phase25c Task2: performance certification remains blocked (2026-10-23)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3617,
+          "line_end": 3621,
+          "heading": "## Phase25c Task3: uniform tiers, unproven fallback necessity (2026-10-23)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3622,
+          "line_end": 3626,
+          "heading": "## Phase25c Task5: reference-only accessibility report (2026-10-23)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3627,
+          "line_end": 3638,
+          "heading": "## Phase25c final sign-off: NOT READY (2026-10-23)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3639,
+          "line_end": 3643,
+          "heading": "## Phase26 session branch restriction (2026-10-24)",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3644,
+          "line_end": 3648,
+          "heading": "## Phase26 candidate verification scope (2026-10-24)",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3649,
+          "line_end": 3653,
+          "heading": "## Phase26 payload exclusion correction (2026-10-24)",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3654,
+          "line_end": 3658,
+          "heading": "## Phase26 rollback privacy decision (2026-10-24)",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3659,
+          "line_end": 3665,
+          "heading": "## Phase26 final content/design handoff (2026-10-24)",
+          "related_table_ids": [
+            "L06",
+            "L07",
+            "L14",
+            "L15",
+            "L16",
+            "L17",
+            "L18",
+            "M01",
+            "M05",
+            "M06",
+            "M07",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 3666,
+          "line_end": 3674,
+          "heading": "## Phase26b owner finance-only correction (2026-10-24)",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "reports/phase-26b-handoff.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "0e7bacd17bdd959740a3f30679752fbf7e4d65ee473f102cb6b1733608752cc1",
+      "lines": 38,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 6,
+          "heading": "# Phase26b completed: finance-only Zaheer biography",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 7,
+          "line_end": 12,
+          "heading": "## Final text, verbatim for full bio and both cards",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 13,
+          "line_end": 23,
+          "heading": "## Verification",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 24,
+          "line_end": 27,
+          "heading": "## Every changed file",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 28,
+          "line_end": 35,
+          "heading": "## Every retained reference and reason",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 36,
+          "line_end": 38,
+          "heading": "## Remaining blockers",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    },
+    {
+      "file": "reports/owner-inputs-needed.md",
+      "snapshot": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+      "sha256": "31e346832cc39c5fc5f1c2b13a925d0edf2bfd95deadb7f84e2060f4229e0ba5",
+      "lines": 132,
+      "sections": [
+        {
+          "line_start": 1,
+          "line_end": 10,
+          "heading": "# Remaining owner inputs after Phase 24b",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 11,
+          "line_end": 24,
+          "heading": "## 1. Per-service inclusions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 25,
+          "line_end": 38,
+          "heading": "## 2. Payment schedule and conditions",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 39,
+          "line_end": 51,
+          "heading": "## 3. Refund and cancellation terms",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 52,
+          "line_end": 67,
+          "heading": "## 4. Future genuine feedback, only when it exists",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 68,
+          "line_end": 82,
+          "heading": "## 5. Private registration activity correction",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 83,
+          "line_end": 99,
+          "heading": "## 6. Team facts now supplied",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "A01",
+            "A02",
+            "A03",
+            "A04",
+            "A05",
+            "A06",
+            "A07",
+            "A17"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 100,
+          "line_end": 116,
+          "heading": "## 7. Deployment layout and actual host verification",
+          "related_table_ids": [
+            "L01",
+            "L02",
+            "L03",
+            "L04",
+            "L05",
+            "L12",
+            "L13",
+            "M08"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        },
+        {
+          "line_start": 117,
+          "line_end": 132,
+          "heading": "## Continuing boundaries",
+          "related_table_ids": [
+            "L09",
+            "L10",
+            "M06",
+            "A18"
+          ],
+          "interpretation": "Source-section navigation/topic crosswalk only, not an automatic open/closed verdict; apply explicit dated supersession described in readiness.md."
+        }
+      ]
+    }
+  ]
+}

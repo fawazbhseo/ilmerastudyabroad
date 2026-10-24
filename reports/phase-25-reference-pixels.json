@@ -1,0 +1,131 @@
+{
+  "tolerance": 0,
+  "viewports": [
+    360,
+    768,
+    1280
+  ],
+  "passed": false,
+  "comparisons": [
+    {
+      "reference": "home",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        10178,
+        360,
+        11944
+      ]
+    },
+    {
+      "reference": "home",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        8279,
+        768,
+        9765
+      ]
+    },
+    {
+      "reference": "home",
+      "width": 1280,
+      "changed_pixels_outside_team": 9,
+      "difference_bounds": [
+        1033,
+        18,
+        1220,
+        54
+      ],
+      "only_allowed_mask": [
+        0,
+        7540,
+        1280,
+        8504
+      ]
+    },
+    {
+      "reference": "services",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "services",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "services",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "about",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        7115,
+        360,
+        9158
+      ]
+    },
+    {
+      "reference": "about",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        4727,
+        768,
+        6021
+      ]
+    },
+    {
+      "reference": "about",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": [
+        0,
+        4666,
+        1280,
+        5820
+      ]
+    },
+    {
+      "reference": "contact",
+      "width": 360,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "contact",
+      "width": 768,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    },
+    {
+      "reference": "contact",
+      "width": 1280,
+      "changed_pixels_outside_team": 0,
+      "difference_bounds": null,
+      "only_allowed_mask": null
+    }
+  ],
+  "scope": "Required zero-tolerance comparison: all Services/Contact pixels; all Home/About pixels outside the measured unchanged original team-section footprint. Result is reported by passed/comparisons, not assumed by this scope description."
+}

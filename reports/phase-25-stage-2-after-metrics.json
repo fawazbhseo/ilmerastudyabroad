@@ -1,0 +1,606 @@
+{
+  "baseline_document_replay": false,
+  "measurement_order": [
+    "/",
+    "/services",
+    "/contact",
+    "/study-in-germany",
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "/blog/",
+    "/blog/documents-needed-to-study-abroad-from-india",
+    "/privacy-policy",
+    "/all-pages"
+  ],
+  "storage_reset_each_navigation": true,
+  "browser_process_reused": true,
+  "environment": "Additional-page before measurements replay immutable Phase24b HTML; existing Stage1 baseline budgets remain unchanged. No Stage1 baseline existed for the three added samples. Local PHP 8.5 WASM, Chromium 143, Lighthouse 12.8.2 mobile simulated Slow 4G/4x CPU; npm-mirrored fonts and exact CDN script versions; absolute first-party assets served from checkout. Not field or live hosting data. Three cold navigations; medians. Mirrored resource transfer accounting is CDP-reported, not CDN compression evidence.",
+  "lighthouseVersion": "12.8.2",
+  "results": [
+    {
+      "route": "/",
+      "samples": [
+        {
+          "lcp_ms": 1918.942460243481,
+          "cls": 0.0007490901189304585,
+          "tbt_ms": 1626,
+          "transfer_bytes": 1068534,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1911.537400000336,
+          "cls": 0.05506289658023097,
+          "tbt_ms": 1439.5,
+          "transfer_bytes": 1068534,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 8947.858380730164,
+          "cls": 0.0007794586372654771,
+          "tbt_ms": 1411,
+          "transfer_bytes": 1068534,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1918.942460243481,
+        "cls": 0.0007794586372654771,
+        "tbt_ms": 1439.5,
+        "transfer_bytes": 1068534,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/services",
+      "samples": [
+        {
+          "lcp_ms": 2074.113556875868,
+          "cls": 0,
+          "tbt_ms": 980.5000000000009,
+          "transfer_bytes": 1093133,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2068.365954584314,
+          "cls": 0.036606249493029354,
+          "tbt_ms": 2133.500000000001,
+          "transfer_bytes": 1093133,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2064.167783205732,
+          "cls": 0,
+          "tbt_ms": 1143.5,
+          "transfer_bytes": 1093133,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2068.365954584314,
+        "cls": 0,
+        "tbt_ms": 1143.5,
+        "transfer_bytes": 1093133,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/contact",
+      "samples": [
+        {
+          "lcp_ms": 9635.359180730113,
+          "cls": 0,
+          "tbt_ms": 2166.499999999999,
+          "transfer_bytes": 1049871,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1891.8665204867211,
+          "cls": 0.01001055427066054,
+          "tbt_ms": 1177,
+          "transfer_bytes": 1049871,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 8786.532320486454,
+          "cls": 0.004813818447093593,
+          "tbt_ms": 1405.999999999999,
+          "transfer_bytes": 1049871,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 8786.532320486454,
+        "cls": 0.004813818447093593,
+        "tbt_ms": 1405.999999999999,
+        "transfer_bytes": 1049871,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "samples": [
+        {
+          "lcp_ms": 2430.968186389253,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 251931,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2430.7520363891786,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 251931,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2430.716704584195,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 251931,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2430.7520363891786,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 251931,
+        "requests": 7
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "samples": [
+        {
+          "lcp_ms": 1651.2028137529153,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 233606,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1651.3677068761376,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 233606,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1651.4476853148199,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 233606,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1651.3677068761376,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 233606,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "samples": [
+        {
+          "lcp_ms": 1651.3513068763837,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 241176,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1651.7215068763328,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 241176,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2280.670336389436,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 241176,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1651.7215068763328,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 241176,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/blog/",
+      "samples": [
+        {
+          "lcp_ms": 1653.0991568756922,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 232570,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2281.06825458425,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 232570,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1652.3369637519997,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 232570,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1653.0991568756922,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 232570,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "samples": [
+        {
+          "lcp_ms": 1801.1962409737798,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 255194,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1801.0860409743104,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 255194,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1802.8028409737717,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 255194,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1801.1962409737798,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 255194,
+        "requests": 7
+      }
+    },
+    {
+      "route": "/privacy-policy",
+      "samples": [
+        {
+          "lcp_ms": 1651.4683568759312,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 229203,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2280.403986389473,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 229203,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2282.0661363892546,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 229203,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2280.403986389473,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 229203,
+        "requests": 6
+      }
+    },
+    {
+      "route": "/all-pages",
+      "samples": [
+        {
+          "lcp_ms": 2280.5102045840413,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 224954,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2280.6734545843337,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 224954,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1651.2034568752579,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 224954,
+          "requests": 6,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2280.5102045840413,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 224954,
+        "requests": 6
+      }
+    }
+  ]
+}

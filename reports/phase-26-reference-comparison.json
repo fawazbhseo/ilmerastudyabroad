@@ -1,0 +1,192 @@
+{
+  "method": "Same font mirrors and capture-only settled motion. Every visible outside-team text/order/box/computed style compared. Only ancestor height and below-team y are normalized for the explicitly approved team-grid reflow; absolute section height changes reported, not concealed. Source/header/footer/schema/image guards independently exact.",
+  "rows": [
+    {
+      "route": "/",
+      "width": 375,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 424,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 424,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 424,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 1740,
+      "team_height_after": 1668.5,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 373,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 373,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 373,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 1485,
+      "team_height_after": 1515.5,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 440,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 440,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 440,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 962.1875,
+      "team_height_after": 809.1875,
+      "passed": true
+    },
+    {
+      "route": "/services",
+      "width": 375,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    },
+    {
+      "route": "/services",
+      "width": 1280,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "width": 375,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 401.4,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 401.4,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 401.4,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 2018.875,
+      "team_height_after": 1812.125,
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 470.7,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 470.7,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 470.7,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 1292.78125,
+      "team_height_after": 1015.65625,
+      "passed": true
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "differences": [],
+      "candidate_cards": [
+        {
+          "height": 401.4,
+          "bio": "Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance."
+        },
+        {
+          "height": 401.4,
+          "bio": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu."
+        },
+        {
+          "height": 401.4,
+          "bio": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+        }
+      ],
+      "team_height_before": 1152.71875,
+      "team_height_after": 991.0625,
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "width": 375,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "differences": [],
+      "candidate_cards": [],
+      "team_height_before": 0,
+      "team_height_after": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}
