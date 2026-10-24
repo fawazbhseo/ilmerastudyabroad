@@ -1,0 +1,38 @@
+{
+  "base": "164d6de",
+  "source_of_card_exception": "4844f3f",
+  "candidate_not_branch": true,
+  "files_changed": [
+    "about.php",
+    "index.php",
+    "tools/check_phase24b.py",
+    "tools/phase24b/approved.py",
+    "tools/team_bio_policy.py",
+    "tools/test_team_bio_policy.py"
+  ],
+  "public_files_changed": [
+    "index.php",
+    "about.php"
+  ],
+  "no_shared_css_fonts_hero_header_footer_changes": true,
+  "line_endings": {
+    "index.php": {
+      "baseline_CRLF": 871,
+      "candidate_CRLF": 871,
+      "baseline_bare_LF": 0,
+      "candidate_bare_LF": 0
+    },
+    "about.php": {
+      "baseline_CRLF": 830,
+      "candidate_CRLF": 829,
+      "baseline_bare_LF": 3,
+      "candidate_bare_LF": 3
+    },
+    ".htaccess": {
+      "baseline_CRLF": 23,
+      "candidate_CRLF": 23,
+      "baseline_bare_LF": 0,
+      "candidate_bare_LF": 0
+    }
+  }
+}

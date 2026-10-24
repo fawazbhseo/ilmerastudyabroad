@@ -338,7 +338,6 @@
     "tools/phase24b/browser.cjs": "bcc4c40765d681d9d6763b40c3b3139280c47cb0ffa4df54f030660cc4534a1c",
     "tools/phase24b/run.py": "195569b829ffe061ad776178a390d5253430f0958ef017689159bdb3325d669d",
     "tools/phase24b/exposure.py": "bb21fe9a0d785542cec054fc2269513ce182af47b1b57c209cd131f8c7370e9e",
-    "tools/phase24b/server.cjs": "25adb4aedf726b5bab9f1d10bfe8929d634c477e11ff2ea91c031d48af459a93",
-    "tools/__pycache__/check_discovery.cpython-311.pyc": "e341b5eff5bf8d6ea5d35e4cd1194b802f5203b5c7d023974f6e619528ff221a"
+    "tools/phase24b/server.cjs": "25adb4aedf726b5bab9f1d10bfe8929d634c477e11ff2ea91c031d48af459a93"
   }
 }
