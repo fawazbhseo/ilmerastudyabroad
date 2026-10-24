@@ -21,3 +21,7 @@ Scope snapshot: phase-27-scope-proof.json. Commands include `git diff --name-sta
 ## Limits unchanged
 
 No native Apache/LiteSpeed/AllowOverride/ACL/rewrite/ErrorDocument404/MIME/cache/CSP proof, actual CDN/gstatic/provider delivery, contact enquiry, real backup/restore, PSI/CrUX or Search Console action. Original performance raw failures, template necessity, reference accessibility and private proof/business/source issues remain exactly as reported. Owner acceptance table and blank live measurement forms are not passing live results.
+
+## Fresh reference observations
+
+Fresh audit sampled426 reference node observations in the same24 groups, compared with retained historical391 and Phase26b390. All426 current selectors/failure summaries, including case-selector additions, are in phase-27-reference-observations.json. No observations are pruned and no cause/source repair is asserted. Public bytes are unchanged. The known reference contrast/overflow risk remains for owner review.
