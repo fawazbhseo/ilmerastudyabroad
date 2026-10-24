@@ -8,7 +8,7 @@ class BioPolicyTests(unittest.TestCase):
  def test_exact_bios_allowed(self):
   for bio in [ZAHEER,FAWAZ]:self.assertEqual(blocked_name_matches(bio,self.names),[])
  def test_context_not_a_blanket_exception(self):
-  for text in ['Adrex Media School',FAWAZ+' Adrex Media School',ZAHEER.replace('including documentation','including other work')]:self.assertIn('Adrex Media School',blocked_name_matches(text,self.names))
+  for text in ['Adrex Media School',FAWAZ+' Adrex Media School',ZAHEER+' Adrex Media School']:self.assertIn('Adrex Media School',blocked_name_matches(text,self.names))
  def test_university_guard_still_applies(self):
   for name in self.names:self.assertIn(name,blocked_name_matches(FAWAZ+' '+name,self.names))
  def test_university_name_cannot_be_inserted_in_bio(self):
@@ -17,7 +17,7 @@ class BioPolicyTests(unittest.TestCase):
 class ShortCardPolicyTests(unittest.TestCase):
  def test_exact_counts_and_spread(self):
   from team_bio_policy import SHORT_CARD_BIOS
-  self.assertEqual({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126})
+  self.assertEqual({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':122,'Fawaz BH':126})
   lengths=list(map(len,SHORT_CARD_BIOS.values()));self.assertLessEqual(max(lengths)-min(lengths),6)
  def test_narrow_context_only(self):
   from team_bio_policy import SHORT_CARD_BIOS,card_bio_allowed,APPROVED_BIOS
@@ -39,7 +39,37 @@ class ShortCardPolicyTests(unittest.TestCase):
    with self.assertRaises(AssertionError):validate_bio_contexts(broken,'/about')
  def test_short_cannot_leak_into_prose_or_another_route(self):
   from team_bio_policy import validate_bio_contexts,SHORT_CARD_BIOS
-  for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]:
+  for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Fawaz BH']+'</p>','/'),(self.fixture('/'),'/contact')]:
    with self.assertRaises(AssertionError):validate_bio_contexts(text,route)
+
+class FinanceOnlyRegressionTests(unittest.TestCase):
+ def test_zaheer_full_and_card_are_identical(self):
+  from team_bio_policy import SHORT_CARD_BIOS,APPROVED_BIOS
+  self.assertEqual(SHORT_CARD_BIOS['Zaheer KJ'],ZAHEER)
+  self.assertEqual(APPROVED_BIOS,(FAWAZ,))
+ def test_entire_person_rejects_claim_and_old_variants(self):
+  import json
+  from team_bio_policy import validate_zaheer_person
+  root=pathlib.Path(__file__).resolve().parents[1];person=json.loads((root/'data/team.json').read_text())['members'][2]
+  self.assertTrue(validate_zaheer_person(person))
+  for key,value in [('description',ZAHEER+' Digital Marketer'),('jobTitle','DIGITAL MARKETER'),('hasCredential','Adrex Media School'),('description',"Zaheer KJ is CFO at ILMERA Study Abroad.")]:
+   with self.assertRaises(AssertionError):validate_zaheer_person(dict(person,**{key:value}))
+ def test_cards_and_visible_schema_faq_reject_mutations(self):
+  from team_bio_policy import validate_bio_contexts,validate_zaheer_render
+  text=ShortCardPolicyTests().fixture()
+  for bad in ['Digital Marketer','digital marketer','DIGITAL MARKETER','Adrex Media School certification']:
+   with self.assertRaises(AssertionError):validate_bio_contexts(text.replace(ZAHEER,ZAHEER+' '+bad),'/about')
+   faq='<summary>Who is Zaheer KJ?</summary><div><p>'+ZAHEER+' '+bad+'</p>'
+   with self.assertRaises(AssertionError):validate_zaheer_render(faq)
+ def test_llm_entries_reject_claims_and_variants(self):
+  from team_bio_policy import validate_zaheer_llm
+  root=pathlib.Path(__file__).resolve().parents[1]
+  for file in ['llms.txt','llms-full.txt']:
+   text=(root/file).read_text();self.assertTrue(validate_zaheer_llm(text))
+   for bad in ['Digital Marketer','digital marketer','DIGITAL MARKETER','Adrex Media School certification','other biography']:
+    with self.assertRaises(AssertionError):validate_zaheer_llm(text.replace(ZAHEER,bad))
+ def test_institute_cannot_be_reassigned_to_zaheer(self):
+  for text in [FAWAZ.replace('Fawaz BH','Zaheer KJ'),ZAHEER+' Adrex Media School',ZAHEER+' certification from Adrex Media School']:
+   self.assertIn('Adrex Media School',blocked_name_matches(text,self.names if hasattr(self,'names') else blocked_names(pathlib.Path(__file__).resolve().parents[1])))
 
 if __name__=='__main__':unittest.main()

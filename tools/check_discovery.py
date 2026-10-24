@@ -153,7 +153,7 @@ def physical_presence_matches(text):
 def blocked_name_matches(text, names):
     value = re.sub(r'[\s_]+', ' ', unicodedata.normalize('NFKC', unescape(unquote(text)))).casefold()
     # Adrex Media School is a training institute, not a university. Only the
-    # two exact owner-approved bios (including matching schema/FAQ/LLM text)
+    # exact Fawaz full bio (including matching schema/FAQ/LLM text)
     # receive an allow-entry. The university blocklist is unchanged and is
     # still checked against the complete, unmasked publication text.
     from team_bio_policy import APPROVED_BIOS

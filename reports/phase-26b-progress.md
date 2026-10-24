@@ -4,6 +4,6 @@
 
 1. Find occurrences: complete. Broad source/data/template/schema/LLM/owner-report/history/tool inventory in phase-26b-findings.md/JSON, pre-change file/line references. Only active surfaces change, historical records retained.
 2. Exact replacement/generator: complete. Five public/canonical files changed by only the two exact previous Zaheer bio substitutions. Both LLMs rebuilt with existing generator and byte-diff constrained to the approved replacement. CRLF/bare-LF counts unchanged. Active owner report no longer publishes/confirms a Zaheer credential.
-3. Narrow policy/regressions/card lengths: pending.
+3. Narrow policy/regressions/card lengths: complete. Only exact finance-only Zaheer bio/card allowed; Adrex allow-entry now Fawaz-only; whole-person/card/visible and schema FAQ/LLM regression checks and generator validation.13 policy tests PASS. Lengths Jabir127/Zaheer122/Fawaz126; spread5.
 4. Full lint/render/browser/discovery/strict wording/sitemap/schema and all-route previous-commit comparison: pending.
 5. Final push, changed files/remaining references and PR checkpoint: pending. Content payload rerun not applicable: content branch absent.

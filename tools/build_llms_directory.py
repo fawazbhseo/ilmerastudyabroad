@@ -198,6 +198,9 @@ def rebuild_team(text, name, root):
     members = json.loads(path.read_text())['members']
     lines = ["ILMERA Study Abroad's existing team:"]
     for member in members:
+        if member['name'] == 'Zaheer KJ':
+            from team_bio_policy import validate_zaheer_person
+            validate_zaheer_person(member)
         lines.append('- **' + member['name'] + ', ' + member['jobTitle'] + '.** ' + member['description'] + ' Photo: ' + member['image'])
     scope = json.loads((root / 'data/service-scope.json').read_text())
     lines.append(scope['founder_role'])
@@ -229,6 +232,8 @@ def check(base, root):
         status, _, body = fetch(base, '/' + name)
         assert status == 200 and body == (root / name).read_bytes(), (name, 'Served parity')
         result[name] = validate_directory(body.decode(), entries, inventory)
+        from team_bio_policy import validate_zaheer_llm
+        validate_zaheer_llm(body.decode())
         if (root / 'data/entity.json').exists():
             assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')
     return result
