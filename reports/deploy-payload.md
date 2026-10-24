@@ -199,3 +199,6 @@ Raw search caveat: `free` substring hits are7 legacy held APS URL identifiers an
 - `study-in-uk.php`
 - `terms.php`
 - `tools/.htaccess`
+
+Phase28 direct GitHub download: https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-850d0af.zip
+The branch-ref GitHub Contents API binary was fetched and matched all681792 bytes/SHA256. Direct raw-host fetching is outside this sandbox network allowlist.

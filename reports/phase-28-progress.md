@@ -4,6 +4,6 @@
 
 1. Complete PASS. Existing export tool used --source-ref HEAD at850d0af, verifies every blob against the original manifest.130 entries, exact hashes/sizes,8 .htaccess, no extra files/Markdown/Git/report-tool contents except denies, safe public_html-root layout. Proof includes size/SHA256. ZIP stays outside Git until Task2.
 2. Complete PASS. Committed repository artifact plus deny-only releases/.htaccess, excluded from upload and sitemap. ZIP-extracted isolated8085 adapter proves130 files/43 exact current+historical renders/38 sitemap/20 asset GET+HEAD. Native Apache/LiteSpeed rules remain unverified; safety policy copied byte-for-byte from existing data/.htaccess. Exclusion snapshot and deploy doc updated.
-3. Direct GitHub link/fetch and two-line checklist/PDF note: pending.
+3. Complete PASS. GitHub metadata supplied the direct raw URL; GitHub Contents API raw binary fetch matches681792 bytes and SHA256. Raw-host direct fetch is outside network allowlist, stated explicitly. Exactly two plain Markdown lines appended; prior bytes unchanged. Offline regenerated PDF stays2 A4 pages; extracted old PDF text remains exact prefix and only new text is the two appended lines (whitespace and typographic ligatures normalized).
 4. Existing full lint/discovery and no-public-change proof: pending.
 5. Append logs, final push and PR1 checkpoint: pending.
