@@ -1,0 +1,2165 @@
+{
+  "scan": "Every unchanged pre-existing line containing case-insensitive digital marketer or Zaheer, with post-change line numbers. Newly written findings and regression fixtures are separately described in findings.md.",
+  "references": [
+    {
+      "file": "CHANGELOG.md",
+      "line": 699,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "   and `zaheer.webp`: all 6 distinct referenced paths exist. README lists"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 749,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "itles: **Jabir KJ = Founder, Fawaz BH = CMO, Zaheer KJ = CFO**"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 751,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "itle, per explicit instruction. Fawaz BH and Zaheer KJ"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 754,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  articles were misattributed to Zaheer KJ and Jabir KJ)."
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 849,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ntion to \"CEO Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ\";"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 953,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- `assets/images/zaheer.png` (Zaheer KJ, lowercase \"z\")"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 957,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "N-LD blocks, which had used `jabir.png` and `Zaheer.png` (capital Z)"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 973,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  content strategy; Zaheer: document verification, APS submissions,"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1017,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "efined in `about.php` (`#jabir`, `#fawaz`, `#zaheer`),"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1033,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "thor card crediting the correct team member (Zaheer KJ,"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1401,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Replaced only Zaheer's placeholder variants with the approved CFO/company-"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1415,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "CA/portal follow-up, optional Zaheer background and accuracy/currentness of"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1433,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Replaced both Fawaz/Zaheer biography variants verbatim with the newly approved"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1492,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "s untouched. Full Person descriptions, Fawaz/Zaheer full FAQ biographies, sameAs, both LLM files, photos/names/titles/alt text and all other content remain unchanged. Counts 127/130/126, spread 4 PASS; eight narrow-context regressions and full suite PASS (542.04s)."
+    },
+    {
+      "file": "README.md",
+      "line": 505,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "- `assets/images/zaheer.png`"
+    },
+    {
+      "file": "README.md",
+      "line": 506,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "- `assets/images/zaheer.webp`"
+    },
+    {
+      "file": "about.php",
+      "line": 17,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": " Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. online consultation.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 44,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "road: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. online consultation.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 57,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "MERA: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). Study abroad counselling based in Coorg, serving students across Kodagu and Karnataka.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 147,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "     {\"@id\": \"https://ilmerastudyabroad.com/#zaheer\"}"
+    },
+    {
+      "file": "about.php",
+      "line": 164,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "rship Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and how the consultancy, based in Coorg, guides students across nine destinations with honest, personalised guidance.\","
+    },
+    {
+      "file": "about.php",
+      "line": 175,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "y Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.\","
+    },
+    {
+      "file": "about.php",
+      "line": 222,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "about.php",
+      "line": 223,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "about.php",
+      "line": 224,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"givenName\": \"Zaheer\","
+    },
+    {
+      "file": "about.php",
+      "line": 227,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "about.php",
+      "line": 289,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "          \"name\": \"Who is Zaheer KJ?\","
+    },
+    {
+      "file": "about.php",
+      "line": 316,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "tify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.\""
+    },
+    {
+      "file": "about.php",
+      "line": 523,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>"
+    },
+    {
+      "file": "about.php",
+      "line": 660,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "tar\"><picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" width=\"88\" height=\"88\" loading=\"lazy\" /></picture></div>"
+    },
+    {
+      "file": "about.php",
+      "line": 661,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "0;color:var(--deep-navy);margin-bottom:4px;\">Zaheer KJ</h3>"
+    },
+    {
+      "file": "about.php",
+      "line": 690,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "tify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>"
+    },
+    {
+      "file": "contact.php",
+      "line": 30,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "ed by Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ.\"/>"
+    },
+    {
+      "file": "data/team.json",
+      "line": 36,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "data/team.json",
+      "line": 37,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "data/team.json",
+      "line": 42,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 25,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  - `assets/images/zaheer.png` (Zaheer KJ, CFO : lowercase \"z\")"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 28,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  (case-sensitive) on the live server. `zaheer.png` was previously"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 29,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  referenced inconsistently as `Zaheer.png` (capital Z) in some places :"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 36,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Unified all three team cards (Jabir/Fawaz/Zaheer) to the same structure:"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 146,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "he site owner's explicit request (previously Zaheer KJ was"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 317,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- CFO Zaheer KJ is described as handling transcript/marksheet verification,"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 1998,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "m is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university partnerships across Europe, Russia, and the GCC."
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3425,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "No optional Zaheer background was supplied. His replacement uses only the"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3433,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "not Zaheer's placeholder and has not been removed."
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3452,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ivity code or any certificate file. Optional Zaheer"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3484,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "optional Zaheer background, written fee inclusions/schedule/refund terms and"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3492,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Phase 24 minimal Zaheer bio and Fawaz preservation instruction. Opened the"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3573,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ounts include punctuation/spaces: Jabir 127, Zaheer 130, Fawaz 126, spread 4 (<=6). No conflict or wording adjustment is needed. Full canonical bios, About FAQs and both LLM descriptions remain mandatory outside cards. No separate longer team section exists beyond the About biogr"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3578,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "riptions and both LLM files unchanged. Fawaz/Zaheer full FAQ bios remain required. Equal-height team-only grids can change team block height and naturally move later sections; no later-section styles/content are changed. Reference visual parity will compare unchanged sections wit"
+    },
+    {
+      "file": "index.php",
+      "line": 126,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "index.php",
+      "line": 130,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.png\""
+    },
+    {
+      "file": "index.php",
+      "line": 180,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers an online initial consultation with honest eligibility advice rather than guaranteed-admission promises.\"}},"
+    },
+    {
+      "file": "index.php",
+      "line": 475,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "th real, named people, Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH, who specialise in matching each student's marks, budget and goals to the right country and university. Meet the team below.</p>"
+    },
+    {
+      "file": "index.php",
+      "line": 611,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers an online initial consultation with honest eligibility advice rather than guaranteed-admission promises.</p></div></details>"
+    },
+    {
+      "file": "index.php",
+      "line": 648,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "     <picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" itemprop=\"image\" width=\"96\" height=\"96\" loading=\"lazy\" style=\"width:96px;height:96px;border-radius:50%;o"
+    },
+    {
+      "file": "index.php",
+      "line": 649,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "     <div class=\"testi-name\" itemprop=\"name\">Zaheer KJ</div>"
+    },
+    {
+      "file": "llms.txt",
+      "line": 206,
+      "reason": "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.",
+      "excerpt": "m is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university application guidance across the published destinations."
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 2,
+      "reason": "Historical draft import template, not runtime/publication source; protected/excluded, no re-import authorization.",
+      "excerpt": "als?\"\", \"\"ILMERA names Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Its About page identifies Zaheer as handling document verification and application filing. The initial consultation is free; the Terms say paid-service fees and scope are agreed before work begins and outcom"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 4,
+      "reason": "Historical draft import template, not runtime/publication source; protected/excluded, no re-import authorization.",
+      "excerpt": "\"\", \"\"ILMERA identifies Jabir KJ as Founder, Zaheer KJ as CFO and Fawaz BH as CMO. Its published document role for Zaheer includes verification and application filing. The first consultation has no charge, and the Terms set out agreement on further fees before paid work starts. ["
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 5,
+      "reason": "Historical draft import template, not runtime/publication source; protected/excluded, no re-import authorization.",
+      "excerpt": "med on the About page: Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Document review, filing and deadline tracking are described as Zaheer's responsibilities. ILMERA offers a free initial consultation and does not guarantee university or visa outcomes. [Read the team responsi"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 6,
+      "reason": "Historical draft import template, not runtime/publication source; protected/excluded, no re-import authorization.",
+      "excerpt": "te, Jabir KJ is Founder, Fawaz BH is CMO and Zaheer KJ is CFO. Zaheer's documented role covers records, applications and visa-file coordination. The first consultation is free; the [Terms of Use](/terms) require agreement on fees and scope before paid services begin.\"\", \"\"Start w"
+    },
+    {
+      "file": "reports/deploy-payload.md",
+      "line": 23,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/deploy-payload.md",
+      "line": 24,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/phase-18-task-1-lines.md",
+      "line": 73,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "m is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university application guidance across the published destinations."
+    },
+    {
+      "file": "reports/phase-18-task-1-lines.md",
+      "line": 88,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": " KJ is the Founder, Fawaz BH is the CMO, and Zaheer KJ is the CFO. Any other title variants referring to these individuals (for example, describing Jabir KJ as \"CEO\" or \"Managing Director\") should be treated as informal and superseded by the titles above."
+    },
+    {
+      "file": "reports/phase-20-prompt-coverage.md",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ies Jabir KJ as Founder, Fawaz BH as CMO and Zaheer KJ as CFO. The published process begins with a profile discussion and continues with shortlisting, applications and document preparation. A team profile or process description is not an independently verified customer review."
+    },
+    {
+      "file": "reports/phase-23-map.json",
+      "line": 1257,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "abir Founder, Fawaz Chief Marketing Officer, Zaheer Chief Financial Officer. ILMERA is new and has no student feedback yet.\""
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 101,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "### Zaheer KJ, Chief Financial Officer"
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 103,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Existing retained bio: Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 105,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": ": Existing About JSON-LD Person. Prior alt: `Zaheer KJ, CFO at ILMERA Study Abroad`."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 107,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Current alt: `Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad`. About display 88 x 88; Home display 96 x 96."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 109,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- `/assets/images/zaheer.png`: 192 x 192, 47,311 bytes; unchanged."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 110,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- `/assets/images/zaheer.webp`: 192 x 192, 11,014 bytes; unchanged."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 123,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Zaheer CFO bio remain exact. No new institution, award or experience duration."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 76,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "### Zaheer KJ"
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 79,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Existing alt: `Zaheer KJ, CFO at ILMERA Study Abroad`. Rendered dimensions 88 x 88; loading `lazy`."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 80,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Existing bio, retained exactly: Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 82,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Photo: `/assets/images/zaheer.png`, intrinsic 192 x 192, 47,311 bytes."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 83,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Photo: `/assets/images/zaheer.webp`, intrinsic 192 x 192, 11,014 bytes."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "affordable international education focus; Zaheer's existing bio states CFO"
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 69,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 72,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"bio_html\": \"Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 73,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"bio_text\": \"Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 76,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"alt\": \"Zaheer KJ, CFO at ILMERA Study Abroad\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 82,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"path\": \"/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 91,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"path\": \"/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 109,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    \"assets/images/zaheer.png\": \"PNG\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 110,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    \"assets/images/zaheer.webp\": \"WEBP\""
+    },
+    {
+      "file": "reports/phase-24-checks.json",
+      "line": 719,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "bir_fawaz_bios_preserved\\\": true, \\\"approved_zaheer_consistent\\\": true, \\\"photo_instances\\\": 11, \\\"oversized_originals\\\": [{\\\"path\\\": \\\"/assets/images/fawazbh.webp\\\", \\\"bytes\\\": 1541656, \\\"preserved_original\\\": true}], \\\"registration_output\\\": \\\"EXACT APPROVED PUBLIC PROJECTION\\\""
+    },
+    {
+      "file": "reports/phase-24-checks.json",
+      "line": 874,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "bir_fawaz_bios_preserved\\\": true, \\\"approved_zaheer_consistent\\\": true, \\\"photo_instances\\\": 11, \\\"oversized_originals\\\": [{\\\"path\\\": \\\"/assets/images/fawazbh.webp\\\", \\\"bytes\\\": 1541656, \\\"preserved_original\\\": true}], \\\"registration_output\\\": \\\"EXACT APPROVED PUBLIC PROJECTION\\\""
+    },
+    {
+      "file": "reports/phase-24-cycles.md",
+      "line": 11,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": " registration projection, identical approved Zaheer bio, exact Jabir/"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 12,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "values, minimal Zaheer bio and photo derivatives. Existing statuses, country"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 22,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "| 2. Zaheer finance-function bio | done | Full suite PASS 528.04s; exact sentence in About/Home/team/Person/both LLMs/FAQ; commit `57f4e54` |"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 54,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "That sentence is not Zaheer's placeholder. Narrowed the check to the two full"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 60,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "equivalence permits only the approved Zaheer substitution. Jabir/Fawaz"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 32,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "| Zaheer approved bio everywhere active | PASS | Identical approved sentence in About/Home/team/Person/LLMs/FAQ; both legacy bio strings absent from active surfaces |"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 66,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "## Final Zaheer bio"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 68,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "> Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 109,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- Optional Zaheer background: none supplied, not a blocker for the minimal bio."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 123,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "proved canonical Organization identifier and Zaheer Person"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 129,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- `/about`: Registration block, Zaheer bio/FAQ and Fawaz responsive image, plus canonical updates."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 139,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- `/`: Team Zaheer bio and Fawaz responsive image, plus shared canonical updates."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 212,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "2. `57f4e54`: Zaheer bio, full suite PASS 528.04s after exact negative-string fix."
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 20,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "6. About Zaheer card, legacy Person description, visible FAQ and matching FAQ"
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 23,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "8. Home Zaheer card: replace Phase 24 sentence with the new approved bio."
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 24,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "9. Home legacy Fawaz/Zaheer Person nodes: add the exact approved descriptions;"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 121,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"file\": \"assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 122,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 129,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"file\": \"assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 130,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 2141,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 2142,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "\"https://ilmerastudyabroad.com/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 82,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "| `assets/images/zaheer.png` | no repository access block | intentional public asset/discovery/verification resource; 200 (sitemap.php may canonical-redirect under existing native rewrite) |"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 83,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "| `assets/images/zaheer.webp` | no repository access block | intentional public asset/discovery/verification resource; 200 (sitemap.php may canonical-redirect under existing native rewrite) |"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 560,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 561,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 52,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "### Zaheer KJ, Chief Financial Officer"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 54,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "> Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation."
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 60,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "sted detail differed from Fawaz's portfolio. Zaheer's added facts are"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 406,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 407,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 176,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 177,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 229,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 230,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 282,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 283,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 346,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 347,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 421,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 422,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 496,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 497,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 135,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "The full Jabir, Fawaz and Zaheer descriptions live in canonical Person data; About FAQ answers retain full bios, and both LLM files retain full descriptions. There is no separate long-form team biography section beyond those About FAQ answers; do not invent one"
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 140,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "| Zaheer KJ | 130 |"
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 171,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "h; it does not alter the existing FAQ. Fawaz/Zaheer full biographies remain in their FAQ answers. No separate longer biography section exists. Full canonical Person descriptions and both LLM files remain unchanged."
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 18,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "y Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.\\\",\\\"isPartOf\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#website\\\"},\\\"about\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"mainEntity\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"dateModified\\"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 26,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 34,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 42,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 50,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 58,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 74,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 82,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 90,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 106,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ed by Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ.\\\"/>\\n<meta name=\\\"subject\\\" content=\\\"Study Abroad Consultancy & online Consultation\\\"/>\\n<meta name=\\\"topic\\\" content=\\\"Study Abroad, University Admissions, Student Visa, Scholarships\\\"/>\\n<meta name=\\\"coverage\\\" content=\\\""
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 114,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers an online initial consultation with honest eligibility advice rather than guaranteed-admission promises.\\\"}},{\\\"@type\\\":\\\"Question\\\",\\\"name\\\":\\\"How is ILMERA different from other study abroad consultants?\\\",\\\"acce"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 122,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 130,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 138,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 146,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 154,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 162,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 170,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 178,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 186,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 194,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 202,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 210,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 218,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 226,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 234,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 242,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 250,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 258,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 266,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 282,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 290,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 298,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 306,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 314,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 330,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 338,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 346,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n\\\",\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#zaheer\\\",\\\"name\\\":\\\"Zaheer KJ\\\",\\\"jobTitle\\\":\\\"Chief Financial Officer\\\",\\\"worksFor\\\":{\\\"@id\\\":\\\"https://ilmerastudyabroad.com/#organization\\\"},\\\"image\\\":\\\"https://ilmerastudyabroad.com/assets/images/zaheer.png\\\",\\\"description\\\":\\\"Zahe"
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 44,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 45,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 97,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 150,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 151,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 214,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 215,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 333,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 334,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 452,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 453,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-progress.md",
+      "line": 11,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": " are provided. Owner card counts: Jabir 127, Zaheer 130, Fawaz 126; spread 4 (PASS <=6). References are not uniformly light in the actual source; preserve them and apply the requested light reading-area rule only to pilot opt-ins. Full lint/unit/render/browser/discovery/strict su"
+    },
+    {
+      "file": "reports/phase-25-progress.md",
+      "line": 29,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "and both LLM files are byte-identical; Fawaz/Zaheer full About FAQ answers remain intact. The Phase24b scope helper now takes an explicit short-card flag with a strict expected visible-founder count of zero in Phase25, retaining its historical default of one. All other schema, FA"
+    },
+    {
+      "file": "reports/phase-25-stage-1-report.md",
+      "line": 43,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "Exact supplied card counts: Jabir127, Zaheer130, Fawaz126 characters; spread4 passes the required<=6 check. Only six card biographies and the redundant founder-role paragraph inside the original About card are replaced/removed. Names, titles, image files, crop, alt text, c"
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 44,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 45,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 97,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 150,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 151,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 203,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 204,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 256,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 257,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 309,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 310,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 44,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 45,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 97,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 150,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 151,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 203,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 204,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 256,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 257,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 309,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 310,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 44,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 45,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 97,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 98,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 150,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 151,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 203,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 204,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 256,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 257,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 309,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 310,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "        \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25c-reference-a11y-data.json",
+      "line": 4136,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-a11y-data.json",
+      "line": 4442,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6829,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6857,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6913,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9826,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9854,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9910,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12891,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12919,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12975,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15889,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15917,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15973,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30462,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30490,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30546,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32331,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32359,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32415,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34200,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34228,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34284,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "              \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36070,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36098,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36154,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "            \"text\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12345,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12565,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12709,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12798,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12942,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13086,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13230,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13374,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13520,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13664,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13808,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13952,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14096,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14240,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14384,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22565,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22709,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22853,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22997,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23217,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23361,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23581,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23803,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23892,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24036,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24180,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24269,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24413,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24633,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24777,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24997,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ople: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-26-base-inventory.json",
+      "line": 151,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    \"assets/images/zaheer.png\": \"cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f\","
+    },
+    {
+      "file": "reports/phase-26-base-inventory.json",
+      "line": 152,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    \"assets/images/zaheer.webp\": \"47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db\","
+    },
+    {
+      "file": "reports/phase-26-history-prefix.txt",
+      "line": 133,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "57f4e54 Phase 24 task 2: replace Zaheer placeholder with approved finance bio"
+    },
+    {
+      "file": "reports/phase-26-payload-manifest.json",
+      "line": 70,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"path\": \"assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-26-payload-manifest.json",
+      "line": 75,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "      \"path\": \"assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-26-public-url-checks.tsv",
+      "line": 2,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "RA Study Abroad; Short cards, complete Fawaz/Zaheer FAQ bios and approved Udyam line"
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 19,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 41,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 63,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 112,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 134,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 156,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "          \"bio\": \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 32,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "tar\"><picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" width=\"88\" height=\"88\" loading=\"lazy\" /></picture></div>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 33,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "0;color:var(--deep-navy);margin-bottom:4px;\">Zaheer KJ</h3>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 35,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "-        <p class=\"team-bio\">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 36,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "+        <p class=\"team-bio\">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 70,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "     <picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" itemprop=\"image\" width=\"96\" height=\"96\" loading=\"lazy\" style=\"width:96px;height:96px;border-radius:50%;o"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 71,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "     <div class=\"testi-name\" itemprop=\"name\">Zaheer KJ</div>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 73,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ize:15px;margin-top:16px;font-style:normal;\">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 74,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "ize:15px;margin-top:16px;font-style:normal;\">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 84,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "-from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 85,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "+from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS,validate_bio_contexts"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 91,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "earch(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 95,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 107,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "-  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(2 if route=='/about' else 1 if route=='/' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 108,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "+  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(1 if route=='/about' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 109,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": " remaining=visible.replace(FAWAZ,'').replace(ZAHEER,'');assert 'Adrex Media School' not in remaining,(route,'Training institute outside bios')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 117,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "    for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('\"name\": \"'+name+'\",','\"name\": \"'+name+'\", \"description\": '+json.dumps(bio)+',')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 146,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": " APPROVED_BIOS = (ZAHEER, FAWAZ)"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 153,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "+    'Zaheer KJ': \"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 204,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": ".assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names))"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 209,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126})"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 231,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "n [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]:"
+    },
+    {
+      "file": "reports/post-deploy-checklist.md",
+      "line": 14,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "  - Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+    },
+    {
+      "file": "reports/post-deploy-checklist.md",
+      "line": 16,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "- About: open Fawaz/Zaheer FAQs; complete credential bios remain. About and Contact: approved Udyam line present, no private certificate details."
+    },
+    {
+      "file": "reports/prompt-map.md",
+      "line": 66,
+      "reason": "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.",
+      "excerpt": "abir Founder, Fawaz Chief Marketing Officer, Zaheer Chief Financial Officer. ILMERA is new and has no student feedback yet. |"
+    },
+    {
+      "file": "tools/build_llms_directory.py",
+      "line": 185,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "    text = re.sub(r'(?m)^(- \\*\\*(?:Fawaz BH|Zaheer KJ),[^\\n]*?\\*\\*)[^\\n]*', r'\\1', text)"
+    },
+    {
+      "file": "tools/check_phase22.py",
+      "line": 42,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "earch(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase22.py",
+      "line": 45,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase23.py",
+      "line": 16,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "me'] for m in team]==['Jabir KJ','Fawaz BH','Zaheer KJ']"
+    },
+    {
+      "file": "tools/check_phase23.py",
+      "line": 32,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "</p>',r'<summary>Who is (?:Jabir KJ|Fawaz BH|Zaheer KJ)\\?</summary>(.*?)</details>',r'\"description\": \"((?:Jabir KJ|Fawaz BH|Zaheer KJ)[^\\r\\n]*)\"']:"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 14,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "ZAHEER=\"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.\""
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 15,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "OLD_ZAHEER='Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 63,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "earch(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 66,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 105,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "idences','ask a CA','Udyam portal','Optional Zaheer background','Ahrefs Academy and Semrush','Adrex Media School','accurate and','Payment schedule','Refund and cancellation','Future genuine feedback']:"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 113,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "me'] for m in team]==['Jabir KJ','Fawaz BH','Zaheer KJ']"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 117,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "  expected_bio=ZAHEER if member['name']=='Zaheer KJ' and stage>=2 else original['bio_text']"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 118,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "scription']==expected_bio,'Only the approved Zaheer bio may differ'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 133,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   expected=expected.replace(OLD_ZAHEER.encode(),ZAHEER.encode()).replace(HOME_PLACEHOLDER.encode(),ZAHEER.encode())"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 146,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "2:expected_team['members'][2]['description']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 195,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text,(route,'Old Zaheer bio')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 196,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   if route in ['/','/about']:assert ZAHEER in visible,(route,'Visible Zaheer bio')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 223,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "  if stage>=2:assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text and ZAHEER in text"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 226,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "rue,jabir_fawaz_bios_preserved=True,approved_zaheer_consistent=True,photo_instances=photo_instances,oversized_originals=oversized,registration_output='EXACT APPROVED PUBLIC PROJECTION',fee_proof='EMPTY',fee_range_only_visible_or_faq=True)"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 7,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 54,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "earch(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 57,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 93,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "ription']==FAWAZ and team[2]['description']==ZAHEER and team[1]['sameAs']==FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 108,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "     elif n.get('name')=='Zaheer KJ':n['description']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 111,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "     elif n.get('name')=='Who is Zaheer KJ?':n['acceptedAnswer']['text']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 129,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(2 if route=='/about' else 1 if route=='/' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 130,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": " remaining=visible.replace(FAWAZ,'').replace(ZAHEER,'');assert 'Adrex Media School' not in remaining,(route,'Training institute outside bios')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 134,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "     assert v in [FAWAZ,ZAHEER] and ((n.get('@type')=='Person' and key=='description') or (n.get('@type')=='Answer' and key=='text')),(route,'Institution in unintended schema')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 142,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": ").read_text();assert t.count(FAWAZ)==t.count(ZAHEER)==1"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 143,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "  assert t.replace(FAWAZ,'').replace(ZAHEER,'').count('Adrex Media School')==0"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 3,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 12,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "WAZ_SAME_AS;obj['members'][2]['description']=ZAHEER"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 15,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "text=text.replace(previous[2]['description'],ZAHEER)"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 24,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\"',start)"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 29,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "   for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('\"name\": \"'+name+'\",','\"name\": \"'+name+'\", \"description\": '+json.dumps(bio)+',')"
+    },
+    {
+      "file": "tools/phase25/audit.py",
+      "line": 34,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": " team area.', '', 'The full Jabir, Fawaz and Zaheer descriptions live in canonical Person data; About FAQ answers retain full bios, and both LLM files retain full descriptions. There is no separate long-form team biography section beyond those About FAQ answers; do not invent one"
+    },
+    {
+      "file": "tools/phase26/prepare.py",
+      "line": 30,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "_text().replace('from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS','from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS,validate_bio_contexts').replace(\"visible.count(bio)==1 and 'financial consultant'\", \"visible.count(bio)==0 and 'financial consultant'\").replace(\"(2 if "
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 5,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 9,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": "  for bio in [ZAHEER,FAWAZ]:self.assertEqual(blocked_name_matches(bio,self.names),[])"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 15,
+      "reason": "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.",
+      "excerpt": ".assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names))"
+    }
+  ],
+  "reasons": {
+    "Historical evidence/snapshot/log retained, superseded by final owner decision; not site payload.": 285,
+    "Name/title/identity/photo or generic named-team reference, not a retired biography claim; explicitly preserved.": 30,
+    "Historical draft import template, not runtime/publication source; protected/excluded, no re-import authorization.": 4,
+    "Historical transform/test fixture or name-based validation, not published copy. Phase26 archive reproducer is obsolete; never deploy its old output.": 40
+  }
+}

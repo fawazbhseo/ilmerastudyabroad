@@ -3666,3 +3666,6 @@ Later design release remains separate: all3 lab control sessions unreliable; own
 ## Phase26b owner finance-only correction (2026-10-24)
 
 Remote fetch confirms release/content-phase-24b is absent. Fix arena only; no alternate branch or PR created. Owner final text supersedes all earlier Zaheer biography approvals, including frozen Phase26 patch/archive instructions. Historical append-only records/tools remain evidence, not approved active copy: never regenerate/deploy an old candidate without applying this correction and re-verifying. Keep Fawaz diploma and narrow Fawaz-only institution context. No other content/design/status/schema property or image changes authorized.
+
+
+Phase26b conservative retention: old Phase26 patch, manifest, ZIP and external candidate predate the final decision and are NOT current deployable artifacts. The old8083 preview was stopped; only the corrected design-branch preview remains. No content branch exists, so no new content payload is built or represented as verified. Historical place CSV import drafts and older policy/check fixtures are not active website copy and stay immutable; never use them to restore an old bio. Team review-date/basis fields are kept unchanged because only Zaheer biography text is authorized; this dated owner decision is recorded here instead.

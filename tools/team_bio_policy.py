@@ -71,6 +71,7 @@ def validate_zaheer_llm(text):
     lines=[line for line in text.splitlines() if line.startswith('- **Zaheer KJ,')]
     expected="- **Zaheer KJ, Chief Financial Officer.** "+ZAHEER+" Photo: https://ilmerastudyabroad.com/assets/images/zaheer.png"
     assert lines == [expected], 'Exact Zaheer LLM entry required'
+    assert not any(re.search(r'zaheer',line,re.I) and re.search(r'adrex|certif',line,re.I) for line in text.splitlines()), 'Zaheer credential in LLM'
     assert not re.search(r'digital\s+marketer',text,re.I), 'Retired marketer wording in LLM'
     return True
 

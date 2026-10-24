@@ -61,6 +61,12 @@ class FinanceOnlyRegressionTests(unittest.TestCase):
    with self.assertRaises(AssertionError):validate_bio_contexts(text.replace(ZAHEER,ZAHEER+' '+bad),'/about')
    faq='<summary>Who is Zaheer KJ?</summary><div><p>'+ZAHEER+' '+bad+'</p>'
    with self.assertRaises(AssertionError):validate_zaheer_render(faq)
+ def test_zaheer_faq_schema_rejects_retired_claims(self):
+  import json
+  from team_bio_policy import validate_zaheer_render
+  for bad in ['Digital Marketer','digital marketer','DIGITAL MARKETER','Adrex Media School certification']:
+   text='<script type="application/ld+json">'+json.dumps({'@type':'Question','name':'Who is Zaheer KJ?','acceptedAnswer':{'@type':'Answer','text':ZAHEER+' '+bad}})+'</script>'
+   with self.assertRaises(AssertionError):validate_zaheer_render(text)
  def test_llm_entries_reject_claims_and_variants(self):
   from team_bio_policy import validate_zaheer_llm
   root=pathlib.Path(__file__).resolve().parents[1]

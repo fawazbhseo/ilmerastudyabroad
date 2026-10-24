@@ -385,3 +385,23 @@ Historical reports/logs/snapshots/Phase26 patch and archive-reproduction tools r
 | `tools/test_team_bio_policy.py:15` | test/tool fixture or expectation, inspect |   self.assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names)) |
 | `tools/test_team_bio_policy.py:20` | test/tool fixture or expectation, inspect | l({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126}) |
 | `tools/test_team_bio_policy.py:42` | test/tool fixture or expectation, inspect |   for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]: |
+
+## Post-change retention and exact remaining references
+
+Every unchanged pre-existing matching line, with its post-change file/line and individual reason, is listed in phase-26b-remaining-references.json. The broad search deliberately includes benign names/titles/IDs/photo paths and generic named-team copy; these are not biography regressions and must not change. CSV import drafts are old non-runtime inputs, not active pages. Historical phase checks, Phase25 baseline snapshots and Phase26 patch/payload records stay immutable but their Zaheer wording is superseded. Do not deploy that old ZIP/patch or re-import the CSV. The old clean-payload preview was stopped. No content branch exists, so a new content payload was not built or certified.
+
+This findings report/JSON and the remaining-reference inventory necessarily quote the old claims as audit evidence. New tools/test_team_bio_policy.py negative fixtures intentionally exercise mixed-case retired marketer terms and Adrex/certification mutations in person records, cards, visible/schema FAQs and LLM entries. tools/team_bio_policy.py contains forbidden-term detection, not publication copy. tools/phase26b/expected.py reads old exact strings from the pre-change Git commit solely to prove the authorized delta. None is included in website payload.
+
+Fawaz's unchanged diploma and its exact full-bio allow-entry are intentionally retained, including canonical Person descriptions, About FAQ/schema and both LLMs. No Zaheer institute allow-entry remains. Team reviewed_on/basis metadata is retained unchanged under the only-biography-text constraint; dated owner decision is in current progress/flags.
+
+## Active Fawaz institute references deliberately retained
+
+These all contain the unchanged exact Fawaz full bio, not a Zaheer credential. The narrow policy allow-entry is that Fawaz text only. Generated route contexts are additionally covered by the all-route JSON-LD comparison.
+
+- `index.php:117`: Fawaz full-bio diploma, required unchanged.
+- `about.php:205`: Fawaz full-bio diploma, required unchanged.
+- `about.php:284`: Fawaz full-bio diploma, required unchanged.
+- `about.php:686`: Fawaz full-bio diploma, required unchanged.
+- `data/team.json:28`: Fawaz full-bio diploma, required unchanged.
+- `llms.txt:19`: Fawaz full-bio diploma, required unchanged.
+- `llms-full.txt:33`: Fawaz full-bio diploma, required unchanged.
