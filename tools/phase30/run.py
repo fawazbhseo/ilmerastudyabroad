@@ -101,6 +101,7 @@ for x,y in itertools.combinations(tokens,2):
  maximum=max(maximum,*values);pairs+=1
 checks['rendered location overlap']={'status':'PASS','pairs':pairs,'maximum_percent':maximum}
 
+if (ROOT/'tools/phase30/scope.py').exists():run('strict Phase30 source and archive scope',[sys.executable,'tools/phase30/scope.py','--source-root',os.environ.get('PHASE30_SOURCE_ROOT',str(ROOT))])
 run('whitespace',['git','-c','core.whitespace=cr-at-eol','diff','--check'])
 result={'task':a.task,'resumed_at':a.resume_at,'checked_on':'2026-10-26','parent':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'seconds':round(time.time()-start,2),'environment':'PHP 8.5 WASM adapter/CLI and Chromium; external browser requests aborted','live_deployment':False,'native_apache':False,'external_raw_http':False,'contact_delivery':False,'checks':checks}
 (a.evidence/'result.json').write_text(json.dumps(result,indent=2)+'\n')

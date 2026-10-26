@@ -3725,3 +3725,16 @@ Phase27 final evidence boundaries: all35 functional groups PASS556.78s, but fres
 
 - Replace upload section(b) and the obsolete appended two-line Phase28 upload note only. Preserve the historical title/intro, before-PSI table and all(c)-(k) checks byte-exact as requested. New section(b) explicitly supersedes the older130-file upload wording:131 until the temporary checker is deleted,130 afterward. Do not fabricate a missing before baseline.
 - Longer upload/count instructions increase PDF page count rather than shrink typography or remove any existing page/privacy/font/contact/speed/rollback/Search Console step. Cache directions are conditional on the actual Hostinger/CDN/LiteSpeed options; no WordPress/plugin installation is assumed or performed. Existing host extras can increase File Manager counts; overwrite is not a safe deletion plan.
+
+## Phase30 verification input bookkeeping (2026-10-26)
+
+- The owner-sheet generator initially added one unnecessary empty EOF line. It was corrected before the Task4 implementation commit. The identical documentation-only EOF correction was applied to the Task4/5 external report worktrees before their whitespace gates. Functional runtime bytes, assertions and group selection were never changed; no check was skipped or waived. Report outputs are mutable within these isolated suites, while the public runtime stays frozen.
+
+## Phase30 Task5 complete rerun (2026-10-26)
+
+- First Task5 attempt passed the functional/browser/accessibility groups but failed the new strict scope gate because it inspected regenerated historical-name report outputs in the external worktree. Those outputs are intentionally mutable; the real repository historical files remain protected and unchanged. No complete PASS is claimed for that attempt. Scope now explicitly targets the real source repository and clears inherited external Git worktree/index variables, retaining every protection and131-path archive/hash assertion. The full Task5 suite is rerun from the beginning with no skips/resume, no public runtime changes and no performance lab retry.
+
+## Phase30 final functional outcome (2026-10-26)
+
+- All five complete cycles pass: Task1 37groups/659.17s, Task2 38/1063.34s, Task3 38/1655.1s, Task4 38/1694.91s, Task5 fresh attempt2 39/672.82s. Every cycle executes258 browser and66 accessibility cases with0 rebuilt axe violations. No skip/resume or fourth performance lab. Task2 preliminary stop and Task5 failed scope-target attempt are not counted as complete passes.
+- Fresh reference overflow counts are4,2,4,3,4 respectively, with24 reference contrast groups each cycle. These variable observations do not resolve the historical five overflow cases or reference contrast inventory. Historical reports and blockers remain untouched. Native hosting/cache/ACL/CSP/MIME/contact/backup/source/privacy/business/certificate and held-route gates remain owner responsibilities, with no go-live certification.
