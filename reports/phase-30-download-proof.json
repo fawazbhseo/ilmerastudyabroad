@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "download_url": "https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-f54e4cc.zip",
+  "branch": "arena/48320ee5-ilmerastudyabroad",
+  "bytes": 690538,
+  "sha256": "6ce9d3c98638a1cd454fd662cfc1d3a899ef5743d81e05b1147987f3552af459",
+  "binary_fetch": "GitHub Contents API raw media representation, byte-identical to committed ZIP",
+  "direct_raw_host_fetch": "Not allowed by sandbox host allowlist; direct raw URL verified from GitHub metadata, binary fetched via permitted api.github.com instead"
+}

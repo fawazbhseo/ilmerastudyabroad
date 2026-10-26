@@ -18,9 +18,34 @@ Run PageSpeed Insights **mobile** on the current Phase13 live pages. Save dated 
 
 ## (b) Upload method
 
-**Git deployment:** use a private checkout of the session branch outside public_html, then publish only the manifest130 files. Never expose the whole checkout or .git. If filtering is unavailable, use manual upload.
+**Current Phase30 ZIP:131 files, including the temporary self-check.130 permanent files remain after deleting it. This section supersedes the older130-file upload wording above and the old ZIP note.** Do not use a PHP-only update or upload the whole repository.
 
-**Manual:** upload/extract only the verified pack contents into public_html, without an extra wrapper folder. Enable hidden-file transfer. Keep9 runtime JSON inputs and all8 .htaccess files; reports/tools get deny files only. No other internal contents. Reconcile obsolete files against the backup, not overwrite-only copying.
+1. **(a) Back up first.** Download the existing public_html contents, including hidden files and hosting/PHP settings, to your computer. Keep the backup outside public_html and confirm how to restore it.
+2. **(b) Download** [ilmera-deploy-f54e4cc.zip](https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-f54e4cc.zip) from GitHub to your computer. Expected size:690538 bytes.
+3. **(c) Extract on Hostinger.** Open hPanel, Websites, this site's Dashboard/Manage, File Manager. Open the domain's public_html folder. Upload the ZIP there, select it and choose Extract. Extract directly into public_html and overwrite existing files. Do not create a ZIP-named subfolder. Enable Show hidden files so .htaccess files are included. Do not upload releases/, reports or tools contents from the repository.
+4. **(d) Delete the uploaded ZIP from public_html immediately after extraction.** Keep your backup on your computer, never under web access. Check the folder counts below after deleting the ZIP.
+5. **(e) Clear caches.** In hPanel, find this site's Cache Manager, commonly under Performance, and choose Purge all. If Hostinger CDN is enabled, purge its cache too. If a LiteSpeed/LSCache option is enabled, purge that cache; for an installed WordPress LiteSpeed Cache plugin, use LiteSpeed Cache, Toolbox, Purge All. This PHP site need not have WordPress or that plugin: do not install one. Panel labels vary; use panel search or ask Hostinger support. Open a fresh private/incognito window for testing.
+6. **(f) Run** [the temporary live self-check](https://ilmerastudyabroad.com/deploy-check.php?key=596b2f06f047c76730364c34857c6b47d03b019b21f8818960752a42fe104d9f) and send a screenshot of ALL FILES OK or the FAIL list. It checks fixed payload files for you, including the design assets. It expires after15November2026 UTC. Do not add extra URL parameters. This result is not a speed/native-host acceptance.
+7. **(g) Delete deploy-check.php from public_html immediately after that one use.** Reopen its link to confirm404. Never leave the temporary file online just because it has a key/expiry.
+8. **(h) Continue with all the page, privacy, font, contact and speed checks below.** If anything fails, follow rollback section(j), not speculative file deletion.
+
+**Expected files from this ZIP:** count files, not folders, including hidden files/licences. Existing host extras may make counts larger; compare them with the backup and ask before deleting unrelated hosting files. Overwrite does not remove old unlisted files.
+
+| Folder | Expected files |
+|---|---|
+| assets/css | 1 |
+| assets/fonts | 12 |
+| assets/images | 7 |
+| includes | 18 |
+| data | 8 |
+| destinations | 10 |
+| places | 18 |
+| blog | 9 |
+| root public_html | 46 before deleting deploy-check.php;45 afterward |
+
+reports/ and tools/ each receive ONLY their hidden .htaccess deny file, one file each, no other content. Counts sum131 before deleting the checker,130 afterward. The releases/ folder is never extracted. Font count12 includes9 font binaries,2 licences and1 hidden policy.
+
+**12 important files to spot:** assets/css/visual-system.css; assets/fonts/outfit-latin.woff2; assets/fonts/cormorant-garamond-latin.woff2; includes/visual-system.php; includes/visual-config.php; includes/site-presentation.php; includes/header.php; includes/footer.php; data/seo-map.json; data/answer-map.json; root .htaccess; temporary deploy-check.php. The checker covers the full allowlist and detailed critical hashes; you do not need to compare130 files manually.
 
 ## (c) Open on mobile and desktop
 
@@ -103,6 +128,3 @@ Send back: failing URL, screenshot/error status and before/after PageSpeed numbe
 ## (k) Search Console, after owner acceptance
 
 Resubmit https://ilmerastudyabroad.com/sitemap.xml. Use URL Inspection to request indexing for [Karnataka](https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka), [Germany](https://ilmerastudyabroad.com/study-in-germany), [Italy](https://ilmerastudyabroad.com/study-in-italy), [UK](https://ilmerastudyabroad.com/study-in-uk) and the [choosing-consultant guide](https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka). Record outcomes; requests do not guarantee indexing/rankings. Never request the four held pages.
-
-Unzip ilmera-deploy-850d0af.zip locally, preserving its 130-file folder structure.  
-Upload contents with hidden .htaccess files into public_html; exclude the ZIP and releases folder.
