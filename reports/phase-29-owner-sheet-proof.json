@@ -1,0 +1,8 @@
+{
+  "pages": 1,
+  "paper": "A4,12mm margins,10pt body,8.8pt table",
+  "markdown_words": 438,
+  "offline_no_external_requests": true,
+  "pdf_print_check_only": "PDF outside Git; owner requested Markdown sheet",
+  "passed": true
+}
