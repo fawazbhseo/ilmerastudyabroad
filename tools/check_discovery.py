@@ -65,7 +65,7 @@ def routes(root):
     posts = (root / 'includes/posts.php').read_text()
     for file in sorted(list(root.glob('*.php')) + list((root / 'blog').glob('*.php'))):
         rel = file.relative_to(root).as_posix()
-        if rel == 'sitemap.php':
+        if rel in ('sitemap.php', 'deploy-check.php'):
             continue
         path = '/' if rel == 'index.php' else '/blog/' if rel == 'blog/index.php' else '/' + rel[:-4]
         status = 'published'

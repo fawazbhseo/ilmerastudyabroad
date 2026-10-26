@@ -15,4 +15,10 @@ class ExposureTests(unittest.TestCase):
   self.assertNotIn(b'RewriteRule',ROOT_DENY);self.assertNotIn(b'RewriteCond',ROOT_DENY);self.assertNotIn(b'Order ',ROOT_DENY)
  def test_all_private_runtime_folders_covered(self):
   self.assertEqual(set(INTERNAL),{'reports','tools','includes','data','destinations','places'})
+ # The temporary checker is intentionally excluded from ordinary public exposure
+ # inventory, not treated as an unprotected page or a permanent asset.
+ def test_temporary_checker_exception_is_guarded(self):
+  p=pathlib.Path(__file__).resolve().parents[1]/'deploy-check.php'
+  if p.exists():
+   text=p.read_text();self.assertIn('hash_equals(ILMERA_DEPLOY_CHECK_KEY',text);self.assertIn('time() >= ILMERA_DEPLOY_CHECK_EXPIRES_AT',text);self.assertIn('count($_GET) !== 1',text)
 if __name__=='__main__':unittest.main()

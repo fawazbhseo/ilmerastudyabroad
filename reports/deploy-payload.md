@@ -204,3 +204,7 @@ Phase28 direct GitHub download: https://raw.githubusercontent.com/fawazbhseo/ilm
 The branch-ref GitHub Contents API binary was fetched and matched all681792 bytes/SHA256. Direct raw-host fetching is outside this sandbox network allowlist.
 
 Phase28 reproduction from its actual starting HEAD: `python3 tools/phase27/export.py --source-ref 850d0af5c083b06e3c65abc997fcab6708121c6f --out /new/empty/folder --zip /new/artifact.zip`. `--source-ref HEAD` also verifies all blobs against the unchanged manifest on later documentation-only commits. ZIP metadata may differ across rebuilds; per-file manifest bytes/hashes are the runtime identity.
+
+## Phase30 temporary payload addition (supersedes prior pack for this phase)
+
+Add root deploy-check.php as a TEMPORARY131st file. Long random query key, exact-parameter validation, expiry after2026-11-15 UTC, noindex/no-store, fixed path metadata/hash table only. Delete after one use. Do not expose the report or upload the whole checkout. The manifest/source-pinned131-file ZIP is rebuilt in Phase30 task3; prior130-file archives do not contain this checker or duplicate fix. See reports/live-self-check.md for owner URL and limitations. No sitemap, robots, LLM or internal link is changed.
