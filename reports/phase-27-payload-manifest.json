@@ -1,6 +1,6 @@
 {
-  "source_commit": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
-  "scope": "entire current branch including Phase25 design and Phase26b finance-only bio; NOT the old117-file content candidate",
+  "source_commit": "f54e4cc746fe54cfd89c228d8cf88635864c7ccb",
+  "scope": "Phase30: unchanged design/content except exact shared duplicate fix and temporary keyed/expiring deploy-check.php",
   "files": [
     {
       "path": ".htaccess",
@@ -213,6 +213,12 @@
       "sha256": "35cb45fc1222d47dd39c2b022addea6c2a7cb8765cfcc01115e3f3ff7a8f9ca4"
     },
     {
+      "path": "deploy-check.php",
+      "bytes": 18628,
+      "sha256": "13d1d9718781fb03ff8f59d70ae08630ce099a05cffeb0a5c9c78929cc0745db",
+      "temporary": true
+    },
+    {
       "path": "destinations/.htaccess",
       "bytes": 96,
       "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
@@ -344,8 +350,8 @@
     },
     {
       "path": "includes/site-presentation.php",
-      "bytes": 11273,
-      "sha256": "ce43a45f205a9256e0429571ff22ec3df87ab2fd2dad27f32e95d408db292d1f"
+      "bytes": 12175,
+      "sha256": "6fc9c360bfbf3f72be029e47c6e2a8ff219d3684f85c10bade238b93a49f310c"
     },
     {
       "path": "includes/sitemap-data.php",
@@ -653,10 +659,17 @@
       "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
     }
   ],
-  "upload_count": 130,
-  "excluded_source_tracked_count": 394,
-  "source_tracked_count": 524,
-  "count_basis": "Git-tracked snapshot at source_commit; all additional Phase27 reports/tools and untracked caches are excluded too. No finite count claimed for Git internals/node modules/caches.",
+  "upload_count": 131,
+  "all_htaccess": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ],
   "runtime_json_exceptions": [
     "data/answer-map.json",
     "data/entity.json",
@@ -667,16 +680,6 @@
     "phase14-article-review.json",
     "phase14-location-review.json",
     "phase14-source-review.json"
-  ],
-  "all_htaccess": [
-    ".htaccess",
-    "assets/fonts/.htaccess",
-    "data/.htaccess",
-    "destinations/.htaccess",
-    "includes/.htaccess",
-    "places/.htaccess",
-    "reports/.htaccess",
-    "tools/.htaccess"
   ],
   "runtime_assets_read_or_licensed": [
     "assets/css/visual-system.css",
@@ -716,8 +719,28 @@
     "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
   ],
   "no_symlinks": true,
-  "payload_root": "/home/user/phase27/payload",
-  "final_phase27_inventory": {
+  "phase": "30",
+  "runtime_baseline": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "runtime_delta": [
+    "includes/site-presentation.php",
+    "deploy-check.php"
+  ],
+  "source_tracked_count": 634,
+  "excluded_source_tracked_count": 503,
+  "count_basis": "Counts refer only to the committed source_commit snapshot. Later reports/tools/release-artifact commits are excluded and do not change131 runtime entries.",
+  "temporary_payload_files": [
+    "deploy-check.php"
+  ],
+  "temporary_delete_after_use": true,
+  "temporary_expiry": "2026-11-16T00:00:00Z",
+  "excluded_namespaces": [
+    "releases/",
+    "reports/ except reports/.htaccess",
+    "tools/ except tools/.htaccess",
+    ".git/",
+    "caches/"
+  ],
+  "historical_phase27_inventory": {
     "total_tracked_files": 547,
     "excluded_tracked_files": 417,
     "additional_internal_paths": [
@@ -747,10 +770,7 @@
     ],
     "basis": "Final Phase27 file set, including final handoff/manifest. Public runtime remains source_commit; no deletion/new public file. Git metadata and untracked caches/node modules not finitely counted."
   },
-  "excluded_namespaces": [
-    "releases/"
-  ],
-  "phase28_archive": {
+  "historical_phase28_archive": {
     "repository_path": "releases/ilmera-deploy-850d0af.zip",
     "excluded_from_payload": true,
     "release_directory_policy_not_in_upload_manifest": true,

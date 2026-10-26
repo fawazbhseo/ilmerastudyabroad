@@ -1,23 +1,26 @@
-# Current full-branch deploy payload: Phase28 artifact, unchanged Phase27 runtime
+# Phase30 exact deployment payload
 
-**Replaces the stale117-file content-only list. This pack contains content phases14-26b AND Phase25 design. No deployment or owner acceptance performed.**
+**Current pack:131 files, including temporary deploy-check.php. After the owner deletes that file,130 remain.** This replaces the old130-file Phase28 artifact for this release; do not use the old117-file content-only pack. No agent deployment or owner/native-host acceptance is performed here.
 
-Source runtime commit: `a3d696f7942b2df5c76d660c2b9f3252881ce314` on `arena/48320ee5-ilmerastudyabroad`. Phase27 commits modify reports/tools/logs only, so runtime bytes remain this exact snapshot. Final documentation hash is reported in the Phase27 handoff, not falsely labelled as a new runtime build.
+Runtime source commit: `f54e4cc746fe54cfd89c228d8cf88635864c7ccb`. The only public runtime differences from a3d696f are the exact shared duplicate-answer fix in includes/site-presentation.php and temporary deploy-check.php. CSS, font, image, visual-system/config, all original .htaccess, publication/status/canonical/heading/FAQ/schema/link data and discovery bytes remain unchanged. Subsequent report/release commits do not change this runtime snapshot.
 
-## Exact counts and identity
+## Downloadable ZIP
 
-- **130 upload files**. Source snapshot has524 tracked files; **394 excluded tracked source files**. The historical final Phase27 file set adds23 internal paths: **417 total excluded tracked files out of547**; the130 upload files are unchanged. Historical Phase27 exclusions are in phase-27-excluded-files.json. **Final Phase28:563 tracked files =130 upload +433 excluded**, including both releases/ files; current full exclusions are in phase-28-excluded-files.json. Untracked caches, node_modules and Git internals are unbounded exclusions, not included in those counts.
-- Per-file bytes/SHA256: [phase-27-payload-manifest.json](phase-27-payload-manifest.json). Every excluded source path/reason: [phase-27-excluded-files.json](phase-27-excluded-files.json). Neither report is uploaded.
-- Offline manifest-verified export: `python3 tools/phase27/export.py --out /new/empty/temporary/folder --zip /new/artifact.zip`. This reads the pinned Git blobs, verifies every hash and refuses existing destinations. It does not deploy or regenerate site files.
-- Historical Phase27 ZIP outside Git (superseded by the committed Phase28 download below): `/home/user/phase27/ilmera-phase27-a3d696f.zip`, 681792B, SHA256 `7c7fc3284b924df08b6c63c2ee27329d3b10298304b591679944a590b8f2fee4`. Its entries exactly match the manifest. Extract contents to the hosting root, not a wrapper folder; never upload the ZIP itself into the public folder.
+[Download ilmera-deploy-f54e4cc.zip](https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-f54e4cc.zip)
 
-## Phase28 downloadable repository artifact
+Repository path: `releases/ilmera-deploy-f54e4cc.zip`. Size: **690538 bytes**. SHA256: `6ce9d3c98638a1cd454fd662cfc1d3a899ef5743d81e05b1147987f3552af459`.
 
-Current-HEAD export: `releases/ilmera-deploy-850d0af.zip`,681792 bytes, SHA256 `31442c174e64b701a46db9bb935e88c85f0e201a4707297e70e9a3d06146d9d6`. Its130 entries match the unchanged upload manifest. The earlier external-only ZIP remains historical; use the committed artifact now. releases/ is excluded from all publication/export/discovery. Its deny rule is repository safety only, not a ninth upload policy. See phase-28-payload-proof.json for the fresh ZIP-extracted clean-folder proof with releases/ present in the repo.
+Existing tools/phase27/export.py reads source_commit Git blobs and verifies every manifest hash. Reproduction: `python3 tools/phase27/export.py --source-ref f54e4cc746fe54cfd89c228d8cf88635864c7ccb --out /new/empty/folder --zip /new/artifact.zip`. Destination must not exist. ZIP metadata may vary on rebuild; exact per-file bytes/hashes are the runtime identity. The committed ZIP has no wrapper folder, duplicates, unsafe paths, Markdown, Git data, releases/ content or report/tool contents except reports/.htaccess and tools/.htaccess. All8 original policies are included unchanged.
 
-## Mandatory runtime exceptions and privacy
+## Temporary owner checker
 
-Blanket internal-folder/JSON exclusions BREAK this application. Retain includes/, data/, destinations/, places/ PHP runtime and all nine JSON inputs below. PHP reads them on disk; no browser needs direct access. Do not move them without a separately tested path/layout change, which is out of scope here.
+Root deploy-check.php is intentional temporary131st payload member, not a published discovery page. Long random sole query key, strict GET/query guard, expiry valid through2026-11-15 UTC and fail closed from2026-11-16 00:00UTC. Noindex/no-store on allowed and denied responses. Fixed-path existence/readability/size/hash table only; no filesystem enumeration, contents, .htaccess reads, environment/server-path display, file parameter or writes. Critical assets/includes/JSON hashes match this manifest. Other original files and the checker itself are existence-only, avoiding a circular self-hash; offline ZIP tooling verifies all131 hashes.
+
+Owner URL/key and native .php canonical-redirect caveat: reports/live-self-check.md. **Delete deploy-check.php immediately after one use.** The code is intentionally excepted from ordinary public-exposure200 probes and tested separately for wrong/missing/extra/traversal/expired requests. It is absent from all sitemap/robots/LLM/internal links. This is not strong authentication for private data; source/report key copies are not a secret vault.
+
+## Files that must remain on disk
+
+All includes/, data/, destinations/, places/ PHP dependencies remain PHP-readable and HTTP-denied by their unchanged child policies. Do not remove them to repair design. Nine required JSON inputs:
 
 - `data/answer-map.json`
 - `data/entity.json`
@@ -29,45 +32,37 @@ Blanket internal-folder/JSON exclusions BREAK this application. Retain includes/
 - `phase14-location-review.json`
 - `phase14-source-review.json`
 
-The three root review journals gate approved publication/source/hash records. The six data JSON files drive canonical entity/team, answers, SEO and service/payment disclosures. `data/proof.php` is also mandatory. Dropping them can hide pages, remove disclosures or change structured data. The clean proof below verifies they were retained.
-
-All8 payload .htaccess files are included unchanged. The ninth tracked policy, releases/.htaccess, protects the repository artifact folder and is excluded with that folder. Explicit safety exceptions to the reports/tools exclusion are **only reports/.htaccess and tools/.htaccess**, placed in otherwise empty directories. No report or tool content is uploaded. This reconciles the requirement to retain every .htaccess with excluding internal contents.
-
-| Private scope | Protection to retain | Owner native check |
-|---|---|---|
-| Root review JSON/dotfiles/Markdown/CSV/Git | `.htaccess` |403/404, no contents; root rewrites still work |
-| data/ | `data/.htaccess` |PHP readable, HTTP denied |
-| includes/ | `includes/.htaccess` |PHP readable, HTTP denied |
-| destinations/ | `destinations/.htaccess` |PHP arrays readable, HTTP denied |
-| places/ | `places/.htaccess` |PHP arrays readable, HTTP denied |
-| reports/ | `reports/.htaccess` only |No contents uploaded; HTTP denied |
-| tools/ | `tools/.htaccess` only |No contents uploaded; HTTP denied |
-| Public fonts, NOT private | `assets/fonts/.htaccess` |Font MIME/cache rules, not a directory deny |
-
-All7 static reference weights AND2 variable faces are included: PHP reads the variable pair for destination data URIs. Include the shared visual CSS and its PHP helpers, genuine PNG/WebP portraits, both font OFL licences and favicon. The old1.5MB Fawaz original and unused alternate logos are excluded, with no rendered reference. Generated hero-still JS/images are disabled and unreferenced, so excluded. Procedural scenes use the unchanged external Three.js dependency, not a local still.
+The shared CSS is read from assets/css/visual-system.css by PHP and inlined. Germany's two variable font files are read from disk and embedded; other rebuilt families also require all7 static reference font weights. Include both font OFL licences, all7 image paths and favicon. Current presentation scripts are inline; disabled hero-still assets are not dependencies. External reference Google Fonts/GSAP/Three.js URLs remain unchanged and require owner/network/CSP checks.
 
 ## Do not upload
 
-Every file not in the exact allowlist. In particular: report/tool contents except their2 deny-only files; all Markdown including all.md/README/CHANGELOG/flagged items; all other phase*.json/internal JSON/CSV exports; Git metadata/credentials; runtime caches/__pycache__/.cache/node_modules; fixtures/test-only PHP/Python/JS; generated screenshots, evidence/snapshots, old archives/ZIPs and unused assets. **Exclude the entire releases/ folder, including its ZIP and deny .htaccess.** It is not a website route or sitemap entry. Keep backups outside web access. The9 runtime JSON exceptions above are intentional, not optional exports.
+Every path outside the131-entry allowlist. Entire releases/ excluded, including its ZIP and deny .htaccess. Never deploy the whole checkout, Git metadata, reports/tools contents, Markdown/CSV/internal JSON exports, caches or generated evidence. The only internal-folder payload exceptions are their two deny-only policies. Retaining reports/.htaccess is required to keep all8 policies; no report content is included. releases/.htaccess is repository safety, not a ninth upload policy.
 
-Never point public_html at an entire Git checkout. Git deployment must use a private checkout then publish only this allowlist, with no .git or other excluded files. If the host cannot filter, use manual upload of the pack. Replacing files does not delete old unlisted files: reconcile against the old backup and remove obsolete internal artifacts while access is disabled. No new public source/path design is introduced.
+The owner-requested manual workflow temporarily uploads the ZIP into public_html for extraction, then deletes it immediately. Do not leave the ZIP publicly reachable or store backups under web access. Extract directly in public_html, overwrite existing files, preserve hidden files, remove the uploaded ZIP, then clear HTML/CDN cache and run the checker. Overwrite does not remove obsolete old files; reconcile extras against the backup without deleting unrelated hosting files. Detailed owner steps: reports/post-deploy-checklist.md/PDF.
 
-## Clean-folder proof
+## Expected payload counts, before temporary checker deletion
 
-**PASS locally**, details: [phase-27-payload-proof.json](phase-27-payload-proof.json).
+|Folder|Files, including hidden policies/licences|
+|---|---|
+|root|46|
+|assets/css|1|
+|assets/fonts|12|
+|assets/images|7|
+|blog|9|
+|data|8|
+|destinations|10|
+|includes|18|
+|places|18|
+|reports|1|
+|tools|1|
 
-- Only130 listed files copied into a new empty temporary folder; no symlinks. Files and ZIP hash-match source.
-- Fresh PHP8.5 WASM engine populated an isolated `/site` memory filesystem with ONLY that payload. No host filesystem mount; explicit probe cannot see the original checkout. Static HTTP also roots at the clean folder. No original-source fallback.
-- All43 route outputs byte-identical to both repo HTTP renders and frozen repo snapshots:38 published,404 and4 held routes. **Zero differences**. This includes full design, current finance-only Zaheer, canonical Person/FAQ, published status and disclosures.
-- `/sitemap.xml`, `/robots.txt`, `/llms.txt`, `/llms-full.txt`, verification HTML and20 asset/runtime/licence paths fetched byte-exact via GET and HEAD. Exactly38 unique sitemap entries, no APS/DSU/Czech/Russia route.
-- All14 first-party assets referenced by rendered HTML/CSS, plus6 runtime/licence/default-browser dependencies, are present.9 font faces, visual stylesheet,7 image paths,2 licences and favicon make20 checked paths. Rooted source code reads CSS/variable-font files only within payload.
-- Private runtime/root/report/tool/Git probes return local403 with no contents. This adapter manually mirrors the access policy: it DOES NOT execute .htaccess. Native Apache/LiteSpeed/AllowOverride/ACL/rewrite/ErrorDocument/cache/MIME/CSP and actual contact delivery/backup restore are NOT proved.
+Counts sum131. Root drops from46 to45 after deleting deploy-check.php. Existing hosting extras are not included in these pack counts. reports/ and tools/ each contain ONLY .htaccess, no report or tool content.
 
-External assets remain external and unchanged: Google Fonts on the four references, GSAP/ScrollTrigger and Three.js on applicable pages. Their original URLs are recorded in the manifest; Google CSS may request further gstatic resources. They cannot be served from this folder without changing public code. Local first-party completeness is proved, not offline/CDN availability or live CSP/network timing. The contact provider also remains external. Owner must test these on the real host.
+## Clean-folder and native limits
 
-Raw search caveat: `free` substring hits are7 legacy held APS URL identifiers and2 existing `freely` words on Services, not prohibited standalone fee wording. No digital-marketer/tuition-free/co-founder hit in rendered routes. Exact inventory: phase-27-raw-wording-hits.json. Do not rename URLs or edit prose in this reports-only phase; owner must distinguish these known substrings from prohibited copy.
+phase-30-clean-payload-proof.json records a new empty exported folder, isolated PHP memory filesystem with only131 files and no host/source fallback,43 byte-identical repo/pack renders (38 published plus404 and4 held),38 unique sitemap URLs, all static assets/discovery/verification GET+HEAD and protected temporary-checker tests. Local adapter mirrors policy but does not execute native .htaccess. Native ACL/rewrite/ErrorDocument/cache/MIME/CSP, live file permissions, contact delivery, backup restoration and owner speed acceptance remain unverified. No fourth performance lab session or speed certification.
 
-## Exact upload list (files, not whole unfiltered folders)
+## Exact upload allowlist
 
 - `.htaccess`
 - `404.php`
@@ -111,6 +106,7 @@ Raw search caveat: `free` substring hits are7 legacy held APS URL identifiers an
 - `data/seo-map.json`
 - `data/service-scope.json`
 - `data/team.json`
+- `deploy-check.php` TEMPORARY, delete after use
 - `destinations/.htaccess`
 - `destinations/czech-republic.php`
 - `destinations/gcc.php`
@@ -199,12 +195,3 @@ Raw search caveat: `free` substring hits are7 legacy held APS URL identifiers an
 - `study-in-uk.php`
 - `terms.php`
 - `tools/.htaccess`
-
-Phase28 direct GitHub download: https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-850d0af.zip
-The branch-ref GitHub Contents API binary was fetched and matched all681792 bytes/SHA256. Direct raw-host fetching is outside this sandbox network allowlist.
-
-Phase28 reproduction from its actual starting HEAD: `python3 tools/phase27/export.py --source-ref 850d0af5c083b06e3c65abc997fcab6708121c6f --out /new/empty/folder --zip /new/artifact.zip`. `--source-ref HEAD` also verifies all blobs against the unchanged manifest on later documentation-only commits. ZIP metadata may differ across rebuilds; per-file manifest bytes/hashes are the runtime identity.
-
-## Phase30 temporary payload addition (supersedes prior pack for this phase)
-
-Add root deploy-check.php as a TEMPORARY131st file. Long random query key, exact-parameter validation, expiry after2026-11-15 UTC, noindex/no-store, fixed path metadata/hash table only. Delete after one use. Do not expose the report or upload the whole checkout. The manifest/source-pinned131-file ZIP is rebuilt in Phase30 task3; prior130-file archives do not contain this checker or duplicate fix. See reports/live-self-check.md for owner URL and limitations. No sitemap, robots, LLM or internal link is changed.
