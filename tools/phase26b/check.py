@@ -2,6 +2,7 @@
 import json,pathlib,re,sys,subprocess,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'tools'))
 from check_phase25 import Words,cards_only
+from phase30.duplicates import expected_delta
 from phase26b.expected import upgrade,PUBLIC_FILES
 from team_bio_policy import validate_bio_contexts,validate_zaheer_llm
 from check_discovery import routes,fetch
@@ -10,7 +11,7 @@ font_config=json.loads(subprocess.check_output(['php','-r',"require 'includes/vi
 baseline=json.loads((ROOT/'reports/phase-25-baseline-renders.json').read_text())['routes'];rows=[]
 for route,info in routes(ROOT).items():
  status,headers,body=fetch('http://127.0.0.1:8080',route);assert status==200,(route,status)
- text=body.decode();old=upgrade(baseline[route]['html']);expected=cards_only(old,route) if route in ['/','/about'] else old
+ text=body.decode();old=upgrade(baseline[route]['html']);expected=expected_delta(cards_only(old,route) if route in ['/','/about'] else old,route)
  validate_bio_contexts(text,route,info['status']=='published' and route!='/404')
  a,b=Words(text),Words(expected)
  assert a.words==b.words,(route,'text/order');assert a.links==b.links,(route,'link attributes');image_timing_only=False

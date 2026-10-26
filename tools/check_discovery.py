@@ -51,7 +51,11 @@ class Page(HTMLParser):
 def fetch(base, path):
     try:
         with urlopen(base.rstrip('/') + path, timeout=30) as r:
-            return r.status, dict(r.headers), r.read()
+            body = r.read()
+            if r.status == 200 and 'text/html' in r.headers.get('Content-Type', ''):
+                from phase30.duplicates import assert_no_repeated_answer
+                assert_no_repeated_answer(body.decode(), path)
+            return r.status, dict(r.headers), body
     except HTTPError as e:
         return e.code, dict(e.headers), e.read()
 

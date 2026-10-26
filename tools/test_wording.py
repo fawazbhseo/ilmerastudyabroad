@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Technical negative fixtures for the whole-publication wording guard."""
 import unittest
+from phase30.duplicates import assert_no_repeated_answer
 from check_discovery import PublishedContent, prohibited_wording_matches
 
 

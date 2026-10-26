@@ -145,6 +145,18 @@ function ilmera_present_page($html)
         return $tag;
     }, $html);
     $html = ilmera_visual_present($html);
+    // Keep the original introduction, including its citation, in the answer slot.
+    // Remove only an adjacent exact duplicate; never fuzzy-match authored prose.
+    if (isset($entry['answer_data']) && in_array($entry['kind'], ['destination','place'], true)) {
+        $html = preg_replace_callback('~(<p class="direct-answer">)(.*?)(</p>)(<p class="conversion-cta">.*?</p>)(</div>\s*)<p>(.*?)</p>~s', static function ($parts) {
+            $plain = static function ($value) {
+                $value = preg_replace('~<a\b[^>]*class="source-citation"[^>]*>.*?</a>~s', '', $value);
+                return preg_replace('/\s+/u', ' ', trim(html_entity_decode(strip_tags($value), ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+            };
+            if ($plain($parts[2]) !== $plain($parts[6])) return $parts[0];
+            return $parts[1].$parts[6].$parts[3].$parts[4].$parts[5];
+        }, $html, 1);
+    }
     return $html;
 }
 

@@ -1,0 +1,504 @@
+{
+  "passed": true,
+  "routes": 43,
+  "changed_pages": 23,
+  "unchanged_pages": 20,
+  "only_public_duplicate_fix_file": "includes/site-presentation.php",
+  "method": "Keep original cited paragraph inner HTML in direct-answer slot, keep CTA after it, remove one exact duplicate. Citation moves with kept copy; no link removed. All other rendered bytes identical.",
+  "results": [
+    {
+      "route": "/404",
+      "changed": false,
+      "before_sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842",
+      "after_sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/about",
+      "changed": false,
+      "before_sha256": "cf28a1376c3affd9ff180e4ee9abd8feaf41da6eef3a1fdd5ee9bc62aafe0e16",
+      "after_sha256": "cf28a1376c3affd9ff180e4ee9abd8feaf41da6eef3a1fdd5ee9bc62aafe0e16",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/all-pages",
+      "changed": false,
+      "before_sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d",
+      "after_sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "changed": false,
+      "before_sha256": "6794bdf7b2a3589c39cbedd54b025b8a0d1d0c500caed2b0902e6e877afd9f0a",
+      "after_sha256": "6794bdf7b2a3589c39cbedd54b025b8a0d1d0c500caed2b0902e6e877afd9f0a",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "changed": false,
+      "before_sha256": "07a8d784e55d4696e16823a350eb16fccfc846df3562fb17344d78740920183d",
+      "after_sha256": "07a8d784e55d4696e16823a350eb16fccfc846df3562fb17344d78740920183d",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "changed": false,
+      "before_sha256": "192fbb8d0462f267525f5d37084035533adf10361c074983cb13b9274b4bee4d",
+      "after_sha256": "192fbb8d0462f267525f5d37084035533adf10361c074983cb13b9274b4bee4d",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/",
+      "changed": false,
+      "before_sha256": "c679d79b00adb7092b328e505483d091560873f89ccc8d7987d3d03d697b877d",
+      "after_sha256": "c679d79b00adb7092b328e505483d091560873f89ccc8d7987d3d03d697b877d",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "changed": false,
+      "before_sha256": "aa4e4ad62baddd66be09239dd33ac146e503fcc52e0b8aca55a4d38e3cea119f",
+      "after_sha256": "aa4e4ad62baddd66be09239dd33ac146e503fcc52e0b8aca55a4d38e3cea119f",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "changed": false,
+      "before_sha256": "76a48ad38ab9e6b87cca5995f9a356444c84f47a6aa9d3b3387316a7bfe4384d",
+      "after_sha256": "76a48ad38ab9e6b87cca5995f9a356444c84f47a6aa9d3b3387316a7bfe4384d",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "changed": false,
+      "before_sha256": "92a0fb2c465d87b693322123403dfd4a277cab0fe4a5940c4d28740a345fa8f7",
+      "after_sha256": "92a0fb2c465d87b693322123403dfd4a277cab0fe4a5940c4d28740a345fa8f7",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "changed": false,
+      "before_sha256": "f9e277cab60b537d2022a7bb2ac6867e9e60847da893b281a3a59442acbe3f20",
+      "after_sha256": "f9e277cab60b537d2022a7bb2ac6867e9e60847da893b281a3a59442acbe3f20",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "changed": false,
+      "before_sha256": "ee5743e2bf603c23f4002a417848af6a8916909bea30c55d8493b93479759972",
+      "after_sha256": "ee5743e2bf603c23f4002a417848af6a8916909bea30c55d8493b93479759972",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/contact",
+      "changed": false,
+      "before_sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650",
+      "after_sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/",
+      "changed": false,
+      "before_sha256": "d9d51eebbd54a2f0dc629ecf21c3277792108ff64549801ac667b0535f9726b3",
+      "after_sha256": "d9d51eebbd54a2f0dc629ecf21c3277792108ff64549801ac667b0535f9726b3",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/privacy-policy",
+      "changed": false,
+      "before_sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593",
+      "after_sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/services",
+      "changed": false,
+      "before_sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f",
+      "after_sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "changed": true,
+      "before_sha256": "75a635f4702f3865966671c44e24c46d7df43b79639b540da74b26dfb1cf458a",
+      "after_sha256": "97ad69e10a47a8984bad767dc050002468e5de487a99fe35cd7a22e8f725a228",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Students across Karnataka can approach course selection as a series of documented decisions rather than a search for one universally best destination. This guide focuses on comparison criteria, unresolved questions and reasons for excluding options. ILMERA discussions can start from your academic record and priorities, without promising a particular admission result.",
+      "kept_text": "Students across Karnataka can approach course selection as a series of documented decisions rather than a search for one universally best destination. This guide focuses on comparison criteria, unresolved questions and reasons for excluding options. ILMERA discussions can start from your academic record and priorities, without promising a particular admission result.",
+      "kept_original_paragraph_html": "Students across Karnataka can approach course selection as a series of documented decisions rather than a search for one universally best destination. This guide focuses on comparison criteria, unresolved questions and reasons for excluding options. ILMERA discussions can start from your academic record and priorities, without promising a particular admission result.",
+      "kept_citation_links": [],
+      "direct_answer_words": 51,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "changed": true,
+      "before_sha256": "39f7c18fa86c1c3931df5ad45766941cc317f1dac7cc5f49e1e1a1cfc21ae62e",
+      "after_sha256": "62f8d48cb83871b4427f29cf4547c25dec7b602af9fe382d4568c3e88d3ff0e0",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "A study plan may involve a student, family members and a counsellor, but those participants do not have identical responsibilities. This Kodagu guide explains how to organise a shared discussion while keeping the student's academic reasons visible. It does not assume a family structure, funding arrangement or preferred destination for any applicant.",
+      "kept_text": "A study plan may involve a student, family members and a counsellor, but those participants do not have identical responsibilities. This Kodagu guide explains how to organise a shared discussion while keeping the student's academic reasons visible. It does not assume a family structure, funding arrangement or preferred destination for any applicant.",
+      "kept_original_paragraph_html": "A study plan may involve a student, family members and a counsellor, but those participants do not have identical responsibilities. This Kodagu guide explains how to organise a shared discussion while keeping the student&#039;s academic reasons visible. It does not assume a family structure, funding arrangement or preferred destination for any applicant.",
+      "kept_citation_links": [],
+      "direct_answer_words": 52,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "changed": true,
+      "before_sha256": "2124a95ecdf4d958bf82c0350084207a9a98466f338ca404deb8f63b1cdedf14",
+      "after_sha256": "950c29533afaba961943d571b7394be29a60e1fa3b5aa7c78fbad857bae245eb",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.",
+      "kept_text": "Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.",
+      "kept_original_paragraph_html": "Students from Belagavi can use an initial counselling discussion to establish what help they actually need. This guide focuses on responsibilities, written instructions and sensible boundaries between advice and a decision made by an institution or authority. Begin with a clear brief rather than a promise about an outcome.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "changed": true,
+      "before_sha256": "bdd8035e1960adcbe313bc953e1bf32a7132f9a47d2d95e0362868a2d8179601",
+      "after_sha256": "272167737c07c93107e4ab6c38c04001cae553c8244e0900576c7a53d441892c",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "A student from Bengaluru considering a different academic field needs more than an attractive course title. Use counselling to connect the proposed subject with evidence from previous study and to identify unanswered prerequisite questions. This page provides a way to investigate that transition without assuming that a change will be accepted.",
+      "kept_text": "A student from Bengaluru considering a different academic field needs more than an attractive course title. Use counselling to connect the proposed subject with evidence from previous study and to identify unanswered prerequisite questions. This page provides a way to investigate that transition without assuming that a change will be accepted.",
+      "kept_original_paragraph_html": "A student from Bengaluru considering a different academic field needs more than an attractive course title. Use counselling to connect the proposed subject with evidence from previous study and to identify unanswered prerequisite questions. This page provides a way to investigate that transition without assuming that a change will be accepted.",
+      "kept_citation_links": [],
+      "direct_answer_words": 51,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "changed": true,
+      "before_sha256": "9b08f595c87a8f426073e737ebc57a1da6722e8296cc1a57c65bc0eca967bf43",
+      "after_sha256": "c3ec1e8bcce93f4ef47f7ed12c04592c65d755fccdbf6e98d3d0abf2207cb1c5",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "For a Chikkamagaluru student, language preparation is easier to discuss when the required evidence is written down precisely. Start with the selected programme and distinguish its admissions requirement from any separate immigration question. This guide helps organise those enquiries without suggesting that one letter or test result works everywhere.",
+      "kept_text": "For a Chikkamagaluru student, language preparation is easier to discuss when the required evidence is written down precisely. Start with the selected programme and distinguish its admissions requirement from any separate immigration question. This guide helps organise those enquiries without suggesting that one letter or test result works everywhere.",
+      "kept_original_paragraph_html": "For a Chikkamagaluru student, language preparation is easier to discuss when the required evidence is written down precisely. Start with the selected programme and distinguish its admissions requirement from any separate immigration question. This guide helps organise those enquiries without suggesting that one letter or test result works everywhere.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "changed": true,
+      "before_sha256": "5e8016ccc87c185b61caef1038f1c99419c2e4187d8657d13129cd061fdf7ed1",
+      "after_sha256": "680386630d1f6c301c5182cfdc4f2ef831e6f45b8c353efdb0cdb88104d344e0",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Students from Gonikoppal who are asked for household or financial records can begin by organising what exists before requesting anything new. This guide is about an evidence inventory, not eligibility for a particular award. The accepting body determines the documents, reporting periods and verification steps that apply to an application.",
+      "kept_text": "Students from Gonikoppal who are asked for household or financial records can begin by organising what exists before requesting anything new. This guide is about an evidence inventory, not eligibility for a particular award. The accepting body determines the documents, reporting periods and verification steps that apply to an application.",
+      "kept_original_paragraph_html": "Students from Gonikoppal who are asked for household or financial records can begin by organising what exists before requesting anything new. This guide is about an evidence inventory, not eligibility for a particular award. The accepting body determines the documents, reporting periods and verification steps that apply to an application.",
+      "kept_citation_links": [],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "changed": true,
+      "before_sha256": "89709582e6bedded2fa296ea4cb602aca63d5d884b71f3ae6d5c2f3bc48795a0",
+      "after_sha256": "b26b33c9424e233ff89c4f11516bff9de5be40299b6eb0479eb2a47d4919c533",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "An overseas study budget should show where the money comes from as well as where it might go. For students from Hassan, this guide offers a way to discuss affordability without relying on an uncertain award or hoped-for job. Use actual course quotations and current official requirements when available.",
+      "kept_text": "An overseas study budget should show where the money comes from as well as where it might go. For students from Hassan, this guide offers a way to discuss affordability without relying on an uncertain award or hoped-for job. Use actual course quotations and current official requirements when available.",
+      "kept_original_paragraph_html": "An overseas study budget should show where the money comes from as well as where it might go. For students from Hassan, this guide offers a way to discuss affordability without relying on an uncertain award or hoped-for job. Use actual course quotations and current official requirements when available.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "changed": true,
+      "before_sha256": "f6cbf05506854d31b227ba9978678b0a341998cd3b087fba6fa65ac4efab110e",
+      "after_sha256": "c1133e7c5f730e3aeeb243e6a0516bd182356fb895a672a669b44537e66bef52",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Receiving an offer is a point for careful reading, not a reason to stop checking the plan. For students from Kushalnagar, this guide explains how to examine conditions and dependencies before responding. It does not interpret a particular offer or suggest that an admission document also decides a visa application.",
+      "kept_text": "Receiving an offer is a point for careful reading, not a reason to stop checking the plan. For students from Kushalnagar, this guide explains how to examine conditions and dependencies before responding. It does not interpret a particular offer or suggest that an admission document also decides a visa application.",
+      "kept_original_paragraph_html": "Receiving an offer is a point for careful reading, not a reason to stop checking the plan. For students from Kushalnagar, this guide explains how to examine conditions and dependencies before responding. It does not interpret a particular offer or suggest that an admission document also decides a visa application.",
+      "kept_citation_links": [],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "changed": true,
+      "before_sha256": "6cf79a5a67ccb1756f7cc54b9cc001a03b0fcde717df313547f6b70a9cf3232f",
+      "after_sha256": "4261c961d5cb74be3736782ede1d1ab4fad88e8425bb0cf15516a5a3d58bcbc7",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "For a Madikeri applicant, a clear academic timeline can make a profile discussion more precise. Arrange the record as it actually happened before trying to explain an interruption or change. This guide focuses on consistency and supporting evidence, not on claiming that any gap has an automatic admissions outcome.",
+      "kept_text": "For a Madikeri applicant, a clear academic timeline can make a profile discussion more precise. Arrange the record as it actually happened before trying to explain an interruption or change. This guide focuses on consistency and supporting evidence, not on claiming that any gap has an automatic admissions outcome.",
+      "kept_original_paragraph_html": "For a Madikeri applicant, a clear academic timeline can make a profile discussion more precise. Arrange the record as it actually happened before trying to explain an interruption or change. This guide focuses on consistency and supporting evidence, not on claiming that any gap has an automatic admissions outcome.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "changed": true,
+      "before_sha256": "d99818712ae05944ee2322fc628d98f61a57bcb8808b4f7d7328455d6cf0dcf6",
+      "after_sha256": "b59f422b500748de9f6459ead9415bcea8ee156e57bc2c1e75c9c5363bcb4f03",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.",
+      "kept_text": "A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.",
+      "kept_original_paragraph_html": "A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.",
+      "kept_citation_links": [],
+      "direct_answer_words": 51,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "changed": true,
+      "before_sha256": "57ea4123dc4517e64bdbe7c35dda1ba8ce79d446fb1e1942c5ccec9884119614",
+      "after_sha256": "959bdf2ad5cb6b01e33897c2e6534324b50b0bdd98355f0ff70ef441806ccb8f",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Small differences between academic records can become important questions during an application. For students from Mysuru, this guide sets out a careful consistency review without prescribing a local transcript or correction procedure. The issuing body and the intended recipient should confirm how a specific discrepancy is to be resolved.",
+      "kept_text": "Small differences between academic records can become important questions during an application. For students from Mysuru, this guide sets out a careful consistency review without prescribing a local transcript or correction procedure. The issuing body and the intended recipient should confirm how a specific discrepancy is to be resolved.",
+      "kept_original_paragraph_html": "Small differences between academic records can become important questions during an application. For students from Mysuru, this guide sets out a careful consistency review without prescribing a local transcript or correction procedure. The issuing body and the intended recipient should confirm how a specific discrepancy is to be resolved.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "changed": true,
+      "before_sha256": "4dec3eb12ce4ec387f6c855f82a99a56157399a321adf112750b6f5d9cd810b4",
+      "after_sha256": "81e01364b3954b9fe37e562f0af48b3d78aa8f6f2862469d48d3eb8d60f50fb5",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Students from Ponnampet preparing a study statement can begin with the reasons they can explain honestly, rather than with a borrowed model answer. This guide offers a drafting method for linking interests, preparation and the selected course. It does not supply an admissions formula or promise that particular wording will succeed.",
+      "kept_text": "Students from Ponnampet preparing a study statement can begin with the reasons they can explain honestly, rather than with a borrowed model answer. This guide offers a drafting method for linking interests, preparation and the selected course. It does not supply an admissions formula or promise that particular wording will succeed.",
+      "kept_original_paragraph_html": "Students from Ponnampet preparing a study statement can begin with the reasons they can explain honestly, rather than with a borrowed model answer. This guide offers a drafting method for linking interests, preparation and the selected course. It does not supply an admissions formula or promise that particular wording will succeed.",
+      "kept_citation_links": [],
+      "direct_answer_words": 51,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "changed": true,
+      "before_sha256": "ba795427ebd6e28fd24b56987fe057ea5309f70639b2fd110980ea8cfaf59c75",
+      "after_sha256": "cde2d83538acc892909913e802a37c23a9e104ab1079161e9ea05769a7a0abaa",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.",
+      "kept_text": "An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.",
+      "kept_original_paragraph_html": "An application calendar is useful only when it shows dependencies as well as dates. Students from Shivamogga can use this guide to distinguish published deadlines from personal planning targets. The method does not supply intake dates or appointment forecasts; those need current information from the body responsible for each stage.",
+      "kept_citation_links": [],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "changed": true,
+      "before_sha256": "d27cb04c91418666ce1bd103027e6b830c1ca2308e5809dcc04b44711a80a55c",
+      "after_sha256": "41a649a2b8583dbed5a9d4b744da7b5df9434e9aa24ab1f6f172b846a8464f35",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Application records may contain information that should not be circulated casually. This guide for Siddapura students focuses on deliberate sharing and clear permission during counselling. It is a practical workflow, not a security certification or a statement that any messaging service guarantees confidentiality or the removal of every copy.",
+      "kept_text": "Application records may contain information that should not be circulated casually. This guide for Siddapura students focuses on deliberate sharing and clear permission during counselling. It is a practical workflow, not a security certification or a statement that any messaging service guarantees confidentiality or the removal of every copy.",
+      "kept_original_paragraph_html": "Application records may contain information that should not be circulated casually. This guide for Siddapura students focuses on deliberate sharing and clear permission during counselling. It is a practical workflow, not a security certification or a statement that any messaging service guarantees confidentiality or the removal of every copy.",
+      "kept_citation_links": [],
+      "direct_answer_words": 49,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "changed": true,
+      "before_sha256": "98e9070a625e01f7fe73f7c4751f6a53d7acc1f42126ecacba876591a61983c0",
+      "after_sha256": "e7a7e96b2787b290836e3f63415929e5f465866b00dfaf802628c38f122208ef",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "A backlog discussion is more useful when the full academic record is available. This guide for Somwarpet students explains how to distinguish cleared subjects, outstanding results and repeated attempts before asking about eligibility. It makes no claim that a particular number of backlogs is accepted by every institution or destination.",
+      "kept_text": "A backlog discussion is more useful when the full academic record is available. This guide for Somwarpet students explains how to distinguish cleared subjects, outstanding results and repeated attempts before asking about eligibility. It makes no claim that a particular number of backlogs is accepted by every institution or destination.",
+      "kept_original_paragraph_html": "A backlog discussion is more useful when the full academic record is available. This guide for Somwarpet students explains how to distinguish cleared subjects, outstanding results and repeated attempts before asking about eligibility. It makes no claim that a particular number of backlogs is accepted by every institution or destination.",
+      "kept_citation_links": [],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "changed": true,
+      "before_sha256": "bbb90943680d5af125a85fc337aedfa7348be8440d8551cc0c395ae5626ddf9e",
+      "after_sha256": "e4f2660a6361a2022c67076b238ecc3a732af4f788b508ee5584b30de49d6cb1",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.",
+      "kept_text": "Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.",
+      "kept_original_paragraph_html": "Two courses with similar titles can still ask different things of the learner. Students from Udupi and Manipal can use this guide to compare the actual educational experience before building an application list. Investigate the current course materials and leave uncertain details open rather than assuming that the title explains everything.",
+      "kept_citation_links": [],
+      "direct_answer_words": 51,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "changed": true,
+      "before_sha256": "0d483fde6c338ef90338a1b9ecf75901c836e8745fd460a842bbd64c85185dc2",
+      "after_sha256": "da7ecb939856cdd55615159592d27187a353299ea8714d81d104ce14c0b8dee1",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Before an application leaves the preparation stage, the applicant should understand what is being submitted. This Virajpet guide focuses on that handover: checking the form, matching the evidence and keeping a submission record. It is not a destination visa checklist and does not claim that a complete file guarantees approval.",
+      "kept_text": "Before an application leaves the preparation stage, the applicant should understand what is being submitted. This Virajpet guide focuses on that handover: checking the form, matching the evidence and keeping a submission record. It is not a destination visa checklist and does not claim that a complete file guarantees approval.",
+      "kept_original_paragraph_html": "Before an application leaves the preparation stage, the applicant should understand what is being submitted. This Virajpet guide focuses on that handover: checking the form, matching the evidence and keeping a submission record. It is not a destination visa checklist and does not claim that a complete file guarantees approval.",
+      "kept_citation_links": [],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "changed": false,
+      "before_sha256": "ddc9393bc1f4895f9d1f6cb6629d690933609b5fc1616ea8e50d5c32c2f174e0",
+      "after_sha256": "ddc9393bc1f4895f9d1f6cb6629d690933609b5fc1616ea8e50d5c32c2f174e0",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/study-in-gcc",
+      "changed": false,
+      "before_sha256": "2883fc679376f94209ae213f12f100320a8caa5042996e8e9c045c6f73713ca0",
+      "after_sha256": "2883fc679376f94209ae213f12f100320a8caa5042996e8e9c045c6f73713ca0",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/study-in-germany",
+      "changed": true,
+      "before_sha256": "02f0efffe1b450c849852e21476a3b822199d6c654a9fe41ef9e8fa648f8638f",
+      "after_sha256": "a3af194119876e4ce00612a5da76d131f1e70ac59d4d33bcca1d356fba7ca7db",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.",
+      "kept_text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.",
+      "kept_original_paragraph_html": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 41,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-italy",
+      "changed": true,
+      "before_sha256": "f7e1b92073908e667fb30523226e475ea824259e83a2f68843f9a7ea8f316b42",
+      "after_sha256": "9267733e43798c734350d0697fc2a3b85d11b9f7b31bf014c2eaf2056aba33f8",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.",
+      "kept_text": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.",
+      "kept_original_paragraph_html": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 46,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-latvia",
+      "changed": true,
+      "before_sha256": "f6d1b90061b62234dcb98a2054bfdffde579cbc769fcd4ce7927ec0027f7d26a",
+      "after_sha256": "932f09ae63ccc4d634db681325fb012fbfb0b80c234f3593950d30c3f9099f19",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.",
+      "kept_text": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.",
+      "kept_original_paragraph_html": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 45,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-lithuania",
+      "changed": true,
+      "before_sha256": "22a389a5520046a7e9b119cc1c67555e0edb973600119b1c7d8a6f2773a0d11f",
+      "after_sha256": "b718a78b9fc3fa98b93ff1b892913ed15bcab3a786cc3367ce3c9c9f535b8e4e",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees.",
+      "kept_text": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees.",
+      "kept_original_paragraph_html": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 50,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-russia",
+      "changed": false,
+      "before_sha256": "d51c8e80f2b8893c4763dac99ba4b1641fb36c7fbe95b61d3c0074c8d4e982fe",
+      "after_sha256": "d51c8e80f2b8893c4763dac99ba4b1641fb36c7fbe95b61d3c0074c8d4e982fe",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    },
+    {
+      "route": "/study-in-slovakia",
+      "changed": true,
+      "before_sha256": "58dcd02e9647ff7ec1126930a42df57aa62127c0f13da60d4f0aea1b2a69f682",
+      "after_sha256": "d4594dcf7d406c29e5a7d4ca08d03424b95c531bfddc94a951e50686ef35e5e8",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution.",
+      "kept_text": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution.",
+      "kept_original_paragraph_html": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 42,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/study-in-uk",
+      "changed": true,
+      "before_sha256": "805beb1bce3ffba0e8940cf719a1ae557cc39b82c5d6ba9e6bb2981b235f4ce5",
+      "after_sha256": "c0140da171ad758c627dc2ed1c6e2b1f6e013dace885cfc5156ce130cee1763f",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true,
+      "removed_text": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.",
+      "kept_text": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.",
+      "kept_original_paragraph_html": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances. <a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>",
+      "kept_citation_links": [
+        "<a class=\"source-citation\" href=\"#source-1\" aria-label=\"Source 1\">[1]</a>"
+      ],
+      "direct_answer_words": 46,
+      "cta_after_cited_answer": true
+    },
+    {
+      "route": "/terms",
+      "changed": false,
+      "before_sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19",
+      "after_sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19",
+      "exact_authorized_output": true,
+      "headings_faq_schema_canonical_status_links_images_styles_scripts_preserved": true
+    }
+  ]
+}
