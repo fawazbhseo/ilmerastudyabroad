@@ -1571,3 +1571,12 @@ Aligned the four pilots to canonical reference chrome without changing source in
 - Fresh ZIP-only clean proof:43 byte-identical renders,38 sitemap entries,20 asset GET/HEAD checks. Existing full35-group suite PASS600.60s,97 PHP,258 browser cases and66 accessibility cases,0 rebuilt axe violations. No performance rerun or native-host/deployment certification.
 - Two plain unzip/upload text lines added to checklist/PDF, with only paragraph/hard-break whitespace. Every prior Markdown byte and normalized PDF text preserved; PDF remains2 A4 pages.
 - GitHub download URL and byte-fetch proof, final exclusions, scope guard and every changed path recorded in Phase28 reports. Branch-only commits/pushes and PR1 checkpoint; no new PR, merge or deployment.
+
+## Phase29 live-design diagnosis, report only (2026-10-26)
+
+- Owner reports current130-file content deployed but Germany has old dark styling, missing mobile header, default serif and blank gold CTA. No live-origin fetch or native-host access performed here. No public source file, .htaccess rule, payload manifest or deployment ZIP changed.
+- Exhaustive130-file current/ZIP/manifest hash inventory and four exact rendered design-tag copies establish that shared CSS and Germany variable fonts are PHP disk reads embedded in HTML, not HTTP stylesheet/font dependencies.
+-22 isolated390px fault cases and24 screenshots: no single tested fault matches all five supplied symptoms. Explicit missing-assets plus missing non-required header.php combination matches all five while preserving200/current copy/footer. HTTP CSS404/403 and HTTP font404 leave Germany's design intact. Missing required visual/config files and PHP7.4 fail500;8.0/8.1/8.5 render correctly in local WASM tests, not native certification.
+- All8 payload .htaccess files statically audited, no CSS/font deny or universal unknown-file rewrite found. No native simulator available. One-page owner test sheet supplies exact URLs, conditional re-upload targets, cache purge and private-window checks; no fix applied.
+- All38 published payload routes audited for first-answer/next-paragraph duplication:23 exact normalized duplicates,0 additional near matches under explicit thresholds. Provenance-preserving narrow de-duplication proposed only; source text and publication gates unchanged.
+- Ranked diagnosis, detailed evidence, complete changed-file ledger and strict byte/line-ending scope proof recorded under reports/phase-29*. Task commits/pushes stay on existing session branch with PR1 checkpoint only; no merge, new PR or agent deployment.
