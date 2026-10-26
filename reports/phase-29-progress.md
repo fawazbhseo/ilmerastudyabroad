@@ -4,7 +4,7 @@
 
 1. Complete. Exhaustive130-file inventory, current/ZIP/manifest hashes match; source include/read/constant sites retained. Crucial finding: CSS and Germany fonts are PHP disk reads embedded inline, NOT browser stylesheet/font requests. Runtime dependency must not be confused with HTTP access.
 2. Complete. Four clean rendered tag extracts copied exactly, including full CSS/data fonts, all presentation link/style/script/preload tags, path/query classifications and actual PHP includes. Source-line ledger distinguishes fatal required includes from warning-only unchecked disk reads, buffer/classification exits and constant overrides. No live fetch claimed.
-3. Clean-payload390px single-fault screenshots and comparisons: pending.
+3. Complete.22 explicit cases and24 PNG screenshots at390px. No original owner image supplied, so no pixel-exact claim. No single fault matches all five description symptoms. Missing disk assets gives four; missing assets plus non-required includes/header.php gives all five with current content/footer and200. URL CSS404/403 and HTTP font404 do not break Germany inline design. Missing required visual/config files and PHP7.4 give fatal500;8.0/8.1/8.5 pass. Both changed-PHP-only and over-Phase13 interpretations tested. Errors preserved, not hidden by an adapter exception. Source-line citations refined against numbered source.
 4. All payload server-rule analysis: pending.
 5. One-page plain owner test sheet: pending.
 6. Published duplicate-answer paragraph audit, report only: pending.
