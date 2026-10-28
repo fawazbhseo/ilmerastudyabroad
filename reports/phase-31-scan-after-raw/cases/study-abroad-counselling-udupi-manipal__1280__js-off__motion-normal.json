@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-udupi-manipal__1280__js-off__motion-normal",
+  "route": "/study-abroad-counselling-udupi-manipal",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-udupi-manipal",
+  "http_status": 200,
+  "page_height": 4672,
+  "scroll": {
+    "height": 4672,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4672,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3536
+    },
+    "visible_text_chars": 4338,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Udupi and Manipal"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Udupi and Manipal"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 533,
+        "text": "Study abroad consultancy in Udupi and Manipal: read the stru"
+      },
+      {
+        "selector": "h2",
+        "y": 604,
+        "text": "What should an Udupi or Manipal student compare beyond a cou"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 697,
+        "text": "Two courses with similar titles can still ask different thin"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 850,
+        "text": "Discuss how to read the structure as a set of commitments on"
+      },
+      {
+        "selector": "h2",
+        "y": 933,
+        "text": "Read the structure as a set of commitments"
+      },
+      {
+        "selector": "p",
+        "y": 1000,
+        "text": "Look at which subjects are compulsory, which are optional an"
+      },
+      {
+        "selector": "h2",
+        "y": 1246,
+        "text": "Consider how you prefer to demonstrate learning"
+      },
+      {
+        "selector": "p",
+        "y": 1313,
+        "text": "Review the published assessment information where available "
+      },
+      {
+        "selector": "h2",
+        "y": 1559,
+        "text": "Connect the comparison to an application reason"
+      },
+      {
+        "selector": "p",
+        "y": 1626,
+        "text": "After reviewing the structure and assessment, explain why an"
+      },
+      {
+        "selector": "p",
+        "y": 1880,
+        "text": "Counselling is online, and students from Udupi and Manipal d"
+      },
+      {
+        "selector": "h2",
+        "y": 1953,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2047,
+        "text": "What should an Udupi or Manipal student compare beyond a cou"
+      },
+      {
+        "selector": "p",
+        "y": 2101,
+        "text": "Examine compulsory and optional content, assessment, project"
+      },
+      {
+        "selector": "summary",
+        "y": 2143,
+        "text": "Can an optional module be treated as a guaranteed part of th"
+      },
+      {
+        "selector": "p",
+        "y": 2197,
+        "text": "Only if the actual course rules support that assumption. Che"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2319,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2387,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2447,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2556,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2631,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2685,
+        "text": "Belagavi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4672,
+    "scan_width": 512,
+    "scan_height": 1869,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997324772605674
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "46e6b53203ef48a77551c7b18de321d960a1e34f27ca71273ad01afd21e9d9fd"
+  }
+}

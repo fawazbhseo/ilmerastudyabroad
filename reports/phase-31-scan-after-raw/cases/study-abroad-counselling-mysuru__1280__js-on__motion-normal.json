@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-mysuru__1280__js-on__motion-normal",
+  "route": "/study-abroad-counselling-mysuru",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-mysuru",
+  "http_status": 200,
+  "page_height": 4538,
+  "scroll": {
+    "height": 4538,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4538,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3402
+    },
+    "visible_text_chars": 4188,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Mysuru"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Mysuru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Mysuru: read the record as the r"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 641,
+        "text": "Small differences between academic records can become import"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 795,
+        "text": "Discuss how to read the record as the recipient will see it "
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "Read the record as the recipient will see it"
+      },
+      {
+        "selector": "p",
+        "y": 945,
+        "text": "Create an inventory of the academic documents relevant to th"
+      },
+      {
+        "selector": "h2",
+        "y": 1191,
+        "text": "Establish the requested form before ordering copies"
+      },
+      {
+        "selector": "p",
+        "y": 1258,
+        "text": "Find out whether the recipient wants an uploaded copy, a cer"
+      },
+      {
+        "selector": "h2",
+        "y": 1532,
+        "text": "Close discrepancies before the final upload"
+      },
+      {
+        "selector": "p",
+        "y": 1600,
+        "text": "Review whether each flagged difference has been corrected or"
+      },
+      {
+        "selector": "p",
+        "y": 1854,
+        "text": "Counselling is online, and students from Mysuru do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1927,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2020,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p",
+        "y": 2075,
+        "text": "Preserve the records and ask the appropriate issuer or recip"
+      },
+      {
+        "selector": "summary",
+        "y": 2116,
+        "text": "Should transcripts be ordered before checking the required f"
+      },
+      {
+        "selector": "p",
+        "y": 2171,
+        "text": "Check the recipient's instructions first. An upload, certifi"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2293,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2360,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2421,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2530,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2605,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2669,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4538,
+    "scan_width": 512,
+    "scan_height": 1815,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.500275482093664
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "08dd5473c9c0f9033041ed4d23d0e2bcbfcaa7f85a9de1d7420d97debf29f9a8"
+  }
+}

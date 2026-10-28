@@ -101,7 +101,7 @@ def load_cases(scan_dir=SCAN,after=False):
     if len(actual_cases)!=expected or actual_cases!=expected_cases:raise SystemExit('Scan route/width/JS/motion matrix is incomplete or duplicated')
     findings=[];case_summaries=[]
     for entry in summary['cases']:
-        p=SCAN/'cases'/f"{entry['id']}.json"
+        p=pathlib.Path(scan_dir)/'cases'/f"{entry['id']}.json"
         c=read_json(p)
         if c['http_status'] not in (200,404): raise SystemExit(f'Bad route status {c["http_status"]} for {c["route"]}')
         if not c['scroll']['returned_to_top'] or c['scroll']['settle_ms']!=3000: raise SystemExit(f'Incomplete scroll/wait {c["id"]}')
