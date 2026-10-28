@@ -8,6 +8,12 @@ ARCHIVE=ROOT/'reports/phase-31-before-renders.json.gz'
 EVIDENCE=pathlib.Path(os.environ.get('PHASE31_EVIDENCE','/home/user/phase31'))
 RENDER=pathlib.Path(os.environ.get('PHASE31_RENDER_DIR',str(EVIDENCE/'render-after')))
 
+def runtime_paths_changed(source_head,current_head):
+    if subprocess.run(['git','merge-base','--is-ancestor',source_head,current_head],cwd=ROOT).returncode:raise SystemExit('Render source is not an ancestor of verification HEAD')
+    names=subprocess.check_output(['git','diff','--name-only',source_head,current_head],cwd=ROOT,text=True).splitlines()
+    roots={'index.php','services.php','about.php','contact.php','404.php','all-pages.php','privacy-policy.php','terms.php','robots.txt','sitemap.xml','llms.txt','llms-full.txt','favicon.ico','deploy-check.php'}
+    return [p for p in names if pathlib.PurePosixPath(p).parts[0] in {'assets','data','includes','destinations','places','blog'} or p in roots or pathlib.PurePosixPath(p).name=='.htaccess' or (len(pathlib.PurePosixPath(p).parts)==1 and p.endswith('.php'))]
+
 def html_signature(raw):
     soup=BeautifulSoup(raw,'html.parser')
     for e in soup.select('script,style,noscript'):e.decompose()
@@ -41,7 +47,9 @@ def main():
     if not route_index.exists():route_index=EVIDENCE/'routes.json'
     index=json.loads(route_index.read_text())
     current_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    if index.get('source_head')!=current_head:raise SystemExit('Current route render is stale for HEAD')
+    render_source=index.get('source_head')
+    runtime_changes=runtime_paths_changed(render_source,current_head)
+    if runtime_changes:raise SystemExit(f'Current route render is stale for runtime source: {runtime_changes}')
     current={x['url']:x for x in index['routes']}
     baseline_status={x['route']:x['http_status'] for x in baseline.get('route_inventory',[])}
     if set(baseline_status)!=set(baseline['routes']):raise SystemExit('Baseline status inventory missing or incomplete')

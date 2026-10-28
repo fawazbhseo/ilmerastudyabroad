@@ -12,7 +12,8 @@
     "height": 9275,
     "scroll_samples": 16,
     "settle_ms": 3000,
-    "returned_to_top": false
+    "returned_to_top": true,
+    "final_scroll_y": 0
   },
   "dom": {
     "page_height": 9275,
@@ -631,6 +632,6 @@
     "gsap": "3.12.2",
     "axe": "4.11.0",
     "wait_after_scroll_ms": 3000,
-    "full_page_png_sha256": "182a34b0b1470b17576a2b55bbbf36771251f60e9a56d5d3d63045106631942e"
+    "full_page_png_sha256": "a7c7d08d0cbac7125151e14a82ef55c13e6ca3dea556676a36d144c300d36ca2"
   }
 }

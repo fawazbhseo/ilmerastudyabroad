@@ -609,16 +609,16 @@
     },
     {
       "id": "about__1280__js-on__motion-normal",
-      "file": "cases/about__1280__js-on__motion-normal.json",
+      "file": null,
       "route": "/about",
       "width": 1280,
       "javascript": "on",
       "motion": "normal",
       "page_height": 9275,
-      "scroll_samples": 16,
-      "hidden_text_nodes": 1,
-      "empty_spacing_nodes": 0,
-      "pixel_candidates": 6,
+      "scroll_samples": null,
+      "hidden_text_nodes": null,
+      "empty_spacing_nodes": null,
+      "pixel_candidates": null,
       "http_status": 200,
       "pinned": {
         "gsap": true,
@@ -628,16 +628,16 @@
     },
     {
       "id": "about__1280__js-on__motion-reduced",
-      "file": "cases/about__1280__js-on__motion-reduced.json",
+      "file": null,
       "route": "/about",
       "width": 1280,
       "javascript": "on",
       "motion": "reduced",
       "page_height": 9275,
-      "scroll_samples": 16,
-      "hidden_text_nodes": 1,
-      "empty_spacing_nodes": 0,
-      "pixel_candidates": 6,
+      "scroll_samples": null,
+      "hidden_text_nodes": null,
+      "empty_spacing_nodes": null,
+      "pixel_candidates": null,
       "http_status": 200,
       "pinned": {
         "gsap": true,
@@ -8834,6 +8834,20 @@
       "pixel_candidates": 0,
       "http_status": 200,
       "pinned": null
+    }
+  ],
+  "replayed_cases": [
+    {
+      "id": "about__1280__js-on__motion-normal",
+      "reason": "First pass did not return to top because smooth scrolling outlasted the fixed wait. Replayed with an explicit instant top reset.",
+      "returned_to_top": true,
+      "final_scroll_y": 0
+    },
+    {
+      "id": "about__1280__js-on__motion-reduced",
+      "reason": "First pass did not return to top because smooth scrolling outlasted the fixed wait. Replayed with an explicit instant top reset.",
+      "returned_to_top": true,
+      "final_scroll_y": 0
     }
   ]
 }
