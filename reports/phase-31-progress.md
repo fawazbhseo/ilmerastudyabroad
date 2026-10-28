@@ -37,3 +37,10 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - Added an exact source-scope validator anchored to the Task1 render commit, a separate screenshot-directory option so after-crops cannot overwrite before-crops, a dual-mode audit report builder, and a configurable output path for the post-edit render comparison.
 - Tool checks passed: Python compilation, Node syntax, all 43 frozen render/content invariants, exact no-runtime-change guard, and a smoke rebuild of the existing 516-case Task1 audit (same 1,206 findings). Existing Task1 reports and before-crops remain unchanged.
 - Next: commit/push this verification-tooling checkpoint, then apply only the listed Home/About responsive `min-height` edits, commit/push that source checkpoint, and capture a distinct full 516-case after-scan.
+
+## 2026-10-28 checkpoint 5: Task2 `#team` min-height edits applied
+
+- `index.php` now overrides the Home `#team` min-height to `auto` only at widths up to 600px. The existing 601–768px rule and all padding remain unchanged.
+- `about.php` now uses `min-height:auto` for `#team` at 701–1024px and up to 600px. The 1280px/default rule and all padding remain unchanged.
+- The exact byte-level source guard confirms that only those approved CSS fragments differ from the Task1 source snapshot. Both PHP files pass the PHP-WASM syntax check, CRLF line endings are preserved, and the changes do not touch copy, links, images, schemas or other layout properties.
+- Post-fix all-route browser/content verification and the distinct 516-case after-scan are pending. No Task2 savings are claimed until those results are reviewed.
