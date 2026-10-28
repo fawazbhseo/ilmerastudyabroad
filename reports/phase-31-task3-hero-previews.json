@@ -1,0 +1,258 @@
+{
+  "phase": 31,
+  "task": 3,
+  "source_head": "806769a0d379e2059f654ba96be1561484d64598",
+  "browser": "local pinned Chromium via Playwright",
+  "viewport_height": 900,
+  "screenshot_count": 14,
+  "results": [
+    {
+      "name": "destination-published",
+      "route": "/study-in-germany",
+      "selector": ".article-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-destination",
+      "hero_width": 1280,
+      "hero_height": 361.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/destination-published-1280.png",
+      "screenshot_bytes": 233020,
+      "screenshot_sha256": "34cedd51f6f59eede3784fdc131a64fe31aa1cd75dcb6afe65db52f7304904f5"
+    },
+    {
+      "name": "destination-held",
+      "route": "/study-in-czech-republic",
+      "selector": ".article-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-destination",
+      "hero_width": 1280,
+      "hero_height": 361.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/destination-held-1280.png",
+      "screenshot_bytes": 233060,
+      "screenshot_sha256": "9bfb498dbbd94dfd945cc3faa3b65fb4fba22d7d1126d3554fefb2b89a59d35b"
+    },
+    {
+      "name": "place",
+      "route": "/study-abroad-counselling-mysuru",
+      "selector": ".article-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-place",
+      "hero_width": 1280,
+      "hero_height": 409.375,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/place-1280.png",
+      "screenshot_bytes": 251408,
+      "screenshot_sha256": "1985b3bec296f23298639b285d3b806dbfe2e4d7e3343b49b8330161a8af7de8"
+    },
+    {
+      "name": "article-published",
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "selector": ".article-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-article",
+      "hero_width": 1280,
+      "hero_height": 352.375,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/article-published-1280.png",
+      "screenshot_bytes": 240537,
+      "screenshot_sha256": "86b59a600c06b291984230e7be5330f45693f2d1545cb6db8276db7ed19748f1"
+    },
+    {
+      "name": "article-held",
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "selector": ".article-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-article",
+      "hero_width": 1280,
+      "hero_height": 400.5625,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/article-held-1280.png",
+      "screenshot_bytes": 259135,
+      "screenshot_sha256": "a2dc6f14e834d186219c6b3fd37cc4e11f5441fb18c1a2fd118173d6c843731a"
+    },
+    {
+      "name": "blog-index",
+      "route": "/blog/",
+      "selector": ".blog-hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-blog",
+      "hero_width": 1280,
+      "hero_height": 361.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/blog-index-1280.png",
+      "screenshot_bytes": 231902,
+      "screenshot_sha256": "1048f055853442d3a3da4309d0511bb009aabeb6c43ac73b20a469138cfa224b"
+    },
+    {
+      "name": "control-home",
+      "route": "/",
+      "selector": "#hero",
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "",
+      "hero_width": 1280,
+      "hero_height": 902.1875,
+      "background_image": "none",
+      "still_requests": [],
+      "screenshot": "reports/screenshots/phase-31-task3/control-home-1280.png",
+      "screenshot_bytes": 1121099,
+      "screenshot_sha256": "3908469309ec0326560732b6a8da07805caf14dfde43b2734fb801f861cae5ba"
+    },
+    {
+      "name": "destination-published",
+      "route": "/study-in-germany",
+      "selector": ".article-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-destination",
+      "hero_width": 360,
+      "hero_height": 328.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/destination-published-360.png",
+      "screenshot_bytes": 79796,
+      "screenshot_sha256": "13ca8c79ff8059c6e0076ab8544fe7ed631683cddb6dab1e98f9153a133c65ca"
+    },
+    {
+      "name": "destination-held",
+      "route": "/study-in-czech-republic",
+      "selector": ".article-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-destination",
+      "hero_width": 360,
+      "hero_height": 328.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/destination-held-360.png",
+      "screenshot_bytes": 79608,
+      "screenshot_sha256": "5015fd3ee0ddb6f47fb1b485650e2b12d057a1a9ff5242ba4c8e6ed3d35e8bf8"
+    },
+    {
+      "name": "place",
+      "route": "/study-abroad-counselling-mysuru",
+      "selector": ".article-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-place",
+      "hero_width": 360,
+      "hero_height": 376.375,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/place-360.png",
+      "screenshot_bytes": 82237,
+      "screenshot_sha256": "8f3ecfe5cc77438bf1ca649fcba8afcf77202dfff37df9da86ef477a470eea19"
+    },
+    {
+      "name": "article-published",
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "selector": ".article-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-article",
+      "hero_width": 360,
+      "hero_height": 364.671875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/article-published-360.png",
+      "screenshot_bytes": 86524,
+      "screenshot_sha256": "599c93e567679ac3d5d89c7924c410269da9658a05170a995f847a5b7ddfaef8"
+    },
+    {
+      "name": "article-held",
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "selector": ".article-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-article",
+      "hero_width": 360,
+      "hero_height": 412.859375,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/article-held-360.png",
+      "screenshot_bytes": 88164,
+      "screenshot_sha256": "3ea4099a64e6cb765060a4593653034ce7e2588246246787fc469c8187dca212"
+    },
+    {
+      "name": "blog-index",
+      "route": "/blog/",
+      "selector": ".blog-hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "p25 p25-blog",
+      "hero_width": 360,
+      "hero_height": 328.1875,
+      "background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "screenshot": "reports/screenshots/phase-31-task3/blog-index-360.png",
+      "screenshot_bytes": 77165,
+      "screenshot_sha256": "3289b0dabc55da99a01a540c3a7211c910aef50e1ebbcafdb5f4f53984ad123c"
+    },
+    {
+      "name": "control-home",
+      "route": "/",
+      "selector": "#hero",
+      "width": 360,
+      "height": 900,
+      "http_status": 200,
+      "body_class": "",
+      "hero_width": 360,
+      "hero_height": 1047.515625,
+      "background_image": "none",
+      "still_requests": [],
+      "screenshot": "reports/screenshots/phase-31-task3/control-home-360.png",
+      "screenshot_bytes": 367462,
+      "screenshot_sha256": "0ed1b921eefc585cb1d20d851b9e3dff77b08ae9add7a8d9815ce2a0967c58b2"
+    }
+  ]
+}
