@@ -1,0 +1,180 @@
+{
+  "id": "blog_documents-needed-to-study-abroad-from-india__1280__js-on__motion-normal",
+  "route": "/blog/documents-needed-to-study-abroad-from-india",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/documents-needed-to-study-abroad-from-india",
+  "http_status": 200,
+  "page_height": 6484,
+  "scroll": {
+    "height": 6484,
+    "scroll_samples": 11,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6484,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5348
+    },
+    "visible_text_chars": 7419,
+    "visible_text_nodes": 79,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Visas"
+      },
+      {
+        "selector": "h1",
+        "y": 224,
+        "text": "Documents needed to study abroad from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 469,
+        "text": "Documents needed to study abroad from India requires careful"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 549,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 549,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 617,
+        "text": "What should I know about documents needed to study abroad fr"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 709,
+        "text": "Start with the actual course, applicant circumstances and im"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 862,
+        "text": "Discuss documents needed to study abroad from India online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 948,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 948,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 948,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 948,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 997,
+        "text": "Start with the actual course, applicant circumstances and im"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1159,
+        "text": "Coverage: selected official examples, not a universal filing"
+      },
+      {
+        "selector": "h2",
+        "y": 1284,
+        "text": "Germany and Italy: do not treat different processes as one"
+      },
+      {
+        "selector": "p",
+        "y": 1351,
+        "text": "DAAD describes usual study-visa evidence including a valid p"
+      },
+      {
+        "selector": "a",
+        "y": 1445,
+        "text": "[DAAD-V]"
+      },
+      {
+        "selector": "p",
+        "y": 1505,
+        "text": "The Bengaluru consulate directs Italy applicants through ins"
+      },
+      {
+        "selector": "a",
+        "y": 1599,
+        "text": "[IT]"
+      },
+      {
+        "selector": "h2",
+        "y": 1680,
+        "text": "UK: identify which financial and language evidence applies"
+      },
+      {
+        "selector": "p",
+        "y": 1747,
+        "text": "GOV.UK describes accepted funding sources including specifie"
+      },
+      {
+        "selector": "a",
+        "y": 1841,
+        "text": "[UK-F]"
+      },
+      {
+        "selector": "p",
+        "y": 1901,
+        "text": "GOV.UK describes English evidence through qualifying educati"
+      },
+      {
+        "selector": "a",
+        "y": 1995,
+        "text": "[UK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 6484,
+    "scan_width": 512,
+    "scan_height": 2594,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.499614494988435
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "aa8a0b7b32c271336a4e0d8ca0c92134669f202d4b823b512d8d26d3bdfc8aee"
+  }
+}

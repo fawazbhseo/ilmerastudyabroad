@@ -1,0 +1,254 @@
+{
+  "id": "study-abroad-counselling-mysuru__768__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-mysuru",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-mysuru",
+  "http_status": 200,
+  "page_height": 4533,
+  "scroll": {
+    "height": 4533,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4533,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3151
+    },
+    "visible_text_chars": 4188,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Mysuru"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Mysuru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Mysuru: read the record as the r"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 553,
+        "text": "Small differences between academic records can become import"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 706,
+        "text": "Discuss how to read the record as the recipient will see it "
+      },
+      {
+        "selector": "h2",
+        "y": 789,
+        "text": "Read the record as the recipient will see it"
+      },
+      {
+        "selector": "p",
+        "y": 850,
+        "text": "Create an inventory of the academic documents relevant to th"
+      },
+      {
+        "selector": "h2",
+        "y": 1095,
+        "text": "Establish the requested form before ordering copies"
+      },
+      {
+        "selector": "p",
+        "y": 1156,
+        "text": "Find out whether the recipient wants an uploaded copy, a cer"
+      },
+      {
+        "selector": "h2",
+        "y": 1429,
+        "text": "Close discrepancies before the final upload"
+      },
+      {
+        "selector": "p",
+        "y": 1490,
+        "text": "Review whether each flagged difference has been corrected or"
+      },
+      {
+        "selector": "p",
+        "y": 1744,
+        "text": "Counselling is online, and students from Mysuru do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1816,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1899,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p",
+        "y": 1950,
+        "text": "Preserve the records and ask the appropriate issuer or recip"
+      },
+      {
+        "selector": "summary",
+        "y": 1987,
+        "text": "Should transcripts be ordered before checking the required f"
+      },
+      {
+        "selector": "p",
+        "y": 2038,
+        "text": "Check the recipient's instructions first. An upload, certifi"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2159,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2220,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2280,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2389,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2457,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2521,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4533,
+    "scan_width": 512,
+    "scan_height": 3022,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2865,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2626,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 2807,
+            "text": "Create an inventory of the academic documents relevant to the proposed course. Note the na"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3044,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2865,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2626,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 2807,
+            "text": "Create an inventory of the academic documents relevant to the proposed course. Note the na"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3044,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "d39259c1531c39c7f19f956a00eb3630ea6296971c43958f066a20c64f17798d"
+  }
+}

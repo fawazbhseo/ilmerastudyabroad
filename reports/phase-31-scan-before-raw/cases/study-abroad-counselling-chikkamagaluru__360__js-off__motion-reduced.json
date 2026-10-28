@@ -1,0 +1,514 @@
+{
+  "id": "study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced",
+  "route": "/study-abroad-counselling-chikkamagaluru",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-chikkamagaluru",
+  "http_status": 200,
+  "page_height": 6881,
+  "scroll": {
+    "height": 6881,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6881,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4747
+    },
+    "visible_text_chars": 4311,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Chikkamagaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Chikkamagaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 467,
+        "text": "Study abroad consultancy in Chikkamagaluru: find the require"
+      },
+      {
+        "selector": "h2",
+        "y": 597,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 756,
+        "text": "For a Chikkamagaluru student, language preparation is easier"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1053,
+        "text": "Discuss how to find the requirement that belongs to your cou"
+      },
+      {
+        "selector": "h2",
+        "y": 1155,
+        "text": "Find the requirement that belongs to your course"
+      },
+      {
+        "selector": "p",
+        "y": 1252,
+        "text": "Record the language requirement beside the exact course and "
+      },
+      {
+        "selector": "h2",
+        "y": 1814,
+        "text": "Treat alternative proof as a question, not a shortcut"
+      },
+      {
+        "selector": "p",
+        "y": 1911,
+        "text": "If you want to use a medium-of-instruction letter or previou"
+      },
+      {
+        "selector": "h2",
+        "y": 2415,
+        "text": "Allow time for evidence, review and a fallback"
+      },
+      {
+        "selector": "p",
+        "y": 2512,
+        "text": "Build a language-evidence schedule around the actual applica"
+      },
+      {
+        "selector": "p",
+        "y": 3025,
+        "text": "Counselling is online, and students from Chikkamagaluru do n"
+      },
+      {
+        "selector": "h2",
+        "y": 3154,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3268,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p",
+        "y": 3365,
+        "text": "No. Ask the selected programme whether it accepts that exact"
+      },
+      {
+        "selector": "summary",
+        "y": 3397,
+        "text": "What should a language-requirement enquiry quote?"
+      },
+      {
+        "selector": "p",
+        "y": 3468,
+        "text": "Include the course, intake, published requirement and the ev"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3589,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3686,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3775,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3884,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3952,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 4016,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6881,
+    "scan_width": 360,
+    "scan_height": 6881,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Chikkamagaluru"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 597,
+            "text": "Can a Chikkamagaluru applicant assume an instruction letter replaces a test?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3443,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3513,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3268,
+            "text": "Can a Chikkamagaluru applicant assume an instruction letter replaces a test?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3686,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4036,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3705,
+          "computed": {
+            "min_height": "0px",
+            "height": "3705.06px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3952,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4246,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4446,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4121,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4246,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4620,
+            "text": "Ask ILMERA how to treat alternative proof as a question, not a shortcut"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4675,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4471,
+            "text": "If you want to use a medium-of-instruction letter or previous study instead of a test, ask"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Chikkamagaluru"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 597,
+            "text": "Can a Chikkamagaluru applicant assume an instruction letter replaces a test?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3443,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3513,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3268,
+            "text": "Can a Chikkamagaluru applicant assume an instruction letter replaces a test?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3686,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4036,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3705,
+          "computed": {
+            "min_height": "0px",
+            "height": "3705.06px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3952,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4246,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4446,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4121,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4246,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4620,
+            "text": "Ask ILMERA how to treat alternative proof as a question, not a shortcut"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4675,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__360__js-off__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4471,
+            "text": "If you want to use a medium-of-instruction letter or previous study instead of a test, ask"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "ef025650bcd86227e7cbd97d77c173839a1b8e1878df18e355e36218e9460259"
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "id": "study-abroad-counselling-kushalnagar__360__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-kushalnagar",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-kushalnagar",
+  "http_status": 200,
+  "page_height": 6959,
+  "scroll": {
+    "height": 6959,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6959,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4825
+    },
+    "visible_text_chars": 4046,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Kushalnagar"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Kushalnagar"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 467,
+        "text": "Study abroad consultancy in Kushalnagar: turn the offer into"
+      },
+      {
+        "selector": "h2",
+        "y": 568,
+        "text": "What should a Kushalnagar student extract from an offer lett"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 694,
+        "text": "Receiving an offer is a point for careful reading, not a rea"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 962,
+        "text": "Discuss how to turn the offer into a list of obligations onl"
+      },
+      {
+        "selector": "h2",
+        "y": 1064,
+        "text": "Turn the offer into a list of obligations"
+      },
+      {
+        "selector": "p",
+        "y": 1161,
+        "text": "Read the whole document and identify each condition separate"
+      },
+      {
+        "selector": "h2",
+        "y": 1694,
+        "text": "Check what acceptance commits you to"
+      },
+      {
+        "selector": "p",
+        "y": 1791,
+        "text": "Before responding, look for the acceptance method, response "
+      },
+      {
+        "selector": "h2",
+        "y": 2266,
+        "text": "Keep admission, enrolment and immigration distinct"
+      },
+      {
+        "selector": "p",
+        "y": 2399,
+        "text": "Build a short sequence showing the next actions after a resp"
+      },
+      {
+        "selector": "p",
+        "y": 2941,
+        "text": "Counselling is online, and students from Kushalnagar do not "
+      },
+      {
+        "selector": "h2",
+        "y": 3070,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3184,
+        "text": "What should a Kushalnagar student extract from an offer lett"
+      },
+      {
+        "selector": "p",
+        "y": 3281,
+        "text": "List every condition, evidence requirement, response deadlin"
+      },
+      {
+        "selector": "summary",
+        "y": 3313,
+        "text": "Is an offer the same as immigration permission?"
+      },
+      {
+        "selector": "p",
+        "y": 3384,
+        "text": "No. Keep admissions and immigration decisions separate, and "
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3505,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3602,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3691,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3800,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3868,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 3922,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6959,
+    "scan_width": 360,
+    "scan_height": 6959,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Kushalnagar"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "What should a Kushalnagar student extract from an offer letter?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3359,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3429,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3184,
+            "text": "What should a Kushalnagar student extract from an offer letter?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3602,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4114,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3783,
+          "computed": {
+            "min_height": "0px",
+            "height": "3783.08px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4030,
+            "text": "Siddapura"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4324,
+            "text": "How can Kushalnagar students turn the offer into a list of obligations?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4524,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4199,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4324,
+            "text": "How can Kushalnagar students turn the offer into a list of obligations?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4698,
+            "text": "Ask ILMERA how to check what acceptance commits you to"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4753,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4549,
+            "text": "Before responding, look for the acceptance method, response deadline and any financial ter"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Kushalnagar"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "What should a Kushalnagar student extract from an offer letter?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3359,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3429,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3184,
+            "text": "What should a Kushalnagar student extract from an offer letter?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3602,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4114,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3783,
+          "computed": {
+            "min_height": "0px",
+            "height": "3783.08px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4030,
+            "text": "Siddapura"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4324,
+            "text": "How can Kushalnagar students turn the offer into a list of obligations?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4524,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4199,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4324,
+            "text": "How can Kushalnagar students turn the offer into a list of obligations?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4698,
+            "text": "Ask ILMERA how to check what acceptance commits you to"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4753,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-kushalnagar__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4549,
+            "text": "Before responding, look for the acceptance method, response deadline and any financial ter"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f964a2008c14da8ffc3fbbcb1172113ce6bcac033ec3b5610452c06085f1aca0"
+  }
+}

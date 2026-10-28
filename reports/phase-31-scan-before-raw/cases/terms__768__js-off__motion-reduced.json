@@ -1,0 +1,176 @@
+{
+  "id": "terms__768__js-off__motion-reduced",
+  "route": "/terms",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/terms",
+  "http_status": 200,
+  "page_height": 5078,
+  "scroll": {
+    "height": 5078,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5078,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3697
+    },
+    "visible_text_chars": 6223,
+    "visible_text_nodes": 40,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA terms of use"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 327,
+        "text": "ILMERA terms of use: Read the scope of website use and couns"
+      },
+      {
+        "selector": "p.sub",
+        "y": 403,
+        "text": "The terms that govern your use of the ILMERA Study Abroad we"
+      },
+      {
+        "selector": "span.legal-updated",
+        "y": 430,
+        "text": "Last Updated: August 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 488,
+        "text": "1. Acceptance of Terms"
+      },
+      {
+        "selector": "p",
+        "y": 544,
+        "text": "These Terms of Use (\"Terms\") govern your access to and use o"
+      },
+      {
+        "selector": "h2",
+        "y": 723,
+        "text": "2. About Our Services"
+      },
+      {
+        "selector": "p",
+        "y": 779,
+        "text": "ILMERA Study Abroad provides online academic review, admissi"
+      },
+      {
+        "selector": "h2",
+        "y": 1073,
+        "text": "3. Nature of Guidance Provided"
+      },
+      {
+        "selector": "p",
+        "y": 1129,
+        "text": "ILMERA acts as a consultant and facilitator. We provide guid"
+      },
+      {
+        "selector": "p",
+        "y": 1287,
+        "text": "We do not guarantee admission to any specific university, th"
+      },
+      {
+        "selector": "h2",
+        "y": 1437,
+        "text": "4. Your Responsibilities"
+      },
+      {
+        "selector": "p",
+        "y": 1493,
+        "text": "When engaging our services, you agree to:"
+      },
+      {
+        "selector": "li",
+        "y": 1536,
+        "text": "Provide accurate, complete, and truthful information about y"
+      },
+      {
+        "selector": "li",
+        "y": 1602,
+        "text": "Promptly inform us of any changes to your circumstances that"
+      },
+      {
+        "selector": "li",
+        "y": 1639,
+        "text": "Provide genuine documents and certificates, and understand t"
+      },
+      {
+        "selector": "li",
+        "y": 1733,
+        "text": "Meet application deadlines and respond to requests for docum"
+      },
+      {
+        "selector": "h2",
+        "y": 1826,
+        "text": "5. Fees and Payments"
+      },
+      {
+        "selector": "p",
+        "y": 1882,
+        "text": "ILMERA charges the student a service charge between ₹3 lakh "
+      },
+      {
+        "selector": "h2",
+        "y": 2147,
+        "text": "6. Third-Party Institutions"
+      },
+      {
+        "selector": "p",
+        "y": 2203,
+        "text": "ILMERA facilitates connections with universities, scholarshi"
+      },
+      {
+        "selector": "h2",
+        "y": 2382,
+        "text": "7. Website Use"
+      },
+      {
+        "selector": "p",
+        "y": 2438,
+        "text": "You agree to use ilmerastudyabroad.com only for lawful purpo"
+      },
+      {
+        "selector": "h2",
+        "y": 2588,
+        "text": "8. Intellectual Property"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5078,
+    "scan_width": 512,
+    "scan_height": 3385,
+    "threshold": 160,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 1.5001477104874446
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "3576d90738778ca7e414dbfa9552df97915da498a1aa7daba61054dcf485e874"
+  }
+}

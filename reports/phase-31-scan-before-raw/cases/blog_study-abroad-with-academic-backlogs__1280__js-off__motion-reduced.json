@@ -1,0 +1,176 @@
+{
+  "id": "blog_study-abroad-with-academic-backlogs__1280__js-off__motion-reduced",
+  "route": "/blog/study-abroad-with-academic-backlogs",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/study-abroad-with-academic-backlogs",
+  "http_status": 200,
+  "page_height": 5016,
+  "scroll": {
+    "height": 5016,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5016,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3880
+    },
+    "visible_text_chars": 4834,
+    "visible_text_nodes": 51,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "No-IELTS"
+      },
+      {
+        "selector": "h1",
+        "y": 224,
+        "text": "Study abroad with academic backlogs"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 413,
+        "text": "Study abroad with academic backlogs requires careful plannin"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 494,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 494,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 561,
+        "text": "What should I know about study abroad with academic backlogs"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 620,
+        "text": "For a backlog enquiry, describe the actual academic record a"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 744,
+        "text": "Discuss study abroad with academic backlogs online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 831,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 831,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 831,
+        "text": "· August 27, 2025 · Reviewed October 2026 · 4 min read"
+      },
+      {
+        "selector": "p",
+        "y": 879,
+        "text": "One of the most common questions we get from students is whe"
+      },
+      {
+        "selector": "h2",
+        "y": 1038,
+        "text": "Why Backlogs Matter Less Than Students Assume"
+      },
+      {
+        "selector": "p",
+        "y": 1106,
+        "text": "Most universities abroad evaluate your overall academic reco"
+      },
+      {
+        "selector": "h2",
+        "y": 1294,
+        "text": "Where More Flexible Entry Exists"
+      },
+      {
+        "selector": "strong",
+        "y": 1361,
+        "text": "Private and applied universities:"
+      },
+      {
+        "selector": "li",
+        "y": 1361,
+        "text": "many private institutions across Europe assess applications "
+      },
+      {
+        "selector": "strong",
+        "y": 1457,
+        "text": "Foundation and pathway programs:"
+      },
+      {
+        "selector": "li",
+        "y": 1457,
+        "text": "some countries offer a preparatory or foundation year that l"
+      },
+      {
+        "selector": "strong",
+        "y": 1525,
+        "text": "Profile-based admissions:"
+      },
+      {
+        "selector": "li",
+        "y": 1525,
+        "text": "certain programs weigh statements of purpose, portfolios, or"
+      },
+      {
+        "selector": "h2",
+        "y": 1626,
+        "text": "What We Tell Students Honestly"
+      },
+      {
+        "selector": "p",
+        "y": 1694,
+        "text": "Backlogs are not something to hide in an application. Admiss"
+      },
+      {
+        "selector": "p",
+        "y": 1833,
+        "text": "The same logic applies to No-IELTS routes: several universit"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5016,
+    "scan_width": 512,
+    "scan_height": 2006,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5004985044865404
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6da6ec5efe7f2ec7990488638381c97061b23a4c53c8c101d667df4bbfa15c21"
+  }
+}

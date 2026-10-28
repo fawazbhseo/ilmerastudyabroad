@@ -1,0 +1,176 @@
+{
+  "id": "privacy-policy__768__js-off__motion-reduced",
+  "route": "/privacy-policy",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/privacy-policy",
+  "http_status": 200,
+  "page_height": 4758,
+  "scroll": {
+    "height": 4758,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4758,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3377
+    },
+    "visible_text_chars": 4763,
+    "visible_text_nodes": 46,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA privacy policy"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 327,
+        "text": "ILMERA privacy policy: Read how enquiry information is colle"
+      },
+      {
+        "selector": "p.sub",
+        "y": 403,
+        "text": "How ILMERA Study Abroad collects, uses and protects the info"
+      },
+      {
+        "selector": "span.legal-updated",
+        "y": 430,
+        "text": "Last Updated: August 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 488,
+        "text": "1. Introduction"
+      },
+      {
+        "selector": "p",
+        "y": 544,
+        "text": "ILMERA Study Abroad (\"ILMERA,\" \"we,\" \"us,\" or \"our\") is an o"
+      },
+      {
+        "selector": "p",
+        "y": 673,
+        "text": "By using our website or submitting your details to us throug"
+      },
+      {
+        "selector": "h2",
+        "y": 766,
+        "text": "2. Information We Collect"
+      },
+      {
+        "selector": "p",
+        "y": 822,
+        "text": "We collect information that you voluntarily provide to us, i"
+      },
+      {
+        "selector": "li",
+        "y": 865,
+        "text": "Your name, email address, and phone number when you submit o"
+      },
+      {
+        "selector": "li",
+        "y": 930,
+        "text": "Details about your academic background, preferred study dest"
+      },
+      {
+        "selector": "li",
+        "y": 996,
+        "text": "Any documents you choose to share with us during the admissi"
+      },
+      {
+        "selector": "li",
+        "y": 1061,
+        "text": "Basic technical information collected automatically by our w"
+      },
+      {
+        "selector": "p",
+        "y": 1133,
+        "text": "We do not knowingly collect information from children under "
+      },
+      {
+        "selector": "h2",
+        "y": 1226,
+        "text": "3. How We Use Your Information"
+      },
+      {
+        "selector": "p",
+        "y": 1282,
+        "text": "We use the information you provide to:"
+      },
+      {
+        "selector": "li",
+        "y": 1324,
+        "text": "Respond to your enquiry and provide study abroad consultatio"
+      },
+      {
+        "selector": "li",
+        "y": 1361,
+        "text": "Assess your academic profile and match you with suitable uni"
+      },
+      {
+        "selector": "li",
+        "y": 1398,
+        "text": "Assist with university applications, scholarship application"
+      },
+      {
+        "selector": "li",
+        "y": 1464,
+        "text": "Communicate with you by phone, WhatsApp, email, or video cal"
+      },
+      {
+        "selector": "li",
+        "y": 1529,
+        "text": "Maintain records required for our consultancy services."
+      },
+      {
+        "selector": "p",
+        "y": 1572,
+        "text": "We do not sell your personal information to third parties."
+      },
+      {
+        "selector": "h2",
+        "y": 1636,
+        "text": "4. Sharing of Information"
+      },
+      {
+        "selector": "p",
+        "y": 1692,
+        "text": "We may share your information with universities, scholarship"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4758,
+    "scan_width": 512,
+    "scan_height": 3172,
+    "threshold": 160,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 1.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "0184ef418befd709f11c9a5b280c573f050b72f2ccffc41e9ff103b9e7208c52"
+  }
+}

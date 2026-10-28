@@ -1,0 +1,514 @@
+{
+  "id": "study-abroad-counselling-hassan__360__js-off__motion-normal",
+  "route": "/study-abroad-counselling-hassan",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-hassan",
+  "http_status": 200,
+  "page_height": 6806,
+  "scroll": {
+    "height": 6806,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6806,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4672
+    },
+    "visible_text_chars": 4003,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Hassan"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Hassan"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 428,
+        "text": "Study abroad consultancy in Hassan: separate the known price"
+      },
+      {
+        "selector": "h2",
+        "y": 558,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 684,
+        "text": "An overseas study budget should show where the money comes f"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 952,
+        "text": "Discuss how to separate the known price from the planning es"
+      },
+      {
+        "selector": "h2",
+        "y": 1073,
+        "text": "Separate the known price from the planning estimate"
+      },
+      {
+        "selector": "p",
+        "y": 1206,
+        "text": "Start with a cost list whose entries are labelled clearly. A"
+      },
+      {
+        "selector": "h2",
+        "y": 1710,
+        "text": "Test a plan that does not depend on the best case"
+      },
+      {
+        "selector": "p",
+        "y": 1807,
+        "text": "Prepare a version of the budget without unconfirmed funding."
+      },
+      {
+        "selector": "h2",
+        "y": 2311,
+        "text": "Agree the point at which to pause"
+      },
+      {
+        "selector": "p",
+        "y": 2408,
+        "text": "Define a maximum commitment before paying application-relate"
+      },
+      {
+        "selector": "p",
+        "y": 2979,
+        "text": "Counselling is online, and students from Hassan do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 3080,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3194,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p",
+        "y": 3290,
+        "text": "Keep it separate from confirmed funds and test whether the p"
+      },
+      {
+        "selector": "summary",
+        "y": 3322,
+        "text": "Why set a budget stop point before applications?"
+      },
+      {
+        "selector": "p",
+        "y": 3393,
+        "text": "It helps you decide when unresolved costs or changed assumpt"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3514,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3611,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3700,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3809,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3877,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 3941,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6806,
+    "scan_width": 360,
+    "scan_height": 6806,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 305,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.375px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Hassan"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 558,
+            "text": "How should a Hassan student treat an expected scholarship in a budget?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3369,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3438,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3322,
+            "text": "Why set a budget stop point before applications?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3611,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3961,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 3669,
+          "computed": {
+            "min_height": "0px",
+            "height": "3669.38px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3877,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4171,
+            "text": "How can Hassan students separate the known price from the planning estimate?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4368,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4046,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4171,
+            "text": "How can Hassan students separate the known price from the planning estimate?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4545,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4600,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4545,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 305,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.375px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Hassan"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 558,
+            "text": "How should a Hassan student treat an expected scholarship in a budget?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3369,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3438,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3322,
+            "text": "Why set a budget stop point before applications?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3611,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3961,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 3669,
+          "computed": {
+            "min_height": "0px",
+            "height": "3669.38px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3877,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4171,
+            "text": "How can Hassan students separate the known price from the planning estimate?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4368,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4046,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4171,
+            "text": "How can Hassan students separate the known price from the planning estimate?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4545,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4600,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__360__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4545,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "7bfe0fee4b4cdaa488a3d889e212451a799fbc025e103262ce1f87f065465419"
+  }
+}
