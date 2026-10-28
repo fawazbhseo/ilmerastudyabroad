@@ -1,0 +1,1 @@
+PASS {"published_captures": 38, "recursive_schema_policy": "PASS", "names_wording_punctuation": "PASS", "prompt_status_reasons": "PASS", "canonical_entity_llm_parity": "PASS", "strategy_prompt_inventory": {"partly answered": 15, "gap": 29, "answered": 6}, "external_http_status_verified": false, "live_rankings_verified": false}
