@@ -1,0 +1,265 @@
+{
+  "phase": 31,
+  "task": 2,
+  "started_local_date": "2026-10-28",
+  "parent_head": "2891e91684cf598707e85ddd4cb951d2da701e1e",
+  "complete_no_skip_or_resume": true,
+  "suite_seconds": 1637.68,
+  "php_files": 98,
+  "browser_cases": "258 normal-motion route/width/JS combinations plus 48 reduced-motion representative-template cases",
+  "exact_43_route_content_invariants": "PASS",
+  "legacy_phase30_phase26b": "Not rerun: closed historical scopes; their old scripts rewrite legacy artifacts or impose unrelated release gates.",
+  "a11y": "A/AA baseline-relative; preserved pre-existing findings are not labelled fixed",
+  "performance_or_live_claims": false,
+  "native_hosting_tests": false,
+  "groups": [
+    {
+      "name": "PHP-WASM CLI syntax",
+      "status": "PASS",
+      "files": 98,
+      "seconds": 56.16,
+      "runtime": "PHP 8.5.10 WASM CLI via pinned php-wasm-cli 3.1.58"
+    },
+    {
+      "name": "test_discovery.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "test_discovery.py.log",
+      "tail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.003s\n\nOK\n"
+    },
+    {
+      "name": "test_citations.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.07,
+      "log": "test_citations.py.log",
+      "tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "test_italy_claims.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "test_italy_claims.py.log",
+      "tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "test_llm_directory.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.09,
+      "log": "test_llm_directory.py.log",
+      "tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "name": "test_llm_policy.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.38,
+      "log": "test_llm_policy.py.log",
+      "tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.311s\n\nOK\n"
+    },
+    {
+      "name": "test_presence.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "test_presence.py.log",
+      "tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "name": "test_wording.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "test_wording.py.log",
+      "tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "test_team_bio_policy.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.08,
+      "log": "test_team_bio_policy.py.log",
+      "tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.010s\n\nOK\n"
+    },
+    {
+      "name": "test_duplicate_answers.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.04,
+      "log": "test_duplicate_answers.py.log",
+      "tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "visual policy on",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.69,
+      "log": "visual-policy-on.log",
+      "tail": "PASS43 template/reference/failsafe/still/global-switch policy fixtures\n"
+    },
+    {
+      "name": "visual policy off",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.63,
+      "log": "visual-policy-off.log",
+      "tail": "PASS43 template/reference/failsafe/still/global-switch policy fixtures\n"
+    },
+    {
+      "name": "visual policy inline",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.65,
+      "log": "visual-policy-inline.log",
+      "tail": "PASS43 template/reference/failsafe/still/global-switch policy fixtures\n"
+    },
+    {
+      "name": "check_destination_sources.php",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.63,
+      "log": "check_destination_sources.php.log",
+      "tail": "{\"passed\":15}\n"
+    },
+    {
+      "name": "check_place_contact.php",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.57,
+      "log": "check_place_contact.php.log",
+      "tail": "PASS existing contact channels, shared phone and no local office schema\n"
+    },
+    {
+      "name": "check_place_publication.php",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.6,
+      "log": "check_place_publication.php.log",
+      "tail": "{\"passed\":27}\n"
+    },
+    {
+      "name": "test_proof.php",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.58,
+      "log": "test_proof.php.log",
+      "tail": "PASS exact private-source registration projection, field mutations, privacy and unchanged generic gates\n"
+    },
+    {
+      "name": "test_strategy_schema.php",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.6,
+      "log": "test_strategy_schema.php.log",
+      "tail": "PASS 7 related-guide ItemList boundaries\n"
+    },
+    {
+      "name": "public exposure policy",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.07,
+      "log": "public-exposure-policy.log",
+      "tail": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "strict discovery routes",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.22,
+      "log": "strict-discovery-routes.log",
+      "tail": "dy-in-slovakia\",\n    \"https://ilmerastudyabroad.com/study-in-gcc\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-belagavi\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-hassan\",\n    \"https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka\",\n    \"https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-madikeri\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-mysuru\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-siddapura\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal\",\n    \"https://ilmerastudyabroad.com/study-abroad-counselling-virajpet\"\n  ],\n  \"indexable\": 38,\n  \"blocked\": 5,\n  \"routes\": 43,\n  \"llm_directory\": {\n    \"llms.txt\": {\n      \"metadata_entries\": 32,\n      \"published_urls\": 38,\n      \"destinations\": 7,\n      \"locations\": 17,\n      \"blog_articles\": 6\n    },\n    \"llms-full.txt\": {\n      \"metadata_entries\": 32,\n      \"published_urls\": 38,\n      \"destinations\": 7,\n      \"locations\": 17,\n      \"blog_articles\": 6\n    }\n  }\n}\nPASS HTTP statuses, canonicals, robots, sitemap coverage, inbound links, internal targets and fragments\n"
+    },
+    {
+      "name": "publication review",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.7,
+      "log": "publication-review.log",
+      "tail": "PASS 42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity\n"
+    },
+    {
+      "name": "Italy claim policy",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.22,
+      "log": "italy-claim-policy.log",
+      "tail": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6, '/llms.txt': 2, '/llms-full.txt': 1} total 22\n"
+    },
+    {
+      "name": "Phase19 rendered policy",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.32,
+      "log": "phase19-rendered-policy.log",
+      "tail": "PASS {'published_pages': 38, 'unique_short_metadata': True, 'one_h1': True, 'primary_in_heading_and_opening': True, 'destination_data_byte_identical': True}\n"
+    },
+    {
+      "name": "technical SEO",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.31,
+      "log": "technical-seo.log",
+      "tail": "PASS {\"pages\": 38, \"heading_order\": \"PASS\", \"breadcrumb_visible_schema_parity\": \"PASS\", \"image_instances\": 88, \"image_alt_dimensions_loading\": \"PASS\", \"max_click_depth\": 1, \"orphans\": 0, \"canonical_targets_direct_200\": true, \"existing_external_font_stylesheets\": [\"https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap\"], \"native_redirect_chains_verified\": false, \"live_performance_verified\": false}\n"
+    },
+    {
+      "name": "read-only LLM directory parity",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 2.64,
+      "log": "read-only-llm-directory-parity.log",
+      "tail": "PASS {'llms.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}, 'llms-full.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}}\n"
+    },
+    {
+      "name": "Phase20 content inventory",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.23,
+      "log": "phase20-content-inventory.log",
+      "tail": "PASS {\"published_pages\": 38, \"unique_primaries\": 38, \"changed_primaries\": 0, \"document_fragments\": 17, \"prompts\": 50, \"prompt_statuses\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"protected_files\": 33, \"destination_and_location_data_unchanged\": true}\n"
+    },
+    {
+      "name": "rendered cycle consistency",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.76,
+      "log": "rendered-cycle-consistency.log",
+      "tail": "PASS {\"published_captures\": 38, \"recursive_schema_policy\": \"PASS\", \"names_wording_punctuation\": \"PASS\", \"prompt_status_reasons\": \"PASS\", \"canonical_entity_llm_parity\": \"PASS\", \"strategy_prompt_inventory\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"external_http_status_verified\": false, \"live_rankings_verified\": false}\n"
+    },
+    {
+      "name": "43-route exact pre-fix invariants",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 3.31,
+      "log": "43-route-exact-pre-fix-invariants.log",
+      "tail": "PASS exact pre-fix text/title/meta/headings/FAQ/links/images/JSON-LD/canonical/robots/status/sitemap: 43 routes\n"
+    },
+    {
+      "name": "43-route browser matrix",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 1524.03,
+      "log": "43-route-browser-matrix.log",
+      "tail": "85/306 /study-in-germany 768 JS-on reduced h=5894 hidden=0\nBROWSER 286/306 /study-in-germany 768 JS-off reduced h=5894 hidden=0\nBROWSER 287/306 /study-in-germany 1280 JS-on reduced h=5937 hidden=0\nBROWSER 288/306 /study-in-germany 1280 JS-off reduced h=5937 hidden=0\nBROWSER 289/306 /study-abroad-counselling-mysuru 360 JS-on reduced h=6860 hidden=0\nBROWSER 290/306 /study-abroad-counselling-mysuru 360 JS-off reduced h=6860 hidden=0\nBROWSER 291/306 /study-abroad-counselling-mysuru 768 JS-on reduced h=4533 hidden=0\nBROWSER 292/306 /study-abroad-counselling-mysuru 768 JS-off reduced h=4533 hidden=0\nBROWSER 293/306 /study-abroad-counselling-mysuru 1280 JS-on reduced h=4538 hidden=0\nBROWSER 294/306 /study-abroad-counselling-mysuru 1280 JS-off reduced h=4538 hidden=0\nBROWSER 295/306 /blog/how-to-choose-study-abroad-consultant-karnataka 360 JS-on reduced h=12537 hidden=0\nBROWSER 296/306 /blog/how-to-choose-study-abroad-consultant-karnataka 360 JS-off reduced h=12537 hidden=0\nBROWSER 297/306 /blog/how-to-choose-study-abroad-consultant-karnataka 768 JS-on reduced h=7719 hidden=0\nBROWSER 298/306 /blog/how-to-choose-study-abroad-consultant-karnataka 768 JS-off reduced h=7719 hidden=0\nBROWSER 299/306 /blog/how-to-choose-study-abroad-consultant-karnataka 1280 JS-on reduced h=7976 hidden=0\nBROWSER 300/306 /blog/how-to-choose-study-abroad-consultant-karnataka 1280 JS-off reduced h=7976 hidden=0\nBROWSER 301/306 /blog/ 360 JS-on reduced h=6400 hidden=0\nBROWSER 302/306 /blog/ 360 JS-off reduced h=6400 hidden=0\nBROWSER 303/306 /blog/ 768 JS-on reduced h=4567 hidden=0\nBROWSER 304/306 /blog/ 768 JS-off reduced h=4567 hidden=0\nBROWSER 305/306 /blog/ 1280 JS-on reduced h=3400 hidden=0\nBROWSER 306/306 /blog/ 1280 JS-off reduced h=3400 hidden=0\nBROWSER SUITE PASS 306 cases; targets=5670 hidden=0\n"
+    },
+    {
+      "name": "representative WCAG A-AA baseline",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 38.73,
+      "log": "representative-wcag-a-aa-baseline.log",
+      "tail": "AXE / 8\nAXE /services 21\nAXE /about 5\nAXE /contact 2\nAXE /study-in-germany 0\nAXE /study-abroad-counselling-mysuru 0\nAXE /blog/how-to-choose-study-abroad-consultant-karnataka 0\nAXE /blog/ 0\nPASS_BASELINE_RELATIVE nodes 36 delta 0\n"
+    },
+    {
+      "name": "git whitespace",
+      "status": "PASS",
+      "exit_code": 0,
+      "seconds": 0.01,
+      "log": "git-whitespace.log",
+      "tail": ""
+    }
+  ],
+  "all_groups_passed": true
+}
