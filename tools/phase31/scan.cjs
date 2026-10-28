@@ -12,6 +12,7 @@ const routeArg=arg('--routes','');const routeFilter=routeArg?new Set(routeArg.sp
 const widths=(arg('--widths','360,768,1280')).split(',').map(Number);
 const caseLimit=Number(arg('--case-limit','0'))||Infinity;
 const cropOn=arg('--crops','yes')!=='no';
+const SCREENSHOT_DIR=path.resolve(arg('--screenshot-dir',path.join(ROOT,'reports/screenshots/phase-31')));
 const ROUTE_DATA=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/phase-25-baseline-renders.json'),'utf8'));
 const allRoutes=Object.keys(ROUTE_DATA.routes||{}).sort();
 const routes=routeFilter?allRoutes.filter(r=>routeFilter.has(r)):allRoutes;
@@ -152,7 +153,7 @@ async function run(){
       const dom=await captureDOM(page,thresholdByWidth[width]);
       const pinned=js==='on'?await page.evaluate(()=>({gsap:!!window.gsap,scrollTrigger:!!window.ScrollTrigger,three:!!window.THREE})):null;
       let shot;try{shot=await page.screenshot({fullPage:true,type:'png',timeout:90000,animations:'allow'});}catch(e){await page.close();throw new Error(`Full-page screenshot failed ${key}: ${e.message}`);}
-      const pixels=await analyzeScreenshot(shot,width,route,key);const bandContexts=await locateBands(page,pixels.interior_candidates);pixels.interior_candidates.forEach((b,i)=>{b.context=bandContexts[i];b.selector=bandContexts[i]?.selector||'main';b.cause=`Low edge-density band; nearest section ${b.selector} has ${bandContexts[i]?.computed?.padding_top||'unknown'} top and ${bandContexts[i]?.computed?.padding_bottom||'unknown'} bottom padding. Compare neighboring visible blocks and source before classifying as unused space.`;});const cropDir=path.join(ROOT,'reports/screenshots/phase-31');
+      const pixels=await analyzeScreenshot(shot,width,route,key);const bandContexts=await locateBands(page,pixels.interior_candidates);pixels.interior_candidates.forEach((b,i)=>{b.context=bandContexts[i];b.selector=bandContexts[i]?.selector||'main';b.cause=`Low edge-density band; nearest section ${b.selector} has ${bandContexts[i]?.computed?.padding_top||'unknown'} top and ${bandContexts[i]?.computed?.padding_bottom||'unknown'} bottom padding. Compare neighboring visible blocks and source before classifying as unused space.`;});const cropDir=SCREENSHOT_DIR;
       let cropN=0;
       if(cropOn){for(const b of pixels.interior_candidates){const cp=path.join(cropDir,key+'-gap-'+String(++cropN).padStart(2,'0')+'.webp');await makeCrop(shot,b,cp);b.crop=path.relative(ROOT,cp);b.kind='pixel-quiet-band';}}
       if(cropOn){for(const b of dom.empty_or_spacing_nodes){const cp=path.join(cropDir,key+'-dom-'+String(++cropN).padStart(2,'0')+'.webp');await makeCrop(shot,b,cp);b.crop=path.relative(ROOT,cp);b.cause=b.kind==='empty-content-wrapper'?'Structural node exceeds the per-width height threshold with no visible text or media descendants.':'Computed vertical margin/padding reaches the per-width threshold; candidate, not automatically an error.';}}
