@@ -95,3 +95,9 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - The fixture server passed HTTP-only checks: A Home has no still reference, B Germany has the two approved responsive CSS URLs, the 720px asset returns HTTP 200 with `image/webp`, and an unlisted route returns 404. No browser or performance sample has started yet.
 - The local-only protocol, single-session 112-sample order, metrics, controls, failure handling and no-live-claim limits are fixed in `reports/phase-31-task4-ab-protocol.md`. Tools are `tools/phase31/ab-fixtures.py`, `tools/phase31/ab-fixture-server.cjs` and `tools/phase31/ab.cjs`. Frozen raw page fixtures are in `reports/phase-31-task4-ab-fixtures.tar.gz`.
 - Next: start only the authorized serial A/B measurement with seven fresh Chromium samples per arm per route, alternating A/B by round. Preserve all failures, do not resume or retry, and keep historical Phase25/Phase25c reports untouched.
+
+## 2026-10-28 checkpoint 13: Task4 browser startup issue fixed before measurement
+
+- The first A/B runner invocation stopped before Chromium launched or any page was navigated because `libnspr4.so` was not in the child process library path. It produced no Lighthouse metric and is not counted as a sample. The partial output is preserved in `reports/phase-31-task4-ab-preflight-failure.json`, with disposition in `reports/phase-31-task4-ab-preflight-diagnostic.md`.
+- Updated the local runner to inflate the pinned Chromium libraries and added a no-navigation `--preflight-only` launch/CDP check. Chromium `143.0.7499.0` now launches and closes successfully without making a page request or starting Lighthouse. The protocol now distinguishes premeasurement startup errors from valid samples.
+- The authorized A/B measurement is still pending. Its new output path will be separate from the preserved startup failure. No historical result or production source was changed.

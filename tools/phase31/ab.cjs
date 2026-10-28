@@ -5,10 +5,13 @@ const {pathToFileURL}=require('node:url');
 const {chromium}=require('playwright'),packed=require('@sparticuz/chromium');
 const {resources}=require('../phase25/resources.cjs');
 const ROOT=path.resolve(__dirname,'../..');
+const RUNTIME=process.env.PHASE31_RUNTIME||'/home/user/phase31/runtime/node_modules';
+const {inflate}=require(path.join(RUNTIME,'@sparticuz/chromium/build/cjs/lambdafs.cjs'));
 const EVIDENCE=path.resolve(process.env.PHASE31_AB_EVIDENCE||'/home/user/phase31/task4');
 const FIXTURE_PATH=path.join(EVIDENCE,'fixtures.json'),SELECTED_PATH=path.join(EVIDENCE,'selected.json');
 const PORT=Number(process.env.PHASE31_AB_PORT||8082),BASE=`http://127.0.0.1:${PORT}`;
-const OUTPUT=path.join(EVIDENCE,'ab-results.json');
+const OUTPUT=path.resolve(process.env.PHASE31_AB_OUTPUT||path.join(EVIDENCE,'ab-results.json'));
+let extractedRuntime;
 const CONTROLS=['/','/services','/about','/contact'];
 const CONTROL_RATIO_LIMIT=1.10,ROUTE_BUDGETS={added_transfer_bytes_lt:150000,lcp_ratio_lte:1.10,tbt_delta_ms_lte:50,cls_b_no_greater_than_a:true,cls_b_lt:0.1,no_new_render_blocking:true};
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -16,6 +19,13 @@ const quantile=(values,q)=>{const x=[...values].sort((a,b)=>a-b),p=(x.length-1)*
 const summarize=samples=>Object.fromEntries(['lcp_ms','cls','tbt_ms','transfer_bytes','requests'].map(key=>{const v=samples.map(x=>x[key]);return[key,{median:quantile(v,.5),q1:quantile(v,.25),q3:quantile(v,.75),iqr:quantile(v,.75)-quantile(v,.25)}];}));
 const writeJson=(file,value)=>fs.writeFileSync(file,JSON.stringify(value,null,2)+'\n');
 function setSelection(route,variant){const tmp=SELECTED_PATH+'.tmp';writeJson(tmp,{route,variant});fs.renameSync(tmp,SELECTED_PATH);}
+function chromeArgs(){return[...packed.args.filter(a=>!['--single-process','--in-process-gpu'].includes(a)),'--remote-debugging-port=9222'];}
+async function ensureChromiumRuntime(){
+ if(!extractedRuntime){
+  extractedRuntime=await inflate(path.join(RUNTIME,'@sparticuz/chromium/bin/al2023.tar.br'));
+  process.env.LD_LIBRARY_PATH=path.join(extractedRuntime,'lib')+':'+(process.env.LD_LIBRARY_PATH||'');
+ }
+}
 function calculateRow(row){
  if(row.A.length!==7||row.B.length!==7)throw Error(`Incomplete arm counts for ${row.route}: A=${row.A.length}, B=${row.B.length}`);
  row.summary={A:summarize(row.A),B:summarize(row.B)};const a=row.summary.A,b=row.summary.B;
@@ -30,6 +40,16 @@ function calculateRow(row){
  row.observed_still_requests={A:row.A.flatMap(s=>s.still_requests||[]),B:row.B.flatMap(s=>s.still_requests||[])};
 }
 async function main(){
+ await ensureChromiumRuntime();
+ if(process.argv.includes('--preflight-only')){
+  let browser,cdp;try{
+   browser=await chromium.launch({executablePath:await packed.executablePath(),args:chromeArgs(),headless:true});
+   const version=browser.version();if(!version.startsWith('143.'))throw Error(`Expected pinned Chromium143, got ${version}`);
+   cdp=await chromium.connectOverCDP('http://127.0.0.1:9222');
+   console.log(`PASS A/B browser launch and CDP preflight: Chromium ${version}; no page navigation or Lighthouse sample`);
+  }finally{if(cdp)await cdp.close().catch(()=>{});if(browser)await browser.close().catch(()=>{});}
+  return;
+ }
  if(fs.existsSync(OUTPUT))throw Error(`Refusing to overwrite existing A/B evidence: ${OUTPUT}`);
  const fixtureBytes=fs.readFileSync(FIXTURE_PATH),fixtures=JSON.parse(fixtureBytes);
  const fixtureManifest=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/phase-31-task4-ab-fixtures.json'),'utf8'));
@@ -51,7 +71,7 @@ async function main(){
      row[arm].push(sample);writeJson(OUTPUT,report);
      let browser,cdp;
      try{
-      browser=await chromium.launch({executablePath:await packed.executablePath(),args:[...packed.args.filter(a=>!['--single-process','--in-process-gpu'].includes(a)),'--remote-debugging-port=9222'],headless:true});
+      browser=await chromium.launch({executablePath:await packed.executablePath(),args:chromeArgs(),headless:true});
       browserVersion=browser.version();if(!browserVersion.startsWith('143.'))throw Error(`Expected pinned Chromium143, got ${browserVersion}`);
       cdp=await chromium.connectOverCDP('http://127.0.0.1:9222');const context=cdp.contexts()[0];
       await context.route('**/*',resources);const observed=[];await context.exposeBinding('__p31Emit',(_,event)=>observed.push(event));
