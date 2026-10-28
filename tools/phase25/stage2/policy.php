@@ -14,7 +14,12 @@ foreach ($rows as $path=>$row) {
     $reference=in_array($path,['/','/services','/about','/contact'],true);
     if ($reference && $out!==$row['html']) throw new RuntimeException('Reference changed');
     if (!$reference && strpos($out,'class="p25 p25-')===false) throw new RuntimeException('Missing shared role');
-    if (strpos($out,'/assets/js/hero-still.js')!==false || strpos($out,'/assets/images/hero-still-')!==false) throw new RuntimeException('Still referenced');
+    if (strpos($out,'/assets/js/hero-still.js')!==false) throw new RuntimeException('Animated scene loader referenced');
+    $kind=ilmera_visual_template($path);
+    $stillAllowed=in_array($kind,['destination','place','article','blog'],true);
+    $stillRefs=substr_count($out,'/assets/images/hero-still-');
+    if ($stillAllowed && $stillRefs!==2) throw new RuntimeException('Approved template missing both responsive static stills: '.$path);
+    if (!$stillAllowed && $stillRefs!==0) throw new RuntimeException('Static still escaped approved template scope: '.$path);
     if (!$reference && (strpos($out,'setTimeout(show,3000)')===false || strpos($out,'Promise.all([document.fonts.load')===false)) throw new RuntimeException('Missing text-paint failsafe');
     if ($inline && !$reference && (substr_count($out,'data:font/woff2;base64,')!==2 || strpos($out,'/assets/fonts/')!==false || strpos($out,"\nbody.p25 :is(.mini-hero")===false)) throw new RuntimeException('Template fallback fixture failed');
     if (!ILMERA_SCENES_ENABLED && strpos(ilmera_visual_scene_policy($out),'id="ilmera-scenes-off"')===false) throw new RuntimeException('Global off missing');

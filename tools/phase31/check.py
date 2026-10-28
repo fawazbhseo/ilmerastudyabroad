@@ -49,7 +49,7 @@ def main():
     if not route_index.exists():route_index=EVIDENCE/'routes.json'
     index=json.loads(route_index.read_text())
     current_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    approved_spacing_files=verify_task2_spacing_scope(baseline['source_head'],current_head)
+    approved_visual_files=verify_task2_spacing_scope(baseline['source_head'],current_head)
     render_source=index.get('source_head')
     runtime_changes=runtime_paths_changed(render_source,current_head)
     if runtime_changes:raise SystemExit(f'Current route render is stale for runtime source: {runtime_changes}')
@@ -73,7 +73,7 @@ def main():
     from xml.etree import ElementTree as ET
     root=ET.fromstring(sitemap_bytes);urls=[e.text for e in root.iter() if e.tag.endswith('loc')]
     if len(urls)!=expected_sitemap_count or len(set(urls))!=expected_sitemap_count:raise AssertionError(f'Sitemap entry count changed: {len(urls)}')
-    out={'passed':True,'routes':len(rows),'source_head':index['source_head'],'baseline_source_head':baseline['source_head'],'approved_spacing_source_files':approved_spacing_files,'task2_spacing_source_scope_passed':True,'content_invariants':['all visible/document text and order','title and all meta attributes','headings in order','visible/custom FAQ text','all link hrefs and attributes/multiplicity/order','all img src/alt/dimensions/loading/srcset and attributes','JSON-LD graphs','canonicals','robots directives','HTTP statuses','sitemap exact bytes and 38 entries'],'rows':rows,'sitemap_entries':expected_sitemap_count,'sitemap_sha256':hashlib.sha256(sitemap_bytes).hexdigest(),'live_or_native_hosting':False}
+    out={'passed':True,'routes':len(rows),'source_head':index['source_head'],'baseline_source_head':baseline['source_head'],'approved_visual_source_files':approved_visual_files,'authorized_visual_source_scope_passed':True,'content_invariants':['all visible/document text and order','title and all meta attributes','headings in order','visible/custom FAQ text','all link hrefs and attributes/multiplicity/order','all img src/alt/dimensions/loading/srcset and attributes','JSON-LD graphs','canonicals','robots directives','HTTP statuses','sitemap exact bytes and 38 entries'],'rows':rows,'sitemap_entries':expected_sitemap_count,'sitemap_sha256':hashlib.sha256(sitemap_bytes).hexdigest(),'live_or_native_hosting':False}
     COMPARISON_OUT.parent.mkdir(parents=True,exist_ok=True)
     COMPARISON_OUT.write_text(json.dumps(out,indent=2,ensure_ascii=False)+'\n')
     print(f"PASS exact pre-fix text/title/meta/headings/FAQ/links/images/JSON-LD/canonical/robots/status/sitemap: {len(rows)} routes")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exact source-scope guard for the authorized Phase31 Task2 spacing edits."""
+"""Exact source-scope guard for the authorized Phase31 visual edits."""
 from __future__ import annotations
 import pathlib
 import subprocess
@@ -26,7 +26,37 @@ ABOUT_NEW=ABOUT_OLD.replace(
     b'@media(max-width:600px){#team{min-height:2041.96875px;}}',
     b'@media(max-width:600px){#team{min-height:auto;}}',1
 )
-EXPECTED={'index.php':(HOME_OLD,HOME_NEW),'about.php':(ABOUT_OLD,ABOUT_NEW)}
+TASK2_EXPECTED={'index.php':(HOME_OLD,HOME_NEW),'about.php':(ABOUT_OLD,ABOUT_NEW)}
+TASK3_VISUAL_OLD=(
+    b'    if (in_array($template, ILMERA_VISUAL_PLAIN_HERO_TEMPLATES, true)) {\n'
+    b'        $css .= "\\nbody.p25 :is(.mini-hero,.article-hero,.blog-hero,.legal-hero,.directory-hero,.err-wrap){background:#04060f;}";\n'
+    b'    }\n'
+)
+TASK3_VISUAL_NEW=TASK3_VISUAL_OLD+(b'''    if (in_array($template, ['destination','place','article','blog'], true)) {
+        $css .= <<<'CSS'
+/* Phase31 Task3 static still; decorative only, scoped to approved template heroes. */
+body.p25.p25-destination .article-hero,
+body.p25.p25-place .article-hero,
+body.p25.p25-article .article-hero,
+body.p25.p25-blog .blog-hero {
+    background-color:#04060f;
+    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-1440.webp');
+    background-size:cover,cover;
+    background-position:center,center;
+    background-repeat:no-repeat,no-repeat;
+}
+@media(max-width:768px) {
+body.p25.p25-destination .article-hero,
+body.p25.p25-place .article-hero,
+body.p25.p25-article .article-hero,
+body.p25.p25-blog .blog-hero {
+    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-720.webp');
+}
+}
+CSS;
+    }
+''')
+TASK3_EXPECTED={'includes/visual-system.php':(TASK3_VISUAL_OLD,TASK3_VISUAL_NEW)}
 RUNTIME_ROOTS={'assets','data','includes','destinations','places','blog'}
 RUNTIME_FILES={'index.php','services.php','about.php','contact.php','404.php','all-pages.php','privacy-policy.php','terms.php','robots.txt','sitemap.xml','llms.txt','llms-full.txt','favicon.ico','deploy-check.php'}
 
@@ -40,17 +70,19 @@ def git_file(revision:str,path:str)->bytes:
     return subprocess.check_output(['git','show',f'{revision}:{path}'],cwd=ROOT)
 
 def verify_task2_spacing_scope(source_head:str,current_head:str)->list[str]:
-    """Require either no runtime edits or exactly the two reviewed min-height edits."""
+    """Allow no runtime diff, exact Task2 spacing, or Task2 plus scoped Task3 still CSS."""
     changed=runtime_paths_changed(source_head,current_head)
     if not changed:return []
-    if set(changed)!=set(EXPECTED):
-        raise SystemExit(f'Unexpected production runtime file changes for Task2: {changed}')
-    for path,(old,new) in EXPECTED.items():
+    expected=TASK2_EXPECTED
+    if set(changed)==set(TASK2_EXPECTED)|set(TASK3_EXPECTED):
+        expected={**TASK2_EXPECTED,**TASK3_EXPECTED}
+    elif set(changed)!=set(TASK2_EXPECTED):
+        raise SystemExit(f'Unexpected production runtime file changes for Phase31 visual scope: {changed}')
+    for path,(old,new) in expected.items():
         before=git_file(source_head,path)
         after=git_file(current_head,path)
         if before.count(old)!=1:
-            raise SystemExit(f'Expected one frozen Task2 CSS anchor in {path}, found {before.count(old)}')
-        expected=before.replace(old,new,1)
-        if after!=expected:
-            raise SystemExit(f'{path} differs outside the authorized Task2 #team min-height declarations')
+            raise SystemExit(f'Expected one frozen Phase31 CSS anchor in {path}, found {before.count(old)}')
+        if after!=before.replace(old,new,1):
+            raise SystemExit(f'{path} differs outside the authorized Task2/Task3 presentation scope')
     return sorted(changed)

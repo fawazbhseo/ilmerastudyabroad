@@ -79,6 +79,29 @@ function ilmera_visual_present($html)
     if (in_array($template, ILMERA_VISUAL_PLAIN_HERO_TEMPLATES, true)) {
         $css .= "\nbody.p25 :is(.mini-hero,.article-hero,.blog-hero,.legal-hero,.directory-hero,.err-wrap){background:#04060f;}";
     }
+    if (in_array($template, ['destination','place','article','blog'], true)) {
+        $css .= <<<'CSS'
+/* Phase31 Task3 static still; decorative only, scoped to approved template heroes. */
+body.p25.p25-destination .article-hero,
+body.p25.p25-place .article-hero,
+body.p25.p25-article .article-hero,
+body.p25.p25-blog .blog-hero {
+    background-color:#04060f;
+    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-1440.webp');
+    background-size:cover,cover;
+    background-position:center,center;
+    background-repeat:no-repeat,no-repeat;
+}
+@media(max-width:768px) {
+body.p25.p25-destination .article-hero,
+body.p25.p25-place .article-hero,
+body.p25.p25-article .article-hero,
+body.p25.p25-blog .blog-hero {
+    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-720.webp');
+}
+}
+CSS;
+    }
     $fontGate = <<<'HTML'
 <script>(function(){if(!document.fonts)return;var root=document.documentElement,timer;function show(){root.classList.remove('p25-font-pending');clearTimeout(timer);}root.classList.add('p25-font-pending');timer=setTimeout(show,3000);Promise.all([document.fonts.load('300 16px Outfit'),document.fonts.load('700 48px "Cormorant Garamond"')]).then(function(){return document.fonts.ready;}).then(show,show);})();</script>
 HTML;
