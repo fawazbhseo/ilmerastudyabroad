@@ -81,10 +81,29 @@ HTML;
     return str_ireplace('</body>', $loader.'</body>', $html);
 }
 
+/** Add metric-matched local fallbacks on references without changing their loaded typefaces. */
+function ilmera_visual_reference_font_metric_fallback($html)
+{
+    if (strpos($html, 'id="p32-reference-font-metric-fallback"') !== false) return $html;
+    $pattern = "~font-family\\s*:\\s*([\"\'])(Outfit|Cormorant Garamond)\\1\\s*,\\s*(sans-serif|serif)~i";
+    $html = preg_replace_callback($pattern, static function ($parts) {
+        $metric = strtolower($parts[2]) === 'outfit' ? 'Outfit Metric' : 'Cormorant Metric';
+        return 'font-family:' . $parts[1] . $parts[2] . $parts[1] . ', ' . "'" . $metric . "', " . $parts[3];
+    }, $html, -1, $replacements);
+    if (!$replacements || stripos($html, '</head>') === false) return $html;
+    $style = <<<'HTML'
+<style id="p32-reference-font-metric-fallback">@font-face{font-family:'Outfit Metric';src:local('Arial');size-adjust:90.55877%;ascent-override:110.42553%;descent-override:28.71064%;line-gap-override:0.00000%;}@font-face{font-family:'Cormorant Metric';src:local('Times New Roman');size-adjust:86.35347%;ascent-override:107.00207%;descent-override:33.23549%;line-gap-override:0.00000%;}</style>
+HTML;
+    return str_ireplace('</head>', $style . '</head>', $html);
+}
+
 /** Pure visual overlay: never change content, links, schema or publication data. */
 function ilmera_visual_scene_policy($html)
 {
     $path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
+    if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {
+        $html = ilmera_visual_reference_font_metric_fallback($html);
+    }
     if (!ILMERA_SCENES_ENABLED && strpos($html, 'id="ilmera-scenes-off"') === false) {
         if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {
             $html = preg_replace('~(if\s*\(\s*window\.THREE\s*\)\s*\{)~', 'var W=window.innerWidth,H=window.innerHeight;$1', $html, 1);
@@ -181,7 +200,7 @@ function ilmera_visual_present($html)
             $noscript = '<noscript><style>'.$selectors.'{background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url("/assets/images/hero-still-1440.webp");background-size:cover,cover;background-position:center,center;background-repeat:no-repeat,no-repeat;}@media(max-width:768px){'.$selectors.'{background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url("/assets/images/hero-still-640.webp");}}</style></noscript>';
             $html = str_replace('</body>', $noscript.'</body>', $html);
             $heroLoader = <<<'HTML'
-<script>(function(){var canvas=document.querySelector('.p32-hero-still');if(!canvas)return;var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduced)canvas.style.transition='none';var connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;function slow(){if(!connection)return false;var type=String(connection.effectiveType||'').toLowerCase();return !!connection.saveData||/^(slow-2g|2g)$/.test(type)||(Number(connection.downlink)>0&&Number(connection.downlink)<1.1);}if(slow())return;var started=false;function load(){if(started)return;started=true;var image=new Image();image.decoding='async';image.onload=function(){var box=canvas.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2);if(!box.width||!box.height)return;canvas.width=Math.round(box.width*ratio);canvas.height=Math.round(box.height*ratio);var context=canvas.getContext('2d');if(!context)return;var scale=Math.max(canvas.width/image.naturalWidth,canvas.height/image.naturalHeight),drawWidth=image.naturalWidth*scale,drawHeight=image.naturalHeight*scale;context.drawImage(image,(canvas.width-drawWidth)/2,(canvas.height-drawHeight)/2,drawWidth,drawHeight);canvas.classList.add('is-loaded');};image.onerror=function(){canvas.classList.remove('is-loaded');};image.src=window.matchMedia('(max-width: 768px)').matches?'/assets/images/hero-still-640.webp':'/assets/images/hero-still-1440.webp';}function idleAfterLoad(){var done=false;var fallback=setTimeout(function(){if(!done){done=true;load();}},1500);if('requestIdleCallback' in window)requestIdleCallback(function(){if(!done){done=true;clearTimeout(fallback);load();}},{timeout:1500});}if(document.readyState==='complete')idleAfterLoad();else window.addEventListener('load',idleAfterLoad,{once:true});if(window.matchMedia){var motion=window.matchMedia('(prefers-reduced-motion: reduce)');if(motion.addEventListener)motion.addEventListener('change',function(event){if(event.matches)canvas.style.transition='none';});}})();</script>
+<script>(function(){var canvas=document.querySelector('.p32-hero-still');if(!canvas)return;if(document.body&&document.body.classList.contains('p25-blog')&&window.innerWidth<=768)return;var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduced)canvas.style.transition='none';var connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;function slow(){if(!connection)return false;var type=String(connection.effectiveType||'').toLowerCase();return !!connection.saveData||/^(slow-2g|2g)$/.test(type)||(Number(connection.downlink)>0&&Number(connection.downlink)<1.1);}if(slow())return;var started=false;function load(){if(started)return;started=true;var image=new Image();image.decoding='async';image.onload=function(){var box=canvas.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2);if(!box.width||!box.height)return;canvas.width=Math.round(box.width*ratio);canvas.height=Math.round(box.height*ratio);var context=canvas.getContext('2d');if(!context)return;var scale=Math.max(canvas.width/image.naturalWidth,canvas.height/image.naturalHeight),drawWidth=image.naturalWidth*scale,drawHeight=image.naturalHeight*scale;context.drawImage(image,(canvas.width-drawWidth)/2,(canvas.height-drawHeight)/2,drawWidth,drawHeight);canvas.classList.add('is-loaded');};image.onerror=function(){canvas.classList.remove('is-loaded');};image.src=window.matchMedia('(max-width: 768px)').matches?'/assets/images/hero-still-640.webp':'/assets/images/hero-still-1440.webp';}function idleAfterLoad(){var done=false;var fallback=setTimeout(function(){if(!done){done=true;load();}},1500);if('requestIdleCallback' in window)requestIdleCallback(function(){if(!done){done=true;clearTimeout(fallback);load();}},{timeout:1500});}if(document.readyState==='complete')idleAfterLoad();else window.addEventListener('load',idleAfterLoad,{once:true});if(window.matchMedia){var motion=window.matchMedia('(prefers-reduced-motion: reduce)');if(motion.addEventListener)motion.addEventListener('change',function(event){if(event.matches)canvas.style.transition='none';});}})();</script>
 HTML;
             $html = str_replace('</body>', $heroLoader.'</body>', $html);
         }

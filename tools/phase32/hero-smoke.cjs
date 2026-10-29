@@ -36,9 +36,13 @@ const sha = value => require('node:crypto').createHash('sha256').update(value).d
         });
         const response = await page.goto(BASE + route, { waitUntil: 'load', timeout: 60000 });
         if (!response || response.status() !== 200) throw new Error(`HTTP failure ${route}`);
-        await page.waitForFunction(() => document.querySelector('.p32-hero-still')?.classList.contains('is-loaded'), null, { timeout: 8000 });
-        await page.waitForFunction(() => Number(getComputedStyle(document.querySelector('.p32-hero-still')).opacity) > 0.419, null, { timeout: 2000 });
-        await page.waitForTimeout(60);
+        const paletteOnly = template === 'blog' && width <= 768;
+        if (paletteOnly) await page.waitForTimeout(2200);
+        else {
+          await page.waitForFunction(() => document.querySelector('.p32-hero-still')?.classList.contains('is-loaded'), null, { timeout: 8000 });
+          await page.waitForFunction(() => Number(getComputedStyle(document.querySelector('.p32-hero-still')).opacity) > 0.419, null, { timeout: 2000 });
+          await page.waitForTimeout(60);
+        }
         const state = await page.evaluate(() => {
           const canvas = document.querySelector('.p32-hero-still');
           const nav = performance.getEntriesByType('navigation')[0];
@@ -47,14 +51,19 @@ const sha = value => require('node:crypto').createHash('sha256').update(value).d
           return {
             loaded: canvas.classList.contains('is-loaded'),
             canvas: { width: canvas.width, height: canvas.height, cssWidth: canvas.getBoundingClientRect().width, cssHeight: canvas.getBoundingClientRect().height, transitionDuration: getComputedStyle(canvas).transitionDuration, opacity: getComputedStyle(canvas).opacity },
+            background: getComputedStyle(canvas.parentElement).backgroundImage,
             resources: entries.map(e => ({ name: new URL(e.name).pathname, startTime: e.startTime, transferSize: e.transferSize, initiatorType: e.initiatorType })),
             loadEventEnd: nav.loadEventEnd,
             lcp,
             heroBox: (() => { const r = canvas.parentElement.getBoundingClientRect(); return { x: r.x, y: r.y, width: r.width, height: r.height }; })()
           };
         });
-        const expected = width <= 768 ? '/assets/images/hero-still-640.webp' : '/assets/images/hero-still-1440.webp';
-        if (state.resources.length !== 1 || state.resources[0].name !== expected || state.resources[0].startTime < state.loadEventEnd) {
+        const expected = paletteOnly ? 'palette-only-budget-fallback' : width <= 768 ? '/assets/images/hero-still-640.webp' : '/assets/images/hero-still-1440.webp';
+        if (paletteOnly) {
+          if (state.resources.length !== 0 || state.loaded || !state.background.includes('gradient')) {
+            throw new Error(`Blog-index mobile palette fallback must skip the still: ${JSON.stringify({ route, width, state })}`);
+          }
+        } else if (state.resources.length !== 1 || state.resources[0].name !== expected || state.resources[0].startTime < state.loadEventEnd) {
           throw new Error(`Still selection or load timing failed ${route} ${width}: ${JSON.stringify(state)}`);
         }
         if (!state.lcp.length || state.lcp.some(entry => !/^H[1-6]$|^(P|SPAN)$/.test(entry.tag || ''))) {
@@ -65,7 +74,7 @@ const sha = value => require('node:crypto').createHash('sha256').update(value).d
         const shot = fs.readFileSync(screenshot);
         cases.push({ route, template, width, expected, status: 'PASS', request_count: requests.length, state, screenshot: path.basename(screenshot), screenshot_sha256: sha(shot) });
         await page.close();
-        console.log('PASS', route, width, expected, state.resources[0].transferSize);
+        console.log('PASS', route, width, expected, state.resources[0]?.transferSize || 0);
       }
     }
     const savePage = await context.newPage();
@@ -108,7 +117,7 @@ const sha = value => require('node:crypto').createHash('sha256').update(value).d
     await context.close().catch(() => {});
     await browser.close();
   }
-  const report = { phase: 32, status: 'PASS', browser: 'Chromium 143 via @sparticuz/chromium', base: 'local PHP-WASM adapter', cases, interpretation: 'Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. Canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence.' };
+  const report = { phase: 32, status: 'PASS', browser: 'Chromium 143 via @sparticuz/chromium', base: 'local PHP-WASM adapter', cases, interpretation: 'Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. The canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; the blog index uses the palette-only mobile fallback after the measured TBT budget miss; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence.' };
   const output = path.join(ROOT, 'reports/phase-32-hero-smoke.json');
   fs.writeFileSync(output, JSON.stringify(report, null, 2) + '\n');
   console.log(`WROTE ${output}`);

@@ -6,6 +6,9 @@
         {
             "route": "/",
             "checks": {
+                "font_metric_style_once": true,
+                "outfit_metric_fallback_applied": true,
+                "cormorant_metric_fallback_applied": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -21,6 +24,9 @@
         {
             "route": "/services",
             "checks": {
+                "font_metric_style_once": true,
+                "outfit_metric_fallback_applied": true,
+                "cormorant_metric_fallback_applied": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -36,6 +42,9 @@
         {
             "route": "/about",
             "checks": {
+                "font_metric_style_once": true,
+                "outfit_metric_fallback_applied": true,
+                "cormorant_metric_fallback_applied": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -51,6 +60,9 @@
         {
             "route": "/contact",
             "checks": {
+                "font_metric_style_once": true,
+                "outfit_metric_fallback_applied": true,
+                "cormorant_metric_fallback_applied": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,

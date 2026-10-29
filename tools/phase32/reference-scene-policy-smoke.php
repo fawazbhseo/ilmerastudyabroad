@@ -5,7 +5,7 @@ $routes = ['/', '/services', '/about', '/contact'];
 $results = [];
 foreach ($routes as $route) {
     $_SERVER['REQUEST_URI'] = $route;
-    $html = '<!doctype html><html><head>';
+    $html = '<!doctype html><html><head><style>body{font-family:\'Outfit\',sans-serif}.hero-title{font-family:\'Cormorant Garamond\',serif}</style>';
     foreach ([
         'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',
@@ -17,6 +17,9 @@ foreach ($routes as $route) {
     $html .= '</head><body><canvas id="space-canvas"></canvas><h1 id="reference-title">Original heading</h1><script>window.addEventListener("DOMContentLoaded",function(){' . $sceneBlock . 'g.add(new THREE.Mesh(new THREE.BoxGeometry(1,1,1)));window.__p32SceneFixture=true;}});</script></body></html>';
     $output = ilmera_visual_scene_policy($html);
     $checks = [
+        'font_metric_style_once' => substr_count($output, 'id="p32-reference-font-metric-fallback"') === 1,
+        'outfit_metric_fallback_applied' => strpos($output, "font-family:'Outfit', 'Outfit Metric', sans-serif") !== false,
+        'cormorant_metric_fallback_applied' => strpos($output, "font-family:'Cormorant Garamond', 'Cormorant Metric', serif") !== false,
         'loader_once' => substr_count($output, 'id="p32-scene-loader"') === 1,
         'fallback_style_once' => substr_count($output, 'id="p32-scene-fallback-style"') === 1,
         'original_external_script_tags_removed' => strpos($output, '<script src="https://cdnjs.cloudflare.com/ajax/libs/') === false,
