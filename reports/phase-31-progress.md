@@ -139,3 +139,8 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - Axe-core 4.11.0 A/AA checks on eight representative template routes passed baseline-relative: 36 existing violation nodes before and after, with zero added or removed identities. This is not a zero-violation accessibility certification.
 - The complete 31-group logs, browser JSON and render captures are in `reports/phase-31-task5-suite/`; the result is `reports/phase-31-task5-checks.json`; the 43-route comparator is `reports/phase-31-task5-render-comparison.json`. No public site file was changed. Raw HTML captures retain their original CRLF line endings and inherited trailing spaces; they were not normalized. The suite's tracked-source whitespace group passed.
 - Next: perform the explicitly requested fresh 43-route blank-space scan using the 120/160/200px thresholds, JS on/off and normal/reduced motion. Preserve its raw JSON and crops under new paths without overwriting Task1/Task2 evidence.
+
+## 2026-10-29 checkpoint 19: Task5 PR checkpoint posted
+
+- Posted the Task5 verification checkpoint to existing PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6490703115. It records the 31-group pass, exact render comparison, 306 browser cases, target comparison and baseline-relative axe result. No PR was created and nothing was merged.
+- The next Phase31b sub-step is the fresh full 516-case blank-space scan; no additional browser work ran alongside the completed suite.
