@@ -18,3 +18,11 @@
 - The current resume note says to stop if the Phase31 release-check report shows an unresolved failure. The six local route-budget failures are still unresolved, so this stop condition is met. The separate Phase31 verification pass does not clear that failed route-budget gate.
 - The newer instruction that Phase31 intentionally skipped the ZIP supersedes checkpoint 1's older ZIP prerequisite. No ZIP was attempted. No Phase32 source edit, scene/font/image change, benchmark, audit, contact sheet, payload build or release action was attempted after the preflight gate triggered. No public source changed.
 - **Gate result: STOPPED before Phase32 implementation**, as required by the resume note. No Task4 samples were rerun. This checkpoint records the gate only; prior blockers and evidence remain unchanged.
+
+
+## 2026-10-29 checkpoint 3: corrected resume gate passed
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad`; the working tree was clean and the existing session branch matched remote at `d0b7726061abf77855465021ac4745e729eebfac`. No branch was created or switched.
+- Read `reports/phase-31-task4-ab-summary.md`, `reports/phase-31-release-check.md`, this progress log and the recent git history. The release-check exists and reports Task5 PASS (31/31 groups). Its Task4 result remains the known failure Phase32 is intended to fix (2/8 local routes pass, `performance_release_certified=false`); the corrected resume note explicitly authorizes proceeding despite that result.
+- Verified the session branch contains the Phase31 public source changes relative to `75f355f`: `about.php`, `index.php` and `includes/visual-system.php` are modified. Phase31's final source check and all Task5 groups passed in the release report. The stop conditions in the corrected gate are not met.
+- **Gate result: CLEARED.** Continue Phase32 on this branch. The prior checkpoints document historical gate decisions; this checkpoint supersedes their stop disposition. No Phase32 implementation or benchmark was repeated during this preflight.
