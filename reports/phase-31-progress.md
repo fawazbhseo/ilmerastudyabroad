@@ -123,3 +123,10 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - Read the Phase31 and Phase32 progress logs, the Task1 blank-space audit, the Task2 post-fix audit, Task2/Task3 checks, Task4 A/B summary, flagged-items document and recent git history. The Task2 post-fix audit and checkpoints 5-8 in this log are the available fix record; no separately named Phase31 fix-log file was found. Phase31 release-check and contact-sheet reports have not yet been created.
 - Phase31b scope is verification and reporting only. No public site file was changed. The prior Task1-4 results remain preserved and will not be redone except where this request explicitly requires a fresh verification or scan.
 - The previously pinned external runtime path `/home/user/phase31/runtime` is not present in this workspace. No Phase31b browser, lint or render check has been rerun yet. Runtime restoration and the requested verification are pending.
+
+## 2026-10-29 checkpoint 17: pinned verification runtime restored
+
+- Recreated the external runtime at `/home/user/phase31/runtime` with the pinned PHP-WASM 3.1.58 packages, Chromium 143.0.4, Playwright 1.58.2, Sharp 0.34.5, GSAP 3.12.2, Three.js 0.128.0, axe-core 4.11.0, Lighthouse 12.8.2 and the pinned local font packages. Python dependencies BeautifulSoup 4.15.0, Pillow 13.0.0 and tinycss2 1.4.0 were restored outside the checkout.
+- PHP-WASM CLI reports PHP 8.5.10 and passed a smoke lint of `index.php`. The pinned browser bootstrap launched Chromium 143.0.7499.0 and closed without navigation. No browser matrix, screenshot capture, render comparison or site file change occurred in this setup check.
+- npm reported the known PHP-WASM engine warning because this sandbox has Node 22.22.3/npm 10.9.8. The pinned CLI, PHP lint, and no-navigation Chromium startup succeeded; retain this environment caveat in the verification record.
+- Next: start the local PHP-WASM render adapter and run the requested fresh Phase31 verification suite, retaining all evidence under a new task5 checkpoint path.
