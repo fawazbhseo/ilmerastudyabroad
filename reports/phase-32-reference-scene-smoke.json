@@ -1,0 +1,1264 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "source": "local PHP-WASM adapter, pinned local CDN mirrors, Chromium 143",
+  "cases": 36,
+  "results": [
+    {
+      "route": "/",
+      "case": "mobile-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 162.80000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 360,
+          "height": 800
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "tablet-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 105.29999999981374,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 768,
+          "height": 1024
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-coarse-pointer",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 87.5,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-reduced-motion",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 100.60000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": true
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-save-data",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 119.5,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-slow-2g",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 124.19999999995343,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-slow-downlink",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 86.0999999998603,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-fine-pointer",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 97.80000000004657,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 100.70000000018626,
+            "loadAt": 97.80000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 147,
+            "loadAt": 97.80000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 157.60000000009313,
+            "loadAt": 97.80000000004657
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/",
+      "case": "desktop-1500ms-fallback",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/",
+        "loadSeen": true,
+        "loadAt": 80.30000000004657,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1581,
+            "loadAt": 80.30000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1634.3000000000466,
+            "loadAt": 80.30000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1647.6999999999534,
+            "loadAt": 80.30000000004657
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "mobile-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 81.10000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 360,
+          "height": 800
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "tablet-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 84.80000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 768,
+          "height": 1024
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-coarse-pointer",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 87.89999999990687,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-reduced-motion",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 99.80000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": true
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-save-data",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 80.89999999990687,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-slow-2g",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 86.10000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-slow-downlink",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 92.19999999995343,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-fine-pointer",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 91.30000000004657,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 566.8000000000466,
+            "loadAt": 91.30000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 609.1000000000931,
+            "loadAt": 91.30000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 622.1999999999534,
+            "loadAt": 91.30000000004657
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/services",
+      "case": "desktop-1500ms-fallback",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/services",
+        "loadSeen": true,
+        "loadAt": 36.60000000009313,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1537.3000000000466,
+            "loadAt": 36.60000000009313
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1595.9000000001397,
+            "loadAt": 36.60000000009313
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1605.4000000001397,
+            "loadAt": 36.60000000009313
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "mobile-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 35.10000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 360,
+          "height": 800
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "tablet-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 109,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 768,
+          "height": 1024
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-coarse-pointer",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 69.60000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-reduced-motion",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 90.80000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": true
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-save-data",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 70.69999999995343,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-slow-2g",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 67.80000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-slow-downlink",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 81.39999999990687,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-fine-pointer",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 80.5,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 110.69999999995343,
+            "loadAt": 80.5
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 158.10000000009313,
+            "loadAt": 80.5
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 184.30000000004657,
+            "loadAt": 80.5
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/about",
+      "case": "desktop-1500ms-fallback",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/about",
+        "loadSeen": true,
+        "loadAt": 69.80000000004657,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1570.8000000000466,
+            "loadAt": 69.80000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1610.1999999999534,
+            "loadAt": 69.80000000004657
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1621.8000000000466,
+            "loadAt": 69.80000000004657
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "mobile-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 65.19999999995343,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 360,
+          "height": 800
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "tablet-coarse",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 60.10000000009313,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 768,
+          "height": 1024
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-coarse-pointer",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 66.69999999995343,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": false,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-reduced-motion",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 89.9000000001397,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": true
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-save-data",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 69.5,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-slow-2g",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 76.30000000004657,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-slow-downlink",
+      "expected": "skip",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 90.4000000001397,
+        "insertions": [],
+        "sceneCalls": 0,
+        "fallbackClass": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-fine-pointer",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 75,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 79.9000000001397,
+            "loadAt": 75
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 141.20000000018626,
+            "loadAt": 75
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 153,
+            "loadAt": 75
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    },
+    {
+      "route": "/contact",
+      "case": "desktop-1500ms-fallback",
+      "expected": "load",
+      "checks": {
+        "canvas_reserved": true,
+        "no_early_scene_scripts": true,
+        "fallback_timer_respected": true,
+        "init_only_when_eligible": true,
+        "static_fallback_when_skipped": true,
+        "all_three_requested_when_eligible": true,
+        "expected_eligibility": true
+      },
+      "detail": {
+        "href": "/contact",
+        "loadSeen": true,
+        "loadAt": 73.60000000009313,
+        "insertions": [
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1574.5,
+            "loadAt": 73.60000000009313
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1623.1000000000931,
+            "loadAt": 73.60000000009313
+          },
+          {
+            "src": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "readyState": "complete",
+            "loadSeen": true,
+            "at": 1632.4000000001397,
+            "loadAt": 73.60000000009313
+          }
+        ],
+        "sceneCalls": 1,
+        "fallbackClass": false,
+        "canvasVisibility": "visible",
+        "canvasRect": {
+          "width": 1280,
+          "height": 900
+        },
+        "finePointer": true,
+        "reducedMotion": false
+      },
+      "errors": []
+    }
+  ]
+}

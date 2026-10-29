@@ -1,14 +1,105 @@
 <?php
 require_once __DIR__ . '/visual-config.php';
+/** Return the closing brace for a JavaScript block while skipping strings and comments. */
+function ilmera_visual_js_matching_brace($source, $open)
+{
+    $length = strlen($source);
+    $depth = 0;
+    $state = 'code';
+    $quote = '';
+    $escaped = false;
+    for ($i = $open; $i < $length; $i++) {
+        $char = $source[$i];
+        $next = $i + 1 < $length ? $source[$i + 1] : '';
+        if ($state === 'single' || $state === 'double' || $state === 'template') {
+            if ($escaped) { $escaped = false; continue; }
+            if ($char === '\\') { $escaped = true; continue; }
+            if ($char === $quote) { $state = 'code'; $quote = ''; }
+            continue;
+        }
+        if ($state === 'line-comment') {
+            if ($char === "\n" || $char === "\r") $state = 'code';
+            continue;
+        }
+        if ($state === 'block-comment') {
+            if ($char === '*' && $next === '/') { $state = 'code'; $i++; }
+            continue;
+        }
+        if ($char === '/' && $next === '/') { $state = 'line-comment'; $i++; continue; }
+        if ($char === '/' && $next === '*') { $state = 'block-comment'; $i++; continue; }
+        if ($char === "'") { $state = 'single'; $quote = "'"; continue; }
+        if ($char === '"') { $state = 'double'; $quote = '"'; continue; }
+        if ($char === '`') { $state = 'template'; $quote = '`'; continue; }
+        if ($char === '{') $depth++;
+        elseif ($char === '}') {
+            $depth--;
+            if ($depth === 0) return $i;
+        }
+    }
+    return false;
+}
+
+/** Delay reference-page scene libraries and initialize the existing WebGL scene after load and idle. */
+function ilmera_visual_defer_reference_scene($html)
+{
+    if (strpos($html, 'id="p32-scene-loader"') !== false || strpos($html, 'window.__ILMERA_SCENE_INIT') !== false) return $html;
+    $scriptPattern = '~<script\b[^>]*src="https://cdnjs\.cloudflare\.com/ajax/libs/(?:three\.js/r128/three\.min\.js|gsap/3\.12\.2/(?:gsap|ScrollTrigger)\.min\.js)"[^>]*>\s*</script>~i';
+    $scriptCount = preg_match_all($scriptPattern, $html);
+    if ($scriptCount !== 3) return $html;
+    if (!preg_match('~if\s*\(\s*window\.THREE\s*\)\s*\{~', $html, $match, PREG_OFFSET_CAPTURE)) return $html;
+    $blockStart = $match[0][1];
+    $openBrace = $blockStart + strrpos($match[0][0], '{');
+    $blockEnd = ilmera_visual_js_matching_brace($html, $openBrace);
+    if ($blockEnd === false) return $html;
+    $block = substr($html, $blockStart, $blockEnd - $blockStart + 1);
+    $sizeDeclaration = '~\bvar\s+W\s*=\s*window\.innerWidth\s*,\s*H\s*=\s*window\.innerHeight\s*;~';
+    $sizeCount = preg_match_all($sizeDeclaration, $block);
+    $sizePrefix = '';
+    if ($sizeCount === 1) {
+        // Home, Services and Contact declare W/H inside the scene block. Hoist
+        // initialized values because later page code also reads these names.
+        $block = preg_replace($sizeDeclaration, 'W=window.innerWidth,H=window.innerHeight;', $block, 1);
+        $sizePrefix = 'var W=window.innerWidth,H=window.innerHeight;';
+    } elseif ($sizeCount === 0) {
+        // About declares W/H before its scene guard; retain that closure binding.
+        $scriptStart = strrpos(substr($html, 0, $blockStart), '<script');
+        $scriptPrefix = $scriptStart === false ? '' : substr($html, $scriptStart, $blockStart - $scriptStart);
+        if (preg_match($sizeDeclaration, $scriptPrefix) !== 1) return $html;
+    } else {
+        return $html;
+    }
+    $wrapped = $sizePrefix.'window.__ILMERA_SCENE_INIT=function(){'.$block.'};';
+    $html = substr($html, 0, $blockStart).$wrapped.substr($html, $blockEnd + 1);
+    $html = preg_replace($scriptPattern, '', $html);
+    if (strpos($html, 'three.min.js') !== false || strpos($html, 'gsap.min.js') !== false || strpos($html, 'ScrollTrigger.min.js') !== false) return $html;
+    if (stripos($html, '</head>') === false || stripos($html, '</body>') === false) return $html;
+    $fallbackStyle = '<style id="p32-scene-fallback-style">#space-canvas{width:100vw!important;height:100vh!important;}html.p32-scene-fallback #space-canvas{visibility:hidden!important;transition:none!important;}</style>';
+    $loader = <<<'HTML'
+<script id="p32-scene-loader">(function(){var root=document.documentElement,canvas=document.getElementById('space-canvas');if(!canvas)return;var connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;var fine=window.matchMedia&&window.matchMedia('(pointer: fine)').matches;var slow=false;if(connection){var type=String(connection.effectiveType||'').toLowerCase();slow=!!connection.saveData||/^(slow-2g|2g)$/.test(type)||(Number(connection.downlink)>0&&Number(connection.downlink)<1.1);}var started=false;function fallback(){root.classList.add('p32-scene-fallback');canvas.style.setProperty('transition','none','important');canvas.style.setProperty('visibility','hidden','important');}if(window.innerWidth<900||!fine||reduced||slow){fallback();return;}function loadScript(url,next){var script=document.createElement('script');script.src=url;script.async=true;script.onload=next;script.onerror=fallback;document.head.appendChild(script);}function load(){if(started)return;started=true;loadScript('https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',function(){loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',function(){loadScript('https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js',function(){try{if(typeof window.__ILMERA_SCENE_INIT==='function')window.__ILMERA_SCENE_INIT();root.classList.remove('p32-scene-fallback');canvas.style.removeProperty('visibility');canvas.style.removeProperty('transition');}catch(error){fallback();}});});});}function afterLoadAndIdle(){var done=false;var timer=setTimeout(function(){if(!done){done=true;load();}},1500);if(typeof window.requestIdleCallback==='function')requestIdleCallback(function(){if(!done){done=true;clearTimeout(timer);load();}},{timeout:1500});}if(document.readyState==='complete')afterLoadAndIdle();else window.addEventListener('load',afterLoadAndIdle,{once:true});})();</script>
+HTML;
+    $html = str_ireplace('</head>', $fallbackStyle.'</head>', $html);
+    return str_ireplace('</body>', $loader.'</body>', $html);
+}
+
 /** Pure visual overlay: never change content, links, schema or publication data. */
 function ilmera_visual_scene_policy($html)
 {
-    // OFF is intentionally sitewide, including the otherwise immutable references.
-    // The default ON path emits no reference changes at all.
+    $path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
     if (!ILMERA_SCENES_ENABLED && strpos($html, 'id="ilmera-scenes-off"') === false) {
-        $html = preg_replace('~<script\b[^>]*src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/[^"]*"[^>]*></script>~', '', $html);
+        if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {
+            $html = preg_replace('~(if\s*\(\s*window\.THREE\s*\)\s*\{)~', 'var W=window.innerWidth,H=window.innerHeight;$1', $html, 1);
+            $html = preg_replace('~<script\b[^>]*src="https://cdnjs\.cloudflare\.com/ajax/libs/(?:three\.js|gsap)/[^"]*"[^>]*>\s*</script>~i', '', $html);
+        } else {
+            // Preserve the prior global-off behavior on other template groups:
+            // remove Three.js, but do not disable their GSAP reveal animations.
+            $html = preg_replace('~<script\b[^>]*src="https://cdnjs\.cloudflare\.com/ajax/libs/three\.js/[^"]*"[^>]*>\s*</script>~i', '', $html);
+        }
         $off = '#space-canvas,#vignette,#nebula-t,#nebula-b,#gold-shimmer,#gold-glow-css,#grain,#float-layer{display:none!important;} #hero,.mini-hero,.article-hero,.blog-hero,.legal-hero,.directory-hero,.err-wrap{background:#04060f!important;}';
         $html = str_replace('</head>', '<style id="ilmera-scenes-off">'.$off.'</style></head>', $html);
+        return $html;
+    }
+    if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {
+        $html = ilmera_visual_defer_reference_scene($html);
     }
     return $html;
 }

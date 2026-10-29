@@ -1,0 +1,67 @@
+{
+    "phase": 32,
+    "status": "PASS",
+    "scenes_enabled": true,
+    "routes": [
+        {
+            "route": "/",
+            "checks": {
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/services",
+            "checks": {
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/about",
+            "checks": {
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/contact",
+            "checks": {
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        }
+    ]
+}

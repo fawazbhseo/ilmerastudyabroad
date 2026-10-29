@@ -6,6 +6,8 @@ const { launchBrowser } = require('../phase31/browser.cjs');
 const { resources } = require('../phase25/resources.cjs');
 const ROOT = path.resolve(__dirname, '../..');
 const BASE = process.env.PHASE32_BASE_URL || 'http://127.0.0.1:8080';
+const OUT = path.resolve(ROOT, process.env.PHASE32_REFERENCE_AUDIT_OUT || 'reports/phase-32-reference-audit-before.json');
+const SCOPE = process.env.PHASE32_REFERENCE_AUDIT_SCOPE || 'Pre-change local reference audit before scene deferral';
 const ROUTES = ['/', '/services', '/about', '/contact'];
 const SCENE_DEPENDENCY = /three\.min\.js|gsap\.min\.js|ScrollTrigger\.min\.js/;
 function usedBytes(source, ranges) {
@@ -115,6 +117,7 @@ function jsUsedBytes(source, functions) {
     await context.close().catch(() => {});
     await browser.close();
   }
-  const report = { phase: 32, status: 'PASS', scope: 'Pre-change local reference audit before scene deferral; route responses use the local PHP-WASM adapter and resource mirrors, not live CDN. Pre-scene bytes are all successful response-body bytes except Three.js, GSAP and ScrollTrigger. Coverage measures executed/unused bytes for this one browser path and do not equal Lighthouse audit values.', budgets: { lcp_ms_lte: 4000, tbt_ms_lte: 600, cls_lt: 0.1, pre_scene_transfer_bytes_lt: 400000 }, cases };
-  fs.writeFileSync(path.join(ROOT, 'reports/phase-32-reference-audit-before.json'), JSON.stringify(report, null, 2) + '\n');
+  const report = { phase: 32, status: 'PASS', scope: `${SCOPE}; route responses use the local PHP-WASM adapter and resource mirrors, not live CDN. Pre-scene bytes are all successful response-body bytes except Three.js, GSAP and ScrollTrigger. Coverage measures executed/unused bytes for this one browser path and do not equal Lighthouse audit values.`, budgets: { lcp_ms_lte: 4000, tbt_ms_lte: 600, cls_lt: 0.1, pre_scene_transfer_bytes_lt: 400000 }, cases };
+  fs.writeFileSync(OUT, JSON.stringify(report, null, 2) + '\n');
+  console.log('Wrote reference audit', OUT);
 })().catch(error => { console.error(error.stack || error); process.exit(1); });

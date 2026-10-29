@@ -9,6 +9,7 @@
             "checks": {
                 "scene_off_marker": true,
                 "scene_script_removed": true,
+                "non_scene_gsap_preserved": true,
                 "still_canvas_absent": true,
                 "still_assets_absent": true,
                 "still_loader_absent": true,
@@ -22,6 +23,7 @@
             "checks": {
                 "scene_off_marker": true,
                 "scene_script_removed": true,
+                "non_scene_gsap_preserved": true,
                 "still_canvas_absent": true,
                 "still_assets_absent": true,
                 "still_loader_absent": true,
@@ -35,6 +37,7 @@
             "checks": {
                 "scene_off_marker": true,
                 "scene_script_removed": true,
+                "non_scene_gsap_preserved": true,
                 "still_canvas_absent": true,
                 "still_assets_absent": true,
                 "still_loader_absent": true,
@@ -48,10 +51,67 @@
             "checks": {
                 "scene_off_marker": true,
                 "scene_script_removed": true,
+                "non_scene_gsap_preserved": true,
                 "still_canvas_absent": true,
                 "still_assets_absent": true,
                 "still_loader_absent": true,
                 "heading_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/",
+            "template": "home",
+            "checks": {
+                "scene_off_marker": true,
+                "all_scene_dependencies_removed": true,
+                "deferred_loader_absent": true,
+                "off_palette_preserved": true,
+                "fallback_dimensions_initialized": true,
+                "heading_preserved": true,
+                "canvas_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/services",
+            "template": "services",
+            "checks": {
+                "scene_off_marker": true,
+                "all_scene_dependencies_removed": true,
+                "deferred_loader_absent": true,
+                "off_palette_preserved": true,
+                "fallback_dimensions_initialized": true,
+                "heading_preserved": true,
+                "canvas_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/about",
+            "template": "about",
+            "checks": {
+                "scene_off_marker": true,
+                "all_scene_dependencies_removed": true,
+                "deferred_loader_absent": true,
+                "off_palette_preserved": true,
+                "fallback_dimensions_initialized": true,
+                "heading_preserved": true,
+                "canvas_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/contact",
+            "template": "contact",
+            "checks": {
+                "scene_off_marker": true,
+                "all_scene_dependencies_removed": true,
+                "deferred_loader_absent": true,
+                "off_palette_preserved": true,
+                "fallback_dimensions_initialized": true,
+                "heading_preserved": true,
+                "canvas_preserved": true
             },
             "status": "PASS"
         }
