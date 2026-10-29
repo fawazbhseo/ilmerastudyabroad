@@ -1,0 +1,299 @@
+{
+  "id": "blog__768__js-off__motion-reduced",
+  "route": "/blog/",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/",
+  "http_status": 200,
+  "page_height": 4567,
+  "scroll": {
+    "height": 4567,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4567,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3186
+    },
+    "visible_text_chars": 2364,
+    "visible_text_nodes": 42,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA study abroad blog"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "ILMERA study abroad blog: Read practical articles on budgets"
+      },
+      {
+        "selector": "p.sub",
+        "y": 423,
+        "text": "Practical, honest guidance from the ILMERA Study Abroad team"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 532,
+        "text": "Planning"
+      },
+      {
+        "selector": "h2",
+        "y": 572,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p",
+        "y": 625,
+        "text": "Ten practical checks for families comparing counselling scop"
+      },
+      {
+        "selector": "span.author",
+        "y": 718,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 718,
+        "text": "6 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 771,
+        "text": "Read How to choose a study abroad consultant in Karnataka →"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 890,
+        "text": "No-IELTS"
+      },
+      {
+        "selector": "h2",
+        "y": 931,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "p",
+        "y": 1019,
+        "text": "Backlogs do not automatically rule out studying abroad. Seve"
+      },
+      {
+        "selector": "span.author",
+        "y": 1112,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 1112,
+        "text": "4 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 1164,
+        "text": "Read Studying Abroad with Academic Backlogs: What Is Actuall"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 1284,
+        "text": "Coorg"
+      },
+      {
+        "selector": "h2",
+        "y": 1324,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "p",
+        "y": 1412,
+        "text": "ILMERA provides online counselling for students from Coorg a"
+      },
+      {
+        "selector": "span.author",
+        "y": 1505,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 1505,
+        "text": "4 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 1557,
+        "text": "Read Online Study Abroad Counselling for Coorg Students: How"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 1677,
+        "text": "Costs"
+      },
+      {
+        "selector": "h2",
+        "y": 1717,
+        "text": "Cost of Studying Abroad: Official Country Examples"
+      },
+      {
+        "selector": "p",
+        "y": 1770,
+        "text": "Compare sourced tuition and living-cost examples for six cou"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4567,
+    "scan_width": 512,
+    "scan_height": 3045,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2717,
+        "height": 189,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31b-scan/blog__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.blog-cta",
+          "element_tag": "section",
+          "element_y": 2809,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.297px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "span.author",
+            "y": 2649,
+            "text": "Fawaz BH, CMO"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2974,
+            "text": "Book a online consultation and get an honest answer for your specific profile, by phone, W"
+          }
+        },
+        "selector": "section.blog-cta",
+        "cause": "Low edge-density band; nearest section section.blog-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3106,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog__768__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3070,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2717,
+        "height": 189,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31b-scan/blog__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.blog-cta",
+          "element_tag": "section",
+          "element_y": 2809,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.297px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "span.author",
+            "y": 2649,
+            "text": "Fawaz BH, CMO"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2974,
+            "text": "Book a online consultation and get an honest answer for your specific profile, by phone, W"
+          }
+        },
+        "selector": "section.blog-cta",
+        "cause": "Low edge-density band; nearest section section.blog-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3106,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog__768__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3070,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998357963875206
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "e217cff42d7802de4bd9f1203eb5417750c805b2da5e3059bb1da7682f01ae93"
+  }
+}

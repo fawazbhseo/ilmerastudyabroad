@@ -1,0 +1,373 @@
+{
+  "id": "contact__360__js-on__motion-normal",
+  "route": "/contact",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/contact",
+  "http_status": 200,
+  "page_height": 9113,
+  "scroll": {
+    "height": 9113,
+    "scroll_samples": 15,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 9113,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 7028
+    },
+    "visible_text_chars": 9210,
+    "visible_text_nodes": 118,
+    "hidden_text_nodes": 1,
+    "hidden_text_groups": 1,
+    "hidden_text_chars": 9,
+    "visible_media": 18,
+    "empty_or_spacing_nodes": [
+      {
+        "kind": "unused-min-height-tail",
+        "selector": "#miniHero",
+        "tag": "section",
+        "y": 654,
+        "height": 138,
+        "threshold": 120,
+        "visible_text_chars": 355,
+        "hidden_text_chars": 9,
+        "visible_media": 0,
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "min_height": "792px",
+          "height": "792px",
+          "padding_top": "0px",
+          "padding_bottom": "0px",
+          "position": "relative"
+        },
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-dom-03.webp",
+        "cause": "Computed vertical margin/padding reaches the per-width threshold; candidate, not automatically an error."
+      }
+    ],
+    "hidden_text": [
+      {
+        "kind": "hidden-reveal-text",
+        "selector": "span",
+        "y": 725,
+        "height": 11,
+        "text_sample": "Reach Out",
+        "characters": 9,
+        "computed": {
+          "effective_opacity": 0,
+          "visibility_reasons": [
+            "effective-opacity:0.000"
+          ]
+        },
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-hidden-04.webp",
+        "cause": "Non-empty main-content text remains effectively invisible after a complete slow scroll and 3-second settle."
+      }
+    ],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 227,
+        "text": "Contact ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 374,
+        "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsAp"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 508,
+        "text": "online consultation for Germany, Italy, UK, Czech Republic, "
+      },
+      {
+        "selector": "h2",
+        "y": 896,
+        "text": "Send Us a Message"
+      },
+      {
+        "selector": "p",
+        "y": 1002,
+        "text": "Before your consultation, explore our"
+      },
+      {
+        "selector": "a",
+        "y": 1021,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 1021,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 1040,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 1040,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 1059,
+        "text": "ILMERA team"
+      },
+      {
+        "selector": "p",
+        "y": 1059,
+        "text": "."
+      },
+      {
+        "selector": "label",
+        "y": 1116,
+        "text": "Full Name"
+      },
+      {
+        "selector": "label",
+        "y": 1188,
+        "text": "Email Address"
+      },
+      {
+        "selector": "label",
+        "y": 1260,
+        "text": "Phone Number (optional)"
+      },
+      {
+        "selector": "label",
+        "y": 1307,
+        "text": "Destination Country"
+      },
+      {
+        "selector": "label",
+        "y": 1379,
+        "text": "Service Interested In"
+      },
+      {
+        "selector": "label",
+        "y": 1476,
+        "text": "Your Message"
+      },
+      {
+        "selector": "button.btn-submit.btn-magnetic",
+        "y": 1634,
+        "text": "Submit Enquiry →"
+      },
+      {
+        "selector": "h2",
+        "y": 1744,
+        "text": "Contact Information"
+      },
+      {
+        "selector": "span.c-icon",
+        "y": 1852,
+        "text": "📞"
+      },
+      {
+        "selector": "span.c-lbl",
+        "y": 1850,
+        "text": "Call Us"
+      },
+      {
+        "selector": "a",
+        "y": 1868,
+        "text": "+91 90195 57427"
+      },
+      {
+        "selector": "span.c-val",
+        "y": 1868,
+        "text": "or"
+      },
+      {
+        "selector": "a",
+        "y": 1868,
+        "text": "+91 94810 84038"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 9113,
+    "scan_width": 360,
+    "scan_height": 9113,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2699,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1996,
+          "computed": {
+            "min_height": "0px",
+            "height": "1995.75px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 2658,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2896,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3887,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00008,
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.faq-sec",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 1212,
+          "computed": {
+            "min_height": "0px",
+            "height": "1212.23px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.faq-q-text",
+            "y": 3772,
+            "text": "What scope limits should I know before requesting help?"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 4061,
+            "text": "study abroad services"
+          }
+        },
+        "selector": "section.s-wrap.faq-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.faq-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2699,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1996,
+          "computed": {
+            "min_height": "0px",
+            "height": "1995.75px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 2658,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2896,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3887,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00008,
+        "crop": "reports/screenshots/phase-31b-scan/contact__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.faq-sec",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 1212,
+          "computed": {
+            "min_height": "0px",
+            "height": "1212.23px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.faq-q-text",
+            "y": 3772,
+            "text": "What scope limits should I know before requesting help?"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 4061,
+            "text": "study abroad services"
+          }
+        },
+        "selector": "section.s-wrap.faq-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.faq-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": true,
+    "scrollTrigger": true,
+    "three": true
+  },
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f0891099b43e430d35f492206671bab4596153956de0c4d0a575f241fb6df1c0"
+  }
+}

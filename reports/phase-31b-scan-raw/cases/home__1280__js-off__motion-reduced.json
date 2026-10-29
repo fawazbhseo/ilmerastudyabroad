@@ -1,0 +1,544 @@
+{
+  "id": "home__1280__js-off__motion-reduced",
+  "route": "/",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/",
+  "http_status": 200,
+  "page_height": 10977,
+  "scroll": {
+    "height": 10977,
+    "scroll_samples": 18,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 10977,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 9849
+    },
+    "visible_text_chars": 14246,
+    "visible_text_nodes": 196,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 9,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#hLabel",
+        "y": 162,
+        "text": "ILMERA GROUP PRESENTS"
+      },
+      {
+        "selector": "#hH1",
+        "y": 207,
+        "text": "ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 403,
+        "text": "ILMERA Study Abroad: Discuss your study plans through online"
+      },
+      {
+        "selector": "#hSub",
+        "y": 480,
+        "text": "Compare programme-specific tuition, living costs and scholar"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 623,
+        "text": "Explore Study Destinations"
+      },
+      {
+        "selector": "a.btn-ghost",
+        "y": 624,
+        "text": "Book online Consultation"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 735,
+        "text": "9"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 790,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 735,
+        "text": "3"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 790,
+        "text": "Named Counsellors"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 735,
+        "text": "4"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 790,
+        "text": "Languages Spoken"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 735,
+        "text": "2026"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 790,
+        "text": "Founded"
+      },
+      {
+        "selector": "span",
+        "y": 841,
+        "text": "Explore"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 919,
+        "text": "🇩🇪 Germany"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 920,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 919,
+        "text": "🇮🇹 Italy"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 920,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 919,
+        "text": "🇬🇧 United Kingdom"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 920,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 919,
+        "text": "🇨🇿 Czech Republic"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 920,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 919,
+        "text": "🇱🇹 Lithuania"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 10977,
+    "scan_width": 512,
+    "scan_height": 4391,
+    "threshold": 200,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2692,
+        "height": 231,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2792,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "820.688px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 2661,
+            "text": "Book an online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 2950,
+            "text": "Why Indian Students Choose ILMERA"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3469,
+        "height": 276,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2792,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "820.688px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 3258,
+            "text": "You work with real, named people, Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH, who sp"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 3771,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4312,
+        "height": 256,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00006,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 3613,
+          "element_height": 873,
+          "computed": {
+            "min_height": "0px",
+            "height": "873.125px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-name",
+            "y": 4262,
+            "text": "What ILMERA Helps With"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 4594,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5542,
+        "height": 226,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00009,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 5655,
+          "element_height": 2128,
+          "computed": {
+            "min_height": "0px",
+            "height": "2128.19px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span",
+            "y": 5423,
+            "text": "Full-time Slovak-language study at public institutions normally has no tuition within the "
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 5793,
+            "text": "Study Abroad FAQs (2026)"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7632,
+        "height": 263,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 5655,
+          "element_height": 2128,
+          "computed": {
+            "min_height": "0px",
+            "height": "2128.19px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 7574,
+            "text": "ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 7921,
+            "text": "Meet Our Team"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2692,
+        "height": 231,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2792,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "820.688px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 2661,
+            "text": "Book an online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 2950,
+            "text": "Why Indian Students Choose ILMERA"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3469,
+        "height": 276,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2792,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "820.688px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 3258,
+            "text": "You work with real, named people, Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH, who sp"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 3771,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4312,
+        "height": 256,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00006,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 3613,
+          "element_height": 873,
+          "computed": {
+            "min_height": "0px",
+            "height": "873.125px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-name",
+            "y": 4262,
+            "text": "What ILMERA Helps With"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 4594,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5542,
+        "height": 226,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00009,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 5655,
+          "element_height": 2128,
+          "computed": {
+            "min_height": "0px",
+            "height": "2128.19px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span",
+            "y": 5423,
+            "text": "Full-time Slovak-language study at public institutions normally has no tuition within the "
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 5793,
+            "text": "Study Abroad FAQs (2026)"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7632,
+        "height": 263,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31b-scan/home__1280__js-off__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 5655,
+          "element_height": 2128,
+          "computed": {
+            "min_height": "0px",
+            "height": "2128.19px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 7574,
+            "text": "ILMERA is based in Coorg, Kodagu, and offers counselling by phone, WhatsApp and video call"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 7921,
+            "text": "Meet Our Team"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 2.499886130721931
+  },
+  "pinned": null,
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f6c574a10a9d72475fc9dda53981c8454325dec618ee0b1da6c97726210f1b93"
+  }
+}

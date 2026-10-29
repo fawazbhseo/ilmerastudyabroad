@@ -1,0 +1,443 @@
+{
+  "id": "study-abroad-consultants-in-kodagu__360__js-off__motion-reduced",
+  "route": "/study-abroad-consultants-in-kodagu",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-consultants-in-kodagu",
+  "http_status": 200,
+  "page_height": 7238,
+  "scroll": {
+    "height": 7238,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7238,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5104
+    },
+    "visible_text_chars": 4183,
+    "visible_text_nodes": 37,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Kodagu"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 428,
+        "text": "Study abroad consultancy in Kodagu: prepare separate concern"
+      },
+      {
+        "selector": "h2",
+        "y": 558,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 684,
+        "text": "A study plan may involve a student, family members and a cou"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 981,
+        "text": "Discuss how to prepare separate concerns before the joint co"
+      },
+      {
+        "selector": "h2",
+        "y": 1102,
+        "text": "Prepare separate concerns before the joint conversation"
+      },
+      {
+        "selector": "p",
+        "y": 1235,
+        "text": "Invite each person involved to write the questions that matt"
+      },
+      {
+        "selector": "h2",
+        "y": 1768,
+        "text": "Distinguish participation from authority to act"
+      },
+      {
+        "selector": "p",
+        "y": 1865,
+        "text": "Agree who may receive updates and who may approve a submissi"
+      },
+      {
+        "selector": "h2",
+        "y": 2369,
+        "text": "Return to the unresolved decision after each stage"
+      },
+      {
+        "selector": "p",
+        "y": 2466,
+        "text": "At the end of a family discussion, identify what has been de"
+      },
+      {
+        "selector": "p",
+        "y": 3008,
+        "text": "Counselling is online, and students from Kodagu do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 3108,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3222,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p",
+        "y": 3319,
+        "text": "Collect each participant's questions beforehand and group th"
+      },
+      {
+        "selector": "summary",
+        "y": 3351,
+        "text": "Does receiving an update authorise a relative to change an a"
+      },
+      {
+        "selector": "p",
+        "y": 3447,
+        "text": "Not by itself. Clarify who can approve instructions, submiss"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3568,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3665,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3755,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3863,
+        "text": "Kodagu place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3932,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 3986,
+        "text": "Madikeri"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7238,
+    "scan_width": 360,
+    "scan_height": 7238,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3423,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3492,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3351,
+            "text": "Does receiving an update authorise a relative to change an application?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3665,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4394,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 4102,
+          "computed": {
+            "min_height": "0px",
+            "height": "4101.67px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4374,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4603,
+            "text": "How can Kodagu students prepare separate concerns before the joint conversation?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4804,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4478,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4732,
+            "text": "How can Kodagu students distinguish participation from authority to act?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4977,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5032,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4977,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3423,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3492,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3351,
+            "text": "Does receiving an update authorise a relative to change an application?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3665,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4394,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 4102,
+          "computed": {
+            "min_height": "0px",
+            "height": "4101.67px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4374,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4603,
+            "text": "How can Kodagu students prepare separate concerns before the joint conversation?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4804,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4478,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4732,
+            "text": "How can Kodagu students distinguish participation from authority to act?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4977,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5032,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-consultants-in-kodagu__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4977,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "71252cfc0e9ab77c85ddc196af6ad9e79bb2a6f3e16c89ec10091797c92786cb"
+  }
+}

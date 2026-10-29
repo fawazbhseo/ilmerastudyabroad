@@ -1,0 +1,255 @@
+{
+  "id": "study-abroad-counselling-somwarpet__768__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-somwarpet",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-somwarpet",
+  "http_status": 200,
+  "page_height": 4710,
+  "scroll": {
+    "height": 4710,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4710,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3328
+    },
+    "visible_text_chars": 4279,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Somwarpet"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Somwarpet"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Somwarpet: describe the record u"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What should a Somwarpet applicant bring to a backlog discuss"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 553,
+        "text": "A backlog discussion is more useful when the full academic r"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 706,
+        "text": "Discuss how to describe the record using its actual status o"
+      },
+      {
+        "selector": "h2",
+        "y": 789,
+        "text": "Describe the record using its actual status"
+      },
+      {
+        "selector": "p",
+        "y": 850,
+        "text": "Gather the relevant marksheets and identify what each result"
+      },
+      {
+        "selector": "h2",
+        "y": 1095,
+        "text": "Ask eligibility questions without seeking a blanket promise"
+      },
+      {
+        "selector": "p",
+        "y": 1156,
+        "text": "Identify the intended course and qualification level before "
+      },
+      {
+        "selector": "h2",
+        "y": 1429,
+        "text": "Update the plan when the record changes"
+      },
+      {
+        "selector": "p",
+        "y": 1490,
+        "text": "When a new result arrives, review the application informatio"
+      },
+      {
+        "selector": "p",
+        "y": 1744,
+        "text": "Counselling is online, and students from Somwarpet do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1816,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1899,
+        "text": "What should a Somwarpet applicant bring to a backlog discuss"
+      },
+      {
+        "selector": "p",
+        "y": 1950,
+        "text": "Bring the complete relevant results, including later clearan"
+      },
+      {
+        "selector": "summary",
+        "y": 1987,
+        "text": "Does clearing a subject automatically settle every applicati"
+      },
+      {
+        "selector": "p",
+        "y": 2038,
+        "text": "No. Update the evidence and ask the selected admissions body"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2159,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2220,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2280,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2389,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2457,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2511,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4710,
+    "scan_width": 512,
+    "scan_height": 3140,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3043,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00011,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-somwarpet__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 343,
+          "computed": {
+            "min_height": "0px",
+            "height": "343px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2918,
+            "text": "How can Somwarpet students describe the record using its actual status?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3221,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3043,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00011,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-somwarpet__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 343,
+          "computed": {
+            "min_height": "0px",
+            "height": "343px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2918,
+            "text": "How can Somwarpet students describe the record using its actual status?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3221,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "1f98e3da9f46df400ae4bf1a2875b4c3f117b4989d5ed9642d178bea4fc3db78"
+  }
+}

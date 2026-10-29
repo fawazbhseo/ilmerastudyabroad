@@ -1,0 +1,243 @@
+{
+  "id": "blog_how-to-choose-study-abroad-consultant-karnataka__768__js-off__motion-normal",
+  "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/how-to-choose-study-abroad-consultant-karnataka",
+  "http_status": 200,
+  "page_height": 7719,
+  "scroll": {
+    "height": 7719,
+    "scroll_samples": 13,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7719,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 6338
+    },
+    "visible_text_chars": 10995,
+    "visible_text_nodes": 87,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 167,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 354,
+        "text": "How to choose a study abroad consultant in Karnataka starts "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 435,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 435,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 502,
+        "text": "What should I know about how to choose a study abroad consul"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 594,
+        "text": "Compare the written scope, charges, responsibilities and ref"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 748,
+        "text": "Discuss how to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 834,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 834,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 901,
+        "text": "What should families check before choosing a consultant?"
+      },
+      {
+        "selector": "p",
+        "y": 962,
+        "text": "Compare the written scope, charges, responsibilities and ref"
+      },
+      {
+        "selector": "h2",
+        "y": 1121,
+        "text": "1. Written scope and fees"
+      },
+      {
+        "selector": "p",
+        "y": 1182,
+        "text": "Ask for a written account of the work proposed, the charges "
+      },
+      {
+        "selector": "h2",
+        "y": 1311,
+        "text": "2. No guaranteed admission or visa promises"
+      },
+      {
+        "selector": "p",
+        "y": 1372,
+        "text": "Ask who makes each decision. Admission and visa decisions be"
+      },
+      {
+        "selector": "h2",
+        "y": 1501,
+        "text": "3. Accredited institutions only"
+      },
+      {
+        "selector": "p",
+        "y": 1562,
+        "text": "Check recognition and accreditation with the responsible off"
+      },
+      {
+        "selector": "h2",
+        "y": 1721,
+        "text": "4. Who handles documents"
+      },
+      {
+        "selector": "p",
+        "y": 1782,
+        "text": "Agree who prepares, checks and submits each document. The ap"
+      },
+      {
+        "selector": "h2",
+        "y": 1911,
+        "text": "5. Refund terms"
+      },
+      {
+        "selector": "p",
+        "y": 1972,
+        "text": "Ask for the written refund and cancellation terms before pay"
+      },
+      {
+        "selector": "h2",
+        "y": 2101,
+        "text": "6. Counsellor accountability"
+      },
+      {
+        "selector": "p",
+        "y": 2162,
+        "text": "Ask who is responsible for your file, how questions are reco"
+      },
+      {
+        "selector": "h2",
+        "y": 2321,
+        "text": "7. Reviews that can be verified"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 7719,
+    "scan_width": 512,
+    "scan_height": 5146,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6240,
+        "height": 180,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_how-to-choose-study-abroad-consultant-karnataka__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body.payment-disclosure",
+          "element_tag": "section",
+          "element_y": 5670,
+          "element_height": 669,
+          "computed": {
+            "min_height": "0px",
+            "height": "668.578px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 6218,
+            "text": "Does ILMERA receive payments from universities?"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body.payment-disclosure",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body.payment-disclosure has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6240,
+        "height": 180,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_how-to-choose-study-abroad-consultant-karnataka__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body.payment-disclosure",
+          "element_tag": "section",
+          "element_y": 5670,
+          "element_height": 669,
+          "computed": {
+            "min_height": "0px",
+            "height": "668.578px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 6218,
+            "text": "Does ILMERA receive payments from universities?"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body.payment-disclosure",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body.payment-disclosure has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "90afd79340cb485dbf55fc3b9043cf614ae14a7c98dba32ffe23bd5e417330de"
+  }
+}

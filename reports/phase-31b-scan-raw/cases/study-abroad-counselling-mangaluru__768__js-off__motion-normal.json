@@ -1,0 +1,251 @@
+{
+  "id": "study-abroad-counselling-mangaluru__768__js-off__motion-normal",
+  "route": "/study-abroad-counselling-mangaluru",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-mangaluru",
+  "http_status": 200,
+  "page_height": 4499,
+  "scroll": {
+    "height": 4499,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4499,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3118
+    },
+    "visible_text_chars": 4214,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Mangaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Mangaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Mangaluru: understand the propos"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What should a Mangaluru student ask a proposed sponsor first"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 520,
+        "text": "A promise to help with study costs is not the same as a docu"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 673,
+        "text": "Discuss how to understand the proposed support before descri"
+      },
+      {
+        "selector": "h2",
+        "y": 755,
+        "text": "Understand the proposed support before describing it"
+      },
+      {
+        "selector": "p",
+        "y": 816,
+        "text": "Ask the person offering support what they intend to cover an"
+      },
+      {
+        "selector": "h2",
+        "y": 1061,
+        "text": "Ask the evidence question for the actual route"
+      },
+      {
+        "selector": "p",
+        "y": 1122,
+        "text": "Once the study option is identified, check who may provide f"
+      },
+      {
+        "selector": "h2",
+        "y": 1395,
+        "text": "Plan for a change in the support arrangement"
+      },
+      {
+        "selector": "p",
+        "y": 1456,
+        "text": "Consider what happens if the expected contribution is reduce"
+      },
+      {
+        "selector": "p",
+        "y": 1711,
+        "text": "Counselling is online, and students from Mangaluru do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1782,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1866,
+        "text": "What should a Mangaluru student ask a proposed sponsor first"
+      },
+      {
+        "selector": "p",
+        "y": 1916,
+        "text": "Clarify the intended amount, purpose and timing of support, "
+      },
+      {
+        "selector": "summary",
+        "y": 1954,
+        "text": "Can support from one person automatically replace another fu"
+      },
+      {
+        "selector": "p",
+        "y": 2004,
+        "text": "Do not assume that. Review the new arrangement against the r"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2125,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2186,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2247,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2355,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2424,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2488,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4499,
+    "scan_width": 512,
+    "scan_height": 2999,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2832,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-mangaluru__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2592,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2811,
+            "text": "How can Mangaluru students ask the evidence question for the actual route?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3010,
+            "text": "Ask ILMERA how to ask the evidence question for the actual route"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2832,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-mangaluru__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2592,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2811,
+            "text": "How can Mangaluru students ask the evidence question for the actual route?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3010,
+            "text": "Ask ILMERA how to ask the evidence question for the actual route"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5001667222407469
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "fe6d721ecf48a0f26019547792843bfdf7ae2434471ccadd856b4d94caf8f911"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "study-abroad-counselling-madikeri__768__js-off__motion-reduced",
+  "route": "/study-abroad-counselling-madikeri",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-madikeri",
+  "http_status": 200,
+  "page_height": 4632,
+  "scroll": {
+    "height": 4632,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4632,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3251
+    },
+    "visible_text_chars": 4164,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Madikeri"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Madikeri"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Madikeri: start with dates rathe"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "How should a Madikeri applicant begin discussing a study gap"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 520,
+        "text": "For a Madikeri applicant, a clear academic timeline can make"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 673,
+        "text": "Discuss how to start with dates rather than a persuasive sto"
+      },
+      {
+        "selector": "h2",
+        "y": 755,
+        "text": "Start with dates rather than a persuasive story"
+      },
+      {
+        "selector": "p",
+        "y": 816,
+        "text": "List periods of study in order and identify the qualificatio"
+      },
+      {
+        "selector": "h2",
+        "y": 1061,
+        "text": "Explain an interruption without overstating it"
+      },
+      {
+        "selector": "p",
+        "y": 1122,
+        "text": "Describe what happened during an interval in plain language "
+      },
+      {
+        "selector": "h2",
+        "y": 1367,
+        "text": "Cross-check the account wherever it appears"
+      },
+      {
+        "selector": "p",
+        "y": 1428,
+        "text": "Compare the timeline with the dates in your CV, application "
+      },
+      {
+        "selector": "p",
+        "y": 1682,
+        "text": "Counselling is online, and students from Madikeri do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1754,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1837,
+        "text": "How should a Madikeri applicant begin discussing a study gap"
+      },
+      {
+        "selector": "p",
+        "y": 1888,
+        "text": "Prepare a factual timeline from available records before wri"
+      },
+      {
+        "selector": "summary",
+        "y": 1925,
+        "text": "Should the CV and application use different dates for the sa"
+      },
+      {
+        "selector": "p",
+        "y": 1976,
+        "text": "They should be consistent about the event being described. I"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2097,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2158,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2218,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2326,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2395,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2449,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4632,
+    "scan_width": 512,
+    "scan_height": 3088,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2965,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-madikeri__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2725,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2944,
+            "text": "How can Madikeri students explain an interruption without overstating it?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3143,
+            "text": "Ask ILMERA how to explain an interruption without overstating it"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2965,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-madikeri__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2725,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2944,
+            "text": "How can Madikeri students explain an interruption without overstating it?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3143,
+            "text": "Ask ILMERA how to explain an interruption without overstating it"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "e96133094f19924ff246c4aa23bc0d903271c71d0f6e21acbd72d92248063c1c"
+  }
+}

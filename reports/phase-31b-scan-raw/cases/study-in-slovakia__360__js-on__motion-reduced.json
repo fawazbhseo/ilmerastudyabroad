@@ -1,0 +1,447 @@
+{
+  "id": "study-in-slovakia__360__js-on__motion-reduced",
+  "route": "/study-in-slovakia",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-slovakia",
+  "http_status": 200,
+  "page_height": 7746,
+  "scroll": {
+    "height": 7746,
+    "scroll_samples": 13,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7746,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5611
+    },
+    "visible_text_chars": 3639,
+    "visible_text_nodes": 82,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Slovakia from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 380,
+        "text": "Study in Slovakia from India starts with programme-specific "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 518,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 518,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 586,
+        "text": "What should I check before planning to study in Slovakia fro"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 712,
+        "text": "Full-time study in Slovak at public institutions can involve"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 895,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 966,
+        "text": "Discuss study in Slovakia from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 1145,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1206,
+        "text": "Standard admissions and visa support."
+      },
+      {
+        "selector": "h2",
+        "y": 1336,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1397,
+        "text": "The European Commission profile states that Slovak-language "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1551,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1595,
+        "text": "The study portal estimates a total yearly budget of around 7"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1663,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1740,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "li",
+        "y": 1801,
+        "text": "The National Scholarship Programme of the Slovak Republic su"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1983,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2060,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 2121,
+        "text": "Applications for a Slovak national visa are submitted at a d"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2218,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 2262,
+        "text": "The embassy contact page says visa applications are accepted"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2416,
+        "text": "[3]"
+      },
+      {
+        "selector": "h2",
+        "y": 2493,
+        "text": "Documents"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7746,
+    "scan_width": 360,
+    "scan_height": 7746,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1021,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1069,
+          "element_height": 220,
+          "computed": {
+            "min_height": "0px",
+            "height": "219.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 966,
+            "text": "Discuss study in Slovakia from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1206,
+            "text": "Standard admissions and visa support."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4838,
+        "height": 194,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00204,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 4970,
+          "computed": {
+            "min_height": "0px",
+            "height": "4970.17px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4818,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5123,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5305,
+        "height": 161,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00104,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5066,
+          "computed": {
+            "min_height": "0px",
+            "height": "5066.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5285,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5484,
+            "text": "Ask ILMERA about study in Slovakia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5539,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5484,
+            "text": "Ask ILMERA about study in Slovakia from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1021,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1069,
+          "element_height": 220,
+          "computed": {
+            "min_height": "0px",
+            "height": "219.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 966,
+            "text": "Discuss study in Slovakia from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1206,
+            "text": "Standard admissions and visa support."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4838,
+        "height": 194,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00204,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 4970,
+          "computed": {
+            "min_height": "0px",
+            "height": "4970.17px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4818,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5123,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5305,
+        "height": 161,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00104,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5066,
+          "computed": {
+            "min_height": "0px",
+            "height": "5066.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5285,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5484,
+            "text": "Ask ILMERA about study in Slovakia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5539,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-slovakia__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5484,
+            "text": "Ask ILMERA about study in Slovakia from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "2a8f3adeb6455c6353e2a77e7a57d557b121d19725786214b3618b7dd5a016b3"
+  }
+}

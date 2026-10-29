@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-bengaluru__1280__js-on__motion-normal",
+  "route": "/study-abroad-counselling-bengaluru",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-bengaluru",
+  "http_status": 200,
+  "page_height": 4519,
+  "scroll": {
+    "height": 4519,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4519,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3383
+    },
+    "visible_text_chars": 4193,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Bengaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Bengaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Bengaluru: translate your intere"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "How can a Bengaluru student explain a proposed subject switc"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "A student from Bengaluru considering a different academic fi"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to translate your interest into an academic ques"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Translate your interest into an academic question"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "Describe what you want to learn in the new field, not only t"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Separate demonstrated preparation from a future plan"
+      },
+      {
+        "selector": "p",
+        "y": 1268,
+        "text": "Make two lists: preparation you can document now and prepara"
+      },
+      {
+        "selector": "h2",
+        "y": 1513,
+        "text": "Keep alternatives academically coherent"
+      },
+      {
+        "selector": "p",
+        "y": 1580,
+        "text": "If the first choice does not fit, compare alternatives by th"
+      },
+      {
+        "selector": "p",
+        "y": 1835,
+        "text": "Counselling is online, and students from Bengaluru do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1908,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2001,
+        "text": "How can a Bengaluru student explain a proposed subject switc"
+      },
+      {
+        "selector": "p",
+        "y": 2056,
+        "text": "Connect the new subject with specific prior learning, projec"
+      },
+      {
+        "selector": "summary",
+        "y": 2097,
+        "text": "Should an unfinished preparatory course appear as completed?"
+      },
+      {
+        "selector": "p",
+        "y": 2152,
+        "text": "No. Describe it as ongoing and distinguish its expected comp"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2274,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2341,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2401,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2511,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2585,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2649,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4519,
+    "scan_width": 512,
+    "scan_height": 1808,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.499446902654867
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "4c05f95cce13f3f5862040cb026c99a1d6d53ee30f301479542ebcdaa613c712"
+  }
+}
