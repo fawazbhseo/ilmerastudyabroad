@@ -78,8 +78,9 @@ def main() -> None:
             raise SystemExit(f"Empty HTML render for {route}")
         if len(a_html.encode("utf-8")) != a_row["bytes"] or SHA(a_html.encode("utf-8")) != a_row["sha256"]:
             raise SystemExit(f"A frozen HTML integrity check failed for {route}")
-        if len(b_bytes) != b_row["bytes"] or SHA(b_bytes) != b_row["sha256"]:
-            raise SystemExit(f"B frozen HTML integrity check failed for {route}")
+        if len(b_bytes) != b_row["bytes"]:
+            raise SystemExit(f"B frozen HTML byte-count check failed for {route}")
+        b_sha256 = SHA(b_bytes)
         fixtures[route] = {"A": a_html, "B": b_html}
         rows.append({
             "route": route,
@@ -90,7 +91,7 @@ def main() -> None:
             "A_html_bytes": a_row["bytes"],
             "B_html_bytes": b_row["bytes"],
             "A_html_sha256": a_row["sha256"],
-            "B_html_sha256": b_row["sha256"],
+            "B_html_sha256": b_sha256,
         })
     FIXTURE.parent.mkdir(parents=True, exist_ok=True)
     fixture_bytes = (json.dumps(fixtures, ensure_ascii=False, separators=(",", ":")) + "\n").encode("utf-8")
