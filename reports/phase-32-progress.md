@@ -26,3 +26,10 @@
 - Read `reports/phase-31-task4-ab-summary.md`, `reports/phase-31-release-check.md`, this progress log and the recent git history. The release-check exists and reports Task5 PASS (31/31 groups). Its Task4 result remains the known failure Phase32 is intended to fix (2/8 local routes pass, `performance_release_certified=false`); the corrected resume note explicitly authorizes proceeding despite that result.
 - Verified the session branch contains the Phase31 public source changes relative to `75f355f`: `about.php`, `index.php` and `includes/visual-system.php` are modified. Phase31's final source check and all Task5 groups passed in the release report. The stop conditions in the corrected gate are not met.
 - **Gate result: CLEARED.** Continue Phase32 on this branch. The prior checkpoints document historical gate decisions; this checkpoint supersedes their stop disposition. No Phase32 implementation or benchmark was repeated during this preflight.
+
+
+## 2026-10-29 checkpoint 4: local test runtime prepared
+
+- Installed the pinned browser, Lighthouse, PHP-WASM, image, font and test packages under `/home/user/phase32-runtime`, outside the repository. No production dependency or runtime package was added to the site.
+- Runtime is Node `v22.22.3` / npm `10.9.8`; PHP-WASM packages printed engine-range warnings requesting Node 24 and npm 11, as in earlier phase evidence. Execution compatibility has not yet been validated in this runtime.
+- This setup checkpoint changes no site behavior and does not replace or repeat Phase31 measurements.
