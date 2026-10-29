@@ -45,4 +45,13 @@
 ## 2026-10-29 checkpoint 6: smaller mobile still encoded
 
 - Re-encoded the approved mobile still as 640x800 WebP at quality 64. The result is 9,738 bytes, below the 14,000-byte limit. The existing desktop WebP is 1440x900 and 37,226 bytes, below the 40,000-byte limit; it is reused unchanged.
-- Committed the reproducible encoder, mobile asset and hash/size record. Visual review under the dark overlay at 360px, 768px and 1280px remains pending and must pass before enabling the loader.
+- Committed the reproducible encoder, mobile asset and hash/size record.
+
+## 2026-10-29 checkpoint 7: delayed hero still rendering and fallback QA passed
+
+- Replaced the eager still background on destination, place, article and blog-index heroes with a reserved canvas. The still is requested only after window load plus idle, with the 1,500ms fallback. It uses responsive 640/1440 WebP, cover-crop drawing, and skips for Save-Data, slow connection hints or `ILMERA_SCENES_ENABLED=false`. Reduced motion retains the still without a fade. The plain palette remains the fallback on an image failure or disabled switch.
+- The revised 12-case Chromium smoke passed all four templates at 360px, 768px and 1280px. Every request began after `loadEventEnd`, the expected asset was selected, and the recorded LCP candidate was text (`P`, `H1` or `H2`), not a still image or canvas. Save-Data and slow-connection each produced zero still requests; reduced motion had zero transition duration.
+- JavaScript-off fallback passed at 360px and 1280px. A PHP-WASM policy test passed all four template groups with `ILMERA_SCENES_ENABLED=false`: the animated scene script, still canvas, still asset URLs and loader are absent while headings remain.
+- Visually reviewed the post-crop screenshots for the four templates at all three widths. A browser-pixel text mask measured 57 runs. The initial 0.56 canvas opacity failed at 3.654:1 on an article breadcrumb at 1280px; opacity was lowered to 0.42 without wording changes. The updated pass minimum is 5.339:1. See `reports/phase-32-hero-smoke.json`, `reports/phase-32-noscript-smoke.json`, `reports/phase-32-scene-switch-smoke.json`, `reports/phase-32-hero-contrast.json` and `reports/phase-32-hero-assets.json`.
+- The local browser interceptor exposes `ResourceTiming.transferSize=0`; it is not used as byte evidence. The asset hashes/sizes meet their existing limits, but this local smoke does not establish compressed transfer on the target host or prove the LCP/CLS/TBT budgets.
+- Next: complete the reference-page/resource and font-chain investigations, then perform the frozen-A seven-sample interleaved lab only after test harness and serving policy are validated. Continue to preserve the immutable 43-route/38-URL baseline and do not repeat Phase31 Task4.

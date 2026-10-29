@@ -1,0 +1,539 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "threshold": 4.5,
+  "cases": [
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 360,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 11.663,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Services / Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 788,
+          "min_contrast": 11.663
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 12.014
+        },
+        {
+          "tag": "A",
+          "text": "Services",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 203,
+          "min_contrast": 13.276
+        },
+        {
+          "tag": "SPAN",
+          "text": "Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 411,
+          "min_contrast": 11.663
+        },
+        {
+          "tag": "H1",
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3104,
+          "min_contrast": 13.124
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 768,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 7.105,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Services / Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 789,
+          "min_contrast": 7.105
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 12.361
+        },
+        {
+          "tag": "A",
+          "text": "Services",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 203,
+          "min_contrast": 11.95
+        },
+        {
+          "tag": "SPAN",
+          "text": "Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 412,
+          "min_contrast": 7.105
+        },
+        {
+          "tag": "H1",
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3087,
+          "min_contrast": 10.824
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 1280,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 7.085,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Services / Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 789,
+          "min_contrast": 8.509
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 8.509
+        },
+        {
+          "tag": "A",
+          "text": "Services",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 203,
+          "min_contrast": 13.355
+        },
+        {
+          "tag": "SPAN",
+          "text": "Study in Germany",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 412,
+          "min_contrast": 13.292
+        },
+        {
+          "tag": "H1",
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 5525,
+          "min_contrast": 7.085
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 360,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 7.779,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 316,
+          "min_contrast": 11.732
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 11.732
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 161,
+          "min_contrast": 13.064
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(201, 168, 76)",
+          "glyph_pixels": 234,
+          "min_contrast": 7.779
+        },
+        {
+          "tag": "H1",
+          "text": "Study abroad consultancy in Mysuru",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3852,
+          "min_contrast": 10.938
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 768,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 6.481,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 314,
+          "min_contrast": 10.947
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.427
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 159,
+          "min_contrast": 10.947
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(201, 168, 76)",
+          "glyph_pixels": 234,
+          "min_contrast": 6.481
+        },
+        {
+          "tag": "H1",
+          "text": "Study abroad consultancy in Mysuru",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3873,
+          "min_contrast": 13.235
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 1280,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 7.078,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 316,
+          "min_contrast": 11.517
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 11.517
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 161,
+          "min_contrast": 13.347
+        },
+        {
+          "tag": "SPAN",
+          "text": "Mysuru",
+          "color": "rgb(201, 168, 76)",
+          "glyph_pixels": 234,
+          "min_contrast": 7.078
+        },
+        {
+          "tag": "H1",
+          "text": "Study abroad consultancy in Mysuru",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 6985,
+          "min_contrast": 9.292
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 360,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 9.042,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog / How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1541,
+          "min_contrast": 9.042
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 9.188
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.276
+        },
+        {
+          "tag": "SPAN",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1541,
+          "min_contrast": 9.042
+        },
+        {
+          "tag": "H1",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 5635,
+          "min_contrast": 10.948
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 768,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 11.083,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog / How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1547,
+          "min_contrast": 11.083
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.412
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 135,
+          "min_contrast": 11.083
+        },
+        {
+          "tag": "SPAN",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1238,
+          "min_contrast": 11.578
+        },
+        {
+          "tag": "H1",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 5650,
+          "min_contrast": 16.138
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 1280,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 5.339,
+      "text_runs": 5,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog / How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1548,
+          "min_contrast": 5.339
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 8.802
+        },
+        {
+          "tag": "A",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.347
+        },
+        {
+          "tag": "SPAN",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 1238,
+          "min_contrast": 5.339
+        },
+        {
+          "tag": "H1",
+          "text": "How to choose a study abroad consultant in Karnataka",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 10060,
+          "min_contrast": 7.093
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 360,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 9.738,
+      "text_runs": 4,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 291,
+          "min_contrast": 12.014
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 12.014
+        },
+        {
+          "tag": "SPAN",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.276
+        },
+        {
+          "tag": "H1",
+          "text": "ILMERA study abroad blog",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3222,
+          "min_contrast": 9.738
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 768,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 10.389,
+      "text_runs": 4,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 291,
+          "min_contrast": 12.361
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 12.361
+        },
+        {
+          "tag": "SPAN",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 12.778
+        },
+        {
+          "tag": "H1",
+          "text": "ILMERA study abroad blog",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 3217,
+          "min_contrast": 10.389
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 1280,
+      "still_opacity": 0.42,
+      "minimum_text_contrast": 7.085,
+      "text_runs": 4,
+      "results": [
+        {
+          "tag": "NAV",
+          "text": "Home / Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 291,
+          "min_contrast": 8.509
+        },
+        {
+          "tag": "A",
+          "text": "Home",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 8.509
+        },
+        {
+          "tag": "SPAN",
+          "text": "Blog",
+          "color": "rgb(200, 211, 232)",
+          "glyph_pixels": 136,
+          "min_contrast": 13.427
+        },
+        {
+          "tag": "H1",
+          "text": "ILMERA study abroad blog",
+          "color": "rgb(255, 255, 255)",
+          "glyph_pixels": 5751,
+          "min_contrast": 7.085
+        }
+      ],
+      "method": "Pixel glyph mask from shown versus transparent-text viewport screenshot; foreground color from computed style; contrast against rendered still/gradient pixels."
+    }
+  ],
+  "interpretation": "Rendered browser-pixel measurement in the hero text glyphs at 360px, 768px and 1280px. Local-only visual evidence."
+}

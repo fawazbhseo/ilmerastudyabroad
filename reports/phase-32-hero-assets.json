@@ -26,7 +26,16 @@
       768,
       1280
     ],
-    "under_dark_overlay": "PENDING browser render review"
+    "under_dark_overlay": "PASS, 12 destination/place/article/blog viewport renders reviewed after cover-crop correction; no visible stretch distortion or blocked text",
+    "contrast_threshold": 4.5,
+    "minimum_measured_contrast": 5.339,
+    "text_runs_measured": 57,
+    "contrast_evidence": "reports/phase-32-hero-contrast.json",
+    "render_evidence": "reports/phase-32-hero-smoke.json",
+    "asset_request_timing": "PASS, still requested after window load; no still request in Save-Data or slow-connection mode",
+    "lcp_element": "PASS, all 12 default cases reported text nodes (P, H1 or H2), not image or canvas",
+    "no_javascript": "PASS, responsive CSS still fallback verified at 360px and 1280px",
+    "scene_switch_off": "PASS, all four templates omit still canvas, still assets and loader when ILMERA_SCENES_ENABLED is false"
   },
   "no_new_wording_or_visual_artwork": true
 }

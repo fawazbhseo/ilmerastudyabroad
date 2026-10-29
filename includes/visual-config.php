@@ -10,4 +10,4 @@ if (!defined('ILMERA_VISUAL_TEMPLATE_GROUPS')) define('ILMERA_VISUAL_TEMPLATE_GR
 /** Only templates failing the fixed font budget may use the inline fallback. */
 if (!defined('ILMERA_VISUAL_INLINE_FONT_TEMPLATES')) define('ILMERA_VISUAL_INLINE_FONT_TEMPLATES', ['destination']);
 /** Performance fallback is a plain colour, never a generated image. */
-if (!defined('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES')) define('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES', ['destination']);
+if (!defined('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES')) define('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES', []);

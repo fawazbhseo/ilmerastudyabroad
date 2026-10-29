@@ -1,0 +1,40 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "method": "Playwright with application JavaScript disabled; local PHP-WASM adapter",
+  "cases": [
+    {
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "stillRequests": [
+        "/assets/images/hero-still-640.webp"
+      ],
+      "sceneRequests": [],
+      "state": {
+        "scriptsEnabled": false,
+        "noscriptStyles": 1,
+        "backgroundImage": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-640.webp\")",
+        "stillCanvasReserved": true,
+        "headingText": "Study in Germany from India"
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "stillRequests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "sceneRequests": [],
+      "state": {
+        "scriptsEnabled": false,
+        "noscriptStyles": 1,
+        "backgroundImage": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+        "stillCanvasReserved": true,
+        "headingText": "Study in Germany from India"
+      },
+      "status": "PASS"
+    }
+  ],
+  "native_hosting": false
+}

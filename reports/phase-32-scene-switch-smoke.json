@@ -1,0 +1,59 @@
+{
+    "phase": 32,
+    "status": "PASS",
+    "scenes_enabled": false,
+    "routes": [
+        {
+            "route": "/study-in-germany",
+            "template": "destination",
+            "checks": {
+                "scene_off_marker": true,
+                "scene_script_removed": true,
+                "still_canvas_absent": true,
+                "still_assets_absent": true,
+                "still_loader_absent": true,
+                "heading_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/study-abroad-counselling-mysuru",
+            "template": "place",
+            "checks": {
+                "scene_off_marker": true,
+                "scene_script_removed": true,
+                "still_canvas_absent": true,
+                "still_assets_absent": true,
+                "still_loader_absent": true,
+                "heading_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "template": "article",
+            "checks": {
+                "scene_off_marker": true,
+                "scene_script_removed": true,
+                "still_canvas_absent": true,
+                "still_assets_absent": true,
+                "still_loader_absent": true,
+                "heading_preserved": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/blog/",
+            "template": "blog",
+            "checks": {
+                "scene_off_marker": true,
+                "scene_script_removed": true,
+                "still_canvas_absent": true,
+                "still_assets_absent": true,
+                "still_loader_absent": true,
+                "heading_preserved": true
+            },
+            "status": "PASS"
+        }
+    ]
+}

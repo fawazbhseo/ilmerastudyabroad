@@ -1,0 +1,569 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "browser": "Chromium 143 via @sparticuz/chromium",
+  "base": "local PHP-WASM adapter",
+  "cases": [
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 328,
+          "cssWidth": 360,
+          "cssHeight": 328.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 73.69999999995343,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 54,
+        "lcp": [
+          {
+            "startTime": 168,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 328.1875
+        }
+      },
+      "screenshot": "destination-360.png",
+      "screenshot_sha256": "b8bb885ed16f300b28969f1658022ec3116941a8c92319ce9a5a345ac9e7ee90"
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 289,
+          "cssWidth": 768,
+          "cssHeight": 289.09375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 46.39999999990687,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 31.5999999998603,
+        "lcp": [
+          {
+            "startTime": 68,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 289.09375
+        }
+      },
+      "screenshot": "destination-768.png",
+      "screenshot_sha256": "a824b2f76de6ba17574db52afe1bca363e684a9ecf34947ca4c2744442c5e20a"
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 361,
+          "cssWidth": 1280,
+          "cssHeight": 361.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 48,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 23.600000000093132,
+        "lcp": [
+          {
+            "startTime": 92,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 361.1875
+        }
+      },
+      "screenshot": "destination-1280.png",
+      "screenshot_sha256": "9f0e3e7b1c2c9a4038efea5166f0ef9af7f628279ed686e191ccf2fa584678cf"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 376,
+          "cssWidth": 360,
+          "cssHeight": 376.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 63.200000000186265,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 44.4000000001397,
+        "lcp": [
+          {
+            "startTime": 84,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 376.375
+        }
+      },
+      "screenshot": "place-360.png",
+      "screenshot_sha256": "00c6e4acea7d17e1dedf8216569d9af6fba3ff6e326a96e9beed55f40b955102"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 337,
+          "cssWidth": 768,
+          "cssHeight": 337.28125,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 62,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 49.10000000009313,
+        "lcp": [
+          {
+            "startTime": 72,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 337.28125
+        }
+      },
+      "screenshot": "place-768.png",
+      "screenshot_sha256": "33320faf964912539de7bd693e3812a118faa7f6dfa3cd2ea8d934b4a94c78a1"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 409,
+          "cssWidth": 1280,
+          "cssHeight": 409.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 52.4000000001397,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 47.200000000186265,
+        "lcp": [
+          {
+            "startTime": 68,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 409.375
+        }
+      },
+      "screenshot": "place-1280.png",
+      "screenshot_sha256": "30a31bcc816048682b916dc0357bb91bb8ab540d8236c6295e07acfa09741bcd"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 365,
+          "cssWidth": 360,
+          "cssHeight": 364.671875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 59.5,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 44.89999999990687,
+        "lcp": [
+          {
+            "startTime": 88,
+            "tag": "H2",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 364.671875
+        }
+      },
+      "screenshot": "article-360.png",
+      "screenshot_sha256": "214c17abd328f3cead139391d991886ed048bde29f312bb8642d7dacbe0b30d8"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 302,
+          "cssWidth": 768,
+          "cssHeight": 302.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 61.9000000001397,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 50.10000000009313,
+        "lcp": [
+          {
+            "startTime": 72,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 302.1875
+        }
+      },
+      "screenshot": "article-768.png",
+      "screenshot_sha256": "3eaa45e4520ab486fc4bdb45a4acdc723b6421c7a20b9e59f0c5239c858908c5"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 352,
+          "cssWidth": 1280,
+          "cssHeight": 352.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 74.5,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 55.39999999990687,
+        "lcp": [
+          {
+            "startTime": 92,
+            "tag": "H1",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 352.375
+        }
+      },
+      "screenshot": "article-1280.png",
+      "screenshot_sha256": "e954cd0db6457e3da0e62ed074281c3c9d8e5a4ec3d0fa7b0731d9544cca9a06"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 328,
+          "cssWidth": 360,
+          "cssHeight": 328.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 41.199999999953434,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 37.9000000001397,
+        "lcp": [
+          {
+            "startTime": 72,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 328.1875
+        }
+      },
+      "screenshot": "blog-360.png",
+      "screenshot_sha256": "ab22f44cc75722444c9025e76a836d0e95c88a6dc718e00a9e5368edc1994e11"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 289,
+          "cssWidth": 768,
+          "cssHeight": 289.09375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 52.799999999813735,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 40.199999999953434,
+        "lcp": [
+          {
+            "startTime": 72,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 289.09375
+        }
+      },
+      "screenshot": "blog-768.png",
+      "screenshot_sha256": "c8b48702a8da51d610c54f903bf667e3440841fa04a85d4c73e65e843eb1d31a"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 361,
+          "cssWidth": 1280,
+          "cssHeight": 361.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 50.0999999998603,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 45.5,
+        "lcp": [
+          {
+            "startTime": 76,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 361.1875
+        }
+      },
+      "screenshot": "blog-1280.png",
+      "screenshot_sha256": "f245c036d7695be8ccbf942803e0d6428a46f56aa52aaa180d41317ea2416665"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "Save-Data",
+      "requests": 0,
+      "state": {
+        "loaded": false,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "slow-connection",
+      "requests": 0,
+      "state": {
+        "loaded": false,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "reduced-motion",
+      "state": {
+        "opacity": "0.42",
+        "transitionDuration": "0s"
+      },
+      "status": "PASS"
+    }
+  ],
+  "interpretation": "Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. Canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence."
+}

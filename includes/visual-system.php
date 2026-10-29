@@ -79,28 +79,21 @@ function ilmera_visual_present($html)
     if (in_array($template, ILMERA_VISUAL_PLAIN_HERO_TEMPLATES, true)) {
         $css .= "\nbody.p25 :is(.mini-hero,.article-hero,.blog-hero,.legal-hero,.directory-hero,.err-wrap){background:#04060f;}";
     }
-    if (in_array($template, ['destination','place','article','blog'], true)) {
-        $css .= <<<'CSS'
-/* Phase31 Task3 static still; decorative only, scoped to approved template heroes. */
-body.p25.p25-destination .article-hero,
-body.p25.p25-place .article-hero,
-body.p25.p25-article .article-hero,
-body.p25.p25-blog .blog-hero {
-    background-color:#04060f;
-    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-1440.webp');
-    background-size:cover,cover;
-    background-position:center,center;
-    background-repeat:no-repeat,no-repeat;
-}
-@media(max-width:768px) {
-body.p25.p25-destination .article-hero,
-body.p25.p25-place .article-hero,
-body.p25.p25-article .article-hero,
-body.p25.p25-blog .blog-hero {
-    background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url('/assets/images/hero-still-720.webp');
-}
-}
-CSS;
+    $heroStillTemplates = ['destination','place','article','blog'];
+    if (in_array($template, $heroStillTemplates, true)) {
+        $selectors = 'body.p25.p25-destination .article-hero,body.p25.p25-place .article-hero,body.p25.p25-article .article-hero,body.p25.p25-blog .blog-hero';
+        $css .= "\n{$selectors}{background-color:#04060f;background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),radial-gradient(ellipse at 50% 0%,rgba(201,168,76,.08),transparent 60%);background-size:cover,cover;background-position:center,center;background-repeat:no-repeat,no-repeat;}\n";
+        $plainHero = !ILMERA_SCENES_ENABLED || in_array($template, ILMERA_VISUAL_PLAIN_HERO_TEMPLATES, true);
+        if (!$plainHero) {
+            $hero = '<canvas class="p32-hero-still" aria-hidden="true" role="presentation"></canvas>';
+            $html = preg_replace_callback('~(<(?:section|div)\\b[^>]*class="[^"]*\\b(?:article-hero|blog-hero)\\b[^"]*"[^>]*>)~', static function($match) use ($hero) { return $match[1].$hero; }, $html, 1);
+            $noscript = '<noscript><style>'.$selectors.'{background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url("/assets/images/hero-still-1440.webp");background-size:cover,cover;background-position:center,center;background-repeat:no-repeat,no-repeat;}@media(max-width:768px){'.$selectors.'{background-image:linear-gradient(180deg,rgba(4,6,15,.44),rgba(4,6,15,.68)),url("/assets/images/hero-still-640.webp");}}</style></noscript>';
+            $html = str_replace('</body>', $noscript.'</body>', $html);
+            $heroLoader = <<<'HTML'
+<script>(function(){var canvas=document.querySelector('.p32-hero-still');if(!canvas)return;var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduced)canvas.style.transition='none';var connection=navigator.connection||navigator.mozConnection||navigator.webkitConnection;function slow(){if(!connection)return false;var type=String(connection.effectiveType||'').toLowerCase();return !!connection.saveData||/^(slow-2g|2g)$/.test(type)||(Number(connection.downlink)>0&&Number(connection.downlink)<1.1);}if(slow())return;var started=false;function load(){if(started)return;started=true;var image=new Image();image.decoding='async';image.onload=function(){var box=canvas.getBoundingClientRect(),ratio=Math.min(window.devicePixelRatio||1,2);if(!box.width||!box.height)return;canvas.width=Math.round(box.width*ratio);canvas.height=Math.round(box.height*ratio);var context=canvas.getContext('2d');if(!context)return;var scale=Math.max(canvas.width/image.naturalWidth,canvas.height/image.naturalHeight),drawWidth=image.naturalWidth*scale,drawHeight=image.naturalHeight*scale;context.drawImage(image,(canvas.width-drawWidth)/2,(canvas.height-drawHeight)/2,drawWidth,drawHeight);canvas.classList.add('is-loaded');};image.onerror=function(){canvas.classList.remove('is-loaded');};image.src=window.matchMedia('(max-width: 768px)').matches?'/assets/images/hero-still-640.webp':'/assets/images/hero-still-1440.webp';}function idleAfterLoad(){var done=false;var fallback=setTimeout(function(){if(!done){done=true;load();}},1500);if('requestIdleCallback' in window)requestIdleCallback(function(){if(!done){done=true;clearTimeout(fallback);load();}},{timeout:1500});}if(document.readyState==='complete')idleAfterLoad();else window.addEventListener('load',idleAfterLoad,{once:true});if(window.matchMedia){var motion=window.matchMedia('(prefers-reduced-motion: reduce)');if(motion.addEventListener)motion.addEventListener('change',function(event){if(event.matches)canvas.style.transition='none';});}})();</script>
+HTML;
+            $html = str_replace('</body>', $heroLoader.'</body>', $html);
+        }
     }
     $fontGate = <<<'HTML'
 <script>(function(){if(!document.fonts)return;var root=document.documentElement,timer;function show(){root.classList.remove('p25-font-pending');clearTimeout(timer);}root.classList.add('p25-font-pending');timer=setTimeout(show,3000);Promise.all([document.fonts.load('300 16px Outfit'),document.fonts.load('700 48px "Cormorant Garamond"')]).then(function(){return document.fonts.ready;}).then(show,show);})();</script>
