@@ -92,3 +92,8 @@
 - Captured all 43 current B routes from the e193be3 source and verified the exact inventory/status/byte counts. Generated the 11-route A/B fixture from that capture and the SHA-verified immutable A archive. A is commit `796879d7b3d5ca0fa1e398562e937e9f364a5f62`; B is commit `e193be3036dff6a4f95923460a2525226faaae35`.
 - Fixture SHA-256 is `1edc4a65117c748ffdf42d9417398f4e87e7b46be97ade30ef941df7d98fa5a7`; its 1,950,527-byte paired HTML file is held outside the repository at `/home/user/phase32-runtime/phase32-ab/fixtures.json`. The committed manifest `reports/phase-32-11-route-ab-fixtures.json` records all 11 route byte counts and hashes, the 43-route A archive hash, route roles, budgets and the local-only method.
 - The first fixture-script attempt expected B SHA fields that the existing render index does not contain; it stopped before creating a fixture. The script now hashes the verified captured HTML files directly and succeeded. No Lighthouse sample has run yet. The fresh-browser preflight and 154-sample experiment are the next steps.
+
+## 2026-10-29 checkpoint 13: Lighthouse browser preflight
+
+- The frozen runner passed its no-navigation preflight with Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2 from `/home/user/phase32-runtime`. This did not navigate a page and contributed zero A/B samples. Both temporary PHP-WASM adapter processes have been stopped after freezing their output. The fixture file and 11-route manifest hashes remain unchanged.
+- No A/B Lighthouse sample has run yet. Before starting the fixed serial lab, the local fixture host must be prepared on loopback with the frozen route fixture and the runner's output path must not already exist.
