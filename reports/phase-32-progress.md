@@ -116,3 +116,10 @@
 
 - Corrected the fixture manifest and next-run harness: Home, Services, About and Contact are reference treatment routes, not unchanged controls. The previous run01 raw file remains byte-for-byte unchanged and retains `control_reliable=false` from the inherited runner field; the run01 summary explains why that field is inapplicable. The fixture JSON SHA and paired A/B HTML are unchanged.
 - Future run reports now record `reference_routes`, an empty `unchanged_control_routes` list, and `control_reliability_applicable=false` with `control_reliable=null`. This corrects metadata only; it does not alter the samples, route gates, experiment source, or release certification.
+
+## 2026-10-29 checkpoint 17: one-sample attribution after run01
+
+- Added a single-run Lighthouse attribution tool and preserved two B-arm diagnostics, separate from the frozen 154 samples. On Home, one diagnostic returned CLS 0.000728, so it did not reproduce run01's 0.055 median. A 0.05506 layout-shift entry was marked `hadRecentInput=true` and excluded from Lighthouse CLS; its source nodes included `#hH1`, `.seo-opening`, `#hSub`, `#hBtns` and `#hStats`, with text wrapping changes consistent with font fallback/reflow. This is a hypothesis, not a confirmed root cause.
+- On Blog index, one diagnostic returned TBT 52.7ms. Lighthouse listed five 63ms to 97ms tasks attributed to the document or unattributable; the audit did not supply a source stack. A renderer-clock PerformanceObserver task of 1,003ms is not comparable to Lighthouse simulated time. The still loader is a candidate contributor, not proven.
+- Raw diagnostics and limits are in `reports/phase-32-post-run01-attribution.md`, `reports/phase-32-cls-home-diagnostic.json` and `reports/phase-32-blog-tbt-diagnostic.json`. These one-sample results do not clear run01's CLS/TBT failures.
+- Next: test a metric-matched local fallback font stack on the four reference routes without changing the loaded display font, and replace the target still's synchronous canvas draw with a positioned image if visual review confirms equivalence. Then use the full frozen-A protocol on any final runtime candidate.
