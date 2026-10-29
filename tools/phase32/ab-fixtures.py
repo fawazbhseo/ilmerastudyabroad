@@ -18,12 +18,12 @@ ROUTES = [
     "/blog/how-to-choose-study-abroad-consultant-karnataka",
     "/blog/cost-of-studying-abroad-for-indian-students", "/blog/",
 ]
-CONTROLS = ROUTES[:4]
+REFERENCE_ROUTES = ROUTES[:4]
 ROLES = {
-    "/": "reference control",
-    "/services": "reference control",
-    "/about": "reference control",
-    "/contact": "reference control",
+    "/": "reference treatment",
+    "/services": "reference treatment",
+    "/about": "reference treatment",
+    "/contact": "reference treatment",
     "/study-in-germany": "destination template",
     "/study-in-italy": "destination variant",
     "/study-abroad-counselling-mysuru": "place template and font-chain sample",
@@ -85,7 +85,7 @@ def main() -> None:
         rows.append({
             "route": route,
             "role": ROLES[route],
-            "is_reference_control": route in CONTROLS,
+            "is_reference_treatment": route in REFERENCE_ROUTES,
             "A_http_status": a_row["status"],
             "B_http_status": b_row["status"],
             "A_html_bytes": a_row["bytes"],
@@ -113,8 +113,9 @@ def main() -> None:
         "fixture_path_outside_repository": str(FIXTURE),
         "baseline_inventory_count": 43,
         "route_count": len(ROUTES),
-        "control_routes": CONTROLS,
-        "selection_reason": "Four reference controls, all four requested hero template groups, the three diagnosed font-chain pages, and second destination/place/article variants for 11 unique routes.",
+        "reference_routes": REFERENCE_ROUTES,
+        "unchanged_control_routes": [],
+        "selection_reason": "Four reference treatment routes, all four requested hero template groups, the three diagnosed font-chain pages, and second destination/place/article variants for 11 unique routes.",
         "order": "Seven rounds per route; A/B on even rounds and B/A on odd rounds; a fresh Chromium process per sample; serial with no retry or resume.",
         "performance_model": "Lighthouse mobile simulated Slow4G and 4x CPU.",
         "budgets": {
@@ -134,7 +135,7 @@ def main() -> None:
         "local_or_native_hosting": "local only; no production hosting, CDN or field measurement",
     }
     MANIFEST.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"PASS frozen A/B fixture: {len(ROUTES)} unique routes, {len(CONTROLS)} reference controls")
+    print(f"PASS frozen A/B fixture: {len(ROUTES)} unique routes, {len(REFERENCE_ROUTES)} reference treatment routes")
     print(f"A source {A_COMMIT}; B source {b_commit}")
     print(f"Fixture {FIXTURE} ({len(fixture_bytes)} bytes, sha256 {SHA(fixture_bytes)})")
     print(f"Manifest {MANIFEST.relative_to(ROOT)}")

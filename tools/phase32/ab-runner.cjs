@@ -12,8 +12,8 @@ const FIXTURE_PATH=path.join(EVIDENCE,'fixtures.json'),SELECTED_PATH=path.join(E
 const PORT=Number(process.env.PHASE32_AB_PORT||8082),BASE=`http://127.0.0.1:${PORT}`;
 const OUTPUT=path.resolve(process.env.PHASE32_AB_OUTPUT||path.join(EVIDENCE,'ab-results.json'));
 let extractedRuntime;
-const CONTROLS=['/','/services','/about','/contact'];
-const CONTROL_RATIO_LIMIT=1.10,ROUTE_BUDGETS={added_transfer_bytes_lt:150000,lcp_ratio_lte:1.10,tbt_delta_ms_lte:50,cls_b_no_greater_than_a:true,cls_b_lt:0.1,no_new_render_blocking:true};
+const REFERENCE_ROUTES=['/','/services','/about','/contact'];
+const ROUTE_BUDGETS={added_transfer_bytes_lt:150000,lcp_ratio_lte:1.10,tbt_delta_ms_lte:50,cls_b_no_greater_than_a:true,cls_b_lt:0.1,no_new_render_blocking:true};
 const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
 const quantile=(values,q)=>{const x=[...values].sort((a,b)=>a-b),p=(x.length-1)*q,i=Math.floor(p);return x[i]+(x[Math.ceil(p)]-x[i])*(p-i);};
 const summarize=samples=>Object.fromEntries(['lcp_ms','cls','tbt_ms','transfer_bytes','requests'].map(key=>{const v=samples.map(x=>x[key]);return[key,{median:quantile(v,.5),q1:quantile(v,.25),q3:quantile(v,.75),iqr:quantile(v,.75)-quantile(v,.25)}];}));
@@ -36,7 +36,7 @@ function calculateRow(row){
  row.new_render_blocking=[...new Set(row.B.flatMap(s=>s.render_blocking||[]))].filter(u=>!blocksA.has(u));
  row.tests={added_transfer:row.added_transfer_bytes<ROUTE_BUDGETS.added_transfer_bytes_lt,lcp:row.ratio_b_over_a<=ROUTE_BUDGETS.lcp_ratio_lte,tbt:b.tbt_ms.median<=a.tbt_ms.median+ROUTE_BUDGETS.tbt_delta_ms_lte,cls:b.cls.median<=a.cls.median&&b.cls.median<ROUTE_BUDGETS.cls_b_lt,no_new_render_blocking:row.new_render_blocking.length===0};
  row.local_budget_result=Object.values(row.tests).every(Boolean)?'PASS':'FAIL';
- row.control_reliability=CONTROLS.includes(row.route)?row.symmetric_lcp_ratio<=CONTROL_RATIO_LIMIT:null;
+ row.reference_treatment=REFERENCE_ROUTES.includes(row.route);row.control_reliability=null;
  row.observed_still_requests={A:row.A.flatMap(s=>s.still_requests||[]),B:row.B.flatMap(s=>s.still_requests||[])};
 }
 async function main(){
@@ -55,10 +55,10 @@ async function main(){
  const fixtureManifest=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/phase-32-11-route-ab-fixtures.json'),'utf8'));
  if(sha(fixtureBytes)!==fixtureManifest.fixture_json_sha256)throw Error('Frozen A/B fixture hash does not match its committed manifest');
  const routes=Object.keys(fixtures);
- if(routes.length!==11||CONTROLS.some(r=>!fixtures[r]))throw Error(`Expected the frozen eleven-route list with four reference controls, got ${routes.length}`);
+ if(routes.length!==11||REFERENCE_ROUTES.some(r=>!fixtures[r]))throw Error(`Expected the frozen eleven-route list with four reference treatments, got ${routes.length}`);
  for(const [route,pair] of Object.entries(fixtures))if(!pair.A||!pair.B)throw Error(`Missing A/B fixture for ${route}`);
  const {default:lighthouse}=await import(pathToFileURL(require.resolve('lighthouse/core/index.js')));
- const report={phase:32,task:'frozen_11_route_ab',status:'RUNNING',started_at:new Date().toISOString(),environment:{local_only:true,base_url:BASE,browser:'Chromium143 via @sparticuz/chromium',playwright:require('playwright/package.json').version,lighthouse:require('lighthouse/package.json').version,fixture_sha256:sha(fixtureBytes),A_source_commit:fixtureManifest.A_source_commit,B_source_commit:fixtureManifest.B_source_commit},method:{samples_per_arm_per_route:7,total_routes:routes.length,total_expected_samples:routes.length*14,fresh_chromium_process_per_sample:true,storage_reset_each_navigation:true,order:'Round0 A then B, round1 B then A, alternating through round6 for each route',serial:true,parallel_samples:0,concurrent_capture_or_QA:false,performance_model:'Lighthouse mobile simulated Slow4G and 4x CPU',resource_delivery:'All browser traffic is intercepted to the local fixture, local static assets or exact npm mirrors; unsupported external requests are aborted. URL names are diagnostics, not live-network proof.',full_page_report_screenshot:false,metrics_retained:['LCP','CLS','TBT','total transfer bytes','request count','render-blocking request URLs','still-image requests','font network records','passive LCP/font/paint-gate events','warnings','failed/incomplete sessions'],budgets:ROUTE_BUDGETS,control_rule:`Each of the four unchanged reference routes must have symmetric median LCP ratio <= ${CONTROL_RATIO_LIMIT} for a reliable local session. No retry or resume is allowed.`,interpretation:'Local simulated evidence only. Not field data, real CDN timing, native hosting proof or a live-speed claim.'},route_order:routes,control_routes:CONTROLS,session:{routes:[],status:'RUNNING'}};
+ const report={phase:32,task:'frozen_11_route_ab',status:'RUNNING',started_at:new Date().toISOString(),environment:{local_only:true,base_url:BASE,browser:'Chromium143 via @sparticuz/chromium',playwright:require('playwright/package.json').version,lighthouse:require('lighthouse/package.json').version,fixture_sha256:sha(fixtureBytes),A_source_commit:fixtureManifest.A_source_commit,B_source_commit:fixtureManifest.B_source_commit},method:{samples_per_arm_per_route:7,total_routes:routes.length,total_expected_samples:routes.length*14,fresh_chromium_process_per_sample:true,storage_reset_each_navigation:true,order:'Round0 A then B, round1 B then A, alternating through round6 for each route',serial:true,parallel_samples:0,concurrent_capture_or_QA:false,performance_model:'Lighthouse mobile simulated Slow4G and 4x CPU',resource_delivery:'All browser traffic is intercepted to the local fixture, local static assets or exact npm mirrors; unsupported external requests are aborted. URL names are diagnostics, not live-network proof.',full_page_report_screenshot:false,metrics_retained:['LCP','CLS','TBT','total transfer bytes','request count','render-blocking request URLs','still-image requests','font network records','passive LCP/font/paint-gate events','warnings','failed/incomplete sessions'],budgets:ROUTE_BUDGETS,control_note:'The four reference routes are intentionally changed Phase32 treatments, not unchanged controls. Control reliability is not calculated. No retry or resume is allowed.',interpretation:'Local simulated evidence only. Not field data, real CDN timing, native hosting proof or a live-speed claim.'},route_order:routes,reference_routes:REFERENCE_ROUTES,unchanged_control_routes:[],session:{routes:[],status:'RUNNING',control_reliability_applicable:false,control_reliable:null}};
  writeJson(OUTPUT,report);
  let browserVersion='unknown';
  try{
@@ -97,8 +97,8 @@ async function main(){
    }
    calculateRow(row);writeJson(OUTPUT,report);
   }
-  const controls=report.session.routes.filter(row=>CONTROLS.includes(row.route));
-  report.session.control_reliable=controls.length===4&&controls.every(row=>row.control_reliability===true);
+  report.session.control_reliability_applicable=false;
+  report.session.control_reliable=null;
   report.session.routes_complete=report.session.routes.length===routes.length&&report.session.routes.every(row=>row.A.length===7&&row.B.length===7);
   report.session.local_budgets_passed=report.session.routes_complete&&report.session.routes.every(row=>row.local_budget_result==='PASS');
   report.session.performance_release_certified=false;
@@ -107,7 +107,7 @@ async function main(){
   report.session.totals={samples:report.session.routes.reduce((sum,row)=>sum+row.A.length+row.B.length,0),A:report.session.routes.reduce((sum,row)=>sum+row.A.length,0),B:report.session.routes.reduce((sum,row)=>sum+row.B.length,0),routes_passing_local_budgets:report.session.routes.filter(row=>row.local_budget_result==='PASS').length};
   writeJson(OUTPUT,report);
   for(const row of report.session.routes)console.log('SUMMARY',row.route,'A_LCP',row.summary.A.lcp_ms.median,'B_LCP',row.summary.B.lcp_ms.median,'ratio',row.ratio_b_over_a,'local',row.local_budget_result);
-  console.log('COMPLETE',JSON.stringify(report.session.totals),'control_reliable',report.session.control_reliable,'release_certified',false);
+  console.log('COMPLETE',JSON.stringify(report.session.totals),'control_reliability_applicable',report.session.control_reliability_applicable,'release_certified',false);
  }catch(error){console.error(error.stack||error);process.exitCode=1;}
 }
 main();
