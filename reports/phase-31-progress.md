@@ -167,3 +167,10 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - The report distinguishes the observed full-document height reduction of 505px at the three affected responsive widths from the 680px sum of pre-fix `#team` section-tail measurements. It keeps the four Contact `#miniHero` tails (138px at 360px and 233px at 768px) explicitly retained, and does not count pixel quiet-band candidates as savings.
 - The report also records the 43-route protected-content comparison and confirms the four A/B controls remained byte-identical while each of the four template targets differed only by the logged static-still CSS block. The report links the raw screenshots, capture manifest and supporting verification artifacts.
 - No public site source changed. Next: append Phase31b outcomes to `CHANGELOG.md` and a dated carry-forward section to `flagged-items-for-verification.md` without changing existing blockers, then prepare the release-check report.
+
+## 2026-10-29 checkpoint 23: changelog and verification flags updated
+
+- Added a dated Phase31 summary at the top of `CHANGELOG.md`, covering the authorized presentation scope, the local verification results, the blank-height accounting distinction, Task4's uncertified local A/B outcome, and the intentional Phase31 ZIP omission.
+- Appended a Phase31b carry-forward record to the end of `flagged-items-for-verification.md`. Earlier owner, native-hosting, privacy/access, contact, rollback, source/business, certificate and held-route blockers were not rewritten, removed or waived.
+- Both files retained their existing LF line endings. No em dash was introduced. No public site source changed.
+- Next: create the Phase31 release-check report with pass/fail evidence, hero-still file sizes, local A/B figures, ZIP disposition and a complete path inventory since `75f355f`.

@@ -3738,3 +3738,12 @@ Phase27 final evidence boundaries: all35 functional groups PASS556.78s, but fres
 
 - All five complete cycles pass: Task1 37groups/659.17s, Task2 38/1063.34s, Task3 38/1655.1s, Task4 38/1694.91s, Task5 fresh attempt2 39/672.82s. Every cycle executes258 browser and66 accessibility cases with0 rebuilt axe violations. No skip/resume or fourth performance lab. Task2 preliminary stop and Task5 failed scope-target attempt are not counted as complete passes.
 - Fresh reference overflow counts are4,2,4,3,4 respectively, with24 reference contrast groups each cycle. These variable observations do not resolve the historical five overflow cases or reference contrast inventory. Historical reports and blockers remain untouched. Native hosting/cache/ACL/CSP/MIME/contact/backup/source/privacy/business/certificate and held-route gates remain owner responsibilities, with no go-live certification.
+
+## Phase31b verification carry-forward (2026-10-29)
+
+This appended record summarizes local Phase31 evidence only. It does not close, replace or waive any earlier owner, native-hosting, privacy/access, contact-delivery, backup/rollback, business/source, certificate or held-route blocker recorded above.
+
+- Fresh blank-space scan is complete at 516/516 cases for 43 routes, 360/768/1280px, JavaScript on/off and normal/reduced motion. It reports 1,006 pixel quiet-band candidates, four retained Contact `#miniHero` tails, 16 intentional scroll-cue dismissals, zero hidden page-copy failures and zero non-decorative empty wrappers. Quiet-band candidates are not confirmed removable space.
+- The pre-fix `#team` tail measures sum to 680px across distinct responsive breakpoints. The observed full-document height reduction is 505px across Home at 360px and About at 360px/768px. These metrics are not interchangeable. Contact `#miniHero` remains intentionally unchanged, with 138px at 360px and 233px at 768px retained for its existing bottom scroll cue.
+- Task4's only A/B run remains a local simulation: 112 samples, `performance_release_certified=false`, and only `/contact` and `/study-abroad-counselling-mysuru` met every local budget. The other six routes retain their route-specific findings in `reports/phase-31-task4-ab-summary.md` and are carried into Phase32. Do not rerun the benchmark or present its numbers as live or field-speed evidence.
+- Phase31b did not build a ZIP, by design. Phase32 must create a package from the then-current branch and verify completeness and hashes before proceeding. No deployment, merge or owner acceptance is implied.

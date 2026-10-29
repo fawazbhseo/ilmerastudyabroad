@@ -1,5 +1,15 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase 31: visual spacing, static hero stills and verification (2026-10-29)
+
+Phase31 production changes were limited to the authorized responsive `#team` min-height adjustments on Home and About and a static, decorative hero still on destination, place, article and blog-index templates. The Home and About adjustments changed no content, links, images, FAQs, schema, canonicals, statuses, team-card text or padding. The Contact `#miniHero` first-fold space remains intentionally unchanged. The two existing still assets are reused: 1440px (37,226 bytes) and 720px (24,574 bytes). No other public-site source changed in Phase31b verification.
+
+- Fresh Phase31b blank-space scan: 516 of 516 cases across 43 routes, widths 360/768/1280, JavaScript on/off and normal/reduced motion, with 120/160/200px thresholds. The audit records 1,006 pixel quiet-band candidates, four retained Contact tails, 16 intentional cue dismissals, zero hidden page-copy failures and zero non-decorative empty wrappers. Pixel candidates are screening results, not approved savings.
+- The contact sheet links 32 full-page before/after PNGs at 360px and 1280px for Home, Services, About, Contact, Germany, Mysuru, one article and the blog index. The observed full-document height reduction is 505px across the affected Home/About responsive widths. The 680px total is the pre-fix `#team` section-tail measurement, not the whole-document height change. See `reports/phase-31-contact-sheet.md`.
+- The fresh Task5 suite passed 31 of 31 groups; PHP-WASM lint covered 98 files. The 43-route Phase30 comparison passed protected text, metadata, headings, FAQs, links, image attributes, JSON-LD, canonicals, robots, statuses and exact 38-entry sitemap checks. The 306-case browser matrix reported no hidden rendered text or horizontal overflow and all 732 image instances loaded. Target comparison found no width/height regression over 0.5px from the Phase31 baseline. Axe A/AA remained baseline-relative with 36 existing violation nodes and no added/removed identities; this is not a zero-violation certification.
+- Task4 was one local simulated A/B session of 112 samples. Only two of eight routes met every fixed local budget, and `performance_release_certified` remains false. The six route findings are carried to Phase32; these are not live or field-speed results, and the benchmark is not rerun here.
+- No ZIP was built in Phase31b by design. Phase32 owns the final current-branch ZIP and its completeness/hash verification. No merge or deployment occurred.
+
 ## Phase 14: source verification and gated publication, 2026-10-16
 
 Twelve tasks, one commit per task, on arena/48320ee5-ilmerastudyabroad.
