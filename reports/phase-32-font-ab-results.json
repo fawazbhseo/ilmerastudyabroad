@@ -1,0 +1,4381 @@
+{
+  "phase": 32,
+  "task": "font diagnostic experiment",
+  "status": "COMPLETE",
+  "source": "Current Phase32 source at test time; each B document differs only by font-display:block to swap and removal of the p25 font-pending visibility gate.",
+  "environment": {
+    "local_only": true,
+    "base": "http://127.0.0.1:8080",
+    "browser": "Chromium 143 via @sparticuz/chromium",
+    "playwright": "1.58.2",
+    "lighthouse": "12.8.2",
+    "model": "Lighthouse mobile simulated Slow4G and 4x CPU"
+  },
+  "protocol": {
+    "routes": [
+      "/study-abroad-counselling-mysuru",
+      "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "/blog/"
+    ],
+    "samples_per_arm_per_route": 7,
+    "fresh_browser_process_per_sample": true,
+    "serial": true,
+    "order": "round 0 A then B, round 1 B then A, alternating through round 6",
+    "retries": 0,
+    "storage_reset": true,
+    "metrics": [
+      "LCP",
+      "CLS",
+      "TBT",
+      "total transfer bytes",
+      "request count",
+      "LCP element",
+      "font requests",
+      "font readiness/gate events"
+    ]
+  },
+  "candidate_transform": {
+    "replacements": {
+      "font_display_block_to_swap": 7,
+      "font_visibility_gate_removed": 1
+    },
+    "before_sha256": "74f0334233d06e9a2f43113e7dd4af8993c15d51e9203c3e1f930108d662a98d",
+    "after_sha256": "c221fb2d1634f452fc06653ba120bf21d863f0961d866789211ac65130875c19",
+    "changed_bytes": -53
+  },
+  "rows": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "A": [
+        {
+          "round": 0,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:08:45.188Z",
+          "completed_at": "2026-10-29T11:08:50.994Z",
+          "lcp_ms": 2356.063636389446,
+          "cls": 0,
+          "tbt_ms": 65.12393180527715,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 151,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 232,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 72.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 92,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:00.827Z",
+          "completed_at": "2026-10-29T11:09:05.622Z",
+          "lcp_ms": 1727.5274489248804,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 105,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 176,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 94.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:05.680Z",
+          "completed_at": "2026-10-29T11:09:10.554Z",
+          "lcp_ms": 1726.7279489249627,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 155.19999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 252,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 89.5999999998603,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 120,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:20.356Z",
+          "completed_at": "2026-10-29T11:09:25.164Z",
+          "lcp_ms": 1726.814372312087,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 119.19999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 188,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 85.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 112,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:25.212Z",
+          "completed_at": "2026-10-29T11:09:29.998Z",
+          "lcp_ms": 2355.752136389502,
+          "cls": 0,
+          "tbt_ms": 1.4454318052489725,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 114.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 184,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 84.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:39.755Z",
+          "completed_at": "2026-10-29T11:09:44.589Z",
+          "lcp_ms": 1727.174948924804,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 133.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 216,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 89,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:44.662Z",
+          "completed_at": "2026-10-29T11:09:49.464Z",
+          "lcp_ms": 1727.2624489250718,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246483,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 130.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 232,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 82,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "B": [
+        {
+          "round": 0,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:08:51.066Z",
+          "completed_at": "2026-10-29T11:08:55.920Z",
+          "lcp_ms": 1651.6980284379836,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 137.19999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 196,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 96.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 116,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:08:55.975Z",
+          "completed_at": "2026-10-29T11:09:00.788Z",
+          "lcp_ms": 2355.840568194678,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 113.89999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 168,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 88.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 96,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:10.596Z",
+          "completed_at": "2026-10-29T11:09:15.401Z",
+          "lcp_ms": 2356.6781363893956,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 134.19999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 188,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 92.69999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:15.478Z",
+          "completed_at": "2026-10-29T11:09:20.286Z",
+          "lcp_ms": 2355.8691363893977,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 136.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 200,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 92.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 64,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:30.049Z",
+          "completed_at": "2026-10-29T11:09:34.863Z",
+          "lcp_ms": 1726.5219744624596,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 137.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 204,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 88.10000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 88,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:34.915Z",
+          "completed_at": "2026-10-29T11:09:39.699Z",
+          "lcp_ms": 1726.842948924901,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 137.89999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 192,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 78.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 108,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:49.504Z",
+          "completed_at": "2026-10-29T11:09:54.353Z",
+          "lcp_ms": 2355.7881363893775,
+          "cls": 0,
+          "tbt_ms": 42,
+          "transfer_bytes": 246416,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 141,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 196,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 77.79999999981374,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 84,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "summary": {
+        "A": {
+          "lcp_ms": {
+            "median": 1727.2624489250718,
+            "q1": 1726.9946606184456,
+            "q3": 2041.6397926571913,
+            "iqr": 314.6451320387457
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0.7227159026244863,
+            "iqr": 0.7227159026244863
+          },
+          "transfer_bytes": {
+            "median": 246483,
+            "q1": 246483,
+            "q3": 246483,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "median": 2355.7881363893775,
+            "q1": 1726.6824616936804,
+            "q3": 2355.854852292038,
+            "iqr": 629.1723905983574
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "transfer_bytes": {
+            "median": 246416,
+            "q1": 246416,
+            "q3": 246416,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        }
+      },
+      "lcp_ratio_b_over_a": 1.363885458087424,
+      "cls_delta": 0,
+      "decision": "KEEP_BASELINE"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "A": [
+        {
+          "round": 0,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:54.430Z",
+          "completed_at": "2026-10-29T11:09:59.231Z",
+          "lcp_ms": 1651.8900284381918,
+          "cls": 0,
+          "tbt_ms": 76,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 135.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 216,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 94.79999999981374,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:09.130Z",
+          "completed_at": "2026-10-29T11:10:14.003Z",
+          "lcp_ms": 1727.4469489248233,
+          "cls": 0,
+          "tbt_ms": 15.122431805300494,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 128.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 204,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 85.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:14.081Z",
+          "completed_at": "2026-10-29T11:10:18.834Z",
+          "lcp_ms": 1727.3144489249282,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 122.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 200,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 84.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 108,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:28.541Z",
+          "completed_at": "2026-10-29T11:10:33.320Z",
+          "lcp_ms": 1726.9954489248726,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 136.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 212,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 83,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 100,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:33.390Z",
+          "completed_at": "2026-10-29T11:10:38.160Z",
+          "lcp_ms": 1726.9449744624308,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 155.19999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 224,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 84.69999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:47.838Z",
+          "completed_at": "2026-10-29T11:10:52.541Z",
+          "lcp_ms": 1727.066948924999,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 127.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 196,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 84.60000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 108,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:52.618Z",
+          "completed_at": "2026-10-29T11:10:57.329Z",
+          "lcp_ms": 2355.798136389496,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254399,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 101.60000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 176,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 88.4000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "B": [
+        {
+          "round": 0,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:09:59.308Z",
+          "completed_at": "2026-10-29T11:10:04.070Z",
+          "lcp_ms": 1726.5234744625664,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 122,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 188,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 85.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 80,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:04.147Z",
+          "completed_at": "2026-10-29T11:10:09.086Z",
+          "lcp_ms": 1726.6174489249033,
+          "cls": 0,
+          "tbt_ms": 33.47943180528341,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 130.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 192,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 114.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:18.919Z",
+          "completed_at": "2026-10-29T11:10:23.642Z",
+          "lcp_ms": 1727.0759744625973,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 129.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 196,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 92.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 92,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:23.715Z",
+          "completed_at": "2026-10-29T11:10:28.487Z",
+          "lcp_ms": 1727.0464744624478,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 140.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 204,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 90.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:38.228Z",
+          "completed_at": "2026-10-29T11:10:42.968Z",
+          "lcp_ms": 1726.8204744626732,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 125.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 184,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 76,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 92,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:43.019Z",
+          "completed_at": "2026-10-29T11:10:47.771Z",
+          "lcp_ms": 1726.6064489247851,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 136.89999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 200,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 76.5999999998603,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 84,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:10:57.405Z",
+          "completed_at": "2026-10-29T11:11:02.097Z",
+          "lcp_ms": 1726.4859744624655,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 254332,
+          "requests": 7,
+          "lcp_element": "<p class=\"direct-answer\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 119.69999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 180,
+              "tag": "P",
+              "className": "direct-answer"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 100.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 100,
+              "tag": "P",
+              "className": "direct-answer"
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "summary": {
+        "A": {
+          "lcp_ms": {
+            "median": 1727.066948924999,
+            "q1": 1726.9702116936517,
+            "q3": 1727.3806989248758,
+            "iqr": 0.4104872312241241
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 7.561215902650247,
+            "iqr": 7.561215902650247
+          },
+          "transfer_bytes": {
+            "median": 254399,
+            "q1": 254399,
+            "q3": 254399,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "median": 1726.6174489249033,
+            "q1": 1726.5649616936757,
+            "q3": 1726.9334744625605,
+            "iqr": 0.36851276888478424
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "transfer_bytes": {
+            "median": 254332,
+            "q1": 254332,
+            "q3": 254332,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        }
+      },
+      "lcp_ratio_b_over_a": 0.9997397321508726,
+      "cls_delta": 0,
+      "decision": "ADOPT_CANDIDATE"
+    },
+    {
+      "route": "/blog/",
+      "A": [
+        {
+          "round": 0,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:02.165Z",
+          "completed_at": "2026-10-29T11:11:06.871Z",
+          "lcp_ms": 1727.299974462389,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 87.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 220,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 88.29999999981374,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:16.683Z",
+          "completed_at": "2026-10-29T11:11:21.418Z",
+          "lcp_ms": 1726.8554489245312,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 123,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 248,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 81,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:21.488Z",
+          "completed_at": "2026-10-29T11:11:26.281Z",
+          "lcp_ms": 1727.1024489250372,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 126.10000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 256,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 82.5,
+              "faces": [
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:36.187Z",
+          "completed_at": "2026-10-29T11:11:41.025Z",
+          "lcp_ms": 1726.6309489251403,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 116.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 244,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 82.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 100,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:41.102Z",
+          "completed_at": "2026-10-29T11:11:45.906Z",
+          "lcp_ms": 1652.8980568762604,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 123.60000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 248,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 79.29999999981374,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "A",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:55.815Z",
+          "completed_at": "2026-10-29T11:12:00.659Z",
+          "lcp_ms": 1727.4529489250444,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 110.4000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 240,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 84.79999999981374,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "A",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:12:00.712Z",
+          "completed_at": "2026-10-29T11:12:05.580Z",
+          "lcp_ms": 1727.1554744624061,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245794,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 138.30000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 300,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 99.89999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "B": [
+        {
+          "round": 0,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:06.941Z",
+          "completed_at": "2026-10-29T11:11:11.701Z",
+          "lcp_ms": 2355.772568194727,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 126.69999999995343,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 216,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 75.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 88,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 1,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:11.770Z",
+          "completed_at": "2026-10-29T11:11:16.614Z",
+          "lcp_ms": 1728.0089744622492,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 156.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 268,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 89.80000000004657,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 96,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 2,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:26.353Z",
+          "completed_at": "2026-10-29T11:11:31.170Z",
+          "lcp_ms": 2355.777136389531,
+          "cls": 0,
+          "tbt_ms": 30,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 132.89999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 236,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 86,
+              "faces": [
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 100,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 3,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:31.248Z",
+          "completed_at": "2026-10-29T11:11:36.113Z",
+          "lcp_ms": 2355.9025681947455,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 123.39999999990687,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 216,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 110.20000000018626,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 116,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 4,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:45.985Z",
+          "completed_at": "2026-10-29T11:11:50.772Z",
+          "lcp_ms": 2355.771704584262,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 127,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 220,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 80.5999999998603,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 96,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 5,
+          "arm": "B",
+          "order": "B/A",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:11:50.835Z",
+          "completed_at": "2026-10-29T11:11:55.732Z",
+          "lcp_ms": 1726.891948924911,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 113.10000000009313,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 240,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 96.9000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 104,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        },
+        {
+          "round": 6,
+          "arm": "B",
+          "order": "A/B",
+          "status": "PASS",
+          "started_at": "2026-10-29T11:12:05.635Z",
+          "completed_at": "2026-10-29T11:12:10.481Z",
+          "lcp_ms": 1727.4395147875325,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 245727,
+          "requests": 7,
+          "lcp_element": "<p class=\"sub\">",
+          "font_network": [
+            {
+              "url": "/assets/fonts/outfit-reference-300.woff2",
+              "bytes": 14133
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+              "bytes": 22569
+            },
+            {
+              "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+              "bytes": 23085
+            },
+            {
+              "url": "/assets/fonts/outfit-reference-500.woff2",
+              "bytes": 13705
+            }
+          ],
+          "render_blocking": [],
+          "observed_events": [
+            {
+              "kind": "fonts-loaded",
+              "time": 118.5,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 240,
+              "tag": "P",
+              "className": "sub"
+            },
+            {
+              "kind": "fonts-loaded",
+              "time": 90.4000000001397,
+              "faces": [
+                {
+                  "family": "Outfit",
+                  "weight": "300",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "700",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Cormorant Garamond",
+                  "weight": "400",
+                  "status": "loaded"
+                },
+                {
+                  "family": "Outfit",
+                  "weight": "500",
+                  "status": "loaded"
+                }
+              ]
+            },
+            {
+              "kind": "lcp",
+              "time": 104,
+              "tag": "P",
+              "className": "sub"
+            }
+          ],
+          "warnings": []
+        }
+      ],
+      "summary": {
+        "A": {
+          "lcp_ms": {
+            "median": 1727.1024489250372,
+            "q1": 1726.7431989248357,
+            "q3": 1727.2277244623974,
+            "iqr": 0.48452553756169436
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "transfer_bytes": {
+            "median": 245794,
+            "q1": 245794,
+            "q3": 245794,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "median": 2355.771704584262,
+            "q1": 1727.7242446248908,
+            "q3": 2355.774852292129,
+            "iqr": 628.050607667238
+          },
+          "cls": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "tbt_ms": {
+            "median": 0,
+            "q1": 0,
+            "q3": 0,
+            "iqr": 0
+          },
+          "transfer_bytes": {
+            "median": 245727,
+            "q1": 245727,
+            "q3": 245727,
+            "iqr": 0
+          },
+          "requests": {
+            "median": 7,
+            "q1": 7,
+            "q3": 7,
+            "iqr": 0
+          }
+        }
+      },
+      "lcp_ratio_b_over_a": 1.3640022953186788,
+      "cls_delta": 0,
+      "decision": "KEEP_BASELINE"
+    }
+  ],
+  "finished_at": "2026-10-29T11:12:10.560Z",
+  "conclusion": "Candidate did not improve median LCP without a worse median CLS in every route. Keep the existing font-display, preloads, gate and CSS unchanged.",
+  "totals": {
+    "samples": 42,
+    "routes": 3,
+    "candidate_adoption_eligible_all_routes": false
+  }
+}
