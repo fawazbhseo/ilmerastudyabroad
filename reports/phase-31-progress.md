@@ -174,3 +174,9 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - Appended a Phase31b carry-forward record to the end of `flagged-items-for-verification.md`. Earlier owner, native-hosting, privacy/access, contact, rollback, source/business, certificate and held-route blockers were not rewritten, removed or waived.
 - Both files retained their existing LF line endings. No em dash was introduced. No public site source changed.
 - Next: create the Phase31 release-check report with pass/fail evidence, hero-still file sizes, local A/B figures, ZIP disposition and a complete path inventory since `75f355f`.
+
+## 2026-10-29 checkpoint 24: Phase31 release-check report prepared
+
+- Created `reports/phase-31-release-check.md` with pass/fail-by-check results, all 31 Task5 group statuses, the 43-route content/source-scope outcome, the baseline-relative axe result, exact target-geometry preservation, the fresh blank-space findings, the hero-still hashes/sizes, the Task4 local A/B route table and the 32-image contact-sheet result.
+- The report explicitly carries the six local A/B route-budget failures to Phase32, states that the local run is simulated and not live speed evidence, and records that no ZIP was built here by design. It distinguishes the observed 505px whole-document height change from the 680px pre-fix section-tail measurement.
+- Added the complete path/status inventory from `75f355f` through the report commit, including the report itself. The inventory equality check passes at 5,198 paths: 5,192 added and six modified. The staged whitespace check is clean. Commit and push of this completed release-check checkpoint are the remaining actions.
