@@ -116,3 +116,10 @@ Append-only status for the active Phase31 work. No historical Phase30 or Phase26
 - Two of eight routes meet every fixed local budget: `/contact` and `/study-abroad-counselling-mysuru`. `/` and `/about` fail the CLS comparison; `/services` fails both TBT delta and CLS; Germany, the selected blog article and `/blog/` fail the 1.10 median-LCP ratio. Added transfer is 25,541 bytes on each treatment route and zero on controls, below the 150,000-byte cap; no new render-blocking URLs were observed.
 - Each treatment B route requested its still in all seven samples; A had none. These request and Lighthouse values come only from the local fixture with intercepted/local mirrored resources. The runner explicitly leaves `performance_release_certified` false. No live-speed, field, deployment or merge claim follows from this session.
 - Task4 is complete and pushed on this branch. Tasks5-7 remain active; no production source, historical benchmark, release status or deployment state was changed here.
+
+## 2026-10-29 checkpoint 16: Phase31b verification resumed
+
+- Fetched the session branch and confirmed the checkout matched `origin/arena/48320ee5-ilmerastudyabroad` at `27c40a3` before this checkpoint. No branch was created or switched.
+- Read the Phase31 and Phase32 progress logs, the Task1 blank-space audit, the Task2 post-fix audit, Task2/Task3 checks, Task4 A/B summary, flagged-items document and recent git history. The Task2 post-fix audit and checkpoints 5-8 in this log are the available fix record; no separately named Phase31 fix-log file was found. Phase31 release-check and contact-sheet reports have not yet been created.
+- Phase31b scope is verification and reporting only. No public site file was changed. The prior Task1-4 results remain preserved and will not be redone except where this request explicitly requires a fresh verification or scan.
+- The previously pinned external runtime path `/home/user/phase31/runtime` is not present in this workspace. No Phase31b browser, lint or render check has been rerun yet. Runtime restoration and the requested verification are pending.
