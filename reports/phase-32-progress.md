@@ -40,3 +40,9 @@
 - Verified the public runtime files at the working tree still match Phase31 final commit `796879d`; the intervening commits change only progress documentation.
 - Captured all 43 rendered routes at HTTP 200 and the exact 38-entry sitemap from the isolated PHP-WASM adapter before Phase32 source edits. Stored the compressed render baseline, route hashes/index and sitemap in `reports/phase-32-before-renders.json.gz`, `reports/phase-32-before-render-index.json` and `reports/phase-32-before-sitemap.xml`.
 - The render archive is 894,404 bytes. It is an immutable local pre-Phase32 comparison baseline, not live-host evidence.
+
+
+## 2026-10-29 checkpoint 6: smaller mobile still encoded
+
+- Re-encoded the approved mobile still as 640x800 WebP at quality 64. The result is 9,738 bytes, below the 14,000-byte limit. The existing desktop WebP is 1440x900 and 37,226 bytes, below the 40,000-byte limit; it is reused unchanged.
+- Committed the reproducible encoder, mobile asset and hash/size record. Visual review under the dark overlay at 360px, 768px and 1280px remains pending and must pass before enabling the loader.

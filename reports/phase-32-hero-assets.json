@@ -1,0 +1,32 @@
+{
+  "phase": 32,
+  "method": "sharp WebP quality 64, effort 6, smart subsampling; resized from the approved 720x900 mobile source to matching 640x800 aspect ratio",
+  "mobile": {
+    "path": "assets/images/hero-still-640.webp",
+    "width": 640,
+    "height": 800,
+    "bytes": 9738,
+    "sha256": "9260aaca7df1445f73e56e21534f9a98a08774e0c085ba882ed5c92206c1c83e",
+    "limit_bytes": 14000,
+    "size_gate": "PASS"
+  },
+  "desktop": {
+    "path": "assets/images/hero-still-1440.webp",
+    "width": 1440,
+    "height": 900,
+    "bytes": 37226,
+    "sha256": "a016716e75f3eb508e0205c2674fa0fcb57143177fed0d4a05d3b3c7a01d5260",
+    "limit_bytes": 40000,
+    "reused_without_reencoding": true,
+    "size_gate": "PASS"
+  },
+  "visual_review": {
+    "viewports": [
+      360,
+      768,
+      1280
+    ],
+    "under_dark_overlay": "PENDING browser render review"
+  },
+  "no_new_wording_or_visual_artwork": true
+}
