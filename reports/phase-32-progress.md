@@ -97,3 +97,8 @@
 
 - The frozen runner passed its no-navigation preflight with Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2 from `/home/user/phase32-runtime`. This did not navigate a page and contributed zero A/B samples. Both temporary PHP-WASM adapter processes have been stopped after freezing their output. The fixture file and 11-route manifest hashes remain unchanged.
 - No A/B Lighthouse sample has run yet. Before starting the fixed serial lab, the local fixture host must be prepared on loopback with the frozen route fixture and the runner's output path must not already exist.
+
+## 2026-10-29 checkpoint 14: start the frozen 154-sample A/B session
+
+- Starting one serial run of seven alternating rounds for each of the 11 frozen routes, with a fresh Chromium process for each arm sample. Output is isolated at `/home/user/phase32-runtime/phase32-ab/ab-results.json`; the runner refuses to overwrite an existing file, retry a failed sample or resume a partial session. The fixture server uses loopback only. No browser audit or other QA will run concurrently with this capture.
+- The run uses the already committed fixture SHA and current local font/CDN mirrors. Its result is not known until the runner completes; do not infer a pass from the preflight or the prior resource audit.
