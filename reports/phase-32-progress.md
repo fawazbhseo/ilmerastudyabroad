@@ -33,3 +33,10 @@
 - Installed the pinned browser, Lighthouse, PHP-WASM, image, font and test packages under `/home/user/phase32-runtime`, outside the repository. No production dependency or runtime package was added to the site.
 - Runtime is Node `v22.22.3` / npm `10.9.8`; PHP-WASM packages printed engine-range warnings requesting Node 24 and npm 11, as in earlier phase evidence. Execution compatibility has not yet been validated in this runtime.
 - This setup checkpoint changes no site behavior and does not replace or repeat Phase31 measurements.
+
+
+## 2026-10-29 checkpoint 5: pre-Phase32 route baseline frozen
+
+- Verified the public runtime files at the working tree still match Phase31 final commit `796879d`; the intervening commits change only progress documentation.
+- Captured all 43 rendered routes at HTTP 200 and the exact 38-entry sitemap from the isolated PHP-WASM adapter before Phase32 source edits. Stored the compressed render baseline, route hashes/index and sitemap in `reports/phase-32-before-renders.json.gz`, `reports/phase-32-before-render-index.json` and `reports/phase-32-before-sitemap.xml`.
+- The render archive is 894,404 bytes. It is an immutable local pre-Phase32 comparison baseline, not live-host evidence.
