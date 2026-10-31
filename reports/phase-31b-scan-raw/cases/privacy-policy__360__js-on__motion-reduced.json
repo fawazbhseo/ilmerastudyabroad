@@ -1,0 +1,231 @@
+{
+  "id": "privacy-policy__360__js-on__motion-reduced",
+  "route": "/privacy-policy",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/privacy-policy",
+  "http_status": 200,
+  "page_height": 7385,
+  "scroll": {
+    "height": 7385,
+    "scroll_samples": 13,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7385,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5251
+    },
+    "visible_text_chars": 4763,
+    "visible_text_nodes": 46,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA privacy policy"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 366,
+        "text": "ILMERA privacy policy: Read how enquiry information is colle"
+      },
+      {
+        "selector": "p.sub",
+        "y": 471,
+        "text": "How ILMERA Study Abroad collects, uses and protects the info"
+      },
+      {
+        "selector": "span.legal-updated",
+        "y": 556,
+        "text": "Last Updated: August 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 614,
+        "text": "1. Introduction"
+      },
+      {
+        "selector": "p",
+        "y": 670,
+        "text": "ILMERA Study Abroad (\"ILMERA,\" \"we,\" \"us,\" or \"our\") is an o"
+      },
+      {
+        "selector": "p",
+        "y": 972,
+        "text": "By using our website or submitting your details to us throug"
+      },
+      {
+        "selector": "h2",
+        "y": 1151,
+        "text": "2. Information We Collect"
+      },
+      {
+        "selector": "p",
+        "y": 1207,
+        "text": "We collect information that you voluntarily provide to us, i"
+      },
+      {
+        "selector": "li",
+        "y": 1278,
+        "text": "Your name, email address, and phone number when you submit o"
+      },
+      {
+        "selector": "li",
+        "y": 1373,
+        "text": "Details about your academic background, preferred study dest"
+      },
+      {
+        "selector": "li",
+        "y": 1524,
+        "text": "Any documents you choose to share with us during the admissi"
+      },
+      {
+        "selector": "li",
+        "y": 1648,
+        "text": "Basic technical information collected automatically by our w"
+      },
+      {
+        "selector": "p",
+        "y": 1806,
+        "text": "We do not knowingly collect information from children under "
+      },
+      {
+        "selector": "h2",
+        "y": 1927,
+        "text": "3. How We Use Your Information"
+      },
+      {
+        "selector": "p",
+        "y": 2022,
+        "text": "We use the information you provide to:"
+      },
+      {
+        "selector": "li",
+        "y": 2065,
+        "text": "Respond to your enquiry and provide study abroad consultatio"
+      },
+      {
+        "selector": "li",
+        "y": 2130,
+        "text": "Assess your academic profile and match you with suitable uni"
+      },
+      {
+        "selector": "li",
+        "y": 2225,
+        "text": "Assist with university applications, scholarship application"
+      },
+      {
+        "selector": "li",
+        "y": 2348,
+        "text": "Communicate with you by phone, WhatsApp, email, or video cal"
+      },
+      {
+        "selector": "li",
+        "y": 2442,
+        "text": "Maintain records required for our consultancy services."
+      },
+      {
+        "selector": "p",
+        "y": 2514,
+        "text": "We do not sell your personal information to third parties."
+      },
+      {
+        "selector": "h2",
+        "y": 2607,
+        "text": "4. Sharing of Information"
+      },
+      {
+        "selector": "p",
+        "y": 2663,
+        "text": "We may share your information with universities, scholarship"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7385,
+    "scan_width": 360,
+    "scan_height": 7385,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5181,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/privacy-policy__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5091,
+            "text": "Email:"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5181,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/privacy-policy__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5091,
+            "text": "Email:"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6518d875570c0c48897a6c8c1e4ebb0d79725cccc0980ca983da4dde91cc2b8f"
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "id": "study-in-uk__1280__js-off__motion-reduced",
+  "route": "/study-in-uk",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-uk",
+  "http_status": 200,
+  "page_height": 6181,
+  "scroll": {
+    "height": 6181,
+    "scroll_samples": 11,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6181,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5045
+    },
+    "visible_text_chars": 5416,
+    "visible_text_nodes": 81,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in UK from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in UK from India starts with programme-specific planni"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in UK from Indi"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 636,
+        "text": "Most UK Student visa applicants need funding for the course "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 704,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 775,
+        "text": "Discuss study in UK from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 936,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1003,
+        "text": "Rules can change; ILMERA advises students to confirm current"
+      },
+      {
+        "selector": "h2",
+        "y": 1105,
+        "text": "Who it is for"
+      },
+      {
+        "selector": "li",
+        "y": 1172,
+        "text": "The Student visa route is for applicants aged 16 or over wit"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1240,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1318,
+        "text": "English requirements"
+      },
+      {
+        "selector": "li",
+        "y": 1385,
+        "text": "Applicants usually need to prove their English ability. GOV."
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1481,
+        "text": "[3]"
+      },
+      {
+        "selector": "h2",
+        "y": 1559,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1626,
+        "text": "Where financial evidence is required, applicants need funds "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1694,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1738,
+        "text": "For most courses, GOV.UK sets living costs at 1,171 pounds f"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1806,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1884,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1951,
+        "text": "Money can be shown through a student loan from a government,"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2047,
+        "text": "[1]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 6181,
+    "scan_width": 512,
+    "scan_height": 2472,
+    "threshold": 200,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3958,
+        "height": 201,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00012,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 425,
+          "element_height": 3943,
+          "computed": {
+            "min_height": "0px",
+            "height": "3943.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3887,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4218,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3958,
+        "height": 201,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00012,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 425,
+          "element_height": 3943,
+          "computed": {
+            "min_height": "0px",
+            "height": "3943.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3887,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4218,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 2.5004045307443366
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "8a525f9f2407d8475d1847e1396f658ca8239d6f41190152d4f49193888d7de9"
+  }
+}

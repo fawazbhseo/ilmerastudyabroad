@@ -1,0 +1,255 @@
+{
+  "id": "study-abroad-counselling-virajpet__768__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-virajpet",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-virajpet",
+  "http_status": 200,
+  "page_height": 4661,
+  "scroll": {
+    "height": 4661,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4661,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3280
+    },
+    "visible_text_chars": 4134,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Virajpet"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Virajpet"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Virajpet: review the completed f"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What should a Virajpet student approve before submission?"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 520,
+        "text": "Before an application leaves the preparation stage, the appl"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 673,
+        "text": "Discuss how to review the completed form, not only the docum"
+      },
+      {
+        "selector": "h2",
+        "y": 755,
+        "text": "Review the completed form, not only the document folder"
+      },
+      {
+        "selector": "p",
+        "y": 816,
+        "text": "Ask to see the information prepared for submission and read "
+      },
+      {
+        "selector": "h2",
+        "y": 1090,
+        "text": "Confirm that each attachment has a purpose"
+      },
+      {
+        "selector": "p",
+        "y": 1151,
+        "text": "Match every requested item with the file that is meant to an"
+      },
+      {
+        "selector": "h2",
+        "y": 1395,
+        "text": "Keep evidence of the action actually taken"
+      },
+      {
+        "selector": "p",
+        "y": 1456,
+        "text": "After an authorised submission, retain the confirmation or r"
+      },
+      {
+        "selector": "p",
+        "y": 1711,
+        "text": "Counselling is online, and students from Virajpet do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1782,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1866,
+        "text": "What should a Virajpet student approve before submission?"
+      },
+      {
+        "selector": "p",
+        "y": 1916,
+        "text": "Review the completed form, explanations and intended attachm"
+      },
+      {
+        "selector": "summary",
+        "y": 1954,
+        "text": "Does a submission reference mean an application has been app"
+      },
+      {
+        "selector": "p",
+        "y": 2004,
+        "text": "No. Keep evidence of receipt separate from a decision, and t"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2125,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2186,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2247,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2355,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2424,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2478,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4661,
+    "scan_width": 512,
+    "scan_height": 3107,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2994,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-virajpet__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2754,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2973,
+            "text": "How can Virajpet students confirm that each attachment has a purpose?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3172,
+            "text": "Ask ILMERA how to confirm that each attachment has a purpose"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2994,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-virajpet__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2754,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2973,
+            "text": "How can Virajpet students confirm that each attachment has a purpose?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3172,
+            "text": "Ask ILMERA how to confirm that each attachment has a purpose"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5001609269391696
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "fa206580dee3264e138cc87373ed69b0a75f282b8331bd930b4a135d82cfcd94"
+  }
+}

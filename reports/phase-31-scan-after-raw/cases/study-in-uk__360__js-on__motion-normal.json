@@ -1,0 +1,631 @@
+{
+  "id": "study-in-uk__360__js-on__motion-normal",
+  "route": "/study-in-uk",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-uk",
+  "http_status": 200,
+  "page_height": 8623,
+  "scroll": {
+    "height": 8623,
+    "scroll_samples": 15,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 8623,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 6489
+    },
+    "visible_text_chars": 5416,
+    "visible_text_nodes": 81,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in UK from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 380,
+        "text": "Study in UK from India starts with programme-specific planni"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 518,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 518,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 586,
+        "text": "What should I check before planning to study in UK from Indi"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 712,
+        "text": "Most UK Student visa applicants need funding for the course "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 923,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 995,
+        "text": "Discuss study in UK from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 1155,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1216,
+        "text": "Rules can change; ILMERA advises students to confirm current"
+      },
+      {
+        "selector": "h2",
+        "y": 1374,
+        "text": "Who it is for"
+      },
+      {
+        "selector": "li",
+        "y": 1435,
+        "text": "The Student visa route is for applicants aged 16 or over wit"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1589,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1666,
+        "text": "English requirements"
+      },
+      {
+        "selector": "li",
+        "y": 1727,
+        "text": "Applicants usually need to prove their English ability. GOV."
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1939,
+        "text": "[3]"
+      },
+      {
+        "selector": "h2",
+        "y": 2016,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 2077,
+        "text": "Where financial evidence is required, applicants need funds "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2231,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 2275,
+        "text": "For most courses, GOV.UK sets living costs at 1,171 pounds f"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2458,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2534,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 2595,
+        "text": "Money can be shown through a student loan from a government,"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2807,
+        "text": "[1]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 8623,
+    "scan_width": 360,
+    "scan_height": 8623,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1031,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1079,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 995,
+            "text": "Discuss study in UK from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1216,
+            "text": "Rules can change; ILMERA advises students to confirm current rules at the time of applicat"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5306,
+        "height": 195,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00203,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 5439,
+          "computed": {
+            "min_height": "0px",
+            "height": "5438.73px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5232,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5592,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5774,
+        "height": 142,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5535,
+          "computed": {
+            "min_height": "0px",
+            "height": "5534.73px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5754,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 5988,
+            "text": "How should I assess a UK Master's against the Graduate visa dates?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6185,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 5863,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5988,
+            "text": "How should I assess a UK Master's against the Graduate visa dates?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6362,
+            "text": "Ask ILMERA about study in UK from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6417,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6362,
+            "text": "Ask ILMERA about study in UK from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8440,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-07.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6213,
+            "text": "ILMERA compares tuition fees and living expenses to help students choose study destination"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1031,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1079,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 995,
+            "text": "Discuss study in UK from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1216,
+            "text": "Rules can change; ILMERA advises students to confirm current rules at the time of applicat"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5306,
+        "height": 195,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00203,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 5439,
+          "computed": {
+            "min_height": "0px",
+            "height": "5438.73px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5232,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5592,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5774,
+        "height": 142,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5535,
+          "computed": {
+            "min_height": "0px",
+            "height": "5534.73px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5754,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 5988,
+            "text": "How should I assess a UK Master's against the Graduate visa dates?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6185,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 5863,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5988,
+            "text": "How should I assess a UK Master's against the Graduate visa dates?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6362,
+            "text": "Ask ILMERA about study in UK from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6417,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6362,
+            "text": "Ask ILMERA about study in UK from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8440,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-uk__360__js-on__motion-normal-gap-07.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6213,
+            "text": "ILMERA compares tuition fees and living expenses to help students choose study destination"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "334a5d27f8ccc32bcde1e2457c1ed5eaa668e3f61241125fff1040a5a137e662"
+  }
+}

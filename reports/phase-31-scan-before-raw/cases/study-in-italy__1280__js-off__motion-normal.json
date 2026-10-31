@@ -1,0 +1,176 @@
+{
+  "id": "study-in-italy__1280__js-off__motion-normal",
+  "route": "/study-in-italy",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-italy",
+  "http_status": 200,
+  "page_height": 5751,
+  "scroll": {
+    "height": 5751,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5751,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4615
+    },
+    "visible_text_chars": 4069,
+    "visible_text_nodes": 74,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Italy from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in Italy from India starts with programme-specific pla"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in Italy from I"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 636,
+        "text": "Indian students who want to study in Italy first apply for a"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 704,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 775,
+        "text": "Discuss study in Italy from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 936,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1003,
+        "text": "ILMERA helps identify scholarships, government grants, and s"
+      },
+      {
+        "selector": "h2",
+        "y": 1134,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1201,
+        "text": "The Bengaluru consulate states that each institution has its"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1240,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1318,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1385,
+        "text": "The consulate lists three mandatory steps: apply for admissi"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1453,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1496,
+        "text": "A D visa is needed if the course lasts more than 90 days, an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1535,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1579,
+        "text": "Visa applications are submitted only by prior appointment at"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1618,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1668,
+        "text": "All students must attend a mandatory video interview when th"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1672,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1716,
+        "text": "Under Italian law, processing of a D visa application can ta"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1784,
+        "text": "[1]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5751,
+    "scan_width": 512,
+    "scan_height": 2300,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5004347826086954
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "1c17eb78493c0f6df97595b4fab8aee2e81fb59e69f2be3f36dde82a497ca8e6"
+  }
+}

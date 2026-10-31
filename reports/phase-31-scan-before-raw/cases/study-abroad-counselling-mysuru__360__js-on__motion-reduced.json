@@ -1,0 +1,518 @@
+{
+  "id": "study-abroad-counselling-mysuru__360__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-mysuru",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-mysuru",
+  "http_status": 200,
+  "page_height": 6860,
+  "scroll": {
+    "height": 6860,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6860,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4726
+    },
+    "visible_text_chars": 4188,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Mysuru"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Mysuru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 428,
+        "text": "Study abroad consultancy in Mysuru: read the record as the r"
+      },
+      {
+        "selector": "h2",
+        "y": 529,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 655,
+        "text": "Small differences between academic records can become import"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 923,
+        "text": "Discuss how to read the record as the recipient will see it "
+      },
+      {
+        "selector": "h2",
+        "y": 1025,
+        "text": "Read the record as the recipient will see it"
+      },
+      {
+        "selector": "p",
+        "y": 1122,
+        "text": "Create an inventory of the academic documents relevant to th"
+      },
+      {
+        "selector": "h2",
+        "y": 1655,
+        "text": "Establish the requested form before ordering copies"
+      },
+      {
+        "selector": "p",
+        "y": 1788,
+        "text": "Find out whether the recipient wants an uploaded copy, a cer"
+      },
+      {
+        "selector": "h2",
+        "y": 2349,
+        "text": "Close discrepancies before the final upload"
+      },
+      {
+        "selector": "p",
+        "y": 2446,
+        "text": "Review whether each flagged difference has been corrected or"
+      },
+      {
+        "selector": "p",
+        "y": 2988,
+        "text": "Counselling is online, and students from Mysuru do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 3089,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3203,
+        "text": "What should a Mysuru applicant do about different name spell"
+      },
+      {
+        "selector": "p",
+        "y": 3299,
+        "text": "Preserve the records and ask the appropriate issuer or recip"
+      },
+      {
+        "selector": "summary",
+        "y": 3331,
+        "text": "Should transcripts be ordered before checking the required f"
+      },
+      {
+        "selector": "p",
+        "y": 3428,
+        "text": "Check the recipient's instructions first. An upload, certifi"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3549,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3646,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3735,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3844,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3912,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 3976,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6860,
+    "scan_width": 360,
+    "scan_height": 6860,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 305,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.375px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Mysuru"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 529,
+            "text": "What should a Mysuru applicant do about different name spellings?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3400,
+        "height": 158,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3473,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3203,
+            "text": "What should a Mysuru applicant do about different name spellings?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3646,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3996,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 3704,
+          "computed": {
+            "min_height": "0px",
+            "height": "3704.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3912,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4206,
+            "text": "How can Mysuru students read the record as the recipient will see it?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4406,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4081,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4206,
+            "text": "How can Mysuru students read the record as the recipient will see it?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4580,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4654,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4580,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 305,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 376,
+          "computed": {
+            "min_height": "0px",
+            "height": "376.375px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Mysuru"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 529,
+            "text": "What should a Mysuru applicant do about different name spellings?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3400,
+        "height": 158,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3473,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3203,
+            "text": "What should a Mysuru applicant do about different name spellings?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3646,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3996,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 376,
+          "element_height": 3704,
+          "computed": {
+            "min_height": "0px",
+            "height": "3704.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3912,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4206,
+            "text": "How can Mysuru students read the record as the recipient will see it?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4406,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4081,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4206,
+            "text": "How can Mysuru students read the record as the recipient will see it?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4580,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4654,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-mysuru__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4580,
+            "text": "Ask ILMERA how to establish the requested form before ordering copies"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "229c648a4509cbdc28dd9ab82903a9d2fbd477b9ba015e5977df0a0f8b6f8d53"
+  }
+}

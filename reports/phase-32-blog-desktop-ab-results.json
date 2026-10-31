@@ -1,0 +1,2694 @@
+{
+  "phase": 32,
+  "task": "supplemental_blog_index_desktop_ab",
+  "status": "COMPLETE",
+  "started_at": "2026-10-31T07:53:38.209Z",
+  "environment": {
+    "local_only": true,
+    "route": "/blog/",
+    "base_url": "http://127.0.0.1:8085",
+    "browser": "Chromium143 via @sparticuz/chromium",
+    "playwright": "1.58.2",
+    "lighthouse": "12.8.2",
+    "fixture_sha256": "25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5",
+    "A_source_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
+    "B_source_commit": "4e709ed0cc6ec4e2b2a60d7d914765ae170634a0"
+  },
+  "method": {
+    "samples_per_arm": 7,
+    "total_expected_samples": 14,
+    "fresh_chromium_process_per_sample": true,
+    "storage_reset_each_navigation": true,
+    "order": "Round0 A then B, round1 B then A, alternating through round6",
+    "serial": true,
+    "parallel_samples": 0,
+    "desktop_config": "Lighthouse core desktop-config, desktopDense4G throttling, desktop screen emulation",
+    "local_resource_mirrors": true,
+    "metrics": [
+      "LCP",
+      "CLS",
+      "TBT",
+      "transfer bytes",
+      "requests",
+      "render blockers",
+      "still-image requests",
+      "LCP element",
+      "font requests",
+      "warnings"
+    ],
+    "interpretation": "Local desktop-simulated audit for Blog index only. It is not production or field data."
+  },
+  "A": [
+    {
+      "round": 0,
+      "arm": "A",
+      "order": "AB",
+      "started_at": "2026-10-31T07:53:38.212Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:53:43.712Z",
+      "lcp_ms": 591.2371363893171,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 12.299999999813735,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 120.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 248,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 92.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 116,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 1,
+      "arm": "A",
+      "order": "BA",
+      "started_at": "2026-10-31T07:53:53.643Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:53:58.378Z",
+      "lcp_ms": 590.6261363892255,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 12.200000000186265,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 124.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 240,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 73.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 108,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 2,
+      "arm": "A",
+      "order": "AB",
+      "started_at": "2026-10-31T07:53:58.404Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:03.210Z",
+      "lcp_ms": 461.80394892460555,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 15.5,
+          "duration": 1001
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 143.79999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 296,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 68.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 104,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 3,
+      "arm": "A",
+      "order": "BA",
+      "started_at": "2026-10-31T07:54:13.089Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:17.971Z",
+      "lcp_ms": 461.1514744618614,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 10.100000000093132,
+          "duration": 1001
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 157.1999999997206,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 276,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 75.90000000037253,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 116,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 4,
+      "arm": "A",
+      "order": "AB",
+      "started_at": "2026-10-31T07:54:18.025Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:22.801Z",
+      "lcp_ms": 461.5944489250868,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 43.299999999813735,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 113.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 236,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 83.6999999997206,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 5,
+      "arm": "A",
+      "order": "BA",
+      "started_at": "2026-10-31T07:54:32.608Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:37.294Z",
+      "lcp_ms": 590.9347045842903,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 12.399999999906868,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 114,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 276,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 101.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 6,
+      "arm": "A",
+      "order": "AB",
+      "started_at": "2026-10-31T07:54:37.336Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:42.142Z",
+      "lcp_ms": 590.6921363894185,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 284903,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<section class=\"blog-hero\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 10.5,
+          "duration": 1001
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 125.40000000037253,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 244,
+          "tag": "SECTION",
+          "id": null,
+          "className": "blog-hero"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 83.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "B": [
+    {
+      "round": 0,
+      "arm": "B",
+      "order": "AB",
+      "started_at": "2026-10-31T07:53:43.782Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:53:48.613Z",
+      "lcp_ms": 590.615136389478,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 10.5,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 132.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 240,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 88.59999999962747,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 1,
+      "arm": "B",
+      "order": "BA",
+      "started_at": "2026-10-31T07:53:48.684Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:53:53.578Z",
+      "lcp_ms": 590.807136389375,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 12.799999999813735,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 130.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 236,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 93.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 2,
+      "arm": "B",
+      "order": "AB",
+      "started_at": "2026-10-31T07:54:03.243Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:08.242Z",
+      "lcp_ms": 591.1621363894297,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 10.5,
+          "duration": 1001
+        },
+        {
+          "kind": "long-task",
+          "startTime": 121.10000000009313,
+          "duration": 53
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 207.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 340,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 89.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 3,
+      "arm": "B",
+      "order": "BA",
+      "started_at": "2026-10-31T07:54:08.276Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:13.052Z",
+      "lcp_ms": 590.8787045841036,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 9.200000000186265,
+          "duration": 1003
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 98.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 236,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 83.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 4,
+      "arm": "B",
+      "order": "AB",
+      "started_at": "2026-10-31T07:54:22.840Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:27.616Z",
+      "lcp_ms": 590.6885681946787,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 10.200000000186265,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 109,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 76.90000000037253,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 5,
+      "arm": "B",
+      "order": "BA",
+      "started_at": "2026-10-31T07:54:27.656Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:32.565Z",
+      "lcp_ms": 590.7745681947865,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 15.199999999720603,
+          "duration": 1002
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 151.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 272,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 83.89999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "round": 6,
+      "arm": "B",
+      "order": "AB",
+      "started_at": "2026-10-31T07:54:42.188Z",
+      "status": "PASS",
+      "completed_at": "2026-10-31T07:54:47.089Z",
+      "lcp_ms": 590.8591363894556,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 287586,
+      "requests": 8,
+      "render_blocking": [],
+      "lcp_element": "<p class=\"sub\">",
+      "still_requests": [
+        {
+          "url": "http://127.0.0.1:8085/assets/images/hero-still-1440.webp",
+          "resourceType": "Image",
+          "transferSize": 37403,
+          "resourceSize": 37226,
+          "statusCode": 200
+        }
+      ],
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-300.woff2",
+          "bytes": 14133
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "bytes": 22569
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-400.woff2",
+          "bytes": 14209
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2",
+          "bytes": 13705
+        },
+        {
+          "url": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "bytes": 23085
+        }
+      ],
+      "observer_events": [
+        {
+          "kind": "long-task",
+          "startTime": 17.299999999813735,
+          "duration": 1001
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 120.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 284,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        },
+        {
+          "kind": "fonts-ready",
+          "time": 84.3000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 108,
+          "tag": "P",
+          "id": null,
+          "className": "sub"
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "session": {
+    "status": "COMPLETE",
+    "finished_at": "2026-10-31T07:54:47.133Z",
+    "performance_release_certified": false,
+    "tbt_delta_pass": true,
+    "samples_complete": true
+  },
+  "summary": {
+    "A": {
+      "lcp_ms": {
+        "median": 590.6261363892255,
+        "q1": 461.6991989248462,
+        "q3": 590.8134204868544,
+        "iqr": 129.1142215620082
+      },
+      "cls": {
+        "median": 0,
+        "q1": 0,
+        "q3": 0,
+        "iqr": 0
+      },
+      "tbt_ms": {
+        "median": 0,
+        "q1": 0,
+        "q3": 0,
+        "iqr": 0
+      },
+      "transfer_bytes": {
+        "median": 284903,
+        "q1": 284903,
+        "q3": 284903,
+        "iqr": 0
+      },
+      "requests": {
+        "median": 8,
+        "q1": 8,
+        "q3": 8,
+        "iqr": 0
+      }
+    },
+    "B": {
+      "lcp_ms": {
+        "median": 590.807136389375,
+        "q1": 590.7315681947326,
+        "q3": 590.8689204867796,
+        "iqr": 0.13735229204701227
+      },
+      "cls": {
+        "median": 0,
+        "q1": 0,
+        "q3": 0,
+        "iqr": 0
+      },
+      "tbt_ms": {
+        "median": 0,
+        "q1": 0,
+        "q3": 0,
+        "iqr": 0
+      },
+      "transfer_bytes": {
+        "median": 287586,
+        "q1": 287586,
+        "q3": 287586,
+        "iqr": 0
+      },
+      "requests": {
+        "median": 8,
+        "q1": 8,
+        "q3": 8,
+        "iqr": 0
+      }
+    },
+    "lcp_ratio_b_over_a": 1.000306454437076,
+    "tbt_delta_ms": 0
+  }
+}

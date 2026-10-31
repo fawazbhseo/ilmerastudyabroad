@@ -1,0 +1,26 @@
+{
+  "archive": "ilmera-deploy-850d0af.zip",
+  "source_head": "850d0af5c083b06e3c65abc997fcab6708121c6f",
+  "manifest_runtime_commit": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "file_count": 130,
+  "manifest_count": 130,
+  "all_hashes_sizes_match": true,
+  "reports_tools_deny_only": true,
+  "all_current_runtime_bytes_match": true,
+  "all_eight_htaccess": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ],
+  "no_extra_or_duplicate_or_unsafe_entries": true,
+  "no_markdown_git_releases_or_tool_report_contents": true,
+  "root_layout_ready_for_public_html": true,
+  "bytes": 681792,
+  "sha256": "31442c174e64b701a46db9bb935e88c85f0e201a4707297e70e9a3d06146d9d6",
+  "passed": true
+}

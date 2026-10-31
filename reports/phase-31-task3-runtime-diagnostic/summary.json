@@ -1,0 +1,49 @@
+{
+  "phase": 31,
+  "task": 3,
+  "purpose": "Retain the initial accessibility comparison mismatch and its resolution without hiding the failed attempt.",
+  "initial_attempt": {
+    "playwright": "1.56.1",
+    "chromium": "143.0.7499.0",
+    "axe_core": "4.11.0",
+    "task3_suite_groups_passed_before_stop": 29,
+    "accessibility_status": "FAIL",
+    "baseline_nodes": 36,
+    "observed_nodes": 40,
+    "added_node_identities": [
+      "/|color-contrast|serious|em",
+      "/about|color-contrast|serious|.container > .sec-label",
+      "/about|color-contrast|serious|#team > .container > .team-hdr > .sec-label",
+      "/about|color-contrast|serious|#faq-h2"
+    ],
+    "raw_report": "accessibility-playwright-1.56.1.json",
+    "suite_log": "failing-suite-a11y-log.txt"
+  },
+  "baseline_compatible_replay": {
+    "playwright": "1.58.2",
+    "chromium": "143.0.7499.0",
+    "axe_core": "4.11.0",
+    "status": "PASS_BASELINE_RELATIVE",
+    "baseline_nodes": 36,
+    "observed_nodes": 36,
+    "added_nodes": 0,
+    "raw_report": "accessibility-playwright-1.58.2-replay.json"
+  },
+  "authoritative_full_suite": {
+    "playwright": "1.58.2",
+    "chromium": "143.0.7499.0",
+    "axe_core": "4.11.0",
+    "result": "PASS",
+    "groups_passed": 31,
+    "groups_total": 31,
+    "suite_seconds": 1682.79,
+    "browser_cases": 306,
+    "hidden_rendered_text_cases": 0,
+    "target_size_comparison": 5670,
+    "target_size_regressions_over_0_5px": 0,
+    "accessibility_nodes": 36,
+    "accessibility_delta_nodes": 0,
+    "full_result": "../phase-31-task3-suite/result.json"
+  },
+  "interpretation": "The Playwright 1.56.1 attempt is retained as a diagnostic, not accepted as the final Task3 result. No production source was changed to make its four extra contrast identities disappear. The full Task3 suite was rerun with the 1.58.2 project runtime and passed. Accessibility remains baseline-relative and is not a zero-violation certification."
+}

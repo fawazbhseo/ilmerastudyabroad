@@ -1,0 +1,519 @@
+{
+  "id": "study-abroad-counselling-somwarpet__360__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-somwarpet",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-somwarpet",
+  "http_status": 200,
+  "page_height": 7090,
+  "scroll": {
+    "height": 7090,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7090,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4956
+    },
+    "visible_text_chars": 4279,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Somwarpet"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Somwarpet"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 467,
+        "text": "Study abroad consultancy in Somwarpet: describe the record u"
+      },
+      {
+        "selector": "h2",
+        "y": 568,
+        "text": "What should a Somwarpet applicant bring to a backlog discuss"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 694,
+        "text": "A backlog discussion is more useful when the full academic r"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 962,
+        "text": "Discuss how to describe the record using its actual status o"
+      },
+      {
+        "selector": "h2",
+        "y": 1064,
+        "text": "Describe the record using its actual status"
+      },
+      {
+        "selector": "p",
+        "y": 1161,
+        "text": "Gather the relevant marksheets and identify what each result"
+      },
+      {
+        "selector": "h2",
+        "y": 1694,
+        "text": "Ask eligibility questions without seeking a blanket promise"
+      },
+      {
+        "selector": "p",
+        "y": 1827,
+        "text": "Identify the intended course and qualification level before "
+      },
+      {
+        "selector": "h2",
+        "y": 2388,
+        "text": "Update the plan when the record changes"
+      },
+      {
+        "selector": "p",
+        "y": 2485,
+        "text": "When a new result arrives, review the application informatio"
+      },
+      {
+        "selector": "p",
+        "y": 3027,
+        "text": "Counselling is online, and students from Somwarpet do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 3157,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3271,
+        "text": "What should a Somwarpet applicant bring to a backlog discuss"
+      },
+      {
+        "selector": "p",
+        "y": 3367,
+        "text": "Bring the complete relevant results, including later clearan"
+      },
+      {
+        "selector": "summary",
+        "y": 3399,
+        "text": "Does clearing a subject automatically settle every applicati"
+      },
+      {
+        "selector": "p",
+        "y": 3496,
+        "text": "No. Update the evidence and ask the selected admissions body"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3617,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3714,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3803,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3911,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3980,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 4034,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7090,
+    "scan_width": 360,
+    "scan_height": 7090,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Somwarpet"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "What should a Somwarpet applicant bring to a backlog discussion?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3471,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3541,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3271,
+            "text": "What should a Somwarpet applicant bring to a backlog discussion?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3714,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4226,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3895,
+          "computed": {
+            "min_height": "0px",
+            "height": "3894.97px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4142,
+            "text": "Kushalnagar"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4435,
+            "text": "How can Somwarpet students describe the record using its actual status?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4636,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4310,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4564,
+            "text": "How can Somwarpet students ask eligibility questions without seeking a blanket promise?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4809,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4884,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4809,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Somwarpet"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "What should a Somwarpet applicant bring to a backlog discussion?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3471,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3541,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3271,
+            "text": "What should a Somwarpet applicant bring to a backlog discussion?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3714,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4226,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3895,
+          "computed": {
+            "min_height": "0px",
+            "height": "3894.97px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4142,
+            "text": "Kushalnagar"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4435,
+            "text": "How can Somwarpet students describe the record using its actual status?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4636,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4310,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4564,
+            "text": "How can Somwarpet students ask eligibility questions without seeking a blanket promise?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4809,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4884,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-somwarpet__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4809,
+            "text": "Ask ILMERA how to ask eligibility questions without seeking a blanket promise"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "40aa0b1fb6ad91e245a02fe97f6a4b720e38bc9965cccc594ac54d7c9d61c8aa"
+  }
+}

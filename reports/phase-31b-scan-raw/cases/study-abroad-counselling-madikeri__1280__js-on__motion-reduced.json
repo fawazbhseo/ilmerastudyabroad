@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-madikeri__1280__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-madikeri",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-madikeri",
+  "http_status": 200,
+  "page_height": 4609,
+  "scroll": {
+    "height": 4609,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4609,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3473
+    },
+    "visible_text_chars": 4164,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Madikeri"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Madikeri"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Madikeri: start with dates rathe"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "How should a Madikeri applicant begin discussing a study gap"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "For a Madikeri applicant, a clear academic timeline can make"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to start with dates rather than a persuasive sto"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Start with dates rather than a persuasive story"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "List periods of study in order and identify the qualificatio"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Explain an interruption without overstating it"
+      },
+      {
+        "selector": "p",
+        "y": 1224,
+        "text": "Describe what happened during an interval in plain language "
+      },
+      {
+        "selector": "h2",
+        "y": 1470,
+        "text": "Cross-check the account wherever it appears"
+      },
+      {
+        "selector": "p",
+        "y": 1537,
+        "text": "Compare the timeline with the dates in your CV, application "
+      },
+      {
+        "selector": "p",
+        "y": 1763,
+        "text": "Counselling is online, and students from Madikeri do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1836,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1929,
+        "text": "How should a Madikeri applicant begin discussing a study gap"
+      },
+      {
+        "selector": "p",
+        "y": 1984,
+        "text": "Prepare a factual timeline from available records before wri"
+      },
+      {
+        "selector": "summary",
+        "y": 2025,
+        "text": "Should the CV and application use different dates for the sa"
+      },
+      {
+        "selector": "p",
+        "y": 2080,
+        "text": "They should be consistent about the event being described. I"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2202,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2269,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2329,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2439,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2514,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2568,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4609,
+    "scan_width": 512,
+    "scan_height": 1844,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4994577006507592
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "38eb045840e013e4322d7d8ef50c48763d5232e805d1cd8d1fcab631341ad3d3"
+  }
+}

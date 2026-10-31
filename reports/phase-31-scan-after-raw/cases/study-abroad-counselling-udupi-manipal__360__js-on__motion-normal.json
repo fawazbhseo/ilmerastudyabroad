@@ -1,0 +1,519 @@
+{
+  "id": "study-abroad-counselling-udupi-manipal__360__js-on__motion-normal",
+  "route": "/study-abroad-counselling-udupi-manipal",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-udupi-manipal",
+  "http_status": 200,
+  "page_height": 7009,
+  "scroll": {
+    "height": 7009,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7009,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4875
+    },
+    "visible_text_chars": 4338,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Udupi and Manipal"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Udupi and Manipal"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 467,
+        "text": "Study abroad consultancy in Udupi and Manipal: read the stru"
+      },
+      {
+        "selector": "h2",
+        "y": 597,
+        "text": "What should an Udupi or Manipal student compare beyond a cou"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 723,
+        "text": "Two courses with similar titles can still ask different thin"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 991,
+        "text": "Discuss how to read the structure as a set of commitments on"
+      },
+      {
+        "selector": "h2",
+        "y": 1093,
+        "text": "Read the structure as a set of commitments"
+      },
+      {
+        "selector": "p",
+        "y": 1190,
+        "text": "Look at which subjects are compulsory, which are optional an"
+      },
+      {
+        "selector": "h2",
+        "y": 1723,
+        "text": "Consider how you prefer to demonstrate learning"
+      },
+      {
+        "selector": "p",
+        "y": 1820,
+        "text": "Review the published assessment information where available "
+      },
+      {
+        "selector": "h2",
+        "y": 2381,
+        "text": "Connect the comparison to an application reason"
+      },
+      {
+        "selector": "p",
+        "y": 2478,
+        "text": "After reviewing the structure and assessment, explain why an"
+      },
+      {
+        "selector": "p",
+        "y": 3020,
+        "text": "Counselling is online, and students from Udupi and Manipal d"
+      },
+      {
+        "selector": "h2",
+        "y": 3150,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3264,
+        "text": "What should an Udupi or Manipal student compare beyond a cou"
+      },
+      {
+        "selector": "p",
+        "y": 3360,
+        "text": "Examine compulsory and optional content, assessment, project"
+      },
+      {
+        "selector": "summary",
+        "y": 3392,
+        "text": "Can an optional module be treated as a guaranteed part of th"
+      },
+      {
+        "selector": "p",
+        "y": 3489,
+        "text": "Only if the actual course rules support that assumption. Che"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3610,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3707,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3796,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3904,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3973,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 4027,
+        "text": "Belagavi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7009,
+    "scan_width": 360,
+    "scan_height": 7009,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Udupi and Manipal"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 597,
+            "text": "What should an Udupi or Manipal student compare beyond a course title?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3464,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3534,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3264,
+            "text": "What should an Udupi or Manipal student compare beyond a course title?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3707,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4165,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3834,
+          "computed": {
+            "min_height": "0px",
+            "height": "3833.77px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4145,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4374,
+            "text": "How can Udupi and Manipal students read the structure as a set of commitments?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4575,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4249,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4503,
+            "text": "How can Udupi and Manipal students consider how you prefer to demonstrate learning?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4748,
+            "text": "Ask ILMERA how to consider how you prefer to demonstrate learning"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4803,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4748,
+            "text": "Ask ILMERA how to consider how you prefer to demonstrate learning"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Udupi and Manipal"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 597,
+            "text": "What should an Udupi or Manipal student compare beyond a course title?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3464,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00306,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3534,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3264,
+            "text": "What should an Udupi or Manipal student compare beyond a course title?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3707,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4165,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3834,
+          "computed": {
+            "min_height": "0px",
+            "height": "3833.77px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4145,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4374,
+            "text": "How can Udupi and Manipal students read the structure as a set of commitments?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4575,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4249,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4503,
+            "text": "How can Udupi and Manipal students consider how you prefer to demonstrate learning?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4748,
+            "text": "Ask ILMERA how to consider how you prefer to demonstrate learning"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4803,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-counselling-udupi-manipal__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4748,
+            "text": "Ask ILMERA how to consider how you prefer to demonstrate learning"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "66de4b474932d625ce186ad619075c710c6c1749b2870c6c91970e73f1f9d432"
+  }
+}

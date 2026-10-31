@@ -1,0 +1,582 @@
+{
+  "id": "study-in-germany__360__js-on__motion-reduced",
+  "route": "/study-in-germany",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-germany",
+  "http_status": 200,
+  "page_height": 8059,
+  "scroll": {
+    "height": 8059,
+    "scroll_samples": 14,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 8059,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5925
+    },
+    "visible_text_chars": 4845,
+    "visible_text_nodes": 77,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Germany from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 380,
+        "text": "Study in Germany from India starts with programme-specific p"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 518,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 518,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 586,
+        "text": "What should I check before planning to study in Germany from"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 712,
+        "text": "At German public institutions, bachelor programmes and most "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 952,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1024,
+        "text": "Discuss study in Germany from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 1203,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1264,
+        "text": "ILMERA confirms the rule for each university before applying"
+      },
+      {
+        "selector": "h2",
+        "y": 1394,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1455,
+        "text": "Bachelor programmes and most master programmes at state inst"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1609,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1653,
+        "text": "Baden-Wuerttemberg charges non-EU citizens 1,500 euros per s"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1807,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1850,
+        "text": "Bavarian institutions may charge tuition to students from ou"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1947,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1991,
+        "text": "All students pay a semester contribution of between 70 and 4"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2116,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2193,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 2254,
+        "text": "DAAD distinguishes the student visa for applicants already a"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2437,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 2514,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 2575,
+        "text": "Students from outside the EU or EEA must present proof of fi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 8059,
+    "scan_width": 360,
+    "scan_height": 8059,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1079,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1127,
+          "element_height": 220,
+          "computed": {
+            "min_height": "0px",
+            "height": "219.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 1024,
+            "text": "Discuss study in Germany from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1264,
+            "text": "ILMERA confirms the rule for each university before applying."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4613,
+        "height": 195,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00203,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 4746,
+          "computed": {
+            "min_height": "0px",
+            "height": "4746.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4539,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4899,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5081,
+        "height": 142,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 4842,
+          "computed": {
+            "min_height": "0px",
+            "height": "4842.09px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5061,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 5295,
+            "text": "What academic and language checks does ILMERA help with for Germany?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5624,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 5170,
+          "element_height": 538,
+          "computed": {
+            "min_height": "0px",
+            "height": "537.5px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5424,
+            "text": "What help does ILMERA offer with Germany budgets, bank information and APS?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5798,
+            "text": "Ask ILMERA about study in Germany from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5853,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 5649,
+            "text": "ILMERA does not provide advice on working during study or staying after study. Existing po"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1079,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1127,
+          "element_height": 220,
+          "computed": {
+            "min_height": "0px",
+            "height": "219.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 1024,
+            "text": "Discuss study in Germany from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1264,
+            "text": "ILMERA confirms the rule for each university before applying."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4613,
+        "height": 195,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00203,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 4746,
+          "computed": {
+            "min_height": "0px",
+            "height": "4746.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4539,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4899,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5081,
+        "height": 142,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 4842,
+          "computed": {
+            "min_height": "0px",
+            "height": "4842.09px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5061,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 5295,
+            "text": "What academic and language checks does ILMERA help with for Germany?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5624,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 5170,
+          "element_height": 538,
+          "computed": {
+            "min_height": "0px",
+            "height": "537.5px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5424,
+            "text": "What help does ILMERA offer with Germany budgets, bank information and APS?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5798,
+            "text": "Ask ILMERA about study in Germany from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5853,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-germany__360__js-on__motion-reduced-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 5649,
+            "text": "ILMERA does not provide advice on working during study or staying after study. Existing po"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f45e147337b94687076dbb7b4759987440ccee98a6299a1e62bc5ca932a939df"
+  }
+}

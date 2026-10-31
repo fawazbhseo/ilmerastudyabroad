@@ -1,0 +1,19 @@
+# Educational institution names found in public HTML, schema or LLM text.
+# Case-insensitive whole-name matches; aliases are intentional.
+University of Rome Tor Vergata
+Tor Vergata
+Oxford
+Cambridge
+Imperial College London
+Imperial
+University of Manchester
+UCL
+University of Bologna
+Sapienza University of Rome
+Politecnico di Milano
+University of Turin
+Peoples' Friendship University of Russia
+RUDN
+Sechenov University
+Kazan Federal University
+Ural Federal University

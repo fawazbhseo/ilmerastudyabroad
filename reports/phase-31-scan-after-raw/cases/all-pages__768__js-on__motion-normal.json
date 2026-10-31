@@ -1,0 +1,231 @@
+{
+  "id": "all-pages__768__js-on__motion-normal",
+  "route": "/all-pages",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/all-pages",
+  "http_status": 200,
+  "page_height": 5095,
+  "scroll": {
+    "height": 5095,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 5095,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3714
+    },
+    "visible_text_chars": 1018,
+    "visible_text_nodes": 49,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA published page directory"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 239,
+        "text": "ILMERA published page directory: Browse the published destin"
+      },
+      {
+        "selector": "p",
+        "y": 311,
+        "text": "Browse our published pages and guides by type."
+      },
+      {
+        "selector": "h2",
+        "y": 452,
+        "text": "Main pages"
+      },
+      {
+        "selector": "a",
+        "y": 520,
+        "text": "Home"
+      },
+      {
+        "selector": "a",
+        "y": 576,
+        "text": "Services and destinations"
+      },
+      {
+        "selector": "a",
+        "y": 632,
+        "text": "About ILMERA and the team"
+      },
+      {
+        "selector": "a",
+        "y": 688,
+        "text": "Contact ILMERA"
+      },
+      {
+        "selector": "a",
+        "y": 744,
+        "text": "Blog"
+      },
+      {
+        "selector": "h2",
+        "y": 875,
+        "text": "Blog guides"
+      },
+      {
+        "selector": "a",
+        "y": 943,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 999,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "a",
+        "y": 1055,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "a",
+        "y": 1111,
+        "text": "Cost of Studying Abroad: Official Country Examples"
+      },
+      {
+        "selector": "a",
+        "y": 1167,
+        "text": "Documents Needed to Study Abroad: Build a Route-Specific Che"
+      },
+      {
+        "selector": "a",
+        "y": 1223,
+        "text": "Scholarships for Indian Students: Check Eligibility and Evid"
+      },
+      {
+        "selector": "h2",
+        "y": 1354,
+        "text": "Country guides"
+      },
+      {
+        "selector": "a",
+        "y": 1422,
+        "text": "Study in Germany"
+      },
+      {
+        "selector": "a",
+        "y": 1478,
+        "text": "Study in Italy"
+      },
+      {
+        "selector": "a",
+        "y": 1534,
+        "text": "Study in UK"
+      },
+      {
+        "selector": "a",
+        "y": 1590,
+        "text": "Study in Lithuania"
+      },
+      {
+        "selector": "a",
+        "y": 1646,
+        "text": "Study in Latvia"
+      },
+      {
+        "selector": "a",
+        "y": 1702,
+        "text": "Study in Slovakia"
+      },
+      {
+        "selector": "a",
+        "y": 1758,
+        "text": "Study in GCC"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5095,
+    "scan_width": 512,
+    "scan_height": 3397,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3613,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/all-pages__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3593,
+            "text": "All pages"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3613,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/all-pages__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3593,
+            "text": "All pages"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998528113040919
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6da9b872330bd447f66686d5d82e05e9b59892fc3781c83f2facfb18f12aa345"
+  }
+}

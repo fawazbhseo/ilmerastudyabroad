@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-belagavi__1280__js-off__motion-normal",
+  "route": "/study-abroad-counselling-belagavi",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-belagavi",
+  "http_status": 200,
+  "page_height": 4555,
+  "scroll": {
+    "height": 4555,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4555,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3419
+    },
+    "visible_text_chars": 4054,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Belagavi"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Belagavi"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Belagavi: describe the task befo"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Belagavi enquiry brief contain?"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "Students from Belagavi can use an initial counselling discus"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to describe the task before choosing the support"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Describe the task before choosing the support"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "Write down the decisions you have already made and the quest"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Make ownership visible in the agreement"
+      },
+      {
+        "selector": "p",
+        "y": 1224,
+        "text": "For each deliverable, identify who prepares it, who checks i"
+      },
+      {
+        "selector": "h2",
+        "y": 1470,
+        "text": "Use a decision record when the brief changes"
+      },
+      {
+        "selector": "p",
+        "y": 1537,
+        "text": "An application plan may change after you learn more about a "
+      },
+      {
+        "selector": "p",
+        "y": 1763,
+        "text": "Counselling is online, and students from Belagavi do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1836,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1929,
+        "text": "What should a Belagavi enquiry brief contain?"
+      },
+      {
+        "selector": "p",
+        "y": 1984,
+        "text": "State the qualification, intended subject, budget boundary a"
+      },
+      {
+        "selector": "summary",
+        "y": 2025,
+        "text": "How do I handle work outside the original counselling scope?"
+      },
+      {
+        "selector": "p",
+        "y": 2080,
+        "text": "Ask for the new deliverable, responsibility and payment term"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2202,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2269,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2329,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2439,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2514,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2568,
+        "text": "Shivamogga"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4555,
+    "scan_width": 512,
+    "scan_height": 1822,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "165c25d4b53ad156849a920269b31b0632c083313c243b82497c36bc38ae9bdd"
+  }
+}

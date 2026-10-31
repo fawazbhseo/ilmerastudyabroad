@@ -1,0 +1,96 @@
+{
+  "phase": 31,
+  "task": 4,
+  "status": "INCOMPLETE",
+  "started_at": "2026-10-28T12:11:16.001Z",
+  "environment": {
+    "local_only": true,
+    "base_url": "http://127.0.0.1:8082",
+    "browser": "Chromium143 via @sparticuz/chromium",
+    "playwright": "1.58.2",
+    "lighthouse": "12.8.2",
+    "fixture_sha256": "806e5ab8df048c1bda227211a57a67fe8331b6121a045eccc43c8c5629d2f1d6",
+    "A_source_commit": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+    "B_source_commit": "806769a0d379e2059f654ba96be1561484d64598"
+  },
+  "method": {
+    "samples_per_arm_per_route": 7,
+    "total_routes": 8,
+    "total_expected_samples": 112,
+    "fresh_chromium_process_per_sample": true,
+    "storage_reset_each_navigation": true,
+    "order": "Round0 A then B, round1 B then A, alternating through round6 for each route",
+    "serial": true,
+    "parallel_samples": 0,
+    "concurrent_capture_or_QA": false,
+    "performance_model": "Lighthouse mobile simulated Slow4G and 4x CPU",
+    "resource_delivery": "All browser traffic is intercepted to the local fixture, local static assets or exact npm mirrors; unsupported external requests are aborted. URL names are diagnostics, not live-network proof.",
+    "full_page_report_screenshot": false,
+    "metrics_retained": [
+      "LCP",
+      "CLS",
+      "TBT",
+      "total transfer bytes",
+      "request count",
+      "render-blocking request URLs",
+      "still-image requests",
+      "font network records",
+      "passive LCP/font/paint-gate events",
+      "warnings",
+      "failed/incomplete sessions"
+    ],
+    "budgets": {
+      "added_transfer_bytes_lt": 150000,
+      "lcp_ratio_lte": 1.1,
+      "tbt_delta_ms_lte": 50,
+      "cls_b_no_greater_than_a": true,
+      "cls_b_lt": 0.1,
+      "no_new_render_blocking": true
+    },
+    "control_rule": "Each of the four unchanged reference routes must have symmetric median LCP ratio <= 1.1 for a reliable local session. No retry or resume is allowed.",
+    "interpretation": "Local simulated evidence only. Not field data, real CDN timing, native hosting proof or a live-speed claim."
+  },
+  "route_order": [
+    "/",
+    "/services",
+    "/about",
+    "/contact",
+    "/study-in-germany",
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "/blog/"
+  ],
+  "control_routes": [
+    "/",
+    "/services",
+    "/about",
+    "/contact"
+  ],
+  "session": {
+    "routes": [
+      {
+        "route": "/",
+        "A": [
+          {
+            "round": 0,
+            "arm": "A",
+            "order": "AB",
+            "started_at": "2026-10-28T12:11:16.003Z",
+            "status": "FAIL",
+            "completed_at": "2026-10-28T12:11:16.031Z",
+            "error": "browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> /tmp/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --remote-debugging-port=9222 --user-data-dir=/tmp/playwright_chromiumdev_profile-sM1EQB --remote-debugging-pipe --no-startup-window\n<launched> pid=66601\n[pid=66601][err] /tmp/chromium: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n[pid=66601] <process did exit: exitCode=127, signal=null>\n[pid=66601] starting temporary directories cleanup\nCall log:\n  - <launching> /tmp/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --remote-debugging-port=9222 --user-data-dir=/tmp/playwright_chromiumdev_profile-sM1EQB --remote-debugging-pipe --no-startup-window\n  - <launched> pid=66601\n  - [pid=66601][err] /tmp/chromium: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n  - [pid=66601] <process did exit: exitCode=127, signal=null>\n  - [pid=66601] starting temporary directories cleanup\n  - [pid=66601] <gracefully close start>\n  - [pid=66601] <kill>\n  - [pid=66601] <skipped force kill spawnedProcess.killed=false processClosed=true>\n  - [pid=66601] finished temporary directories cleanup\n  - [pid=66601] <gracefully close end>\n\n    at main (/home/user/ilmerastudyabroad/tools/phase31/ab.cjs:54:30)"
+          }
+        ],
+        "B": [],
+        "summary": null
+      }
+    ],
+    "status": "INCOMPLETE",
+    "failed_sample": {
+      "route": "/",
+      "round": 0,
+      "arm": "A",
+      "error": "browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> /tmp/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --remote-debugging-port=9222 --user-data-dir=/tmp/playwright_chromiumdev_profile-sM1EQB --remote-debugging-pipe --no-startup-window\n<launched> pid=66601\n[pid=66601][err] /tmp/chromium: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n[pid=66601] <process did exit: exitCode=127, signal=null>\n[pid=66601] starting temporary directories cleanup\nCall log:\n  - <launching> /tmp/chromium --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --remote-debugging-port=9222 --user-data-dir=/tmp/playwright_chromiumdev_profile-sM1EQB --remote-debugging-pipe --no-startup-window\n  - <launched> pid=66601\n  - [pid=66601][err] /tmp/chromium: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n  - [pid=66601] <process did exit: exitCode=127, signal=null>\n  - [pid=66601] starting temporary directories cleanup\n  - [pid=66601] <gracefully close start>\n  - [pid=66601] <kill>\n  - [pid=66601] <skipped force kill spawnedProcess.killed=false processClosed=true>\n  - [pid=66601] finished temporary directories cleanup\n  - [pid=66601] <gracefully close end>\n"
+    }
+  }
+}

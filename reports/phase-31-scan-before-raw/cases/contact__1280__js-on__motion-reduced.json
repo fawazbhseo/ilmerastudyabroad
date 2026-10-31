@@ -1,0 +1,276 @@
+{
+  "id": "contact__1280__js-on__motion-reduced",
+  "route": "/contact",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/contact",
+  "http_status": 200,
+  "page_height": 6064,
+  "scroll": {
+    "height": 6064,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6064,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4936
+    },
+    "visible_text_chars": 9453,
+    "visible_text_nodes": 132,
+    "hidden_text_nodes": 1,
+    "hidden_text_groups": 1,
+    "hidden_text_chars": 9,
+    "visible_media": 17,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [
+      {
+        "kind": "hidden-reveal-text",
+        "selector": "span",
+        "y": 725,
+        "height": 11,
+        "text_sample": "Reach Out",
+        "characters": 9,
+        "computed": {
+          "effective_opacity": 0,
+          "visibility_reasons": [
+            "effective-opacity:0.000"
+          ]
+        },
+        "crop": "reports/screenshots/phase-31/contact__1280__js-on__motion-reduced-hidden-02.webp",
+        "cause": "Non-empty main-content text remains effectively invisible after a complete slow scroll and 3-second settle."
+      }
+    ],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 239,
+        "text": "Contact ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 408,
+        "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsAp"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 485,
+        "text": "online consultation for Germany, Italy, UK, Czech Republic, "
+      },
+      {
+        "selector": "span.hud-info-lbl",
+        "y": 122,
+        "text": "Call"
+      },
+      {
+        "selector": "span.hud-info-val",
+        "y": 135,
+        "text": "+91 90195 57427"
+      },
+      {
+        "selector": "span.hud-info-lbl",
+        "y": 280,
+        "text": "Email"
+      },
+      {
+        "selector": "span.hud-info-val",
+        "y": 293,
+        "text": "info@ilmerastudyabroad.com"
+      },
+      {
+        "selector": "span.hud-info-lbl",
+        "y": 439,
+        "text": "Hours"
+      },
+      {
+        "selector": "span.hud-info-val",
+        "y": 452,
+        "text": "Mon–Sat, 9AM–6PM IST"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 102,
+        "text": "🇩🇪 Germany: tuition conditions"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 197,
+        "text": "🇮🇹 Italy: conditional scholarships"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 292,
+        "text": "🇬🇧 United Kingdom"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 387,
+        "text": "🇨🇿 Czech Republic"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 482,
+        "text": "🇱🇹 Lithuania"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 577,
+        "text": "🇱🇻 Latvia"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 672,
+        "text": "🇸🇰 Slovakia"
+      },
+      {
+        "selector": "div.hud-tag",
+        "y": 593,
+        "text": "🇷🇺 Russia: Backlogs OK"
+      },
+      {
+        "selector": "h2",
+        "y": 955,
+        "text": "Send Us a Message"
+      },
+      {
+        "selector": "p",
+        "y": 1026,
+        "text": "Before your consultation, explore our"
+      },
+      {
+        "selector": "a",
+        "y": 1026,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 1045,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 1045,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 1045,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 1064,
+        "text": "ILMERA team"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 6064,
+    "scan_width": 512,
+    "scan_height": 2426,
+    "threshold": 200,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1687,
+        "height": 258,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31/contact__1280__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1043,
+          "computed": {
+            "min_height": "0px",
+            "height": "1043px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 1661,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "span.sec-label",
+            "y": 1945,
+            "text": "Common Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1687,
+        "height": 258,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31/contact__1280__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1043,
+          "computed": {
+            "min_height": "0px",
+            "height": "1043px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 1661,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "span.sec-label",
+            "y": 1945,
+            "text": "Common Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 2.4995877988458366
+  },
+  "pinned": {
+    "gsap": true,
+    "scrollTrigger": true,
+    "three": true
+  },
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "bc02b8f791cce4a1f2aa53443e1fdd52e4aa45cdd91931ac29c9d44d1a240b85"
+  }
+}

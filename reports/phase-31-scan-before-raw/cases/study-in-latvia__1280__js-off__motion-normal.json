@@ -1,0 +1,176 @@
+{
+  "id": "study-in-latvia__1280__js-off__motion-normal",
+  "route": "/study-in-latvia",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-latvia",
+  "http_status": 200,
+  "page_height": 5617,
+  "scroll": {
+    "height": 5617,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5617,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4481
+    },
+    "visible_text_chars": 4009,
+    "visible_text_nodes": 79,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Latvia from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in Latvia from India starts with programme-specific pl"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in Latvia from "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 669,
+        "text": "Indian students admitted to an accredited Latvian institutio"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 737,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 809,
+        "text": "Discuss study in Latvia from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 969,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1037,
+        "text": "ILMERA counsellors review a student's academic transcripts, "
+      },
+      {
+        "selector": "h2",
+        "y": 1167,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1234,
+        "text": "The European Commission Latvia profile estimates student liv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1302,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1380,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1447,
+        "text": "Indian nationals enrolled at accredited Latvian institutions"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1515,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1559,
+        "text": "Applicants from India must have their visa support document "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1627,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1670,
+        "text": "Appointments for submission and for a video or in-person int"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1738,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1782,
+        "text": "The application form is completed online at epak.pmlp.gov.lv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1850,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1928,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 2001,
+        "text": "A proof of intended residence in Latvia must be submitted wi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5617,
+    "scan_width": 512,
+    "scan_height": 2247,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997774810858924
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "22393d0cb96d02b2a662587925cd239fc5a76cb45276028cc55e45d62d1c242f"
+  }
+}

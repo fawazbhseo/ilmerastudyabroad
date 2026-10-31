@@ -1,0 +1,368 @@
+{
+  "passed": true,
+  "routes": 43,
+  "source_head": "75f355fd4dfda0a61ddbda5b45fc2944c8503e76",
+  "baseline_source_head": "75f355fd4dfda0a61ddbda5b45fc2944c8503e76",
+  "content_invariants": [
+    "all visible/document text and order",
+    "title and all meta attributes",
+    "headings in order",
+    "visible/custom FAQ text",
+    "all link hrefs and attributes/multiplicity/order",
+    "all img src/alt/dimensions/loading/srcset and attributes",
+    "JSON-LD graphs",
+    "canonicals",
+    "robots directives",
+    "HTTP statuses",
+    "sitemap exact bytes and 38 entries"
+  ],
+  "rows": [
+    {
+      "route": "/",
+      "http_status": 200,
+      "source_file": "index.php",
+      "render_bytes": 102935,
+      "render_sha256": "4ceeca229ecfea1d221d209defa58eb6f0d8ae5b3710213a8cb76fcedd13c2c2",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/404",
+      "http_status": 200,
+      "source_file": "404.php",
+      "render_bytes": 38352,
+      "render_sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/about",
+      "http_status": 200,
+      "source_file": "about.php",
+      "render_bytes": 89629,
+      "render_sha256": "221c283106151bc0de68edba45e67eb97806e2c7876b4e48437458b55e709025",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/all-pages",
+      "http_status": 200,
+      "source_file": "all-pages.php",
+      "render_bytes": 52801,
+      "render_sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/",
+      "http_status": 200,
+      "source_file": "blog/index.php",
+      "render_bytes": 60417,
+      "render_sha256": "c679d79b00adb7092b328e505483d091560873f89ccc8d7987d3d03d697b877d",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "http_status": 200,
+      "source_file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "render_bytes": 69326,
+      "render_sha256": "6794bdf7b2a3589c39cbedd54b025b8a0d1d0c500caed2b0902e6e877afd9f0a",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "http_status": 200,
+      "source_file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "render_bytes": 68810,
+      "render_sha256": "07a8d784e55d4696e16823a350eb16fccfc846df3562fb17344d78740920183d",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "http_status": 200,
+      "source_file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "render_bytes": 69022,
+      "render_sha256": "192fbb8d0462f267525f5d37084035533adf10361c074983cb13b9274b4bee4d",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "http_status": 200,
+      "source_file": "blog/italy-dsu-scholarship-eligibility.php",
+      "render_bytes": 52523,
+      "render_sha256": "aa4e4ad62baddd66be09239dd33ac146e503fcc52e0b8aca55a4d38e3cea119f",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "http_status": 200,
+      "source_file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "render_bytes": 66922,
+      "render_sha256": "76a48ad38ab9e6b87cca5995f9a356444c84f47a6aa9d3b3387316a7bfe4384d",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "http_status": 200,
+      "source_file": "blog/study-abroad-counselling-from-coorg.php",
+      "render_bytes": 63081,
+      "render_sha256": "92a0fb2c465d87b693322123403dfd4a277cab0fe4a5940c4d28740a345fa8f7",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "http_status": 200,
+      "source_file": "blog/study-abroad-with-academic-backlogs.php",
+      "render_bytes": 62324,
+      "render_sha256": "f9e277cab60b537d2022a7bb2ac6867e9e60847da893b281a3a59442acbe3f20",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "http_status": 200,
+      "source_file": "blog/study-in-germany-free-aps-certificate.php",
+      "render_bytes": 53632,
+      "render_sha256": "ee5743e2bf603c23f4002a417848af6a8916909bea30c55d8493b93479759972",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/contact",
+      "http_status": 200,
+      "source_file": "contact.php",
+      "render_bytes": 91216,
+      "render_sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/privacy-policy",
+      "http_status": 200,
+      "source_file": "privacy-policy.php",
+      "render_bytes": 57050,
+      "render_sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/services",
+      "http_status": 200,
+      "source_file": "services.php",
+      "render_bytes": 124686,
+      "render_sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "http_status": 200,
+      "source_file": "study-abroad-consultants-in-karnataka.php",
+      "render_bytes": 64907,
+      "render_sha256": "97ad69e10a47a8984bad767dc050002468e5de487a99fe35cd7a22e8f725a228",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "http_status": 200,
+      "source_file": "study-abroad-consultants-in-kodagu.php",
+      "render_bytes": 61868,
+      "render_sha256": "62f8d48cb83871b4427f29cf4547c25dec7b602af9fe382d4568c3e88d3ff0e0",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-belagavi.php",
+      "render_bytes": 61225,
+      "render_sha256": "950c29533afaba961943d571b7394be29a60e1fa3b5aa7c78fbad857bae245eb",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-bengaluru.php",
+      "render_bytes": 61204,
+      "render_sha256": "272167737c07c93107e4ab6c38c04001cae553c8244e0900576c7a53d441892c",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-chikkamagaluru.php",
+      "render_bytes": 61541,
+      "render_sha256": "c3ec1e8bcce93f4ef47f7ed12c04592c65d755fccdbf6e98d3d0abf2207cb1c5",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-gonikoppal.php",
+      "render_bytes": 61554,
+      "render_sha256": "680386630d1f6c301c5182cfdc4f2ef831e6f45b8c353efdb0cdb88104d344e0",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-hassan.php",
+      "render_bytes": 60886,
+      "render_sha256": "b26b33c9424e233ff89c4f11516bff9de5be40299b6eb0479eb2a47d4919c533",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-kushalnagar.php",
+      "render_bytes": 61299,
+      "render_sha256": "c1133e7c5f730e3aeeb243e6a0516bd182356fb895a672a669b44537e66bef52",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-madikeri.php",
+      "render_bytes": 61472,
+      "render_sha256": "4261c961d5cb74be3736782ede1d1ab4fad88e8425bb0cf15516a5a3d58bcbc7",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-mangaluru.php",
+      "render_bytes": 61193,
+      "render_sha256": "b59f422b500748de9f6459ead9415bcea8ee156e57bc2c1e75c9c5363bcb4f03",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-mysuru.php",
+      "render_bytes": 61106,
+      "render_sha256": "959bdf2ad5cb6b01e33897c2e6534324b50b0bdd98355f0ff70ef441806ccb8f",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-ponnampet.php",
+      "render_bytes": 61493,
+      "render_sha256": "81e01364b3954b9fe37e562f0af48b3d78aa8f6f2862469d48d3eb8d60f50fb5",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-shivamogga.php",
+      "render_bytes": 61257,
+      "render_sha256": "cde2d83538acc892909913e802a37c23a9e104ab1079161e9ea05769a7a0abaa",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-siddapura.php",
+      "render_bytes": 61516,
+      "render_sha256": "41a649a2b8583dbed5a9d4b744da7b5df9434e9aa24ab1f6f172b846a8464f35",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-somwarpet.php",
+      "render_bytes": 61588,
+      "render_sha256": "e7a7e96b2787b290836e3f63415929e5f465866b00dfaf802628c38f122208ef",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-udupi-manipal.php",
+      "render_bytes": 61744,
+      "render_sha256": "e4f2660a6361a2022c67076b238ecc3a732af4f788b508ee5584b30de49d6cb1",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "http_status": 200,
+      "source_file": "study-abroad-counselling-virajpet.php",
+      "render_bytes": 61391,
+      "render_sha256": "da7ecb939856cdd55615159592d27187a353299ea8714d81d104ce14c0b8dee1",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "http_status": 200,
+      "source_file": "study-in-czech-republic.php",
+      "render_bytes": 92807,
+      "render_sha256": "ddc9393bc1f4895f9d1f6cb6629d690933609b5fc1616ea8e50d5c32c2f174e0",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-gcc",
+      "http_status": 200,
+      "source_file": "study-in-gcc.php",
+      "render_bytes": 110056,
+      "render_sha256": "2883fc679376f94209ae213f12f100320a8caa5042996e8e9c045c6f73713ca0",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-germany",
+      "http_status": 200,
+      "source_file": "study-in-germany.php",
+      "render_bytes": 101000,
+      "render_sha256": "a3af194119876e4ce00612a5da76d131f1e70ac59d4d33bcca1d356fba7ca7db",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-italy",
+      "http_status": 200,
+      "source_file": "study-in-italy.php",
+      "render_bytes": 98967,
+      "render_sha256": "9267733e43798c734350d0697fc2a3b85d11b9f7b31bf014c2eaf2056aba33f8",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-latvia",
+      "http_status": 200,
+      "source_file": "study-in-latvia.php",
+      "render_bytes": 98603,
+      "render_sha256": "932f09ae63ccc4d634db681325fb012fbfb0b80c234f3593950d30c3f9099f19",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-lithuania",
+      "http_status": 200,
+      "source_file": "study-in-lithuania.php",
+      "render_bytes": 98576,
+      "render_sha256": "b718a78b9fc3fa98b93ff1b892913ed15bcab3a786cc3367ce3c9c9f535b8e4e",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-russia",
+      "http_status": 200,
+      "source_file": "study-in-russia.php",
+      "render_bytes": 91279,
+      "render_sha256": "d51c8e80f2b8893c4763dac99ba4b1641fb36c7fbe95b61d3c0074c8d4e982fe",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-slovakia",
+      "http_status": 200,
+      "source_file": "study-in-slovakia.php",
+      "render_bytes": 98305,
+      "render_sha256": "d4594dcf7d406c29e5a7d4ca08d03424b95c531bfddc94a951e50686ef35e5e8",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/study-in-uk",
+      "http_status": 200,
+      "source_file": "study-in-uk.php",
+      "render_bytes": 101318,
+      "render_sha256": "c0140da171ad758c627dc2ed1c6e2b1f6e013dace885cfc5156ce130cee1763f",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    },
+    {
+      "route": "/terms",
+      "http_status": 200,
+      "source_file": "terms.php",
+      "render_bytes": 58341,
+      "render_sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19",
+      "text_title_metadata_headings_faq_links_images_jsonld_canonical_robots_status_exact": true
+    }
+  ],
+  "sitemap_entries": 38,
+  "sitemap_sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+  "live_or_native_hosting": false
+}

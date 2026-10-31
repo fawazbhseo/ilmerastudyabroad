@@ -1,0 +1,301 @@
+{
+  "id": "contact__768__js-on__motion-reduced",
+  "route": "/contact",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/contact",
+  "http_status": 200,
+  "page_height": 6917,
+  "scroll": {
+    "height": 6917,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6917,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5544
+    },
+    "visible_text_chars": 9210,
+    "visible_text_nodes": 118,
+    "hidden_text_nodes": 1,
+    "hidden_text_groups": 1,
+    "hidden_text_chars": 9,
+    "visible_media": 19,
+    "empty_or_spacing_nodes": [
+      {
+        "kind": "unused-min-height-tail",
+        "selector": "#miniHero",
+        "tag": "section",
+        "y": 559,
+        "height": 233,
+        "threshold": 160,
+        "visible_text_chars": 355,
+        "hidden_text_chars": 9,
+        "visible_media": 0,
+        "computed": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "min_height": "792px",
+          "height": "792px",
+          "padding_top": "0px",
+          "padding_bottom": "0px",
+          "position": "relative"
+        },
+        "crop": "reports/screenshots/phase-31-after/contact__768__js-on__motion-reduced-dom-02.webp",
+        "cause": "Computed vertical margin/padding reaches the per-width threshold; candidate, not automatically an error."
+      }
+    ],
+    "hidden_text": [
+      {
+        "kind": "hidden-reveal-text",
+        "selector": "span",
+        "y": 725,
+        "height": 11,
+        "text_sample": "Reach Out",
+        "characters": 9,
+        "computed": {
+          "effective_opacity": 0,
+          "visibility_reasons": [
+            "effective-opacity:0.000"
+          ]
+        },
+        "crop": "reports/screenshots/phase-31-after/contact__768__js-on__motion-reduced-hidden-03.webp",
+        "cause": "Non-empty main-content text remains effectively invisible after a complete slow scroll and 3-second settle."
+      }
+    ],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 322,
+        "text": "Contact ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 387,
+        "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsAp"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 464,
+        "text": "online consultation for Germany, Italy, UK, Czech Republic, "
+      },
+      {
+        "selector": "h2",
+        "y": 896,
+        "text": "Send Us a Message"
+      },
+      {
+        "selector": "p",
+        "y": 967,
+        "text": "Before your consultation, explore our"
+      },
+      {
+        "selector": "a",
+        "y": 967,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 967,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 967,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 986,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 986,
+        "text": "ILMERA team"
+      },
+      {
+        "selector": "p",
+        "y": 986,
+        "text": "."
+      },
+      {
+        "selector": "label",
+        "y": 1043,
+        "text": "Full Name"
+      },
+      {
+        "selector": "label",
+        "y": 1115,
+        "text": "Email Address"
+      },
+      {
+        "selector": "label",
+        "y": 1187,
+        "text": "Phone Number (optional)"
+      },
+      {
+        "selector": "label",
+        "y": 1234,
+        "text": "Destination Country"
+      },
+      {
+        "selector": "label",
+        "y": 1306,
+        "text": "Service Interested In"
+      },
+      {
+        "selector": "label",
+        "y": 1403,
+        "text": "Your Message"
+      },
+      {
+        "selector": "button.btn-submit.btn-magnetic",
+        "y": 1561,
+        "text": "Submit Enquiry →"
+      },
+      {
+        "selector": "h2",
+        "y": 1671,
+        "text": "Contact Information"
+      },
+      {
+        "selector": "span.c-icon",
+        "y": 1744,
+        "text": "📞"
+      },
+      {
+        "selector": "span.c-lbl",
+        "y": 1742,
+        "text": "Call Us"
+      },
+      {
+        "selector": "a",
+        "y": 1760,
+        "text": "+91 90195 57427"
+      },
+      {
+        "selector": "span.c-val",
+        "y": 1760,
+        "text": "or"
+      },
+      {
+        "selector": "a",
+        "y": 1760,
+        "text": "+91 94810 84038"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 6917,
+    "scan_width": 512,
+    "scan_height": 4611,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2418,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00032,
+        "crop": "reports/screenshots/phase-31-after/contact__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1729,
+          "computed": {
+            "min_height": "0px",
+            "height": "1729.25px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 2391,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2629,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2418,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00032,
+        "crop": "reports/screenshots/phase-31-after/contact__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1729,
+          "computed": {
+            "min_height": "0px",
+            "height": "1729.25px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link.btn-magnetic",
+            "y": 2391,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2629,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5001084363478638
+  },
+  "pinned": {
+    "gsap": true,
+    "scrollTrigger": true,
+    "three": true
+  },
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "4cea25f1e0c5b6904a3efd1562c327f9f694b0ce70084a7aec377918f5bf2f78"
+  }
+}

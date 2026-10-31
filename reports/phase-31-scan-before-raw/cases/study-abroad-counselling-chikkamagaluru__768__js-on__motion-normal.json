@@ -1,0 +1,254 @@
+{
+  "id": "study-abroad-counselling-chikkamagaluru__768__js-on__motion-normal",
+  "route": "/study-abroad-counselling-chikkamagaluru",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-chikkamagaluru",
+  "http_status": 200,
+  "page_height": 4548,
+  "scroll": {
+    "height": 4548,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4548,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3166
+    },
+    "visible_text_chars": 4311,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Chikkamagaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Chikkamagaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Chikkamagaluru: find the require"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 553,
+        "text": "For a Chikkamagaluru student, language preparation is easier"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 706,
+        "text": "Discuss how to find the requirement that belongs to your cou"
+      },
+      {
+        "selector": "h2",
+        "y": 789,
+        "text": "Find the requirement that belongs to your course"
+      },
+      {
+        "selector": "p",
+        "y": 850,
+        "text": "Record the language requirement beside the exact course and "
+      },
+      {
+        "selector": "h2",
+        "y": 1123,
+        "text": "Treat alternative proof as a question, not a shortcut"
+      },
+      {
+        "selector": "p",
+        "y": 1184,
+        "text": "If you want to use a medium-of-instruction letter or previou"
+      },
+      {
+        "selector": "h2",
+        "y": 1429,
+        "text": "Allow time for evidence, review and a fallback"
+      },
+      {
+        "selector": "p",
+        "y": 1490,
+        "text": "Build a language-evidence schedule around the actual applica"
+      },
+      {
+        "selector": "p",
+        "y": 1744,
+        "text": "Counselling is online, and students from Chikkamagaluru do n"
+      },
+      {
+        "selector": "h2",
+        "y": 1816,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1899,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p",
+        "y": 1950,
+        "text": "No. Ask the selected programme whether it accepts that exact"
+      },
+      {
+        "selector": "summary",
+        "y": 1987,
+        "text": "What should a language-requirement enquiry quote?"
+      },
+      {
+        "selector": "p",
+        "y": 2038,
+        "text": "Include the course, intake, published requirement and the ev"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2159,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2220,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2280,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2389,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2457,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2521,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4548,
+    "scan_width": 512,
+    "scan_height": 3032,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2881,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2626,
+          "element_height": 343,
+          "computed": {
+            "min_height": "0px",
+            "height": "343px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2756,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3059,
+            "text": "Ask ILMERA how to treat alternative proof as a question, not a shortcut"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2881,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-chikkamagaluru__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2626,
+          "element_height": 343,
+          "computed": {
+            "min_height": "0px",
+            "height": "343px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2756,
+            "text": "How can Chikkamagaluru students find the requirement that belongs to your course?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3059,
+            "text": "Ask ILMERA how to treat alternative proof as a question, not a shortcut"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "423d1c1b9c8a960a9f19e2f5b94eff7fad141864563f2520e7be4f1f34501449"
+  }
+}

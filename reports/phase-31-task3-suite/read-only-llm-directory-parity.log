@@ -1,0 +1,1 @@
+PASS {'llms.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}, 'llms-full.txt': {'metadata_entries': 32, 'published_urls': 38, 'destinations': 7, 'locations': 17, 'blog_articles': 6}}

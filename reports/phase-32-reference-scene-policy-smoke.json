@@ -1,0 +1,91 @@
+{
+    "phase": 32,
+    "status": "PASS",
+    "scenes_enabled": true,
+    "routes": [
+        {
+            "route": "/",
+            "checks": {
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/services",
+            "checks": {
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/about",
+            "checks": {
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        },
+        {
+            "route": "/contact",
+            "checks": {
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
+                "loader_once": true,
+                "fallback_style_once": true,
+                "original_external_script_tags_removed": true,
+                "urls_retained_only_in_lazy_loader": true,
+                "scene_init_wrapped": true,
+                "dimensions_hoisted_for_shared_scope": true,
+                "heading_preserved": true,
+                "original_canvas_preserved": true,
+                "reserved_canvas_style": true
+            },
+            "status": "PASS"
+        }
+    ]
+}

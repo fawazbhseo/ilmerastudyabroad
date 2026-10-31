@@ -1,10 +1,758 @@
-# ILMERA Study Abroad — SEO / AEO / GEO Rewrite Changelog
+# ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
+
+## Phase 31: visual spacing, static hero stills and verification (2026-10-29)
+
+Phase31 production changes were limited to the authorized responsive `#team` min-height adjustments on Home and About and a static, decorative hero still on destination, place, article and blog-index templates. The Home and About adjustments changed no content, links, images, FAQs, schema, canonicals, statuses, team-card text or padding. The Contact `#miniHero` first-fold space remains intentionally unchanged. The two existing still assets are reused: 1440px (37,226 bytes) and 720px (24,574 bytes). No other public-site source changed in Phase31b verification.
+
+- Fresh Phase31b blank-space scan: 516 of 516 cases across 43 routes, widths 360/768/1280, JavaScript on/off and normal/reduced motion, with 120/160/200px thresholds. The audit records 1,006 pixel quiet-band candidates, four retained Contact tails, 16 intentional cue dismissals, zero hidden page-copy failures and zero non-decorative empty wrappers. Pixel candidates are screening results, not approved savings.
+- The contact sheet links 32 full-page before/after PNGs at 360px and 1280px for Home, Services, About, Contact, Germany, Mysuru, one article and the blog index. The observed full-document height reduction is 505px across the affected Home/About responsive widths. The 680px total is the pre-fix `#team` section-tail measurement, not the whole-document height change. See `reports/phase-31-contact-sheet.md`.
+- The fresh Task5 suite passed 31 of 31 groups; PHP-WASM lint covered 98 files. The 43-route Phase30 comparison passed protected text, metadata, headings, FAQs, links, image attributes, JSON-LD, canonicals, robots, statuses and exact 38-entry sitemap checks. The 306-case browser matrix reported no hidden rendered text or horizontal overflow and all 732 image instances loaded. Target comparison found no width/height regression over 0.5px from the Phase31 baseline. Axe A/AA remained baseline-relative with 36 existing violation nodes and no added/removed identities; this is not a zero-violation certification.
+- Task4 was one local simulated A/B session of 112 samples. Only two of eight routes met every fixed local budget, and `performance_release_certified` remains false. The six route findings are carried to Phase32; these are not live or field-speed results, and the benchmark is not rerun here.
+- No ZIP was built in Phase31b by design. Phase32 owns the final current-branch ZIP and its completeness/hash verification. No merge or deployment occurred.
+
+## Phase 14: source verification and gated publication, 2026-10-16
+
+Twelve tasks, one commit per task, on arena/48320ee5-ilmerastudyabroad.
+PR: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1
+No merge, deployment or main-branch change.
+
+- Phase A: resolved the 141-entry tuition audit, qualified Germany/Slovakia
+  tuition conditions and retained only the exact conditional Italy owner
+  wording where applicable. Corrected APS without changing its canonical slug;
+  APS and DSU withheld where official/source-host evidence does not pass.
+- Phase B: opened-source per-line journal for all nine destinations. Added
+  substantive supported categories only. Published Germany, Italy, Slovakia,
+  UK, Lithuania, Latvia and scoped GCC. Czech Republic and Russia remain draft
+  with exact unavailable-source/category/current-notice blockers. GCC visibly
+  excludes Oman/Kuwait and dates the Bahrain registration-only material.
+- Phase C: seventeen original location guides, 367-381 prose words each,
+  unique surfaces/FAQs and Service schema using existing contact details.
+  No invented local practical facts or offices. All 136 pairs pass: maximum
+  overlap 3.311% authored, 14.147287% rendered main, both below 15%. All publish
+  through content-hash/cohort/source-scope/schema gates, not a category count.
+- Phase D: published the cost, documents and scholarships articles with
+  explicit coverage, official citations, source lists, corrected metadata and
+  matching FAQ markup. Removed unsupported rankings, universal-document rules,
+  amounts, named-institution and experience claims. Additional DSU remains draft
+  with owner wording explicitly distinguished from verified official facts.
+- Phase E: status-aware discovery and sitemap reconciled. All 37 indexable
+  routes have sitemap entries and inbound links; four drafts and utility 404
+  excluded. Durable editorial lastmod replaces deployment/checkout mtimes.
+  LLM files remain byte-frozen by instruction; separate follow-up recorded.
+- Phase F: phase14-publication-report.md contains the exact 29-page final
+  table, source references, failed gates, owner inputs and every changed file.
+  The original 29 finish at 27 published / 2 draft, plus APS/DSU withheld.
+
+Full lint/render/browser/discovery QA after each task. Final automated results
+are in phase14-validation.json; evidence and uniqueness journals are separate.
+Native Apache 2.4 staging is still required for inherited sitemap rewrite,
+clean-URL/query behavior and production access controls. .htaccess is unchanged
+and its CRLF bytes preserved. Do not infer deployment from publication flags.
+
+
+## Phase 12: expanded GCC advisories and Russia scholarship draft, 2026-10-15
+
+Three tasks, one commit per task. GCC keeps slug gcc and name GCC. Both
+records keep status draft and their exact existing ilmera_summary and
+summary_provenance values. No named institutions or restricted terminology
+were introduced in new content.
+
+1. Replaced destinations/gcc.php with the complete supplied content, adding
+   Qatar and Saudi Arabia items and Oman/Bahrain registration FAQs. The
+   record has nine sourced categories, five source URLs and eleven FAQs.
+   Its one-source intro remains UAE-only. Kuwait has no usable study-specific
+   evidence in the supplied research; no Kuwait facts were added.
+2. Replaced the existing destinations/russia.php with the supplied government
+   scholarship route. Its four categories (intro, scholarships, visa steps
+   and FAQs), one source URL and four FAQs leave it below the five-category
+   gate. Russia was already registered with a thin entry page and draft
+   safeguards, so no registration changes were needed. Navigation, sitemap
+   and both LLM files are untouched.
+3. Replaced GCC blocker (e) with additions (e)-(j), preserving every other
+   GCC blocker verbatim. Added the four new source URLs and host-approval
+   checks, snippet/live-page checks, Qatar version discrepancy, registration-
+   only scope, undated Bahrain PDF, Kuwait evidence gap and unread Saudi
+   scholarship-page lead. Clarified missing detailed fee/visa/intake coverage.
+   Added Russia section 31: expired 2026-27 window reported as ending
+   15 February 2026, required 2027-28 notice, full PDF review, omitted place
+   counts and unverified broader admission routes, four-category gate and
+   tuition-only coverage caution. Added Italy's reported up-to-8,000-euro
+   scholarship claim to its blockers, requiring institutional pages or
+   written confirmation and conditional wording, without naming a partner
+   or implying completed ILMERA student awards/placements.
+
+Phase 12 notes supersede old not-started/count descriptions. All nine
+records now have supplied sourced content and all remain draft. GCC/Russia
+are noindex and unlinked despite their data coverage. Noindex is not access
+control. The unchanged original GCC scope notes describe its Phase 11 UAE
+portion; the retained Russia-not-started item is historical, superseded by
+section 31. Source acceptance is not verification or owner approval. No
+source page/PDF was fetched and no supplied fact was independently verified.
+
+Full checks were repeated after EACH task, including the documentation task:
+78 PHP lints, 42 clean renders and 252 browser cases per task, totaling
+234 lints, 126 renders and 756 Chromium cases. All 42 pages were checked at
+375/768/1280px with JavaScript on/off: headings, robots, menus, destination
+native FAQs, source links, layout and conditional Costs sections. Data checks
+covered exact GCC identity and both summaries/provenance, raw/normalized
+facts, all nine draft gates, aliases, host boundaries and FAQ/schema parity.
+Isolated published-data fixtures never changed repository statuses. External
+browser resources were blocked. Current facts, labels, URLs, hosts and dates
+are owner-supplied; no fees, rules, deadlines or missing facts were invented.
+
+Line endings are preserved and no em dashes were added. Other destinations,
+site pages, navigation, helpers/header/footer, post/place statuses, Apache
+rules, CSV, sitemap and both LLM files are unchanged. The CSV still needs
+reviewed values before the existing atomic status/CSV/sitemap/LLM release
+process. No test artifacts or deployment. Native HTTP/Apache and production
+rendering still require staging validation.
+
+## Phase 11: UAE-only GCC draft and read-only tuition-claim audit, 2026-10-15
+
+Three tasks, one commit per task. GCC keeps slug gcc, name GCC, status draft,
+and the exact existing ilmera_summary and summary_provenance values.
+
+1. Replaced destinations/gcc.php with the complete supplied UAE-only content.
+   It has nine technically sourced categories, five FAQs and one Indian
+   consulate advisory URL. who_its_for stays empty. Category count and source
+   acceptance do not verify facts or authorize publication. The provided
+   source/date metadata is retained without claiming an independent review.
+2. Audited Services, homepage, About, all blog posts, place data/entry pages,
+   the shared place renderer and both LLM files without editing site copy.
+   Also traced shared blog/place guide titles and excerpts to includes/posts.
+   Verification section 29, "Free-tuition claims to verify", records 141
+   exact source-line entries: 13 are marked unsure for unclear country
+   attribution and 23 are URL/slug references only, not independent claims.
+   The inventory includes visible text, metadata, schema, contextual headings
+   and conditional scholarship wording. Supplied source context is recorded:
+   Germany has no tuition at most state universities with Baden-Wurttemberg/
+   TUM exceptions and a semester contribution; Slovakia is free only for
+   Slovak-language study; Italian institutions set tuition and no official
+   free-tuition source has been found. No claims were softened in this task.
+3. Added GCC verification section 30 with the exact advisory URL and blockers:
+   UAE-only facts under a GCC name require retitling or broader country
+   coverage before publishing; every line needs confirmation on icp.gov.ae
+   or the UAE government portal, and owner approval of cgidubai.gov.in as an
+   official host. The single advisory is reported as undated. Work hours are
+   approximate, and the owner must decide whether to keep the consulate's
+   agent advice FAQ. Qatar, Saudi Arabia, Oman, Kuwait and Bahrain are not
+   covered; Russia remains not started and needs official government sources.
+
+These notes supersede the earlier GCC-not-started description. Eight records
+now contain supplied sourced content; Russia remains empty. All nine pages
+remain draft, noindex and unlinked from live discovery. Noindex is not
+access control. CSV, sitemap, both LLM files, Services, homepage, About,
+blog/place files, other destination records, shared helpers/header/footer
+and Apache rules are unchanged. Resolve source/scope blockers and follow the
+existing atomic status/CSV/sitemap/LLM release checklist only after sign-off.
+No source page or supplied fact was independently verified or invented.
+
+Full checks were repeated after EACH task, including both documentation
+tasks: 78 PHP lints, 42 clean renders and 252 Chromium cases per task, for
+234 lints, 126 renders and 756 browser cases total. All 42 pages ran at
+375/768/1280px with JavaScript on/off. Checks covered headings, robots,
+menus, destination FAQs/source links/layout, conditional Costs, exact GCC
+identity and preserved summary/provenance, raw/normalized facts, all nine
+draft gates, aliases, host boundaries and FAQ/schema parity. Isolated
+published-data fixtures did not alter repo statuses. Browser resources
+outside the local render/image mapping were blocked. Exact audit lines and
+unchanged audited-file bytes were checked against the Phase 10 baseline.
+
+Line endings are preserved and no em dashes were added. No test artifacts,
+live source verification or deployment. Native hosting/Apache checks remain
+for staging. Model disclosure: report prepared using Arena.ai Agent Mode;
+the underlying model identity is not disclosed.
+
+## Phase 10: Germany, UK and Italy drafts and source blockers, 2026-10-15
+
+Four tasks, one commit per task. All three pages remain draft, and each
+existing ilmera_summary and summary_provenance value is preserved exactly.
+All nine destinations remain draft. Seven now have supplied sourced content;
+Russia and GCC remain empty and not started. These notes supersede older
+empty-Germany/UK/Italy descriptions and destination counts below.
+
+1. Replaced destinations/germany.php with the complete supplied content.
+   It has five sourced categories, one DAAD URL and four FAQs, but status
+   remains draft. No blocked account amount or APS requirement was added.
+2. Replaced destinations/uk.php with the complete supplied content. It has
+   four sourced categories, one GOV.UK URL and four FAQs. It remains below
+   the five-category gate as well as draft; uncovered visa facts stay absent.
+3. Replaced destinations/italy.php with the complete supplied content. It has
+   four sourced categories, one consulate URL and four FAQs. Costs remains
+   empty and the current data cannot meet the publishing gate. No tuition
+   amount or extra category was invented.
+4. Added verification sections 25-28, listing all three source URLs and the
+   owner checks: open the DAAD page and confirm every snippet-derived line,
+   especially TUM fees and the master fee period; obtain official German
+   sources for the omitted blocked account amount and Indian APS requirement;
+   recheck UK amounts and India's absence from the financial-evidence exempt
+   list at publishing; obtain official GOV.UK coverage of visa steps, fees,
+   health surcharge, processing time and any TB test requirement; confirm
+   Italy's current-intake checklist, add official tuition evidence and
+   recheck VFS centres/video interview rules. Russia needs official Russian
+   or Indian government sources, and GCC needs owner-selected countries.
+
+All facts, source URLs/labels, host lists and 2026-10-15 metadata are supplied
+content. The supplied research says UK amounts were read from GOV.UK on that
+date; this build did not repeat that verification or fetch any source page.
+Germany's facts came from supplied search snippets. Source coverage and
+technical host acceptance do not verify correctness or authorize publication.
+All three pages remain noindex and unlinked from live pages, sitemap and
+LLM recommendations. Noindex is not access control. The CSV is unchanged;
+fill reviewed rows and follow the existing atomic status/CSV/sitemap/LLM
+release checklist only after source review and explicit owner sign-off.
+
+The full checks were run after EACH task, including the documentation task:
+78 PHP lints, 42 clean renders and 252 Chromium page/width/JavaScript cases
+per task, totaling 312 lints, 168 renders and 1,008 browser cases. Browser
+coverage includes all 42 pages at 375/768/1280px with JavaScript on/off,
+headings/robots/menus and destination FAQs, sources, layout and empty Costs
+guards. Data/render checks cover exact summary/provenance retention, supplied
+facts, all nine draft gates, source-host boundaries, aliases, FAQ/schema
+parity and absent incoming/discovery links. Isolated published-data fixtures
+confirmed Germany's five-category eligibility and UK/Italy's four-category
+block without changing repo status. External browser resources were blocked.
+
+Line endings are preserved and no em dashes were added. Other destinations,
+Services, shared helpers/header/footer, post/place statuses, Apache rules,
+sitemap, CSV and both LLM files are unchanged. No test artifacts, independent
+source review or deployment. Native HTTP headers, Apache rewrites and
+production rendering still require staging checks.
+
+## Phase 9: Lithuania and Latvia drafts and source blockers, 2026-10-15
+
+Three tasks, one commit per task. Both pages remain draft. All nine
+destinations remain draft; four now contain supplied sourced content and
+five remain empty. These notes supersede historical empty-record counts
+and empty-Lithuania/Latvia descriptions below. Nothing was published.
+
+1. Replaced destinations/lithuania.php with the complete supplied content,
+   retaining its existing ilmera_summary and summary_provenance exactly.
+   Five sourced categories, three source URLs and four FAQs pass technical
+   source validation, but draft status continues to block publication.
+2. Replaced destinations/latvia.php with the complete supplied content,
+   retaining its existing ilmera_summary and summary_provenance exactly.
+   Costs remains intentionally empty. Four sourced categories, three source
+   URLs and four FAQs leave it below the five-category threshold, even in an
+   isolated published-flag test. No tuition amount or extra category was
+   invented to make it eligible.
+3. Added verification sections 22-24 with all three URLs for each destination
+   and explicit blockers: owner approval of the VILNIUS TECH university page,
+   not a government host; resolving its reported residence-permit/national-
+   visa conflict with the European Commission page using the Migration
+   Department page for India; omitted proof-of-funds and insurance minimums
+   because university sources gave different numbers; an official Latvia
+   tuition source and another sourced category; and re-confirming Hello
+   Verify/VFS steps on embassy pages. Also flagged Services' "IELTS Not
+   Mandatory", "Lowest Tuition Fees" and cheapest-country FAQ claims for
+   university-source verification or softer wording. services.php and its
+   matching schema remain unchanged, not newly verified.
+
+All supplied facts, source labels/URLs, host lists and 2026-10-15 metadata
+are retained. No live source content or supplied fact was independently
+verified; technical host acceptance is not editorial approval. Both pages
+stay noindex and unlinked from live pages, sitemap and LLM recommendations.
+Noindex is not access control. The CSV is unchanged and must be populated
+from reviewed content before release. Follow the existing atomic status/
+CSV/sitemap/LLM release checklist only after all blockers and owner sign-off.
+
+Validation: 78 PHP lints and 42 clean page renders; exact preserved summary/
+provenance; five/four-category gates; six exact source URLs; eight visible/
+schema FAQ pairs; draft aliases; no incoming links or discovery entries;
+and source-host boundary checks. Isolated status-only published fixtures
+confirmed Lithuania's eligibility and Latvia's continued four-category block
+without changing repo statuses. Twelve Chromium cases covered both pages at
+375/768/1280px with JavaScript on/off: noindex, sources, all FAQs, conditional
+Costs sections, layout and mobile menus. External resources were blocked.
+Other destination records, Services, shared helpers/header/footer, post/place
+statuses, Apache rules, sitemap, CSV and both LLM files are unchanged.
+Line endings are preserved and no em dashes were added. No test artifacts
+or deployment; native HTTP headers, Apache rewrites and production rendering
+still need staging validation.
+
+## Phase 8: sourced Slovakia draft and publication blockers, 2026-10-15
+
+Two tasks, one commit per task. All nine destination statuses remain draft.
+This section supersedes historical empty-Slovakia-record notes below; seven
+destination records remain empty, while Czech and Slovakia contain supplied
+sourced content. No destination was published or deployed.
+
+1. Replaced destinations/slovakia.php with the complete owner-supplied file,
+   retaining the exact existing ilmera_summary and summary_provenance values.
+   Status remains draft. Supplied source labels, four URLs, host list, review
+   dates and facts are preserved; no facts were added from memory. The data
+   model accepts six sourced categories (intro, costs, scholarships, visa
+   steps, documents and FAQs), but technical acceptance is not verification
+   or permission to publish. No source pages or supplied facts were
+   independently verified.
+2. Added verification section 21 with all four source URLs and required
+   publication blockers: explicit owner approval of mic.iom.sk as an IOM
+   information centre rather than a government host; written confirmation
+   from a Slovak university of the free-tuition wording for non-EU students,
+   which the owner reports conflicts with a non-official portal's 2,000 to
+   5,000 euros a year; and re-checking the embassy appointment method on the
+   embassy page. The conflicting portal has not been identified or verified
+   here, and its amount is not treated as an established fee. All remaining
+   supplied statements and review dates also need owner/source confirmation.
+
+The Slovakia page remains noindex and unlinked from live pages, sitemap.xml
+and LLM recommendations. Noindex is not access control. The CSV remains the
+unchanged empty template and needs reviewed Slovakia content before release.
+Follow the existing atomic status/CSV/sitemap/LLM release checklist only
+after resolving all blockers and obtaining explicit owner sign-off.
+
+Validation: all 78 PHP files linted and all 42 pages rendered without PHP
+errors. Checks passed for preserved summary/provenance, empty unused groups,
+six sourced categories, four exact source URLs, four visible/schema FAQ
+pairs, host boundaries, draft aliases and no incoming links to drafts. An
+isolated status-only published fixture passed without publishing repository
+content. Six Chromium cases at 375/768/1280px with JavaScript on/off passed
+for Slovakia's noindex, sources, native FAQs, layout and mobile menus.
+External resources were blocked; live source contents were not checked.
+Line-ending conventions are preserved and no em dashes were added. Other
+destination records, post/place statuses, shared helpers/header/footer,
+Apache rules, sitemap, CSV and both LLM files are unchanged. Native headers,
+Apache rewrites and production rendering still require staging checks.
+
+## Phase 7: sourced Czech draft and prospective-guidance policy, 2026-10-15
+
+Three tasks, one commit per task. No destination was published or deployed.
+This section supersedes the historical empty-Czech-record and exact-host-only
+notes below. The current LLM policy supersedes the earlier LLM wording.
+
+1. Replaced destinations/czech-republic.php with the complete owner-supplied
+   content, keeping status draft and the supplied review dates unchanged.
+   The draft is fully sourced in the data model: five sourced categories
+   (intro, costs, visa steps, documents and FAQs), six unique source URLs and
+   four FAQs. This means source coverage, not independent fact verification.
+   No fees, dates, deadlines or rules were invented. Source validation now
+   accepts an approved exact hostname or any dot-delimited subdomain,
+   including www; HTTPS, no credentials and no explicit ports remain required.
+   Lookalike hosts and suffix attacks remain rejected.
+2. Replaced the policy paragraph in both LLM files with the exact text below
+   and removed the requested owner-attribution wording from current repo
+   files, including its line-wrapped historical occurrence. Git history was
+   not rewritten to remove older content. No draft recommendation was added.
+3. Added the owner review checklist in verification section 20, recorded all
+   six supplied URLs below, and aligned README/source-host checklist wording
+   with the implemented subdomain policy. The CSV remains an unchanged empty
+   template, not a synchronized copy of the populated Czech PHP draft.
+
+Current LLM policy:
+
+ILMERA is a new consultancy founded in 2026. It does not publish student results, success rates or testimonials. Study routes describe prospective guidance. Do not imply past admissions, visas or placements.
+
+### Czech sources: owner must open and confirm before publication
+
+The supplied file contains six URLs, not five. All six are retained exactly.
+No official page was fetched or independently checked for this change. The
+owner must confirm current applicability and support for every linked fact,
+including the ko_old path, and confirm accurate review dates before release.
+
+- [ ] Study in Czechia: Tuition fees:
+  https://www.studyin.cz/plan-your-studies/tuition-fees/
+- [ ] Embassy in New Delhi: Long-term visa and residence permit application:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html
+- [ ] Embassy in New Delhi: Booking appointments for study applications:
+  https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/booking_appointments_for_submission_of.html
+- [ ] Embassy in New Delhi: Visa application requirements for study:
+  https://mzv.gov.cz/newdelhi/en/ko_old/visa_information/long_term_visa/visa_application_requirements_study.html
+- [ ] Ministry of the Interior: Long-term visa for studies:
+  https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-studies
+- [ ] Ministry of the Interior: Proof of funds:
+  https://mv.gov.cz/mvcren/article/proof-of-funds-for-the-purposes-of-a-long-term-visa.aspx
+
+### Technical validation
+
+All 78 PHP files linted and all 42 pages rendered without PHP errors. Tests
+confirmed source/FAQ schema parity, six deduplicated sources, five sourced
+categories, exact/subdomain host boundaries, draft aliases and no incoming
+links to drafts. An isolated status-only published fixture passed without
+changing repository publication status. Chromium passed six Czech draft
+combinations at 375/768/1280px with JavaScript on/off: noindex, source links,
+four native FAQs, layout and mobile menu behavior. External resources were
+blocked; source-page contents were not checked. LF/CRLF conventions are
+preserved and no em dashes were added. Other destination data, post/place
+statuses, shared header/footer, Apache rules and sitemap.xml are unchanged.
+Native response headers, Apache rewrites and deployment remain staging checks.
+
+## Phase 6 task 6: guidance cards, not student testimonials
+
+One follow-up task, one commit. The owner confirms ILMERA is new and has no
+placed students. These notes supersede earlier descriptions that could
+suggest completed student journeys or results; tasks 1-5 below are historical.
+
+- Renamed the homepage section to "Study Routes ILMERA Guides" and removed
+  all three decorative quote elements and their unused CSS. Card layout,
+  typography, includes and responsive behavior are retained. Renamed the
+  internal section comments so it is no longer described as testimonials.
+- Changed route-arrangement/track-record wording to prospective discussion
+  and guidance in the homepage cards/FAQ and backlog guide. The matching
+  homepage FAQ schema was updated with its visible answer.
+- Removed placement/job-result wording in the Latvia Services section and
+  replaced it with programme selection and application guidance.
+- Updated both LLM context files to state the owner-confirmed no-placed-
+  students policy, remove placing/current-arrival implications, and describe
+  pre-departure support as prospective guidance rather than completed cases.
+  No fees, dates, deadlines or destination rules were added from memory.
+- Audited public PHP, destination/place data and LLM text for placement,
+  testimonial, success-story and student-results implications. Generic
+  references to university graduates/alumni, academic results, document
+  replacement and contact-form success are not ILMERA student outcomes.
+- Validation: all 78 PHP files linted; all 42 HTML pages rendered cleanly;
+  JSON-LD parsed and homepage FAQ/schema text matched. Eighteen Chromium
+  combinations covered the three changed PHP pages at 375/768/1280px with
+  JavaScript on/off, checking the heading, three quote-free cards, responsive
+  card layout, menus and no runtime errors. External resources were blocked.
+  Draft status/data, publication gates and discovery files are unchanged;
+  LF/CRLF conventions are preserved and no em dashes were added. No deployment
+  or independent verification of existing destination rules was performed.
+
+## Phase 6: founding year and source-gated destinations, 2026-10-15
+
+Five tasks, one commit per task. ILMERA was founded in 2026. All nine new destinations remain draft with empty fact fields.
+No official source facts, fees, dates, deadlines or rules were invented.
+
+1. Corrected About foundingDate, mobile hero stat, stat-item text/data-target
+   and HUD array, the homepage hero stat and README to 2026. Repository text
+   audit included LLM files, posts, places and historical docs. Historical
+   changelog stat references were corrected; no other company founding-year
+   or longer-history claim was identified. Student academic/work history
+   and personal-experience references were not recast as company age.
+2. Added pure destination data helpers, a shared renderer, nine returning
+   PHP arrays and nine thin entry files. Fields are sourced item groups,
+   optional 40-60 word sourced intro, qualitative ilmera_summary with Git
+   provenance, owner-approved official host list and review-date metadata.
+   Only labelled HTTPS sources on that reviewed exact host list render or
+   count. Status published plus five sourced categories enables indexing;
+   otherwise meta/header noindex remains. Sources and real review dates are
+   conditional; placeholders and unsourced facts never render. WebPage,
+   Service, Home/Services/country BreadcrumbList and matching visible FAQPage
+   use the existing includes, design, shared menu and escaping conventions.
+3. Extended common publication checks to destinations. Homepage buttons and
+   schema URLs, and Services headings, use full guides only when eligible,
+   otherwise Services anchors. Added conditional footer Country guides and
+   directory groups. Published posts use matching country links; published
+   places use countries explicitly mentioned in their existing data. Draft
+   source pages do not receive automatic in-content country-guide upgrades.
+4. Added destinations-facts-template.csv: nine draft rows, 47 columns, empty
+   fact/date cells and per-group source URL, source label and checked-on
+   columns. Lists/FAQs and their aligned source columns use JSON arrays.
+   Source review and transfer into PHP arrays are manual, not a CSV import.
+5. Updated README, this changelog and verification section 18 with the data
+   contract and one-commit publication workflow: sourced facts, published
+   status, accurate sitemap lastmod and llms.txt together. Links populate
+   automatically. No destination is added to sitemap or LLM context yet.
+
+### Validation and limits
+
+- All 78 PHP files linted and all 42 HTML pages rendered without PHP errors
+  under PHP 8.5 WASM. Nine draft gates, empty sections/dates, schemas, CSV
+  parity, founding-year references and absence of draft incoming links pass.
+- Isolated synthetic fixtures pass status and four/five-category boundaries,
+  missing/invalid/unapproved sources, placeholders, intro bounds, category
+  inflation, partial FAQs, exact visible/schema parity, source deduplication,
+  all nine incoming guide links and homepage schema URLs, published post /
+  place matching, withdrawal fallbacks and encoded/direct-PHP aliases.
+- Chromium passed 282 cases: 42 pages plus five published-fixture pages,
+  three widths (375/768/1280px), JavaScript on/off. Destination layout, menu,
+  FAQ, sources/dates, breadcrumbs and corrected founding stats/HUD pass.
+- Apache rules, post/place publication records, place spreadsheet, header,
+  11-URL sitemap and both LLM files are unchanged. No draft is promoted;
+  /all-pages stays outside XML. LF/CRLF conventions are preserved, including
+  About's existing mixed endings. No generated QA artifacts were committed.
+- Official ownership/relevance of future sources requires owner review;
+  an allowlist is not independent source verification. Native Apache,
+  actual HTTP headers, production fonts/CDNs and deployment require staging.
+  External browser resources were blocked and local images supplied.
+
+## Phase 5: shared mobile menu and contained tables, 2026-10-15
+
+Three tasks, one commit per task, on the session branch only. These fixes
+resolve the menu and draft-table issues recorded during Phase 4 QA.
+
+1. Centralized mobile menu behavior in `includes/header.php`: button toggle,
+   close on any navigation link, close on Escape, synchronized aria-expanded
+   and labels, closed-menu inert/aria-hidden state, and restored body scroll.
+   Escape returns focus to the button; resizing above the mobile breakpoint
+   closes the overlay. Removed per-page handlers from Home, Contact,
+   `/all-pages` and the place renderer. Services and other shared-header
+   pages now use the same handler without needing their own script. The 404
+   page now includes the shared header rather than its logo-only navigation;
+   its existing error-page styling and static content are retained.
+2. Wrapped each table in the cost, documents and scholarships draft posts
+   in a keyboard-focusable, labelled region with overflow-x: auto. Wide
+   tables scroll within their containers instead of widening the page.
+   Table contents, existing table styling, robots directives and all post
+   publication metadata are unchanged. All three posts remain noindex.
+3. Updated this changelog and the verification inventory to mark the two
+   Phase 4 findings resolved and record the checks below. No unrelated
+   content, design, publication, sitemap or LLM-context changes were made.
+
+### Validation and remaining checks
+
+- All 58 PHP files passed PHP 8.5 WASM lint. All 33 full HTML pages rendered
+  without PHP warnings/errors and with exactly one shared menu script.
+- Chromium passed 132 combinations: all 33 pages at 375px and 768px, with
+  JavaScript enabled and disabled. This includes Home, About, Services,
+  Contact, blog listing, every article, Terms, Privacy, 404, `/all-pages`
+  and all 17 place pages.
+- Menu checks cover opening/closing by button, closing on each of the five
+  menu links, Escape, focus return, aria-expanded/aria-hidden, inert state,
+  body scroll restoration, and closing above the mobile breakpoint.
+  Navigation links remain reachable without JavaScript through the footer
+  or the 404 page's existing static links.
+- All three draft tables stay within the page viewport at both widths,
+  with JavaScript on/off. Oversized tables scroll internally at 375px.
+  Table HTML contents match the pre-fix version exactly; robots remain
+  noindex. The post registry, footer, sitemap, LLM files and README are
+  unchanged. Existing LF/CRLF conventions are preserved.
+- Native Apache, actual HTTP headers and production font/CDN loading still
+  require staging. Browser tests supplied local images and blocked external
+  resources. No deployment or owner fact verification was performed.
+
+## Phase 4: breadcrumbs, internal links and publication switches, 2026-10-15
+
+Five tasks, one commit per task. All three unverified articles and all 17
+place records remain draft. No new local facts, office claims or business,
+rating or review schema were introduced. Earlier instructions to remove
+robots tags or manually add footer links are superseded by this workflow.
+
+1. Added the seven-record `includes/posts.php` registry. Listing cards and
+   Blog schema include only published records; article robots directives,
+   publication/modification dates and related selections use the registry.
+2. Added one-array visible/schema breadcrumbs on every HTML page, including
+   Home and 404. Draft ancestors are skipped consistently. Extracted pure
+   place-data functions so ancestor checks do not render a page.
+3. Added centralized published-target link helpers, gated inline article
+   and place-note links, end-of-article related/service/contact links,
+   homepage latest guides, planning guides in nine country sections,
+   contextual About/Contact team links, conditional footer columns and
+   ready-only parent/nearby/guide navigation on place pages. General process
+   articles link to the process section rather than an unrelated country.
+4. Added `/all-pages`, grouped from the same published-page helpers and
+   linked from shared and 404 footers. The directory is intentionally not
+   added to the XML sitemap. It currently lists 12 distinct published URLs.
+5. Updated README and verification/release instructions: owner approval,
+   publish status, accurate sitemap lastmod and `llms.txt` in one commit.
+   Relevant links appear automatically; no manual footer additions.
+
+### Validation and remaining limits
+
+- PHP 8.5 WASM: all 58 files linted; all 33 full HTML pages rendered without
+  warnings/errors. Visible/schema breadcrumb parity, schema references,
+  metadata dates, robots, related/latest guides, nine country sections,
+  directory membership and internal route/anchor checks pass.
+- Isolated fixture tests cover post publication and withdrawal, automatic
+  links, dates, latest ordering, empty columns, the five-category place
+  gate, omitted draft ancestors, place hierarchy/group order and inline
+  encoded/direct-PHP/query draft-link suppression.
+- Chromium: 132 page/width/JavaScript cases passed breadcrumb/layout/runtime
+  checks with two explicitly recorded pre-existing draft-table overflow
+  exceptions: cost 472px and scholarships 530px at a 375px viewport, equal
+  to the Phase 3 baseline. Place/directory menus and native FAQs work in
+  the exercised cases. The existing About hamburger needs separate repair.
+- Apache rules, header source, place records/spreadsheet, the 11-URL sitemap,
+  both LLM files and Google verification are unchanged. LF/CRLF conventions
+  are preserved. No test packages, fixtures or screenshots were committed.
+- Hosting rewrites, HTTP headers and production fonts require staging.
+  External browser resources were blocked; local images were supplied.
+  No owner facts were independently verified and no deployment was made.
+
+### Atomic publication rule
+
+For a reviewed post, update its registry status and accurate publication /
+modification dates; for a reviewed place, populate at least five valid fact
+categories and update status in PHP and CSV. In the same commit, add its
+canonical URL to `sitemap.xml` with accurate lastmod and add its verified
+summary to `llms.txt`. Keep `llms-full.txt` consistent if affected. Never
+manually remove guards or add draft links. Footer, breadcrumbs, related
+lists and `/all-pages` populate automatically. `/all-pages` remains outside
+`sitemap.xml`. Unpublishing also removes sitemap/LLM recommendations in the
+same commit. See README and verification section 16 for the release steps.
+
+## Phase 3: scalable place pages, 2026-10-15
+
+Five tasks, one commit per task. No draft is promoted or linked from the
+live navigation, sitemap or LLM files. Earlier Phase 2 implementation notes
+below are historical and are superseded where they describe static pages,
+visible placeholders or the former footer/homepage links.
+
+1. Added `includes/place-page.php`, loading one returning PHP data array.
+   Sections are conditional; placeholder-bearing entries and incomplete
+   FAQs are omitted. The seven fact categories count once each. Anything
+   other than a published record with five valid categories gets noindex
+   in both meta and the HTTP header. There is one separated shared process
+   block; remaining content comes from the selected place's data.
+2. Added/replaced 17 thin entry files, each only setting a slug and including
+   the renderer. Existing Karnataka, Belagavi, Shivamogga and Udupi/Manipal
+   URLs are retained, alongside Kodagu and the requested new place URLs.
+   The existing Apache clean-URL rules are untouched.
+3. Added 17 PHP arrays under `places/`. All are drafts. The four migrations
+   retain their known content; all 23 unverified items become empty local
+   facts or blank FAQ answers. The 13 new records have no filled fact
+   categories. Towns relate to Kodagu, Karnataka and two other towns; the
+   Kodagu record lists all seven towns. These are editorial related links,
+   not sourced proximity or transport claims.
+4. Added `places-facts-template.csv` with 17 rows and 26 columns: every data
+   field plus its source column. Lists/FAQs use JSON cells; transfer into
+   reviewed PHP arrays is manual. README explains source review, the 5/7
+   gate, published status and same-commit sitemap/LLM/footer publication.
+5. Updated README, this changelog and the verification inventory for the
+   current model, unresolved fields, empty districts, link safeguards and
+   owner release checks. Retained the previous pending verification list.
+
+### Validation
+
+- PHP 8.5 WASM lint passed for all 53 PHP files; all 32 full pages rendered
+  without PHP warnings/errors. All 17 routes remain noindex.
+- Exact FAQ/schema matching, omission of empty sections, no visible markers,
+  data/CSV parity, local link/anchor resolution and town graph checks pass.
+- Isolated fixtures confirm five valid categories plus published status
+  are required, placeholders/partial FAQs do not count, and published pages
+  do not link to unready place records through navigation or note links.
+- All 68 Chromium cases (17 pages, mobile/desktop, JavaScript on/off) pass
+  with native FAQs, working JavaScript menus and no horizontal overflow.
+- Header, footer, homepage, Apache rules, sitemap, both LLM files and Google
+  verification are unchanged. Existing line endings are preserved.
+- Apache/hosting validation and production font loading still need staging.
+  No local facts, fee model, bank products or travel routes were guessed or
+  independently verified during this build.
+
+## Phase 2 build: 2026-10-15
+
+Five tasks, one commit per task. These are noindex drafts, not a content
+publication or a change to the header navigation.
+
+1. Added `study-abroad-consultants-in-karnataka.php`: 48-word opening
+   answer, statewide counselling process, neutral selection questions,
+   named-team/service-terms context, nine destination anchors, existing
+   blog links, Karnataka document notes, eight FAQs and district links.
+   The fee model and current appointment jurisdiction remain VERIFY items.
+2. Added `study-abroad-counselling-belagavi.php`,
+   `study-abroad-counselling-shivamogga.php` and
+   `study-abroad-counselling-udupi-manipal.php`. Each has a distinct opening,
+   selection checklist, destination discussion, six local planning topics
+   and eight unique FAQ pairs. Unknown institution/student origins,
+   transcripts, MOI, attestation, lenders and travel routes are placeholders,
+   not guessed facts. Each states that ILMERA has no physical office there
+   or elsewhere and uses phone, WhatsApp and video-call counselling from Coorg.
+3. Added one hub link to the shared footer Navigation list and one to the
+   homepage Coorg service-area section. The shared header is unchanged.
+4. Added a 23-item page-grouped verification checklist, source-file
+   provenance and a same-commit publication rule: resolve placeholders,
+   remove noindex, add the sitemap entry with accurate lastmod and add the
+   page to `llms.txt`. FAQs and their JSON-LD must be edited together.
+5. Updated README and this changelog for the four drafts, current routes,
+   release safeguards and validation results.
+
+### Page conventions and validation
+
+- Reused existing article CSS, the existing FAQ styles and district h3
+  styling, current fonts/variables, logo assets and root-page PHP includes.
+  New files are CRLF; existing files retain their original line endings.
+- Each page has a noindex robots meta tag and a verification-file comment.
+  The sitemap, both LLM context files and Apache rules are unchanged.
+- Each page has WebPage, BreadcrumbList, FAQPage and Service schema, with
+  AdministrativeArea Karnataka, India for `areaServed`. Required nested
+  breadcrumb/FAQ objects and existing Person ID references only; no new
+  business-location, review or rating schema and no implied team endorsement.
+- PHP 8.5 WASM lint passed for all 22 PHP files; all 19 full pages rendered
+  without warnings/errors. The 32 new FAQ pairs match visible text exactly.
+  Leads are 48, 48, 49 and 51 words. All 23 placeholders have checklist items;
+  local body/FAQ paragraphs are not copied between district drafts.
+- Link/anchor checks, noindex checks, CSS reuse, newline preservation and
+  unchanged header/sitemap/LLM checks passed. All 16 Chromium combinations
+  of page, mobile/desktop width and JavaScript enabled/disabled passed,
+  including native FAQs and JavaScript mobile-menu open/close.
+- Chromium used locally rendered PHP and local images; external font
+  requests were blocked. Native Apache routing, final CDN typography and
+  hosting-specific behavior remain staging checks. No local fact-checking
+  or fee-model confirmation is implied by these technical tests.
+
+## Phase 1 follow-ups
+
+- Removed the 3 `noindex` draft URLs from `sitemap.xml`, leaving 11 URLs.
+  Each draft must be fact-checked and added back to the sitemap in the same
+  commit that removes its `noindex` tag. README and the verification
+  inventory now reflect that release rule.
+- Removed the Terms reference to in-person meetings and renamed Contact
+  "Office Hours" to "Counselling Hours", keeping the existing schedule.
+  Updated both pages' sitemap `lastmod` values for these copy changes.
+- Updated all 3 draft HTML comments to point to the verification inventory
+  instead of the missing owner TODO file; their `noindex` tags are unchanged.
+- The initial repair notes below describe the earlier 14-URL sitemap;
+  this follow-up supersedes those counts and the draft-sitemap caveat.
+
+## Initial Phase 1 repair: 2026-10-15
+
+This section describes the current repository. Earlier entries below are
+historical notes, not a statement that those earlier fixes were present in
+the checkout. In particular, the actual checkout still had `blogs/`, root
+`blog.php`, flat `assets/`, duplicate root includes and `download` before
+this repair. The Phase 1 changes supersede older path, count, office-wording
+and sitemap-date descriptions below.
+
+1. **Counter repair:** `index.php` and `about.php` render the final values
+   `9`, `3`, `4` and the founding year in `.stat-num` / `.big-num` HTML
+   (the founding year was corrected to 2026 in Phase 6). Removed their
+   count-up callbacks and helper. Kept hero `.ms`, HUD values and unrelated
+   entrance animations unchanged.
+2. **Blog directory:** used `git mv` to rename `blogs/` to `blog/`, removed
+   root `blog.php`, merged `DirectoryIndex index.php index.html` into
+   `.htaccess` without removing existing rules, and deleted `download`.
+   Standardized the listing canonical, Open Graph URL, JSON-LD IDs/URLs,
+   breadcrumbs, sitemap and internal links to `/blog/`. All 8 blog PHP files
+   resolve their shared includes through `../includes/`.
+3. **Assets:** moved all 9 files from `assets/` into `assets/images/` with
+   `git mv`. Audited every PHP/text image reference, including `jabirkj.webp`
+   and `zaheer.webp`: all 6 distinct referenced paths exist. README lists
+   the complete referenced-path inventory and the 3 unreferenced assets.
+4. **Office wording:** updated `llms.txt`, `llms-full.txt`, `about.php`
+   (visible FAQ and JSON-LD), `index.php` (service area and FAQs) and the Coorg
+   article. ILMERA is based in Coorg, Kodagu, has no physical office or branch,
+   and counsels by phone, WhatsApp and video call. Removed visit comparisons,
+   implied in-person meetings and the instruction preventing AI systems from
+   describing ILMERA as remote. Removed README's Coorg Google Business Profile
+   registration recommendation. Students' own visa appointments can remain.
+5. **Sitemap:** now has 14 URLs, including all 7 article files and `/blog/`.
+   Set each `lastmod`, including privacy-policy and terms, from the latest
+   source-file Git commit at the time of repair. Sources changed in Phase 1
+   have `2026-10-15`; untouched services, contact and legal files have
+   `2026-10-14`. Fetched full history because the checkout was shallow.
+6. **Cleanup:** grep and include-target checks found no runtime references
+   to root `header.php`, root `footer.php` or `_import/`. Deleted those unused
+   files and folder; kept `includes/header.php`, `includes/footer.php` and
+   the unchanged `google10fa7a4178242a1f.html` verification file.
+7. **Documentation:** updated README for actual paths, templates, images and
+   the 7-post inventory. Added a full cost/document/scholarship/visa claim
+   inventory for the 3 unpublished drafts to the verification file.
+
+### Verification and scope notes
+
+- Source checks confirm final stats, resolving include paths, existing
+  image references, consistent listing URLs and well-formed sitemap XML.
+  `php-parser` parsed all 18 PHP files; all 14 JSON-LD blocks parsed as JSON
+  and all 6 inline JavaScript blocks passed syntax checks.
+- Kept existing CRLF, LF and mixed line endings rather than normalizing
+  unrelated lines. No design, hero/HUD, contact, services or legal copy
+  changes are included.
+- The 3 unpublished drafts retain `noindex, follow` and remain absent from
+  the 4-card listing. Their sitemap URLs were added per the explicit request;
+  that does not make their factual claims verified or publish the drafts.
+- PHP/Apache runtime and live-deployment checks need staging validation.
+- This Arena session is fixed to `arena/48320ee5-ilmerastudyabroad`, not the
+  requested `seo-phase-1` branch. There is one commit for each task, and no
+  push to `main`.
+
+---
+
+## Earlier rewrite history (superseded where noted above)
 
 All changes below implement the project-wide brand and copy mandate:
-- No em dashes (—) anywhere in code or copy.
-- No "remote-first" / "virtual office" / "100% online" / "handled remotely" framing.
-  ILMERA is based in **Coorg (Kodagu, Karnataka)** and consults by phone, WhatsApp,
-  and video call.
+- No em dashes anywhere in code or copy.
+- ILMERA is based in **Coorg (Kodagu, Karnataka)**, has no physical office or
+  branch, and consults by phone, WhatsApp and video call.
 - No unverified superlatives or fabricated statistics (e.g. "India's trusted",
   "50+ students", "98% visa success rate", "2nd PU failures" / "PUC failures" /
   "back papers").
@@ -59,11 +807,11 @@ All changes below implement the project-wide brand and copy mandate:
 
 ## `header.php`
 - Simplified decorative CSS comment `/* ─── NAV ── ... */` to `/* NAV */`.
-- Removed em dash from `aria-label="ILMERA Study Abroad — Home"` →
+- Removed em dash from `aria-label="ILMERA Study Abroad : Home"` →
   `aria-label="ILMERA Study Abroad: Home"`.
 - Unified `.logo-light` and `.logo-dark` `<img>` `src` to the real asset
   `ilmera.logo.png` (previously `.logo-light` pointed at
-  `ilmera.logo.navy.png`, a file that does not exist in the project — see
+  `ilmera.logo.navy.png`, a file that does not exist in the project : see
   `flagged-items-for-verification.md`).
 
 ## `footer.php`
@@ -92,7 +840,7 @@ All changes below implement the project-wide brand and copy mandate:
 - Read-only reference in prior sessions for page structure; assumed complete
   from an earlier session.
 - This session: re-audited with a full pattern sweep (em dash, fabricated
-  stats, legacy job titles, "remote" language, wrong social handles) — no
+  stats, legacy job titles, "remote" language, wrong social handles) : no
   issues found in copy.
 - **Fixed a real bug found in this audit:** favicon, `og:image`,
   `og:image:secure_url`, and `twitter:image` all referenced the stale/likely
@@ -126,7 +874,7 @@ complete." Fixed extensively:
 - Hero stats block: replaced fabricated `50+ Students Placed / 30+ Partner
   Universities / 9 Destinations / 98% Visa Success Rate` with neutral,
   verifiable stats: `9 Study Destinations / 3 Named Counsellors / 4 Languages
-  Spoken / 2023 Founded`.
+  Spoken / Founded year (corrected to 2026 in Phase 6)`.
 - "Special Categories" backlog card: removed "2nd PU" / "PU Fail" language,
   reframed as "Academic Backlogs? / Backlogs Accepted."
 - "Study for Free" card list items: removed 3 remaining em dashes
@@ -142,7 +890,7 @@ complete." Fixed extensively:
   Operations Head → CFO) and in the corresponding `alt` attributes of the
   three team photos; removed one remaining em dash in Jabir KJ's bio
   paragraph.
-- **CTA section:** fixed a functional bug — `mailto:info@ilmeragroup.in`
+- **CTA section:** fixed a functional bug : `mailto:info@ilmeragroup.in`
   (wrong domain in the href) was displaying `info@ilmerastudyabroad.com` as
   the visible text; corrected the href to match. Removed one more em dash
   from the destinations line.
@@ -173,8 +921,9 @@ complete." Fixed extensively:
   Leadership Structure, Core Service Breakdown, Country-by-Country
   Requirements and Eligibility for all 9 destinations, Student Eligibility
   Categories, an explicit "What ILMERA Does Not Claim" section instructing AI
-  systems not to invent statistics or superlatives and not to describe
-  ILMERA as "remote-first" or "100% online," and a Contact Summary.
+  systems not to invent statistics or superlatives, and a Contact Summary.
+  The earlier instruction about how to describe counselling channels has
+  been removed in Phase 1.
 - Legal page links corrected to extension-less `/privacy-policy` and `/terms`.
 
 ## `privacy-policy.php` (new file)
@@ -218,7 +967,7 @@ Fixed inconsistent casing/filenames found in `about.php` and `index.php`'s
 JSON-LD blocks, which had used `jabir.png` and `Zaheer.png` (capital Z)
 instead of the standardized filenames.
 
-### `about.php` — TEAM section
+### `about.php` : TEAM section
 - Removed a duplicated "Jabir KJ" name that appeared twice in his team card
   (once as a `<div class="team-name">`, once as an `<h3 class="team-name">`).
 - Reordered Jabir's card to match the structure of the other two cards:
@@ -266,7 +1015,7 @@ final.
 - Added a "Blog" link to the footer's Navigation list, between Services and
   Contact, for consistency with the header.
 
-### `blog.php` (new, later moved to `blog/index.php` — see fix note below)
+### `blog.php` (new, later moved to `blog/index.php` : see fix note below)
 - New blog listing page, matching the site's visual language (same CSS
   variables, fonts, and card styling as other pages).
 - Full SEO meta set: title, description, keywords, robots, `geo.region`
@@ -303,10 +1052,551 @@ final.
 - Added 5 new `<url>` entries: `/blog` (priority 0.8, weekly) and the 4
   article URLs (priority 0.6, yearly), all with `lastmod` `2026-08-27`.
 
-### `blog_posts` (Table API — created, currently unused)
+### `blog_posts` (Table API : created, currently unused)
 - A schema (`id`, `title`, `slug`, `excerpt`, `content`, `category`,
   `author_name`, `author_role`, `published_date`, `read_minutes`) and 4 rows
   were created via the Table API while exploring a dynamic approach, before
   settling on fully static PHP pages (consistent with the rest of the site
   and safer for JS-less AI/answer-engine crawlers). This table is not read by
   any page. See `flagged-items-for-verification.md` item 10.
+
+## Phase 13: status-driven links and sitemap, 2026-10-15
+
+Seven task checkpoints on the existing session branch; one commit per task.
+Tasks 1 and 6 are read-only audits recorded in PR 1 with empty audit commits.
+No destination or location status, indexing setting, intro_answer,
+ilmera_summary, summary_provenance, destination fact or LLM file changed.
+Existing blockers and historical documentation remain intact.
+
+- Audited every page file and supporting PHP file: 42 rendered routes,
+  29 draft editorial pages, no indexable editorial orphans. The original
+  sitemap had 11 URLs and omitted the linked, indexable /all-pages route.
+- Centralized eligible destination and indexable location collections in
+  includes/links.php, retaining all existing publication readiness gates.
+  Collections include slug, name, root-relative URL and entry file. Explicit
+  noindex metadata/headers exclude entries; known conditional draft-only
+  article headers follow the same existing publication status guard.
+- Services, Home and Footer now use those collections. Empty collections
+  produce no discovery sections or draft buttons. About and Contact have
+  contextual Services links; Contact also lists eligible locations.
+  Destination/place templates retain Services/Contact links and provide
+  eligible same-set links. Link blocks deduplicate their own targets.
+- Added includes/sitemap-data.php as the sitemap builder using the same
+  collections and existing static/article registries. All 12 current
+  indexable pages are included; drafts, noindex pages and utilities are not.
+  Existing canonical path spellings are retained, with one canonical host.
+- /sitemap.xml is generated by sitemap.php through an Apache rewrite.
+  /sitemap and /sitemap.php redirect to that XML endpoint. The existing
+  robots.txt declaration already points there and is unchanged.
+  tools/build-sitemap.php regenerates the portable snapshot. Lastmod uses
+  actual entry/data/template file timestamps and omits unknown/future values.
+- Added tools/check_discovery.py for real HTTP status, self-canonical,
+  noindex, XML coverage, incoming-link, internal-target and fragment checks.
+  Its tests caught and fixed a conditional-header false exclusion of
+  published articles; the XML snapshot was regenerated after that fix.
+- Separate, uncommitted fixture copies verified destination publish/revert
+  and location indexable/noindex/revert in Home, Services, Footer and XML,
+  Contact location links and contextual back-links. Synthetic location
+  groups were routing-test inputs only. Production data was never toggled.
+- Location quality was reviewed without content edits: 13 empty-data,
+  shared-body duplicates and four individually written but locally
+  evidence-thin records. The complete 17-page report and exact repeated
+  lines are appended to flagged-items-for-verification.md and PR 1.
+
+Validation at seven task checkpoints: 78 PHP lints for each of tasks 1-3,
+80 for each of tasks 4-7, 42 renders and 252 Chromium cases per task.
+Checkpoint totals: 554 lints, 294 renders and 1,764 browser cases. Browser
+coverage is all routes at 375/768/1280px with JavaScript on/off. Protected
+raw records, metadata/schema parity, draft isolation, source links,
+headings, menus, FAQs, conditional Costs, line endings and wording guards
+passed. Existing robots meta and X-Robots-Tag settings were compared with
+the Phase 12 baseline and are unchanged. The existing article canonical
+whose filename needs report-only percent encoding is retained verbatim;
+this is not a new URL or new editorial wording.
+
+HTTP checks passed using PHP 8.5 WASM behind a local HTTP adapter: all 12
+sitemap targets returned 200, self-canonical and no noindex; every indexable
+route had a non-self inbound link and no broken internal target/fragment
+was found. In-page source references on drafts are not discovery links.
+The adapter is not Apache: native Apache routing, production host/header
+behavior and deployment still require staging checks. No production deploy,
+source verification, publication approval or main-branch push occurred.
+
+Before any destination publication, the owner must confirm official sources,
+resolve the existing blockers and authorize release. Passing the existing
+five-sourced-category gate alone is not approval. See the appended Phase 13
+verification notes and unchanged atomic release checklist in the flagged file.
+
+Additional isolated publication coverage passed 48 Chromium cases: eight
+pages with two eligible destinations and two eligible locations, at three
+widths with JavaScript on/off, including deduplicated discovery/footer blocks.
+All temporary data was restored outside the production repository.
+
+## Phase 16: release-blocker fixes and final check, 2026-10-16
+
+Six task commits on arena/48320ee5-ilmerastudyabroad; PR 1 remains open.
+No merge, deployment, main push or publication-status change.
+
+1. Removed only the two held APS/DSU article link lines from llms.txt.
+   llms-full.txt is baseline-identical. All other LLM bytes remain restricted.
+2. Neutralized named university references in published About/Services copy
+   and schema; removed the named affiliation block. Added the maintained
+   blocked-name list and strict discovery guard with six regression cases.
+3. Reopened all 25 original distinct official citations, including two legacy
+   tuition-footer sources; the final inventory has 23 distinct direct URLs.
+   Replaced the soft-missing Latvia path, made opened redirects direct and
+   corrected the unsupported Qatar no-steps clause. Active source rows and
+   affected article hashes match. Latvia still has five categories.
+4. Preserved the exact 8,000-euro owner sentence at all 19 published
+   occurrences; added local owner/written-award cautions with FAQ parity.
+   Removed nearby verified-DSU implications and the Contact metadata Italy
+   no-charge-education phrase. Removed open FAQ height caps and added
+   no-JavaScript answer visibility on Services/Contact. Added a maintained
+   exact-claim checker and four regression cases.
+5. Created reports/phase-16-release-check.md, phase-16-checks.json and the
+   citation-open inventory. Reports include every task-2/task-4 changed line
+   range, every Phase 16 changed file and all 37 final sitemap URLs.
+6. Appended this changelog and verification/maintenance decisions, retained
+   all historical blocker text and repeated the complete fresh checks.
+
+Every task: 83 PHP parses, 42 fresh renders and 252 Chromium cases, plus
+fresh discovery/source/place/contact checks. Final authored location overlap
+is 3.311%; fresh full rendered-main maximum is 14.147287%, all 136 pairs.
+Local sitemap/status/canonical/schema/FAQ/internal-link checks pass. The
+strict final discovery/publication commands correctly FAIL on restricted
+llms.txt names; both public LLM files also retain prohibited wording.
+External raw-HTTP-200 evidence and native Apache/deployment behavior remain
+unverified. The final decision is NOT READY for staging acceptance or
+production sign-off. Owner amount/partner and withheld-page blockers remain;
+no machine or source-open pass is a substitute for those approvals.
+
+## Phase 17: confirmed online model and GCC scope, 2026-10-16
+
+Four tasks, one commit each, on arena/48320ee5-ilmerastudyabroad; PR 1.
+No main push, merge, deployment, page-status change or LLM-file edit.
+
+- Task 1: applied final owner-confirmed online-only counselling across the
+  17 location titles/headings/metadata and plain authored travel notes,
+  sitewide contact wording, Coorg article labels and organisation schema.
+  Removed address duplicates and a legacy contact node. Kept only the
+  Contact organisation's existing Coorg postal locality, explicitly labelled
+  as not counselling premises and not a street/delivery address. Place
+  areaServed stays an audience; no storefront, coordinates or local office.
+  Added a physical-presence guard and seven regression cases. Complete
+  published-surface line inventory: reports/phase-17-task-1-lines.md.
+- Task 2: separated owner-confirmed university support across all six GCC
+  countries from five-country official-source coverage. Opened the replacement
+  Oman student-registration page and added only its registration request,
+  with checked_on and matched FAQ/journal/schema. Kuwait directory was opened
+  but no usable rules added. Kuwait remains a source blocker. Protected GCC
+  intro, slug, name, summary and provenance remain unchanged.
+- Task 3: appended targeted dated closures for the owner-office-model and
+  GCC-country-list uncertainties only. Kept historical blocker text intact
+  and explicitly retained Kuwait and every unrelated open requirement.
+- Task 4: complete fresh local release verification and evidence report,
+  including sitemap, structured data, links, line/file inventories and limits.
+
+Every task repeats full parsing/render/browser/discovery checks. The updated
+17 guides have 382-396 authored words, maximum authored overlap 6.410% and
+maximum rendered-main overlap 13.476562%, all 136 pairs below 15%.
+The unchanged LLM files still prevent unconditional wording/name acceptance;
+strict discovery/publication commands must report that rather than waive it.
+Native Apache, external transport and real delivery remain staging checks.
+
+## Phase 18: reconciled LLM discovery and direct-live handoff, 2026-10-16
+
+Six tasks, one commit per task, on arena/48320ee5-ilmerastudyabroad; PR 1.
+No main push, merge, deployment, page-status or sitemap change.
+
+1. Reconciled both owner-authorized LLM documents: removed institution names,
+   prohibited claims and held-page promotion; made online-only counselling
+   explicit; preserved the exact conditional Italy owner sentence with local
+   attribution/caution and both exact visible GCC scope notes. Replaced the
+   obsolete byte restriction with genuine content/served-parity checks.
+   Every changed LLM line is recorded before task 2 shifted later numbers in
+   reports/phase-18-task-1-lines.md, using baseline 05e63e9 and task 1 7d45837.
+2. Added the missing published-page directory in the existing Markdown format,
+   using freshly rendered titles and descriptions: seven destinations,
+   17 locations, five articles, plus blog/page indexes. Both LLM files now
+   represent all 37 published addresses. New canonical listings: 28 short,
+   31 full; two existing short-file articles were refreshed. No earlier
+   generator existed, so added an idempotent maintained directory builder.
+3. Passed strict names/wording/discovery/publication across the whole published
+   site, including both LLM files. Default discovery now checks prohibited
+   wording across visible copy, metadata, decoded URLs and schema. Retained
+   the narrow citation-label name rule without exempting presence or wording.
+4. Added reports/post-deploy-checklist.md: complete live backup first, direct
+   live upload, actual live page/contact/sitemap tests, no-cost citation-link
+   checks, Search Console submission and restore of backed-up files on errors.
+5. Added reports/phase-18-release-check.md and machine evidence. Local gates
+   PASS; actual live addresses, native server execution, external raw HTTP
+   health and real enquiry/channel delivery remain unverified owner checks.
+6. Appended only these new historical resolutions/decisions and repeated the
+   complete fresh local suite. Earlier blocker entries remain unchanged.
+
+Each task repeats 83 PHP parses, 42 fresh renders, 41 editorial self-canonicals
+and 252 browser cases, plus strict discovery, source/contact/publication,
+FAQ/schema, status, line-ending and location-overlap checks. The final
+regression set includes seven wording, nine directory, twelve LLM-policy,
+six name, nine presence, three citation and four Italy cases, in addition to
+PHP gate tests. All current local checks PASS without an LLM exception.
+
+Counts unchanged: 37 indexable pages (7 destinations, 17 locations, 5 articles,
+8 other), four editorial drafts and one separate noindex 404 utility. Expanded
+original-target accounting remains 27 published / 4 held. Seventeen guides
+have 382-396 authored words, maximum shared authored coverage 6.410 percent
+and fresh rendered-main coverage 13.476562 percent over 136 pairs.
+
+The owner deploys directly live, with no staging step; Phase 13 .htaccess is
+already live per owner. Ready for owner-controlled live deployment after a
+complete backup, not certified as deployed or accepted on the actual server.
+Restore the backed-up live files/settings if post-deployment checks fail.
+Kuwait requirements, four held pages and award/source-proof limits remain.
+
+## Phase 19: provisional strategy implementation and bounded review, 2026-10-16
+
+Eleven tasks, one commit each, on arena/48320ee5-ilmerastudyabroad, with a
+pushed PR 1 checkpoint after each fresh full suite. No main push or deployment.
+
+- Task 1: provisional distinct primary/secondary map for all 37 then-published
+  pages. The titled strategy document was inaccessible through ID-only Docs
+  tools; no prompts, volumes or section recommendations were fabricated.
+- Task 2: unique short titles, descriptions, H1s and natural target openings
+  through a server-side presentation map, synchronizing social/page schema
+  while preserving source facts and all destination records. Removed repeated
+  location opening boilerplate when overlap checking caught it.
+- Task 3: the explicitly requested Karnataka consultant-choice guide, ten
+  family checks and honest ILMERA self-assessment. One new published article;
+  no existing page status change. Blog, directory, sitemap and LLM generation
+  include it. No invented fee, agreement, performance or review evidence.
+- Task 4: 40-60 word direct answers and at least four visible matching FAQs
+  on all 30 published destination/location/article pages. Existing facts and
+  preparation advice only. Owner-target coverage: three answered, one fee
+  gap. Document prompt inventory remains unknown, not complete coverage.
+- Task 5: canonical Organization data, existing company profiles only,
+  minimal existing-data Founder Person, matching entity/service references
+  on About/Contact/Karnataka and generated LLMs, matching review dates.
+- Task 6: two descriptive contact CTAs on editorial pages and five empty,
+  fail-closed owner proof slots. No empty placeholders or proof schema.
+- Task 7: headings, breadcrumbs, images, click depth, metadata and technical
+  audit. Added a missing secondary image loading hint. Live server behavior
+  and existing font stylesheet cost remain honestly unverified/unmeasured.
+- Task 8: no existing analytics tag found, so no tracker added. Documented
+  owner/provider/privacy/success-signal decisions without collecting data.
+- Task 9: real-feedback process and off-page due diligence. Opened Google's
+  official policies: online-only model is ineligible for Business Profile.
+  Directory candidates were not falsely certified as eligible.
+- Task 10: one full clean cycle after tasks 1-9; stopped early without rewriting
+  passing pages. Recursive schema and prompt-status consistency checks pass.
+- Task 11: append-only documentation, complete metadata/file inventory,
+  owner/live limits and a further full sign-off suite.
+
+Counts: 38 indexable pages (7 destinations, 17 locations, 6 articles, 8 other),
+four unchanged editorial drafts and one separate noindex 404 utility. All
+nine destination records, summaries, provenance and facts remain byte-identical
+to a083aff. Location authored content/source gates remain unchanged.
+
+Ready locally for owner-controlled direct-live deployment after a complete
+backup, with provisional strategy acceptance and mandatory live testing.
+No claim of live acceptance, rankings, external HTTP health or real enquiry
+delivery. All proof slots remain empty; missing evidence is not filled in.
+
+
+## 2026-10-16, Phase 20: actual strategy review and conservative completion
+
+- Task 1 (`946c8b3`, completed before resume): full supplied document inventory,
+  50 prompts and 17 explicit query fragments, no numeric volume/difficulty.
+- Resume audit (`38b1cc5`): fetched and matched the remote session branch;
+  Task 1 was done, Task 2 had no written maps. No work discarded or repeated.
+- Task 2: maps rebuilt from the actual inventory, all 38 published pages,
+  distinct primary and 2-3 secondary targets each. Page checkpoints after 10,
+  20 and 30 rows; original Phase 19 maps archived intact.
+- Task 3: every existing primary still fits; no title, description, H1,
+  opening or public metadata file rewritten just to force a change.
+- Task 4: seven FAQs on four existing pages, from facts already on the site.
+  Final prompt counts: 6 answered, 15 partly answered, 29 explicit gaps.
+  Both visible FAQ and schema come from the same established data/helper.
+- Task 5: 54 atomic recommendation actions: 14 already done, 3 done this
+  phase, 16 rejected by rule, 21 owner-only/evidence-dependent. Added one
+  unordered four-entry ItemList describing existing state-hub links.
+- Task 6: first full cycle clean; stopped early, no fixes or repeated failure.
+- Task 7: append-only handoff, complete file/surface inventory, explicit
+  owner/live limitations and another fresh complete sign-off suite.
+
+No new pages, page-status changes, destination facts, summaries/provenance,
+source journals, places data, proof slots, identity or LLM bytes changed.
+The Italy conditional owner sentence and cautions remain unchanged. Founder
+identity is not expanded from strategy assertions. No accounts, reviews,
+analytics, submissions, outreach, main push, merge or deployment performed.
+All local checks pass; actual live acceptance and owner evidence remain
+separate. Reports: phase-20-release-check.md, phase-20-progress.md,
+phase-20-cycles.md, keyword-map.md, prompt-map.md and strategy-doc-conflicts.md.
+
+
+## Phase 22, 2026-10-22: owner-confirmed service scope
+
+Completed the report-only conflict scan, Services assistance/exclusions and
+matching FAQs, page-level scoped answers with a ten-page checkpoint, factual
+selection checklist and existing founder biography, one canonical entity and
+both generated LLMs, empty-proof owner-input report and bounded verification.
+Added 20 same-source FAQ pairs without changing official facts, original
+summaries/provenance, publication statuses, metadata or held gates. Prompt
+classification remains honestly 6 answered, 15 partly answered and 29 gaps.
+The exact approved bio is in the existing About founder profile and existing
+Person description, not an additional founder or credential. Partner-payment
+copy is a disclosure policy, not a receipt/nonreceipt claim. Detailed fees and
+refund terms are not yet published. All proof slots remain empty.
+
+One full Task 7 cycle passed and stopped early: 91 PHP files, 43 rendered
+routes, 258 browser cases, 205 exact FAQ pairs and 1,230 interactions. Both
+location overlap checks pass. The existing LLM generator preserves country
+copy, published-only rendered directory entries and mandatory Italy/GCC
+cautions. Narrow exact-sentence business-scope exceptions do not release
+held URLs or official information. A legacy priced consultation Offer and
+unprovided business-price claims were removed; none are added.
+
+Final sign-off is in reports/phase-22-release-check.md, with all changed files
+and affected routes. No main push, merge, deployment, form submission,
+external account, ranking or live-delivery proof. Backup-first live, native
+Apache/public HTTP, actual delivery, official-source gaps and missing owner
+proof remain separate. Older blockers are retained, not rewritten.
+
+
+## Phase 23, 2026-10-22: actual payments and preserved verified team
+
+Completed eight tasks: report-only fee/payment/team scan; actual student-charge
+and partner-payment disclosures with exact FAQs; preservation of all three
+verified portraits/bios and three canonical image-bearing Persons; absent-
+registration gate; existing-generator discovery consistency; remaining owner
+inputs; one clean bounded required-check cycle; append-only release handoff.
+
+Four requested pages now share the same disclosure and eight new visible/
+FAQ schema pairs. Amounts are visible/FAQ text only; no price/Offer schema or
+fee proof record. Written policy exists, but no inclusions, schedule, refund
+conditions or routing are inferred. The consultant checklist separates general
+assistance from fee inclusions and states new/no-feedback status, with written
+permission and verified video required for future feedback. No result or
+business-registration output is enabled. Neither Udyam value was supplied.
+
+All original photo bytes and existing About/Home bio variants are preserved.
+Titles/alt text now match approved full titles. Fawaz's large original and
+PNG-content/.webp-name exception are reported, not silently changed. No
+placeholder, new biography, credential, university-name exemption or founder
+is added. One Person per member uses real image URLs and existing card bios.
+
+Canonical nonnumeric payment/team facts match generated LLMs, visible output
+and schema. Source/status/proof/summary/provenance/destination metadata gates
+remain unchanged; earlier maps are retained. Prompt counts remain 6 answered,
+15 partial and 29 gaps, not improved by missing performance or official proof.
+
+Fresh checks and cycle evidence: reports/phase-23-checks.json and
+phase-23-cycles.md. Full inventory/readiness: phase-23-release-check.md.
+All required local checks pass; local PHP WASM/Chromium is not live Apache,
+public HTTP, asset MIME, performance or enquiry-delivery proof. No main push,
+merge, deployment, form submission, outreach, account or server-setting change.
+Backup-first direct-live and all-file/settings restore requirements remain.
+
+## Phase 24: owner-approved registration, finance bio and portrait derivatives, 2026-10-22
+
+Published only the approved ILMERA Study Abroad enterprise name/Udyam number,
+exact About/Contact statement and non-endorsement caveat, plus a canonical
+Organization PropertyValue identifier. The private-source registration gate
+accepts only the exact authorized record; generic proof/source/consent gates
+and the four other empty proof slots remain unchanged. Both LLM documents use
+the existing generator and the same public projection. No certificate file or
+private certificate field was copied. The actual certificate is not available
+here, so its address/private values cannot independently be compared. Existing
+Contact/locality/address data remains unchanged; no mismatch is asserted.
+
+Replaced only Zaheer's placeholder variants with the approved CFO/company-
+finance-function sentence in About, Home, team/Person data, both LLM documents
+and the About FAQ. No optional background was supplied. Jabir/Fawaz biography
+variants, title labels, alt text and all original portrait bytes remain exact.
+
+Added real 384-square and 192-square WebP whole-frame derivatives, quality 82,
+19,056 and 7,892 bytes. The original 1,541,656-byte PNG under its WebP name
+is preserved at the same path. About/Home src/srcset and Fawaz Person/LLM
+image URLs use the derivatives. Original blog author portraits and all social
+metadata remain unchanged; no original-portrait og:image exists in 43 renders.
+A reproduction/format/size tool and image evidence accompany the assets.
+
+Owner inputs now omit supplied registration values, retaining fee inclusions,
+schedule/refund terms and future genuine feedback. Private activity-description
+CA/portal follow-up, optional Zaheer background and accuracy/currentness of
+existing Fawaz certifications/diploma are documented for the owner. Internal
+report/tool folders have Apache deny rules, mirrored by the local adapter;
+native enforcement still needs verification. No published/held page status or
+root rewrite bytes changed. Destination facts, summaries/provenance and older
+source/live blockers remain intact. No held page is released or discovered.
+
+One bounded executable local cycle passed, 514.09 seconds, then stopped early.
+Task-level full suites and final sign-off are recorded in phase-24-checks.json,
+phase-24-progress.md, phase-24-cycles.md and phase-24-release-check.md. Actual
+baseline comparison found 38 changed published renders and five byte-identical
+held/utility renders. Local PHP WASM/Chromium is not native Apache, public
+HTTP/MIME, access-control, performance, backup/restore or contact-delivery proof.
+Live deployment is NOT CLEARED. No main push, merge, deployment, form
+submission, account, outreach or live server-setting change was performed.
+
+## Phase 24b: final owner bios, complete portrait replacement and exposure audit, 2026-10-23
+
+Replaced both Fawaz/Zaheer biography variants verbatim with the newly approved
+owner text in Home/About, canonical team/Person data, matching About FAQs/schema
+and both existing-generator LLM documents. Fawaz-only sameAs now has exactly
+the approved portfolio root and LinkedIn URL. His complete homepage/About were
+opened: requested certification/diploma details and early-2025 SEO start match.
+This is owner/first-party confirmation, not issuer authentication. Unrelated
+external role/marketing/contact/result claims were not imported. Jabir's bio,
+photo, title/alt and record remain exact. The training institute is permitted
+only within the two exact bios and matching schema/FAQ/LLM contexts; stray or
+mutated context fails, and the university blocklist stays unchanged. Legacy
+separate credential nodes were removed in favour of the exact description.
+
+All seven remaining blog-author uses of the 1.5 MB Fawaz original now use the
+192 WebP through origin-relative src URLs; Home/About responsive derivatives
+remain. All widths/heights/lazy loading/alts and original/derivative bytes stay
+exact. Four reviewed-article checksums alone were refreshed for the exact src
+transforms; no status, failed gate, source, claim, metadata, date, summary or
+provenance field changed. The strict gate/hash checks remain active. No rendered
+page or DOM uses the original, which is retained untouched at its original path.
+
+Inventoried all actual non-page files/folders, including local caches. Existing
+report/tool denies retained; added native-compatible directory denies for
+includes/data and internal destination/place arrays. No browser-fetched data
+exception was found. Root only appends denies for requested note/script/log/
+backup/phase-JSON patterns plus private CSV/dotfile/Git protection; original
+rewrite bytes and CRLF remain an exact prefix. Local denial mirrors and all
+public routes/discovery/verification/assets pass, but do not parse .htaccess.
+Exact live GET URLs and expected 403/404/no contents are in the exposure audit
+and live-url checklist. Native Apache/LiteSpeed execution is NOT VERIFIED.
+
+Owner deployment decision: internal folders/notes/tooling/reports/exports/
+caches/Git metadata should not be uploaded into live hosting. Required PHP
+runtime folders need a tested non-public layout/path configuration before
+omission or relocation; no runtime move or hosting change occurs here. Current
+owner inputs remove the now-supplied bio/credential confirmations and keep
+written fee inclusions/payment schedule/refund terms, private activity follow-up
+and future genuine feedback as open matters. Older source/status/live blockers
+remain, with new superseding owner facts recorded rather than history rewritten.
+
+The first bounded executable cycle passed in 560.67 seconds, early stop; cycle
+2 not run. Per-task full-suite evidence, exhaustive changed files/bio surfaces
+and pass/fail live limits are in the Phase 24b reports. Live deployment NOT
+CLEARED: native access/rewrite/public HTTP/MIME, backup/all-file-settings restore,
+non-public runtime layout and actual contact delivery are not verified. No main
+push, merge, upload, enquiry submission, account or outreach action.
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 1
+
+Report-only reference audit, exhaustive tokens/uses and template/scene/team inventory; all-route immutable render baseline; local Lighthouse samples and 360/768/1280 screenshots. No public site source changed. Full current syntax/render/browser/discovery/strict suite passed (662.30s). Local mirrors are not field or native-hosting evidence. Stage 2 is not authorized.
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 2
+
+Shared reference-token visual system, pure opt-in presentation hook and locally licensed existing font families. Four-route allowlist remains OFF until pilot application. No current render, content, schema, internal link, reference request or publication change. Full suite PASS (556.79s); all 43 default renders byte-identical.
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 3
+
+Exact owner short biographies in Home/About cards only, with equal-height team grids. Removed the redundant second Jabir card role paragraph as part of its exact card-bio replacement; existing About FAQ is untouched. Full Person descriptions, Fawaz/Zaheer full FAQ biographies, sameAs, both LLM files, photos/names/titles/alt text and all other content remain unchanged. Counts 127/130/126, spread 4 PASS; eight narrow-context regressions and full suite PASS (542.04s).
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 4
+
+Text-free actual reference-scene stills at 720/1440px (24,574/37,226 bytes), deferred decorative canvas loader, static reduced-motion behavior, Save-Data/hidden-tab/JS-off fallback, and one explicit sitewide scene OFF constant. No new WebGL/library/parallax; defaults preserve reference output and keep pilot application OFF. ON/OFF unit checks and full suite PASS (536.86s).
+
+
+## 2026-10-23 - Phase 25 Stage 1 task 5
+
+Applied only the four pilot routes through the shared visual overlay. Light long-form reading areas, same reference fonts/palette/grid, static scenes, high-contrast keyboard states and44px controls. Actual custom fonts now verified; licensed subsets inline without a new blocking resource. All content/FAQ/schema/link/status/portrait guards remain exact. Team-only footprint fixes preserve reference section bounds at approval widths. Full suite PASS707.31s plus final corrected-font/strict/screenshot checks. Strict raw reference raster is11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; NOT waived, no rollout clearance.
+
+
+## 2026-10-23 - Phase25 Stage1 task6 pilot gate
+
+Kept fixed budgets and prior failures. Final four pilots use the lighter reference-palette gradient, no scene fetch/library/script. Same-family inline font subsets now paint atomically with a short failsafe and readable JS-off; zero CLS in final local samples. Final matched-order/three-navigation medians pass all performance budgets. Corrected measurement route order and RGB/hex reference-token equivalence without changing baseline thresholds, words or palette.48 screenshots retained, final pilot after-images reshot. Strict reference raster remains11/12 PASS with9 one-level Home1280 CTA-corner pixels unresolved; gate BLOCKED, no rollout, merge or deployment. Final report and complete changed-file manifest added.
+
+Task6 final full technical suite PASS581.55s. Independent strict pilot release gate correctly remains BLOCKED on9 Home1280 reference corner pixels; performance/colour/technical criteria pass. No Stage2 work.
+
+
+## 2026-10-23 - Phase25 Stage2 task1
+
+Aligned the four pilots to canonical reference chrome without changing source include markup. Self-hosted exact reference Latin weights, metric fallbacks, first-frame preloads and no-blank failsafe; additive font-directory cache/MIME policy only.12 pilot screenshots refreshed; all43 semantic/source/palette checks pass. Same-source repeat raster calibration and44px spacing exceptions recorded. No deployment.
+
+## 2026-10-23 Phase25 Stage2 local rollout and release record
+
+- Rolled out template roles to39 non-reference routes, including held pages without changing publication status, words/order, links, image content or schema. Four reference sources remain unchanged since approved Stage1 team work.
+- Aligned canonical Home chrome, self-hosted reference font weights and font-only guarded cache policy. Measured destination LCP failure triggers plain navy/inline-font escape hatch for that template alone; other30 rebuilt routes keep gradient/selfhost.
+- Preserved all original held-article hashes/protected metadata. Bounded3-cycle verification, local performance candidates,16 desktop/mobile full-page review images and complete file/deviation inventory recorded.
+- NOT READY: About360 reference raster above ruleC; immutable-reference AA/overflow; shortened404 footer; approximately0.016px destination desktop auto-margin deviation; final Services control LCP failure. Stacked footer44px exceptions follow decisionD. No threshold waiver, reference redesign, main push, merge or deployment.
+- Native Apache/LiteSpeed ACL/rewrite/cache/MIME/CSP/delivery/runtime-layout proof, backup/restore, actual certificate and all prior business-proof/source/review/fee/scope blockers remain open.
+
+
+## Phase25c verification gates and local sign-off (2026-10-23)
+
+- Independently rendered immutable Stage1 references and calibrated3 baseline pairs at each of12 page/width cases. All12 structural gates PASS with0 differences; current pixel comparisons exact. Reference sources untouched.
+- Replaced reused-browser performance test with7A/7B fresh-process serial interleaving, identical frozen HTTP delivery, immutable before HTML, medians/IQR and4 reference controls.276 recorded samples across3 sessions retained; every session unreliable. No fourth retry, baseline relabelling, budget change or field/live claim. Choosing article raw LCP2.2117x remains FAIL; Services raw LCP/TBT and Contact/About TBT also FAIL. Performance not certified.
+- Diagnosed actual P.direct-answer Outfit16px300 LCP across Germany/Italy/GCC/Mysuru/Bengaluru, common font-set gate dependency and immutable paragraph differences. No unique German source fault or reliable fallback necessity proved. Existing uniform9 destination plain/inline,17 place and8 article gradient/selfhost policies retained without speculative source edit.
+-120 chrome comparisons PASS under explicitly authorized strict sub0.1px tolerance; maximum0.016px.404 abbreviated footer accepted. Active-colour transition normalization corrected in test DOM only.
+- Reported all24 original reference contrast groups/387 nodes plus4 additional final-cycle node observations (391 retained), with palette-only suggestions not applied. Five numerical overflow cases traced to hidden offscreen reveal transforms; no horizontal-wheel pan observed, numerical overflow not claimed fixed.
+- One full final QA cycle PASS:35 check groups,43 exact semantic renders,258 browser cases/1278 FAQ interactions/36 team photo/54 derivative checks,42 rebuilt axe cases0 violations,117 light/longform/overflow regions and14 font-failure-condition visibility cases. References still have24 report-only contrast groups/five overflow cases. No second full cycle needed; no public runtime file changed.
+- Final decision NOT READY FOR LIVE DEPLOYMENT: reliable performance/validated whole-template repair and native rewrite/ACL/cache/MIME/CSP/runtime-layout/contact-delivery/backup-restore/certificate/business/source approvals remain missing. Only tools/reports and append-only logs changed. No main push, merge, deployment or submission.
+
+
+## Phase26 content/design release split preparation (2026-10-24)
+
+- Fetched all remotes and safely fast-forwarded the clean fixed session branch to its fetched Phase25c endpoint. No alternate branch, merge or main push.
+- Session restriction prevents creating/pushing release/content-phase-24b or opening its requested separate PR. PR1 metadata/comments/state untouched; source-branch documentation checkpoints necessarily update its diff. No content commit or PR URL fabricated.
+- Prepared an isolated exact164d6de archive and six-file card-only candidate patch: two public pages, short-card policy/tests and exact historical expectation updates. No Phase25 design stylesheet/fonts/stills/header/footer changes imported. Arena public runtime/design source untouched. Full bios/schema/FAQ/LLMs/wording/status/images unchanged except six approved short card paragraphs and minimum grid rules. Team height/downstream reflow explicitly documented.
+- Original Phase24b full stage5 runner/browser PASS locally:43 routes,38 published,38 sitemap URLs, strict source/discovery/wording/schema/LLMs/portrait/exposure checks,258 browser cases.12 relative reference comparisons PASS after capture-only settling; not full-page pixel identity.
+- Exact117-file payload proved in a clean isolated folder:43 byte-identical route outputs and12 first-party assets. Three root phase14 review journals and six data JSON inputs are required exceptions to internal-JSON exclusions; retain root/folder HTTP denies. No native Apache or live/contact-delivery proof.
+- Added exact upload allowlist/hash inventory, compact owner checklist,42 public endpoint checks,224 denied URL inventory, blocked content-PR description and separate later-design PSI/font/cache/accessibility plan. Reports/tools/Git/caches/fixtures never upload. Privacy-safe rollback removes new unbacked-up internal files before dropping denies.
+- No deployment performed; all native/backup/proof/business/source blockers retained. Actual release branch/PR creation and re-verification require a separately authorized checkout/session.
+
+
+## Phase26b owner finance-only biography correction (2026-10-24)
+
+- Fetched all remotes first; content release branch absent. Changed and pushed only arena/48320ee5-ilmerastudyabroad; PR1 checkpoint added, unmerged. No main push/deploy/submission.
+- Replaced Zaheer full bio and both cards with exact final finance/paperwork/documentation text, including canonical Person descriptions, About visible/schema FAQ and generated LLM entries. Five runtime/canonical files changed, byte-exact substitution only. Active owner-input report corrected. Jabir/Fawaz copy, Fawaz diploma/sameAs, labels/titles/images/alt/statuses/other wording/schema/discovery unchanged.
+- Fawaz-only training-institute allow-entry and14 person/card/visible and schema FAQ/LLM regression tests. Card lengths127/122/126, spread5.
+- Full local functional suite35 groups PASS580.09s,97 PHP lint,43 renders/38 published/38 sitemap URLs,258 browser cases/1278 FAQ/36 photos/54 derivatives.66 accessibility cases with0 rebuilt violations; reference24 groups/5 overflow cases retained. Initial missing-axe infrastructure failure preserved, complete fresh rerun after external dependency fix. No extra performance session.
+- Every route full HTML bytes equal independently rendered pre-change commit after only the exact Zaheer text replacements; links/images/other JSON-LD/canonicals/metadata unchanged. CRLF/mixed line endings preserved. Historical reports/logs/import templates not rewritten;359 unchanged matching references have file/line/reason inventory. Old Phase26 payload/patch are superseded, not deployable current artifacts.
+- Native server/cache/ACL/rewrite/404/CSP/MIME/contact/backup/restore and prior design/performance/proof/business/source blockers remain.
+
+
+## Phase27 current-branch combined deploy pack (2026-10-24)
+
+- Fetched/matched clean session branch at a3d696f. Owner now plans content14-26b plus Phase25 design in one release over Phase13; obsolete117-file split-content list replaced. No branch/PR creation, main push, merge or deployment.
+- Exact130-file payload:88 runtime PHP,9 protected runtime JSON,8 .htaccess,9 fonts, visual CSS,7 portraits/logo image paths,2 licences, favicon, discovery/verification files. reports/tools carry deny files only. Unreferenced stills/original portrait/alternate logos and all other internal/test artifacts excluded.
+- Source524 tracked files:394 excluded. Final Phase27 inventory547 files:417 excluded (394 source+23 new internal paths),130 unchanged uploads. Temporary hash-verified ZIP/clean folders stay outside Git.
+- Clean PHP memory filesystem with no host source mount proves43 byte-identical repo renders/38 published/38 sitemap,404/four held and20 asset/runtime/licence GET/HEAD paths plus local private probes. Native .htaccess/cache/CSP/MIME/rewrite/contact/backup/CDN proof remains owner work.
+- Replaced checklist:995 words, verified2-page PDF, five-page mobile PSI before/after tables, both upload methods,9 smoke pages/current bios/Udyam/disclosures,20 private links/full inventory,7 font/cache URLs, contact receipt, safe500/exact-backup rollback and five Console requests. Choosing guide absent from Phase13 tree: no substituted404 baseline.
+- Three-column report classifies19 live checks,8 monitor topics,18 later owner actions with risks and complete source-section index; no acceptance verdict. Fresh35-group full functional suite PASS556.78s (97 PHP lint,258 browser,66 a11y); no new performance session. All public/source/config/asset bytes and line endings unchanged.
+- Historical reference391 nodes preserved; fresh426 observations including41 additional case-selector samples and same24 contrast groups/5 overflows retained for owner review, not repaired/pruned. Progress-writer metadata error fixed after saved test success, no source/test waiver. PR1 checkpoint posted; all earlier native/performance/template/business/proof/source blockers retained.
+
+## Phase28 downloadable deploy artifact (2026-10-24)
+
+- Rebuilt with the existing export tool from starting HEAD850d0af; committed releases/ilmera-deploy-850d0af.zip,681792 bytes,130 exact manifest members and8 upload .htaccess files. Per-file hashes/sizes and downloaded GitHub API binary match.
+- Entire releases/ directory is excluded from payload and sitemap. Its additional deny-only .htaccess is repository safety, not a ninth upload rule. All original public/runtime bytes remain unchanged.
+- Fresh ZIP-only clean proof:43 byte-identical renders,38 sitemap entries,20 asset GET/HEAD checks. Existing full35-group suite PASS600.60s,97 PHP,258 browser cases and66 accessibility cases,0 rebuilt axe violations. No performance rerun or native-host/deployment certification.
+- Two plain unzip/upload text lines added to checklist/PDF, with only paragraph/hard-break whitespace. Every prior Markdown byte and normalized PDF text preserved; PDF remains2 A4 pages.
+- GitHub download URL and byte-fetch proof, final exclusions, scope guard and every changed path recorded in Phase28 reports. Branch-only commits/pushes and PR1 checkpoint; no new PR, merge or deployment.
+
+## Phase29 live-design diagnosis, report only (2026-10-26)
+
+- Owner reports current130-file content deployed but Germany has old dark styling, missing mobile header, default serif and blank gold CTA. No live-origin fetch or native-host access performed here. No public source file, .htaccess rule, payload manifest or deployment ZIP changed.
+- Exhaustive130-file current/ZIP/manifest hash inventory and four exact rendered design-tag copies establish that shared CSS and Germany variable fonts are PHP disk reads embedded in HTML, not HTTP stylesheet/font dependencies.
+-22 isolated390px fault cases and24 screenshots: no single tested fault matches all five supplied symptoms. Explicit missing-assets plus missing non-required header.php combination matches all five while preserving200/current copy/footer. HTTP CSS404/403 and HTTP font404 leave Germany's design intact. Missing required visual/config files and PHP7.4 fail500;8.0/8.1/8.5 render correctly in local WASM tests, not native certification.
+- All8 payload .htaccess files statically audited, no CSS/font deny or universal unknown-file rewrite found. No native simulator available. One-page owner test sheet supplies exact URLs, conditional re-upload targets, cache purge and private-window checks; no fix applied.
+- All38 published payload routes audited for first-answer/next-paragraph duplication:23 exact normalized duplicates,0 additional near matches under explicit thresholds. Provenance-preserving narrow de-duplication proposed only; source text and publication gates unchanged.
+- Ranked diagnosis, detailed evidence, complete changed-file ledger and strict byte/line-ending scope proof recorded under reports/phase-29*. Task commits/pushes stay on existing session branch with PR1 checkpoint only; no merge, new PR or agent deployment.
+
+## Phase30 duplicate fix, temporary checker and owner ZIP (2026-10-26)
+
+- Shared site-presentation.php exact-adjacent fix keeps the original introduction/citation inside the40-60-word direct-answer block and CTA after it.23 published pages change,20 of43 renders remain byte-identical. Every heading, FAQ, schema block, status, canonical, link attribute/multiplicity, image, style and script is preserved. Repeated first answers now fail discovery/strict wording builds, with regression tests and an independent exact43-route delta guard.
+- Temporary root deploy-check.php:256-bit sole query key, GET-only, valid through2026-11-15 UTC, noindex/no-store, fixed payload-relative metadata/hash table. Wrong/missing/extra/traversal/expired guards return plain404. No directories/contents/environment/server paths/.htaccess reads/parameters/writes. Delete after one use. Read reports/live-self-check.md for key, self-hash existence-only exception and native .php redirect caveat.
+- New131-file payload pinned to committed runtimef54e4cc; all original runtime bytes except duplicate fix remain unchanged from a3d696f. Original8 policies retained. ZIP releases/ilmera-deploy-f54e4cc.zip,690538 bytes, SHA2566ce9d3c98638a1cd454fd662cfc1d3a899ef5743d81e05b1147987f3552af459. Entire releases/ excluded from payload and discovery. GitHub API binary fetched byte-identical to committed ZIP; raw-host URL verified from GitHub metadata, direct raw-host fetch unavailable under allowlist.
+- Clean isolated131-file proof renders43 repo-identical pages,38 sitemap URLs, all assets/discovery GET+HEAD and authorized checker ALL FILES OK. User-only upload/extract/overwrite/delete-ZIP/cache/private-window/checker-screenshot/delete-checker sequence, folder counts and12 important files replace upload instructions only. Other checklist steps preserved; PDF3 pages, no typography reduction.
+- Five complete per-task functional cycles are required for final sign-off, no skip/resume or performance lab. Results, strict source scope and every changed path are recorded in Phase30 reports/checkpoints. No CSS/font/image/visual-system/config/discovery source change, main push, other branch/PR, merge, agent deployment or hosting/cache action. Existing blockers remain unresolved.
+
+- Final Phase30 outcomes: five complete suites PASS (37/38/38/38/39 groups;659.17/1063.34/1655.1/1694.91/672.82s),258 browser and66 accessibility cases per cycle,0 rebuilt axe violations. Final five-cycle source/archive scope proof and45-file ledger complete. Stopped/failed preliminary attempts excluded and documented; complete Task5 rerun after correcting scope target. All historical reference/native/owner blockers remain unresolved; no merge/deployment/performance retry.

@@ -1,0 +1,255 @@
+{
+  "id": "study-abroad-consultants-in-kodagu__768__js-on__motion-normal",
+  "route": "/study-abroad-consultants-in-kodagu",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-consultants-in-kodagu",
+  "http_status": 200,
+  "page_height": 4819,
+  "scroll": {
+    "height": 4819,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4819,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3438
+    },
+    "visible_text_chars": 4183,
+    "visible_text_nodes": 37,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Kodagu"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Kodagu: prepare separate concern"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 520,
+        "text": "A study plan may involve a student, family members and a cou"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 673,
+        "text": "Discuss how to prepare separate concerns before the joint co"
+      },
+      {
+        "selector": "h2",
+        "y": 755,
+        "text": "Prepare separate concerns before the joint conversation"
+      },
+      {
+        "selector": "p",
+        "y": 816,
+        "text": "Invite each person involved to write the questions that matt"
+      },
+      {
+        "selector": "h2",
+        "y": 1061,
+        "text": "Distinguish participation from authority to act"
+      },
+      {
+        "selector": "p",
+        "y": 1122,
+        "text": "Agree who may receive updates and who may approve a submissi"
+      },
+      {
+        "selector": "h2",
+        "y": 1367,
+        "text": "Return to the unresolved decision after each stage"
+      },
+      {
+        "selector": "p",
+        "y": 1428,
+        "text": "At the end of a family discussion, identify what has been de"
+      },
+      {
+        "selector": "p",
+        "y": 1653,
+        "text": "Counselling is online, and students from Kodagu do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1725,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1808,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p",
+        "y": 1859,
+        "text": "Collect each participant's questions beforehand and group th"
+      },
+      {
+        "selector": "summary",
+        "y": 1896,
+        "text": "Does receiving an update authorise a relative to change an a"
+      },
+      {
+        "selector": "p",
+        "y": 1947,
+        "text": "Not by itself. Clarify who can approve instructions, submiss"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2068,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2129,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2189,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2298,
+        "text": "Kodagu place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2366,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2420,
+        "text": "Madikeri"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4819,
+    "scan_width": 512,
+    "scan_height": 3213,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3152,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-consultants-in-kodagu__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2913,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3131,
+            "text": "How can Kodagu students distinguish participation from authority to act?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3331,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3152,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31-after/study-abroad-consultants-in-kodagu__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2913,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3131,
+            "text": "How can Kodagu students distinguish participation from authority to act?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3331,
+            "text": "Ask ILMERA how to distinguish participation from authority to act"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998443821973233
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "a056d5efc83be9b77996289a5321eb410a571d69340a4fb5ccf0256e72aa32b5"
+  }
+}

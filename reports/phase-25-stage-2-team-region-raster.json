@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "name": "home",
+      "width": 360,
+      "changed_pixels": 106111,
+      "max_channel_delta": 244,
+      "source_and_assets_unchanged": true
+    },
+    {
+      "name": "about",
+      "width": 360,
+      "changed_pixels": 217691,
+      "max_channel_delta": 253,
+      "source_and_assets_unchanged": true
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "changed_pixels": 139788,
+      "max_channel_delta": 242,
+      "source_and_assets_unchanged": true
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "changed_pixels": 271602,
+      "max_channel_delta": 251,
+      "source_and_assets_unchanged": true
+    },
+    {
+      "name": "home",
+      "width": 1280,
+      "changed_pixels": 172572,
+      "max_channel_delta": 197,
+      "source_and_assets_unchanged": true
+    },
+    {
+      "name": "about",
+      "width": 1280,
+      "changed_pixels": 241177,
+      "max_channel_delta": 251,
+      "source_and_assets_unchanged": true
+    }
+  ],
+  "note": "The official control capture contains pre-approved bios; after contains only the previously approved six short bio paragraphs/equal-height card work. Raw team deltas include those authorized changes. Stage2 source guards require exact approved bios, unchanged reference source since Stage1, unchanged photos/names/titles/alt, full bios/schema/About FAQ/LLMs. Large raw deltas are not a general compositor waiver."
+}

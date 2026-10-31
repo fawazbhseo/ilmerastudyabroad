@@ -1,0 +1,327 @@
+{
+  "id": "study-in-uk__768__js-on__motion-reduced",
+  "route": "/study-in-uk",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-uk",
+  "http_status": 200,
+  "page_height": 6145,
+  "scroll": {
+    "height": 6145,
+    "scroll_samples": 11,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6145,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4764
+    },
+    "visible_text_chars": 5416,
+    "visible_text_nodes": 81,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in UK from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "Study in UK from India starts with programme-specific planni"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 422,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 422,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 489,
+        "text": "What should I check before planning to study in UK from Indi"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 548,
+        "text": "Most UK Student visa applicants need funding for the course "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 615,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 687,
+        "text": "Discuss study in UK from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 847,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 908,
+        "text": "Rules can change; ILMERA advises students to confirm current"
+      },
+      {
+        "selector": "h2",
+        "y": 1009,
+        "text": "Who it is for"
+      },
+      {
+        "selector": "li",
+        "y": 1070,
+        "text": "The Student visa route is for applicants aged 16 or over wit"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1137,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1214,
+        "text": "English requirements"
+      },
+      {
+        "selector": "li",
+        "y": 1275,
+        "text": "Applicants usually need to prove their English ability. GOV."
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1372,
+        "text": "[3]"
+      },
+      {
+        "selector": "h2",
+        "y": 1449,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1510,
+        "text": "Where financial evidence is required, applicants need funds "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1577,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1621,
+        "text": "For most courses, GOV.UK sets living costs at 1,171 pounds f"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1689,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1766,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1827,
+        "text": "Money can be shown through a student loan from a government,"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1923,
+        "text": "[1]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 6145,
+    "scan_width": 512,
+    "scan_height": 4097,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3791,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-uk__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3854,
+          "computed": {
+            "min_height": "0px",
+            "height": "3853.59px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3771,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4040,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4478,
+        "height": 162,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-uk__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4239,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4457,
+            "text": "How does ILMERA help compare a UK course and check admission evidence?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4657,
+            "text": "Ask ILMERA about study in UK from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3791,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-uk__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3854,
+          "computed": {
+            "min_height": "0px",
+            "height": "3853.59px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3771,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4040,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4478,
+        "height": 162,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-uk__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4239,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4457,
+            "text": "How does ILMERA help compare a UK course and check admission evidence?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4657,
+            "text": "Ask ILMERA about study in UK from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998779594825482
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "477e34d90959f52526a1005b95a89d3aae53ccc8ba5f3d1944a33c25b77b9823"
+  }
+}

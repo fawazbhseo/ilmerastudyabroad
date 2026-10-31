@@ -1,0 +1,186 @@
+{
+  "environment": "Local PHP 8.5 WASM, Chromium 143, Lighthouse 12.8.2 mobile simulated Slow 4G/4x CPU; npm-mirrored fonts and exact CDN script versions; absolute first-party assets served from checkout. Not field or live hosting data. Three cold navigations; medians. Mirrored resource transfer accounting is CDP-reported, not CDN compression evidence.",
+  "lighthouseVersion": "12.8.2",
+  "results": [
+    {
+      "route": "/study-in-germany",
+      "samples": [
+        {
+          "lcp_ms": 2493.7388409739365,
+          "cls": 0,
+          "tbt_ms": 57,
+          "transfer_bytes": 189456,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1192.2659807299547,
+          "cls": 0,
+          "tbt_ms": 9.5,
+          "transfer_bytes": 189456,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2490.544980729854,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 189456,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2490.544980729854,
+        "cls": 0,
+        "tbt_ms": 9.5,
+        "transfer_bytes": 189456,
+        "requests": 4
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "samples": [
+        {
+          "lcp_ms": 1148.6179807295966,
+          "cls": 0,
+          "tbt_ms": 14,
+          "transfer_bytes": 185362,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1150.5433807306063,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 185362,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2486.936980730494,
+          "cls": 0,
+          "tbt_ms": 131,
+          "transfer_bytes": 185362,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1150.5433807306063,
+        "cls": 0,
+        "tbt_ms": 14,
+        "transfer_bytes": 185362,
+        "requests": 4
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "samples": [
+        {
+          "lcp_ms": 1157.7209807300592,
+          "cls": 0,
+          "tbt_ms": 62,
+          "transfer_bytes": 192802,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1179.1956409738038,
+          "cls": 0,
+          "tbt_ms": 85,
+          "transfer_bytes": 192802,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2482.259580730236,
+          "cls": 0,
+          "tbt_ms": 51,
+          "transfer_bytes": 192802,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1179.1956409738038,
+        "cls": 0,
+        "tbt_ms": 62,
+        "transfer_bytes": 192802,
+        "requests": 4
+      }
+    },
+    {
+      "route": "/blog/",
+      "samples": [
+        {
+          "lcp_ms": 1156.459240973675,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 184326,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1177.5911807297416,
+          "cls": 0,
+          "tbt_ms": 5,
+          "transfer_bytes": 184326,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1157.9515807304213,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 184326,
+          "requests": 4,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1157.9515807304213,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 184326,
+        "requests": 4
+      }
+    }
+  ]
+}

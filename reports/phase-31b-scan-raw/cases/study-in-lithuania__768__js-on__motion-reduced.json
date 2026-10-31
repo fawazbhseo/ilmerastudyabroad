@@ -1,0 +1,327 @@
+{
+  "id": "study-in-lithuania__768__js-on__motion-reduced",
+  "route": "/study-in-lithuania",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-lithuania",
+  "http_status": 200,
+  "page_height": 5365,
+  "scroll": {
+    "height": 5365,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 5365,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3984
+    },
+    "visible_text_chars": 3744,
+    "visible_text_nodes": 64,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Lithuania from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "Study in Lithuania from India starts with programme-specific"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 422,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 422,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 489,
+        "text": "What should I check before planning to study in Lithuania fr"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 581,
+        "text": "Tuition fees vary by university and programme, and the Europ"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 678,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 750,
+        "text": "Discuss study in Lithuania from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 909,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 970,
+        "text": "English requirements vary by university and programme."
+      },
+      {
+        "selector": "h2",
+        "y": 1071,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1132,
+        "text": "The European Commission study portal gives average tuition o"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1229,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1305,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1366,
+        "text": "For Indian applicants, the Migration Department lists VFS Gl"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1434,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1478,
+        "text": "The external service provider applies a customer service fee"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1517,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1594,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1655,
+        "text": "Health insurance is mandatory for international students, an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1694,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1771,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1854,
+        "text": "Where do Indian students submit the Lithuanian residence per"
+      },
+      {
+        "selector": "p",
+        "y": 1905,
+        "text": "Applications go through the Lithuanian migration system MIGR"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5365,
+    "scan_width": 512,
+    "scan_height": 3577,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3010,
+        "height": 196,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-lithuania__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3073,
+          "computed": {
+            "min_height": "0px",
+            "height": "3073.22px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2936,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3260,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3698,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-lithuania__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 3458,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3677,
+            "text": "What does ILMERA help compare for Lithuania study plans?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3876,
+            "text": "Ask ILMERA about study in Lithuania from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3010,
+        "height": 196,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-lithuania__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3073,
+          "computed": {
+            "min_height": "0px",
+            "height": "3073.22px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2936,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3260,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3698,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-lithuania__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 3458,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3677,
+            "text": "What does ILMERA help compare for Lithuania study plans?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3876,
+            "text": "Ask ILMERA about study in Lithuania from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998602180598266
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "833f729a83ef77b35d709d8f3122b18a4f856c7a9d90f321b13c82d4bf477ce6"
+  }
+}

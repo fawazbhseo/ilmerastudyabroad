@@ -1,0 +1,49 @@
+# Phase 19 on-page change inventory
+
+Provisional keyword basis: reports/keyword-map.md. Existing facts/sources/statuses are unchanged. The central rendered presentation layer synchronizes title, description, H1, opening, social metadata and page/article/service schema without editing destination records.
+
+| Route | Title | Description | H1 |
+| --- | --- | --- | --- |
+| `/about` | About ILMERA Study Abroad | About ILMERA Study Abroad. Read about the online counselling model, existing leadership roles and application guidance services. | About ILMERA Study Abroad |
+| `/all-pages` | ILMERA published page directory | ILMERA published page directory. Browse the published destinations, location guides and student planning articles. | ILMERA published page directory |
+| `/blog/cost-of-studying-abroad-for-indian-students` | Cost of studying abroad for Indian students \| ILMERA | Cost of studying abroad for Indian students: practical guidance on study abroad budget planning, with limits and evidence kept clear. | Cost of studying abroad for Indian students |
+| `/blog/documents-needed-to-study-abroad-from-india` | Documents needed to study abroad from India \| ILMERA | Documents needed to study abroad from India: practical guidance on admission document planning, with limits and evidence kept clear. | Documents needed to study abroad from India |
+| `/blog/` | ILMERA study abroad blog | ILMERA study abroad blog. Read practical articles on budgets, documents, scholarship evidence, academic records and online counselling. | ILMERA study abroad blog |
+| `/blog/scholarships-for-indian-students-study-abroad` | Scholarships for Indian students abroad \| ILMERA | Scholarships for Indian students abroad: practical guidance on scholarship eligibility evidence, with limits and evidence kept clear. | Scholarships for Indian students abroad |
+| `/blog/study-abroad-counselling-from-coorg` | Online study abroad counselling for Coorg students \| ILMERA | Online study abroad counselling for Coorg students: practical guidance on Coorg online application guidance, with limits and evidence kept clear. | Online study abroad counselling for Coorg students |
+| `/blog/study-abroad-with-academic-backlogs` | Study abroad with academic backlogs \| ILMERA | Study abroad with academic backlogs: practical guidance on backlog application planning, with limits and evidence kept clear. | Study abroad with academic backlogs |
+| `/contact` | Contact ILMERA Study Abroad | Contact ILMERA Study Abroad. Use the existing phone, WhatsApp and video-call channels to discuss your plans online. | Contact ILMERA Study Abroad |
+| `/` | ILMERA Study Abroad | ILMERA Study Abroad. Discuss your study plans through online counselling, with programme requirements and written funding terms checked separately. | ILMERA Study Abroad |
+| `/privacy-policy` | ILMERA privacy policy | ILMERA privacy policy. Read how enquiry information is collected, used and handled, and how to raise a privacy question. | ILMERA privacy policy |
+| `/services` | ILMERA study abroad services | ILMERA study abroad services. Review profile matching, admissions, visa documents, scholarship planning and pre-departure support. | ILMERA study abroad services |
+| `/study-abroad-consultants-in-karnataka` | Study abroad consultants in Karnataka \| ILMERA | Study abroad consultants in Karnataka: decide what the comparison must answer. Online application planning with ILMERA. | Study abroad consultants in Karnataka |
+| `/study-abroad-consultants-in-kodagu` | Study abroad consultancy in Kodagu \| ILMERA | Study abroad consultancy in Kodagu: prepare separate concerns before the joint conversation. Online application planning with ILMERA. | Study abroad consultancy in Kodagu |
+| `/study-abroad-counselling-belagavi` | Study abroad consultancy in Belagavi \| ILMERA | Study abroad consultancy in Belagavi: describe the task before choosing the support. Online application planning with ILMERA. | Study abroad consultancy in Belagavi |
+| `/study-abroad-counselling-bengaluru` | Study abroad consultancy in Bengaluru \| ILMERA | Study abroad consultancy in Bengaluru: translate your interest into an academic question. Online application planning with ILMERA. | Study abroad consultancy in Bengaluru |
+| `/study-abroad-counselling-chikkamagaluru` | Study abroad consultancy in Chikkamagaluru \| ILMERA | Study abroad consultancy in Chikkamagaluru: find the requirement that belongs to your course. Online application planning with ILMERA. | Study abroad consultancy in Chikkamagaluru |
+| `/study-abroad-counselling-gonikoppal` | Study abroad consultancy in Gonikoppal \| ILMERA | Study abroad consultancy in Gonikoppal: map the request before collecting records. Online application planning with ILMERA. | Study abroad consultancy in Gonikoppal |
+| `/study-abroad-counselling-hassan` | Study abroad consultancy in Hassan \| ILMERA | Study abroad consultancy in Hassan: separate the known price from the planning estimate. Online application planning with ILMERA. | Study abroad consultancy in Hassan |
+| `/study-abroad-counselling-kushalnagar` | Study abroad consultancy in Kushalnagar \| ILMERA | Study abroad consultancy in Kushalnagar: turn the offer into a list of obligations. Online application planning with ILMERA. | Study abroad consultancy in Kushalnagar |
+| `/study-abroad-counselling-madikeri` | Study abroad consultancy in Madikeri \| ILMERA | Study abroad consultancy in Madikeri: start with dates rather than a persuasive story. Online application planning with ILMERA. | Study abroad consultancy in Madikeri |
+| `/study-abroad-counselling-mangaluru` | Study abroad consultancy in Mangaluru \| ILMERA | Study abroad consultancy in Mangaluru: understand the proposed support before describing it. Online application planning with ILMERA. | Study abroad consultancy in Mangaluru |
+| `/study-abroad-counselling-mysuru` | Study abroad consultancy in Mysuru \| ILMERA | Study abroad consultancy in Mysuru: read the record as the recipient will see it. Online application planning with ILMERA. | Study abroad consultancy in Mysuru |
+| `/study-abroad-counselling-ponnampet` | Study abroad consultancy in Ponnampet \| ILMERA | Study abroad consultancy in Ponnampet: collect evidence before drafting the introduction. Online application planning with ILMERA. | Study abroad consultancy in Ponnampet |
+| `/study-abroad-counselling-shivamogga` | Study abroad consultancy in Shivamogga \| ILMERA | Study abroad consultancy in Shivamogga: identify whose deadline you are recording. Online application planning with ILMERA. | Study abroad consultancy in Shivamogga |
+| `/study-abroad-counselling-siddapura` | Study abroad consultancy in Siddapura \| ILMERA | Study abroad consultancy in Siddapura: ask why a record is needed before sending it. Online application planning with ILMERA. | Study abroad consultancy in Siddapura |
+| `/study-abroad-counselling-somwarpet` | Study abroad consultancy in Somwarpet \| ILMERA | Study abroad consultancy in Somwarpet: describe the record using its actual status. Online application planning with ILMERA. | Study abroad consultancy in Somwarpet |
+| `/study-abroad-counselling-udupi-manipal` | Study abroad consultancy in Udupi and Manipal \| ILMERA | Study abroad consultancy in Udupi and Manipal: read the structure as a set of commitments. Online application planning with ILMERA. | Study abroad consultancy in Udupi and Manipal |
+| `/study-abroad-counselling-virajpet` | Study abroad consultancy in Virajpet \| ILMERA | Study abroad consultancy in Virajpet: review the completed form, not only the document folder. Online application planning with ILMERA. | Study abroad consultancy in Virajpet |
+| `/study-in-gcc` | Study in GCC countries from India \| ILMERA | Study in GCC countries from India: check the programme, application evidence and official guidance before planning your next step. | Study in GCC countries from India |
+| `/study-in-germany` | Study in Germany from India \| ILMERA | Study in Germany from India: check the programme, application evidence and official guidance before planning your next step. | Study in Germany from India |
+| `/study-in-italy` | Study in Italy from India \| ILMERA | Study in Italy from India: check the programme, application evidence and official guidance before planning your next step. | Study in Italy from India |
+| `/study-in-latvia` | Study in Latvia from India \| ILMERA | Study in Latvia from India: check the programme, application evidence and official guidance before planning your next step. | Study in Latvia from India |
+| `/study-in-lithuania` | Study in Lithuania from India \| ILMERA | Study in Lithuania from India: check the programme, application evidence and official guidance before planning your next step. | Study in Lithuania from India |
+| `/study-in-slovakia` | Study in Slovakia from India \| ILMERA | Study in Slovakia from India: check the programme, application evidence and official guidance before planning your next step. | Study in Slovakia from India |
+| `/study-in-uk` | Study in UK from India \| ILMERA | Study in UK from India: check the programme, application evidence and official guidance before planning your next step. | Study in UK from India |
+| `/terms` | ILMERA terms of use | ILMERA terms of use. Read the scope of website use and counselling responsibilities before relying on any application guidance. | ILMERA terms of use |
+
+## New task 3 guide surfaces
+
+| Route | Title | Description | H1 |
+| --- | --- | --- | --- |
+| `/blog/how-to-choose-study-abroad-consultant-karnataka` | Choose a Study Abroad Consultant in Karnataka \| ILMERA | How to choose a study abroad consultant in Karnataka: ten checks on written scope, fees, documents, privacy and promises. | How to choose a study abroad consultant in Karnataka |

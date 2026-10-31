@@ -1,0 +1,537 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/services",
+  "arm": "B",
+  "fixture_sha256": "25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 2956.474704584134,
+    "cls": 0.0004910242311436697,
+    "tbt_ms": 0
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0.0004910242311436697,
+      "displayValue": "0",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.0004910242311436697,
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 47.97599999999996,
+      "displayValue": "0.0 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8085/services",
+            "total": 869.6039999999997,
+            "scripting": 28.971999999999962,
+            "scriptParseCompile": 10.075999999999997
+          },
+          {
+            "url": "Unattributable",
+            "total": 172.07200000000068,
+            "scripting": 8.927999999999999,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 47.97599999999996
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 7.328,
+            "startTime": 18.483
+          },
+          {
+            "duration": 19.561,
+            "startTime": 25.817
+          },
+          {
+            "duration": 17.937,
+            "startTime": 45.404
+          },
+          {
+            "duration": 13.672,
+            "startTime": 64.053
+          },
+          {
+            "duration": 50.029,
+            "startTime": 81.995
+          },
+          {
+            "duration": 14.17,
+            "startTime": 136.069
+          },
+          {
+            "duration": 24.797,
+            "startTime": 164.855
+          },
+          {
+            "duration": 11.363,
+            "startTime": 196.246
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": 1,
+      "displayValue": "1 layout shift found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-2-SPAN",
+              "path": "1,HTML,1,BODY,14,MAIN,3,SECTION,0,DIV,0,DIV,1,DIV,1,SPAN",
+              "selector": "div.container > div.badge-grid > div.badge-card > span.badge-title",
+              "boundingRect": {
+                "top": 587,
+                "bottom": 619,
+                "left": 227,
+                "right": 377,
+                "width": 150,
+                "height": 32
+              },
+              "snippet": "<span class=\"badge-title\">",
+              "nodeLabel": "LOW MARKS? NO PROBLEM"
+            },
+            "score": 0.0004910242311436697,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-600.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "http://127.0.0.1:8085/assets/fonts/cormorant-garamond-reference-400-italic.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "http://127.0.0.1:8085/assets/fonts/outfit-reference-500.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "http://127.0.0.1:8085/assets/fonts/outfit-reference-700.woff2"
+                  },
+                  "cause": "Web font loaded"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "4 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8085/services",
+            "duration": 100,
+            "startTime": 1378.4747045841339
+          },
+          {
+            "url": "Unattributable",
+            "duration": 78,
+            "startTime": 1209.4747045841339
+          },
+          {
+            "url": "http://127.0.0.1:8085/services",
+            "duration": 55,
+            "startTime": 1323.4747045841339
+          },
+          {
+            "url": "http://127.0.0.1:8085/services",
+            "duration": 50,
+            "startTime": 1506.4747045841339
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "http://127.0.0.1:8085/services",
+            "Unattributable"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 1378.5,
+              "duration": 100,
+              "other": 100,
+              "parseHTML": 0
+            },
+            {
+              "urlIndex": 1,
+              "startTime": 1209.5,
+              "duration": 78,
+              "other": 78
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1323.5,
+              "duration": 55,
+              "other": 55,
+              "parseHTML": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1506.5,
+              "duration": 50,
+              "other": 50,
+              "scriptEvaluation": 0,
+              "styleLayout": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 12.800000000046566,
+      "duration": 1002,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 194.19999999995343,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 190.80000000004657,
+      "value": 0.0004910242311436697,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "Low Marks? No Problem",
+          "previous": {
+            "x": 227,
+            "y": 587.328125,
+            "width": 150,
+            "height": 32,
+            "top": 587.328125,
+            "right": 377,
+            "bottom": 619.328125,
+            "left": 227
+          },
+          "current": {
+            "x": 227,
+            "y": 587.328125,
+            "width": 150,
+            "height": 32,
+            "top": 587.328125,
+            "right": 377,
+            "bottom": 619.328125,
+            "left": 227
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "Lowest Tuition Fees",
+          "previous": {
+            "x": 35,
+            "y": 757.328125,
+            "width": 150,
+            "height": 32,
+            "top": 757.328125,
+            "right": 185,
+            "bottom": 789.328125,
+            "left": 35
+          },
+          "current": {
+            "x": 35,
+            "y": 757.328125,
+            "width": 150,
+            "height": 32,
+            "top": 757.328125,
+            "right": 185,
+            "bottom": 789.328125,
+            "left": 35
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "IELTS Not Mandatory",
+          "previous": {
+            "x": 227,
+            "y": 757.328125,
+            "width": 150,
+            "height": 32,
+            "top": 757.328125,
+            "right": 377,
+            "bottom": 789.328125,
+            "left": 227
+          },
+          "current": {
+            "x": 227,
+            "y": 757.328125,
+            "width": 150,
+            "height": 32,
+            "top": 757.328125,
+            "right": 377,
+            "bottom": 789.328125,
+            "left": 227
+          }
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1059,
+      "duration": 50,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 1172.8000000000466,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

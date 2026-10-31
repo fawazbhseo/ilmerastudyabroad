@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-shivamogga__1280__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-shivamogga",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-shivamogga",
+  "http_status": 200,
+  "page_height": 4583,
+  "scroll": {
+    "height": 4583,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4583,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3447
+    },
+    "visible_text_chars": 4080,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Shivamogga"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Shivamogga"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Shivamogga: identify whose deadl"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "How should a Shivamogga applicant label a personal target da"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "An application calendar is useful only when it shows depende"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to identify whose deadline you are recording onl"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Identify whose deadline you are recording"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "Label every date by its source and purpose. A course applica"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Draw the chain behind each submission"
+      },
+      {
+        "selector": "p",
+        "y": 1224,
+        "text": "For an important action, list what must already be available"
+      },
+      {
+        "selector": "h2",
+        "y": 1470,
+        "text": "Use review points rather than silent slippage"
+      },
+      {
+        "selector": "p",
+        "y": 1537,
+        "text": "Choose points at which you will reassess a task that has not"
+      },
+      {
+        "selector": "p",
+        "y": 1792,
+        "text": "Counselling is online, and students from Shivamogga do not n"
+      },
+      {
+        "selector": "h2",
+        "y": 1864,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1958,
+        "text": "How should a Shivamogga applicant label a personal target da"
+      },
+      {
+        "selector": "p",
+        "y": 2013,
+        "text": "Mark it explicitly as your planning target and keep it separ"
+      },
+      {
+        "selector": "summary",
+        "y": 2054,
+        "text": "What happens when one document dependency is delayed?"
+      },
+      {
+        "selector": "p",
+        "y": 2109,
+        "text": "Trace the effect on later tasks, record a review point and c"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2231,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2298,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2358,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2468,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2542,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2596,
+        "text": "Belagavi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4583,
+    "scan_width": 512,
+    "scan_height": 1833,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5002727768685213
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "3eb316c5726c196e8586bbaf0ef3ee6d9b50bb0c1bc117c209ca3711abc92bfe"
+  }
+}

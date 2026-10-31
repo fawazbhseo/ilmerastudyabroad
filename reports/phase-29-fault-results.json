@@ -1,0 +1,4564 @@
+{
+  "method": "Single-fault or explicitly labelled combined/mixed-tree fixtures, clean ZIP memory filesystem,390px Chromium. No native server/live access or performance lab.",
+  "cases": [
+    {
+      "case": "http-css-404",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/http-css-404.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 404
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "http-css-404",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "CSS diagnostic URL404 verified, but no browser stylesheet request: PHP inline CSS is unchanged.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "http-css-403",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/http-css-403.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 403
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "http-css-403",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "CSS diagnostic URL403 verified, but filesystem read is allowed: unchanged inline design.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "http-fonts-404",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/http-fonts-404.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 404
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "http-fonts-404",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "All HTTP font paths404. Germany uses data fonts, so headings still use Cormorant.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "scenes-off",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/scenes-off.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "scenes-off",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "False changes decoration only; destination hero was already plain. Design remains.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "cached-phase13",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/cached-phase13.png",
+      "metrics": {
+        "title": "Study in Germany | ILMERA Study Abroad",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany\n\nMost state-funded universities in Germany charge no tuition fees for m",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 4759.015625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 157.109375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 36,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Most state-funded universities in Germany charge no tuition fees for most degree courses, but every student pays a semester contribution of about 100 to 350 euros. Baden-W\u00fcrttember",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 221,
+          "width": 390,
+          "height": 3382.625,
+          "visible": true
+        },
+        "firstCTA": null,
+        "onlineOnly": false,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nYour Gateway to Global Education. Based in Coorg, Kodagu, Karnataka.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\nGUIDES\nHow to Study in Germany for ",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 3603.625,
+          "width": 390,
+          "height": 1155.390625,
+          "visible": true
+        },
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 16
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "cached-phase13",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/includes/footer.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 3,
+      "note": "Actual end-Phase13 HTML with current static files: old content/old styling, no current direct-answer CTA. External Google font requests aborted, not evidence live Google fonts fail.",
+      "screenshot_sha256": "b974050aa1310bcbdf8edbb3d70c23275cc62ce3dc221f543d8e203009289ab1"
+    },
+    {
+      "case": "cached-predesign",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/cached-predesign.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 7738.921875,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 157.109375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 72,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also ch",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 811.984375,
+          "width": 390,
+          "height": 4042.75,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, sans-serif",
+          "display": "inline-block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 676.984375,
+          "width": 342,
+          "height": 71,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5654.734375,
+          "width": 390,
+          "height": 2084.1875,
+          "visible": true
+        },
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": null,
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 3,
+      "note": "Actual frozen predesign Germany HTML with current assets: old dark layout, but header and CTA text visible. External Google fonts aborted, so default-serif observation is conditional on that external block.",
+      "screenshot_sha256": "36887bcb9bc7c0182e1886263835a5e3a15d48d2c689287fa87ba54676080d32"
+    },
+    {
+      "case": "changed-php-over-phase13",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/changed-php-over-phase13.png",
+      "metrics": {
+        "title": "Study in Germany | ILMERA Study Abroad",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 403,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany\n\nAt German public institutions, bachelor programmes and most master pro",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 4997.78125,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 157.109375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 36,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also ch",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 221,
+          "width": 390,
+          "height": 3629.59375,
+          "visible": true
+        },
+        "firstCTA": null,
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 3850.59375,
+          "width": 390,
+          "height": 1147.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "error"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 16
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "changed-php-over-phase13",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  file_get_contents(/site/data/seo-map.json): Failed to open stream: No such file or directory in /site/includes/site-presentation.php on line 60\nPHP Warning:  file_get_contents(/site/assets/css/visual-system.css): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 67\nPHP Warning:  file_get_contents(/site/assets/fonts/outfit-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\nPHP Warning:  file_get_contents(/site/assets/fonts/cormorant-garamond-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/includes/footer.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 3,
+      "note": "Actual Phase13 tree overlaid with changed PHP, assets removed. Required PHP now available but new JSON absent.200 dark/fallback fonts, no current direct-answer CTA. Not exact.",
+      "screenshot_sha256": "ed2fb845fbd4366cd360c415acab055e5b76883099496427815beb4d878b9c22"
+    },
+    {
+      "case": "subfolder",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/subfolder.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 176.28125,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/preview/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 404
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 404
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 404
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "subfolder",
+        "route": "/preview/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/preview/study-in-germany.php",
+          "/site/preview/includes/site-presentation.php",
+          "/site/preview/includes/visual-system.php",
+          "/site/preview/includes/visual-config.php",
+          "/site/preview/includes/entity.php",
+          "/site/preview/includes/service-scope.php",
+          "/site/preview/includes/proof.php",
+          "/site/preview/includes/payment-disclosure.php",
+          "/site/preview/includes/destination-page.php",
+          "/site/preview/includes/destination-data.php",
+          "/site/preview/includes/place-data.php",
+          "/site/preview/includes/breadcrumbs.php",
+          "/site/preview/includes/links.php",
+          "/site/preview/includes/posts.php",
+          "/site/preview/destinations/germany.php",
+          "/site/preview/includes/header.php",
+          "/site/preview/destinations/italy.php",
+          "/site/preview/destinations/uk.php",
+          "/site/preview/destinations/czech-republic.php",
+          "/site/preview/destinations/lithuania.php",
+          "/site/preview/destinations/latvia.php",
+          "/site/preview/destinations/slovakia.php",
+          "/site/preview/destinations/russia.php",
+          "/site/preview/destinations/gcc.php",
+          "/site/preview/includes/footer.php",
+          "/site/preview/places/belagavi.php",
+          "/site/preview/places/bengaluru.php",
+          "/site/preview/places/chikkamagaluru.php",
+          "/site/preview/places/gonikoppal.php",
+          "/site/preview/places/hassan.php",
+          "/site/preview/places/karnataka.php",
+          "/site/preview/places/kodagu.php",
+          "/site/preview/places/kushalnagar.php",
+          "/site/preview/places/madikeri.php",
+          "/site/preview/places/mangaluru.php",
+          "/site/preview/places/mysuru.php",
+          "/site/preview/places/ponnampet.php",
+          "/site/preview/places/shivamogga.php",
+          "/site/preview/places/siddapura.php",
+          "/site/preview/places/somwarpet.php",
+          "/site/preview/places/udupi-manipal.php",
+          "/site/preview/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "Whole payload under /preview; root-absolute image/font URLs break. Germany CSS and data fonts still inline and correct. Direct root Germany URL is404. Not the reported content-complete old look.",
+      "screenshot_sha256": "3b1ef769f649fc0c577620ed007e33fedcff5ef9b9154e83ef56cebd8a7d22d8"
+    },
+    {
+      "case": "php-8.0",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/php-8.0.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "error"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "php-8.0",
+        "route": "/study-in-germany",
+        "php": "8.0",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "PHP8.0 applies design successfully in local VM; not native-host certification.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "php-8.1",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/php-8.1.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "php-8.1",
+        "route": "/study-in-germany",
+        "php": "8.1",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "PHP8.1 applies design successfully in local VM; not native-host certification.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "php-8.5",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/php-8.5.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "error"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "php-8.5",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "PHP8.5 applies design successfully in local VM; not native-host certification.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "disk-css-missing",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/disk-css-missing.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 37127,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 7642.3125,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 146,
+          "width": 342,
+          "height": 72,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 258,
+          "width": 390,
+          "height": 4497.125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(201, 168, 76)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, sans-serif",
+          "display": "inline-block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 879.53125,
+          "width": 342,
+          "height": 71,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5524.125,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "disk-css-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  file_get_contents(/site/assets/css/visual-system.css): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 67\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": true,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 3,
+      "note": "Warning-only missing PHP-read CSS: dark reading sections and identical gold CTA foreground/background. Fonts still inline and header present.",
+      "screenshot_sha256": "6fa1c85a4eedf96d592d4a9b483f0176fb650c0914c44eb152c4c7f491fced07"
+    },
+    {
+      "case": "disk-fonts-missing",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/disk-fonts-missing.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 22767,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8461.625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 157.109375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 5294.75,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 1053.109375,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 6377.4375,
+          "width": 390,
+          "height": 2084.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "error"
+          },
+          {
+            "family": "Outfit",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "error"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "disk-fonts-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  file_get_contents(/site/assets/fonts/outfit-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\nPHP Warning:  file_get_contents(/site/assets/fonts/cormorant-garamond-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Warning-only missing two disk font faces: actual fallback serif, but light sections and readable CTA/header remain.",
+      "screenshot_sha256": "9c4980f362c43c959de963dbecdd15648688b236ec2c5e7487a10fa30c2d9721"
+    },
+    {
+      "case": "no-assets",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/no-assets.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 403,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 7968.859375,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 184.078125,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 72,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 257,
+          "width": 390,
+          "height": 4827.671875,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(201, 168, 76)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, sans-serif",
+          "display": "inline-block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 966.921875,
+          "width": 342,
+          "height": 71,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5884.671875,
+          "width": 390,
+          "height": 2084.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "error"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 404
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 404
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 404
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "no-assets",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  file_get_contents(/site/assets/css/visual-system.css): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 67\nPHP Warning:  file_get_contents(/site/assets/fonts/outfit-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\nPHP Warning:  file_get_contents(/site/assets/fonts/cormorant-garamond-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": true,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 4,
+      "note": "All assets absent on disk: dark, fallback serif, blank-looking gold CTA and no light reading sections, but header text/hamburger remain. Four of five visual symptoms, not exact.",
+      "screenshot_sha256": "2d0e9a91e82bf392591fa835dd65b0bc89ee0d1b5b2eb16710379dc17d87495f"
+    },
+    {
+      "case": "groups-disabled",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/groups-disabled.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 7738.921875,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 157.109375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "IMG#.",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 72,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also ch",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 811.984375,
+          "width": 390,
+          "height": 4042.75,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, sans-serif",
+          "display": "inline-block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 676.984375,
+          "width": 342,
+          "height": 71,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5654.734375,
+          "width": 390,
+          "height": 2084.1875,
+          "visible": true
+        },
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "groups-disabled",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": false,
+        "default_serif_heading": true,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 3,
+      "note": "Deliberately predefined empty template groups skips overlay. Dark layout, but header and CTA text remain. Not exact. Requires non-default config/bootstrap not present in payload.",
+      "screenshot_sha256": "36887bcb9bc7c0182e1886263835a5e3a15d48d2c689287fa87ba54676080d32"
+    },
+    {
+      "case": "normal",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/normal.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "ILMERA\nSTUDY ABROAD\nHome\nAbout\nServices\nBlog\nContact\nHome \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific ",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "visible": true
+        },
+        "headerLogo": {
+          "text": "ILMERA\nSTUDY ABROAD",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 20,
+          "y": 14,
+          "width": 152.484375,
+          "height": 36,
+          "visible": true
+        },
+        "hamburger": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "Arial",
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 338,
+          "y": 20,
+          "width": 32,
+          "height": 24,
+          "visible": true
+        },
+        "headerTopHit": "A#.nav-logo",
+        "headerActuallyOnTop": true,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "status": 200,
+          "type": "image/png"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "normal",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/includes/header.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": false,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 0,
+      "note": "Control: full130-file payload applies new design.",
+      "screenshot_sha256": "4b944bc649ca2f046496265b48d4d4c1a1794676e0d29c0e155084e61a15a676"
+    },
+    {
+      "case": "config-missing",
+      "status": 500,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/config-missing.png",
+      "metrics": {
+        "title": "",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Times New Roman\"",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 8,
+          "y": 8,
+          "width": 374,
+          "height": 828,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "BODY#.",
+        "headerActuallyOnTop": false,
+        "heading": null,
+        "firstReading": null,
+        "firstCTA": null,
+        "onlineOnly": false,
+        "footer": null,
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 500,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "config-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 255,
+        "status": 500,
+        "errors": "PHP Warning:  require_once(/site/includes/visual-config.php): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 2\nPHP Fatal error:  Uncaught Error: Failed opening required '/site/includes/visual-config.php' (include_path='.:') in /site/includes/visual-system.php:2\nStack trace:\n#0 /site/includes/site-presentation.php(2): require_once()\n#1 /site/study-in-germany.php(1): require_once('/site/includes/...')\n#2 /internal/eval.php(1): require('/site/study-in-...')\n#3 {main}\n  thrown in /site/includes/visual-system.php on line 2\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": true,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Required config missing is fatal500, not an old-look complete page.",
+      "screenshot_sha256": "417ead24d31f08402a27ce28eb5c5d11777f46aaff52666463fa646fc44458f8"
+    },
+    {
+      "case": "visual-missing",
+      "status": 500,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/visual-missing.png",
+      "metrics": {
+        "title": "",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Times New Roman\"",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 8,
+          "y": 8,
+          "width": 374,
+          "height": 828,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "BODY#.",
+        "headerActuallyOnTop": false,
+        "heading": null,
+        "firstReading": null,
+        "firstCTA": null,
+        "onlineOnly": false,
+        "footer": null,
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 500,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "visual-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 255,
+        "status": 500,
+        "errors": "PHP Warning:  require_once(/site/includes/visual-system.php): Failed to open stream: No such file or directory in /site/includes/site-presentation.php on line 2\nPHP Fatal error:  Uncaught Error: Failed opening required '/site/includes/visual-system.php' (include_path='.:') in /site/includes/site-presentation.php:2\nStack trace:\n#0 /site/study-in-germany.php(1): require_once()\n#1 /internal/eval.php(1): require('/site/study-in-...')\n#2 {main}\n  thrown in /site/includes/site-presentation.php on line 2\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": true,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Required visual-system missing is fatal500, no silent include fallback.",
+      "screenshot_sha256": "417ead24d31f08402a27ce28eb5c5d11777f46aaff52666463fa646fc44458f8"
+    },
+    {
+      "case": "changed-php-only",
+      "status": 500,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/changed-php-only.png",
+      "metrics": {
+        "title": "",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Times New Roman\"",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 8,
+          "y": 8,
+          "width": 374,
+          "height": 828,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "BODY#.",
+        "headerActuallyOnTop": false,
+        "heading": null,
+        "firstReading": null,
+        "firstCTA": null,
+        "onlineOnly": false,
+        "footer": null,
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 500,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "changed-php-only",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 255,
+        "status": 500,
+        "errors": "PHP Warning:  require_once(/site/includes/breadcrumbs.php): Failed to open stream: No such file or directory in /site/includes/destination-page.php on line 4\nPHP Fatal error:  Uncaught Error: Failed opening required '/site/includes/breadcrumbs.php' (include_path='.:') in /site/includes/destination-page.php:4\nStack trace:\n#0 /site/study-in-germany.php(4): include()\n#1 /internal/eval.php(1): require('/site/study-in-...')\n#2 {main}\n  thrown in /site/includes/destination-page.php on line 4\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": true,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Changed-since-Phase13 PHP subset in empty folder misses unchanged breadcrumbs.php and fails500. No JSON/assets; not the complete current content screenshot.",
+      "screenshot_sha256": "417ead24d31f08402a27ce28eb5c5d11777f46aaff52666463fa646fc44458f8"
+    },
+    {
+      "case": "php-7.4",
+      "status": 500,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/php-7.4.png",
+      "metrics": {
+        "title": "",
+        "bodyClass": "",
+        "overlay": false,
+        "overlayBytes": 0,
+        "inlineDataFontCount": 0,
+        "body": {
+          "text": "",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Times New Roman\"",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 8,
+          "y": 8,
+          "width": 374,
+          "height": 828,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "BODY#.",
+        "headerActuallyOnTop": false,
+        "heading": null,
+        "firstReading": null,
+        "firstCTA": null,
+        "onlineOnly": false,
+        "footer": null,
+        "fontFaces": []
+      },
+      "actualHeadingFonts": [],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 500,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "php-7.4",
+        "route": "/study-in-germany",
+        "php": "7.4",
+        "exitCode": 255,
+        "status": 500,
+        "errors": "PHP Fatal error:  Uncaught Error: Call to undefined function str_ends_with() in /site/includes/destination-data.php:140\nStack trace:\n#0 /site/includes/destination-data.php(152): ilmera_destination_evidence_matches(Array)\n#1 /site/includes/destination-page.php(12): ilmera_destination_indexable(Array)\n#2 /site/study-in-germany.php(4): include('/site/includes/...')\n#3 /internal/eval.php(1): require('/site/study-in-...')\n#4 {main}\n  thrown in /site/includes/destination-data.php on line 140\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": true,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Fatal undefined str_ends_with at includes/destination-data.php:140, also posts.php:126. PHP API compatibility issue, not styling-only fallback.",
+      "screenshot_sha256": "417ead24d31f08402a27ce28eb5c5d11777f46aaff52666463fa646fc44458f8"
+    },
+    {
+      "case": "header-missing",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/header-missing.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 59491,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "Home \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific planning. Read the existing official guidance below a",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 8075.15625,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "SECTION#.article-hero",
+        "headerActuallyOnTop": false,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", \"Cormorant Metric\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 178,
+          "width": 346,
+          "height": 78.1875,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(74, 85, 104)",
+          "background": "rgb(240, 244, 255)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 328.1875,
+          "width": 390,
+          "height": 4899.78125,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(4, 6, 15)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "inline-flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 22,
+          "y": 961.921875,
+          "width": 346,
+          "height": 73,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, \"Outfit Metric\", sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5956.96875,
+          "width": 390,
+          "height": 2118.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit Metric",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "loaded"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 200
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 200
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "header-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  include(/site/includes/header.php): Failed to open stream: No such file or directory in /site/includes/destination-page.php on line 119\nPHP Warning:  include(): Failed opening '/site/includes/header.php' for inclusion (include_path='.:') in /site/includes/destination-page.php on line 119\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": false,
+        "header_absent": true,
+        "default_serif_heading": false,
+        "blank_gold_CTA": false,
+        "no_light_reading_sections": false
+      },
+      "matching_symptom_count": 1,
+      "note": "Non-required header include missing: warning,200 current content with absent nav, but correct light sections/fonts/readable CTA.",
+      "screenshot_sha256": "cc7328e5604a3b53b7f370e339236b4eea1ee65bfc28ee58e0055765539c5b55"
+    },
+    {
+      "case": "no-assets-header-missing",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "reports/screenshots/phase-29/no-assets-header-missing.png",
+      "metrics": {
+        "title": "Study in Germany from India | ILMERA",
+        "bodyClass": "p25 p25-destination",
+        "overlay": true,
+        "overlayBytes": 403,
+        "inlineDataFontCount": 2,
+        "body": {
+          "text": "Home \u00a0/\u00a0 Services \u00a0/\u00a0 Study in Germany\nStudy in Germany from India\n\nStudy in Germany from India starts with programme-specific planning. Read the existing official guidance below a",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 7968.859375,
+          "visible": true
+        },
+        "nav": null,
+        "headerLogo": null,
+        "hamburger": null,
+        "headerTopHit": "SECTION#.article-hero",
+        "headerActuallyOnTop": false,
+        "heading": {
+          "text": "Study in Germany from India",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "\"Cormorant Garamond\", serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 145,
+          "width": 342,
+          "height": 72,
+          "visible": true
+        },
+        "firstReading": {
+          "text": "Study in Germany from India starts with programme-specific planning. Read the existing official guidance below and confirm requirements for the selected application.\n\nLast reviewed",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(10, 22, 40, 0.6)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 257,
+          "width": 390,
+          "height": 4827.671875,
+          "visible": true
+        },
+        "firstCTA": {
+          "text": "Discuss study in Germany from India online",
+          "color": "rgb(201, 168, 76)",
+          "background": "rgb(201, 168, 76)",
+          "font": "Outfit, sans-serif",
+          "display": "inline-block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 24,
+          "y": 966.921875,
+          "width": 342,
+          "height": 71,
+          "visible": true
+        },
+        "onlineOnly": true,
+        "footer": {
+          "text": "ILMERA\nSTUDY ABROAD\n\nOnline counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.\n\nNAVIGATION\nHome\nAbout\nServices\nBlog\nContact\nAll pages\n",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(4, 6, 15)",
+          "font": "Outfit, sans-serif",
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "x": 0,
+          "y": 5884.671875,
+          "width": 390,
+          "height": 2084.1875,
+          "visible": true
+        },
+        "fontFaces": [
+          {
+            "family": "Outfit",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "status": "error"
+          }
+        ]
+      },
+      "actualHeadingFonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 26
+        }
+      ],
+      "browserResponses": [
+        {
+          "url": "http://127.0.0.1:8090/study-in-germany",
+          "status": 200,
+          "type": "text/html; charset=UTF-8"
+        }
+      ],
+      "diagnosticProbes": [
+        {
+          "path": "/assets/css/visual-system.css",
+          "status": 404
+        },
+        {
+          "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "status": 404
+        }
+      ],
+      "browserErrors": [],
+      "phpDiagnostic": {
+        "case": "no-assets-header-missing",
+        "route": "/study-in-germany",
+        "php": "8.5",
+        "exitCode": 0,
+        "status": 200,
+        "errors": "PHP Warning:  include(/site/includes/header.php): Failed to open stream: No such file or directory in /site/includes/destination-page.php on line 119\nPHP Warning:  include(): Failed opening '/site/includes/header.php' for inclusion (include_path='.:') in /site/includes/destination-page.php on line 119\nPHP Warning:  file_get_contents(/site/assets/css/visual-system.css): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 67\nPHP Warning:  file_get_contents(/site/assets/fonts/outfit-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\nPHP Warning:  file_get_contents(/site/assets/fonts/cormorant-garamond-latin.woff2): Failed to open stream: No such file or directory in /site/includes/visual-system.php on line 74\n",
+        "includes": [
+          "/internal/shared/auto_prepend_file.php",
+          "/internal/eval.php",
+          "/site/study-in-germany.php",
+          "/site/includes/site-presentation.php",
+          "/site/includes/visual-system.php",
+          "/site/includes/visual-config.php",
+          "/site/includes/entity.php",
+          "/site/includes/service-scope.php",
+          "/site/includes/proof.php",
+          "/site/includes/payment-disclosure.php",
+          "/site/includes/destination-page.php",
+          "/site/includes/destination-data.php",
+          "/site/includes/place-data.php",
+          "/site/includes/breadcrumbs.php",
+          "/site/includes/links.php",
+          "/site/includes/posts.php",
+          "/site/destinations/germany.php",
+          "/site/destinations/italy.php",
+          "/site/destinations/uk.php",
+          "/site/destinations/czech-republic.php",
+          "/site/destinations/lithuania.php",
+          "/site/destinations/latvia.php",
+          "/site/destinations/slovakia.php",
+          "/site/destinations/russia.php",
+          "/site/destinations/gcc.php",
+          "/site/includes/footer.php",
+          "/site/places/belagavi.php",
+          "/site/places/bengaluru.php",
+          "/site/places/chikkamagaluru.php",
+          "/site/places/gonikoppal.php",
+          "/site/places/hassan.php",
+          "/site/places/karnataka.php",
+          "/site/places/kodagu.php",
+          "/site/places/kushalnagar.php",
+          "/site/places/madikeri.php",
+          "/site/places/mangaluru.php",
+          "/site/places/mysuru.php",
+          "/site/places/ponnampet.php",
+          "/site/places/shivamogga.php",
+          "/site/places/siddapura.php",
+          "/site/places/somwarpet.php",
+          "/site/places/udupi-manipal.php",
+          "/site/places/virajpet.php"
+        ],
+        "native_acl_test": false
+      },
+      "fullPageScreenshot": true,
+      "externalRequests": "Live external providers aborted; production-origin first-party images mapped to same diagnostic root, not fetched live",
+      "owner_description_comparison": {
+        "dark_reading_layout": true,
+        "header_absent": true,
+        "default_serif_heading": true,
+        "blank_gold_CTA": true,
+        "no_light_reading_sections": true
+      },
+      "matching_symptom_count": 5,
+      "note": "Explicit COMBINATION: missing assets folder plus missing includes/header.php.200 retains current copy, online-only disclosure and footer, but matches all five stated visual symptoms. Not a pixel-exact owner screenshot comparison.",
+      "screenshot_sha256": "1f55a18fbde7c707585fc27ba23cdebca859bfda60a7f26c191e05220c2c6a0b"
+    }
+  ],
+  "owner_original_screenshot_available": false,
+  "pixel_exact_live_match_verified": false,
+  "all_five_description_symptoms_reproduced_by": "no-assets-header-missing",
+  "screenshots_count": 24
+}

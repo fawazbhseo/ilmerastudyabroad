@@ -1,0 +1,176 @@
+{
+  "id": "blog_study-abroad-counselling-from-coorg__1280__js-off__motion-normal",
+  "route": "/blog/study-abroad-counselling-from-coorg",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/study-abroad-counselling-from-coorg",
+  "http_status": 200,
+  "page_height": 5051,
+  "scroll": {
+    "height": 5051,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5051,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3915
+    },
+    "visible_text_chars": 4562,
+    "visible_text_nodes": 59,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Coorg"
+      },
+      {
+        "selector": "h1",
+        "y": 224,
+        "text": "Online study abroad counselling for Coorg students"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 469,
+        "text": "Online study abroad counselling for Coorg students requires "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 549,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 549,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 617,
+        "text": "What should I know about online study abroad counselling for"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 709,
+        "text": "ILMERA offers online counselling only, by phone, WhatsApp an"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 833,
+        "text": "Discuss online study abroad counselling for Coorg students o"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 920,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 920,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 920,
+        "text": "· September 3, 2025 · Reviewed October 2026 · 4 min read"
+      },
+      {
+        "selector": "p",
+        "y": 968,
+        "text": "ILMERA offers online counselling only, by phone, WhatsApp an"
+      },
+      {
+        "selector": "h2",
+        "y": 1070,
+        "text": "What the Process Actually Looks Like"
+      },
+      {
+        "selector": "p",
+        "y": 1137,
+        "text": "A first conversation is usually a phone call or a scheduled "
+      },
+      {
+        "selector": "h2",
+        "y": 1267,
+        "text": "Step by Step"
+      },
+      {
+        "selector": "strong",
+        "y": 1334,
+        "text": "Initial call:"
+      },
+      {
+        "selector": "li",
+        "y": 1334,
+        "text": "a phone or video consultation to understand your profile, bu"
+      },
+      {
+        "selector": "strong",
+        "y": 1373,
+        "text": "Document review:"
+      },
+      {
+        "selector": "li",
+        "y": 1373,
+        "text": "transcripts, certificates, and financial documents are share"
+      },
+      {
+        "selector": "strong",
+        "y": 1441,
+        "text": "University shortlist:"
+      },
+      {
+        "selector": "li",
+        "y": 1441,
+        "text": "discussed over a follow-up call, with reasoning for why each"
+      },
+      {
+        "selector": "strong",
+        "y": 1480,
+        "text": "Application guidance:"
+      },
+      {
+        "selector": "li",
+        "y": 1480,
+        "text": "Jabir KJ, Founder, is responsible for university research, a"
+      },
+      {
+        "selector": "strong",
+        "y": 1547,
+        "text": "Visa and documents:"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5051,
+    "scan_width": 512,
+    "scan_height": 2020,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5004950495049503
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "c4c7b145f8d46b6de89b0c982e7b6f75ca20ac234f01706fb61b009cf851e2bd"
+  }
+}

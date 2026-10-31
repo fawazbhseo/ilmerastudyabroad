@@ -1,0 +1,362 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/",
+  "arm": "B",
+  "fixture_sha256": "1edc4a65117c748ffdf42d9417398f4e87e7b46be97ade30ef941df7d98fa5a7",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 3486.6550568761436,
+    "cls": 0.0007281832908293824,
+    "tbt_ms": 0
+  },
+  "layout_shift_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0.0007281832908293824,
+      "displayValue": "0.001",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.0007281832908293824,
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": 1,
+      "displayValue": "1 layout shift found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-3-DIV",
+              "path": "1,HTML,1,BODY,13,MAIN,1,SECTION,0,DIV,8,DIV",
+              "selector": "main > section#hero > div.hero-inner > div#hStats",
+              "boundingRect": {
+                "top": 702,
+                "bottom": 881,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 179
+              },
+              "snippet": "<div class=\"hero-stats\" id=\"hStats\">",
+              "nodeLabel": "9\nSTUDY DESTINATIONS\n3\nNAMED COUNSELLORS\n4\nLANGUAGES SPOKEN\n2026\nFOUNDED"
+            },
+            "score": 0.0007281832908293824
+          }
+        ]
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "layout-shift",
+      "time": 238.20000000018626,
+      "value": 0.0007281832908293824,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "Book online Consultation",
+          "previous": {
+            "x": 56,
+            "y": 596.203125,
+            "width": 300,
+            "height": 16,
+            "top": 596.203125,
+            "right": 356,
+            "bottom": 612.203125,
+            "left": 56
+          },
+          "current": {
+            "x": 56,
+            "y": 598.203125,
+            "width": 300,
+            "height": 16,
+            "top": 598.203125,
+            "right": 356,
+            "bottom": 614.203125,
+            "left": 56
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "hDiv",
+          "className": "hero-div",
+          "text": null,
+          "previous": {
+            "x": 186,
+            "y": 668.203125,
+            "width": 40,
+            "height": 1,
+            "top": 668.203125,
+            "right": 226,
+            "bottom": 669.203125,
+            "left": 186
+          },
+          "current": {
+            "x": 186,
+            "y": 671.203125,
+            "width": 40,
+            "height": 1,
+            "top": 671.203125,
+            "right": 226,
+            "bottom": 672.203125,
+            "left": 186
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "hStats",
+          "className": "hero-stats",
+          "text": "9Study Destinations\n      3Named Counsellors\n      4Languages Spoken\n                  2026Founded",
+          "previous": {
+            "x": 20,
+            "y": 699.203125,
+            "width": 372,
+            "height": 123.796875,
+            "top": 699.203125,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 702.203125,
+            "width": 372,
+            "height": 120.796875,
+            "top": 702.203125,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          }
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 252.5,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 2182.899999999907,
+      "value": 0.05506289658023097,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": "DIV",
+          "id": "hStats",
+          "className": "hero-stats",
+          "text": "9Study Destinations\n      3Named Counsellors\n      4Languages Spoken\n                  2026Founded",
+          "previous": {
+            "x": 20,
+            "y": 762.71875,
+            "width": 372,
+            "height": 60.28125,
+            "top": 762.71875,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 702.203125,
+            "width": 372,
+            "height": 120.796875,
+            "top": 702.203125,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          }
+        },
+        {
+          "tag": "H1",
+          "id": "hH1",
+          "className": "hero-h1",
+          "text": "ILMERA Study Abroad",
+          "previous": {
+            "x": 20,
+            "y": 179,
+            "width": 372,
+            "height": 85.265625,
+            "top": 179,
+            "right": 392,
+            "bottom": 264.265625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 182,
+            "width": 372,
+            "height": 46,
+            "top": 182,
+            "right": 392,
+            "bottom": 228,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": null,
+          "className": "seo-opening",
+          "text": "ILMERA Study Abroad: Discuss your study plans through online counselling, with programme requirements and written fundin",
+          "previous": {
+            "x": 20,
+            "y": 288.53125,
+            "width": 372,
+            "height": 115.1875,
+            "top": 288.53125,
+            "right": 392,
+            "bottom": 403.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 251.265625,
+            "width": 372,
+            "height": 115.1875,
+            "top": 251.265625,
+            "right": 392,
+            "bottom": 366.453125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": "hSub",
+          "className": "hero-sub",
+          "text": "Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or a",
+          "previous": {
+            "x": 20,
+            "y": 421.71875,
+            "width": 372,
+            "height": 105,
+            "top": 421.71875,
+            "right": 392,
+            "bottom": 526.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 384.453125,
+            "width": 372,
+            "height": 78.75,
+            "top": 384.453125,
+            "right": 392,
+            "bottom": 463.203125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "hBtns",
+          "className": "hero-btns",
+          "text": "Explore Study Destinations\n      Book online Consultation",
+          "previous": {
+            "x": 20,
+            "y": 564.71875,
+            "width": 372,
+            "height": 127,
+            "top": 564.71875,
+            "right": 392,
+            "bottom": 691.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 501.203125,
+            "width": 372,
+            "height": 130,
+            "top": 501.203125,
+            "right": 392,
+            "bottom": 631.203125,
+            "left": 20
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

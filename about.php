@@ -1,3 +1,8 @@
+<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'About', 'url' => '/about']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +14,9 @@
      PRIMARY SEO META: About Page
 ═══════════════════════════════════════════════════════════════ -->
 <title>About ILMERA Study Abroad | Study Abroad Consultants for Coorg &amp; Kodagu</title>
-<meta name="description" content="ILMERA Study Abroad is based in Coorg, Kodagu and works with students across Karnataka and India. Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. Free online consultation."/>
+<meta name="description" content="ILMERA Study Abroad is based in Coorg, Kodagu and works with students across Karnataka and India. Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. online consultation."/>
 
-<meta name="keywords" content="study abroad consultant India, ILMERA Study Abroad, overseas education consultant, study in Germany free, study in Italy, study abroad with backlogs, low marks study abroad, student visa assistance, study in Europe from India, MBBS abroad, study in UK, Czech Republic universities"/>
+<meta name="keywords" content="Germany tuition planning, Italy scholarship eligibility, Slovakia teaching language, study costs and documents"/>
 <meta name="author" content="ILMERA Study Abroad"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="googlebot" content="index, follow"/>
@@ -36,7 +41,7 @@
 
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="About ILMERA Study Abroad | Study Abroad Consultants for Coorg &amp; Kodagu"/>
-<meta property="og:description" content="Meet the named team behind ILMERA Study Abroad: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. Free online consultation."/>
+<meta property="og:description" content="Meet the named team behind ILMERA Study Abroad: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. online consultation."/>
 
 <meta property="og:url" content="https://ilmerastudyabroad.com/about"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -72,7 +77,7 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["EducationalOrganization","ProfessionalService"],
+      "@type": "Organization",
       "@id": "https://ilmerastudyabroad.com/#organization",
             "name": "ILMERA Study Abroad",
       "alternateName": "ILMERA Study Abroad by ILMERA Group",
@@ -91,9 +96,9 @@
       },
       "image": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
 
-      "description": "ILMERA Study Abroad is an Indian overseas education consultancy offering university admissions, student visa assistance, scholarship guidance and career counselling for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia and GCC. It helps students with low marks or academic backlogs study abroad, matching each profile to countries and universities that will realistically admit them.",
+      "description": "ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.",
       "slogan": "Your Gateway to Global Education",
-      "foundingDate": "2023",
+      "foundingDate": "2026",
       "contactPoint": [
         {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service","email":"info@ilmerastudyabroad.com","areaServed":"IN","availableLanguage":["English","Kannada","Malayalam","Hindi"]},
         {"@type":"ContactPoint","telephone":"+919481084038","contactType":"customer service","areaServed":"IN"},
@@ -101,12 +106,6 @@
       ],
             "email": "info@ilmerastudyabroad.com",
       "telephone": "+919019557427",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Coorg",
-        "addressRegion": "Kodagu, Karnataka",
-        "addressCountry": "IN"
-      },
       "areaServed": [
         {"@type":"AdministrativeArea","name":"Kodagu"},
         {"@type":"AdministrativeArea","name":"Coorg"},
@@ -129,7 +128,7 @@
         "Student visa applications",
         "Study abroad with academic backlogs",
         "Study abroad without IELTS",
-        "Free tuition public universities in Germany",
+        "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply.",
         "Italy DSU regional scholarships",
         "APS certificate for Indian applicants to Germany",
         "Low-cost study destinations in Eastern Europe",
@@ -166,20 +165,14 @@
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "inLanguage": "en-IN",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type":"ListItem","position":1,"name":"Home","item":"https://ilmerastudyabroad.com"},
-          {"@type":"ListItem","position":2,"name":"About","item":"https://ilmerastudyabroad.com/about"}
-        ]
-      }
+      "breadcrumb": {"@id": "https://ilmerastudyabroad.com/about#breadcrumb"}
     },
         {
       "@type": "AboutPage",
       "@id": "https://ilmerastudyabroad.com/about#aboutpage",
       "url": "https://ilmerastudyabroad.com/about",
       "name": "About ILMERA Study Abroad: Study Abroad Consultants for Coorg and Kodagu",
-      "description": "ILMERA Study Abroad is an overseas education consultancy based in Coorg, Kodagu, serving students across Karnataka and India, led by Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.",
+      "description": "ILMERA Study Abroad is an online overseas education consultancy based in Coorg, Kodagu, serving students across Karnataka and India, led by Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.",
       "isPartOf": {"@id": "https://ilmerastudyabroad.com/#website"},
       "about": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "mainEntity": {"@id": "https://ilmerastudyabroad.com/#organization"},
@@ -194,21 +187,10 @@
       "name": "Jabir KJ",
       "givenName": "Jabir",
       "jobTitle": "Founder",
-      "description": "Jabir KJ is Founder of ILMERA Study Abroad and a financial consultant. He is currently a student at the University of Rome Tor Vergata in Italy and advises Indian students on total cost planning, Italy's DSU regional scholarships, proof-of-funds documentation and blocked accounts for German student visas.",
+      "description": "Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.",
       "image": "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
       "founder": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "affiliation": {
-        "@type": "CollegeOrUniversity",
-        "name": "University of Rome Tor Vergata",
-        "sameAs": "https://en.wikipedia.org/wiki/University_of_Rome_Tor_Vergata"
-      },
-      "knowsAbout": [
-        "Study abroad cost planning for Indian students",
-        "Italy DSU regional scholarships and ISEE assessment",
-        "Proof of funds and blocked accounts for German student visas",
-        "Studying in Italy as an Indian student"
-      ],
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
       "nationality": {"@type":"Country","name":"India"},
       "sameAs": ["https://linkedin.com/in/jabir-kj-920300428"],
@@ -220,25 +202,10 @@
       "name": "Fawaz BH",
       "givenName": "Fawaz",
       "jobTitle": "CMO",
-      "description": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs the consultancy FawazBHSEO and leads ILMERA's search and content strategy.",
-      "image": "https://ilmerastudyabroad.com/assets/images/fawazbh.webp",
+      "description": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.",
+      "image": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
       "url": "https://fawazbhseo.in",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "homeLocation": {
-        "@type": "Place",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Kushal Nagar",
-          "addressRegion": "Kodagu, Karnataka",
-          "addressCountry": "IN"
-        }
-      },
-      "hasCredential": [
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Ahrefs Academy Certification"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Semrush AI Visibility Essentials"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"certificate","name":"Semrush Technical SEO & AI Search Essentials"},
-        {"@type":"EducationalOccupationalCredential","credentialCategory":"diploma","name":"Advanced Diploma in Digital Marketing","recognizedBy":{"@type":"Organization","name":"Adrex Media School"}}
-      ],
       "knowsAbout": [
         "Search engine optimisation",
         "Answer Engine Optimisation",
@@ -247,12 +214,7 @@
         "Schema.org structured data"
       ],
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
-      "sameAs": [
-        "https://fawazbhseo.in",
-        "https://fawazbhseo.in/about/",
-        "https://www.linkedin.com/in/fawazbh",
-        "https://www.instagram.com/f.a.b.u_"
-      ],
+      "sameAs": ["https://fawazbhseo.in/", "https://www.linkedin.com/in/fawazbh"],
       "mainEntityOfPage": {"@id": "https://ilmerastudyabroad.com/about#webpage"}
     },
     {
@@ -261,15 +223,9 @@
       "name": "Zaheer KJ",
       "givenName": "Zaheer",
       "jobTitle": "CFO",
-      "description": "Zaheer KJ is CFO at ILMERA Study Abroad. He manages transcript and marksheet verification, APS submissions for Germany, university application filing, student visa documentation and appointment scheduling, tracking each student's file against its intake deadline.",
+      "description": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation.",
       "image": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
       "worksFor": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "knowsAbout": [
-        "Student visa documentation for Indian applicants",
-        "APS certificate submission for Germany",
-        "University application filing and intake deadline management",
-        "Academic transcript and marksheet verification"
-      ],
       "knowsLanguage": ["English","Kannada","Malayalam","Hindi"],
       "nationality": {"@type":"Country","name":"India"},
       "mainEntityOfPage": {"@id": "https://ilmerastudyabroad.com/about#webpage"}
@@ -281,7 +237,7 @@
       "name": "Online Study Abroad Counselling for Coorg and Kodagu Students",
       "serviceType": "Overseas education consultancy",
       "provider": {"@id": "https://ilmerastudyabroad.com/#organization"},
-      "description": "Study abroad counselling based in Coorg, Kodagu, for students across Karnataka and India, covering profile assessment, university shortlisting, application filing, scholarship guidance and student visa documentation for Germany, Italy, the UK, the Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. Delivered by phone, WhatsApp and video call.",
+      "description": "Study abroad counselling based in Coorg, Kodagu, for students across Karnataka and India, covering profile assessment, university shortlisting, application guidance, scholarship guidance and student visa documentation for Germany, Italy, the UK, the Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. Delivered by phone, WhatsApp and video call.",
       "areaServed": [
         {"@type":"Place","name":"Madikeri, Kodagu, Karnataka, India"},
         {"@type":"Place","name":"Virajpet, Kodagu, Karnataka, India"},
@@ -297,13 +253,6 @@
         "servicePhone": {"@type":"ContactPoint","telephone":"+919019557427","contactType":"customer service"},
         "serviceUrl": "https://ilmerastudyabroad.com/contact"
       },
-      "offers": {
-        "@type": "Offer",
-        "name": "Free initial consultation",
-        "price": "0",
-        "priceCurrency": "INR",
-        "availability": "https://schema.org/InStock"
-      },
       "mainEntityOfPage": {"@id": "https://ilmerastudyabroad.com/about#aboutpage"}
     },
 
@@ -316,7 +265,7 @@
           "name": "Does ILMERA Study Abroad work with students from Coorg and Kodagu?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district, including Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet, through phone, WhatsApp and video counselling. The full process, from profile assessment to visa documentation, is handled directly by the team. CMO Fawaz BH is based in Kushal Nagar, Kodagu, and counselling is available in English, Kannada, Malayalam and Hindi."
+            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district, including Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet, through phone, WhatsApp and video counselling. ILMERA reviews academic qualifications and guides applications and visa-document preparation through these online channels. CMO Fawaz BH is based in Kushal Nagar, Kodagu, and counselling is available in English, Kannada, Malayalam and Hindi."
           }
         },
         {
@@ -324,7 +273,7 @@
           "name": "Who is Jabir KJ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at the University of Rome Tor Vergata in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas."
+            "text": "Jabir KJ is the Founder, responsible for university research, admissions and application guidance."
           }
         },
         {
@@ -332,7 +281,7 @@
           "name": "Who is Fawaz BH?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content."
+            "text": "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School."
           }
         },
         {
@@ -340,15 +289,15 @@
           "name": "Who is Zaheer KJ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Zaheer KJ is CFO at ILMERA Study Abroad. He manages the document side of every student application: transcript and marksheet verification, APS submissions for Germany, university application filing, student visa document sets, appointment scheduling, and tracking each file against its intake deadline."
+            "text": "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation."
           }
         },
         {
           "@type": "Question",
-          "name": "Does ILMERA Study Abroad have a physical office?",
+          "name": "How does ILMERA provide online counselling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA Study Abroad is based in Coorg, Kodagu, and delivers counselling by phone, WhatsApp and video call so students anywhere in Karnataka or India get the same counsellor and the same process. Enquiries go to +91 94810 84038, +91 90195 57427 or info@ilmerastudyabroad.com."
+            "text": "ILMERA offers online counselling only, by phone, WhatsApp and video call, without any counselling premises."
           }
         },
         {
@@ -356,7 +305,7 @@
           "name": "How much does ILMERA Study Abroad charge?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The first consultation is free with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear."
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge."
           }
         },
         {
@@ -364,15 +313,15 @@
           "name": "Is ILMERA Study Abroad legitimate?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives free initial consultations with honest eligibility assessments instead of guaranteed-admission promises."
+            "text": "ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. Its existing team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes."
           }
         },
         {
           "@type": "Question",
-          "name": "Is the first consultation free?",
+          "name": "Where can I check the consultation terms?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, ILMERA Study Abroad offers a free initial consultation with transparent, honest guidance and no hidden fees."
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge."
           }
         }
       ]
@@ -549,7 +498,7 @@ img{max-width:100%;height:auto;}
 .il-faq > div{padding:0 26px 24px;}
 .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-mid);line-height:1.75;margin:0;}
 @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
-</style>
+/* Phase 25 team-only equal heights */#team .team-grid{grid-auto-rows:1fr;}/* Phase 25 team footprint */#team{min-height:1152.71875px;}@media(min-width:701px) and (max-width:1024px){#team{min-height:auto;}}@media(max-width:600px){#team{min-height:auto;}}/* End Phase 25 team footprint */</style>
 </head>
 <body>
 
@@ -569,7 +518,7 @@ img{max-width:100%;height:auto;}
 <!-- ═══ MINI HERO ═══ -->
 <section class="mini-hero" id="miniHero">
   <div class="mini-inner">
-    <p class="breadcrumb"><a href="https://ilmerastudyabroad.com">Home</a> &nbsp;/&nbsp; About</p>
+    <?php ilmera_breadcrumbs($pageTrail, '/about'); ?>
         <h1 id="heroH1">About ILMERA Study Abroad<em>Study Abroad Consultants for Coorg &amp; Kodagu</em></h1>
     <p class="mini-hero-sub" id="heroSub">An overseas education consultancy based in Coorg, run by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>
 
@@ -578,7 +527,7 @@ img{max-width:100%;height:auto;}
       <div class="ms"><b>9</b><span>Study Destinations</span></div>
       <div class="ms"><b>3</b><span>Named Counsellors</span></div>
       <div class="ms"><b>4</b><span>Languages Spoken</span></div>
-      <div class="ms"><b>2023</b><span>Founded</span></div>
+      <div class="ms"><b>2026</b><span>Founded</span></div>
     </div>
   </div>
   <div class="scroll-ind" id="scrollInd"><span>Explore</span><div class="scroll-arr"></div></div>
@@ -593,18 +542,19 @@ img{max-width:100%;height:auto;}
                 <h2>Why ILMERA Study Abroad<br>Exists</h2>
 
         <p>ILMERA Study Abroad was founded on a simple premise: every deserving student should have a clear, honest, supported pathway to a world-class education, regardless of where they come from. As part of ILMERA Group, the consultancy is run by three named, contactable people rather than a call centre.</p>
-                <p>ILMERA was built by people who went through the process themselves. Founder Jabir KJ is currently studying at the University of Rome Tor Vergata in Italy, and has personally dealt with the applications, the funding paperwork and the visa appointments he now guides students through. That is the difference between advice read from a brochure and advice from someone who has actually filed the documents.</p>
+      <p>Explore our <?= ilmera_link('/services', 'destinations and services', ['style' => 'color:inherit;text-decoration:underline;']) ?>, read the <?= ilmera_link('/blog/', 'published guides', ['style' => 'color:inherit;text-decoration:underline;']) ?>, or meet the <?= ilmera_link('/about#team', 'ILMERA team', ['style' => 'color:inherit;text-decoration:underline;']) ?>.</p>
+                <p>ILMERA guides academic review, applications, scholarship enquiries and visa-document preparation. Universities, immigration authorities, scholarship bodies, lenders and banks make their own decisions.</p>
 
                 <p>ILMERA Study Abroad guides students to universities across nine destinations: Germany, Italy, the United Kingdom, the Czech Republic, Lithuania, Latvia, Slovakia, Russia and the GCC. The consultancy specialises in students other consultancies turn away, including those with academic backlogs, a low percentage, or no IELTS, because those are exactly the profiles that Russia, Slovakia, Lithuania and Latvia routinely accept.</p>
         <p>ILMERA is based in Coorg and works with students by phone, WhatsApp and video call, so a student in Madikeri, Virajpet, Kushalnagar or Somwarpet gets the same counsellor, the same country-by-country cost breakdown and the same honest eligibility check as a student anywhere else in India.</p>
 
       </div>
       <div class="stats-block">
-        <div class="stat-item"><span class="big-num cu" data-target="9" data-suffix="">0</span><span class="stat-desc">Study Destinations</span></div>
-                <div class="stat-item"><span class="big-num cu" data-target="3" data-suffix="">0</span><span class="stat-desc">Named Counsellors</span></div>
+        <div class="stat-item"><span class="big-num cu" data-target="9" data-suffix="">9</span><span class="stat-desc">Study Destinations</span></div>
+                <div class="stat-item"><span class="big-num cu" data-target="3" data-suffix="">3</span><span class="stat-desc">Named Counsellors</span></div>
 
-        <div class="stat-item"><span class="big-num cu" data-target="4" data-suffix="">0</span><span class="stat-desc">Languages Spoken</span></div>
-               <div class="stat-item"><span class="big-num cu" data-target="2023" data-suffix="">0</span><span class="stat-desc">Founded</span></div>
+        <div class="stat-item"><span class="big-num cu" data-target="4" data-suffix="">4</span><span class="stat-desc">Languages Spoken</span></div>
+               <div class="stat-item"><span class="big-num cu" data-target="2026" data-suffix="">2026</span><span class="stat-desc">Founded</span></div>
 
       </div>
     </div>
@@ -644,7 +594,7 @@ img{max-width:100%;height:auto;}
       <div class="val-node"><div class="val-circle">1</div><span class="val-label">Integrity</span><span class="val-desc">Honest guidance, always</span></div>
       <div class="val-node"><div class="val-circle">2</div><span class="val-label">Student-First</span><span class="val-desc">Every decision serves the student</span></div>
       <div class="val-node"><div class="val-circle">3</div><span class="val-label">Excellence</span><span class="val-desc">Uncompromising quality in all we do</span></div>
-      <div class="val-node"><div class="val-circle">4</div><span class="val-label">Transparency</span><span class="val-desc">No hidden fees, no surprises</span></div>
+      <div class="val-node"><div class="val-circle">4</div><span class="val-label">Transparency</span><span class="val-desc">Ask for written policy terms</span></div>
            <div class="val-node"><div class="val-circle">5</div><span class="val-label">Access</span><span class="val-desc">Same guidance in Kodagu as in Bangalore</span></div>
 
     </div>
@@ -657,7 +607,7 @@ img{max-width:100%;height:auto;}
     <h2 id="kodagu-h2" style="font-family:'Cormorant Garamond',serif;font-weight:700;font-size:42px;color:var(--deep-navy);margin-bottom:28px;line-height:1.18;max-width:820px;">Study Abroad Guidance for Students in Coorg &amp; Kodagu</h2>
 
     <div style="max-width:820px;">
-      <p style="font-size:17px;font-weight:400;color:var(--deep-navy);line-height:1.75;margin-bottom:24px;"><strong>ILMERA Study Abroad is based in Coorg and works with students across Kodagu district (Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet) by phone, WhatsApp and video call.</strong> The process is the same for every student regardless of location: profile assessment, country and university shortlisting, application filing, scholarship guidance and visa documentation, handled the same way for a student in Kodagu as for one in Bangalore.</p>
+      <p style="font-size:17px;font-weight:400;color:var(--deep-navy);line-height:1.75;margin-bottom:24px;"><strong>ILMERA Study Abroad is based in Coorg and works with students across Kodagu district (Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet) by phone, WhatsApp and video call.</strong> The process is the same for every student regardless of location: academic review, admissions/application guidance, cost comparison, scholarship guidance and visa-document guidance through the same online channels.</p>
 
       <h3 style="font-size:20px;font-weight:600;color:var(--deep-navy);margin:36px 0 14px;">Why students from Kodagu are underserved</h3>
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">Almost every overseas education consultancy that serves Kodagu is headquartered in Bangalore, Mysuru or Mangalore, with Coorg treated as a catchment area rather than a market. In practice that means a student in Virajpet is expected to take a three-to-five hour round trip for a first counselling session, and again for document collection. Specialised advice, such as which German public universities waive IELTS, whether a 58% aggregate qualifies for Italy's DSU, or what a PUC backlog actually rules out, is rarely available locally at all.</p>
@@ -666,51 +616,51 @@ img{max-width:100%;height:auto;}
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">ILMERA is based in Coorg. CMO <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);">Fawaz BH</a> lives and works in Kushal Nagar, Kodagu, where he also runs an independent SEO consultancy. In practice that means counselling in Kannada, Malayalam, Hindi or English, an understanding of PUC and Karnataka state board marksheets and how foreign admissions offices read them, and someone who knows the district rather than a call centre reading a script.</p>
 
       <h3 style="font-size:20px;font-weight:600;color:var(--deep-navy);margin:36px 0 14px;">How counselling actually works</h3>
-      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">You call <a href="tel:+919481084038" style="color:var(--navy);">+91 94810 84038</a>, call <a href="tel:+919019557427" style="color:var(--navy);">+91 90195 57427</a>, or WhatsApp <a href="https://wa.me/421944485186" style="color:var(--navy);">+421 944485186</a> and book a free slot. Founder Jabir KJ or a counsellor reviews your marksheets and budget on a video call and tells you honestly which countries will realistically admit you. Documents are shared digitally; CFO Zaheer KJ verifies them and files your applications. Visa appointments are booked at the relevant consulate, which for most European destinations means Bengaluru or Chennai, and it is the only travel the process requires.</p>
+      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">You call <a href="tel:+919481084038" style="color:var(--navy);">+91 94810 84038</a>, call <a href="tel:+919019557427" style="color:var(--navy);">+91 90195 57427</a>, or WhatsApp <a href="https://wa.me/421944485186" style="color:var(--navy);">+421 944485186</a> and book an online slot. Jabir KJ is the Founder, responsible for university research, admissions and application guidance. ILMERA reviews academic qualifications and compares study costs; the university makes its own admission decision. Ask for the person responsible for any further tasks in your written scope. Visa appointments are booked at the relevant consulate, which for most European destinations means Bengaluru or Chennai. This existing general example does not confirm jurisdiction or appointment routing for an individual applicant. Check the responsible authority's current instructions. No appointment, route or single-trip outcome is promised.</p>
 
       <h3 style="font-size:20px;font-weight:600;color:var(--deep-navy);margin:36px 0 14px;">What Kodagu students most often ask about</h3>
-      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">The most common questions we get from Coorg are about studying with a low PUC percentage, routes that skip IELTS, and free or near-free tuition. Public universities in Germany charge little to no tuition but require an <a href="https://www.aps-india.de/" rel="nofollow noopener" style="color:var(--navy);">APS certificate</a> from Indian applicants and proof of funds in a blocked account. Italy's regional DSU scholarships are income-assessed via ISEE and can cover tuition plus a living stipend. Russia, Slovakia, Lithuania and Latvia accept lower percentages and backlogs and frequently waive IELTS. Which of these fits depends entirely on your actual marksheet, which is what the free consultation is for.</p>
+      <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:22px;">At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. Semester contributions and living costs apply. Full-time Slovak-language study at public institutions normally has no tuition within the standard study duration. English-taught programmes charge tuition. Budget separately for living costs and other fees. Owner-provided conditional guidance. Tuition can be fully or largely covered at our partner universities through scholarships of up to 8,000 euros, subject to eligibility. Do not rely on funding until written award terms confirm eligibility, coverage and payment.</p>
 
       <p style="font-size:16px;font-weight:300;color:var(--grey-dark);line-height:1.78;margin-bottom:28px;">Full destination-by-destination detail is on our <a href="https://ilmerastudyabroad.com/" style="color:var(--navy);">study abroad guide</a>, and you can reach us any time via the <a href="https://ilmerastudyabroad.com/contact" style="color:var(--navy);">contact page</a>.</p>
 
-      <a href="/contact" class="btn-gold">Book a Free Online Consultation</a>
+      <a href="/contact" class="btn-gold">Book an online Consultation</a>
     </div>
   </div>
 </section>
 
 <!-- ═══ TEAM ═══ -->
-<section class="s-wrap team-sec">
+<section class="s-wrap team-sec" id="team">
   <div class="container">
     <div class="team-hdr">
       <span class="sec-label">The People Behind ILMERA</span>
       <h2 class="sec-h2 dk">Meet the ILMERA Study Abroad Team</h2>
-      <p style="max-width:720px;margin:18px auto 0;font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;text-align:center;">ILMERA Study Abroad is run by three named, contactable people rather than an anonymous call centre. Every student is assigned to one of them directly.</p>
+      <p style="max-width:720px;margin:18px auto 0;font-size:15px;font-weight:300;color:var(--grey-dark);line-height:1.75;text-align:center;">ILMERA Study Abroad is run by three named, contactable people rather than an anonymous call centre. Families can ask which person is responsible for the tasks in their written scope.</p>
 
     </div>
     <div class="team-grid">
     <article class="team-card">
-        <div class="team-avatar"><picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder of ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
+        <div class="team-avatar"><picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         
 
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Jabir KJ</h3>
         <div class="team-role">Founder</div>
-        <p class="team-bio"><strong>Jabir KJ is Founder of ILMERA Study Abroad</strong> and a financial consultant, currently studying at the University of Rome Tor Vergata in Italy. He leads the side of the process students find hardest: money, mapping real costs, checking eligibility for Italy's DSU scholarships, and preparing the proof-of-funds documents that visa applications turn on.</p>
+        <p class="team-bio">Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance.</p>
 
         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
             <article class="team-card">
-        <div class="team-avatar"><img src="/assets/images/fawazbh.webp" alt="Fawaz BH, CMO at ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
+        <div class="team-avatar"><img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="88px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
-        <div class="team-role">CMO</div>
-        <p class="team-bio"><strong>Fawaz BH is CMO at ILMERA Study Abroad</strong> and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at <a href="https://fawazbhseo.in" rel="noopener" style="color:var(--navy);text-decoration:underline;">fawazbhseo.in</a>, holds certifications from Ahrefs Academy and Semrush, and built ILMERA's content strategy around the questions students in Kodagu actually ask.</p>
+        <div class="team-role">Chief Marketing Officer</div>
+        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu.</p>
 
         <a href="https://linkedin.com/in/fawazbh" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Fawaz BH on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
       </article>
             <article class="team-card">
-        <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, CFO at ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
+        <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
-        <div class="team-role">CFO</div>
-        <p class="team-bio"><strong>Zaheer KJ is CFO at ILMERA Study Abroad</strong>, responsible for the document chain that decides whether an application succeeds. He handles transcript and marksheet verification, APS submissions for Germany, university application filing, and visa document scheduling, tracking every student's file against its intake deadline.</p>
+        <div class="team-role">Chief Financial Officer</div>
+        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation.</p>
       </article>
 
     </div>
@@ -729,26 +679,28 @@ img{max-width:100%;height:auto;}
     </div>
     <div style="max-width:820px;margin:0 auto;">
 
-      <details class="il-faq"><summary>Does ILMERA Study Abroad work with students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district, including Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet, through phone, WhatsApp and video counselling. The full process, from profile assessment to visa documentation, is handled directly by the team. CMO Fawaz BH is based in Kushal Nagar, Kodagu, and counselling is available in English, Kannada, Malayalam and Hindi.</p></div></details>
+      <details class="il-faq"><summary>Does ILMERA Study Abroad work with students from Coorg and Kodagu?</summary><div><p>Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district, including Madikeri, Virajpet, Kushalnagar, Somwarpet and Ponnampet, through phone, WhatsApp and video counselling. ILMERA reviews academic qualifications and guides applications and visa-document preparation through these online channels. CMO Fawaz BH is based in Kushal Nagar, Kodagu, and counselling is available in English, Kannada, Malayalam and Hindi.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Jabir KJ?</summary><div><p>Jabir KJ is Founder of ILMERA Study Abroad, an Indian overseas education consultancy that is part of ILMERA Group. He is a financial consultant and is currently studying at the University of Rome Tor Vergata in Italy. He advises students on total cost planning across destinations, Italy's income-based DSU regional scholarships, and the proof-of-funds and blocked-account requirements for German student visas.</p></div></details>
+      <details class="il-faq"><summary>Who is Jabir KJ?</summary><div><p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is CMO at ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka, India. He runs his own consultancy, FawazBHSEO, at fawazbhseo.in, and holds certifications from Ahrefs Academy and Semrush along with an Advanced Diploma in Digital Marketing from Adrex Media School. At ILMERA he leads search visibility and student-facing content.</p></div></details>
+      <details class="il-faq"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p></div></details>
 
-      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is CFO at ILMERA Study Abroad. He manages the document side of every student application: transcript and marksheet verification, APS submissions for Germany, university application filing, student visa document sets, appointment scheduling, and tracking each file against its intake deadline.</p></div></details>
+      <details class="il-faq"><summary>Who is Zaheer KJ?</summary><div><p>Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad. He manages ILMERA's finance, paperwork and documentation.</p></div></details>
 
-      <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. It is led by three named people who can be verified independently: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and gives free initial consultations with honest eligibility assessments instead of guaranteed-admission promises.</p></div></details>
+      <details class="il-faq"><summary>Is ILMERA Study Abroad legitimate?</summary><div><p>ILMERA Study Abroad is a real, contactable overseas education consultancy based in Coorg, Kodagu, operating as part of ILMERA Group. Its existing team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>
 
-      <details class="il-faq"><summary>Is the first consultation free?</summary><div><p>Yes, ILMERA Study Abroad offers a free initial consultation with transparent, honest guidance and no hidden fees.</p></div></details>
+      <details class="il-faq"><summary>Where can I check the consultation terms?</summary><div><p>ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.</p></div></details>
 
-      <details class="il-faq"><summary>Does ILMERA Study Abroad have a physical office?</summary><div><p>ILMERA Study Abroad is based in Coorg, Kodagu, and delivers counselling by phone, WhatsApp and video call so students anywhere in Karnataka or India get the same counsellor and the same process. Enquiries go to +91 94810 84038, +91 90195 57427 or info@ilmerastudyabroad.com.</p></div></details>
+      <details class="il-faq"><summary>How does ILMERA provide online counselling?</summary><div><p>ILMERA offers online counselling only, by phone, WhatsApp and video call, without any counselling premises.</p></div></details>
 
-      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>The first consultation is free with no obligation. Service packages vary by how much support a student needs, from application-only assistance to full end-to-end guidance covering admissions, scholarships, visa documentation and pre-departure preparation. Full fee details are shared during the first consultation, once the student's profile and target country are clear.</p></div></details>
+      <details class="il-faq"><summary>How much does ILMERA Study Abroad charge?</summary><div><p>ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on destination and university. This is on top of the university's own fee. ILMERA has a written service-fee and payment policy covering service inclusions and refund terms. The policy terms are not yet published on this site. Before paying, families should ask for the policy terms in writing and confirm in writing which amounts are university fees and which are ILMERA's service charge.</p></div></details>
 
     </div>
   </div>
 </section>
 
+<div class="container"><p style="padding:28px 0;line-height:1.8;">For course selection and application guidance, explore our <?= ilmera_link('/services', 'study abroad services') ?>.</p></div>
+<div class="container"><section class="source-review"><h2>Tuition guidance sources</h2><p>Checked 16 October 2026: <a href="https://www.daad.de/en/studying-in-germany/living-in-germany/finances/">DAAD tuition and living costs</a>; <a href="https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/">Slovak Ministry tuition rules</a>; <a href="https://www.universitaly.it/it/studenti-stranieri">Universitaly international student procedures</a>. The Italy scholarship statement is owner-provided conditional guidance, not an officially confirmed award. Confirm written award terms before budgeting it.</p></section></div>
 </main>
 
 <?php include __DIR__ . '/includes/footer.php'; ?>
@@ -828,7 +780,7 @@ setInterval(spawnEl,1600);for(var si=0;si<6;si++)setTimeout(spawnEl,si*700);
 
 /* ── HUD PARALLAX (desktop only) ── */
 if(!isMob()){
-  var hudData=[{num:'9',lbl:'Study Destinations',x:'5%',y:'22%',depth:.11},{num:'3',lbl:'Named Counsellors',x:'76%',y:'22%',depth:.09},{num:'4',lbl:'Languages Spoken',x:'5%',y:'65%',depth:.13},{num:'2023',lbl:'Founded',x:'76%',y:'65%',depth:.08}];
+  var hudData=[{num:'9',lbl:'Study Destinations',x:'5%',y:'22%',depth:.11},{num:'3',lbl:'Named Counsellors',x:'76%',y:'22%',depth:.09},{num:'4',lbl:'Languages Spoken',x:'5%',y:'65%',depth:.13},{num:'2026',lbl:'Founded',x:'76%',y:'65%',depth:.08}];
   var heroEl=document.getElementById('miniHero');var hudEls=[];
   hudData.forEach(function(d){var el=document.createElement('div');el.className='hud-item';el.innerHTML='<div class="hud-stat"><span class="hud-stat-num">'+d.num+'</span><span class="hud-stat-lbl">'+d.lbl+'</span></div>';el.style.cssText='position:absolute;left:'+d.x+';top:'+d.y+';pointer-events:none;z-index:8;';heroEl.appendChild(el);hudEls.push({el:el,depth:d.depth});});
   var hCX=0,hCY=0;(function hLoop(){var tx=(mx/W-.5)*2*.5,ty=(my/H-.5)*2*.3;hCX=lerp(hCX,tx,.08);hCY=lerp(hCY,ty,.08);hudEls.forEach(function(h){h.el.style.transform='translate3d('+(hCX*-50*h.depth)+'px,'+(hCY*-38*h.depth)+'px,0)';});requestAnimationFrame(hLoop);})();
@@ -840,16 +792,13 @@ if(window.gsap&&window.ScrollTrigger){gsap.registerPlugin(ScrollTrigger);var tl=
 });
 </script>
 
-<!-- ═══ BODY ANIMATIONS (reveals, counters, tilt, magnetic) ═══ -->
+<!-- ═══ BODY ANIMATIONS (reveals, tilt, magnetic) ═══ -->
 <script>
 window.addEventListener('DOMContentLoaded',function(){
 (function(){
 'use strict';
 var prog=document.createElement('div');prog.id='scroll-progress';document.body.appendChild(prog);
 window.addEventListener('scroll',function(){var pct=(window.scrollY/(document.body.scrollHeight-window.innerHeight))*100;prog.style.width=Math.min(pct,100)+'%';},{passive:true});
-
-/* Count-up helper */
-window.ilCount=function(el){if(el.dataset.counted)return;el.dataset.counted='1';var t=parseInt(el.getAttribute('data-target'),10),s=el.getAttribute('data-suffix')||'',st=null;(function step(ts){if(!st)st=ts;var p=Math.min((ts-st)/1600,1),e=1-Math.pow(1-p,3);el.textContent=Math.floor(e*t)+s;if(p<1)requestAnimationFrame(step);else el.textContent=t+s;})(performance.now());};
 
 function reveal(els,cls,stagger){els.forEach(function(el){el.classList.add(cls);});var obs=new IntersectionObserver(function(entries){entries.forEach(function(e){if(!e.isIntersecting)return;var idx=Array.prototype.indexOf.call(els,e.target);setTimeout(function(){e.target.classList.add('anim-visible');},stagger?idx%6*120:80);obs.unobserve(e.target);});},{threshold:.12,rootMargin:'0px 0px -50px 0px'});els.forEach(function(el){obs.observe(el);});}
 
@@ -858,7 +807,7 @@ if(window.gsap&&window.ScrollTrigger){
   gsap.utils.toArray('.sec-h2,.sec-label,.story-text h2').forEach(function(el){gsap.fromTo(el,{opacity:0,y:40},{opacity:1,y:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}});});
   var stx=document.querySelector('.story-text');if(stx)gsap.fromTo(stx,{opacity:0,x:-55},{opacity:1,x:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:stx,start:'top 85%',once:true}});
   var stb=document.querySelector('.stats-block');if(stb)gsap.fromTo(stb,{opacity:0,x:55},{opacity:1,x:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:stb,start:'top 85%',once:true}});
-  var si=gsap.utils.toArray('.stat-item');if(si.length)gsap.fromTo(si,{opacity:0,scale:.85},{opacity:1,scale:1,duration:.65,ease:'back.out(1.5)',stagger:.1,scrollTrigger:{trigger:si[0],start:'top 88%',once:true,onEnter:function(){si.forEach(function(item){var n=item.querySelector('.big-num[data-target]');if(n)window.ilCount(n);});}}});
+  var si=gsap.utils.toArray('.stat-item');if(si.length)gsap.fromTo(si,{opacity:0,scale:.85},{opacity:1,scale:1,duration:.65,ease:'back.out(1.5)',stagger:.1,scrollTrigger:{trigger:si[0],start:'top 88%',once:true}});
   var mc=gsap.utils.toArray('.mission-card');if(mc.length)gsap.fromTo(mc,{opacity:0,y:45},{opacity:1,y:0,duration:.75,ease:'power3.out',stagger:.2,scrollTrigger:{trigger:mc[0],start:'top 88%',once:true}});
   var vn=gsap.utils.toArray('.val-node');if(vn.length)gsap.fromTo(vn,{opacity:0,scale:0},{opacity:1,scale:1,duration:.55,ease:'back.out(2)',stagger:.13,scrollTrigger:{trigger:vn[0],start:'top 90%',once:true}});
   var tm=gsap.utils.toArray('.team-card');if(tm.length)gsap.fromTo(tm,{opacity:0,y:55},{opacity:1,y:0,duration:.7,ease:'power3.out',stagger:.16,scrollTrigger:{trigger:tm[0],start:'top 88%',once:true}});
@@ -868,7 +817,6 @@ if(window.gsap&&window.ScrollTrigger){
   reveal(Array.prototype.slice.call(document.querySelectorAll('.mission-card')),'anim-fade-up',true);
   reveal(Array.prototype.slice.call(document.querySelectorAll('.val-node')),'anim-scale-in',true);
   reveal(Array.prototype.slice.call(document.querySelectorAll('.team-card')),'anim-fade-up',true);
-  var nums=document.querySelectorAll('.big-num[data-target]');var no=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){window.ilCount(en.target);no.unobserve(en.target);}});},{threshold:.4});nums.forEach(function(n){no.observe(n);});
 }
 
 /* ── MAGNETIC BUTTONS (desktop) ── */

@@ -1,0 +1,205 @@
+# Phase32 progress log
+
+## 2026-10-29 checkpoint 1: Phase31 prerequisite gate blocks Phase32
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad`. The workspace was clean and its local branch was behind the remote; it now matches the remote at `dd7950885a80992fbae5d6bc7d83710902136515`. No branch was created or switched.
+- Read `reports/phase-31-task4-ab-summary.md`, `reports/phase-31-progress.md`, the Task2 and Task3 check reports, the Phase31-related reports, and the recent git history. The Phase31 progress log ends at checkpoint 15 and says Tasks5-7 remain active. No `reports/phase-31-release-report.*` or Phase31 payload/ZIP verification report was found.
+- The blank-space fixes are complete: Task2 source commit `7d1bb9e`; the required after-scan and verification are recorded in the Phase31 progress log and Task2 reports.
+- The authorized hero stills are complete: Task3 source commit `806769a`; scope, visual, resource and verification evidence are recorded in the Task3 reports.
+- Task4's single local A/B session is complete and documented. It has 112 samples; only 2 of 8 routes pass all local budgets, and the report explicitly does not certify release performance.
+- The ZIP prerequisite is not complete for the current Phase31 branch. The only existing ZIPs are `releases/ilmera-deploy-850d0af.zip` and `releases/ilmera-deploy-f54e4cc.zip`. Their source commits date to 2026-10-24 and 2026-10-26; the latest ZIP build commit is `7d59c62`, identified in git history as a Phase30 export. Neither package reflects current Phase31 HEAD `dd79508`, and no Phase31 payload completeness or per-file hash evidence is present.
+- **Gate result: BLOCKED. Phase32 implementation has not started.** In accordance with the request, no Phase32 speed edits, audits, benchmarks, image/font changes, deployment package, documentation changes outside this checkpoint, or release actions were attempted. No files were deployed or merged.
+- Resume Phase32 only after the remaining Phase31 release/payload work is complete and a current-HEAD ZIP plus its completeness and hash verification are committed on this same session branch. Then fetch and match the branch again before beginning Phase32 work.
+
+## 2026-10-29 checkpoint 2: preflight stop due unresolved Task4 route-budget failures
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad` and fast-forwarded the existing session branch from the stale local checkout to remote commit `796879d7b3d5ca0fa1e398562e937e9f364a5f62`. The branch now matches the remote; no branch was created or switched.
+- Read `reports/phase-31-task4-ab-summary.md`, `reports/phase-31-release-check.md` and the recent git log. The Phase31 release-check report exists and its Task5 verification passed (31/31 groups), but it also explicitly reports `Task4 per-route local A/B budget: FAIL, carried to Phase32`, only 2/8 routes within all local budgets, and `performance_release_certified=false`.
+- The current resume note says to stop if the Phase31 release-check report shows an unresolved failure. The six local route-budget failures are still unresolved, so this stop condition is met. The separate Phase31 verification pass does not clear that failed route-budget gate.
+- The newer instruction that Phase31 intentionally skipped the ZIP supersedes checkpoint 1's older ZIP prerequisite. No ZIP was attempted. No Phase32 source edit, scene/font/image change, benchmark, audit, contact sheet, payload build or release action was attempted after the preflight gate triggered. No public source changed.
+- **Gate result: STOPPED before Phase32 implementation**, as required by the resume note. No Task4 samples were rerun. This checkpoint records the gate only; prior blockers and evidence remain unchanged.
+
+
+## 2026-10-29 checkpoint 3: corrected resume gate passed
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad`; the working tree was clean and the existing session branch matched remote at `d0b7726061abf77855465021ac4745e729eebfac`. No branch was created or switched.
+- Read `reports/phase-31-task4-ab-summary.md`, `reports/phase-31-release-check.md`, this progress log and the recent git history. The release-check exists and reports Task5 PASS (31/31 groups). Its Task4 result remains the known failure Phase32 is intended to fix (2/8 local routes pass, `performance_release_certified=false`); the corrected resume note explicitly authorizes proceeding despite that result.
+- Verified the session branch contains the Phase31 public source changes relative to `75f355f`: `about.php`, `index.php` and `includes/visual-system.php` are modified. Phase31's final source check and all Task5 groups passed in the release report. The stop conditions in the corrected gate are not met.
+- **Gate result: CLEARED.** Continue Phase32 on this branch. The prior checkpoints document historical gate decisions; this checkpoint supersedes their stop disposition. No Phase32 implementation or benchmark was repeated during this preflight.
+
+
+## 2026-10-29 checkpoint 4: local test runtime prepared
+
+- Installed the pinned browser, Lighthouse, PHP-WASM, image, font and test packages under `/home/user/phase32-runtime`, outside the repository. No production dependency or runtime package was added to the site.
+- Runtime is Node `v22.22.3` / npm `10.9.8`; PHP-WASM packages printed engine-range warnings requesting Node 24 and npm 11, as in earlier phase evidence. Execution compatibility has not yet been validated in this runtime.
+- This setup checkpoint changes no site behavior and does not replace or repeat Phase31 measurements.
+
+
+## 2026-10-29 checkpoint 5: pre-Phase32 route baseline frozen
+
+- Verified the public runtime files at the working tree still match Phase31 final commit `796879d`; the intervening commits change only progress documentation.
+- Captured all 43 rendered routes at HTTP 200 and the exact 38-entry sitemap from the isolated PHP-WASM adapter before Phase32 source edits. Stored the compressed render baseline, route hashes/index and sitemap in `reports/phase-32-before-renders.json.gz`, `reports/phase-32-before-render-index.json` and `reports/phase-32-before-sitemap.xml`.
+- The render archive is 894,404 bytes. It is an immutable local pre-Phase32 comparison baseline, not live-host evidence.
+
+
+## 2026-10-29 checkpoint 6: smaller mobile still encoded
+
+- Re-encoded the approved mobile still as 640x800 WebP at quality 64. The result is 9,738 bytes, below the 14,000-byte limit. The existing desktop WebP is 1440x900 and 37,226 bytes, below the 40,000-byte limit; it is reused unchanged.
+- Committed the reproducible encoder, mobile asset and hash/size record.
+
+## 2026-10-29 checkpoint 7: delayed hero still rendering and fallback QA passed
+
+- Replaced the eager still background on destination, place, article and blog-index heroes with a reserved canvas. The still is requested only after window load plus idle, with the 1,500ms fallback. It uses responsive 640/1440 WebP, cover-crop drawing, and skips for Save-Data, slow connection hints or `ILMERA_SCENES_ENABLED=false`. Reduced motion retains the still without a fade. The plain palette remains the fallback on an image failure or disabled switch.
+- The revised 12-case Chromium smoke passed all four templates at 360px, 768px and 1280px. Every request began after `loadEventEnd`, the expected asset was selected, and the recorded LCP candidate was text (`P`, `H1` or `H2`), not a still image or canvas. Save-Data and slow-connection each produced zero still requests; reduced motion had zero transition duration.
+- JavaScript-off fallback passed at 360px and 1280px. A PHP-WASM policy test passed all four template groups with `ILMERA_SCENES_ENABLED=false`: the animated scene script, still canvas, still asset URLs and loader are absent while headings remain.
+- Visually reviewed the post-crop screenshots for the four templates at all three widths. A browser-pixel text mask measured 57 runs. The initial 0.56 canvas opacity failed at 3.654:1 on an article breadcrumb at 1280px; opacity was lowered to 0.42 without wording changes. The updated pass minimum is 5.339:1. See `reports/phase-32-hero-smoke.json`, `reports/phase-32-noscript-smoke.json`, `reports/phase-32-scene-switch-smoke.json`, `reports/phase-32-hero-contrast.json` and `reports/phase-32-hero-assets.json`.
+- The local browser interceptor exposes `ResourceTiming.transferSize=0`; it is not used as byte evidence. The asset hashes/sizes meet their existing limits, but this local smoke does not establish compressed transfer on the target host or prove the LCP/CLS/TBT budgets.
+- Next: complete the reference-page/resource and font-chain investigations, then perform the frozen-A seven-sample interleaved lab only after test harness and serving policy are validated. Continue to preserve the immutable 43-route/38-URL baseline and do not repeat Phase31 Task4.
+
+## 2026-10-29 checkpoint 8: font chain diagnosed, candidate rejected
+
+- Audited place, article and blog at 360px and 1280px. Each uses seven self-hosted webfont faces with `font-display:block`, two local metric fallbacks, two head preloads (Outfit 300 and Cormorant Garamond 700), and a body-visibility gate until fonts are ready or the 3,000ms fail-open timer. No external visual-system stylesheet is requested. Actual local font response bodies were 72,784 bytes at 360px (four faces) and 86,816 bytes at 1280px (five faces).
+- Ran one isolated, serial 42-sample font A/B: seven samples per arm on each of the three templates, fresh Chromium per sample, alternating A/B order. B changed only `font-display:block` to `swap` and removed the font-pending visibility rule. CLS medians remained zero, but B did not improve LCP consistently. Place and blog medians were higher; article improved by only 0.45ms. Broad IQRs on two B routes limit interpretation. No source font change was adopted.
+- Results and transform proof are in `reports/phase-32-font-audit.json`, `reports/phase-32-font-ab-results.json` and `reports/phase-32-font-ab-summary.md`; the conservative decision is recorded in `flagged-items-for-verification.md`.
+- Next: audit reference resources and implement a guarded scene loader for Home, Services, About and Contact, keeping static content and fallback intact. Preserve Contact `#miniHero` and its previously documented 138px mobile and 233px tablet tails. Then run the full frozen-A eleven-route lab after source changes are complete.
+
+## 2026-10-29 checkpoint 9: reference resource audit identifies deferred bundle
+
+- Audited Home, Services, About and Contact at 360px and 1280px with local response-body sizes, browser resource timing, LCP/CLS/long-task observers, image dimensions, and V8 JavaScript/CSS coverage.
+- The three eagerly requested scene libraries total 717,632 bytes per reference page: Three.js 603,445, GSAP 71,520 and ScrollTrigger 42,667. Full response bodies were 1,034,492 to 1,105,818 bytes. Excluding those three dependencies, the ordinary page payload was 316,860 to 388,186 bytes, numerically below the 400,000-byte reference limit in all eight cases; Services at 1280px has only 11,814 bytes of local headroom. These are uncompressed local response bodies, not Hostinger transfer figures.
+- The only image response was the existing logo PNG at 98,340 bytes, displayed around 38px; it is left unchanged to preserve the image. V8 block-coverage estimates show 458,022 to 469,027 unused JavaScript source bytes and 8,017 to 12,179 unused CSS source bytes for a single path. These are diagnostic coverage estimates, not Lighthouse wasted-transfer bytes.
+- Raw unthrottled local browser LCP was 36ms to 468ms, with one or two long tasks per case and a longest task of 662ms. These numbers are not comparable to Lighthouse simulated budgets. The complete resource and coverage evidence is in `reports/phase-32-reference-audit-before.json` and its readable summary in `reports/phase-32-reference-audit-before.md`.
+- Contact `#miniHero` remains unchanged. Preserve its existing 138px 360px and 233px 768px bottom scroll-cue tails. The reference-page code change will defer only the existing scene libraries on approved desktop conditions and will keep static fallback layers and reserved canvas geometry for excluded users. No new image will be added to these pages because Services has little headroom under the pre-scene cap.
+
+## 2026-10-29 checkpoint 10: guarded reference scene deferral implemented and measured
+
+- Added output-buffer deferral for Home, Services, About and Contact only. The original Three.js scene is initialized once after eligible desktop scripts load. The original scripts are no longer in the eager markup. Scene libraries are added sequentially after `window.load` plus `requestIdleCallback`, with the 1,500ms timeout fallback. The loader excludes widths below 900px, coarse pointers, reduced motion, Save-Data, 2G and downlink below 1.1 Mbps. Excluded users retain the full-viewport canvas geometry and static CSS background layers; no image was added to the reference pages.
+- Preserved page-scope W/H dimensions required by the About and Contact HUD loops. `ILMERA_SCENES_ENABLED=false` removes all three heavy reference dependencies and keeps the plain palette; on the other template groups, the prior flag behavior is retained so GSAP reveal scripts remain available. PHP-WASM output-policy fixtures pass all eight routes.
+- The 36-case Chromium smoke passes for all four reference pages: 28 excluded-device cases made no scene-library requests; the four idle-callback desktop runs and four forced 1,500ms fallback runs each initialized the existing scene once without page errors. First idle-start request was 3ms to 476ms after load. With `requestIdleCallback` disabled, the first request began at 1,501ms on every route. Evidence: `reports/phase-32-reference-scene-smoke.json`, `reports/phase-32-reference-scene-policy-smoke.json` and `reports/phase-32-scene-switch-smoke.json`.
+- Post-change local response-body totals are 318,871 to 376,165 bytes at 360px and 1,047,959 to 1,107,829 bytes at 1280px after eligible desktop scenes load. The non-scene body sums are 318,871 to 390,197 bytes, all numerically under 400,000; Services at 1280px has 9,803 bytes of headroom. These are uncompressed local response bodies. The injected HTML added 1,970 to 2,011 bytes, with no new external resource. Full post-change resource details are in `reports/phase-32-reference-audit-after.json` and `reports/phase-32-reference-audit-after.md`.
+- The audit's raw unthrottled LCP values are not Lighthouse LCP. Observer CLS sums are under 0.1 in these eight cases, but do not establish the unchanged no-worse-than-baseline gate. The coverage-enabled long-task TBT proxy is 866ms on Services desktop, 2,963ms on About desktop and 3,902ms on Contact desktop. Separate one-sample, no-coverage diagnostics observed about 1,827ms on About and 3,682ms on Contact during scene startup. These are red flags, not Lighthouse TBT. **Do not claim reference TBT or the owner budgets pass.** The full frozen-A, seven-sample, interleaved 11-route Lighthouse lab remains required and may require another conservative scene policy change.
+- Contact `#miniHero` remains untouched at the retained 138px mobile and 233px tablet tails. The audit's only image remains the 98,340-byte logo; no image optimization or wording change was made.
+
+## 2026-10-29 checkpoint 11: frozen 11-route lab protocol prepared
+
+- Selected 11 unique routes for the final frozen-A comparison: the four reference controls, Germany and Italy destination pages, Mysuru and Bengaluru place pages, the how-to-choose and cost articles, and the blog index. The Mysuru, how-to-choose and blog-index routes are the pages used in the font-chain diagnosis.
+- The candidate A arm is the immutable `796879d7b3d5ca0fa1e398562e937e9f364a5f62` render archive, verified against its SHA-256 index and 43-route inventory. B will be captured from the current committed HEAD after this harness checkpoint. The fixture tool checks each selected HTML byte count and SHA-256 before creating the paired fixture.
+- Added a serial seven-round runner: A/B then B/A alternating by round, seven fresh Chromium processes per arm per route, no retries or resume, Lighthouse mobile simulated Slow4G and 4x CPU. It records per-sample LCP, CLS, TBT, transfer, request count, render-blocking URLs, fonts, still requests, warnings and control reliability. Budgets are unchanged; release certification remains false.
+- The actual B render capture and Lighthouse experiment have not run yet at this checkpoint. The raw lab remains pending and no outcome is claimed. The local fixture host binds to loopback and serves only the paired fixture plus tracked assets.
+
+## 2026-10-29 checkpoint 12: paired 11-route fixture frozen
+
+- Captured all 43 current B routes from the e193be3 source and verified the exact inventory/status/byte counts. Generated the 11-route A/B fixture from that capture and the SHA-verified immutable A archive. A is commit `796879d7b3d5ca0fa1e398562e937e9f364a5f62`; B is commit `e193be3036dff6a4f95923460a2525226faaae35`.
+- Fixture SHA-256 is `1edc4a65117c748ffdf42d9417398f4e87e7b46be97ade30ef941df7d98fa5a7`; its 1,950,527-byte paired HTML file is held outside the repository at `/home/user/phase32-runtime/phase32-ab/fixtures.json`. The committed manifest `reports/phase-32-11-route-ab-fixtures.json` records all 11 route byte counts and hashes, the 43-route A archive hash, route roles, budgets and the local-only method.
+- The first fixture-script attempt expected B SHA fields that the existing render index does not contain; it stopped before creating a fixture. The script now hashes the verified captured HTML files directly and succeeded. No Lighthouse sample has run yet. The fresh-browser preflight and 154-sample experiment are the next steps.
+
+## 2026-10-29 checkpoint 13: Lighthouse browser preflight
+
+- The frozen runner passed its no-navigation preflight with Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2 from `/home/user/phase32-runtime`. This did not navigate a page and contributed zero A/B samples. Both temporary PHP-WASM adapter processes have been stopped after freezing their output. The fixture file and 11-route manifest hashes remain unchanged.
+- No A/B Lighthouse sample has run yet. Before starting the fixed serial lab, the local fixture host must be prepared on loopback with the frozen route fixture and the runner's output path must not already exist.
+
+## 2026-10-29 checkpoint 14: start the frozen 154-sample A/B session
+
+- Starting one serial run of seven alternating rounds for each of the 11 frozen routes, with a fresh Chromium process for each arm sample. Output is isolated at `/home/user/phase32-runtime/phase32-ab/ab-results.json`; the runner refuses to overwrite an existing file, retry a failed sample or resume a partial session. The fixture server uses loopback only. No browser audit or other QA will run concurrently with this capture.
+- The run uses the already committed fixture SHA and current local font/CDN mirrors. Its result is not known until the runner completes; do not infer a pass from the preflight or the prior resource audit.
+
+## 2026-10-29 checkpoint 15: frozen 11-route run 01 complete
+
+- The local mobile-simulated run completed all 154 samples, 77 A and 77 B, with zero Lighthouse warnings and no retries. Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2. Raw result: `reports/phase-32-11-route-ab-run-01-results.json`, SHA-256 `83e29ce1aaf2086ed39068b51a7b83ad83e908cecec97b6302bac0f99f475d25`. The route table and method are in `reports/phase-32-11-route-ab-run-01-summary.md`.
+- **7/11 local route gates passed.** Home, Services and About fail the no-worse-than-A CLS gate; Blog index fails the TBT delta gate with B median 59.3ms versus A 0ms, exceeding the +50ms allowance by 9.3ms. Every route passes median LCP ratio, transfer delta and no-new-render-blocking checks. Do not call the 11-route result a budget pass.
+- Reference mobile B medians: Home LCP 3,662.2ms, CLS 0.055063, TBT 0ms; Services 3,811.4ms, 0.026096, 0ms; About 3,511.8ms, 0.020411, 0ms; Contact 3,106.4ms, 0, 0ms. All median LCPs are below 4,000ms and all CLS values below 0.1, but Home/Services/About are worse than A on CLS. Home has three B LCP samples above 4s, max 4,157.3ms; Services has two, max 4,232.5ms. This mobile-sim run excludes the desktop scene path.
+- All seven target B routes requested one 640px WebP in every sample: 9,738 resource bytes, 9,914 transfer bytes, HTTP 200. Their A fixtures requested the earlier 720px WebP at 24,574 resource bytes. No new render-blocking URL appeared. The separate reference audit's eight pre-scene bodies remain under 400,000 local uncompressed bytes.
+- The inherited raw report says `control_reliable=false` because it labels the intentionally changed reference routes as controls. This Phase32 role label is not a valid unchanged-control test; preserve the raw field, explain its inapplicability and correct the next-run harness/manifest rather than claiming a pass. `performance_release_certified` remains false.
+- Next: inspect CLS attribution and the Blog index TBT delta after this completed run, make only conservative source changes, then rerun the full frozen-A protocol on the final candidate if the fix changes runtime output. Separately verify desktop scene TBT; the one-sample About/Contact long tasks are not Lighthouse TBT.
+
+## 2026-10-29 checkpoint 16: correct reference route roles in the A/B harness
+
+- Corrected the fixture manifest and next-run harness: Home, Services, About and Contact are reference treatment routes, not unchanged controls. The previous run01 raw file remains byte-for-byte unchanged and retains `control_reliable=false` from the inherited runner field; the run01 summary explains why that field is inapplicable. The fixture JSON SHA and paired A/B HTML are unchanged.
+- Future run reports now record `reference_routes`, an empty `unchanged_control_routes` list, and `control_reliability_applicable=false` with `control_reliable=null`. This corrects metadata only; it does not alter the samples, route gates, experiment source, or release certification.
+
+## 2026-10-29 checkpoint 17: one-sample attribution after run01
+
+- Added a single-run Lighthouse attribution tool and preserved two B-arm diagnostics, separate from the frozen 154 samples. On Home, one diagnostic returned CLS 0.000728, so it did not reproduce run01's 0.055 median. A 0.05506 layout-shift entry was marked `hadRecentInput=true` and excluded from Lighthouse CLS; its source nodes included `#hH1`, `.seo-opening`, `#hSub`, `#hBtns` and `#hStats`, with text wrapping changes consistent with font fallback/reflow. This is a hypothesis, not a confirmed root cause.
+- On Blog index, one diagnostic returned TBT 52.7ms. Lighthouse listed five 63ms to 97ms tasks attributed to the document or unattributable; the audit did not supply a source stack. A renderer-clock PerformanceObserver task of 1,003ms is not comparable to Lighthouse simulated time. The still loader is a candidate contributor, not proven.
+- Raw diagnostics and limits are in `reports/phase-32-post-run01-attribution.md`, `reports/phase-32-cls-home-diagnostic.json` and `reports/phase-32-blog-tbt-diagnostic.json`. These one-sample results do not clear run01's CLS/TBT failures.
+- Next: test a metric-matched local fallback font stack on the four reference routes without changing the loaded display font, and replace the target still's synchronous canvas draw with a positioned image if visual review confirms equivalence. Then use the full frozen-A protocol on any final runtime candidate.
+
+## 2026-10-29 checkpoint 18: conservative CLS/TBT candidate prepared
+
+- Added local metric-matched fallback families to the four reference pages only. The existing Outfit and Cormorant webfont sources, request chain, display type and final design fonts are unchanged; the fallback uses local Arial/Times New Roman metrics while the requested webfont is unavailable. This is intended to reduce the run01 hero text reflow, but it is not yet measured.
+- Because Blog index missed the unchanged TBT delta budget by 9.3ms, its still loader now keeps the palette-only fallback at widths up to 768px. The desktop still path remains intact; destination, place and article still paths are unchanged. This is a conservative mobile fallback candidate, not a claimed fix. The hero remains a canvas so the decorative still cannot replace text as the LCP element.
+- PHP lint, all four reference policy fixtures (including the font fallback assertions), the eight scene-switch fixtures and JavaScript syntax checks pass. The refreshed report is `reports/phase-32-reference-scene-policy-smoke.json`. Browser still safeguards, visual checks and a new full A/B run remain pending.
+
+## 2026-10-31 checkpoint 19: candidate smokes and font-shift attribution saved
+
+- Restored the existing session branch at `1e1f225` after the environment reset. Captured the already completed candidate smokes and local resource audit in tracked reports: 12 responsive hero cases, 36 reference-scene cases, and eight resource route/viewport cases. These are candidate checks, not an A/B or release-budget pass.
+- Fixed the CLS diagnostic launcher to atomically select its requested route and arm in the fixture server before navigation. This addresses the earlier stale `/` selection that made `/services` return 404.
+- Ran fresh single-sample B Lighthouse diagnostics for `/services`, `/about` and `/blog/`, alongside the saved `/` candidate result. Raw JSON artifacts are `reports/phase-32-cls-home-candidate-diagnostic.json` (SHA-256 `29bab6b7faa4309dac24445e2b155cdd9824a355f75f1d51ef6092363e54a954`), `reports/phase-32-cls-services-candidate-diagnostic.json` (`890fd595eaabc502dd6529f25040e9ae92fa7e18d11432faedef1ce2fe8f8c55`), `reports/phase-32-cls-about-candidate-diagnostic.json` (`36a7660d4eb24c95f77cfa22a7a9983acfefa247e3a39cfd8ff05cfdbb8feee7`) and `reports/phase-32-cls-blog-index-candidate-diagnostic.json` (`f6bb4b0df19eca30cb5721b37fbc47927e68c66a55cbd17b45e6eb7ca2cde28e`). Interpretation and limits are in `reports/phase-32-candidate-font-reflow-diagnostics.md`.
+- Candidate single-sample values: Home LCP 3,511.80ms, CLS 0.055063, TBT 0ms; Services 4,231.50ms, 0.026096, 0ms; About 3,856.24ms, 0.020411, 0ms; Blog index 2,281.49ms, 0, 0ms. The three reference CLS results match the corresponding run01 B medians; the metric-fallback candidate did not demonstrate a reduction. Services exceeds the 4,000ms reference LCP ceiling in this diagnostic. Home and Services observer events mark recent input, but that does not invalidate the reported LHR aggregates. Blog was measured in the mobile diagnostic configuration, not desktop.
+- The candidate remains uncertified. No run02 sample is included here; no budget pass is claimed. Next: choose whether to retain or revise the candidate, then regenerate the frozen fixture set from the committed current HEAD before the seven-round 11-route A/B. Desktop Blog TBT, Contact `#miniHero` tail inspection and the remaining release checks remain open.
+
+## 2026-10-31 checkpoint 20: revise reference font candidate after failed fallback hypothesis
+
+- Removed the metric-only Arial/Times fallback from the four reference routes because checkpoint 19 reproduced run01 CLS medians and did not demonstrate a reduction. The new candidate keeps the existing Outfit/Cormorant family names and requested weights/styles, replaces their Google Fonts stylesheet chain with local WOFF2 faces, and preloads Outfit 300 plus Cormorant Garamond 700. The local CSS uses `font-display:swap`; this is a candidate change, not an approved performance result.
+- Added four missing local Cormorant files (300/600 normal and 300/400 italic), totaling 91,548 new asset bytes. The full 11-face set is byte-for-byte identical to the installed @fontsource files used by the local resource mirror. Per-file sizes and SHA-256 values are recorded in `reports/phase-32-reference-font-candidate.json`. Outfit weight 100 is not used by the four current reference page styles and is not included.
+- The four-route PHP policy smoke now verifies removal of Google Fonts CSS/preconnects, the two local font preloads, retained family names and the requested local face weights/italics. PHP-WASM lint and policy smoke passed. These checks do not establish a LCP, CLS, transfer or screenshot pass.
+- Next: commit this source candidate, capture current-HEAD routes, audit local resource bodies and run fresh route-specific diagnostics. Only retain this font change if the frozen A/B later shows improved LCP without worse CLS. Keep the full 11-route run02 and all outstanding release checks open.
+
+## 2026-10-31 checkpoint 21: candidate run02 fixtures frozen
+
+- Captured the committed `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0` candidate through the isolated PHP-WASM adapter: all 43 frozen routes returned HTTP 200. The new reference font styles contain no Google Fonts stylesheet/preconnect and emit exactly two local font preloads per reference route.
+- Rebuilt the 11-route fixture against immutable A commit `796879d7b3d5ca0fa1e398562e937e9f364a5f62`. The paired fixture is outside Git at `/home/user/phase32-runtime/phase32-ab-run02/fixtures.json`, 1,958,377 bytes, SHA-256 `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`. The committed route/asset hashes and role labels are in `reports/phase-32-11-route-ab-fixtures.json`.
+- This freezes candidate markup only. No Lighthouse run02 sample has started. The font change is not accepted until response-body/transfer checks, desktop screenshots, fresh candidate diagnostics and the full seven-round interleaved A/B establish the unchanged budgets.
+
+## 2026-10-31 checkpoint 22: local-font reference resource audit
+
+- Ran the eight-route/viewport local resource audit against the committed candidate. All eight cases returned HTTP 200 with no failed resource. The Google Fonts stylesheet and preconnect requests are absent; actual Outfit/Cormorant faces load from the self-hosted assets. The audit recorded no external font CSS request and no new reference image.
+- Candidate pre-scene response-body sums: Home 350,534 mobile / 364,566 desktop; Services 374,937 / 388,969; About 329,255 / 329,255; Contact 317,799 / 331,831 bytes. All are below the 400,000-byte cap. Services desktop is closest with 11,031 bytes of headroom. Compared with the previous metric-fallback candidate, these sums are lower by 1,668 to 1,845 bytes, primarily from the removed remote CSS chain. These are local uncompressed response-body sums, not compressed host transfer.
+- The audit's no-coverage desktop observer proxy saw long-task TBT sums of 1,822ms on About and 2,700ms on Contact while deferred scenes initialize. These are not Lighthouse TBT and do not clear the 600ms budget; keep the desktop scene path unapproved pending a controlled Lighthouse result or a conservative fallback. Resource details are in `reports/phase-32-reference-audit-local-font-candidate.json`.
+- No release decision follows from this audit. Fresh Lighthouse CLS/LCP diagnostics and visual desktop review remain required before the frozen 11-route run02.
+
+## 2026-10-31 checkpoint 23: local-font candidate diagnostics support run02
+
+- Four fresh B-arm, one-sample Lighthouse diagnostics against the frozen run02 fixture recorded Home LCP 2,956.53ms / CLS 0 / TBT 0ms; Services 2,956.47ms / 0.000491 / 0ms; About 2,730.93ms / 0 / 0ms; Blog index 2,281.78ms / 0 / 0ms. Raw files and SHA-256 values are in `reports/phase-32-local-font-candidate-diagnostics.md` and its four adjacent JSON artifacts.
+- Home and About recorded no observer shifts. Services recorded a 0.000491 entry with unchanged source rectangles. The browser reported local Outfit/Cormorant faces loaded, without a Google Fonts CSS request. These results are promising but remain unpaired single diagnostics; they do not replace the frozen A/B or prove an owner budget pass. The previous candidate diagnostics are not an A control.
+- Retain the local-font candidate provisionally for the frozen-A run02. The route fixture hash remains `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`. Blog desktop TBT, Contact `#miniHero` tail inspection, screenshots and release checks remain open.
+
+## 2026-10-31 checkpoint 24: start frozen 11-route run02
+
+- Starting the fresh frozen-A 11-route A/B session using the verified fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`. A source is `796879d7b3d5ca0fa1e398562e937e9f364a5f62`; candidate B runtime source is `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0`.
+- Protocol: seven alternating A/B and B/A rounds per route, seven fresh Chromium processes per arm per route, Lighthouse mobile simulated Slow4G/4x CPU, serial with no retries or resume. The runner output is `/home/user/phase32-runtime/phase32-ab-run02/ab-results.json`, outside Git. No other browser audit or QA will run concurrently. The outcome is not known at this checkpoint.
+
+## 2026-10-31 checkpoint 25: frozen 11-route run02 complete, three LCP-ratio failures
+
+- Run02 completed all 154 samples (77 A, 77 B), seven interleaved rounds per route, fresh Chromium per sample, zero warnings, no retries/resume. Candidate B source `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0`; frozen A `796879d7b3d5ca0fa1e398562e937e9f364a5f62`; fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`.
+- **8/11 route gates passed.** Home fails LCP B/A `1.6144` (A median 1,831.2ms, B 2,956.3ms, A LCP IQR 6,985.7ms); cost article fails `1.3490` (1,801.8ms -> 2,430.5ms); Blog index fails `1.2150` (1,877.4ms -> 2,281.0ms). All three are genuine gate failures under the runner; broad IQR and changed text LCP candidates are reported, not used to waive them. The other eight routes pass.
+- All 11 pass added-transfer, TBT delta, CLS no-worse-than-A, CLS below 0.1, and no-new-render-blocking checks. All transfer deltas are negative. Blog-index mobile B TBT is 0ms versus A 0ms, resolving run01's +59.3ms mobile TBT miss in this run. This does not establish desktop Blog TBT.
+- B reference mobile medians are all under 4,000ms LCP and have 0ms TBT/0 CLS medians. The local audit body totals remain under 400,000 bytes, with Services desktop headroom 11,031 bytes. The results are local mobile simulation only; desktop scene TBT remains unapproved.
+- Full route table, IQRs, ratios, transfer/request counts, still audit and limitations are in `reports/phase-32-11-route-ab-run-02-summary.md`. Raw JSON is `reports/phase-32-11-route-ab-run-02-results.json`, SHA-256 `d886e44e6b94c7cdee639b172941dff7d72492c0a78eb2df4165608ff3ba5db9`. `performance_release_certified=false`; do not call the candidate a full budget pass.
+- Next: diagnose and fix the three LCP-ratio misses only with a measurable runtime change, then freeze a new current-HEAD fixture and perform a complete new run if warranted. Blog desktop TBT, Contact `#miniHero` tail inspection, visual safeguards, route/content/blank-space checks and current-HEAD ZIP verification remain open.
+
+## 2026-10-31 checkpoint 26: start supplemental Blog-index desktop A/B
+
+- The mobile run02 is complete and its three LCP-ratio failures remain open. Starting a separate seven-round A/B for `/blog/` at Lighthouse desktop settings to measure the previously untested desktop TBT and still behavior. It uses the same frozen run02 A/B fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`, fresh Chromium per sample, alternating order, serial execution, and no retries.
+- The new runner is `tools/phase32/desktop-blog-ab.cjs`; raw output will be outside Git at `/home/user/phase32-runtime/phase32-ab-run02/desktop-blog-ab.json`. The outcome is unknown at this checkpoint; no other browser audit will run concurrently.
+
+## 2026-10-31 checkpoint 27: Blog-index desktop TBT measured
+
+- Supplemental `/blog/` desktop A/B completed 14 samples, seven alternating fresh-browser samples per arm, with zero warnings. Lighthouse desktop-config, desktopDense4G, Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2.
+- A/B TBT medians are 0/0ms (delta 0ms); CLS medians 0/0; LCP medians 590.63/590.81ms (ratio 1.0003); transfer 284,903/287,586 bytes (delta +2,683, under 150KB), eight requests per arm. B has no new render-blocking URL. Both arms request the 37,226-byte 1440 WebP once per sample; B LCP remains the text `.sub`.
+- This closes the Blog-index desktop TBT check only for the local simulated environment. Raw samples are `reports/phase-32-blog-desktop-ab-results.json` (SHA-256 `0b579dbbf4582b2f3a8158b9462f087decd4beb7bf134fc4f8aa14ef6a193635`); interpretation is in `reports/phase-32-blog-desktop-ab-summary.md`. It does not resolve the three run02 mobile LCP-ratio failures or certify other desktop scenes.
+
+## 2026-10-31 checkpoint 28: Contact `#miniHero` tail inspection started
+
+- Starting a focused current-candidate inspection on `/contact` at 360, 768 and 1280px, JavaScript on/off and normal/reduced motion (12 cases). It records visible flow text, the absolute bottom scroll cue, computed min-height, and distances from text/cue to the section bottom. This is an inspection only; no spacing source change is authorized. Output target: `reports/phase-32-contact-minihero-audit.json`. Result unknown until the browser run completes.
+
+- First `#miniHero` browser launch stopped before recording any case because `routePinnedResources()` inherited its default port 8080 while the adapter is on 8084 (`ECONNREFUSED`). No raw result was written. Updated the audit runner to propagate its selected base URL to the pinned-resource router; the corrected attempt will use the same current-candidate page on 8084.
+
+- Corrected attempt reached its first case: hero height 792px, flow-text tail 184.53px, scroll-cue bottom gap 30px at 360px with JS on and normal motion. The next per-case fresh BrowserContext failed to create a page after the previous context closed, so the run stopped at 1/12 and wrote no result file. The runner now keeps two stable contexts (one per JS state), varies reduced-motion via media emulation, and closes contexts after all cases; the one case is preliminary only.
+
+## 2026-10-31 checkpoint 31: first-load Contact hero inspection complete; post-scroll comparison started
+
+- The focused `/contact` first-load inspection completed 12/12 cases. All combinations at 360/768/1280px, JS on/off and normal/reduced motion had a 792px hero and the `#scrollInd` cue visible, absolutely positioned 30px above the hero bottom. The flow-text tails were 184.53px, 244.94px and 192.34px respectively, identical across JS/motion. Raw first-load evidence is `reports/phase-32-contact-minihero-audit.json` (SHA-256 `2354aab7f4de1ccb4f3ef612dfa5c4c5748ef40a2844ba4fbc2901da5d825ba5`).
+- Because the established blank-space scanner scrolls through the full page before measuring, a supplemental Contact-only 12-case scan has started with the same full scroll and 3-second settle. This aligns cue visibility/state with the Phase31 tail values (138px at 360px, 233px at 768px). Output is external at `/home/user/phase32-runtime/phase32-contact-tail-scan`; results unknown until completion. No spacing source change is planned.
+
+- The contact-only invocation of `tools/phase31/scan.cjs` stopped before browser launch because `sharp` is absent from the installed Phase32 runtime (`MODULE_NOT_FOUND`); no scan output directory or cases were created. Rather than install or alter the earlier scanner environment, a small Playwright-only inspector will mirror its slow wheel-through, 3-second settle and return-to-top sequence, then measure only the requested hero/cue tail.

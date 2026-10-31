@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-virajpet__1280__js-off__motion-reduced",
+  "route": "/study-abroad-counselling-virajpet",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-virajpet",
+  "http_status": 200,
+  "page_height": 4709,
+  "scroll": {
+    "height": 4709,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4709,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3573
+    },
+    "visible_text_chars": 4134,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Virajpet"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Virajpet"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Virajpet: review the completed f"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Virajpet student approve before submission?"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "Before an application leaves the preparation stage, the appl"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to review the completed form, not only the docum"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Review the completed form, not only the document folder"
+      },
+      {
+        "selector": "p",
+        "y": 955,
+        "text": "Ask to see the information prepared for submission and read "
+      },
+      {
+        "selector": "h2",
+        "y": 1229,
+        "text": "Confirm that each attachment has a purpose"
+      },
+      {
+        "selector": "p",
+        "y": 1296,
+        "text": "Match every requested item with the file that is meant to an"
+      },
+      {
+        "selector": "h2",
+        "y": 1542,
+        "text": "Keep evidence of the action actually taken"
+      },
+      {
+        "selector": "p",
+        "y": 1609,
+        "text": "After an authorised submission, retain the confirmation or r"
+      },
+      {
+        "selector": "p",
+        "y": 1864,
+        "text": "Counselling is online, and students from Virajpet do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1936,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2030,
+        "text": "What should a Virajpet student approve before submission?"
+      },
+      {
+        "selector": "p",
+        "y": 2085,
+        "text": "Review the completed form, explanations and intended attachm"
+      },
+      {
+        "selector": "summary",
+        "y": 2126,
+        "text": "Does a submission reference mean an application has been app"
+      },
+      {
+        "selector": "p",
+        "y": 2181,
+        "text": "No. Keep evidence of receipt separate from a decision, and t"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2303,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2370,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2430,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2540,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2614,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2668,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4709,
+    "scan_width": 512,
+    "scan_height": 1884,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4994692144373674
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "4aba43aee68b45bd6d6a28cb25c326e599a1d86c45471fe05132ad86a10622ae"
+  }
+}

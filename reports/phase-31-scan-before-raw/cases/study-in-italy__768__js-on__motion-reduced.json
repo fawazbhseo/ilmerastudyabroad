@@ -1,0 +1,326 @@
+{
+  "id": "study-in-italy__768__js-on__motion-reduced",
+  "route": "/study-in-italy",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-italy",
+  "http_status": 200,
+  "page_height": 5731,
+  "scroll": {
+    "height": 5731,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5731,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4349
+    },
+    "visible_text_chars": 4069,
+    "visible_text_nodes": 74,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Italy from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "Study in Italy from India starts with programme-specific pla"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 422,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 422,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 489,
+        "text": "What should I check before planning to study in Italy from I"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 548,
+        "text": "Indian students who want to study in Italy first apply for a"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 615,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 687,
+        "text": "Discuss study in Italy from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 847,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 908,
+        "text": "ILMERA helps identify scholarships, government grants, and s"
+      },
+      {
+        "selector": "h2",
+        "y": 1037,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1098,
+        "text": "The Bengaluru consulate states that each institution has its"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1137,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1214,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1275,
+        "text": "The consulate lists three mandatory steps: apply for admissi"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1343,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1387,
+        "text": "A D visa is needed if the course lasts more than 90 days, an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1426,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1470,
+        "text": "Visa applications are submitted only by prior appointment at"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1509,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1559,
+        "text": "All students must attend a mandatory video interview when th"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1563,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1606,
+        "text": "Under Italian law, processing of a D visa application can ta"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1674,
+        "text": "[1]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5731,
+    "scan_width": 512,
+    "scan_height": 3821,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3464,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-italy__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3527,
+          "computed": {
+            "min_height": "0px",
+            "height": "3526.81px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3444,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3713,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4063,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-italy__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 3912,
+          "element_height": 240,
+          "computed": {
+            "min_height": "0px",
+            "height": "240px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 3959,
+            "text": "Further questions"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4242,
+            "text": "Ask ILMERA about study in Italy from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3464,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-italy__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3527,
+          "computed": {
+            "min_height": "0px",
+            "height": "3526.81px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3444,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3713,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4063,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-italy__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 3912,
+          "element_height": 240,
+          "computed": {
+            "min_height": "0px",
+            "height": "240px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 3959,
+            "text": "Further questions"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4242,
+            "text": "Ask ILMERA about study in Italy from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998691442030883
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "bf91160ab4d28fca570ed09dde2fd27eee93d997ed72f177e151784a376fd415"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "original_markdown_exact_byte_prefix_preserved": true,
+  "appended_plain_text_lines": [
+    "Unzip ilmera-deploy-850d0af.zip locally, preserving its 130-file folder structure.",
+    "Upload contents with hidden .htaccess files into public_html; exclude the ZIP and releases folder."
+  ],
+  "only_additional_note_whitespace": "Blank paragraph separator and Markdown hard-break whitespace; no heading or other step changes.",
+  "pdf_pages": 2,
+  "original_pdf_text_exact_prefix_preserved_after_whitespace_and_ligature_normalization": true,
+  "pdf_added_text_exactly_matches_two_lines": true,
+  "each_note_sentence_is_a_separate_pdf_line": true,
+  "markdown_words": 1017,
+  "offline_pdf_no_external_requests": true,
+  "no_other_step_changed": true
+}

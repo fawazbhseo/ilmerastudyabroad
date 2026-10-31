@@ -1,0 +1,181 @@
+{
+  "id": "404__768__js-on__motion-normal",
+  "route": "/404",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/404",
+  "http_status": 200,
+  "page_height": 925,
+  "scroll": {
+    "height": 925,
+    "scroll_samples": 2,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 925,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 729
+    },
+    "visible_text_chars": 362,
+    "visible_text_nodes": 14,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.err-code",
+        "y": 178,
+        "text": "404"
+      },
+      {
+        "selector": "h1.err-h1",
+        "y": 220,
+        "text": "This page could not be found"
+      },
+      {
+        "selector": "p.err-sub",
+        "y": 352,
+        "text": "The link may be old or mistyped. Everything about studying i"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 450,
+        "text": "Back to Home"
+      },
+      {
+        "selector": "a.btn-ghost",
+        "y": 450,
+        "text": "Book online Consultation"
+      },
+      {
+        "selector": "span.err-label",
+        "y": 545,
+        "text": "Popular Pages"
+      },
+      {
+        "selector": "a",
+        "y": 593,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "a",
+        "y": 593,
+        "text": "Study in Germany"
+      },
+      {
+        "selector": "a",
+        "y": 593,
+        "text": "Study in Italy"
+      },
+      {
+        "selector": "a",
+        "y": 593,
+        "text": "Study in the UK"
+      },
+      {
+        "selector": "a",
+        "y": 649,
+        "text": "Study in Russia"
+      },
+      {
+        "selector": "a",
+        "y": 649,
+        "text": "About ILMERA"
+      },
+      {
+        "selector": "a",
+        "y": 649,
+        "text": "Blog"
+      },
+      {
+        "selector": "a",
+        "y": 649,
+        "text": "Privacy Policy"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 925,
+    "scan_width": 512,
+    "scan_height": 617,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 665,
+        "height": 177,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31b-scan/404__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 593,
+            "text": "Study Destinations"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 665,
+        "height": 177,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31b-scan/404__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 593,
+            "text": "Study Destinations"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4991896272285252
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "2928fa00e186e165672da21b5381c6ec685aa079e28ed9224d6edb911511d55a"
+  }
+}

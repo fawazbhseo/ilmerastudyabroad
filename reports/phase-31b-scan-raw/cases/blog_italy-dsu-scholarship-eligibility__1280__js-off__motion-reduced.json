@@ -1,0 +1,177 @@
+{
+  "id": "blog_italy-dsu-scholarship-eligibility__1280__js-off__motion-reduced",
+  "route": "/blog/italy-dsu-scholarship-eligibility",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/italy-dsu-scholarship-eligibility",
+  "http_status": 200,
+  "page_height": 3441,
+  "scroll": {
+    "height": 3441,
+    "scroll_samples": 6,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 3441,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2305
+    },
+    "visible_text_chars": 1797,
+    "visible_text_nodes": 34,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Italy"
+      },
+      {
+        "selector": "h1",
+        "y": 224,
+        "text": "Italy Scholarship Planning: Verification Needed"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 488,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 488,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 488,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 488,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 536,
+        "text": "Do not use this draft to determine DSU eligibility or an app"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 669,
+        "text": "Draft review notice: no current regional award call on an ap"
+      },
+      {
+        "selector": "h2",
+        "y": 823,
+        "text": "Owner-supplied conditional guidance"
+      },
+      {
+        "selector": "p",
+        "y": 890,
+        "text": "Tuition can be fully or largely covered at our partner unive"
+      },
+      {
+        "selector": "h2",
+        "y": 992,
+        "text": "What the opened official background confirms"
+      },
+      {
+        "selector": "p",
+        "y": 1059,
+        "text": "The Italian consulate says institutions set their own admiss"
+      },
+      {
+        "selector": "a",
+        "y": 1124,
+        "text": "[IT]"
+      },
+      {
+        "selector": "h2",
+        "y": 1204,
+        "text": "Planning questions"
+      },
+      {
+        "selector": "p",
+        "y": 1271,
+        "text": "Before a publication decision, obtain the current official a"
+      },
+      {
+        "selector": "#article-sources",
+        "y": 1402,
+        "text": "Official sources"
+      },
+      {
+        "selector": "p",
+        "y": 1469,
+        "text": "Source text reviewed on"
+      },
+      {
+        "selector": "time",
+        "y": 1469,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1469,
+        "text": ". Estimates retain their stated scope; historical editions a"
+      },
+      {
+        "selector": "a",
+        "y": 1558,
+        "text": "Italian Consulate Bengaluru: study in Italy"
+      },
+      {
+        "selector": "div.name",
+        "y": 1674,
+        "text": "Fawaz BH"
+      },
+      {
+        "selector": "div.role",
+        "y": 1702,
+        "text": "CMO, ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 1802,
+        "text": "Related guides"
+      },
+      {
+        "selector": "a",
+        "y": 1856,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 3441,
+    "scan_width": 512,
+    "scan_height": 1376,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5007267441860463
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6c07623ab5405c8018ea4a0b5ca232a2870d0faf8abbd13b2ea5a0afd8d4eb06"
+  }
+}
