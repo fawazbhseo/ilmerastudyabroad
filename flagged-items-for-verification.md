@@ -3831,3 +3831,5 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Contact `#miniHero` current-candidate tail inspection in progress - 2026-10-31
 
 - Measuring current-candidate Contact `#miniHero` at 360/768/1280px with JS on/off and normal/reduced motion. The audit explicitly inspects its bottom `#scrollInd` cue and computes flow-text tail separately from cue-to-hero-bottom gap. This conservative check does not authorize a spacing change; outcome is unknown until `reports/phase-32-contact-minihero-audit.json` is produced.
+
+- Audit setup note: the first Contact `#miniHero` launch stopped before any case because the shared pinned-resource helper defaulted to port 8080 rather than the Phase32 adapter at 8084. It produced no result file and made no source change. The runner now propagates the selected adapter URL to the helper; rerun result remains pending.

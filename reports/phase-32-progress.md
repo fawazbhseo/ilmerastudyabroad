@@ -192,3 +192,5 @@
 ## 2026-10-31 checkpoint 28: Contact `#miniHero` tail inspection started
 
 - Starting a focused current-candidate inspection on `/contact` at 360, 768 and 1280px, JavaScript on/off and normal/reduced motion (12 cases). It records visible flow text, the absolute bottom scroll cue, computed min-height, and distances from text/cue to the section bottom. This is an inspection only; no spacing source change is authorized. Output target: `reports/phase-32-contact-minihero-audit.json`. Result unknown until the browser run completes.
+
+- First `#miniHero` browser launch stopped before recording any case because `routePinnedResources()` inherited its default port 8080 while the adapter is on 8084 (`ECONNREFUSED`). No raw result was written. Updated the audit runner to propagate its selected base URL to the pinned-resource router; the corrected attempt will use the same current-candidate page on 8084.

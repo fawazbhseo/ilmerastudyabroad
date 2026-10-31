@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Inspect retained #miniHero tails and the bottom scroll cue on Contact at three widths.
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const {launchBrowser,routePinnedResources}=require('../phase31/browser.cjs');
 const ROOT=path.resolve(__dirname,'../..');const BASE=process.env.PHASE32_BASE_URL||process.env.PHASE31_BASE_URL||'http://127.0.0.1:8084';
+process.env.PHASE31_BASE_URL=BASE;
+const {launchBrowser,routePinnedResources}=require('../phase31/browser.cjs');
 const OUT=path.resolve(process.env.PHASE32_CONTACT_MINIHERO_OUT||path.join(ROOT,'reports/phase-32-contact-minihero-audit.json'));
 const route='/contact',widths=[360,768,1280],jsStates=['on','off'],motions=['normal','reduced'];
 async function main(){
