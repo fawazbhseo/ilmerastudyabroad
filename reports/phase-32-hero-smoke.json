@@ -21,18 +21,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 73.69999999995343,
+            "startTime": 46.80000000001746,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 54,
+        "loadEventEnd": 38.20000000001164,
         "lcp": [
           {
-            "startTime": 168,
+            "startTime": 136,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -65,18 +66,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 46.39999999990687,
+            "startTime": 45.10000000000582,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 31.5999999998603,
+        "loadEventEnd": 31.60000000000582,
         "lcp": [
           {
-            "startTime": 68,
+            "startTime": 56,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -109,18 +111,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-1440.webp",
-            "startTime": 48,
+            "startTime": 55.39999999999418,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 23.600000000093132,
+        "loadEventEnd": 32.79999999998836,
         "lcp": [
           {
-            "startTime": 92,
+            "startTime": 76,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -153,18 +156,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 63.200000000186265,
+            "startTime": 49.10000000000582,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 44.4000000001397,
+        "loadEventEnd": 34.60000000000582,
         "lcp": [
           {
-            "startTime": 84,
+            "startTime": 56,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -197,18 +201,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 62,
+            "startTime": 39.60000000000582,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 49.10000000009313,
+        "loadEventEnd": 27.300000000017462,
         "lcp": [
           {
-            "startTime": 72,
+            "startTime": 48,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -241,18 +246,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-1440.webp",
-            "startTime": 52.4000000001397,
+            "startTime": 47.20000000001164,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 47.200000000186265,
+        "loadEventEnd": 37.90000000002328,
         "lcp": [
           {
-            "startTime": 68,
+            "startTime": 64,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -285,18 +291,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 59.5,
+            "startTime": 41.10000000000582,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 44.89999999990687,
+        "loadEventEnd": 38.79999999998836,
         "lcp": [
           {
-            "startTime": 88,
+            "startTime": 84,
             "tag": "H2",
             "id": null,
             "className": ""
@@ -329,18 +336,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-640.webp",
-            "startTime": 61.9000000001397,
+            "startTime": 48.20000000001164,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 50.10000000009313,
+        "loadEventEnd": 39.80000000001746,
         "lcp": [
           {
-            "startTime": 72,
+            "startTime": 60,
             "tag": "P",
             "id": null,
             "className": "direct-answer"
@@ -373,18 +381,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-1440.webp",
-            "startTime": 74.5,
+            "startTime": 89.39999999999418,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 55.39999999990687,
+        "loadEventEnd": 74.59999999997672,
         "lcp": [
           {
-            "startTime": 92,
+            "startTime": 108,
             "tag": "H1",
             "id": null,
             "className": ""
@@ -404,31 +413,25 @@
       "route": "/blog/",
       "template": "blog",
       "width": 360,
-      "expected": "/assets/images/hero-still-640.webp",
+      "expected": "palette-only-budget-fallback",
       "status": "PASS",
-      "request_count": 1,
+      "request_count": 0,
       "state": {
-        "loaded": true,
+        "loaded": false,
         "canvas": {
-          "width": 360,
-          "height": 328,
+          "width": 300,
+          "height": 150,
           "cssWidth": 360,
           "cssHeight": 328.1875,
           "transitionDuration": "0.32s",
-          "opacity": "0.42"
+          "opacity": "0"
         },
-        "resources": [
-          {
-            "name": "/assets/images/hero-still-640.webp",
-            "startTime": 41.199999999953434,
-            "transferSize": 0,
-            "initiatorType": "img"
-          }
-        ],
-        "loadEventEnd": 37.9000000001397,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [],
+        "loadEventEnd": 41.60000000000582,
         "lcp": [
           {
-            "startTime": 72,
+            "startTime": 76,
             "tag": "P",
             "id": null,
             "className": "sub"
@@ -442,37 +445,31 @@
         }
       },
       "screenshot": "blog-360.png",
-      "screenshot_sha256": "ab22f44cc75722444c9025e76a836d0e95c88a6dc718e00a9e5368edc1994e11"
+      "screenshot_sha256": "176adda78a2b2f744bde1e19907379e6e37a301530aca67373c6559088989fd5"
     },
     {
       "route": "/blog/",
       "template": "blog",
       "width": 768,
-      "expected": "/assets/images/hero-still-640.webp",
+      "expected": "palette-only-budget-fallback",
       "status": "PASS",
-      "request_count": 1,
+      "request_count": 0,
       "state": {
-        "loaded": true,
+        "loaded": false,
         "canvas": {
-          "width": 768,
-          "height": 289,
+          "width": 300,
+          "height": 150,
           "cssWidth": 768,
           "cssHeight": 289.09375,
           "transitionDuration": "0.32s",
-          "opacity": "0.42"
+          "opacity": "0"
         },
-        "resources": [
-          {
-            "name": "/assets/images/hero-still-640.webp",
-            "startTime": 52.799999999813735,
-            "transferSize": 0,
-            "initiatorType": "img"
-          }
-        ],
-        "loadEventEnd": 40.199999999953434,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [],
+        "loadEventEnd": 44.29999999998836,
         "lcp": [
           {
-            "startTime": 72,
+            "startTime": 68,
             "tag": "P",
             "id": null,
             "className": "sub"
@@ -486,7 +483,7 @@
         }
       },
       "screenshot": "blog-768.png",
-      "screenshot_sha256": "c8b48702a8da51d610c54f903bf667e3440841fa04a85d4c73e65e843eb1d31a"
+      "screenshot_sha256": "6eeed694dacb8ffc65a1b2466b1506153e524e633817ea54f1bb2ce81aaf2039"
     },
     {
       "route": "/blog/",
@@ -505,18 +502,19 @@
           "transitionDuration": "0.32s",
           "opacity": "0.42"
         },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
         "resources": [
           {
             "name": "/assets/images/hero-still-1440.webp",
-            "startTime": 50.0999999998603,
+            "startTime": 51.89999999999418,
             "transferSize": 0,
             "initiatorType": "img"
           }
         ],
-        "loadEventEnd": 45.5,
+        "loadEventEnd": 48.69999999998254,
         "lcp": [
           {
-            "startTime": 76,
+            "startTime": 84,
             "tag": "P",
             "id": null,
             "className": "sub"
@@ -565,5 +563,5 @@
       "status": "PASS"
     }
   ],
-  "interpretation": "Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. Canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence."
+  "interpretation": "Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. The canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; the blog index uses the palette-only mobile fallback after the measured TBT budget miss; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence."
 }

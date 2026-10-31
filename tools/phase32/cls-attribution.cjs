@@ -9,6 +9,7 @@ const RUNTIME=process.env.PHASE32_RUNTIME||'/home/user/phase32-runtime/node_modu
 const {inflate}=require(path.join(RUNTIME,'@sparticuz/chromium/build/cjs/lambdafs.cjs'));
 const EVIDENCE=path.resolve(process.env.PHASE32_AB_EVIDENCE||'/home/user/phase32-runtime/phase32-ab');
 const FIXTURES=JSON.parse(fs.readFileSync(path.join(EVIDENCE,'fixtures.json'),'utf8'));
+const SELECTED=path.join(EVIDENCE,'selected.json');
 const PORT=Number(process.env.PHASE32_AB_PORT||8082),BASE=`http://127.0.0.1:${PORT}`;
 const ROUTE=process.env.PHASE32_CLS_ROUTE||'/';
 const ARM=process.env.PHASE32_CLS_ARM||'B';
@@ -18,6 +19,7 @@ function chromeArgs(){return[...packed.args.filter(a=>!['--single-process','--in
 async function main(){
  if(!FIXTURES[ROUTE]?.[ARM])throw Error(`Missing frozen fixture ${ARM} ${ROUTE}`);
  if(fs.existsSync(OUTPUT))throw Error(`Refusing to overwrite diagnostic output ${OUTPUT}`);
+ const selectionTmp=SELECTED+'.tmp';fs.writeFileSync(selectionTmp,JSON.stringify({route:ROUTE,variant:ARM}));fs.renameSync(selectionTmp,SELECTED);
  const bytes=fs.readFileSync(path.join(EVIDENCE,'fixtures.json'));
  let extracted;
  extracted=await inflate(path.join(RUNTIME,'@sparticuz/chromium/bin/al2023.tar.br'));
