@@ -3804,3 +3804,8 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - The local reference audit recorded no Google Fonts CSS request, no failed resource, and local font bodies returning HTTP 200. Pre-scene body totals are Home 350,534/364,566 bytes, Services 374,937/388,969, About 329,255/329,255, and Contact 317,799/331,831 at mobile/desktop. Services desktop has 11,031 bytes of headroom below 400,000. These uncompressed local bodies are not deployed compressed transfer or final A/B evidence.
 - Desktop scene long-task proxy sums remain high: About 1,822ms and Contact 2,700ms. These are not Lighthouse TBT. Do not claim the 600ms scene/TBT budget passes; keep reference desktop scenes unapproved until frozen desktop evidence clears the threshold or the scene is conservatively disabled. Audit: `reports/phase-32-reference-audit-local-font-candidate.json`.
+
+## Phase32 local-font one-sample diagnostics - 2026-10-31
+
+- Four candidate B diagnostics recorded Home LCP/CLS/TBT 2,956.53ms/0/0ms, Services 2,956.47ms/0.000491/0ms, About 2,730.93ms/0/0ms, and Blog index 2,281.78ms/0/0ms. The Services observer entry was 0.000491 with unchanged source rectangles. This supports keeping the local-font candidate for run02 but is not paired A/B evidence, a route median or a release pass.
+- Blog index result is mobile only; desktop TBT is unresolved. Renderer-clock long tasks are not Lighthouse TBT. See `reports/phase-32-local-font-candidate-diagnostics.md` and raw JSON. Do not replace the full 154-sample experiment with these probes.
