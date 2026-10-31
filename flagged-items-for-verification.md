@@ -3835,3 +3835,8 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 - Audit setup note: the first Contact `#miniHero` launch stopped before any case because the shared pinned-resource helper defaulted to port 8080 rather than the Phase32 adapter at 8084. It produced no result file and made no source change. The runner now propagates the selected adapter URL to the helper; rerun result remains pending.
 
 - Contact audit attempt note: one preliminary 360px JS-on/normal observation found a 792px hero, 184.53px flow-text tail and 30px cue-to-bottom gap. The next fresh BrowserContext could not create a page, leaving the run at 1/12 with no output file. This single observation is not the final audit; the script now reuses one context per JavaScript mode and will rerun all 12 cases.
+
+## Contact `#miniHero` first-load and post-scroll checks - 2026-10-31
+
+- First-load audit passed 12/12: all modes at 360/768/1280px had a 792px hero; visible `#scrollInd` is absolute, ends 30px above the section bottom. Flow-text tails before that cue are 184.53px (360), 244.94px (768), 192.34px (1280), identical across JS and reduced-motion states. Raw evidence: `reports/phase-32-contact-minihero-audit.json`.
+- A Contact-only rerun of the established full-scroll/3-second-settle scanner is in progress to check the previously reported post-scroll tails of 138px at 360px and 233px at 768px, when the cue's JS scroll handler hides it. It writes outside the repo to `/home/user/phase32-runtime/phase32-contact-tail-scan`. No spacing change pending this comparison.
