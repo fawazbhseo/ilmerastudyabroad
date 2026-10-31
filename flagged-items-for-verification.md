@@ -3799,3 +3799,8 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32 candidate run02 fixture - 2026-10-31
 
 - The run02 candidate fixture uses B source commit `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0` and frozen A source `796879d7b3d5ca0fa1e398562e937e9f364a5f62`. Its 1,958,377-byte JSON is external to the repository; the committed manifest records the hash. It is not a performance result. If runtime code changes, discard this candidate fixture and capture a new one from the committed HEAD before final A/B measurements.
+
+## Phase32 local-font resource audit - 2026-10-31
+
+- The local reference audit recorded no Google Fonts CSS request, no failed resource, and local font bodies returning HTTP 200. Pre-scene body totals are Home 350,534/364,566 bytes, Services 374,937/388,969, About 329,255/329,255, and Contact 317,799/331,831 at mobile/desktop. Services desktop has 11,031 bytes of headroom below 400,000. These uncompressed local bodies are not deployed compressed transfer or final A/B evidence.
+- Desktop scene long-task proxy sums remain high: About 1,822ms and Contact 2,700ms. These are not Lighthouse TBT. Do not claim the 600ms scene/TBT budget passes; keep reference desktop scenes unapproved until frozen desktop evidence clears the threshold or the scene is conservatively disabled. Audit: `reports/phase-32-reference-audit-local-font-candidate.json`.
