@@ -3840,3 +3840,5 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - First-load audit passed 12/12: all modes at 360/768/1280px had a 792px hero; visible `#scrollInd` is absolute, ends 30px above the section bottom. Flow-text tails before that cue are 184.53px (360), 244.94px (768), 192.34px (1280), identical across JS and reduced-motion states. Raw evidence: `reports/phase-32-contact-minihero-audit.json`.
 - A Contact-only rerun of the established full-scroll/3-second-settle scanner is in progress to check the previously reported post-scroll tails of 138px at 360px and 233px at 768px, when the cue's JS scroll handler hides it. It writes outside the repo to `/home/user/phase32-runtime/phase32-contact-tail-scan`. No spacing change pending this comparison.
+
+- Supplemental post-scroll scan setup: `tools/phase31/scan.cjs` could not start because `sharp` is not installed in the pinned Phase32 runtime. It failed before a browser case and produced no output. A Playwright-only Contact tail inspector will mirror the scanner's scroll/settle sequence without pixel analysis or new dependencies.
