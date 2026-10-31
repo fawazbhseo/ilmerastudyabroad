@@ -3856,3 +3856,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## 43-route Phase32 protected-content comparison - PASS, 2026-10-31
 
 - Frozen A `796879d` vs B `4e709ed`: 43/43 routes HTTP 200; 0 protected-invariant failures across rendered body text/order, titles, headings, meta, robots, canonical, anchor semantics/text/order, images/picture sources and JSON-LD. All text lengths, anchor counts and image counts match. HTML bytes differ on all routes due presentation/resource markup; no content invariant failed. Sitemap bytes are identical (SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`) with 38 unique URLs. Evidence: `reports/phase-32-43-route-content-comparison.json` and `.md`. Local snapshots only.
+
+## Phase32 current-candidate browser safeguard matrix in progress - 2026-10-31
+
+- Running 306 local cases on B `4e709ed`: 43 routes x 3 widths x JS on/off, plus reduced-motion checks on eight representative routes. The run requires visible main text, no overflow, one H1, loaded images and no interactive-target shrink against the Phase31 baseline. Result pending at `reports/phase-32-browser-suite.json`; not live-host evidence.

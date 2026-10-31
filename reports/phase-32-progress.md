@@ -221,3 +221,7 @@
 
 - Frozen A `796879d` and B `4e709ed` route renders passed all 43/43 status checks and all protected content invariants (0 route invariant failures): normalized text and order, titles, heading levels/order/text/IDs, all meta/robots/canonical, anchor semantics/text/order/multiplicity, image and picture-source attrs, and parsed JSON-LD. Text character counts, anchor counts and image counts match on every route. A/B HTML is not byte-identical on any route because presentation/resource markup differs; this is not a content failure. Sitemap bytes match exactly at SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`, with 38 unique URLs.
 - Full route hashes and invariant booleans are in `reports/phase-32-43-route-content-comparison.json`; human summary in `.md`. Local frozen snapshot comparison only; not native hosting/live content.
+
+## 2026-10-31 checkpoint 37: 43-route browser safeguard matrix started
+
+- Starting the pinned local browser suite on the frozen B adapter (`4e709ed`) for 43 routes at 360/768/1280px, JavaScript on/off, plus reduced-motion cases for eight representative routes: 306 cases total. It requires visible main text after scroll and compares interactive target dimensions to the Phase31 baseline, failing on shrink. Output target: `reports/phase-32-browser-suite.json`. Result unknown; no concurrent browser audit will run.
