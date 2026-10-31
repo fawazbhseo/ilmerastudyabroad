@@ -3844,3 +3844,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 - Supplemental post-scroll scan setup: `tools/phase31/scan.cjs` could not start because `sharp` is not installed in the pinned Phase32 runtime. It failed before a browser case and produced no output. A Playwright-only Contact tail inspector will mirror the scanner's scroll/settle sequence without pixel analysis or new dependencies.
 
 - Playwright-only post-scroll Contact audit has started, mirroring the existing slow-scroll/3-second-settle/return-to-top sequence without `sharp`. It measures only `#miniHero`/`#scrollInd`, not pagewide pixel blank-space candidates. Raw output target: `/home/user/phase32-runtime/phase32-contact-tail-postscroll.json`; result pending. No spacing change.
+
+## Contact `#miniHero` tail disposition - 2026-10-31
+
+- Current Phase32 candidate post-scroll tails are 184.53px at 360, 244.94px at 768 and 192.34px at 1280; hero height/min-height is 792px throughout. Cue bottom gap is 30px; JS hides cue opacity only after scroll. The old Phase31 values were 138px/233px at 360/768; source snapshots differ and the increase is not attributed. Retain existing spacing and cue; do not count as savings. See `reports/phase-32-contact-minihero-tail-summary.md` and its two raw JSON captures. This is not the full 43-route blank-space scan.

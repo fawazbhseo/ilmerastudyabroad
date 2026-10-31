@@ -207,3 +207,8 @@
 ## 2026-10-31 checkpoint 33: Playwright-only Contact post-scroll audit started
 
 - Added `tools/phase32/contact-minihero-postscroll.cjs` to mirror the established full-page slow wheel scroll, 3-second settle and return-to-top sequence without depending on `sharp` or scanning pixels. It measures Contact `#miniHero` and `#scrollInd` only across the same 12 viewport/JS/motion combinations. Raw output target is external at `/home/user/phase32-runtime/phase32-contact-tail-postscroll.json`. Outcome unknown until completion; no source spacing change.
+
+## 2026-10-31 checkpoint 34: Contact `#miniHero` tail inspection complete
+
+- Current-candidate post-scroll inspection completed 12/12 cases and returned to scrollY 0. The 792px hero's flow-text tails are 184.53px at 360, 244.94px at 768, and 192.34px at 1280. The bottom cue has a 30px gap; after scrolling it is opacity 0 with JS on and opacity 1 with JS off. Values were invariant under normal/reduced motion. First-load and post-scroll raw files plus interpretation are `reports/phase-32-contact-minihero-audit.json`, `reports/phase-32-contact-minihero-postscroll-audit.json` and `reports/phase-32-contact-minihero-tail-summary.md`.
+- Compared with the earlier Phase31 post-scroll finding (138px/233px at 360/768), current B is +46.53px/+11.94px. These runs used different source snapshots; no causal attribution or spacing change is made. The current 1280px tail is below the 200px blank-space threshold. Full 43-route scan still open.
