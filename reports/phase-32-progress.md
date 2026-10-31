@@ -203,3 +203,7 @@
 - Because the established blank-space scanner scrolls through the full page before measuring, a supplemental Contact-only 12-case scan has started with the same full scroll and 3-second settle. This aligns cue visibility/state with the Phase31 tail values (138px at 360px, 233px at 768px). Output is external at `/home/user/phase32-runtime/phase32-contact-tail-scan`; results unknown until completion. No spacing source change is planned.
 
 - The contact-only invocation of `tools/phase31/scan.cjs` stopped before browser launch because `sharp` is absent from the installed Phase32 runtime (`MODULE_NOT_FOUND`); no scan output directory or cases were created. Rather than install or alter the earlier scanner environment, a small Playwright-only inspector will mirror its slow wheel-through, 3-second settle and return-to-top sequence, then measure only the requested hero/cue tail.
+
+## 2026-10-31 checkpoint 33: Playwright-only Contact post-scroll audit started
+
+- Added `tools/phase32/contact-minihero-postscroll.cjs` to mirror the established full-page slow wheel scroll, 3-second settle and return-to-top sequence without depending on `sharp` or scanning pixels. It measures Contact `#miniHero` and `#scrollInd` only across the same 12 viewport/JS/motion combinations. Raw output target is external at `/home/user/phase32-runtime/phase32-contact-tail-postscroll.json`. Outcome unknown until completion; no source spacing change.
