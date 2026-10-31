@@ -6,9 +6,12 @@
         {
             "route": "/",
             "checks": {
-                "font_metric_style_once": true,
-                "outfit_metric_fallback_applied": true,
-                "cormorant_metric_fallback_applied": true,
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -24,9 +27,12 @@
         {
             "route": "/services",
             "checks": {
-                "font_metric_style_once": true,
-                "outfit_metric_fallback_applied": true,
-                "cormorant_metric_fallback_applied": true,
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -42,9 +48,12 @@
         {
             "route": "/about",
             "checks": {
-                "font_metric_style_once": true,
-                "outfit_metric_fallback_applied": true,
-                "cormorant_metric_fallback_applied": true,
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,
@@ -60,9 +69,12 @@
         {
             "route": "/contact",
             "checks": {
-                "font_metric_style_once": true,
-                "outfit_metric_fallback_applied": true,
-                "cormorant_metric_fallback_applied": true,
+                "local_font_face_style_once": true,
+                "remote_google_font_chain_removed": true,
+                "critical_local_font_preloads_present": true,
+                "local_face_weights_and_italics_present": true,
+                "unsupported_cormorant_italic_weight_not_added": true,
+                "original_font_families_preserved": true,
                 "loader_once": true,
                 "fallback_style_once": true,
                 "original_external_script_tags_removed": true,

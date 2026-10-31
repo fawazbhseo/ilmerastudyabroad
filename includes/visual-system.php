@@ -81,20 +81,32 @@ HTML;
     return str_ireplace('</body>', $loader.'</body>', $html);
 }
 
-/** Add metric-matched local fallbacks on references without changing their loaded typefaces. */
-function ilmera_visual_reference_font_metric_fallback($html)
+/** Replace reference-page remote font CSS with the same local WOFF2 files. */
+function ilmera_visual_reference_font_faces($html)
 {
-    if (strpos($html, 'id="p32-reference-font-metric-fallback"') !== false) return $html;
-    $pattern = "~font-family\\s*:\\s*([\"\'])(Outfit|Cormorant Garamond)\\1\\s*,\\s*(sans-serif|serif)~i";
-    $html = preg_replace_callback($pattern, static function ($parts) {
-        $metric = strtolower($parts[2]) === 'outfit' ? 'Outfit Metric' : 'Cormorant Metric';
-        return 'font-family:' . $parts[1] . $parts[2] . $parts[1] . ', ' . "'" . $metric . "', " . $parts[3];
-    }, $html, -1, $replacements);
-    if (!$replacements || stripos($html, '</head>') === false) return $html;
-    $style = <<<'HTML'
-<style id="p32-reference-font-metric-fallback">@font-face{font-family:'Outfit Metric';src:local('Arial');size-adjust:90.55877%;ascent-override:110.42553%;descent-override:28.71064%;line-gap-override:0.00000%;}@font-face{font-family:'Cormorant Metric';src:local('Times New Roman');size-adjust:86.35347%;ascent-override:107.00207%;descent-override:33.23549%;line-gap-override:0.00000%;}</style>
-HTML;
-    return str_ireplace('</head>', $style . '</head>', $html);
+    if (strpos($html, 'id="p32-reference-font-faces"') !== false) return $html;
+    $html = preg_replace('~<link\b[^>]*href="https://fonts\.googleapis\.com/[^>]*>~i', '', $html);
+    $html = preg_replace('~<link\b(?=[^>]*rel="preconnect")(?=[^>]*href="https://fonts\.(?:googleapis|gstatic)\.com")[^>]*>~i', '', $html);
+    if (stripos($html, '</head>') === false) return $html;
+    $faces = [
+        ['Outfit', '300', 'normal', 'outfit-reference-300.woff2'],
+        ['Outfit', '400', 'normal', 'outfit-reference-400.woff2'],
+        ['Outfit', '500', 'normal', 'outfit-reference-500.woff2'],
+        ['Outfit', '600', 'normal', 'outfit-reference-600.woff2'],
+        ['Outfit', '700', 'normal', 'outfit-reference-700.woff2'],
+        ['Cormorant Garamond', '300', 'normal', 'cormorant-garamond-reference-300.woff2'],
+        ['Cormorant Garamond', '400', 'normal', 'cormorant-garamond-reference-400.woff2'],
+        ['Cormorant Garamond', '600', 'normal', 'cormorant-garamond-reference-600.woff2'],
+        ['Cormorant Garamond', '700', 'normal', 'cormorant-garamond-reference-700.woff2'],
+        ['Cormorant Garamond', '300', 'italic', 'cormorant-garamond-reference-300-italic.woff2'],
+        ['Cormorant Garamond', '400', 'italic', 'cormorant-garamond-reference-400-italic.woff2'],
+    ];
+    $css = '';
+    foreach ($faces as [$family, $weight, $style, $file]) {
+        $css .= "@font-face{font-family:'{$family}';font-style:{$style};font-weight:{$weight};font-display:swap;src:url('/assets/fonts/{$file}') format('woff2');}";
+    }
+    $preloads = '<link rel="preload" href="/assets/fonts/outfit-reference-300.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/cormorant-garamond-reference-700.woff2" as="font" type="font/woff2" crossorigin>';
+    return str_ireplace('</head>', $preloads . '<style id="p32-reference-font-faces">' . $css . '</style></head>', $html);
 }
 
 /** Pure visual overlay: never change content, links, schema or publication data. */
@@ -102,7 +114,7 @@ function ilmera_visual_scene_policy($html)
 {
     $path = parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH);
     if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {
-        $html = ilmera_visual_reference_font_metric_fallback($html);
+        $html = ilmera_visual_reference_font_faces($html);
     }
     if (!ILMERA_SCENES_ENABLED && strpos($html, 'id="ilmera-scenes-off"') === false) {
         if (in_array($path, ['/', '/services', '/about', '/contact'], true)) {

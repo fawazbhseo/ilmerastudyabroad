@@ -5,7 +5,7 @@ $routes = ['/', '/services', '/about', '/contact'];
 $results = [];
 foreach ($routes as $route) {
     $_SERVER['REQUEST_URI'] = $route;
-    $html = '<!doctype html><html><head><style>body{font-family:\'Outfit\',sans-serif}.hero-title{font-family:\'Cormorant Garamond\',serif}</style>';
+    $html = '<!doctype html><html><head><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Outfit&display=swap"><style>body{font-family:\'Outfit\',sans-serif}.hero-title{font-family:\'Cormorant Garamond\',serif}</style>';
     foreach ([
         'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',
         'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',
@@ -17,9 +17,12 @@ foreach ($routes as $route) {
     $html .= '</head><body><canvas id="space-canvas"></canvas><h1 id="reference-title">Original heading</h1><script>window.addEventListener("DOMContentLoaded",function(){' . $sceneBlock . 'g.add(new THREE.Mesh(new THREE.BoxGeometry(1,1,1)));window.__p32SceneFixture=true;}});</script></body></html>';
     $output = ilmera_visual_scene_policy($html);
     $checks = [
-        'font_metric_style_once' => substr_count($output, 'id="p32-reference-font-metric-fallback"') === 1,
-        'outfit_metric_fallback_applied' => strpos($output, "font-family:'Outfit', 'Outfit Metric', sans-serif") !== false,
-        'cormorant_metric_fallback_applied' => strpos($output, "font-family:'Cormorant Garamond', 'Cormorant Metric', serif") !== false,
+        'local_font_face_style_once' => substr_count($output, 'id="p32-reference-font-faces"') === 1,
+        'remote_google_font_chain_removed' => strpos($output, 'fonts.googleapis.com') === false && strpos($output, 'fonts.gstatic.com') === false,
+        'critical_local_font_preloads_present' => strpos($output, 'href="/assets/fonts/outfit-reference-300.woff2" as="font"') !== false && strpos($output, 'href="/assets/fonts/cormorant-garamond-reference-700.woff2" as="font"') !== false,
+        'local_face_weights_and_italics_present' => strpos($output, "font-weight:300;font-display:swap;src:url('/assets/fonts/cormorant-garamond-reference-300-italic.woff2')") !== false && strpos($output, "font-weight:600;font-display:swap;src:url('/assets/fonts/cormorant-garamond-reference-600.woff2')") !== false,
+        'unsupported_cormorant_italic_weight_not_added' => strpos($output, 'font-style:italic;font-weight:600') === false,
+        'original_font_families_preserved' => strpos($output, "font-family:'Outfit',sans-serif") !== false && strpos($output, "font-family:'Cormorant Garamond',serif") !== false,
         'loader_once' => substr_count($output, 'id="p32-scene-loader"') === 1,
         'fallback_style_once' => substr_count($output, 'id="p32-scene-fallback-style"') === 1,
         'original_external_script_tags_removed' => strpos($output, '<script src="https://cdnjs.cloudflare.com/ajax/libs/') === false,
