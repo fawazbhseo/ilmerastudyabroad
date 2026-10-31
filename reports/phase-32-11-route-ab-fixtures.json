@@ -2,19 +2,26 @@
   "phase": 32,
   "purpose": "Frozen 11-route local A/B fixture manifest. A is the immutable pre-Phase32 render; B is the current committed Phase32 render.",
   "A_source_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
-  "B_source_commit": "e193be3036dff6a4f95923460a2525226faaae35",
+  "B_source_commit": "4e709ed0cc6ec4e2b2a60d7d914765ae170634a0",
   "A_render_archive": {
     "path": "reports/phase-32-before-renders.json.gz",
     "sha256": "2b20187771f9117a16099754e4f579f6eb3f6f752b8c11a8ec25d255785b9dee",
     "bytes": 894404
   },
-  "B_render_index_sha256": "f9a02776de70ed777bb9148223721c5a4b827c1ee7467f8ef4b5afc694ba5875",
-  "B_render_index_path_outside_repository": "/home/user/phase32-runtime/phase32-b-e193be3/render-before/routes.json",
-  "fixture_json_sha256": "1edc4a65117c748ffdf42d9417398f4e87e7b46be97ade30ef941df7d98fa5a7",
-  "fixture_json_bytes": 1950527,
-  "fixture_path_outside_repository": "/home/user/phase32-runtime/phase32-ab/fixtures.json",
+  "B_render_index_sha256": "2321f807115e84746668e6cccafe3650084af10e63c9f2b025a328e222020e34",
+  "B_render_index_path_outside_repository": "/home/user/phase32-runtime/phase32-b-4e709ed/render-before/routes.json",
+  "fixture_json_sha256": "25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5",
+  "fixture_json_bytes": 1958377,
+  "fixture_path_outside_repository": "/home/user/phase32-runtime/phase32-ab-run02/fixtures.json",
   "baseline_inventory_count": 43,
   "route_count": 11,
+  "reference_routes": [
+    "/",
+    "/services",
+    "/about",
+    "/contact"
+  ],
+  "unchanged_control_routes": [],
   "selection_reason": "Four reference treatment routes, all four requested hero template groups, the three diagnosed font-chain pages, and second destination/place/article variants for 11 unique routes.",
   "order": "Seven rounds per route; A/B on even rounds and B/A on odd rounds; a fresh Chromium process per sample; serial with no retry or resume.",
   "performance_model": "Lighthouse mobile simulated Slow4G and 4x CPU.",
@@ -44,132 +51,124 @@
     {
       "route": "/",
       "role": "reference treatment",
+      "is_reference_treatment": true,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 102983,
-      "B_html_bytes": 104994,
+      "B_html_bytes": 106786,
       "A_html_sha256": "b56ae5d369ce9873196a4764ca2719b1d0ecaa082322d28ce2444083b922510b",
-      "B_html_sha256": "9b714ceec63c065f2c646572f1c7cf76a1778ea86fe41bda80cf412387489a81",
-      "is_reference_treatment": true
+      "B_html_sha256": "8ab79bcefc1e3f8251b3f0c7ce3de425a5e708958f131378313e92ebfed8cd73"
     },
     {
       "route": "/services",
       "role": "reference treatment",
+      "is_reference_treatment": true,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 124686,
-      "B_html_bytes": 126697,
+      "B_html_bytes": 128489,
       "A_html_sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f",
-      "B_html_sha256": "3e36bac6d27a3641ae939e57487440280839b8392fa08affec0bf7aac7c8e0e5",
-      "is_reference_treatment": true
+      "B_html_sha256": "ccb48bdb73c34fad8630b173b6111603990a522fabf486f3b7e5f887ab0ff015"
     },
     {
       "route": "/about",
       "role": "reference treatment",
+      "is_reference_treatment": true,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 89613,
-      "B_html_bytes": 91583,
+      "B_html_bytes": 93375,
       "A_html_sha256": "32692962230306c360d8173bfe6bd1ad633591857ff676b71cb64fe1762e87a2",
-      "B_html_sha256": "0a6c38e6283b3837d552257f490687ad43dfad6c99d3ffdf14ee1a6bf08c9646",
-      "is_reference_treatment": true
+      "B_html_sha256": "ed46e32a9a775a6dae22ee9faad7ba166d4fcfc66d33d3d9d777b627c5e2eb56"
     },
     {
       "route": "/contact",
       "role": "reference treatment",
+      "is_reference_treatment": true,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 91216,
-      "B_html_bytes": 93227,
+      "B_html_bytes": 95019,
       "A_html_sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650",
-      "B_html_sha256": "30b4984e959bf123056b7e34968a8ce6aff57f4e762469faef28979530782244",
-      "is_reference_treatment": true
+      "B_html_sha256": "5a9d00bb6fe21b46e9e9eccf065a5b2a0bf6f19456fc8129c334cfaeb43b039d"
     },
     {
       "route": "/study-in-germany",
       "role": "destination template",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 101790,
-      "B_html_bytes": 104270,
+      "B_html_bytes": 104364,
       "A_html_sha256": "0149062d42db2476d493a54605fc03bfb22549d29818cbf0e917cc59871fc677",
-      "B_html_sha256": "cf94f8f9b877963ad5360e842c0d21e20ab2c712dda48a89e0af69e6c2eaa865",
-      "is_reference_treatment": false
+      "B_html_sha256": "c4be562899b6992bf4e7df75857dbdd3dc6d16e7a4dec625f3491c480cafe6d5"
     },
     {
       "route": "/study-in-italy",
       "role": "destination variant",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 99757,
-      "B_html_bytes": 102237,
+      "B_html_bytes": 102331,
       "A_html_sha256": "36541fa0735e7c0ca9d6f0dc6394f2becef746ee0a925d4c172ee32f19901f92",
-      "B_html_sha256": "8aa73a8415f73fcb03642f050640d7a51fc37676c5dc6598bd13c3ce5310ff03",
-      "is_reference_treatment": false
+      "B_html_sha256": "3677c0950b7a937fe120f0dfac388b52ca4e8caf51dc68b35e11d34127f56ce1"
     },
     {
       "route": "/study-abroad-counselling-mysuru",
       "role": "place template and font-chain sample",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 61896,
-      "B_html_bytes": 64485,
+      "B_html_bytes": 64579,
       "A_html_sha256": "dbe53ef11b1c805492bf4bf9a8ebe4d12905d68a9e53a946faea4e8f9278915e",
-      "B_html_sha256": "74f0334233d06e9a2f43113e7dd4af8993c15d51e9203c3e1f930108d662a98d",
-      "is_reference_treatment": false
+      "B_html_sha256": "1dc5f479f230ac8e52961f0cee3427f8da3871db00227c9603cea3ef45876f9d"
     },
     {
       "route": "/study-abroad-counselling-bengaluru",
       "role": "place variant",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 61994,
-      "B_html_bytes": 64583,
+      "B_html_bytes": 64677,
       "A_html_sha256": "e05f9a221667d2d11734a7fa36edf312291ef926c57cb9dc58c870ddca546acc",
-      "B_html_sha256": "d6c1ac58b2ff54d7068932825e76a40a23ac4c8b22e74ca9a130a8f1256eff44",
-      "is_reference_treatment": false
+      "B_html_sha256": "bff99e4387cdf0041f6ce460f1b3c1205124c4cff960f8d84409025802ace4b4"
     },
     {
       "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
       "role": "article template and font-chain sample",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 69812,
-      "B_html_bytes": 72401,
+      "B_html_bytes": 72495,
       "A_html_sha256": "e5439548698ddbcd905119fdea370d6a6d9e708bc2484be15a24a5533c02349a",
-      "B_html_sha256": "7d00d8b0d6e0fe6a0799890fd69c3f196af1a11f3a58537dc90677068187e412",
-      "is_reference_treatment": false
+      "B_html_sha256": "313f78262c43b0a36f02d0156aca115b9135e30885413cdd66df0ec33f9ff38b"
     },
     {
       "route": "/blog/cost-of-studying-abroad-for-indian-students",
       "role": "article variant",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 70116,
-      "B_html_bytes": 72705,
+      "B_html_bytes": 72799,
       "A_html_sha256": "93b20ef82f942564d96063013341049fdf560c5972443bc60fbe62af685feafc",
-      "B_html_sha256": "b71f5c26f4e70d9270095e5b86dfee7667faa9f396d22f13e8fda38e8b753de5",
-      "is_reference_treatment": false
+      "B_html_sha256": "fbb82da23b993b94d152fcec4d1645cdd181e3ad34c94e05ca422093f0d3d036"
     },
     {
       "route": "/blog/",
       "role": "blog-index template and font-chain sample",
+      "is_reference_treatment": false,
       "A_http_status": 200,
       "B_http_status": 200,
       "A_html_bytes": 61207,
-      "B_html_bytes": 63796,
+      "B_html_bytes": 63890,
       "A_html_sha256": "277cfd1dc17eee73a9ba064ea4449bed4bc9a56d7ba860597f6e89d4caef47b9",
-      "B_html_sha256": "9fe53c1f94040800b30ff38e2b6e8db6dc30955a1d8d715547b149737f0d5dc0",
-      "is_reference_treatment": false
+      "B_html_sha256": "a87bf62350e32bc8f721a2933fc363be7bb0b005b7c6591622308986e5eaa773"
     }
   ],
-  "local_or_native_hosting": "local only; no production hosting, CDN or field measurement",
-  "reference_routes": [
-    "/",
-    "/services",
-    "/about",
-    "/contact"
-  ],
-  "unchanged_control_routes": [],
-  "post_run01_role_correction": "The original fixture manifest labeled the four reference treatment routes as controls. That label was incorrect because their scene behavior changes in B. The fixture HTML and fixture_json_sha256 are unchanged; these are treatment routes, not unchanged controls."
+  "local_or_native_hosting": "local only; no production hosting, CDN or field measurement"
 }

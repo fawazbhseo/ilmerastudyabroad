@@ -3795,3 +3795,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - The metric-only local fallback added at `1e1f225` did not reduce Home, Services or About CLS in checkpoint 19 diagnostics. It was removed. The new candidate instead serves the matching Latin WOFF2 font faces locally, removes the Google Fonts CSS/preconnect chain, and preloads the existing Outfit 300 and Cormorant Garamond 700 files. New Cormorant assets add 91,548 bytes to the repository and match the audited test-font files exactly; the per-file hashes are in `reports/phase-32-reference-font-candidate.json`.
 - The local `font-display:swap` strategy is not yet approved. Verify rendered desktop typography, font face/request chains, local pre-scene payload, added transfer, LCP and CLS against the frozen A arm before keeping it. Preserve all original reference wording and desktop design. No run02 sample or performance pass is available at this checkpoint.
+
+## Phase32 candidate run02 fixture - 2026-10-31
+
+- The run02 candidate fixture uses B source commit `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0` and frozen A source `796879d7b3d5ca0fa1e398562e937e9f364a5f62`. Its 1,958,377-byte JSON is external to the repository; the committed manifest records the hash. It is not a performance result. If runtime code changes, discard this candidate fixture and capture a new one from the committed HEAD before final A/B measurements.
