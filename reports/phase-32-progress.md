@@ -212,3 +212,7 @@
 
 - Current-candidate post-scroll inspection completed 12/12 cases and returned to scrollY 0. The 792px hero's flow-text tails are 184.53px at 360, 244.94px at 768, and 192.34px at 1280. The bottom cue has a 30px gap; after scrolling it is opacity 0 with JS on and opacity 1 with JS off. Values were invariant under normal/reduced motion. First-load and post-scroll raw files plus interpretation are `reports/phase-32-contact-minihero-audit.json`, `reports/phase-32-contact-minihero-postscroll-audit.json` and `reports/phase-32-contact-minihero-tail-summary.md`.
 - Compared with the earlier Phase31 post-scroll finding (138px/233px at 360/768), current B is +46.53px/+11.94px. These runs used different source snapshots; no causal attribution or spacing change is made. The current 1280px tail is below the 200px blank-space threshold. Full 43-route scan still open.
+
+## 2026-10-31 checkpoint 35: 43-route protected-content comparison started
+
+- A static rendered-content comparison is starting for all 43 exact frozen routes: A source `796879d7b3d5ca0fa1e398562e937e9f364a5f62`, B source `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0`. It verifies render archive/index integrity and HTTP 200, normalized text/order, title, headings, metadata, robots, canonicals, semantic links, images, picture sources, parsed JSON-LD, and sitemap bytes/38 URLs. It reads the frozen render snapshots only; no browser or source file is changed. Result unknown until completion.

@@ -3848,3 +3848,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Contact `#miniHero` tail disposition - 2026-10-31
 
 - Current Phase32 candidate post-scroll tails are 184.53px at 360, 244.94px at 768 and 192.34px at 1280; hero height/min-height is 792px throughout. Cue bottom gap is 30px; JS hides cue opacity only after scroll. The old Phase31 values were 138px/233px at 360/768; source snapshots differ and the increase is not attributed. Retain existing spacing and cue; do not count as savings. See `reports/phase-32-contact-minihero-tail-summary.md` and its two raw JSON captures. This is not the full 43-route blank-space scan.
+
+## 43-route Phase32 protected-content comparison in progress - 2026-10-31
+
+- Static comparison has started between frozen A `796879d` and B `4e709ed` for the full 43-route inventory. It checks text/order, titles, headings, meta, robots, canonicals, link semantics/order, image attributes, JSON-LD and sitemap. Results are pending; outputs are `reports/phase-32-43-route-content-comparison.{json,md}`. This is a source snapshot comparison, not live route evidence.
