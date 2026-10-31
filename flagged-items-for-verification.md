@@ -3823,3 +3823,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32 Blog desktop TBT in progress - 2026-10-31
 
 - A supplemental seven-round interleaved fresh-browser desktop A/B for `/blog/` has started to measure the open desktop TBT item and desktop still requests. It uses the already frozen run02 fixture; output is external at `/home/user/phase32-runtime/phase32-ab-run02/desktop-blog-ab.json`. Result unknown until completion. This cannot erase the three mobile run02 LCP-ratio failures or certify other routes.
+
+## Phase32 Blog-index desktop A/B - 2026-10-31
+
+- Local seven-round desktop A/B recorded TBT medians 0ms A and 0ms B, delta 0; CLS 0/0; LCP 590.63/590.81ms (ratio 1.0003); total transfer 284,903/287,586 bytes, delta +2,683; eight requests per arm; no new render-blocking URL. Desktop B requested the 1440 still once per sample at 37,226 resource bytes, and its LCP candidate remained text. This closes only the local simulated Blog-index desktop TBT check. No native hosting or field claim; other desktop scenes and run02 LCP-ratio failures remain open. Raw: `reports/phase-32-blog-desktop-ab-results.json`; summary: `reports/phase-32-blog-desktop-ab-summary.md`.

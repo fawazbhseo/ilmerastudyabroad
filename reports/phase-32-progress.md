@@ -182,3 +182,9 @@
 
 - The mobile run02 is complete and its three LCP-ratio failures remain open. Starting a separate seven-round A/B for `/blog/` at Lighthouse desktop settings to measure the previously untested desktop TBT and still behavior. It uses the same frozen run02 A/B fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`, fresh Chromium per sample, alternating order, serial execution, and no retries.
 - The new runner is `tools/phase32/desktop-blog-ab.cjs`; raw output will be outside Git at `/home/user/phase32-runtime/phase32-ab-run02/desktop-blog-ab.json`. The outcome is unknown at this checkpoint; no other browser audit will run concurrently.
+
+## 2026-10-31 checkpoint 27: Blog-index desktop TBT measured
+
+- Supplemental `/blog/` desktop A/B completed 14 samples, seven alternating fresh-browser samples per arm, with zero warnings. Lighthouse desktop-config, desktopDense4G, Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2.
+- A/B TBT medians are 0/0ms (delta 0ms); CLS medians 0/0; LCP medians 590.63/590.81ms (ratio 1.0003); transfer 284,903/287,586 bytes (delta +2,683, under 150KB), eight requests per arm. B has no new render-blocking URL. Both arms request the 37,226-byte 1440 WebP once per sample; B LCP remains the text `.sub`.
+- This closes the Blog-index desktop TBT check only for the local simulated environment. Raw samples are `reports/phase-32-blog-desktop-ab-results.json` (SHA-256 `0b579dbbf4582b2f3a8158b9462f087decd4beb7bf134fc4f8aa14ef6a193635`); interpretation is in `reports/phase-32-blog-desktop-ab-summary.md`. It does not resolve the three run02 mobile LCP-ratio failures or certify other desktop scenes.
