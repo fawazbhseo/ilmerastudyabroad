@@ -188,3 +188,7 @@
 - Supplemental `/blog/` desktop A/B completed 14 samples, seven alternating fresh-browser samples per arm, with zero warnings. Lighthouse desktop-config, desktopDense4G, Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2.
 - A/B TBT medians are 0/0ms (delta 0ms); CLS medians 0/0; LCP medians 590.63/590.81ms (ratio 1.0003); transfer 284,903/287,586 bytes (delta +2,683, under 150KB), eight requests per arm. B has no new render-blocking URL. Both arms request the 37,226-byte 1440 WebP once per sample; B LCP remains the text `.sub`.
 - This closes the Blog-index desktop TBT check only for the local simulated environment. Raw samples are `reports/phase-32-blog-desktop-ab-results.json` (SHA-256 `0b579dbbf4582b2f3a8158b9462f087decd4beb7bf134fc4f8aa14ef6a193635`); interpretation is in `reports/phase-32-blog-desktop-ab-summary.md`. It does not resolve the three run02 mobile LCP-ratio failures or certify other desktop scenes.
+
+## 2026-10-31 checkpoint 28: Contact `#miniHero` tail inspection started
+
+- Starting a focused current-candidate inspection on `/contact` at 360, 768 and 1280px, JavaScript on/off and normal/reduced motion (12 cases). It records visible flow text, the absolute bottom scroll cue, computed min-height, and distances from text/cue to the section bottom. This is an inspection only; no spacing source change is authorized. Output target: `reports/phase-32-contact-minihero-audit.json`. Result unknown until the browser run completes.

@@ -3827,3 +3827,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32 Blog-index desktop A/B - 2026-10-31
 
 - Local seven-round desktop A/B recorded TBT medians 0ms A and 0ms B, delta 0; CLS 0/0; LCP 590.63/590.81ms (ratio 1.0003); total transfer 284,903/287,586 bytes, delta +2,683; eight requests per arm; no new render-blocking URL. Desktop B requested the 1440 still once per sample at 37,226 resource bytes, and its LCP candidate remained text. This closes only the local simulated Blog-index desktop TBT check. No native hosting or field claim; other desktop scenes and run02 LCP-ratio failures remain open. Raw: `reports/phase-32-blog-desktop-ab-results.json`; summary: `reports/phase-32-blog-desktop-ab-summary.md`.
+
+## Contact `#miniHero` current-candidate tail inspection in progress - 2026-10-31
+
+- Measuring current-candidate Contact `#miniHero` at 360/768/1280px with JS on/off and normal/reduced motion. The audit explicitly inspects its bottom `#scrollInd` cue and computes flow-text tail separately from cue-to-hero-bottom gap. This conservative check does not authorize a spacing change; outcome is unknown until `reports/phase-32-contact-minihero-audit.json` is produced.
