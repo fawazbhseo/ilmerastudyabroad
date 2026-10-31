@@ -8,11 +8,12 @@ const OUT=path.resolve(process.env.PHASE32_CONTACT_MINIHERO_OUT||path.join(ROOT,
 const route='/contact',widths=[360,768,1280],jsStates=['on','off'],motions=['normal','reduced'];
 async function main(){
  if(fs.existsSync(OUT))throw Error(`Refusing to overwrite ${OUT}`);
- const browser=await launchBrowser();const rows=[];
+ const browser=await launchBrowser();const rows=[],contexts={};
+ for(const js of jsStates)contexts[js]=await browser.newContext({viewport:{width:360,height:900},deviceScaleFactor:1,javaScriptEnabled:js==='on'});
  try{
   for(const width of widths)for(const js of jsStates)for(const motion of motions){
-   const context=await browser.newContext({viewport:{width,height:900},deviceScaleFactor:1,javaScriptEnabled:js==='on',reducedMotion:motion==='reduced'?'reduce':'no-preference'});
-   const page=await context.newPage();await routePinnedResources(page);
+   const context=contexts[js];
+   const page=await context.newPage();await page.setViewportSize({width,height:900});await page.emulateMedia({reducedMotion:motion==='reduced'?'reduce':'no-preference'});await routePinnedResources(page);
    const response=await page.goto(BASE+route,{waitUntil:'domcontentloaded',timeout:45000});if(!response||response.status()!==200)throw Error(`HTTP ${response?.status()} for ${route} ${width}`);
    await page.waitForTimeout(500);
    const metrics=await page.locator('#miniHero').evaluate(hero=>{
@@ -25,10 +26,10 @@ async function main(){
     return{hero:rect(hero),hero_style:{min_height:getComputedStyle(hero).minHeight,height:getComputedStyle(hero).height,display:getComputedStyle(hero).display,position:getComputedStyle(hero).position,padding_top:getComputedStyle(hero).paddingTop,padding_bottom:getComputedStyle(hero).paddingBottom},mini_inner:inner?rect(inner):null,scroll_cue:cue?{selector:cue.id?'#'+cue.id:'.'+[...cue.classList].join('.'),rect:cueRect,display:cueStyle.display,visibility:cueStyle.visibility,opacity:cueStyle.opacity,position:cueStyle.position,bottom:cueStyle.bottom,text:(cue.innerText||'').replace(/\s+/g,' ').trim(),aria_hidden:cue.getAttribute('aria-hidden')}:null,visible_text:texts,flow_text_bottom:lastFlow,any_text_bottom:lastText,tail_after_flow_text:+Math.max(0,rect(hero).bottom-lastFlow).toFixed(2),tail_after_any_text:+Math.max(0,rect(hero).bottom-lastText).toFixed(2),cue_bottom_gap:cueRect?+Math.max(0,rect(hero).bottom-cueRect.bottom).toFixed(2):null,window:{inner_width:innerWidth,inner_height:innerHeight,device_pixel_ratio:devicePixelRatio}};
    });
    rows.push({route,width,javascript:js,motion,http_status:response.status(),metrics});
-   await page.close();await context.close();
+   await page.close();
    console.log(`CONTACT ${width} JS-${js} ${motion} hero=${metrics.hero.height}px flow-tail=${metrics.tail_after_flow_text}px cue-gap=${metrics.cue_bottom_gap}px`);
   }
- }finally{await browser.close();}
+ }finally{for(const context of Object.values(contexts))await context.close().catch(()=>{});await browser.close();}
  const result={phase:32,task:'contact_miniHero_tail_inspection',generated_at:new Date().toISOString(),source_head:require('node:child_process').execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim(),base_url:BASE,browser:browser.version(),route,widths,javascript:jsStates,motion:motions,case_count:rows.length,complete:rows.length===12,method:'Pinned local Chromium/Playwright. Measure visible #miniHero text, flow content, absolute bottom scroll cue, CSS min-height and tails after DOMContentLoaded plus 500ms. No production request.',rows};
  fs.writeFileSync(OUT,JSON.stringify(result,null,2)+'\n');console.log(`AUDIT COMPLETE ${rows.length} ${OUT} sha256=${crypto.createHash('sha256').update(fs.readFileSync(OUT)).digest('hex')}`);
 }
