@@ -177,3 +177,8 @@
 - B reference mobile medians are all under 4,000ms LCP and have 0ms TBT/0 CLS medians. The local audit body totals remain under 400,000 bytes, with Services desktop headroom 11,031 bytes. The results are local mobile simulation only; desktop scene TBT remains unapproved.
 - Full route table, IQRs, ratios, transfer/request counts, still audit and limitations are in `reports/phase-32-11-route-ab-run-02-summary.md`. Raw JSON is `reports/phase-32-11-route-ab-run-02-results.json`, SHA-256 `d886e44e6b94c7cdee639b172941dff7d72492c0a78eb2df4165608ff3ba5db9`. `performance_release_certified=false`; do not call the candidate a full budget pass.
 - Next: diagnose and fix the three LCP-ratio misses only with a measurable runtime change, then freeze a new current-HEAD fixture and perform a complete new run if warranted. Blog desktop TBT, Contact `#miniHero` tail inspection, visual safeguards, route/content/blank-space checks and current-HEAD ZIP verification remain open.
+
+## 2026-10-31 checkpoint 26: start supplemental Blog-index desktop A/B
+
+- The mobile run02 is complete and its three LCP-ratio failures remain open. Starting a separate seven-round A/B for `/blog/` at Lighthouse desktop settings to measure the previously untested desktop TBT and still behavior. It uses the same frozen run02 A/B fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`, fresh Chromium per sample, alternating order, serial execution, and no retries.
+- The new runner is `tools/phase32/desktop-blog-ab.cjs`; raw output will be outside Git at `/home/user/phase32-runtime/phase32-ab-run02/desktop-blog-ab.json`. The outcome is unknown at this checkpoint; no other browser audit will run concurrently.
