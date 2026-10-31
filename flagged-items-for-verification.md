@@ -3809,3 +3809,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - Four candidate B diagnostics recorded Home LCP/CLS/TBT 2,956.53ms/0/0ms, Services 2,956.47ms/0.000491/0ms, About 2,730.93ms/0/0ms, and Blog index 2,281.78ms/0/0ms. The Services observer entry was 0.000491 with unchanged source rectangles. This supports keeping the local-font candidate for run02 but is not paired A/B evidence, a route median or a release pass.
 - Blog index result is mobile only; desktop TBT is unresolved. Renderer-clock long tasks are not Lighthouse TBT. See `reports/phase-32-local-font-candidate-diagnostics.md` and raw JSON. Do not replace the full 154-sample experiment with these probes.
+
+## Phase32 frozen run02 in progress - 2026-10-31
+
+- The final-candidate mobile lab is running against the committed 11-route frozen fixture, seven interleaved fresh-browser samples per arm and route. It is local simulated evidence, not field or live-host data. Output is outside Git at `/home/user/phase32-runtime/phase32-ab-run02/ab-results.json`. The result is unknown until the runner finishes; do not infer a budget pass from the candidate diagnostics.

@@ -163,3 +163,8 @@
 - Four fresh B-arm, one-sample Lighthouse diagnostics against the frozen run02 fixture recorded Home LCP 2,956.53ms / CLS 0 / TBT 0ms; Services 2,956.47ms / 0.000491 / 0ms; About 2,730.93ms / 0 / 0ms; Blog index 2,281.78ms / 0 / 0ms. Raw files and SHA-256 values are in `reports/phase-32-local-font-candidate-diagnostics.md` and its four adjacent JSON artifacts.
 - Home and About recorded no observer shifts. Services recorded a 0.000491 entry with unchanged source rectangles. The browser reported local Outfit/Cormorant faces loaded, without a Google Fonts CSS request. These results are promising but remain unpaired single diagnostics; they do not replace the frozen A/B or prove an owner budget pass. The previous candidate diagnostics are not an A control.
 - Retain the local-font candidate provisionally for the frozen-A run02. The route fixture hash remains `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`. Blog desktop TBT, Contact `#miniHero` tail inspection, screenshots and release checks remain open.
+
+## 2026-10-31 checkpoint 24: start frozen 11-route run02
+
+- Starting the fresh frozen-A 11-route A/B session using the verified fixture SHA `25708bdf3b527dc36ec50f08aaf568168419c10a5ac5c91ff5136064a966f8d5`. A source is `796879d7b3d5ca0fa1e398562e937e9f364a5f62`; candidate B runtime source is `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0`.
+- Protocol: seven alternating A/B and B/A rounds per route, seven fresh Chromium processes per arm per route, Lighthouse mobile simulated Slow4G/4x CPU, serial with no retries or resume. The runner output is `/home/user/phase32-runtime/phase32-ab-run02/ab-results.json`, outside Git. No other browser audit or QA will run concurrently. The outcome is not known at this checkpoint.
