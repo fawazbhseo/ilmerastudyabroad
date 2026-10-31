@@ -216,3 +216,8 @@
 ## 2026-10-31 checkpoint 35: 43-route protected-content comparison started
 
 - A static rendered-content comparison is starting for all 43 exact frozen routes: A source `796879d7b3d5ca0fa1e398562e937e9f364a5f62`, B source `4e709ed0cc6ec4e2b2a60d7d914765ae170634a0`. It verifies render archive/index integrity and HTTP 200, normalized text/order, title, headings, metadata, robots, canonicals, semantic links, images, picture sources, parsed JSON-LD, and sitemap bytes/38 URLs. It reads the frozen render snapshots only; no browser or source file is changed. Result unknown until completion.
+
+## 2026-10-31 checkpoint 36: 43-route protected-content comparison passed
+
+- Frozen A `796879d` and B `4e709ed` route renders passed all 43/43 status checks and all protected content invariants (0 route invariant failures): normalized text and order, titles, heading levels/order/text/IDs, all meta/robots/canonical, anchor semantics/text/order/multiplicity, image and picture-source attrs, and parsed JSON-LD. Text character counts, anchor counts and image counts match on every route. A/B HTML is not byte-identical on any route because presentation/resource markup differs; this is not a content failure. Sitemap bytes match exactly at SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`, with 38 unique URLs.
+- Full route hashes and invariant booleans are in `reports/phase-32-43-route-content-comparison.json`; human summary in `.md`. Local frozen snapshot comparison only; not native hosting/live content.

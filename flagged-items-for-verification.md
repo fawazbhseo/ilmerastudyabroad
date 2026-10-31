@@ -3852,3 +3852,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## 43-route Phase32 protected-content comparison in progress - 2026-10-31
 
 - Static comparison has started between frozen A `796879d` and B `4e709ed` for the full 43-route inventory. It checks text/order, titles, headings, meta, robots, canonicals, link semantics/order, image attributes, JSON-LD and sitemap. Results are pending; outputs are `reports/phase-32-43-route-content-comparison.{json,md}`. This is a source snapshot comparison, not live route evidence.
+
+## 43-route Phase32 protected-content comparison - PASS, 2026-10-31
+
+- Frozen A `796879d` vs B `4e709ed`: 43/43 routes HTTP 200; 0 protected-invariant failures across rendered body text/order, titles, headings, meta, robots, canonical, anchor semantics/text/order, images/picture sources and JSON-LD. All text lengths, anchor counts and image counts match. HTML bytes differ on all routes due presentation/resource markup; no content invariant failed. Sitemap bytes are identical (SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`) with 38 unique URLs. Evidence: `reports/phase-32-43-route-content-comparison.json` and `.md`. Local snapshots only.
