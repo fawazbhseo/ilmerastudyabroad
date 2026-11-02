@@ -3900,3 +3900,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a font-chain diagnosis - 2026-11-02
 
 - Current place/article/Blog chain uses an inline stylesheet and self-hosted fonts, with no external CSS or Google Fonts request. Seven webfont weights use `font-display:block`; Outfit 300 and Cormorant Garamond 700 are preloaded. The inline font gate hides `body.p25` until `document.fonts.ready` or 3 seconds. Timings, weights, bytes and chain details are in `reports/phase-32a-font-chain-diagnosis.md`, with original same-source timing evidence referenced. No font change has been made. The required fresh two-route candidate A/B is still pending.
+
+## Phase32a fresh font candidate fixture - 2026-11-02
+
+- Froze current post-fallback Mysuru/article pages and a candidate transform that only changes seven `font-display:block` declarations to `swap` and removes one body-visibility gate rule. Font families, font files, weights, preloads and protected page content are unchanged. Fixture SHA-256 `734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231`. No font setting has changed in the site and no candidate sample has started. See `reports/phase-32a-font-ab-run-01-fixtures.md`.

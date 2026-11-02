@@ -65,9 +65,15 @@
 - Reused the matching-source six-case Resource Timing evidence in `reports/phase-32-font-audit.json` rather than repeating an unchanged check. New report: `reports/phase-32a-font-chain-diagnosis.md`. Fresh Task2 raw samples confirm four local face requests per arm/sample on Mysuru, article and Blog index, all HTTP 200.
 - No font change has been made. The earlier candidate had no coherent gain and is not treated as the fresh experiment required here.
 
+## 2026-11-02 checkpoint: current-font candidate fixture frozen
+
+- Froze current post-fallback Mysuru and article HTML from source commit `4746142` and created a candidate that changes exactly seven `font-display:block` declarations to `swap` and removes exactly one body-visibility gate rule. Families, files, weights, preloads and protected page content are unchanged.
+- Fixture SHA-256 `734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231`, stored externally at `/home/user/phase32a-runtime/phase32a-font-ab-run01/fixtures.json`. Content invariants pass on both routes. No browser sample has started and no font setting has changed in the site.
+- Manifest and summary: `reports/phase-32a-font-ab-run-01-fixtures.json` and `.md`.
+
 ## Exact next step
 
-Build the current post-fallback font candidate fixture for Mysuru and the choosing-consultant article. Candidate changes only `font-display:block` to `swap` and removes the body-visibility gate, preserving font families, files, weights, preloads, markup and content. Run a fresh interleaved local Lighthouse A/B with seven samples per arm per route, fresh Chromium per sample, alternating order, no retries. Save and push the 28 raw samples before analysis; adopt no font change unless LCP improves on both routes and CLS is no worse.
+Start the isolated font fixture host on port 8093 and run the no-sample fixture/Chromium preflight. If it passes, run exactly 28 fresh local Lighthouse samples: two routes, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
 
 ## Remaining sequence
 
