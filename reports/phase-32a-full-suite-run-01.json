@@ -182,7 +182,7 @@
     },
     {
       "name": "Rendered discovery routes",
-      "status": "FAIL",
+      "status": "PASS",
       "started_at": "2026-11-02T05:07:10.111471+00:00",
       "duration_seconds": 1.41,
       "command": [
@@ -193,11 +193,46 @@
       ],
       "exit_code": 1,
       "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-discovery-routes.log",
-      "tail": "e_url, args.root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n"
+      "tail": "e_url, args.root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n",
+      "initial_status": "FAIL",
+      "targeted_rerun": {
+        "previous_status": "FAIL",
+        "rerun_status": "PASS",
+        "attempts": 1,
+        "command": [
+          "python3",
+          "tools/check_discovery.py",
+          "--base-url",
+          "http://127.0.0.1:8094"
+        ],
+        "runtime": "PHP 8.5.8 WASM CLI via @php-wasm/cli 3.1.50; external php shim points to php-wasm-cli",
+        "adapter": "tools/phase31/server.cjs on 0.0.0.0:8094; PHP-WASM adapter, not native hosting",
+        "summary": {
+          "routes": 43,
+          "indexable": 38,
+          "blocked": 5,
+          "llms_txt": {
+            "metadata_entries": 32,
+            "published_urls": 38,
+            "destinations": 7,
+            "locations": 17,
+            "blog_articles": 6
+          },
+          "llms_full_txt": {
+            "metadata_entries": 32,
+            "published_urls": 38,
+            "destinations": 7,
+            "locations": 17,
+            "blog_articles": 6
+          },
+          "checks": "HTTP statuses, canonicals, robots, sitemap coverage, inbound links, internal targets and fragments"
+        },
+        "log_external": "/home/user/phase32a-runtime/phase32a-2/rendered-discovery-rerun.log"
+      }
     },
     {
       "name": "Rendered publication wording review",
-      "status": "FAIL",
+      "status": "PASS",
       "started_at": "2026-11-02T05:07:11.522846+00:00",
       "duration_seconds": 1.49,
       "command": [
@@ -208,7 +243,23 @@
       ],
       "exit_code": 1,
       "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-publication-wording-review.log",
-      "tail": "k(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n"
+      "tail": "k(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n",
+      "initial_status": "FAIL",
+      "targeted_rerun": {
+        "previous_status": "FAIL",
+        "rerun_status": "PASS",
+        "attempts": 1,
+        "command": [
+          "python3",
+          "tools/check_publication_review.py",
+          "--base-url",
+          "http://127.0.0.1:8094"
+        ],
+        "runtime": "PHP 8.5.8 WASM CLI via @php-wasm/cli 3.1.50; external php shim points to php-wasm-cli",
+        "adapter": "tools/phase31/server.cjs on 0.0.0.0:8094; PHP-WASM adapter, not native hosting",
+        "summary": "42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity",
+        "log_external": "/home/user/phase32a-runtime/phase32a-2/rendered-publication-wording-rerun.log"
+      }
     },
     {
       "name": "Rendered Italy claim policy",
@@ -292,7 +343,7 @@
     },
     {
       "name": "Final palette and fallback scope",
-      "status": "FAIL",
+      "status": "PASS",
       "started_at": "2026-11-02T05:07:14.540625+00:00",
       "duration_seconds": 2.57,
       "command": [
@@ -301,7 +352,17 @@
       ],
       "exit_code": 1,
       "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/final-palette-and-fallback-scope.log",
-      "tail": "PALETTE /study-in-germany 360 PASS\nbrowserContext.newPage: Target page, context or browser has been closed\n    at /home/user/ilmerastudyabroad/tools/phase32a/palette_check.cjs:24:146\n"
+      "tail": "PALETTE /study-in-germany 360 PASS\nbrowserContext.newPage: Target page, context or browser has been closed\n    at /home/user/ilmerastudyabroad/tools/phase32a/palette_check.cjs:24:146\n",
+      "initial_status": "FAIL",
+      "targeted_rerun": {
+        "previous_status": "FAIL",
+        "rerun_status": "PASS",
+        "isolated_cases": 10,
+        "passed_cases": 10,
+        "failed_cases": [],
+        "crashed_process_attempts": [],
+        "evidence": "reports/phase-32a-2-rerun-results.json#browser_rechecks.palette"
+      }
     },
     {
       "name": "258-case browser matrix and no-overflow",
@@ -334,7 +395,484 @@
       ],
       "exit_code": 1,
       "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/axe-representative-pages,-one-per-template.log",
-      "tail": "popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --single-process --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --in-process-gpu --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --user-data-dir=/tmp/playwright_chromiumdev_profile-Bu1xdW --remote-debugging-pipe --no-startup-window\n<launched> pid=87144\n[pid=87144][err] [1102/053613.581387:ERROR:../third_party/blink/renderer/platform/fonts/linux/font_unique_name_lookup_linux.cc:21] @font-face src: local() instantiation only available when connected to browser process.\n    at /home/user/ilmerastudyabroad/tools/phase32a/axe_template_check.cjs:14:181\n"
+      "tail": "popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --single-process --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --in-process-gpu --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --user-data-dir=/tmp/playwright_chromiumdev_profile-Bu1xdW --remote-debugging-pipe --no-startup-window\n<launched> pid=87144\n[pid=87144][err] [1102/053613.581387:ERROR:../third_party/blink/renderer/platform/fonts/linux/font_unique_name_lookup_linux.cc:21] @font-face src: local() instantiation only available when connected to browser process.\n    at /home/user/ilmerastudyabroad/tools/phase32a/axe_template_check.cjs:14:181\n",
+      "initial_status": "FAIL",
+      "targeted_rerun": {
+        "previous_status": "FAIL",
+        "rerun_status": "FAIL",
+        "baseline": "reports/phase-31-accessibility-baseline.json",
+        "baseline_nodes": 36,
+        "current_nodes": 40,
+        "added_count": 4,
+        "resolved_count": 0,
+        "added_findings": [
+          {
+            "route": "/",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "em",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "#faq-h2",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+            "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "#team > .container > .team-hdr > .sec-label",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": ".container > .sec-label",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+          }
+        ],
+        "routes": [
+          {
+            "route": "/study-in-germany",
+            "template": "destination",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 0,
+              "current_nodes": 0,
+              "added": [],
+              "existing": [],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/study-abroad-counselling-mysuru",
+            "template": "place",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 0,
+              "current_nodes": 0,
+              "added": [],
+              "existing": [],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "template": "article",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 0,
+              "current_nodes": 0,
+              "added": [],
+              "existing": [],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/blog/",
+            "template": "blog-index",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 0,
+              "current_nodes": 0,
+              "added": [],
+              "existing": [],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/",
+            "template": "home-control",
+            "comparison": {
+              "status": "FAIL",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 8,
+              "current_nodes": 9,
+              "added": [
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "em",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+                }
+              ],
+              "existing": [
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#coorg-kodagu > .container > div:nth-child(1) > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">Serving Students Across Karnataka</span>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#faq > .container > .why-hdr > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">Answers For Indian Students</span>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".s-wrap:nth-child(8) > .container > div:nth-child(1) > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">We Have A Path For Everyone</span>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(1)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".why-sec:nth-child(6) > .container > .why-hdr > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">Why Choose Us</span>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "div:nth-child(2) > p:nth-child(3)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8a98b8, background color: #e9edf8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<p style=\"font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;\">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p > a:nth-child(2)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+                },
+                {
+                  "route": "/",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p > a:nth-child(3)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+                }
+              ],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/services",
+            "template": "services-control",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 21,
+              "current_nodes": 21,
+              "added": [],
+              "existing": [
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#czech-republic > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">04</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#gcc > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">09</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#germany > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" aria-hidden=\"true\">01</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#italy > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">02</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#latvia > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">06</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#lithuania > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" aria-hidden=\"true\">05</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#russia > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" aria-hidden=\"true\">08</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#slovakia > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" aria-hidden=\"true\">07</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#uk > .svc-num[aria-hidden=\"true\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<span class=\"svc-num\" aria-hidden=\"true\">03</span>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(1)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(2)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(3)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "a[href$=\"about#team\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a:nth-child(6)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/blog/documents-needed-to-study-abroad-from-india\">documents</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a:nth-child(7)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/blog/scholarships-for-indian-students-study-abroad\">scholarships</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a:nth-child(8)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/blog/cost-of-studying-abroad-for-indian-students\">budget planning</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a[href$=\"study-in-gcc\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/study-in-gcc\">GCC</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a[href$=\"study-in-germany\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/study-in-germany\">Germany</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a[href$=\"study-in-italy\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/study-in-italy\">Italy</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a[href$=\"study-in-lithuania\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/study-in-lithuania\">Lithuania</a>"
+                },
+                {
+                  "route": "/services",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "p:nth-child(5) > a[href$=\"study-in-uk\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/study-in-uk\">UK</a>"
+                }
+              ],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/about",
+            "template": "about-control",
+            "comparison": {
+              "status": "FAIL",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 5,
+              "current_nodes": 8,
+              "added": [
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#faq-h2",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+                  "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": "#team > .container > .team-hdr > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".container > .sec-label",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+                }
+              ],
+              "existing": [
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".container:nth-child(8) > p > a[href$=\"services\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/services\">study abroad services</a>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(1)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(2)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".source-review > p > a:nth-child(3)",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+                },
+                {
+                  "route": "/about",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".team-disclosure > a[href$=\"about#team\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+                }
+              ],
+              "resolved": []
+            }
+          },
+          {
+            "route": "/contact",
+            "template": "contact-control",
+            "comparison": {
+              "status": "PASS",
+              "axe_version": "4.11.0",
+              "baseline_nodes": 2,
+              "current_nodes": 2,
+              "added": [],
+              "existing": [
+                {
+                  "route": "/contact",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".container > p > a[href$=\"services\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/services\">study abroad services</a>"
+                },
+                {
+                  "route": "/contact",
+                  "id": "color-contrast",
+                  "impact": "serious",
+                  "target": ".team-disclosure > a[href$=\"about#team\"]",
+                  "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                  "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+                }
+              ],
+              "resolved": []
+            }
+          }
+        ],
+        "evidence": "reports/phase-32a-2-rerun-results.json#browser_rechecks.axe"
+      }
     },
     {
       "name": "Git whitespace",
@@ -353,18 +891,60 @@
       "tail": ""
     }
   ],
-  "runner_error": "KeyError: 'runner_error' in final aggregation after all 24 check records were saved; this is a runner bookkeeping failure, not an additional check.",
+  "runner_error": null,
   "finished_at": "2026-11-02T05:36:17.083467+00:00",
   "suite_seconds": 1818.13,
   "completed_checks": 24,
   "failed_checks": [
-    "Rendered discovery routes",
-    "Rendered publication wording review",
-    "Final palette and fallback scope",
     "Axe representative pages, one per template"
   ],
   "complete_no_skip_or_resume": true,
   "suite_exit_code": 1,
   "result_finalization": "MANUALLY_FINALIZED_FROM_SAVED_CHECKS_AFTER_RUNNER_AGGREGATION_ERROR",
-  "result_finalization_note": "All 24 checks completed and were saved. The runner crashed while calculating the aggregate because runner_error was not initialized. The JSON summary was finalized from the saved records after process exit. The suite was not resumed or rerun."
+  "result_finalization_note": "All 24 checks completed and were saved. The runner crashed while calculating the aggregate because runner_error was not initialized. The JSON summary was finalized from the saved records after process exit. The suite was not resumed or rerun.",
+  "original_run": {
+    "status": "FAIL",
+    "failed_checks": [
+      "Rendered discovery routes",
+      "Rendered publication wording review",
+      "Final palette and fallback scope",
+      "Axe representative pages, one per template"
+    ],
+    "runner_error": "KeyError: 'runner_error' in final aggregation after all 24 check records were saved; this is a runner bookkeeping failure, not an additional check.",
+    "suite_exit_code": 1,
+    "started_at": "2026-11-02T05:05:58.955263+00:00",
+    "finished_at": "2026-11-02T05:36:17.083467+00:00"
+  },
+  "original_run_status": "FAIL",
+  "original_failed_checks": [
+    "Rendered discovery routes",
+    "Rendered publication wording review",
+    "Final palette and fallback scope",
+    "Axe representative pages, one per template"
+  ],
+  "original_runner_error": "KeyError: 'runner_error' in final aggregation after all 24 check records were saved; this is a runner bookkeeping failure, not an additional check.",
+  "summary_aggregation_error": null,
+  "summary_recomputed_from_saved_results": true,
+  "summary_recomputed_at": "2026-11-02T09:43:05.406708+00:00",
+  "summary_method": "tools/phase32a/summarize_saved_results.py",
+  "full_suite_rerun": false,
+  "final_summary": {
+    "status": "FAIL",
+    "total_groups": 24,
+    "pass_count": 23,
+    "fail_count": 1,
+    "failed_checks": [
+      "Axe representative pages, one per template"
+    ],
+    "targeted_groups_rechecked": [
+      "Axe representative pages, one per template",
+      "Final palette and fallback scope",
+      "Rendered discovery routes",
+      "Rendered publication wording review"
+    ],
+    "aggregation_error": null,
+    "recomputed_without_keyerror": true,
+    "full_suite_rerun": false,
+    "scope": "original saved 24 checks with only the four requested targeted rerun outcomes overlaid"
+  }
 }

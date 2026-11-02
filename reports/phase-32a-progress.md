@@ -150,3 +150,9 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 - None of these four new reference-control nodes is in a Phase32a source change. Since Phase32a start `6ff7535`, the only public runtime file changed is `includes/visual-config.php`, which scopes the fallback to `place` and `article`; no public file was changed to address unrelated Home/About controls. The axe group remains FAIL baseline-relative, with the four exact findings retained for follow-up.
 - Complete per-route outputs, selectors, baseline deltas, process isolation and crash/retry records are in `reports/phase-32a-2-rerun-results.json`; individual browser logs are external under `/home/user/phase32a-runtime/phase32a-2/`.
 - Exact next step: run a standalone summarizer over the saved original 24 checks and these targeted reruns, update the suite JSON, and report recomputed totals. Do not run the full suite.
+
+## 2026-11-02 Phase32a-2 checkpoint: group c summary recomputed
+
+- Added and ran `tools/phase32a/summarize_saved_results.py` against all 24 saved suite groups plus the four targeted rerun outcomes. Aggregation completed without `KeyError`: **23 PASS, 1 FAIL**. The only remaining failed group is axe A/AA baseline-relative because of four new `color-contrast` findings on Home/About reference controls; the four Phase32a target templates had zero new axe findings.
+- Updated `reports/phase-32a-full-suite-run-01.json` with the final overlay statuses, per-group rerun details, 24-group totals and a successful summary-aggregation record. The original full-suite 20/24 result and its post-check `KeyError` are preserved in `original_run`; the suite itself was not rerun.
+- Exact next step: update the release-check report with isolated rerun outcomes, the full A/B metric/IQR table and the two-sentence font finding; append the changelog and verification flags; push those docs and post a PR #1 checkpoint. Do not merge, deploy or build a ZIP.

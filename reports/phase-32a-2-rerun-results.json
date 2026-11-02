@@ -2082,5 +2082,17 @@
     "crashed_process_attempts": [],
     "retry_policy": "Only process crashes, timeouts, missing output or invalid output JSON were retried. A semantic palette failure was recorded without retry. Exactly one retry was permitted per page.",
     "next_substep": "c: aggregate the saved 24 original checks with these rerun outcomes and update the suite JSON."
+  },
+  "summary_aggregation": {
+    "status": "PASS",
+    "method": "tools/phase32a/summarize_saved_results.py",
+    "total_groups": 24,
+    "pass_count": 23,
+    "fail_count": 1,
+    "failed_checks": [
+      "Axe representative pages, one per template"
+    ],
+    "keyerror": null,
+    "full_suite_rerun": false
   }
 }
