@@ -3873,3 +3873,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a six-route fixture checkpoint - 2026-11-02
 
 - Frozen A `7d1bb9e` plus current B render capture `b0dc265` for Germany, Mysuru, chosen article, Blog index, Services and Contact. Fixture SHA-256 `31acc1582b723779b65a9c9f388f7fc4b864e197b3e2b5de21609842553a0aea`. All six passed the protected content comparison; fast lint and route renders passed. Services and Contact HTML are not byte-identical to A because of earlier pushed shared Phase32 presentation work, so do not characterize them as no-op controls. Phase32a added no reference-page source changes. Lab results are pending. See `reports/phase-32a-six-route-fixtures.md`.
+
+## Phase32a measurement runner checkpoint - 2026-11-02
+
+- `tools/phase32a/ab-runner.cjs` is a raw-only local measurement harness, syntax-checked against the pinned runtime. It requires the frozen fixture hash, verifies each served A/B body, launches a fresh Chromium process for every sample, runs 84 samples serially and does not retry/resume. No measurement has started. Raw evidence must be pushed before a separate analysis step; medians, ratios and budget outcomes are intentionally excluded from the raw file.

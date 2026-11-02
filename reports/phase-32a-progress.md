@@ -29,9 +29,15 @@
 - Services and Contact HTML differ from Task4 A due already-pushed shared Phase32 presentation work. They remain requested measurement controls, not byte-identical no-op controls. Phase32a has made no reference-page source change.
 - Fixture manifest and human summary: `reports/phase-32a-six-route-fixtures.json` and `.md`. No Lighthouse sample has started yet.
 
+## 2026-11-02 checkpoint: raw-only measurement runner prepared
+
+- Added `tools/phase32a/ab-runner.cjs`; syntax and pinned Node package loads pass. It validates all twelve frozen A/B route bodies before launch and can run a no-sample Chromium preflight.
+- The run records 84 raw Lighthouse samples only, serially, with fresh Chromium per sample, seven samples per arm per route, alternating order, no retry/resume. It retains absolute metrics, network/request, blocking, still/font timing details and warnings. It does not compute medians, IQRs, ratios or budget outcomes.
+- Raw destination: `reports/phase-32a-6-route-ab-run-01-raw.json`. Analysis must not begin until that complete raw file is committed and pushed.
+
 ## Exact next step
 
-Start the fresh local Lighthouse mobile A/B run against the frozen fixture hash above: exactly six routes, seven samples per arm per route, fresh Chromium process per sample, alternating A/B order, serial, no retry or resume. Use the unchanged budgets and collect absolute LCP, TBT, CLS, transfer, request/blocking/still/font details and warnings. Save the complete raw result to the Phase32a report path and push it before analysis. No ZIP or reference-page source change.
+Start the pinned fixture server on local port 8092 and run `ab-runner.cjs --preflight-only`. If it passes, record and push that checkpoint, then run the fresh 84-sample local A/B experiment. Keep the unchanged budgets, no production network/field claims, no retry or resume, no ZIP, and no reference-page source change.
 
 ## Remaining sequence
 
