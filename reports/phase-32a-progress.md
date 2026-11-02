@@ -1,8 +1,8 @@
 # Phase32a progress
 
-**Current branch:** `arena/48320ee5-ilmerastudyabroad`
-**Remote match:** local `HEAD` equals `origin/arena/48320ee5-ilmerastudyabroad` at `a4ca3434e8115d903db77f9ac50517983e177fd6`. Worktree was clean after fast-forward.
-**Scope:** Destination, place, article and Blog-index hero stills and font request-chain diagnosis. No ZIP. No new changes to Home, Services, About or Contact. Those four may be used only as the requested controls; the existing pushed Phase32 reference changes are not repeated or expanded here.
+- **Current branch:** `arena/48320ee5-ilmerastudyabroad`
+- **Remote match:** fetched and matched the existing session branch on 2026-11-02, fast-forwarding the local branch to the remote tip before work. The initial scope/gate checkpoint is now pushed. No branch switch or new branch.
+- **Scope:** Destination, place, article and Blog-index hero stills and font request-chain diagnosis. No ZIP. No new changes to Home, Services, About or Contact. Those four may be used only as the requested controls; the existing pushed Phase32 reference changes are not repeated or expanded here.
 
 ## Gate and prior evidence
 
@@ -18,6 +18,7 @@
 - Read the required Task4 summary, Phase31 release-check, Phase32 progress and branch history. Confirmed the gate above.
 - Confirmed the previous pinned runtime directory `/home/user/phase32-runtime` is absent in this workspace, and native PHP is unavailable. The frozen Task4 fixture archive is present and hashes to `806e5ab8df048c1bda227211a57a67fe8331b6121a045eccc43c8c5629d2f1d6`.
 - No runtime code changed in this checkpoint. No ZIP will be built.
+- The initial Phase32a scope/gate checkpoint and appended blocker note were pushed as commit `6ff7535`.
 
 ## Exact next step
 
