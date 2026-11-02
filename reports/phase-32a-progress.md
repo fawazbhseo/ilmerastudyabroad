@@ -91,9 +91,16 @@
 - Text/order, title, headings, meta, robots, canonical, anchor attributes/text/order, image/picture-source attributes and JSON-LD all match on every route. Sitemap is byte-identical to A, with 38 unique URLs and SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`.
 - Full report and per-route hashes: `reports/phase-32a-43-route-content-comparison.md` and `.json`. Rendered B source head `ba5e97d`; runtime source remained unchanged through comparison.
 
+## 2026-11-02 checkpoint: final-suite harness prepared
+
+- Added `tools/phase32a/palette_check.cjs` for the final measured fallback scope, still sizes/dimensions, delayed loading on retained targets, mobile blog guard and reduced-motion layer behavior.
+- Added `tools/phase32a/axe_template_check.cjs` for one representative each of destination, place, article, Blog index, legal and utility templates. Existing baseline findings are reported baseline-relative; legal/utility findings are recorded without claiming zero violations.
+- Added `tools/phase32a/run_full_suite.py`, a serial no-resume runner with 24 named checks. It reuses the already-verified current 43-route render/content comparison as its render and structured-data evidence, runs the 258-case normal matrix plus reduced-motion representatives, no-overflow checks, sitemap, palette, wording/discovery and axe. No full-suite check has started.
+- Current PHP-WASM adapter remains at `0.0.0.0:8094`; its rendered source is `ba5e97d`, with no runtime source changes since.
+
 ## Exact next step
 
-Run the specified full Phase32a suite exactly once, after the completed small-step checks. Reuse the verified current 43-route render/content comparison, and execute the PHP-WASM lint, 258 normal browser cases plus reduced-motion representatives, discovery and strict wording, sitemap, current palette/fallback checks, structured-data validation, axe on one page per template, and no-horizontal-scroll checks at 360/768/1280. Do not change runtime sources during the suite. Record every check result and any failure; if a check fails, report it without rerunning the full suite.
+Commit and push the final-suite harness and this checkpoint. Then launch `tools/phase32a/run_full_suite.py` once, serially. Do not modify runtime source during the run and do not retry/resume if any check fails. Preserve the JSON result and external per-check logs, then create the final release-check report and update `CHANGELOG.md`.
 
 ## Remaining sequence
 

@@ -3926,3 +3926,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - Compared frozen pre-phase A `796879d` with current B including the place/article palette fallback. 43/43 HTTP 200; zero text/order, title, headings, metadata, robots, canonical, link, image/picture-source or JSON-LD invariant failures. Zero byte-identical HTML bodies, expected from existing visual markup changes. Sitemap remains byte-identical with 38 unique URLs and SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`.
 - Full per-route results: `reports/phase-32a-43-route-content-comparison.md`. This is local PHP-WASM evidence, not live/native-host proof. The one full suite remains pending.
+
+## Phase32a final-suite harness prepared - 2026-11-02
+
+- `tools/phase32a/run_full_suite.py` is the one-time, serial, no-resume 24-check runner. It reuses the current all-43-route render/content comparison; the final live adapter is on `0.0.0.0:8094`, rendered from `ba5e97d`, with no runtime source changes since. The final palette script verifies retained/fallback templates, sizes/dimensions and reduced-motion behavior; axe covers destination/place/article/Blog/legal/utility representatives. No full-suite check has run yet. Do not rerun the full suite if any check fails.
