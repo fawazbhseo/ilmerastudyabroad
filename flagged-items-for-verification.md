@@ -3869,3 +3869,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 - The current workspace did not retain `/home/user/phase32-runtime` and has no native PHP. Rebuild only a temporary pinned audit runtime, then freeze the requested six routes with A `7d1bb9e` and the unchanged current candidate source. Exact next step is recorded in `reports/phase-32a-progress.md`.
 
 - Phase32a audit environment checkpoint: restored the runtime outside Git and rendered the pushed current candidate on all 43 routes (HTTP 200); the six requested routes also passed a fast HTTP render. PHP-WASM 8.5.8 syntax checks passed for `includes/visual-system.php`, `includes/visual-config.php`, the Germany route, Mysuru route, chosen article and Blog index. The external runtime is not part of the website payload and no reference source was changed.
+
+## Phase32a six-route fixture checkpoint - 2026-11-02
+
+- Frozen A `7d1bb9e` plus current B render capture `b0dc265` for Germany, Mysuru, chosen article, Blog index, Services and Contact. Fixture SHA-256 `31acc1582b723779b65a9c9f388f7fc4b864e197b3e2b5de21609842553a0aea`. All six passed the protected content comparison; fast lint and route renders passed. Services and Contact HTML are not byte-identical to A because of earlier pushed shared Phase32 presentation work, so do not characterize them as no-op controls. Phase32a added no reference-page source changes. Lab results are pending. See `reports/phase-32a-six-route-fixtures.md`.

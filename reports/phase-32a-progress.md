@@ -22,9 +22,16 @@
 - No runtime code changed in this checkpoint. No ZIP will be built.
 - The initial Phase32a scope/gate checkpoint and appended blocker note were pushed as commit `6ff7535`.
 
+## 2026-11-02 checkpoint: six-route fixture frozen
+
+- Combined the frozen Task4 A HTML at `7d1bb9e` with current B renders captured at `b0dc265`; runtime files still match the current branch. The six-route fixture hash is `31acc1582b723779b65a9c9f388f7fc4b864e197b3e2b5de21609842553a0aea`, stored externally at `/home/user/phase32a-runtime/phase32a-ab-run01/fixtures.json`.
+- Fast checks passed: PHP-WASM lint, all 43 current B route renders HTTP 200, six selected B routes HTTP 200, and six-route content comparison with zero failures for text/order, title, headings, meta, robots, canonical, link semantics/order, images/picture sources and JSON-LD. Text, anchor and image counts match A on all six.
+- Services and Contact HTML differ from Task4 A due already-pushed shared Phase32 presentation work. They remain requested measurement controls, not byte-identical no-op controls. Phase32a has made no reference-page source change.
+- Fixture manifest and human summary: `reports/phase-32a-six-route-fixtures.json` and `.md`. No Lighthouse sample has started yet.
+
 ## Exact next step
 
-Extract the frozen Task4 fixture archive and combine its A HTML from `7d1bb9e` with the current B render index captured at `b0dc265` (runtime tree identical to `4e709ed`). Freeze exactly `/study-in-germany`, `/study-abroad-counselling-mysuru`, `/blog/how-to-choose-study-abroad-consultant-karnataka`, `/blog/`, `/services` and `/contact`. Run fast affected-template lint/render/content checks, commit and push the fixture checkpoint, and only then run the fresh interleaved 7-sample-per-arm Lighthouse measurement. Save and push raw results before analysis. No reference-page source change is planned.
+Start the fresh local Lighthouse mobile A/B run against the frozen fixture hash above: exactly six routes, seven samples per arm per route, fresh Chromium process per sample, alternating A/B order, serial, no retry or resume. Use the unchanged budgets and collect absolute LCP, TBT, CLS, transfer, request/blocking/still/font details and warnings. Save the complete raw result to the Phase32a report path and push it before analysis. No ZIP or reference-page source change.
 
 ## Remaining sequence
 
