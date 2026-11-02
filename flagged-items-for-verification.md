@@ -3896,3 +3896,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a measured palette fallback - 2026-11-02
 
 - Because the frozen six-route median budgets fail on Mysuru (TBT) and the choosing-consultant article (LCP and TBT), `ILMERA_VISUAL_PLAIN_HERO_TEMPLATES` now contains `place` and `article`. The site-wide `ILMERA_SCENES_ENABLED` remains enabled and unchanged. The place and article fallback renders had no hero canvas, still URL, loader or noscript still, and passed the protected-content comparison. Germany and Blog index remain on the approved hero loader. No Home/Services/About/Contact change was made. See `reports/phase-32a-progress.md` and the A/B summary.
+
+## Phase32a font-chain diagnosis - 2026-11-02
+
+- Current place/article/Blog chain uses an inline stylesheet and self-hosted fonts, with no external CSS or Google Fonts request. Seven webfont weights use `font-display:block`; Outfit 300 and Cormorant Garamond 700 are preloaded. The inline font gate hides `body.p25` until `document.fonts.ready` or 3 seconds. Timings, weights, bytes and chain details are in `reports/phase-32a-font-chain-diagnosis.md`, with original same-source timing evidence referenced. No font change has been made. The required fresh two-route candidate A/B is still pending.

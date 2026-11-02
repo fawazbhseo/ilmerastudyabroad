@@ -59,13 +59,19 @@
 - Added `place` and `article` to `ILMERA_VISUAL_PLAIN_HERO_TEMPLATES` in `includes/visual-config.php`, using the existing palette fallback. `ILMERA_SCENES_ENABLED` remains the site-wide switch and stays enabled by default. Germany (`destination`) and Blog index (`blog`) still use the approved loader; no reference page changed.
 - Fast lint passed for shared files, route entries and affected data files. PHP-WASM rendered Mysuru and the choosing-consultant article HTTP 200. Both now contain no hero still canvas, still URL, delayed `Image` loader or noscript still. Protected text/order, title, headings, metadata, canonical, links, images and JSON-LD remain invariant against frozen A. Details: `reports/phase-32a-palette-fallback-check.md`.
 
+## 2026-11-02 checkpoint: font chain diagnosed
+
+- Current font chain is unchanged by the fallback: one inline visual-system stylesheet, no external stylesheet response, no Google Fonts request, seven self-hosted `font-display:block` faces and two local metric fallbacks. The head preloads Outfit 300 and Cormorant Garamond 700; the font gate hides `body.p25` until `document.fonts.ready` or 3,000ms.
+- Reused the matching-source six-case Resource Timing evidence in `reports/phase-32-font-audit.json` rather than repeating an unchanged check. New report: `reports/phase-32a-font-chain-diagnosis.md`. Fresh Task2 raw samples confirm four local face requests per arm/sample on Mysuru, article and Blog index, all HTTP 200.
+- No font change has been made. The earlier candidate had no coherent gain and is not treated as the fresh experiment required here.
+
 ## Exact next step
 
-Diagnose font chains on place, article and Blog index: CSS and preload chains, requested weights, `font-display`, request timing and any blocking CSS. Then run a fresh interleaved local font candidate A/B on Mysuru and the choosing-consultant article, seven paired rounds with fresh Chromium per sample. Do not change fonts unless candidate LCP improves and CLS is no worse. Commit/push the diagnosis and raw font A/B before analysis.
+Build the current post-fallback font candidate fixture for Mysuru and the choosing-consultant article. Candidate changes only `font-display:block` to `swap` and removes the body-visibility gate, preserving font families, files, weights, preloads, markup and content. Run a fresh interleaved local Lighthouse A/B with seven samples per arm per route, fresh Chromium per sample, alternating order, no retries. Save and push the 28 raw samples before analysis; adopt no font change unless LCP improves on both routes and CLS is no worse.
 
 ## Remaining sequence
 
-1. Diagnose fonts and run the fresh Mysuru/article candidate experiment; make no font change without the stated evidence.
+1. Run the fresh Mysuru/article font candidate experiment and report the no-change/change decision against the required rule.
 2. Complete the all-43-route rendered text/link/image/JSON-LD comparison against the pre-phase render.
 3. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
 4. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
