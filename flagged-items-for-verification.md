@@ -3904,3 +3904,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a fresh font candidate fixture - 2026-11-02
 
 - Froze current post-fallback Mysuru/article pages and a candidate transform that only changes seven `font-display:block` declarations to `swap` and removes one body-visibility gate rule. Font families, font files, weights, preloads and protected page content are unchanged. Fixture SHA-256 `734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231`. No font setting has changed in the site and no candidate sample has started. See `reports/phase-32a-font-ab-run-01-fixtures.md`.
+
+## Phase32a font A/B runner ready - 2026-11-02
+
+- `tools/phase32a/font_ab_runner.cjs` is syntax-checked against pinned Playwright, Chromium and Lighthouse. It requires the frozen candidate fixture, verifies all four served page bodies, and records 28 raw samples only. The port-8093 fixture host is running. No candidate sample has started, no analysis exists and no font setting has changed in the site.

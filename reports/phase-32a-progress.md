@@ -71,9 +71,14 @@
 - Fixture SHA-256 `734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231`, stored externally at `/home/user/phase32a-runtime/phase32a-font-ab-run01/fixtures.json`. Content invariants pass on both routes. No browser sample has started and no font setting has changed in the site.
 - Manifest and summary: `reports/phase-32a-font-ab-run-01-fixtures.json` and `.md`.
 
+## 2026-11-02 checkpoint: raw-only font runner prepared
+
+- Added `tools/phase32a/font_ab_runner.cjs`; Node syntax and pinned package loads pass. It validates all four frozen A/B route bodies, supports a zero-sample preflight, and records raw LCP/CLS/TBT/transfer/font requests/warnings without summaries or retries.
+- The isolated fixture host is running on `127.0.0.1:8093`. No candidate Lighthouse sample has started.
+
 ## Exact next step
 
-Start the isolated font fixture host on port 8093 and run the no-sample fixture/Chromium preflight. If it passes, run exactly 28 fresh local Lighthouse samples: two routes, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
+Run `font_ab_runner.cjs --preflight-only` on the isolated port-8093 font fixture. If it passes, run exactly 28 fresh local Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
 
 ## Remaining sequence
 
