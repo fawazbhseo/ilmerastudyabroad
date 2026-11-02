@@ -1,0 +1,67 @@
+{
+  "phase": "32a-2",
+  "task": "rerun_only_the_four_previous_failed_groups",
+  "branch": "arena/48320ee5-ilmerastudyabroad",
+  "recorded_at": "2026-11-02T09:34:57.415622+00:00",
+  "original_suite_json": "reports/phase-32a-full-suite-run-01.json",
+  "original_suite_head": "2ee711c2cc52c30a0f8d8aff2ae86ad2e03f39e4",
+  "rerun_source_head": "e899efea29404ea3b2d40afc29361528d9ea6764",
+  "public_runtime_source_unchanged_since_original_suite": true,
+  "full_suite_rerun": false,
+  "groups": [
+    {
+      "substep": "a",
+      "name": "Rendered discovery routes",
+      "previous_status": "FAIL",
+      "rerun_status": "PASS",
+      "attempts": 1,
+      "command": [
+        "python3",
+        "tools/check_discovery.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "runtime": "PHP 8.5.8 WASM CLI via @php-wasm/cli 3.1.50; external php shim points to php-wasm-cli",
+      "adapter": "tools/phase31/server.cjs on 0.0.0.0:8094; PHP-WASM adapter, not native hosting",
+      "summary": {
+        "routes": 43,
+        "indexable": 38,
+        "blocked": 5,
+        "llms_txt": {
+          "metadata_entries": 32,
+          "published_urls": 38,
+          "destinations": 7,
+          "locations": 17,
+          "blog_articles": 6
+        },
+        "llms_full_txt": {
+          "metadata_entries": 32,
+          "published_urls": 38,
+          "destinations": 7,
+          "locations": 17,
+          "blog_articles": 6
+        },
+        "checks": "HTTP statuses, canonicals, robots, sitemap coverage, inbound links, internal targets and fragments"
+      },
+      "log_external": "/home/user/phase32a-runtime/phase32a-2/rendered-discovery-rerun.log"
+    },
+    {
+      "substep": "a",
+      "name": "Rendered publication wording review",
+      "previous_status": "FAIL",
+      "rerun_status": "PASS",
+      "attempts": 1,
+      "command": [
+        "python3",
+        "tools/check_publication_review.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "runtime": "PHP 8.5.8 WASM CLI via @php-wasm/cli 3.1.50; external php shim points to php-wasm-cli",
+      "adapter": "tools/phase31/server.cjs on 0.0.0.0:8094; PHP-WASM adapter, not native hosting",
+      "summary": "42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity",
+      "log_external": "/home/user/phase32a-runtime/phase32a-2/rendered-publication-wording-rerun.log"
+    }
+  ],
+  "next_substep": "b: retry the palette and axe groups using one fresh browser process per route, including Home, Services, About and Contact controls."
+}

@@ -136,3 +136,9 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 
 - Posted the final Phase32a checkpoint comment on PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6570041068. It links the release-check report and preserves the one-run 20/24 result and all release boundaries.
 - Exact next step: none for Phase32a. Do not rerun the suite, merge, deploy, build a ZIP or change reference pages. `performance_release_certified=false` remains unchanged.
+
+## 2026-11-02 Phase32a-2 checkpoint: group a rerun
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad` and fast-forwarded the existing local branch to `e899efe`; no branch was created. Reinstalled the prior pinned PHP-WASM CLI runtime outside the repository and restarted `tools/phase31/server.cjs` on port 8094. The adapter rendered from the same public runtime source as the saved suite.
+- Reran only the two failed rendered checks with the PHP 8.5.8 WASM CLI exposed as the `php` shim. Discovery PASS: 43 routes, 38 indexable and 5 blocked, with sitemap/canonical/robots/link checks passing. Publication wording review PASS: 42 editorial self-canonicals and the 43-route status/robots/JSON-LD/source/LLM/sitemap checks passed. Logs and details are in `reports/phase-32a-2-rerun-results.json` and the external paths recorded there.
+- Exact next step: rerun only palette and axe in fresh browser processes per route, including Home, Services, About and Contact reference controls; retry a crashed page once in a new process. Do not run the full suite.
