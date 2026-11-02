@@ -3860,3 +3860,10 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32 current-candidate browser safeguard matrix in progress - 2026-10-31
 
 - Running 306 local cases on B `4e709ed`: 43 routes x 3 widths x JS on/off, plus reduced-motion checks on eight representative routes. The run requires visible main text, no overflow, one H1, loaded images and no interactive-target shrink against the Phase31 baseline. Result pending at `reports/phase-32-browser-suite.json`; not live-host evidence.
+
+## Phase32a checkpoint start - 2026-11-02
+
+- Gate passed: the Phase31 release-check exists and records Task5 31/31 PASS. The prior Phase31 Task4 A/B result remains 2/8 routes passing, with Germany, chosen article and Blog index LCP-ratio failures. These blockers are retained, not rewritten or waived.
+- Previously pushed Phase32 hero still assets and smoke/contrast evidence already satisfy mobile 9,738-byte, desktop 37,226-byte, WebP, responsive review and 5.339:1 minimum contrast results. Do not regenerate unchanged pushed work. Existing font A/B evidence found no coherent LCP gain; leave font source unchanged unless a fresh eligible paired test proves otherwise.
+- Phase32a makes no ZIP and no new Home, Services, About or Contact source changes. The existing branch already contains earlier pushed shared presentation changes; keep them untouched. Services and Contact are measurement controls only.
+- The current workspace did not retain `/home/user/phase32-runtime` and has no native PHP. Rebuild only a temporary pinned audit runtime, then freeze the requested six routes with A `7d1bb9e` and the unchanged current candidate source. Exact next step is recorded in `reports/phase-32a-progress.md`.
