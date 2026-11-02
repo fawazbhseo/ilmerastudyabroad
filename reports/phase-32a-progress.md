@@ -17,12 +17,14 @@
 - Fetched the existing session branch and fast-forwarded the local branch to the exact remote tip `a4ca343`. No branch switch, new branch, PR, merge or deployment.
 - Read the required Task4 summary, Phase31 release-check, Phase32 progress and branch history. Confirmed the gate above.
 - Confirmed the previous pinned runtime directory `/home/user/phase32-runtime` is absent in this workspace, and native PHP is unavailable. The frozen Task4 fixture archive is present and hashes to `806e5ab8df048c1bda227211a57a67fe8331b6121a045eccc43c8c5629d2f1d6`.
+- Restored a temporary audit runtime outside Git: Node 22.22.3, PHP-WASM 8.5.8 CLI, @php-wasm 3.1.50, Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2.
+- The current pushed B adapter rendered all 43 routes at HTTP 200. All six targeted routes also returned 200. PHP-WASM lint passed for the shared visual system/config and Germany, Mysuru, chosen article and Blog-index entry files. The B render index was captured at `b0dc265`; runtime files are unchanged from the previously pushed candidate at `4e709ed`.
 - No runtime code changed in this checkpoint. No ZIP will be built.
 - The initial Phase32a scope/gate checkpoint and appended blocker note were pushed as commit `6ff7535`.
 
 ## Exact next step
 
-Recreate a temporary pinned PHP-WASM/Chromium/Lighthouse runtime outside the tracked payload, extract the existing Task4 fixture archive, and render the current pushed candidate B from its unchanged runtime source (`4e709ed`). Freeze a new six-route fixture containing exactly `/study-in-germany`, `/study-abroad-counselling-mysuru`, `/blog/how-to-choose-study-abroad-consultant-karnataka`, `/blog/`, `/services` and `/contact`, with A fixed at `7d1bb9e`. Then run the fast affected-template lint/render/content checks, commit and push the fixture checkpoint, and only then run the fresh interleaved 7-sample-per-arm Lighthouse measurement. Save and push raw results before analysis. No reference-page source change is planned.
+Extract the frozen Task4 fixture archive and combine its A HTML from `7d1bb9e` with the current B render index captured at `b0dc265` (runtime tree identical to `4e709ed`). Freeze exactly `/study-in-germany`, `/study-abroad-counselling-mysuru`, `/blog/how-to-choose-study-abroad-consultant-karnataka`, `/blog/`, `/services` and `/contact`. Run fast affected-template lint/render/content checks, commit and push the fixture checkpoint, and only then run the fresh interleaved 7-sample-per-arm Lighthouse measurement. Save and push raw results before analysis. No reference-page source change is planned.
 
 ## Remaining sequence
 
