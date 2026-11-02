@@ -131,3 +131,8 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 
 - Pushed commit `a4ca881` with `reports/phase-32a-release-check.md`, the Phase32a changelog entry and appended final-suite flags. The report inventory contains all 102 paths changed since `796879d`.
 - Exact next step: post the requested checkpoint comment on PR #1, linking the release report and stating the 20/24 result. Do not merge or deploy.
+
+## 2026-11-02 checkpoint: PR #1 comment posted
+
+- Posted the final Phase32a checkpoint comment on PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6570041068. It links the release-check report and preserves the one-run 20/24 result and all release boundaries.
+- Exact next step: none for Phase32a. Do not rerun the suite, merge, deploy, build a ZIP or change reference pages. `performance_release_certified=false` remains unchanged.
