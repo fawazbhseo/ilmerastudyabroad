@@ -61,7 +61,2026 @@
       "adapter": "tools/phase31/server.cjs on 0.0.0.0:8094; PHP-WASM adapter, not native hosting",
       "summary": "42 editorial self-canonicals; 43 route status/robots, JSON-LD, Service contact, visible punctuation, approved source records, LLM content policy/served parity and sitemap parity",
       "log_external": "/home/user/phase32a-runtime/phase32a-2/rendered-publication-wording-rerun.log"
+    },
+    {
+      "substep": "b",
+      "name": "Palette check",
+      "previous_status": "FAIL",
+      "rerun_status": "PASS",
+      "attempts": 10,
+      "process_per_page": true,
+      "result_external": "/home/user/phase32a-runtime/phase32a-2/palette",
+      "summary": {
+        "status": "PASS",
+        "routes": 10,
+        "passed_cases": 10,
+        "failed_cases": [],
+        "still_assets": {
+          "mobile": {
+            "path": "assets/images/hero-still-640.webp",
+            "bytes": 9738,
+            "decimal_kb": 9.738
+          },
+          "desktop": {
+            "path": "assets/images/hero-still-1440.webp",
+            "bytes": 37226,
+            "decimal_kb": 37.226
+          }
+        }
+      }
+    },
+    {
+      "substep": "b",
+      "name": "Axe A/AA baseline comparison",
+      "previous_status": "FAIL",
+      "rerun_status": "FAIL_NEW_FINDINGS_OR_INCOMPLETE",
+      "attempts": 8,
+      "process_per_page": true,
+      "baseline": "reports/phase-31-accessibility-baseline.json",
+      "result_external": "/home/user/phase32a-runtime/phase32a-2/axe",
+      "summary": {
+        "status": "FAIL_NEW_FINDINGS_OR_INCOMPLETE",
+        "axe_core": "4.11.0",
+        "run_only": [
+          "wcag2a",
+          "wcag2aa",
+          "wcag21a",
+          "wcag21aa"
+        ],
+        "baseline": "reports/phase-31-accessibility-baseline.json",
+        "baseline_violation_nodes_by_route": {
+          "/": 8,
+          "/services": 21,
+          "/about": 5,
+          "/contact": 2,
+          "/study-in-germany": 0,
+          "/study-abroad-counselling-mysuru": 0,
+          "/blog/how-to-choose-study-abroad-consultant-karnataka": 0,
+          "/blog/": 0
+        },
+        "baseline_total_nodes": 36,
+        "current_total_nodes": 40,
+        "added_findings": [
+          {
+            "route": "/",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "em",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "#faq-h2",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+            "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": "#team > .container > .team-hdr > .sec-label",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+          },
+          {
+            "route": "/about",
+            "id": "color-contrast",
+            "impact": "serious",
+            "target": ".container > .sec-label",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+            "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+          }
+        ],
+        "resolved_findings": []
+      }
     }
   ],
-  "next_substep": "b: retry the palette and axe groups using one fresh browser process per route, including Home, Services, About and Contact controls."
+  "next_substep": "c: aggregate the saved 24 original checks with these rerun outcomes and update the suite JSON.",
+  "group_b_detail_external": "/home/user/phase32a-runtime/phase32a-2/isolated-browser-results.json",
+  "browser_rechecks": {
+    "phase": "32a-2",
+    "substep": "b",
+    "started_at": "2026-11-02T09:39:04.917400+00:00",
+    "finished_at": "2026-11-02T09:40:29.804020+00:00",
+    "full_suite_rerun": false,
+    "browser_isolation": "Every route case ran in a separate Node process, each launching a new Chromium browser and one page. Any crashed process was retried once in a new process and its first crash log retained.",
+    "previous_cascading_failures": {
+      "palette": "Original suite passed /study-in-germany at 360px, then the next place 360px context creation failed because browser/context had closed.",
+      "axe": "Original suite scanned /study-in-germany with zero violation nodes, then the next place context creation failed because browser/context had closed."
+    },
+    "palette": {
+      "status": "PASS",
+      "routes": 10,
+      "passed_cases": 10,
+      "failed_cases": [],
+      "still_assets": {
+        "mobile": {
+          "path": "assets/images/hero-still-640.webp",
+          "bytes": 9738,
+          "decimal_kb": 9.738
+        },
+        "desktop": {
+          "path": "assets/images/hero-still-1440.webp",
+          "bytes": 37226,
+          "decimal_kb": 37.226
+        }
+      },
+      "cases": [
+        {
+          "id": "destination",
+          "template": "destination",
+          "route": "/study-in-germany",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:04.917599+00:00",
+              "finished_at": "2026-11-02T09:39:09.251504+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/destination-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/destination-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/destination-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/study-in-germany",
+            "template": "destination",
+            "process_id": 1894,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:05.325Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "scene",
+            "http_status": 200,
+            "load_at": 1793612346997,
+            "still_requests": [
+              {
+                "path": "/assets/images/hero-still-1440.webp",
+                "at": 1793612347000
+              },
+              {
+                "path": "/assets/images/hero-still-1440.webp",
+                "at": 1793612348711
+              },
+              {
+                "path": "/assets/images/hero-still-640.webp",
+                "at": 1793612348711
+              }
+            ],
+            "state": {
+              "body_class": "p25 p25-destination",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": true,
+              "canvas_position": "absolute",
+              "canvas_loaded": true,
+              "transition": "0.32s",
+              "loader": true,
+              "hero_still_urls": 4,
+              "style_still_url_count": 0
+            },
+            "dimensions": [
+              {
+                "src": "/assets/images/hero-still-640.webp",
+                "width": 640,
+                "height": 800
+              },
+              {
+                "src": "/assets/images/hero-still-1440.webp",
+                "width": 1440,
+                "height": 900
+              }
+            ],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:09.239Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "place",
+          "template": "place",
+          "route": "/study-abroad-counselling-mysuru",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:09.251774+00:00",
+              "finished_at": "2026-11-02T09:39:11.635677+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/place-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/place-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/place-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/study-abroad-counselling-mysuru",
+            "template": "place",
+            "process_id": 1941,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:09.666Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "fallback",
+            "http_status": 200,
+            "load_at": 1793612349827,
+            "still_requests": [],
+            "state": {
+              "body_class": "p25 p25-place",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:11.624Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "article",
+          "template": "article",
+          "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:11.636015+00:00",
+              "finished_at": "2026-11-02T09:39:14.031375+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/article-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/article-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/article-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "template": "article",
+            "process_id": 1993,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:12.031Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "fallback",
+            "http_status": 200,
+            "load_at": 1793612352199,
+            "still_requests": [],
+            "state": {
+              "body_class": "p25 p25-article",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:14.022Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "blog-index",
+          "template": "blog-index",
+          "route": "/blog/",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:14.031627+00:00",
+              "finished_at": "2026-11-02T09:39:16.552221+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/blog/",
+            "template": "blog-index",
+            "process_id": 2046,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:14.417Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "scene",
+            "http_status": 200,
+            "load_at": 1793612354600,
+            "still_requests": [
+              {
+                "path": "/assets/images/hero-still-1440.webp",
+                "at": 1793612354613
+              }
+            ],
+            "state": {
+              "body_class": "p25 p25-blog",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": true,
+              "canvas_position": "absolute",
+              "canvas_loaded": true,
+              "transition": "0.32s",
+              "loader": true,
+              "hero_still_urls": 4,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:16.543Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "home-control",
+          "template": "home-control",
+          "route": "/",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:16.552472+00:00",
+              "finished_at": "2026-11-02T09:39:22.428031+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/home-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/home-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/home-control-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/",
+            "template": "home-control",
+            "process_id": 2094,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:16.954Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "control",
+            "http_status": 200,
+            "load_at": 1793612357194,
+            "still_requests": [],
+            "state": {
+              "body_class": "",
+              "hero": false,
+              "hero_selector": null,
+              "background": "",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [
+              {
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+                "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+              }
+            ],
+            "finished_at": "2026-11-02T09:39:22.415Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "services-control",
+          "template": "services-control",
+          "route": "/services",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:22.428366+00:00",
+              "finished_at": "2026-11-02T09:39:25.912094+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/services-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/services-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/services-control-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/services",
+            "template": "services-control",
+            "process_id": 2147,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:22.854Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "control",
+            "http_status": 200,
+            "load_at": 1793612363125,
+            "still_requests": [],
+            "state": {
+              "body_class": "",
+              "hero": false,
+              "hero_selector": null,
+              "background": "",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [
+              {
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+                "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+              }
+            ],
+            "finished_at": "2026-11-02T09:39:25.903Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "about-control",
+          "template": "about-control",
+          "route": "/about",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:25.912367+00:00",
+              "finished_at": "2026-11-02T09:39:28.916278+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/about-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/about-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/about-control-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/about",
+            "template": "about-control",
+            "process_id": 2198,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:26.305Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "control",
+            "http_status": 200,
+            "load_at": 1793612366535,
+            "still_requests": [],
+            "state": {
+              "body_class": "",
+              "hero": false,
+              "hero_selector": null,
+              "background": "",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [
+              {
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+                "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+              }
+            ],
+            "finished_at": "2026-11-02T09:39:28.907Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "contact-control",
+          "template": "contact-control",
+          "route": "/contact",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:28.916549+00:00",
+              "finished_at": "2026-11-02T09:39:31.747999+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/contact-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/contact-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/contact-control-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/contact",
+            "template": "contact-control",
+            "process_id": 2249,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:29.313Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 1280,
+            "height": 900,
+            "motion": "normal",
+            "kind": "control",
+            "http_status": 200,
+            "load_at": 1793612369542,
+            "still_requests": [],
+            "state": {
+              "body_class": "",
+              "hero": false,
+              "hero_selector": null,
+              "background": "",
+              "canvas": false,
+              "canvas_position": null,
+              "canvas_loaded": false,
+              "transition": null,
+              "loader": false,
+              "hero_still_urls": 0,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [
+              {
+                "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+                "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+              }
+            ],
+            "finished_at": "2026-11-02T09:39:31.739Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "destination-reduced-mobile",
+          "template": "destination",
+          "route": "/study-in-germany",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:31.748273+00:00",
+              "finished_at": "2026-11-02T09:39:34.071333+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/destination-reduced-mobile-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/destination-reduced-mobile-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/destination-reduced-mobile-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/study-in-germany",
+            "template": "destination",
+            "process_id": 2295,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:32.139Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 360,
+            "height": 900,
+            "motion": "reduce",
+            "kind": "reduced",
+            "http_status": 200,
+            "load_at": 1793612372282,
+            "still_requests": [
+              {
+                "path": "/assets/images/hero-still-640.webp",
+                "at": 1793612372297
+              }
+            ],
+            "state": {
+              "body_class": "p25 p25-destination",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": true,
+              "canvas_position": "absolute",
+              "canvas_loaded": true,
+              "transition": "0s",
+              "loader": true,
+              "hero_still_urls": 4,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:34.062Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        },
+        {
+          "id": "blog-index-mobile-guard",
+          "template": "blog-index",
+          "route": "/blog/",
+          "mode": "palette",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:34.071554+00:00",
+              "finished_at": "2026-11-02T09:39:36.420303+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-mobile-guard-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-mobile-guard-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/palette/blog-index-mobile-guard-attempt1.log",
+          "process_result": {
+            "mode": "palette",
+            "route": "/blog/",
+            "template": "blog-index",
+            "process_id": 2347,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:34.445Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "width": 360,
+            "height": 900,
+            "motion": "normal",
+            "kind": "blog-mobile",
+            "http_status": 200,
+            "load_at": 1793612374613,
+            "still_requests": [],
+            "state": {
+              "body_class": "p25 p25-blog",
+              "hero": true,
+              "hero_selector": ".article-hero,.blog-hero",
+              "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+              "canvas": true,
+              "canvas_position": "absolute",
+              "canvas_loaded": false,
+              "transition": "0.32s",
+              "loader": true,
+              "hero_still_urls": 4,
+              "style_still_url_count": 0
+            },
+            "dimensions": null,
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:36.410Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false
+        }
+      ]
+    },
+    "axe": {
+      "status": "FAIL_NEW_FINDINGS_OR_INCOMPLETE",
+      "axe_core": "4.11.0",
+      "run_only": [
+        "wcag2a",
+        "wcag2aa",
+        "wcag21a",
+        "wcag21aa"
+      ],
+      "baseline": "reports/phase-31-accessibility-baseline.json",
+      "baseline_violation_nodes_by_route": {
+        "/": 8,
+        "/services": 21,
+        "/about": 5,
+        "/contact": 2,
+        "/study-in-germany": 0,
+        "/study-abroad-counselling-mysuru": 0,
+        "/blog/how-to-choose-study-abroad-consultant-karnataka": 0,
+        "/blog/": 0
+      },
+      "baseline_total_nodes": 36,
+      "current_total_nodes": 40,
+      "added_findings": [
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "em",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#faq-h2",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#team > .container > .team-hdr > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".container > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+        }
+      ],
+      "resolved_findings": [],
+      "routes": [
+        {
+          "id": "destination",
+          "template": "destination",
+          "route": "/study-in-germany",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:36.420550+00:00",
+              "finished_at": "2026-11-02T09:39:40.476059+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/destination-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/destination-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/destination-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/study-in-germany",
+            "template": "destination",
+            "process_id": 2398,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:36.814Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 0,
+            "violations": [],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:40.466Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 0,
+            "current_nodes": 0,
+            "added": [],
+            "existing": [],
+            "resolved": []
+          }
+        },
+        {
+          "id": "place",
+          "template": "place",
+          "route": "/study-abroad-counselling-mysuru",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:40.476321+00:00",
+              "finished_at": "2026-11-02T09:39:44.473788+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/place-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/place-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/place-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/study-abroad-counselling-mysuru",
+            "template": "place",
+            "process_id": 2446,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:40.860Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 0,
+            "violations": [],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:44.463Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 0,
+            "current_nodes": 0,
+            "added": [],
+            "existing": [],
+            "resolved": []
+          }
+        },
+        {
+          "id": "article",
+          "template": "article",
+          "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:44.474033+00:00",
+              "finished_at": "2026-11-02T09:39:48.545658+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/article-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/article-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/article-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "template": "article",
+            "process_id": 2498,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:44.882Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 0,
+            "violations": [],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:48.535Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 0,
+            "current_nodes": 0,
+            "added": [],
+            "existing": [],
+            "resolved": []
+          }
+        },
+        {
+          "id": "blog-index",
+          "template": "blog-index",
+          "route": "/blog/",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:48.545882+00:00",
+              "finished_at": "2026-11-02T09:39:52.751026+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/blog-index-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/blog-index-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/blog-index-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/blog/",
+            "template": "blog-index",
+            "process_id": 2550,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:48.928Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 0,
+            "violations": [],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:39:52.739Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 0,
+            "current_nodes": 0,
+            "added": [],
+            "existing": [],
+            "resolved": []
+          }
+        },
+        {
+          "id": "home-control",
+          "template": "home-control",
+          "route": "/",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:39:52.751282+00:00",
+              "finished_at": "2026-11-02T09:40:08.226971+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/home-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/home-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/home-control-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/",
+            "template": "home-control",
+            "process_id": 2604,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:39:53.147Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 9,
+            "violations": [
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#coorg-kodagu > .container > div:nth-child(1) > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Serving Students Across Karnataka</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "div:nth-child(2) > p:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8a98b8, background color: #e9edf8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<p style=\"font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;\">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".why-sec:nth-child(6) > .container > .why-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Why Choose Us</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".s-wrap:nth-child(8) > .container > div:nth-child(1) > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">We Have A Path For Everyone</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "em",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#faq > .container > .why-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Answers For Indian Students</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              }
+            ],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:40:08.219Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "FAIL",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 8,
+            "current_nodes": 9,
+            "added": [
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "em",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<em style=\"font-size:11px;color:#888;\">(subject to programme conditions)</em>"
+              }
+            ],
+            "existing": [
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#coorg-kodagu > .container > div:nth-child(1) > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Serving Students Across Karnataka</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#faq > .container > .why-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Answers For Indian Students</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".s-wrap:nth-child(8) > .container > div:nth-child(1) > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">We Have A Path For Everyone</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".why-sec:nth-child(6) > .container > .why-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Why Choose Us</span>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "div:nth-child(2) > p:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8a98b8, background color: #e9edf8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<p style=\"font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;\">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              }
+            ],
+            "resolved": []
+          }
+        },
+        {
+          "id": "services-control",
+          "template": "services-control",
+          "route": "/services",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:40:08.227250+00:00",
+              "finished_at": "2026-11-02T09:40:20.322624+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/services-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/services-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/services-control-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/services",
+            "template": "services-control",
+            "process_id": 2653,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:40:08.613Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 21,
+            "violations": [
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#germany > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">01</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#italy > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">02</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#uk > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">03</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#czech-republic > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">04</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#lithuania > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">05</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#latvia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">06</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#slovakia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">07</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#russia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">08</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#gcc > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">09</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-germany\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-germany\">Germany</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-italy\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-italy\">Italy</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-uk\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-uk\">UK</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-lithuania\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-lithuania\">Lithuania</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-gcc\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-gcc\">GCC</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(6)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/documents-needed-to-study-abroad-from-india\">documents</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(7)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/scholarships-for-indian-students-study-abroad\">scholarships</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(8)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/cost-of-studying-abroad-for-indian-students\">budget planning</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              }
+            ],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:40:20.315Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 21,
+            "current_nodes": 21,
+            "added": [],
+            "existing": [
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#czech-republic > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">04</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#gcc > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">09</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#germany > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">01</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#italy > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">02</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#latvia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">06</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#lithuania > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">05</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#russia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">08</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#slovakia > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">07</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#uk > .svc-num[aria-hidden=\"true\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<span class=\"svc-num\" aria-hidden=\"true\">03</span>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(6)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/documents-needed-to-study-abroad-from-india\">documents</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(7)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/scholarships-for-indian-students-study-abroad\">scholarships</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a:nth-child(8)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/blog/cost-of-studying-abroad-for-indian-students\">budget planning</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-gcc\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-gcc\">GCC</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-germany\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-germany\">Germany</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-italy\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-italy\">Italy</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-lithuania\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-lithuania\">Lithuania</a>"
+              },
+              {
+                "route": "/services",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "p:nth-child(5) > a[href$=\"study-in-uk\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/study-in-uk\">UK</a>"
+              }
+            ],
+            "resolved": []
+          }
+        },
+        {
+          "id": "about-control",
+          "template": "about-control",
+          "route": "/about",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:40:20.322897+00:00",
+              "finished_at": "2026-11-02T09:40:25.172345+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/about-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/about-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/about-control-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/about",
+            "template": "about-control",
+            "process_id": 2706,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:40:20.692Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 8,
+            "violations": [
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#team > .container > .team-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#faq-h2",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container:nth-child(8) > p > a[href$=\"services\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/services\">study abroad services</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".team-disclosure > a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              }
+            ],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:40:25.162Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "FAIL",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 5,
+            "current_nodes": 8,
+            "added": [
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#faq-h2",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.11 (foreground color: #0a1628, background color: #04060f, font size: 36.0pt (48px), font weight: bold). Expected contrast ratio of 3:1",
+                "html": "<h2 id=\"faq-h2\" class=\"sec-h2 dk\">ILMERA Study Abroad: Frequently Asked Questions</h2>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": "#team > .container > .team-hdr > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">The People Behind ILMERA</span>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container > .sec-label",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<span class=\"sec-label\">Serving Kodagu &amp; Coorg</span>"
+              }
+            ],
+            "existing": [
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container:nth-child(8) > p > a[href$=\"services\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/services\">study abroad services</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(1)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(2)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".source-review > p > a:nth-child(3)",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+              },
+              {
+                "route": "/about",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".team-disclosure > a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              }
+            ],
+            "resolved": []
+          }
+        },
+        {
+          "id": "contact-control",
+          "template": "contact-control",
+          "route": "/contact",
+          "mode": "axe",
+          "attempts": [
+            {
+              "attempt": 1,
+              "started_at": "2026-11-02T09:40:25.172588+00:00",
+              "finished_at": "2026-11-02T09:40:29.803692+00:00",
+              "exit_code": 0,
+              "timeout": false,
+              "log": "/home/user/phase32a-runtime/phase32a-2/axe/contact-control-attempt1.log",
+              "process_result": {
+                "status": "PASS",
+                "crashed": false,
+                "error": null
+              },
+              "crashed": false
+            }
+          ],
+          "first_crash_recorded": false,
+          "process_result_path": "/home/user/phase32a-runtime/phase32a-2/axe/contact-control-attempt1.json",
+          "log_path": "/home/user/phase32a-runtime/phase32a-2/axe/contact-control-attempt1.log",
+          "process_result": {
+            "mode": "axe",
+            "route": "/contact",
+            "template": "contact-control",
+            "process_id": 2758,
+            "base_url": "http://127.0.0.1:8094",
+            "started_at": "2026-11-02T09:40:25.552Z",
+            "crashed": false,
+            "status": "PASS",
+            "issues": [],
+            "browser": "143.0.7499.0",
+            "axe_core": "4.11.0",
+            "run_only": [
+              "wcag2a",
+              "wcag2aa",
+              "wcag21a",
+              "wcag21aa"
+            ],
+            "width": 1280,
+            "height": 900,
+            "javascript": true,
+            "reduced_motion": true,
+            "violation_count": 2,
+            "violations": [
+              {
+                "route": "/contact",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container > p > a[href$=\"services\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/services\">study abroad services</a>"
+              },
+              {
+                "route": "/contact",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".team-disclosure > a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              }
+            ],
+            "request_failures": [],
+            "finished_at": "2026-11-02T09:40:29.795Z"
+          },
+          "process_pass": true,
+          "final_process_crashed": false,
+          "baseline_comparison": {
+            "status": "PASS",
+            "axe_version": "4.11.0",
+            "baseline_nodes": 2,
+            "current_nodes": 2,
+            "added": [],
+            "existing": [
+              {
+                "route": "/contact",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".container > p > a[href$=\"services\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/services\">study abroad services</a>"
+              },
+              {
+                "route": "/contact",
+                "id": "color-contrast",
+                "impact": "serious",
+                "target": ".team-disclosure > a[href$=\"about#team\"]",
+                "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+                "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+              }
+            ],
+            "resolved": []
+          }
+        }
+      ]
+    },
+    "crashed_process_attempts": [],
+    "retry_policy": "Only process crashes, timeouts, missing output or invalid output JSON were retried. A semantic palette failure was recorded without retry. Exactly one retry was permitted per page.",
+    "next_substep": "c: aggregate the saved 24 original checks with these rerun outcomes and update the suite JSON."
+  }
 }
