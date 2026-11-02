@@ -114,3 +114,8 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 
 1. Finalize and push the release report, flags and changelog without rerunning the suite.
 2. Post the requested PR #1 checkpoint comment. No ZIP, merge, deployment, reference-page change or budget change.
+
+## 2026-11-02 push checkpoint: finalized full-suite record
+
+- Pushed commit `0eb5a91` on `arena/48320ee5-ilmerastudyabroad`. It preserves all 24 check records, the 20/4 outcome and external evidence references; `run_full_suite.py` now initializes and safely reads the aggregate error field. This tool-only repair was made after the one run. No suite rerun or resume occurred.
+- Exact next step: write and push the final release report, changelog and appended verification flags; then comment on PR #1. Do not merge or deploy.
