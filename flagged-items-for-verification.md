@@ -3908,3 +3908,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a font A/B runner ready - 2026-11-02
 
 - `tools/phase32a/font_ab_runner.cjs` is syntax-checked against pinned Playwright, Chromium and Lighthouse. It requires the frozen candidate fixture, verifies all four served page bodies, and records 28 raw samples only. The port-8093 fixture host is running. No candidate sample has started, no analysis exists and no font setting has changed in the site.
+
+## Phase32a font fixture preflight - 2026-11-02
+
+- The isolated port-8093 host served all four candidate A/B page bodies byte-for-byte from the frozen fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected. The 28-sample fresh font experiment is next; no font change is made before its raw evidence is pushed and analyzed.

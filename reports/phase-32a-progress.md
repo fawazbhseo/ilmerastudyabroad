@@ -76,9 +76,13 @@
 - Added `tools/phase32a/font_ab_runner.cjs`; Node syntax and pinned package loads pass. It validates all four frozen A/B route bodies, supports a zero-sample preflight, and records raw LCP/CLS/TBT/transfer/font requests/warnings without summaries or retries.
 - The isolated fixture host is running on `127.0.0.1:8093`. No candidate Lighthouse sample has started.
 
+## 2026-11-02 checkpoint: font fixture preflight passed
+
+- The port-8093 fixture host served all four A/B page bodies byte-for-byte from the frozen font fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected.
+
 ## Exact next step
 
-Run `font_ab_runner.cjs --preflight-only` on the isolated port-8093 font fixture. If it passes, run exactly 28 fresh local Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
+Run exactly 28 fresh local Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
 
 ## Remaining sequence
 
