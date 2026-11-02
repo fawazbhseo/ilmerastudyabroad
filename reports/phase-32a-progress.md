@@ -126,3 +126,8 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 - Created `reports/phase-32a-release-check.md` with all 24 check outcomes, local six-route and font A/B tables, configured palette fallbacks, suite limitations and the changed-file inventory since `796879d`.
 - Added the Phase32a summary to `CHANGELOG.md` and appended the final environment/browser/runner exceptions to `flagged-items-for-verification.md` without rewriting prior blockers. `performance_release_certified=false` remains unchanged.
 - Exact next step: push this documentation checkpoint, then post the requested PR #1 comment. Do not merge or deploy.
+
+## 2026-11-02 push checkpoint: final release documentation
+
+- Pushed commit `a4ca881` with `reports/phase-32a-release-check.md`, the Phase32a changelog entry and appended final-suite flags. The report inventory contains all 102 paths changed since `796879d`.
+- Exact next step: post the requested checkpoint comment on PR #1, linking the release report and stating the 20/24 result. Do not merge or deploy.
