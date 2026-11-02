@@ -3886,3 +3886,9 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - Raw run `reports/phase-32a-6-route-ab-run-01-raw.json` contains 84/84 passing samples, seven A and seven B per route. It used fresh Chromium per sample with alternating order and no retries. SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875`.
 - This is a local simulated lab run, not field data. No medians, IQRs, ratios or budget analysis has been performed. Push the raw artifact before analyzing it. The associated fast lints, six route checks and content invariants passed.
+
+## Phase32a six-route A/B analysis - 2026-11-02
+
+- The pushed raw run was analyzed in `reports/phase-32a-6-route-ab-run-01-summary.md`; raw SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875` remains unchanged. This is local simulated Lighthouse data only.
+- Median budget result: Germany PASS (LCP B/A 1.0092, TBT +46 ms, transfer +13,278 bytes, CLS unchanged, no new blocking URL); Blog index PASS (1.0001, TBT/CLS unchanged, +3,473 bytes, no new blocking URL; mobile guard requests no still at <=768px). Mysuru FAILS TBT (+66.24 ms > 50); chosen article FAILS LCP (B/A 1.4243) and TBT (+59 ms). Both `place` and `article` require the plain-palette fallback. Do not weaken any budget.
+- Services and Contact symmetric median-LCP control gate FAILS, but these are non-byte-identical controls with earlier pushed shared Phase32 differences. Do not change these pages. `performance_release_certified=false` is unchanged. Fonts are not changed pending the required fresh candidate A/B.

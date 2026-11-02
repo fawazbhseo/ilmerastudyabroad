@@ -46,14 +46,22 @@
 - Raw JSON: `reports/phase-32a-6-route-ab-run-01-raw.json`, 352,597 bytes, SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875`. Structural validation, six affected-file PHP-WASM lints, six route HTTP checks, and the six-route content invariants passed.
 - No medians, IQRs, ratios or budget outcomes have been calculated. Raw data must be pushed first.
 
+## 2026-11-02 checkpoint: raw A/B analysis complete
+
+- Analysis is now recorded in `reports/phase-32a-6-route-ab-run-01-summary.md` and `.json`; the committed raw SHA-256 is unchanged. All values are local simulated mobile Lighthouse results, not field data.
+- Germany passed all median-based budgets: LCP B/A 1.0092, TBT +46 ms, CLS unchanged, transfer +13,278 bytes, no new blocking URL. Blog index passed: LCP B/A 1.0001, TBT unchanged, CLS unchanged, transfer +3,473 bytes, no new blocking URL. Its existing mobile guard skipped the still at <=768px.
+- Mysuru failed TBT (+66.24 ms, over +50 ms) and the choosing-consultant article failed LCP (B/A 1.4243) and TBT (+59 ms). Both require the approved plain-palette hero fallback. CLS and transfer budgets passed on all four targets.
+- Services and Contact are not byte-identical controls and the symmetric median-LCP control gate failed; this is recorded as a limitation, not a request to change those pages. `performance_release_certified=false` stays unchanged.
+- No font-chain decision or source change has been made yet.
+
 ## Exact next step
 
-Commit and push the complete raw JSON with this progress checkpoint, then post the PR #1 checkpoint. Only after the push, analyze the sample-level metrics into absolute LCP/TBT/CLS/transfer and per-route medians, IQRs, ratios, budget results, request/font/still/blocking/warning findings. No ZIP, no reference-page source change, and no live/field performance claim.
+Add the measured fallback for the `place` and `article` template groups using the existing plain-palette mechanism, without changing the site-wide `ILMERA_SCENES_ENABLED` switch. Run affected-template lint/render/content and verify that the still canvas, delayed `Image` load and noscript still are absent only on those groups while text, links, images and JSON-LD remain invariant. Commit and push this fallback before the next font-diagnostic sub-step.
 
 ## Remaining sequence
 
-1. Complete the six-route Task2 A/B run and commit/push raw data before any analysis.
-2. Report the per-route medians, IQRs, absolute LCP/TBT/CLS/transfer, ratios and unchanged budgets. Any still-bearing target that fails falls back to its plain palette hero; preserve the failure in the report.
-3. Reuse existing font-chain diagnostics and no-change experiment unless a new, justified candidate is proposed. Any font change requires a fresh interleaved A/B on Mysuru and the chosen article, with LCP improvement and CLS no worse.
-4. Run the full Phase32a verification suite once at the end, including lint/render, 258 browser cases, discovery/wording, sitemap, palette, schema, one-page-per-template axe and 360/768/1280 overflow checks.
-5. Update `CHANGELOG.md`, append any new blocker to `flagged-items-for-verification.md` without rewriting older entries, and create `reports/phase-32a-release-check.md` with a result per check, the before/after lab table, fallback templates and every changed path since `796879d`. No ZIP. Push the final checkpoint and PR #1 comment; do not merge.
+1. Apply and push the `place` and `article` palette fallback, as required by the unchanged median-based budgets.
+2. Diagnose place/article/Blog font chains, timings, weights, preloads, `font-display` and blocking CSS. Run a fresh interleaved Mysuru/article font candidate A/B; change no font unless it improves LCP with CLS no worse.
+3. Complete the all-43-route rendered text/link/image/JSON-LD comparison against the pre-phase render.
+4. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
+5. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
