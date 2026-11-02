@@ -54,14 +54,18 @@
 - Services and Contact are not byte-identical controls and the symmetric median-LCP control gate failed; this is recorded as a limitation, not a request to change those pages. `performance_release_certified=false` stays unchanged.
 - No font-chain decision or source change has been made yet.
 
+## 2026-11-02 checkpoint: measured palette fallback applied
+
+- Added `place` and `article` to `ILMERA_VISUAL_PLAIN_HERO_TEMPLATES` in `includes/visual-config.php`, using the existing palette fallback. `ILMERA_SCENES_ENABLED` remains the site-wide switch and stays enabled by default. Germany (`destination`) and Blog index (`blog`) still use the approved loader; no reference page changed.
+- Fast lint passed for shared files, route entries and affected data files. PHP-WASM rendered Mysuru and the choosing-consultant article HTTP 200. Both now contain no hero still canvas, still URL, delayed `Image` loader or noscript still. Protected text/order, title, headings, metadata, canonical, links, images and JSON-LD remain invariant against frozen A. Details: `reports/phase-32a-palette-fallback-check.md`.
+
 ## Exact next step
 
-Add the measured fallback for the `place` and `article` template groups using the existing plain-palette mechanism, without changing the site-wide `ILMERA_SCENES_ENABLED` switch. Run affected-template lint/render/content and verify that the still canvas, delayed `Image` load and noscript still are absent only on those groups while text, links, images and JSON-LD remain invariant. Commit and push this fallback before the next font-diagnostic sub-step.
+Diagnose font chains on place, article and Blog index: CSS and preload chains, requested weights, `font-display`, request timing and any blocking CSS. Then run a fresh interleaved local font candidate A/B on Mysuru and the choosing-consultant article, seven paired rounds with fresh Chromium per sample. Do not change fonts unless candidate LCP improves and CLS is no worse. Commit/push the diagnosis and raw font A/B before analysis.
 
 ## Remaining sequence
 
-1. Apply and push the `place` and `article` palette fallback, as required by the unchanged median-based budgets.
-2. Diagnose place/article/Blog font chains, timings, weights, preloads, `font-display` and blocking CSS. Run a fresh interleaved Mysuru/article font candidate A/B; change no font unless it improves LCP with CLS no worse.
-3. Complete the all-43-route rendered text/link/image/JSON-LD comparison against the pre-phase render.
-4. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
-5. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
+1. Diagnose fonts and run the fresh Mysuru/article candidate experiment; make no font change without the stated evidence.
+2. Complete the all-43-route rendered text/link/image/JSON-LD comparison against the pre-phase render.
+3. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
+4. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
