@@ -9,6 +9,17 @@ Phase32a used local simulated browser and Lighthouse evidence only. The six-rout
 - The runner raised `KeyError: 'runner_error'` after all check records were saved. The run JSON was finalized from those records, and the aggregate guard was corrected after the one run. The full suite was not repeated or resumed. Full per-check results and limitations are in `reports/phase-32a-release-check.md` and `reports/phase-32a-full-suite-run-01.json`.
 - `performance_release_certified=false` remains unchanged. Budgets were not weakened. No ZIP, reference-page change, merge or deployment occurred; no live or field performance claim is made.
 
+## Phase32a-2 targeted verification follow-up (2026-11-02)
+
+This follow-up supersedes the initial four-failure disposition above for three groups; each was actually rerun, and the original single full-suite execution was not repeated. The saved 24-group summary now reports 23 PASS and 1 FAIL, with the remaining axe finding explicitly retained rather than waived.
+
+- Discovery and publication wording both PASS through the restored external PHP-WASM runtime. The isolated palette rerun passed all 10 cases. All eight axe scans completed without a browser crash; baseline comparison found four added `color-contrast` nodes on Home/About reference controls and none on the four Phase32a target templates. The exact routes, rules, selectors and source lines are in `reports/phase-32a-release-check.md`.
+- The four reference-control findings are outside Phase32a source changes, so no public-site source fix was made. The final axe group remains FAIL baseline-relative. The saved-results summarizer recomputed all 24 groups without `KeyError`; the original runner error is preserved as historical evidence. No full-suite rerun occurred.
+- The frozen six-route speed data remains local simulated evidence for measured B source `b0dc265`, before the place/article plain-palette fallback. No post-fallback speed data exists for Mysuru or the selected article. Budgets remain unchanged and `performance_release_certified=false`.
+- The font request chain and fresh 28-sample candidate result support leaving font settings unchanged. No ZIP, reference-page change, merge or deployment occurred.
+
+See `reports/phase-32a-release-check.md`, `reports/phase-32a-2-rerun-results.json` and `reports/phase-32a-full-suite-run-01.json` for final results and details.
+
 ## Phase 31: visual spacing, static hero stills and verification (2026-10-29)
 
 Phase31 production changes were limited to the authorized responsive `#team` min-height adjustments on Home and About and a static, decorative hero still on destination, place, article and blog-index templates. The Home and About adjustments changed no content, links, images, FAQs, schema, canonicals, statuses, team-card text or padding. The Contact `#miniHero` first-fold space remains intentionally unchanged. The two existing still assets are reused: 1440px (37,226 bytes) and 720px (24,574 bytes). No other public-site source changed in Phase31b verification.
