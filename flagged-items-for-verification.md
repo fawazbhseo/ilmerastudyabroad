@@ -3917,3 +3917,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 
 - 28/28 samples passed, seven per arm on Mysuru and the choosing-consultant article, alternating order, fresh Chromium per sample, no retries. Raw `reports/phase-32a-font-ab-run-01-raw.json` SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769`.
 - This is local simulated Lighthouse only. Structural, affected PHP-WASM lint and content checks passed. No metric analysis has been performed yet. Push raw before analysis; no font change is authorized without improved LCP on both routes and CLS no worse on either.
+
+## Phase32a fresh font A/B decision - 2026-11-02
+
+- The pushed 28-sample raw capture was analyzed in `reports/phase-32a-font-ab-run-01-summary.md`; raw SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769` is unchanged. The `font-display:swap`/gate-removal candidate did not improve LCP on both routes: Mysuru median was lower by 0.03 ms, the article median was higher by 1.66 ms, and CLS medians stayed zero. IQRs were 628-703 ms. Keep current font files, families, weights, preloads, `font-display:block` and gate. No font change.

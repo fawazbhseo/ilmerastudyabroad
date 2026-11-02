@@ -80,21 +80,17 @@
 
 - The port-8093 fixture host served all four A/B page bodies byte-for-byte from the frozen font fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected.
 
-## 2026-11-02 checkpoint: fresh font A/B raw run complete
+## 2026-11-02 checkpoint: fresh font A/B analysis complete
 
-- Completed exactly 28/28 passing Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating order, fresh Chromium 143.0.7499.0 per sample, serial, no retries/resume.
-- Raw file: `reports/phase-32a-font-ab-run-01-raw.json`, 134,200 bytes, SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769`. Structural validation, affected PHP-WASM lints and two-route protected-content checks pass.
-- No LCP, CLS or candidate outcome statistics have been calculated. Raw must be pushed before analysis.
+- The 28-sample raw capture was pushed before analysis. Results are in `reports/phase-32a-font-ab-run-01-summary.md` and `.json`; raw SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769` is unchanged.
+- The candidate did not improve LCP on both routes: Mysuru median LCP was lower by only 0.03 ms, while the article median LCP was 1.66 ms higher. CLS medians remained zero on both. IQRs were 628-703 ms. Decision: retain the current font policy; no font files, families, weights, preloads, `font-display` or gate changed.
 
 ## Exact next step
 
-Commit and push this complete raw file and progress checkpoint. Only after the push, analyze per-route medians/IQRs and paired outcomes. Keep font files, families, weights and preloads unchanged unless the candidate improves LCP on both Mysuru and article and CLS is no worse on either.
+Complete the all-43-route rendered text, link-set, image-set and JSON-LD comparison against the pre-phase render at `796879d`, including the applied palette fallback. Freeze the pre-phase/current render inputs, verify source hashes, run the comparator and commit/push that comparison. Do not launch the full browser suite until this fast comparison is complete.
 
 ## Remaining sequence
 
-## Remaining sequence
-
-1. Run the fresh Mysuru/article font candidate experiment and report the no-change/change decision against the required rule.
-2. Complete the all-43-route rendered text/link/image/JSON-LD comparison against the pre-phase render.
-3. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
-4. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
+1. Complete and push the 43-route content comparison against `796879d`.
+2. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
+3. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.

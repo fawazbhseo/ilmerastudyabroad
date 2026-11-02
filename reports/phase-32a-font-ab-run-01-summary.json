@@ -1,0 +1,389 @@
+{
+  "phase": "32a",
+  "task": "fresh_font_candidate_ab_analysis",
+  "raw_path": "reports/phase-32a-font-ab-run-01-raw.json",
+  "raw_sha256": "23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769",
+  "raw_bytes": 134200,
+  "fixture_sha256": "734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231",
+  "A_source_commit": "4746142eaea674b66549d20d4352f720018adee7",
+  "candidate_description": "font-display:swap with body visibility gate removed",
+  "chromium": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "local_simulation_only": true,
+  "field_data": false,
+  "sample_count": 28,
+  "samples_per_arm_per_route": 7,
+  "rounds_interleaved": true,
+  "warnings": 0,
+  "quartiles": "Linear interpolation at (n - 1) * p",
+  "routes": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "A_current_font_policy": {
+        "lcp_ms": {
+          "n": 7,
+          "median": 1652.9160853145338,
+          "q1": 1577.5420384481984,
+          "q3": 2281.027420486857,
+          "iqr": 703.4853820386586,
+          "min": 1576.7837472415074,
+          "max": 2281.75627277898
+        },
+        "cls": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "tbt_ms": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "transfer_bytes": {
+          "n": 7,
+          "median": 233892.0,
+          "q1": 233892.0,
+          "q3": 233892.0,
+          "iqr": 0.0,
+          "min": 233892.0,
+          "max": 233892.0
+        },
+        "requests": {
+          "n": 7,
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0
+        }
+      },
+      "B_swap_candidate": {
+        "lcp_ms": {
+          "n": 7,
+          "median": 1652.8830853146892,
+          "q1": 1652.141585314615,
+          "q3": 2281.138704584171,
+          "iqr": 628.9971192695562,
+          "min": 1651.8261137524414,
+          "max": 2281.9642727788114
+        },
+        "cls": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "tbt_ms": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 29.0
+        },
+        "transfer_bytes": {
+          "n": 7,
+          "median": 233839.0,
+          "q1": 233839.0,
+          "q3": 233839.0,
+          "iqr": 0.0,
+          "min": 233839.0,
+          "max": 233839.0
+        },
+        "requests": {
+          "n": 7,
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0
+        }
+      },
+      "B_over_A_median_ratios": {
+        "lcp_ms": 0.9999800352842242,
+        "cls": null,
+        "tbt_ms": null,
+        "transfer_bytes": 0.9997733996887452,
+        "requests": 1.0
+      },
+      "paired_round": {
+        "LCP_B_minus_A": {
+          "n": 7,
+          "median": 0.2079999998313724,
+          "q1": -0.4772159025601468,
+          "q3": 75.13881108531757,
+          "iqr": 75.61602698787772,
+          "min": -628.5486192696667,
+          "max": 703.6564573427031
+        },
+        "LCP_B_over_A": {
+          "n": 7,
+          "median": 1.000091157851657,
+          "q1": 0.9997111578396166,
+          "q3": 1.0476403294891936,
+          "iqr": 0.047929171649576996,
+          "min": 0.7244261402312191,
+          "max": 1.4460760037518121
+        },
+        "CLS_B_minus_A": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "TBT_B_minus_A": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 29.0
+        },
+        "transfer_B_minus_A": {
+          "n": 7,
+          "median": -53.0,
+          "q1": -53.0,
+          "q3": -53.0,
+          "iqr": 0.0,
+          "min": -53.0,
+          "max": -53.0
+        }
+      },
+      "decision_components": {
+        "candidate_LCP_lower": true,
+        "candidate_CLS_median_no_worse": true
+      },
+      "font_candidate_qualifies": true,
+      "warnings": 0,
+      "font_request_counts": {
+        "A": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "B": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "render_blocking_urls": {
+        "A": [],
+        "B": []
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "A_current_font_policy": {
+        "lcp_ms": {
+          "n": 7,
+          "median": 1652.9830853146095,
+          "q1": 1652.3760995333882,
+          "q3": 2281.2067045842186,
+          "iqr": 628.8306050508304,
+          "min": 1651.9750853144365,
+          "max": 2281.2787045842406
+        },
+        "cls": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "tbt_ms": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 18.5,
+          "iqr": 18.5,
+          "min": 0.0,
+          "max": 30.0
+        },
+        "transfer_bytes": {
+          "n": 7,
+          "median": 241808.0,
+          "q1": 241808.0,
+          "q3": 241808.0,
+          "iqr": 0.0,
+          "min": 241808.0,
+          "max": 241808.0
+        },
+        "requests": {
+          "n": 7,
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0
+        }
+      },
+      "B_swap_candidate": {
+        "lcp_ms": {
+          "n": 7,
+          "median": 1654.644085314067,
+          "q1": 1652.6970995338297,
+          "q3": 2281.0497727789652,
+          "iqr": 628.3526732451355,
+          "min": 1651.8420853146572,
+          "max": 2281.068272779003
+        },
+        "cls": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "tbt_ms": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 5.0,
+          "iqr": 5.0,
+          "min": 0.0,
+          "max": 20.0
+        },
+        "transfer_bytes": {
+          "n": 7,
+          "median": 241755.0,
+          "q1": 241755.0,
+          "q3": 241755.0,
+          "iqr": 0.0,
+          "min": 241755.0,
+          "max": 241755.0
+        },
+        "requests": {
+          "n": 7,
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0
+        }
+      },
+      "B_over_A_median_ratios": {
+        "lcp_ms": 1.0010048499674402,
+        "cls": null,
+        "tbt_ms": null,
+        "transfer_bytes": 0.9997808178389466,
+        "requests": 1.0
+      },
+      "paired_round": {
+        "LCP_B_minus_A": {
+          "n": 7,
+          "median": -0.23143180534043495,
+          "q1": -0.883014218955509,
+          "q3": 1.2472840972241102,
+          "iqr": 2.130298316179619,
+          "min": -627.8275908312994,
+          "max": 628.9761874649198
+        },
+        "LCP_B_over_A": {
+          "n": 7,
+          "median": 0.9998985517180012,
+          "q1": 0.9994657587945663,
+          "q3": 1.0007695891489714,
+          "iqr": 0.0013038303544050667,
+          "min": 0.724778338784724,
+          "max": 1.3807186563961018
+        },
+        "CLS_B_minus_A": {
+          "n": 7,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "TBT_B_minus_A": {
+          "n": 7,
+          "median": 0.0,
+          "q1": -14.5,
+          "q3": 0.0,
+          "iqr": 14.5,
+          "min": -28.0,
+          "max": 20.0
+        },
+        "transfer_B_minus_A": {
+          "n": 7,
+          "median": -53.0,
+          "q1": -53.0,
+          "q3": -53.0,
+          "iqr": 0.0,
+          "min": -53.0,
+          "max": -53.0
+        }
+      },
+      "decision_components": {
+        "candidate_LCP_lower": false,
+        "candidate_CLS_median_no_worse": true
+      },
+      "font_candidate_qualifies": false,
+      "warnings": 0,
+      "font_request_counts": {
+        "A": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "B": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "render_blocking_urls": {
+        "A": [],
+        "B": []
+      }
+    }
+  ],
+  "candidate_qualifies_both_routes": false,
+  "decision": "KEEP_CURRENT_FONT_POLICY",
+  "decision_rule": "Candidate median LCP must be lower on both routes and candidate median CLS no worse on either.",
+  "font_source_change": "none, unless the two-route decision passes",
+  "performance_release_certified": false
+}
