@@ -83,7 +83,7 @@ def main():
  if OUT.exists():raise SystemExit(f'Refusing to repeat or resume the one full suite: {OUT} already exists')
  EVIDENCE.mkdir(parents=True,exist_ok=False)
  started=datetime.datetime.now(datetime.timezone.utc).isoformat();start=time.time();head=git('rev-parse','HEAD')
- report={'phase':'32a','task':'one_final_full_verification_suite','status':'RUNNING','started_at':started,'suite_head':head,'local_only':True,'live_or_production_claim':False,'no_resume_or_second_run':True,'evidence_directory_external':str(EVIDENCE),'requested_cases':{'normal_browser_matrix':258,'reduced_motion_representatives':48,'normal_scroll_widths':[360,768,1280],'axe_templates':['destination','place','article','blog-index','legal','utility']},'checks':[]}
+ report={'phase':'32a','task':'one_final_full_verification_suite','status':'RUNNING','started_at':started,'suite_head':head,'local_only':True,'live_or_production_claim':False,'no_resume_or_second_run':True,'runner_error':None,'evidence_directory_external':str(EVIDENCE),'requested_cases':{'normal_browser_matrix':258,'reduced_motion_representatives':48,'normal_scroll_widths':[360,768,1280],'axe_templates':['destination','place','article','blog-index','legal','utility']},'checks':[]}
  save(report)
  env=dict(os.environ,NODE_PATH='/home/user/phase32a-runtime/node_modules',PHASE32_RUNTIME=RUNTIME,PHASE31_RUNTIME=RUNTIME,PHASE31_EVIDENCE='/home/user/phase32a-runtime/phase32a-current-after-fallback-full',PHASE31_RENDER_DIR=str(RENDER_DIR),PHASE31_BASE_URL=BASE,PHASE32A_SUITE_EVIDENCE=str(EVIDENCE),PHASE32A_SUITE_RENDER_DIR=str(RENDER_DIR),PHASE32A_PALETTE_OUT=str(EVIDENCE/'palette.json'),PHASE32A_AXE_OUT=str(EVIDENCE/'axe.json'))
  try:
@@ -119,7 +119,7 @@ def main():
   run_command(report,'Git whitespace',['git','-c','core.whitespace=cr-at-eol','diff','--check'],env)
  except Exception as e:
   report['runner_error']=str(e);save(report)
- report['finished_at']=datetime.datetime.now(datetime.timezone.utc).isoformat();report['suite_seconds']=round(time.time()-start,2);report['completed_checks']=len(report['checks']);report['failed_checks']=[c['name'] for c in report['checks'] if c['status']!='PASS'];report['status']='PASS' if not report['runner_error'] and not report['failed_checks'] and len(report['checks'])==24 else 'FAIL';report['complete_no_skip_or_resume']=True;save(report)
+ report['finished_at']=datetime.datetime.now(datetime.timezone.utc).isoformat();report['suite_seconds']=round(time.time()-start,2);report['completed_checks']=len(report['checks']);report['failed_checks']=[c['name'] for c in report['checks'] if c['status']!='PASS'];report['status']='PASS' if not report.get('runner_error') and not report['failed_checks'] and len(report['checks'])==24 else 'FAIL';report['complete_no_skip_or_resume']=True;save(report)
  print(f"PHASE32A FINAL SUITE {report['status']}: {report['completed_checks']} checks, failed={len(report['failed_checks'])}, {report['suite_seconds']}s",flush=True)
  if report['failed_checks'] or report.get('runner_error'):sys.exit(1)
 if __name__=='__main__':main()

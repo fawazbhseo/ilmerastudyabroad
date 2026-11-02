@@ -98,11 +98,19 @@
 - Added `tools/phase32a/run_full_suite.py`, a serial no-resume runner with 24 named checks. It reuses the already-verified current 43-route render/content comparison as its render and structured-data evidence, runs the 258-case normal matrix plus reduced-motion representatives, no-overflow checks, sitemap, palette, wording/discovery and axe. No full-suite check has started.
 - Current PHP-WASM adapter remains at `0.0.0.0:8094`; its rendered source is `ba5e97d`, with no runtime source changes since.
 
+## 2026-11-02 checkpoint: one final full suite completed
+
+- Exactly one serial, no-resume run completed all 24 checks. Result: 20 PASS and 4 FAIL. The suite is local-only and does not certify live/native hosting or field performance. `performance_release_certified=false` remains unchanged.
+- PASS: PHP-WASM lint of 100 tracked PHP files; all static discovery, strict wording, citations, Italy claims, LLM directory/policy, content presence, duplicate-answer, team biography and public exposure tests; rendered Italy and Phase19 policies; technical SEO/sitemap routes; Phase20 inventory; exact 38-URL sitemap; 43-route structured-data parity; 258 normal browser cases plus 48 reduced-motion representatives (306 total), with zero overflow and zero hidden text; Git whitespace.
+- FAIL: rendered discovery and rendered publication wording checks both stopped because the native `php` executable is absent from PATH. Final palette scope stopped after `/study-in-germany` at 360px passed, when the next Playwright context failed with `Target page, context or browser has been closed`. Axe scanned the destination representative with zero violation nodes, then failed creating the next context with the same browser-closed error; no axe summary JSON was produced. These are incomplete checks, not site-content passes.
+- After all 24 records were saved, the runner's final aggregation raised `KeyError: 'runner_error'`. `reports/phase-32a-full-suite-run-01.json` has been finalized from the saved check records and records this error and the four failed checks. The runner's aggregation guard was corrected after the run only; the full suite was not rerun, resumed or skipped.
+- Per-check logs and the 306-case browser matrix are retained under `/home/user/phase32a-runtime/phase32a-full-suite-run01/`. No runtime source changed during the suite.
+
 ## Exact next step
 
-Commit and push the final-suite harness and this checkpoint. Then launch `tools/phase32a/run_full_suite.py` once, serially. Do not modify runtime source during the run and do not retry/resume if any check fails. Preserve the JSON result and external per-check logs, then create the final release-check report and update `CHANGELOG.md`.
+Create `reports/phase-32a-release-check.md` with the per-check results, both local lab tables, palette fallbacks and the complete changed-file list since `796879d`. Append the suite exceptions to `flagged-items-for-verification.md`, update `CHANGELOG.md`, then push the final documentation checkpoint and comment on PR #1. Do not merge or deploy.
 
 ## Remaining sequence
 
-1. Run and preserve the one final full-suite result.
-2. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab tables, palette fallbacks and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
+1. Finalize and push the release report, flags and changelog without rerunning the suite.
+2. Post the requested PR #1 checkpoint comment. No ZIP, merge, deployment, reference-page change or budget change.

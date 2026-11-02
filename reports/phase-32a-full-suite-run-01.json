@@ -1,0 +1,370 @@
+{
+  "phase": "32a",
+  "task": "one_final_full_verification_suite",
+  "status": "FAIL",
+  "started_at": "2026-11-02T05:05:58.955263+00:00",
+  "suite_head": "2ee711c2cc52c30a0f8d8aff2ae86ad2e03f39e4",
+  "local_only": true,
+  "live_or_production_claim": false,
+  "no_resume_or_second_run": true,
+  "evidence_directory_external": "/home/user/phase32a-runtime/phase32a-full-suite-run01",
+  "requested_cases": {
+    "normal_browser_matrix": 258,
+    "reduced_motion_representatives": 48,
+    "normal_scroll_widths": [
+      360,
+      768,
+      1280
+    ],
+    "axe_templates": [
+      "destination",
+      "place",
+      "article",
+      "blog-index",
+      "legal",
+      "utility"
+    ]
+  },
+  "checks": [
+    {
+      "name": "43-route current render and content inputs",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:05:58.958180+00:00",
+      "duration_seconds": 0.05,
+      "render_source_head": "ba5e97dc4038bae315ae5612ad9a5ef5061f9ea0",
+      "suite_head": "2ee711c2cc52c30a0f8d8aff2ae86ad2e03f39e4",
+      "routes": 43,
+      "http_200": 43,
+      "runtime_unchanged": true,
+      "render_index_sha256": "d8c9a1f5b4aed2fd823e5dc79e77ba571d58777909e66d3e103d0bdc28eeac79",
+      "content_comparison_report": "reports/phase-32a-43-route-content-comparison.json",
+      "protected_content_failures": 0
+    },
+    {
+      "name": "PHP-WASM lint all tracked PHP",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:05:59.004887+00:00",
+      "duration_seconds": 69.82,
+      "php_files": 100,
+      "failures": [],
+      "full_results": "/home/user/phase32a-runtime/phase32a-full-suite-run01/php-lint.json",
+      "runtime": "PHP 8.5.8 WASM CLI via @php-wasm/cli 3.1.50"
+    },
+    {
+      "name": "Static discovery tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:08.826502+00:00",
+      "duration_seconds": 0.12,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_discovery.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/static-discovery-tests.log",
+      "tail": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.005s\n\nOK\n"
+    },
+    {
+      "name": "Strict wording tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:08.947703+00:00",
+      "duration_seconds": 0.09,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_wording.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/strict-wording-tests.log",
+      "tail": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "Citations tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.037916+00:00",
+      "duration_seconds": 0.09,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_citations.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/citations-tests.log",
+      "tail": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "Italy claims tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.127497+00:00",
+      "duration_seconds": 0.08,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_italy_claims.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/italy-claims-tests.log",
+      "tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "LLM directory tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.203067+00:00",
+      "duration_seconds": 0.14,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_llm_directory.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/llm-directory-tests.log",
+      "tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "name": "LLM policy tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.345777+00:00",
+      "duration_seconds": 0.43,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_llm_policy.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/llm-policy-tests.log",
+      "tail": "............\n----------------------------------------------------------------------\nRan 12 tests in 0.353s\n\nOK\n"
+    },
+    {
+      "name": "Content presence tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.780405+00:00",
+      "duration_seconds": 0.09,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_presence.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/content-presence-tests.log",
+      "tail": ".........\n----------------------------------------------------------------------\nRan 9 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "name": "Duplicate answer tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.867877+00:00",
+      "duration_seconds": 0.05,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_duplicate_answers.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/duplicate-answer-tests.log",
+      "tail": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "Team biography policy tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:09.922503+00:00",
+      "duration_seconds": 0.1,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_team_bio_policy.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/team-biography-policy-tests.log",
+      "tail": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.012s\n\nOK\n"
+    },
+    {
+      "name": "Public exposure tests",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:10.027792+00:00",
+      "duration_seconds": 0.08,
+      "command": [
+        "/usr/bin/python3",
+        "tools/test_public_exposure.py"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/public-exposure-tests.log",
+      "tail": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "name": "Rendered discovery routes",
+      "status": "FAIL",
+      "started_at": "2026-11-02T05:07:10.111471+00:00",
+      "duration_seconds": 1.41,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_discovery.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 1,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-discovery-routes.log",
+      "tail": "e_url, args.root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n"
+    },
+    {
+      "name": "Rendered publication wording review",
+      "status": "FAIL",
+      "started_at": "2026-11-02T05:07:11.522846+00:00",
+      "duration_seconds": 1.49,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_publication_review.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 1,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-publication-wording-review.log",
+      "tail": "k(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 298, in check\n    llm_directory = check_llm_directory(base, root)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 238, in check\n    assert body.decode().endswith(entity_reference(root)), (name, 'Canonical entity mismatch')\n                                  ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/build_llms_directory.py\", line 216, in entity_reference\n    registration = json.loads(subprocess.check_output(['php', '-r', 'require \"includes/proof.php\"; echo json_encode(ilmera_registration_public());'], cwd=root))\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.11/subprocess.py\", line 1024, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib/python3.11/subprocess.py\", line 1901, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'php'\n"
+    },
+    {
+      "name": "Rendered Italy claim policy",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:13.010540+00:00",
+      "duration_seconds": 0.41,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_italy_claims.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-italy-claim-policy.log",
+      "tail": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6, '/llms.txt': 2, '/llms-full.txt': 1} total 22\n"
+    },
+    {
+      "name": "Rendered Phase19 policy",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:13.416158+00:00",
+      "duration_seconds": 0.42,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_phase19.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/rendered-phase19-policy.log",
+      "tail": "PASS {'published_pages': 38, 'unique_short_metadata': True, 'one_h1': True, 'primary_in_heading_and_opening': True, 'destination_data_byte_identical': True}\n"
+    },
+    {
+      "name": "Technical SEO and sitemap routes",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:13.839538+00:00",
+      "duration_seconds": 0.41,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_technical_seo.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/technical-seo-and-sitemap-routes.log",
+      "tail": "PASS {\"pages\": 38, \"heading_order\": \"PASS\", \"breadcrumb_visible_schema_parity\": \"PASS\", \"image_instances\": 88, \"image_alt_dimensions_loading\": \"PASS\", \"max_click_depth\": 1, \"orphans\": 0, \"canonical_targets_direct_200\": true, \"existing_external_font_stylesheets\": [], \"native_redirect_chains_verified\": false, \"live_performance_verified\": false}\n"
+    },
+    {
+      "name": "Phase20 content inventory",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:14.250490+00:00",
+      "duration_seconds": 0.29,
+      "command": [
+        "/usr/bin/python3",
+        "tools/check_phase20.py",
+        "--base-url",
+        "http://127.0.0.1:8094"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/phase20-content-inventory.log",
+      "tail": "PASS {\"published_pages\": 38, \"unique_primaries\": 38, \"changed_primaries\": 0, \"document_fragments\": 17, \"prompts\": 50, \"prompt_statuses\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"protected_files\": 33, \"destination_and_location_data_unchanged\": true}\n"
+    },
+    {
+      "name": "Sitemap exactness and 38 unique URLs",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:14.538645+00:00",
+      "duration_seconds": 0.0,
+      "A_sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+      "B_sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+      "byte_identical": true,
+      "url_count": 38,
+      "unique_urls": 38
+    },
+    {
+      "name": "All-43-route structured data parity",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:14.539784+00:00",
+      "duration_seconds": 0.0,
+      "routes": 43,
+      "json_ld_mismatches": 0,
+      "source_report": "reports/phase-32a-43-route-content-comparison.json"
+    },
+    {
+      "name": "Final palette and fallback scope",
+      "status": "FAIL",
+      "started_at": "2026-11-02T05:07:14.540625+00:00",
+      "duration_seconds": 2.57,
+      "command": [
+        "node",
+        "tools/phase32a/palette_check.cjs"
+      ],
+      "exit_code": 1,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/final-palette-and-fallback-scope.log",
+      "tail": "PALETTE /study-in-germany 360 PASS\nbrowserContext.newPage: Target page, context or browser has been closed\n    at /home/user/ilmerastudyabroad/tools/phase32a/palette_check.cjs:24:146\n"
+    },
+    {
+      "name": "258-case browser matrix and no-overflow",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:07:17.115924+00:00",
+      "duration_seconds": 1735.9,
+      "command": [
+        "node",
+        "tools/phase31/browser-suite.cjs",
+        "--out",
+        "/home/user/phase32a-runtime/phase32a-full-suite-run01/browser-matrix.json",
+        "--require-visible"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/258-case-browser-matrix-and-no-overflow.log",
+      "tail": "WSER 288/306 /study-in-germany 1280 JS-off reduced h=5937 hidden=0\nBROWSER 289/306 /study-abroad-counselling-mysuru 360 JS-on reduced h=6860 hidden=0\nBROWSER 290/306 /study-abroad-counselling-mysuru 360 JS-off reduced h=6860 hidden=0\nBROWSER 291/306 /study-abroad-counselling-mysuru 768 JS-on reduced h=4533 hidden=0\nBROWSER 292/306 /study-abroad-counselling-mysuru 768 JS-off reduced h=4533 hidden=0\nBROWSER 293/306 /study-abroad-counselling-mysuru 1280 JS-on reduced h=4538 hidden=0\nBROWSER 294/306 /study-abroad-counselling-mysuru 1280 JS-off reduced h=4538 hidden=0\nBROWSER 295/306 /blog/how-to-choose-study-abroad-consultant-karnataka 360 JS-on reduced h=12537 hidden=0\nBROWSER 296/306 /blog/how-to-choose-study-abroad-consultant-karnataka 360 JS-off reduced h=12537 hidden=0\nBROWSER 297/306 /blog/how-to-choose-study-abroad-consultant-karnataka 768 JS-on reduced h=7719 hidden=0\nBROWSER 298/306 /blog/how-to-choose-study-abroad-consultant-karnataka 768 JS-off reduced h=7719 hidden=0\nBROWSER 299/306 /blog/how-to-choose-study-abroad-consultant-karnataka 1280 JS-on reduced h=7976 hidden=0\nBROWSER 300/306 /blog/how-to-choose-study-abroad-consultant-karnataka 1280 JS-off reduced h=7976 hidden=0\nBROWSER 301/306 /blog/ 360 JS-on reduced h=6400 hidden=0\nBROWSER 302/306 /blog/ 360 JS-off reduced h=6400 hidden=0\nBROWSER 303/306 /blog/ 768 JS-on reduced h=4567 hidden=0\nBROWSER 304/306 /blog/ 768 JS-off reduced h=4567 hidden=0\nBROWSER 305/306 /blog/ 1280 JS-on reduced h=3400 hidden=0\nBROWSER 306/306 /blog/ 1280 JS-off reduced h=3400 hidden=0\nBROWSER SUITE PASS 306 cases; targets=5670 hidden=0\n",
+      "normal_cases": 258,
+      "reduced_motion_cases": 48,
+      "total_cases": 306,
+      "horizontal_overflow_cases": 0
+    },
+    {
+      "name": "Axe representative pages, one per template",
+      "status": "FAIL",
+      "started_at": "2026-11-02T05:36:13.038573+00:00",
+      "duration_seconds": 4.03,
+      "command": [
+        "node",
+        "tools/phase32a/axe_template_check.cjs"
+      ],
+      "exit_code": 1,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/axe-representative-pages,-one-per-template.log",
+      "tail": "popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --ash-no-nudges --disable-domain-reliability --disable-print-preview --disk-cache-size=33554432 --no-default-browser-check --no-pings --single-process --font-render-hinting=none --disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process --enable-features=SharedArrayBuffer --ignore-gpu-blocklist --in-process-gpu --use-gl=angle --use-angle=swiftshader --enable-unsafe-swiftshader --allow-running-insecure-content --disable-setuid-sandbox --disable-site-isolation-trials --disable-web-security --headless='shell' --no-sandbox --no-zygote --user-data-dir=/tmp/playwright_chromiumdev_profile-Bu1xdW --remote-debugging-pipe --no-startup-window\n<launched> pid=87144\n[pid=87144][err] [1102/053613.581387:ERROR:../third_party/blink/renderer/platform/fonts/linux/font_unique_name_lookup_linux.cc:21] @font-face src: local() instantiation only available when connected to browser process.\n    at /home/user/ilmerastudyabroad/tools/phase32a/axe_template_check.cjs:14:181\n"
+    },
+    {
+      "name": "Git whitespace",
+      "status": "PASS",
+      "started_at": "2026-11-02T05:36:17.073467+00:00",
+      "duration_seconds": 0.01,
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "/home/user/phase32a-runtime/phase32a-full-suite-run01/git-whitespace.log",
+      "tail": ""
+    }
+  ],
+  "runner_error": "KeyError: 'runner_error' in final aggregation after all 24 check records were saved; this is a runner bookkeeping failure, not an additional check.",
+  "finished_at": "2026-11-02T05:36:17.083467+00:00",
+  "suite_seconds": 1818.13,
+  "completed_checks": 24,
+  "failed_checks": [
+    "Rendered discovery routes",
+    "Rendered publication wording review",
+    "Final palette and fallback scope",
+    "Axe representative pages, one per template"
+  ],
+  "complete_no_skip_or_resume": true,
+  "suite_exit_code": 1,
+  "result_finalization": "MANUALLY_FINALIZED_FROM_SAVED_CHECKS_AFTER_RUNNER_AGGREGATION_ERROR",
+  "result_finalization_note": "All 24 checks completed and were saved. The runner crashed while calculating the aggregate because runner_error was not initialized. The JSON summary was finalized from the saved records after process exit. The suite was not resumed or rerun."
+}
