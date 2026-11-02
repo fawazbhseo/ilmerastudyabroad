@@ -3877,3 +3877,7 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a measurement runner checkpoint - 2026-11-02
 
 - `tools/phase32a/ab-runner.cjs` is a raw-only local measurement harness, syntax-checked against the pinned runtime. It requires the frozen fixture hash, verifies each served A/B body, launches a fresh Chromium process for every sample, runs 84 samples serially and does not retry/resume. No measurement has started. Raw evidence must be pushed before a separate analysis step; medians, ratios and budget outcomes are intentionally excluded from the raw file.
+
+## Phase32a local measurement preflight - 2026-11-02
+
+- Fixture host on `127.0.0.1:8092` served all six A and B pages byte-for-byte identical to the frozen fixture; pinned Chromium 143.0.7499.0 launched and connected. Preflight collected zero Lighthouse samples. See `reports/phase-32a-progress.md`. Next is the fresh 84-sample run, with raw push required before analysis.

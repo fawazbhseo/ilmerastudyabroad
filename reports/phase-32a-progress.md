@@ -35,9 +35,14 @@
 - The run records 84 raw Lighthouse samples only, serially, with fresh Chromium per sample, seven samples per arm per route, alternating order, no retry/resume. It retains absolute metrics, network/request, blocking, still/font timing details and warnings. It does not compute medians, IQRs, ratios or budget outcomes.
 - Raw destination: `reports/phase-32a-6-route-ab-run-01-raw.json`. Analysis must not begin until that complete raw file is committed and pushed.
 
+## 2026-11-02 checkpoint: fixture and Chromium preflight passed
+
+- Started the isolated six-route fixture host on `127.0.0.1:8092` from the frozen external fixture.
+- `ab-runner.cjs --preflight-only` passed: all 12 A/B route responses exactly match the frozen fixture bodies, and the pinned Chromium 143.0.7499.0 launches and connects. Zero Lighthouse samples were collected.
+
 ## Exact next step
 
-Start the pinned fixture server on local port 8092 and run `ab-runner.cjs --preflight-only`. If it passes, record and push that checkpoint, then run the fresh 84-sample local A/B experiment. Keep the unchanged budgets, no production network/field claims, no retry or resume, no ZIP, and no reference-page source change.
+Run the 84-sample local Lighthouse mobile A/B experiment, serially, against the frozen six-route fixture. Seven samples per arm per route, alternating order, fresh Chromium process per sample, no retries or resume. After completion, validate only raw completeness and run the fast affected-route checks, then commit and push the raw JSON plus progress before deriving any statistics. No ZIP, no reference-page source change, and no claim of live/field performance.
 
 ## Remaining sequence
 
