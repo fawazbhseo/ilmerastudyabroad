@@ -40,9 +40,15 @@
 - Started the isolated six-route fixture host on `127.0.0.1:8092` from the frozen external fixture.
 - `ab-runner.cjs --preflight-only` passed: all 12 A/B route responses exactly match the frozen fixture bodies, and the pinned Chromium 143.0.7499.0 launches and connects. Zero Lighthouse samples were collected.
 
+## 2026-11-02 checkpoint: six-route A/B raw run complete
+
+- Completed exactly 84/84 Lighthouse samples: six routes, seven samples per arm per route, alternating A/B order, a fresh Chromium 143.0.7499.0 process per sample, serial, zero retries/resumes. All samples passed. This is a local simulated mobile lab run only, not field data.
+- Raw JSON: `reports/phase-32a-6-route-ab-run-01-raw.json`, 352,597 bytes, SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875`. Structural validation, six affected-file PHP-WASM lints, six route HTTP checks, and the six-route content invariants passed.
+- No medians, IQRs, ratios or budget outcomes have been calculated. Raw data must be pushed first.
+
 ## Exact next step
 
-Run the 84-sample local Lighthouse mobile A/B experiment, serially, against the frozen six-route fixture. Seven samples per arm per route, alternating order, fresh Chromium process per sample, no retries or resume. After completion, validate only raw completeness and run the fast affected-route checks, then commit and push the raw JSON plus progress before deriving any statistics. No ZIP, no reference-page source change, and no claim of live/field performance.
+Commit and push the complete raw JSON with this progress checkpoint, then post the PR #1 checkpoint. Only after the push, analyze the sample-level metrics into absolute LCP/TBT/CLS/transfer and per-route medians, IQRs, ratios, budget results, request/font/still/blocking/warning findings. No ZIP, no reference-page source change, and no live/field performance claim.
 
 ## Remaining sequence
 

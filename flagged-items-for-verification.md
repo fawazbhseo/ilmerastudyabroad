@@ -3881,3 +3881,8 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a local measurement preflight - 2026-11-02
 
 - Fixture host on `127.0.0.1:8092` served all six A and B pages byte-for-byte identical to the frozen fixture; pinned Chromium 143.0.7499.0 launched and connected. Preflight collected zero Lighthouse samples. See `reports/phase-32a-progress.md`. Next is the fresh 84-sample run, with raw push required before analysis.
+
+## Phase32a six-route raw A/B run complete - 2026-11-02
+
+- Raw run `reports/phase-32a-6-route-ab-run-01-raw.json` contains 84/84 passing samples, seven A and seven B per route. It used fresh Chromium per sample with alternating order and no retries. SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875`.
+- This is a local simulated lab run, not field data. No medians, IQRs, ratios or budget analysis has been performed. Push the raw artifact before analyzing it. The associated fast lints, six route checks and content invariants passed.
