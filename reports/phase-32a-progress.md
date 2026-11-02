@@ -85,12 +85,17 @@
 - The 28-sample raw capture was pushed before analysis. Results are in `reports/phase-32a-font-ab-run-01-summary.md` and `.json`; raw SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769` is unchanged.
 - The candidate did not improve LCP on both routes: Mysuru median LCP was lower by only 0.03 ms, while the article median LCP was 1.66 ms higher. CLS medians remained zero on both. IQRs were 628-703 ms. Decision: retain the current font policy; no font files, families, weights, preloads, `font-display` or gate changed.
 
+## 2026-11-02 checkpoint: all-43-route content comparison complete
+
+- Compared the frozen pre-phase A render at `796879d` with a fresh 43-route PHP-WASM render of the current B source, including the `place` and `article` palette fallback. Result: 43/43 HTTP 200, zero protected-content invariant failures, zero byte-identical HTML responses as expected for visual markup differences.
+- Text/order, title, headings, meta, robots, canonical, anchor attributes/text/order, image/picture-source attributes and JSON-LD all match on every route. Sitemap is byte-identical to A, with 38 unique URLs and SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`.
+- Full report and per-route hashes: `reports/phase-32a-43-route-content-comparison.md` and `.json`. Rendered B source head `ba5e97d`; runtime source remained unchanged through comparison.
+
 ## Exact next step
 
-Complete the all-43-route rendered text, link-set, image-set and JSON-LD comparison against the pre-phase render at `796879d`, including the applied palette fallback. Freeze the pre-phase/current render inputs, verify source hashes, run the comparator and commit/push that comparison. Do not launch the full browser suite until this fast comparison is complete.
+Run the specified full Phase32a suite exactly once, after the completed small-step checks. Reuse the verified current 43-route render/content comparison, and execute the PHP-WASM lint, 258 normal browser cases plus reduced-motion representatives, discovery and strict wording, sitemap, current palette/fallback checks, structured-data validation, axe on one page per template, and no-horizontal-scroll checks at 360/768/1280. Do not change runtime sources during the suite. Record every check result and any failure; if a check fails, report it without rerunning the full suite.
 
 ## Remaining sequence
 
-1. Complete and push the 43-route content comparison against `796879d`.
-2. Run the specified full suite exactly once at the end: lint, renders, 258 browser cases, discovery, strict wording, sitemap, palette, structured data, axe on one page per template and 360/768/1280 overflow.
-3. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab table, palette fallback and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
+1. Run and preserve the one final full-suite result.
+2. Update `CHANGELOG.md`, append flags without rewriting old blockers, and create `reports/phase-32a-release-check.md` with each check, lab tables, palette fallbacks and every changed file since `796879d`. Push the final checkpoint and PR #1 comment; do not merge or deploy.
