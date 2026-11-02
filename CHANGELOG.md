@@ -1,5 +1,14 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase32a: measured fallback and final release verification (2026-11-02)
+
+Phase32a used local simulated browser and Lighthouse evidence only. The six-route A/B required the existing plain-palette hero fallback for the `place` and `article` template groups. The site-wide `ILMERA_SCENES_ENABLED` switch remains enabled. The fresh 28-sample font candidate A/B did not improve LCP on both routes, so no font policy or font source change was made.
+
+- The all-43-route rendered-content comparison passed against pre-phase A at `796879d`: 43/43 HTTP 200, zero protected invariant failures, and a byte-identical sitemap with 38 unique URLs. Protected wording, titles, headings, metadata, links, images, schema, canonicals and statuses were preserved.
+- The one final 24-check suite recorded 20 PASS and 4 FAIL. The 306-case normal/reduced-motion browser matrix passed with zero overflow and zero hidden main text; PHP-WASM lint passed for 100 tracked PHP files. Rendered discovery and publication wording checks could not find a native `php` executable. The final palette and axe checks stopped after their first browser cases because the Playwright browser/context closed. These failures are documented and are not reclassified as passes.
+- The runner raised `KeyError: 'runner_error'` after all check records were saved. The run JSON was finalized from those records, and the aggregate guard was corrected after the one run. The full suite was not repeated or resumed. Full per-check results and limitations are in `reports/phase-32a-release-check.md` and `reports/phase-32a-full-suite-run-01.json`.
+- `performance_release_certified=false` remains unchanged. Budgets were not weakened. No ZIP, reference-page change, merge or deployment occurred; no live or field performance claim is made.
+
 ## Phase 31: visual spacing, static hero stills and verification (2026-10-29)
 
 Phase31 production changes were limited to the authorized responsive `#team` min-height adjustments on Home and About and a static, decorative hero still on destination, place, article and blog-index templates. The Home and About adjustments changed no content, links, images, FAQs, schema, canonicals, statuses, team-card text or padding. The Contact `#miniHero` first-fold space remains intentionally unchanged. The two existing still assets are reused: 1440px (37,226 bytes) and 720px (24,574 bytes). No other public-site source changed in Phase31b verification.

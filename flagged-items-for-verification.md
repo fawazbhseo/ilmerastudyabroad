@@ -3930,3 +3930,11 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a final-suite harness prepared - 2026-11-02
 
 - `tools/phase32a/run_full_suite.py` is the one-time, serial, no-resume 24-check runner. It reuses the current all-43-route render/content comparison; the final live adapter is on `0.0.0.0:8094`, rendered from `ba5e97d`, with no runtime source changes since. The final palette script verifies retained/fallback templates, sizes/dimensions and reduced-motion behavior; axe covers destination/place/article/Blog/legal/utility representatives. No full-suite check has run yet. Do not rerun the full suite if any check fails.
+
+## Phase32a final-suite exceptions - 2026-11-02
+
+- The single final suite run completed and recorded all 24 checks: 20 PASS and 4 FAIL. Do not rerun or resume this suite. Its complete record is `reports/phase-32a-full-suite-run-01.json`; per-check logs remain at `/home/user/phase32a-runtime/phase32a-full-suite-run01/`.
+- Rendered discovery and rendered publication wording checks failed because their helper invokes native `php`, which is absent from PATH. PHP-WASM lint passed for 100 tracked PHP files, but it does not make these rendered checks pass. A future verification must provide the required executable or an explicitly compatible helper; do not waive or relabel either failure.
+- The final palette check completed only `/study-in-germany` at 360px before Playwright reported `Target page, context or browser has been closed`. The axe check logged the destination representative with zero violation nodes, then failed creating its next context; the remaining representatives were not scanned and no axe summary JSON exists. Do not infer a full palette pass or zero-violation result from these partial scans. Earlier affected-template render and all-43-route content evidence remain recorded separately.
+- After all check records were saved, suite aggregation raised `KeyError: 'runner_error'`. The result JSON was finalized from the saved records, and the runner aggregation guard was corrected after the run only. The one full suite was not rerun, resumed or skipped.
+- Keep `performance_release_certified=false` and all established budgets unchanged. No native-host or live performance verification is claimed. No ZIP, reference-page change, merge or deployment occurred.

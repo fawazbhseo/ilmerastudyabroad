@@ -119,3 +119,10 @@ Create `reports/phase-32a-release-check.md` with the per-check results, both loc
 
 - Pushed commit `0eb5a91` on `arena/48320ee5-ilmerastudyabroad`. It preserves all 24 check records, the 20/4 outcome and external evidence references; `run_full_suite.py` now initializes and safely reads the aggregate error field. This tool-only repair was made after the one run. No suite rerun or resume occurred.
 - Exact next step: write and push the final release report, changelog and appended verification flags; then comment on PR #1. Do not merge or deploy.
+
+
+## 2026-11-02 checkpoint: final release documentation prepared
+
+- Created `reports/phase-32a-release-check.md` with all 24 check outcomes, local six-route and font A/B tables, configured palette fallbacks, suite limitations and the changed-file inventory since `796879d`.
+- Added the Phase32a summary to `CHANGELOG.md` and appended the final environment/browser/runner exceptions to `flagged-items-for-verification.md` without rewriting prior blockers. `performance_release_certified=false` remains unchanged.
+- Exact next step: push this documentation checkpoint, then post the requested PR #1 comment. Do not merge or deploy.
