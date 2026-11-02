@@ -3912,3 +3912,8 @@ This appended record summarizes local Phase31 evidence only. It does not close, 
 ## Phase32a font fixture preflight - 2026-11-02
 
 - The isolated port-8093 host served all four candidate A/B page bodies byte-for-byte from the frozen fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected. The 28-sample fresh font experiment is next; no font change is made before its raw evidence is pushed and analyzed.
+
+## Phase32a fresh font A/B raw run complete - 2026-11-02
+
+- 28/28 samples passed, seven per arm on Mysuru and the choosing-consultant article, alternating order, fresh Chromium per sample, no retries. Raw `reports/phase-32a-font-ab-run-01-raw.json` SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769`.
+- This is local simulated Lighthouse only. Structural, affected PHP-WASM lint and content checks passed. No metric analysis has been performed yet. Push raw before analysis; no font change is authorized without improved LCP on both routes and CLS no worse on either.

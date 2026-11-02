@@ -80,9 +80,17 @@
 
 - The port-8093 fixture host served all four A/B page bodies byte-for-byte from the frozen font fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected.
 
+## 2026-11-02 checkpoint: fresh font A/B raw run complete
+
+- Completed exactly 28/28 passing Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating order, fresh Chromium 143.0.7499.0 per sample, serial, no retries/resume.
+- Raw file: `reports/phase-32a-font-ab-run-01-raw.json`, 134,200 bytes, SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769`. Structural validation, affected PHP-WASM lints and two-route protected-content checks pass.
+- No LCP, CLS or candidate outcome statistics have been calculated. Raw must be pushed before analysis.
+
 ## Exact next step
 
-Run exactly 28 fresh local Lighthouse samples: Mysuru and the choosing-consultant article, seven A and seven candidate samples per route, alternating pair order, one fresh Chromium per sample, serial, no retry or resume. Save and push raw data plus progress before analysis. Adopt no font change unless LCP improves on both routes and CLS is no worse.
+Commit and push this complete raw file and progress checkpoint. Only after the push, analyze per-route medians/IQRs and paired outcomes. Keep font files, families, weights and preloads unchanged unless the candidate improves LCP on both Mysuru and article and CLS is no worse on either.
+
+## Remaining sequence
 
 ## Remaining sequence
 
