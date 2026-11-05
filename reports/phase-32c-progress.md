@@ -23,6 +23,14 @@
 - The external pinned runtime directories `/home/user/phase32-runtime` and `/home/user/phase32a-runtime` are absent. The repository contains the Phase31 accessibility/render/target baselines and prior Phase32 scene smoke records. No new browser run has occurred.
 - No public source edit has been made.
 
+## 2026-11-05 checkpoint: pinned runtime restored
+
+- Restored the pinned PHP-WASM 8.5.8 CLI and PHP-WASM adapter packages, Playwright 1.58.2, Chromium 143.0.7499.0, Lighthouse 12.8.2, axe-core 4.11.0, local Three.js/GSAP mirrors, PNG tooling and image tooling under `/home/user/phase32c-runtime`, outside the repository. The external `php` shim successfully required `includes/proof.php`.
+- Started the current PHP-WASM adapter on port 8094. PHP lint passed for `includes/visual-system.php`, `includes/visual-config.php`, `index.php` and `about.php`; current Home and About rendered HTTP 200. An About 1280px browser smoke with the local scene mirrors waited 3.2 seconds and reported no page or console errors.
+- One preliminary browser smoke that reused a browser across contexts hit a browser-closed error after Home. A fresh independent process then rendered About successfully. The actual audit will use a new Chromium process for each requested case and record any crash/retry.
+- Exported source trees outside Git for `75f355f`, `796879d`, the literal first commit after baseline `d0b7726`, first Phase32 public-runtime source commit `2722901`, reference scene defer commit `d4b376e`, and pre-Phase32c HEAD `f9c96ca`.
+- No public source edit or screenshot evidence has been made yet.
+
 ## Exact next step
 
-Restore the pinned PHP-WASM and Chromium/Playwright runtime outside Git, confirm the adapter can render Home and About, and export temporary source trees for `75f355f`, `796879d`, `2722901` and the pre-Phase32c HEAD `f9c96ca`. Then run the current contrast reproduction matrix in fresh browser processes, save the requested screenshots and measured backdrop/contrast evidence, and only then classify the four findings.
+Implement and run the contrast reproduction harness for Home and About at 360, 768 and 1280px across coarse/touch, eligible desktop scene, reduced-motion and JavaScript-off states. Fully scroll, wait for reveals, capture each finding's computed foreground, screenshot-sampled backdrop, effective contrast ratio and crop. Repeat the required bisect renders at `75f355f`, `796879d`, `d0b7726` and `f9c96ca`, with `2722901` and `d4b376e` as extra source-attribution checkpoints. Do not fix until the visible-state classification and last-passing pair are evidenced.
