@@ -101,6 +101,12 @@
 - Fresh no-scene About screenshot checks at 360px and 1280px measured 19.883:1 for the FAQ heading, with zero scene calls. The team and Kodagu labels remain at 1.935:1 and are the next findings. Existing mixed CRLF/LF line endings in `about.php` are preserved.
 - This is the second of four separately committed contrast fixes.
 
+## 2026-11-05 checkpoint: About team label contrast fixed
+
+- Added one narrowly scoped rule for `#team > .container > .team-hdr > .sec-label`, reusing the existing `--navy` token. Only the color of the affected label changes; its text, font, spacing, surface and section layout remain unchanged.
+- Fresh no-scene About screenshot checks at 360px and 1280px measured 11.239:1 for the team label. The FAQ heading remained at 19.883:1; the Kodagu label remains at 1.935:1. No scene calls occurred.
+- This is the third of four separately committed contrast fixes.
+
 ## Exact next step
 
-Fix only the About team section label by using the existing `--navy` token on its light surface. Run the focused no-scene About captures at 360 and 1280px and verify that the team label is at least 4.5:1. Update this progress file, commit, push and post the PR #1 checkpoint before fixing the Kodagu label.
+Fix only the About Kodagu section label with the same existing `--navy` token, scoped to `#kodagu > .container > .sec-label`. Run the no-scene About screenshot checks at 360 and 1280px, verify the Kodagu label is at least 4.5:1, update this progress file, then commit, push and post the PR #1 checkpoint.
