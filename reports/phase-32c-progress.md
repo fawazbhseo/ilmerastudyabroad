@@ -31,6 +31,13 @@
 - Exported source trees outside Git for `75f355f`, `796879d`, the literal first commit after baseline `d0b7726`, first Phase32 public-runtime source commit `2722901`, reference scene defer commit `d4b376e`, and pre-Phase32c HEAD `f9c96ca`.
 - No public source edit or screenshot evidence has been made yet.
 
+## 2026-11-05 checkpoint: contrast harness validated
+
+- Added `tools/phase32c/contrast-repro.cjs` with a fresh Chromium process per case, route-pinned resources, real mouse-wheel scrolling plus End, a three-second full-page settle, computed foreground and ancestry capture, adjacent screenshot-pixel backdrop sampling, contrast calculation and per-finding crops. The harness supports route/width/state filters for focused smoke tests; the full matrix remains 24 cases.
+- Validated the JavaScript-off Home 360px case after replacing page-side scrolling: it completed with zero scene calls, `#888888` text, and a preliminary 3.545:1 sampled contrast. Validated About at 1280px with the reference scene eligible: one scene initialization and preliminary sampled ratios 1.097:1 (`#faq-h2`), 1.948:1 (team label) and 1.935:1 (Kodagu label). The FAQ crop visibly shows very dark text against the dark animated scene. These are smoke-test observations only, not classifications.
+- The earlier current-source 360px partial crops in `reports/screenshots/phase-32c/f9c96ca/` are retained and will be overwritten by the completed 24-case capture. Focused smoke outputs remain outside Git under `/home/user/phase32c-runtime`.
+- No public source edit or contrast fix has been made.
+
 ## Exact next step
 
-Implement and run the contrast reproduction harness for Home and About at 360, 768 and 1280px across coarse/touch, eligible desktop scene, reduced-motion and JavaScript-off states. Fully scroll, wait for reveals, capture each finding's computed foreground, screenshot-sampled backdrop, effective contrast ratio and crop. Repeat the required bisect renders at `75f355f`, `796879d`, `d0b7726` and `f9c96ca`, with `2722901` and `d4b376e` as extra source-attribution checkpoints. Do not fix until the visible-state classification and last-passing pair are evidenced.
+Run and save the complete 24-case current-HEAD contrast matrix, then repeat the same cases at `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and `f9c96ca`; retain `2722901` and `d4b376e` as additional source-attribution checkpoints. Compare the four findings across screenshots, computed foregrounds, sampled effective backdrops and ratios before assigning REAL, TRANSIENT or MEASUREMENT ARTEFACT. Do not edit public styles until the classifications and last-passing color/background pair are evidenced.
