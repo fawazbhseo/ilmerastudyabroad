@@ -63,6 +63,13 @@
 - The original pre-Phase32 source created a WebGL context in all 18 JavaScript-enabled cases, including touch/coarse and reduced-motion inputs; the six JavaScript-off cases created none. Therefore the requested no-scene phone/reduced-motion state was not actually achieved by this historical build. The capture records actual behavior rather than claiming those cases were scene-free.
 - Each case has one expected `ERR_BLOCKED_BY_CLIENT` console event because the isolated browser intentionally blocks remote Google Fonts. No page exceptions occurred; computed colors and backdrops are recorded. No contrast classification or public edit has been made.
 
+## 2026-11-05 checkpoint: Phase31b reference matrix complete
+
+- Completed the 24-case, 48-crop matrix at the Phase31b reference `796879d`. All crops exist; the only console event per case is the expected blocked remote-font notice, with no page exceptions. Foregrounds match `75f355f` and current. Home is 3.545:1; About FAQ is 1.018:1 to 1.102:1; the two section labels are 1.935:1 to 1.953:1.
+- Like `75f355f`, `796879d` creates WebGL in all 18 JavaScript-enabled cases, including touch/coarse and reduced-motion inputs; its six JavaScript-off cases create no WebGL context. The requested no-scene phone/reduced states are therefore not real states in these earlier builds. The color/backdrop defects predate the Phase32 source changes sampled so far; animated FAQ pixels account for the small range, not a passing 4.5:1 result.
+- Confirmed `796879d..d0b7726` changes only `reports/phase-32-progress.md`; no runtime-affecting PHP, CSS, assets or content changed at the literal first post-baseline commit.
+- No classification or public source edit has been made.
+
 ## Exact next step
 
-Run and save the same 24-case matrix for `796879d`, preserving the same actual-scene, color, backdrop, ratio and crop evidence. Then run `d0b7726`, `2722901`, and `d4b376e` to distinguish the documentation-only checkpoint, first public-runtime behavior change, and reference-scene defer change. Compare every finding to `75f355f` and current `f9c96ca` before classifying or changing styles.
+Run and save the 24-case matrix at `2722901`, the first Phase32 public-runtime behavior change, and `d4b376e`, the later reference-scene defer change. Treat `d0b7726` as runtime-identical to `796879d`, backed by the zero-runtime-diff check rather than repeating its identical browser matrix. Compare all historical results to current `f9c96ca` and classify each finding before considering any authorized color/background restoration.
