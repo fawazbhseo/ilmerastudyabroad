@@ -44,6 +44,13 @@
 - Increased the screenshot timeout, disabled active CSS animations during crop capture, added atomic per-case JSON checkpoints, and added a resume mode so later failures do not discard completed measurements. A focused fresh-process rerun of About 768px JavaScript-off passed with zero scene calls and sampled ratios 1.098:1, 1.935:1, and 1.935:1.
 - No public source edit or contrast classification has been made.
 
+## 2026-11-05 checkpoint: current-source contrast matrix complete
+
+- Completed and saved all 24 current public-runtime cases for Home and About at 360, 768 and 1280px in touch/coarse, eligible desktop, reduced-motion and JavaScript-off states. The JSON is `reports/phase-32c-contrast-f9c96ca.json`; it contains all 24 unique cases, 48 per-finding PNG crops, complete computed colors/backdrop samples/ratios, and no browser or console errors. Every referenced crop exists.
+- The Home note remained `rgb(136, 136, 136)` on sampled `#FFFFFF` at 3.545:1 in all states. About `#faq-h2` remained `rgb(10, 22, 40)` over sampled dark pixels `#060811` to `#070911`, at 1.097:1 to 1.098:1. Both About section labels remained `rgb(201, 168, 76)` over `#E8ECF8`, at 1.935:1. These all-state results make the apparent defects reproducible, but no REAL/TRANSIENT/MEASUREMENT ARTEFACT classification is assigned before historical comparisons.
+- Scene initialization occurred exactly once only for the eligible 1280px fine-pointer case on Home and About; all 22 other cases, including JavaScript-off and reduced-motion, recorded zero scene calls.
+- No public source edit or contrast fix has been made.
+
 ## Exact next step
 
-Rerun the full 24-case current-source contrast matrix with the hardened harness, verify the saved JSON contains all 24 cases and matching screenshot crops, then reproduce at `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and `f9c96ca`; retain `2722901` and `d4b376e` as additional source-attribution checkpoints. Compare the four findings across screenshots, computed foregrounds, sampled effective backdrops and ratios before assigning REAL, TRANSIENT or MEASUREMENT ARTEFACT. Do not edit public styles until the classifications and last-passing color/background pair are evidenced.
+Run the matching historical contrast matrix against `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and current `f9c96ca`; also capture `2722901` and `d4b376e` as source-attribution checkpoints. Compare foreground colors, effective sampled backdrops, ratios and crops for the four findings. Classify each as REAL, TRANSIENT or MEASUREMENT ARTEFACT, identify the last-passing pair, and only then make the smallest authorized restoration if a REAL defect is attributable to a Phase32 change.
