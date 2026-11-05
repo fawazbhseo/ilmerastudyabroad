@@ -95,6 +95,12 @@
 - Fresh-process no-scene screenshot captures at 360px and 1280px both measured 7.526:1 on white. Both reported zero scene calls. The original CRLF line endings remain intact.
 - This is the first of four separately committed contrast fixes.
 
+## 2026-11-05 checkpoint: About FAQ heading contrast fixed
+
+- Changed only `#faq-h2` from the existing `dk` heading variant to the existing `lt` variant. Text, font, size, spacing, section surface and layout are unchanged.
+- Fresh no-scene About screenshot checks at 360px and 1280px measured 19.883:1 for the FAQ heading, with zero scene calls. The team and Kodagu labels remain at 1.935:1 and are the next findings. Existing mixed CRLF/LF line endings in `about.php` are preserved.
+- This is the second of four separately committed contrast fixes.
+
 ## Exact next step
 
-Fix only About `#faq-h2` by switching its existing dark-heading variant to the existing light-heading variant on the dark FAQ surface. Run the focused no-scene About capture at 360 and 1280px, verify at least 4.5:1, update this progress file, then commit, push and post the PR #1 checkpoint.
+Fix only the About team section label by using the existing `--navy` token on its light surface. Run the focused no-scene About captures at 360 and 1280px and verify that the team label is at least 4.5:1. Update this progress file, commit, push and post the PR #1 checkpoint before fixing the Kodagu label.

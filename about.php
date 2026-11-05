@@ -675,7 +675,7 @@ img{max-width:100%;height:auto;}
   <div class="container">
     <div class="team-hdr">
       <span class="sec-label">Common Questions</span>
-      <h2 id="faq-h2" class="sec-h2 dk">ILMERA Study Abroad: Frequently Asked Questions</h2>
+      <h2 id="faq-h2" class="sec-h2 lt">ILMERA Study Abroad: Frequently Asked Questions</h2>
     </div>
     <div style="max-width:820px;margin:0 auto;">
 
