@@ -16,6 +16,13 @@
 - Matched the session branch to the fetched remote `f9c96ca` tip and read the required reports and history.
 - No browser audit, source edit, measurement, full-suite run, payload build or ZIP build has occurred yet in Phase32c.
 
+## 2026-11-05 checkpoint: source history and runtime availability checked
+
+- Confirmed the literal first commit after Phase31 baseline `796879d` is `d0b7726` (a Phase32 preflight note with no source edits). The first Phase32 source/runtime change is `2722901` (responsive hero still and shared presentation changes); `8f055bd` before it only adds the smaller mobile still asset. The reference scene loader/defer change is later commit `d4b376e`. These distinct points will be retained in the bisect report so a documentation checkpoint is not mistaken for a source change.
+- Current findings map to unchanged markup/styles in `index.php:544` and `about.php:376-378,606,635,678`. The current visual layer can alter their rendered backdrop through the deferred reference scene path in `includes/visual-system.php`; no classification is assigned before screenshot reproduction.
+- The external pinned runtime directories `/home/user/phase32-runtime` and `/home/user/phase32a-runtime` are absent. The repository contains the Phase31 accessibility/render/target baselines and prior Phase32 scene smoke records. No new browser run has occurred.
+- No public source edit has been made.
+
 ## Exact next step
 
-Inspect the four contrast nodes and relevant reference-page CSS/scene lifecycle, identify the exact first behavior-changing Phase32 commit after `796879d`, and check whether the pinned browser/PHP-WASM runtime and Phase31 render baselines are available. Then reproduce the contrast findings in fresh browser processes at the requested widths and states, recording computed text color, effective backdrop, ratio and screenshot evidence. Do not fix until each finding is classified and its last-passing color/background relationship is established.
+Restore the pinned PHP-WASM and Chromium/Playwright runtime outside Git, confirm the adapter can render Home and About, and export temporary source trees for `75f355f`, `796879d`, `2722901` and the pre-Phase32c HEAD `f9c96ca`. Then run the current contrast reproduction matrix in fresh browser processes, save the requested screenshots and measured backdrop/contrast evidence, and only then classify the four findings.
