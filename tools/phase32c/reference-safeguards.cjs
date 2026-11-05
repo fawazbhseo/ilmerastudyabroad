@@ -2,10 +2,10 @@
 'use strict';
 
 // Phase32c Task 2: compare the reference pages to the Phase31b render outside
-// scene layers. Each source-state pair gets a fresh Chromium process, a full
-// scroll, a 3-second settle, and an exact semantic plus 0.1 CSS-pixel geometry
-// comparison. The disabled-switch state uses separate source adapters whose
-// only test-tree change is ILMERA_SCENES_ENABLED=false.
+// scene layers. Each route-width-state case gets a fresh Chromium context and
+// baseline/current navigations on one page, with incremental full-page scroll,
+// reveal-settle time, and a 0.1 CSS-pixel geometry comparison. The disabled-
+// switch state uses adapters whose only test-tree change is ILMERA_SCENES_ENABLED=false.
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -176,16 +176,28 @@ async function readScrollMetrics(page) {
 }
 
 async function scrollToPageEnd(page,width) {
-  let metrics=await readScrollMetrics(page);
+  const started=Date.now();let metrics=await readScrollMetrics(page);
+  const stepSize=Math.max(160,Math.round(metrics.viewport*0.55));
+  const maxSteps=Math.max(32,Math.ceil(metrics.height/stepSize)*4+20);
+  const positions=[{y:metrics.y,height:metrics.height,maxScrollY:metrics.maxScrollY}];
+  let steps=0,recoverySteps=0,stalled=0;
   await page.mouse.move(Math.max(0,width-1),Math.max(0,Math.min(metrics.clientHeight,metrics.viewport)-2)).catch(()=>{});
-  for(let attempt=0;attempt<20&&!metrics.fullyScrolled;attempt++){
-    await page.mouse.wheel(0,Math.max(700,Math.min(12000,metrics.maxScrollY-metrics.y+1000)));
-    await page.waitForTimeout(100);
-    await page.keyboard.press('End').catch(()=>{});
-    await page.waitForTimeout(100);
-    metrics=await readScrollMetrics(page);
+  while(!metrics.fullyScrolled&&steps<maxSteps){
+    const beforeY=metrics.y,delta=Math.max(1,Math.min(stepSize,metrics.maxScrollY-metrics.y));
+    await page.mouse.wheel(0,delta);
+    await page.waitForTimeout(220);
+    metrics=await readScrollMetrics(page);steps++;
+    if(metrics.y<=beforeY+1&&!metrics.fullyScrolled){
+      const recoveryDelta=Math.max(1,Math.min(stepSize,metrics.maxScrollY-metrics.y));
+      await page.evaluate(amount=>window.scrollBy(0,amount),recoveryDelta).catch(()=>{});
+      await page.waitForTimeout(220);
+      metrics=await readScrollMetrics(page);recoverySteps++;
+      stalled=metrics.y<=beforeY+1?stalled+1:0;
+    }else stalled=0;
+    positions.push({y:metrics.y,height:metrics.height,maxScrollY:metrics.maxScrollY});
+    if(stalled>=3)break;
   }
-  return metrics;
+  return{...metrics,stepSizeCssPx:stepSize,scrollSteps:steps,recoverySteps,positions,attemptLimit:maxSteps,durationMs:Date.now()-started};
 }
 
 async function snapshotPage(page,route,width,state,source,activeBase,routeState) {
@@ -198,9 +210,13 @@ async function snapshotPage(page,route,width,state,source,activeBase,routeState)
     try{await page.waitForFunction(()=>window.__p32cWebGLCalls>0,{timeout:12000});}catch(_){}
   }
   const initialScroll=await readScrollMetrics(page);
-  await scrollToPageEnd(page,width);
+  const firstWalk=await scrollToPageEnd(page,width);
   try{await page.evaluate(()=>document.fonts?document.fonts.ready:Promise.resolve());}catch(_){}
-  await scrollToPageEnd(page,width);
+  let afterFonts=await readScrollMetrics(page),postFontWalk=null;
+  if(!afterFonts.fullyScrolled||Math.abs(afterFonts.height-firstWalk.height)>1){
+    postFontWalk=await scrollToPageEnd(page,width);
+    afterFonts=postFontWalk;
+  }
   await page.waitForTimeout(3000);
   trace.infiniteCssAnimationsPaused=await page.evaluate(()=>{
     let paused=0;
@@ -211,15 +227,21 @@ async function snapshotPage(page,route,width,state,source,activeBase,routeState)
     return paused;
   });
   await page.waitForTimeout(80);
-  let settled=await readScrollMetrics(page);
+  let settled=await readScrollMetrics(page),finalRecovery=null;
   if(!settled.fullyScrolled){
-    await scrollToPageEnd(page,width);
-    await page.waitForTimeout(200);
+    finalRecovery=await scrollToPageEnd(page,width);
+    await page.waitForTimeout(3000);
     settled=await readScrollMetrics(page);
   }
   const fontState=await page.evaluate(()=>({status:document.fonts?.status||'unsupported',outfit300Loaded:document.fonts?.check('300 14px Outfit')??null}));
-  trace.scroll={initialY:initialScroll.y,initialHeight:initialScroll.height,initialClientHeight:initialScroll.clientHeight,initialViewportHeight:initialScroll.viewport,finalY:settled.y,finalHeight:settled.height,finalClientHeight:settled.clientHeight,finalViewportHeight:settled.viewport,maxScrollY:settled.maxScrollY,fullyScrolled:settled.fullyScrolled};
-  trace.fonts=fontState;
+  const revealState=await page.evaluate(()=>{
+    const selector='.reveal,.reveal-l,.reveal-r,.anim-fade-up,.anim-fade-left,.anim-fade-right,.anim-scale-in';
+    const targets=Array.from(document.querySelectorAll(selector));
+    const pending=targets.filter(node=>{const style=getComputedStyle(node),opacity=Number.parseFloat(style.opacity);return style.display==='none'||style.visibility==='hidden'||(Number.isFinite(opacity)&&opacity<0.98);});
+    return{targets:targets.length,animVisible:document.querySelectorAll('.anim-visible').length,pending:pending.length,pendingExamples:pending.slice(0,12).map(node=>({tag:node.tagName.toLowerCase(),id:node.id||'',classes:String(node.className||'').slice(0,160),text:String(node.innerText||node.textContent||'').replace(/\s+/g,' ').trim().slice(0,120),opacity:getComputedStyle(node).opacity}))};
+  });
+  trace.scroll={initialY:initialScroll.y,initialHeight:initialScroll.height,initialClientHeight:initialScroll.clientHeight,initialViewportHeight:initialScroll.viewport,firstWalk,postFontWalk,finalRecovery,finalY:settled.y,finalHeight:settled.height,finalClientHeight:settled.clientHeight,finalViewportHeight:settled.viewport,maxScrollY:settled.maxScrollY,fullyScrolled:settled.fullyScrolled};
+  trace.fonts=fontState;trace.reveals=revealState;
   const snapshot=await page.evaluate(({selector,sceneLayerSelector,pointerOverlaySelector,nonvisualTags})=>{
     const clean=value=>String(value||'').replace(/\s+/g,' ').trim();
     const hash=value=>{let h=2166136261;for(let i=0;i<value.length;i++){h^=value.charCodeAt(i);h=Math.imul(h,16777619);}return(h>>>0).toString(16).padStart(8,'0');};
@@ -292,19 +314,12 @@ function compareGeometry(baseline,current){
 
 async function runCase(route,width,state){
   const urls=state.disabledSwitch?{baseline:BASELINE_DISABLED_URL,current:CURRENT_DISABLED_URL}:{baseline:BASELINE_URL,current:CURRENT_URL};
-  const result={};
-  for(const source of ['baseline','current']){
-    const browser=await launchBrowser();let context=null;
-    try{
-      const created=await createPage(browser,width,state);context=created.context;
-      const routeState={activeBase:urls[source],activeState:state,activeTrace:null};
-      await installRoutes(created.page,routeState);
-      result[source]=await snapshotPage(created.page,route,width,state,source,urls[source],routeState);
-    }finally{
-      if(context)await context.close().catch(()=>{});
-      await browser.close().catch(()=>{});
-    }
-  }
+  const browser=await launchBrowser();const {context,page}=await createPage(browser,width,state);
+  const routeState={activeBase:'',activeState:state,activeTrace:null};const result={};
+  try{
+    await installRoutes(page,routeState);
+    for(const source of ['baseline','current'])result[source]=await snapshotPage(page,route,width,state,source,urls[source],routeState);
+  }finally{await context.close();await browser.close();}
   const a=result.baseline.snapshot,b=result.current.snapshot;
   const geometry=compareGeometry(a,b);
   const content={
@@ -328,17 +343,22 @@ async function runCase(route,width,state){
     heroStillAbsentOnReferencePages:a.scene.heroStillNodes===0&&b.scene.heroStillNodes===0&&result.baseline.trace.stillRequests.length===0&&result.current.trace.stillRequests.length===0,
     baselineFullyScrolled:result.baseline.trace.scroll?.fullyScrolled===true,
     currentFullyScrolled:result.current.trace.scroll?.fullyScrolled===true,
+    baselineRevealTargetCount:result.baseline.trace.reveals?.targets||0,currentRevealTargetCount:result.current.trace.reveals?.targets||0,
+    baselineRevealPendingCount:result.baseline.trace.reveals?.pending||0,currentRevealPendingCount:result.current.trace.reveals?.pending||0,
+    baselineRevealsSettled:!state.javascriptEnabled||(result.baseline.trace.reveals?.pending||0)===0,
+    currentRevealsSettled:!state.javascriptEnabled||(result.current.trace.reveals?.pending||0)===0,
   };
   const errors=[...result.baseline.trace.pageErrors.map(error=>({source:'baseline',error})),...result.current.trace.pageErrors.map(error=>({source:'current',error})),...result.baseline.trace.failedRequests.map(item=>({source:'baseline',...item})),...result.current.trace.failedRequests.map(item=>({source:'current',...item}))];
   const parity=Object.values(content).every(value=>typeof value!=='boolean'||value);
   const sceneMatches=stateChecks.baselineSceneExpectationMatches&&stateChecks.currentSceneExpectationMatches;
   const fullScroll=stateChecks.baselineFullyScrolled&&stateChecks.currentFullyScrolled;
+  const revealsSettled=stateChecks.baselineRevealsSettled&&stateChecks.currentRevealsSettled;
   return{
     route,width,state:state.name,
     baseline:{pageHeight:result.baseline.pageHeight,trace:result.baseline.trace,scene:a.scene},
     current:{pageHeight:result.current.pageHeight,trace:result.current.trace,scene:b.scene},
     content,geometry,stateChecks,errors,
-    status:parity&&geometry.withinTolerance&&sceneMatches&&fullScroll&&errors.length===0?'PASS':'DIFFERENCES'
+    status:parity&&geometry.withinTolerance&&sceneMatches&&fullScroll&&revealsSettled&&errors.length===0?'PASS':'DIFFERENCES'
   };
 }
 
@@ -350,7 +370,7 @@ async function main(){
   const resumed=parseExisting();
   const report=resumed||{
     phase:'32c',task:2,status:'RUNNING',
-    method:'Local PHP-WASM source adapters; Phase31b source 796879d versus current; Chromium 143 with an independent fresh browser/context for each baseline and current render, preventing shared-cache and scroll-restoration carryover; identical local reference-font files; all visible DOM elements outside the listed scene-layer and pointer-following cursor overlay IDs; full scroll verified after a post-scroll font-ready wait and 3-second settle; infinite CSS animations frozen at phase zero for deterministic geometry; 0.1 CSS-pixel geometry tolerance.',
+    method:'Local PHP-WASM source adapters; Phase31b source 796879d versus current; one fresh Chromium browser/context per route-width-state case, navigating a shared page baseline then current to keep browser, cache and animation state comparable; identical local reference-font files; all visible DOM elements outside the listed scene-layer and pointer-following cursor overlay IDs; incremental wheel scroll in 55%-viewport steps with 220ms dwell, post-scroll font-ready check, and 3-second final settle for scroll-triggered reveals; full-scroll positions recorded per step; infinite CSS animations frozen at phase zero for deterministic geometry; 0.1 CSS-pixel geometry tolerance.',
     source:{baselineCommit:'796879d',currentCommit:process.env.PHASE32C_CURRENT_SHA||'091442f',baselineUrl:BASELINE_URL,currentUrl:CURRENT_URL,baselineDisabledUrl:BASELINE_DISABLED_URL,currentDisabledUrl:CURRENT_DISABLED_URL},
     matrix:{routes,widths,states:states.map(state=>state.name),casesExpected:routes.length*widths.length*states.length},results:[],summary:null,
   };
@@ -366,7 +386,7 @@ async function main(){
   }
   const expected=report.matrix.casesExpected,passed=report.results.filter(item=>item.status==='PASS').length;
   report.status=report.results.length===expected&&passed===expected?'PASS':'DIFFERENCES';
-  report.summary={cases:report.results.length,expectedCases:expected,passCases:passed,geometryCasesOverTolerance:report.results.filter(item=>item.geometry&&!item.geometry.withinTolerance).length,contentCasesWithDifferences:report.results.filter(item=>item.content&&Object.entries(item.content).some(([key,value])=>key.endsWith('Exact')&&value!==true)).length,casesWithRuntimeErrors:report.results.filter(item=>item.status==='ERROR'||item.errors?.length).length,casesWithoutFullScroll:report.results.filter(item=>item.stateChecks&&(!item.stateChecks.baselineFullyScrolled||!item.stateChecks.currentFullyScrolled)).length,maximumElementDeltaCssPx:Number(Math.max(0,...report.results.map(item=>item.geometry?.maxAbsoluteDeltaCssPx||0)).toFixed(4))};
+  report.summary={cases:report.results.length,expectedCases:expected,passCases:passed,geometryCasesOverTolerance:report.results.filter(item=>item.geometry&&!item.geometry.withinTolerance).length,contentCasesWithDifferences:report.results.filter(item=>item.content&&Object.entries(item.content).some(([key,value])=>key.endsWith('Exact')&&value!==true)).length,casesWithRuntimeErrors:report.results.filter(item=>item.status==='ERROR'||item.errors?.length).length,casesWithoutFullScroll:report.results.filter(item=>item.stateChecks&&(!item.stateChecks.baselineFullyScrolled||!item.stateChecks.currentFullyScrolled)).length,casesWithUnsettledReveals:report.results.filter(item=>item.stateChecks&&(!item.stateChecks.baselineRevealsSettled||!item.stateChecks.currentRevealsSettled)).length,maximumElementDeltaCssPx:Number(Math.max(0,...report.results.map(item=>item.geometry?.maxAbsoluteDeltaCssPx||0)).toFixed(4))};
   atomicJson(OUTPUT,report);
   console.log(JSON.stringify({status:report.status,...report.summary,output:OUTPUT},null,2));
   if(report.results.some(item=>item.status==='ERROR'))process.exitCode=1;
