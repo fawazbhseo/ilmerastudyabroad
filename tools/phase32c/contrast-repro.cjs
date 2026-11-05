@@ -9,6 +9,7 @@ const {launchBrowser,routePinnedResources}=require('../phase31/browser.cjs');
 const SOURCE=process.env.PHASE32C_SOURCE||'f9c96ca';
 const OUT=process.env.PHASE32C_OUT||path.resolve(__dirname,'../../reports/phase-32c-contrast-'+SOURCE+'.json');
 const SHOTS=process.env.PHASE32C_SHOTS||path.resolve(__dirname,'../../reports/screenshots/phase-32c/'+SOURCE);
+const SCREENSHOT_TIMEOUT=Number(process.env.PHASE32C_SCREENSHOT_TIMEOUT_MS||60000);
 const WIDTHS=[360,768,1280];
 const STATES=[
   {name:'touch-coarse-scene-not-started',finePointer:false,hasTouch:true},
@@ -117,7 +118,7 @@ async function caseOnce(route,width,state,attempt){
         return {text:e.innerText||e.textContent,foreground:cs.color,fontSize:cs.fontSize,fontWeight:cs.fontWeight,elementOpacity:cs.opacity,ancestorOpacityProduct:opacity,backgroundColor:cs.backgroundColor,backgroundImage:cs.backgroundImage,visibility:cs.visibility,display:cs.display,rect:{x:r.x,y:r.y,left:r.left,top:r.top,right:r.right,bottom:r.bottom,width:r.width,height:r.height},textRects,ancestry};
       },spec.selector);
       if(!info.textRects.length)throw new Error(`${spec.id}: no visible text range`);
-      const full=PNG.sync.read(await page.screenshot({type:'png'}));
+      const full=PNG.sync.read(await page.screenshot({type:'png',timeout:SCREENSHOT_TIMEOUT,animations:'disabled'}));
       const fr=info.textRects;
       const left=Math.min(...fr.map(x=>x.left)),right=Math.max(...fr.map(x=>x.right)),top=Math.min(...fr.map(x=>x.top)),bottom=Math.max(...fr.map(x=>x.bottom));
       const clip={x:Math.max(0,left-26),y:Math.max(0,top-22),width:Math.min(width-Math.max(0,left-26),right-left+52),height:Math.min(900-Math.max(0,top-22),bottom-top+44)};
@@ -148,21 +149,34 @@ async function runCase(route,width,state){
     catch(error){
       const detail=String(error?.stack||error);attempts.push({attempt,error:detail});
       const crashed=/Target page, context or browser has been closed|browserType\.launch|Page crashed|SIGSEGV|Target closed|browser process.*closed/i.test(detail);
-      if(!crashed||attempt===2)throw new Error(`CASE_FAILED ${route.path} ${width} ${state.name}: ${JSON.stringify(attempts)}`);
+      const screenshotTimedOut=/page\.screenshot: Timeout \d+ms exceeded/i.test(detail);
+      if((!crashed&&!screenshotTimedOut)||attempt===2)throw new Error(`CASE_FAILED ${route.path} ${width} ${state.name}: ${JSON.stringify(attempts)}`);
     }
   }
 }
+function buildReport(cases){
+  return {phase:32,subphase:'32c contrast reproduction',source:SOURCE,baseUrl:BASE,browser:'Chromium 143.0.7499.0 / Playwright 1.58.2',settings:{widths:WIDTHS,states:STATES.map(x=>x.name),fullPageScroll:true,settleAfterFullScrollMs:3000,freshBrowserPerCase:true,screenshotTimeoutMs:SCREENSHOT_TIMEOUT,retryLimit:1},caseCount:cases.length,cases};
+}
+function saveReport(cases){
+  fs.mkdirSync(path.dirname(OUT),{recursive:true});const temp=OUT+'.tmp';
+  fs.writeFileSync(temp,JSON.stringify(buildReport(cases),null,2)+'\n');fs.renameSync(temp,OUT);
+}
 async function main(){
-  fs.mkdirSync(SHOTS,{recursive:true});const cases=[];const limit=Number(process.env.PHASE32C_LIMIT||0);
+  fs.mkdirSync(SHOTS,{recursive:true});let cases=[];const limit=Number(process.env.PHASE32C_LIMIT||0);
   const onlyRoute=process.env.PHASE32C_ONLY_ROUTE||null,onlyWidth=Number(process.env.PHASE32C_ONLY_WIDTH||0),onlyState=process.env.PHASE32C_ONLY_STATE||null;
+  if(process.env.PHASE32C_RESUME==='1'&&fs.existsSync(OUT)){
+    const prior=JSON.parse(fs.readFileSync(OUT,'utf8'));
+    if(prior.source!==SOURCE||prior.baseUrl!==BASE)throw new Error(`Cannot resume mismatched report ${OUT}`);
+    cases=Array.isArray(prior.cases)?prior.cases:[];console.log(`RESUME ${OUT} (${cases.length} saved cases)`);
+  }
+  const done=new Set(cases.map(c=>`${c.route}|${c.width}|${c.state}`));
   for(const route of ROUTES)for(const width of WIDTHS)for(const state of STATES){
     if(limit&&cases.length>=limit)break;
     if(onlyRoute&&route.name!==onlyRoute)continue;if(onlyWidth&&width!==onlyWidth)continue;if(onlyState&&state.name!==onlyState)continue;
-    const row=await runCase(route,width,state);cases.push(row);
+    const key=`${route.path}|${width}|${state.name}`;if(done.has(key))continue;
+    const row=await runCase(route,width,state);cases.push(row);done.add(key);saveReport(cases);
     console.log(`CASE ${cases.length}/${limit||24} ${route.path} ${width} ${state.name} sceneCalls=${row.pageState.sceneCalls} contrast=${row.elements.map(e=>e.minimumSampledContrast).join(',')}`);
   }
-  const report={phase:32,subphase:'32c contrast reproduction',source:SOURCE,baseUrl:BASE,browser:'Chromium 143.0.7499.0 / Playwright 1.58.2',settings:{widths:WIDTHS,states:STATES.map(x=>x.name),fullPageScroll:true,settleAfterFullScrollMs:3000,freshBrowserPerCase:true,retryLimit:1},caseCount:cases.length,cases};
-  fs.writeFileSync(OUT,JSON.stringify(report,null,2)+'\n');
-  console.log(`SAVED ${OUT} (${cases.length} cases)`);
+  saveReport(cases);console.log(`SAVED ${OUT} (${cases.length} cases)`);
 }
 main().catch(error=>{console.error(error.stack||error);process.exit(1)});

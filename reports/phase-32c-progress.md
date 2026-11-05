@@ -38,6 +38,12 @@
 - The earlier current-source 360px partial crops in `reports/screenshots/phase-32c/f9c96ca/` are retained and will be overwritten by the completed 24-case capture. Focused smoke outputs remain outside Git under `/home/user/phase32c-runtime`.
 - No public source edit or contrast fix has been made.
 
+## 2026-11-05 checkpoint: screenshot timeout recovered
+
+- The first full current-source matrix completed cases 1-19, then stopped on About 768px JavaScript-off because Playwright's screenshot call hit its 30-second timeout. The harness did not save a JSON report in that initial run; those logged ratios are exploratory, not complete evidence.
+- Increased the screenshot timeout, disabled active CSS animations during crop capture, added atomic per-case JSON checkpoints, and added a resume mode so later failures do not discard completed measurements. A focused fresh-process rerun of About 768px JavaScript-off passed with zero scene calls and sampled ratios 1.098:1, 1.935:1, and 1.935:1.
+- No public source edit or contrast classification has been made.
+
 ## Exact next step
 
-Run and save the complete 24-case current-HEAD contrast matrix, then repeat the same cases at `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and `f9c96ca`; retain `2722901` and `d4b376e` as additional source-attribution checkpoints. Compare the four findings across screenshots, computed foregrounds, sampled effective backdrops and ratios before assigning REAL, TRANSIENT or MEASUREMENT ARTEFACT. Do not edit public styles until the classifications and last-passing color/background pair are evidenced.
+Rerun the full 24-case current-source contrast matrix with the hardened harness, verify the saved JSON contains all 24 cases and matching screenshot crops, then reproduce at `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and `f9c96ca`; retain `2722901` and `d4b376e` as additional source-attribution checkpoints. Compare the four findings across screenshots, computed foregrounds, sampled effective backdrops and ratios before assigning REAL, TRANSIENT or MEASUREMENT ARTEFACT. Do not edit public styles until the classifications and last-passing color/background pair are evidenced.
