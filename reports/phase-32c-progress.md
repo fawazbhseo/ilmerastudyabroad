@@ -107,6 +107,12 @@
 - Fresh no-scene About screenshot checks at 360px and 1280px measured 11.239:1 for the team label. The FAQ heading remained at 19.883:1; the Kodagu label remains at 1.935:1. No scene calls occurred.
 - This is the third of four separately committed contrast fixes.
 
+## 2026-11-05 checkpoint: About Kodagu label contrast fixed
+
+- Added one selector scoped to `#kodagu > .container > .sec-label`, reusing the existing `--navy` token. Only the affected label color changes; text, font, spacing, background, image content and layout are unchanged.
+- Fresh no-scene About screenshot checks at 360px and 1280px measured 11.239:1 for both the team and Kodagu labels and 19.883:1 for the FAQ heading. All three affected About nodes pass 4.5:1 in both viewports, with zero scene calls.
+- All four separately scoped contrast corrections now have fast-check evidence. The Home note measures 7.526:1 at both requested widths. Existing line endings remain intact.
+
 ## Exact next step
 
-Fix only the About Kodagu section label with the same existing `--navy` token, scoped to `#kodagu > .container > .sec-label`. Run the no-scene About screenshot checks at 360 and 1280px, verify the Kodagu label is at least 4.5:1, update this progress file, then commit, push and post the PR #1 checkpoint.
+Add and run a committed screenshot regression check that launches fresh browsers at 360 and 1280px with the scene not started, captures the Home note and all three About headings/labels, and fails below 4.5:1 or if a scene starts. Commit the check and its passing report/crops, then proceed to the remaining Phase32c tasks. Do not run the final full suite until Tasks 1-3 are all complete.

@@ -375,6 +375,7 @@ img{max-width:100%;height:auto;}
 @media(max-width:768px){.container{padding:0 22px;}}
 .sec-label{font-size:11px;font-weight:300;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;display:block;}
 #team > .container > .team-hdr > .sec-label{color:var(--navy);}
+#kodagu > .container > .sec-label{color:var(--navy);}
 .sec-h2{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:48px;line-height:1.15;margin-bottom:64px;}
 .sec-h2.dk{color:var(--deep-navy);}.sec-h2.lt{color:var(--white);}
 @media(max-width:768px){.sec-h2{font-size:30px;margin-bottom:40px;}}
