@@ -113,6 +113,12 @@
 - Fresh no-scene About screenshot checks at 360px and 1280px measured 11.239:1 for both the team and Kodagu labels and 19.883:1 for the FAQ heading. All three affected About nodes pass 4.5:1 in both viewports, with zero scene calls.
 - All four separately scoped contrast corrections now have fast-check evidence. The Home note measures 7.526:1 at both requested widths. Existing line endings remain intact.
 
+## 2026-11-05 checkpoint: contrast task complete
+
+- Fixed each REAL contrast finding in its own pushed commit: Home note `bde0ddd`, About FAQ heading `6c9fea4`, About team label `f6a91c8`, and About Kodagu label `3324432`. All changes reuse existing palette values and leave wording, font sizing, layout, surfaces and imagery unchanged.
+- Added `tools/phase32c/contrast-regression.cjs`. Its fresh-browser screenshot gate checked Home and About at 360px and 1280px with the scene not started, verified all four nodes and eight crops, and enforced 4.5:1. It passed; the minimum measured contrast was 7.526:1. Evidence is in `reports/phase-32c-contrast-regression-3324432.json` and `reports/screenshots/phase-32c/contrast-regression-3324432/`.
+- The complete historical evidence remains committed for `75f355f`, `796879d`, `2722901`, `d4b376e` and pre-fix current `f9c96ca`. No full suite has been run.
+
 ## Exact next step
 
-Add and run a committed screenshot regression check that launches fresh browsers at 360 and 1280px with the scene not started, captures the Home note and all three About headings/labels, and fails below 4.5:1 or if a scene starts. Commit the check and its passing report/crops, then proceed to the remaining Phase32c tasks. Do not run the final full suite until Tasks 1-3 are all complete.
+Start Task 2 scene safeguards. Compare Home, Services, About and Contact against the Phase31b reference at `796879d`, across 360, 768 and 1280px and the scene, still, reduced-motion, disabled-scene-switch and JavaScript-off states. Measure only visible elements outside the scene region with 0.1px tolerance; report header, footer, team cards, text, links, schema, reference reach and unapplied Phase32 task 3 items. Do not run the final full suite until Tasks 1-3 are complete.
