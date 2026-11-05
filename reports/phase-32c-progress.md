@@ -57,6 +57,12 @@
 - Added a version-independent scene-start signal by instrumenting `HTMLCanvasElement.getContext` for WebGL. The 75f355f desktop smoke now records one `webgl2` context, visible scene layers, and the same preliminary contrast ratios. These are historical smoke observations only. A full historical matrix is not complete, and expected blocked remote-font console messages are being kept distinct from application errors in analysis.
 - No public source edit or classification has been made.
 
+## 2026-11-05 checkpoint: 75f355f historical matrix complete
+
+- Completed all 24 cases and 48 crops for `75f355f` in `reports/phase-32c-contrast-75f355f.json` and `reports/screenshots/phase-32c/75f355f/`. The four computed foregrounds match current: Home note `rgb(136, 136, 136)`, About FAQ heading `rgb(10, 22, 40)`, and both labels `rgb(201, 168, 76)`. Home remained 3.545:1 on `#FFFFFF`; FAQ measured 1.012:1 to 1.097:1 against animated dark pixels; the labels measured 1.935:1 to 1.967:1 against `#E8ECF8`/`#E9EDF8`.
+- The original pre-Phase32 source created a WebGL context in all 18 JavaScript-enabled cases, including touch/coarse and reduced-motion inputs; the six JavaScript-off cases created none. Therefore the requested no-scene phone/reduced-motion state was not actually achieved by this historical build. The capture records actual behavior rather than claiming those cases were scene-free.
+- Each case has one expected `ERR_BLOCKED_BY_CLIENT` console event because the isolated browser intentionally blocks remote Google Fonts. No page exceptions occurred; computed colors and backdrops are recorded. No contrast classification or public edit has been made.
+
 ## Exact next step
 
-Rerun and save the complete 24-case matrix for `75f355f` with the universal WebGL signal, then run the same matrix at `796879d`, literal first post-baseline commit `d0b7726`, first source-behavior commit `2722901`, reference-scene defer commit `d4b376e`, and current `f9c96ca` as needed. Compare the four nodes' computed foregrounds, screenshot-sampled effective backdrops and ratios across history before assigning classifications or changing styles.
+Run and save the same 24-case matrix for `796879d`, preserving the same actual-scene, color, backdrop, ratio and crop evidence. Then run `d0b7726`, `2722901`, and `d4b376e` to distinguish the documentation-only checkpoint, first public-runtime behavior change, and reference-scene defer change. Compare every finding to `75f355f` and current `f9c96ca` before classifying or changing styles.
