@@ -51,6 +51,12 @@
 - Scene initialization occurred exactly once only for the eligible 1280px fine-pointer case on Home and About; all 22 other cases, including JavaScript-off and reduced-motion, recorded zero scene calls.
 - No public source edit or contrast fix has been made.
 
+## 2026-11-05 checkpoint: historical scene-start signal corrected
+
+- Started a separate PHP-WASM adapter for the `75f355f` source export on port 8095. A focused About 1280px no-scene smoke reproduced 1.089:1 for the FAQ heading and 1.935:1 for both labels. The first historical matrix reached 8 cases, then exposed a harness assumption: those pre-Phase32 pages initialize WebGL directly instead of calling the Phase32 deferred `__ILMERA_SCENE_INIT` wrapper.
+- Added a version-independent scene-start signal by instrumenting `HTMLCanvasElement.getContext` for WebGL. The 75f355f desktop smoke now records one `webgl2` context, visible scene layers, and the same preliminary contrast ratios. These are historical smoke observations only. A full historical matrix is not complete, and expected blocked remote-font console messages are being kept distinct from application errors in analysis.
+- No public source edit or classification has been made.
+
 ## Exact next step
 
-Run the matching historical contrast matrix against `75f355f`, `796879d`, literal first post-baseline commit `d0b7726`, and current `f9c96ca`; also capture `2722901` and `d4b376e` as source-attribution checkpoints. Compare foreground colors, effective sampled backdrops, ratios and crops for the four findings. Classify each as REAL, TRANSIENT or MEASUREMENT ARTEFACT, identify the last-passing pair, and only then make the smallest authorized restoration if a REAL defect is attributable to a Phase32 change.
+Rerun and save the complete 24-case matrix for `75f355f` with the universal WebGL signal, then run the same matrix at `796879d`, literal first post-baseline commit `d0b7726`, first source-behavior commit `2722901`, reference-scene defer commit `d4b376e`, and current `f9c96ca` as needed. Compare the four nodes' computed foregrounds, screenshot-sampled effective backdrops and ratios across history before assigning classifications or changing styles.

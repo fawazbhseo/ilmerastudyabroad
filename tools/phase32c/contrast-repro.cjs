@@ -48,7 +48,12 @@ async function preparePage(page,state,width,errors,requests){
   await page.emulateMedia({reducedMotion:state.reducedMotion||'no-preference'});
   if(state.javascriptEnabled!==false){
     await page.addInitScript(({finePointer})=>{
-      window.__phase32cSceneScripts=[];window.__phase32cSceneCalls=0;
+      window.__phase32cSceneScripts=[];window.__phase32cSceneCalls=0;window.__phase32cWebGLContextCalls=0;window.__phase32cWebGLContextTypes=[];
+      const nativeGetContext=HTMLCanvasElement.prototype.getContext;
+      HTMLCanvasElement.prototype.getContext=function(type){
+        if(/^(?:webgl2?|experimental-webgl)$/i.test(String(type))){window.__phase32cWebGLContextCalls++;window.__phase32cWebGLContextTypes.push(String(type));}
+        return nativeGetContext.apply(this,arguments);
+      };
       let original=null;
       Object.defineProperty(window,'__ILMERA_SCENE_INIT',{configurable:true,get:()=>original,set:fn=>{
         if(typeof fn!=='function'){original=fn;return;}
@@ -91,7 +96,7 @@ async function caseOnce(route,width,state,attempt){
     if(!response||response.status()!==200)throw new Error(`HTTP ${response?.status()||'none'} on ${route.path}`);
     const expectedScene=state.javascriptEnabled!==false&&state.finePointer&&state.reducedMotion!=='reduce'&&width>=900;
     if(expectedScene){
-      await page.waitForFunction(()=>window.__phase32cSceneCalls===1,null,{timeout:20000});
+      await page.waitForFunction(()=>window.__phase32cWebGLContextCalls>0,null,{timeout:20000});
       await sleep(1200);
     }
     // Use real input scrolling so the same reveal triggers run when page JS is disabled.
@@ -102,7 +107,7 @@ async function caseOnce(route,width,state,attempt){
       const ids=['space-canvas','vignette','nebula-t','nebula-b','gold-glow-css','grain','float-layer'];
       const layers=ids.map(id=>{const e=document.getElementById(id);if(!e)return {id,present:false};const c=getComputedStyle(e),r=e.getBoundingClientRect();return {id,present:true,display:c.display,visibility:c.visibility,opacity:c.opacity,backgroundColor:c.backgroundColor,backgroundImage:c.backgroundImage,zIndex:c.zIndex,rect:{x:r.x,y:r.y,width:r.width,height:r.height}};});
       const canvas=document.getElementById('space-canvas'),r=canvas?.getBoundingClientRect();
-      return {expectedScene,sceneCalls:window.__phase32cSceneCalls||0,sceneScripts:window.__phase32cSceneScripts||[],rootClasses:document.documentElement.className,canvasPresent:!!canvas,canvasVisibility:canvas?getComputedStyle(canvas).visibility:null,canvasRect:r?{x:r.x,y:r.y,width:r.width,height:r.height}:null,layers,scrollHeight:document.documentElement.scrollHeight,scrollY};
+      return {expectedScene,sceneCalls:window.__phase32cSceneCalls||0,webglContextCalls:window.__phase32cWebGLContextCalls||0,webglContextTypes:window.__phase32cWebGLContextTypes||[],sceneScripts:window.__phase32cSceneScripts||[],rootClasses:document.documentElement.className,canvasPresent:!!canvas,canvasVisibility:canvas?getComputedStyle(canvas).visibility:null,canvasRect:r?{x:r.x,y:r.y,width:r.width,height:r.height}:null,layers,scrollHeight:document.documentElement.scrollHeight,scrollY};
     },{expectedScene});
     const elementResults=[];
     for(const spec of route.elements){
@@ -155,7 +160,7 @@ async function runCase(route,width,state){
   }
 }
 function buildReport(cases){
-  return {phase:32,subphase:'32c contrast reproduction',source:SOURCE,baseUrl:BASE,browser:'Chromium 143.0.7499.0 / Playwright 1.58.2',settings:{widths:WIDTHS,states:STATES.map(x=>x.name),fullPageScroll:true,settleAfterFullScrollMs:3000,freshBrowserPerCase:true,screenshotTimeoutMs:SCREENSHOT_TIMEOUT,retryLimit:1},caseCount:cases.length,cases};
+  return {phase:32,subphase:'32c contrast reproduction',source:SOURCE,baseUrl:BASE,browser:'Chromium 143.0.7499.0 / Playwright 1.58.2',settings:{widths:WIDTHS,states:STATES.map(x=>x.name),fullPageScroll:true,settleAfterFullScrollMs:3000,freshBrowserPerCase:true,screenshotTimeoutMs:SCREENSHOT_TIMEOUT,sceneStartSignal:'HTMLCanvasElement.getContext(webgl)',retryLimit:1},caseCount:cases.length,cases};
 }
 function saveReport(cases){
   fs.mkdirSync(path.dirname(OUT),{recursive:true});const temp=OUT+'.tmp';
