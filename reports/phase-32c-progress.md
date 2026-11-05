@@ -76,6 +76,12 @@
 - WebGL contexts were created in all 18 JavaScript-enabled cases and none of the six JavaScript-off cases. Thus the first Phase32 hero-still change did not yet safeguard Home/About scenes for touch/coarse or reduced-motion, and it did not change these four color/background relationships. The 24 remote-font console notices are the expected isolated-runner blocks; no other console or page errors occurred.
 - `d0b7726` remains verified runtime-identical to `796879d`; no duplicate matrix is needed. No classification or public color edit has been made.
 
+## 2026-11-05 checkpoint: reference-scene defer matrix complete
+
+- Completed all 24 cases and 48 crops at `d4b376e`. WebGL context creation and the deferred init wrapper occurred only for Home and About at 1280px in the fine-pointer eligible state. The other 22 cases, including phone/touch, reduced-motion and JavaScript-off, made no WebGL context.
+- The four text foregrounds and low-contrast color/background pairs remain materially the same as the earlier checkpoints and current `f9c96ca`: Home note 3.545:1; About FAQ 1.089:1 to 1.097:1; About labels 1.935:1. The defer change corrected scene-state behavior but did not introduce or fix any of these contrast relationships. All crops exist; only the known blocked-font console event occurred per case.
+- Across the completed historical points, the four visual defects predate Phase32, while scene behavior changed at `d4b376e`. No classification or public source edit has been made.
+
 ## Exact next step
 
-Run and save the 24-case matrix at `d4b376e`, the Phase32 reference-scene defer change, to verify which scene states changed while checking whether any of the four foreground/backdrop pairs changed. Compare its 48 crops and measured ratios with `75f355f`, `796879d`, `2722901`, and current `f9c96ca`; only then finalize classifications and restoration decisions.
+Aggregate the six snapshot reports (`75f355f`, `796879d`, runtime-identical `d0b7726`, `2722901`, `d4b376e`, and current `f9c96ca`) and inspect earlier style history for an evidenced last-passing color/background relationship. Classify each finding with that evidence. If no earlier passing pair exists, preserve the explicit scope constraint and document that the defects are real but pre-existing rather than inventing a Phase32 regression; then determine the smallest authorized contrast-only repair and add the requested 360/1280 screenshot regression check before any full suite.
