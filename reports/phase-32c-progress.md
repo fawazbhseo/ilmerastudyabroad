@@ -89,6 +89,12 @@
 - The requested historical set has no last-passing commit for these exact pairs. The smallest authorized repairs will reuse already-present passing palette relationships without changing wording, layout, surfaces or imagery: remove only the Home note's explicit `#888` so it inherits the existing `--grey-dark` (`#4A5568`, 7.526:1 on white); change only `#faq-h2` from the existing dark-heading variant to the existing light-heading variant on the dark FAQ surface (white, approximately 19.9:1); set only the team label and Kodagu label to the existing `--navy` (`#1A2E5A`, 11.239:1 on `#E8ECF8`). Each finding will be fixed in its own commit. The scene safeguards are a separate behavior change: older builds create WebGL in 18 JavaScript-enabled cases, while `d4b376e` and current create it only for the two eligible 1280px desktop cases.
 - No contrast source fixes have been applied yet.
 
+## 2026-11-05 checkpoint: Home contrast finding fixed
+
+- Removed only the inline `color:#888` from the Home programme-conditions note. It now inherits the existing `--grey-dark` text color; wording, size, background, layout and imagery are unchanged.
+- Fresh-process no-scene screenshot captures at 360px and 1280px both measured 7.526:1 on white. Both reported zero scene calls. The original CRLF line endings remain intact.
+- This is the first of four separately committed contrast fixes.
+
 ## Exact next step
 
-Fix the Home note only by removing its inline `color:#888`, then run the focused no-scene Home capture at 360 and 1280px and confirm the measured ratio is at least 4.5:1. Update this progress record, commit and push that single finding, and post the PR #1 checkpoint before moving to the About FAQ heading.
+Fix only About `#faq-h2` by switching its existing dark-heading variant to the existing light-heading variant on the dark FAQ surface. Run the focused no-scene About capture at 360 and 1280px, verify at least 4.5:1, update this progress file, then commit, push and post the PR #1 checkpoint.
