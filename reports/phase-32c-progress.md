@@ -70,6 +70,12 @@
 - Confirmed `796879d..d0b7726` changes only `reports/phase-32-progress.md`; no runtime-affecting PHP, CSS, assets or content changed at the literal first post-baseline commit.
 - No classification or public source edit has been made.
 
+## 2026-11-05 checkpoint: first Phase32 source matrix complete
+
+- Completed all 24 cases and 48 crops at `2722901`, the first Phase32 public-runtime source behavior change. The report is `reports/phase-32c-contrast-2722901.json`; all crops exist. Home is still 3.545:1, About FAQ remains 1.018:1 to 1.102:1, and both labels remain about 1.935:1. Computed foregrounds match the two Phase31 checkpoints and current.
+- WebGL contexts were created in all 18 JavaScript-enabled cases and none of the six JavaScript-off cases. Thus the first Phase32 hero-still change did not yet safeguard Home/About scenes for touch/coarse or reduced-motion, and it did not change these four color/background relationships. The 24 remote-font console notices are the expected isolated-runner blocks; no other console or page errors occurred.
+- `d0b7726` remains verified runtime-identical to `796879d`; no duplicate matrix is needed. No classification or public color edit has been made.
+
 ## Exact next step
 
-Run and save the 24-case matrix at `2722901`, the first Phase32 public-runtime behavior change, and `d4b376e`, the later reference-scene defer change. Treat `d0b7726` as runtime-identical to `796879d`, backed by the zero-runtime-diff check rather than repeating its identical browser matrix. Compare all historical results to current `f9c96ca` and classify each finding before considering any authorized color/background restoration.
+Run and save the 24-case matrix at `d4b376e`, the Phase32 reference-scene defer change, to verify which scene states changed while checking whether any of the four foreground/backdrop pairs changed. Compare its 48 crops and measured ratios with `75f355f`, `796879d`, `2722901`, and current `f9c96ca`; only then finalize classifications and restoration decisions.
