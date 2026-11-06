@@ -220,6 +220,7 @@
 
 - Updated `reports/post-deploy-checklist.md` for the 137-file ZIP and source `065934a`. It now contains blank before/after PSI fields for LCP, TBT, CLS, score, transfer and render-blocking resources; the unchanged owner pass lines; explicit post-upload route and visual checks; exact folder/file counts; rollback steps; and the 11 changed upload paths since `796879d`.
 - The checklist includes the current ZIP raw link, 833,237-byte size and SHA-256; records all 13 WOFF2 URLs; states that the Mysuru place and selected article remain on the plain-palette hero; and keeps owner/native-host acceptance open. No PSI values were invented.
+- Regenerated the PDF once more after adding the 43-route inventory reference to the Markdown; extracted-text verification confirms both files now include the same route-list reference and package checksum.
 - Regenerated `reports/post-deploy-checklist.pdf` offline from the Markdown with no external requests. Parsed the PDF: three A4 pages, valid EOF, and extracted text contains the PSI gates, ZIP checksum, counts, rollback and changed-path list. `tools/phase27/README.md` now describes the current three-page output instead of the stale page-count instruction. LF line endings are preserved.
 - Task 5 is complete. The local package and browser checks do not certify Hostinger or live speed. No upload, merge or deployment occurred.
 - Posted the Task 5 checkpoint to PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6684617953.
