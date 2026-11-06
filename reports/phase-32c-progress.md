@@ -196,6 +196,12 @@
 - Pushed the one-shot suite report and progress update in commit `70710a4`.
 - Posted the Task 4 checkpoint to existing PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6678504007. No merge or deployment was performed.
 
+## 2026-11-06 checkpoint: Task 5 payload scope audited
+
+- The current 131-entry manifest is pinned to Phase30 source `f54e4cc` and predates Phase32c runtime files. The current rendered reference pages add four Cormorant faces; the destination and blog-index templates use the 640px and 1440px still fallbacks. Place and article remain on the plain-palette path. The legacy 720px image path is not referenced by current PHP output and stays excluded. The eight deny-only `.htaccess` policies and temporary self-check remain in scope.
+- Updated the temporary self-check's fixed hash table for the planned 137-file allowlist, preserving its existing critical-versus-existence-only checks. PHP-WASM parsed it and verified the missing-key 404, noindex and no-store behavior. No live request or deployment occurred.
+- The source snapshot and ZIP have not yet been regenerated. The upload-relevant changed-file list since `796879d` will include the changed PHP/CSS/config/font/still files and the updated temporary checker; internal reports, tools and release artifacts remain excluded.
+
 ## Exact next step
 
-Begin Task 5 by inspecting the existing payload manifest instructions, exclusion rules and ZIP export tool. Determine the new-HEAD manifest inputs, then prepare a clean temporary payload copy for completeness and render/asset parity checks. Do not rerun the final suite or any group. Do not merge or deploy.
+Regenerate `reports/phase-27-payload-manifest.json` against the commit containing this checker update. Add the four referenced font faces and two still fallbacks, recompute all file sizes and SHA-256 values plus tracked/excluded counts, then commit and push the manifest checkpoint. Do not rerun the final suite or any group. Do not merge or deploy.
