@@ -191,6 +191,11 @@
 - The 516-case blank-space scan completed with 1,147 pixel candidates, down 24 from 1,171; zero hidden reveal-text findings; and 16 intentional scroll-indicator dismissals. Four Contact `#miniHero` tails per width remain as previously documented. Four additional Home `#team` 1280px cases report a 202px tail candidate; it is unclassified, not confirmed removable space. No source or layout change was made.
 - Results and group-level interpretations are recorded in `reports/phase-32c-final-suite-run-01.json` and `reports/phase-32c-final-suite-run-01.md`. The original suite report and raw case evidence remain in the external run directory. The adapter has been stopped.
 
+## 2026-11-06 checkpoint: Task 4 PR update posted
+
+- Pushed the one-shot suite report and progress update in commit `70710a4`.
+- Posted the Task 4 checkpoint to existing PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6678504007. No merge or deployment was performed.
+
 ## Exact next step
 
-Commit and push the Task 4 report and this progress update, then post the Task 4 checkpoint to existing PR #1. After that, begin Task 5 by inspecting the manifest/export tool and its requested exclusions. Do not rerun the final suite or any group. Do not merge or deploy.
+Begin Task 5 by inspecting the existing payload manifest instructions, exclusion rules and ZIP export tool. Determine the new-HEAD manifest inputs, then prepare a clean temporary payload copy for completeness and render/asset parity checks. Do not rerun the final suite or any group. Do not merge or deploy.
