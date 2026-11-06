@@ -165,6 +165,11 @@
 - All 63 Lighthouse run warnings were zero. The browser request-failure listener recorded two events per sample: internal `chrome://terms/` `ERR_INVALID_URL` and a logo `ERR_ABORTED`; the logo is also present as a 200-status network-audit entry. These are retained diagnostics; no console or page-error assertion is made because those events were not collected.
 - All numbers are local simulated Lighthouse data. PageSpeed Insights owner confirmation remains required. The Phase31 fixture A provenance mismatch is documented without changing the old fixture. No final full suite has run.
 
+## 2026-11-06 checkpoint: final-suite runtime restored
+
+- Restored the pinned Phase32c runtime outside the repository, including PHP-WASM CLI 3.1.50, Playwright 1.58.2, Chromium 143.0.7499.0, Lighthouse 12.8.2, axe-core 4.11.0 and sharp 0.34.5. Verified a single-file PHP-WASM lint, module imports, and a Chromium launch.
+- This was setup only. No current 43-route render, browser matrix, axe scan, palette check or blank-space scan has run for the final suite. Task 4 remains pending, and no production source was changed.
+
 ## Exact next step
 
-Run the requested final full suite exactly once now that Tasks 1-3 are complete. It must cover PHP-WASM lint; all 43 route renders and comparisons to Phase31b; 258 browser cases; discovery, wording, sitemap, palette, structured data, fresh-process axe coverage, overflow and 44px target checks; and the Phase31 blank-space scan plus documented Contact tails. Preserve each group as PASS/FAIL with named remaining failures. Do not rerun the full suite after it completes. Commit and push the suite artifacts and progress checkpoint, then proceed to payload/ZIP verification and final documentation.
+Finish and commit the dedicated Phase32c final-suite runner, Phase31b 43-route content comparator, fresh-process axe check, 44px target analysis and current blank-space summary. Run only syntax/dependency preflight checks on those tools. Then run the complete Task 4 suite exactly once: PHP-WASM lint; all 43 current route renders and text/link/image/JSON-LD comparisons to Phase31b; 258 normal browser cases plus the recorded reduced-motion cases; discovery, wording, sitemap, palette, structured data, fresh-process axe, overflow and 44px target checks; and the Phase31 blank-space scan with documented Contact tails. Preserve PASS/FAIL per group and name remaining failures. Do not rerun the suite. Commit and push the results and progress checkpoint, then continue to payload/ZIP verification and final documentation.
