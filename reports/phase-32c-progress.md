@@ -202,6 +202,12 @@
 - Updated the temporary self-check's fixed hash table for the planned 137-file allowlist, preserving its existing critical-versus-existence-only checks. PHP-WASM parsed it and verified the missing-key 404, noindex and no-store behavior. No live request or deployment occurred.
 - The source snapshot and ZIP have not yet been regenerated. The upload-relevant changed-file list since `796879d` will include the changed PHP/CSS/config/font/still files and the updated temporary checker; internal reports, tools and release artifacts remain excluded.
 
+## 2026-11-06 checkpoint: Task 5 manifest regenerated
+
+- Regenerated `reports/phase-27-payload-manifest.json` for source commit `065934a1ef2b0962308ce440ada959619e8824f2`. The exact allowlist has 137 files: the prior 131 entries plus four referenced Cormorant font faces and the 640px/1440px hero-still fallbacks used by the current destination and blog-index templates. Place and article remain on the plain-palette path. The legacy 720px image path remains excluded.
+- The source snapshot has 6,217 tracked files; 6,080 are excluded from the 137-entry payload. All eight deny-only policies remain included. `reports/phase-32c-upload-scope.json` records the counts, six required additions, explicit exclusions and the 11 upload-relevant changed paths since `796879d`, including the refreshed temporary checker.
+- Every allowlist row's size and SHA-256 was verified against its Git blob. The export folder and ZIP have not yet been created.
+
 ## Exact next step
 
-Regenerate `reports/phase-27-payload-manifest.json` against the commit containing this checker update. Add the four referenced font faces and two still fallbacks, recompute all file sizes and SHA-256 values plus tracked/excluded counts, then commit and push the manifest checkpoint. Do not rerun the final suite or any group. Do not merge or deploy.
+Commit and push this manifest checkpoint. Then use `tools/phase27/export.py` with source `065934a` to create a new clean temporary payload and `releases/ilmera-deploy-065934a.zip`. Verify the exact file set, per-file hashes, all 43 route renders and required static assets against the repository. Do not rerun the final suite or any group. Do not merge or deploy.

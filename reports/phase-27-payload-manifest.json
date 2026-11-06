@@ -1,6 +1,6 @@
 {
-  "source_commit": "f54e4cc746fe54cfd89c228d8cf88635864c7ccb",
-  "scope": "Phase30: unchanged design/content except exact shared duplicate fix and temporary keyed/expiring deploy-check.php",
+  "source_commit": "065934a1ef2b0962308ce440ada959619e8824f2",
+  "scope": "Phase32c current whole-branch runtime snapshot, including required reference font faces, destination/blog-index still fallbacks and the temporary owner checker. Internal reports/tools, releases and unused assets remain excluded.",
   "files": [
     {
       "path": ".htaccess",
@@ -14,8 +14,8 @@
     },
     {
       "path": "about.php",
-      "bytes": 75145,
-      "sha256": "bb5460d63aa98a63b001d956b251326d856a0bed72adbe1f091d3d5358e173ba"
+      "bytes": 75249,
+      "sha256": "78ba18c8f0b86b4b36404b5200411462971e3427b583faec554708ae852cc679"
     },
     {
       "path": "all-pages.php",
@@ -24,8 +24,8 @@
     },
     {
       "path": "assets/css/visual-system.css",
-      "bytes": 23490,
-      "sha256": "2f7086f6124c68f5ab7a5fbc864e61b2b25b29219914de06119231aa248cf71f"
+      "bytes": 23672,
+      "sha256": "df5ac04575aeaec90ed8f647bca77567e2f34d165bd21b35c5fc3da1c6c70391"
     },
     {
       "path": "assets/fonts/.htaccess",
@@ -43,9 +43,29 @@
       "sha256": "0ee72c59334ef2ffee83ebb314be26d74fcae1be428c9e1035eaf60ee293f3b4"
     },
     {
+      "path": "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+      "bytes": 22524,
+      "sha256": "6c08d902c3e74a150078fb9265a50536f994c12203f207f8662fff0999754d2f"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-300.woff2",
+      "bytes": 21900,
+      "sha256": "7499d1bbfbe5b79ce04484c3fb559212049489872ed831dd5af03e24337c477e"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
+      "bytes": 23668,
+      "sha256": "26b41dd185ff48a71f16f50255b6f77011b1c79e8b18811458323313858f2cfa"
+    },
+    {
       "path": "assets/fonts/cormorant-garamond-reference-400.woff2",
       "bytes": 22908,
       "sha256": "727acdbfd81848bcc9a5c2a6c64ba1b97ba93c69515382785483ce0cc068be08"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-600.woff2",
+      "bytes": 23456,
+      "sha256": "db5c65db6aac0c5d840cb5a1f0b69b4bbd9e80a4ed93eaaacc0b2ac095d2bbff"
     },
     {
       "path": "assets/fonts/cormorant-garamond-reference-700.woff2",
@@ -96,6 +116,16 @@
       "path": "assets/images/fawazbh-384.webp",
       "bytes": 19056,
       "sha256": "a3c401504f579ac5add974098560858fb8718993007318029278f31ae6488f3b"
+    },
+    {
+      "path": "assets/images/hero-still-1440.webp",
+      "bytes": 37226,
+      "sha256": "a016716e75f3eb508e0205c2674fa0fcb57143177fed0d4a05d3b3c7a01d5260"
+    },
+    {
+      "path": "assets/images/hero-still-640.webp",
+      "bytes": 9738,
+      "sha256": "9260aaca7df1445f73e56e21534f9a98a08774e0c085ba882ed5c92206c1c83e"
     },
     {
       "path": "assets/images/ilmera.logo.png",
@@ -214,9 +244,8 @@
     },
     {
       "path": "deploy-check.php",
-      "bytes": 18628,
-      "sha256": "13d1d9718781fb03ff8f59d70ae08630ce099a05cffeb0a5c9c78929cc0745db",
-      "temporary": true
+      "bytes": 19429,
+      "sha256": "ba444e32b3b9d8f8d8b65c11b4474c1d66c2f32035f72b8110c32cad33e076c8"
     },
     {
       "path": "destinations/.htaccess",
@@ -360,18 +389,18 @@
     },
     {
       "path": "includes/visual-config.php",
-      "bytes": 848,
-      "sha256": "f68570eb69bef74850f06c4d54b488fcdf1ec1a5a81f37d563eef53dab4e2c76"
+      "bytes": 865,
+      "sha256": "f2914a754763f9d1903d2f4c947fabf7bbe75af1b566823c321f1ea7858fbab9"
     },
     {
       "path": "includes/visual-system.php",
-      "bytes": 7898,
-      "sha256": "95858ce9008bebf54b58075d07a653441233cf7d5dc67b5815a790a62b6b9a6f"
+      "bytes": 20921,
+      "sha256": "ee52f27c56a8d70093f97c79ba91fc9d625c0a2f1aba91584e36fe0231271ec2"
     },
     {
       "path": "index.php",
-      "bytes": 85160,
-      "sha256": "5ec4bcf5ca18b262588952150838d9e92985d68a5ae620e7579a9057eaa58b3a"
+      "bytes": 85197,
+      "sha256": "4ffabb7e3b56b171ed04c3d3e1111cccfd1f1f3251f83c785a74ac973348f1fd"
     },
     {
       "path": "llms-full.txt",
@@ -659,7 +688,7 @@
       "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163"
     }
   ],
-  "upload_count": 131,
+  "upload_count": 137,
   "all_htaccess": [
     ".htaccess",
     "assets/fonts/.htaccess",
@@ -685,7 +714,11 @@
     "assets/css/visual-system.css",
     "assets/fonts/cormorant-garamond-OFL.txt",
     "assets/fonts/cormorant-garamond-latin.woff2",
+    "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-300.woff2",
+    "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
     "assets/fonts/cormorant-garamond-reference-400.woff2",
+    "assets/fonts/cormorant-garamond-reference-600.woff2",
     "assets/fonts/cormorant-garamond-reference-700.woff2",
     "assets/fonts/outfit-OFL.txt",
     "assets/fonts/outfit-latin.woff2",
@@ -697,7 +730,11 @@
     "favicon.ico"
   ],
   "referenced_first_party_assets": [
+    "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-300.woff2",
+    "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
     "assets/fonts/cormorant-garamond-reference-400.woff2",
+    "assets/fonts/cormorant-garamond-reference-600.woff2",
     "assets/fonts/cormorant-garamond-reference-700.woff2",
     "assets/fonts/outfit-reference-300.woff2",
     "assets/fonts/outfit-reference-400.woff2",
@@ -706,6 +743,8 @@
     "assets/fonts/outfit-reference-700.woff2",
     "assets/images/fawazbh-192.webp",
     "assets/images/fawazbh-384.webp",
+    "assets/images/hero-still-1440.webp",
+    "assets/images/hero-still-640.webp",
     "assets/images/ilmera.logo.png",
     "assets/images/jabirkj.png",
     "assets/images/jabirkj.webp",
@@ -715,19 +754,27 @@
   "external_asset_dependencies": [
     "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
     "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
-    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+    "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
   ],
   "no_symlinks": true,
-  "phase": "30",
-  "runtime_baseline": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "phase": "32c",
+  "runtime_baseline": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
   "runtime_delta": [
-    "includes/site-presentation.php",
-    "deploy-check.php"
+    "about.php",
+    "assets/css/visual-system.css",
+    "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-300.woff2",
+    "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-600.woff2",
+    "assets/images/hero-still-640.webp",
+    "deploy-check.php",
+    "includes/visual-config.php",
+    "includes/visual-system.php",
+    "index.php"
   ],
-  "source_tracked_count": 634,
-  "excluded_source_tracked_count": 503,
-  "count_basis": "Counts refer only to the committed source_commit snapshot. Later reports/tools/release-artifact commits are excluded and do not change131 runtime entries.",
+  "source_tracked_count": 6217,
+  "excluded_source_tracked_count": 6080,
+  "count_basis": "Git-tracked tree at 065934a1ef2b0962308ce440ada959619e8824f2; 137 root-relative upload entries. Excluded-source count is the remainder of that tree. Untracked files, .git internals, dependency folders and runtime caches are not included in the finite count.",
   "temporary_payload_files": [
     "deploy-check.php"
   ],
@@ -738,7 +785,8 @@
     "reports/ except reports/.htaccess",
     "tools/ except tools/.htaccess",
     ".git/",
-    "caches/"
+    "caches/",
+    "unused assets and legacy helpers not referenced by current PHP-rendered templates"
   ],
   "historical_phase27_inventory": {
     "total_tracked_files": 547,
@@ -776,5 +824,104 @@
     "release_directory_policy_not_in_upload_manifest": true,
     "payload_htaccess_count": 8,
     "tracked_policy_count_with_releases": 9
+  },
+  "phase30_runtime_source_commit": "f54e4cc746fe54cfd89c228d8cf88635864c7ccb",
+  "phase30_runtime_baseline": "a3d696f7942b2df5c76d660c2b9f3252881ce314",
+  "phase30_runtime_delta": [
+    "includes/site-presentation.php",
+    "deploy-check.php"
+  ],
+  "phase32c_runtime_delta_since_phase31b": [
+    {
+      "status": "M",
+      "path": "about.php"
+    },
+    {
+      "status": "M",
+      "path": "assets/css/visual-system.css"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-300-italic.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-300.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-400-italic.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-600.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/images/hero-still-640.webp"
+    },
+    {
+      "status": "M",
+      "path": "deploy-check.php"
+    },
+    {
+      "status": "M",
+      "path": "includes/visual-config.php"
+    },
+    {
+      "status": "M",
+      "path": "includes/visual-system.php"
+    },
+    {
+      "status": "M",
+      "path": "index.php"
+    }
+  ],
+  "required_phase32c_additions": [
+    "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-300.woff2",
+    "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-600.woff2",
+    "assets/images/hero-still-1440.webp",
+    "assets/images/hero-still-640.webp"
+  ],
+  "explicit_asset_exclusions": [
+    {
+      "path": "assets/images/hero-still-720.webp",
+      "reason": "Not referenced by current PHP-rendered templates; current inline fallback uses the 640px and 1440px files."
+    },
+    {
+      "path": "assets/js/hero-still.js",
+      "reason": "Legacy helper is not loaded by current PHP-rendered templates."
+    },
+    {
+      "path": "assets/images/fawazbh.webp",
+      "reason": "Unreferenced original image; current pages use the two optimized portrait variants already in the allowlist."
+    },
+    {
+      "path": "assets/images/ilmera.logo.navy.png",
+      "reason": "Unreferenced alternate logo; current pages use the allowlisted logo file."
+    },
+    {
+      "path": "assets/images/ilmera.png",
+      "reason": "Unreferenced original image; current pages use the allowlisted logo file."
+    },
+    {
+      "path": "assets/images/ilmera.white.png",
+      "reason": "Unreferenced alternate logo; current pages use the allowlisted logo file."
+    }
+  ],
+  "folder_counts": {
+    ".": 46,
+    "assets/css": 1,
+    "assets/fonts": 16,
+    "assets/images": 9,
+    "blog": 9,
+    "data": 8,
+    "destinations": 10,
+    "includes": 18,
+    "places": 18,
+    "reports": 1,
+    "tools": 1
   }
 }

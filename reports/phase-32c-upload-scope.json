@@ -1,0 +1,131 @@
+{
+  "phase": "32c",
+  "baseline_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
+  "source_commit": "065934a1ef2b0962308ce440ada959619e8824f2",
+  "upload_relevant_changed_path_count": 11,
+  "paths": [
+    {
+      "status": "M",
+      "path": "about.php"
+    },
+    {
+      "status": "M",
+      "path": "assets/css/visual-system.css"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-300-italic.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-300.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-400-italic.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/fonts/cormorant-garamond-reference-600.woff2"
+    },
+    {
+      "status": "A",
+      "path": "assets/images/hero-still-640.webp"
+    },
+    {
+      "status": "M",
+      "path": "deploy-check.php"
+    },
+    {
+      "status": "M",
+      "path": "includes/visual-config.php"
+    },
+    {
+      "status": "M",
+      "path": "includes/visual-system.php"
+    },
+    {
+      "status": "M",
+      "path": "index.php"
+    }
+  ],
+  "excluded_namespaces": [
+    "releases/",
+    "reports/ except reports/.htaccess",
+    "tools/ except tools/.htaccess",
+    ".git/",
+    "caches/",
+    "unused assets and legacy helpers not referenced by current PHP-rendered templates"
+  ],
+  "manifest_count": 137,
+  "source_tracked_count": 6217,
+  "excluded_source_tracked_count": 6080,
+  "folder_counts": {
+    ".": 46,
+    "assets/css": 1,
+    "assets/fonts": 16,
+    "assets/images": 9,
+    "blog": 9,
+    "data": 8,
+    "destinations": 10,
+    "includes": 18,
+    "places": 18,
+    "reports": 1,
+    "tools": 1
+  },
+  "required_phase32c_additions": [
+    "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-300.woff2",
+    "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
+    "assets/fonts/cormorant-garamond-reference-600.woff2",
+    "assets/images/hero-still-1440.webp",
+    "assets/images/hero-still-640.webp"
+  ],
+  "explicit_asset_exclusions": [
+    {
+      "path": "assets/images/hero-still-720.webp",
+      "reason": "Not referenced by current PHP-rendered templates; current inline fallback uses the 640px and 1440px files."
+    },
+    {
+      "path": "assets/js/hero-still.js",
+      "reason": "Legacy helper is not loaded by current PHP-rendered templates."
+    },
+    {
+      "path": "assets/images/fawazbh.webp",
+      "reason": "Unreferenced original image; current pages use the two optimized portrait variants already in the allowlist."
+    },
+    {
+      "path": "assets/images/ilmera.logo.navy.png",
+      "reason": "Unreferenced alternate logo; current pages use the allowlisted logo file."
+    },
+    {
+      "path": "assets/images/ilmera.png",
+      "reason": "Unreferenced original image; current pages use the allowlisted logo file."
+    },
+    {
+      "path": "assets/images/ilmera.white.png",
+      "reason": "Unreferenced alternate logo; current pages use the allowlisted logo file."
+    }
+  ],
+  "payload_htaccess": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ],
+  "tracked_htaccess_including_release_policy": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "releases/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ]
+}
