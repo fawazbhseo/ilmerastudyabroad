@@ -94,7 +94,17 @@ async function captureDOM(page,threshold){
     for(const t of hiddenRaw){const k=t.selector+'@'+Math.floor(t.y/220);let g=hiddenGroups.get(k);if(!g){g={kind:'hidden-reveal-text',selector:t.selector,y:t.y,height:t.height,text_sample:t.text.slice(0,90),characters:0,computed:{effective_opacity:t.opacity,visibility_reasons:t.reason},crop:null};hiddenGroups.set(k,g);}g.characters+=t.length;g.y=Math.min(g.y,t.y);g.height=Math.max(g.height,t.height);}
     const hidden=[...hiddenGroups.values()];
     const visible=textNodes.filter(t=>t.visible);const media=[...main.querySelectorAll('img,svg,canvas,video,iframe,picture,[role="img"]')].filter(x=>{const b=x.getBoundingClientRect();const v=stackVisible(x);return v.visible&&b.width>2&&b.height>2&&!x.closest('[aria-hidden="true"]')}).length;
-    return{page_height:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight),main:{selector:selectorOf(main),y:Math.round(mainRect.top+scrollY),height:Math.round(mainRect.height)},visible_text_chars:visible.reduce((a,t)=>a+t.length,0),visible_text_nodes:visible.length,hidden_text_nodes:hiddenRaw.length,hidden_text_groups:hidden.length,hidden_text_chars:hidden.reduce((a,t)=>a+t.characters,0),visible_media:media,empty_or_spacing_nodes:nodes,hidden_text:hidden.slice(0,300),text_samples:visible.slice(0,24).map(t=>({selector:t.selector,y:t.y,text:t.text.slice(0,60)}))};
+    let contactMiniheroTail=null;
+    const mini=document.querySelector('#miniHero');
+    if(mini){
+      const r=mini.getBoundingClientRect(),st=getComputedStyle(mini),y=r.top+scrollY,pb=parseFloat(st.paddingBottom)||0;
+      const own=textNodes.filter(t=>mini.contains(t.parent)&&t.visible);
+      const mediaBoxes=[...mini.querySelectorAll('img,svg,canvas,video,iframe,picture,[role="img"]')].filter(x=>{const b=x.getBoundingClientRect(),v=stackVisible(x);return v.visible&&b.width>2&&b.height>2&&!x.closest('[aria-hidden="true"]')}).map(x=>{const b=x.getBoundingClientRect();return b.bottom+scrollY;});
+      const contentBottom=Math.max(...own.map(t=>t.y+t.height),...mediaBoxes,y);
+      const cue=document.querySelector('#scrollInd'),cueStyle=cue?getComputedStyle(cue):null,cueRect=cue?.getBoundingClientRect();
+      contactMiniheroTail={selector:'#miniHero',y:Number(y.toFixed(2)),height:Number(r.height.toFixed(2)),min_height:st.minHeight,padding_bottom:st.paddingBottom,last_visible_flow_bottom:Number(contentBottom.toFixed(2)),flow_tail_to_section_bottom:Number(Math.max(0,y+r.height-pb-contentBottom).toFixed(2)),scroll_indicator:cue&&cueRect?{text:(cue.innerText||'').replace(/\s+/g,' ').trim(),opacity:cueStyle.opacity,visibility:cueStyle.visibility,y:Number((cueRect.top+scrollY).toFixed(2)),height:Number(cueRect.height.toFixed(2)),bottom_gap:Number((innerHeight-cueRect.bottom).toFixed(2))}:null};
+    }
+    return{page_height:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight),main:{selector:selectorOf(main),y:Math.round(mainRect.top+scrollY),height:Math.round(mainRect.height)},visible_text_chars:visible.reduce((a,t)=>a+t.length,0),visible_text_nodes:visible.length,hidden_text_nodes:hiddenRaw.length,hidden_text_groups:hidden.length,hidden_text_chars:hidden.reduce((a,t)=>a+t.characters,0),visible_media:media,empty_or_spacing_nodes:nodes,hidden_text:hidden.slice(0,300),text_samples:visible.slice(0,24).map(t=>({selector:t.selector,y:t.y,text:t.text.slice(0,60)})),contact_minihero_tail:contactMiniheroTail};
   },{threshold});
 }
 async function locateBands(page,bands){
