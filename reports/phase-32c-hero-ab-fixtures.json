@@ -1,0 +1,216 @@
+{
+  "phase": "32c",
+  "task": "3_hero_still_ab_fixtures",
+  "fixture_status": "PASS",
+  "scope": "Local simulated experiment only. No browser performance sample is included in this fixture manifest.",
+  "source_commits": {
+    "A": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+    "B_current": "ac2d9b06dc85578e4b4c31ad236b228f67d44333"
+  },
+  "source_trees": {
+    "A": "4cb97c96e6eabc9ea72d76f919e6ad2197c4d298",
+    "B_current": "cd9bc80cf366564d77f51a349b7ddf7eda5af48f"
+  },
+  "rendering": {
+    "runtime": "PHP-WASM 8.5.8 via @php-wasm/* 3.1.50",
+    "routes_per_arm": 2,
+    "arms": [
+      "A",
+      "B-still",
+      "B-plain"
+    ],
+    "A_source_exact_commit_render": true
+  },
+  "routes": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "http_status": {
+        "A": 200,
+        "B-still": 200,
+        "B-plain": 200
+      },
+      "html": {
+        "A": {
+          "bytes": 52495,
+          "sha256": "259adca5797ebb64c05e192791b60779e5c549879f1a818474b8629809f75da8"
+        },
+        "B-still": {
+          "bytes": 55968,
+          "sha256": "25ee6289b4a92c7eb0b94a2a8e42779a1a2edae5a6da7d83f361d0e75bf0b58f"
+        },
+        "B-plain": {
+          "bytes": 53197,
+          "sha256": "c8198b3b9de4392f540300203462b2954bac9b567bde727470079d01adf940fd"
+        }
+      },
+      "protected_content_checks": {
+        "A_vs_B_still": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        },
+        "A_vs_B_plain": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        },
+        "B_still_vs_B_plain": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        }
+      },
+      "still_toggle_checks": {
+        "B_still_has_one_canvas": true,
+        "B_still_has_loader_and_no_script_fallback": true,
+        "B_plain_has_no_still_markup_or_urls": true,
+        "B_plain_has_one_plain_palette_rule": true
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "http_status": {
+        "A": 200,
+        "B-still": 200,
+        "B-plain": 200
+      },
+      "html": {
+        "A": {
+          "bytes": 66432,
+          "sha256": "8c1767ab14da27699b16d72c42db55ffdde196dbe196bd0eb233d5144cf870ab"
+        },
+        "B-still": {
+          "bytes": 69905,
+          "sha256": "efa0ee2ee1abe2ea16945d90bc6b14d3013c4354021fb353fcf4461ab921bd88"
+        },
+        "B-plain": {
+          "bytes": 67134,
+          "sha256": "17009740e2c98d9f8da27eb6165eb0a4de6ad540b7df70cc5524dfa0bfd3bb41"
+        }
+      },
+      "protected_content_checks": {
+        "A_vs_B_still": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        },
+        "A_vs_B_plain": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        },
+        "B_still_vs_B_plain": {
+          "text": true,
+          "title": true,
+          "headings": true,
+          "meta": true,
+          "robots": true,
+          "canonical": true,
+          "anchors": true,
+          "images": true,
+          "picture_sources": true,
+          "json_ld": true
+        }
+      },
+      "still_toggle_checks": {
+        "B_still_has_one_canvas": true,
+        "B_still_has_loader_and_no_script_fallback": true,
+        "B_plain_has_no_still_markup_or_urls": true,
+        "B_plain_has_one_plain_palette_rule": true
+      }
+    }
+  ],
+  "B_arm_guard": {
+    "source_tree_file_changes": [
+      "includes/visual-config.php"
+    ],
+    "only_difference": "One test-only value in ILMERA_VISUAL_PLAIN_HERO_TEMPLATES. B-plain keeps place/article plain; B-still empties that list so the existing still loader is eligible. No production source was edited for this comparison."
+  },
+  "still_assets": {
+    "assets/images/hero-still-640.webp": {
+      "bytes": 9738,
+      "sha256": "9260aaca7df1445f73e56e21534f9a98a08774e0c085ba882ed5c92206c1c83e",
+      "identical_in_B_still_and_B_plain": true
+    },
+    "assets/images/hero-still-1440.webp": {
+      "bytes": 37226,
+      "sha256": "a016716e75f3eb508e0205c2674fa0fcb57143177fed0d4a05d3b3c7a01d5260",
+      "identical_in_B_still_and_B_plain": true
+    }
+  },
+  "fixture_json_external": "/home/user/phase32c-runtime/hero-ab/fixtures.json",
+  "fixture_json_bytes": 373542,
+  "fixture_json_sha256": "9a037671a583590250d9002860bb7cbd2563a0bec1ac9288dee2b3cc89dfcf82",
+  "prior_phase31_fixture_audit": {
+    "archive": "reports/phase-31-task4-ab-fixtures.tar.gz",
+    "archive_sha256": "34b33d2ab901ade8e158f8d173fac4a8a6ad79346e60117932a82ccbb9ba8ae2",
+    "declared_A_source_commit": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+    "exact_commit_render_comparison": {
+      "/study-abroad-counselling-mysuru": {
+        "matches_exact_A_commit_render": false,
+        "differing_protected_invariants": [
+          "text",
+          "title",
+          "headings",
+          "meta",
+          "robots",
+          "anchors",
+          "json_ld"
+        ]
+      },
+      "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+        "matches_exact_A_commit_render": false,
+        "differing_protected_invariants": [
+          "text",
+          "headings",
+          "anchors"
+        ]
+      }
+    },
+    "mismatch_detected": true,
+    "handling": "The prior artifact is retained unchanged. Task 3 uses a fresh PHP-WASM render of the exact declared A commit because its stored A HTML differs on protected content for these routes."
+  },
+  "budgets_fixed_before_sampling": {
+    "added_transfer_bytes_strictly_less_than": 150000,
+    "no_new_render_blocking_resource": true,
+    "CLS_no_worse_than_A_and_below": 0.1,
+    "LCP_B_over_A_at_most": 1.1,
+    "TBT_increase_ms_at_most": 50
+  },
+  "next_step": "Run nine fresh Chromium samples for A, B-still and B-plain on each route in balanced alternating order, plus nine paired A/A repeats on Mysuru. Preserve the raw sample file and push it before analysis."
+}
