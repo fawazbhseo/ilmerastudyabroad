@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Analyze the already-committed Phase32c Task 3 raw Lighthouse samples."""
 from __future__ import annotations
+import collections
 import datetime
 import hashlib
 import json
@@ -209,13 +210,18 @@ def main()->None:
     lcp_noise=noise['lcp_max_absolute_ratio_deviation_from_1']
     tbt_noise=noise['tbt_abs_difference_ms']['max']
     cls_noise=noise['cls_abs_difference']['max']
+    transfer_noise=noise['transfer_abs_difference_bytes']['max']
     for route in ROUTES:
         for arm in ['B-still','B-plain']:
             point=budget_results[route][arm]['point_estimate_budgets']
             lcp_upper=point['lcp']['B_over_A']+lcp_noise
             tbt_upper=point['tbt']['B_minus_A_ms']+tbt_noise
             cls_upper=point['cls']['B_minus_A']+cls_noise
+            transfer_upper=point['added_transfer']['delta_bytes']+transfer_noise
             margin={
+                'transfer_noise_adjusted_upper_delta_bytes':transfer_upper,
+                'transfer_strict_threshold_bytes':150000,
+                'transfer_margin_pass':transfer_upper<150000,
                 'lcp_noise_adjusted_upper_ratio':lcp_upper,
                 'lcp_maximum':1.10,
                 'lcp_margin_pass':lcp_upper<=1.10,
@@ -228,13 +234,33 @@ def main()->None:
                 'noise_floor_route':'/study-abroad-counselling-mysuru',
                 'article_noise_note':'Mysuru A/A values are used as a conservative same-harness margin proxy. There is no separate article A/A block, so article uncertainty is not independently measured.',
             }
-            margin['result']='PASS' if margin['lcp_margin_pass'] and margin['tbt_margin_pass'] and margin['cls_margin_pass'] else 'INCONCLUSIVE_OR_FAIL'
+            margin_checks=[margin['transfer_margin_pass'],margin['lcp_margin_pass'],margin['tbt_margin_pass'],margin['cls_margin_pass']]
+            margin['result']='PASS' if all(margin_checks) else 'INCONCLUSIVE'
             budget_results[route][arm]['noise_adjusted_margin_check']=margin
             budget_results[route][arm]['conservative_still_eligible']=point['result']=='PASS' and margin['result']=='PASS'
     still_eligible=all(budget_results[route]['B-still']['conservative_still_eligible'] for route in ROUTES)
     decision='B-still' if still_eligible else 'B-plain'
-    decision_text=('Select B-still only if it passes all five point-estimate budgets on both routes and its LCP, TBT and CLS remain inside those limits after adding the maximum observed Mysuru A/A absolute noise margin. Any failed point budget or unresolved noise-adjusted margin selects B-plain.'
+    failure_counts=collections.Counter((failure.get('url',''),failure.get('failure','')) for sample in raw['samples'] for failure in sample.get('request_failures',[]))
+    logo_status_counts=collections.Counter(str(item.get('statusCode')) for sample in raw['samples'] for item in sample.get('network',[]) if 'ilmera.logo.png' in (item.get('url') or ''))
+    duplicate_logo_samples=sum(sum(1 for item in sample.get('network',[]) if 'ilmera.logo.png' in (item.get('url') or ''))>1 for sample in raw['samples'])
+    failure_diagnostics={'lighthouse_run_warning_total':sum(len(sample.get('warnings',[])) for sample in raw['samples']),'request_failure_event_total':sum(len(sample.get('request_failures',[])) for sample in raw['samples']),'request_failures_by_url_and_reason':[{'url':url,'failure':failure,'count':count} for (url,failure),count in sorted(failure_counts.items())],'logo_network_audit_status_counts':dict(logo_status_counts),'samples_with_duplicate_logo_network_entries':duplicate_logo_samples,'note':'Request-failure events are retained as raw diagnostics. The logo URL also appears as an HTTP 200 network-audit entry; chrome://terms/ is an internal Chromium URL. No console/page-error claim is made because those events were not collected.'}
+    max_transfer_pair=max(aa_pairs,key=lambda pair:pair['transfer_abs_difference_bytes'])
+    max_noise_round=max_transfer_pair['round']-1
+    aa_primary=next(sample for sample in groups[(ROUTES[0],'A')] if sample['round']==max_noise_round)
+    aa_repeat=next(sample for sample in groups[(ROUTES[0],'A-repeat')] if sample['round']==max_noise_round)
+    logo_count=lambda sample:sum(1 for item in sample.get('network',[]) if 'ilmera.logo.png' in (item.get('url') or ''))
+    max_transfer_diagnostic={'round':max_transfer_pair['round'],'absolute_difference_bytes':max_transfer_pair['transfer_abs_difference_bytes'],'A_logo_network_entries':logo_count(aa_primary),'A_repeat_logo_network_entries':logo_count(aa_repeat),'A_repeat_logo_statuses':[item.get('statusCode') for item in aa_repeat.get('network',[]) if 'ilmera.logo.png' in (item.get('url') or '')]}
+    noise['max_transfer_difference_pair_diagnostic']=max_transfer_diagnostic
+    decision_text=('Select B-still only if it passes all five point-estimate budgets on both routes and transfer, LCP, TBT and CLS remain inside those limits after adding the maximum observed Mysuru A/A absolute noise margin. Any failed point budget or unresolved noise-adjusted margin retains B-plain.'
                    ' The added noise margin is stricter than the owner limits and cannot relax them.')
+    all_point_budgets_pass=all(budget_results[route][arm]['point_estimate_budgets']['result']=='PASS' for route in ROUTES for arm in ['B-still','B-plain'])
+    if still_eligible:
+        decision_rationale='B-still passes all point budgets and the predeclared noise-adjusted margins on both routes. The owner preference for the still is therefore allowed by this local simulation, subject to PageSpeed Insights confirmation.'
+    elif all_point_budgets_pass:
+        still_upper={route:budget_results[route]['B-still']['noise_adjusted_margin_check']['lcp_noise_adjusted_upper_ratio'] for route in ROUTES}
+        decision_rationale=(f"All point-estimate budgets pass for both B arms on both routes. B-still median LCP ratios are {budget_results[ROUTES[0]]['B-still']['point_estimate_budgets']['lcp']['B_over_A']:.4f} and {budget_results[ROUTES[1]]['B-still']['point_estimate_budgets']['lcp']['B_over_A']:.4f}, but the maximum Mysuru A/A ratio deviation is {lcp_noise:.4f}; the noise-adjusted upper ratios are {still_upper[ROUTES[0]]:.4f} and {still_upper[ROUTES[1]]:.4f}, above 1.10. This is inconclusive, not a point-budget failure. Retain B-plain as the conservative default, not as a proven faster arm.")
+    else:
+        decision_rationale='At least one strict point-estimate budget failed. B-still is not selected; retain B-plain as the conservative default. The full per-arm gate results are listed above.'
     raw_commit=git('log','-1','--format=%H','--',str(RAW.relative_to(ROOT)))
     result={
         'phase':'32c','task':'3_hero_still_three_arm_ab_analysis','analysis_status':'COMPLETE',
@@ -249,10 +275,10 @@ def main()->None:
         'A_A_noise_floor':noise,
         'render_blocking_comparison':blocking,
         'still_request_summary':still_requests,
-        'sample_quality':request_quality,
+        'sample_quality':{'by_route_arm':request_quality,'session_diagnostics':failure_diagnostics},
         'budget_results':budget_results,
         'conservative_decision_rule':decision_text,
-        'decision':{'selected_test_arm':decision,'all_route_B_still_conservative_eligibility':still_eligible,'rationale':'B-still is not selected unless every strict gate and each noise-adjusted safety margin pass on both routes. The existing plain palette is retained when any result is failed or inconclusive. No production source was changed by this local test decision.'},
+        'decision':{'selected_test_arm':decision,'all_point_estimate_budgets_pass':all_point_budgets_pass,'all_route_B_still_conservative_eligibility':still_eligible,'rationale':decision_rationale,'B-plain_is_a_proven_performance_winner':False,'no_production_source_changed':True},
         'owner_confirmation_required':'Owner confirmation via PageSpeed Insights remains required before any live-site performance conclusion or release decision.',
     }
     OUT_JSON.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
@@ -283,9 +309,11 @@ def main()->None:
         f"| Absolute TBT difference (ms) | {noise['tbt_abs_difference_ms']['median']:.3f} | {noise['tbt_abs_difference_ms']['iqr']:.3f} | {noise['tbt_abs_difference_ms']['max']:.3f} |",
         f"| Absolute CLS difference | {noise['cls_abs_difference']['median']:.6f} | {noise['cls_abs_difference']['iqr']:.6f} | {noise['cls_abs_difference']['max']:.6f} |",
         f"| Absolute transfer difference (bytes) | {noise['transfer_abs_difference_bytes']['median']:.3f} | {noise['transfer_abs_difference_bytes']['iqr']:.3f} | {noise['transfer_abs_difference_bytes']['max']:.3f} |",
+        f"",
+        f"The maximum A/A transfer difference occurred in round {max_transfer_diagnostic['round']}: A had {max_transfer_diagnostic['A_logo_network_entries']} logo network entry and A-repeat had {max_transfer_diagnostic['A_repeat_logo_network_entries']} entries, each audited with status {max_transfer_diagnostic['A_repeat_logo_statuses']}. The raw transfer difference was {max_transfer_diagnostic['absolute_difference_bytes']:.0f} bytes.",
         '',
         '## Fixed budget gates','',
-        '| Route | Arm | Added transfer <150,000 B | No new render blocker | LCP ratio <=1.10 | TBT increase <=50 ms | CLS no worse and <0.1 | Point result | Noise-adjusted still margin |','|---|---|---|---|---|---|---|---|---|',
+        '| Route | Arm | Added transfer <150,000 B | No new render blocker | LCP ratio <=1.10 | TBT increase <=50 ms | CLS no worse and <0.1 | Point result | Transfer + A/A max | Noise-adjusted still margin |','|---|---|---|---|---|---|---|---|---|---|',
     ]
     for route in ROUTES:
         for arm in ['B-still','B-plain']:
@@ -293,10 +321,23 @@ def main()->None:
             point=entry['point_estimate_budgets']
             margin=entry['noise_adjusted_margin_check']
             show=lambda name:'PASS' if point[name]['pass'] else 'FAIL'
-            lines.append(f"| `{route}` | {arm} | {point['added_transfer']['delta_bytes']:.3f} B, {show('added_transfer')} | {show('no_new_render_blocking')} | {point['lcp']['B_over_A']:.4f}, {show('lcp')} | {point['tbt']['B_minus_A_ms']:.3f} ms, {show('tbt')} | {point['cls']['B_median']:.6f}, {show('cls')} | {point['result']} | {margin['result']} |")
+            transfer_margin='PASS' if margin['transfer_margin_pass'] else 'INCONCLUSIVE'
+            lines.append(f"| `{route}` | {arm} | {point['added_transfer']['delta_bytes']:.3f} B, {show('added_transfer')} | {show('no_new_render_blocking')} | {point['lcp']['B_over_A']:.4f}, {show('lcp')} | {point['tbt']['B_minus_A_ms']:.3f} ms, {show('tbt')} | {point['cls']['B_median']:.6f}, {show('cls')} | {point['result']} | {margin['transfer_noise_adjusted_upper_delta_bytes']:.3f} B, {transfer_margin} | {margin['result']} |")
             if point['no_new_render_blocking']['new_urls']:
                 lines.append(f"  New render-blocking URLs for {route} {arm}: `{', '.join(point['no_new_render_blocking']['new_urls'])}`.")
-    lines += ['',f"New render-blocking URL sets are in `{OUT_JSON.relative_to(ROOT)}`. Hero-still network requests per arm are recorded there as well.",'','## Conservative decision','',decision_text,'',f"**Decision: retain `{decision}`.** {result['decision']['rationale']}",'','Owner confirmation via PageSpeed Insights remains required. No PageSpeed Insights result was supplied or inferred.','',
+    lines += ['',f"New render-blocking URL sets are in `{OUT_JSON.relative_to(ROOT)}`. Hero-still network requests per arm are recorded there as well.",'','## Sample quality and still requests','',
+        f"All {len(raw['samples'])} Lighthouse runs emitted {failure_diagnostics['lighthouse_run_warning_total']} Lighthouse run warnings. The raw browser request-failure listener recorded {failure_diagnostics['request_failure_event_total']} events. Distinct URL/reason pairs: " + '; '.join(f"`{row['url']}` `{row['failure']}` x{row['count']}" for row in failure_diagnostics['request_failures_by_url_and_reason']) + '.',
+        f"The `ilmera.logo.png` network-audit status counts are `{failure_diagnostics['logo_network_audit_status_counts']}`. The internal `chrome://terms/` failure and aborted logo event remain in raw diagnostics; no console or page-error assertion is made because those events were not collected.",
+        f"The maximum A/A transfer difference was {max_transfer_diagnostic['absolute_difference_bytes']:.0f} bytes in round {max_transfer_diagnostic['round']}, where the logo appeared {max_transfer_diagnostic['A_logo_network_entries']} time in A and {max_transfer_diagnostic['A_repeat_logo_network_entries']} times in A-repeat. Both A-repeat logo network-audit entries had status `{max_transfer_diagnostic['A_repeat_logo_statuses']}`.",
+        '', '| Route | Arm | Samples with still request | Still requests | URLs | Median bytes per still request |','|---|---|---:|---:|---|---:|',
+    ]
+    for route in ROUTES:
+        for arm in ['A','B-still','B-plain']:
+            row=still_requests[route][arm]
+            bytes_median='-' if row['median_transfer_bytes_per_still_request'] is None else f"{row['median_transfer_bytes_per_still_request']['median']:.0f}"
+            urls=', '.join(row['urls']) if row['urls'] else 'none'
+            lines.append(f"| `{route}` | {arm} | {row['samples_with_still_request']} | {row['request_count']} | {urls} | {bytes_median} |")
+    lines += ['','## Conservative decision','',decision_text,'',f"**Decision: retain `{decision}`.** {result['decision']['rationale']}",'','Owner confirmation via PageSpeed Insights remains required. No PageSpeed Insights result was supplied or inferred.','',
         '## Fixture provenance note','',
         'The prior Phase31 Task4 fixture archive was retained unchanged, but its claimed A source commit does not match its stored A HTML on protected content for these two routes. This analysis uses a fresh PHP-WASM render of the exact A commit, with content parity validated across all three arms. See `reports/phase-32c-hero-ab-fixtures.json` for the specific differing fields.','',
         '## Reproducibility','',
