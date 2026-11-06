@@ -225,6 +225,13 @@
 - Task 5 is complete. The local package and browser checks do not certify Hostinger or live speed. No upload, merge or deployment occurred.
 - Posted the Task 5 checkpoint to PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6684617953.
 
+## 2026-11-06 checkpoint: Task 6 documentation completed
+
+- Added the Phase32c disposition to `CHANGELOG.md`, including the four separate contrast fixes, reference safeguards, conservative local A/B choice, one-shot suite status and verified ZIP. Earlier changelog history is retained.
+- Appended section 34 to `flagged-items-for-verification.md`. It points to the final report, records owner actions and keeps all prior verification items and blockers unchanged.
+- Created `reports/phase-32c-release-report.md` with the historical contrast classifications, scene evidence, all arm medians/IQRs and paired LCP ratios, fixed budgets/noise floor, all 16 suite group statuses, exact remaining failures, payload/ZIP proof and owner follow-ups.
+- Fast documentation checks: `git diff --check` passes; source files remain LF; new Task6 text contains no em dash or prohibited terminology; flagged-item diff is append-only. No suite or suite group was run again.
+
 ## Exact next step
 
-Complete Task6 documentation only: add the Phase32c entry to `CHANGELOG.md`, append the current owner-verification note to `flagged-items-for-verification.md` without editing prior blockers, and create `reports/phase-32c-release-report.md` with the complete results, decisions, named final-suite failures, local-only limits and owner actions. Run only fast documentation checks, preserve line endings and the existing prohibited terminology constraints, then commit and push and post the Task6 checkpoint to PR #1. Do not rerun the one-shot final suite or any group. Do not merge or deploy.
+Commit and push the Task6 documentation checkpoint, then post its summary to existing PR #1. Record the PR comment URL in this progress file and push that final progress checkpoint. Automated Phase32c work is then complete. Remaining work is owner-side PSI and native-host/contact checks only if the owner later chooses to proceed. Do not merge or deploy.

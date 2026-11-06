@@ -1,5 +1,16 @@
 # ILMERA Study Abroad : SEO / AEO / GEO Rewrite Changelog
 
+## Phase32c: contrast repairs, scene safeguards and release verification (2026-11-06)
+
+Phase32c is complete on `arena/48320ee5-ilmerastudyabroad`. Browser and Lighthouse work is local evidence only. No live hosting result, owner PSI confirmation, merge or deployment is claimed. The complete record is `reports/phase-32c-release-report.md`.
+
+- Historical screenshot matrices classified all four Home/About contrast findings as real and pre-existing. Four color-only fixes were committed separately: `bde0ddd`, `6c9fea4`, `f6a91c8` and `3324432`. The fresh screenshot regression checked affected nodes at 360px and 1280px with the scene not started, enforced 4.5:1 and passed with a 7.526:1 minimum. Fresh-process axe A/AA found no node identity outside the Phase31 baseline on Home, Services, About and Contact.
+- The 60-case reference safeguard matrix passed Home 15/15, Services 15/15 and About 15/15 at the 0.1px threshold. Eleven raw Contact geometry differences remain documented as same-source A/A measurement artefacts, not waived passes. Shared local-font and deferred-scene changes reached reference pages; no reference hero still, logo optimization or Contact `#miniHero` adjustment was applied.
+- The 63-sample local simulated hero test passed the point-estimate budgets for both B arms on Mysuru and the selected article. The Mysuru A/A noise margin made the still result inconclusive, so B-plain remains selected for both. Owner PSI confirmation is required; no live-speed claim is made.
+- The one final full-suite run was performed once: 7 of 16 groups PASS and 9 FAIL. The failures remain explicit, including the route-index hash assumption, unavailable native `php` checks, incomplete palette run, target-size comparison, unrun 44px audit and unclassified Home tail. No group was rerun. See `reports/phase-32c-final-suite-run-01.md`.
+- The 137-file manifest and clean ZIP are verified. `releases/ilmera-deploy-065934a.zip` is 833,237 bytes with SHA-256 `3c56cdf481f639f98c689a26af517454576fae6d9ec9237c9e145eb38dfa8b57`. All 43 route responses and 31 static asset URLs matched the clean payload. The raw link, folder counts, checksum and changed-file list are in `reports/phase-32c-payload-parity.json` and `reports/post-deploy-checklist.md`.
+- The owner checklist and PDF were updated with blank before/after PSI fields, unchanged budgets, post-upload checks, rollback directions and the 11 upload-relevant paths since `796879d`. The PDF was regenerated offline as three A4 pages. No upload or host test occurred.
+
 ## Phase32a: measured fallback and final release verification (2026-11-02)
 
 Phase32a used local simulated browser and Lighthouse evidence only. The six-route A/B required the existing plain-palette hero fallback for the `place` and `article` template groups. The site-wide `ILMERA_SCENES_ENABLED` switch remains enabled. The fresh 28-sample font candidate A/B did not improve LCP on both routes, so no font policy or font source change was made.
