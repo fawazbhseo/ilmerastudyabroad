@@ -150,6 +150,12 @@
 - Raw data is committed as `reports/phase-32c-hero-ab-raw.json`, 585,625 bytes, SHA-256 `039eb45d973b00844df525665d1ce6d6ebfb7a592c2db93dc0758aadd4e8351b`. Its metadata confirms all planned arm counts and `analysis_status: NOT_STARTED`.
 - No medians, IQRs, paired ratios, noise-floor values or budget outcomes were computed before committing the raw file. The still/plain decision remains open. These are local simulated Lighthouse results only; PageSpeed Insights owner confirmation is still required.
 
+## 2026-11-06 checkpoint: analysis method fixed before calculation
+
+- Added `tools/phase32c/analyze-hero-ab.py` after the raw data commit. It verifies the committed raw hash, sample order/counts, browser and Lighthouse model, and fixture-manifest identity before calculating anything. It emits a separate machine-readable analysis and Markdown report.
+- The analysis will report median/IQR per route and arm, all paired-round B/A LCP ratios and TBT deltas, the nine Mysuru A/A LCP/TBT/CLS/transfer differences, render-blocking URL sets, still requests and strict point-estimate gates. The decision rule is conservative: B-still is eligible only if all five hard budgets pass on both routes and each LCP/TBT/CLS limit remains inside the maximum observed Mysuru A/A absolute noise margin. Any failed or unresolved gate retains B-plain. The additional noise check can only make the owner limits stricter.
+- This analyzer has not been run. No raw metric values have been opened or summarized after the raw-file commit. The Task 3 decision remains open.
+
 ## Exact next step
 
-Analyze only the committed raw file. Compute per-route/per-arm medians and IQRs, all nine paired-round LCP ratios for each B arm, the Mysuru A/A LCP and TBT noise floor, and the strict unchanged-budget tests for transfer, render blocking, CLS, LCP and TBT. Apply the conservative still/plain rule without weakening any 2026-10-31 budget. Commit and push a separate analysis report and progress checkpoint. Do not rerun Task 3 samples or the final suite until the remaining Task 3 report/decision work is complete.
+Run the analyzer once against `reports/phase-32c-hero-ab-raw.json`, review its output and verify the math and strict thresholds, then commit and push the separate Task 3 analysis report and progress update. State clearly that all results are simulated and PageSpeed Insights owner confirmation is still required. Keep the full suite deferred until Tasks 1-3 are complete.
