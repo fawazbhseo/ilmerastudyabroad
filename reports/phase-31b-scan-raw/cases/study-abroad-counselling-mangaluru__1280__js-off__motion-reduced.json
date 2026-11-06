@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-mangaluru__1280__js-off__motion-reduced",
+  "route": "/study-abroad-counselling-mangaluru",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-mangaluru",
+  "http_status": 200,
+  "page_height": 4547,
+  "scroll": {
+    "height": 4547,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4547,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3411
+    },
+    "visible_text_chars": 4214,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Mangaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Mangaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Mangaluru: understand the propos"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Mangaluru student ask a proposed sponsor first"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "A promise to help with study costs is not the same as a docu"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to understand the proposed support before descri"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Understand the proposed support before describing it"
+      },
+      {
+        "selector": "p",
+        "y": 955,
+        "text": "Ask the person offering support what they intend to cover an"
+      },
+      {
+        "selector": "h2",
+        "y": 1200,
+        "text": "Ask the evidence question for the actual route"
+      },
+      {
+        "selector": "p",
+        "y": 1268,
+        "text": "Once the study option is identified, check who may provide f"
+      },
+      {
+        "selector": "h2",
+        "y": 1542,
+        "text": "Plan for a change in the support arrangement"
+      },
+      {
+        "selector": "p",
+        "y": 1609,
+        "text": "Consider what happens if the expected contribution is reduce"
+      },
+      {
+        "selector": "p",
+        "y": 1864,
+        "text": "Counselling is online, and students from Mangaluru do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1936,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2030,
+        "text": "What should a Mangaluru student ask a proposed sponsor first"
+      },
+      {
+        "selector": "p",
+        "y": 2085,
+        "text": "Clarify the intended amount, purpose and timing of support, "
+      },
+      {
+        "selector": "summary",
+        "y": 2126,
+        "text": "Can support from one person automatically replace another fu"
+      },
+      {
+        "selector": "p",
+        "y": 2181,
+        "text": "Do not assume that. Review the new arrangement against the r"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2303,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2370,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2430,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2540,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2614,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2678,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4547,
+    "scan_width": 512,
+    "scan_height": 1819,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997251236943376
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "9cbc5f1ea677f24f2957b170bd1f9523d4052f8869dcb3c474f1cccc7a6745ac"
+  }
+}

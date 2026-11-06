@@ -1,0 +1,518 @@
+{
+  "id": "study-abroad-counselling-shivamogga__360__js-on__motion-normal",
+  "route": "/study-abroad-counselling-shivamogga",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-shivamogga",
+  "http_status": 200,
+  "page_height": 6894,
+  "scroll": {
+    "height": 6894,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6894,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4760
+    },
+    "visible_text_chars": 4080,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Shivamogga"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Shivamogga"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 467,
+        "text": "Study abroad consultancy in Shivamogga: identify whose deadl"
+      },
+      {
+        "selector": "h2",
+        "y": 568,
+        "text": "How should a Shivamogga applicant label a personal target da"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 694,
+        "text": "An application calendar is useful only when it shows depende"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 962,
+        "text": "Discuss how to identify whose deadline you are recording onl"
+      },
+      {
+        "selector": "h2",
+        "y": 1064,
+        "text": "Identify whose deadline you are recording"
+      },
+      {
+        "selector": "p",
+        "y": 1161,
+        "text": "Label every date by its source and purpose. A course applica"
+      },
+      {
+        "selector": "h2",
+        "y": 1665,
+        "text": "Draw the chain behind each submission"
+      },
+      {
+        "selector": "p",
+        "y": 1762,
+        "text": "For an important action, list what must already be available"
+      },
+      {
+        "selector": "h2",
+        "y": 2266,
+        "text": "Use review points rather than silent slippage"
+      },
+      {
+        "selector": "p",
+        "y": 2363,
+        "text": "Choose points at which you will reassess a task that has not"
+      },
+      {
+        "selector": "p",
+        "y": 2905,
+        "text": "Counselling is online, and students from Shivamogga do not n"
+      },
+      {
+        "selector": "h2",
+        "y": 3034,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 3148,
+        "text": "How should a Shivamogga applicant label a personal target da"
+      },
+      {
+        "selector": "p",
+        "y": 3245,
+        "text": "Mark it explicitly as your planning target and keep it separ"
+      },
+      {
+        "selector": "summary",
+        "y": 3277,
+        "text": "What happens when one document dependency is delayed?"
+      },
+      {
+        "selector": "p",
+        "y": 3373,
+        "text": "Trace the effect on later tasks, record a review point and c"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 3494,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 3591,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 3681,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 3789,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 3858,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 3912,
+        "text": "Belagavi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6894,
+    "scan_width": 360,
+    "scan_height": 6894,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Shivamogga"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "How should a Shivamogga applicant label a personal target date?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3349,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3418,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3277,
+            "text": "What happens when one document dependency is delayed?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3591,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4050,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3719,
+          "computed": {
+            "min_height": "0px",
+            "height": "3718.58px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4030,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4259,
+            "text": "How can Shivamogga students identify whose deadline you are recording?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4457,
+        "height": 158,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00046,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4134,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4259,
+            "text": "How can Shivamogga students identify whose deadline you are recording?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4633,
+            "text": "Ask ILMERA how to draw the chain behind each submission"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4688,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4633,
+            "text": "Ask ILMERA how to draw the chain behind each submission"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 344,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 415,
+          "computed": {
+            "min_height": "0px",
+            "height": "415.469px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 184,
+            "text": "Shivamogga"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 568,
+            "text": "How should a Shivamogga applicant label a personal target date?"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3349,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00304,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3418,
+          "element_height": 324,
+          "computed": {
+            "min_height": "0px",
+            "height": "323.594px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 3277,
+            "text": "What happens when one document dependency is delayed?"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3591,
+            "text": "Contact ILMERA online by phone, WhatsApp or video call."
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4050,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 415,
+          "element_height": 3719,
+          "computed": {
+            "min_height": "0px",
+            "height": "3718.58px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4030,
+            "text": "Explore study abroad services"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4259,
+            "text": "How can Shivamogga students identify whose deadline you are recording?"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4457,
+        "height": 158,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00046,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4134,
+          "element_height": 409,
+          "computed": {
+            "min_height": "0px",
+            "height": "409px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 4259,
+            "text": "How can Shivamogga students identify whose deadline you are recording?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4633,
+            "text": "Ask ILMERA how to draw the chain behind each submission"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4688,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-shivamogga__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4633,
+            "text": "Ask ILMERA how to draw the chain behind each submission"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "a20cfa49b9f461418af38ec90e13f4a12b50109945270ffada305b0fba879ddd"
+  }
+}

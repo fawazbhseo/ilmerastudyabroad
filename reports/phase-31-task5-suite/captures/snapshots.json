@@ -1,0 +1,346 @@
+{
+  "/404": {
+    "file": "00.html",
+    "info": {
+      "file": "404.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/about": {
+    "file": "01.html",
+    "info": {
+      "file": "about.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/all-pages": {
+    "file": "02.html",
+    "info": {
+      "file": "all-pages.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/cost-of-studying-abroad-for-indian-students": {
+    "file": "03.html",
+    "info": {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/documents-needed-to-study-abroad-from-india": {
+    "file": "04.html",
+    "info": {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+    "file": "05.html",
+    "info": {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/": {
+    "file": "06.html",
+    "info": {
+      "file": "blog/index.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/italy-dsu-scholarship-eligibility": {
+    "file": "07.html",
+    "info": {
+      "file": "blog/italy-dsu-scholarship-eligibility.php",
+      "status": "draft",
+      "kind": "page"
+    }
+  },
+  "/blog/scholarships-for-indian-students-study-abroad": {
+    "file": "08.html",
+    "info": {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/study-abroad-counselling-from-coorg": {
+    "file": "09.html",
+    "info": {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/study-abroad-with-academic-backlogs": {
+    "file": "10.html",
+    "info": {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/blog/study-in-germany-free-aps-certificate": {
+    "file": "11.html",
+    "info": {
+      "file": "blog/study-in-germany-free-aps-certificate.php",
+      "status": "draft",
+      "kind": "page"
+    }
+  },
+  "/contact": {
+    "file": "12.html",
+    "info": {
+      "file": "contact.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/": {
+    "file": "13.html",
+    "info": {
+      "file": "index.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/privacy-policy": {
+    "file": "14.html",
+    "info": {
+      "file": "privacy-policy.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/services": {
+    "file": "15.html",
+    "info": {
+      "file": "services.php",
+      "status": "published",
+      "kind": "page"
+    }
+  },
+  "/study-abroad-consultants-in-karnataka": {
+    "file": "16.html",
+    "info": {
+      "file": "study-abroad-consultants-in-karnataka.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-consultants-in-kodagu": {
+    "file": "17.html",
+    "info": {
+      "file": "study-abroad-consultants-in-kodagu.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-belagavi": {
+    "file": "18.html",
+    "info": {
+      "file": "study-abroad-counselling-belagavi.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-bengaluru": {
+    "file": "19.html",
+    "info": {
+      "file": "study-abroad-counselling-bengaluru.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-chikkamagaluru": {
+    "file": "20.html",
+    "info": {
+      "file": "study-abroad-counselling-chikkamagaluru.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-gonikoppal": {
+    "file": "21.html",
+    "info": {
+      "file": "study-abroad-counselling-gonikoppal.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-hassan": {
+    "file": "22.html",
+    "info": {
+      "file": "study-abroad-counselling-hassan.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-kushalnagar": {
+    "file": "23.html",
+    "info": {
+      "file": "study-abroad-counselling-kushalnagar.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-madikeri": {
+    "file": "24.html",
+    "info": {
+      "file": "study-abroad-counselling-madikeri.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-mangaluru": {
+    "file": "25.html",
+    "info": {
+      "file": "study-abroad-counselling-mangaluru.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-mysuru": {
+    "file": "26.html",
+    "info": {
+      "file": "study-abroad-counselling-mysuru.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-ponnampet": {
+    "file": "27.html",
+    "info": {
+      "file": "study-abroad-counselling-ponnampet.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-shivamogga": {
+    "file": "28.html",
+    "info": {
+      "file": "study-abroad-counselling-shivamogga.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-siddapura": {
+    "file": "29.html",
+    "info": {
+      "file": "study-abroad-counselling-siddapura.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-somwarpet": {
+    "file": "30.html",
+    "info": {
+      "file": "study-abroad-counselling-somwarpet.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-udupi-manipal": {
+    "file": "31.html",
+    "info": {
+      "file": "study-abroad-counselling-udupi-manipal.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-abroad-counselling-virajpet": {
+    "file": "32.html",
+    "info": {
+      "file": "study-abroad-counselling-virajpet.php",
+      "status": "published",
+      "kind": "place"
+    }
+  },
+  "/study-in-czech-republic": {
+    "file": "33.html",
+    "info": {
+      "file": "study-in-czech-republic.php",
+      "status": "draft",
+      "kind": "destination"
+    }
+  },
+  "/study-in-gcc": {
+    "file": "34.html",
+    "info": {
+      "file": "study-in-gcc.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-germany": {
+    "file": "35.html",
+    "info": {
+      "file": "study-in-germany.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-italy": {
+    "file": "36.html",
+    "info": {
+      "file": "study-in-italy.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-latvia": {
+    "file": "37.html",
+    "info": {
+      "file": "study-in-latvia.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-lithuania": {
+    "file": "38.html",
+    "info": {
+      "file": "study-in-lithuania.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-russia": {
+    "file": "39.html",
+    "info": {
+      "file": "study-in-russia.php",
+      "status": "draft",
+      "kind": "destination"
+    }
+  },
+  "/study-in-slovakia": {
+    "file": "40.html",
+    "info": {
+      "file": "study-in-slovakia.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/study-in-uk": {
+    "file": "41.html",
+    "info": {
+      "file": "study-in-uk.php",
+      "status": "published",
+      "kind": "destination"
+    }
+  },
+  "/terms": {
+    "file": "42.html",
+    "info": {
+      "file": "terms.php",
+      "status": "published",
+      "kind": "page"
+    }
+  }
+}

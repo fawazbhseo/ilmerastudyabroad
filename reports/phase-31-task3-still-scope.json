@@ -1,0 +1,2221 @@
+{
+  "phase": 31,
+  "task": 3,
+  "passed": true,
+  "source_head": "806769a0d379e2059f654ba96be1561484d64598",
+  "browser": "local pinned Chromium via Playwright",
+  "route_count": 43,
+  "widths": [
+    360,
+    768,
+    1280
+  ],
+  "case_count": 129,
+  "allowed_templates": [
+    "destination",
+    "place",
+    "article",
+    "blog"
+  ],
+  "allowed_route_count": 35,
+  "approved_held_routes": [
+    "/blog/italy-dsu-scholarship-eligibility",
+    "/blog/study-in-germany-free-aps-certificate",
+    "/study-in-czech-republic",
+    "/study-in-russia"
+  ],
+  "approved_held_destinations": [
+    "/study-in-czech-republic",
+    "/study-in-russia"
+  ],
+  "responsive_assets": [
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-720.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/images/hero-still-1440.webp",
+      "status": 200
+    }
+  ],
+  "checks": [
+    "still CSS appears only on approved template outputs",
+    "held destination and article routes keep their approved template role and still",
+    "360px and 768px use 720px still",
+    "1280px uses 1440px still",
+    "at least one successful response for each responsive asset",
+    "reference, legal and utility routes do not request or embed the still"
+  ],
+  "cases": [
+    {
+      "route": "/",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/404",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/404",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/404",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/about",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/about",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/all-pages",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/all-pages",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/all-pages",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-utility",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "template": "blog",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-blog",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "template": "blog",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-blog",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "template": "blog",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-blog",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 360,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 768,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 1280,
+      "template": "article",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-article",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/services",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/services",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/services",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 360,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 768,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 1280,
+      "template": "place",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-place",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 360,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 768,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-720.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-720.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-720.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 1280,
+      "template": "destination",
+      "expected_still": "/assets/images/hero-still-1440.webp",
+      "body_class": "p25 p25-destination",
+      "hero_exists": true,
+      "computed_background_image": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), url(\"http://127.0.0.1:8080/assets/images/hero-still-1440.webp\")",
+      "inline_still_url_count": 2,
+      "still_requests": [
+        "/assets/images/hero-still-1440.webp"
+      ],
+      "http_status": 200
+    },
+    {
+      "route": "/terms",
+      "width": 360,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    },
+    {
+      "route": "/terms",
+      "width": 1280,
+      "template": "none",
+      "expected_still": null,
+      "body_class": "p25 p25-legal",
+      "hero_exists": false,
+      "computed_background_image": "",
+      "inline_still_url_count": 0,
+      "still_requests": [],
+      "http_status": 200
+    }
+  ]
+}

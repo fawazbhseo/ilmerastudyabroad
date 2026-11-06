@@ -1,0 +1,769 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/",
+  "arm": "B",
+  "fixture_sha256": "f413d95a886fc7b71cae54e39b084fc82666f9465149151391f5e77e9724e544",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 3511.7969204868036,
+    "cls": 0.05506289658023097,
+    "tbt_ms": 0
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 0.98,
+      "numericValue": 0.05506289658023097,
+      "displayValue": "0.055",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.05506289658023097,
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 27.723999999999982,
+      "displayValue": "0.0 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/",
+            "total": 821.164,
+            "scripting": 18.00399999999998,
+            "scriptParseCompile": 3.3840000000000003
+          },
+          {
+            "url": "Unattributable",
+            "total": 155.85200000000017,
+            "scripting": 6.336,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 27.723999999999982
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 17.758,
+            "startTime": 21.94
+          },
+          {
+            "duration": 29.839,
+            "startTime": 39.728
+          },
+          {
+            "duration": 10.337,
+            "startTime": 71.726
+          },
+          {
+            "duration": 65.97,
+            "startTime": 83.644
+          },
+          {
+            "duration": 6.135,
+            "startTime": 149.639
+          },
+          {
+            "duration": 36.3,
+            "startTime": 158.847
+          },
+          {
+            "duration": 6.505,
+            "startTime": 198.272
+          },
+          {
+            "duration": 5.622,
+            "startTime": 205.83
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": 1,
+      "displayValue": "1 layout shift found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-4-DIV",
+              "path": "1,HTML,1,BODY,13,MAIN,1,SECTION,0,DIV,6,DIV",
+              "selector": "main > section#hero > div.hero-inner > div#hBtns",
+              "boundingRect": {
+                "top": 501,
+                "bottom": 631,
+                "left": 20,
+                "right": 392,
+                "width": 372,
+                "height": 130
+              },
+              "snippet": "<div class=\"hero-btns\" id=\"hBtns\">",
+              "nodeLabel": "EXPLORE STUDY DESTINATIONS\nBOOK ONLINE CONSULTATION"
+            },
+            "score": 0.05506289658023097,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "4 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/",
+            "duration": 132,
+            "startTime": 1187.7969204868036
+          },
+          {
+            "url": "http://127.0.0.1:8082/",
+            "duration": 73,
+            "startTime": 1319.7969204868036
+          },
+          {
+            "url": "Unattributable",
+            "duration": 71,
+            "startTime": 1056.7969204868036
+          },
+          {
+            "url": "http://127.0.0.1:8082/",
+            "duration": 60,
+            "startTime": 1127.7969204868036
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "http://127.0.0.1:8082/",
+            "Unattributable"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 1187.8,
+              "duration": 132,
+              "other": 132,
+              "parseHTML": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1319.8,
+              "duration": 73,
+              "other": 73,
+              "parseHTML": 0,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 1,
+              "startTime": 1056.8,
+              "duration": 71,
+              "other": 71
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1127.8,
+              "duration": 60,
+              "other": 60,
+              "scriptEvaluation": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 11.600000000034925,
+      "duration": 1001,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 83.59999999997672,
+      "duration": 63,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 206.89999999996508,
+      "value": 0.05506289658023097,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": "DIV",
+          "id": "hStats",
+          "className": "hero-stats",
+          "text": "9Study Destinations\n      3Named Counsellors\n      4Languages Spoken\n                  2026Founded",
+          "previous": {
+            "x": 20,
+            "y": 762.71875,
+            "width": 372,
+            "height": 60.28125,
+            "top": 762.71875,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 702.203125,
+            "width": 372,
+            "height": 120.796875,
+            "top": 702.203125,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          }
+        },
+        {
+          "tag": "H1",
+          "id": "hH1",
+          "className": "hero-h1",
+          "text": "ILMERA Study Abroad",
+          "previous": {
+            "x": 20,
+            "y": 179,
+            "width": 372,
+            "height": 85.265625,
+            "top": 179,
+            "right": 392,
+            "bottom": 264.265625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 182,
+            "width": 372,
+            "height": 46,
+            "top": 182,
+            "right": 392,
+            "bottom": 228,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": null,
+          "className": "seo-opening",
+          "text": "ILMERA Study Abroad: Discuss your study plans through online counselling, with programme requirements and written fundin",
+          "previous": {
+            "x": 20,
+            "y": 288.53125,
+            "width": 372,
+            "height": 115.1875,
+            "top": 288.53125,
+            "right": 392,
+            "bottom": 403.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 251.265625,
+            "width": 372,
+            "height": 115.1875,
+            "top": 251.265625,
+            "right": 392,
+            "bottom": 366.453125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": "hSub",
+          "className": "hero-sub",
+          "text": "Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or a",
+          "previous": {
+            "x": 20,
+            "y": 421.71875,
+            "width": 372,
+            "height": 105,
+            "top": 421.71875,
+            "right": 392,
+            "bottom": 526.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 384.453125,
+            "width": 372,
+            "height": 78.75,
+            "top": 384.453125,
+            "right": 392,
+            "bottom": 463.203125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "hBtns",
+          "className": "hero-btns",
+          "text": "Explore Study Destinations\n      Book online Consultation",
+          "previous": {
+            "x": 20,
+            "y": 564.71875,
+            "width": 372,
+            "height": 127,
+            "top": 564.71875,
+            "right": 392,
+            "bottom": 691.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 501.203125,
+            "width": 372,
+            "height": 130,
+            "top": 501.203125,
+            "right": 392,
+            "bottom": 631.203125,
+            "left": 20
+          }
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 212.79999999998836,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1106.5,
+      "duration": 53,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 1237.7000000000116,
+      "value": 0.05618782292570044,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": "DIV",
+          "id": "hStats",
+          "className": "hero-stats",
+          "text": "9Study Destinations\n      3Named Counsellors\n      4Languages Spoken\n                  2026Founded",
+          "previous": {
+            "x": 20,
+            "y": 762.71875,
+            "width": 372,
+            "height": 60.28125,
+            "top": 762.71875,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 699.203125,
+            "width": 372,
+            "height": 123.796875,
+            "top": 699.203125,
+            "right": 392,
+            "bottom": 823,
+            "left": 20
+          }
+        },
+        {
+          "tag": "H1",
+          "id": "hH1",
+          "className": "hero-h1",
+          "text": "ILMERA Study Abroad",
+          "previous": {
+            "x": 20,
+            "y": 179,
+            "width": 372,
+            "height": 85.265625,
+            "top": 179,
+            "right": 392,
+            "bottom": 264.265625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 182,
+            "width": 372,
+            "height": 46,
+            "top": 182,
+            "right": 392,
+            "bottom": 228,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": null,
+          "className": "seo-opening",
+          "text": "ILMERA Study Abroad: Discuss your study plans through online counselling, with programme requirements and written fundin",
+          "previous": {
+            "x": 20,
+            "y": 288.53125,
+            "width": 372,
+            "height": 115.1875,
+            "top": 288.53125,
+            "right": 392,
+            "bottom": 403.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 251.265625,
+            "width": 372,
+            "height": 115.1875,
+            "top": 251.265625,
+            "right": 392,
+            "bottom": 366.453125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "id": "hSub",
+          "className": "hero-sub",
+          "text": "Compare programme-specific tuition, living costs and scholarship conditions before choosing a destination. No award or a",
+          "previous": {
+            "x": 20,
+            "y": 421.71875,
+            "width": 372,
+            "height": 105,
+            "top": 421.71875,
+            "right": 392,
+            "bottom": 526.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 384.453125,
+            "width": 372,
+            "height": 78.75,
+            "top": 384.453125,
+            "right": 392,
+            "bottom": 463.203125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "hBtns",
+          "className": "hero-btns",
+          "text": "Explore Study Destinations\n      Book online Consultation",
+          "previous": {
+            "x": 20,
+            "y": 564.71875,
+            "width": 372,
+            "height": 127,
+            "top": 564.71875,
+            "right": 392,
+            "bottom": 691.71875,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 501.203125,
+            "width": 372,
+            "height": 127,
+            "top": 501.203125,
+            "right": 392,
+            "bottom": 628.203125,
+            "left": 20
+          }
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1187.600000000035,
+      "duration": 55,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 1269.7000000000116,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

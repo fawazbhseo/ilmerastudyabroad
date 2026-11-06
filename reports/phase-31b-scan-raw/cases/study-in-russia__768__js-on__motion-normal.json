@@ -1,0 +1,247 @@
+{
+  "id": "study-in-russia__768__js-on__motion-normal",
+  "route": "/study-in-russia",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-russia",
+  "http_status": 200,
+  "page_height": 4233,
+  "scroll": {
+    "height": 4233,
+    "scroll_samples": 7,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4233,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2852
+    },
+    "visible_text_chars": 3031,
+    "visible_text_nodes": 46,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Russia"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 388,
+        "text": "The previously supplied 2026-27 closing date was 15 February"
+      },
+      {
+        "selector": "p",
+        "y": 521,
+        "text": "Indian students can apply for Russian Government scholarship"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 618,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 772,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 833,
+        "text": "Exact fees vary by university and programme and should be co"
+      },
+      {
+        "selector": "h2",
+        "y": 934,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "li",
+        "y": 995,
+        "text": "The Ministry of Education of India notice for the academic y"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1120,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1164,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1203,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1247,
+        "text": "The notice states that students do not have to pass tests or"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1286,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1362,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1423,
+        "text": "The notice describes a second stage after selection in which"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1491,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1568,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1651,
+        "text": "How do Indian students apply for Russian Government scholars"
+      },
+      {
+        "selector": "p",
+        "y": 1702,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "p",
+        "y": 1723,
+        "text": "FAQ source"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1727,
+        "text": "[1]"
+      },
+      {
+        "selector": "summary",
+        "y": 1807,
+        "text": "Do students need to speak Russian for the Russian Government"
+      },
+      {
+        "selector": "p",
+        "y": 1858,
+        "text": "Not necessarily. The notice states that students who do not "
+      },
+      {
+        "selector": "p",
+        "y": 1879,
+        "text": "FAQ source"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4233,
+    "scan_width": 512,
+    "scan_height": 2822,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2763,
+        "height": 171,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-russia__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 2563,
+          "computed": {
+            "min_height": "0px",
+            "height": "2562.73px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2742,
+            "text": "Explore our services"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2763,
+        "height": 171,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-in-russia__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 2563,
+          "computed": {
+            "min_height": "0px",
+            "height": "2562.73px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2742,
+            "text": "Explore our services"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "eef24c77210356aacc2d252bc6d3c10c24e1d209de588de0b9d83d9b9fff48ec"
+  }
+}

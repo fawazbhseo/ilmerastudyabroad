@@ -1,0 +1,251 @@
+{
+  "id": "study-abroad-counselling-gonikoppal__768__js-off__motion-normal",
+  "route": "/study-abroad-counselling-gonikoppal",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-gonikoppal",
+  "http_status": 200,
+  "page_height": 4666,
+  "scroll": {
+    "height": 4666,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4666,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3285
+    },
+    "visible_text_chars": 4228,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Gonikoppal"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Gonikoppal"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Gonikoppal: map the request befo"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What is the starting point for household evidence in a Gonik"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 553,
+        "text": "Students from Gonikoppal who are asked for household or fina"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 706,
+        "text": "Discuss how to map the request before collecting records onl"
+      },
+      {
+        "selector": "h2",
+        "y": 789,
+        "text": "Map the request before collecting records"
+      },
+      {
+        "selector": "p",
+        "y": 850,
+        "text": "Copy each requested document into a simple inventory and not"
+      },
+      {
+        "selector": "h2",
+        "y": 1095,
+        "text": "Keep periods and explanations consistent"
+      },
+      {
+        "selector": "p",
+        "y": 1156,
+        "text": "Review the dates across the records you intend to use. If di"
+      },
+      {
+        "selector": "h2",
+        "y": 1400,
+        "text": "Review the pack as a connected account"
+      },
+      {
+        "selector": "p",
+        "y": 1461,
+        "text": "Once the documents are assembled, read the application narra"
+      },
+      {
+        "selector": "p",
+        "y": 1715,
+        "text": "Counselling is online, and students from Gonikoppal do not n"
+      },
+      {
+        "selector": "h2",
+        "y": 1787,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1871,
+        "text": "What is the starting point for household evidence in a Gonik"
+      },
+      {
+        "selector": "p",
+        "y": 1921,
+        "text": "List the requested records by person, subject and reporting "
+      },
+      {
+        "selector": "summary",
+        "y": 1959,
+        "text": "Does a complete household document pack prove award eligibil"
+      },
+      {
+        "selector": "p",
+        "y": 2009,
+        "text": "No. It is evidence for assessment. The relevant awarding bod"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2130,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2191,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2252,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2360,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2429,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2483,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4666,
+    "scan_width": 512,
+    "scan_height": 3111,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2998,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-gonikoppal__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2759,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2889,
+            "text": "How can Gonikoppal students map the request before collecting records?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3177,
+            "text": "Ask ILMERA how to keep periods and explanations consistent"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2998,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/study-abroad-counselling-gonikoppal__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2759,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2889,
+            "text": "How can Gonikoppal students map the request before collecting records?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3177,
+            "text": "Ask ILMERA how to keep periods and explanations consistent"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998392799742848
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "993a1646049284fc6264c226e71fcef836630e27538866de4fb3ac2229145468"
+  }
+}

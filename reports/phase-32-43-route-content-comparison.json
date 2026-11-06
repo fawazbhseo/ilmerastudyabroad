@@ -1,0 +1,1630 @@
+{
+  "phase": 32,
+  "task": "43_route_rendered_content_comparison",
+  "generated_at": "2026-10-31T08:06:01.221349+00:00",
+  "A_source_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
+  "A_rendered_at_head": "10a5198d9851c374cf2c7997ea01adc534879ef5",
+  "B_source_commit": "4e709ed0cc6ec4e2b2a60d7d914765ae170634a0",
+  "B_render_index": "/home/user/phase32-runtime/phase32-b-4e709ed/render-before/routes.json",
+  "A_render_archive_sha256": "2b20187771f9117a16099754e4f579f6eb3f6f752b8c11a8ec25d255785b9dee",
+  "route_count": 43,
+  "http_200_routes": 43,
+  "protected_invariants": [
+    "normalized rendered body text and order",
+    "title",
+    "heading levels/order/text/IDs",
+    "all meta attributes",
+    "robots directives",
+    "canonical links",
+    "anchor semantic attributes, visible text, order and multiplicity",
+    "all img attributes",
+    "picture source attributes",
+    "all JSON-LD graphs"
+  ],
+  "route_invariant_failures": 0,
+  "html_byte_identical_routes": 0,
+  "sitemap": {
+    "A_sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+    "B_sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+    "byte_identical": true,
+    "B_url_count": 38,
+    "B_unique_url_count": 38,
+    "passed": true
+  },
+  "passed": true,
+  "local_only": true,
+  "production_or_native_host_verified": false,
+  "rows": [
+    {
+      "route": "/",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 102983,
+      "B_bytes": 106786,
+      "A_sha256": "b56ae5d369ce9873196a4764ca2719b1d0ecaa082322d28ce2444083b922510b",
+      "B_sha256": "8ab79bcefc1e3f8251b3f0c7ce3de425a5e708958f131378313e92ebfed8cd73",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 15721,
+      "B_visible_text_chars": 15721,
+      "A_title": "ILMERA Study Abroad",
+      "B_title": "ILMERA Study Abroad",
+      "A_h1": [
+        "ILMERA Study Abroad"
+      ],
+      "B_h1": [
+        "ILMERA Study Abroad"
+      ],
+      "A_anchors": 100,
+      "B_anchors": 100,
+      "A_images": 5,
+      "B_images": 5
+    },
+    {
+      "route": "/404",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 38352,
+      "B_bytes": 38534,
+      "A_sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842",
+      "B_sha256": "e7610983075cdac716c651982be47a7a52c45a5317057b7bc195fd105be7a74a",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 581,
+      "B_visible_text_chars": 581,
+      "A_title": "Page Not Found (404) | ILMERA Study Abroad",
+      "B_title": "Page Not Found (404) | ILMERA Study Abroad",
+      "A_h1": [
+        "This page could not be found"
+      ],
+      "B_h1": [
+        "This page could not be found"
+      ],
+      "A_anchors": 26,
+      "B_anchors": 26,
+      "A_images": 1,
+      "B_images": 1
+    },
+    {
+      "route": "/about",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 89613,
+      "B_bytes": 93375,
+      "A_sha256": "32692962230306c360d8173bfe6bd1ad633591857ff676b71cb64fe1762e87a2",
+      "B_sha256": "ed46e32a9a775a6dae22ee9faad7ba166d4fcfc66d33d3d9d777b627c5e2eb56",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 13200,
+      "B_visible_text_chars": 13200,
+      "A_title": "About ILMERA Study Abroad",
+      "B_title": "About ILMERA Study Abroad",
+      "A_h1": [
+        "About ILMERA Study Abroad"
+      ],
+      "B_h1": [
+        "About ILMERA Study Abroad"
+      ],
+      "A_anchors": 79,
+      "B_anchors": 79,
+      "A_images": 5,
+      "B_images": 5
+    },
+    {
+      "route": "/all-pages",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 52801,
+      "B_bytes": 52983,
+      "A_sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d",
+      "B_sha256": "d721db83e681858df17e69fd2eda8aa178c9b08b59a38c9aad61c75b95b62ee2",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 2276,
+      "B_visible_text_chars": 2276,
+      "A_title": "ILMERA published page directory",
+      "B_title": "ILMERA published page directory",
+      "A_h1": [
+        "ILMERA published page directory"
+      ],
+      "B_h1": [
+        "ILMERA published page directory"
+      ],
+      "A_anchors": 99,
+      "B_anchors": 99,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/blog/",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 61207,
+      "B_bytes": 63890,
+      "A_sha256": "277cfd1dc17eee73a9ba064ea4449bed4bc9a56d7ba860597f6e89d4caef47b9",
+      "B_sha256": "a87bf62350e32bc8f721a2933fc363be7bb0b005b7c6591622308986e5eaa773",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 3610,
+      "B_visible_text_chars": 3610,
+      "A_title": "ILMERA study abroad blog",
+      "B_title": "ILMERA study abroad blog",
+      "A_h1": [
+        "ILMERA study abroad blog"
+      ],
+      "B_h1": [
+        "ILMERA study abroad blog"
+      ],
+      "A_anchors": 68,
+      "B_anchors": 68,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 70116,
+      "B_bytes": 72799,
+      "A_sha256": "93b20ef82f942564d96063013341049fdf560c5972443bc60fbe62af685feafc",
+      "B_sha256": "fbb82da23b993b94d152fcec4d1645cdd181e3ad34c94e05ca422093f0d3d036",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 9151,
+      "B_visible_text_chars": 9151,
+      "A_title": "Cost of studying abroad for Indian students | ILMERA",
+      "B_title": "Cost of studying abroad for Indian students | ILMERA",
+      "A_h1": [
+        "Cost of studying abroad for Indian students"
+      ],
+      "B_h1": [
+        "Cost of studying abroad for Indian students"
+      ],
+      "A_anchors": 88,
+      "B_anchors": 88,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 69600,
+      "B_bytes": 72283,
+      "A_sha256": "46d7928b53ddfbd0c07a9d4aa21c6fd47302bec194463037cb6a9330461f7b8b",
+      "B_sha256": "2fb93f12be69f379e53b4a6686845df6eb5d846b278f41063fd4ff8d0f0e3135",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 8771,
+      "B_visible_text_chars": 8771,
+      "A_title": "Documents needed to study abroad from India | ILMERA",
+      "B_title": "Documents needed to study abroad from India | ILMERA",
+      "A_h1": [
+        "Documents needed to study abroad from India"
+      ],
+      "B_h1": [
+        "Documents needed to study abroad from India"
+      ],
+      "A_anchors": 89,
+      "B_anchors": 89,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 69812,
+      "B_bytes": 72495,
+      "A_sha256": "e5439548698ddbcd905119fdea370d6a6d9e708bc2484be15a24a5533c02349a",
+      "B_sha256": "313f78262c43b0a36f02d0156aca115b9135e30885413cdd66df0ec33f9ff38b",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 12341,
+      "B_visible_text_chars": 12341,
+      "A_title": "Choose a Study Abroad Consultant in Karnataka | ILMERA",
+      "B_title": "Choose a Study Abroad Consultant in Karnataka | ILMERA",
+      "A_h1": [
+        "How to choose a study abroad consultant in Karnataka"
+      ],
+      "B_h1": [
+        "How to choose a study abroad consultant in Karnataka"
+      ],
+      "A_anchors": 70,
+      "B_anchors": 70,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 53313,
+      "B_bytes": 55996,
+      "A_sha256": "f20f614beacad529679e769e3b4b4ccaff7abf570c871e0ff29da62924c927c2",
+      "B_sha256": "fb639ced270e2e019492101ba49a7b07a26fe761e87157d4d308788a598fd438",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 3085,
+      "B_visible_text_chars": 3085,
+      "A_title": "Italy Scholarship Planning: Verification Needed | ILMERA",
+      "B_title": "Italy Scholarship Planning: Verification Needed | ILMERA",
+      "A_h1": [
+        "Italy Scholarship Planning: Verification Needed"
+      ],
+      "B_h1": [
+        "Italy Scholarship Planning: Verification Needed"
+      ],
+      "A_anchors": 72,
+      "B_anchors": 72,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 67712,
+      "B_bytes": 70395,
+      "A_sha256": "6252e30a0ceec36e358f085090a923981cdadebfc62623905e9aa951f36ca258",
+      "B_sha256": "ee50b74be14b2c9da1d6ee0197d6d566144ea456073d2dae9c02a6717cfbfcb2",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 8020,
+      "B_visible_text_chars": 8020,
+      "A_title": "Scholarships for Indian students abroad | ILMERA",
+      "B_title": "Scholarships for Indian students abroad | ILMERA",
+      "A_h1": [
+        "Scholarships for Indian students abroad"
+      ],
+      "B_h1": [
+        "Scholarships for Indian students abroad"
+      ],
+      "A_anchors": 84,
+      "B_anchors": 84,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 63871,
+      "B_bytes": 66554,
+      "A_sha256": "d74de94c6b847e5fcb4e59fe62e8aff1c918ac9d08265a80916fff4d49009748",
+      "B_sha256": "8569a36912415c4f332e29c51e5fce2a86a596532dd74baa21bfb1080cbdc79f",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5901,
+      "B_visible_text_chars": 5901,
+      "A_title": "Online study abroad counselling for Coorg students | ILMERA",
+      "B_title": "Online study abroad counselling for Coorg students | ILMERA",
+      "A_h1": [
+        "Online study abroad counselling for Coorg students"
+      ],
+      "B_h1": [
+        "Online study abroad counselling for Coorg students"
+      ],
+      "A_anchors": 73,
+      "B_anchors": 73,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 63114,
+      "B_bytes": 65797,
+      "A_sha256": "b65b996ea77639a0e52292d10d8f5ed744cb71dd7a96f2a913614c4cf8959ff0",
+      "B_sha256": "6f8a97ad2e2ca1ff90091071d26455060f40e40a82be63dd723e63d5a887122f",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 6157,
+      "B_visible_text_chars": 6157,
+      "A_title": "Study abroad with academic backlogs | ILMERA",
+      "B_title": "Study abroad with academic backlogs | ILMERA",
+      "A_h1": [
+        "Study abroad with academic backlogs"
+      ],
+      "B_h1": [
+        "Study abroad with academic backlogs"
+      ],
+      "A_anchors": 72,
+      "B_anchors": 72,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 54422,
+      "B_bytes": 57105,
+      "A_sha256": "8372cd63c0e712fdd5d990051ca625e041da0ca407975e5e72281295475d4729",
+      "B_sha256": "e3052b6f4110a362c35adb4ac953646183e992240387f7168db6aad779daf28c",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 3770,
+      "B_visible_text_chars": 3770,
+      "A_title": "Germany Tuition and APS: Check the Applicable Route | ILMERA",
+      "B_title": "Germany Tuition and APS: Check the Applicable Route | ILMERA",
+      "A_h1": [
+        "Germany Tuition and APS: Check the Applicable Route"
+      ],
+      "B_h1": [
+        "Germany Tuition and APS: Check the Applicable Route"
+      ],
+      "A_anchors": 72,
+      "B_anchors": 72,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/contact",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 91216,
+      "B_bytes": 95019,
+      "A_sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650",
+      "B_sha256": "5a9d00bb6fe21b46e9e9eccf065a5b2a0bf6f19456fc8129c334cfaeb43b039d",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 10938,
+      "B_visible_text_chars": 10938,
+      "A_title": "Contact ILMERA Study Abroad",
+      "B_title": "Contact ILMERA Study Abroad",
+      "A_h1": [
+        "Contact ILMERA Study Abroad"
+      ],
+      "B_h1": [
+        "Contact ILMERA Study Abroad"
+      ],
+      "A_anchors": 91,
+      "B_anchors": 91,
+      "A_images": 3,
+      "B_images": 3
+    },
+    {
+      "route": "/privacy-policy",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 57050,
+      "B_bytes": 57232,
+      "A_sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593",
+      "B_sha256": "677b9ba1d359954aad5a991e0ca5252a5b0f79c810d44144488b9f3b16bd4311",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 6023,
+      "B_visible_text_chars": 6023,
+      "A_title": "ILMERA privacy policy",
+      "B_title": "ILMERA privacy policy",
+      "A_h1": [
+        "ILMERA privacy policy"
+      ],
+      "B_h1": [
+        "ILMERA privacy policy"
+      ],
+      "A_anchors": 64,
+      "B_anchors": 64,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/services",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 124686,
+      "B_bytes": 128489,
+      "A_sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f",
+      "B_sha256": "ccb48bdb73c34fad8630b173b6111603990a522fabf486f3b7e5f887ab0ff015",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 18668,
+      "B_visible_text_chars": 18668,
+      "A_title": "ILMERA study abroad services",
+      "B_title": "ILMERA study abroad services",
+      "A_h1": [
+        "ILMERA study abroad services"
+      ],
+      "B_h1": [
+        "ILMERA study abroad services"
+      ],
+      "A_anchors": 135,
+      "B_anchors": 135,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 65697,
+      "B_bytes": 68380,
+      "A_sha256": "f569a357fb9124f097bd530a7a3276d0abbe7762a471d6ae51388a2b4ce3c741",
+      "B_sha256": "c315de54a975c2733a118537401ea34bebc39bed2b211ca5374291ea9f7115ca",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 7405,
+      "B_visible_text_chars": 7405,
+      "A_title": "Study abroad consultants in Karnataka | ILMERA",
+      "B_title": "Study abroad consultants in Karnataka | ILMERA",
+      "A_h1": [
+        "Study abroad consultants in Karnataka"
+      ],
+      "B_h1": [
+        "Study abroad consultants in Karnataka"
+      ],
+      "A_anchors": 70,
+      "B_anchors": 70,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62658,
+      "B_bytes": 65341,
+      "A_sha256": "067a4ff8a67488b183c710e35b13e9822f096092346db370b3773642a99245ac",
+      "B_sha256": "3ee2a66efba1a1dbc1315ac3c32b619b3571292008a149aec81224ac5e41aca0",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5426,
+      "B_visible_text_chars": 5426,
+      "A_title": "Study abroad consultancy in Kodagu | ILMERA",
+      "B_title": "Study abroad consultancy in Kodagu | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Kodagu"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Kodagu"
+      ],
+      "A_anchors": 73,
+      "B_anchors": 73,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62015,
+      "B_bytes": 64698,
+      "A_sha256": "86e7f63a2a3495f8052fd4167a287278eeb8add8205eefbcdf2cfb480172fabe",
+      "B_sha256": "4906fa39bd96861f8dfdca7a1c4bd8f0c73581dde9676e1aa32ba7cddc0d478a",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5294,
+      "B_visible_text_chars": 5294,
+      "A_title": "Study abroad consultancy in Belagavi | ILMERA",
+      "B_title": "Study abroad consultancy in Belagavi | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Belagavi"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Belagavi"
+      ],
+      "A_anchors": 68,
+      "B_anchors": 68,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 61994,
+      "B_bytes": 64677,
+      "A_sha256": "e05f9a221667d2d11734a7fa36edf312291ef926c57cb9dc58c870ddca546acc",
+      "B_sha256": "bff99e4387cdf0041f6ce460f1b3c1205124c4cff960f8d84409025802ace4b4",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5432,
+      "B_visible_text_chars": 5432,
+      "A_title": "Study abroad consultancy in Bengaluru | ILMERA",
+      "B_title": "Study abroad consultancy in Bengaluru | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Bengaluru"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Bengaluru"
+      ],
+      "A_anchors": 66,
+      "B_anchors": 66,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62331,
+      "B_bytes": 65014,
+      "A_sha256": "76cb696a87795cffe2a62309af458094ad04580b37a7aec625b8640b5624141f",
+      "B_sha256": "6a8f329c210b51596b38149e3fc211b9afe799dbcde546329d0977f100bf8d9e",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5555,
+      "B_visible_text_chars": 5555,
+      "A_title": "Study abroad consultancy in Chikkamagaluru | ILMERA",
+      "B_title": "Study abroad consultancy in Chikkamagaluru | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Chikkamagaluru"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Chikkamagaluru"
+      ],
+      "A_anchors": 66,
+      "B_anchors": 66,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62344,
+      "B_bytes": 65027,
+      "A_sha256": "4cdd6d6a5c75d197baebf4e82c96f4b29d44cb535a67821bbf0a59a73fdce9a3",
+      "B_sha256": "391c220bcf3a66c8c70ee1e612d61f52c6b40625b95439db0bc8257540ed9741",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5471,
+      "B_visible_text_chars": 5471,
+      "A_title": "Study abroad consultancy in Gonikoppal | ILMERA",
+      "B_title": "Study abroad consultancy in Gonikoppal | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Gonikoppal"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Gonikoppal"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 61676,
+      "B_bytes": 64359,
+      "A_sha256": "fad2a771d22238924689de47a69b1cf5536e1e4060c7b1df0ff7e69276f3f12d",
+      "B_sha256": "a9c093768a37452913f3c8cd404961ad2d0d03881344ce73ce42b5cfdd6c918e",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5239,
+      "B_visible_text_chars": 5239,
+      "A_title": "Study abroad consultancy in Hassan | ILMERA",
+      "B_title": "Study abroad consultancy in Hassan | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Hassan"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Hassan"
+      ],
+      "A_anchors": 66,
+      "B_anchors": 66,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62089,
+      "B_bytes": 64772,
+      "A_sha256": "276bb8fd9bf957fd380247e60c0dec7d377d803a8c6ad2dbf951467b87198c2c",
+      "B_sha256": "0ff689f44295a6f12ea3f7b1e8c292da9026615d405fce0b5fe4dc5cf606ddf2",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5290,
+      "B_visible_text_chars": 5290,
+      "A_title": "Study abroad consultancy in Kushalnagar | ILMERA",
+      "B_title": "Study abroad consultancy in Kushalnagar | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Kushalnagar"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Kushalnagar"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62262,
+      "B_bytes": 64945,
+      "A_sha256": "56cd24ae6ae4194323f216a5be9faf442890b1049f2d685eacb779ac1246b0f4",
+      "B_sha256": "bd9f864d5ae45b187995ab1f2832404159d30bdd52c201f375ef8ebb9e45c07f",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5405,
+      "B_visible_text_chars": 5405,
+      "A_title": "Study abroad consultancy in Madikeri | ILMERA",
+      "B_title": "Study abroad consultancy in Madikeri | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Madikeri"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Madikeri"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 61983,
+      "B_bytes": 64666,
+      "A_sha256": "c89ad3ab3346c93a4de81e8ba2a25d302376b1787b81c25deda3e3dfceffc568",
+      "B_sha256": "930c9c92fc6fa95867f1d821d12927968f93faa8e9b6152396b411ea519dcdcd",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5453,
+      "B_visible_text_chars": 5453,
+      "A_title": "Study abroad consultancy in Mangaluru | ILMERA",
+      "B_title": "Study abroad consultancy in Mangaluru | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Mangaluru"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Mangaluru"
+      ],
+      "A_anchors": 66,
+      "B_anchors": 66,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 61896,
+      "B_bytes": 64579,
+      "A_sha256": "dbe53ef11b1c805492bf4bf9a8ebe4d12905d68a9e53a946faea4e8f9278915e",
+      "B_sha256": "1dc5f479f230ac8e52961f0cee3427f8da3871db00227c9603cea3ef45876f9d",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5424,
+      "B_visible_text_chars": 5424,
+      "A_title": "Study abroad consultancy in Mysuru | ILMERA",
+      "B_title": "Study abroad consultancy in Mysuru | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Mysuru"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Mysuru"
+      ],
+      "A_anchors": 66,
+      "B_anchors": 66,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62283,
+      "B_bytes": 64966,
+      "A_sha256": "724582b9045521da71fcb9e0b6b42d7f1dc67cfb507837671933e736a248be91",
+      "B_sha256": "69daa3ef847d59dbbd2e81c754a446e86736c25b1b4aacfe13a3a619c469787d",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5461,
+      "B_visible_text_chars": 5461,
+      "A_title": "Study abroad consultancy in Ponnampet | ILMERA",
+      "B_title": "Study abroad consultancy in Ponnampet | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Ponnampet"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Ponnampet"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62047,
+      "B_bytes": 64730,
+      "A_sha256": "17825da8b5ff6545970979662f4e7b37c903ec58df2b09db9fde83cf271f47fa",
+      "B_sha256": "22405b889971cddbdc2a18c15d5b8804b86ae9c4a9b10d21c88f1f26f23c0c74",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5322,
+      "B_visible_text_chars": 5322,
+      "A_title": "Study abroad consultancy in Shivamogga | ILMERA",
+      "B_title": "Study abroad consultancy in Shivamogga | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Shivamogga"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Shivamogga"
+      ],
+      "A_anchors": 68,
+      "B_anchors": 68,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62306,
+      "B_bytes": 64989,
+      "A_sha256": "71dce0bb43417257717a35d50f425ec0e494add222616e49320b219af4153532",
+      "B_sha256": "775170ca043d2add5111202ae692cae541ffea697cc3a971a9ad858fed82fa31",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5466,
+      "B_visible_text_chars": 5466,
+      "A_title": "Study abroad consultancy in Siddapura | ILMERA",
+      "B_title": "Study abroad consultancy in Siddapura | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Siddapura"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Siddapura"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62378,
+      "B_bytes": 65061,
+      "A_sha256": "854c0b6bfdd0241b8b36cc47dc3aaceaaf7facde7557afdd16438ca418d2d031",
+      "B_sha256": "1f27cdfb613727fe7524698a51d38650ce1a438ceaf6d3c54d60f4a6f41f8815",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5521,
+      "B_visible_text_chars": 5521,
+      "A_title": "Study abroad consultancy in Somwarpet | ILMERA",
+      "B_title": "Study abroad consultancy in Somwarpet | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Somwarpet"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Somwarpet"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62534,
+      "B_bytes": 65217,
+      "A_sha256": "6dacc085f33b2eb9c2422c8356974d75119750df37028441707b2259f1aa2423",
+      "B_sha256": "d3abd1b4536704c5f7d1c9ca4f40fc76b1a7f7775cf8f35f43d7f0522e94a837",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5587,
+      "B_visible_text_chars": 5587,
+      "A_title": "Study abroad consultancy in Udupi and Manipal | ILMERA",
+      "B_title": "Study abroad consultancy in Udupi and Manipal | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Udupi and Manipal"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Udupi and Manipal"
+      ],
+      "A_anchors": 68,
+      "B_anchors": 68,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 62181,
+      "B_bytes": 64864,
+      "A_sha256": "b1ce3229c713958a0e71e11958c2352abf4febdcfec743bea4cb2580647c3887",
+      "B_sha256": "3d6af661e78d35b30c168b48cfdb139c4af43dad88491422be229fe810724f7f",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5375,
+      "B_visible_text_chars": 5375,
+      "A_title": "Study abroad consultancy in Virajpet | ILMERA",
+      "B_title": "Study abroad consultancy in Virajpet | ILMERA",
+      "A_h1": [
+        "Study abroad consultancy in Virajpet"
+      ],
+      "B_h1": [
+        "Study abroad consultancy in Virajpet"
+      ],
+      "A_anchors": 69,
+      "B_anchors": 69,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 93597,
+      "B_bytes": 96171,
+      "A_sha256": "2eeab4f87c7d486b51068cfd5e5155ca6acd265542fc08e8dd789ced82755a4a",
+      "B_sha256": "d90dbac32d07e62c72fe0349a84fad4fe7a2fe5f56afb429d012bdf0cc494e6f",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 4671,
+      "B_visible_text_chars": 4671,
+      "A_title": "Study in Czech Republic | ILMERA Study Abroad",
+      "B_title": "Study in Czech Republic | ILMERA Study Abroad",
+      "A_h1": [
+        "Study in Czech Republic"
+      ],
+      "B_h1": [
+        "Study in Czech Republic"
+      ],
+      "A_anchors": 82,
+      "B_anchors": 82,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-gcc",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 110846,
+      "B_bytes": 113420,
+      "A_sha256": "86094a0b198642ab95274648ff96e6cbda6bd1706cfc187bd0fd0d2852600ce9",
+      "B_sha256": "699825ab6544e41198ab8a37aac0c11de293cb5635c40a6228660784c8f6b197",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 11288,
+      "B_visible_text_chars": 11288,
+      "A_title": "Study in GCC countries from India | ILMERA",
+      "B_title": "Study in GCC countries from India | ILMERA",
+      "A_h1": [
+        "Study in GCC countries from India"
+      ],
+      "B_h1": [
+        "Study in GCC countries from India"
+      ],
+      "A_anchors": 106,
+      "B_anchors": 106,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-germany",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 101790,
+      "B_bytes": 104364,
+      "A_sha256": "0149062d42db2476d493a54605fc03bfb22549d29818cbf0e917cc59871fc677",
+      "B_sha256": "c4be562899b6992bf4e7df75857dbdd3dc6d16e7a4dec625f3491c480cafe6d5",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 6149,
+      "B_visible_text_chars": 6149,
+      "A_title": "Study in Germany from India | ILMERA",
+      "B_title": "Study in Germany from India | ILMERA",
+      "A_h1": [
+        "Study in Germany from India"
+      ],
+      "B_h1": [
+        "Study in Germany from India"
+      ],
+      "A_anchors": 86,
+      "B_anchors": 86,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-italy",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 99757,
+      "B_bytes": 102331,
+      "A_sha256": "36541fa0735e7c0ca9d6f0dc6394f2becef746ee0a925d4c172ee32f19901f92",
+      "B_sha256": "3677c0950b7a937fe120f0dfac388b52ca4e8caf51dc68b35e11d34127f56ce1",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5368,
+      "B_visible_text_chars": 5368,
+      "A_title": "Study in Italy from India | ILMERA",
+      "B_title": "Study in Italy from India | ILMERA",
+      "A_h1": [
+        "Study in Italy from India"
+      ],
+      "B_h1": [
+        "Study in Italy from India"
+      ],
+      "A_anchors": 87,
+      "B_anchors": 87,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-latvia",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 99393,
+      "B_bytes": 101967,
+      "A_sha256": "e2de7ceb7b8252601e839dee07868d4ba7a4a57bde8a087159bdcdaf7852e88b",
+      "B_sha256": "f25c50e50dfcf497d3dca7737020de00a993ef749e40082f29867c02e4eeb77a",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5314,
+      "B_visible_text_chars": 5314,
+      "A_title": "Study in Latvia from India | ILMERA",
+      "B_title": "Study in Latvia from India | ILMERA",
+      "A_h1": [
+        "Study in Latvia from India"
+      ],
+      "B_h1": [
+        "Study in Latvia from India"
+      ],
+      "A_anchors": 89,
+      "B_anchors": 89,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-lithuania",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 99366,
+      "B_bytes": 101940,
+      "A_sha256": "88025609826d3e5209654f1c7a094d2e1241bbfa1e3ed881472281ed4b98aeb3",
+      "B_sha256": "f902b46b656740ecc8edeb6b7ab9650a34e954d01dd154a02e884cd9d72effad",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 5037,
+      "B_visible_text_chars": 5037,
+      "A_title": "Study in Lithuania from India | ILMERA",
+      "B_title": "Study in Lithuania from India | ILMERA",
+      "A_h1": [
+        "Study in Lithuania from India"
+      ],
+      "B_h1": [
+        "Study in Lithuania from India"
+      ],
+      "A_anchors": 82,
+      "B_anchors": 82,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-russia",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 92069,
+      "B_bytes": 94643,
+      "A_sha256": "f848a7dba306ec1013a200ac49c4d26aba659cb3c354ed7a4de9fe427bdfc241",
+      "B_sha256": "cddf17b710b3ec0ad5f70182dcfd7f2b941116c3fb39f4557f6b6dc5b991a567",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 4303,
+      "B_visible_text_chars": 4303,
+      "A_title": "Study in Russia | ILMERA Study Abroad",
+      "B_title": "Study in Russia | ILMERA Study Abroad",
+      "A_h1": [
+        "Study in Russia"
+      ],
+      "B_h1": [
+        "Study in Russia"
+      ],
+      "A_anchors": 74,
+      "B_anchors": 74,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-slovakia",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 99095,
+      "B_bytes": 101669,
+      "A_sha256": "0381ef173e9b6903bfe9afa634f5dc6835ea978a8c3f06b7c49ee4cb7f86598b",
+      "B_sha256": "13ff34149656c785bf5890ef981011010e1fc62b0ff93e402e2e52cba9c5913c",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 4949,
+      "B_visible_text_chars": 4949,
+      "A_title": "Study in Slovakia from India | ILMERA",
+      "B_title": "Study in Slovakia from India | ILMERA",
+      "A_h1": [
+        "Study in Slovakia from India"
+      ],
+      "B_h1": [
+        "Study in Slovakia from India"
+      ],
+      "A_anchors": 89,
+      "B_anchors": 89,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/study-in-uk",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 102108,
+      "B_bytes": 104682,
+      "A_sha256": "684b6d2e86aef16391f62402c72b85cbe74a1ffb52335d5953fc1b66d8f4c748",
+      "B_sha256": "81bc63edce5dc25bcb0eb49ce15fd8a5fcb9e6b897421b0c2c459efdee60c148",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 6719,
+      "B_visible_text_chars": 6719,
+      "A_title": "Study in UK from India | ILMERA",
+      "B_title": "Study in UK from India | ILMERA",
+      "A_h1": [
+        "Study in UK from India"
+      ],
+      "B_h1": [
+        "Study in UK from India"
+      ],
+      "A_anchors": 88,
+      "B_anchors": 88,
+      "A_images": 2,
+      "B_images": 2
+    },
+    {
+      "route": "/terms",
+      "A_status": 200,
+      "B_status": 200,
+      "A_bytes": 58341,
+      "B_bytes": 58523,
+      "A_sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19",
+      "B_sha256": "8f1720fe9520ac37468bb72196cb93387e1f9f11a1c71816b02ba00642b25dd2",
+      "html_byte_identical": false,
+      "protected_invariants": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      },
+      "failed_invariants": [],
+      "A_visible_text_chars": 7475,
+      "B_visible_text_chars": 7475,
+      "A_title": "ILMERA terms of use",
+      "B_title": "ILMERA terms of use",
+      "A_h1": [
+        "ILMERA terms of use"
+      ],
+      "B_h1": [
+        "ILMERA terms of use"
+      ],
+      "A_anchors": 64,
+      "B_anchors": 64,
+      "A_images": 2,
+      "B_images": 2
+    }
+  ]
+}

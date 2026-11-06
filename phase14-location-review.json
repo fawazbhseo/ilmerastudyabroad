@@ -1,0 +1,1035 @@
+{
+  "checked_on": "2026-10-16",
+  "method": "Shared contiguous five-word token coverage in either document, after case/punctuation and all city-name normalization. Intro, authored sections and FAQs included; sitewide navigation/contact boilerplate excluded. Prose minimum excludes FAQs and headings.",
+  "contact_basis": [
+    "contact.php: existing phone, WhatsApp and video-call arrangements",
+    "services.php: existing profile/application/document support",
+    "terms.php: agreed scope and no guaranteed outcome"
+  ],
+  "locations": {
+    "belagavi": {
+      "prose_words": 392,
+      "content_sha256": "b7c8f23e85a39231dd176baa88dc7b868bbb6b5de7854d6571abf503466089bb",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "bengaluru": {
+      "prose_words": 395,
+      "content_sha256": "bc06f48a16e1f66f499354c235b6f4170de7764c8c397c0db41a43d84572caed",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "chikkamagaluru": {
+      "prose_words": 386,
+      "content_sha256": "3f66ba04dd651271b1db230bf23b07247c0bee25a0e143e35ca86bd1bd25a918",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "gonikoppal": {
+      "prose_words": 386,
+      "content_sha256": "a4b3accb6eed1f93a19f69687f171ac5325466e2ceb48fadfb9d8240938c2cc8",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "hassan": {
+      "prose_words": 385,
+      "content_sha256": "5eb417e90805e9afdae068070270b83d420de6dd3239586d8d4a12ccc3dca5d6",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "karnataka": {
+      "prose_words": 386,
+      "content_sha256": "f1476e66faad722bc10271f940dba3437cf5919256f8f6fd8b09d5306ad6656f",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "kodagu": {
+      "prose_words": 382,
+      "content_sha256": "28a677f7f5b1f8a67b263da48a268b4267cc569b6bdb1daaadb2cc5f9caf3aee",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "kushalnagar": {
+      "prose_words": 390,
+      "content_sha256": "6f3923122a8c385f24e6ea88eeab989d7a0c70ddd292fed6abc2e0b6dd1663c1",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "madikeri": {
+      "prose_words": 391,
+      "content_sha256": "87b37ae9d7b5aee93385dcb7a83a216911dce5769e00be1e27be8e147f2688af",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "mangaluru": {
+      "prose_words": 396,
+      "content_sha256": "62ca23d09c989bc4e2e36102035dbf3ccf38f3cc9f76cef4e11181eca2bc75bd",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "mysuru": {
+      "prose_words": 390,
+      "content_sha256": "424fdaefe43e3d26fe3ba1e4b766956357aac5a58d55fb677bf48df8878cb789",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "ponnampet": {
+      "prose_words": 394,
+      "content_sha256": "3c400e0e4f61c616f78f956a9197a20f45b6c87c245ae9b7e8dfe13e4828dbc4",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "shivamogga": {
+      "prose_words": 393,
+      "content_sha256": "877db37d510831ce585e0717bcd162fb17fa0b187ea03fd4bf93c72621e861c3",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "siddapura": {
+      "prose_words": 392,
+      "content_sha256": "7e741a003b88f13f960df2ae1e2bdb042dc3095b796a56f40132f881736cab20",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "somwarpet": {
+      "prose_words": 390,
+      "content_sha256": "5ac21ea66032993cc7e4b4c0bfff87d811b0ca7897ca1b3a3382b7313f4e2301",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "udupi-manipal": {
+      "prose_words": 393,
+      "content_sha256": "f49bc6b4abceb46620f67e42af2303e3194213f501ac2670e14ed1590ff52ce0",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    },
+    "virajpet": {
+      "prose_words": 382,
+      "content_sha256": "1e5df19a404f64d4a470e034085053c2e1ff995305418e01242db92be70314d9",
+      "local_facts_used": false,
+      "local_fact_sources": [],
+      "copy_reviewed": true,
+      "schema_reviewed": true,
+      "checked_on": "2026-10-16",
+      "final_status": "published",
+      "failed_gates": []
+    }
+  },
+  "pairwise_overlap": [
+    {
+      "a": "belagavi",
+      "b": "bengaluru",
+      "percent_a": 3.145,
+      "percent_b": 3.158
+    },
+    {
+      "a": "belagavi",
+      "b": "chikkamagaluru",
+      "percent_a": 3.145,
+      "percent_b": 3.112
+    },
+    {
+      "a": "belagavi",
+      "b": "gonikoppal",
+      "percent_a": 3.145,
+      "percent_b": 3.205
+    },
+    {
+      "a": "belagavi",
+      "b": "hassan",
+      "percent_a": 3.145,
+      "percent_b": 3.106
+    },
+    {
+      "a": "belagavi",
+      "b": "karnataka",
+      "percent_a": 3.145,
+      "percent_b": 3.198
+    },
+    {
+      "a": "belagavi",
+      "b": "kodagu",
+      "percent_a": 4.193,
+      "percent_b": 4.274
+    },
+    {
+      "a": "belagavi",
+      "b": "kushalnagar",
+      "percent_a": 3.145,
+      "percent_b": 3.178
+    },
+    {
+      "a": "belagavi",
+      "b": "madikeri",
+      "percent_a": 3.145,
+      "percent_b": 3.106
+    },
+    {
+      "a": "belagavi",
+      "b": "mangaluru",
+      "percent_a": 3.145,
+      "percent_b": 3.093
+    },
+    {
+      "a": "belagavi",
+      "b": "mysuru",
+      "percent_a": 3.145,
+      "percent_b": 3.158
+    },
+    {
+      "a": "belagavi",
+      "b": "ponnampet",
+      "percent_a": 3.145,
+      "percent_b": 3.138
+    },
+    {
+      "a": "belagavi",
+      "b": "shivamogga",
+      "percent_a": 4.193,
+      "percent_b": 4.167
+    },
+    {
+      "a": "belagavi",
+      "b": "siddapura",
+      "percent_a": 3.145,
+      "percent_b": 3.093
+    },
+    {
+      "a": "belagavi",
+      "b": "somwarpet",
+      "percent_a": 4.612,
+      "percent_b": 4.612
+    },
+    {
+      "a": "belagavi",
+      "b": "udupi-manipal",
+      "percent_a": 5.241,
+      "percent_b": 5.241
+    },
+    {
+      "a": "belagavi",
+      "b": "virajpet",
+      "percent_a": 3.145,
+      "percent_b": 3.205
+    },
+    {
+      "a": "bengaluru",
+      "b": "chikkamagaluru",
+      "percent_a": 3.158,
+      "percent_b": 3.112
+    },
+    {
+      "a": "bengaluru",
+      "b": "gonikoppal",
+      "percent_a": 3.158,
+      "percent_b": 3.205
+    },
+    {
+      "a": "bengaluru",
+      "b": "hassan",
+      "percent_a": 3.158,
+      "percent_b": 3.106
+    },
+    {
+      "a": "bengaluru",
+      "b": "karnataka",
+      "percent_a": 3.158,
+      "percent_b": 3.198
+    },
+    {
+      "a": "bengaluru",
+      "b": "kodagu",
+      "percent_a": 3.158,
+      "percent_b": 3.205
+    },
+    {
+      "a": "bengaluru",
+      "b": "kushalnagar",
+      "percent_a": 3.158,
+      "percent_b": 3.178
+    },
+    {
+      "a": "bengaluru",
+      "b": "madikeri",
+      "percent_a": 3.158,
+      "percent_b": 3.106
+    },
+    {
+      "a": "bengaluru",
+      "b": "mangaluru",
+      "percent_a": 3.158,
+      "percent_b": 3.093
+    },
+    {
+      "a": "bengaluru",
+      "b": "mysuru",
+      "percent_a": 3.158,
+      "percent_b": 3.158
+    },
+    {
+      "a": "bengaluru",
+      "b": "ponnampet",
+      "percent_a": 3.158,
+      "percent_b": 3.138
+    },
+    {
+      "a": "bengaluru",
+      "b": "shivamogga",
+      "percent_a": 3.158,
+      "percent_b": 3.125
+    },
+    {
+      "a": "bengaluru",
+      "b": "siddapura",
+      "percent_a": 4.211,
+      "percent_b": 4.124
+    },
+    {
+      "a": "bengaluru",
+      "b": "somwarpet",
+      "percent_a": 3.158,
+      "percent_b": 3.145
+    },
+    {
+      "a": "bengaluru",
+      "b": "udupi-manipal",
+      "percent_a": 4.211,
+      "percent_b": 4.193
+    },
+    {
+      "a": "bengaluru",
+      "b": "virajpet",
+      "percent_a": 3.158,
+      "percent_b": 3.205
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "gonikoppal",
+      "percent_a": 3.112,
+      "percent_b": 3.205
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "hassan",
+      "percent_a": 3.112,
+      "percent_b": 3.106
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "karnataka",
+      "percent_a": 3.112,
+      "percent_b": 3.198
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "kodagu",
+      "percent_a": 3.112,
+      "percent_b": 3.205
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "kushalnagar",
+      "percent_a": 3.112,
+      "percent_b": 3.178
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "madikeri",
+      "percent_a": 3.112,
+      "percent_b": 3.106
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "mangaluru",
+      "percent_a": 3.112,
+      "percent_b": 3.093
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "mysuru",
+      "percent_a": 3.112,
+      "percent_b": 3.158
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "ponnampet",
+      "percent_a": 3.112,
+      "percent_b": 3.138
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "shivamogga",
+      "percent_a": 4.149,
+      "percent_b": 4.167
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "siddapura",
+      "percent_a": 3.112,
+      "percent_b": 3.093
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "somwarpet",
+      "percent_a": 3.112,
+      "percent_b": 3.145
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "udupi-manipal",
+      "percent_a": 3.112,
+      "percent_b": 3.145
+    },
+    {
+      "a": "chikkamagaluru",
+      "b": "virajpet",
+      "percent_a": 3.112,
+      "percent_b": 3.205
+    },
+    {
+      "a": "gonikoppal",
+      "b": "hassan",
+      "percent_a": 3.205,
+      "percent_b": 3.106
+    },
+    {
+      "a": "gonikoppal",
+      "b": "karnataka",
+      "percent_a": 3.205,
+      "percent_b": 3.198
+    },
+    {
+      "a": "gonikoppal",
+      "b": "kodagu",
+      "percent_a": 3.205,
+      "percent_b": 3.205
+    },
+    {
+      "a": "gonikoppal",
+      "b": "kushalnagar",
+      "percent_a": 3.205,
+      "percent_b": 3.178
+    },
+    {
+      "a": "gonikoppal",
+      "b": "madikeri",
+      "percent_a": 3.205,
+      "percent_b": 3.106
+    },
+    {
+      "a": "gonikoppal",
+      "b": "mangaluru",
+      "percent_a": 3.205,
+      "percent_b": 3.093
+    },
+    {
+      "a": "gonikoppal",
+      "b": "mysuru",
+      "percent_a": 4.274,
+      "percent_b": 4.211
+    },
+    {
+      "a": "gonikoppal",
+      "b": "ponnampet",
+      "percent_a": 3.205,
+      "percent_b": 3.138
+    },
+    {
+      "a": "gonikoppal",
+      "b": "shivamogga",
+      "percent_a": 3.205,
+      "percent_b": 3.125
+    },
+    {
+      "a": "gonikoppal",
+      "b": "siddapura",
+      "percent_a": 3.205,
+      "percent_b": 3.093
+    },
+    {
+      "a": "gonikoppal",
+      "b": "somwarpet",
+      "percent_a": 3.205,
+      "percent_b": 3.145
+    },
+    {
+      "a": "gonikoppal",
+      "b": "udupi-manipal",
+      "percent_a": 3.205,
+      "percent_b": 3.145
+    },
+    {
+      "a": "gonikoppal",
+      "b": "virajpet",
+      "percent_a": 3.205,
+      "percent_b": 3.205
+    },
+    {
+      "a": "hassan",
+      "b": "karnataka",
+      "percent_a": 3.106,
+      "percent_b": 3.198
+    },
+    {
+      "a": "hassan",
+      "b": "kodagu",
+      "percent_a": 3.106,
+      "percent_b": 3.205
+    },
+    {
+      "a": "hassan",
+      "b": "kushalnagar",
+      "percent_a": 4.348,
+      "percent_b": 4.449
+    },
+    {
+      "a": "hassan",
+      "b": "madikeri",
+      "percent_a": 3.106,
+      "percent_b": 3.106
+    },
+    {
+      "a": "hassan",
+      "b": "mangaluru",
+      "percent_a": 3.106,
+      "percent_b": 3.093
+    },
+    {
+      "a": "hassan",
+      "b": "mysuru",
+      "percent_a": 4.348,
+      "percent_b": 4.421
+    },
+    {
+      "a": "hassan",
+      "b": "ponnampet",
+      "percent_a": 3.106,
+      "percent_b": 3.138
+    },
+    {
+      "a": "hassan",
+      "b": "shivamogga",
+      "percent_a": 3.106,
+      "percent_b": 3.125
+    },
+    {
+      "a": "hassan",
+      "b": "siddapura",
+      "percent_a": 3.106,
+      "percent_b": 3.093
+    },
+    {
+      "a": "hassan",
+      "b": "somwarpet",
+      "percent_a": 3.106,
+      "percent_b": 3.145
+    },
+    {
+      "a": "hassan",
+      "b": "udupi-manipal",
+      "percent_a": 3.106,
+      "percent_b": 3.145
+    },
+    {
+      "a": "hassan",
+      "b": "virajpet",
+      "percent_a": 3.106,
+      "percent_b": 3.205
+    },
+    {
+      "a": "karnataka",
+      "b": "kodagu",
+      "percent_a": 3.198,
+      "percent_b": 3.205
+    },
+    {
+      "a": "karnataka",
+      "b": "kushalnagar",
+      "percent_a": 3.198,
+      "percent_b": 3.178
+    },
+    {
+      "a": "karnataka",
+      "b": "madikeri",
+      "percent_a": 3.198,
+      "percent_b": 3.106
+    },
+    {
+      "a": "karnataka",
+      "b": "mangaluru",
+      "percent_a": 4.264,
+      "percent_b": 4.124
+    },
+    {
+      "a": "karnataka",
+      "b": "mysuru",
+      "percent_a": 3.198,
+      "percent_b": 3.158
+    },
+    {
+      "a": "karnataka",
+      "b": "ponnampet",
+      "percent_a": 3.198,
+      "percent_b": 3.138
+    },
+    {
+      "a": "karnataka",
+      "b": "shivamogga",
+      "percent_a": 3.198,
+      "percent_b": 3.125
+    },
+    {
+      "a": "karnataka",
+      "b": "siddapura",
+      "percent_a": 3.198,
+      "percent_b": 3.093
+    },
+    {
+      "a": "karnataka",
+      "b": "somwarpet",
+      "percent_a": 3.198,
+      "percent_b": 3.145
+    },
+    {
+      "a": "karnataka",
+      "b": "udupi-manipal",
+      "percent_a": 3.198,
+      "percent_b": 3.145
+    },
+    {
+      "a": "karnataka",
+      "b": "virajpet",
+      "percent_a": 3.198,
+      "percent_b": 3.205
+    },
+    {
+      "a": "kodagu",
+      "b": "kushalnagar",
+      "percent_a": 3.205,
+      "percent_b": 3.178
+    },
+    {
+      "a": "kodagu",
+      "b": "madikeri",
+      "percent_a": 3.205,
+      "percent_b": 3.106
+    },
+    {
+      "a": "kodagu",
+      "b": "mangaluru",
+      "percent_a": 5.342,
+      "percent_b": 4.124
+    },
+    {
+      "a": "kodagu",
+      "b": "mysuru",
+      "percent_a": 3.205,
+      "percent_b": 3.158
+    },
+    {
+      "a": "kodagu",
+      "b": "ponnampet",
+      "percent_a": 3.205,
+      "percent_b": 3.138
+    },
+    {
+      "a": "kodagu",
+      "b": "shivamogga",
+      "percent_a": 3.205,
+      "percent_b": 3.125
+    },
+    {
+      "a": "kodagu",
+      "b": "siddapura",
+      "percent_a": 4.274,
+      "percent_b": 4.124
+    },
+    {
+      "a": "kodagu",
+      "b": "somwarpet",
+      "percent_a": 3.205,
+      "percent_b": 3.145
+    },
+    {
+      "a": "kodagu",
+      "b": "udupi-manipal",
+      "percent_a": 3.205,
+      "percent_b": 3.145
+    },
+    {
+      "a": "kodagu",
+      "b": "virajpet",
+      "percent_a": 3.205,
+      "percent_b": 3.205
+    },
+    {
+      "a": "kushalnagar",
+      "b": "madikeri",
+      "percent_a": 3.178,
+      "percent_b": 3.106
+    },
+    {
+      "a": "kushalnagar",
+      "b": "mangaluru",
+      "percent_a": 4.237,
+      "percent_b": 4.124
+    },
+    {
+      "a": "kushalnagar",
+      "b": "mysuru",
+      "percent_a": 4.449,
+      "percent_b": 4.421
+    },
+    {
+      "a": "kushalnagar",
+      "b": "ponnampet",
+      "percent_a": 3.178,
+      "percent_b": 3.138
+    },
+    {
+      "a": "kushalnagar",
+      "b": "shivamogga",
+      "percent_a": 3.178,
+      "percent_b": 3.125
+    },
+    {
+      "a": "kushalnagar",
+      "b": "siddapura",
+      "percent_a": 4.237,
+      "percent_b": 4.124
+    },
+    {
+      "a": "kushalnagar",
+      "b": "somwarpet",
+      "percent_a": 3.178,
+      "percent_b": 3.145
+    },
+    {
+      "a": "kushalnagar",
+      "b": "udupi-manipal",
+      "percent_a": 3.178,
+      "percent_b": 3.145
+    },
+    {
+      "a": "kushalnagar",
+      "b": "virajpet",
+      "percent_a": 4.237,
+      "percent_b": 4.274
+    },
+    {
+      "a": "madikeri",
+      "b": "mangaluru",
+      "percent_a": 3.106,
+      "percent_b": 3.093
+    },
+    {
+      "a": "madikeri",
+      "b": "mysuru",
+      "percent_a": 3.106,
+      "percent_b": 3.158
+    },
+    {
+      "a": "madikeri",
+      "b": "ponnampet",
+      "percent_a": 3.106,
+      "percent_b": 3.138
+    },
+    {
+      "a": "madikeri",
+      "b": "shivamogga",
+      "percent_a": 4.141,
+      "percent_b": 4.167
+    },
+    {
+      "a": "madikeri",
+      "b": "siddapura",
+      "percent_a": 3.106,
+      "percent_b": 3.093
+    },
+    {
+      "a": "madikeri",
+      "b": "somwarpet",
+      "percent_a": 3.106,
+      "percent_b": 3.145
+    },
+    {
+      "a": "madikeri",
+      "b": "udupi-manipal",
+      "percent_a": 3.106,
+      "percent_b": 3.145
+    },
+    {
+      "a": "madikeri",
+      "b": "virajpet",
+      "percent_a": 3.106,
+      "percent_b": 3.205
+    },
+    {
+      "a": "mangaluru",
+      "b": "mysuru",
+      "percent_a": 3.093,
+      "percent_b": 3.158
+    },
+    {
+      "a": "mangaluru",
+      "b": "ponnampet",
+      "percent_a": 3.093,
+      "percent_b": 3.138
+    },
+    {
+      "a": "mangaluru",
+      "b": "shivamogga",
+      "percent_a": 3.093,
+      "percent_b": 3.125
+    },
+    {
+      "a": "mangaluru",
+      "b": "siddapura",
+      "percent_a": 5.155,
+      "percent_b": 5.155
+    },
+    {
+      "a": "mangaluru",
+      "b": "somwarpet",
+      "percent_a": 4.124,
+      "percent_b": 4.193
+    },
+    {
+      "a": "mangaluru",
+      "b": "udupi-manipal",
+      "percent_a": 3.093,
+      "percent_b": 3.145
+    },
+    {
+      "a": "mangaluru",
+      "b": "virajpet",
+      "percent_a": 4.124,
+      "percent_b": 4.274
+    },
+    {
+      "a": "mysuru",
+      "b": "ponnampet",
+      "percent_a": 3.158,
+      "percent_b": 3.138
+    },
+    {
+      "a": "mysuru",
+      "b": "shivamogga",
+      "percent_a": 3.158,
+      "percent_b": 3.125
+    },
+    {
+      "a": "mysuru",
+      "b": "siddapura",
+      "percent_a": 3.158,
+      "percent_b": 3.093
+    },
+    {
+      "a": "mysuru",
+      "b": "somwarpet",
+      "percent_a": 4.211,
+      "percent_b": 4.193
+    },
+    {
+      "a": "mysuru",
+      "b": "udupi-manipal",
+      "percent_a": 3.579,
+      "percent_b": 3.564
+    },
+    {
+      "a": "mysuru",
+      "b": "virajpet",
+      "percent_a": 3.158,
+      "percent_b": 3.205
+    },
+    {
+      "a": "ponnampet",
+      "b": "shivamogga",
+      "percent_a": 3.138,
+      "percent_b": 3.125
+    },
+    {
+      "a": "ponnampet",
+      "b": "siddapura",
+      "percent_a": 3.138,
+      "percent_b": 3.093
+    },
+    {
+      "a": "ponnampet",
+      "b": "somwarpet",
+      "percent_a": 3.138,
+      "percent_b": 3.145
+    },
+    {
+      "a": "ponnampet",
+      "b": "udupi-manipal",
+      "percent_a": 3.138,
+      "percent_b": 3.145
+    },
+    {
+      "a": "ponnampet",
+      "b": "virajpet",
+      "percent_a": 4.184,
+      "percent_b": 4.274
+    },
+    {
+      "a": "shivamogga",
+      "b": "siddapura",
+      "percent_a": 3.125,
+      "percent_b": 3.093
+    },
+    {
+      "a": "shivamogga",
+      "b": "somwarpet",
+      "percent_a": 3.125,
+      "percent_b": 3.145
+    },
+    {
+      "a": "shivamogga",
+      "b": "udupi-manipal",
+      "percent_a": 4.792,
+      "percent_b": 4.822
+    },
+    {
+      "a": "shivamogga",
+      "b": "virajpet",
+      "percent_a": 3.125,
+      "percent_b": 3.205
+    },
+    {
+      "a": "siddapura",
+      "b": "somwarpet",
+      "percent_a": 4.124,
+      "percent_b": 4.193
+    },
+    {
+      "a": "siddapura",
+      "b": "udupi-manipal",
+      "percent_a": 3.093,
+      "percent_b": 3.145
+    },
+    {
+      "a": "siddapura",
+      "b": "virajpet",
+      "percent_a": 6.186,
+      "percent_b": 6.41
+    },
+    {
+      "a": "somwarpet",
+      "b": "udupi-manipal",
+      "percent_a": 3.145,
+      "percent_b": 3.145
+    },
+    {
+      "a": "somwarpet",
+      "b": "virajpet",
+      "percent_a": 3.145,
+      "percent_b": 3.205
+    },
+    {
+      "a": "udupi-manipal",
+      "b": "virajpet",
+      "percent_a": 3.145,
+      "percent_b": 3.205
+    }
+  ],
+  "max_shared_percent": 6.41,
+  "rendered_main_overlap": {
+    "checked_on": "2026-10-16",
+    "method": "Same city-normalized five-token coverage, full rendered main including shared contact/related links but excluding sitewide header/footer.",
+    "max_shared_percent": 13.476562,
+    "worst_pair": [
+      "siddapura",
+      "virajpet"
+    ],
+    "phase17_routes": [
+      "/study-abroad-counselling-siddapura",
+      "/study-abroad-counselling-virajpet"
+    ],
+    "pairs": 136
+  },
+  "phase17_review": {
+    "checked_on": "2026-10-16",
+    "basis": "Final owner online-only operating model. Re-reviewed unique location content and postal/Organization schema. Fresh authored and rendered pairwise checks required; no status changes."
+  }
+}

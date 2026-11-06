@@ -1,0 +1,142 @@
+Exact content baseline164d6de; history from live/main c2c57b5 to that boundary. No later Phase25 commit is used except the separately scoped six-file card-only patch.
+
+9b7784c fix: render final homepage and about statistics without count-up
+7320499 fix: use blog directory and canonical trailing-slash listing URLs
+fc571e9 fix: move image assets into the referenced images directory
+2f85770 fix: state Coorg base and no physical office or branch plainly
+b87e727 fix: include seven blog posts and history-derived sitemap dates
+0077e71 chore: remove unused root includes and import scratch folder
+38bda99 docs: record actual structure and unpublished post verification inventory
+0af4568 fix: exclude noindex drafts from sitemap until verified release
+2b06335 fix: remove remaining office and in-person counselling implications
+35745bf fix: link noindex draft comments to the verification inventory
+38a6a00 feat: add noindex Karnataka study abroad counselling hub
+05dd688 feat: add three distinct noindex district counselling guides
+1fb5030 feat: link Karnataka counselling hub from footer and Coorg section
+ba3cadc docs: inventory Phase 2 verification items and atomic release steps
+5590cfc docs: document Phase 2 draft pages and verification safeguards
+8b21e8e fix: withhold live links to unverified Karnataka drafts
+1be2b62 feat: add data-driven place renderer with publication safeguards
+8407074 feat: route place URLs through thin template entry files
+a78226a feat: migrate existing place content and seed empty draft records
+6731e01 feat: add owner fact spreadsheet and publication workflow
+62808c3 docs: document place data contract and owner verification release checks
+82e20ea feat: centralize blog metadata and publication status
+ce2497b feat: generate visible breadcrumbs and schema from shared trails
+aee16c5 feat: gate contextual guide and location links by publication readiness
+6ffc899 feat: add a published-only all-pages directory
+739353e docs: document atomic publishing and automatic navigation release checks
+630e09d fix: share mobile menu behavior across every page
+a2c37cd fix: contain draft blog tables in mobile scroll regions
+7dfac93 docs: record shared menu and mobile table fixes
+9571ad2 fix: correct ILMERA founding year to 2026
+3c77410 feat: add source-gated draft destination pages
+53333cf feat: link only publication-ready destination guides
+259d471 feat: add destination fact and source review spreadsheet
+d8ba862 docs: document sourced destination review and atomic release
+f2af5b3 fix: present study routes as guidance without implied student results
+35f0d65 feat: add owner-supplied sourced Czech draft and allow source subdomains
+014191f docs: use requested prospective-guidance wording in LLM context
+0c90062 docs: record sourced Czech draft and owner publication checklist
+0b3d013 feat: add supplied sourced Slovakia draft preserving summary metadata
+85cd75f docs: flag Slovakia source approval tuition conflict and appointment review
+6b60cab feat: add supplied Lithuania draft preserving summary and provenance
+f640607 feat: add supplied Latvia draft keeping costs empty and metadata intact
+e00a792 docs: flag Lithuania Latvia and Services source verification blockers
+331a657 feat: add supplied Germany draft preserving summary and provenance
+50e8297 feat: add supplied UK draft preserving summary and provenance
+5dd0170 feat: add supplied Italy draft preserving summary and provenance
+fa6df0f docs: record Germany UK Italy source blockers and remaining destination work
+cf382c4 feat: add supplied UAE-only GCC draft preserving identity and provenance
+fb5e58d docs: inventory exact free-tuition claims without editing site copy
+f57326d docs: record GCC UAE-only source blockers and Phase 11 validation
+8dd6b62 feat: expand supplied GCC draft with four additional country advisories
+0b9f2f6 feat: add supplied Russian scholarship draft preserving summary metadata
+93660ad docs: record expanded GCC and Russia source review blockers
+703a2bb audit: record Phase 13 baseline without changing repository files
+bcdb584 feat: centralize published destination and indexable location discovery
+8e0b854 feat: drive destination and location link blocks from eligibility helpers
+6ce0689 feat: generate canonical sitemap from shared publication helpers
+4f2e16a test: verify sitemap links canonicals and isolated publication transitions
+1acc75d audit: report quality and shared-content gaps across all 17 locations
+a643836 docs: append Phase 13 publication safeguards and location quality report
+5746aab fix: qualify audited tuition claims and withhold unverified Italy article
+7c90568 fix: correct APS article claims while retaining its canonical route
+95ed71a fix: review nine destination records against opened official sources
+2ef9ca8 feat: complete destination categories only with opened approved evidence
+564b8bc feat: publish only source-matched destination guides and disclose GCC scope
+f1ace5b feat: write seventeen distinct substantive location counselling guides
+2062f49 fix: keep location contact claims tied to existing sitewide channels
+bbca35d feat: publish seventeen locations behind measured copy and review gates
+572493d fix: publish three sourced articles and withhold unsupported DSU guidance
+0975c8f fix: reconcile guarded discovery and durable editorial sitemap dates
+8a9026d test: validate publication sources robots schema and discovery regressions
+3321580 docs: finalize Phase 14 decisions sources QA and complete file inventory
+c2c8b9f docs: add phase 15 report-only handoff
+0004749 fix: remove withheld article links from LLM discovery
+ce7e665 fix: neutralize institution names and enforce public name guard
+4ca8a0d fix: repair official citations and remove unsupported Qatar clause
+0aa08b6 fix: preserve exact Italy sentence with explicit owner and award cautions
+9a4209d docs: record fresh Phase 16 release checks and explicit blockers
+d398a22 docs: append Phase 16 maintenance decisions and final QA handoff
+31dd953 fix: make online-only counselling explicit across published surfaces
+c5a8a5b fix: separate six-country GCC support from verified source coverage
+1731585 docs: close only confirmed owner model and GCC country blockers
+05e63e9 test: finalize Phase 17 verification and online presence regression coverage
+7d45837 Phase 18 task 1: reconcile LLM copy and replace obsolete freeze gate
+5686597 Phase 18 task 2: generate complete published LLM directories from rendered metadata
+ef1d2c5 Phase 18 task 3: enforce and pass strict whole-site publication checks
+7115f98 Phase 18 task 4: add backup-first direct-live deployment checklist
+ab84710 Phase 18 task 5: document direct-live readiness and unverified live checks
+a083aff Phase 18 task 6: append resolved LLM blockers and final live handoff evidence
+daafe39 Phase 19 task 1: provisional keyword and prompt maps with source access limits
+72b2133 Phase 19 task 2: synchronize unique on-page targets without changing facts
+ebe71c4 Phase 19 task 3: publish evidence-first Karnataka consultant choice guide
+fcb2f80 Phase 19 task 4: add bounded direct answers and matching four-question FAQs
+33ccf93 Phase 19 task 5: unify canonical Organization and visible entity references
+4568d11 Phase 19 task 6: add contextual contact actions and empty owner-proof gates
+87d90e2 Phase 19 task 7: audit technical surfaces and correct secondary image loading
+b737dab Phase 19 task 8: document analytics absence and privacy-aware owner decision
+df45c94 Phase 19 task 9: document honest off-page process and official online eligibility
+b1cf3cd Phase 19 task 10: complete clean bounded cycle and record remaining evidence limits
+ad09f84 Phase 19 task 11: append release sign-off, complete inventories and owner limits
+946c8b3 Phase 20 task 1: read complete strategy and inventory all fifty prompts
+38b1cc5 Phase 20 resume: verify remote checkpoint and record unfinished tasks
+73a9ba9 Phase 20 task 2 checkpoint: first ten pages and full draft prompt inventory
+9d4d651 Phase 20 task 2 checkpoint: twenty published page mappings
+3700dd6 Phase 20 task 2 checkpoint: thirty published page mappings
+aba0b24 Phase 20 task 2: complete document-grounded maps and validate all placements
+eea69f6 Phase 20 task 3: retain thirty-eight fitting targets after full on-page review
+8f7000b Phase 20 task 4: add seven sourced FAQs and preserve explicit factual gaps
+714a646 Phase 20 task 5: classify every strategy action and add bounded directory schema
+27203f2 Phase 20 task 6: record one clean full cycle and stop early
+b47f18a Phase 20 task 7: append complete handoff and preserve owner and live limits
+95ab613 Phase 21: add plain-language owner questions report only
+5ca8589 Phase 22 task 1: scan owner scope conflicts without changing publication
+a58bc9e Phase 22 task 2: publish bounded owner service scope and matching FAQs
+e4ed4fd Phase 22 task 3 checkpoint: clarify service scope on ten mapped pages
+fb607b6 Phase 22 task 3: complete scoped page answers without closing official fact gaps
+45af16c Phase 22 task 4: apply approved founder bio and factual service checklist
+c004f74 Phase 22 task 5: unify owner scope across entity schema and generated LLMs
+01f5be9 Phase 22 task 6: document remaining owner inputs and preserve empty proof
+034dd53 Phase 22 task 7: finish scoped wording and stop after clean full cycle
+6befa0f Phase 22 task 8: append verified release handoff and complete inventory
+0e8d511 Phase 23 task 1: scan payment conflicts and inventory verified existing team
+6a4e77a Phase 23 task 2: publish actual service charge and partner payment disclosure
+d9ac893 Phase 23 task 3: preserve verified portraits and bios with canonical team Persons
+117d7d5 Phase 23 task 4: enforce absent registration and protect real team and fee boundaries
+62ec03f Phase 23 task 5: align canonical payment team and generated discovery facts
+4ca218a Phase 23 task 6: request only remaining policy registration and future feedback evidence
+bc80282 Phase 23 task 7: pass bounded verification and record preserved media exception
+9157825 Phase 23 task 8: append final disclosure team inventory and release sign-off
+ba0a62c Phase 24 task 1: publish exact approved registration with private-source gate
+57f4e54 Phase 24 task 2: replace Zaheer placeholder with approved finance bio
+ce62c61 Phase 24 task 3: add genuine WebP team derivatives and preserve original portrait
+5542b0b Phase 24 task 4: narrow remaining owner inputs and protect internal artifacts
+733b82f Phase 24 task 5: pass bounded verification with exact source and render safeguards
+0c5c437 Phase 24 task 6: append final release sign-off and complete change inventory
+dab255e Phase 24b task 1: publish exact owner bios and narrowly allow training institute
+0890780 Phase 24b task 2: replace every rendered original Fawaz portrait with WebP
+2f289b9 Phase 24b task 3: audit web-root exposure and add defense-in-depth denies
+eff43f9 Phase 24b task 4: pass first bounded verification cycle and stop early
+164d6de Phase 24b task 5: append release sign-off and exact exposure and bio inventories

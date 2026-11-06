@@ -1,0 +1,459 @@
+{
+  "passed": true,
+  "source_commit": "f54e4cc746fe54cfd89c228d8cf88635864c7ccb",
+  "upload_count": 131,
+  "isolated_filesystem": "Existing tools/phase27/server.cjs loads only the exported folder into PHP memory, no host mount or source fallback; isolation probe runs at startup/reset",
+  "routes": [
+    {
+      "route": "/404",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "cf28a1376c3affd9ff180e4ee9abd8feaf41da6eef3a1fdd5ee9bc62aafe0e16"
+    },
+    {
+      "route": "/all-pages",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d"
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "6794bdf7b2a3589c39cbedd54b025b8a0d1d0c500caed2b0902e6e877afd9f0a"
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "07a8d784e55d4696e16823a350eb16fccfc846df3562fb17344d78740920183d"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "192fbb8d0462f267525f5d37084035533adf10361c074983cb13b9274b4bee4d"
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "c679d79b00adb7092b328e505483d091560873f89ccc8d7987d3d03d697b877d"
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "aa4e4ad62baddd66be09239dd33ac146e503fcc52e0b8aca55a4d38e3cea119f"
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "76a48ad38ab9e6b87cca5995f9a356444c84f47a6aa9d3b3387316a7bfe4384d"
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "92a0fb2c465d87b693322123403dfd4a277cab0fe4a5940c4d28740a345fa8f7"
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "f9e277cab60b537d2022a7bb2ac6867e9e60847da893b281a3a59442acbe3f20"
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "ee5743e2bf603c23f4002a417848af6a8916909bea30c55d8493b93479759972"
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650"
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "d9d51eebbd54a2f0dc629ecf21c3277792108ff64549801ac667b0535f9726b3"
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593"
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f"
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "97ad69e10a47a8984bad767dc050002468e5de487a99fe35cd7a22e8f725a228"
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "62f8d48cb83871b4427f29cf4547c25dec7b602af9fe382d4568c3e88d3ff0e0"
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "950c29533afaba961943d571b7394be29a60e1fa3b5aa7c78fbad857bae245eb"
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "272167737c07c93107e4ab6c38c04001cae553c8244e0900576c7a53d441892c"
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "c3ec1e8bcce93f4ef47f7ed12c04592c65d755fccdbf6e98d3d0abf2207cb1c5"
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "680386630d1f6c301c5182cfdc4f2ef831e6f45b8c353efdb0cdb88104d344e0"
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "b26b33c9424e233ff89c4f11516bff9de5be40299b6eb0479eb2a47d4919c533"
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "c1133e7c5f730e3aeeb243e6a0516bd182356fb895a672a669b44537e66bef52"
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "4261c961d5cb74be3736782ede1d1ab4fad88e8425bb0cf15516a5a3d58bcbc7"
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "b59f422b500748de9f6459ead9415bcea8ee156e57bc2c1e75c9c5363bcb4f03"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "959bdf2ad5cb6b01e33897c2e6534324b50b0bdd98355f0ff70ef441806ccb8f"
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "81e01364b3954b9fe37e562f0af48b3d78aa8f6f2862469d48d3eb8d60f50fb5"
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "cde2d83538acc892909913e802a37c23a9e104ab1079161e9ea05769a7a0abaa"
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "41a649a2b8583dbed5a9d4b744da7b5df9434e9aa24ab1f6f172b846a8464f35"
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "e7a7e96b2787b290836e3f63415929e5f465866b00dfaf802628c38f122208ef"
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "e4f2660a6361a2022c67076b238ecc3a732af4f788b508ee5584b30de49d6cb1"
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "da7ecb939856cdd55615159592d27187a353299ea8714d81d104ce14c0b8dee1"
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "ddc9393bc1f4895f9d1f6cb6629d690933609b5fc1616ea8e50d5c32c2f174e0"
+    },
+    {
+      "route": "/study-in-gcc",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "2883fc679376f94209ae213f12f100320a8caa5042996e8e9c045c6f73713ca0"
+    },
+    {
+      "route": "/study-in-germany",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "a3af194119876e4ce00612a5da76d131f1e70ac59d4d33bcca1d356fba7ca7db"
+    },
+    {
+      "route": "/study-in-italy",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "9267733e43798c734350d0697fc2a3b85d11b9f7b31bf014c2eaf2056aba33f8"
+    },
+    {
+      "route": "/study-in-latvia",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "932f09ae63ccc4d634db681325fb012fbfb0b80c234f3593950d30c3f9099f19"
+    },
+    {
+      "route": "/study-in-lithuania",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "b718a78b9fc3fa98b93ff1b892913ed15bcab3a786cc3367ce3c9c9f535b8e4e"
+    },
+    {
+      "route": "/study-in-russia",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "d51c8e80f2b8893c4763dac99ba4b1641fb36c7fbe95b61d3c0074c8d4e982fe"
+    },
+    {
+      "route": "/study-in-slovakia",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "d4594dcf7d406c29e5a7d4ca08d03424b95c531bfddc94a951e50686ef35e5e8"
+    },
+    {
+      "route": "/study-in-uk",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "c0140da171ad758c627dc2ed1c6e2b1f6e013dace885cfc5156ce130cee1763f"
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "repo_and_pack_exact": true,
+      "sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19"
+    }
+  ],
+  "render_count": 43,
+  "published_routes": 38,
+  "sitemap_count": 38,
+  "static_asset_discovery_GET_HEAD": [
+    {
+      "path": "sitemap.xml",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+      "content_type": null
+    },
+    {
+      "path": "robots.txt",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "1547d6509231507a8e84350c975b45abc22cf79646dd93d6518ad6b62eb32a80",
+      "content_type": "text/plain"
+    },
+    {
+      "path": "llms.txt",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "ad99c63172bbf4029b2937a0fb824b21f422345b10f4a8764c5c172344db61d8",
+      "content_type": "text/plain"
+    },
+    {
+      "path": "llms-full.txt",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "097dc9abb2eeb8377a091843d0b20489c8f04141e81da757e8bfe852078e7299",
+      "content_type": "text/plain"
+    },
+    {
+      "path": "google10fa7a4178242a1f.html",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "ac24b3229f0855ab347e78ddf8588756f33479657459805addf802e201bfc92a",
+      "content_type": "text/html"
+    },
+    {
+      "path": "favicon.ico",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "d56f454c1b22b448f00503c856b9a8079475e9eec6b1efccc86b1fd58534b679",
+      "content_type": "image/x-icon"
+    },
+    {
+      "path": "assets/css/visual-system.css",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "2f7086f6124c68f5ab7a5fbc864e61b2b25b29219914de06119231aa248cf71f",
+      "content_type": "text/css"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-OFL.txt",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73",
+      "content_type": "text/plain"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-latin.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "0ee72c59334ef2ffee83ebb314be26d74fcae1be428c9e1035eaf60ee293f3b4",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-400.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "727acdbfd81848bcc9a5c2a6c64ba1b97ba93c69515382785483ce0cc068be08",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-700.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "949a2a601dd37c9aeb888b1ce6ce17383173aaea128af4a16df45e77e6fcd903",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-OFL.txt",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "0e5fcef5d93bfcae273c11c00f0bb453d3b5491860e1ac8b658767b7577c938f",
+      "content_type": "text/plain"
+    },
+    {
+      "path": "assets/fonts/outfit-latin.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "db614390b3f3ac79f7731a50d6ff2494c818aaf788475322b83c3ff9faa9e854",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-300.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "ef88e74f63ce75b54cce4d5a4087c6f180750b9ebae6ab6e5bf2a9939bf6958f",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-400.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "71f028fd2349990b3f8aa643abe767e82e0f596be407ae66f0004ff164121bdb",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-500.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "fc9bff941def6d924a71632bd8a93190528872eae6414844f3c367ff948d92fd",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-600.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "8cfe15c2c6de6ef8efff3eedbd52a383ac9ef23d6c23f6cd9f9b838f5f37dc36",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/fonts/outfit-reference-700.woff2",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706",
+      "content_type": "font/woff2"
+    },
+    {
+      "path": "assets/images/fawazbh-192.webp",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "fc27a85edaa4ec5dbd231b51d28f20cacdcce2bdc3cb7ed27c17fa68eca3ba76",
+      "content_type": "image/webp"
+    },
+    {
+      "path": "assets/images/fawazbh-384.webp",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "a3c401504f579ac5add974098560858fb8718993007318029278f31ae6488f3b",
+      "content_type": "image/webp"
+    },
+    {
+      "path": "assets/images/ilmera.logo.png",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "6fd63c7cfdc05ca354237b98f0869cccbde222bf4b0b5dc55233ef7b9e097fc6",
+      "content_type": "image/png"
+    },
+    {
+      "path": "assets/images/jabirkj.png",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "b4d2e443f8677081c2f8e330cb286144df00c256cd9fbedde718722ebb3d445b",
+      "content_type": "image/png"
+    },
+    {
+      "path": "assets/images/jabirkj.webp",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "88069b124c6df86c5c598fecd88c1ecdc2173ef136f49d137448027422b63ac9",
+      "content_type": "image/webp"
+    },
+    {
+      "path": "assets/images/zaheer.png",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f",
+      "content_type": "image/png"
+    },
+    {
+      "path": "assets/images/zaheer.webp",
+      "GET": 200,
+      "HEAD": 200,
+      "sha256": "47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db",
+      "content_type": "image/webp"
+    }
+  ],
+  "self_check_all_files_ok": true,
+  "key_not_recorded_in_test_evidence": true,
+  "missing_wrong_extra_query_404": true,
+  "private_or_missing_probes": {
+    "data/entity.json": 403,
+    "includes/header.php": 403,
+    "phase14-source-review.json": 403,
+    "reports/phase-30-progress.md": 403,
+    "tools/phase30/suite.py": 403,
+    "releases/ilmera-deploy-f54e4cc.zip": 404
+  },
+  "releases_not_in_payload_or_sitemap": true,
+  "native_headers_acl_rewrite_csp_cache_or_live_deployment_proved": false
+}

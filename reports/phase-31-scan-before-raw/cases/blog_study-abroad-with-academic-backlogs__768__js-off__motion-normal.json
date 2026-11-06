@@ -1,0 +1,250 @@
+{
+  "id": "blog_study-abroad-with-academic-backlogs__768__js-off__motion-normal",
+  "route": "/blog/study-abroad-with-academic-backlogs",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/study-abroad-with-academic-backlogs",
+  "http_status": 200,
+  "page_height": 5091,
+  "scroll": {
+    "height": 5091,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5091,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3710
+    },
+    "visible_text_chars": 4834,
+    "visible_text_nodes": 51,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 174,
+        "text": "No-IELTS"
+      },
+      {
+        "selector": "h1",
+        "y": 215,
+        "text": "Study abroad with academic backlogs"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 363,
+        "text": "Study abroad with academic backlogs requires careful plannin"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 444,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 444,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 511,
+        "text": "What should I know about study abroad with academic backlogs"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 570,
+        "text": "For a backlog enquiry, describe the actual academic record a"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 694,
+        "text": "Discuss study abroad with academic backlogs online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 781,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 781,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 781,
+        "text": "· August 27, 2025 · Reviewed October 2026 · 4 min read"
+      },
+      {
+        "selector": "p",
+        "y": 829,
+        "text": "One of the most common questions we get from students is whe"
+      },
+      {
+        "selector": "h2",
+        "y": 987,
+        "text": "Why Backlogs Matter Less Than Students Assume"
+      },
+      {
+        "selector": "p",
+        "y": 1048,
+        "text": "Most universities abroad evaluate your overall academic reco"
+      },
+      {
+        "selector": "h2",
+        "y": 1235,
+        "text": "Where More Flexible Entry Exists"
+      },
+      {
+        "selector": "strong",
+        "y": 1296,
+        "text": "Private and applied universities:"
+      },
+      {
+        "selector": "li",
+        "y": 1296,
+        "text": "many private institutions across Europe assess applications "
+      },
+      {
+        "selector": "strong",
+        "y": 1393,
+        "text": "Foundation and pathway programs:"
+      },
+      {
+        "selector": "li",
+        "y": 1393,
+        "text": "some countries offer a preparatory or foundation year that l"
+      },
+      {
+        "selector": "strong",
+        "y": 1460,
+        "text": "Profile-based admissions:"
+      },
+      {
+        "selector": "li",
+        "y": 1460,
+        "text": "certain programs weigh statements of purpose, portfolios, or"
+      },
+      {
+        "selector": "h2",
+        "y": 1561,
+        "text": "What We Tell Students Honestly"
+      },
+      {
+        "selector": "p",
+        "y": 1622,
+        "text": "Backlogs are not something to hide in an application. Admiss"
+      },
+      {
+        "selector": "p",
+        "y": 1790,
+        "text": "The same logic applies to No-IELTS routes: several universit"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5091,
+    "scan_width": 512,
+    "scan_height": 3394,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2539,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_study-abroad-with-academic-backlogs__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 2604,
+          "element_height": 369,
+          "computed": {
+            "min_height": "0px",
+            "height": "369.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2415,
+            "text": "Study in Russia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2761,
+            "text": "Book a online consultation and get an honest, profile-specific answer on which universitie"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2539,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_study-abroad-with-academic-backlogs__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 2604,
+          "element_height": 369,
+          "computed": {
+            "min_height": "0px",
+            "height": "369.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2415,
+            "text": "Study in Russia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2761,
+            "text": "Book a online consultation and get an honest, profile-specific answer on which universitie"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "cc6f3f9efda8ecad79ce284d9e91410838862c65b56854b13615897b6dd23d51"
+  }
+}

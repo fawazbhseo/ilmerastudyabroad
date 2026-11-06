@@ -1,0 +1,4867 @@
+{
+  "phase": "32a",
+  "task": "fresh_font_candidate_ab",
+  "status": "COMPLETE",
+  "started_at": "2026-11-02T04:51:02.016Z",
+  "environment": {
+    "local_only": true,
+    "fixture_sha256": "734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231",
+    "A_source_commit": "4746142eaea674b66549d20d4352f720018adee7",
+    "B_candidate": "font-display:swap with body visibility gate removed",
+    "browser": "Chromium 143 via @sparticuz/chromium",
+    "playwright": "1.58.2",
+    "lighthouse": "12.8.2",
+    "base_url": "http://127.0.0.1:8093",
+    "chromium": "143.0.7499.0"
+  },
+  "protocol": {
+    "route_order": [
+      "/study-abroad-counselling-mysuru",
+      "/blog/how-to-choose-study-abroad-consultant-karnataka"
+    ],
+    "samples_per_arm_per_route": 7,
+    "total_expected_samples": 28,
+    "fresh_chromium_process_per_sample": true,
+    "serial": true,
+    "parallel_samples": 0,
+    "round_order": "For each route: A/B on even rounds, B/A on odd rounds, seven rounds per arm; no retry, resume or skipped samples",
+    "lighthouse_model": "Default mobile simulated Slow4G and 4x CPU",
+    "candidate_scope": "Only seven local font-face display values changed from block to swap, plus removal of the p25-font-pending body visibility rule. Families, file URLs, font weights, preloads, markup, page copy and assets otherwise match.",
+    "font_decision_rule": "Candidate LCP must improve on both routes and CLS must be no worse on either route. No font source change unless both conditions pass.",
+    "metrics_retained": [
+      "absolute LCP ms",
+      "CLS",
+      "TBT ms",
+      "total transfer bytes",
+      "request count",
+      "font request URLs/bytes/status",
+      "render-blocking URLs",
+      "LCP element",
+      "warnings",
+      "observer events"
+    ],
+    "analysis": "Raw samples only. Do not calculate medians, IQRs, ratios or candidate outcome until the raw file is committed and pushed."
+  },
+  "samples": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 0,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:02.017Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:08.197Z",
+      "lcp_ms": 2281.75627277898,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 148.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 100.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 128,
+          "size": 61152,
+          "tag": "P"
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 0,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:08.300Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:13.427Z",
+      "lcp_ms": 2281.9642727788114,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 159.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 208,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 161.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 1,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:13.526Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:18.603Z",
+      "lcp_ms": 1652.8830853146892,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 148.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 208,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 104.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 112,
+          "size": 60788,
+          "tag": "P"
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 1,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:18.688Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:23.709Z",
+      "lcp_ms": 1576.7837472415074,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 168.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 248,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 98.6999999997206,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 2,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:23.799Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:28.809Z",
+      "lcp_ms": 1577.647829654988,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 146.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 256,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 103.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 2,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:28.922Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:33.839Z",
+      "lcp_ms": 1651.8261137524414,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 134.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 196,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 101.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 3,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:33.924Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:39.058Z",
+      "lcp_ms": 1651.9600853146965,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 166.6999999997206,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 123.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 3,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:39.136Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:44.199Z",
+      "lcp_ms": 1652.9160853145338,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 186.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 268,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 109,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 4,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:44.280Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:49.262Z",
+      "lcp_ms": 2281.1831363895135,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 130.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 204,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 89.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 116,
+          "size": 61152,
+          "tag": "P"
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 4,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:51:49.326Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:54.482Z",
+      "lcp_ms": 2281.1847045842305,
+      "cls": 0,
+      "tbt_ms": 29,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 183.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 260,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 110,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 5,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:54.601Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:51:59.657Z",
+      "lcp_ms": 1652.3230853145337,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 198.59999999962747,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 268,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 96.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 104,
+          "size": 60788,
+          "tag": "P"
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 5,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:51:59.702Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:04.728Z",
+      "lcp_ms": 2280.8717045842004,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 138.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 216,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 114.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 6,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:04.766Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:09.769Z",
+      "lcp_ms": 1577.4362472414086,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233892,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 170.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 248,
+          "size": 61152,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 98.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "round": 6,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:09.802Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:14.829Z",
+      "lcp_ms": 2281.0927045841117,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 233839,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 263.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 276,
+          "size": 60788,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 115.3000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 0,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:14.874Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:20.064Z",
+      "lcp_ms": 2281.2787045842406,
+      "cls": 0,
+      "tbt_ms": 28,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 220,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 300,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 143.89999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 0,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:20.110Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:25.248Z",
+      "lcp_ms": 2281.0472727789,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 224.20000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 280,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 111.1999999997206,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 1,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:52:25.299Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:30.484Z",
+      "lcp_ms": 1652.0510853147073,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 137.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 204,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 94.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 1,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:52:30.512Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:35.726Z",
+      "lcp_ms": 1652.9830853146095,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 172.60000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 272,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 109.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 2,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:35.771Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:40.962Z",
+      "lcp_ms": 2281.2427045841855,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 135.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 101.79999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 2,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:41.006Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:46.473Z",
+      "lcp_ms": 2281.068272779003,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 160.79999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 127.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 3,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:52:46.513Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:52.337Z",
+      "lcp_ms": 1653.343113752952,
+      "cls": 0,
+      "tbt_ms": 20,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 206.8000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 316,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 188.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 3,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:52:52.371Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:52:57.863Z",
+      "lcp_ms": 2281.1707045842513,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 155.20000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 236,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 166,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 4,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:52:57.910Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:03.268Z",
+      "lcp_ms": 1652.676113752666,
+      "cls": 0,
+      "tbt_ms": 9,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 186,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 300,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 151.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 4,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:53:03.321Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:08.676Z",
+      "lcp_ms": 1651.8420853146572,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 182.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 244,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 112.89999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 5,
+      "arm": "B",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:53:08.727Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:14.181Z",
+      "lcp_ms": 1654.644085314067,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 131,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 196,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 188.79999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 5,
+      "arm": "A",
+      "order": "B/A",
+      "started_at": "2026-11-02T04:53:14.225Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:19.721Z",
+      "lcp_ms": 1651.9750853144365,
+      "cls": 0,
+      "tbt_ms": 0,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 149.3000000002794,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 228,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 134.29999999981374,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 6,
+      "arm": "A",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:53:19.759Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:25.053Z",
+      "lcp_ms": 1652.0760853141105,
+      "cls": 0,
+      "tbt_ms": 30,
+      "transfer_bytes": 241808,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 183.10000000009313,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 284,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 110.5,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "round": 6,
+      "arm": "B",
+      "order": "A/B",
+      "started_at": "2026-11-02T04:53:25.087Z",
+      "status": "PASS",
+      "completed_at": "2026-11-02T04:53:30.351Z",
+      "lcp_ms": 2281.0522727790303,
+      "cls": 0,
+      "tbt_ms": 10,
+      "transfer_bytes": 241755,
+      "requests": 6,
+      "lcp_element": "<p class=\"direct-answer\">",
+      "font_network": [
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-300.woff2",
+          "transferSize": 14133,
+          "resourceSize": 13956,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "transferSize": 22569,
+          "resourceSize": 22392,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "transferSize": 23085,
+          "resourceSize": 22908,
+          "statusCode": 200
+        },
+        {
+          "url": "http://127.0.0.1:8093/assets/fonts/outfit-reference-500.woff2",
+          "transferSize": 13705,
+          "resourceSize": 13528,
+          "statusCode": 200
+        }
+      ],
+      "render_blocking": [],
+      "warnings": [],
+      "observer_events": [
+        {
+          "kind": "fonts_ready",
+          "time": 218.70000000018626,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "unloaded"
+            }
+          ]
+        },
+        {
+          "kind": "lcp",
+          "time": 312,
+          "size": 38272,
+          "tag": "P"
+        },
+        {
+          "kind": "fonts_ready",
+          "time": 151.39999999990687,
+          "faces": [
+            {
+              "family": "Outfit",
+              "weight": "300",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "400",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "500",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "600",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Outfit",
+              "weight": "700",
+              "style": "normal",
+              "status": "unloaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "400",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Cormorant Garamond",
+              "weight": "700",
+              "style": "normal",
+              "status": "loaded"
+            },
+            {
+              "family": "Outfit Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            },
+            {
+              "family": "Cormorant Metric",
+              "weight": "normal",
+              "style": "normal",
+              "status": "error"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "session": {
+    "status": "COMPLETE",
+    "completed_samples": 28,
+    "expected_samples": 28,
+    "failed_sample": null,
+    "complete_samples": true
+  },
+  "finished_at": "2026-11-02T04:53:30.405Z"
+}

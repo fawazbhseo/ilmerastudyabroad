@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "source_commit": "f54e4cc746fe54cfd89c228d8cf88635864c7ccb",
+  "archive": "releases/ilmera-deploy-f54e4cc.zip",
+  "bytes": 690538,
+  "sha256": "6ce9d3c98638a1cd454fd662cfc1d3a899ef5743d81e05b1147987f3552af459",
+  "file_count": 131,
+  "all_hashes_and_sizes_match": true,
+  "root_layout_no_wrapper": true,
+  "all_eight_htaccess": [
+    ".htaccess",
+    "assets/fonts/.htaccess",
+    "data/.htaccess",
+    "destinations/.htaccess",
+    "includes/.htaccess",
+    "places/.htaccess",
+    "reports/.htaccess",
+    "tools/.htaccess"
+  ],
+  "no_report_tool_content_except_two_deny_files": true,
+  "no_markdown_git_releases": true,
+  "temporary_file": "deploy-check.php",
+  "folder_counts": {
+    ".": 46,
+    "assets/css": 1,
+    "assets/fonts": 12,
+    "assets/images": 7,
+    "blog": 9,
+    "data": 8,
+    "destinations": 10,
+    "includes": 18,
+    "places": 18,
+    "reports": 1,
+    "tools": 1
+  },
+  "download_url": "https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-f54e4cc.zip",
+  "external_clean_root": "/home/user/phase30/export-f54e4cc"
+}

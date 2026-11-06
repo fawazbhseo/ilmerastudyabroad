@@ -1,0 +1,1731 @@
+{
+  "phase": 32,
+  "subphase": "32c contrast reproduction",
+  "source": "contrast-regression-3324432",
+  "baseUrl": "http://127.0.0.1:8096",
+  "browser": "Chromium 143.0.7499.0 / Playwright 1.58.2",
+  "settings": {
+    "widths": [
+      360,
+      768,
+      1280
+    ],
+    "states": [
+      "touch-coarse-scene-not-started",
+      "fine-pointer-scene-eligible",
+      "reduced-motion",
+      "javascript-off"
+    ],
+    "fullPageScroll": true,
+    "settleAfterFullScrollMs": 3000,
+    "freshBrowserPerCase": true,
+    "screenshotTimeoutMs": 60000,
+    "sceneStartSignal": "HTMLCanvasElement.getContext(webgl)",
+    "retryLimit": 1
+  },
+  "caseCount": 4,
+  "cases": [
+    {
+      "source": "contrast-regression-3324432",
+      "route": "/",
+      "template": "home",
+      "width": 360,
+      "state": "touch-coarse-scene-not-started",
+      "device": {
+        "hasTouch": true,
+        "finePointer": false,
+        "reducedMotion": "no-preference",
+        "javascriptEnabled": true
+      },
+      "attempt": 1,
+      "loadedStatus": 200,
+      "pageState": {
+        "expectedScene": false,
+        "sceneCalls": 0,
+        "webglContextCalls": 0,
+        "webglContextTypes": [],
+        "sceneScripts": [],
+        "rootClasses": "p32-scene-fallback",
+        "canvasPresent": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 900
+        },
+        "layers": [
+          {
+            "id": "space-canvas",
+            "present": true,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "0",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "vignette",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(0, 0, 0, 0) 30%, rgba(4, 6, 15, 0.85) 100%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "nebula-t",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(26, 46, 90, 0.55) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": -25.183212280273438,
+              "y": -183.39111328125,
+              "width": 265.1470947265625,
+              "height": 662.8677368164062
+            }
+          },
+          {
+            "id": "nebula-b",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(13, 27, 62, 0.5) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 200.26785278320312,
+              "y": 538.2010498046875,
+              "width": 235.42837524414062,
+              "height": 588.5709228515625
+            }
+          },
+          {
+            "id": "gold-glow-css",
+            "present": false
+          },
+          {
+            "id": "grain",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.028",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)'/%3E%3C/svg%3E\")",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "float-layer",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          }
+        ],
+        "scrollHeight": 15070,
+        "scrollY": 14170
+      },
+      "elements": [
+        {
+          "id": "home-em",
+          "axeSelector": "em",
+          "selector": "em",
+          "text": "(subject to programme conditions)",
+          "foreground": "rgb(74, 85, 104)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "inline",
+          "rect": {
+            "x": 81,
+            "y": 432.078125,
+            "left": 81,
+            "top": 432.078125,
+            "right": 268.265625,
+            "bottom": 467.078125,
+            "width": 187.265625,
+            "height": 35
+          },
+          "textRects": [
+            {
+              "x": 157.328125,
+              "y": 432.078125,
+              "left": 157.328125,
+              "top": 432.078125,
+              "right": 268.265625,
+              "bottom": 446.078125,
+              "width": 110.9375,
+              "height": 14
+            },
+            {
+              "x": 81,
+              "y": 453.078125,
+              "left": 81,
+              "top": 453.078125,
+              "right": 133.84375,
+              "bottom": 467.078125,
+              "width": 52.84375,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "EM",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "sc-item",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "sc-list",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "special-card reveal-r",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "special-grid",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "",
+              "className": "s-wrap",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 272,
+                "y": 439,
+                "side": "right"
+              },
+              "backdrop": "#FFFFFF",
+              "effectiveForeground": "#4A5568",
+              "contrast": 7.526
+            },
+            {
+              "point": {
+                "x": 138,
+                "y": 460,
+                "side": "right"
+              },
+              "backdrop": "#FFFFFF",
+              "effectiveForeground": "#4A5568",
+              "contrast": 7.526
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#FFFFFF"
+          ],
+          "minimumSampledContrast": 7.526,
+          "medianSampledContrast": 7.526,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/home/touch-coarse-scene-not-started-w360/home-em.png"
+        }
+      ],
+      "errors": [],
+      "sceneRequests": [],
+      "scrollToBottomWaitMs": 3000
+    },
+    {
+      "source": "contrast-regression-3324432",
+      "route": "/about",
+      "template": "about",
+      "width": 360,
+      "state": "touch-coarse-scene-not-started",
+      "device": {
+        "hasTouch": true,
+        "finePointer": false,
+        "reducedMotion": "no-preference",
+        "javascriptEnabled": true
+      },
+      "attempt": 1,
+      "loadedStatus": 200,
+      "pageState": {
+        "expectedScene": false,
+        "sceneCalls": 0,
+        "webglContextCalls": 0,
+        "webglContextTypes": [],
+        "sceneScripts": [],
+        "rootClasses": "p32-scene-fallback",
+        "canvasPresent": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 900
+        },
+        "layers": [
+          {
+            "id": "space-canvas",
+            "present": true,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "0",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "vignette",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(0, 0, 0, 0) 25%, rgba(4, 6, 15, 0.88) 100%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "nebula-t",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(20, 40, 90, 0.5) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": -47.733306884765625,
+              "y": -226.67596435546875,
+              "width": 277.8697814941406,
+              "height": 694.6744995117188
+            }
+          },
+          {
+            "id": "nebula-b",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(10, 22, 60, 0.45) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 181.8498992919922,
+              "y": 540.8519287109375,
+              "width": 253.93507385253906,
+              "height": 586.0040283203125
+            }
+          },
+          {
+            "id": "gold-glow-css",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.542232",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(201, 168, 76, 0.05) 0%, rgba(0, 0, 0, 0) 65%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 86.15972900390625,
+              "y": 126.35939025878906,
+              "width": 187.6805419921875,
+              "height": 422.28125
+            }
+          },
+          {
+            "id": "grain",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.025",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)'/%3E%3C/svg%3E\")",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          },
+          {
+            "id": "float-layer",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 360,
+              "height": 900
+            }
+          }
+        ],
+        "scrollHeight": 13768,
+        "scrollY": 12868
+      },
+      "elements": [
+        {
+          "id": "about-faq-h2",
+          "axeSelector": "#faq-h2",
+          "selector": "#faq-h2",
+          "text": "ILMERA Study Abroad: Frequently Asked Questions",
+          "foreground": "rgb(255, 255, 255)",
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 22,
+            "y": 398.21875,
+            "left": 22,
+            "top": 398.21875,
+            "right": 338,
+            "bottom": 501.71875,
+            "width": 316,
+            "height": 103.5
+          },
+          "textRects": [
+            {
+              "x": 34.53125,
+              "y": 396.21875,
+              "left": 34.53125,
+              "top": 396.21875,
+              "right": 325.453125,
+              "bottom": 433.21875,
+              "width": 290.921875,
+              "height": 37
+            },
+            {
+              "x": 75.515625,
+              "y": 430.71875,
+              "left": 75.515625,
+              "top": 430.71875,
+              "right": 284.46875,
+              "bottom": 467.71875,
+              "width": 208.953125,
+              "height": 37
+            },
+            {
+              "x": 120.34375,
+              "y": 465.21875,
+              "left": 120.34375,
+              "top": 465.21875,
+              "right": 239.65625,
+              "bottom": 502.21875,
+              "width": 119.3125,
+              "height": 37
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "H2",
+              "id": "faq-h2",
+              "className": "sec-h2 lt",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "team-hdr",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "faq",
+              "className": "s-wrap faq-sec",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 329,
+                "y": 415,
+                "side": "right"
+              },
+              "backdrop": "#060911",
+              "effectiveForeground": "#FFFFFF",
+              "contrast": 19.907
+            },
+            {
+              "point": {
+                "x": 288,
+                "y": 449,
+                "side": "right"
+              },
+              "backdrop": "#060811",
+              "effectiveForeground": "#FFFFFF",
+              "contrast": 19.989
+            },
+            {
+              "point": {
+                "x": 244,
+                "y": 484,
+                "side": "right"
+              },
+              "backdrop": "#070911",
+              "effectiveForeground": "#FFFFFF",
+              "contrast": 19.883
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#060911",
+            "#060811",
+            "#070911"
+          ],
+          "minimumSampledContrast": 19.883,
+          "medianSampledContrast": 19.907,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w360/about-faq-h2.png"
+        },
+        {
+          "id": "about-team-label",
+          "axeSelector": "#team > .container > .team-hdr > .sec-label",
+          "selector": "#team > .container > .team-hdr > .sec-label",
+          "text": "THE PEOPLE BEHIND ILMERA",
+          "foreground": "rgb(26, 46, 90)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 22,
+            "y": 443.09375,
+            "left": 22,
+            "top": 443.09375,
+            "right": 338,
+            "bottom": 457.09375,
+            "width": 316,
+            "height": 14
+          },
+          "textRects": [
+            {
+              "x": 77.28125,
+              "y": 443.09375,
+              "left": 77.28125,
+              "top": 443.09375,
+              "right": 282.703125,
+              "bottom": 457.09375,
+              "width": 205.421875,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "sec-label",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "team-hdr",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "team",
+              "className": "s-wrap team-sec",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 287,
+                "y": 450,
+                "side": "right"
+              },
+              "backdrop": "#E8ECF8",
+              "effectiveForeground": "#1A2E5A",
+              "contrast": 11.239
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#E8ECF8"
+          ],
+          "minimumSampledContrast": 11.239,
+          "medianSampledContrast": 11.239,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w360/about-team-label.png"
+        },
+        {
+          "id": "about-kodagu-label",
+          "axeSelector": ".container > .sec-label",
+          "selector": "#kodagu > .container > .sec-label",
+          "text": "SERVING KODAGU & COORG",
+          "foreground": "rgb(26, 46, 90)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 22,
+            "y": 442.59375,
+            "left": 22,
+            "top": 442.59375,
+            "right": 338,
+            "bottom": 456.59375,
+            "width": 316,
+            "height": 14
+          },
+          "textRects": [
+            {
+              "x": 22,
+              "y": 442.59375,
+              "left": 22,
+              "top": 442.59375,
+              "right": 220.859375,
+              "bottom": 456.59375,
+              "width": 198.859375,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "sec-label",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "kodagu",
+              "className": "s-wrap story-sec",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 225,
+                "y": 450,
+                "side": "right"
+              },
+              "backdrop": "#E8ECF8",
+              "effectiveForeground": "#1A2E5A",
+              "contrast": 11.239
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#E8ECF8"
+          ],
+          "minimumSampledContrast": 11.239,
+          "medianSampledContrast": 11.239,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w360/about-kodagu-label.png"
+        }
+      ],
+      "errors": [],
+      "sceneRequests": [],
+      "scrollToBottomWaitMs": 3000
+    },
+    {
+      "source": "contrast-regression-3324432",
+      "route": "/",
+      "template": "home",
+      "width": 1280,
+      "state": "touch-coarse-scene-not-started",
+      "device": {
+        "hasTouch": true,
+        "finePointer": false,
+        "reducedMotion": "no-preference",
+        "javascriptEnabled": true
+      },
+      "attempt": 1,
+      "loadedStatus": 200,
+      "pageState": {
+        "expectedScene": false,
+        "sceneCalls": 0,
+        "webglContextCalls": 0,
+        "webglContextTypes": [],
+        "sceneScripts": [],
+        "rootClasses": "p32-scene-fallback",
+        "canvasPresent": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "layers": [
+          {
+            "id": "space-canvas",
+            "present": true,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "0",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "vignette",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(0, 0, 0, 0) 30%, rgba(4, 6, 15, 0.85) 100%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "nebula-t",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(26, 46, 90, 0.55) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": -137.07012939453125,
+              "y": -185.14151000976562,
+              "width": 966.87353515625,
+              "height": 679.8329467773438
+            }
+          },
+          {
+            "id": "nebula-b",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(13, 27, 62, 0.5) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 636.396240234375,
+              "y": 538.577392578125,
+              "width": 822.6258544921875,
+              "height": 578.4088134765625
+            }
+          },
+          {
+            "id": "gold-glow-css",
+            "present": false
+          },
+          {
+            "id": "grain",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.028",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)'/%3E%3C/svg%3E\")",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "float-layer",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          }
+        ],
+        "scrollHeight": 10735,
+        "scrollY": 9835
+      },
+      "elements": [
+        {
+          "id": "home-em",
+          "axeSelector": "em",
+          "selector": "em",
+          "text": "(subject to programme conditions)",
+          "foreground": "rgb(74, 85, 104)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "inline",
+          "rect": {
+            "x": 793.328125,
+            "y": 442.703125,
+            "left": 793.328125,
+            "top": 442.703125,
+            "right": 959.46875,
+            "bottom": 456.703125,
+            "width": 166.140625,
+            "height": 14
+          },
+          "textRects": [
+            {
+              "x": 793.328125,
+              "y": 442.703125,
+              "left": 793.328125,
+              "top": 442.703125,
+              "right": 959.46875,
+              "bottom": 456.703125,
+              "width": 166.140625,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "EM",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "sc-item",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "sc-list",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "special-card reveal-r",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "special-grid",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "",
+              "className": "s-wrap",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 963,
+                "y": 450,
+                "side": "right"
+              },
+              "backdrop": "#FFFFFF",
+              "effectiveForeground": "#4A5568",
+              "contrast": 7.526
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#FFFFFF"
+          ],
+          "minimumSampledContrast": 7.526,
+          "medianSampledContrast": 7.526,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/home/touch-coarse-scene-not-started-w1280/home-em.png"
+        }
+      ],
+      "errors": [],
+      "sceneRequests": [],
+      "scrollToBottomWaitMs": 3000
+    },
+    {
+      "source": "contrast-regression-3324432",
+      "route": "/about",
+      "template": "about",
+      "width": 1280,
+      "state": "touch-coarse-scene-not-started",
+      "device": {
+        "hasTouch": true,
+        "finePointer": false,
+        "reducedMotion": "no-preference",
+        "javascriptEnabled": true
+      },
+      "attempt": 1,
+      "loadedStatus": 200,
+      "pageState": {
+        "expectedScene": false,
+        "sceneCalls": 0,
+        "webglContextCalls": 0,
+        "webglContextTypes": [],
+        "sceneScripts": [],
+        "rootClasses": "p32-scene-fallback",
+        "canvasPresent": true,
+        "canvasVisibility": "hidden",
+        "canvasRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900
+        },
+        "layers": [
+          {
+            "id": "space-canvas",
+            "present": true,
+            "display": "block",
+            "visibility": "hidden",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "0",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "vignette",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(0, 0, 0, 0) 25%, rgba(4, 6, 15, 0.88) 100%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "nebula-t",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(20, 40, 90, 0.5) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": -197.23977661132812,
+              "y": -227.31759643554688,
+              "width": 998.69384765625,
+              "height": 702.2066040039062
+            }
+          },
+          {
+            "id": "nebula-b",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(10, 22, 60, 0.45) 0%, rgba(0, 0, 0, 0) 70%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 570.7796630859375,
+              "y": 540.791015625,
+              "width": 897.8077392578125,
+              "height": 582.711669921875
+            }
+          },
+          {
+            "id": "gold-glow-css",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.401014",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "radial-gradient(rgba(201, 168, 76, 0.05) 0%, rgba(0, 0, 0, 0) 65%)",
+            "zIndex": "1",
+            "rect": {
+              "x": 319.9026184082031,
+              "y": 134.93836975097656,
+              "width": 640.19482421875,
+              "height": 405.123291015625
+            }
+          },
+          {
+            "id": "grain",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "0.025",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)'/%3E%3C/svg%3E\")",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          },
+          {
+            "id": "float-layer",
+            "present": true,
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "none",
+            "zIndex": "2",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 900
+            }
+          }
+        ],
+        "scrollHeight": 8831,
+        "scrollY": 7931
+      },
+      "elements": [
+        {
+          "id": "about-faq-h2",
+          "axeSelector": "#faq-h2",
+          "selector": "#faq-h2",
+          "text": "ILMERA Study Abroad: Frequently Asked Questions",
+          "foreground": "rgb(255, 255, 255)",
+          "fontSize": "48px",
+          "fontWeight": "700",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 100,
+            "y": 422.25,
+            "left": 100,
+            "top": 422.25,
+            "right": 1180,
+            "bottom": 477.4375,
+            "width": 1080,
+            "height": 55.1875
+          },
+          "textRects": [
+            {
+              "x": 133.421875,
+              "y": 420.25,
+              "left": 133.421875,
+              "top": 420.25,
+              "right": 1146.5625,
+              "bottom": 478.25,
+              "width": 1013.140625,
+              "height": 58
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "H2",
+              "id": "faq-h2",
+              "className": "sec-h2 lt",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "team-hdr",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "faq",
+              "className": "s-wrap faq-sec",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 1151,
+                "y": 449,
+                "side": "right"
+              },
+              "backdrop": "#070911",
+              "effectiveForeground": "#FFFFFF",
+              "contrast": 19.883
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#070911"
+          ],
+          "minimumSampledContrast": 19.883,
+          "medianSampledContrast": 19.883,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w1280/about-faq-h2.png"
+        },
+        {
+          "id": "about-team-label",
+          "axeSelector": "#team > .container > .team-hdr > .sec-label",
+          "selector": "#team > .container > .team-hdr > .sec-label",
+          "text": "THE PEOPLE BEHIND ILMERA",
+          "foreground": "rgb(26, 46, 90)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 100,
+            "y": 442.53125,
+            "left": 100,
+            "top": 442.53125,
+            "right": 1180,
+            "bottom": 456.53125,
+            "width": 1080,
+            "height": 14
+          },
+          "textRects": [
+            {
+              "x": 537.28125,
+              "y": 442.53125,
+              "left": 537.28125,
+              "top": 442.53125,
+              "right": 742.703125,
+              "bottom": 456.53125,
+              "width": 205.421875,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "sec-label",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "team-hdr",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "team",
+              "className": "s-wrap team-sec",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 747,
+                "y": 450,
+                "side": "right"
+              },
+              "backdrop": "#E8ECF8",
+              "effectiveForeground": "#1A2E5A",
+              "contrast": 11.239
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#E8ECF8"
+          ],
+          "minimumSampledContrast": 11.239,
+          "medianSampledContrast": 11.239,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w1280/about-team-label.png"
+        },
+        {
+          "id": "about-kodagu-label",
+          "axeSelector": ".container > .sec-label",
+          "selector": "#kodagu > .container > .sec-label",
+          "text": "SERVING KODAGU & COORG",
+          "foreground": "rgb(26, 46, 90)",
+          "fontSize": "11px",
+          "fontWeight": "300",
+          "elementOpacity": "1",
+          "ancestorOpacityProduct": 1,
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "visibility": "visible",
+          "display": "block",
+          "rect": {
+            "x": 100,
+            "y": 442.71875,
+            "left": 100,
+            "top": 442.71875,
+            "right": 1180,
+            "bottom": 456.71875,
+            "width": 1080,
+            "height": 14
+          },
+          "textRects": [
+            {
+              "x": 100,
+              "y": 442.71875,
+              "left": 100,
+              "top": 442.71875,
+              "right": 298.859375,
+              "bottom": 456.71875,
+              "width": 198.859375,
+              "height": 14
+            }
+          ],
+          "ancestry": [
+            {
+              "tag": "SPAN",
+              "id": "",
+              "className": "sec-label",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "DIV",
+              "id": "",
+              "className": "container",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "SECTION",
+              "id": "kodagu",
+              "className": "s-wrap story-sec",
+              "backgroundColor": "rgba(240, 244, 255, 0.97)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "relative",
+              "zIndex": "10"
+            },
+            {
+              "tag": "MAIN",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "BODY",
+              "id": "",
+              "className": "",
+              "backgroundColor": "rgb(4, 6, 15)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            },
+            {
+              "tag": "HTML",
+              "id": "",
+              "className": "p32-scene-fallback",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "opacity": "1",
+              "position": "static",
+              "zIndex": "auto"
+            }
+          ],
+          "effectiveBackdropSamples": [
+            {
+              "point": {
+                "x": 303,
+                "y": 450,
+                "side": "right"
+              },
+              "backdrop": "#E8ECF8",
+              "effectiveForeground": "#1A2E5A",
+              "contrast": 11.239
+            }
+          ],
+          "uniqueSampledBackdropColors": [
+            "#E8ECF8"
+          ],
+          "minimumSampledContrast": 11.239,
+          "medianSampledContrast": 11.239,
+          "screenshot": "reports/screenshots/phase-32c/contrast-regression-3324432/about/touch-coarse-scene-not-started-w1280/about-kodagu-label.png"
+        }
+      ],
+      "errors": [],
+      "sceneRequests": [],
+      "scrollToBottomWaitMs": 3000
+    }
+  ]
+}

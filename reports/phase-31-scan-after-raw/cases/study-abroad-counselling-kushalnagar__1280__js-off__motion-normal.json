@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-kushalnagar__1280__js-off__motion-normal",
+  "route": "/study-abroad-counselling-kushalnagar",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-kushalnagar",
+  "http_status": 200,
+  "page_height": 4681,
+  "scroll": {
+    "height": 4681,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4681,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3545
+    },
+    "visible_text_chars": 4046,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Kushalnagar"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Kushalnagar"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Kushalnagar: turn the offer into"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Kushalnagar student extract from an offer lett"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "Receiving an offer is a point for careful reading, not a rea"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to turn the offer into a list of obligations onl"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Turn the offer into a list of obligations"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "Read the whole document and identify each condition separate"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Check what acceptance commits you to"
+      },
+      {
+        "selector": "p",
+        "y": 1224,
+        "text": "Before responding, look for the acceptance method, response "
+      },
+      {
+        "selector": "h2",
+        "y": 1470,
+        "text": "Keep admission, enrolment and immigration distinct"
+      },
+      {
+        "selector": "p",
+        "y": 1580,
+        "text": "Build a short sequence showing the next actions after a resp"
+      },
+      {
+        "selector": "p",
+        "y": 1835,
+        "text": "Counselling is online, and students from Kushalnagar do not "
+      },
+      {
+        "selector": "h2",
+        "y": 1908,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2001,
+        "text": "What should a Kushalnagar student extract from an offer lett"
+      },
+      {
+        "selector": "p",
+        "y": 2056,
+        "text": "List every condition, evidence requirement, response deadlin"
+      },
+      {
+        "selector": "summary",
+        "y": 2097,
+        "text": "Is an offer the same as immigration permission?"
+      },
+      {
+        "selector": "p",
+        "y": 2152,
+        "text": "No. Keep admissions and immigration decisions separate, and "
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2274,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2341,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2401,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2511,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2585,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2639,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4681,
+    "scan_width": 512,
+    "scan_height": 1872,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5005341880341883
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "832bfdfd71a0af9ed8513a8ed5459d9c309bb79e91c3b945db0372f401daac4b"
+  }
+}

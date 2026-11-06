@@ -1,0 +1,306 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/blog/",
+  "arm": "B",
+  "fixture_sha256": "f413d95a886fc7b71cae54e39b084fc82666f9465149151391f5e77e9724e544",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 2281.4881363894337,
+    "cls": 0,
+    "tbt_ms": 0
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0,
+      "displayValue": "0",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 22.111999999999995,
+      "displayValue": "0.0 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "total": 348.78000000000003,
+            "scripting": 11.571999999999996,
+            "scriptParseCompile": 2.42
+          },
+          {
+            "url": "Unattributable",
+            "total": 178.25200000000012,
+            "scripting": 8.12,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 22.111999999999995
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 7.398,
+            "startTime": 31.636
+          },
+          {
+            "duration": 22.297,
+            "startTime": 39.043
+          },
+          {
+            "duration": 23.159,
+            "startTime": 61.365
+          },
+          {
+            "duration": 37.89,
+            "startTime": 86.371
+          },
+          {
+            "duration": 5.301,
+            "startTime": 134.679
+          },
+          {
+            "duration": 5.076,
+            "startTime": 148.739
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": null,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": []
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "2 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "Unattributable",
+            "duration": 89,
+            "startTime": 902.4881363894335
+          },
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "duration": 76,
+            "startTime": 1037.4881363894335
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "Unattributable",
+            "http://127.0.0.1:8082/blog/"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 902.5,
+              "duration": 89,
+              "other": 89
+            },
+            {
+              "urlIndex": 1,
+              "startTime": 1037.5,
+              "duration": 76,
+              "other": 76,
+              "parseHTML": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 11.400000000023283,
+      "duration": 1000,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 140.29999999998836,
+      "faces": [
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 72.39999999996508,
+      "faces": [
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

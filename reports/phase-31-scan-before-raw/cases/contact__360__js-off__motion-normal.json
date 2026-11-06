@@ -1,0 +1,511 @@
+{
+  "id": "contact__360__js-off__motion-normal",
+  "route": "/contact",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/contact",
+  "http_status": 200,
+  "page_height": 12224,
+  "scroll": {
+    "height": 12224,
+    "scroll_samples": 20,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 12224,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 10140
+    },
+    "visible_text_chars": 9219,
+    "visible_text_nodes": 119,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 5,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 227,
+        "text": "Contact ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 374,
+        "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsAp"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 508,
+        "text": "online consultation for Germany, Italy, UK, Czech Republic, "
+      },
+      {
+        "selector": "span",
+        "y": 725,
+        "text": "Reach Out"
+      },
+      {
+        "selector": "h2",
+        "y": 896,
+        "text": "Send Us a Message"
+      },
+      {
+        "selector": "p",
+        "y": 1002,
+        "text": "Before your consultation, explore our"
+      },
+      {
+        "selector": "a",
+        "y": 1021,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 1021,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 1040,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 1040,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 1059,
+        "text": "ILMERA team"
+      },
+      {
+        "selector": "p",
+        "y": 1059,
+        "text": "."
+      },
+      {
+        "selector": "label",
+        "y": 1116,
+        "text": "Full Name"
+      },
+      {
+        "selector": "label",
+        "y": 1188,
+        "text": "Email Address"
+      },
+      {
+        "selector": "label",
+        "y": 1260,
+        "text": "Phone Number (optional)"
+      },
+      {
+        "selector": "label",
+        "y": 1307,
+        "text": "Destination Country"
+      },
+      {
+        "selector": "label",
+        "y": 1379,
+        "text": "Service Interested In"
+      },
+      {
+        "selector": "label",
+        "y": 1476,
+        "text": "Your Message"
+      },
+      {
+        "selector": "button.btn-submit",
+        "y": 1634,
+        "text": "Submit Enquiry →"
+      },
+      {
+        "selector": "h2",
+        "y": 1744,
+        "text": "Contact Information"
+      },
+      {
+        "selector": "span.c-icon",
+        "y": 1852,
+        "text": "📞"
+      },
+      {
+        "selector": "span.c-lbl",
+        "y": 1850,
+        "text": "Call Us"
+      },
+      {
+        "selector": "a",
+        "y": 1868,
+        "text": "+91 90195 57427"
+      },
+      {
+        "selector": "span.c-val",
+        "y": 1868,
+        "text": "or"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 12224,
+    "scan_width": 360,
+    "scan_height": 12224,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 49,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "#gold-glow-css",
+          "element_tag": "div",
+          "element_y": 90,
+          "element_height": 450,
+          "computed": {
+            "min_height": "0px",
+            "height": "450px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "fixed"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "#heroH1",
+            "y": 227,
+            "text": "Contact ILMERA Study Abroad"
+          }
+        },
+        "selector": "#gold-glow-css",
+        "cause": "Low edge-density band; nearest section #gold-glow-css has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2699,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1996,
+          "computed": {
+            "min_height": "0px",
+            "height": "1995.75px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link",
+            "y": 2658,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2896,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7001,
+        "height": 145,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.faq-sec",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 4324,
+          "computed": {
+            "min_height": "0px",
+            "height": "4323.98px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "i.faq-icon",
+            "y": 6563,
+            "text": "+"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 7173,
+            "text": "study abroad services"
+          }
+        },
+        "selector": "section.s-wrap.faq-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.faq-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8241,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.entity-glance",
+          "element_tag": "section",
+          "element_y": 8066,
+          "element_height": 1273,
+          "computed": {
+            "min_height": "0px",
+            "height": "1273px",
+            "padding_top": "24px",
+            "padding_bottom": "24px",
+            "margin_top": "32px",
+            "margin_bottom": "32px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 8090,
+            "text": "ILMERA at a glance"
+          },
+          "next_visible_text": {
+            "selector": "li",
+            "y": 8536,
+            "text": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence"
+          }
+        },
+        "selector": "section.entity-glance",
+        "cause": "Low edge-density band; nearest section section.entity-glance has 24px top and 24px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 10891,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 10054,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 49,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "#gold-glow-css",
+          "element_tag": "div",
+          "element_y": 90,
+          "element_height": 450,
+          "computed": {
+            "min_height": "0px",
+            "height": "450px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "fixed"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "#heroH1",
+            "y": 227,
+            "text": "Contact ILMERA Study Abroad"
+          }
+        },
+        "selector": "#gold-glow-css",
+        "cause": "Low edge-density band; nearest section #gold-glow-css has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2699,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.contact-sec",
+          "element_tag": "section",
+          "element_y": 792,
+          "element_height": 1996,
+          "computed": {
+            "min_height": "0px",
+            "height": "1995.75px",
+            "padding_top": "75px",
+            "padding_bottom": "75px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.cta-link",
+            "y": 2658,
+            "text": "Chat on WhatsApp →"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 2896,
+            "text": "Frequently Asked Questions"
+          }
+        },
+        "selector": "section.s-wrap.contact-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.contact-sec has 75px top and 75px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7001,
+        "height": 145,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.faq-sec",
+          "element_tag": "section",
+          "element_y": 2788,
+          "element_height": 4324,
+          "computed": {
+            "min_height": "0px",
+            "height": "4323.98px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "i.faq-icon",
+            "y": 6563,
+            "text": "+"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 7173,
+            "text": "study abroad services"
+          }
+        },
+        "selector": "section.s-wrap.faq-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.faq-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8241,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.entity-glance",
+          "element_tag": "section",
+          "element_y": 8066,
+          "element_height": 1273,
+          "computed": {
+            "min_height": "0px",
+            "height": "1273px",
+            "padding_top": "24px",
+            "padding_bottom": "24px",
+            "margin_top": "32px",
+            "margin_bottom": "32px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 8090,
+            "text": "ILMERA at a glance"
+          },
+          "next_visible_text": {
+            "selector": "li",
+            "y": 8536,
+            "text": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence"
+          }
+        },
+        "selector": "section.entity-glance",
+        "cause": "Low edge-density band; nearest section section.entity-glance has 24px top and 24px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 10891,
+        "height": 170,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31/contact__360__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 10054,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "621db86cf14c071c4382026e0eec5011f73a1c4d4aff36a3a2ebba35d8b24fa7"
+  }
+}

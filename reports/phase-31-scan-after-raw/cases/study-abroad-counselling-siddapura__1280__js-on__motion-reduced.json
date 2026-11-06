@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-siddapura__1280__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-siddapura",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-siddapura",
+  "http_status": 200,
+  "page_height": 4757,
+  "scroll": {
+    "height": 4757,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4757,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3621
+    },
+    "visible_text_chars": 4224,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Siddapura"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Siddapura"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Siddapura: ask why a record is n"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What should a Siddapura student clarify before sharing a doc"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 641,
+        "text": "Application records may contain information that should not "
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 795,
+        "text": "Discuss how to ask why a record is needed before sending it "
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "Ask why a record is needed before sending it"
+      },
+      {
+        "selector": "p",
+        "y": 945,
+        "text": "Identify the application task for which a document is reques"
+      },
+      {
+        "selector": "h2",
+        "y": 1191,
+        "text": "Keep credentials separate from counselling materials"
+      },
+      {
+        "selector": "p",
+        "y": 1301,
+        "text": "Do not include passwords or account recovery information in "
+      },
+      {
+        "selector": "h2",
+        "y": 1576,
+        "text": "Track the approved version and the remaining copies"
+      },
+      {
+        "selector": "p",
+        "y": 1686,
+        "text": "Use a clear version label for the documents you have reviewe"
+      },
+      {
+        "selector": "p",
+        "y": 1912,
+        "text": "Counselling is online, and students from Siddapura do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1984,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2078,
+        "text": "What should a Siddapura student clarify before sharing a doc"
+      },
+      {
+        "selector": "p",
+        "y": 2133,
+        "text": "Ask the purpose, recipient and required scope, and obtain pe"
+      },
+      {
+        "selector": "summary",
+        "y": 2174,
+        "text": "Does deleting a message necessarily remove every copy of a r"
+      },
+      {
+        "selector": "p",
+        "y": 2229,
+        "text": "Do not assume that. Ask about retention practices and make a"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2351,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2418,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2478,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2587,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2662,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2716,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4757,
+    "scan_width": 512,
+    "scan_height": 1903,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997372569626903
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "bd6e2c217205256c105c1f55ac710e4a42ad0b392ad62ab19cf2778acd114265"
+  }
+}

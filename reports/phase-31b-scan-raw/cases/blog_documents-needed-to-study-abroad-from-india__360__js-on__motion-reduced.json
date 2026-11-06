@@ -1,0 +1,303 @@
+{
+  "id": "blog_documents-needed-to-study-abroad-from-india__360__js-on__motion-reduced",
+  "route": "/blog/documents-needed-to-study-abroad-from-india",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/documents-needed-to-study-abroad-from-india",
+  "http_status": 200,
+  "page_height": 9816,
+  "scroll": {
+    "height": 9816,
+    "scroll_samples": 17,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 9816,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 7682
+    },
+    "visible_text_chars": 7419,
+    "visible_text_nodes": 79,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 197,
+        "text": "Visas"
+      },
+      {
+        "selector": "h1",
+        "y": 239,
+        "text": "Documents needed to study abroad from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 465,
+        "text": "Documents needed to study abroad from India requires careful"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 632,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 632,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 699,
+        "text": "What should I know about documents needed to study abroad fr"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 825,
+        "text": "Start with the actual course, applicant circumstances and im"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1122,
+        "text": "Discuss documents needed to study abroad from India online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1228,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 1228,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1228,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 1228,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1277,
+        "text": "Start with the actual course, applicant circumstances and im"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1583,
+        "text": "Coverage: selected official examples, not a universal filing"
+      },
+      {
+        "selector": "h2",
+        "y": 1793,
+        "text": "Germany and Italy: do not treat different processes as one"
+      },
+      {
+        "selector": "p",
+        "y": 1926,
+        "text": "DAAD describes usual study-visa evidence including a valid p"
+      },
+      {
+        "selector": "a",
+        "y": 2135,
+        "text": "[DAAD-V]"
+      },
+      {
+        "selector": "p",
+        "y": 2195,
+        "text": "The Bengaluru consulate directs Italy applicants through ins"
+      },
+      {
+        "selector": "a",
+        "y": 2404,
+        "text": "[IT]"
+      },
+      {
+        "selector": "h2",
+        "y": 2484,
+        "text": "UK: identify which financial and language evidence applies"
+      },
+      {
+        "selector": "p",
+        "y": 2617,
+        "text": "GOV.UK describes accepted funding sources including specifie"
+      },
+      {
+        "selector": "a",
+        "y": 2884,
+        "text": "[UK-F]"
+      },
+      {
+        "selector": "p",
+        "y": 2944,
+        "text": "GOV.UK describes English evidence through qualifying educati"
+      },
+      {
+        "selector": "a",
+        "y": 3153,
+        "text": "[UK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 9816,
+    "scan_width": 360,
+    "scan_height": 9816,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7382,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31b-scan/blog_documents-needed-to-study-abroad-from-india__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6850,
+          "element_height": 615,
+          "computed": {
+            "min_height": "0px",
+            "height": "615px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 7310,
+            "text": "What APS, finance and refusal-related guidance does ILMERA provide?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7555,
+            "text": "Ask ILMERA about documents needed to study abroad from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7610,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_documents-needed-to-study-abroad-from-india__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7555,
+            "text": "Ask ILMERA about documents needed to study abroad from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7382,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31b-scan/blog_documents-needed-to-study-abroad-from-india__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6850,
+          "element_height": 615,
+          "computed": {
+            "min_height": "0px",
+            "height": "615px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 7310,
+            "text": "What APS, finance and refusal-related guidance does ILMERA provide?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7555,
+            "text": "Ask ILMERA about documents needed to study abroad from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7610,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_documents-needed-to-study-abroad-from-india__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7555,
+            "text": "Ask ILMERA about documents needed to study abroad from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "9353f4f723f4743dc4094c538339bcde0234da532171a7ffab0098027be81c87"
+  }
+}

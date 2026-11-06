@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "direct_download_url": "https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-850d0af.zip",
+  "github_page_url": "https://github.com/fawazbhseo/ilmerastudyabroad/blob/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-850d0af.zip",
+  "verified_fetch": "GitHub Contents API, branch ref arena/48320ee5-ilmerastudyabroad, Accept application/vnd.github.raw+json",
+  "direct_raw_host_not_fetched": "Network host allowlist permits api.github.com, not raw.githubusercontent.com; binary fetched via GitHub API instead.",
+  "bytes": 681792,
+  "sha256": "31442c174e64b701a46db9bb935e88c85f0e201a4707297e70e9a3d06146d9d6",
+  "identical_to_committed_zip": true
+}

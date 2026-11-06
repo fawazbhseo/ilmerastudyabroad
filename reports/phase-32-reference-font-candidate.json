@@ -1,0 +1,122 @@
+{
+  "phase": 32,
+  "candidate": "self-host exact Latin WOFF2 faces for the four reference pages; remove the Google Fonts stylesheet chain; preload Outfit 300 and Cormorant Garamond 700",
+  "local_face_count": 11,
+  "new_asset_bytes": 91548,
+  "new_assets_total_under_150000_bytes": true,
+  "all_local_face_bytes_if_requested": 206564,
+  "all_assets_match_test_fontsource_files": true,
+  "method": "SHA-256 and byte-for-byte comparison against the installed @fontsource package files used by the existing local resource mirror. This establishes source-file identity, not the A/B performance result.",
+  "faces": [
+    {
+      "family": "Outfit",
+      "weight": 300,
+      "style": "normal",
+      "path": "assets/fonts/outfit-reference-300.woff2",
+      "bytes": 13956,
+      "sha256": "ef88e74f63ce75b54cce4d5a4087c6f180750b9ebae6ab6e5bf2a9939bf6958f",
+      "source_package_version": "5.2.8",
+      "exact_source_match": true
+    },
+    {
+      "family": "Outfit",
+      "weight": 400,
+      "style": "normal",
+      "path": "assets/fonts/outfit-reference-400.woff2",
+      "bytes": 14032,
+      "sha256": "71f028fd2349990b3f8aa643abe767e82e0f596be407ae66f0004ff164121bdb",
+      "source_package_version": "5.2.8",
+      "exact_source_match": true
+    },
+    {
+      "family": "Outfit",
+      "weight": 500,
+      "style": "normal",
+      "path": "assets/fonts/outfit-reference-500.woff2",
+      "bytes": 13528,
+      "sha256": "fc9bff941def6d924a71632bd8a93190528872eae6414844f3c367ff948d92fd",
+      "source_package_version": "5.2.8",
+      "exact_source_match": true
+    },
+    {
+      "family": "Outfit",
+      "weight": 600,
+      "style": "normal",
+      "path": "assets/fonts/outfit-reference-600.woff2",
+      "bytes": 14140,
+      "sha256": "8cfe15c2c6de6ef8efff3eedbd52a383ac9ef23d6c23f6cd9f9b838f5f37dc36",
+      "source_package_version": "5.2.8",
+      "exact_source_match": true
+    },
+    {
+      "family": "Outfit",
+      "weight": 700,
+      "style": "normal",
+      "path": "assets/fonts/outfit-reference-700.woff2",
+      "bytes": 14060,
+      "sha256": "5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706",
+      "source_package_version": "5.2.8",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 300,
+      "style": "normal",
+      "path": "assets/fonts/cormorant-garamond-reference-300.woff2",
+      "bytes": 21900,
+      "sha256": "7499d1bbfbe5b79ce04484c3fb559212049489872ed831dd5af03e24337c477e",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 400,
+      "style": "normal",
+      "path": "assets/fonts/cormorant-garamond-reference-400.woff2",
+      "bytes": 22908,
+      "sha256": "727acdbfd81848bcc9a5c2a6c64ba1b97ba93c69515382785483ce0cc068be08",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 600,
+      "style": "normal",
+      "path": "assets/fonts/cormorant-garamond-reference-600.woff2",
+      "bytes": 23456,
+      "sha256": "db5c65db6aac0c5d840cb5a1f0b69b4bbd9e80a4ed93eaaacc0b2ac095d2bbff",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 700,
+      "style": "normal",
+      "path": "assets/fonts/cormorant-garamond-reference-700.woff2",
+      "bytes": 22392,
+      "sha256": "949a2a601dd37c9aeb888b1ce6ce17383173aaea128af4a16df45e77e6fcd903",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 300,
+      "style": "italic",
+      "path": "assets/fonts/cormorant-garamond-reference-300-italic.woff2",
+      "bytes": 22524,
+      "sha256": "6c08d902c3e74a150078fb9265a50536f994c12203f207f8662fff0999754d2f",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    },
+    {
+      "family": "Cormorant Garamond",
+      "weight": 400,
+      "style": "italic",
+      "path": "assets/fonts/cormorant-garamond-reference-400-italic.woff2",
+      "bytes": 23668,
+      "sha256": "26b41dd185ff48a71f16f50255b6f77011b1c79e8b18811458323313858f2cfa",
+      "source_package_version": "5.2.9",
+      "exact_source_match": true
+    }
+  ]
+}

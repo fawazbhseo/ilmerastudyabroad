@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "only_upload_section_and_appended_old_upload_note_replaced": true,
+  "non_upload_prefix_and_c_through_k_bytes_preserved": true,
+  "original_non_upload_prefix_sha256": "6fd931fc3da7d344b81beab982aefd1a1907e8222a0b66a3cbec696516b8e15a",
+  "original_c_through_k_sha256": "20225e975848d5451784fafc236628676a0fb8d2c1b07d22abffd6f6f761db20",
+  "folder_counts": {
+    ".": 46,
+    "assets/css": 1,
+    "assets/fonts": 12,
+    "assets/images": 7,
+    "blog": 9,
+    "data": 8,
+    "destinations": 10,
+    "includes": 18,
+    "places": 18,
+    "reports": 1,
+    "tools": 1
+  },
+  "count_before_temp_delete": 131,
+  "after_delete": 130,
+  "important_files": 12,
+  "old_title_and_intro_retained_as_requested": "New upload section explicitly supersedes historical130-file wording; other steps not rewritten",
+  "key_not_serialized_in_proof": true,
+  "pdf_pages": 3,
+  "all_non_upload_pdf_text_preserved_after_whitespace_ligature_normalization": true,
+  "download_and_keyed_self_check_clickable_links_verified": true,
+  "no_font_size_or_layout_tool_change": true
+}

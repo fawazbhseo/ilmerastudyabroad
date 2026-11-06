@@ -1,0 +1,443 @@
+{
+  "id": "blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced",
+  "route": "/blog/cost-of-studying-abroad-for-indian-students",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/cost-of-studying-abroad-for-indian-students",
+  "http_status": 200,
+  "page_height": 10373,
+  "scroll": {
+    "height": 10373,
+    "scroll_samples": 17,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 10373,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 8239
+    },
+    "visible_text_chars": 7808,
+    "visible_text_nodes": 86,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 197,
+        "text": "Costs"
+      },
+      {
+        "selector": "h1",
+        "y": 239,
+        "text": "Cost of studying abroad for Indian students"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 465,
+        "text": "Cost of studying abroad for Indian students requires careful"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 632,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 632,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 699,
+        "text": "What should I know about cost of studying abroad for Indian "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 825,
+        "text": "Compare the type of expense as well as the amount. A tuition"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1093,
+        "text": "Discuss cost of studying abroad for Indian students online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1199,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 1199,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1199,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 1199,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1248,
+        "text": "Compare the type of expense as well as the amount. A tuition"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1525,
+        "text": "Coverage: Germany, Italy, Slovakia, UK, Lithuania, Latvia an"
+      },
+      {
+        "selector": "h2",
+        "y": 1735,
+        "text": "Germany: tuition exceptions and separate expenses"
+      },
+      {
+        "selector": "p",
+        "y": 1868,
+        "text": "At state institutions, bachelor programmes and most master p"
+      },
+      {
+        "selector": "a",
+        "y": 2135,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "p",
+        "y": 2195,
+        "text": "DAAD gives a semester contribution range of 70 to 430 euros,"
+      },
+      {
+        "selector": "a",
+        "y": 2404,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "h2",
+        "y": 2484,
+        "text": "Italy and Slovakia: check the programme and language"
+      },
+      {
+        "selector": "p",
+        "y": 2617,
+        "text": "The Italian consulate says each institution has its own tuit"
+      },
+      {
+        "selector": "a",
+        "y": 2797,
+        "text": "[IT]"
+      },
+      {
+        "selector": "p",
+        "y": 2858,
+        "text": "The European Commission Slovakia profile says Slovak-languag"
+      },
+      {
+        "selector": "a",
+        "y": 3124,
+        "text": "[SK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 10373,
+    "scan_width": 360,
+    "scan_height": 10373,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 349,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 413,
+          "computed": {
+            "min_height": "0px",
+            "height": "412.859px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Costs"
+          },
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 632,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7007,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6629,
+          "element_height": 461,
+          "computed": {
+            "min_height": "0px",
+            "height": "461px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 6960,
+            "text": "What financial and budget guidance does ILMERA provide?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7180,
+            "text": "Ask ILMERA about cost of studying abroad for Indian students"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7235,
+        "height": 125,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 7090,
+          "element_height": 217,
+          "computed": {
+            "min_height": "0px",
+            "height": "217px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7180,
+            "text": "Ask ILMERA about cost of studying abroad for Indian students"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 7451,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8541,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 8029,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 349,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 413,
+          "computed": {
+            "min_height": "0px",
+            "height": "412.859px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Costs"
+          },
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 632,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7007,
+        "height": 155,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6629,
+          "element_height": 461,
+          "computed": {
+            "min_height": "0px",
+            "height": "461px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 6960,
+            "text": "What financial and budget guidance does ILMERA provide?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7180,
+            "text": "Ask ILMERA about cost of studying abroad for Indian students"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7235,
+        "height": 125,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 7090,
+          "element_height": 217,
+          "computed": {
+            "min_height": "0px",
+            "height": "217px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7180,
+            "text": "Ask ILMERA about cost of studying abroad for Indian students"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 7451,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8541,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_cost-of-studying-abroad-for-indian-students__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 8029,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "7513a7a0387c037daee535055f7c520ee462fa3a4655d72273b97208432d798d"
+  }
+}

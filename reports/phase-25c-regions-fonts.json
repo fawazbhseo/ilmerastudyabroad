@@ -1,0 +1,6326 @@
+{
+  "rows": [
+    {
+      "route": "/404",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "err-wrap",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/all-pages",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "directory-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "directory-content",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "blog-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap blog-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "blog-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "entity-glance",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/terms",
+      "width": 360,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/404",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "err-wrap",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/all-pages",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "directory-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "directory-content",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "blog-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap blog-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "blog-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "entity-glance",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/404",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "err-wrap",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/all-pages",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "directory-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "directory-content",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body payment-disclosure",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "blog-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap blog-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "blog-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "article-cta",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "container",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "entity-glance",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "article-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          },
+          {
+            "class": "s-wrap article-body",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145,
+          0.9044663214662145,
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    },
+    {
+      "route": "/terms",
+      "width": 1280,
+      "tests": {
+        "first_posthero_light": true,
+        "max_one_dark_accent": true,
+        "longform_light": true,
+        "not_fully_dark": true,
+        "no_overflow": true,
+        "text_visible": true
+      },
+      "shape": {
+        "sections": [
+          {
+            "class": "legal-hero",
+            "luminance": 0.0019055103799207902,
+            "background": "linear-gradient(135deg, rgb(4, 6, 15), rgb(13, 27, 62))"
+          },
+          {
+            "class": "s-wrap legal-sec",
+            "luminance": 0.9044663214662145,
+            "background": "none"
+          }
+        ],
+        "longform": [
+          0.9044663214662145
+        ],
+        "focus": [
+          {
+            "class": "breadcrumb",
+            "outline": "solid",
+            "colour": "rgb(201, 168, 76)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          },
+          {
+            "class": "",
+            "outline": "solid",
+            "colour": "rgb(26, 46, 90)"
+          }
+        ],
+        "overflow": false,
+        "pending": false,
+        "body": "visible"
+      }
+    }
+  ],
+  "font_failure_failsafe": [
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 32
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 49
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 23
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy-policy",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 20
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/all-pages",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 29
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/404",
+      "js": true,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 27
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "Cormorant Garamond Light",
+          "postScriptName": "CormorantGaramond-Light",
+          "isCustomFont": true,
+          "glyphCount": 26
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 32
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 49
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 23
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/privacy-policy",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 20
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/all-pages",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 29
+        }
+      ],
+      "passed": true
+    },
+    {
+      "route": "/404",
+      "js": false,
+      "visible": true,
+      "fonts": [
+        {
+          "familyName": "DejaVu Serif",
+          "postScriptName": "DejaVuSerif-Bold",
+          "isCustomFont": false,
+          "glyphCount": 27
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

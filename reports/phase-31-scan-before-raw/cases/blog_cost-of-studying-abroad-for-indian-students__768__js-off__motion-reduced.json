@@ -1,0 +1,242 @@
+{
+  "id": "blog_cost-of-studying-abroad-for-indian-students__768__js-off__motion-reduced",
+  "route": "/blog/cost-of-studying-abroad-for-indian-students",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/cost-of-studying-abroad-for-indian-students",
+  "http_status": 200,
+  "page_height": 6998,
+  "scroll": {
+    "height": 6998,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 6998,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5617
+    },
+    "visible_text_chars": 7808,
+    "visible_text_nodes": 86,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 174,
+        "text": "Costs"
+      },
+      {
+        "selector": "h1",
+        "y": 215,
+        "text": "Cost of studying abroad for Indian students"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 363,
+        "text": "Cost of studying abroad for Indian students requires careful"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 444,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 444,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 511,
+        "text": "What should I know about cost of studying abroad for Indian "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 603,
+        "text": "Compare the type of expense as well as the amount. A tuition"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 757,
+        "text": "Discuss cost of studying abroad for Indian students online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 843,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 843,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 843,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 843,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 892,
+        "text": "Compare the type of expense as well as the amount. A tuition"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1054,
+        "text": "Coverage: Germany, Italy, Slovakia, UK, Lithuania, Latvia an"
+      },
+      {
+        "selector": "h2",
+        "y": 1177,
+        "text": "Germany: tuition exceptions and separate expenses"
+      },
+      {
+        "selector": "p",
+        "y": 1238,
+        "text": "At state institutions, bachelor programmes and most master p"
+      },
+      {
+        "selector": "a",
+        "y": 1361,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "p",
+        "y": 1422,
+        "text": "DAAD gives a semester contribution range of 70 to 430 euros,"
+      },
+      {
+        "selector": "a",
+        "y": 1515,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "h2",
+        "y": 1595,
+        "text": "Italy and Slovakia: check the programme and language"
+      },
+      {
+        "selector": "p",
+        "y": 1656,
+        "text": "The Italian consulate says each institution has its own tuit"
+      },
+      {
+        "selector": "a",
+        "y": 1721,
+        "text": "[IT]"
+      },
+      {
+        "selector": "p",
+        "y": 1781,
+        "text": "The European Commission Slovakia profile says Slovak-languag"
+      },
+      {
+        "selector": "a",
+        "y": 1875,
+        "text": "[SK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 6998,
+    "scan_width": 512,
+    "scan_height": 4665,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5517,
+        "height": 182,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_cost-of-studying-abroad-for-indian-students__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body.payment-disclosure",
+          "element_tag": "section",
+          "element_y": 4948,
+          "element_height": 669,
+          "computed": {
+            "min_height": "0px",
+            "height": "668.578px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5387,
+            "text": "Does ILMERA charge a fee?"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body.payment-disclosure",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body.payment-disclosure has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5517,
+        "height": 182,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_cost-of-studying-abroad-for-indian-students__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body.payment-disclosure",
+          "element_tag": "section",
+          "element_y": 4948,
+          "element_height": 669,
+          "computed": {
+            "min_height": "0px",
+            "height": "668.578px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 5387,
+            "text": "Does ILMERA charge a fee?"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body.payment-disclosure",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body.payment-disclosure has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.50010718113612
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "61399b052ed924617b35395c9c16bff4c0c742c01df28d2b2756d498a6488bdc"
+  }
+}

@@ -1,8 +1,9 @@
-<?php /* includes/footer.php */ ?>
+<?php require_once __DIR__ . '/links.php'; ?>
 <style>
 /* FOOTER */
 #il-footer{background:#04060f;border-top:1px solid rgba(255,255,255,0.07);padding:80px 0 40px;position:relative;z-index:10;}
-.ft-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:64px;}
+.ft-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:40px;margin-bottom:64px;}
+.ft-grid > div{min-width:0;}
 .ft-logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:4px;}
 .ft-logo img{height:34px;width:auto;}
 .ft-lname{font-family:'Cormorant Garamond',serif;font-weight:700;font-size:22px;color:#fff;letter-spacing:.02em;}
@@ -34,11 +35,11 @@
 <div class="container">
   <div class="ft-grid">
     <div>
-      <a href="https://ilmerastudyabroad.com/" class="ft-logo" aria-label="ILMERA Study Abroad: Home">
+      <a href="/" class="ft-logo" aria-label="ILMERA Study Abroad: Home">
         <img src="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png" alt="ILMERA Study Abroad logo" width="34" height="34" loading="lazy"/>
         <div style="display:flex;flex-direction:column;line-height:1;"><span class="ft-lname">ILMERA</span><span class="ft-lsub">Study Abroad</span></div>
       </a>
-      <p class="ft-tagline">Your Gateway to Global Education. Based in Coorg, Kodagu, Karnataka.</p>
+      <p class="ft-tagline">Online counselling only, by phone, WhatsApp and video call. For students from Coorg, Kodagu and beyond.</p>
       <div class="social-row">
         <a href="https://www.linkedin.com/company/ilmerastudyabroad" class="social-btn" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
         <a href="https://www.instagram.com/ilmera.studyabroad" class="social-btn" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg></a>
@@ -49,34 +50,53 @@
     <div>
       <h4 class="ft-h4">Navigation</h4>
       <ul class="ft-links">
-        <li><a href="https://ilmerastudyabroad.com/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/services">Services</a></li>
-        <li><a href="/blog">Blog</a></li>
+        <li><a href="/blog/">Blog</a></li>
         <li><a href="/contact">Contact</a></li>
+        <?php if ($directoryLink = ilmera_link('/all-pages', 'All pages')): ?><li><?= $directoryLink ?></li><?php endif; ?>
       </ul>
     </div>
+    <?php $footerDestinations = ilmera_published_destinations(); ?>
+    <?php if ($footerDestinations): ?>
     <div>
       <h4 class="ft-h4">Destinations</h4>
       <ul class="ft-links">
-        <li><a href="/services#germany">&#127465;&#127466; Germany</a></li>
-        <li><a href="/services#italy">&#127470;&#127481; Italy</a></li>
-        <li><a href="/services#uk">&#127468;&#127463; United Kingdom</a></li>
-        <li><a href="/services#czech-republic">&#127464;&#127487; Czech Republic</a></li>
-        <li><a href="/services#lithuania">&#127473;&#127481; Lithuania</a></li>
-        <li><a href="/services#latvia">&#127473;&#127483; Latvia</a></li>
-        <li><a href="/services#slovakia">&#127480;&#127472; Slovakia</a></li>
-        <li><a href="/services#russia">&#127479;&#127482; Russia</a></li>
-        <li><a href="/services#gcc">&#127760; GCC Countries</a></li>
+        <?php foreach ($footerDestinations as $destinationGuide): ?>
+        <li><?= ilmera_link($destinationGuide['url'], $destinationGuide['name']) ?></li>
+        <?php endforeach; ?>
       </ul>
     </div>
+    <?php endif; ?>
+    <?php $footerGuides = ilmera_published_posts(); ?>
+    <?php if ($footerGuides): ?>
+    <div>
+      <h4 class="ft-h4">Guides</h4>
+      <ul class="ft-links">
+        <?php foreach ($footerGuides as $guide): ?>
+        <li><?= ilmera_post_link($guide['slug']) ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <?php endif; ?>
+    <?php $footerLocations = ilmera_indexable_locations(); if ($footerLocations): ?>
+    <div>
+      <h4 class="ft-h4">Students we support online</h4>
+      <ul class="ft-links">
+        <?php foreach ($footerLocations as $location): ?>
+        <li><?= ilmera_link($location['url'], $location['name']) ?></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+    <?php endif; ?>
     <div>
       <h4 class="ft-h4">Contact</h4>
       <a href="tel:+919019557427" class="ft-ca">&#128222; +91 90195 57427</a>
       <a href="tel:+919481084038" class="ft-ca">&#128222; +91 94810 84038</a>
       <a href="mailto:info@ilmerastudyabroad.com" class="ft-ca">&#9993; info@ilmerastudyabroad.com</a>
       <a href="https://wa.me/421944485186" class="ft-ca">&#128172; WhatsApp Us</a>
-      <a href="/contact" class="ft-cta">Book Free Consultation</a>
+      <a href="/contact" class="ft-cta">Book online Consultation</a>
     </div>
   </div>
   <div class="ft-bottom">

@@ -1,0 +1,581 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/about",
+  "arm": "B",
+  "fixture_sha256": "f413d95a886fc7b71cae54e39b084fc82666f9465149151391f5e77e9724e544",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 3856.235920486818,
+    "cls": 0.02041136395734433,
+    "tbt_ms": 0
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0.02041136395734433,
+      "displayValue": "0.02",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.02041136395734433,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0.02041136395734433,
+              "cumulativeLayoutShiftMainFrame": 0.02041136395734433
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 49.9,
+      "displayValue": "0.0 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "total": 1006.0200000000011,
+            "scripting": 37.864,
+            "scriptParseCompile": 4.507999999999999
+          },
+          {
+            "url": "Unattributable",
+            "total": 109.5960000000003,
+            "scripting": 7.528,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 49.9
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 24.877,
+            "startTime": 19.985
+          },
+          {
+            "duration": 27.306,
+            "startTime": 54.347
+          },
+          {
+            "duration": 19.831,
+            "startTime": 83.367
+          },
+          {
+            "duration": 13.547,
+            "startTime": 103.403
+          },
+          {
+            "duration": 75.808,
+            "startTime": 117.013
+          },
+          {
+            "duration": 30.746,
+            "startTime": 194.934
+          },
+          {
+            "duration": 9.516,
+            "startTime": 233.585
+          },
+          {
+            "duration": 5.29,
+            "startTime": 682.246
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": 1,
+      "displayValue": "1 layout shift found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-5-DIV",
+              "path": "1,HTML,1,BODY,14,MAIN,1,SECTION,0,DIV,6,DIV",
+              "selector": "main > section#miniHero > div.mini-inner > div.mob-hero-stats",
+              "boundingRect": {
+                "top": 520,
+                "bottom": 676,
+                "left": 22,
+                "right": 390,
+                "width": 368,
+                "height": 156
+              },
+              "snippet": "<div class=\"mob-hero-stats\">",
+              "nodeLabel": "9\nSTUDY DESTINATIONS\n3\nNAMED COUNSELLORS\n4\nLANGUAGES SPOKEN\n2026\nFOUNDED"
+            },
+            "score": 0.02041136395734433,
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                },
+                {
+                  "extra": {
+                    "type": "url",
+                    "value": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2"
+                  },
+                  "cause": "Web font loaded"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "5 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "duration": 152,
+            "startTime": 1251.235920486818
+          },
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "duration": 61,
+            "startTime": 1403.235920486818
+          },
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "duration": 55,
+            "startTime": 1102.235920486818
+          },
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "duration": 54,
+            "startTime": 1197.235920486818
+          },
+          {
+            "url": "http://127.0.0.1:8082/about",
+            "duration": 50,
+            "startTime": 1052.235920486818
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "http://127.0.0.1:8082/about"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 1251.2,
+              "duration": 152,
+              "other": 152,
+              "paintCompositeRender": 0,
+              "styleLayout": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1403.2,
+              "duration": 61,
+              "other": 61,
+              "parseHTML": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1102.2,
+              "duration": 55,
+              "other": 55,
+              "paintCompositeRender": 0,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1197.2,
+              "duration": 54,
+              "other": 54,
+              "parseHTML": 0,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1052.2,
+              "duration": 50,
+              "other": 50,
+              "scriptEvaluation": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 16.70000000001164,
+      "duration": 1002,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 117.10000000003492,
+      "duration": 74,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 243.20000000001164,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "300",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 684.2999999999884,
+      "value": 0.02041136395734433,
+      "hadRecentInput": false,
+      "sources": [
+        {
+          "tag": "SECTION",
+          "id": null,
+          "className": "s-wrap story-sec",
+          "text": "Our Story\n                Why ILMERA Study AbroadExists\n\n        ILMERA Study Abroad was founded on a simple premise: ev",
+          "previous": {
+            "x": 0,
+            "y": 728.140625,
+            "width": 412,
+            "height": 94.859375,
+            "top": 728.140625,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          },
+          "current": {
+            "x": 0,
+            "y": 705.640625,
+            "width": 412,
+            "height": 117.359375,
+            "top": 705.640625,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "About ILMERA Study Abroad",
+          "previous": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 81.875,
+            "top": 153,
+            "right": 390,
+            "bottom": 234.875,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 81.875,
+            "top": 153,
+            "right": 390,
+            "bottom": 234.875,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "About ILMERA Study Abroad: Read about the online counselling model, existing leadership roles and application guidance s",
+          "previous": {
+            "x": 22,
+            "y": 254.75,
+            "width": 368,
+            "height": 77.59375,
+            "top": 254.75,
+            "right": 390,
+            "bottom": 332.34375,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 255.75,
+            "width": 368,
+            "height": 77.59375,
+            "top": 255.75,
+            "right": 390,
+            "bottom": 333.34375,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "An overseas education consultancy based in Coorg, run by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zahe",
+          "previous": {
+            "x": 22,
+            "y": 360.140625,
+            "width": 368,
+            "height": 121,
+            "top": 360.140625,
+            "right": 390,
+            "bottom": 481.140625,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 361.140625,
+            "width": 368,
+            "height": 121,
+            "top": 361.140625,
+            "right": 390,
+            "bottom": 482.140625,
+            "left": 22
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": null,
+          "className": "mob-hero-stats",
+          "text": "9Study Destinations\n      3Named Counsellors\n      4Languages Spoken\n      2026Founded",
+          "previous": {
+            "x": 22,
+            "y": 544.140625,
+            "width": 368,
+            "height": 154,
+            "top": 544.140625,
+            "right": 390,
+            "bottom": 698.140625,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 519.640625,
+            "width": 368,
+            "height": 156,
+            "top": 519.640625,
+            "right": 390,
+            "bottom": 675.640625,
+            "left": 22
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

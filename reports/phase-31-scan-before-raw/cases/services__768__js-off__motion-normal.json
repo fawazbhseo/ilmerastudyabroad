@@ -1,0 +1,951 @@
+{
+  "id": "services__768__js-off__motion-normal",
+  "route": "/services",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/services",
+  "http_status": 200,
+  "page_height": 18044,
+  "scroll": {
+    "height": 18044,
+    "scroll_samples": 30,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 18044,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 16670
+    },
+    "visible_text_chars": 17156,
+    "visible_text_nodes": 373,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 153,
+        "text": "ILMERA study abroad services"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 214,
+        "text": "ILMERA study abroad services: Review profile matching, admis"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 290,
+        "text": "Online counselling, academic review and application guidance"
+      },
+      {
+        "selector": "span",
+        "y": 319,
+        "text": "Explore"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 454,
+        "text": "🎓"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 495,
+        "text": "Tuition and scholarship planning"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 535,
+        "text": "Germany · Italy · Slovakia"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 452,
+        "text": "📉"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 493,
+        "text": "Low Marks? No Problem"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 533,
+        "text": "Russia · Slovakia · Lithuania · Latvia"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 454,
+        "text": "💰"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 495,
+        "text": "Lowest Tuition Fees"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 520,
+        "text": "Czech · Lithuania · Latvia · Russia"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 620,
+        "text": "❌"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 661,
+        "text": "IELTS Not Mandatory"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 686,
+        "text": "Russia · Lithuania · Latvia"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 620,
+        "text": "📄"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 661,
+        "text": "Backlogs Accepted"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 686,
+        "text": "Russia accepts low marks and backlogs"
+      },
+      {
+        "selector": "span.badge-icon",
+        "y": 620,
+        "text": "💸"
+      },
+      {
+        "selector": "span.badge-title",
+        "y": 661,
+        "text": "DSU Stipend"
+      },
+      {
+        "selector": "span.badge-sub",
+        "y": 686,
+        "text": "Italy DSU Scholarship"
+      },
+      {
+        "selector": "span.flag",
+        "y": 1072,
+        "text": "🇩🇪"
+      },
+      {
+        "selector": "div.country-flag-badge",
+        "y": 1075,
+        "text": "Programme-specific tuition"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 18044,
+    "scan_width": 512,
+    "scan_height": 12029,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 738,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00058,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "#germany",
+          "element_tag": "section",
+          "element_y": 789,
+          "element_height": 1326,
+          "computed": {
+            "min_height": "0px",
+            "height": "1326.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.badge-sub",
+            "y": 686,
+            "text": "Russia accepts low marks and backlogs"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 1072,
+            "text": "🇩🇪"
+          }
+        },
+        "selector": "#germany",
+        "cause": "Low edge-density band; nearest section #germany has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3336,
+        "height": 346,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00074,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "#italy",
+          "element_tag": "section",
+          "element_y": 2116,
+          "element_height": 1436,
+          "computed": {
+            "min_height": "0px",
+            "height": "1436.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.svc-cta",
+            "y": 3320,
+            "text": "Check Italy Scholarship Options →"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 3835,
+            "text": "🇬🇧"
+          }
+        },
+        "selector": "#italy",
+        "cause": "Low edge-density band; nearest section #italy has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4533,
+        "height": 194,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "#czech-republic",
+          "element_tag": "section",
+          "element_y": 4612,
+          "element_height": 1160,
+          "computed": {
+            "min_height": "0px",
+            "height": "1160.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4477,
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Checklist"
+          },
+          "next_visible_text": {
+            "selector": "div",
+            "y": 4735,
+            "text": "🇨🇿"
+          }
+        },
+        "selector": "#czech-republic",
+        "cause": "Low edge-density band; nearest section #czech-republic has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5556,
+        "height": 350,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "#czech-republic",
+          "element_tag": "section",
+          "element_y": 4612,
+          "element_height": 1160,
+          "computed": {
+            "min_height": "0px",
+            "height": "1160.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5446,
+            "text": "Schengen visa: travel across Europe freely"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 6056,
+            "text": "🇱🇹"
+          }
+        },
+        "selector": "#czech-republic",
+        "cause": "Low edge-density band; nearest section #czech-republic has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7737,
+        "height": 346,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00067,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "#latvia",
+          "element_tag": "section",
+          "element_y": 6877,
+          "element_height": 1076,
+          "computed": {
+            "min_height": "0px",
+            "height": "1076.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.svc-cta",
+            "y": 7721,
+            "text": "Apply for Latvia →"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 8236,
+            "text": "🇸🇰"
+          }
+        },
+        "selector": "#latvia",
+        "cause": "Low edge-density band; nearest section #latvia has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8929,
+        "height": 186,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00056,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "#slovakia",
+          "element_tag": "section",
+          "element_y": 7953,
+          "element_height": 1118,
+          "computed": {
+            "min_height": "0px",
+            "height": "1118.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h3",
+            "y": 8890,
+            "text": "Planning guides"
+          },
+          "next_visible_text": {
+            "selector": "div",
+            "y": 9195,
+            "text": "🇷🇺"
+          }
+        },
+        "selector": "#slovakia",
+        "cause": "Low edge-density band; nearest section #slovakia has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 11622,
+        "height": 253,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00083,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-07.webp",
+        "context": {
+          "selector": "#scope-help",
+          "element_tag": "section",
+          "element_y": 11532,
+          "element_height": 332,
+          "computed": {
+            "min_height": "0px",
+            "height": "332px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 11560,
+            "text": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 11892,
+            "text": "ILMERA does not provide advice on working during study or staying after study."
+          }
+        },
+        "selector": "#scope-help",
+        "cause": "Low edge-density band; nearest section #scope-help has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 12726,
+        "height": 185,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00019,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-08.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 12818,
+          "element_height": 707,
+          "computed": {
+            "min_height": "0px",
+            "height": "706.5px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 12659,
+            "text": "IELTS is not mandatory for many Russia & Lithuania programmes."
+          },
+          "next_visible_text": {
+            "selector": "h3",
+            "y": 12931,
+            "text": "Online Counselling"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 13747,
+        "height": 351,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-09.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 13664,
+          "element_height": 1369,
+          "computed": {
+            "min_height": "0px",
+            "height": "1369px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "h2.sec-h2.lt",
+            "y": 13692,
+            "text": "Study Abroad: Your Questions Answered"
+          },
+          "next_visible_text": {
+            "selector": "button.faq-q",
+            "y": 14113,
+            "text": "How do tuition and scholarship conditions differ?"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 15928,
+        "height": 348,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00065,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-10.webp",
+        "context": {
+          "selector": "section.discovery-links",
+          "element_tag": "section",
+          "element_y": 15490,
+          "element_height": 775,
+          "computed": {
+            "min_height": "0px",
+            "height": "775.141px",
+            "padding_top": "32px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 15888,
+            "text": "Madikeri"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 16293,
+            "text": "Checked 16 October 2026:"
+          }
+        },
+        "selector": "section.discovery-links",
+        "cause": "Low edge-density band; nearest section section.discovery-links has 32px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 17121,
+        "height": 185,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00053,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-11.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 16603,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 738,
+        "height": 184,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00058,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "#germany",
+          "element_tag": "section",
+          "element_y": 789,
+          "element_height": 1326,
+          "computed": {
+            "min_height": "0px",
+            "height": "1326.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.badge-sub",
+            "y": 686,
+            "text": "Russia accepts low marks and backlogs"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 1072,
+            "text": "🇩🇪"
+          }
+        },
+        "selector": "#germany",
+        "cause": "Low edge-density band; nearest section #germany has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3336,
+        "height": 346,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00074,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "#italy",
+          "element_tag": "section",
+          "element_y": 2116,
+          "element_height": 1436,
+          "computed": {
+            "min_height": "0px",
+            "height": "1436.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.svc-cta",
+            "y": 3320,
+            "text": "Check Italy Scholarship Options →"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 3835,
+            "text": "🇬🇧"
+          }
+        },
+        "selector": "#italy",
+        "cause": "Low edge-density band; nearest section #italy has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4533,
+        "height": 194,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00036,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "#czech-republic",
+          "element_tag": "section",
+          "element_y": 4612,
+          "element_height": 1160,
+          "computed": {
+            "min_height": "0px",
+            "height": "1160.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4477,
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Checklist"
+          },
+          "next_visible_text": {
+            "selector": "div",
+            "y": 4735,
+            "text": "🇨🇿"
+          }
+        },
+        "selector": "#czech-republic",
+        "cause": "Low edge-density band; nearest section #czech-republic has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5556,
+        "height": 350,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "#czech-republic",
+          "element_tag": "section",
+          "element_y": 4612,
+          "element_height": 1160,
+          "computed": {
+            "min_height": "0px",
+            "height": "1160.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5446,
+            "text": "Schengen visa: travel across Europe freely"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 6056,
+            "text": "🇱🇹"
+          }
+        },
+        "selector": "#czech-republic",
+        "cause": "Low edge-density band; nearest section #czech-republic has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7737,
+        "height": 346,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00067,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "#latvia",
+          "element_tag": "section",
+          "element_y": 6877,
+          "element_height": 1076,
+          "computed": {
+            "min_height": "0px",
+            "height": "1076.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.svc-cta",
+            "y": 7721,
+            "text": "Apply for Latvia →"
+          },
+          "next_visible_text": {
+            "selector": "span.flag",
+            "y": 8236,
+            "text": "🇸🇰"
+          }
+        },
+        "selector": "#latvia",
+        "cause": "Low edge-density band; nearest section #latvia has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8929,
+        "height": 186,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00056,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "#slovakia",
+          "element_tag": "section",
+          "element_y": 7953,
+          "element_height": 1118,
+          "computed": {
+            "min_height": "0px",
+            "height": "1118.34px",
+            "padding_top": "65px",
+            "padding_bottom": "65px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h3",
+            "y": 8890,
+            "text": "Planning guides"
+          },
+          "next_visible_text": {
+            "selector": "div",
+            "y": 9195,
+            "text": "🇷🇺"
+          }
+        },
+        "selector": "#slovakia",
+        "cause": "Low edge-density band; nearest section #slovakia has 65px top and 65px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 11622,
+        "height": 253,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00083,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-07.webp",
+        "context": {
+          "selector": "#scope-help",
+          "element_tag": "section",
+          "element_y": 11532,
+          "element_height": 332,
+          "computed": {
+            "min_height": "0px",
+            "height": "332px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 11560,
+            "text": "ILMERA reviews a student's eligibility, academic qualifications, English-language evidence"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 11892,
+            "text": "ILMERA does not provide advice on working during study or staying after study."
+          }
+        },
+        "selector": "#scope-help",
+        "cause": "Low edge-density band; nearest section #scope-help has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 12726,
+        "height": 185,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00019,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-08.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 12818,
+          "element_height": 707,
+          "computed": {
+            "min_height": "0px",
+            "height": "706.5px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 12659,
+            "text": "IELTS is not mandatory for many Russia & Lithuania programmes."
+          },
+          "next_visible_text": {
+            "selector": "h3",
+            "y": 12931,
+            "text": "Online Counselling"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 13747,
+        "height": 351,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00013,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-09.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 13664,
+          "element_height": 1369,
+          "computed": {
+            "min_height": "0px",
+            "height": "1369px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "h2.sec-h2.lt",
+            "y": 13692,
+            "text": "Study Abroad: Your Questions Answered"
+          },
+          "next_visible_text": {
+            "selector": "button.faq-q",
+            "y": 14113,
+            "text": "How do tuition and scholarship conditions differ?"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 15928,
+        "height": 348,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00065,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-10.webp",
+        "context": {
+          "selector": "section.discovery-links",
+          "element_tag": "section",
+          "element_y": 15490,
+          "element_height": 775,
+          "computed": {
+            "min_height": "0px",
+            "height": "775.141px",
+            "padding_top": "32px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 15888,
+            "text": "Madikeri"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 16293,
+            "text": "Checked 16 October 2026:"
+          }
+        },
+        "selector": "section.discovery-links",
+        "cause": "Low edge-density band; nearest section section.discovery-links has 32px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 17121,
+        "height": 185,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00053,
+        "crop": "reports/screenshots/phase-31/services__768__js-off__motion-normal-gap-11.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 16603,
+            "text": "ILMERA charges the student a service charge between ₹3 lakh and ₹15 lakh, depending on des"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5000415662149804
+  },
+  "pinned": null,
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "e6f1320026a57b93a02f67e67aaba2991a708159ea87ac76e8661467f8df019b"
+  }
+}

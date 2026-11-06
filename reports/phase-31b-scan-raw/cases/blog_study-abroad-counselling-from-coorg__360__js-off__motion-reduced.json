@@ -1,0 +1,443 @@
+{
+  "id": "blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced",
+  "route": "/blog/study-abroad-counselling-from-coorg",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/study-abroad-counselling-from-coorg",
+  "http_status": 200,
+  "page_height": 7315,
+  "scroll": {
+    "height": 7315,
+    "scroll_samples": 12,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7315,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5180
+    },
+    "visible_text_chars": 4562,
+    "visible_text_nodes": 59,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 197,
+        "text": "Coorg"
+      },
+      {
+        "selector": "h1",
+        "y": 239,
+        "text": "Online study abroad counselling for Coorg students"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 465,
+        "text": "Online study abroad counselling for Coorg students requires "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 632,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 632,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 699,
+        "text": "What should I know about online study abroad counselling for"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 859,
+        "text": "ILMERA offers online counselling only, by phone, WhatsApp an"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1098,
+        "text": "Discuss online study abroad counselling for Coorg students o"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1204,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 1204,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1204,
+        "text": "· September 3, 2025 · Reviewed October 2026 · 4 min read"
+      },
+      {
+        "selector": "p",
+        "y": 1276,
+        "text": "ILMERA offers online counselling only, by phone, WhatsApp an"
+      },
+      {
+        "selector": "h2",
+        "y": 1405,
+        "text": "What the Process Actually Looks Like"
+      },
+      {
+        "selector": "p",
+        "y": 1502,
+        "text": "A first conversation is usually a phone call or a scheduled "
+      },
+      {
+        "selector": "h2",
+        "y": 1747,
+        "text": "Step by Step"
+      },
+      {
+        "selector": "strong",
+        "y": 1808,
+        "text": "Initial call:"
+      },
+      {
+        "selector": "li",
+        "y": 1808,
+        "text": "a phone or video consultation to understand your profile, bu"
+      },
+      {
+        "selector": "strong",
+        "y": 1904,
+        "text": "Document review:"
+      },
+      {
+        "selector": "li",
+        "y": 1904,
+        "text": "transcripts, certificates, and financial documents are share"
+      },
+      {
+        "selector": "strong",
+        "y": 2030,
+        "text": "University shortlist:"
+      },
+      {
+        "selector": "li",
+        "y": 2030,
+        "text": "discussed over a follow-up call, with reasoning for why each"
+      },
+      {
+        "selector": "strong",
+        "y": 2126,
+        "text": "Application guidance:"
+      },
+      {
+        "selector": "li",
+        "y": 2126,
+        "text": "Jabir KJ, Founder, is responsible for university research, a"
+      },
+      {
+        "selector": "strong",
+        "y": 2280,
+        "text": "Visa and documents:"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7315,
+    "scan_width": 360,
+    "scan_height": 7315,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3632,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 3696,
+          "element_height": 427,
+          "computed": {
+            "min_height": "0px",
+            "height": "426.688px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3508,
+            "text": "Contact ILMERA about your plans"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3911,
+            "text": "Book a online consultation by phone, WhatsApp, or video call, wherever you are."
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4043,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 3696,
+          "element_height": 427,
+          "computed": {
+            "min_height": "0px",
+            "height": "426.688px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4007,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4248,
+            "text": "How does ILMERA counsel Coorg students?"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4860,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4123,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "821px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4628,
+            "text": "ILMERA reviews academic qualifications and guides applications and visa-document preparati"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5034,
+            "text": "Ask ILMERA about online study abroad counselling for Coorg students"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5108,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5034,
+            "text": "Ask ILMERA about online study abroad counselling for Coorg students"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3632,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 3696,
+          "element_height": 427,
+          "computed": {
+            "min_height": "0px",
+            "height": "426.688px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3508,
+            "text": "Contact ILMERA about your plans"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3911,
+            "text": "Book a online consultation by phone, WhatsApp, or video call, wherever you are."
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4043,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 3696,
+          "element_height": 427,
+          "computed": {
+            "min_height": "0px",
+            "height": "426.688px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4007,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "summary",
+            "y": 4248,
+            "text": "How does ILMERA counsel Coorg students?"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4860,
+        "height": 156,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00039,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 4123,
+          "element_height": 821,
+          "computed": {
+            "min_height": "0px",
+            "height": "821px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4628,
+            "text": "ILMERA reviews academic qualifications and guides applications and visa-document preparati"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5034,
+            "text": "Ask ILMERA about online study abroad counselling for Coorg students"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5108,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31b-scan/blog_study-abroad-counselling-from-coorg__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5034,
+            "text": "Ask ILMERA about online study abroad counselling for Coorg students"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "59c6d7b05e147c81a4b3b575f537aa07cd5e408bb2b45544a0061b79a16fcf07"
+  }
+}

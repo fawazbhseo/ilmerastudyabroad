@@ -61,18 +61,48 @@ html[data-theme="light"] .hamburger span{background:var(--navy,#1A2E5A);}
   <li><a href="https://ilmerastudyabroad.com/" class="<?php echo $current === 'home' ? 'active' : ''; ?>">Home</a></li>
   <li><a href="/about" class="<?php echo $current === 'about' ? 'active' : ''; ?>">About</a></li>
   <li><a href="/services" class="<?php echo $current === 'services' ? 'active' : ''; ?>">Services</a></li>
-  <li><a href="/blog" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
+  <li><a href="/blog/" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
   <li><a href="/contact" class="<?php echo $current === 'contact' ? 'active' : ''; ?>">Contact</a></li>
 </ul>
   <a href="/contact" class="nav-cta">Book Consultation</a>
-  <button class="hamburger" id="hbg" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <button type="button" class="hamburger" id="hbg" aria-controls="mob-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
 </nav>
-<div id="mob-nav">
+<div id="mob-nav" role="navigation" aria-label="Mobile navigation" aria-hidden="true" inert>
   <ul class="mob-links">
   <li><a href="https://ilmerastudyabroad.com/" class="<?php echo $current === 'home' ? 'active' : ''; ?>">Home</a></li>
   <li><a href="/about" class="<?php echo $current === 'about' ? 'active' : ''; ?>">About</a></li>
   <li><a href="/services" class="<?php echo $current === 'services' ? 'active' : ''; ?>">Services</a></li>
-  <li><a href="/blog" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
+  <li><a href="/blog/" class="<?php echo (strpos($current, 'blog') === 0) ? 'active' : ''; ?>">Blog</a></li>
   <li><a href="/contact" class="<?php echo $current === 'contact' ? 'active' : ''; ?>">Contact</a></li>
 </ul>
 </div>
+<script>
+(function(){
+  var button=document.getElementById('hbg'),menu=document.getElementById('mob-nav');
+  if(!button||!menu)return;
+  var open=false,previousOverflow='';
+  function setOpen(next){
+    if(next&&!open)previousOverflow=document.body.style.overflow;
+    open=next;
+    button.classList.toggle('open',open);
+    menu.classList.toggle('open',open);
+    button.setAttribute('aria-expanded',String(open));
+    button.setAttribute('aria-label',open?'Close menu':'Open menu');
+    menu.setAttribute('aria-hidden',String(!open));
+    menu.toggleAttribute('inert',!open);
+    document.body.style.overflow=open?'hidden':previousOverflow;
+  }
+  button.addEventListener('click',function(){setOpen(!open);});
+  menu.addEventListener('click',function(event){
+    if(event.target.closest('a'))setOpen(false);
+  });
+  document.addEventListener('keydown',function(event){
+    if(event.key==='Escape'&&open){
+      setOpen(false);button.focus();event.preventDefault();
+    }
+  });
+  window.addEventListener('resize',function(){
+    if(window.innerWidth>768&&open)setOpen(false);
+  });
+})();
+</script>

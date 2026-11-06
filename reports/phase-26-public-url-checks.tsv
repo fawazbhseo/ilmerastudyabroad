@@ -1,0 +1,43 @@
+URL	Expected	H1 / what to check
+https://ilmerastudyabroad.com/about	200	About ILMERA Study Abroad; Short cards, complete Fawaz/Zaheer FAQ bios and approved Udyam line
+https://ilmerastudyabroad.com/all-pages	200	ILMERA published page directory; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students	200	Cost of studying abroad for Indian students; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india	200	Documents needed to study abroad from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka	200	How to choose a study abroad consultant in Karnataka; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/	200	ILMERA study abroad blog; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad	200	Scholarships for Indian students abroad; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg	200	Online study abroad counselling for Coorg students; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs	200	Study abroad with academic backlogs; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/contact	200	Contact ILMERA Study Abroad; Approved Udyam line and contact form
+https://ilmerastudyabroad.com/	200	ILMERA Study Abroad; Exact three short bios, equal card heights; original design
+https://ilmerastudyabroad.com/privacy-policy	200	ILMERA privacy policy; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/services	200	ILMERA study abroad services; Student service charge, university payments and unpublished-policy disclosure
+https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka	200	Study abroad consultants in Karnataka; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu	200	Study abroad consultancy in Kodagu; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-belagavi	200	Study abroad consultancy in Belagavi; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru	200	Study abroad consultancy in Bengaluru; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru	200	Study abroad consultancy in Chikkamagaluru; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal	200	Study abroad consultancy in Gonikoppal; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-hassan	200	Study abroad consultancy in Hassan; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar	200	Study abroad consultancy in Kushalnagar; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-madikeri	200	Study abroad consultancy in Madikeri; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru	200	Study abroad consultancy in Mangaluru; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-mysuru	200	Study abroad consultancy in Mysuru; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet	200	Study abroad consultancy in Ponnampet; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga	200	Study abroad consultancy in Shivamogga; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-siddapura	200	Study abroad consultancy in Siddapura; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet	200	Study abroad consultancy in Somwarpet; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal	200	Study abroad consultancy in Udupi and Manipal; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-abroad-counselling-virajpet	200	Study abroad consultancy in Virajpet; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-gcc	200	Study in GCC countries from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-germany	200	Study in Germany from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-italy	200	Study in Italy from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-latvia	200	Study in Latvia from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-lithuania	200	Study in Lithuania from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-slovakia	200	Study in Slovakia from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/study-in-uk	200	Study in UK from India; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/terms	200	ILMERA terms of use; Original content, self-canonical, indexable; images/FAQ/links match candidate
+https://ilmerastudyabroad.com/sitemap.xml	200	Exactly38 self-canonical published URLs
+https://ilmerastudyabroad.com/robots.txt	200	Exact candidate bytes; full bios and no held discovery in LLM files
+https://ilmerastudyabroad.com/llms.txt	200	Exact candidate bytes; full bios and no held discovery in LLM files
+https://ilmerastudyabroad.com/llms-full.txt	200	Exact candidate bytes; full bios and no held discovery in LLM files

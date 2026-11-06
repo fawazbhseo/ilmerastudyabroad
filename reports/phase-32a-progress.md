@@ -1,0 +1,171 @@
+# Phase32a progress
+
+- **Current branch:** `arena/48320ee5-ilmerastudyabroad`
+- **Remote match:** fetched and matched the existing session branch on 2026-11-02, fast-forwarding the local branch to the remote tip before work. The initial scope/gate checkpoint is now pushed. No branch switch or new branch.
+- **Scope:** Destination, place, article and Blog-index hero stills and font request-chain diagnosis. No ZIP. No new changes to Home, Services, About or Contact. Those four may be used only as the requested controls; the existing pushed Phase32 reference changes are not repeated or expanded here.
+
+## Gate and prior evidence
+
+- `reports/phase-31-release-check.md` exists and records Task5 verification PASS, 31/31 groups. The branch contains the Phase31 source baseline and later work. Gate passed.
+- `reports/phase-31-task4-ab-summary.md` records frozen A `7d1bb9e`, B `806769a`, 112 samples, 2/8 routes passing the unchanged budgets. Known target LCP-ratio failures: Germany 1.2233, the chosen article 1.1366 and Blog index 1.1362. This is local simulated evidence and the reason for Phase32a, not a stop condition.
+- Previously pushed Phase32 Task1 assets and safeguards already meet the requested file-size and contrast limits: mobile `assets/images/hero-still-640.webp`, 640x800, 9,738 bytes; desktop `assets/images/hero-still-1440.webp`, 1440x900, 37,226 bytes. Existing `phase-32-hero-assets.json`, `phase-32-hero-smoke.json` and `phase-32-hero-contrast.json` record 360/768/1280 review, post-load loading, text LCP, no-JS, Save-Data/slow-connection and scene-switch fallback checks, and minimum contrast 5.339:1. These pushed results will not be regenerated unchanged.
+- The existing Phase32 font-chain audit and candidate experiment are already committed. The only tested font-display candidate did not produce a coherent LCP gain without worse CLS: Mysuru B/A 1.3639, article 0.9997 (0.45ms difference), Blog index 1.3640. Existing decision is no font change. Do not repeat that experiment unchanged.
+- Frozen Phase32 run02 used a different A (`796879d`) and 11 routes; it is not a substitute for the newly requested six-route Task2 run against A `7d1bb9e`. Its three LCP misses remain in the existing report and are not erased.
+
+## Completed this checkpoint
+
+- Fetched the existing session branch and fast-forwarded the local branch to the exact remote tip `a4ca343`. No branch switch, new branch, PR, merge or deployment.
+- Read the required Task4 summary, Phase31 release-check, Phase32 progress and branch history. Confirmed the gate above.
+- Confirmed the previous pinned runtime directory `/home/user/phase32-runtime` is absent in this workspace, and native PHP is unavailable. The frozen Task4 fixture archive is present and hashes to `806e5ab8df048c1bda227211a57a67fe8331b6121a045eccc43c8c5629d2f1d6`.
+- Restored a temporary audit runtime outside Git: Node 22.22.3, PHP-WASM 8.5.8 CLI, @php-wasm 3.1.50, Chromium 143.0.7499.0, Playwright 1.58.2 and Lighthouse 12.8.2.
+- The current pushed B adapter rendered all 43 routes at HTTP 200. All six targeted routes also returned 200. PHP-WASM lint passed for the shared visual system/config and Germany, Mysuru, chosen article and Blog-index entry files. The B render index was captured at `b0dc265`; runtime files are unchanged from the previously pushed candidate at `4e709ed`.
+- No runtime code changed in this checkpoint. No ZIP will be built.
+- The initial Phase32a scope/gate checkpoint and appended blocker note were pushed as commit `6ff7535`.
+
+## 2026-11-02 checkpoint: six-route fixture frozen
+
+- Combined the frozen Task4 A HTML at `7d1bb9e` with current B renders captured at `b0dc265`; runtime files still match the current branch. The six-route fixture hash is `31acc1582b723779b65a9c9f388f7fc4b864e197b3e2b5de21609842553a0aea`, stored externally at `/home/user/phase32a-runtime/phase32a-ab-run01/fixtures.json`.
+- Fast checks passed: PHP-WASM lint, all 43 current B route renders HTTP 200, six selected B routes HTTP 200, and six-route content comparison with zero failures for text/order, title, headings, meta, robots, canonical, link semantics/order, images/picture sources and JSON-LD. Text, anchor and image counts match A on all six.
+- Services and Contact HTML differ from Task4 A due already-pushed shared Phase32 presentation work. They remain requested measurement controls, not byte-identical no-op controls. Phase32a has made no reference-page source change.
+- Fixture manifest and human summary: `reports/phase-32a-six-route-fixtures.json` and `.md`. No Lighthouse sample has started yet.
+
+## 2026-11-02 checkpoint: raw-only measurement runner prepared
+
+- Added `tools/phase32a/ab-runner.cjs`; syntax and pinned Node package loads pass. It validates all twelve frozen A/B route bodies before launch and can run a no-sample Chromium preflight.
+- The run records 84 raw Lighthouse samples only, serially, with fresh Chromium per sample, seven samples per arm per route, alternating order, no retry/resume. It retains absolute metrics, network/request, blocking, still/font timing details and warnings. It does not compute medians, IQRs, ratios or budget outcomes.
+- Raw destination: `reports/phase-32a-6-route-ab-run-01-raw.json`. Analysis must not begin until that complete raw file is committed and pushed.
+
+## 2026-11-02 checkpoint: fixture and Chromium preflight passed
+
+- Started the isolated six-route fixture host on `127.0.0.1:8092` from the frozen external fixture.
+- `ab-runner.cjs --preflight-only` passed: all 12 A/B route responses exactly match the frozen fixture bodies, and the pinned Chromium 143.0.7499.0 launches and connects. Zero Lighthouse samples were collected.
+
+## 2026-11-02 checkpoint: six-route A/B raw run complete
+
+- Completed exactly 84/84 Lighthouse samples: six routes, seven samples per arm per route, alternating A/B order, a fresh Chromium 143.0.7499.0 process per sample, serial, zero retries/resumes. All samples passed. This is a local simulated mobile lab run only, not field data.
+- Raw JSON: `reports/phase-32a-6-route-ab-run-01-raw.json`, 352,597 bytes, SHA-256 `73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875`. Structural validation, six affected-file PHP-WASM lints, six route HTTP checks, and the six-route content invariants passed.
+- No medians, IQRs, ratios or budget outcomes have been calculated. Raw data must be pushed first.
+
+## 2026-11-02 checkpoint: raw A/B analysis complete
+
+- Analysis is now recorded in `reports/phase-32a-6-route-ab-run-01-summary.md` and `.json`; the committed raw SHA-256 is unchanged. All values are local simulated mobile Lighthouse results, not field data.
+- Germany passed all median-based budgets: LCP B/A 1.0092, TBT +46 ms, CLS unchanged, transfer +13,278 bytes, no new blocking URL. Blog index passed: LCP B/A 1.0001, TBT unchanged, CLS unchanged, transfer +3,473 bytes, no new blocking URL. Its existing mobile guard skipped the still at <=768px.
+- Mysuru failed TBT (+66.24 ms, over +50 ms) and the choosing-consultant article failed LCP (B/A 1.4243) and TBT (+59 ms). Both require the approved plain-palette hero fallback. CLS and transfer budgets passed on all four targets.
+- Services and Contact are not byte-identical controls and the symmetric median-LCP control gate failed; this is recorded as a limitation, not a request to change those pages. `performance_release_certified=false` stays unchanged.
+- No font-chain decision or source change has been made yet.
+
+## 2026-11-02 checkpoint: measured palette fallback applied
+
+- Added `place` and `article` to `ILMERA_VISUAL_PLAIN_HERO_TEMPLATES` in `includes/visual-config.php`, using the existing palette fallback. `ILMERA_SCENES_ENABLED` remains the site-wide switch and stays enabled by default. Germany (`destination`) and Blog index (`blog`) still use the approved loader; no reference page changed.
+- Fast lint passed for shared files, route entries and affected data files. PHP-WASM rendered Mysuru and the choosing-consultant article HTTP 200. Both now contain no hero still canvas, still URL, delayed `Image` loader or noscript still. Protected text/order, title, headings, metadata, canonical, links, images and JSON-LD remain invariant against frozen A. Details: `reports/phase-32a-palette-fallback-check.md`.
+
+## 2026-11-02 checkpoint: font chain diagnosed
+
+- Current font chain is unchanged by the fallback: one inline visual-system stylesheet, no external stylesheet response, no Google Fonts request, seven self-hosted `font-display:block` faces and two local metric fallbacks. The head preloads Outfit 300 and Cormorant Garamond 700; the font gate hides `body.p25` until `document.fonts.ready` or 3,000ms.
+- Reused the matching-source six-case Resource Timing evidence in `reports/phase-32-font-audit.json` rather than repeating an unchanged check. New report: `reports/phase-32a-font-chain-diagnosis.md`. Fresh Task2 raw samples confirm four local face requests per arm/sample on Mysuru, article and Blog index, all HTTP 200.
+- No font change has been made. The earlier candidate had no coherent gain and is not treated as the fresh experiment required here.
+
+## 2026-11-02 checkpoint: current-font candidate fixture frozen
+
+- Froze current post-fallback Mysuru and article HTML from source commit `4746142` and created a candidate that changes exactly seven `font-display:block` declarations to `swap` and removes exactly one body-visibility gate rule. Families, files, weights, preloads and protected page content are unchanged.
+- Fixture SHA-256 `734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231`, stored externally at `/home/user/phase32a-runtime/phase32a-font-ab-run01/fixtures.json`. Content invariants pass on both routes. No browser sample has started and no font setting has changed in the site.
+- Manifest and summary: `reports/phase-32a-font-ab-run-01-fixtures.json` and `.md`.
+
+## 2026-11-02 checkpoint: raw-only font runner prepared
+
+- Added `tools/phase32a/font_ab_runner.cjs`; Node syntax and pinned package loads pass. It validates all four frozen A/B route bodies, supports a zero-sample preflight, and records raw LCP/CLS/TBT/transfer/font requests/warnings without summaries or retries.
+- The isolated fixture host is running on `127.0.0.1:8093`. No candidate Lighthouse sample has started.
+
+## 2026-11-02 checkpoint: font fixture preflight passed
+
+- The port-8093 fixture host served all four A/B page bodies byte-for-byte from the frozen font fixture. Chromium 143.0.7499.0 launched and connected. Zero Lighthouse samples were collected.
+
+## 2026-11-02 checkpoint: fresh font A/B analysis complete
+
+- The 28-sample raw capture was pushed before analysis. Results are in `reports/phase-32a-font-ab-run-01-summary.md` and `.json`; raw SHA-256 `23c8b48d8eb06051fd98b08c3910cc66787d4f2af68fce4826582e1048bb9769` is unchanged.
+- The candidate did not improve LCP on both routes: Mysuru median LCP was lower by only 0.03 ms, while the article median LCP was 1.66 ms higher. CLS medians remained zero on both. IQRs were 628-703 ms. Decision: retain the current font policy; no font files, families, weights, preloads, `font-display` or gate changed.
+
+## 2026-11-02 checkpoint: all-43-route content comparison complete
+
+- Compared the frozen pre-phase A render at `796879d` with a fresh 43-route PHP-WASM render of the current B source, including the `place` and `article` palette fallback. Result: 43/43 HTTP 200, zero protected-content invariant failures, zero byte-identical HTML responses as expected for visual markup differences.
+- Text/order, title, headings, meta, robots, canonical, anchor attributes/text/order, image/picture-source attributes and JSON-LD all match on every route. Sitemap is byte-identical to A, with 38 unique URLs and SHA-256 `de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb`.
+- Full report and per-route hashes: `reports/phase-32a-43-route-content-comparison.md` and `.json`. Rendered B source head `ba5e97d`; runtime source remained unchanged through comparison.
+
+## 2026-11-02 checkpoint: final-suite harness prepared
+
+- Added `tools/phase32a/palette_check.cjs` for the final measured fallback scope, still sizes/dimensions, delayed loading on retained targets, mobile blog guard and reduced-motion layer behavior.
+- Added `tools/phase32a/axe_template_check.cjs` for one representative each of destination, place, article, Blog index, legal and utility templates. Existing baseline findings are reported baseline-relative; legal/utility findings are recorded without claiming zero violations.
+- Added `tools/phase32a/run_full_suite.py`, a serial no-resume runner with 24 named checks. It reuses the already-verified current 43-route render/content comparison as its render and structured-data evidence, runs the 258-case normal matrix plus reduced-motion representatives, no-overflow checks, sitemap, palette, wording/discovery and axe. No full-suite check has started.
+- Current PHP-WASM adapter remains at `0.0.0.0:8094`; its rendered source is `ba5e97d`, with no runtime source changes since.
+
+## 2026-11-02 checkpoint: one final full suite completed
+
+- Exactly one serial, no-resume run completed all 24 checks. Result: 20 PASS and 4 FAIL. The suite is local-only and does not certify live/native hosting or field performance. `performance_release_certified=false` remains unchanged.
+- PASS: PHP-WASM lint of 100 tracked PHP files; all static discovery, strict wording, citations, Italy claims, LLM directory/policy, content presence, duplicate-answer, team biography and public exposure tests; rendered Italy and Phase19 policies; technical SEO/sitemap routes; Phase20 inventory; exact 38-URL sitemap; 43-route structured-data parity; 258 normal browser cases plus 48 reduced-motion representatives (306 total), with zero overflow and zero hidden text; Git whitespace.
+- FAIL: rendered discovery and rendered publication wording checks both stopped because the native `php` executable is absent from PATH. Final palette scope stopped after `/study-in-germany` at 360px passed, when the next Playwright context failed with `Target page, context or browser has been closed`. Axe scanned the destination representative with zero violation nodes, then failed creating the next context with the same browser-closed error; no axe summary JSON was produced. These are incomplete checks, not site-content passes.
+- After all 24 records were saved, the runner's final aggregation raised `KeyError: 'runner_error'`. `reports/phase-32a-full-suite-run-01.json` has been finalized from the saved check records and records this error and the four failed checks. The runner's aggregation guard was corrected after the run only; the full suite was not rerun, resumed or skipped.
+- Per-check logs and the 306-case browser matrix are retained under `/home/user/phase32a-runtime/phase32a-full-suite-run01/`. No runtime source changed during the suite.
+
+## Exact next step
+
+Create `reports/phase-32a-release-check.md` with the per-check results, both local lab tables, palette fallbacks and the complete changed-file list since `796879d`. Append the suite exceptions to `flagged-items-for-verification.md`, update `CHANGELOG.md`, then push the final documentation checkpoint and comment on PR #1. Do not merge or deploy.
+
+## Remaining sequence
+
+1. Finalize and push the release report, flags and changelog without rerunning the suite.
+2. Post the requested PR #1 checkpoint comment. No ZIP, merge, deployment, reference-page change or budget change.
+
+## 2026-11-02 push checkpoint: finalized full-suite record
+
+- Pushed commit `0eb5a91` on `arena/48320ee5-ilmerastudyabroad`. It preserves all 24 check records, the 20/4 outcome and external evidence references; `run_full_suite.py` now initializes and safely reads the aggregate error field. This tool-only repair was made after the one run. No suite rerun or resume occurred.
+- Exact next step: write and push the final release report, changelog and appended verification flags; then comment on PR #1. Do not merge or deploy.
+
+
+## 2026-11-02 checkpoint: final release documentation prepared
+
+- Created `reports/phase-32a-release-check.md` with all 24 check outcomes, local six-route and font A/B tables, configured palette fallbacks, suite limitations and the changed-file inventory since `796879d`.
+- Added the Phase32a summary to `CHANGELOG.md` and appended the final environment/browser/runner exceptions to `flagged-items-for-verification.md` without rewriting prior blockers. `performance_release_certified=false` remains unchanged.
+- Exact next step: push this documentation checkpoint, then post the requested PR #1 comment. Do not merge or deploy.
+
+## 2026-11-02 push checkpoint: final release documentation
+
+- Pushed commit `a4ca881` with `reports/phase-32a-release-check.md`, the Phase32a changelog entry and appended final-suite flags. The report inventory contains all 102 paths changed since `796879d`.
+- Exact next step: post the requested checkpoint comment on PR #1, linking the release report and stating the 20/24 result. Do not merge or deploy.
+
+## 2026-11-02 checkpoint: PR #1 comment posted
+
+- Posted the final Phase32a checkpoint comment on PR #1: https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6570041068. It links the release-check report and preserves the one-run 20/24 result and all release boundaries.
+- Exact next step: none for Phase32a. Do not rerun the suite, merge, deploy, build a ZIP or change reference pages. `performance_release_certified=false` remains unchanged.
+
+## 2026-11-02 Phase32a-2 checkpoint: group a rerun
+
+- Fetched `origin/arena/48320ee5-ilmerastudyabroad` and fast-forwarded the existing local branch to `e899efe`; no branch was created. Reinstalled the prior pinned PHP-WASM CLI runtime outside the repository and restarted `tools/phase31/server.cjs` on port 8094. The adapter rendered from the same public runtime source as the saved suite.
+- Reran only the two failed rendered checks with the PHP 8.5.8 WASM CLI exposed as the `php` shim. Discovery PASS: 43 routes, 38 indexable and 5 blocked, with sitemap/canonical/robots/link checks passing. Publication wording review PASS: 42 editorial self-canonicals and the 43-route status/robots/JSON-LD/source/LLM/sitemap checks passed. Logs and details are in `reports/phase-32a-2-rerun-results.json` and the external paths recorded there.
+- Exact next step: rerun only palette and axe in fresh browser processes per route, including Home, Services, About and Contact reference controls; retry a crashed page once in a new process. Do not run the full suite.
+
+## 2026-11-02 Phase32a-2 checkpoint: group b isolated browser reruns
+
+- Reran palette checks for destination, place, article, Blog index, Home, Services, About and Contact, plus the reduced-motion destination and mobile Blog guard. All 10 cases PASS in isolated fresh browser processes. The retained still requests, 640 x 800 / 1440 x 900 decoded dimensions, place/article no-still fallback, and reference controls passed. Zero browser crashes or retries.
+- Reran axe 4.11.0 A/AA on the same eight routes in eight fresh browser processes at the Phase31 baseline settings. The four Phase32a target templates have zero findings. The four reference controls have 36 baseline finding identities, 40 current nodes, 4 added identities and 0 resolved. The new baseline-relative findings are `color-contrast`: Home `/`, selector `em` (`index.php:544`, 3.54:1); About `/about`, `#faq-h2` (`about.php:678`, 1.11:1), `#team > .container > .team-hdr > .sec-label` (`about.php:635`, 1.95:1), and `.container > .sec-label` (`about.php:606`, 1.95:1). The baseline-existing findings are not counted as new.
+- None of these four new reference-control nodes is in a Phase32a source change. Since Phase32a start `6ff7535`, the only public runtime file changed is `includes/visual-config.php`, which scopes the fallback to `place` and `article`; no public file was changed to address unrelated Home/About controls. The axe group remains FAIL baseline-relative, with the four exact findings retained for follow-up.
+- Complete per-route outputs, selectors, baseline deltas, process isolation and crash/retry records are in `reports/phase-32a-2-rerun-results.json`; individual browser logs are external under `/home/user/phase32a-runtime/phase32a-2/`.
+- Exact next step: run a standalone summarizer over the saved original 24 checks and these targeted reruns, update the suite JSON, and report recomputed totals. Do not run the full suite.
+
+## 2026-11-02 Phase32a-2 checkpoint: group c summary recomputed
+
+- Added and ran `tools/phase32a/summarize_saved_results.py` against all 24 saved suite groups plus the four targeted rerun outcomes. Aggregation completed without `KeyError`: **23 PASS, 1 FAIL**. The only remaining failed group is axe A/AA baseline-relative because of four new `color-contrast` findings on Home/About reference controls; the four Phase32a target templates had zero new axe findings.
+- Updated `reports/phase-32a-full-suite-run-01.json` with the final overlay statuses, per-group rerun details, 24-group totals and a successful summary-aggregation record. The original full-suite 20/24 result and its post-check `KeyError` are preserved in `original_run`; the suite itself was not rerun.
+- Exact next step: update the release-check report with isolated rerun outcomes, the full A/B metric/IQR table and the two-sentence font finding; append the changelog and verification flags; push those docs and post a PR #1 checkpoint. Do not merge, deploy or build a ZIP.
+
+## 2026-11-02 Phase32a final release report and verification flags
+
+- Updated `reports/phase-32a-release-check.md` with the recomputed all-24 status table, all six-route A/B medians and IQRs, LCP/transfer B/A ratios, the unchanged budget outcomes, the failed interleaved control gate, plain-palette routes and final still sizes. It explicitly limits the performance evidence to local simulated data and labels the B source as pre-fallback; post-fallback Mysuru/article speed metrics and Home/About speed metrics are unavailable, not inferred.
+- Added the two-sentence font-chain finding and left the font policy unchanged. Documented the four serious baseline-relative Home/About contrast additions with routes, rules, selectors, source/style lines and ratios. They are reference-control findings outside Phase32a source changes, so no public file fix was made; the axe group remains FAIL.
+- Appended a Phase32a-2 follow-up to `CHANGELOG.md` and the verification flags without removing earlier history. `performance_release_certified=false`, budgets, release boundaries and the original single full-suite record remain unchanged.
+- Exact next step: commit and push this release-report checkpoint, then post the authorized PR #1 verification checkpoint. Do not merge, deploy or build a ZIP.
+
+## Phase32a-2 verification complete - 2026-11-02
+
+- The final release report, changelog follow-up and verification-flag follow-up were pushed in `24e260a`. The authorized PR #1 checkpoint comment was posted at https://github.com/fawazbhseo/ilmerastudyabroad/pull/1#issuecomment-6574042745.
+- Final outcome remains 23/24 PASS and 1 FAIL. The axe baseline-relative reference-control findings are retained and explicitly not attributed to Phase32a; no public-site source defect or fix was identified. The original full-suite run was not repeated, no ZIP was built, and no merge/deployment occurred.
+- Exact next step: none for this verification request. Leave the branch open for review; any changes to Home/About contrast are a separate, explicitly authorized scope.

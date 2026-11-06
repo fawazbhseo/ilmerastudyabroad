@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "embedded_original_entries": 130,
+  "manifest_entries": 131,
+  "all_embedded_hashes_match_new_manifest": true,
+  "detailed_critical_entries": 72,
+  "exists_only_original_entries": 58,
+  "self_exists_only": true,
+  "all_eight_policies_exists_only_never_hashed": true
+}

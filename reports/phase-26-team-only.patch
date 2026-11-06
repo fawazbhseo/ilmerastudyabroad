@@ -1,0 +1,234 @@
+--- a/about.php
++++ b/about.php
+@@ -498,7 +498,7 @@
+ .il-faq > div{padding:0 26px 24px;}
+ .il-faq > div p{font-size:15px;font-weight:300;color:var(--grey-mid);line-height:1.75;margin:0;}
+ @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
+-</style>
++/* Content release team-only equal heights */#team .team-grid{grid-auto-rows:1fr;}</style>
+ </head>
+ <body>
+ 
+@@ -644,8 +644,7 @@
+ 
+         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Jabir KJ</h3>
+         <div class="team-role">Founder</div>
+-        <p class="team-bio">Jabir KJ is the founder of ILMERA Study Abroad, focused on helping students explore affordable international education opportunities.</p>
+-        <p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p>
++        <p class="team-bio">Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance.</p>
+ 
+         <a href="https://linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Jabir KJ on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+       </article>
+@@ -653,7 +652,7 @@
+         <div class="team-avatar"><img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="88px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></div>
+         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Fawaz BH</h3>
+         <div class="team-role">Chief Marketing Officer</div>
+-        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p>
++        <p class="team-bio">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu.</p>
+ 
+         <a href="https://linkedin.com/in/fawazbh" target="_blank" rel="noopener noreferrer" class="team-li" aria-label="Fawaz BH on LinkedIn" onclick="event.stopPropagation();"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+       </article>
+@@ -661,7 +660,7 @@
+         <div class="team-avatar"><picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" width="88" height="88" loading="lazy" /></picture></div>
+         <h3 class="team-name" style="font-size:18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;">Zaheer KJ</h3>
+         <div class="team-role">Chief Financial Officer</div>
+-        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>
++        <p class="team-bio">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>
+       </article>
+ 
+     </div>
+--- a/index.php
++++ b/index.php
+@@ -357,7 +357,7 @@
+ @media(max-width:768px){.il-faq summary{font-size:15px;padding:18px 20px;}.il-faq > div{padding:0 20px 20px;}}
+ .breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
+ .breadcrumb a{color:var(--grey-mid);text-decoration:none;}
+-</style>
++/* Content release team-only equal heights */#team .testi-grid{grid-auto-rows:1fr;}</style>
+ 
+ </head>
+ <body>
+@@ -630,7 +630,7 @@
+         <picture><source srcset="/assets/images/jabirkj.webp" type="image/webp"/><img src="/assets/images/jabirkj.png" alt="Jabir KJ, Founder, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
+         <div class="testi-name" itemprop="name"><a href="https://www.linkedin.com/in/jabir-kj-920300428" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.5);" itemprop="url" target="_blank" rel="noopener">Jabir KJ</a></div>
+         <div class="testi-dest" itemprop="jobTitle">Founder</div>
+-        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p>
++        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance.</p>
+         <a href="https://www.linkedin.com/in/jabir-kj-920300428" target="_blank" rel="noopener" aria-label="Jabir KJ on LinkedIn" style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;border:1px solid rgba(201,168,76,0.35);margin-top:20px;transition:border-color .3s,background .3s;">
+           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z" fill="#C9A84C"/></svg>
+         </a>
+@@ -639,7 +639,7 @@
+         <img src="/assets/images/fawazbh-384.webp" srcset="/assets/images/fawazbh-192.webp 192w, /assets/images/fawazbh-384.webp 384w" sizes="96px" alt="Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/>
+         <div class="testi-name" itemprop="name"><a href="https://fawazbhseo.in" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(201,168,76,0.5);" itemprop="url">Fawaz BH</a></div>
+         <div class="testi-dest" itemprop="jobTitle">Chief Marketing Officer</div>
+-        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p>
++        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu.</p>
+         <a href="https://www.linkedin.com/in/fawazbh" target="_blank" rel="noopener" aria-label="Fawaz BH on LinkedIn" style="display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;border:1px solid rgba(201,168,76,0.35);margin-top:20px;transition:border-color .3s,background .3s;">
+           <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z" fill="#C9A84C"/></svg>
+         </a>
+@@ -648,7 +648,7 @@
+         <picture><source srcset="/assets/images/zaheer.webp" type="image/webp"/><img src="/assets/images/zaheer.png" alt="Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad" itemprop="image" width="96" height="96" loading="lazy" style="width:96px;height:96px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,168,76,0.4);margin-bottom:20px;"/></picture>
+         <div class="testi-name" itemprop="name">Zaheer KJ</div>
+         <div class="testi-dest" itemprop="jobTitle">Chief Financial Officer</div>
+-        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>
++        <p class="testi-text" style="font-size:15px;margin-top:16px;font-style:normal;">Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>
+       </article>
+     </div>
+   </div>
+--- a/tools/check_phase24b.py
++++ b/tools/check_phase24b.py
+@@ -4,7 +4,7 @@
+ from urllib.parse import urlsplit
+ from check_discovery import routes,fetch,PublishedContent,validate_llm_text,blocked_name_matches,blocked_names
+ from check_cycle_consistency import Graphs
+-from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS
++from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS,validate_bio_contexts
+ from phase24b.approved import BASELINE,DENY,ROOT_DENY,old,expected_source
+ 
+ def norm(s):return ' '.join(html.unescape(re.sub('<[^>]+>',' ',s)).split())
+@@ -53,7 +53,7 @@
+   assert not re.search(r'no[ -]charge|at no cost|non.refundable',visible,re.I),(route,'Unprovided business pricing/refund assertion')
+   assert not re.search(r'only travel the process requires|CFO Zaheer KJ verifies|Manages admissions, visa documentation|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')
+   if route=='/about':
+-   assert visible.count(bio)==1 and 'financial consultant' not in visible
++   assert visible.count(bio)==0 and 'financial consultant' not in visible
+    assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'
+   if route=='/services':
+    assert 'What ILMERA helps with' in visible and 'What ILMERA does not do' in visible
+@@ -122,11 +122,12 @@
+    assert tag==previous,(route,'Portrait attribute or other image change')
+    if 'fawazbh-' in tag:portrait_count+=1
+   if info['status']!='published' or route=='/404':continue
++  validate_bio_contexts(text,route,True)
+   nodes=[n for g in graphs for n in walk(g)]
+   for member in team:
+    people=[n for n in nodes if n.get('@type')=='Person' and n.get('name')==member['name']]
+    assert len(people)==1 and people[0]==member,(route,member['name'],'Canonical Person mismatch')
+-  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(2 if route=='/about' else 1 if route=='/' else 0),(route,'Visible bio context/count')
++  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(1 if route=='/about' else 0),(route,'Visible bio context/count')
+   remaining=visible.replace(FAWAZ,'').replace(ZAHEER,'');assert 'Adrex Media School' not in remaining,(route,'Training institute outside bios')
+   for n in nodes:
+    for key,v in n.items():
+--- a/tools/phase24b/approved.py
++++ b/tools/phase24b/approved.py
+@@ -27,7 +27,7 @@
+    text=text.replace("Drives ILMERA's digital presence and helps students find clear, honest information about their study-abroad options.",FAWAZ)
+    text=text.replace('"sameAs": ["https://fawazbhseo.in"]','"sameAs": '+json.dumps(FAWAZ_SAME_AS))
+    for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('"name": "'+name+'",','"name": "'+name+'", "description": '+json.dumps(bio)+',')
+-  return text.encode()
++  return short_cards(text,file).encode()
+  if stage>=2 and file=='phase14-article-review.json':
+   journal=json.loads(data)
+   for slug,entry in journal['articles'].items():
+@@ -40,3 +40,18 @@
+   return data.replace(b"$imagePath === '/assets/images/fawazbh.webp'",b"in_array($imagePath, ['/assets/images/fawazbh.webp','/assets/images/fawazbh-192.webp'], true)")
+  if stage>=3 and file=='.htaccess':return data+ROOT_DENY
+  return data
++
++# Exact content-release card-only expectation, independent of page source.
++def short_cards(text,file):
++ from team_bio_policy import SHORT_CARD_BIOS
++ def section(m):
++  area=m[0]
++  def card(c):
++   a=c[0];name=next(n for n in SHORT_CARD_BIOS if n in a)
++   a=re.sub(r'(<p\b[^>]*class="(?:team-bio|testi-text)"[^>]*>).*?(</p>)',lambda p:p[1]+SHORT_CARD_BIOS[name]+p[2],a,count=1,flags=re.S)
++   if file=='about.php' and name=='Jabir KJ':a=a.replace('        <p>Jabir KJ is the Founder, responsible for university research, admissions and application guidance.</p>\r\n','')
++   return a
++  return re.sub(r'<article\b[^>]*class="(?:team-card|testi-card[^\"]*)"[^>]*>.*?</article>',card,area,flags=re.S)
++ text=re.sub(r'<section\b[^>]*id="team"[^>]*>.*?</section>',section,text,flags=re.S)
++ grid='team-grid' if file=='about.php' else 'testi-grid'
++ return text.replace('</style>','/* Content release team-only equal heights */#team .'+grid+'{grid-auto-rows:1fr;}</style>',1)
+--- a/tools/team_bio_policy.py
++++ b/tools/team_bio_policy.py
+@@ -3,3 +3,54 @@
+ FAWAZ = "Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School."
+ APPROVED_BIOS = (ZAHEER, FAWAZ)
+ FAWAZ_SAME_AS = ['https://fawazbhseo.in/', 'https://www.linkedin.com/in/fawazbh']
++
++# Content-release card-only exceptions. Never add these to APPROVED_BIOS: that tuple
++# authorizes exact full-bio training-institute contexts, not shortened schema/LLMs.
++SHORT_CARD_BIOS = {
++    'Jabir KJ': 'Jabir KJ is the Founder of ILMERA Study Abroad. He is responsible for university research, admissions and application guidance.',
++    'Zaheer KJ': "Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.",
++    'Fawaz BH': 'Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kodagu.'
++}
++
++def card_bio_allowed(text, route, in_team_card):
++    return route in ('/', '/about') and in_team_card and text in SHORT_CARD_BIOS.values()
++
++def validate_bio_contexts(text, route, published=True):
++    """Short bios only in six actual card paragraphs; full data still mandatory."""
++    import html,json,pathlib,re
++    team_area=re.search(r'<section\b[^>]*id="team"[^>]*>.*?</section>',text,re.S)
++    # Unit fixtures without a section use only their explicitly supplied card area.
++    card_area=team_area[0] if team_area else text
++    cards=re.findall(r'<article\b[^>]*class="(?:team-card|testi-card[^\"]*)"[^>]*>.*?</article>',card_area,re.S)
++    expected_cards=3 if route in ('/','/about') else 0
++    assert len(cards)==expected_cards,(route,'Team card count/context')
++    names=[]
++    for card in cards:
++        bio=re.search(r'<p\b[^>]*class="(?:team-bio|testi-text)"[^>]*>(.*?)</p>',card,re.S)
++        assert bio is not None,(route,'Missing card bio')
++        value=html.unescape(bio[1]);assert card_bio_allowed(value,route,True),(route,'Unapproved short bio')
++        name=next(n for n,b in SHORT_CARD_BIOS.items() if b==value);names.append(name)
++        assert name in card,(route,'Bio/card identity mismatch')
++    if expected_cards:assert set(names)==set(SHORT_CARD_BIOS),(route,'Duplicate/missing member')
++    remaining=text
++    for card in cards:remaining=remaining.replace(card,'',1)
++    for bio in SHORT_CARD_BIOS.values():
++        # A short text cannot replace a Person description, FAQ, prose or metadata.
++        assert bio not in html.unescape(remaining),(route,'Card-only wording escaped its context')
++    if published:
++        team=json.loads((pathlib.Path(__file__).resolve().parents[1]/'data/team.json').read_text())['members']
++        nodes=[]
++        def walk(v):
++            if isinstance(v,dict):
++                nodes.append(v)
++                for x in v.values():walk(x)
++            elif isinstance(v,list):
++                for x in v:walk(x)
++        for g in re.findall(r'<script type="application/ld\+json">(.*?)</script>',text,re.S):walk(json.loads(g))
++        for member in team:
++            people=[n for n in nodes if n.get('@type')=='Person' and n.get('name')==member['name']]
++            assert people==[member],(route,'Full canonical Person description/properties required')
++        if route=='/about':
++            for member in team[1:]:
++                assert member['description'] in html.unescape(re.sub(r'<script\b.*?</script>','',remaining,flags=re.S)),(route,'Full About bio/FAQ required')
++    return True
+--- a/tools/test_team_bio_policy.py
++++ b/tools/test_team_bio_policy.py
+@@ -13,4 +13,33 @@
+   for name in self.names:self.assertIn(name,blocked_name_matches(FAWAZ+' '+name,self.names))
+  def test_university_name_cannot_be_inserted_in_bio(self):
+   self.assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names))
++
++class ShortCardPolicyTests(unittest.TestCase):
++ def test_exact_counts_and_spread(self):
++  from team_bio_policy import SHORT_CARD_BIOS
++  self.assertEqual({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126})
++  lengths=list(map(len,SHORT_CARD_BIOS.values()));self.assertLessEqual(max(lengths)-min(lengths),6)
++ def test_narrow_context_only(self):
++  from team_bio_policy import SHORT_CARD_BIOS,card_bio_allowed,APPROVED_BIOS
++  for bio in SHORT_CARD_BIOS.values():
++   self.assertNotIn(bio,APPROVED_BIOS)
++   for route in ['/','/about']:self.assertTrue(card_bio_allowed(bio,route,True))
++   for route in ['/services','/contact','/blog/','/llms.txt']:self.assertFalse(card_bio_allowed(bio,route,True))
++   self.assertFalse(card_bio_allowed(bio,'/',False));self.assertFalse(card_bio_allowed(bio+' Added claim.','/',True))
++ def fixture(self,route='/about'):
++  import json
++  from team_bio_policy import SHORT_CARD_BIOS
++  root=pathlib.Path(__file__).resolve().parents[1];team=json.loads((root/'data/team.json').read_text())['members']
++  cls='team-bio' if route=='/about' else 'testi-text';card='team-card' if route=='/about' else 'testi-card reveal-r'
++  return '<script type="application/ld+json">'+json.dumps({'@graph':team})+'</script>'+''.join('<article class="'+card+'"><p class="'+cls+'">'+bio+'</p></article>' for bio in SHORT_CARD_BIOS.values())+(''.join('<p>'+m['description']+'</p>' for m in team) if route=='/about' else '')
++ def test_full_bios_still_required_in_schema_and_about_prose(self):
++  from team_bio_policy import validate_bio_contexts,FAWAZ,SHORT_CARD_BIOS
++  text=self.fixture();self.assertTrue(validate_bio_contexts(text,'/about'))
++  for broken in [text.replace(FAWAZ,SHORT_CARD_BIOS['Fawaz BH']),text.replace(FAWAZ,'')]:
++   with self.assertRaises(AssertionError):validate_bio_contexts(broken,'/about')
++ def test_short_cannot_leak_into_prose_or_another_route(self):
++  from team_bio_policy import validate_bio_contexts,SHORT_CARD_BIOS
++  for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]:
++   with self.assertRaises(AssertionError):validate_bio_contexts(text,route)
++
+ if __name__=='__main__':unittest.main()

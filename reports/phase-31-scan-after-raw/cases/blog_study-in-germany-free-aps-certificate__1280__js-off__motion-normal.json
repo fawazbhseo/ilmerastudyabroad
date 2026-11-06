@@ -1,0 +1,177 @@
+{
+  "id": "blog_study-in-germany-free-aps-certificate__1280__js-off__motion-normal",
+  "route": "/blog/study-in-germany-free-aps-certificate",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/study-in-germany-free-aps-certificate",
+  "http_status": 200,
+  "page_height": 3851,
+  "scroll": {
+    "height": 3851,
+    "scroll_samples": 7,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 3851,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2715
+    },
+    "visible_text_chars": 2482,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Germany"
+      },
+      {
+        "selector": "h1",
+        "y": 224,
+        "text": "Germany Tuition and APS: Check the Applicable Route"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 488,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 488,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 488,
+        "text": "· August 13, 2025 · Reviewed October 2026 · 5 min read"
+      },
+      {
+        "selector": "p",
+        "y": 536,
+        "text": "At German public institutions, bachelor programmes and most "
+      },
+      {
+        "selector": "h2",
+        "y": 666,
+        "text": "Separate tuition from the rest of the budget"
+      },
+      {
+        "selector": "p",
+        "y": 734,
+        "text": "DAAD lists a semester contribution of 70 to 430 euros. This "
+      },
+      {
+        "selector": "h2",
+        "y": 864,
+        "text": "Check the APS procedure, not a universal promise"
+      },
+      {
+        "selector": "p",
+        "y": 931,
+        "text": "The APS India website identifies itself as the Academic Eval"
+      },
+      {
+        "selector": "h2",
+        "y": 1119,
+        "text": "Prepare the applicable documents"
+      },
+      {
+        "selector": "p",
+        "y": 1186,
+        "text": "APS describes identifying the applicable procedure, reviewin"
+      },
+      {
+        "selector": "h2",
+        "y": 1374,
+        "text": "Sources and review status"
+      },
+      {
+        "selector": "p",
+        "y": 1441,
+        "text": "Opened and checked on 16 October 2026. This article remains "
+      },
+      {
+        "selector": "a",
+        "y": 1559,
+        "text": "DAAD: tuition, semester contributions and living costs"
+      },
+      {
+        "selector": "a",
+        "y": 1613,
+        "text": "DAAD: study visas and usually required documents"
+      },
+      {
+        "selector": "a",
+        "y": 1667,
+        "text": "APS India: procedure and applicability"
+      },
+      {
+        "selector": "div.name",
+        "y": 1784,
+        "text": "Fawaz BH"
+      },
+      {
+        "selector": "div.role",
+        "y": 1812,
+        "text": "CMO, ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 1911,
+        "text": "Related guides"
+      },
+      {
+        "selector": "a",
+        "y": 1965,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "a",
+        "y": 2019,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "a",
+        "y": 2073,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2141,
+        "text": "Study in Germany"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 3851,
+    "scan_width": 512,
+    "scan_height": 1540,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5006493506493506
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "5113d9901332e363dea9370cb05fa4d4a514775ce023f8ce89d0c3888d84e699"
+  }
+}

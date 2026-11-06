@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-hassan__1280__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-hassan",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-hassan",
+  "http_status": 200,
+  "page_height": 4523,
+  "scroll": {
+    "height": 4523,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4523,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3387
+    },
+    "visible_text_chars": 4003,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Hassan"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Hassan"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Hassan: separate the known price"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 641,
+        "text": "An overseas study budget should show where the money comes f"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 766,
+        "text": "Discuss how to separate the known price from the planning es"
+      },
+      {
+        "selector": "h2",
+        "y": 849,
+        "text": "Separate the known price from the planning estimate"
+      },
+      {
+        "selector": "p",
+        "y": 960,
+        "text": "Start with a cost list whose entries are labelled clearly. A"
+      },
+      {
+        "selector": "h2",
+        "y": 1205,
+        "text": "Test a plan that does not depend on the best case"
+      },
+      {
+        "selector": "p",
+        "y": 1272,
+        "text": "Prepare a version of the budget without unconfirmed funding."
+      },
+      {
+        "selector": "h2",
+        "y": 1518,
+        "text": "Agree the point at which to pause"
+      },
+      {
+        "selector": "p",
+        "y": 1585,
+        "text": "Define a maximum commitment before paying application-relate"
+      },
+      {
+        "selector": "p",
+        "y": 1840,
+        "text": "Counselling is online, and students from Hassan do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1912,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2006,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p",
+        "y": 2061,
+        "text": "Keep it separate from confirmed funds and test whether the p"
+      },
+      {
+        "selector": "summary",
+        "y": 2102,
+        "text": "Why set a budget stop point before applications?"
+      },
+      {
+        "selector": "p",
+        "y": 2157,
+        "text": "It helps you decide when unresolved costs or changed assumpt"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2279,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2346,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2406,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2516,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2590,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2654,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4523,
+    "scan_width": 512,
+    "scan_height": 1809,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.500276395798784
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "2fd70d8b8c555da4c483402819873abfc3f2cf153a17cd255d565758f7ba3fd9"
+  }
+}

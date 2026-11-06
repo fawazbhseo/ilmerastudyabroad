@@ -1,0 +1,176 @@
+{
+  "id": "study-in-lithuania__1280__js-off__motion-reduced",
+  "route": "/study-in-lithuania",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-lithuania",
+  "http_status": 200,
+  "page_height": 5357,
+  "scroll": {
+    "height": 5357,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5357,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4221
+    },
+    "visible_text_chars": 3744,
+    "visible_text_nodes": 64,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Lithuania from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in Lithuania from India starts with programme-specific"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in Lithuania fr"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 669,
+        "text": "Tuition fees vary by university and programme, and the Europ"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 766,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 838,
+        "text": "Discuss study in Lithuania from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 998,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1065,
+        "text": "English requirements vary by university and programme."
+      },
+      {
+        "selector": "h2",
+        "y": 1167,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1234,
+        "text": "The European Commission study portal gives average tuition o"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1302,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1380,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1447,
+        "text": "For Indian applicants, the Migration Department lists VFS Gl"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1515,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1559,
+        "text": "The external service provider applies a customer service fee"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1598,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1676,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1743,
+        "text": "Health insurance is mandatory for international students, an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1782,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1860,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1953,
+        "text": "Where do Indian students submit the Lithuanian residence per"
+      },
+      {
+        "selector": "p",
+        "y": 2008,
+        "text": "Applications go through the Lithuanian migration system MIGR"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5357,
+    "scan_width": 512,
+    "scan_height": 2143,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.499766682221185
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "b9b9c96cf8d11ecb49629643d9c8e250904d5446507fb4329ac3b38b9f3b69bd"
+  }
+}

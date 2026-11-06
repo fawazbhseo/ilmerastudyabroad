@@ -1,0 +1,259 @@
+{
+  "checked_on": "2026-10-16",
+  "scope": "All published HTML anchors plus schema citation fields and both public LLM files, excluding only self links, contact/social profiles and the existing owner-biography attribution. No destination-host allowlist filters out legacy footer sources. Source-host approval is not broadened by this inventory.",
+  "transport_limit": "fetch_page exposes success/error and content, not raw response headers or status for successful fetches. Success is not counted as proof of HTTP 200; the Latvia soft missing page was rejected. A raw-200 transport check remains required on an unrestricted staging runner.",
+  "original_distinct_urls": 25,
+  "current_distinct_urls": 23,
+  "records": [
+    {
+      "original_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+      "current_url": "https://consbangalore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/study-in-italy/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://education.ec.europa.eu/fi/country-profiles/latvia",
+      "current_url": "https://education.ec.europa.eu/fi/study-in-europe/country-profiles/latvia",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Redirected to substantive official page",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+      "current_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/lithuania",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+      "current_url": "https://education.ec.europa.eu/study-in-europe/country-profiles/slovakia",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia",
+      "current_url": "https://www.eoiriyadh.gov.in/page/useful-information-for-indian-students-in-saudi-arabia/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Redirected to substantive official page",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+      "current_url": "https://indianembassyqatar.gov.in/education_Advisory_students",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+      "current_url": "https://migracija.lrv.lt/en/structure-and-contacts/information-for-visitors/services-for-persons-abroad/temporary-residence-permit-and-national-visa-services/republic-of-india/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+      "current_url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/long_term_visa_and_long_term_residence.html",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.cgidubai.gov.in/page/student-advisory/",
+      "current_url": "https://www.cgidubai.gov.in/content/Student-Advisory-2026.doc",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Redirected to official 2026 document in this pass; prior Phase 15 HTTP 500",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "UAE document sections 1-13 support the retained UAE source references"
+    },
+    {
+      "original_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "current_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/visa/",
+      "current_url": "https://www.daad.de/en/studying-in-germany/living-in-germany/visa/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.daad.de/en/studying-in-germany/scholarships/",
+      "current_url": "https://www.daad.de/en/studying-in-germany/scholarships/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf",
+      "current_url": "https://www.eoibahrain.gov.in/pdf/Press%20Release-Student%20Global%20portal.pdf",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.gov.uk/graduate-visa",
+      "current_url": "https://www.gov.uk/graduate-visa",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+      "current_url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.gov.uk/student-visa",
+      "current_url": "https://www.gov.uk/student-visa",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.gov.uk/student-visa/knowledge-of-english",
+      "current_url": "https://www.gov.uk/student-visa/knowledge-of-english",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.mzv.sk/en/web/dilli-en/contact-us",
+      "current_url": "https://www.mzv.sk/en/web/dilli-en/contact-us",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.mzv.sk/en/web/dilli-en/services/national-visa",
+      "current_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Redirected to substantive official page",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
+      "current_url": "https://www.mzv.sk/en/web/dilli-en/visa-and-services/national-visa",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/indian-nationals",
+      "current_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Missing-page body despite fetch success",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "LV replacement explicitly supports Hello Verify before VFS, transaction number and identity/study/funds/accommodation/insurance evidence"
+    },
+    {
+      "original_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+      "current_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+      "current_url": "https://www2.mfa.gov.lv/en/newdelhi/consular-section/applying-for-a-long-stay-visa/students/indian-nationals",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page/document opened",
+      "raw_http_status": null,
+      "support": "Current source content opened; route/date limits retained"
+    },
+    {
+      "original_url": "https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/",
+      "current_url": "https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page opened",
+      "raw_http_status": null,
+      "support": "Existing static tuition-footer source, not added to destination approval lists. Opened section confirms full-time public/state institution tuition depends on language and standard duration, with foreign-language fees and exceptions."
+    },
+    {
+      "original_url": "https://www.universitaly.it/it/studenti-stranieri",
+      "current_url": "https://www.universitaly.it/it/studenti-stranieri",
+      "checked_on": "2026-10-16",
+      "method": "fetch_page; substantive official content opened in Phase 16",
+      "original_result": "Substantive official page opened",
+      "current_result": "Substantive official page opened",
+      "raw_http_status": null,
+      "support": "Existing static procedures-footer source, not added to destination approval lists. Opened current 2026-2027/2027-2028 procedures; consulate visa discretion and Universitaly pre-enrolment. Does not prove the owner Italy amount or partners."
+    }
+  ]
+}

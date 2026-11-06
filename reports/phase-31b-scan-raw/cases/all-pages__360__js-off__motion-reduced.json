@@ -1,0 +1,427 @@
+{
+  "id": "all-pages__360__js-off__motion-reduced",
+  "route": "/all-pages",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/all-pages",
+  "http_status": 200,
+  "page_height": 6081,
+  "scroll": {
+    "height": 6081,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6081,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3946
+    },
+    "visible_text_chars": 1018,
+    "visible_text_nodes": 49,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA published page directory"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 278,
+        "text": "ILMERA published page directory: Browse the published destin"
+      },
+      {
+        "selector": "p",
+        "y": 377,
+        "text": "Browse our published pages and guides by type."
+      },
+      {
+        "selector": "h2",
+        "y": 545,
+        "text": "Main pages"
+      },
+      {
+        "selector": "a",
+        "y": 613,
+        "text": "Home"
+      },
+      {
+        "selector": "a",
+        "y": 669,
+        "text": "Services and destinations"
+      },
+      {
+        "selector": "a",
+        "y": 725,
+        "text": "About ILMERA and the team"
+      },
+      {
+        "selector": "a",
+        "y": 781,
+        "text": "Contact ILMERA"
+      },
+      {
+        "selector": "a",
+        "y": 837,
+        "text": "Blog"
+      },
+      {
+        "selector": "h2",
+        "y": 968,
+        "text": "Blog guides"
+      },
+      {
+        "selector": "a",
+        "y": 1028,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 1098,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "a",
+        "y": 1167,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "a",
+        "y": 1266,
+        "text": "Cost of Studying Abroad: Official Country Examples"
+      },
+      {
+        "selector": "a",
+        "y": 1335,
+        "text": "Documents Needed to Study Abroad: Build a Route-Specific Che"
+      },
+      {
+        "selector": "a",
+        "y": 1434,
+        "text": "Scholarships for Indian Students: Check Eligibility and Evid"
+      },
+      {
+        "selector": "h2",
+        "y": 1586,
+        "text": "Country guides"
+      },
+      {
+        "selector": "a",
+        "y": 1654,
+        "text": "Study in Germany"
+      },
+      {
+        "selector": "a",
+        "y": 1710,
+        "text": "Study in Italy"
+      },
+      {
+        "selector": "a",
+        "y": 1766,
+        "text": "Study in UK"
+      },
+      {
+        "selector": "a",
+        "y": 1822,
+        "text": "Study in Lithuania"
+      },
+      {
+        "selector": "a",
+        "y": 1878,
+        "text": "Study in Latvia"
+      },
+      {
+        "selector": "a",
+        "y": 1934,
+        "text": "Study in Slovakia"
+      },
+      {
+        "selector": "a",
+        "y": 1990,
+        "text": "Study in GCC"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6081,
+    "scan_width": 360,
+    "scan_height": 6081,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 422,
+        "height": 132,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p.seo-opening",
+            "y": 278,
+            "text": "ILMERA published page directory: Browse the published destinations, location guides and st"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 613,
+            "text": "Home"
+          }
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2209,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00325,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "div.container.directory-grid",
+          "element_tag": "div",
+          "element_y": 515,
+          "element_height": 3383,
+          "computed": {
+            "min_height": "0px",
+            "height": "3383.16px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2189,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 2388,
+            "text": "Kodagu"
+          }
+        },
+        "selector": "div.container.directory-grid",
+        "cause": "Low edge-density band; nearest section div.container.directory-grid has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3646,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00325,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container.directory-grid",
+          "element_tag": "div",
+          "element_y": 515,
+          "element_height": 3383,
+          "computed": {
+            "min_height": "0px",
+            "height": "3383.16px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3626,
+            "text": "Terms of Use"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 3825,
+            "text": "All pages"
+          }
+        },
+        "selector": "div.container.directory-grid",
+        "cause": "Low edge-density band; nearest section div.container.directory-grid has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3845,
+        "height": 183,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00128,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3825,
+            "text": "All pages"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 422,
+        "height": 132,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00118,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p.seo-opening",
+            "y": 278,
+            "text": "ILMERA published page directory: Browse the published destinations, location guides and st"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 613,
+            "text": "Home"
+          }
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2209,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00325,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "div.container.directory-grid",
+          "element_tag": "div",
+          "element_y": 515,
+          "element_height": 3383,
+          "computed": {
+            "min_height": "0px",
+            "height": "3383.16px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2189,
+            "text": "Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 2388,
+            "text": "Kodagu"
+          }
+        },
+        "selector": "div.container.directory-grid",
+        "cause": "Low edge-density band; nearest section div.container.directory-grid has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3646,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00325,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container.directory-grid",
+          "element_tag": "div",
+          "element_y": 515,
+          "element_height": 3383,
+          "computed": {
+            "min_height": "0px",
+            "height": "3383.16px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3626,
+            "text": "Terms of Use"
+          },
+          "next_visible_text": {
+            "selector": "a",
+            "y": 3825,
+            "text": "All pages"
+          }
+        },
+        "selector": "div.container.directory-grid",
+        "cause": "Low edge-density band; nearest section div.container.directory-grid has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3845,
+        "height": 183,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00128,
+        "crop": "reports/screenshots/phase-31b-scan/all-pages__360__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3825,
+            "text": "All pages"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "c07db1999544b9564ef83040797f677d33ef04f5ce68219620175cb62e9bebb5"
+  }
+}

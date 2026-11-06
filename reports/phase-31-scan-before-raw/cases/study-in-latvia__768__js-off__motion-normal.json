@@ -1,0 +1,322 @@
+{
+  "id": "study-in-latvia__768__js-off__motion-normal",
+  "route": "/study-in-latvia",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-latvia",
+  "http_status": 200,
+  "page_height": 5644,
+  "scroll": {
+    "height": 5644,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5644,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4263
+    },
+    "visible_text_chars": 4009,
+    "visible_text_nodes": 79,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Latvia from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "Study in Latvia from India starts with programme-specific pl"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 422,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 422,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 489,
+        "text": "What should I check before planning to study in Latvia from "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 581,
+        "text": "Indian students admitted to an accredited Latvian institutio"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 649,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 721,
+        "text": "Discuss study in Latvia from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 880,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 941,
+        "text": "ILMERA counsellors review a student's academic transcripts, "
+      },
+      {
+        "selector": "h2",
+        "y": 1071,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1132,
+        "text": "The European Commission Latvia profile estimates student liv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1200,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1277,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1338,
+        "text": "Indian nationals enrolled at accredited Latvian institutions"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1405,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1449,
+        "text": "Applicants from India must have their visa support document "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1517,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1561,
+        "text": "Appointments for submission and for a video or in-person int"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1629,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1672,
+        "text": "The application form is completed online at epak.pmlp.gov.lv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1740,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1817,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1884,
+        "text": "A proof of intended residence in Latvia must be submitted wi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 5644,
+    "scan_width": 512,
+    "scan_height": 3763,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3617,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31/study-in-latvia__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3680,
+          "computed": {
+            "min_height": "0px",
+            "height": "3680.41px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3544,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3867,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3976,
+        "height": 164,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31/study-in-latvia__768__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3776,
+          "computed": {
+            "min_height": "0px",
+            "height": "3776.41px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 3867,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4156,
+            "text": "Ask ILMERA about study in Latvia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3617,
+        "height": 195,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31/study-in-latvia__768__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 3680,
+          "computed": {
+            "min_height": "0px",
+            "height": "3680.41px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3544,
+            "text": "Slovakia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3867,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3976,
+        "height": 164,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31/study-in-latvia__768__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3776,
+          "computed": {
+            "min_height": "0px",
+            "height": "3776.41px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 3867,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4156,
+            "text": "Ask ILMERA about study in Latvia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998671272920543
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f3b37186a10e670a1b6b4355352b48654149bbc048af819a5925c1ca8df98262"
+  }
+}

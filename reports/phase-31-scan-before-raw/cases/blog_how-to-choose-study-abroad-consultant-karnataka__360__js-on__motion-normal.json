@@ -1,0 +1,318 @@
+{
+  "id": "blog_how-to-choose-study-abroad-consultant-karnataka__360__js-on__motion-normal",
+  "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/how-to-choose-study-abroad-consultant-karnataka",
+  "http_status": 200,
+  "page_height": 12537,
+  "scroll": {
+    "height": 12537,
+    "scroll_samples": 21,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 12537,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 10403
+    },
+    "visible_text_chars": 10995,
+    "visible_text_nodes": 87,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 190,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 417,
+        "text": "How to choose a study abroad consultant in Karnataka starts "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 555,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 555,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 622,
+        "text": "What should I know about how to choose a study abroad consul"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 782,
+        "text": "Compare the written scope, charges, responsibilities and ref"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1079,
+        "text": "Discuss how to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1185,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 1185,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 1252,
+        "text": "What should families check before choosing a consultant?"
+      },
+      {
+        "selector": "p",
+        "y": 1385,
+        "text": "Compare the written scope, charges, responsibilities and ref"
+      },
+      {
+        "selector": "h2",
+        "y": 1687,
+        "text": "1. Written scope and fees"
+      },
+      {
+        "selector": "p",
+        "y": 1748,
+        "text": "Ask for a written account of the work proposed, the charges "
+      },
+      {
+        "selector": "h2",
+        "y": 1993,
+        "text": "2. No guaranteed admission or visa promises"
+      },
+      {
+        "selector": "p",
+        "y": 2090,
+        "text": "Ask who makes each decision. Admission and visa decisions be"
+      },
+      {
+        "selector": "h2",
+        "y": 2363,
+        "text": "3. Accredited institutions only"
+      },
+      {
+        "selector": "p",
+        "y": 2460,
+        "text": "Check recognition and accreditation with the responsible off"
+      },
+      {
+        "selector": "h2",
+        "y": 2734,
+        "text": "4. Who handles documents"
+      },
+      {
+        "selector": "p",
+        "y": 2831,
+        "text": "Agree who prepares, checks and submits each document. The ap"
+      },
+      {
+        "selector": "h2",
+        "y": 3075,
+        "text": "5. Refund terms"
+      },
+      {
+        "selector": "p",
+        "y": 3136,
+        "text": "Ask for the written refund and cancellation terms before pay"
+      },
+      {
+        "selector": "h2",
+        "y": 3381,
+        "text": "6. Counsellor accountability"
+      },
+      {
+        "selector": "p",
+        "y": 3478,
+        "text": "Ask who is responsible for your file, how questions are reco"
+      },
+      {
+        "selector": "h2",
+        "y": 3751,
+        "text": "7. Reviews that can be verified"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 12537,
+    "scan_width": 360,
+    "scan_height": 12537,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 301,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_how-to-choose-study-abroad-consultant-karnataka__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 365,
+          "computed": {
+            "min_height": "0px",
+            "height": "364.672px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 555,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8493,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_how-to-choose-study-abroad-consultant-karnataka__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 365,
+          "element_height": 8224,
+          "computed": {
+            "min_height": "0px",
+            "height": "8223.66px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 8329,
+            "text": "Yes. The site describes online counselling by phone, WhatsApp and video call, with no coun"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 8635,
+            "text": "Further questions"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 301,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_how-to-choose-study-abroad-consultant-karnataka__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 365,
+          "computed": {
+            "min_height": "0px",
+            "height": "364.672px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 555,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8493,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_how-to-choose-study-abroad-consultant-karnataka__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 365,
+          "element_height": 8224,
+          "computed": {
+            "min_height": "0px",
+            "height": "8223.66px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 8329,
+            "text": "Yes. The site describes online counselling by phone, WhatsApp and video call, with no coun"
+          },
+          "next_visible_text": {
+            "selector": "h2",
+            "y": 8635,
+            "text": "Further questions"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "e1c4f34784f701ff1720b6e371b779b57b4da04f92d65823a23b125e6bd49ab3"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": "study-in-gcc__1280__js-off__motion-reduced",
+  "route": "/study-in-gcc",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-gcc",
+  "http_status": 200,
+  "page_height": 9228,
+  "scroll": {
+    "height": 9228,
+    "scroll_samples": 16,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 9228,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 8092
+    },
+    "visible_text_chars": 9926,
+    "visible_text_nodes": 139,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in GCC countries from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in GCC countries from India starts with programme-spec"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "How does the UAE example describe student residence sponsors"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 669,
+        "text": "In the UAE, the student residence visa is typically sponsore"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 823,
+        "text": "Discuss study in GCC countries from India online"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 933,
+        "text": "ILMERA supports students applying to universities in all six"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 1061,
+        "text": "Official-source information on this page currently covers th"
+      },
+      {
+        "selector": "p",
+        "y": 1223,
+        "text": "In the UAE, the student residence visa is typically sponsore"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1319,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1474,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1541,
+        "text": "Admissions guidance and student visa processing for GCC dest"
+      },
+      {
+        "selector": "h2",
+        "y": 1643,
+        "text": "English requirements"
+      },
+      {
+        "selector": "li",
+        "y": 1710,
+        "text": "In the UAE, most universities teach in English. The consulat"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1778,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1856,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1923,
+        "text": "The consulate advises students going to the UAE to plan for "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1991,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 2035,
+        "text": "The consulate advises paying fees directly to the university"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2074,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 2118,
+        "text": "In Qatar, the Embassy of India in Doha notes that the cost o"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2185,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 2263,
+        "text": "Scholarships"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 9228,
+    "scan_width": 512,
+    "scan_height": 3691,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.500135464643728
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "07269081eba5cd331ac21dda07e8610efa1304a8f05450edb3212de0695c2504"
+  }
+}

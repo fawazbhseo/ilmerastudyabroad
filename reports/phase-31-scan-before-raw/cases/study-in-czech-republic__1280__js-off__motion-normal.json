@@ -1,0 +1,176 @@
+{
+  "id": "study-in-czech-republic__1280__js-off__motion-normal",
+  "route": "/study-in-czech-republic",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-czech-republic",
+  "http_status": 200,
+  "page_height": 4533,
+  "scroll": {
+    "height": 4533,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4533,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3397
+    },
+    "visible_text_chars": 3366,
+    "visible_text_nodes": 71,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Czech Republic"
+      },
+      {
+        "selector": "p",
+        "y": 429,
+        "text": "A Czech long-term study visa is intended for third-country n"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 526,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 681,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 748,
+        "text": "Exact costs vary by university, city and programme, so check"
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 946,
+        "text": "Indian applicants for a long-term visa or long-term residenc"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1013,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1057,
+        "text": "Appointments for Indian study applicants are given through r"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1125,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1169,
+        "text": "The embassy lists a 60-day decision period for study visa an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1208,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1252,
+        "text": "A long-term visa, including extensions, can be valid for a m"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1291,
+        "text": "[4]"
+      },
+      {
+        "selector": "h2",
+        "y": 1368,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1436,
+        "text": "The embassy lists the travel document, photograph, proof of "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1503,
+        "text": "[5]"
+      },
+      {
+        "selector": "li",
+        "y": 1547,
+        "text": "Documents submitted with the application must be in Czech; b"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1615,
+        "text": "[6]"
+      },
+      {
+        "selector": "li",
+        "y": 1659,
+        "text": "Before receiving the visa, applicants normally provide medic"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1727,
+        "text": "[7]"
+      },
+      {
+        "selector": "h2",
+        "y": 1804,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1898,
+        "text": "Where do Indian students apply for a Czech study visa?"
+      },
+      {
+        "selector": "p",
+        "y": 1952,
+        "text": "In person at the Czech Embassy in New Delhi, after booking a"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4533,
+    "scan_width": 512,
+    "scan_height": 1813,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5002757859900715
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "527c67cd1f03b2c0b6dee99d25c6052a8229462474e78e0b32f0cc58cbc17161"
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "id": "home__360__js-on__motion-normal",
+  "route": "/",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/",
+  "http_status": 200,
+  "page_height": 16015,
+  "scroll": {
+    "height": 16015,
+    "scroll_samples": 27,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 16015,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 13931
+    },
+    "visible_text_chars": 14239,
+    "visible_text_nodes": 195,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 9,
+    "empty_or_spacing_nodes": [
+      {
+        "kind": "unused-min-height-tail",
+        "selector": "#team",
+        "tag": "section",
+        "y": 12409,
+        "height": 201,
+        "threshold": 120,
+        "visible_text_chars": 490,
+        "hidden_text_chars": 0,
+        "visible_media": 7,
+        "computed": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": "1",
+          "min_height": "1765.5px",
+          "height": "1765.5px",
+          "padding_top": "110px",
+          "padding_bottom": "79.5px",
+          "position": "relative"
+        },
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-dom-07.webp",
+        "cause": "Computed vertical margin/padding reaches the per-width threshold; candidate, not automatically an error."
+      }
+    ],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#hLabel",
+        "y": 142,
+        "text": "ILMERA GROUP PRESENTS"
+      },
+      {
+        "selector": "#hH1",
+        "y": 179,
+        "text": "ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 293,
+        "text": "ILMERA Study Abroad: Discuss your study plans through online"
+      },
+      {
+        "selector": "#hSub",
+        "y": 455,
+        "text": "Compare programme-specific tuition, living costs and scholar"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 610,
+        "text": "Explore Study Destinations"
+      },
+      {
+        "selector": "a.btn-ghost",
+        "y": 689,
+        "text": "Book online Consultation"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 805,
+        "text": "9"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 851,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 805,
+        "text": "3"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 851,
+        "text": "Named Counsellors"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 913,
+        "text": "4"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 959,
+        "text": "Languages Spoken"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 913,
+        "text": "2026"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 959,
+        "text": "Founded"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 1065,
+        "text": "🇩🇪 Germany"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 1065,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 1065,
+        "text": "🇮🇹 Italy"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 1065,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 1065,
+        "text": "🇬🇧 United Kingdom"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 1065,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 1065,
+        "text": "🇨🇿 Czech Republic"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 1065,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 1065,
+        "text": "🇱🇹 Lithuania"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 1065,
+        "text": "✦"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 16015,
+    "scan_width": 360,
+    "scan_height": 16015,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3623,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 3693,
+          "element_height": 1503,
+          "computed": {
+            "min_height": "0px",
+            "height": "1503px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 3577,
+            "text": "Book an online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 3801,
+            "text": "Why Indian Students Choose ILMERA"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5075,
+        "height": 203,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0008,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 3693,
+          "element_height": 1503,
+          "computed": {
+            "min_height": "0px",
+            "height": "1503px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4878,
+            "text": "Every student gets a counsellor who maps their exact marks, budget and goals to the right "
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 5304,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6640,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 5196,
+          "element_height": 1534,
+          "computed": {
+            "min_height": "0px",
+            "height": "1533.84px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-dest",
+            "y": 6602,
+            "text": "🇷🇺 Russia: Backlogs & No-IELTS Routes"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 6818,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 11815,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "article.testi-card.reveal-r",
+          "element_tag": "article",
+          "element_y": 11633,
+          "element_height": 448,
+          "computed": {
+            "min_height": "auto",
+            "height": "447.5px",
+            "padding_top": "32px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 11786,
+            "text": "Fawaz BH"
+          },
+          "next_visible_text": {
+            "selector": "div.testi-name",
+            "y": 12257,
+            "text": "Zaheer KJ"
+          }
+        },
+        "selector": "article.testi-card.reveal-r",
+        "cause": "Low edge-density band; nearest section article.testi-card.reveal-r has 32px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 13267,
+        "height": 203,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0008,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 13212,
+          "element_height": 372,
+          "computed": {
+            "min_height": "0px",
+            "height": "372px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 12991,
+            "text": "How to choose a study abroad consultant in Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 13492,
+            "text": "Book Your online Consultation"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 14832,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 13817,
+            "text": ". The Italy scholarship statement is owner-provided conditional guidance, not an officiall"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3623,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 3693,
+          "element_height": 1503,
+          "computed": {
+            "min_height": "0px",
+            "height": "1503px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 3577,
+            "text": "Book an online Consultation"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 3801,
+            "text": "Why Indian Students Choose ILMERA"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5075,
+        "height": 203,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0008,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 3693,
+          "element_height": 1503,
+          "computed": {
+            "min_height": "0px",
+            "height": "1503px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4878,
+            "text": "Every student gets a counsellor who maps their exact marks, budget and goals to the right "
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 5304,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6640,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 5196,
+          "element_height": 1534,
+          "computed": {
+            "min_height": "0px",
+            "height": "1533.84px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-dest",
+            "y": 6602,
+            "text": "🇷🇺 Russia: Backlogs & No-IELTS Routes"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 6818,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 11815,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "article.testi-card.reveal-r",
+          "element_tag": "article",
+          "element_y": 11633,
+          "element_height": 448,
+          "computed": {
+            "min_height": "auto",
+            "height": "447.5px",
+            "padding_top": "32px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 11786,
+            "text": "Fawaz BH"
+          },
+          "next_visible_text": {
+            "selector": "div.testi-name",
+            "y": 12257,
+            "text": "Zaheer KJ"
+          }
+        },
+        "selector": "article.testi-card.reveal-r",
+        "cause": "Low edge-density band; nearest section article.testi-card.reveal-r has 32px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 13267,
+        "height": 203,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0008,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-05.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 13212,
+          "element_height": 372,
+          "computed": {
+            "min_height": "0px",
+            "height": "372px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 12991,
+            "text": "How to choose a study abroad consultant in Karnataka"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold.reveal",
+            "y": 13492,
+            "text": "Book Your online Consultation"
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 14832,
+        "height": 152,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00018,
+        "crop": "reports/screenshots/phase-31/home__360__js-on__motion-normal-gap-06.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 13817,
+            "text": ". The Italy scholarship statement is owner-provided conditional guidance, not an officiall"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": true,
+    "scrollTrigger": true,
+    "three": true
+  },
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "d1bde76ee83628084bce1b3a71ff3404014a36a9bd6b4e83d891d535c519f5c9"
+  }
+}

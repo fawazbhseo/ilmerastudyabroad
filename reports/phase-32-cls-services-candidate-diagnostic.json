@@ -1,0 +1,678 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/services",
+  "arm": "B",
+  "fixture_sha256": "f413d95a886fc7b71cae54e39b084fc82666f9465149151391f5e77e9724e544",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 4231.496704584188,
+    "cls": 0.026096492629236252,
+    "tbt_ms": 0
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0.026096492629236252,
+      "displayValue": "0.026",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0.026096492629236252,
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 54.15999999999998,
+      "displayValue": "0.1 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/services",
+            "total": 1311.38,
+            "scripting": 34.05599999999999,
+            "scriptParseCompile": 4.872
+          },
+          {
+            "url": "Unattributable",
+            "total": 111.78800000000035,
+            "scripting": 15.231999999999996,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 54.15999999999998
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 20.111,
+            "startTime": 30.369
+          },
+          {
+            "duration": 10.122,
+            "startTime": 55.953
+          },
+          {
+            "duration": 49.559,
+            "startTime": 68.175
+          },
+          {
+            "duration": 17.211,
+            "startTime": 119.399
+          },
+          {
+            "duration": 48.185,
+            "startTime": 137.361
+          },
+          {
+            "duration": 48.785,
+            "startTime": 188.956
+          },
+          {
+            "duration": 8.949,
+            "startTime": 237.795
+          },
+          {
+            "duration": 5.685,
+            "startTime": 250.964
+          },
+          {
+            "duration": 8.577,
+            "startTime": 730.351
+          },
+          {
+            "duration": 17.126,
+            "startTime": 742.661
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": 1,
+      "displayValue": "1 layout shift found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-5-SECTION",
+              "path": "1,HTML,1,BODY,14,MAIN,3,SECTION",
+              "selector": "body > main > section.s-wrap",
+              "boundingRect": {
+                "top": 480,
+                "bottom": 1074,
+                "left": 0,
+                "right": 412,
+                "width": 412,
+                "height": 594
+              },
+              "snippet": "<section class=\"s-wrap\" style=\"background:rgba(10,22,40,0.98);padding:50px 0;\" aria-label=\"Study abroad highlights\">",
+              "nodeLabel": "🎓\nTUITION AND SCHOLARSHIP PLANNING\nGermany · Italy · Slovakia\n📉\nLOW MARKS? NO P…"
+            },
+            "score": 0.026096492629236252
+          }
+        ]
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "4 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/services",
+            "duration": 99,
+            "startTime": 1253.4967045841877
+          },
+          {
+            "url": "http://127.0.0.1:8082/services",
+            "duration": 98,
+            "startTime": 1482.4967045841877
+          },
+          {
+            "url": "http://127.0.0.1:8082/services",
+            "duration": 96,
+            "startTime": 1386.4967045841877
+          },
+          {
+            "url": "http://127.0.0.1:8082/services",
+            "duration": 69,
+            "startTime": 1580.4967045841877
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "http://127.0.0.1:8082/services"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 1253.5,
+              "duration": 99,
+              "other": 99,
+              "parseHTML": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1482.5,
+              "duration": 98,
+              "other": 98,
+              "scriptEvaluation": 0,
+              "styleLayout": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1386.5,
+              "duration": 96,
+              "other": 96,
+              "parseHTML": 0,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1580.5,
+              "duration": 69,
+              "other": 69,
+              "paintCompositeRender": 0,
+              "styleLayout": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 13.200000000011642,
+      "duration": 1001,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 239.29999999998836,
+      "value": 0.026096492629236252,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "/",
+          "previous": {
+            "x": 22,
+            "y": 120,
+            "width": 368,
+            "height": 16,
+            "top": 120,
+            "right": 390,
+            "bottom": 136,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 120,
+            "width": 368,
+            "height": 16,
+            "top": 120,
+            "right": 390,
+            "bottom": 136,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "ILMERA study abroad services",
+          "previous": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 77.71875,
+            "top": 153,
+            "right": 390,
+            "bottom": 230.71875,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 77.71875,
+            "top": 153,
+            "right": 390,
+            "bottom": 230.71875,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "ILMERA study abroad services: Review profile matching, admissions, visa documents, scholarship planning and pre-departur",
+          "previous": {
+            "x": 22,
+            "y": 250.4375,
+            "width": 368,
+            "height": 77.59375,
+            "top": 250.4375,
+            "right": 390,
+            "bottom": 328.03125,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 251.4375,
+            "width": 368,
+            "height": 77.59375,
+            "top": 251.4375,
+            "right": 390,
+            "bottom": 329.03125,
+            "left": 22
+          }
+        },
+        {
+          "tag": "P",
+          "id": "heroSub",
+          "className": "mini-hero-sub",
+          "text": "Online counselling, academic review and application guidance. Each responsible body makes its own decisions.",
+          "previous": {
+            "x": 22,
+            "y": 381.625,
+            "width": 368,
+            "height": 76.5,
+            "top": 381.625,
+            "right": 390,
+            "bottom": 458.125,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 353.828125,
+            "width": 368,
+            "height": 76.5,
+            "top": 353.828125,
+            "right": 390,
+            "bottom": 430.328125,
+            "left": 22
+          }
+        },
+        {
+          "tag": "SECTION",
+          "id": null,
+          "className": "s-wrap",
+          "text": "🎓Tuition and scholarship planningGermany · Italy · Slovakia\n      📉Low Marks? No ProblemRussia · Slovakia · Lithuania ",
+          "previous": {
+            "x": 0,
+            "y": 508.125,
+            "width": 412,
+            "height": 314.875,
+            "top": 508.125,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          },
+          "current": {
+            "x": 0,
+            "y": 480.328125,
+            "width": 412,
+            "height": 342.671875,
+            "top": 480.328125,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 256.8999999999651,
+      "faces": [
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "600",
+          "style": "italic",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1051.9000000000233,
+      "duration": 97,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1167.600000000035,
+      "duration": 99,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "long-task",
+      "startTime": 1271.4000000000233,
+      "duration": 58,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "layout-shift",
+      "time": 1332.8000000000466,
+      "value": 0.026096492629236252,
+      "hadRecentInput": true,
+      "sources": [
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "/",
+          "previous": {
+            "x": 22,
+            "y": 120,
+            "width": 368,
+            "height": 16,
+            "top": 120,
+            "right": 390,
+            "bottom": 136,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 120,
+            "width": 368,
+            "height": 16,
+            "top": 120,
+            "right": 390,
+            "bottom": 136,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "ILMERA study abroad services",
+          "previous": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 77.71875,
+            "top": 153,
+            "right": 390,
+            "bottom": 230.71875,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 153,
+            "width": 368,
+            "height": 77.71875,
+            "top": 153,
+            "right": 390,
+            "bottom": 230.71875,
+            "left": 22
+          }
+        },
+        {
+          "tag": null,
+          "id": null,
+          "className": null,
+          "text": "ILMERA study abroad services: Review profile matching, admissions, visa documents, scholarship planning and pre-departur",
+          "previous": {
+            "x": 22,
+            "y": 250.4375,
+            "width": 368,
+            "height": 77.59375,
+            "top": 250.4375,
+            "right": 390,
+            "bottom": 328.03125,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 251.4375,
+            "width": 368,
+            "height": 77.59375,
+            "top": 251.4375,
+            "right": 390,
+            "bottom": 329.03125,
+            "left": 22
+          }
+        },
+        {
+          "tag": "P",
+          "id": "heroSub",
+          "className": "mini-hero-sub",
+          "text": "Online counselling, academic review and application guidance. Each responsible body makes its own decisions.",
+          "previous": {
+            "x": 22,
+            "y": 381.625,
+            "width": 368,
+            "height": 76.5,
+            "top": 381.625,
+            "right": 390,
+            "bottom": 458.125,
+            "left": 22
+          },
+          "current": {
+            "x": 22,
+            "y": 353.828125,
+            "width": 368,
+            "height": 76.5,
+            "top": 353.828125,
+            "right": 390,
+            "bottom": 430.328125,
+            "left": 22
+          }
+        },
+        {
+          "tag": "SECTION",
+          "id": null,
+          "className": "s-wrap",
+          "text": "🎓Tuition and scholarship planningGermany · Italy · Slovakia\n      📉Low Marks? No ProblemRussia · Slovakia · Lithuania ",
+          "previous": {
+            "x": 0,
+            "y": 508.125,
+            "width": 412,
+            "height": 314.875,
+            "top": 508.125,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          },
+          "current": {
+            "x": 0,
+            "y": 480.328125,
+            "width": 412,
+            "height": 342.671875,
+            "top": 480.328125,
+            "right": 412,
+            "bottom": 823,
+            "left": 0
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

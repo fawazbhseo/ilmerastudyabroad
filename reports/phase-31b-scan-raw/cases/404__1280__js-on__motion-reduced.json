@@ -1,0 +1,131 @@
+{
+  "id": "404__1280__js-on__motion-reduced",
+  "route": "/404",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/404",
+  "http_status": 200,
+  "page_height": 970,
+  "scroll": {
+    "height": 970,
+    "scroll_samples": 2,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 970,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 805
+    },
+    "visible_text_chars": 362,
+    "visible_text_nodes": 14,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.err-code",
+        "y": 198,
+        "text": "404"
+      },
+      {
+        "selector": "h1.err-h1",
+        "y": 239,
+        "text": "This page could not be found"
+      },
+      {
+        "selector": "p.err-sub",
+        "y": 412,
+        "text": "The link may be old or mistyped. Everything about studying i"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 510,
+        "text": "Back to Home"
+      },
+      {
+        "selector": "a.btn-ghost",
+        "y": 510,
+        "text": "Book online Consultation"
+      },
+      {
+        "selector": "span.err-label",
+        "y": 605,
+        "text": "Popular Pages"
+      },
+      {
+        "selector": "a",
+        "y": 654,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "a",
+        "y": 654,
+        "text": "Study in Germany"
+      },
+      {
+        "selector": "a",
+        "y": 654,
+        "text": "Study in Italy"
+      },
+      {
+        "selector": "a",
+        "y": 654,
+        "text": "Study in the UK"
+      },
+      {
+        "selector": "a",
+        "y": 654,
+        "text": "Study in Russia"
+      },
+      {
+        "selector": "a",
+        "y": 710,
+        "text": "About ILMERA"
+      },
+      {
+        "selector": "a",
+        "y": 710,
+        "text": "Blog"
+      },
+      {
+        "selector": "a",
+        "y": 710,
+        "text": "Privacy Policy"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 970,
+    "scan_width": 512,
+    "scan_height": 388,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6dd6804b0486d9e9baaa74414507dbd44ed11542ca7e94aee553c95c209f0397"
+  }
+}

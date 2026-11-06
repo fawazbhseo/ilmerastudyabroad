@@ -1,0 +1,62 @@
+{
+  "sitemap": [
+    "https://ilmerastudyabroad.com/",
+    "https://ilmerastudyabroad.com/services",
+    "https://ilmerastudyabroad.com/about",
+    "https://ilmerastudyabroad.com/contact",
+    "https://ilmerastudyabroad.com/blog/",
+    "https://ilmerastudyabroad.com/privacy-policy",
+    "https://ilmerastudyabroad.com/terms",
+    "https://ilmerastudyabroad.com/all-pages",
+    "https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+    "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+    "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+    "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+    "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+    "https://ilmerastudyabroad.com/study-in-germany",
+    "https://ilmerastudyabroad.com/study-in-italy",
+    "https://ilmerastudyabroad.com/study-in-uk",
+    "https://ilmerastudyabroad.com/study-in-lithuania",
+    "https://ilmerastudyabroad.com/study-in-latvia",
+    "https://ilmerastudyabroad.com/study-in-slovakia",
+    "https://ilmerastudyabroad.com/study-in-gcc",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+  ],
+  "indexable": 38,
+  "blocked": 5,
+  "routes": 43,
+  "llm_directory": {
+    "llms.txt": {
+      "metadata_entries": 32,
+      "published_urls": 38,
+      "destinations": 7,
+      "locations": 17,
+      "blog_articles": 6
+    },
+    "llms-full.txt": {
+      "metadata_entries": 32,
+      "published_urls": 38,
+      "destinations": 7,
+      "locations": 17,
+      "blog_articles": 6
+    }
+  }
+}
+PASS HTTP statuses, canonicals, robots, sitemap coverage, inbound links, internal targets and fragments

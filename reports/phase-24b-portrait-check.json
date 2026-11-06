@@ -1,0 +1,35 @@
+{
+  "original": "assets/images/fawazbh.webp",
+  "original_bytes": 1541656,
+  "original_unchanged": true,
+  "replaced_author_files": [
+    "blog/cost-of-studying-abroad-for-indian-students.php",
+    "blog/documents-needed-to-study-abroad-from-india.php",
+    "blog/italy-dsu-scholarship-eligibility.php",
+    "blog/scholarships-for-indian-students-study-abroad.php",
+    "blog/study-abroad-counselling-from-coorg.php",
+    "blog/study-abroad-with-academic-backlogs.php",
+    "blog/study-in-germany-free-aps-certificate.php"
+  ],
+  "display_dimensions": [
+    56,
+    56
+  ],
+  "new_author_asset": "assets/images/fawazbh-192.webp",
+  "kept_team_src": "assets/images/fawazbh-384.webp",
+  "kept_responsive_candidate": "assets/images/fawazbh-192.webp",
+  "dimensions_loading_alts_unchanged": true,
+  "remaining_rendered_original_uses": [],
+  "remaining_nonrendered_references": [
+    "Original asset retained as requested",
+    "Internal historical evidence and exact-source/portrait reproduction tests",
+    "Server-side portrait alias retained for backward-compatible alt normalization"
+  ],
+  "note": "Two held article author portraits change only their image src; no page status, fact or schema changes.",
+  "origin_relative_src": true,
+  "full_suite": "PASS 554.92 seconds",
+  "browser_derivative_load_checks": 54,
+  "rendered_routes_checked": 43,
+  "rendered_original_references": 0,
+  "review_journal_changes": "Only four exact file_sha256 values; all statuses/gates/sources/facts unchanged"
+}

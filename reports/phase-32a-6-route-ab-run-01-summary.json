@@ -1,0 +1,1928 @@
+{
+  "phase": "32a",
+  "task": "six_route_local_lighthouse_ab_analysis",
+  "raw_path": "reports/phase-32a-6-route-ab-run-01-raw.json",
+  "raw_sha256": "73884a1e3b306dfb9ae5323c23eee22173cc466c32af396eae05ac4e89099875",
+  "raw_bytes": 352597,
+  "fixture_sha256": "31acc1582b723779b65a9c9f388f7fc4b864e197b3e2b5de21609842553a0aea",
+  "A_source_commit": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+  "B_rendered_source_head": "b0dc2652c281720027e3d44ae0da6471a1b2c8fb",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "run_started_at": "2026-11-02T04:28:43.442Z",
+  "run_finished_at": "2026-11-02T04:37:49.314Z",
+  "local_simulation_only": true,
+  "field_data": false,
+  "sample_count": 84,
+  "samples_per_arm_per_route": 7,
+  "total_lighthouse_warnings": 0,
+  "budgets": {
+    "added_transfer_bytes_strictly_below": 150000,
+    "LCP_B_over_A_at_most": 1.1,
+    "TBT_delta_ms_at_most": 50,
+    "CLS_B_no_greater_than_A": true,
+    "CLS_B_strictly_below": 0.1,
+    "no_new_render_blocking_url": true
+  },
+  "routes": [
+    {
+      "route": "/study-in-germany",
+      "role": "treatment target",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 1198.6718409736434,
+            "q1": 1177.6775626774574,
+            "q3": 1233.3271108518961,
+            "iqr": 55.64954817443868,
+            "min": 1162.6223807302536,
+            "max": 2431.7758409735843
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 5.0,
+            "iqr": 5.0,
+            "min": 0.0,
+            "max": 12.5
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 199593.0,
+            "q1": 199593.0,
+            "q3": 199593.0,
+            "iqr": 0.0,
+            "min": 199593.0,
+            "max": 199593.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 4.0,
+            "q1": 4.0,
+            "q3": 4.0,
+            "iqr": 0.0,
+            "min": 4.0,
+            "max": 4.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 1209.7023807302396,
+            "q1": 1193.5676108519378,
+            "q3": 1824.1956108519234,
+            "iqr": 630.6279999999856,
+            "min": 1166.7693807301914,
+            "max": 2432.0963409735486
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 46.0,
+            "q1": 13.0,
+            "q3": 89.0,
+            "iqr": 76.0,
+            "min": 0.0,
+            "max": 517.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 212871.0,
+            "q1": 212871.0,
+            "q3": 212871.0,
+            "iqr": 0.0,
+            "min": 212871.0,
+            "max": 212871.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 5.0,
+            "q1": 5.0,
+            "q3": 5.0,
+            "iqr": 0.0,
+            "min": 5.0,
+            "max": 5.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.32049999996434053,
+            "q1": -27.356460243381207,
+            "q3": 47.607528296135,
+            "iqr": 74.96398853951621,
+            "min": -45.142039756507984,
+            "max": 1233.3345397565497
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0001317966872456,
+            "q1": 0.9775131828150392,
+            "q3": 1.0409443336634694,
+            "iqr": 0.0634311508484302,
+            "min": 0.963237492901009,
+            "max": 2.0289175882823365
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 33.5,
+            "q1": 13.0,
+            "q3": 89.0,
+            "iqr": 76.0,
+            "min": 0.0,
+            "max": 507.0
+          },
+          "B_over_A": {
+            "n": 2,
+            "median": 27.69,
+            "q1": 15.685,
+            "q3": 39.695,
+            "iqr": 24.009999999999998,
+            "min": 3.68,
+            "max": 51.7
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 13278.0,
+            "q1": 13278.0,
+            "q3": 13278.0,
+            "iqr": 0.0,
+            "min": 13278.0,
+            "max": 13278.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0665253791465632,
+            "q1": 1.0665253791465632,
+            "q3": 1.0665253791465632,
+            "iqr": 0.0,
+            "min": 1.0665253791465632,
+            "max": 1.0665253791465632
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 1.0092023015637344,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 1.0001317966872456,
+          "q1": 0.9775131828150392,
+          "q3": 1.0409443336634694,
+          "iqr": 0.0634311508484302,
+          "min": 0.963237492901009,
+          "max": 2.0289175882823365
+        },
+        "symmetric_LCP_control_ratio": 1.0092023015637344,
+        "transfer_B_over_A_medians": 1.0665253791465632,
+        "TBT_B_over_A_medians": null,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": 13278.0,
+        "tbt_ms_B_minus_A": 46.0,
+        "cls_B_minus_A": 0.0
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": true,
+        "TBT_delta": true,
+        "CLS": true,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 7
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": [
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914
+        ]
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {
+            "data:font/woff2 (embedded)": 14
+          },
+          "transfer_size_bytes": {
+            "data:font/woff2 (embedded)": {
+              "n": 14,
+              "median": 13770.0,
+              "q1": 10456.0,
+              "q3": 17084.0,
+              "iqr": 6628.0,
+              "min": 10456.0,
+              "max": 17084.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 14
+          }
+        },
+        "B": {
+          "occurrences": {
+            "data:font/woff2 (embedded)": 14
+          },
+          "transfer_size_bytes": {
+            "data:font/woff2 (embedded)": {
+              "n": 14,
+              "median": 13770.0,
+              "q1": 10456.0,
+              "q3": 17084.0,
+              "iqr": 6628.0,
+              "min": 10456.0,
+              "max": 17084.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 14
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [],
+      "route_budget": "PASS"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "role": "treatment target",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 1652.3300853144217,
+            "q1": 1652.1355853143164,
+            "q3": 1652.5875853143277,
+            "iqr": 0.45200000001136686,
+            "min": 1651.742085314375,
+            "max": 1653.226113752667
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 21.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 233190.0,
+            "q1": 233190.0,
+            "q3": 233190.0,
+            "iqr": 0.0,
+            "min": 233190.0,
+            "max": 233190.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 6.0,
+            "q1": 6.0,
+            "q3": 6.0,
+            "iqr": 0.0,
+            "min": 6.0,
+            "max": 6.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 1728.1678978498549,
+            "q1": 1727.812910618677,
+            "q3": 2042.2060639857934,
+            "iqr": 314.3931533671164,
+            "min": 1727.4288723124287,
+            "max": 2356.585272778889
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 66.23586361055368,
+            "q1": 7.0,
+            "q3": 128.95786361053547,
+            "iqr": 121.95786361053547,
+            "min": 0.0,
+            "max": 155.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 246577.0,
+            "q1": 246577.0,
+            "q3": 246577.0,
+            "iqr": 0.0,
+            "min": 246577.0,
+            "max": 246577.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 7.0,
+            "q1": 7.0,
+            "q3": 7.0,
+            "iqr": 0.0,
+            "min": 7.0,
+            "max": 7.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 75.33833807319843,
+            "q1": 75.19506108510757,
+            "q3": 389.9024659027133,
+            "iqr": 314.7074048176057,
+            "min": 75.09878699800697,
+            "max": 704.8431874645139
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0455819690009167,
+            "q1": 1.0455095280520141,
+            "q3": 1.2359702381027522,
+            "iqr": 0.19046071005073806,
+            "min": 1.0454274276276903,
+            "max": 1.426727146890104
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 66.23586361055368,
+            "q1": 7.0,
+            "q3": 118.45786361053547,
+            "iqr": 111.45786361053547,
+            "min": 0.0,
+            "max": 155.0
+          },
+          "B_over_A": {
+            "n": 1,
+            "median": 5.671575214912991,
+            "q1": 5.671575214912991,
+            "q3": 5.671575214912991,
+            "iqr": 0.0,
+            "min": 5.671575214912991,
+            "max": 5.671575214912991
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 13387.0,
+            "q1": 13387.0,
+            "q3": 13387.0,
+            "iqr": 0.0,
+            "min": 13387.0,
+            "max": 13387.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.057408122132167,
+            "q1": 1.057408122132167,
+            "q3": 1.057408122132167,
+            "iqr": 0.0,
+            "min": 1.057408122132167,
+            "max": 1.057408122132167
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 1.0458974954274962,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 1.0455819690009167,
+          "q1": 1.0455095280520141,
+          "q3": 1.2359702381027522,
+          "iqr": 0.19046071005073806,
+          "min": 1.0454274276276903,
+          "max": 1.426727146890104
+        },
+        "symmetric_LCP_control_ratio": 1.0458974954274962,
+        "transfer_B_over_A_medians": 1.057408122132167,
+        "TBT_B_over_A_medians": null,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": 13387.0,
+        "tbt_ms_B_minus_A": 66.23586361055368,
+        "cls_B_minus_A": 0.0
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": true,
+        "TBT_delta": false,
+        "CLS": true,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 7
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": [
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914
+        ]
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        },
+        "B": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [
+        "median TBT delta 66.24 ms exceeds 50 ms"
+      ],
+      "route_budget": "FAIL"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "role": "treatment target",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 1654.0790853142337,
+            "q1": 1652.9571279716483,
+            "q3": 2280.984988681576,
+            "iqr": 628.0278607099276,
+            "min": 1652.8291137525173,
+            "max": 2281.430704584155
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 15.912039756578224,
+            "iqr": 15.912039756578224,
+            "min": 0.0,
+            "max": 131.82686361055175
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 241106.0,
+            "q1": 241106.0,
+            "q3": 241106.0,
+            "iqr": 0.0,
+            "min": 241106.0,
+            "max": 241106.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 6.0,
+            "q1": 6.0,
+            "q3": 6.0,
+            "iqr": 0.0,
+            "min": 6.0,
+            "max": 6.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 2355.8447045842713,
+            "q1": 1727.89766061882,
+            "q3": 2356.0509545841524,
+            "iqr": 628.1532939653323,
+            "min": 1727.3523978499843,
+            "max": 2356.429204584132
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 59.0,
+            "q1": 26.113255659205493,
+            "q3": 85.38507385396679,
+            "iqr": 59.271818194761295,
+            "min": 0.0,
+            "max": 145.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 254493.0,
+            "q1": 254493.0,
+            "q3": 254493.0,
+            "iqr": 0.0,
+            "min": 254493.0,
+            "max": 254493.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 7.0,
+            "q1": 7.0,
+            "q3": 7.0,
+            "iqr": 0.0,
+            "min": 7.0,
+            "max": 7.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 74.84843180531698,
+            "q1": 74.61128409754133,
+            "q3": 388.71605963491163,
+            "iqr": 314.1047755373703,
+            "min": -553.2847811966317,
+            "max": 703.0820623933864
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0450883176472323,
+            "q1": 1.0328652826976823,
+            "q3": 1.2349042528189411,
+            "iqr": 0.20203897012125882,
+            "min": 0.7574834159613535,
+            "max": 1.425346227693445
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 33.335068194752694,
+            "q1": 9.033681805250922,
+            "q3": 47.88507385396679,
+            "iqr": 38.851392048715866,
+            "min": -28.826863610551754,
+            "max": 145.0
+          },
+          "B_over_A": {
+            "n": 3,
+            "median": 2.186133797030115,
+            "q1": 1.4837308238295774,
+            "q3": 21.81870511822418,
+            "iqr": 20.334974294394602,
+            "min": 0.78132785062904,
+            "max": 41.451276439418244
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 13387.0,
+            "q1": 13387.0,
+            "q3": 13387.0,
+            "iqr": 0.0,
+            "min": 13387.0,
+            "max": 13387.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0555232968072135,
+            "q1": 1.0555232968072135,
+            "q3": 1.0555232968072135,
+            "iqr": 0.0,
+            "min": 1.0555232968072135,
+            "max": 1.0555232968072135
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 1.424263643438016,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 1.0450883176472323,
+          "q1": 1.0328652826976823,
+          "q3": 1.2349042528189411,
+          "iqr": 0.20203897012125882,
+          "min": 0.7574834159613535,
+          "max": 1.425346227693445
+        },
+        "symmetric_LCP_control_ratio": 1.424263643438016,
+        "transfer_B_over_A_medians": 1.0555232968072135,
+        "TBT_B_over_A_medians": null,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": 13387.0,
+        "tbt_ms_B_minus_A": 59.0,
+        "cls_B_minus_A": 0.0
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": false,
+        "TBT_delta": false,
+        "CLS": true,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 7
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": [
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914,
+          9914
+        ]
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        },
+        "B": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [
+        "median LCP B/A 1.4243 exceeds 1.10",
+        "median TBT delta 59.00 ms exceeds 50 ms"
+      ],
+      "route_budget": "FAIL"
+    },
+    {
+      "route": "/blog/",
+      "role": "treatment target",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 2280.9372727789787,
+            "q1": 1653.3890853143193,
+            "q3": 2281.308204584151,
+            "iqr": 627.9191192698318,
+            "min": 1652.1130568762928,
+            "max": 2282.1317045841406
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 58.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 232501.0,
+            "q1": 232501.0,
+            "q3": 232501.0,
+            "iqr": 0.0,
+            "min": 232501.0,
+            "max": 232501.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 6.0,
+            "q1": 6.0,
+            "q3": 6.0,
+            "iqr": 0.0,
+            "min": 6.0,
+            "max": 6.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 2281.153704584188,
+            "q1": 1966.583394949235,
+            "q3": 2281.3609886815466,
+            "iqr": 314.7775937323115,
+            "min": 1651.627113752682,
+            "max": 2281.797840973669
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 33.0,
+            "iqr": 33.0,
+            "min": 0.0,
+            "max": 50.40907951316558
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 235974.0,
+            "q1": 235974.0,
+            "q3": 235974.0,
+            "iqr": 0.0,
+            "min": 235974.0,
+            "max": 235974.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 6.0,
+            "q1": 6.0,
+            "q3": 6.0,
+            "iqr": 0.0,
+            "min": 6.0,
+            "max": 6.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.5005681947454832,
+            "q1": -314.70759373231954,
+            "q3": 628.086687464609,
+            "iqr": 942.7942811969285,
+            "min": -630.5045908314587,
+            "max": 629.1366477078841
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0002194539255964,
+            "q1": 0.8620698633425803,
+            "q3": 1.3798787486800828,
+            "iqr": 0.5178088853375025,
+            "min": 0.7237212078667686,
+            "max": 1.3808072607920758
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 9.0,
+            "iqr": 9.0,
+            "min": -7.5909204868344204,
+            "max": 48.0
+          },
+          "B_over_A": {
+            "n": 1,
+            "median": 0.8691220605718203,
+            "q1": 0.8691220605718203,
+            "q3": 0.8691220605718203,
+            "iqr": 0.0,
+            "min": 0.8691220605718203,
+            "max": 0.8691220605718203
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 3473.0,
+            "q1": 3473.0,
+            "q3": 3473.0,
+            "iqr": 0.0,
+            "min": 3473.0,
+            "max": 3473.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 1.0149375701609886,
+            "q1": 1.0149375701609886,
+            "q3": 1.0149375701609886,
+            "iqr": 0.0,
+            "min": 1.0149375701609886,
+            "max": 1.0149375701609886
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 1.000094887223683,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 1.0002194539255964,
+          "q1": 0.8620698633425803,
+          "q3": 1.3798787486800828,
+          "iqr": 0.5178088853375025,
+          "min": 0.7237212078667686,
+          "max": 1.3808072607920758
+        },
+        "symmetric_LCP_control_ratio": 1.000094887223683,
+        "transfer_B_over_A_medians": 1.0149375701609886,
+        "TBT_B_over_A_medians": null,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": 3473.0,
+        "tbt_ms_B_minus_A": 0.0,
+        "cls_B_minus_A": 0.0
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": true,
+        "TBT_delta": true,
+        "CLS": true,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 0
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": []
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        },
+        "B": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 28
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [],
+      "route_budget": "PASS"
+    },
+    {
+      "route": "/services",
+      "role": "measurement control, not byte-identical to A",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 8406.544704584376,
+            "q1": 1982.5936885266592,
+            "q3": 9365.008281132279,
+            "iqr": 7382.41459260562,
+            "min": 1981.4847045841566,
+            "max": 9987.388704584097
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 2399.999999999999,
+            "q1": 2111.0,
+            "q3": 3024.5,
+            "iqr": 913.5,
+            "min": 1971.9999999999995,
+            "max": 3590.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 941152.0,
+            "q1": 941152.0,
+            "q3": 941152.0,
+            "iqr": 0.0,
+            "min": 941152.0,
+            "max": 941152.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 7.0,
+            "q1": 7.0,
+            "q3": 7.0,
+            "iqr": 0.0,
+            "min": 7.0,
+            "max": 7.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 2956.0967045840553,
+            "q1": 2717.4052217038457,
+            "q3": 2956.28555687632,
+            "iqr": 238.88033517247413,
+            "min": 2477.604738823389,
+            "max": 2957.6960568763147
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0004910242311436697,
+            "q1": 0.0,
+            "q3": 0.0007467660181976643,
+            "iqr": 0.0007467660181976643,
+            "min": 0.0,
+            "max": 0.0007569956896798241
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 376606.0,
+            "q1": 376606.0,
+            "q3": 376606.0,
+            "iqr": 0.0,
+            "min": 376606.0,
+            "max": 376606.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 11.0,
+            "q1": 11.0,
+            "q3": 11.0,
+            "iqr": 0.0,
+            "min": 11.0,
+            "max": 11.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -5450.679000000211,
+            "q1": -6631.963147707715,
+            "q3": 734.2570331770629,
+            "iqr": 7366.220180884778,
+            "min": -7060.6261188570525,
+            "max": 974.8743522921509
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.3516148201736476,
+            "q1": 0.30890870567987283,
+            "q3": 1.3703867354065489,
+            "iqr": 1.061478029726676,
+            "min": 0.25985914626627654,
+            "max": 1.491991863493462
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -2399.999999999999,
+            "q1": -3024.5,
+            "q3": -2111.0,
+            "iqr": 913.5,
+            "min": -3590.0,
+            "max": -1971.9999999999995
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0004910242311436697,
+            "q1": 0.0,
+            "q3": 0.0007467660181976643,
+            "iqr": 0.0007467660181976643,
+            "min": 0.0,
+            "max": 0.0007569956896798241
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -564546.0,
+            "q1": -564546.0,
+            "q3": -564546.0,
+            "iqr": 0.0,
+            "min": -564546.0,
+            "max": -564546.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.4001542790112543,
+            "q1": 0.4001542790112543,
+            "q3": 0.4001542790112543,
+            "iqr": 0.0,
+            "min": 0.4001542790112543,
+            "max": 0.4001542790112543
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 0.35164229876419917,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 0.3516148201736476,
+          "q1": 0.30890870567987283,
+          "q3": 1.3703867354065489,
+          "iqr": 1.061478029726676,
+          "min": 0.25985914626627654,
+          "max": 1.491991863493462
+        },
+        "symmetric_LCP_control_ratio": 2.8437989499965424,
+        "transfer_B_over_A_medians": 0.4001542790112543,
+        "TBT_B_over_A_medians": 0.0,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": -564546.0,
+        "tbt_ms_B_minus_A": -2399.999999999999,
+        "cls_B_minus_A": 0.0004910242311436697
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": true,
+        "TBT_delta": true,
+        "CLS": false,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 0
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": []
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {},
+          "transfer_size_bytes": {},
+          "duration_ms": {},
+          "status_codes": {}
+        },
+        "B": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-600.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-600.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400-italic.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-700.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-600.woff2": {
+              "n": 7,
+              "median": 14317.0,
+              "q1": 14317.0,
+              "q3": 14317.0,
+              "iqr": 0.0,
+              "min": 14317.0,
+              "max": 14317.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-600.woff2": {
+              "n": 7,
+              "median": 23633.0,
+              "q1": 23633.0,
+              "q3": 23633.0,
+              "iqr": 0.0,
+              "min": 23633.0,
+              "max": 23633.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400-italic.woff2": {
+              "n": 7,
+              "median": 23845.0,
+              "q1": 23845.0,
+              "q3": 23845.0,
+              "iqr": 0.0,
+              "min": 23845.0,
+              "max": 23845.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-700.woff2": {
+              "n": 7,
+              "median": 14237.0,
+              "q1": 14237.0,
+              "q3": 14237.0,
+              "iqr": 0.0,
+              "min": 14237.0,
+              "max": 14237.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 56
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [
+        "control-only observation: CLS failed"
+      ],
+      "route_budget": "CONTROL ONLY"
+    },
+    {
+      "route": "/contact",
+      "role": "measurement control, not byte-identical to A",
+      "arms": {
+        "A": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 11358.825048067447,
+            "q1": 6020.9164842771515,
+            "q3": 11590.228083585336,
+            "iqr": 5569.311599308185,
+            "min": 1831.0463807301921,
+            "max": 11799.421920486744
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 5165.999999999999,
+            "q1": 4302.25,
+            "q3": 5360.75,
+            "iqr": 1058.5,
+            "min": 3094.000000000001,
+            "max": 5550.999999999999
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 907681.0,
+            "q1": 907681.0,
+            "q3": 907681.0,
+            "iqr": 0.0,
+            "min": 907681.0,
+            "max": 907681.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 7.0,
+            "q1": 7.0,
+            "q3": 7.0,
+            "iqr": 0.0,
+            "min": 7.0,
+            "max": 7.0
+          }
+        },
+        "B": {
+          "lcp_ms": {
+            "n": 7,
+            "median": 2730.6913807302535,
+            "q1": 2329.099627971809,
+            "q3": 2731.0198807303177,
+            "iqr": 401.9202527585089,
+            "min": 2328.4711279716894,
+            "max": 2731.3773807303014
+          },
+          "tbt_ms": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "cls": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.13703827829607176
+          },
+          "transfer_bytes": {
+            "n": 7,
+            "median": 333499.0,
+            "q1": 333499.0,
+            "q3": 333499.0,
+            "iqr": 0.0,
+            "min": 333499.0,
+            "max": 333499.0
+          },
+          "requests": {
+            "n": 7,
+            "median": 11.0,
+            "q1": 11.0,
+            "q3": 11.0,
+            "iqr": 0.0,
+            "min": 11.0,
+            "max": 11.0
+          }
+        }
+      },
+      "paired_round_metrics": {
+        "lcp_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -8628.133667337193,
+            "q1": -8962.786809634745,
+            "q3": -3490.9922299261557,
+            "iqr": 5471.794579708589,
+            "min": -9263.064578955582,
+            "max": 497.95274724171395
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.24040262695962944,
+            "q1": 0.233562942212203,
+            "q3": 0.7691750733714922,
+            "iqr": 0.5356121311592892,
+            "min": 0.20092709982544055,
+            "max": 1.2719498274222516
+          }
+        },
+        "tbt_ms": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -5165.999999999999,
+            "q1": -5360.75,
+            "q3": -4302.25,
+            "iqr": 1058.5,
+            "min": -5550.999999999999,
+            "max": -3094.000000000001
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          }
+        },
+        "cls": {
+          "B_minus_A": {
+            "n": 7,
+            "median": 0.0,
+            "q1": 0.0,
+            "q3": 0.0,
+            "iqr": 0.0,
+            "min": 0.0,
+            "max": 0.13703827829607176
+          },
+          "B_over_A": null
+        },
+        "transfer_bytes": {
+          "B_minus_A": {
+            "n": 7,
+            "median": -574182.0,
+            "q1": -574182.0,
+            "q3": -574182.0,
+            "iqr": 0.0,
+            "min": -574182.0,
+            "max": -574182.0
+          },
+          "B_over_A": {
+            "n": 7,
+            "median": 0.367418729707904,
+            "q1": 0.367418729707904,
+            "q3": 0.367418729707904,
+            "iqr": 0.0,
+            "min": 0.367418729707904,
+            "max": 0.367418729707904
+          }
+        }
+      },
+      "ratios": {
+        "LCP_B_over_A_medians": 0.24040262695962944,
+        "LCP_paired_B_over_A": {
+          "n": 7,
+          "median": 0.24040262695962944,
+          "q1": 0.233562942212203,
+          "q3": 0.7691750733714922,
+          "iqr": 0.5356121311592892,
+          "min": 0.20092709982544055,
+          "max": 1.2719498274222516
+        },
+        "symmetric_LCP_control_ratio": 4.159688322240875,
+        "transfer_B_over_A_medians": 0.367418729707904,
+        "TBT_B_over_A_medians": 0.0,
+        "CLS_B_over_A_medians": null
+      },
+      "median_deltas": {
+        "transfer_bytes_B_minus_A": -574182.0,
+        "tbt_ms_B_minus_A": -5165.999999999999,
+        "cls_B_minus_A": 0.0
+      },
+      "checks": {
+        "added_transfer": true,
+        "LCP_ratio": true,
+        "TBT_delta": true,
+        "CLS": true,
+        "no_new_render_blocking": true
+      },
+      "new_render_blocking_urls": [],
+      "all_render_blocking_urls": {
+        "A": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "B": []
+      },
+      "still_request_occurrences": {
+        "A": 0,
+        "B": 0
+      },
+      "still_resource_bytes": {
+        "A": [],
+        "B": []
+      },
+      "font_network": {
+        "A": {
+          "occurrences": {},
+          "transfer_size_bytes": {},
+          "duration_ms": {},
+          "status_codes": {}
+        },
+        "B": {
+          "occurrences": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-700.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-600.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-600.woff2": 7,
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-400.woff2": 7
+          },
+          "transfer_size_bytes": {
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-300.woff2": {
+              "n": 7,
+              "median": 14133.0,
+              "q1": 14133.0,
+              "q3": 14133.0,
+              "iqr": 0.0,
+              "min": 14133.0,
+              "max": 14133.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-700.woff2": {
+              "n": 7,
+              "median": 22569.0,
+              "q1": 22569.0,
+              "q3": 22569.0,
+              "iqr": 0.0,
+              "min": 22569.0,
+              "max": 22569.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-400.woff2": {
+              "n": 7,
+              "median": 23085.0,
+              "q1": 23085.0,
+              "q3": 23085.0,
+              "iqr": 0.0,
+              "min": 23085.0,
+              "max": 23085.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-500.woff2": {
+              "n": 7,
+              "median": 13705.0,
+              "q1": 13705.0,
+              "q3": 13705.0,
+              "iqr": 0.0,
+              "min": 13705.0,
+              "max": 13705.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-700.woff2": {
+              "n": 7,
+              "median": 14237.0,
+              "q1": 14237.0,
+              "q3": 14237.0,
+              "iqr": 0.0,
+              "min": 14237.0,
+              "max": 14237.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/cormorant-garamond-reference-600.woff2": {
+              "n": 7,
+              "median": 23633.0,
+              "q1": 23633.0,
+              "q3": 23633.0,
+              "iqr": 0.0,
+              "min": 23633.0,
+              "max": 23633.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-600.woff2": {
+              "n": 7,
+              "median": 14317.0,
+              "q1": 14317.0,
+              "q3": 14317.0,
+              "iqr": 0.0,
+              "min": 14317.0,
+              "max": 14317.0
+            },
+            "http://127.0.0.1:8092/assets/fonts/outfit-reference-400.woff2": {
+              "n": 7,
+              "median": 14209.0,
+              "q1": 14209.0,
+              "q3": 14209.0,
+              "iqr": 0.0,
+              "min": 14209.0,
+              "max": 14209.0
+            }
+          },
+          "duration_ms": {},
+          "status_codes": {
+            "200": 56
+          }
+        }
+      },
+      "warning_count": 0,
+      "budget_failures": [],
+      "route_budget": "CONTROL ONLY"
+    }
+  ],
+  "target_pass_count": 2,
+  "target_route_count": 4,
+  "control_symmetric_lcp_gate": "FAIL",
+  "performance_release_certified": false,
+  "target_fallback_routes": [
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka"
+  ],
+  "interpretation": "Single-session local simulated mobile Lighthouse data only. B/A compares pushed B renders with frozen Task4 A and includes prior shared Phase32 presentation differences. Services and Contact are controls, not byte-identical no-op controls. Do not describe these results as field performance.",
+  "ratio_note": "Paired ratios with a zero A denominator are omitted; those cells are descriptive only and not used by the fixed budget gates. The LCP budget uses ratio of arm medians.",
+  "still_observation": "The Blog index mobile guard intentionally skips the hero still at viewport widths at or below 768px; the mobile B samples therefore made no still request on /blog/."
+}

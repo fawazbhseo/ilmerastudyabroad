@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "missing key",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "wrong key",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "traversal in key",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "extra file parameter",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "arbitrary extra parameter",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "duplicate key",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "array key",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "encoded parameter",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "post method",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "expired copied fixture",
+      "status": 404,
+      "plain_404": true,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "correct key clean payload",
+      "status": 200,
+      "plain_404": false,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "policy exists-only contents changed",
+      "status": 200,
+      "plain_404": false,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "missing critical CSS",
+      "status": 200,
+      "plain_404": false,
+      "noindex": true,
+      "no_store": true
+    },
+    {
+      "case": "mismatched critical CSS",
+      "status": 200,
+      "plain_404": false,
+      "noindex": true,
+      "no_store": true
+    }
+  ],
+  "random_key_bits": 256,
+  "expiry": "2026-11-16T00:00:00Z",
+  "valid_through": "2026-11-15 UTC",
+  "native_engine": false,
+  "key_not_serialized_in_test_evidence": true,
+  "manifest_self_hash_exception": "Temporary checker existence-only; offline manifest hashes actual file",
+  "critical_payload_fixed_path_tests": true
+}

@@ -1,0 +1,448 @@
+{
+  "id": "home__768__js-off__motion-reduced",
+  "route": "/",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/",
+  "http_status": 200,
+  "page_height": 12155,
+  "scroll": {
+    "height": 12155,
+    "scroll_samples": 20,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 12155,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 10782
+    },
+    "visible_text_chars": 14239,
+    "visible_text_nodes": 195,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 9,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#hLabel",
+        "y": 187,
+        "text": "ILMERA GROUP PRESENTS"
+      },
+      {
+        "selector": "#hH1",
+        "y": 224,
+        "text": "ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 297,
+        "text": "ILMERA Study Abroad: Discuss your study plans through online"
+      },
+      {
+        "selector": "#hSub",
+        "y": 373,
+        "text": "Compare programme-specific tuition, living costs and scholar"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 501,
+        "text": "Explore Study Destinations"
+      },
+      {
+        "selector": "a.btn-ghost",
+        "y": 502,
+        "text": "Book online Consultation"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 631,
+        "text": "9"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 677,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 631,
+        "text": "3"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 677,
+        "text": "Named Counsellors"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 720,
+        "text": "4"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 766,
+        "text": "Languages Spoken"
+      },
+      {
+        "selector": "span.stat-num",
+        "y": 720,
+        "text": "2026"
+      },
+      {
+        "selector": "span.stat-lbl",
+        "y": 766,
+        "text": "Founded"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 917,
+        "text": "🇩🇪 Germany"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 917,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 917,
+        "text": "🇮🇹 Italy"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 917,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 917,
+        "text": "🇬🇧 United Kingdom"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 917,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 917,
+        "text": "🇨🇿 Czech Republic"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 917,
+        "text": "✦"
+      },
+      {
+        "selector": "span.mq-item",
+        "y": 917,
+        "text": "🇱🇹 Lithuania"
+      },
+      {
+        "selector": "span.mq-div",
+        "y": 917,
+        "text": "✦"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 12155,
+    "scan_width": 512,
+    "scan_height": 8103,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3817,
+        "height": 205,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00059,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2834,
+          "element_height": 1106,
+          "computed": {
+            "min_height": "0px",
+            "height": "1105.5px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h3",
+            "y": 3710,
+            "text": "Personalised, Honest Guidance"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 4048,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4852,
+        "height": 175,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 3940,
+          "element_height": 1025,
+          "computed": {
+            "min_height": "0px",
+            "height": "1025.44px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-name",
+            "y": 4814,
+            "text": "What ILMERA Helps With"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 5053,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6307,
+        "height": 211,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00035,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 6407,
+          "element_height": 1948,
+          "computed": {
+            "min_height": "0px",
+            "height": "1947.5px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.sc-rank",
+            "y": 6234,
+            "text": "🇷🇺"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 6545,
+            "text": "Study Abroad FAQs (2026)"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 10938,
+        "height": 170,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00042,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 10725,
+            "text": ". The Italy scholarship statement is owner-provided conditional guidance, not an officiall"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3817,
+        "height": 205,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00059,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.why-sec",
+          "element_tag": "section",
+          "element_y": 2834,
+          "element_height": 1106,
+          "computed": {
+            "min_height": "0px",
+            "height": "1105.5px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h3",
+            "y": 3710,
+            "text": "Personalised, Honest Guidance"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt.reveal",
+            "y": 4048,
+            "text": "Study Routes ILMERA Guides"
+          }
+        },
+        "selector": "section.why-sec",
+        "cause": "Low edge-density band; nearest section section.why-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4852,
+        "height": 175,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.testi-sec",
+          "element_tag": "section",
+          "element_y": 3940,
+          "element_height": 1025,
+          "computed": {
+            "min_height": "0px",
+            "height": "1025.44px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "div.testi-name",
+            "y": 4814,
+            "text": "What ILMERA Helps With"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 5053,
+            "text": "No Barrier Too Big"
+          }
+        },
+        "selector": "section.testi-sec",
+        "cause": "Low edge-density band; nearest section section.testi-sec has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6307,
+        "height": 211,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00035,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "#faq",
+          "element_tag": "section",
+          "element_y": 6407,
+          "element_height": 1948,
+          "computed": {
+            "min_height": "0px",
+            "height": "1947.5px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.sc-rank",
+            "y": 6234,
+            "text": "🇷🇺"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk.reveal",
+            "y": 6545,
+            "text": "Study Abroad FAQs (2026)"
+          }
+        },
+        "selector": "#faq",
+        "cause": "Low edge-density band; nearest section #faq has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 10938,
+        "height": 170,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00042,
+        "crop": "reports/screenshots/phase-31-after/home__768__js-off__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 10725,
+            "text": ". The Italy scholarship statement is owner-provided conditional guidance, not an officiall"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5000617055411576
+  },
+  "pinned": null,
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "9b7b4a685735dec001461b5144ecebe0cc80a1241f6a3b3600dc059cb0dff67a"
+  }
+}

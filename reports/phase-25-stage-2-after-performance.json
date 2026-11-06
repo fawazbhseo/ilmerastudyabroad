@@ -1,0 +1,287 @@
+{
+  "candidate": "after",
+  "passed": false,
+  "rows": [
+    {
+      "route": "/",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 9500.889430560095,
+        "cls": 0.0007794586372654771,
+        "tbt_ms": 2074.999999999999,
+        "transfer_bytes": 1068530,
+        "requests": 15
+      },
+      "after": {
+        "lcp_ms": 1918.942460243481,
+        "cls": 0.0007794586372654771,
+        "tbt_ms": 1439.5,
+        "transfer_bytes": 1068534,
+        "requests": 15
+      },
+      "added_transfer_bytes": 4,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/services",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 2105.0976022921022,
+        "cls": 0,
+        "tbt_ms": 2440,
+        "transfer_bytes": 1093133,
+        "requests": 15
+      },
+      "after": {
+        "lcp_ms": 2068.365954584314,
+        "cls": 0,
+        "tbt_ms": 1143.5,
+        "transfer_bytes": 1093133,
+        "requests": 15
+      },
+      "added_transfer_bytes": 0,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/contact",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 1939.8571204867994,
+        "cls": 0,
+        "tbt_ms": 3541.499999999999,
+        "transfer_bytes": 1049871,
+        "requests": 15
+      },
+      "after": {
+        "lcp_ms": 8786.532320486454,
+        "cls": 0.004813818447093593,
+        "tbt_ms": 1405.999999999999,
+        "transfer_bytes": 1049871,
+        "requests": 15
+      },
+      "added_transfer_bytes": 0,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": false,
+        "lcp_at_most_110_percent": false,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": false
+    },
+    {
+      "route": "/study-in-germany",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 1592.006328438138,
+        "cls": 0.053536100474154,
+        "tbt_ms": 0,
+        "transfer_bytes": 230549,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 2430.7520363891786,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 251931,
+        "requests": 7
+      },
+      "added_transfer_bytes": 21382,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": false,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": false
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 1588.4658284381187,
+        "cls": 0.04555956032903773,
+        "tbt_ms": 0,
+        "transfer_bytes": 226502,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 1651.3677068761376,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 233606,
+        "requests": 6
+      },
+      "added_transfer_bytes": 7104,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 2182.250954584182,
+        "cls": 0,
+        "tbt_ms": 50,
+        "transfer_bytes": 143512,
+        "requests": 2
+      },
+      "after": {
+        "lcp_ms": 1651.7215068763328,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 241176,
+        "requests": 6
+      },
+      "added_transfer_bytes": 97664,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/blog/",
+      "baseline_source": "immutable Stage1 measurement",
+      "before": {
+        "lcp_ms": 2182.742952292062,
+        "cls": 0.10286651077066893,
+        "tbt_ms": 0,
+        "transfer_bytes": 211307,
+        "requests": 7
+      },
+      "after": {
+        "lcp_ms": 1653.0991568756922,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 232570,
+        "requests": 6
+      },
+      "added_transfer_bytes": 21263,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "baseline_source": "new local immutable-HTML replay, not a Stage1 measurement",
+      "before": {
+        "lcp_ms": 2310,
+        "cls": 0.0021730989114911057,
+        "tbt_ms": 0,
+        "transfer_bytes": 233700,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 1801.1962409737798,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 255194,
+        "requests": 7
+      },
+      "added_transfer_bytes": 21494,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/privacy-policy",
+      "baseline_source": "new local immutable-HTML replay, not a Stage1 measurement",
+      "before": {
+        "lcp_ms": 2160,
+        "cls": 0.05847285146466302,
+        "tbt_ms": 0,
+        "transfer_bytes": 231338,
+        "requests": 8
+      },
+      "after": {
+        "lcp_ms": 2280.403986389473,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 229203,
+        "requests": 6
+      },
+      "added_transfer_bytes": -2135,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/all-pages",
+      "baseline_source": "new local immutable-HTML replay, not a Stage1 measurement",
+      "before": {
+        "lcp_ms": 2160,
+        "cls": 0.01966074997011032,
+        "tbt_ms": 0,
+        "transfer_bytes": 203506,
+        "requests": 7
+      },
+      "after": {
+        "lcp_ms": 2280.5102045840413,
+        "cls": 0,
+        "tbt_ms": 0,
+        "transfer_bytes": 224954,
+        "requests": 6
+      },
+      "added_transfer_bytes": 21448,
+      "new_render_blocking": [],
+      "tests": {
+        "added_transfer_under_150000": true,
+        "no_new_render_blocking": true,
+        "cls_not_above_baseline_and_under_point_one": true,
+        "lcp_at_most_110_percent": true,
+        "tbt_at_most_baseline_plus_50": true
+      },
+      "passed": true
+    }
+  ],
+  "method": "Original seven-route prefix retained including three reference controls. Three storage-reset navigations per route; medians; same Lighthouse mobile simulation and offline npm mirrors. Three added pages had no Stage1 measurements: immutable pre-rollout HTML is replayed for their before samples. Main-document delivery differs and makes this supplemental comparison local-only, not field/hosting proof. Original seven budgets are never replaced by replay results."
+}

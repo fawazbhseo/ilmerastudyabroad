@@ -1,0 +1,845 @@
+{
+  "cases": [
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "Study in Germany from India",
+        "hero": 328.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 26
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 159
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": false,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 376.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 33
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 80
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": false,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 364.671875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 50
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 142
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/",
+      "js": false,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "ILMERA study abroad blog",
+        "hero": 328.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 23
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 132
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "Study in Germany from India",
+        "hero": 289.09375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 27
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 161
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": false,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 337.28125,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 34
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 81
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": false,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 302.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 51
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 144
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/",
+      "js": false,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "ILMERA study abroad blog",
+        "hero": 289.09375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 24
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 134
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "Study in Germany from India",
+        "hero": 361.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 27
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 161
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": false,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 409.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 34
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 81
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": false,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 352.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 51
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 144
+          }
+        ]
+      }
+    },
+    {
+      "route": "/blog/",
+      "js": false,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "ILMERA study abroad blog",
+        "hero": 361.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 24
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 134
+          }
+        ]
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "Study in Germany from India",
+        "hero": 328.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 26
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 159
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": true,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 376.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 33
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 80
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": true,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 364.671875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 50
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 142
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/",
+      "js": true,
+      "width": 360,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 360,
+        "width": 360,
+        "h1": "ILMERA study abroad blog",
+        "hero": 328.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 23
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 132
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "Study in Germany from India",
+        "hero": 289.09375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 27
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 161
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": true,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 337.28125,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 34
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 81
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": true,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 302.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 51
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 144
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/",
+      "js": true,
+      "width": 768,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 768,
+        "width": 768,
+        "h1": "ILMERA study abroad blog",
+        "hero": 289.09375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 24
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 134
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "Study in Germany from India",
+        "hero": 361.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 27
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 161
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "js": true,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "Study abroad consultancy in Mysuru",
+        "hero": 409.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 34
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 81
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "js": true,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "How to choose a study abroad consultant in Karnataka",
+        "hero": 352.375,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 51
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 144
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    },
+    {
+      "route": "/blog/",
+      "js": true,
+      "width": 1280,
+      "shape": {
+        "visibility": "visible",
+        "fontPending": false,
+        "scroll": 1280,
+        "width": 1280,
+        "h1": "ILMERA study abroad blog",
+        "hero": 361.1875,
+        "firstLight": "rgb(240, 244, 255)",
+        "canvas": null
+      },
+      "fonts": {
+        "h1": [
+          {
+            "familyName": "Cormorant Garamond Light",
+            "postScriptName": "CormorantGaramond-Light",
+            "isCustomFont": true,
+            "glyphCount": 24
+          }
+        ],
+        ".seo-opening": [
+          {
+            "familyName": "Outfit Thin",
+            "postScriptName": "Outfit-Thin",
+            "isCustomFont": true,
+            "glyphCount": 134
+          }
+        ]
+      },
+      "violations": [],
+      "small_targets": []
+    }
+  ],
+  "faq_checks": 126,
+  "scene_states": [
+    {
+      "state": "normal",
+      "still_requests": 0,
+      "hidden": "document.hidden branch emulated; not OS throttling proof"
+    },
+    {
+      "state": "reduced-motion",
+      "still_requests": 0,
+      "hidden": "document.hidden branch emulated; not OS throttling proof"
+    },
+    {
+      "state": "save-data",
+      "still_requests": 0,
+      "hidden": "document.hidden branch emulated; not OS throttling proof"
+    },
+    {
+      "state": "hidden",
+      "still_requests": 0,
+      "hidden": "document.hidden branch emulated; not OS throttling proof"
+    }
+  ],
+  "network": "npm-mirrored external fonts/scripts; local assets; never submits forms",
+  "passed": true
+}

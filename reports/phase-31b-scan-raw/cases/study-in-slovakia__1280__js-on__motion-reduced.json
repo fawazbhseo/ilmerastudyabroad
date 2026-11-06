@@ -1,0 +1,181 @@
+{
+  "id": "study-in-slovakia__1280__js-on__motion-reduced",
+  "route": "/study-in-slovakia",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-slovakia",
+  "http_status": 200,
+  "page_height": 5696,
+  "scroll": {
+    "height": 5696,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 5696,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4560
+    },
+    "visible_text_chars": 3639,
+    "visible_text_nodes": 82,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Slovakia from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in Slovakia from India starts with programme-specific "
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in Slovakia fro"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 669,
+        "text": "Full-time study in Slovak at public institutions can involve"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 737,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 809,
+        "text": "Discuss study in Slovakia from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 969,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1037,
+        "text": "Standard admissions and visa support."
+      },
+      {
+        "selector": "h2",
+        "y": 1138,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1206,
+        "text": "The European Commission profile states that Slovak-language "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1273,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1317,
+        "text": "The study portal estimates a total yearly budget of around 7"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1356,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1434,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "li",
+        "y": 1501,
+        "text": "The National Scholarship Programme of the Slovak Republic su"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1569,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1647,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1714,
+        "text": "Applications for a Slovak national visa are submitted at a d"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1753,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1797,
+        "text": "The embassy contact page says visa applications are accepted"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1865,
+        "text": "[3]"
+      },
+      {
+        "selector": "h2",
+        "y": 1942,
+        "text": "Documents"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5696,
+    "scan_width": 512,
+    "scan_height": 2278,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5004389815627746
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "09a2e897d1db2b84aa60c2b93fa772324336acd2474129fe8233834ddc84f413"
+  }
+}

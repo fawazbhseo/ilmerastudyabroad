@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-consultants-in-kodagu__1280__js-off__motion-normal",
+  "route": "/study-abroad-consultants-in-kodagu",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-consultants-in-kodagu",
+  "http_status": 200,
+  "page_height": 4868,
+  "scroll": {
+    "height": 4868,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4868,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3732
+    },
+    "visible_text_chars": 4183,
+    "visible_text_nodes": 37,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Kodagu"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Kodagu: prepare separate concern"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "A study plan may involve a student, family members and a cou"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to prepare separate concerns before the joint co"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Prepare separate concerns before the joint conversation"
+      },
+      {
+        "selector": "p",
+        "y": 955,
+        "text": "Invite each person involved to write the questions that matt"
+      },
+      {
+        "selector": "h2",
+        "y": 1200,
+        "text": "Distinguish participation from authority to act"
+      },
+      {
+        "selector": "p",
+        "y": 1268,
+        "text": "Agree who may receive updates and who may approve a submissi"
+      },
+      {
+        "selector": "h2",
+        "y": 1513,
+        "text": "Return to the unresolved decision after each stage"
+      },
+      {
+        "selector": "p",
+        "y": 1580,
+        "text": "At the end of a family discussion, identify what has been de"
+      },
+      {
+        "selector": "p",
+        "y": 1806,
+        "text": "Counselling is online, and students from Kodagu do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1879,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1972,
+        "text": "How can a Kodagu family prepare for a joint counselling call"
+      },
+      {
+        "selector": "p",
+        "y": 2027,
+        "text": "Collect each participant's questions beforehand and group th"
+      },
+      {
+        "selector": "summary",
+        "y": 2068,
+        "text": "Does receiving an update authorise a relative to change an a"
+      },
+      {
+        "selector": "p",
+        "y": 2123,
+        "text": "Not by itself. Clarify who can approve instructions, submiss"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2245,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2312,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2373,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2482,
+        "text": "Kodagu place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2557,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2611,
+        "text": "Madikeri"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4868,
+    "scan_width": 512,
+    "scan_height": 1947,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.500256805341551
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "5187e0b6bc36d3a807bbb1fe1aa098dc9e153d9118bc44f75f33d7932e8ceceb"
+  }
+}

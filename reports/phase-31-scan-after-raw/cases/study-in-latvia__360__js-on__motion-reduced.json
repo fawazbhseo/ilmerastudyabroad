@@ -1,0 +1,511 @@
+{
+  "id": "study-in-latvia__360__js-on__motion-reduced",
+  "route": "/study-in-latvia",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-latvia",
+  "http_status": 200,
+  "page_height": 7949,
+  "scroll": {
+    "height": 7949,
+    "scroll_samples": 13,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 7949,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 5815
+    },
+    "visible_text_chars": 4009,
+    "visible_text_nodes": 79,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Latvia from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 380,
+        "text": "Study in Latvia from India starts with programme-specific pl"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 518,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 518,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 586,
+        "text": "What should I check before planning to study in Latvia from "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 712,
+        "text": "Indian students admitted to an accredited Latvian institutio"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 895,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 966,
+        "text": "Discuss study in Latvia from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 1145,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1206,
+        "text": "ILMERA counsellors review a student's academic transcripts, "
+      },
+      {
+        "selector": "h2",
+        "y": 1422,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1483,
+        "text": "The European Commission Latvia profile estimates student liv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1695,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1772,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1833,
+        "text": "Indian nationals enrolled at accredited Latvian institutions"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2016,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 2060,
+        "text": "Applicants from India must have their visa support document "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2243,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 2286,
+        "text": "Appointments for submission and for a video or in-person int"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2441,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 2484,
+        "text": "The application form is completed online at epak.pmlp.gov.lv"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2667,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2744,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 2805,
+        "text": "A proof of intended residence in Latvia must be submitted wi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 7949,
+    "scan_width": 360,
+    "scan_height": 7949,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1021,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1069,
+          "element_height": 306,
+          "computed": {
+            "min_height": "0px",
+            "height": "305.984px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 966,
+            "text": "Discuss study in Latvia from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1206,
+            "text": "ILMERA counsellors review a student's academic transcripts, standardized test scores (if a"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5041,
+        "height": 194,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00204,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 5173,
+          "computed": {
+            "min_height": "0px",
+            "height": "5173.34px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5021,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5326,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5508,
+        "height": 162,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00107,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5269,
+          "computed": {
+            "min_height": "0px",
+            "height": "5269.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5444,
+            "text": "Explore our services"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5688,
+            "text": "Ask ILMERA about study in Latvia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5743,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5688,
+            "text": "Ask ILMERA about study in Latvia from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 248,
+        "height": 136,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 518,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1021,
+        "height": 133,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0031,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 1069,
+          "element_height": 306,
+          "computed": {
+            "min_height": "0px",
+            "height": "305.984px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 966,
+            "text": "Discuss study in Latvia from India online"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1206,
+            "text": "ILMERA counsellors review a student's academic transcripts, standardized test scores (if a"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5041,
+        "height": 194,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00204,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 376,
+          "element_height": 5173,
+          "computed": {
+            "min_height": "0px",
+            "height": "5173.34px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5021,
+            "text": "GCC"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 5326,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5508,
+        "height": 162,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00107,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 5269,
+          "computed": {
+            "min_height": "0px",
+            "height": "5269.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 5444,
+            "text": "Explore our services"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5688,
+            "text": "Ask ILMERA about study in Latvia from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5743,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-latvia__360__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 5688,
+            "text": "Ask ILMERA about study in Latvia from India"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "f1c066f1c6f447f100d1a961cb9bde1c120a9ab96b13cb0976e5b618a13e3874"
+  }
+}

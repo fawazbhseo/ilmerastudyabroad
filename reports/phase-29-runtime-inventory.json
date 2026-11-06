@@ -1,0 +1,3000 @@
+{
+  "source_head": "56914f22c1f9a8dd8eb16a05099faffbc2ff1f34",
+  "all_130_current_and_zip_hashes_match": true,
+  "files": [
+    {
+      "path": ".htaccess",
+      "live_url": "https://ilmerastudyabroad.com/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 969,
+      "sha256": "660f6611834716f7befe4a29ff4c1e69832934cfc9764f3eab517a0b5e9351cb",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "404.php",
+      "live_url": "https://ilmerastudyabroad.com/404",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 7904,
+      "sha256": "2f9fc981044bb92f68e794bb0f5b43cf5e8164473273eba802ebe6cca5550b94",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "about.php",
+      "live_url": "https://ilmerastudyabroad.com/about",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Reference route, deliberately excluded from visual overlay",
+      "in_payload_hash_match": true,
+      "bytes": 75145,
+      "sha256": "bb5460d63aa98a63b001d956b251326d856a0bed72adbe1f091d3d5358e173ba",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "all-pages.php",
+      "live_url": "https://ilmerastudyabroad.com/all-pages",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 5801,
+      "sha256": "a388cc951cc9dd627383d550ef310abbcefd5cdc4ff91726cc70aa36be9dfc7e",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/css/visual-system.css",
+      "live_url": "https://ilmerastudyabroad.com/assets/css/visual-system.css",
+      "expected_status": "200",
+      "expected_content_type": "text/css",
+      "browser_request": "Diagnostic URL only; no stylesheet link, no query version",
+      "role": "Critical SERVER-DISK read, inserted as inline style. Browser does NOT fetch this CSS URL",
+      "in_payload_hash_match": true,
+      "bytes": 23490,
+      "sha256": "2f7086f6124c68f5ab7a5fbc864e61b2b25b29219914de06119231aa248cf71f",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 296,
+      "sha256": "abbda2062f1e1c57c9771a8b50a002ba3f239fa04d20f0efaf714ce0264d41e8",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-OFL.txt",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/cormorant-garamond-OFL.txt",
+      "expected_status": "200",
+      "expected_content_type": "text/plain",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4504,
+      "sha256": "732f37009943e7f4378cf37113c9bcc4716af002a8583511aa91ed5d37683e73",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-latin.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/cormorant-garamond-latin.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "No HTTP request for destination; inline data:font/woff2",
+      "role": "Critical SERVER-DISK read for destination embedded data fonts; NOT HTTP-dependent there",
+      "in_payload_hash_match": true,
+      "bytes": 10456,
+      "sha256": "0ee72c59334ef2ffee83ebb314be26d74fcae1be428c9e1035eaf60ee293f3b4",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-400.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/cormorant-garamond-reference-400.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/cormorant-garamond-reference-400.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 22908,
+      "sha256": "727acdbfd81848bcc9a5c2a6c64ba1b97ba93c69515382785483ce0cc068be08",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond-reference-700.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/cormorant-garamond-reference-700.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/cormorant-garamond-reference-700.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 22392,
+      "sha256": "949a2a601dd37c9aeb888b1ce6ce17383173aaea128af4a16df45e77e6fcd903",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-OFL.txt",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-OFL.txt",
+      "expected_status": "200",
+      "expected_content_type": "text/plain",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4387,
+      "sha256": "0e5fcef5d93bfcae273c11c00f0bb453d3b5491860e1ac8b658767b7577c938f",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-latin.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-latin.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "No HTTP request for destination; inline data:font/woff2",
+      "role": "Critical SERVER-DISK read for destination embedded data fonts; NOT HTTP-dependent there",
+      "in_payload_hash_match": true,
+      "bytes": 17084,
+      "sha256": "db614390b3f3ac79f7731a50d6ff2494c818aaf788475322b83c3ff9faa9e854",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-reference-300.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-reference-300.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/outfit-reference-300.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 13956,
+      "sha256": "ef88e74f63ce75b54cce4d5a4087c6f180750b9ebae6ab6e5bf2a9939bf6958f",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-reference-400.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-reference-400.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/outfit-reference-400.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 14032,
+      "sha256": "71f028fd2349990b3f8aa643abe767e82e0f596be407ae66f0004ff164121bdb",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-reference-500.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-reference-500.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/outfit-reference-500.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 13528,
+      "sha256": "fc9bff941def6d924a71632bd8a93190528872eae6414844f3c367ff948d92fd",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-reference-600.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-reference-600.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/outfit-reference-600.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 14140,
+      "sha256": "8cfe15c2c6de6ef8efff3eedbd52a383ac9ef23d6c23f6cd9f9b838f5f37dc36",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/fonts/outfit-reference-700.woff2",
+      "live_url": "https://ilmerastudyabroad.com/assets/fonts/outfit-reference-700.woff2",
+      "expected_status": "200",
+      "expected_content_type": "font/woff2",
+      "browser_request": "Root-absolute /assets/fonts/outfit-reference-700.woff2; no version query",
+      "role": "HTTP font for place/article/blog/legal/directory/404; destination removes these faces",
+      "in_payload_hash_match": true,
+      "bytes": 14060,
+      "sha256": "5d5e3734089a74707292ce8a3e186def34cd63e33879f9ac3689a8d8da9d0706",
+      "governing_htaccess": [
+        ".htaccess",
+        "assets/fonts/.htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/fawazbh-192.webp",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/fawazbh-192.webp",
+      "expected_status": "200",
+      "expected_content_type": "image/webp",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 7892,
+      "sha256": "fc27a85edaa4ec5dbd231b51d28f20cacdcce2bdc3cb7ed27c17fa68eca3ba76",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/fawazbh-384.webp",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/fawazbh-384.webp",
+      "expected_status": "200",
+      "expected_content_type": "image/webp",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 19056,
+      "sha256": "a3c401504f579ac5add974098560858fb8718993007318029278f31ae6488f3b",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/ilmera.logo.png",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+      "expected_status": "200",
+      "expected_content_type": "image/png",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 98340,
+      "sha256": "6fd63c7cfdc05ca354237b98f0869cccbde222bf4b0b5dc55233ef7b9e097fc6",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/jabirkj.png",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/jabirkj.png",
+      "expected_status": "200",
+      "expected_content_type": "image/png",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 46374,
+      "sha256": "b4d2e443f8677081c2f8e330cb286144df00c256cd9fbedde718722ebb3d445b",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/jabirkj.webp",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/jabirkj.webp",
+      "expected_status": "200",
+      "expected_content_type": "image/webp",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 8302,
+      "sha256": "88069b124c6df86c5c598fecd88c1ecdc2173ef136f49d137448027422b63ac9",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/zaheer.png",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/zaheer.png",
+      "expected_status": "200",
+      "expected_content_type": "image/png",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 47311,
+      "sha256": "cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "assets/images/zaheer.webp",
+      "live_url": "https://ilmerastudyabroad.com/assets/images/zaheer.webp",
+      "expected_status": "200",
+      "expected_content_type": "image/webp",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Actual header/footer/proof/team image, conditional on rendered template",
+      "in_payload_hash_match": true,
+      "bytes": 11014,
+      "sha256": "47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 16850,
+      "sha256": "9d7d4ab680ffb1d01688c1433f3f7a87bf3093cf1b0a085139c159c5936e2d06",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/documents-needed-to-study-abroad-from-india.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 17855,
+      "sha256": "e8ba9efc53a5a72f4aa0c1531e9c42355b8a2887b265513a6e472181c14e6d48",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 14628,
+      "sha256": "7a3381505ba28a1cc1ec6839863c53ee244166a2ad6fdafd35697e2ff6a8b8b4",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/index.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 10778,
+      "sha256": "68fa591ced9d5eb936cf9aea565f4a573562846aaa6c4e59aa42827414cbbe4e",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/italy-dsu-scholarship-eligibility.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/italy-dsu-scholarship-eligibility",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 11258,
+      "sha256": "fd3806921210beafcd7a97ffc8aa69e1fb8f608735afa4e87e14a051bd146faa",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/scholarships-for-indian-students-study-abroad.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 16072,
+      "sha256": "7fb048f05eb66c3cad82978acb5c39c484910f1dab52a04542a78a020ce46bce",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/study-abroad-counselling-from-coorg.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 11915,
+      "sha256": "3947b7fb08218a29f5e5db90cff5138d07dd807b6e39716f6f2ed346d0464c58",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/study-abroad-with-academic-backlogs.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 12768,
+      "sha256": "91ac6545badec32b3e21c0404f6a75522f32af9acf698a198e8ee8319cae1d2e",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "blog/study-in-germany-free-aps-certificate.php",
+      "live_url": "https://ilmerastudyabroad.com/blog/study-in-germany-free-aps-certificate",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 12141,
+      "sha256": "b7ee7ebb27d577e1dba58133475234bfbb0f7f4db1d3ac46c5f6778faa0c2550",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "contact.php",
+      "live_url": "https://ilmerastudyabroad.com/contact",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Reference route, deliberately excluded from visual overlay",
+      "in_payload_hash_match": true,
+      "bytes": 66292,
+      "sha256": "634697a2ee0b1c9bcea2c7bff958f2bee0affc7a052a8a485a2c4e3a4ae29ac2",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "data/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/data/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/answer-map.json",
+      "live_url": "https://ilmerastudyabroad.com/data/answer-map.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 47087,
+      "sha256": "d70fd5794091ed2d1a6af4f5c15c89bcf986989616dedccd36e748c8b3626f74",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/entity.json",
+      "live_url": "https://ilmerastudyabroad.com/data/entity.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 2464,
+      "sha256": "81fbda98cfd8a54dd58fc5cb475e676a26c10dd43494d3b0f1bfeb44ce600340",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/payment-disclosure.json",
+      "live_url": "https://ilmerastudyabroad.com/data/payment-disclosure.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 1138,
+      "sha256": "1abfeaae9d046025bb6bd77ab71df83a28cb9ea51aea6abe359ad3d27b285ea8",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/proof.php",
+      "live_url": "https://ilmerastudyabroad.com/data/proof.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 468,
+      "sha256": "ecefe4ef7c4f55ebaf9b3e3f29e4f2a11d8528d934fa8dfd5fcb1323884fee08",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/seo-map.json",
+      "live_url": "https://ilmerastudyabroad.com/data/seo-map.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 23432,
+      "sha256": "a1f8e62a2ef238e6812ff6e64d4f6192aceb21452fc90f1ed444b810f62e5276",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/service-scope.json",
+      "live_url": "https://ilmerastudyabroad.com/data/service-scope.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 2494,
+      "sha256": "47dcdba726c5dbcd17897d94b4b0a861f114e6ec515b4e0535db89d53c1521b3",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "data/team.json",
+      "live_url": "https://ilmerastudyabroad.com/data/team.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 2030,
+      "sha256": "35cb45fc1222d47dd39c2b022addea6c2a7cb8765cfcc01115e3f3ff7a8f9ca4",
+      "governing_htaccess": [
+        ".htaccess",
+        "data/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/destinations/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/czech-republic.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/czech-republic.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 7630,
+      "sha256": "cf0407523240d008916a1e5a6a289421ea92c5e476e8874e8fc4f597ef172bda",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/gcc.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/gcc.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 17707,
+      "sha256": "6db58df85f2d6d21dd1419572e5e846b0e599d51e666bf734c192a72ef2d4cd6",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/germany.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/germany.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 6761,
+      "sha256": "2aa14f954c8937be695e664b1fc9ed9a3759e2986ddc15d6889beb896429e370",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/italy.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/italy.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 7873,
+      "sha256": "31b1d68973a9af9d558bc11ce6b32e086e057a75aa559712604a05686b843296",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/latvia.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/latvia.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 7967,
+      "sha256": "f4a13cae2465636b2ea36a7a0cc796c0e355a644b1f7b8ebc5f7ec5976d9a0f4",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/lithuania.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/lithuania.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 5550,
+      "sha256": "a8c636c9fc7abd0470b137594b94d3fb7949f20f4a2e0059fa3b70a90e2d3ad4",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/russia.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/russia.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 7064,
+      "sha256": "b7344b9b6614c0321999a61bc5716bfa83d2870d4e9fb6ea55b33d00989de899",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/slovakia.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/slovakia.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 6807,
+      "sha256": "3e8cac1ca1821edb7941cd4ed613bfa63182927afa8865cb64e70b19c7890bf3",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "destinations/uk.php",
+      "live_url": "https://ilmerastudyabroad.com/destinations/uk.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 8467,
+      "sha256": "c61a8263e579e2922684d76b835ee60983a8ce39deb2830fb823f7cedd781012",
+      "governing_htaccess": [
+        ".htaccess",
+        "destinations/.htaccess"
+      ]
+    },
+    {
+      "path": "favicon.ico",
+      "live_url": "https://ilmerastudyabroad.com/favicon.ico",
+      "expected_status": "200",
+      "expected_content_type": "image/x-icon",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4286,
+      "sha256": "d56f454c1b22b448f00503c856b9a8079475e9eec6b1efccc86b1fd58534b679",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "google10fa7a4178242a1f.html",
+      "live_url": "https://ilmerastudyabroad.com/google10fa7a4178242a1f.html",
+      "expected_status": "200",
+      "expected_content_type": "text/html",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 53,
+      "sha256": "ac24b3229f0855ab347e78ddf8588756f33479657459805addf802e201bfc92a",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "includes/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/includes/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/breadcrumbs.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/breadcrumbs.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 1663,
+      "sha256": "d07ac0d14e6b6f87c4554ccdbd07db56464a676c8c4bfeef8c083ba473f1c139",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/destination-data.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/destination-data.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 9438,
+      "sha256": "fc17211f547b456343081b6dc7dfbf7ecc15d20fc54403f65370953bad8cdfe9",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/destination-page.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/destination-page.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 12424,
+      "sha256": "ff93a4f875b559d71c3115672684c98cc907b77b3bd944b5b0855154a884795d",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/entity.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/entity.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 2580,
+      "sha256": "a9d0b3e6b993db7c1c442f5e888abdebfd699e371b3101a592bd6b2aab288c9c",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/footer.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/footer.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 8201,
+      "sha256": "52c606828e1065acfbe62115fdbb4fa593ca0487081e454334fba5936550a240",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/header.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/header.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 7182,
+      "sha256": "f1a5666aec8a7b80e25b743c19110950c367f1373242217099e4d21760bdb63e",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/links.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/links.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 12752,
+      "sha256": "886bbefc854f85a652d382e5caeef32fbe575fe2b50b3398aa95df2e7841435e",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/payment-disclosure.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/payment-disclosure.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 1977,
+      "sha256": "258847ed695eec19d0a4fa791be49f4e1c12478fcac2be9f713a570c3174c949",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/place-data.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/place-data.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 8434,
+      "sha256": "9ecce15409d5ac6348c479c496e292c7138e973db3dc00c3337cc493b7e3333e",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/place-page.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/place-page.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 13435,
+      "sha256": "6020d83eeeac11f4b72e41eacd49940c6f83bb34a8ef4b536d47b19d769ec7b2",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/posts.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/posts.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 9114,
+      "sha256": "fe3f312e467e9d7b9d46b3d667da4350d6a20a0ae9b3b87f9ec112552a39c40e",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/proof.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/proof.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 5108,
+      "sha256": "13a0285a4a0495f0492cbeb305e0fbbeef885314b0f9a849231918f4a4aa7425",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/service-scope.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/service-scope.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 3993,
+      "sha256": "d4f09736d8ba9adb47f2dbc55785c420be9787b675f02b0d7d933d3c896fe10b",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/site-presentation.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/site-presentation.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 11273,
+      "sha256": "ce43a45f205a9256e0429571ff22ec3df87ab2fd2dad27f32e95d408db292d1f",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/sitemap-data.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/sitemap-data.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 2408,
+      "sha256": "13a1e920ea86620ad7404d9bcab665678d9c3b9991f40986e80185bca8bd05ad",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/visual-config.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/visual-config.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 848,
+      "sha256": "f68570eb69bef74850f06c4d54b488fcdf1ec1a5a81f37d563eef53dab4e2c76",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "includes/visual-system.php",
+      "live_url": "https://ilmerastudyabroad.com/includes/visual-system.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "PHP require/include or presentation dependency; never upload elsewhere",
+      "in_payload_hash_match": true,
+      "bytes": 7898,
+      "sha256": "95858ce9008bebf54b58075d07a653441233cf7d5dc67b5815a790a62b6b9a6f",
+      "governing_htaccess": [
+        ".htaccess",
+        "includes/.htaccess"
+      ]
+    },
+    {
+      "path": "index.php",
+      "live_url": "https://ilmerastudyabroad.com/",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Reference route, deliberately excluded from visual overlay",
+      "in_payload_hash_match": true,
+      "bytes": 85160,
+      "sha256": "5ec4bcf5ca18b262588952150838d9e92985d68a5ae620e7579a9057eaa58b3a",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "llms-full.txt",
+      "live_url": "https://ilmerastudyabroad.com/llms-full.txt",
+      "expected_status": "200",
+      "expected_content_type": "text/plain",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 22111,
+      "sha256": "097dc9abb2eeb8377a091843d0b20489c8f04141e81da757e8bfe852078e7299",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "llms.txt",
+      "live_url": "https://ilmerastudyabroad.com/llms.txt",
+      "expected_status": "200",
+      "expected_content_type": "text/plain",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 24501,
+      "sha256": "ad99c63172bbf4029b2937a0fb824b21f422345b10f4a8764c5c172344db61d8",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "phase14-article-review.json",
+      "live_url": "https://ilmerastudyabroad.com/phase14-article-review.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 25521,
+      "sha256": "2d7a71ab15ff3167c5ea5d5dafb5de24b6a057576e677528a695f3711fcb519d",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "phase14-location-review.json",
+      "live_url": "https://ilmerastudyabroad.com/phase14-location-review.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 22736,
+      "sha256": "252510cfc9e60dc00bfe91255d85320d1b73c6f627866b20e9500d41a6ddbeab",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "phase14-source-review.json",
+      "live_url": "https://ilmerastudyabroad.com/phase14-source-review.json",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 74154,
+      "sha256": "80eb69b4a7a70f162a2cf270e0221a80b761d325c2685ceddb0c0e2cf4563fae",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "places/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/places/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/belagavi.php",
+      "live_url": "https://ilmerastudyabroad.com/places/belagavi.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4474,
+      "sha256": "091c0653e3ef037bd7af0522bb98195c9751c2531b9fa9f50ba2423f6eba6d6d",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/bengaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/places/bengaluru.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4583,
+      "sha256": "a72348f273f40fed28312c64a412071223d0fa6bd9085778407cf75cb47df2d2",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/chikkamagaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/places/chikkamagaluru.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4604,
+      "sha256": "69f23aa0174c56e2c4735639084dbb886a649b3b0f2ba700e0e950434f716380",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/gonikoppal.php",
+      "live_url": "https://ilmerastudyabroad.com/places/gonikoppal.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4633,
+      "sha256": "33d88d5b15d71bacaedbb1f283eb86d50afa1b28971070141e6b3f5a6f940867",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/hassan.php",
+      "live_url": "https://ilmerastudyabroad.com/places/hassan.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4406,
+      "sha256": "b618383155075bb0c564a8b77a6454f78b49f00315d1e0e65f4fee670eb47fcf",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/karnataka.php",
+      "live_url": "https://ilmerastudyabroad.com/places/karnataka.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4681,
+      "sha256": "b42265c20440f1d92f7236f59036d748bdd76b7c9efcf8d2322405c3d5db96ac",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/kodagu.php",
+      "live_url": "https://ilmerastudyabroad.com/places/kodagu.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4689,
+      "sha256": "e7baab44e0c5903e821a873b2c5e55bacb697c68fb8af07b6225a5d9f67f4594",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/kushalnagar.php",
+      "live_url": "https://ilmerastudyabroad.com/places/kushalnagar.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4528,
+      "sha256": "a54a8caca296bc0baa8029943aab6b4edfddb3743b736156df30fa658dc757af",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/madikeri.php",
+      "live_url": "https://ilmerastudyabroad.com/places/madikeri.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4598,
+      "sha256": "373c9033c1b2aaec0dfb8ae9fe60886809ae221b832c690633cc6dd783b0cae9",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/mangaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/places/mangaluru.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4643,
+      "sha256": "86d74674ab9c6195e0cbd925d94f1118b1dbc476c8087a0f6468bfcc18076cbd",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/mysuru.php",
+      "live_url": "https://ilmerastudyabroad.com/places/mysuru.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4587,
+      "sha256": "3ea32edd15cd3681fd05a4070cc7a12b267942547c280b4cd011fa0591a1f2f3",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/ponnampet.php",
+      "live_url": "https://ilmerastudyabroad.com/places/ponnampet.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4684,
+      "sha256": "8ffd85b53ea9bd3b1e8a40bac6ce6a8e51be5d4d8e8ad1cacab5d522635807aa",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/shivamogga.php",
+      "live_url": "https://ilmerastudyabroad.com/places/shivamogga.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4528,
+      "sha256": "432420abf7fb9f6d1535e7150876e5935783c143adbed38417dff8f12ce588b7",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/siddapura.php",
+      "live_url": "https://ilmerastudyabroad.com/places/siddapura.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4644,
+      "sha256": "489d4601332a8846e4d592696aa6d05af058355dba43d0a2f9212b78514a649a",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/somwarpet.php",
+      "live_url": "https://ilmerastudyabroad.com/places/somwarpet.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4691,
+      "sha256": "d6c30cbdc69175b0b69c194e6c2da38d2bfd17bc37344aacaa18e8317204b521",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/udupi-manipal.php",
+      "live_url": "https://ilmerastudyabroad.com/places/udupi-manipal.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4650,
+      "sha256": "93658572dc0ed5ef6f9d2aded20653ec7fac115405b4075daecdfee1652b55ec",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "places/virajpet.php",
+      "live_url": "https://ilmerastudyabroad.com/places/virajpet.php",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4609,
+      "sha256": "14c8be5bc79b1da8d88a335fe1459b24132ef0863d246da7f40d0318104f5e92",
+      "governing_htaccess": [
+        ".htaccess",
+        "places/.htaccess"
+      ]
+    },
+    {
+      "path": "privacy-policy.php",
+      "live_url": "https://ilmerastudyabroad.com/privacy-policy",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 12385,
+      "sha256": "bcfe3e889f51a04c984f84232f6e2d72eeefb8f83ef2de9c5449d1239aa5e678",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "reports/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/reports/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "reports/.htaccess"
+      ]
+    },
+    {
+      "path": "robots.txt",
+      "live_url": "https://ilmerastudyabroad.com/robots.txt",
+      "expected_status": "200",
+      "expected_content_type": "text/plain",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 896,
+      "sha256": "1547d6509231507a8e84350c975b45abc22cf79646dd93d6518ad6b62eb32a80",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "services.php",
+      "live_url": "https://ilmerastudyabroad.com/services",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Reference route, deliberately excluded from visual overlay",
+      "in_payload_hash_match": true,
+      "bytes": 84455,
+      "sha256": "4da5d8b95fa68bb7f6be4a5ccf99fdc32a28947c9207104b5b8019f9b25888b1",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "sitemap.php",
+      "live_url": "https://ilmerastudyabroad.com/sitemap.xml",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 142,
+      "sha256": "536a08d40515e0f819cf6c9418a4b0a5bb28b6e8c4c040a77b82d6da8ea7dd3d",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "live_url": "https://ilmerastudyabroad.com/sitemap.xml",
+      "expected_status": "200",
+      "expected_content_type": "application/xml",
+      "browser_request": "Route or static dependency, see role",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 4853,
+      "sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-consultants-in-karnataka.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "63d171436b94729fb1151caf697e09fdda57e8fc71c0e642f17f14e73beb03ed",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-consultants-in-kodagu.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 142,
+      "sha256": "dc58ac2d5cf467846d5a5d88b7a602da913997a7399a23b7d1b990339a4a7a56",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-belagavi.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 144,
+      "sha256": "8569ed1180f7569ef9edc19d1add9bc960295fc7f009105a40485f37fdf203ad",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-bengaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "3bb7bd9b6ce2a0bded5925559528b1b3947d502c66b224cd016d416328d2ab54",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-chikkamagaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 150,
+      "sha256": "f4ddff551eaf30abfda7b6e6161bbb78018578daf46f30f1f7463dcbb691f3b2",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-gonikoppal.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 146,
+      "sha256": "7b44b418650b3b405411c2b273533602f61dafe654f5102ce176ba321617491b",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-hassan.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 142,
+      "sha256": "7861fc22b3a4a179bcdb80e29e9e85b32ea321e7da1b0a28188bbd9950f97086",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-kushalnagar.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 147,
+      "sha256": "7cfdb76c5eff0c4041f7de5afd4aede9bf7c17e7c3137234d7be2f18b8992d3b",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-madikeri.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 144,
+      "sha256": "0c725d6b405ac574c6913a05114192db0830376e5db0f77fffe5031f87006e50",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-mangaluru.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "c7f921cc379c99e186ba6581e9cfd6b41394e08f2297b76eef2bbdcd2ca588f5",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-mysuru.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 142,
+      "sha256": "a33db2c6f60c418d76d977465cfa3d0c03ea1ab9448b7e757219f2282ef6eee7",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-ponnampet.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "9e562ce8f83b4a0f1fa2a310d05e90cbd8a287eb4b56cb6332d358c06622394d",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-shivamogga.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 146,
+      "sha256": "628bdf9cd36de86a665d87948bbd9da319654fdae7bec680597da62d8b27f16b",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-siddapura.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "6c0f16d742f8df2a4be8d466d760feb6309ea7dca45ee008e47ab6d9481ef700",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-somwarpet.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 145,
+      "sha256": "ffef272069a438522dc81fb3d552c241cce502e9bc7c3d220ba267176b51326d",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-udupi-manipal.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 149,
+      "sha256": "3b86ac35796d52abd787e7481b1eeaa8400732589b42430f908daf0a9b56d259",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-abroad-counselling-virajpet.php",
+      "live_url": "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 144,
+      "sha256": "dcd586d6ef3b20e5b94d91bd552adf90b094fbe6851d7e12738da3be187c2099",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-czech-republic.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-czech-republic",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 94,
+      "sha256": "4ae3173109a265f2e11bf88272f56615cfad4f166bb16979b3dcd27c2584f540",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-gcc.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-gcc",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 151,
+      "sha256": "3a3dfb9bbf792dbfdeef1df1dd2b946ca56f26840977a183aba7f29135c09742",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-germany.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-germany",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 155,
+      "sha256": "55eac97163c432f303ec3adcfca71449f4564283cb8d1e21f8bcb95e08d25957",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-italy.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-italy",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 153,
+      "sha256": "43992ec2d013d4cd7578077f8878289144bc15a08738fb28834025f6e6292b98",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-latvia.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-latvia",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 154,
+      "sha256": "967a8b00d4968c95e9f372ede5bec94ceb5f89ba10c16c82da9c605498b65ae1",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-lithuania.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-lithuania",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 157,
+      "sha256": "33461b00e923b7483d11ff72f9dec2631f4988c09dc821ffe1b5c4be16720b92",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-russia.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-russia",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 86,
+      "sha256": "1f3a264697834e81249a63090d494d08d12de8798bad69efc36bb4baf5a91ea3",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-slovakia.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-slovakia",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 156,
+      "sha256": "45e7a07ae40bf44d9c3c1d47cf56caecaedfa7695091ae1d8a1209c90d4bfede",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "study-in-uk.php",
+      "live_url": "https://ilmerastudyabroad.com/study-in-uk",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 150,
+      "sha256": "d541855e9b8895556c249538a60623b6f790912642210b003ab7370906ec52f8",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "terms.php",
+      "live_url": "https://ilmerastudyabroad.com/terms",
+      "expected_status": "200",
+      "expected_content_type": "text/html (sitemap.php: application/xml)",
+      "browser_request": "Page request, PHP executes includes server-side",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 13624,
+      "sha256": "6ebc101e222a1a20c4db8418663ee7198038d5a111a792917930d4bcf1b7a7a7",
+      "governing_htaccess": [
+        ".htaccess"
+      ]
+    },
+    {
+      "path": "tools/.htaccess",
+      "live_url": "https://ilmerastudyabroad.com/tools/.htaccess",
+      "expected_status": "403 or404, never raw contents",
+      "expected_content_type": "Error response type is host-specific, not PHP/JSON source",
+      "browser_request": "No direct browser request; PHP filesystem dependency",
+      "role": "Payload runtime/support dependency",
+      "in_payload_hash_match": true,
+      "bytes": 96,
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "governing_htaccess": [
+        ".htaccess",
+        "tools/.htaccess"
+      ]
+    }
+  ],
+  "runtime_read_include_and_constant_sites": [
+    {
+      "file": "404.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/visual-system.php'; ilmera_visual_start('error'); ?>"
+    },
+    {
+      "file": "404.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "404.php",
+      "line": 78,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "about.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "about.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "about.php",
+      "line": 99,
+      "code": "      \"description\": \"ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.\","
+    },
+    {
+      "file": "about.php",
+      "line": 205,
+      "code": "      \"description\": \"Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.\","
+    },
+    {
+      "file": "about.php",
+      "line": 284,
+      "code": "            \"text\": \"Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.\""
+    },
+    {
+      "file": "about.php",
+      "line": 515,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "about.php",
+      "line": 686,
+      "code": "      <details class=\"il-faq\"><summary>Who is Fawaz BH?</summary><div><p>Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.</p></div></details>"
+    },
+    {
+      "file": "about.php",
+      "line": 706,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "all-pages.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "all-pages.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "all-pages.php",
+      "line": 50,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "all-pages.php",
+      "line": 112,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "line": 137,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/cost-of-studying-abroad-for-indian-students.php",
+      "line": 196,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 139,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 159,
+      "code": "    <p>The Czech embassy lists the travel document, photograph, accommodation, purpose of stay, funds and criminal-record documentation, with conditions and exceptions. Application documents must be in Czech; bank statements may be accepted without translation. Indian public documents require an apostille, and originals or official copies are required as specified. <a href=\"#source-CZ\">[CZ]</a></p>"
+    },
+    {
+      "file": "blog/documents-needed-to-study-abroad-from-india.php",
+      "line": 198,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/../includes/site-presentation.php';"
+    },
+    {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "line": 64,
+      "code": "</style></head><body><?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/how-to-choose-study-abroad-consultant-karnataka.php",
+      "line": 93,
+      "code": "</div></section></main><?php include __DIR__ . '/../includes/footer.php'; ?></body></html>"
+    },
+    {
+      "file": "blog/index.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/index.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/index.php",
+      "line": 6,
+      "code": "<?php require_once __DIR__ . '/../includes/posts.php'; ?>"
+    },
+    {
+      "file": "blog/index.php",
+      "line": 132,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/index.php",
+      "line": 176,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/italy-dsu-scholarship-eligibility.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/italy-dsu-scholarship-eligibility.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/italy-dsu-scholarship-eligibility.php",
+      "line": 120,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/italy-dsu-scholarship-eligibility.php",
+      "line": 160,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "line": 136,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/scholarships-for-indian-students-study-abroad.php",
+      "line": 190,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 123,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 152,
+      "code": "    <p>Most of what a study-abroad consultancy actually does, reviewing documents, comparing university requirements, tracking application status, preparing visa paperwork, is desk work that does not require a physical meeting. ILMERA is based in Coorg and supports students across India by phone, WhatsApp and video call, with documents shared digitally.</p>"
+    },
+    {
+      "file": "blog/study-abroad-counselling-from-coorg.php",
+      "line": 180,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/../includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "line": 123,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/study-abroad-with-academic-backlogs.php",
+      "line": 178,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "blog/study-in-germany-free-aps-certificate.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/../includes/posts.php';"
+    },
+    {
+      "file": "blog/study-in-germany-free-aps-certificate.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/../includes/breadcrumbs.php';"
+    },
+    {
+      "file": "blog/study-in-germany-free-aps-certificate.php",
+      "line": 122,
+      "code": "<?php include __DIR__ . '/../includes/header.php'; ?>"
+    },
+    {
+      "file": "blog/study-in-germany-free-aps-certificate.php",
+      "line": 175,
+      "code": "<?php include __DIR__ . '/../includes/footer.php'; ?>"
+    },
+    {
+      "file": "contact.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "contact.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "contact.php",
+      "line": 97,
+      "code": "      \"description\": \"ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.\","
+    },
+    {
+      "file": "contact.php",
+      "line": 168,
+      "code": "        {\"@type\":\"Question\",\"name\":\"What documents will I need for a student visa?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Requirements vary by destination but typically include: a university offer letter, proof of financial funds, academic transcripts, valid passport, language test scores (IELTS not required for Russia or Lithuania), passport photos, and a personal statement. ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance. The relevant authority decides the required evidence and the application outcome.\"}},"
+    },
+    {
+      "file": "contact.php",
+      "line": 171,
+      "code": "        {\"@type\":\"Question\",\"name\":\"How long does the entire process take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We recommend starting 9 to 12 months before your intended intake. Germany may require more lead time due to language and blocked account requirements. ILMERA explains application and appointment procedures. Timing depends on the responsible bodies and the specific case.\"}},"
+    },
+    {
+      "file": "contact.php",
+      "line": 172,
+      "code": "        {\"@type\":\"Question\",\"name\":\"Is IELTS compulsory for all countries?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. IELTS is not mandatory for Russia and Lithuania. Many programs in Latvia, Slovakia and Czech Republic also do not require IELTS. Germany and Italy require proof of language proficiency but offer alternative assessments. ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. The accepting body decides whether the evidence meets its requirements.\"}},"
+    },
+    {
+      "file": "contact.php",
+      "line": 186,
+      "code": "    <?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "contact.php",
+      "line": 471,
+      "code": "        <div class=\"faq-ans\"><p>Requirements vary by destination but typically include: a university offer letter, proof of financial funds, academic transcripts, valid passport, language test scores (IELTS not required for Russia or Lithuania), passport photos, and a personal statement. ILMERA guides students with visa documentation, appointment procedures and refusal-related guidance. The relevant authority decides the required evidence and the application outcome.</p></div>"
+    },
+    {
+      "file": "contact.php",
+      "line": 495,
+      "code": "        <div class=\"faq-ans\"><p>We recommend starting 9 to 12 months before your intended intake. Germany may require more lead time due to language and blocked account requirements. ILMERA explains application and appointment procedures. Timing depends on the responsible bodies and the specific case.</p></div>"
+    },
+    {
+      "file": "contact.php",
+      "line": 503,
+      "code": "        <div class=\"faq-ans\"><p>No. IELTS is not mandatory for Russia and Lithuania. Many programs in Latvia, Slovakia and Czech Republic also do not require IELTS. Germany and Italy require proof of language proficiency but offer alternative assessments. ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. The accepting body decides whether the evidence meets its requirements.</p></div>"
+    },
+    {
+      "file": "contact.php",
+      "line": 856,
+      "code": "    <?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "destinations/czech-republic.php",
+      "line": 58,
+      "code": "            'text' => 'Documents submitted with the application must be in Czech; bank statements may be accepted without translation. Indian public documents require an apostille, and originals or official copies are required as specified.',"
+    },
+    {
+      "file": "destinations/gcc.php",
+      "line": 51,
+      "code": "            'text' => 'The consulate states that scholarships for Indian students going to the UAE include institutional scholarships, Government of India scholarships and bilateral programmes, and encourages students to explore them before relying on self-funding.',"
+    },
+    {
+      "file": "destinations/uk.php",
+      "line": 26,
+      "code": "            'text' => 'Applicants usually need to prove their English ability. GOV.UK describes qualifying education and approved tests; a degree taught in English outside the UK may require an Ecctis assessment. For degree-level study, a higher education provider can assess English, but the level must still be equivalent to CEFR B2.',"
+    },
+    {
+      "file": "includes/breadcrumbs.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/links.php';"
+    },
+    {
+      "file": "includes/destination-data.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/place-data.php';"
+    },
+    {
+      "file": "includes/destination-data.php",
+      "line": 90,
+      "code": "    $data = (static function ($path) { return include $path; })($file);"
+    },
+    {
+      "file": "includes/destination-data.php",
+      "line": 113,
+      "code": "        $journal = is_file($file) ? json_decode(file_get_contents($file), true) : [];"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/visual-system.php'; ilmera_visual_start(); ?>"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/destination-data.php';"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/breadcrumbs.php';"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 9,
+      "code": "    include dirname(__DIR__) . '/404.php';"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 119,
+      "code": "<?php include __DIR__ . '/header.php'; ?>"
+    },
+    {
+      "file": "includes/destination-page.php",
+      "line": 180,
+      "code": "<?php include __DIR__ . '/footer.php'; ?>"
+    },
+    {
+      "file": "includes/entity.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/service-scope.php';"
+    },
+    {
+      "file": "includes/entity.php",
+      "line": 6,
+      "code": "    return json_decode(file_get_contents(dirname(__DIR__) . '/data/entity.json'), true);"
+    },
+    {
+      "file": "includes/entity.php",
+      "line": 37,
+      "code": "    return json_decode(file_get_contents(dirname(__DIR__) . '/data/team.json'), true)['members'];"
+    },
+    {
+      "file": "includes/footer.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/links.php'; ?>"
+    },
+    {
+      "file": "includes/links.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/posts.php';"
+    },
+    {
+      "file": "includes/links.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/place-data.php';"
+    },
+    {
+      "file": "includes/links.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/destination-data.php';"
+    },
+    {
+      "file": "includes/links.php",
+      "line": 10,
+      "code": "    $source = file_get_contents($file);"
+    },
+    {
+      "file": "includes/links.php",
+      "line": 241,
+      "code": "    require_once __DIR__ . '/visual-system.php';"
+    },
+    {
+      "file": "includes/payment-disclosure.php",
+      "line": 5,
+      "code": "    return json_decode(file_get_contents(dirname(__DIR__) . '/data/payment-disclosure.json'), true);"
+    },
+    {
+      "file": "includes/place-data.php",
+      "line": 76,
+      "code": "        $data = (static function ($file) { return include $file; })($path);"
+    },
+    {
+      "file": "includes/place-data.php",
+      "line": 102,
+      "code": "            $journal = is_file($file) ? json_decode(file_get_contents($file), true) : [];"
+    },
+    {
+      "file": "includes/place-data.php",
+      "line": 150,
+      "code": "            require_once __DIR__ . '/links.php';"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/visual-system.php'; ilmera_visual_start(); ?>"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/place-data.php';"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/breadcrumbs.php';"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/links.php';"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 11,
+      "code": "    include dirname(__DIR__) . '/404.php';"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 133,
+      "code": "<?php include __DIR__ . '/header.php'; ?>"
+    },
+    {
+      "file": "includes/place-page.php",
+      "line": 208,
+      "code": "<?php include __DIR__ . '/footer.php'; ?>"
+    },
+    {
+      "file": "includes/posts.php",
+      "line": 113,
+      "code": "        $journal = is_file($file) ? json_decode(file_get_contents($file), true) : [];"
+    },
+    {
+      "file": "includes/proof.php",
+      "line": 23,
+      "code": "    if ($data === null) $data = include dirname(__DIR__) . '/data/proof.php';"
+    },
+    {
+      "file": "includes/proof.php",
+      "line": 41,
+      "code": "    if ($data === null) $data = include dirname(__DIR__) . '/data/proof.php';"
+    },
+    {
+      "file": "includes/proof.php",
+      "line": 69,
+      "code": "        $entity = json_decode(file_get_contents(dirname(__DIR__).'/data/entity.json'), true);"
+    },
+    {
+      "file": "includes/service-scope.php",
+      "line": 5,
+      "code": "    return json_decode(file_get_contents(dirname(__DIR__) . '/data/service-scope.json'), true);"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/visual-system.php';"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/entity.php';"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/proof.php';"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 5,
+      "code": "require_once __DIR__ . '/payment-disclosure.php';"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 60,
+      "code": "    $map = json_decode(file_get_contents(dirname(__DIR__) . '/data/seo-map.json'), true);"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 63,
+      "code": "    $answers = json_decode(file_get_contents(dirname(__DIR__) . '/data/answer-map.json'), true);"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 151,
+      "code": "if (!defined('ILMERA_PRESENTATION_STARTED')) {"
+    },
+    {
+      "file": "includes/site-presentation.php",
+      "line": 152,
+      "code": "    define('ILMERA_PRESENTATION_STARTED', true);"
+    },
+    {
+      "file": "includes/sitemap-data.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/links.php';"
+    },
+    {
+      "file": "includes/visual-config.php",
+      "line": 4,
+      "code": "if (!defined('ILMERA_SCENES_ENABLED')) define('ILMERA_SCENES_ENABLED', true);"
+    },
+    {
+      "file": "includes/visual-config.php",
+      "line": 9,
+      "code": "if (!defined('ILMERA_VISUAL_TEMPLATE_GROUPS')) define('ILMERA_VISUAL_TEMPLATE_GROUPS', ['destination','place','article','blog','legal','utility']);"
+    },
+    {
+      "file": "includes/visual-config.php",
+      "line": 11,
+      "code": "if (!defined('ILMERA_VISUAL_INLINE_FONT_TEMPLATES')) define('ILMERA_VISUAL_INLINE_FONT_TEMPLATES', ['destination']);"
+    },
+    {
+      "file": "includes/visual-config.php",
+      "line": 13,
+      "code": "if (!defined('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES')) define('ILMERA_VISUAL_PLAIN_HERO_TEMPLATES', ['destination']);"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/visual-config.php';"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 21,
+      "code": "    if (defined('ILMERA_VISUAL_REQUEST_TEMPLATE') && ILMERA_VISUAL_REQUEST_TEMPLATE === 'error') $path = '/404';"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 67,
+      "code": "    $css = file_get_contents(dirname(__DIR__) . '/assets/css/visual-system.css');"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 74,
+      "code": "            $data = base64_encode(file_get_contents(dirname(__DIR__).'/assets/fonts/'.$face[2]));"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 103,
+      "code": "    if ($template !== null && !defined('ILMERA_VISUAL_REQUEST_TEMPLATE')) define('ILMERA_VISUAL_REQUEST_TEMPLATE', $template);"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 104,
+      "code": "    if (!defined('ILMERA_PRESENTATION_STARTED') && !defined('ILMERA_VISUAL_BUFFER_STARTED')) {"
+    },
+    {
+      "file": "includes/visual-system.php",
+      "line": 105,
+      "code": "        define('ILMERA_VISUAL_BUFFER_STARTED', true);"
+    },
+    {
+      "file": "index.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "index.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "index.php",
+      "line": 74,
+      "code": "      \"description\": \"ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.\","
+    },
+    {
+      "file": "index.php",
+      "line": 117,
+      "code": "          \"name\": \"Fawaz BH\", \"description\": \"Fawaz BH is the Chief Marketing Officer of ILMERA Study Abroad and an independent SEO, AEO and GEO consultant based in Kushal Nagar, Kodagu, Karnataka. He runs his own practice at fawazbhseo.in and has worked in SEO since early 2025. His credentials include Ahrefs Academy and Semrush certifications and an Advanced Diploma in Digital Marketing from Adrex Media School.\","
+    },
+    {
+      "file": "index.php",
+      "line": 172,
+      "code": "        {\"@type\":\"Question\",\"name\":\"Do I need IELTS to study in the UK?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Most UK universities require IELTS (commonly 5.5\u20136.5 depending on the course), though some accept a Medium-of-Instruction letter or their own English test. The UK also offers a Graduate visa for post-study work: 2 years for applications on or before 31 December 2026, and 18 months for applications from 1 January 2027, per gov.uk. ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. Language-evidence acceptance is decided by the university or responsible authority.\"}},"
+    },
+    {
+      "file": "index.php",
+      "line": 174,
+      "code": "        {\"@type\":\"Question\",\"name\":\"Which European countries are cheapest and don't require IELTS?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"The Czech Republic, Lithuania, Latvia and Slovakia are among the cheapest European destinations that often don't require IELTS, frequently accepting a Medium-of-Instruction letter or an internal English test instead. These countries also offer lower tuition and living costs than Western Europe. ILMERA confirms the current requirement for each programme before you apply.\"}},"
+    },
+    {
+      "file": "index.php",
+      "line": 175,
+      "code": "        {\"@type\":\"Question\",\"name\":\"Can I study in Lithuania or Latvia after 12th with low marks?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, Lithuania and Latvia accept Indian students after 12th with modest academic marks, offer English-taught bachelor's programmes, and often don't require IELTS. Tuition and living costs are among the lowest in the EU. ILMERA reviews your marksheet and shortlists programmes that match your profile.\"}},"
+    },
+    {
+      "file": "index.php",
+      "line": 365,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "index.php",
+      "line": 595,
+      "code": "      <details class=\"il-faq\"><summary>Do I need IELTS to study in the UK?</summary><div><p>Most UK universities require IELTS (commonly 5.5\u20136.5 depending on the course), though some accept a Medium-of-Instruction letter or their own English test. The UK also offers a Graduate visa for post-study work: 2 years for applications on or before 31 December 2026, and 18 months for applications from 1 January 2027, per <a href=\"https://www.gov.uk/graduate-visa\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;text-decoration:underline;\">gov.uk</a>. ILMERA reviews a student's eligibility, academic qualifications, English-language evidence and admission criteria. Language-evidence acceptance is decided by the university or responsible authority.</p></div></details>"
+    },
+    {
+      "file": "index.php",
+      "line": 599,
+      "code": "      <details class=\"il-faq\"><summary>Which European countries are cheapest and don't require IELTS?</summary><div><p>The Czech Republic, Lithuania, Latvia and Slovakia are among the cheapest European destinations that often don't require IELTS, frequently accepting a Medium-of-Instruction letter or an internal English test instead. These countries also offer lower tuition and living costs than Western Europe. ILMERA confirms the current requirement for each programme before you apply.</p></div></details>"
+    },
+    {
+      "file": "index.php",
+      "line": 601,
+      "code": "      <details class=\"il-faq\"><summary>Can I study in Lithuania or Latvia after 12th with low marks?</summary><div><p>Yes, Lithuania and Latvia accept Indian students after 12th with modest academic marks, offer English-taught bachelor's programmes, and often don't require IELTS. Tuition and living costs are among the lowest in the EU. ILMERA reviews your marksheet and shortlists programmes that match your profile.</p></div></details>"
+    },
+    {
+      "file": "index.php",
+      "line": 681,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "places/belagavi.php",
+      "line": 17,
+      "code": "            'answer' => 'State the qualification, intended subject, budget boundary and the specific decision on which you need help. Separate settled choices from questions that still require investigation.',"
+    },
+    {
+      "file": "places/belagavi.php",
+      "line": 31,
+      "code": "    'meta_description' => 'Online counselling guide. For Belagavi students: define counselling responsibilities, compare written service terms and prepare a clear application brief with ILMERA.',"
+    },
+    {
+      "file": "places/belagavi.php",
+      "line": 42,
+      "code": "                'For each deliverable, identify who prepares it, who checks it and who gives the final approval. A document can be complete without being submitted, and a submitted form can still require a response from you. Ask how those handovers will be recorded. Read the proposed scope together with the payment stages and any cancellation or refund terms before agreeing to paid work. Raise differences between a verbal explanation and the written version while they can still be resolved. Keep your own copy of the agreement and of any later changes. These are practical questions for assessing a service, not evidence that admission or funding is assured.',"
+    },
+    {
+      "file": "places/bengaluru.php",
+      "line": 34,
+      "code": "                'Describe what you want to learn in the new field, not only the job title you hope to hold afterwards. Look at the actual modules and the skills they appear to require. Then compare those requirements with the subjects recorded in your previous qualification. Distinguish a topic you studied formally from something you encountered briefly or taught yourself. Both may be useful to explain motivation, but they are not interchangeable evidence of a prerequisite. Bring a short account of the connection to the conversation. The aim is to make the proposed transition understandable enough that the relevant admissions questions can be asked precisely rather than answered by guesswork.',"
+    },
+    {
+      "file": "places/bengaluru.php",
+      "line": 40,
+      "code": "                'Make two lists: preparation you can document now and preparation you intend to complete. For existing evidence, identify the transcript entry, project or other record that supports your description. For proposed learning, record the expected completion point and the question it is meant to address. Do not describe an unfinished activity as a qualification already held. Ask whether a course\\'s published entry rules accommodate your background and which uncertainties require a direct response from admissions. An encouraging general description of a field is not a personal eligibility decision. Save the reply with the course version and date so that it is not later applied to a different programme.',"
+    },
+    {
+      "file": "places/hassan.php",
+      "line": 21,
+      "code": "            'answer' => 'It helps you decide when unresolved costs or changed assumptions require a pause, before further payments create commitments you did not intend.',"
+    },
+    {
+      "file": "places/hassan.php",
+      "line": 29,
+      "code": "    'meta_description' => 'Online counselling guide. For Hassan students: separate confirmed costs from estimates, test funding assumptions and define a budget stop point before overseas applications.',"
+    },
+    {
+      "file": "places/hassan.php",
+      "line": 40,
+      "code": "                'Prepare a version of the budget without unconfirmed funding. If the plan requires a scholarship, explain what happens if no award is made or payment arrives later than hoped. If family support is expected, discuss both the amount and when it can actually be made available. Do not use possible earnings as though they were a confirmed source of money. Consider which expenses occur before any anticipated support could arrive. These are questions for your own planning rather than predictions about the destination. No living-cost figure, exchange rate or local lending product is supplied here for Hassan; each would require relevant current evidence.',"
+    },
+    {
+      "file": "places/karnataka.php",
+      "line": 32,
+      "code": "    'meta_description' => 'Online counselling guide. A shortlist framework for Karnataka students: define priorities, compare evidence consistently and keep a record of why each overseas course is retained.',"
+    },
+    {
+      "file": "places/mangaluru.php",
+      "line": 8,
+      "code": "    'intro_answer' => 'A promise to help with study costs is not the same as a documented funding plan. This guide for Mangaluru students separates the personal conversation about support from the evidence a particular application may require. It provides planning questions without endorsing a lender or asserting that any sponsor arrangement is accepted.',"
+    },
+    {
+      "file": "places/mysuru.php",
+      "line": 40,
+      "code": "                'Find out whether the recipient wants an uploaded copy, a certified record, a sealed transcript or transmission directly from an issuer. Those are different requests and may require different arrangements. Quote the relevant instruction when seeking clarification. If you are obtaining a translation, check which language and form the recipient accepts before commissioning it. Keep the original and translated versions linked in your inventory so that pages are not accidentally separated. This page names no Mysuru issuing office and gives no processing-time estimate, because neither should be invented from a general application workflow. Confirm those practical details with the actual body responsible for your records.',"
+    },
+    {
+      "file": "places/ponnampet.php",
+      "line": 37,
+      "code": "                'Write brief notes about the experiences that led to your academic interest. Choose details you can describe accurately: a subject you studied, a question you investigated or a task that changed what you wanted to learn. Explain the connection rather than listing achievements without context. Keep informal reflection separate from claims that require documentary support. If a project was collaborative, describe your own contribution without taking credit for the whole group\\'s work. These notes should help you discover what is distinctive about your reasoning. They are not a licence to invent an impressive event or to claim knowledge of course content that you have not actually examined.',"
+    },
+    {
+      "file": "places/siddapura.php",
+      "line": 37,
+      "code": "                'Identify the application task for which a document is requested and who needs to see it. A preliminary discussion may require different information from a final submission, so ask about the scope before forwarding an entire archive. Keep your own inventory of what has been shared and with whom. Where you propose to conceal information for an initial discussion, ask whether that is appropriate; do not alter the version intended as official evidence. Avoid placing another person\\'s financial or identity records in a conversation without their permission. The aim is to make sharing intentional and understandable, not to invent a universal document rule that might conflict with an actual application requirement.',"
+    },
+    {
+      "file": "places/siddapura.php",
+      "line": 43,
+      "code": "                'Do not include passwords or account recovery information in a document bundle. Establish how an application account will be accessed and who can authorise changes. If someone helps prepare information, distinguish that assistance from permission to submit it in your name. Ask how you will review the completed form before any final action. Keep a record of instructions that affect the application rather than relying on a brief verbal understanding. This page does not claim that a particular platform is secure or that ILMERA has a technical certification. Phone, WhatsApp and video call are existing contact options, not guarantees about the security properties of every file-transfer arrangement.',"
+    },
+    {
+      "file": "places/udupi-manipal.php",
+      "line": 36,
+      "code": "                'Look at which subjects are compulsory, which are optional and how choices are made. An interesting option may not be something every student can take, so check the conditions attached to it. Identify whether the published structure concerns the intended intake and qualification rather than another version of the course. Note any project, research or practical component that matters to your decision and ask how it fits into the programme. Do not describe a feature as guaranteed simply because it appears in promotional material. Your comparison should show what the current course description establishes and which details still require a response from the responsible academic or admissions team.',"
+    },
+    {
+      "file": "privacy-policy.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "privacy-policy.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "privacy-policy.php",
+      "line": 106,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "privacy-policy.php",
+      "line": 184,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "services.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php';"
+    },
+    {
+      "file": "services.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/includes/service-scope.php'; ?>"
+    },
+    {
+      "file": "services.php",
+      "line": 4,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "services.php",
+      "line": 66,
+      "code": "      \"description\": \"ILMERA Study Abroad provides online-only counselling for Indian students, with no counselling premises. Services include academic and English-evidence review, admissions/application guidance, financial information, study-cost comparison, scholarship and supporting-document guidance, visa-document, appointment-procedure and refusal-related guidance, Germany APS guidance and Russia medicine counselling. ILMERA does not provide advice on working during study or staying after study. Responsible bodies make their own decisions; ILMERA does not promise outcomes.\","
+    },
+    {
+      "file": "services.php",
+      "line": 364,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "services.php",
+      "line": 789,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    },
+    {
+      "file": "sitemap.php",
+      "line": 2,
+      "code": "require_once __DIR__ . '/includes/sitemap-data.php';"
+    },
+    {
+      "file": "study-abroad-consultants-in-karnataka.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-consultants-in-karnataka.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-consultants-in-kodagu.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-consultants-in-kodagu.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-belagavi.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-belagavi.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-bengaluru.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-bengaluru.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-chikkamagaluru.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-chikkamagaluru.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-gonikoppal.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-gonikoppal.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-hassan.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-hassan.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-kushalnagar.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-kushalnagar.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-madikeri.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-madikeri.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-mangaluru.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-mangaluru.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-mysuru.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-mysuru.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-ponnampet.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-ponnampet.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-shivamogga.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-shivamogga.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-siddapura.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-siddapura.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-somwarpet.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-somwarpet.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-udupi-manipal.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-udupi-manipal.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-abroad-counselling-virajpet.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-abroad-counselling-virajpet.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/place-page.php';"
+    },
+    {
+      "file": "study-in-czech-republic.php",
+      "line": 3,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-gcc.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-gcc.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-germany.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-germany.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-italy.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-italy.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-latvia.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-latvia.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-lithuania.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-lithuania.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-russia.php",
+      "line": 3,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-slovakia.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-slovakia.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "study-in-uk.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "study-in-uk.php",
+      "line": 4,
+      "code": "include __DIR__ . '/includes/destination-page.php';"
+    },
+    {
+      "file": "terms.php",
+      "line": 1,
+      "code": "<?php require_once __DIR__ . '/includes/site-presentation.php'; ?>"
+    },
+    {
+      "file": "terms.php",
+      "line": 3,
+      "code": "require_once __DIR__ . '/includes/breadcrumbs.php';"
+    },
+    {
+      "file": "terms.php",
+      "line": 106,
+      "code": "<?php include __DIR__ . '/includes/header.php'; ?>"
+    },
+    {
+      "file": "terms.php",
+      "line": 177,
+      "code": "<?php include __DIR__ . '/includes/footer.php'; ?>"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "id": "blog__360__js-off__motion-reduced",
+  "route": "/blog/",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/",
+  "http_status": 200,
+  "page_height": 6400,
+  "scroll": {
+    "height": 6400,
+    "scroll_samples": 11,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6400,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4265
+    },
+    "visible_text_chars": 2364,
+    "visible_text_nodes": 42,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA study abroad blog"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 380,
+        "text": "ILMERA study abroad blog: Read practical articles on budgets"
+      },
+      {
+        "selector": "p.sub",
+        "y": 519,
+        "text": "Practical, honest guidance from the ILMERA Study Abroad team"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 687,
+        "text": "Planning"
+      },
+      {
+        "selector": "h2",
+        "y": 727,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "p",
+        "y": 850,
+        "text": "Ten practical checks for families comparing counselling scop"
+      },
+      {
+        "selector": "span.author",
+        "y": 997,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 997,
+        "text": "6 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 1039,
+        "text": "Read How to choose a study abroad consultant in Karnataka →"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 1172,
+        "text": "No-IELTS"
+      },
+      {
+        "selector": "h2",
+        "y": 1212,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "p",
+        "y": 1370,
+        "text": "Backlogs do not automatically rule out studying abroad. Seve"
+      },
+      {
+        "selector": "span.author",
+        "y": 1544,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 1544,
+        "text": "4 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 1586,
+        "text": "Read Studying Abroad with Academic Backlogs: What Is Actuall"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 1719,
+        "text": "Coorg"
+      },
+      {
+        "selector": "h2",
+        "y": 1759,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "p",
+        "y": 1917,
+        "text": "ILMERA provides online counselling for students from Coorg a"
+      },
+      {
+        "selector": "span.author",
+        "y": 2091,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "span",
+        "y": 2091,
+        "text": "4 min read"
+      },
+      {
+        "selector": "a.blog-read",
+        "y": 2133,
+        "text": "Read Online Study Abroad Counselling for Coorg Students: How"
+      },
+      {
+        "selector": "span.blog-tag",
+        "y": 2265,
+        "text": "Costs"
+      },
+      {
+        "selector": "h2",
+        "y": 2306,
+        "text": "Cost of Studying Abroad: Official Country Examples"
+      },
+      {
+        "selector": "p",
+        "y": 2429,
+        "text": "Compare sourced tuition and living-cost examples for six cou"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6400,
+    "scan_width": 360,
+    "scan_height": 6400,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 257,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.blog-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.sub",
+            "y": 519,
+            "text": "Practical, honest guidance from the ILMERA Study Abroad team on Germany, Italy, backlogs, "
+          }
+        },
+        "selector": "section.blog-hero",
+        "cause": "Low edge-density band; nearest section section.blog-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3716,
+        "height": 181,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00068,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.blog-cta",
+          "element_tag": "section",
+          "element_y": 3797,
+          "element_height": 468,
+          "computed": {
+            "min_height": "0px",
+            "height": "468.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.blog-read",
+            "y": 3677,
+            "text": "Read Scholarships for Indian Students: Check Eligibility and Evidence →"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4027,
+            "text": "Book a online consultation and get an honest answer for your specific profile, by phone, W"
+          }
+        },
+        "selector": "section.blog-cta",
+        "cause": "Low edge-density band; nearest section section.blog-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4185,
+        "height": 162,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4150,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 257,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.blog-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.sub",
+            "y": 519,
+            "text": "Practical, honest guidance from the ILMERA Study Abroad team on Germany, Italy, backlogs, "
+          }
+        },
+        "selector": "section.blog-hero",
+        "cause": "Low edge-density band; nearest section section.blog-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3716,
+        "height": 181,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00068,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.blog-cta",
+          "element_tag": "section",
+          "element_y": 3797,
+          "element_height": 468,
+          "computed": {
+            "min_height": "0px",
+            "height": "468.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.blog-read",
+            "y": 3677,
+            "text": "Read Scholarships for Indian Students: Check Eligibility and Evidence →"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4027,
+            "text": "Book a online consultation and get an honest answer for your specific profile, by phone, W"
+          }
+        },
+        "selector": "section.blog-cta",
+        "cause": "Low edge-density band; nearest section section.blog-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4185,
+        "height": 162,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog__360__js-off__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 4150,
+            "text": "Book a online Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "30a1f308d71b420a92f769b873647aa597e28f33fee3a927bd114ef71ca61613"
+  }
+}

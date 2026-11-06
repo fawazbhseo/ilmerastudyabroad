@@ -1,0 +1,279 @@
+{
+  "phase": 32,
+  "purpose": "Immutable pre-Phase32 rendered comparison baseline",
+  "source_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
+  "rendered_at_head": "10a5198d9851c374cf2c7997ea01adc534879ef5",
+  "rendered_runtime_diff_from_baseline_commit": [],
+  "route_count": 43,
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 102983,
+      "sha256": "b56ae5d369ce9873196a4764ca2719b1d0ecaa082322d28ce2444083b922510b"
+    },
+    {
+      "route": "/404",
+      "status": 200,
+      "bytes": 38352,
+      "sha256": "0dc2a9c60a61e4b263b69320c493fa19fe6cc752829d89d6db5addc7cafeb842"
+    },
+    {
+      "route": "/about",
+      "status": 200,
+      "bytes": 89613,
+      "sha256": "32692962230306c360d8173bfe6bd1ad633591857ff676b71cb64fe1762e87a2"
+    },
+    {
+      "route": "/all-pages",
+      "status": 200,
+      "bytes": 52801,
+      "sha256": "ae13d6eb6665ae044f75cd663d5300061e7469391a43de4a9e887049614fd39d"
+    },
+    {
+      "route": "/blog/",
+      "status": 200,
+      "bytes": 61207,
+      "sha256": "277cfd1dc17eee73a9ba064ea4449bed4bc9a56d7ba860597f6e89d4caef47b9"
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "status": 200,
+      "bytes": 70116,
+      "sha256": "93b20ef82f942564d96063013341049fdf560c5972443bc60fbe62af685feafc"
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "status": 200,
+      "bytes": 69600,
+      "sha256": "46d7928b53ddfbd0c07a9d4aa21c6fd47302bec194463037cb6a9330461f7b8b"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "status": 200,
+      "bytes": 69812,
+      "sha256": "e5439548698ddbcd905119fdea370d6a6d9e708bc2484be15a24a5533c02349a"
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "status": 200,
+      "bytes": 53313,
+      "sha256": "f20f614beacad529679e769e3b4b4ccaff7abf570c871e0ff29da62924c927c2"
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "status": 200,
+      "bytes": 67712,
+      "sha256": "6252e30a0ceec36e358f085090a923981cdadebfc62623905e9aa951f36ca258"
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "status": 200,
+      "bytes": 63871,
+      "sha256": "d74de94c6b847e5fcb4e59fe62e8aff1c918ac9d08265a80916fff4d49009748"
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "status": 200,
+      "bytes": 63114,
+      "sha256": "b65b996ea77639a0e52292d10d8f5ed744cb71dd7a96f2a913614c4cf8959ff0"
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "status": 200,
+      "bytes": 54422,
+      "sha256": "8372cd63c0e712fdd5d990051ca625e041da0ca407975e5e72281295475d4729"
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "bytes": 91216,
+      "sha256": "f4b71db953832f01ee1e199081b14822bc8b61901d7a1d68c70fa8d0b5001650"
+    },
+    {
+      "route": "/privacy-policy",
+      "status": 200,
+      "bytes": 57050,
+      "sha256": "536aef4dbccb30a64708cb92c8cb7712557dbf40661f04d57291d0016978b593"
+    },
+    {
+      "route": "/services",
+      "status": 200,
+      "bytes": 124686,
+      "sha256": "ee8e285775009209a5e975ee13dc42f9fef82131c19c68e8361ec6d9ace7f23f"
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "status": 200,
+      "bytes": 65697,
+      "sha256": "f569a357fb9124f097bd530a7a3276d0abbe7762a471d6ae51388a2b4ce3c741"
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "status": 200,
+      "bytes": 62658,
+      "sha256": "067a4ff8a67488b183c710e35b13e9822f096092346db370b3773642a99245ac"
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "status": 200,
+      "bytes": 62015,
+      "sha256": "86e7f63a2a3495f8052fd4167a287278eeb8add8205eefbcdf2cfb480172fabe"
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "status": 200,
+      "bytes": 61994,
+      "sha256": "e05f9a221667d2d11734a7fa36edf312291ef926c57cb9dc58c870ddca546acc"
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "status": 200,
+      "bytes": 62331,
+      "sha256": "76cb696a87795cffe2a62309af458094ad04580b37a7aec625b8640b5624141f"
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "status": 200,
+      "bytes": 62344,
+      "sha256": "4cdd6d6a5c75d197baebf4e82c96f4b29d44cb535a67821bbf0a59a73fdce9a3"
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "status": 200,
+      "bytes": 61676,
+      "sha256": "fad2a771d22238924689de47a69b1cf5536e1e4060c7b1df0ff7e69276f3f12d"
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "status": 200,
+      "bytes": 62089,
+      "sha256": "276bb8fd9bf957fd380247e60c0dec7d377d803a8c6ad2dbf951467b87198c2c"
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "status": 200,
+      "bytes": 62262,
+      "sha256": "56cd24ae6ae4194323f216a5be9faf442890b1049f2d685eacb779ac1246b0f4"
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "status": 200,
+      "bytes": 61983,
+      "sha256": "c89ad3ab3346c93a4de81e8ba2a25d302376b1787b81c25deda3e3dfceffc568"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "status": 200,
+      "bytes": 61896,
+      "sha256": "dbe53ef11b1c805492bf4bf9a8ebe4d12905d68a9e53a946faea4e8f9278915e"
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "status": 200,
+      "bytes": 62283,
+      "sha256": "724582b9045521da71fcb9e0b6b42d7f1dc67cfb507837671933e736a248be91"
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "status": 200,
+      "bytes": 62047,
+      "sha256": "17825da8b5ff6545970979662f4e7b37c903ec58df2b09db9fde83cf271f47fa"
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "status": 200,
+      "bytes": 62306,
+      "sha256": "71dce0bb43417257717a35d50f425ec0e494add222616e49320b219af4153532"
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "status": 200,
+      "bytes": 62378,
+      "sha256": "854c0b6bfdd0241b8b36cc47dc3aaceaaf7facde7557afdd16438ca418d2d031"
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "status": 200,
+      "bytes": 62534,
+      "sha256": "6dacc085f33b2eb9c2422c8356974d75119750df37028441707b2259f1aa2423"
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "status": 200,
+      "bytes": 62181,
+      "sha256": "b1ce3229c713958a0e71e11958c2352abf4febdcfec743bea4cb2580647c3887"
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "status": 200,
+      "bytes": 93597,
+      "sha256": "2eeab4f87c7d486b51068cfd5e5155ca6acd265542fc08e8dd789ced82755a4a"
+    },
+    {
+      "route": "/study-in-gcc",
+      "status": 200,
+      "bytes": 110846,
+      "sha256": "86094a0b198642ab95274648ff96e6cbda6bd1706cfc187bd0fd0d2852600ce9"
+    },
+    {
+      "route": "/study-in-germany",
+      "status": 200,
+      "bytes": 101790,
+      "sha256": "0149062d42db2476d493a54605fc03bfb22549d29818cbf0e917cc59871fc677"
+    },
+    {
+      "route": "/study-in-italy",
+      "status": 200,
+      "bytes": 99757,
+      "sha256": "36541fa0735e7c0ca9d6f0dc6394f2becef746ee0a925d4c172ee32f19901f92"
+    },
+    {
+      "route": "/study-in-latvia",
+      "status": 200,
+      "bytes": 99393,
+      "sha256": "e2de7ceb7b8252601e839dee07868d4ba7a4a57bde8a087159bdcdaf7852e88b"
+    },
+    {
+      "route": "/study-in-lithuania",
+      "status": 200,
+      "bytes": 99366,
+      "sha256": "88025609826d3e5209654f1c7a094d2e1241bbfa1e3ed881472281ed4b98aeb3"
+    },
+    {
+      "route": "/study-in-russia",
+      "status": 200,
+      "bytes": 92069,
+      "sha256": "f848a7dba306ec1013a200ac49c4d26aba659cb3c354ed7a4de9fe427bdfc241"
+    },
+    {
+      "route": "/study-in-slovakia",
+      "status": 200,
+      "bytes": 99095,
+      "sha256": "0381ef173e9b6903bfe9afa634f5dc6835ea978a8c3f06b7c49ee4cb7f86598b"
+    },
+    {
+      "route": "/study-in-uk",
+      "status": 200,
+      "bytes": 102108,
+      "sha256": "684b6d2e86aef16391f62402c72b85cbe74a1ffb52335d5953fc1b66d8f4c748"
+    },
+    {
+      "route": "/terms",
+      "status": 200,
+      "bytes": 58341,
+      "sha256": "06b51d0a743081c2dbbc15fcf63d8cb4ef4ce42a45c41cbfa84f03b330309d19"
+    }
+  ],
+  "render_archive": "reports/phase-32-before-renders.json.gz",
+  "render_archive_sha256": "2b20187771f9117a16099754e4f579f6eb3f6f752b8c11a8ec25d255785b9dee",
+  "render_archive_bytes": 894404,
+  "sitemap": {
+    "path": "reports/phase-32-before-sitemap.xml",
+    "status": 200,
+    "bytes": 4853,
+    "sha256": "de23394bfe3150db0a29d684f4f13187f644a4bba617beeabeaf0d19e769ddbb",
+    "entries": 38
+  },
+  "live_or_native_hosting": false
+}

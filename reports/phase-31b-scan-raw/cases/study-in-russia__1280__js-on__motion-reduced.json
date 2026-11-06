@@ -1,0 +1,181 @@
+{
+  "id": "study-in-russia__1280__js-on__motion-reduced",
+  "route": "/study-in-russia",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-in-russia",
+  "http_status": 200,
+  "page_height": 4167,
+  "scroll": {
+    "height": 4167,
+    "scroll_samples": 7,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4167,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3031
+    },
+    "visible_text_chars": 3031,
+    "visible_text_nodes": 46,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Russia"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 476,
+        "text": "The previously supplied 2026-27 closing date was 15 February"
+      },
+      {
+        "selector": "p",
+        "y": 610,
+        "text": "Indian students can apply for Russian Government scholarship"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 706,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 861,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 928,
+        "text": "Exact fees vary by university and programme and should be co"
+      },
+      {
+        "selector": "h2",
+        "y": 1030,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "li",
+        "y": 1097,
+        "text": "The Ministry of Education of India notice for the academic y"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1223,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1266,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1305,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1349,
+        "text": "The notice states that students do not have to pass tests or"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1388,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1466,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1533,
+        "text": "The notice describes a second stage after selection in which"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1601,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1679,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1772,
+        "text": "How do Indian students apply for Russian Government scholars"
+      },
+      {
+        "selector": "p",
+        "y": 1827,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "p",
+        "y": 1848,
+        "text": "FAQ source"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1852,
+        "text": "[1]"
+      },
+      {
+        "selector": "summary",
+        "y": 1936,
+        "text": "Do students need to speak Russian for the Russian Government"
+      },
+      {
+        "selector": "p",
+        "y": 1991,
+        "text": "Not necessarily. The notice states that students who do not "
+      },
+      {
+        "selector": "p",
+        "y": 2012,
+        "text": "FAQ source"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4167,
+    "scan_width": 512,
+    "scan_height": 1667,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997000599880024
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "e528304420a1521bdb773d497e0e0404c56140ed9873bb8a5711f0bc615fc99a"
+  }
+}

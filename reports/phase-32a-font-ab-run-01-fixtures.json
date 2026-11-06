@@ -1,0 +1,67 @@
+{
+  "phase": "32a",
+  "task": "fresh_font_candidate_ab_fixture",
+  "status": "PASS",
+  "A_policy": "Current post-fallback font policy: seven local faces font-display:block, two preloads, body visibility gate",
+  "A_source_commit": "4746142eaea674b66549d20d4352f720018adee7",
+  "fixture_freeze_head": "c95f3e49dd9224289c5842aadc86d7c14a84d313",
+  "runtime_unchanged_since_render": true,
+  "B_policy": "Candidate only: seven webfont declarations changed to font-display:swap and the single .p25-font-pending body visibility rule removed. Font families, file URLs, weights, preloads, text, images, scripts and markup otherwise preserved.",
+  "routes": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "A_html_bytes": 61808,
+      "B_html_bytes": 61755,
+      "A_html_sha256": "687c5ff50c02c6a432d565cf07a5934bf0243f5094a9aa7f493e780941d5da48",
+      "B_candidate_html_sha256": "558c5ceafdfd4edddfecd763fcb7a5b94f9d473313a6aeea967be62a07494929",
+      "font_display_declarations_changed": 7,
+      "body_visibility_gate_rules_removed": 1,
+      "preload_links_unchanged": true,
+      "font_files_weights_families_unchanged": true,
+      "protected_content_checks": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "A_html_bytes": 69724,
+      "B_html_bytes": 69671,
+      "A_html_sha256": "1f03efe4c9e197724ea505dc47ad5d241e083391c067bbe852d781ac10be7081",
+      "B_candidate_html_sha256": "612b0fadb96622b3928f045eb9161c8dd3ce35117ad8d31c7101f6c0d377cbb2",
+      "font_display_declarations_changed": 7,
+      "body_visibility_gate_rules_removed": 1,
+      "preload_links_unchanged": true,
+      "font_files_weights_families_unchanged": true,
+      "protected_content_checks": {
+        "text": true,
+        "title": true,
+        "headings": true,
+        "meta": true,
+        "robots": true,
+        "canonical": true,
+        "anchors": true,
+        "images": true,
+        "picture_sources": true,
+        "json_ld": true
+      }
+    }
+  ],
+  "route_count": 2,
+  "sample_plan": "Seven A and seven B Lighthouse samples per route, alternating pair order; fresh Chromium per sample, serial, no retries.",
+  "fixture_json_path_external": "/home/user/phase32a-runtime/phase32a-font-ab-run01/fixtures.json",
+  "fixture_json_bytes": 269509,
+  "fixture_json_sha256": "734b060d00486d788f4e50bc5eaa82187f18edc7aa1850a820fad649f5737231",
+  "content_invariant_failures": 0,
+  "local_only": true,
+  "live_or_field_verified": false,
+  "analysis_performed": false
+}

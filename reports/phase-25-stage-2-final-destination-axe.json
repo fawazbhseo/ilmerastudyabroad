@@ -1,0 +1,2148 @@
+{
+  "cases": [
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 360,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 360,
+        "width": 360,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-counselling-from-coorg",
+            "text": "Online Study Abroad Counselling for Coorg Students: How the ",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 318.28125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "open/Escape pass",
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "scenes": 0
+    },
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 768,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 768,
+        "width": 768,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 336.328125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-counselling-from-coorg",
+            "text": "Online Study Abroad Counselling for Coorg Students: How the ",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 318.28125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "open/Escape pass",
+      "focus": {
+        "tag": "A",
+        "outline": "solid"
+      },
+      "scenes": 0
+    },
+    {
+      "route": "/study-in-germany",
+      "js": true,
+      "width": 1280,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 1280,
+        "width": 1280,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "JS-off",
+      "focus": {
+        "tag": "A",
+        "outline": "auto"
+      },
+      "scenes": 0
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 360,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 360,
+        "width": 360,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-counselling-from-coorg",
+            "text": "Online Study Abroad Counselling for Coorg Students: How the ",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 318.28125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 320,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 320,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "JS-off",
+      "focus": {
+        "tag": "A",
+        "outline": "auto"
+      },
+      "scenes": 0
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 768,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 768,
+        "width": 768,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 336.328125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-counselling-from-coorg",
+            "text": "Online Study Abroad Counselling for Coorg Students: How the ",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 318.28125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 348,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 348,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "JS-off",
+      "focus": {
+        "tag": "A",
+        "outline": "auto"
+      },
+      "scenes": 0
+    },
+    {
+      "route": "/study-in-germany",
+      "js": false,
+      "width": 1280,
+      "violations": [],
+      "shape": {
+        "rebuilt": true,
+        "scroll": 1280,
+        "width": 1280,
+        "visible": "visible",
+        "small": [
+          {
+            "tag": "A",
+            "href": "/",
+            "text": "Home",
+            "width": 37.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/about",
+            "text": "About",
+            "width": 38.015625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/services",
+            "text": "Services",
+            "width": 50.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/",
+            "text": "Blog",
+            "width": 27.828125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/contact",
+            "text": "Contact",
+            "width": 49.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/all-pages",
+            "text": "All pages",
+            "width": 56.609375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-germany",
+            "text": "Germany",
+            "width": 58.796875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-italy",
+            "text": "Italy",
+            "width": 26.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-uk",
+            "text": "UK",
+            "width": 18.703125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-lithuania",
+            "text": "Lithuania",
+            "width": 57.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-latvia",
+            "text": "Latvia",
+            "width": 38.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-slovakia",
+            "text": "Slovakia",
+            "width": 51.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-in-gcc",
+            "text": "GCC",
+            "width": 29.890625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+            "text": "How to choose a study abroad consultant in Karnataka",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/study-abroad-with-academic-backlogs",
+            "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/cost-of-studying-abroad-for-indian-students",
+            "text": "Cost of Studying Abroad: Official Country Examples",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/documents-needed-to-study-abroad-from-india",
+            "text": "Documents Needed to Study Abroad: Build a Route-Specific Che",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/blog/scholarships-for-indian-students-study-abroad",
+            "text": "Scholarships for Indian Students: Check Eligibility and Evid",
+            "width": 240,
+            "height": 36,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-belagavi",
+            "text": "Belagavi",
+            "width": 53.9375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-bengaluru",
+            "text": "Bengaluru",
+            "width": 63.171875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-chikkamagaluru",
+            "text": "Chikkamagaluru",
+            "width": 100.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-gonikoppal",
+            "text": "Gonikoppal",
+            "width": 71.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-hassan",
+            "text": "Hassan",
+            "width": 45.671875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-karnataka",
+            "text": "Karnataka",
+            "width": 65.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-consultants-in-kodagu",
+            "text": "Kodagu",
+            "width": 48.15625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-kushalnagar",
+            "text": "Kushalnagar",
+            "width": 78.421875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-madikeri",
+            "text": "Madikeri",
+            "width": 53.484375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mangaluru",
+            "text": "Mangaluru",
+            "width": 66.78125,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-mysuru",
+            "text": "Mysuru",
+            "width": 44.5,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-ponnampet",
+            "text": "Ponnampet",
+            "width": 71.84375,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-shivamogga",
+            "text": "Shivamogga",
+            "width": 77.765625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-siddapura",
+            "text": "Siddapura",
+            "width": 64.21875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-somwarpet",
+            "text": "Somwarpet",
+            "width": 71.96875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-udupi-manipal",
+            "text": "Udupi and Manipal",
+            "width": 115.90625,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "/study-abroad-counselling-virajpet",
+            "text": "Virajpet",
+            "width": 49.546875,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919019557427",
+            "text": "📞 +91 90195 57427",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "tel:+919481084038",
+            "text": "📞 +91 94810 84038",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "mailto:info@ilmerastudyabroad.com",
+            "text": "✉ info@ilmerastudyabroad.com",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          },
+          {
+            "tag": "A",
+            "href": "https://wa.me/421944485186",
+            "text": "💬 WhatsApp Us",
+            "width": 240,
+            "height": 18,
+            "referencePitch": true
+          }
+        ],
+        "sections": [
+          {
+            "class": "article-hero",
+            "background": "rgb(4, 6, 15)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          },
+          {
+            "class": "s-wrap article-body",
+            "background": "rgb(240, 244, 255)"
+          }
+        ],
+        "shared": true
+      },
+      "menu": "JS-off",
+      "focus": {
+        "tag": "A",
+        "outline": "auto"
+      },
+      "scenes": 0
+    }
+  ],
+  "reduced_motion": true,
+  "axe_rebuilt_violations": 0,
+  "overflow_cases": [],
+  "reference_violations": 0,
+  "js_off_method": "Application JS disabled in primary browser context. Axe audits its serialized, app-script-stripped DOM in an instrumentation-only context because disabled scripting prevents axe async completion. Noscript children retained. Primary disabled context supplies visibility/layout/focus results.",
+  "note": "Reference visual defects are not silently redesigned. Small target results include documented reference footer-pitch exceptions. No form submissions."
+}

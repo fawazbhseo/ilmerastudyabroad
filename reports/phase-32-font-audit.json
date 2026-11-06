@@ -1,0 +1,1874 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "method": "Local PHP-WASM routes and Playwright Chromium 143. Fonts are measured as local response body bytes, not ResourceTiming transferSize.",
+  "source_observation": "Diagnostic only: the separate controlled 42-sample font A/B is reported in font_ab_evidence and font_ab_summary.",
+  "cases": [
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 360,
+      "http_status": 200,
+      "font_response_count": 4,
+      "font_response_bytes": 72784,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272027382.741,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.152,
+            "responseStart": 0.686,
+            "responseEnd": 11.295
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272027384.398,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.128,
+            "responseStart": 0.562,
+            "responseEnd": 12.778
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272027414.7507,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.117,
+            "responseStart": 0.512,
+            "responseEnd": 22.273
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272027415.104,
+            "domainLookupStart": 0.061,
+            "domainLookupEnd": 0.064,
+            "connectStart": 0.064,
+            "secureConnectionStart": -1,
+            "connectEnd": 0.367,
+            "requestStart": 0.492,
+            "responseStart": 3.515,
+            "responseEnd": 26.174
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 62.5,
+        "domContentLoadedEventEnd": 24.0999999998603,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 12.6,
+            "duration": 11.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 12.7,
+            "duration": 12.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 33.5,
+            "duration": 22.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 33.6,
+            "duration": 26.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 132,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 1280,
+      "http_status": 200,
+      "font_response_count": 5,
+      "font_response_bytes": 86816,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272027784.0562,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.092,
+            "responseStart": 0.682,
+            "responseEnd": 6.75
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272027785.2932,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.101,
+            "responseStart": 0.536,
+            "responseEnd": 7.761
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "timing": {
+            "startTime": 1793272027797.487,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.078,
+            "responseStart": 0.652,
+            "responseEnd": 6.055
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272027798.433,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.07,
+            "responseStart": 1.471,
+            "responseEnd": 7.704
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272027798.532,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.044,
+            "responseStart": 1.572,
+            "responseEnd": 7.817
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 43.0999999998603,
+        "domContentLoadedEventEnd": 17.300000000046566,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 7.8,
+            "duration": 6.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 7.9,
+            "duration": 7.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-400.woff2",
+            "type": "css",
+            "startTime": 21.8,
+            "duration": 6.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 21.9,
+            "duration": 7.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 22,
+            "duration": 7.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 84,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 360,
+      "http_status": 200,
+      "font_response_count": 4,
+      "font_response_bytes": 72784,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272028265.4219,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.122,
+            "responseStart": 1.195,
+            "responseEnd": 12.535
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272028265.6091,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.052,
+            "responseStart": 1.597,
+            "responseEnd": 12.49
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272028278.3667,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.163,
+            "responseStart": 0.577,
+            "responseEnd": 3.394
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272028281.551,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.114,
+            "responseStart": 0.524,
+            "responseEnd": 6.382
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 51.199999999953434,
+        "domContentLoadedEventEnd": 19,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 9.1,
+            "duration": 12.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 9.3,
+            "duration": 12.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 29.9,
+            "duration": 3.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 30.1,
+            "duration": 6.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 96,
+            "tag": "H2",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 1280,
+      "http_status": 200,
+      "font_response_count": 5,
+      "font_response_bytes": 86816,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272028656.8042,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.195,
+            "responseStart": 0.647,
+            "responseEnd": 6.343
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272028656.9102,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.139,
+            "responseStart": 0.805,
+            "responseEnd": 6.401
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "timing": {
+            "startTime": 1793272028669.9512,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.092,
+            "responseStart": 0.556,
+            "responseEnd": 6.322
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272028670.405,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.254,
+            "responseStart": 1.292,
+            "responseEnd": 7.347
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272028673.09,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.117,
+            "responseStart": 0.538,
+            "responseEnd": 9.246
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 52.10000000009313,
+        "domContentLoadedEventEnd": 19.4000000001397,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "unloaded"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 8.7,
+            "duration": 6.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 8.9,
+            "duration": 6.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-400.woff2",
+            "type": "css",
+            "startTime": 21.9,
+            "duration": 6.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 22,
+            "duration": 7.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 22,
+            "duration": 9.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 84,
+            "tag": "H1",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 360,
+      "http_status": 200,
+      "font_response_count": 4,
+      "font_response_bytes": 72784,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272029160.666,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.123,
+            "responseStart": 0.771,
+            "responseEnd": 6.482
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272029160.5781,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.155,
+            "responseStart": 0.586,
+            "responseEnd": 6.38
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272029173.0962,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.083,
+            "responseStart": 1.05,
+            "responseEnd": 4.326
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272029172.933,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.106,
+            "responseStart": 0.979,
+            "responseEnd": 4.348
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 39.199999999953434,
+        "domContentLoadedEventEnd": 19.300000000046566,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "unloaded"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 7.2,
+            "duration": 6.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 7.2,
+            "duration": 6.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 22.2,
+            "duration": 4.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 22.3,
+            "duration": 4.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 108,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 1280,
+      "http_status": 200,
+      "font_response_count": 5,
+      "font_response_bytes": 86816,
+      "font_responses": [
+        {
+          "url": "/assets/fonts/outfit-reference-300.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "timing": {
+            "startTime": 1793272029527.901,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.127,
+            "responseStart": 0.682,
+            "responseEnd": 6.812
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "timing": {
+            "startTime": 1793272029528.837,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.093,
+            "responseStart": 1.5,
+            "responseEnd": 8.17
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "timing": {
+            "startTime": 1793272029540.313,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.135,
+            "responseStart": 0.526,
+            "responseEnd": 5.483
+          }
+        },
+        {
+          "url": "/assets/fonts/outfit-reference-500.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "timing": {
+            "startTime": 1793272029541.9092,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.112,
+            "responseStart": 1.024,
+            "responseEnd": 7.753
+          }
+        },
+        {
+          "url": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "timing": {
+            "startTime": 1793272029542.1829,
+            "domainLookupStart": -1,
+            "domainLookupEnd": -1,
+            "connectStart": -1,
+            "secureConnectionStart": -1,
+            "connectEnd": -1,
+            "requestStart": 0.084,
+            "responseStart": 1.469,
+            "responseEnd": 7.832
+          }
+        }
+      ],
+      "stylesheet_responses": [],
+      "state": {
+        "readyState": "complete",
+        "loadEventEnd": 52.9000000001397,
+        "domContentLoadedEventEnd": 18.700000000186265,
+        "fontPending": false,
+        "preload": [
+          {
+            "href": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          },
+          {
+            "href": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "font/woff2",
+            "crossorigin": "anonymous"
+          }
+        ],
+        "css": [
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          },
+          {
+            "href": null,
+            "disabled": false,
+            "owner": "STYLE",
+            "media": null
+          }
+        ],
+        "fontRules": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-300.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-500.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-600.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/outfit-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-400.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "src": "url(\"/assets/fonts/cormorant-garamond-reference-700.woff2\") format(\"woff2\")"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Arial\")"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "",
+            "style": "",
+            "display": "",
+            "src": "local(\"Times New Roman\")"
+          }
+        ],
+        "loadedFonts": [
+          {
+            "family": "Outfit",
+            "weight": "300",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "500",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "600",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Outfit",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "unloaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "400",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Cormorant Garamond",
+            "weight": "700",
+            "style": "normal",
+            "display": "block",
+            "status": "loaded"
+          },
+          {
+            "family": "Outfit Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "error"
+          },
+          {
+            "family": "Cormorant Metric",
+            "weight": "normal",
+            "style": "normal",
+            "display": "auto",
+            "status": "unloaded"
+          }
+        ],
+        "resourceEntries": [
+          {
+            "name": "/assets/fonts/outfit-reference-300.woff2",
+            "type": "link",
+            "startTime": 8.1,
+            "duration": 6.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+            "type": "link",
+            "startTime": 8.5,
+            "duration": 8.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-400.woff2",
+            "type": "css",
+            "startTime": 21.6,
+            "duration": 5.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/outfit-reference-500.woff2",
+            "type": "css",
+            "startTime": 21.8,
+            "duration": 7.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+            "type": "css",
+            "startTime": 22,
+            "duration": 7.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "lcp": [
+          {
+            "startTime": 92,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": []
+      },
+      "status": "PASS"
+    }
+  ],
+  "font_ab_evidence": "reports/phase-32-font-ab-results.json",
+  "font_ab_summary": "reports/phase-32-font-ab-summary.md",
+  "decision": "KEEP_BASELINE, because B did not show consistent median LCP improvement across all three templates, though CLS medians were unchanged."
+}

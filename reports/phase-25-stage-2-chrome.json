@@ -1,0 +1,2770 @@
+{
+  "rows": [
+    {
+      "route": "/",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/404",
+      "width": 360,
+      "differences": [
+        {
+          "selector": "#il-footer",
+          "property": "height",
+          "reference": "2134.19px",
+          "actual": "196px"
+        },
+        {
+          "selector": "#il-footer .container",
+          "property": "height",
+          "reference": "2013.19px",
+          "actual": "75px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "height",
+          "reference": "1816.19px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "margin",
+          "reference": "0px 0px 64px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "gap",
+          "reference": "32px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "display",
+          "reference": "grid"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "height",
+          "reference": "34px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "margin",
+          "reference": "0px 0px 4px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "color",
+          "reference": "rgb(0, 0, 238)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "height",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontSize",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontWeight",
+          "reference": "700"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontFamily",
+          "reference": "\"Cormorant Garamond\""
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "lineHeight",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "letterSpacing",
+          "reference": "0.44px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "height",
+          "reference": "83.1875px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontSize",
+          "reference": "13px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "lineHeight",
+          "reference": "20.8px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "margin",
+          "reference": "12px 0px 20px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "height",
+          "reference": "15px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontSize",
+          "reference": "12px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "letterSpacing",
+          "reference": "1.68px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "margin",
+          "reference": "0px 0px 20px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "color",
+          "reference": "rgb(200, 211, 232)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "height",
+          "reference": "170px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "margin",
+          "reference": "0px 0px 8px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "height",
+          "reference": "32px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontSize",
+          "reference": "11px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "letterSpacing",
+          "reference": "1.1px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "padding",
+          "reference": "8px 16px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "margin",
+          "reference": "16px 0px 0px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "border",
+          "reference": "1px solid rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "borderRadius",
+          "reference": "3px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "color",
+          "reference": "rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "height",
+          "reference": "40px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "backgroundColor",
+          "reference": "rgba(255, 255, 255, 0.05)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "border",
+          "reference": "1px solid rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "borderRadius",
+          "reference": "50%"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-bottom",
+          "property": "height",
+          "reference": "133px",
+          "actual": "75px"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/404",
+      "width": 768,
+      "differences": [
+        {
+          "selector": "#il-footer",
+          "property": "height",
+          "reference": "1381.19px",
+          "actual": "196px"
+        },
+        {
+          "selector": "#il-footer .container",
+          "property": "height",
+          "reference": "1260.19px",
+          "actual": "75px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "height",
+          "reference": "1077.19px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "margin",
+          "reference": "0px 0px 64px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "gap",
+          "reference": "32px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "display",
+          "reference": "grid"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "height",
+          "reference": "34px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "margin",
+          "reference": "0px 0px 4px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "color",
+          "reference": "rgb(0, 0, 238)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "height",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontSize",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontWeight",
+          "reference": "700"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontFamily",
+          "reference": "\"Cormorant Garamond\""
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "lineHeight",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "letterSpacing",
+          "reference": "0.44px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "height",
+          "reference": "83.1875px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontSize",
+          "reference": "13px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "lineHeight",
+          "reference": "20.8px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "margin",
+          "reference": "12px 0px 20px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "height",
+          "reference": "15px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontSize",
+          "reference": "12px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "letterSpacing",
+          "reference": "1.68px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "margin",
+          "reference": "0px 0px 20px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "color",
+          "reference": "rgb(200, 211, 232)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "height",
+          "reference": "170px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "margin",
+          "reference": "0px 0px 8px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "height",
+          "reference": "32px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontSize",
+          "reference": "11px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "letterSpacing",
+          "reference": "1.1px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "padding",
+          "reference": "8px 16px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "margin",
+          "reference": "16px 0px 0px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "border",
+          "reference": "1px solid rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "borderRadius",
+          "reference": "3px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "color",
+          "reference": "rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "height",
+          "reference": "40px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "backgroundColor",
+          "reference": "rgba(255, 255, 255, 0.05)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "border",
+          "reference": "1px solid rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "borderRadius",
+          "reference": "50%"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-bottom",
+          "property": "height",
+          "reference": "119px",
+          "actual": "75px"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "differences": [
+        {
+          "selector": ".nav-links",
+          "property": "margin",
+          "reference": "0px 222.734px",
+          "actual": "0px 222.75px"
+        }
+      ]
+    },
+    {
+      "route": "/404",
+      "width": 1280,
+      "differences": [
+        {
+          "selector": "#il-footer",
+          "property": "height",
+          "reference": "1136px",
+          "actual": "165px"
+        },
+        {
+          "selector": "#il-footer .container",
+          "property": "height",
+          "reference": "1015px",
+          "actual": "44px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "height",
+          "reference": "894px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "margin",
+          "reference": "0px 0px 64px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "gap",
+          "reference": "40px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "display",
+          "reference": "grid"
+        },
+        {
+          "selector": ".ft-grid",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "height",
+          "reference": "34px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "margin",
+          "reference": "0px 0px 4px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-logo",
+          "property": "color",
+          "reference": "rgb(0, 0, 238)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "height",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontSize",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontWeight",
+          "reference": "700"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "fontFamily",
+          "reference": "\"Cormorant Garamond\""
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "lineHeight",
+          "reference": "22px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "letterSpacing",
+          "reference": "0.44px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-lname",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "height",
+          "reference": "83.1875px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontSize",
+          "reference": "13px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "lineHeight",
+          "reference": "20.8px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "margin",
+          "reference": "12px 0px 20px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-tagline",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "height",
+          "reference": "15px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontSize",
+          "reference": "12px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "letterSpacing",
+          "reference": "1.68px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "margin",
+          "reference": "0px 0px 20px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-h4",
+          "property": "color",
+          "reference": "rgb(200, 211, 232)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "height",
+          "reference": "170px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "gap",
+          "reference": "10px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".ft-links",
+          "property": "color",
+          "reference": "rgb(255, 255, 255)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-links a",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "height",
+          "reference": "18px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontSize",
+          "reference": "14px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "margin",
+          "reference": "0px 0px 8px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "border",
+          "reference": "0px none"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "borderRadius",
+          "reference": "0px"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "display",
+          "reference": "block"
+        },
+        {
+          "selector": ".ft-ca",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "height",
+          "reference": "32px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontSize",
+          "reference": "11px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontWeight",
+          "reference": "500"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "letterSpacing",
+          "reference": "1.1px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "padding",
+          "reference": "8px 16px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "margin",
+          "reference": "16px 0px 0px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "backgroundColor",
+          "reference": "rgba(0, 0, 0, 0)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "border",
+          "reference": "1px solid rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "borderRadius",
+          "reference": "3px"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "display",
+          "reference": "inline-block"
+        },
+        {
+          "selector": ".ft-cta",
+          "property": "color",
+          "reference": "rgb(201, 168, 76)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "height",
+          "reference": "40px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontSize",
+          "reference": "16px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontWeight",
+          "reference": "300"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "fontFamily",
+          "reference": "Outfit"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "lineHeight",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "letterSpacing",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "padding",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "margin",
+          "reference": "0px"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "gap",
+          "reference": "normal"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "backgroundColor",
+          "reference": "rgba(255, 255, 255, 0.05)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "border",
+          "reference": "1px solid rgba(255, 255, 255, 0.1)"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "borderRadius",
+          "reference": "50%"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "display",
+          "reference": "flex"
+        },
+        {
+          "selector": ".social-btn",
+          "property": "color",
+          "reference": "rgb(138, 152, 184)"
+        },
+        {
+          "selector": ".ft-bottom",
+          "property": "height",
+          "reference": "57px",
+          "actual": "44px"
+        }
+      ]
+    },
+    {
+      "route": "/all-pages",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/terms",
+      "width": 360,
+      "differences": []
+    },
+    {
+      "route": "/all-pages",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/terms",
+      "width": 768,
+      "differences": []
+    },
+    {
+      "route": "/all-pages",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/italy-dsu-scholarship-eligibility",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/blog/study-in-germany-free-aps-certificate",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-czech-republic",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-gcc",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-italy",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-latvia",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-lithuania",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-russia",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-slovakia",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/study-in-uk",
+      "width": 1280,
+      "differences": []
+    },
+    {
+      "route": "/terms",
+      "width": 1280,
+      "differences": []
+    }
+  ],
+  "passed": false,
+  "passed_except_abbreviated_404": false
+}

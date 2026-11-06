@@ -1,0 +1,451 @@
+{
+  "id": "study-in-czech-republic__360__js-off__motion-normal",
+  "route": "/study-in-czech-republic",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-czech-republic",
+  "http_status": 200,
+  "page_height": 6692,
+  "scroll": {
+    "height": 6692,
+    "scroll_samples": 11,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6692,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4557
+    },
+    "visible_text_chars": 3366,
+    "visible_text_nodes": 71,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Czech Republic"
+      },
+      {
+        "selector": "p",
+        "y": 380,
+        "text": "A Czech long-term study visa is intended for third-country n"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 592,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 746,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 807,
+        "text": "Exact costs vary by university, city and programme, so check"
+      },
+      {
+        "selector": "h2",
+        "y": 965,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1026,
+        "text": "Indian applicants for a long-term visa or long-term residenc"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1180,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1224,
+        "text": "Appointments for Indian study applicants are given through r"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1407,
+        "text": "[3]"
+      },
+      {
+        "selector": "li",
+        "y": 1451,
+        "text": "The embassy lists a 60-day decision period for study visa an"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1576,
+        "text": "[2]"
+      },
+      {
+        "selector": "li",
+        "y": 1620,
+        "text": "A long-term visa, including extensions, can be valid for a m"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1746,
+        "text": "[4]"
+      },
+      {
+        "selector": "h2",
+        "y": 1822,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1883,
+        "text": "The embassy lists the travel document, photograph, proof of "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2066,
+        "text": "[5]"
+      },
+      {
+        "selector": "li",
+        "y": 2110,
+        "text": "Documents submitted with the application must be in Czech; b"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2264,
+        "text": "[6]"
+      },
+      {
+        "selector": "li",
+        "y": 2308,
+        "text": "Before receiving the visa, applicants normally provide medic"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2462,
+        "text": "[7]"
+      },
+      {
+        "selector": "h2",
+        "y": 2539,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2653,
+        "text": "Where do Indian students apply for a Czech study visa?"
+      },
+      {
+        "selector": "p",
+        "y": 2724,
+        "text": "In person at the Czech Embassy in New Delhi, after booking a"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6692,
+    "scan_width": 360,
+    "scan_height": 6692,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 257,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "a.source-citation",
+            "y": 592,
+            "text": "[1]"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 608,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0028,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 670,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 380,
+            "text": "A Czech long-term study visa is intended for third-country nationals undertaking eligible "
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 807,
+            "text": "Exact costs vary by university, city and programme, so check the official university page "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4058,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00289,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 4113,
+          "element_height": 396,
+          "computed": {
+            "min_height": "0px",
+            "height": "396.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3983,
+            "text": "Czech Ministry of the Interior: study visa insurance"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4286,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4468,
+        "height": 171,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00098,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 4229,
+          "computed": {
+            "min_height": "0px",
+            "height": "4229.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4448,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 257,
+        "height": 127,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328.188px",
+            "padding_top": "110px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "a.source-citation",
+            "y": 592,
+            "text": "[1]"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 110px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 608,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0028,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 670,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 380,
+            "text": "A Czech long-term study visa is intended for third-country nationals undertaking eligible "
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 807,
+            "text": "Exact costs vary by university, city and programme, so check the official university page "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4058,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00289,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 4113,
+          "element_height": 396,
+          "computed": {
+            "min_height": "0px",
+            "height": "396.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3983,
+            "text": "Czech Ministry of the Interior: study visa insurance"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 4286,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4468,
+        "height": 171,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00098,
+        "crop": "reports/screenshots/phase-31-after/study-in-czech-republic__360__js-off__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 328,
+          "element_height": 4229,
+          "computed": {
+            "min_height": "0px",
+            "height": "4229.17px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 4448,
+            "text": "contact ILMERA"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "56c09f82c3ac850e68c2bb0ffb906a98e4d549e585d6594ed37794bef3b03d8c"
+  }
+}

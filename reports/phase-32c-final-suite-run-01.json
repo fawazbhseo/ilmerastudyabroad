@@ -1,0 +1,565 @@
+{
+  "phase": "32c",
+  "task": "final_full_suite_once",
+  "status": "FAIL",
+  "branch": "arena/48320ee5-ilmerastudyabroad",
+  "suite_head": "62af0b29e36f5cc6a0456d0537d75f2050029bd2",
+  "render_source_head": "749f138542948786d97ea513334d1cd881b45be4",
+  "production_runtime_changes_after_render_capture": [],
+  "report_updated_at_head": "969e154582ff370502797c219dd45f6a8b9716a6",
+  "started_at": "2026-11-06T04:55:36.362819+00:00",
+  "finished_at": "2026-11-06T06:10:03.467667+00:00",
+  "suite_seconds": 4467.1,
+  "full_suite_run_count": 1,
+  "complete_no_skip_or_resume": true,
+  "planned_group_count": 16,
+  "completed_group_count": 16,
+  "failed_group_count": 9,
+  "failed_groups": [
+    "43 current route renders and adapter integrity",
+    "43-route text, link, image and picture-source parity to Phase31b",
+    "43-route JSON-LD parity to Phase31b",
+    "Rendered discovery, robots and inbound-link checks",
+    "Rendered publication wording and protected-copy review",
+    "Palette and measured fallback scope",
+    "258-case browser matrix, overflow and target-baseline shrink checks",
+    "44px target rectangle audit",
+    "Phase31 full blank-space scan and Contact tails"
+  ],
+  "local_only": true,
+  "live_or_production_claim": false,
+  "groups": [
+    {
+      "name": "43 current route renders and adapter integrity",
+      "status": "FAIL",
+      "duration_seconds": 0.05,
+      "summary": "FAIL. 43/43 adapter responses matched saved render bytes and all route statuses matched Phase31b. The runner expected a per-route sha256 field absent from the server route index."
+    },
+    {
+      "name": "PHP-WASM lint all tracked PHP",
+      "status": "PASS",
+      "duration_seconds": 48.31,
+      "summary": "PASS. 100 tracked PHP files linted with PHP-WASM."
+    },
+    {
+      "name": "43-route text, link, image and picture-source parity to Phase31b",
+      "status": "FAIL",
+      "duration_seconds": 0.27,
+      "summary": "Runner status FAIL from the same route-index sha256 assumption. The actual parser results are identical for text, title, headings, links, images, picture sources and JSON-LD on 43/43 routes."
+    },
+    {
+      "name": "43-route JSON-LD parity to Phase31b",
+      "status": "FAIL",
+      "duration_seconds": 0.0,
+      "summary": "Runner status FAIL from the same route-index sha256 assumption. JSON-LD is identical on 43/43 routes."
+    },
+    {
+      "name": "Sitemap exactness and 38 unique URLs",
+      "status": "PASS",
+      "duration_seconds": 0.0,
+      "summary": "PASS. Byte-identical to Phase31b with 38 unique URLs."
+    },
+    {
+      "name": "Static discovery and wording policy fixtures",
+      "status": "PASS",
+      "duration_seconds": 0.95,
+      "summary": "PASS. All 10 static test commands passed."
+    },
+    {
+      "name": "Rendered discovery, robots and inbound-link checks",
+      "status": "FAIL",
+      "duration_seconds": 0.9,
+      "summary": "FAIL. The existing rendered check attempted to start a native php executable for a local proof-data lookup; none was present."
+    },
+    {
+      "name": "Rendered publication wording and protected-copy review",
+      "status": "FAIL",
+      "duration_seconds": 0.9,
+      "summary": "FAIL. The existing review stopped at the same unavailable native php executable."
+    },
+    {
+      "name": "Technical SEO and structured-data validation",
+      "status": "PASS",
+      "duration_seconds": 0.24,
+      "summary": "PASS. 38 published pages, heading order, breadcrumbs, images and structured-data checks passed."
+    },
+    {
+      "name": "Phase20 published-route inventory",
+      "status": "PASS",
+      "duration_seconds": 0.22,
+      "summary": "PASS. 38 published pages, unique primary inventory, 17 document fragments and 50 prompts checked."
+    },
+    {
+      "name": "Palette and measured fallback scope",
+      "status": "FAIL",
+      "duration_seconds": 2.25,
+      "summary": "FAIL. The first route/width case passed; Chromium closed before the second case could start."
+    },
+    {
+      "name": "258-case browser matrix, overflow and target-baseline shrink checks",
+      "status": "FAIL",
+      "duration_seconds": 1427.02,
+      "summary": "FAIL after 306/306 cases completed (258 normal plus 48 reduced motion). No overflow or hidden-text assertion failed. The final Phase31 target-dimension comparison reported 20 shrink examples and stopped before writing the matrix JSON; the total number was not emitted."
+    },
+    {
+      "name": "44px target rectangle audit",
+      "status": "FAIL",
+      "duration_seconds": 0,
+      "summary": "FAIL, not executed. Its required matrix JSON was not written after the preceding target-baseline failure. The Phase31 baseline has 1,552/5,670 measured main-content rectangles below 44px; this is not a current count."
+    },
+    {
+      "name": "Fresh-process axe A/AA on Home, Services, About and Contact",
+      "status": "PASS",
+      "duration_seconds": 28.44,
+      "summary": "PASS. One fresh Chromium process per route; zero node identities outside the Phase31 baseline."
+    },
+    {
+      "name": "Phase31 full blank-space scan and Contact tails",
+      "status": "FAIL",
+      "duration_seconds": 2957.54,
+      "summary": "FAIL as a screening result. All 516 cases completed; 1,147 quiet-band candidates, zero hidden reveal groups, 16 intentional cue dismissals, and eight min-height-tail candidates. Four are the retained Contact hero tails; four are a 202px Home #team tail candidate at 1280px."
+    },
+    {
+      "name": "Git whitespace and CRLF-aware diff check",
+      "status": "PASS",
+      "duration_seconds": 0.01,
+      "summary": "PASS."
+    }
+  ],
+  "semantic_content_comparison": {
+    "status": "PASS",
+    "route_count": 43,
+    "phase31b_source_commit": "796879d7b3d5ca0fa1e398562e937e9f364a5f62",
+    "route_status_mismatches": 0,
+    "categories_identical_on_all_routes": {
+      "text": 43,
+      "title": 43,
+      "headings": 43,
+      "links": 43,
+      "images": 43,
+      "picture_sources": 43,
+      "json_ld": 43
+    },
+    "category_mismatches": {
+      "text": [],
+      "title": [],
+      "headings": [],
+      "links": [],
+      "images": [],
+      "picture_sources": [],
+      "json_ld": []
+    },
+    "comparator_original_status": "FAIL",
+    "comparator_failure_cause": "The PHP-WASM server route index contains no sha256 field. The content parser still completed and its seven semantic categories matched on all 43 routes.",
+    "comparison_artifact_external": {
+      "path": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/phase31b-content-comparison.json",
+      "exists": true,
+      "bytes": 67807,
+      "sha256": "29f93e27de1037c99eda874b3e4265681e67b8723093b63a6e5b14f81d66b34e"
+    }
+  },
+  "render_capture": {
+    "route_count": 43,
+    "http_response_body_matches_saved_render": 43,
+    "phase31b_status_mismatches": 0,
+    "current_render_bytes": 3186561,
+    "current_index_schema_warning": "The server index records route, file, status, bytes and evidence, but not sha256. The integrity assertion treated the absent field as a mismatch.",
+    "index_sha256": "d2d46e65b7333ac41bae66e409b92defd293035909c4d6f25fba59bdfa1a8982"
+  },
+  "browser_matrix": {
+    "normal_cases": 258,
+    "reduced_motion_cases": 48,
+    "total_cases_completed": 306,
+    "all_completed_case_lines_reported_hidden_text_zero": true,
+    "overflow_assertion_failures": 0,
+    "status": "FAIL_TARGET_BASELINE_SHRINK",
+    "shrink_examples_emitted": 20,
+    "shrink_total_emitted_by_runner": false,
+    "shrink_examples": [
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-belagavi|Belagavi|9",
+        "baseline_rect_css_px": {
+          "width": 68.95,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 61.64,
+          "height": 20
+        },
+        "width_delta_css_px": -7.31,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-bengaluru|Bengaluru|10",
+        "baseline_rect_css_px": {
+          "width": 82.23,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 72.2,
+          "height": 20
+        },
+        "width_delta_css_px": -10.03,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-chikkamagaluru|Chikkamagaluru|11",
+        "baseline_rect_css_px": {
+          "width": 130.47,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 115.41,
+          "height": 20
+        },
+        "width_delta_css_px": -15.06,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-gonikoppal|Gonikoppal|12",
+        "baseline_rect_css_px": {
+          "width": 89.83,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 81.41,
+          "height": 20
+        },
+        "width_delta_css_px": -8.42,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-hassan|Hassan|13",
+        "baseline_rect_css_px": {
+          "width": 58.45,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 52.2,
+          "height": 20
+        },
+        "width_delta_css_px": -6.25,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-consultants-in-karnataka|Karnataka|14",
+        "baseline_rect_css_px": {
+          "width": 81.13,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 74.86,
+          "height": 20
+        },
+        "width_delta_css_px": -6.27,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-consultants-in-kodagu|Kodagu|15",
+        "baseline_rect_css_px": {
+          "width": 59.75,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 55.03,
+          "height": 20
+        },
+        "width_delta_css_px": -4.72,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-kushalnagar|Kushalnagar|16",
+        "baseline_rect_css_px": {
+          "width": 99.05,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 89.63,
+          "height": 20
+        },
+        "width_delta_css_px": -9.42,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-madikeri|Madikeri|17",
+        "baseline_rect_css_px": {
+          "width": 67.78,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 61.13,
+          "height": 20
+        },
+        "width_delta_css_px": -6.65,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-mangaluru|Mangaluru|18",
+        "baseline_rect_css_px": {
+          "width": 85.02,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 76.33,
+          "height": 20
+        },
+        "width_delta_css_px": -8.69,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-mysuru|Mysuru|19",
+        "baseline_rect_css_px": {
+          "width": 58.47,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 50.86,
+          "height": 20
+        },
+        "width_delta_css_px": -7.61,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-ponnampet|Ponnampet|20",
+        "baseline_rect_css_px": {
+          "width": 90.81,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 82.11,
+          "height": 20
+        },
+        "width_delta_css_px": -8.7,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-shivamogga|Shivamogga|21",
+        "baseline_rect_css_px": {
+          "width": 99.52,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 88.88,
+          "height": 20
+        },
+        "width_delta_css_px": -10.64,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-siddapura|Siddapura|22",
+        "baseline_rect_css_px": {
+          "width": 81.41,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 73.41,
+          "height": 20
+        },
+        "width_delta_css_px": -8.0,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-somwarpet|Somwarpet|23",
+        "baseline_rect_css_px": {
+          "width": 91.28,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 82.25,
+          "height": 20
+        },
+        "width_delta_css_px": -9.03,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-udupi-manipal|Udupi and Manipal|24",
+        "baseline_rect_css_px": {
+          "width": 149.48,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 132.45,
+          "height": 20
+        },
+        "width_delta_css_px": -17.03,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/study-abroad-counselling-virajpet|Virajpet|25",
+        "baseline_rect_css_px": {
+          "width": 62.14,
+          "height": 19
+        },
+        "current_rect_css_px": {
+          "width": 56.61,
+          "height": 20
+        },
+        "width_delta_css_px": -5.53,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|https://www.linkedin.com/in/jabir-kj-920300428|Jabir KJ|27",
+        "baseline_rect_css_px": {
+          "width": 65.5,
+          "height": 20
+        },
+        "current_rect_css_px": {
+          "width": 59.86,
+          "height": 21
+        },
+        "width_delta_css_px": -5.64,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|https://fawazbhseo.in|Fawaz BH|29",
+        "baseline_rect_css_px": {
+          "width": 86.84,
+          "height": 20
+        },
+        "current_rect_css_px": {
+          "width": 72.16,
+          "height": 21
+        },
+        "width_delta_css_px": -14.68,
+        "height_delta_css_px": 1
+      },
+      {
+        "identity": "/|360|on|normal|a|/blog/documents-needed-to-study-abroad-from-india|Documents Needed to Study Abroad: Build a Route-Specific Checklist|32",
+        "baseline_rect_css_px": {
+          "width": 298.11,
+          "height": 46.19
+        },
+        "current_rect_css_px": {
+          "width": 262.73,
+          "height": 47.19
+        },
+        "width_delta_css_px": -35.38,
+        "height_delta_css_px": 1.0
+      }
+    ],
+    "matrix_json_written": false,
+    "44px_audit_ran": false,
+    "browser_log_external": {
+      "path": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/logs/258-case-browser-matrix--overflow-and-target-baseline-shrink-checks.log",
+      "exists": true,
+      "bytes": 26723,
+      "sha256": "d2f533c5fd3e497349ea3e2b6d892cb11ed1c76eb54b4356507c6266247dd6a7"
+    }
+  },
+  "target_44px": {
+    "status": "NOT_RUN_CURRENT_MATRIX_OUTPUT_MISSING",
+    "phase31_baseline_rectangles": 5670,
+    "phase31_baseline_below_44px": 1552,
+    "current_below_44px_count": null,
+    "interpretation": "The baseline count is not a current result. No pseudo-element hit area was inferred."
+  },
+  "fresh_process_axe": {
+    "status": "PASS_BASELINE_RELATIVE",
+    "axe_core": "4.11.0",
+    "run_only": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21a",
+      "wcag21aa"
+    ],
+    "routes": {
+      "/": 8,
+      "/services": 21,
+      "/about": 5,
+      "/contact": 2
+    },
+    "new_node_identities": 0,
+    "aggregate_external": {
+      "path": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/axe/aggregate.json",
+      "exists": true,
+      "bytes": 2731,
+      "sha256": "511cd6f1063d11876bd6414484e5505da926a235f36031b85ff912d8f83c8986"
+    }
+  },
+  "blank_space_scan": {
+    "status": "FAIL_SCREENING_CANDIDATE_REMAINS",
+    "case_count": 516,
+    "complete": true,
+    "http_status_counts": {
+      "200": 516
+    },
+    "pixel_quiet_band_candidates": 1147,
+    "phase31_after_pixel_candidates": 1171,
+    "pixel_candidate_delta": -24,
+    "intentional_scroll_indicator_dismissals": 16,
+    "hidden_reveal_text_findings": 0,
+    "dom_findings_by_kind": {
+      "unused-min-height-tail": 8
+    },
+    "contact_minihero_tail_by_width": {
+      "360": {
+        "full_scan_tail_px": 185,
+        "state_count": 4,
+        "phase32_focused_inspector_px": 184.53,
+        "phase31_after_scan_px": 138,
+        "delta_vs_phase31_px": 47,
+        "cue_to_hero_bottom_gap_px": 30,
+        "hero_height_and_min_height_px": 792
+      },
+      "768": {
+        "full_scan_tail_px": 245,
+        "state_count": 4,
+        "phase32_focused_inspector_px": 244.94,
+        "phase31_after_scan_px": 233,
+        "delta_vs_phase31_px": 12,
+        "cue_to_hero_bottom_gap_px": 30,
+        "hero_height_and_min_height_px": 792
+      },
+      "1280": {
+        "full_scan_tail_px": 192,
+        "state_count": 4,
+        "phase32_focused_inspector_px": 192.34,
+        "phase31_after_scan_px": null,
+        "delta_vs_phase31_px": null,
+        "cue_to_hero_bottom_gap_px": 30,
+        "hero_height_and_min_height_px": 792
+      }
+    },
+    "contact_disposition": "Retain the existing 792px hero and 30px cue gap. Do not count the tail as savings or change the layout.",
+    "remaining_candidate": {
+      "selector": "#team",
+      "route_class": "Home",
+      "width": 1280,
+      "states": 4,
+      "min_height_css_px": "962.188px",
+      "declared_bottom_padding_css_px": "110px",
+      "measured_tail_css_px": 202,
+      "classification": "Unclassified screening candidate, not confirmed removable space. No crop was saved and no layout change was made."
+    },
+    "summary_artifact_external": {
+      "path": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/blank-space-summary.json",
+      "exists": true,
+      "bytes": 97037,
+      "sha256": "36878b914a6d3bed9809969a675eb830b6fd0cfecae590642d64c4b5e6fa6a51"
+    },
+    "raw_case_directory_external": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/blank-space-scan/cases"
+  },
+  "sitemap": {
+    "status": "PASS",
+    "byte_identical_to_phase31b": true,
+    "unique_url_count": 38
+  },
+  "palette": {
+    "status": "FAIL_INCOMPLETE",
+    "completed_cases": 1,
+    "expected_cases": 12,
+    "first_case_passed": true,
+    "failure": "browserContext.newPage reported that the target page, context or browser had closed before the second case."
+  },
+  "rendered_policy_checks": {
+    "discovery_status": "FAIL_ENVIRONMENT",
+    "publication_review_status": "FAIL_ENVIRONMENT",
+    "shared_failure": "Existing scripts invoked a native php executable for one local proof-data lookup; PHP-WASM lint is separate and passed."
+  },
+  "external_raw_runner_report": {
+    "path": "/home/user/phase32c-runtime/phase32c-final-suite-run-01/phase32c-final-suite-run-01-runner-json-original.json",
+    "sha256": "cf768c3d7f3fc0e1b331c518f8e4cdd42bea3a2e47b4d3e4f6dc23346599db0e"
+  },
+  "method_note": "This summary preserves the single run exactly as observed. Post-run semantic interpretation uses already-produced render comparison and scan outputs only; no suite group was rerun.",
+  "runner_exit_code": 1
+}

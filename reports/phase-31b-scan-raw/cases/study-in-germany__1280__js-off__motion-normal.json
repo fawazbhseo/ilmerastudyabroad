@@ -1,0 +1,177 @@
+{
+  "id": "study-in-germany__1280__js-off__motion-normal",
+  "route": "/study-in-germany",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-germany",
+  "http_status": 200,
+  "page_height": 5937,
+  "scroll": {
+    "height": 5937,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 5937,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4801
+    },
+    "visible_text_chars": 4845,
+    "visible_text_nodes": 77,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 216,
+        "text": "Study in Germany from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 429,
+        "text": "Study in Germany from India starts with programme-specific p"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 510,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 510,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 577,
+        "text": "What should I check before planning to study in Germany from"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 669,
+        "text": "At German public institutions, bachelor programmes and most "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 766,
+        "text": "[1]"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 838,
+        "text": "Discuss study in Germany from India online"
+      },
+      {
+        "selector": "h2",
+        "y": 998,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1065,
+        "text": "ILMERA confirms the rule for each university before applying"
+      },
+      {
+        "selector": "h2",
+        "y": 1167,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1234,
+        "text": "Bachelor programmes and most master programmes at state inst"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1273,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1317,
+        "text": "Baden-Wuerttemberg charges non-EU citizens 1,500 euros per s"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1356,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1400,
+        "text": "Bavarian institutions may charge tuition to students from ou"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1439,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1483,
+        "text": "All students pay a semester contribution of between 70 and 4"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1522,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1600,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 1667,
+        "text": "DAAD distinguishes the student visa for applicants already a"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1735,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 1812,
+        "text": "Documents"
+      },
+      {
+        "selector": "li",
+        "y": 1880,
+        "text": "Students from outside the EU or EEA must present proof of fi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5937,
+    "scan_width": 512,
+    "scan_height": 2375,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997894736842103
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6363157bb2574442bee98c83749e35dce44faea61648ac300b2850319bfd3813"
+  }
+}

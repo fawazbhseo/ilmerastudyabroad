@@ -1,0 +1,30 @@
+{
+  "source_commit": "164d6de41159385e151ecefec54763eab59141a5",
+  "evidence": "Immutable baseline HTML replay with the same reference assets/fonts, completed reveals, requested 360/768/1280 viewports. Team-only section minima preserve downstream reference positions. Home768 bottom padding absorbs 30.5px introduced by equal rows; no card width/photo/name/title/grid gap change.",
+  "pages": {
+    "home": {
+      "baseline_heights": {
+        "360": 1765.5,
+        "768": 1485,
+        "1280": 962.1875
+      },
+      "short_card_heights_before_footprint_fix": {
+        "360": 1668.5,
+        "768": 1515.5,
+        "1280": 809.1875
+      }
+    },
+    "about": {
+      "baseline_heights": {
+        "360": 2041.96875,
+        "768": 1292.78125,
+        "1280": 1152.71875
+      },
+      "short_card_heights_before_footprint_fix": {
+        "360": 1812.125,
+        "768": 1015.65625,
+        "1280": 991.0625
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<?php
+return [
+    'slug' => 'russia',
+    'name' => 'Russia',
+    'status' => 'draft',
+    'intro_answer' => 'Indian students can apply for Russian Government scholarships through the official education-in-russia.com website. The Indian Ministry of Education notice states that the scholarship covers tuition fees, that students do not have to pass tests or exams, and that students who do not speak Russian can study Russian first for one year.',
+    'intro_answer_source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+    'intro_answer_source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+    'intro_answer_checked_on' => '2026-10-15',
+    'ilmera_summary' => 'Exact fees vary by university and programme and should be confirmed at time of application.',
+    'summary_provenance' => 'git:7dfac93:llms-full.txt section 4.8',
+    'facts_last_checked' => '2026-10-15',
+    'official_source_hosts' => [
+        'education.gov.in',
+    ],
+    'who_its_for' => [],
+    'english_requirements' => [],
+    'costs' => [],
+    'scholarships' => [
+        [
+            'text' => 'The Ministry of Education of India notice for the academic year 2026-27 describes a scholarship programme of the Government of the Russian Federation for Indian citizens at Russian higher education institutions. It covers bachelor, specialist, master and PhD study and advanced training courses, and the notice states that the scholarship covers tuition fees. Check the notice for anything else it does or does not cover.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+        [
+            'text' => 'Applications are submitted only through the official website education-in-russia.com. The Indian Ministry of Education states that it has no role in nomination or selection.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+        [
+            'text' => 'The notice states that students do not have to pass tests or exams for this programme, and that students who do not speak Russian can choose to study Russian for one year first.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+    ],
+    'visa_steps' => [
+        [
+            'text' => 'The notice describes a second stage after selection in which selected students are distributed to universities and obtain a visa. The Ministry of Science and Higher Education of the Russian Federation carries out this stage together with Russian universities.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+    ],
+    'intakes' => [],
+    'documents' => [],
+    'work_and_stay' => [],
+    'faqs' => [
+        [
+            'question' => 'How do Indian students apply for Russian Government scholarships?',
+            'answer' => 'Applications are submitted only through the official website education-in-russia.com. The Indian Ministry of Education states that it has no role in nomination or selection.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+        [
+            'question' => 'Do students need to speak Russian for the Russian Government scholarship?',
+            'answer' => 'Not necessarily. The notice states that students who do not speak Russian can choose to study Russian for one year first.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+        [
+            'question' => 'Are tests or exams required for the Russian Government scholarship?',
+            'answer' => 'The notice states that students do not have to pass tests or exams for this programme.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+        [
+            'question' => 'Who arranges the university place and visa after selection?',
+            'answer' => 'After selection, the Ministry of Science and Higher Education of the Russian Federation distributes selected students to universities and handles the visa stage together with Russian universities.',
+            'source_url' => 'https://www.education.gov.in/sites/upload_files/mhrd/files/Scholarships_Russia_Federation_AY_2026_27.pdf',
+            'source_label' => 'Ministry of Education, Government of India: Russian Federation scholarships notice, academic year 2026-27',
+            'checked_on' => '2026-10-15',
+        ],
+    ],
+    'review_notice' => 'The previously supplied 2026-27 closing date was 15 February 2026, now past. The cited notice returned a missing page on 16 October 2026; that historical date and the next application window are unverified here. Do not treat this draft as an open scholarship application.',
+    'publication_review' => [
+        'checked_on' => '2026-10-16',
+        'intro_verified' => false,
+        'current_year_notice_verified' => false,
+        'all_retained_lines_verified' => false,
+        'approved_hosts_only' => true,
+        'original_sources_resolved' => false,
+        'blockers' => [
+            'Cited 2026-27 notice returned a missing page. No current-year notice or five categories verified from opened official sources. Previously supplied expired closing date is not independently confirmed.',
+        ],
+    ],
+];

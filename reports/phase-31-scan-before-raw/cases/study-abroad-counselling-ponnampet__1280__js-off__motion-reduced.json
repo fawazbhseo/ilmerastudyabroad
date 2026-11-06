@@ -1,0 +1,176 @@
+{
+  "id": "study-abroad-counselling-ponnampet__1280__js-off__motion-reduced",
+  "route": "/study-abroad-counselling-ponnampet",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-ponnampet",
+  "http_status": 200,
+  "page_height": 4700,
+  "scroll": {
+    "height": 4700,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4700,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3564
+    },
+    "visible_text_chars": 4219,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Ponnampet"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Ponnampet"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Ponnampet: collect evidence befo"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "Where can a Ponnampet student find material for an original "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 641,
+        "text": "Students from Ponnampet preparing a study statement can begi"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 795,
+        "text": "Discuss how to collect evidence before drafting the introduc"
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "Collect evidence before drafting the introduction"
+      },
+      {
+        "selector": "p",
+        "y": 945,
+        "text": "Write brief notes about the experiences that led to your aca"
+      },
+      {
+        "selector": "h2",
+        "y": 1191,
+        "text": "Answer the prompt through the selected course"
+      },
+      {
+        "selector": "p",
+        "y": 1258,
+        "text": "Read the requested statement instructions before deciding th"
+      },
+      {
+        "selector": "h2",
+        "y": 1532,
+        "text": "Revise for truth as well as presentation"
+      },
+      {
+        "selector": "p",
+        "y": 1600,
+        "text": "Read each draft against the rest of the application. Check t"
+      },
+      {
+        "selector": "p",
+        "y": 1854,
+        "text": "Counselling is online, and students from Ponnampet do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1927,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2020,
+        "text": "Where can a Ponnampet student find material for an original "
+      },
+      {
+        "selector": "p",
+        "y": 2075,
+        "text": "Start with genuine learning experiences and explain how they"
+      },
+      {
+        "selector": "summary",
+        "y": 2116,
+        "text": "What should a statement reviewer change?"
+      },
+      {
+        "selector": "p",
+        "y": 2171,
+        "text": "A reviewer can flag unclear reasoning, contradictions and pr"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2293,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2360,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2421,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2530,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2605,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2659,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4700,
+    "scan_width": 512,
+    "scan_height": 1880,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "a0d087b4013d7784c37a9839419d89cb1f2d97f086b9938be71ce14cdda70dc8"
+  }
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "services",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-services-1280.png",
+    "pixels": [
+      1280,
+      17061
+    ],
+    "lossless": true,
+    "bytes": 6620577
+  },
+  {
+    "name": "services",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-services-360.png",
+    "pixels": [
+      360,
+      21773
+    ],
+    "lossless": true,
+    "bytes": 3247104
+  },
+  {
+    "name": "germany",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-germany-1280.webp",
+    "pixels": [
+      1280,
+      6101
+    ],
+    "lossless": true,
+    "bytes": 141340
+  },
+  {
+    "name": "germany",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-germany-360.webp",
+    "pixels": [
+      360,
+      8366
+    ],
+    "lossless": true,
+    "bytes": 124858
+  },
+  {
+    "name": "mysuru",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-mysuru-1280.webp",
+    "pixels": [
+      1280,
+      4701
+    ],
+    "lossless": true,
+    "bytes": 304042
+  },
+  {
+    "name": "mysuru",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-mysuru-360.webp",
+    "pixels": [
+      360,
+      7139
+    ],
+    "lossless": true,
+    "bytes": 245238
+  },
+  {
+    "name": "article",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-article-1280.webp",
+    "pixels": [
+      1280,
+      7976
+    ],
+    "lossless": true,
+    "bytes": 499484
+  },
+  {
+    "name": "article",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-article-360.webp",
+    "pixels": [
+      360,
+      12537
+    ],
+    "lossless": true,
+    "bytes": 403702
+  },
+  {
+    "name": "blog",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-blog-1280.webp",
+    "pixels": [
+      1280,
+      3400
+    ],
+    "lossless": true,
+    "bytes": 251378
+  },
+  {
+    "name": "blog",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-blog-360.webp",
+    "pixels": [
+      360,
+      6400
+    ],
+    "lossless": true,
+    "bytes": 206748
+  },
+  {
+    "name": "privacy",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-privacy-1280.webp",
+    "pixels": [
+      1280,
+      4532
+    ],
+    "lossless": true,
+    "bytes": 308600
+  },
+  {
+    "name": "privacy",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-privacy-360.webp",
+    "pixels": [
+      360,
+      7385
+    ],
+    "lossless": true,
+    "bytes": 249858
+  },
+  {
+    "name": "all-pages",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-all-pages-1280.webp",
+    "pixels": [
+      1280,
+      3920
+    ],
+    "lossless": true,
+    "bytes": 210564
+  },
+  {
+    "name": "all-pages",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-all-pages-360.webp",
+    "pixels": [
+      360,
+      6081
+    ],
+    "lossless": true,
+    "bytes": 158010
+  },
+  {
+    "name": "404",
+    "width": 1280,
+    "file": "reports/screenshots/phase-25-stage-2/review-404-1280.webp",
+    "pixels": [
+      1280,
+      970
+    ],
+    "lossless": true,
+    "bytes": 87574
+  },
+  {
+    "name": "404",
+    "width": 360,
+    "file": "reports/screenshots/phase-25-stage-2/review-404-360.webp",
+    "pixels": [
+      360,
+      1203
+    ],
+    "lossless": true,
+    "bytes": 53698
+  }
+]

@@ -1,0 +1,423 @@
+{
+  "id": "blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal",
+  "route": "/blog/scholarships-for-indian-students-study-abroad",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/scholarships-for-indian-students-study-abroad",
+  "http_status": 200,
+  "page_height": 9028,
+  "scroll": {
+    "height": 9028,
+    "scroll_samples": 15,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 9028,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 6894
+    },
+    "visible_text_chars": 6677,
+    "visible_text_nodes": 72,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 197,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "h1",
+        "y": 239,
+        "text": "Scholarships for Indian students abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 426,
+        "text": "Scholarships for Indian students abroad requires careful pla"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 593,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 593,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 660,
+        "text": "What should I know about scholarships for Indian students ab"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 786,
+        "text": "A scholarship enquiry should distinguish a published opportu"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 1054,
+        "text": "Discuss scholarships for Indian students abroad online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1160,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 1160,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 1160,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 1160,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1209,
+        "text": "A scholarship enquiry should distinguish a published opportu"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1486,
+        "text": "This is an evidence-checking guide, not a list of currently "
+      },
+      {
+        "selector": "h2",
+        "y": 1696,
+        "text": "Germany: funding opportunities are distinct from tuition pol"
+      },
+      {
+        "selector": "p",
+        "y": 1829,
+        "text": "DAAD says international students can apply to scholarship or"
+      },
+      {
+        "selector": "a",
+        "y": 2038,
+        "text": "[DAAD-S]"
+      },
+      {
+        "selector": "p",
+        "y": 2099,
+        "text": "DAAD separately describes the normal tuition position at sta"
+      },
+      {
+        "selector": "a",
+        "y": 2423,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "p",
+        "y": 2483,
+        "text": "For financial proof, DAAD lists receipt of a recognised scho"
+      },
+      {
+        "selector": "a",
+        "y": 2664,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "h2",
+        "y": 2743,
+        "text": "Slovakia: distinguish a study stay from assumed degree fundi"
+      },
+      {
+        "selector": "p",
+        "y": 2876,
+        "text": "The European Commission profile describes the National Schol"
+      },
+      {
+        "selector": "a",
+        "y": 3143,
+        "text": "[SK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 9028,
+    "scan_width": 360,
+    "scan_height": 9028,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 310,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 374,
+          "computed": {
+            "min_height": "0px",
+            "height": "373.766px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Scholarships"
+          },
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 593,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6590,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6062,
+          "element_height": 615,
+          "computed": {
+            "min_height": "0px",
+            "height": "615px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6361,
+            "text": "No. A tuition policy is not a scholarship award. Semester contributions and living expense"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6767,
+            "text": "Ask ILMERA about scholarships for Indian students abroad"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6822,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6767,
+            "text": "Ask ILMERA about scholarships for Indian students abroad"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8502,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6618,
+            "text": "ILMERA helps students identify scholarships and guides them through applications and requi"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 310,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.article-hero",
+          "element_tag": "section",
+          "element_y": 0,
+          "element_height": 374,
+          "computed": {
+            "min_height": "0px",
+            "height": "373.766px",
+            "padding_top": "100px",
+            "padding_bottom": "32px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Scholarships"
+          },
+          "next_visible_text": {
+            "selector": "p.last-reviewed",
+            "y": 593,
+            "text": "Last reviewed"
+          }
+        },
+        "selector": "section.article-hero",
+        "cause": "Low edge-density band; nearest section section.article-hero has 100px top and 32px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6590,
+        "height": 159,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00049,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 6062,
+          "element_height": 615,
+          "computed": {
+            "min_height": "0px",
+            "height": "615px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6361,
+            "text": "No. A tuition policy is not a scholarship award. Semester contributions and living expense"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6767,
+            "text": "Ask ILMERA about scholarships for Indian students abroad"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6822,
+        "height": 154,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 6767,
+            "text": "Ask ILMERA about scholarships for Indian students abroad"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 8502,
+        "height": 120,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_scholarships-for-indian-students-study-abroad__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 6618,
+            "text": "ILMERA helps students identify scholarships and guides them through applications and requi"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6fcf4e73440a9cd61dc28d898f8195f93390f28dd52016940c50790f0fc4817d"
+  }
+}

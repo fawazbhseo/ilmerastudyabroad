@@ -1,0 +1,347 @@
+{
+  "checked_on": "2026-10-16",
+  "source": "Fresh rendered title and meta description; no new editorial claims",
+  "entries": [
+    {
+      "route": "/all-pages",
+      "kind": "index",
+      "title": "All Pages | ILMERA Study Abroad",
+      "description": "Browse published ILMERA pages, study abroad guides and location guides, grouped by type.",
+      "url": "https://ilmerastudyabroad.com/all-pages",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "kind": "blog",
+      "title": "Cost of Studying Abroad: Official Country Examples | ILMERA",
+      "description": "Compare sourced tuition and living-cost examples for six countries, plus UAE budgeting advice. Separate estimates from visa financial requirements.",
+      "url": "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "kind": "blog",
+      "title": "Documents Needed to Study Abroad: Build a Route-Specific Checklist | ILMERA",
+      "description": "Official document examples for selected study routes. Separate admission, financial evidence and visa instructions instead of relying on one universal checklist.",
+      "url": "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/",
+      "kind": "index",
+      "title": "Study Abroad Blog | ILMERA Study Abroad",
+      "description": "Practical guidance from ILMERA Study Abroad on studying in Germany, Italy, and other destinations, plus honest answers on backlogs, no-IELTS routes, and consultation from Coorg.",
+      "url": "https://ilmerastudyabroad.com/blog/",
+      "new_url_by_file": {
+        "llms.txt": false,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "kind": "blog",
+      "title": "Scholarships for Indian Students: Check Eligibility and Evidence | ILMERA",
+      "description": "Use official funding examples to distinguish tuition policy, scholarship opportunities and documented sponsorship. No unverified award amounts or promises.",
+      "url": "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "kind": "blog",
+      "title": "Online Study Abroad Counselling for Coorg Students | ILMERA",
+      "description": "ILMERA provides online counselling for students from Coorg and Kodagu by phone, WhatsApp and video call. Here is exactly what that process looks like, step by step.",
+      "url": "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+      "new_url_by_file": {
+        "llms.txt": false,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "kind": "blog",
+      "title": "Study Abroad with Academic Backlogs: What Is Possible | ILMERA",
+      "description": "Backlogs do not automatically rule out studying abroad. Several countries have more flexible entry processes. Here is a realistic look at where those options exist.",
+      "url": "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+      "new_url_by_file": {
+        "llms.txt": false,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "kind": "location",
+      "title": "Online: Turning a longlist into a defensible shortlist | Karnataka study guidance | ILMERA",
+      "description": "Online counselling guide. A shortlist framework for Karnataka students: define priorities, compare evidence consistently and keep a record of why each overseas course is retained.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "kind": "location",
+      "title": "Online: Coordinating the family decision | Kodagu study guidance | ILMERA",
+      "description": "Online counselling guide. For Kodagu students and families: organise a shared study decision, distinguish advice from consent and keep academic and financial responsibilities clear.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "kind": "location",
+      "title": "Online: Agreeing the counselling brief | Belagavi study guidance | ILMERA",
+      "description": "Online counselling guide. For Belagavi students: define counselling responsibilities, compare written service terms and prepare a clear application brief with ILMERA.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "kind": "location",
+      "title": "Online: Changing academic direction | Bengaluru study guidance | ILMERA",
+      "description": "Online counselling guide. Bengaluru students can structure a subject-change discussion around prerequisites, relevant evidence and realistic alternatives before applying abroad.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "kind": "location",
+      "title": "Online: Planning language evidence | Chikkamagaluru study guidance | ILMERA",
+      "description": "Online counselling guide. A language-evidence planning guide for Chikkamagaluru students: record accepted proof, separate admission and visa questions, and avoid assumed waivers.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "kind": "location",
+      "title": "Online: Organising household evidence | Gonikoppal study guidance | ILMERA",
+      "description": "Online counselling guide. Gonikoppal students can prepare household evidence with a document inventory, clear reporting periods and truthful explanations of missing records.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "kind": "location",
+      "title": "Online: Testing the budget boundary | Hassan study guidance | ILMERA",
+      "description": "Online counselling guide. For Hassan students: separate confirmed costs from estimates, test funding assumptions and define a budget stop point before overseas applications.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "kind": "location",
+      "title": "Online: Reading a conditional offer | Kushalnagar study guidance | ILMERA",
+      "description": "Online counselling guide. Kushalnagar students can review an offer by listing its conditions, evidence deadlines, payment terms and unresolved questions before accepting.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "kind": "location",
+      "title": "Online: Explaining the academic timeline | Madikeri study guidance | ILMERA",
+      "description": "Online counselling guide. A chronology guide for Madikeri students: organise study dates, describe interruptions truthfully and support application explanations with relevant records.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "kind": "location",
+      "title": "Online: Clarifying sponsor support | Mangaluru study guidance | ILMERA",
+      "description": "Online counselling guide. For Mangaluru applicants: discuss proposed sponsor support, distinguish willingness from available evidence and identify route-specific funding questions.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "kind": "location",
+      "title": "Online: Checking names and academic records | Mysuru study guidance | ILMERA",
+      "description": "Online counselling guide. Mysuru students can prepare academic records by checking names, identifying the issuing body and resolving discrepancies before overseas submission.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "kind": "location",
+      "title": "Online: Writing an authentic study statement | Ponnampet study guidance | ILMERA",
+      "description": "Online counselling guide. A statement-planning guide for Ponnampet students: connect learning goals to evidence, answer the actual prompt and keep the application in your own voice.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "kind": "location",
+      "title": "Online: Building a dependency calendar | Shivamogga study guidance | ILMERA",
+      "description": "Online counselling guide. For Shivamogga students: work backwards from verified deadlines, identify document dependencies and keep application timing assumptions visible.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "kind": "location",
+      "title": "Online: Sharing documents deliberately | Siddapura study guidance | ILMERA",
+      "description": "Online counselling guide. A document-sharing workflow for Siddapura students: agree the purpose, limit unnecessary copies and keep control of the version approved for submission.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "kind": "location",
+      "title": "Online: Presenting a backlog record accurately | Somwarpet study guidance | ILMERA",
+      "description": "Online counselling guide. Somwarpet students can organise backlog and repeat-attempt records, distinguish cleared from outstanding subjects and ask precise eligibility questions.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "kind": "location",
+      "title": "Online: Comparing the learning experience | Udupi and Manipal study guidance | ILMERA",
+      "description": "Online counselling guide. For students from Udupi and Manipal: compare course structure, assessment and learning requirements instead of relying only on a degree title.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "kind": "location",
+      "title": "Online: Preparing the application handover | Virajpet study guidance | ILMERA",
+      "description": "Online counselling guide. Virajpet students can organise a final application review, approve accurate statements and keep a clear record of submissions and later requests.",
+      "url": "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-gcc",
+      "kind": "destination",
+      "title": "Study in GCC | ILMERA Study Abroad",
+      "description": "ILMERA supports students applying to universities in all six GCC countries: UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain. Official-source information on this page currently covers the UAE, Qatar, Saudi Arabia, Oman and Bahrain; Oman and Bahrain coverage is limited to student registration. Kuwait information is not yet available here from a verified official source, so students should confirm Kuwait requirements directly with the relevant institution and authority.",
+      "url": "https://ilmerastudyabroad.com/study-in-gcc",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "kind": "destination",
+      "title": "Study in Germany | ILMERA Study Abroad",
+      "description": "At German public institutions, bachelor programmes and most master programmes normally have no tuition. Baden-Wuerttemberg charges non-EU tuition; Bavarian institutions may also charge. All students pay a separate semester contribution, and living costs still apply. Check the selected programme before budgeting.",
+      "url": "https://ilmerastudyabroad.com/study-in-germany",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-italy",
+      "kind": "destination",
+      "title": "Study in Italy | ILMERA Study Abroad",
+      "description": "Indian students who want to study in Italy first apply for admission to the Italian institution, then complete pre-enrolment on the Universitaly portal, then apply for a study visa by appointment at a VFS centre. Each institution sets its own admission requirements, deadlines and tuition fees.",
+      "url": "https://ilmerastudyabroad.com/study-in-italy",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-latvia",
+      "kind": "destination",
+      "title": "Study in Latvia | ILMERA Study Abroad",
+      "description": "Indian students admitted to an accredited Latvian institution apply for a long stay visa at the Embassy of Latvia in India. The visa is valid for 90 days. After entering Latvia, students apply for a residence permit at the Office of Citizenship and Migration Affairs.",
+      "url": "https://ilmerastudyabroad.com/study-in-latvia",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-lithuania",
+      "kind": "destination",
+      "title": "Study in Lithuania | ILMERA Study Abroad",
+      "description": "Tuition fees vary by university and programme, and the European Commission study portal puts the average at from 1,300 euros a year for bachelor programmes, from 2,300 for master programmes and from 8,400 for doctoral programmes. More than 500 programmes are taught in English. Check each university for exact fees.",
+      "url": "https://ilmerastudyabroad.com/study-in-lithuania",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-slovakia",
+      "kind": "destination",
+      "title": "Study in Slovakia | ILMERA Study Abroad",
+      "description": "Full-time study in Slovak at public institutions can involve no tuition, while programmes taught in English or other foreign languages carry fees. Check the individual programme requirements and budget for living expenses separately. Admission decisions and deadlines are set by each institution.",
+      "url": "https://ilmerastudyabroad.com/study-in-slovakia",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    },
+    {
+      "route": "/study-in-uk",
+      "kind": "destination",
+      "title": "Study in UK | ILMERA Study Abroad",
+      "description": "Most UK Student visa applicants need funding for the course fees shown on their CAS and living costs. Current monthly amounts are 1,171 pounds outside London or 1,529 pounds in London, for up to nine months. Some financial-evidence exemptions apply; check the rules for your circumstances.",
+      "url": "https://ilmerastudyabroad.com/study-in-uk",
+      "new_url_by_file": {
+        "llms.txt": true,
+        "llms-full.txt": true
+      }
+    }
+  ]
+}

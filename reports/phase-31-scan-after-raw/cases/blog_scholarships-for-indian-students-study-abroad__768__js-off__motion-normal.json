@@ -1,0 +1,177 @@
+{
+  "id": "blog_scholarships-for-indian-students-study-abroad__768__js-off__motion-normal",
+  "route": "/blog/scholarships-for-indian-students-study-abroad",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/scholarships-for-indian-students-study-abroad",
+  "http_status": 200,
+  "page_height": 6097,
+  "scroll": {
+    "height": 6097,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6097,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4716
+    },
+    "visible_text_chars": 6677,
+    "visible_text_nodes": 72,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 174,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "h1",
+        "y": 215,
+        "text": "Scholarships for Indian students abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 363,
+        "text": "Scholarships for Indian students abroad requires careful pla"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 444,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 444,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 511,
+        "text": "What should I know about scholarships for Indian students ab"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 603,
+        "text": "A scholarship enquiry should distinguish a published opportu"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 757,
+        "text": "Discuss scholarships for Indian students abroad online"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 843,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 843,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 843,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 843,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 892,
+        "text": "A scholarship enquiry should distinguish a published opportu"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 1054,
+        "text": "This is an evidence-checking guide, not a list of currently "
+      },
+      {
+        "selector": "h2",
+        "y": 1177,
+        "text": "Germany: funding opportunities are distinct from tuition pol"
+      },
+      {
+        "selector": "p",
+        "y": 1274,
+        "text": "DAAD says international students can apply to scholarship or"
+      },
+      {
+        "selector": "a",
+        "y": 1340,
+        "text": "[DAAD-S]"
+      },
+      {
+        "selector": "p",
+        "y": 1400,
+        "text": "DAAD separately describes the normal tuition position at sta"
+      },
+      {
+        "selector": "a",
+        "y": 1523,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "p",
+        "y": 1583,
+        "text": "For financial proof, DAAD lists receipt of a recognised scho"
+      },
+      {
+        "selector": "a",
+        "y": 1648,
+        "text": "[DAAD-F]"
+      },
+      {
+        "selector": "h2",
+        "y": 1728,
+        "text": "Slovakia: distinguish a study stay from assumed degree fundi"
+      },
+      {
+        "selector": "p",
+        "y": 1825,
+        "text": "The European Commission profile describes the National Schol"
+      },
+      {
+        "selector": "a",
+        "y": 1947,
+        "text": "[SK-E]"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 6097,
+    "scan_width": 512,
+    "scan_height": 4065,
+    "threshold": 160,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 1.4998769987699876
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "c86c4dc8f92922a1e15f514db44ea736f8090c5d01f124b656e87041a70ca1f8"
+  }
+}

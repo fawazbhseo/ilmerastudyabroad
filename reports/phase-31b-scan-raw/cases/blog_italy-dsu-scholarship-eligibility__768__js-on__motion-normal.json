@@ -1,0 +1,181 @@
+{
+  "id": "blog_italy-dsu-scholarship-eligibility__768__js-on__motion-normal",
+  "route": "/blog/italy-dsu-scholarship-eligibility",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/italy-dsu-scholarship-eligibility",
+  "http_status": 200,
+  "page_height": 3536,
+  "scroll": {
+    "height": 3536,
+    "scroll_samples": 6,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 3536,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2155
+    },
+    "visible_text_chars": 1797,
+    "visible_text_nodes": 34,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 174,
+        "text": "Italy"
+      },
+      {
+        "selector": "h1",
+        "y": 215,
+        "text": "Italy Scholarship Planning: Verification Needed"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 382,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 382,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 382,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 382,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 431,
+        "text": "Do not use this draft to determine DSU eligibility or an app"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 564,
+        "text": "Draft review notice: no current regional award call on an ap"
+      },
+      {
+        "selector": "h2",
+        "y": 716,
+        "text": "Owner-supplied conditional guidance"
+      },
+      {
+        "selector": "p",
+        "y": 777,
+        "text": "Tuition can be fully or largely covered at our partner unive"
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "What the opened official background confirms"
+      },
+      {
+        "selector": "p",
+        "y": 939,
+        "text": "The Italian consulate says institutions set their own admiss"
+      },
+      {
+        "selector": "a",
+        "y": 1004,
+        "text": "[IT]"
+      },
+      {
+        "selector": "h2",
+        "y": 1084,
+        "text": "Planning questions"
+      },
+      {
+        "selector": "p",
+        "y": 1145,
+        "text": "Before a publication decision, obtain the current official a"
+      },
+      {
+        "selector": "#article-sources",
+        "y": 1274,
+        "text": "Official sources"
+      },
+      {
+        "selector": "p",
+        "y": 1335,
+        "text": "Source text reviewed on"
+      },
+      {
+        "selector": "time",
+        "y": 1335,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1335,
+        "text": ". Estimates retain their stated scope; historical editions a"
+      },
+      {
+        "selector": "a",
+        "y": 1424,
+        "text": "Italian Consulate Bengaluru: study in Italy"
+      },
+      {
+        "selector": "div.name",
+        "y": 1540,
+        "text": "Fawaz BH"
+      },
+      {
+        "selector": "div.role",
+        "y": 1568,
+        "text": "CMO, ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 1668,
+        "text": "Related guides"
+      },
+      {
+        "selector": "a",
+        "y": 1722,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 3536,
+    "scan_width": 512,
+    "scan_height": 2357,
+    "threshold": 160,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 1.5002121340687313
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "26cad90973d61da49f444bbbbf5b5ed72b24621d9507bb5b7269a791e5bba334"
+  }
+}

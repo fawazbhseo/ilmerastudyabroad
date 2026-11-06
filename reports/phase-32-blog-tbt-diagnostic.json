@@ -1,0 +1,354 @@
+{
+  "phase": 32,
+  "purpose": "single-run CLS and long-task attribution diagnostic; excluded from the seven-sample 11-route A/B",
+  "local_only": true,
+  "route": "/blog/",
+  "arm": "B",
+  "fixture_sha256": "1edc4a65117c748ffdf42d9417398f4e87e7b46be97ade30ef941df7d98fa5a7",
+  "browser": "143.0.7499.0",
+  "playwright": "1.58.2",
+  "lighthouse": "12.8.2",
+  "metrics": {
+    "lcp_ms": 2356.582136389438,
+    "cls": 0,
+    "tbt_ms": 52.72343180528105
+  },
+  "diagnostic_audits": {
+    "cumulative-layout-shift": {
+      "score": 1,
+      "numericValue": 0,
+      "displayValue": "0",
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    },
+    "bootup-time": {
+      "score": 1,
+      "numericValue": 112.196,
+      "displayValue": "0.1 s",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "total",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Total CPU Time"
+          },
+          {
+            "key": "scripting",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Evaluation"
+          },
+          {
+            "key": "scriptParseCompile",
+            "granularity": 1,
+            "valueType": "ms",
+            "label": "Script Parse"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "total": 681.4800000000004,
+            "scripting": 97.84,
+            "scriptParseCompile": 3.2479999999999998
+          },
+          {
+            "url": "Unattributable",
+            "total": 154.02800000000022,
+            "scripting": 11.107999999999995,
+            "scriptParseCompile": 0
+          }
+        ],
+        "summary": {
+          "wastedMs": 112.196
+        },
+        "sortedBy": [
+          "total"
+        ]
+      }
+    },
+    "main-thread-tasks": {
+      "score": 1,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "End Time"
+          }
+        ],
+        "items": [
+          {
+            "duration": 31.515,
+            "startTime": 29.706
+          },
+          {
+            "duration": 6.837,
+            "startTime": 62.004
+          },
+          {
+            "duration": 24.247,
+            "startTime": 71.204
+          },
+          {
+            "duration": 37.504,
+            "startTime": 112.968
+          },
+          {
+            "duration": 12.815,
+            "startTime": 154.045
+          },
+          {
+            "duration": 17.678,
+            "startTime": 171.784
+          },
+          {
+            "duration": 16.155,
+            "startTime": 189.473
+          },
+          {
+            "duration": 23.291,
+            "startTime": 212.057
+          }
+        ]
+      }
+    },
+    "layout-shifts": {
+      "score": null,
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "subItemsHeading": {
+              "key": "extra"
+            },
+            "label": "Element"
+          },
+          {
+            "key": "score",
+            "valueType": "numeric",
+            "subItemsHeading": {
+              "key": "cause",
+              "valueType": "text"
+            },
+            "granularity": 0.001,
+            "label": "Layout shift score"
+          }
+        ],
+        "items": []
+      }
+    },
+    "long-tasks": {
+      "score": 1,
+      "displayValue": "5 long tasks found",
+      "details": {
+        "type": "table",
+        "headings": [
+          {
+            "key": "url",
+            "valueType": "url",
+            "label": "URL"
+          },
+          {
+            "key": "startTime",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Start Time"
+          },
+          {
+            "key": "duration",
+            "valueType": "ms",
+            "granularity": 1,
+            "label": "Duration"
+          }
+        ],
+        "items": [
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "duration": 97,
+            "startTime": 964.5821363894379
+          },
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "duration": 93,
+            "startTime": 1262.582136389438
+          },
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "duration": 75,
+            "startTime": 1061.582136389438
+          },
+          {
+            "url": "Unattributable",
+            "duration": 65,
+            "startTime": 1197.582136389438
+          },
+          {
+            "url": "http://127.0.0.1:8082/blog/",
+            "duration": 63,
+            "startTime": 901.5821363894379
+          }
+        ],
+        "sortedBy": [
+          "duration"
+        ],
+        "skipSumming": [
+          "startTime"
+        ],
+        "debugData": {
+          "type": "debugdata",
+          "urls": [
+            "http://127.0.0.1:8082/blog/",
+            "Unattributable"
+          ],
+          "tasks": [
+            {
+              "urlIndex": 0,
+              "startTime": 964.6,
+              "duration": 97,
+              "other": 97,
+              "parseHTML": 0,
+              "scriptEvaluation": 0,
+              "styleLayout": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1262.6,
+              "duration": 93,
+              "other": 93,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 1061.6,
+              "duration": 75,
+              "other": 75,
+              "paintCompositeRender": 0,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 1,
+              "startTime": 1197.6,
+              "duration": 65,
+              "other": 65,
+              "scriptEvaluation": 0
+            },
+            {
+              "urlIndex": 0,
+              "startTime": 901.6,
+              "duration": 63,
+              "other": 63,
+              "scriptEvaluation": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "observer_events": [
+    {
+      "kind": "long-task",
+      "startTime": 20.5,
+      "duration": 1003,
+      "attribution": [
+        {
+          "name": "unknown",
+          "containerType": "window",
+          "containerName": "",
+          "containerId": "",
+          "containerSrc": ""
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 168,
+      "faces": [
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "kind": "fonts-ready",
+      "time": 85.3999999994412,
+      "faces": [
+        {
+          "family": "Outfit",
+          "weight": "300",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "700",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Cormorant Garamond",
+          "weight": "400",
+          "style": "normal",
+          "status": "loaded"
+        },
+        {
+          "family": "Outfit",
+          "weight": "500",
+          "style": "normal",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Diagnostic source attribution only. One Lighthouse run is not a release metric or a frozen-A/B sample."
+}

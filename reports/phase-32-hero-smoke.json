@@ -1,0 +1,567 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "browser": "Chromium 143 via @sparticuz/chromium",
+  "base": "local PHP-WASM adapter",
+  "cases": [
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 328,
+          "cssWidth": 360,
+          "cssHeight": 328.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 46.80000000001746,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 38.20000000001164,
+        "lcp": [
+          {
+            "startTime": 136,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 328.1875
+        }
+      },
+      "screenshot": "destination-360.png",
+      "screenshot_sha256": "b8bb885ed16f300b28969f1658022ec3116941a8c92319ce9a5a345ac9e7ee90"
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 289,
+          "cssWidth": 768,
+          "cssHeight": 289.09375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 45.10000000000582,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 31.60000000000582,
+        "lcp": [
+          {
+            "startTime": 56,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 289.09375
+        }
+      },
+      "screenshot": "destination-768.png",
+      "screenshot_sha256": "a824b2f76de6ba17574db52afe1bca363e684a9ecf34947ca4c2744442c5e20a"
+    },
+    {
+      "route": "/study-in-germany",
+      "template": "destination",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 361,
+          "cssWidth": 1280,
+          "cssHeight": 361.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 55.39999999999418,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 32.79999999998836,
+        "lcp": [
+          {
+            "startTime": 76,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 361.1875
+        }
+      },
+      "screenshot": "destination-1280.png",
+      "screenshot_sha256": "9f0e3e7b1c2c9a4038efea5166f0ef9af7f628279ed686e191ccf2fa584678cf"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 376,
+          "cssWidth": 360,
+          "cssHeight": 376.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 49.10000000000582,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 34.60000000000582,
+        "lcp": [
+          {
+            "startTime": 56,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 376.375
+        }
+      },
+      "screenshot": "place-360.png",
+      "screenshot_sha256": "00c6e4acea7d17e1dedf8216569d9af6fba3ff6e326a96e9beed55f40b955102"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 337,
+          "cssWidth": 768,
+          "cssHeight": 337.28125,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 39.60000000000582,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 27.300000000017462,
+        "lcp": [
+          {
+            "startTime": 48,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 337.28125
+        }
+      },
+      "screenshot": "place-768.png",
+      "screenshot_sha256": "33320faf964912539de7bd693e3812a118faa7f6dfa3cd2ea8d934b4a94c78a1"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "template": "place",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 409,
+          "cssWidth": 1280,
+          "cssHeight": 409.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 47.20000000001164,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 37.90000000002328,
+        "lcp": [
+          {
+            "startTime": 64,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 409.375
+        }
+      },
+      "screenshot": "place-1280.png",
+      "screenshot_sha256": "30a31bcc816048682b916dc0357bb91bb8ab540d8236c6295e07acfa09741bcd"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 360,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 360,
+          "height": 365,
+          "cssWidth": 360,
+          "cssHeight": 364.671875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 41.10000000000582,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 38.79999999998836,
+        "lcp": [
+          {
+            "startTime": 84,
+            "tag": "H2",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 364.671875
+        }
+      },
+      "screenshot": "article-360.png",
+      "screenshot_sha256": "214c17abd328f3cead139391d991886ed048bde29f312bb8642d7dacbe0b30d8"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 768,
+      "expected": "/assets/images/hero-still-640.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 768,
+          "height": 302,
+          "cssWidth": 768,
+          "cssHeight": 302.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-640.webp",
+            "startTime": 48.20000000001164,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 39.80000000001746,
+        "lcp": [
+          {
+            "startTime": 60,
+            "tag": "P",
+            "id": null,
+            "className": "direct-answer"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 302.1875
+        }
+      },
+      "screenshot": "article-768.png",
+      "screenshot_sha256": "3eaa45e4520ab486fc4bdb45a4acdc723b6421c7a20b9e59f0c5239c858908c5"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "template": "article",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 352,
+          "cssWidth": 1280,
+          "cssHeight": 352.375,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 89.39999999999418,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 74.59999999997672,
+        "lcp": [
+          {
+            "startTime": 108,
+            "tag": "H1",
+            "id": null,
+            "className": ""
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 352.375
+        }
+      },
+      "screenshot": "article-1280.png",
+      "screenshot_sha256": "e954cd0db6457e3da0e62ed074281c3c9d8e5a4ec3d0fa7b0731d9544cca9a06"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 360,
+      "expected": "palette-only-budget-fallback",
+      "status": "PASS",
+      "request_count": 0,
+      "state": {
+        "loaded": false,
+        "canvas": {
+          "width": 300,
+          "height": 150,
+          "cssWidth": 360,
+          "cssHeight": 328.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [],
+        "loadEventEnd": 41.60000000000582,
+        "lcp": [
+          {
+            "startTime": 76,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 328.1875
+        }
+      },
+      "screenshot": "blog-360.png",
+      "screenshot_sha256": "176adda78a2b2f744bde1e19907379e6e37a301530aca67373c6559088989fd5"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 768,
+      "expected": "palette-only-budget-fallback",
+      "status": "PASS",
+      "request_count": 0,
+      "state": {
+        "loaded": false,
+        "canvas": {
+          "width": 300,
+          "height": 150,
+          "cssWidth": 768,
+          "cssHeight": 289.09375,
+          "transitionDuration": "0.32s",
+          "opacity": "0"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [],
+        "loadEventEnd": 44.29999999998836,
+        "lcp": [
+          {
+            "startTime": 68,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 289.09375
+        }
+      },
+      "screenshot": "blog-768.png",
+      "screenshot_sha256": "6eeed694dacb8ffc65a1b2466b1506153e524e633817ea54f1bb2ce81aaf2039"
+    },
+    {
+      "route": "/blog/",
+      "template": "blog",
+      "width": 1280,
+      "expected": "/assets/images/hero-still-1440.webp",
+      "status": "PASS",
+      "request_count": 1,
+      "state": {
+        "loaded": true,
+        "canvas": {
+          "width": 1280,
+          "height": 361,
+          "cssWidth": 1280,
+          "cssHeight": 361.1875,
+          "transitionDuration": "0.32s",
+          "opacity": "0.42"
+        },
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)",
+        "resources": [
+          {
+            "name": "/assets/images/hero-still-1440.webp",
+            "startTime": 51.89999999999418,
+            "transferSize": 0,
+            "initiatorType": "img"
+          }
+        ],
+        "loadEventEnd": 48.69999999998254,
+        "lcp": [
+          {
+            "startTime": 84,
+            "tag": "P",
+            "id": null,
+            "className": "sub"
+          }
+        ],
+        "heroBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 361.1875
+        }
+      },
+      "screenshot": "blog-1280.png",
+      "screenshot_sha256": "f245c036d7695be8ccbf942803e0d6428a46f56aa52aaa180d41317ea2416665"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "Save-Data",
+      "requests": 0,
+      "state": {
+        "loaded": false,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "slow-connection",
+      "requests": 0,
+      "state": {
+        "loaded": false,
+        "background": "linear-gradient(rgba(4, 6, 15, 0.44), rgba(4, 6, 15, 0.68)), radial-gradient(at 50% 0%, rgba(201, 168, 76, 0.08), rgba(0, 0, 0, 0) 60%)"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 360,
+      "mode": "reduced-motion",
+      "state": {
+        "opacity": "0.42",
+        "transitionDuration": "0s"
+      },
+      "status": "PASS"
+    }
+  ],
+  "interpretation": "Local browser smoke evidence only. Stills are requested after window load and idle, not initial navigation. The canvas does not create a DOM image LCP candidate. Save-Data and slow-connection hints skip the template still; the blog index uses the palette-only mobile fallback after the measured TBT budget miss; reduced motion removes the fade. Resource Timing transferSize is zero in this intercepted local setup, so it is not used as byte-size evidence."
+}

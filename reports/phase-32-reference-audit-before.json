@@ -1,0 +1,4338 @@
+{
+  "phase": 32,
+  "status": "PASS",
+  "scope": "Pre-change local reference audit before scene deferral; route responses use the local PHP-WASM adapter and resource mirrors, not live CDN. Pre-scene bytes are all successful response-body bytes except Three.js, GSAP and ScrollTrigger. Coverage measures executed/unused bytes for this one browser path and do not equal Lighthouse audit values.",
+  "budgets": {
+    "lcp_ms_lte": 4000,
+    "tbt_ms_lte": 600,
+    "cls_lt": 0.1,
+    "pre_scene_transfer_bytes_lt": 400000
+  },
+  "cases": [
+    {
+      "route": "/",
+      "width": 360,
+      "status": "PASS",
+      "document_bytes": 102983,
+      "response_bytes": 1067227,
+      "pre_scene_bytes": 349595,
+      "pre_scene_resource_count": 11,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 14.8,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 14.8,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 14.7,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 733132,
+        "used_bytes": 269130,
+        "unused_bytes": 464002,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 384365
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 44312
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 30168
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 13402,
+            "unused_bytes": 4338
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 56
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 25309,
+        "used_bytes": 15060,
+        "unused_bytes": 10249,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 15679,
+            "unused_bytes": 4929
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 3976,
+            "unused_bytes": 2128
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 2790,
+            "unused_bytes": 328
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 637,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 828.7000000001863,
+        "domContentLoadedEventEnd": 810.7000000001863,
+        "lcp": [
+          {
+            "startTime": 56,
+            "size": 42344,
+            "tag": "P",
+            "id": null,
+            "className": "seo-opening",
+            "text": "ILMERA Study Abroad: Discuss your study plans through online counselling, with programme requirement"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.0006666666666666666,
+            "startTime": 812.7000000001863,
+            "recentInput": false
+          },
+          {
+            "value": 0.003982510288065844,
+            "startTime": 2060.399999999907,
+            "recentInput": false
+          },
+          {
+            "value": 0.00042777777777777785,
+            "startTime": 2516.899999999907,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 42.89999999990687,
+            "duration": 89
+          },
+          {
+            "startTime": 162.10000000009313,
+            "duration": 648
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 14.4,
+            "responseEnd": 27.1,
+            "duration": 12.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 14.7,
+            "responseEnd": 69,
+            "duration": 54.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 14.8,
+            "responseEnd": 73,
+            "duration": 58.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 14.8,
+            "responseEnd": 75.1,
+            "duration": 60.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 14.9,
+            "responseEnd": 78,
+            "duration": 63.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 29.8,
+            "responseEnd": 82.5,
+            "duration": 52.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 29.9,
+            "responseEnd": 82.8,
+            "duration": 52.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 30.1,
+            "responseEnd": 83.1,
+            "duration": 53,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 67.8,
+            "responseEnd": 136.9,
+            "duration": 69.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 68.2,
+            "responseEnd": 141.2,
+            "duration": 73,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 68.3,
+            "responseEnd": 141.5,
+            "duration": 73.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "type": "css",
+            "startTime": 68.4,
+            "responseEnd": 141.9,
+            "duration": 73.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 68.7,
+            "responseEnd": 142.1,
+            "duration": 73.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 32,
+            "renderedHeight": 32,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/jabirkj.png",
+            "alt": "Jabir KJ, Founder, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/fawazbh-384.webp",
+            "alt": "Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/zaheer.png",
+            "alt": "Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/",
+          "type": "document",
+          "status": 200,
+          "bytes": 102983,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "102983",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:25 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 14.4,
+          "responseEnd": 27.1,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 14.9,
+          "responseEnd": 78,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 29.9,
+          "responseEnd": 82.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 29.8,
+          "responseEnd": 82.5,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 30.1,
+          "responseEnd": 83.1,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 67.8,
+          "responseEnd": 136.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 14.8,
+          "responseEnd": 73,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 14.8,
+          "responseEnd": 75.1,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 68.2,
+          "responseEnd": 141.2,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22524,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22524"
+          },
+          "startTime": 68.4,
+          "responseEnd": 141.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 68.3,
+          "responseEnd": 141.5,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 21900,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "21900"
+          },
+          "startTime": 68.7,
+          "responseEnd": 142.1,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 14.7,
+          "responseEnd": 69,
+          "initiatorType": "script",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "status": "PASS",
+      "document_bytes": 102983,
+      "response_bytes": 1081259,
+      "pre_scene_bytes": 363627,
+      "pre_scene_resource_count": 12,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 14.2,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 14.3,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 14.1,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 733132,
+        "used_bytes": 272172,
+        "unused_bytes": 460960,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 384246
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 44373
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 30168
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 13402,
+            "unused_bytes": 1347
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 63
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 25309,
+        "used_bytes": 14450,
+        "unused_bytes": 10859,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 15679,
+            "unused_bytes": 5530
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 3976,
+            "unused_bytes": 1964
+          },
+          {
+            "url": "http://127.0.0.1:8080/",
+            "bytes": 2790,
+            "unused_bytes": 501
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 439,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 634.3999999999069,
+        "domContentLoadedEventEnd": 603.1000000000931,
+        "lcp": [
+          {
+            "startTime": 36,
+            "size": 106420,
+            "tag": "H1",
+            "id": "hH1",
+            "className": "hero-h1",
+            "text": "ILMERA Study Abroad"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.000006690430848134888,
+            "startTime": 606.5,
+            "recentInput": false
+          },
+          {
+            "value": 0.00607672119140625,
+            "startTime": 1987,
+            "recentInput": false
+          },
+          {
+            "value": 0.0006451475355360243,
+            "startTime": 2511.2999999998137,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 47,
+            "duration": 51
+          },
+          {
+            "startTime": 115.1999999997206,
+            "duration": 488
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 13.9,
+            "responseEnd": 21.7,
+            "duration": 7.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 14.1,
+            "responseEnd": 38.9,
+            "duration": 24.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 14.2,
+            "responseEnd": 41,
+            "duration": 26.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 14.3,
+            "responseEnd": 57.3,
+            "duration": 43,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 14.3,
+            "responseEnd": 54.1,
+            "duration": 39.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 23.5,
+            "responseEnd": 72.4,
+            "duration": 48.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 23.5,
+            "responseEnd": 71.7,
+            "duration": 48.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 23.8,
+            "responseEnd": 73.6,
+            "duration": 49.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 23.9,
+            "responseEnd": 75.3,
+            "duration": 51.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 24,
+            "responseEnd": 76.5,
+            "duration": 52.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 51.4,
+            "responseEnd": 100.7,
+            "duration": 49.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 51.6,
+            "responseEnd": 105,
+            "duration": 53.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "type": "css",
+            "startTime": 51.6,
+            "responseEnd": 109.5,
+            "duration": 57.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 51.8,
+            "responseEnd": 109.9,
+            "duration": 58.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 38,
+            "renderedHeight": 38,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/jabirkj.png",
+            "alt": "Jabir KJ, Founder, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/fawazbh-384.webp",
+            "alt": "Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/zaheer.png",
+            "alt": "Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 96,
+            "renderedHeight": 96,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/",
+          "type": "document",
+          "status": 200,
+          "bytes": 102983,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "102983",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:30 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 13.9,
+          "responseEnd": 21.7,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 14.3,
+          "responseEnd": 57.3,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 23.5,
+          "responseEnd": 72.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 23.5,
+          "responseEnd": 71.7,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14032"
+          },
+          "startTime": 23.8,
+          "responseEnd": 73.6,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 23.9,
+          "responseEnd": 75.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 24,
+          "responseEnd": 76.5,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 51.6,
+          "responseEnd": 105,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22524,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22524"
+          },
+          "startTime": 51.6,
+          "responseEnd": 109.5,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 21900,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "21900"
+          },
+          "startTime": 51.8,
+          "responseEnd": 109.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 14.2,
+          "responseEnd": 41,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 14.3,
+          "responseEnd": 54.1,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 14.1,
+          "responseEnd": 38.9,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 51.4,
+          "responseEnd": 100.7,
+          "initiatorType": "css",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/services",
+      "width": 360,
+      "status": "PASS",
+      "document_bytes": 124686,
+      "response_bytes": 1091786,
+      "pre_scene_bytes": 374154,
+      "pre_scene_resource_count": 11,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 21.9,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 22,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 21.8,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 738888,
+        "used_bytes": 270555,
+        "unused_bytes": 468333,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 379482
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 47050
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 35795
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 14560,
+            "unused_bytes": 3283
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 4598,
+            "unused_bytes": 1904
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 56
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 26204,
+        "used_bytes": 16162,
+        "unused_bytes": 10042,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 16574,
+            "unused_bytes": 4722
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 3976,
+            "unused_bytes": 2128
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 2790,
+            "unused_bytes": 328
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 505,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 702,
+        "domContentLoadedEventEnd": 657.4000000003725,
+        "lcp": [
+          {
+            "startTime": 36,
+            "size": 32648,
+            "tag": "P",
+            "id": null,
+            "className": "seo-opening",
+            "text": "ILMERA study abroad services: Review profile matching, admissions, visa documents, scholarship plann"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.006060171682098766,
+            "startTime": 681.6000000000931,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 42.40000000037253,
+            "duration": 65
+          },
+          {
+            "startTime": 116.60000000009313,
+            "duration": 540
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 21.7,
+            "responseEnd": 29,
+            "duration": 7.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 21.8,
+            "responseEnd": 47.3,
+            "duration": 25.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 21.9,
+            "responseEnd": 53.7,
+            "duration": 31.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 22,
+            "responseEnd": 63.3,
+            "duration": 41.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 22,
+            "responseEnd": 62.1,
+            "duration": 40.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 30.7,
+            "responseEnd": 65.8,
+            "duration": 35.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 30.8,
+            "responseEnd": 67,
+            "duration": 36.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 31,
+            "responseEnd": 67.4,
+            "duration": 36.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 48.1,
+            "responseEnd": 115.8,
+            "duration": 67.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 48.3,
+            "responseEnd": 118.6,
+            "duration": 70.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 49.2,
+            "responseEnd": 119.8,
+            "duration": 70.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+            "type": "css",
+            "startTime": 49.3,
+            "responseEnd": 130.4,
+            "duration": 81.1,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 49.3,
+            "responseEnd": 133.8,
+            "duration": 84.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 32,
+            "renderedHeight": 32,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/services",
+          "type": "document",
+          "status": 200,
+          "bytes": 124686,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "124686",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:35 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 21.7,
+          "responseEnd": 29,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 22,
+          "responseEnd": 63.3,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 30.7,
+          "responseEnd": 65.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 30.8,
+          "responseEnd": 67,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 31,
+          "responseEnd": 67.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 21.9,
+          "responseEnd": 53.7,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 22,
+          "responseEnd": 62.1,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 21.8,
+          "responseEnd": 47.3,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 48.1,
+          "responseEnd": 115.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 48.3,
+          "responseEnd": 118.6,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23456,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23456"
+          },
+          "startTime": 49.2,
+          "responseEnd": 119.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23824,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23824"
+          },
+          "startTime": 49.3,
+          "responseEnd": 130.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 49.3,
+          "responseEnd": 133.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/services",
+      "width": 1280,
+      "status": "PASS",
+      "document_bytes": 124686,
+      "response_bytes": 1105818,
+      "pre_scene_bytes": 388186,
+      "pre_scene_resource_count": 12,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 28.8,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 28.8,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 28.7,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 738888,
+        "used_bytes": 274097,
+        "unused_bytes": 464791,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 378920
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 46983
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 35795
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 4598,
+            "unused_bytes": 1385
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 14560,
+            "unused_bytes": 741
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 204
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 26204,
+        "used_bytes": 15225,
+        "unused_bytes": 10979,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 16574,
+            "unused_bytes": 5650
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 3976,
+            "unused_bytes": 1964
+          },
+          {
+            "url": "http://127.0.0.1:8080/services",
+            "bytes": 2790,
+            "unused_bytes": 501
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 626,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 842.8999999999069,
+        "domContentLoadedEventEnd": 831.3999999999069,
+        "lcp": [
+          {
+            "startTime": 56,
+            "size": 52992,
+            "tag": "H1",
+            "id": "heroH1",
+            "className": "",
+            "text": "ILMERA study abroad services"
+          }
+        ],
+        "clsEvents": [],
+        "longTasks": [
+          {
+            "startTime": 83.10000000009313,
+            "duration": 64
+          },
+          {
+            "startTime": 181.70000000018626,
+            "duration": 662
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 28.4,
+            "responseEnd": 38.9,
+            "duration": 10.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 28.7,
+            "responseEnd": 57.9,
+            "duration": 29.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 28.8,
+            "responseEnd": 60,
+            "duration": 31.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 28.8,
+            "responseEnd": 59.3,
+            "duration": 30.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 29,
+            "responseEnd": 60.8,
+            "duration": 31.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 41.5,
+            "responseEnd": 64.9,
+            "duration": 23.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 41.8,
+            "responseEnd": 65.5,
+            "duration": 23.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 42,
+            "responseEnd": 65.8,
+            "duration": 23.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 42.2,
+            "responseEnd": 70.6,
+            "duration": 28.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 42.4,
+            "responseEnd": 74,
+            "duration": 31.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 90.4,
+            "responseEnd": 150.3,
+            "duration": 59.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 90.5,
+            "responseEnd": 151.9,
+            "duration": 61.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+            "type": "css",
+            "startTime": 90.5,
+            "responseEnd": 155.4,
+            "duration": 64.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 90.6,
+            "responseEnd": 164.3,
+            "duration": 73.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 38,
+            "renderedHeight": 38,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/services",
+          "type": "document",
+          "status": 200,
+          "bytes": 124686,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "124686",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:40 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 28.4,
+          "responseEnd": 38.9,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 29,
+          "responseEnd": 60.8,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 41.8,
+          "responseEnd": 65.5,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14032"
+          },
+          "startTime": 42,
+          "responseEnd": 65.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 41.5,
+          "responseEnd": 64.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 42.2,
+          "responseEnd": 70.6,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 42.4,
+          "responseEnd": 74,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 90.4,
+          "responseEnd": 150.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23456,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23456"
+          },
+          "startTime": 90.5,
+          "responseEnd": 151.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23824,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23824"
+          },
+          "startTime": 90.5,
+          "responseEnd": 155.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 90.6,
+          "responseEnd": 164.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 28.8,
+          "responseEnd": 60,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 28.8,
+          "responseEnd": 59.3,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 28.7,
+          "responseEnd": 57.9,
+          "initiatorType": "script",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "width": 360,
+      "status": "PASS",
+      "document_bytes": 89613,
+      "response_bytes": 1045989,
+      "pre_scene_bytes": 328357,
+      "pre_scene_resource_count": 11,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 31.2,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 31.3,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 30.9,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 736845,
+        "used_bytes": 276573,
+        "unused_bytes": 460272,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 380716
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 44234
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 30168
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 4034,
+            "unused_bytes": 2176
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 13081,
+            "unused_bytes": 2152
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 63
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 26750,
+        "used_bytes": 15114,
+        "unused_bytes": 11636,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 17120,
+            "unused_bytes": 6316
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 3976,
+            "unused_bytes": 2128
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 2790,
+            "unused_bytes": 328
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 347,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 589.5,
+        "domContentLoadedEventEnd": 551,
+        "lcp": [
+          {
+            "startTime": 380,
+            "size": 49932,
+            "tag": "P",
+            "id": "heroSub",
+            "className": "mini-hero-sub",
+            "text": "An overseas education consultancy based in Coorg, run by three named people: Jabir KJ (Founder), Faw"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.01222613854595336,
+            "startTime": 552.5,
+            "recentInput": false
+          },
+          {
+            "value": 0.003799284336419753,
+            "startTime": 574.7999999998137,
+            "recentInput": false
+          },
+          {
+            "value": 0.0018920310356652951,
+            "startTime": 1430.6000000000931,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 69.5,
+            "duration": 74
+          },
+          {
+            "startTime": 177.29999999981374,
+            "duration": 373
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 30.7,
+            "responseEnd": 40.9,
+            "duration": 10.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 30.9,
+            "responseEnd": 63.3,
+            "duration": 32.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 31.2,
+            "responseEnd": 77.5,
+            "duration": 46.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 31.3,
+            "responseEnd": 92.3,
+            "duration": 61,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 31.3,
+            "responseEnd": 84.8,
+            "duration": 53.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 43.8,
+            "responseEnd": 94.2,
+            "duration": 50.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 43.9,
+            "responseEnd": 98.8,
+            "duration": 54.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 44.2,
+            "responseEnd": 100.9,
+            "duration": 56.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 71.6,
+            "responseEnd": 145.3,
+            "duration": 73.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 71.9,
+            "responseEnd": 146.7,
+            "duration": 74.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "type": "css",
+            "startTime": 71.9,
+            "responseEnd": 148.3,
+            "duration": 76.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 72,
+            "responseEnd": 149.8,
+            "duration": 77.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 72,
+            "responseEnd": 152.3,
+            "duration": 80.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 32,
+            "renderedHeight": 32,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/jabirkj.png",
+            "alt": "Jabir KJ, Founder, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/fawazbh-384.webp",
+            "alt": "Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/zaheer.png",
+            "alt": "Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/about",
+          "type": "document",
+          "status": 200,
+          "bytes": 89613,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "89613",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:46 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 30.7,
+          "responseEnd": 40.9,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 31.3,
+          "responseEnd": 92.3,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 43.8,
+          "responseEnd": 94.2,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 43.9,
+          "responseEnd": 98.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 44.2,
+          "responseEnd": 100.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 71.6,
+          "responseEnd": 145.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 71.9,
+          "responseEnd": 146.7,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22524,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22524"
+          },
+          "startTime": 71.9,
+          "responseEnd": 148.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 72,
+          "responseEnd": 149.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14032"
+          },
+          "startTime": 72,
+          "responseEnd": 152.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 31.2,
+          "responseEnd": 77.5,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 31.3,
+          "responseEnd": 84.8,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 30.9,
+          "responseEnd": 63.3,
+          "initiatorType": "script",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "status": "PASS",
+      "document_bytes": 89613,
+      "response_bytes": 1045989,
+      "pre_scene_bytes": 328357,
+      "pre_scene_resource_count": 11,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 50.3,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 50.2,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 50.1,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 736845,
+        "used_bytes": 278823,
+        "unused_bytes": 458022,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 380716
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 43984
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 30168
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 4034,
+            "unused_bytes": 1714
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 13081,
+            "unused_bytes": 614
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 63
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 26750,
+        "used_bytes": 14571,
+        "unused_bytes": 12179,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 17120,
+            "unused_bytes": 6850
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 3976,
+            "unused_bytes": 1964
+          },
+          {
+            "url": "http://127.0.0.1:8080/about",
+            "bytes": 2790,
+            "unused_bytes": 501
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 522,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 747.2000000001863,
+        "domContentLoadedEventEnd": 730.1000000000931,
+        "lcp": [
+          {
+            "startTime": 460,
+            "size": 82397,
+            "tag": "H1",
+            "id": "heroH1",
+            "className": "",
+            "text": "About ILMERA Study Abroad"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.010479991277058918,
+            "startTime": 749.8999999999069,
+            "recentInput": false
+          },
+          {
+            "value": 0.001790995534261068,
+            "startTime": 2386.2000000001863,
+            "recentInput": false
+          },
+          {
+            "value": 0.0005433146158854167,
+            "startTime": 2894.2999999998137,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 99.60000000009313,
+            "duration": 67
+          },
+          {
+            "startTime": 192.89999999990687,
+            "duration": 555
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 49.9,
+            "responseEnd": 58.5,
+            "duration": 8.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 50.1,
+            "responseEnd": 84.8,
+            "duration": 34.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 50.2,
+            "responseEnd": 86.6,
+            "duration": 36.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 50.3,
+            "responseEnd": 87.5,
+            "duration": 37.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 50.4,
+            "responseEnd": 89.6,
+            "duration": 39.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 62.6,
+            "responseEnd": 98.6,
+            "duration": 36,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 62.7,
+            "responseEnd": 103.9,
+            "duration": 41.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 62.8,
+            "responseEnd": 113.3,
+            "duration": 50.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 62.8,
+            "responseEnd": 113,
+            "duration": 50.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 62.9,
+            "responseEnd": 113.8,
+            "duration": 50.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 103.6,
+            "responseEnd": 170.8,
+            "duration": 67.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+            "type": "css",
+            "startTime": 104.1,
+            "responseEnd": 171.3,
+            "duration": 67.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 104.2,
+            "responseEnd": 176.1,
+            "duration": 71.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 38,
+            "renderedHeight": 38,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/jabirkj.png",
+            "alt": "Jabir KJ, Founder, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/fawazbh-384.webp",
+            "alt": "Fawaz BH, Chief Marketing Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "http://127.0.0.1:8080/assets/images/zaheer.png",
+            "alt": "Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad",
+            "complete": false,
+            "naturalWidth": 0,
+            "naturalHeight": 0,
+            "renderedWidth": 84,
+            "renderedHeight": 84,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/about",
+          "type": "document",
+          "status": 200,
+          "bytes": 89613,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "89613",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:51 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 49.9,
+          "responseEnd": 58.5,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 50.4,
+          "responseEnd": 89.6,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 62.6,
+          "responseEnd": 98.6,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 62.7,
+          "responseEnd": 103.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 62.9,
+          "responseEnd": 113.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 62.8,
+          "responseEnd": 113.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14032"
+          },
+          "startTime": 62.8,
+          "responseEnd": 113,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 103.6,
+          "responseEnd": 170.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-300-italic.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22524,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22524"
+          },
+          "startTime": 104.1,
+          "responseEnd": 171.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 104.2,
+          "responseEnd": 176.1,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 50.3,
+          "responseEnd": 87.5,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 50.2,
+          "responseEnd": 86.6,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 50.1,
+          "responseEnd": 84.8,
+          "initiatorType": "script",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "status": "PASS",
+      "document_bytes": 91216,
+      "response_bytes": 1034492,
+      "pre_scene_bytes": 316860,
+      "pre_scene_resource_count": 10,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 37.5,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 37.6,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 37.4,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 739112,
+        "used_bytes": 270236,
+        "unused_bytes": 468876,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 382490
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 47076
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 35795
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 19382,
+            "unused_bytes": 2689
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 63
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 22131,
+        "used_bytes": 13936,
+        "unused_bytes": 8195,
+        "top_unused": [
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 12501,
+            "unused_bytes": 2875
+          },
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 3976,
+            "unused_bytes": 2128
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 2790,
+            "unused_bytes": 328
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 443,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 644.5,
+        "domContentLoadedEventEnd": 618.5,
+        "lcp": [
+          {
+            "startTime": 56,
+            "size": 45844,
+            "tag": "P",
+            "id": "heroSub",
+            "className": "mini-hero-sub",
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GC"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.039497685185185184,
+            "startTime": 620.6000000000931,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 126.1999999997206,
+            "duration": 493
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 37.4,
+            "responseEnd": 48,
+            "duration": 10.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 37.4,
+            "responseEnd": 66.3,
+            "duration": 28.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 37.5,
+            "responseEnd": 73.1,
+            "duration": 35.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 37.6,
+            "responseEnd": 85.3,
+            "duration": 47.7,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 37.6,
+            "responseEnd": 77.6,
+            "duration": 40,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 49.8,
+            "responseEnd": 86.2,
+            "duration": 36.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 50,
+            "responseEnd": 86.8,
+            "duration": 36.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 63.2,
+            "responseEnd": 112.4,
+            "duration": 49.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 68.9,
+            "responseEnd": 112.8,
+            "duration": 43.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 69.3,
+            "responseEnd": 118.3,
+            "duration": 49,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 69.4,
+            "responseEnd": 118.7,
+            "duration": 49.3,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 69.5,
+            "responseEnd": 119,
+            "duration": 49.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 32,
+            "renderedHeight": 32,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 42,
+            "renderedHeight": 42,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/contact",
+          "type": "document",
+          "status": 200,
+          "bytes": 91216,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "91216",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:21:55 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 37.4,
+          "responseEnd": 48,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 37.6,
+          "responseEnd": 85.3,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 49.8,
+          "responseEnd": 86.2,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 50,
+          "responseEnd": 86.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 68.9,
+          "responseEnd": 112.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 63.2,
+          "responseEnd": 112.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23456,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23456"
+          },
+          "startTime": 69.3,
+          "responseEnd": 118.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 69.5,
+          "responseEnd": 119,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 69.4,
+          "responseEnd": 118.7,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 37.5,
+          "responseEnd": 73.1,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 37.6,
+          "responseEnd": 77.6,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 37.4,
+          "responseEnd": 66.3,
+          "initiatorType": "script",
+          "transferSize": 0
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "status": "PASS",
+      "document_bytes": 91216,
+      "response_bytes": 1048524,
+      "pre_scene_bytes": 330892,
+      "pre_scene_resource_count": 11,
+      "pre_scene_limit_bytes": 400000,
+      "pre_scene_budget_pass": true,
+      "scene_dependency_bytes": 717632,
+      "scene_dependencies": [
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "bytes": 42667,
+          "startTime": 66.4,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "bytes": 71520,
+          "startTime": 66.4,
+          "status": 200
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "bytes": 603445,
+          "startTime": 66.3,
+          "status": 200
+        }
+      ],
+      "image_response_bytes": 98340,
+      "image_responses": [
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "bytes": 98340,
+          "status": 200
+        }
+      ],
+      "js_coverage": {
+        "total_bytes": 739112,
+        "used_bytes": 270085,
+        "unused_bytes": 469027,
+        "unit": "uncompressed UTF-8 source bytes using nested V8 function/block coverage intervals",
+        "top_unused": [
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "bytes": 603445,
+            "unused_bytes": 382490
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "bytes": 71520,
+            "unused_bytes": 47195
+          },
+          {
+            "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "bytes": 42667,
+            "unused_bytes": 35795
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 19382,
+            "unused_bytes": 2721
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 1081,
+            "unused_bytes": 763
+          },
+          {
+            "url": "(inline)",
+            "bytes": 1017,
+            "unused_bytes": 63
+          }
+        ]
+      },
+      "css_coverage": {
+        "total_bytes": 22131,
+        "used_bytes": 14114,
+        "unused_bytes": 8017,
+        "top_unused": [
+          {
+            "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "bytes": 2864,
+            "unused_bytes": 2864
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 12501,
+            "unused_bytes": 2688
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 3976,
+            "unused_bytes": 1964
+          },
+          {
+            "url": "http://127.0.0.1:8080/contact",
+            "bytes": 2790,
+            "unused_bytes": 501
+          }
+        ]
+      },
+      "observed_long_task_tbt_ms": 524,
+      "failures": [],
+      "state": {
+        "loadEventEnd": 769,
+        "domContentLoadedEventEnd": 699.9000000003725,
+        "lcp": [
+          {
+            "startTime": 468,
+            "size": 93000,
+            "tag": "H1",
+            "id": "heroH1",
+            "className": "",
+            "text": "Contact ILMERA Study Abroad"
+          }
+        ],
+        "clsEvents": [
+          {
+            "value": 0.004886858622233072,
+            "startTime": 737.5,
+            "recentInput": false
+          }
+        ],
+        "longTasks": [
+          {
+            "startTime": 141.20000000018626,
+            "duration": 559
+          },
+          {
+            "startTime": 702.9000000003725,
+            "duration": 65
+          }
+        ],
+        "resources": [
+          {
+            "name": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+            "path": "/css2",
+            "type": "link",
+            "startTime": 66,
+            "responseEnd": 73.8,
+            "duration": 7.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+            "path": "/ajax/libs/three.js/r128/three.min.js",
+            "type": "script",
+            "startTime": 66.3,
+            "responseEnd": 91.3,
+            "duration": 25,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "path": "/assets/images/ilmera.logo.png",
+            "type": "img",
+            "startTime": 66.4,
+            "responseEnd": 102.4,
+            "duration": 36,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+            "type": "script",
+            "startTime": 66.4,
+            "responseEnd": 101.2,
+            "duration": 34.8,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "path": "/ajax/libs/gsap/3.12.2/gsap.min.js",
+            "type": "script",
+            "startTime": 66.4,
+            "responseEnd": 99.8,
+            "duration": 33.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-300-normal.woff2",
+            "type": "css",
+            "startTime": 94.5,
+            "responseEnd": 153.9,
+            "duration": 59.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 97.5,
+            "responseEnd": 154.7,
+            "duration": 57.2,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 97.6,
+            "responseEnd": 157.2,
+            "duration": 59.6,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-500-normal.woff2",
+            "type": "css",
+            "startTime": 97.6,
+            "responseEnd": 158,
+            "duration": 60.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+            "type": "css",
+            "startTime": 97.7,
+            "responseEnd": 158.6,
+            "duration": 60.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "path": "/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 97.8,
+            "responseEnd": 159.3,
+            "duration": 61.5,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-600-normal.woff2",
+            "type": "css",
+            "startTime": 97.9,
+            "responseEnd": 159.8,
+            "duration": 61.9,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          },
+          {
+            "name": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+            "path": "/phase25/outfit/outfit-latin-700-normal.woff2",
+            "type": "css",
+            "startTime": 98,
+            "responseEnd": 160.4,
+            "duration": 62.4,
+            "transferSize": 0,
+            "decodedBodySize": 0
+          }
+        ],
+        "images": [
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 38,
+            "renderedHeight": 38,
+            "loading": "eager",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 42,
+            "renderedHeight": 42,
+            "loading": "lazy",
+            "decoding": "auto"
+          },
+          {
+            "src": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+            "alt": "ILMERA Study Abroad logo",
+            "complete": true,
+            "naturalWidth": 395,
+            "naturalHeight": 395,
+            "renderedWidth": 34,
+            "renderedHeight": 34,
+            "loading": "lazy",
+            "decoding": "auto"
+          }
+        ],
+        "externalStylesheets": [
+          "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+        ],
+        "externalScripts": [
+          "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        ]
+      },
+      "resources": [
+        {
+          "url": "http://127.0.0.1:8080/contact",
+          "type": "document",
+          "status": 200,
+          "bytes": 91216,
+          "headers": {
+            "cache-control": "no-store",
+            "connection": "keep-alive",
+            "content-length": "91216",
+            "content-type": "text/html; charset=utf-8",
+            "date": "Thu, 29 Oct 2026 11:22:00 GMT",
+            "keep-alive": "timeout=5"
+          },
+          "startTime": null,
+          "responseEnd": null,
+          "initiatorType": null,
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+          "type": "stylesheet",
+          "status": 200,
+          "bytes": 2864,
+          "headers": {
+            "content-type": "text/css",
+            "content-length": "2864"
+          },
+          "startTime": 66,
+          "responseEnd": 73.8,
+          "initiatorType": "link",
+          "transferSize": 0
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "type": "image",
+          "status": 200,
+          "bytes": 98340,
+          "headers": {
+            "content-type": "image/png",
+            "content-length": "98340"
+          },
+          "startTime": 66.4,
+          "responseEnd": 102.4,
+          "initiatorType": "img",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 42667,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "42667"
+          },
+          "startTime": 66.4,
+          "responseEnd": 101.2,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 71520,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "71520"
+          },
+          "startTime": 66.4,
+          "responseEnd": 99.8,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+          "type": "script",
+          "status": 200,
+          "bytes": 603445,
+          "headers": {
+            "content-type": "text/javascript",
+            "content-length": "603445"
+          },
+          "startTime": 66.3,
+          "responseEnd": 91.3,
+          "initiatorType": "script",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-300-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13956,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13956"
+          },
+          "startTime": 94.5,
+          "responseEnd": 153.9,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22392,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22392"
+          },
+          "startTime": 97.5,
+          "responseEnd": 154.7,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14032,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14032"
+          },
+          "startTime": 97.6,
+          "responseEnd": 157.2,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-500-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 13528,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "13528"
+          },
+          "startTime": 97.6,
+          "responseEnd": 158,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-400-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 22908,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "22908"
+          },
+          "startTime": 97.7,
+          "responseEnd": 158.6,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/cormorant-garamond/cormorant-garamond-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 23456,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "23456"
+          },
+          "startTime": 97.8,
+          "responseEnd": 159.3,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-600-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14140,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14140"
+          },
+          "startTime": 97.9,
+          "responseEnd": 159.8,
+          "initiatorType": "css",
+          "transferSize": 0
+        },
+        {
+          "url": "https://fonts.gstatic.com/phase25/outfit/outfit-latin-700-normal.woff2",
+          "type": "font",
+          "status": 200,
+          "bytes": 14060,
+          "headers": {
+            "content-type": "font/woff2",
+            "access-control-allow-origin": "*",
+            "content-length": "14060"
+          },
+          "startTime": 98,
+          "responseEnd": 160.4,
+          "initiatorType": "css",
+          "transferSize": 0
+        }
+      ]
+    }
+  ]
+}

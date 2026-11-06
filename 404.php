@@ -1,10 +1,15 @@
+<?php require_once __DIR__ . '/includes/visual-system.php'; ilmera_visual_start('error'); ?>
+<?php
+require_once __DIR__ . '/includes/breadcrumbs.php';
+$pageTrail = [['name' => 'Home', 'url' => '/'], ['name' => 'Page not found', 'url' => '/404']];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Page Not Found (404) | ILMERA Study Abroad</title>
-<meta name="description" content="That page could not be found. Browse ILMERA Study Abroad's destinations, services and blog, or book a free consultation by phone, WhatsApp or video call."/>
+<meta name="description" content="That page could not be found. Browse ILMERA Study Abroad's destinations, services and blog, or book an online consultation by phone, WhatsApp or video call."/>
 <meta name="robots" content="noindex, follow"/>
 <meta name="theme-color" content="#04060f"/>
 <link rel="icon" type="image/png" href="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
@@ -14,7 +19,7 @@
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="ILMERA Study Abroad"/>
 <meta property="og:title" content="Page Not Found | ILMERA Study Abroad"/>
-<meta property="og:description" content="That page could not be found. Explore destinations, services and guides, or book a free consultation."/>
+<meta property="og:description" content="That page could not be found. Explore destinations, services and guides, or book an online consultation."/>
 <meta property="og:url" content="https://ilmerastudyabroad.com/404"/>
 <meta property="og:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 <meta property="og:locale" content="en_IN"/>
@@ -22,7 +27,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Page Not Found | ILMERA Study Abroad"/>
-<meta name="twitter:description" content="That page could not be found. Explore destinations, services and guides, or book a free consultation."/>
+<meta name="twitter:description" content="That page could not be found. Explore destinations, services and guides, or book an online consultation."/>
 <meta name="twitter:image" content="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"/>
 
 <!-- Fonts -->
@@ -64,30 +69,24 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
 .err-links a:hover{color:var(--gold);border-color:rgba(201,168,76,0.4);}
 .err-label{font-size:11px;font-weight:300;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:18px;}
 @media(max-width:768px){.err-code{font-size:72px;}.err-h1{font-size:28px;}.err-wrap{padding:120px 20px 60px;}}
+.breadcrumb{font-size:13px;font-weight:300;color:var(--grey-mid);margin-bottom:20px;}
+.breadcrumb a{color:var(--grey-mid);text-decoration:none;}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="il-nav">
-  <a href="https://ilmerastudyabroad.com/" class="nav-logo" aria-label="ILMERA Study Abroad: Home">
-    <img src="https://ilmerastudyabroad.com/assets/images/ilmera.logo.png" alt="ILMERA Study Abroad logo" width="38" height="38"/>
-    <div style="display:flex;flex-direction:column;line-height:1;">
-      <span class="logo-name">ILMERA</span>
-      <span class="logo-sub">Study Abroad</span>
-    </div>
-  </a>
-</nav>
+<?php include __DIR__ . '/includes/header.php'; ?>
 
 <main>
 <section class="err-wrap">
   <div>
+    <?php ilmera_breadcrumbs($pageTrail, '/404'); ?>
     <span class="err-code">404</span>
     <h1 class="err-h1">This page could not be found</h1>
-    <p class="err-sub">The link may be old or mistyped. Everything about studying in Germany, Italy, the UK, Russia and beyond is one click away, or book a free consultation and ask us directly.</p>
+    <p class="err-sub">The link may be old or mistyped. Everything about studying in Germany, Italy, the UK, Russia and beyond is one click away, or book an online consultation and ask us directly.</p>
     <div class="err-btns">
       <a href="/" class="btn-gold">Back to Home</a>
-      <a href="/contact" class="btn-ghost">Book Free Consultation</a>
+      <a href="/contact" class="btn-ghost">Book online Consultation</a>
     </div>
     <span class="err-label">Popular Pages</span>
     <div class="err-links">
@@ -97,7 +96,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
       <a href="/services#uk">Study in the UK</a>
       <a href="/services#russia">Study in Russia</a>
       <a href="/about">About ILMERA</a>
-      <a href="/blog">Blog</a>
+      <a href="/blog/">Blog</a>
       <a href="/privacy-policy">Privacy Policy</a>
     </div>
   </div>
@@ -111,6 +110,7 @@ body{font-family:'Outfit',sans-serif;font-weight:300;color:var(--white);backgrou
     <div style="display:flex;gap:20px;">
       <a href="/privacy-policy" style="font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;">Privacy Policy</a>
       <a href="/terms" style="font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;">Terms of Use</a>
+      <?= ilmera_link('/all-pages', 'All pages', ['style' => 'font-size:12px;font-weight:300;color:var(--grey-mid);text-decoration:none;']) ?>
     </div>
   </div>
 </footer>

@@ -1,0 +1,41 @@
+{
+  "phase": 32,
+  "method": "sharp WebP quality 64, effort 6, smart subsampling; resized from the approved 720x900 mobile source to matching 640x800 aspect ratio",
+  "mobile": {
+    "path": "assets/images/hero-still-640.webp",
+    "width": 640,
+    "height": 800,
+    "bytes": 9738,
+    "sha256": "9260aaca7df1445f73e56e21534f9a98a08774e0c085ba882ed5c92206c1c83e",
+    "limit_bytes": 14000,
+    "size_gate": "PASS"
+  },
+  "desktop": {
+    "path": "assets/images/hero-still-1440.webp",
+    "width": 1440,
+    "height": 900,
+    "bytes": 37226,
+    "sha256": "a016716e75f3eb508e0205c2674fa0fcb57143177fed0d4a05d3b3c7a01d5260",
+    "limit_bytes": 40000,
+    "reused_without_reencoding": true,
+    "size_gate": "PASS"
+  },
+  "visual_review": {
+    "viewports": [
+      360,
+      768,
+      1280
+    ],
+    "under_dark_overlay": "PASS, 12 destination/place/article/blog viewport renders reviewed after cover-crop correction; no visible stretch distortion or blocked text",
+    "contrast_threshold": 4.5,
+    "minimum_measured_contrast": 5.339,
+    "text_runs_measured": 57,
+    "contrast_evidence": "reports/phase-32-hero-contrast.json",
+    "render_evidence": "reports/phase-32-hero-smoke.json",
+    "asset_request_timing": "PASS, still requested after window load; no still request in Save-Data or slow-connection mode",
+    "lcp_element": "PASS, all 12 default cases reported text nodes (P, H1 or H2), not image or canvas",
+    "no_javascript": "PASS, responsive CSS still fallback verified at 360px and 1280px",
+    "scene_switch_off": "PASS, all four templates omit still canvas, still assets and loader when ILMERA_SCENES_ENABLED is false"
+  },
+  "no_new_wording_or_visual_artwork": true
+}

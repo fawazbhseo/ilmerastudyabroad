@@ -1,0 +1,2256 @@
+{
+  "baseline": "b8719a4bd5aa8c4631c2cd1675f15063cb8f372f",
+  "scan": "Every tracked UTF-8 text line matching case-insensitive digital marketer or Zaheer; broad name scan also catches older biography variants and multi-line context. Binary assets excluded. Entries are pre-change locations.",
+  "occurrences": [
+    {
+      "file": "CHANGELOG.md",
+      "line": 699,
+      "classification": "historical record, preserve",
+      "excerpt": "   and `zaheer.webp`: all 6 distinct referenced paths exist. README lists"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 749,
+      "classification": "historical record, preserve",
+      "excerpt": "ardized leadership titles: **Jabir KJ = Founder, Fawaz BH = CMO, Zaheer KJ = CFO**"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 751,
+      "classification": "historical record, preserve",
+      "excerpt": "under\", his actual title, per explicit instruction. Fawaz BH and Zaheer KJ"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 754,
+      "classification": "historical record, preserve",
+      "excerpt": "  articles were misattributed to Zaheer KJ and Jabir KJ)."
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 849,
+      "classification": "historical record, preserve",
+      "excerpt": "pdated leadership mention to \"CEO Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ\";"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 953,
+      "classification": "historical record, preserve",
+      "excerpt": "- `assets/images/zaheer.png` (Zaheer KJ, lowercase \"z\")"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 957,
+      "classification": "historical record, preserve",
+      "excerpt": "JSON-LD blocks, which had used `jabir.png` and `Zaheer.png` (capital Z)"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 973,
+      "classification": "historical record, preserve",
+      "excerpt": "  content strategy; Zaheer: document verification, APS submissions,"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1017,
+      "classification": "historical record, preserve",
+      "excerpt": "  `@id`s already defined in `about.php` (`#jabir`, `#fawaz`, `#zaheer`),"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1033,
+      "classification": "historical record, preserve",
+      "excerpt": "  - Ends with an author card crediting the correct team member (Zaheer KJ,"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1401,
+      "classification": "historical record, preserve",
+      "excerpt": "Replaced only Zaheer's placeholder variants with the approved CFO/company-"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1415,
+      "classification": "historical record, preserve",
+      "excerpt": "CA/portal follow-up, optional Zaheer background and accuracy/currentness of"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1433,
+      "classification": "historical record, preserve",
+      "excerpt": "Replaced both Fawaz/Zaheer biography variants verbatim with the newly approved"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "line": 1492,
+      "classification": "historical record, preserve",
+      "excerpt": "existing About FAQ is untouched. Full Person descriptions, Fawaz/Zaheer full FAQ biographies, sameAs, both LLM files, photos/names/titles/alt text and all other content remain unchanged. Counts 127/130/126, spread 4 PASS; eight narrow-context regressions and full suite PASS (542.04s)."
+    },
+    {
+      "file": "README.md",
+      "line": 505,
+      "classification": "active source/data",
+      "excerpt": "- `assets/images/zaheer.png`"
+    },
+    {
+      "file": "README.md",
+      "line": 506,
+      "classification": "active source/data",
+      "excerpt": "- `assets/images/zaheer.webp`"
+    },
+    {
+      "file": "about.php",
+      "line": 17,
+      "classification": "active source/data",
+      "excerpt": "Karnataka and India. Meet Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ. online consultation.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 44,
+      "classification": "active source/data",
+      "excerpt": "hind ILMERA Study Abroad: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, who guide students from Coorg, Kodagu and across Karnataka to universities in Germany, Italy, the UK and Europe. online consultation.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 57,
+      "classification": "active source/data",
+      "excerpt": "named team behind ILMERA: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). Study abroad counselling based in Coorg, serving students across Kodagu and Karnataka.\"/>"
+    },
+    {
+      "file": "about.php",
+      "line": 147,
+      "classification": "active source/data",
+      "excerpt": "        {\"@id\": \"https://ilmerastudyabroad.com/#zaheer\"}"
+    },
+    {
+      "file": "about.php",
+      "line": 164,
+      "classification": "active source/data",
+      "excerpt": " Abroad: named leadership Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and how the consultancy, based in Coorg, guides students across nine destinations with honest, personalised guidance.\","
+    },
+    {
+      "file": "about.php",
+      "line": 175,
+      "classification": "active source/data",
+      "excerpt": "aka and India, led by Founder Jabir KJ with CMO Fawaz BH and CFO Zaheer KJ.\","
+    },
+    {
+      "file": "about.php",
+      "line": 222,
+      "classification": "active source/data",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "about.php",
+      "line": 223,
+      "classification": "active source/data",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "about.php",
+      "line": 224,
+      "classification": "active source/data",
+      "excerpt": "      \"givenName\": \"Zaheer\","
+    },
+    {
+      "file": "about.php",
+      "line": 226,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "about.php",
+      "line": 227,
+      "classification": "active source/data",
+      "excerpt": "      \"image\": \"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "about.php",
+      "line": 289,
+      "classification": "active source/data",
+      "excerpt": "          \"name\": \"Who is Zaheer KJ?\","
+    },
+    {
+      "file": "about.php",
+      "line": 292,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\""
+    },
+    {
+      "file": "about.php",
+      "line": 316,
+      "classification": "active source/data",
+      "excerpt": "g team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.\""
+    },
+    {
+      "file": "about.php",
+      "line": 523,
+      "classification": "active source/data",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>"
+    },
+    {
+      "file": "about.php",
+      "line": 660,
+      "classification": "active source/data",
+      "excerpt": "<div class=\"team-avatar\"><picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" width=\"88\" height=\"88\" loading=\"lazy\" /></picture></div>"
+    },
+    {
+      "file": "about.php",
+      "line": 661,
+      "classification": "active source/data",
+      "excerpt": ":18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;\">Zaheer KJ</h3>"
+    },
+    {
+      "file": "about.php",
+      "line": 663,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "about.php",
+      "line": 688,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p></div></details>"
+    },
+    {
+      "file": "about.php",
+      "line": 690,
+      "classification": "active source/data",
+      "excerpt": "g team profiles identify: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO). It publishes working phone numbers (+91 94810 84038 and +91 90195 57427) and provides academic review and application guidance without promising outcomes.</p></div></details>"
+    },
+    {
+      "file": "contact.php",
+      "line": 30,
+      "classification": "active source/data",
+      "excerpt": "ry and university. Led by Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ.\"/>"
+    },
+    {
+      "file": "data/team.json",
+      "line": 36,
+      "classification": "active source/data",
+      "excerpt": "      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "data/team.json",
+      "line": 37,
+      "classification": "active source/data",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "data/team.json",
+      "line": 42,
+      "classification": "active source/data",
+      "excerpt": "      \"image\": \"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "data/team.json",
+      "line": 43,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\""
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 25,
+      "classification": "historical record, preserve",
+      "excerpt": "  - `assets/images/zaheer.png` (Zaheer KJ, CFO : lowercase \"z\")"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 28,
+      "classification": "historical record, preserve",
+      "excerpt": "  (case-sensitive) on the live server. `zaheer.png` was previously"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 29,
+      "classification": "historical record, preserve",
+      "excerpt": "  referenced inconsistently as `Zaheer.png` (capital Z) in some places :"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 36,
+      "classification": "historical record, preserve",
+      "excerpt": "- Unified all three team cards (Jabir/Fawaz/Zaheer) to the same structure:"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 146,
+      "classification": "historical record, preserve",
+      "excerpt": "  BH, CMO**, per the site owner's explicit request (previously Zaheer KJ was"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 317,
+      "classification": "historical record, preserve",
+      "excerpt": "- CFO Zaheer KJ is described as handling transcript/marksheet verification,"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 1998,
+      "classification": "historical record, preserve",
+      "excerpt": "ERA's leadership team is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university partnerships across Europe, Russia, and the GCC."
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3425,
+      "classification": "historical record, preserve",
+      "excerpt": "No optional Zaheer background was supplied. His replacement uses only the"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3433,
+      "classification": "historical record, preserve",
+      "excerpt": "not Zaheer's placeholder and has not been removed."
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3452,
+      "classification": "historical record, preserve",
+      "excerpt": "ithout a numeric activity code or any certificate file. Optional Zaheer"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3484,
+      "classification": "historical record, preserve",
+      "excerpt": "optional Zaheer background, written fee inclusions/schedule/refund terms and"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3492,
+      "classification": "historical record, preserve",
+      "excerpt": "Phase 24 minimal Zaheer bio and Fawaz preservation instruction. Opened the"
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3573,
+      "classification": "historical record, preserve",
+      "excerpt": "- Exact owner card counts include punctuation/spaces: Jabir 127, Zaheer 130, Fawaz 126, spread 4 (<=6). No conflict or wording adjustment is needed. Full canonical bios, About FAQs and both LLM descriptions remain mandatory outside cards. No separate longer team section exists beyond the About biography "
+    },
+    {
+      "file": "flagged-items-for-verification.md",
+      "line": 3578,
+      "classification": "historical record, preserve",
+      "excerpt": "anonical Person descriptions and both LLM files unchanged. Fawaz/Zaheer full FAQ bios remain required. Equal-height team-only grids can change team block height and naturally move later sections; no later-section styles/content are changed. Reference visual parity will compare unchanged sections with ali"
+    },
+    {
+      "file": "index.php",
+      "line": 126,
+      "classification": "active source/data",
+      "excerpt": "          \"@id\": \"https://ilmerastudyabroad.com/#zaheer\","
+    },
+    {
+      "file": "index.php",
+      "line": 127,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "index.php",
+      "line": 130,
+      "classification": "active source/data",
+      "excerpt": "          \"image\": \"https://ilmerastudyabroad.com/assets/images/zaheer.png\""
+    },
+    {
+      "file": "index.php",
+      "line": 180,
+      "classification": "active source/data",
+      "excerpt": " named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers an online initial consultation with honest eligibility advice rather than guaranteed-admission promises.\"}},"
+    },
+    {
+      "file": "index.php",
+      "line": 475,
+      "classification": "active source/data",
+      "excerpt": "      <p>You work with real, named people, Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH, who specialise in matching each student's marks, budget and goals to the right country and university. Meet the team below.</p>"
+    },
+    {
+      "file": "index.php",
+      "line": 611,
+      "classification": "active source/data",
+      "excerpt": " named, contactable team: Founder Jabir KJ, CMO Fawaz BH and CFO Zaheer KJ, and offers an online initial consultation with honest eligibility advice rather than guaranteed-admission promises.</p></div></details>"
+    },
+    {
+      "file": "index.php",
+      "line": 648,
+      "classification": "active source/data",
+      "excerpt": "        <picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" itemprop=\"image\" width=\"96\" height=\"96\" loading=\"lazy\" style=\"width:96px;height:96px;border-radius:50%;object"
+    },
+    {
+      "file": "index.php",
+      "line": 649,
+      "classification": "active source/data",
+      "excerpt": "        <div class=\"testi-name\" itemprop=\"name\">Zaheer KJ</div>"
+    },
+    {
+      "file": "index.php",
+      "line": 651,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "llms-full.txt",
+      "line": 35,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation. Photo: https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "llms.txt",
+      "line": 21,
+      "classification": "active source/data",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation. Photo: https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "llms.txt",
+      "line": 206,
+      "classification": "active source/data",
+      "excerpt": "ERA's leadership team is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university application guidance across the published destinations."
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 2,
+      "classification": "active source/data",
+      "excerpt": "who keeps the originals?\"\", \"\"ILMERA names Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Its About page identifies Zaheer as handling document verification and application filing. The initial consultation is free; the Terms say paid-service fees and scope are agreed before work begins and outcomes ar"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 4,
+      "classification": "active source/data",
+      "excerpt": "turns any originals?\"\", \"\"ILMERA identifies Jabir KJ as Founder, Zaheer KJ as CFO and Fawaz BH as CMO. Its published document role for Zaheer includes verification and application filing. The first consultation has no charge, and the Terms set out agreement on further fees before paid work starts. [Check"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 5,
+      "classification": "active source/data",
+      "excerpt": "he ILMERA team is named on the About page: Founder Jabir KJ, CFO Zaheer KJ and CMO Fawaz BH. Document review, filing and deadline tracking are described as Zaheer's responsibilities. ILMERA offers a free initial consultation and does not guarantee university or visa outcomes. [Read the team responsibilit"
+    },
+    {
+      "file": "places-facts-template.csv",
+      "line": 6,
+      "classification": "active source/data",
+      "excerpt": "ILMERA's existing site, Jabir KJ is Founder, Fawaz BH is CMO and Zaheer KJ is CFO. Zaheer's documented role covers records, applications and visa-file coordination. The first consultation is free; the [Terms of Use](/terms) require agreement on fees and scope before paid services begin.\"\", \"\"Start with t"
+    },
+    {
+      "file": "reports/deploy-payload.md",
+      "line": 23,
+      "classification": "historical record, preserve",
+      "excerpt": "assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/deploy-payload.md",
+      "line": 24,
+      "classification": "historical record, preserve",
+      "excerpt": "assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/owner-inputs-needed.md",
+      "line": 85,
+      "classification": "active owner report",
+      "excerpt": "Both approved Phase 24b bios are published verbatim. Zaheer's digital-marketing"
+    },
+    {
+      "file": "reports/phase-18-task-1-lines.md",
+      "line": 73,
+      "classification": "historical record, preserve",
+      "excerpt": "ERA's leadership team is Jabir KJ (Founder), Fawaz BH (CMO), and Zaheer KJ (CFO). Counsellors maintain destination-specific expertise and university application guidance across the published destinations."
+    },
+    {
+      "file": "reports/phase-18-task-1-lines.md",
+      "line": 88,
+      "classification": "historical record, preserve",
+      "excerpt": "es for ILMERA: Jabir KJ is the Founder, Fawaz BH is the CMO, and Zaheer KJ is the CFO. Any other title variants referring to these individuals (for example, describing Jabir KJ as \"CEO\" or \"Managing Director\") should be treated as informal and superseded by the titles above."
+    },
+    {
+      "file": "reports/phase-20-prompt-coverage.md",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "The site identifies Jabir KJ as Founder, Fawaz BH as CMO and Zaheer KJ as CFO. The published process begins with a profile discussion and continues with shortlisting, applications and document preparation. A team profile or process description is not an independently verified customer review."
+    },
+    {
+      "file": "reports/phase-23-map.json",
+      "line": 1257,
+      "classification": "historical record, preserve",
+      "excerpt": "fied by the owner; Jabir Founder, Fawaz Chief Marketing Officer, Zaheer Chief Financial Officer. ILMERA is new and has no student feedback yet.\""
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 101,
+      "classification": "historical record, preserve",
+      "excerpt": "### Zaheer KJ, Chief Financial Officer"
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 103,
+      "classification": "historical record, preserve",
+      "excerpt": "Existing retained bio: Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 105,
+      "classification": "historical record, preserve",
+      "excerpt": "71`. Existing Person: Existing About JSON-LD Person. Prior alt: `Zaheer KJ, CFO at ILMERA Study Abroad`."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 107,
+      "classification": "historical record, preserve",
+      "excerpt": "Current alt: `Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad`. About display 88 x 88; Home display 96 x 96."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 109,
+      "classification": "historical record, preserve",
+      "excerpt": "- `/assets/images/zaheer.png`: 192 x 192, 47,311 bytes; unchanged."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 110,
+      "classification": "historical record, preserve",
+      "excerpt": "- `/assets/images/zaheer.webp`: 192 x 192, 11,014 bytes; unchanged."
+    },
+    {
+      "file": "reports/phase-23-release-check.md",
+      "line": 123,
+      "classification": "historical record, preserve",
+      "excerpt": "Zaheer CFO bio remain exact. No new institution, award or experience duration."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 76,
+      "classification": "historical record, preserve",
+      "excerpt": "### Zaheer KJ"
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 79,
+      "classification": "historical record, preserve",
+      "excerpt": "- Existing alt: `Zaheer KJ, CFO at ILMERA Study Abroad`. Rendered dimensions 88 x 88; loading `lazy`."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 80,
+      "classification": "historical record, preserve",
+      "excerpt": "- Existing bio, retained exactly: Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 82,
+      "classification": "historical record, preserve",
+      "excerpt": "- Photo: `/assets/images/zaheer.png`, intrinsic 192 x 192, 47,311 bytes."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 83,
+      "classification": "historical record, preserve",
+      "excerpt": "- Photo: `/assets/images/zaheer.webp`, intrinsic 192 x 192, 11,014 bytes."
+    },
+    {
+      "file": "reports/phase-23-scan.md",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "affordable international education focus; Zaheer's existing bio states CFO"
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 69,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 72,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"bio_html\": \"Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 73,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"bio_text\": \"Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 76,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"alt\": \"Zaheer KJ, CFO at ILMERA Study Abroad\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 82,
+      "classification": "historical record, preserve",
+      "excerpt": "          \"path\": \"/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 91,
+      "classification": "historical record, preserve",
+      "excerpt": "          \"path\": \"/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 109,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"assets/images/zaheer.png\": \"PNG\","
+    },
+    {
+      "file": "reports/phase-23-team-inventory.json",
+      "line": 110,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"assets/images/zaheer.webp\": \"WEBP\""
+    },
+    {
+      "file": "reports/phase-24-checks.json",
+      "line": 719,
+      "classification": "historical record, preserve",
+      "excerpt": "served\\\": true, \\\"jabir_fawaz_bios_preserved\\\": true, \\\"approved_zaheer_consistent\\\": true, \\\"photo_instances\\\": 11, \\\"oversized_originals\\\": [{\\\"path\\\": \\\"/assets/images/fawazbh.webp\\\", \\\"bytes\\\": 1541656, \\\"preserved_original\\\": true}], \\\"registration_output\\\": \\\"EXACT APPROVED PUBLIC PROJECTION\\\", \\\"f"
+    },
+    {
+      "file": "reports/phase-24-checks.json",
+      "line": 874,
+      "classification": "historical record, preserve",
+      "excerpt": "served\\\": true, \\\"jabir_fawaz_bios_preserved\\\": true, \\\"approved_zaheer_consistent\\\": true, \\\"photo_instances\\\": 11, \\\"oversized_originals\\\": [{\\\"path\\\": \\\"/assets/images/fawazbh.webp\\\", \\\"bytes\\\": 1541656, \\\"preserved_original\\\": true}], \\\"registration_output\\\": \\\"EXACT APPROVED PUBLIC PROJECTION\\\", \\\"f"
+    },
+    {
+      "file": "reports/phase-24-cycles.md",
+      "line": 11,
+      "classification": "historical record, preserve",
+      "excerpt": "exact registration projection, identical approved Zaheer bio, exact Jabir/"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 12,
+      "classification": "historical record, preserve",
+      "excerpt": "values, minimal Zaheer bio and photo derivatives. Existing statuses, country"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 22,
+      "classification": "historical record, preserve",
+      "excerpt": "\\| 2. Zaheer finance-function bio \\| done \\| Full suite PASS 528.04s; exact sentence in About/Home/team/Person/both LLMs/FAQ; commit `57f4e54` \\|"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 54,
+      "classification": "historical record, preserve",
+      "excerpt": "That sentence is not Zaheer's placeholder. Narrowed the check to the two full"
+    },
+    {
+      "file": "reports/phase-24-progress.md",
+      "line": 60,
+      "classification": "historical record, preserve",
+      "excerpt": "equivalence permits only the approved Zaheer substitution. Jabir/Fawaz"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 32,
+      "classification": "historical record, preserve",
+      "excerpt": "\\| Zaheer approved bio everywhere active \\| PASS \\| Identical approved sentence in About/Home/team/Person/LLMs/FAQ; both legacy bio strings absent from active surfaces \\|"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 66,
+      "classification": "historical record, preserve",
+      "excerpt": "## Final Zaheer bio"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 68,
+      "classification": "historical record, preserve",
+      "excerpt": "> Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 109,
+      "classification": "historical record, preserve",
+      "excerpt": "- Optional Zaheer background: none supplied, not a blocker for the minimal bio."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 123,
+      "classification": "historical record, preserve",
+      "excerpt": "All receive the approved canonical Organization identifier and Zaheer Person"
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 129,
+      "classification": "historical record, preserve",
+      "excerpt": "- `/about`: Registration block, Zaheer bio/FAQ and Fawaz responsive image, plus canonical updates."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 139,
+      "classification": "historical record, preserve",
+      "excerpt": "- `/`: Team Zaheer bio and Fawaz responsive image, plus shared canonical updates."
+    },
+    {
+      "file": "reports/phase-24-release-check.md",
+      "line": 212,
+      "classification": "historical record, preserve",
+      "excerpt": "2. `57f4e54`: Zaheer bio, full suite PASS 528.04s after exact negative-string fix."
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 20,
+      "classification": "historical record, preserve",
+      "excerpt": "6. About Zaheer card, legacy Person description, visible FAQ and matching FAQ"
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 23,
+      "classification": "historical record, preserve",
+      "excerpt": "8. Home Zaheer card: replace Phase 24 sentence with the new approved bio."
+    },
+    {
+      "file": "reports/phase-24b-bio-edits.md",
+      "line": 24,
+      "classification": "historical record, preserve",
+      "excerpt": "9. Home legacy Fawaz/Zaheer Person nodes: add the exact approved descriptions;"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 121,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"file\": \"assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 122,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"url\": \"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 129,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"file\": \"assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 130,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"url\": \"https://ilmerastudyabroad.com/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 2141,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"https://ilmerastudyabroad.com/assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.json",
+      "line": 2142,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"https://ilmerastudyabroad.com/assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 82,
+      "classification": "historical record, preserve",
+      "excerpt": "\\| `assets/images/zaheer.png` \\| no repository access block \\| intentional public asset/discovery/verification resource; 200 (sitemap.php may canonical-redirect under existing native rewrite) \\|"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 83,
+      "classification": "historical record, preserve",
+      "excerpt": "\\| `assets/images/zaheer.webp` \\| no repository access block \\| intentional public asset/discovery/verification resource; 200 (sitemap.php may canonical-redirect under existing native rewrite) \\|"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 560,
+      "classification": "historical record, preserve",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/phase-24b-exposure-audit.md",
+      "line": 561,
+      "classification": "historical record, preserve",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 52,
+      "classification": "historical record, preserve",
+      "excerpt": "### Zaheer KJ, Chief Financial Officer"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 54,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation."
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 60,
+      "classification": "historical record, preserve",
+      "excerpt": "No requested detail differed from Fawaz's portfolio. Zaheer's added facts are"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 406,
+      "classification": "historical record, preserve",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.png"
+    },
+    {
+      "file": "reports/phase-24b-release-check.md",
+      "line": 407,
+      "classification": "historical record, preserve",
+      "excerpt": "https://ilmerastudyabroad.com/assets/images/zaheer.webp"
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 176,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 177,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 229,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 230,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 282,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 283,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 346,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 347,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 421,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 422,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 496,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-after-layout.json",
+      "line": 497,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 135,
+      "classification": "historical record, preserve",
+      "excerpt": "The full Jabir, Fawaz and Zaheer descriptions live in canonical Person data; About FAQ answers retain full bios, and both LLM files retain full descriptions. There is no separate long-form team biography section beyond those About FAQ answers; do not invent one or s"
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 140,
+      "classification": "historical record, preserve",
+      "excerpt": "\\| Zaheer KJ \\| 130 \\|"
+    },
+    {
+      "file": "reports/phase-25-audit.md",
+      "line": 171,
+      "classification": "historical record, preserve",
+      "excerpt": "second card paragraph; it does not alter the existing FAQ. Fawaz/Zaheer full biographies remain in their FAQ answers. No separate longer biography section exists. Full canonical Person descriptions and both LLM files remain unchanged."
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 18,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}},{\\\"@type\\\":\\\"Question\\\",\\\"name\\\":\\\"How does ILMERA provide online counselling?\\\",\\\"acceptedAnswer\\\""
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 26,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 34,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 42,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 50,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head><body><style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height:70p"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 58,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 74,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 82,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 90,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 106,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n    <style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 114,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\r\\n<body>\\r\\n\\r\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 122,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 130,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 138,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script><script type=\\\"application/ld+json\\\">{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Item"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 146,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 154,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 162,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 170,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 178,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 186,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 194,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 202,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 210,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 218,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 226,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 234,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 242,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 250,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 258,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 266,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 282,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 290,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 298,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 306,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 314,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 330,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 338,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;height"
+    },
+    {
+      "file": "reports/phase-25-baseline-renders.json",
+      "line": 346,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA\\\\u0027s finance and paperwork, including documentation.\\\"}]}</script></head>\\n<body>\\n\\n<style>\\n/* NAV */\\n#il-nav{position:fixed;top:0;left:0;width:100%;heig"
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 44,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 45,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 97,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 150,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 151,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 214,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 215,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 333,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 334,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 452,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-before-layout.json",
+      "line": 453,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-progress.md",
+      "line": 11,
+      "classification": "historical record, preserve",
+      "excerpt": "l Lighthouse samples are provided. Owner card counts: Jabir 127, Zaheer 130, Fawaz 126; spread 4 (PASS <=6). References are not uniformly light in the actual source; preserve them and apply the requested light reading-area rule only to pilot opt-ins. Full lint/unit/render/browser/discovery/strict suite P"
+    },
+    {
+      "file": "reports/phase-25-progress.md",
+      "line": 29,
+      "classification": "historical record, preserve",
+      "excerpt": " Person description and both LLM files are byte-identical; Fawaz/Zaheer full About FAQ answers remain intact. The Phase24b scope helper now takes an explicit short-card flag with a strict expected visible-founder count of zero in Phase25, retaining its historical default of one. All other schema, FAQ and"
+    },
+    {
+      "file": "reports/phase-25-stage-1-report.md",
+      "line": 43,
+      "classification": "historical record, preserve",
+      "excerpt": "Exact supplied card counts: Jabir127, Zaheer130, Fawaz126 characters; spread4 passes the required<=6 check. Only six card biographies and the redundant founder-role paragraph inside the original About card are replaced/removed. Names, titles, image files, crop, alt text, card w"
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 44,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 45,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 97,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 150,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 151,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 203,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 204,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 256,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 257,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 309,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-baseline-layout.json",
+      "line": 310,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 44,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 45,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 97,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 150,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 151,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 203,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 204,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 256,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 257,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 309,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-current-layout.json",
+      "line": 310,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 44,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 45,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 97,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 98,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 150,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 151,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 203,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 204,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 256,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 257,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 309,
+      "classification": "historical record, preserve",
+      "excerpt": "        \"name\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25-team-fixed-layout.json",
+      "line": 310,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-25c-reference-a11y-data.json",
+      "line": 4136,
+      "classification": "historical record, preserve",
+      "excerpt": "          \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-a11y-data.json",
+      "line": 4442,
+      "classification": "historical record, preserve",
+      "excerpt": "          \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6829,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6857,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 6913,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9826,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9854,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 9910,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12891,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12919,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 12975,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15889,
+      "classification": "historical record, preserve",
+      "excerpt": "            \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15917,
+      "classification": "historical record, preserve",
+      "excerpt": "            \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 15973,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30462,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30490,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 30546,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32331,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32359,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 32415,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34200,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34228,
+      "classification": "historical record, preserve",
+      "excerpt": "              \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 34284,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36070,
+      "classification": "historical record, preserve",
+      "excerpt": "            \"text\": \"Zaheer KJ\\n        Chief Financial Officer\\n        Zaheer KJ is the Chief Financial Officer of ILMERA\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36098,
+      "classification": "historical record, preserve",
+      "excerpt": "            \"text\": \"Zaheer KJ\","
+    },
+    {
+      "file": "reports/phase-25c-reference-overflow.json",
+      "line": 36154,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages I\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12345,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12565,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12709,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12798,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 12942,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13086,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13230,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13374,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13520,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13664,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13808,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 13952,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14096,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14240,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 14384,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22565,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22709,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22853,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 22997,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23217,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23361,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23581,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23803,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 23892,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24036,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24180,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24269,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24413,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24633,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24777,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-25c-task2-ab.json",
+      "line": 24997,
+      "classification": "historical record, preserve",
+      "excerpt": "un by three named people: Jabir KJ (Founder), Fawaz BH (CMO) and Zaheer KJ (CFO), who guide students from Kodagu and across Karnataka to universities in Germany, Italy, the UK, Russia and Europe.</p>\","
+    },
+    {
+      "file": "reports/phase-26-base-inventory.json",
+      "line": 151,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"assets/images/zaheer.png\": \"cfda6caaed6238aa1f0fbd8b1b68274f761e40f0c97088f42095824fb8c84d0f\","
+    },
+    {
+      "file": "reports/phase-26-base-inventory.json",
+      "line": 152,
+      "classification": "historical record, preserve",
+      "excerpt": "    \"assets/images/zaheer.webp\": \"47bb651aad0f070eac57f0ce88c9ed937f85342f77b669d5976b558db65ff4db\","
+    },
+    {
+      "file": "reports/phase-26-history-prefix.txt",
+      "line": 133,
+      "classification": "historical record, preserve",
+      "excerpt": "57f4e54 Phase 24 task 2: replace Zaheer placeholder with approved finance bio"
+    },
+    {
+      "file": "reports/phase-26-payload-manifest.json",
+      "line": 70,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"path\": \"assets/images/zaheer.png\","
+    },
+    {
+      "file": "reports/phase-26-payload-manifest.json",
+      "line": 75,
+      "classification": "historical record, preserve",
+      "excerpt": "      \"path\": \"assets/images/zaheer.webp\","
+    },
+    {
+      "file": "reports/phase-26-public-url-checks.tsv",
+      "line": 2,
+      "classification": "historical record, preserve",
+      "excerpt": "about\t200\tAbout ILMERA Study Abroad; Short cards, complete Fawaz/Zaheer FAQ bios and approved Udyam line"
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 19,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 41,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 63,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 112,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 134,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-reference-comparison.json",
+      "line": 156,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\""
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 32,
+      "classification": "historical record, preserve",
+      "excerpt": "<div class=\"team-avatar\"><picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" width=\"88\" height=\"88\" loading=\"lazy\" /></picture></div>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 33,
+      "classification": "historical record, preserve",
+      "excerpt": ":18px;font-weight:600;color:var(--deep-navy);margin-bottom:4px;\">Zaheer KJ</h3>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 35,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 36,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 70,
+      "classification": "historical record, preserve",
+      "excerpt": "         <picture><source srcset=\"/assets/images/zaheer.webp\" type=\"image/webp\"/><img src=\"/assets/images/zaheer.png\" alt=\"Zaheer KJ, Chief Financial Officer, ILMERA Study Abroad\" itemprop=\"image\" width=\"96\" height=\"96\" loading=\"lazy\" style=\"width:96px;height:96px;border-radius:50%;object"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 71,
+      "classification": "historical record, preserve",
+      "excerpt": "         <div class=\"testi-name\" itemprop=\"name\">Zaheer KJ</div>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 73,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 74,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.</p>"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 84,
+      "classification": "historical record, preserve",
+      "excerpt": "-from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 85,
+      "classification": "historical record, preserve",
+      "excerpt": "+from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS,validate_bio_contexts"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 91,
+      "classification": "historical record, preserve",
+      "excerpt": "   assert not re.search(r'only travel the process requires\\|CFO Zaheer KJ verifies\\|Manages admissions, visa documentation\\|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 95,
+      "classification": "historical record, preserve",
+      "excerpt": "    assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 107,
+      "classification": "historical record, preserve",
+      "excerpt": "-  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(2 if route=='/about' else 1 if route=='/' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 108,
+      "classification": "historical record, preserve",
+      "excerpt": "+  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(1 if route=='/about' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 109,
+      "classification": "historical record, preserve",
+      "excerpt": "   remaining=visible.replace(FAWAZ,'').replace(ZAHEER,'');assert 'Adrex Media School' not in remaining,(route,'Training institute outside bios')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 117,
+      "classification": "historical record, preserve",
+      "excerpt": "    for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('\"name\": \"'+name+'\",','\"name\": \"'+name+'\", \"description\": '+json.dumps(bio)+',')"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 146,
+      "classification": "historical record, preserve",
+      "excerpt": " APPROVED_BIOS = (ZAHEER, FAWAZ)"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 153,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 204,
+      "classification": "historical record, preserve",
+      "excerpt": "   self.assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names))"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 209,
+      "classification": "historical record, preserve",
+      "excerpt": "l({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126})"
+    },
+    {
+      "file": "reports/phase-26-team-only.patch",
+      "line": 231,
+      "classification": "historical record, preserve",
+      "excerpt": "+  for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]:"
+    },
+    {
+      "file": "reports/post-deploy-checklist.md",
+      "line": 14,
+      "classification": "historical record, preserve",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork."
+    },
+    {
+      "file": "reports/post-deploy-checklist.md",
+      "line": 16,
+      "classification": "historical record, preserve",
+      "excerpt": "- About: open Fawaz/Zaheer FAQs; complete credential bios remain. About and Contact: approved Udyam line present, no private certificate details."
+    },
+    {
+      "file": "reports/prompt-map.md",
+      "line": 66,
+      "classification": "historical record, preserve",
+      "excerpt": "fied by the owner; Jabir Founder, Fawaz Chief Marketing Officer, Zaheer Chief Financial Officer. ILMERA is new and has no student feedback yet. \\|"
+    },
+    {
+      "file": "tools/build_llms_directory.py",
+      "line": 185,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "    text = re.sub(r'(?m)^(- \\*\\*(?:Fawaz BH\\|Zaheer KJ),[^\\n]*?\\*\\*)[^\\n]*', r'\\1', text)"
+    },
+    {
+      "file": "tools/check_phase22.py",
+      "line": 42,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  assert not re.search(r'only travel the process requires\\|CFO Zaheer KJ verifies\\|Manages admissions, visa documentation\\|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase22.py",
+      "line": 45,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase23.py",
+      "line": 16,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": " assert [m['name'] for m in team]==['Jabir KJ','Fawaz BH','Zaheer KJ']"
+    },
+    {
+      "file": "tools/check_phase23.py",
+      "line": 32,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "ass=\"team-bio\">(.*?)</p>',r'<summary>Who is (?:Jabir KJ\\|Fawaz BH\\|Zaheer KJ)\\?</summary>(.*?)</details>',r'\"description\": \"((?:Jabir KJ\\|Fawaz BH\\|Zaheer KJ)[^\\r\\n]*)\"']:"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 14,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "ZAHEER=\"Zaheer KJ is the Chief Financial Officer of ILMERA Study Abroad, responsible for the company's finance function.\""
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 15,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "OLD_ZAHEER='Zaheer KJ is CFO at ILMERA Study Abroad. Ask ILMERA to identify the person responsible for any additional tasks in your written service scope.'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 63,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  assert not re.search(r'only travel the process requires\\|CFO Zaheer KJ verifies\\|Manages admissions, visa documentation\\|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 66,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 105,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "ation in student residences','ask a CA','Udyam portal','Optional Zaheer background','Ahrefs Academy and Semrush','Adrex Media School','accurate and','Payment schedule','Refund and cancellation','Future genuine feedback']:"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 113,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": " assert [m['name'] for m in team]==['Jabir KJ','Fawaz BH','Zaheer KJ']"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 117,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  expected_bio=ZAHEER if member['name']=='Zaheer KJ' and stage>=2 else original['bio_text']"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 118,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  assert member['description']==expected_bio,'Only the approved Zaheer bio may differ'"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 133,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   expected=expected.replace(OLD_ZAHEER.encode(),ZAHEER.encode()).replace(HOME_PLACEHOLDER.encode(),ZAHEER.encode())"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 146,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": " if stage>=2:expected_team['members'][2]['description']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 195,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text,(route,'Old Zaheer bio')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 196,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   if route in ['/','/about']:assert ZAHEER in visible,(route,'Visible Zaheer bio')"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 223,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  if stage>=2:assert OLD_ZAHEER not in text and HOME_PLACEHOLDER not in text and ZAHEER in text"
+    },
+    {
+      "file": "tools/check_phase24.py",
+      "line": 226,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "l_photos_preserved=True,jabir_fawaz_bios_preserved=True,approved_zaheer_consistent=True,photo_instances=photo_instances,oversized_originals=oversized,registration_output='EXACT APPROVED PUBLIC PROJECTION',fee_proof='EMPTY',fee_range_only_visible_or_faq=True)"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 7,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 54,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  assert not re.search(r'only travel the process requires\\|CFO Zaheer KJ verifies\\|Manages admissions, visa documentation\\|realistically admit you',visible,re.I),(route,'Legacy business/outcome promise')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 57,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   assert not any(x.get('name')=='Zaheer KJ' and 'knowsAbout' in x for x in nodes),'Unconfirmed additional team duties'"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 93,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "assert team[1]['description']==FAWAZ and team[2]['description']==ZAHEER and team[1]['sameAs']==FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 108,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "     elif n.get('name')=='Zaheer KJ':n['description']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 111,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "     elif n.get('name')=='Who is Zaheer KJ?':n['acceptedAnswer']['text']=ZAHEER"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 129,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  for bio in [FAWAZ,ZAHEER]:assert visible.count(bio)==(2 if route=='/about' else 1 if route=='/' else 0),(route,'Visible bio context/count')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 130,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  remaining=visible.replace(FAWAZ,'').replace(ZAHEER,'');assert 'Adrex Media School' not in remaining,(route,'Training institute outside bios')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 134,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "     assert v in [FAWAZ,ZAHEER] and ((n.get('@type')=='Person' and key=='description') or (n.get('@type')=='Answer' and key=='text')),(route,'Institution in unintended schema')"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 142,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  t=(root/f).read_text();assert t.count(FAWAZ)==t.count(ZAHEER)==1"
+    },
+    {
+      "file": "tools/check_phase24b.py",
+      "line": 143,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  assert t.replace(FAWAZ,'').replace(ZAHEER,'').count('Adrex Media School')==0"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 3,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 12,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "rs'][1]['sameAs']=FAWAZ_SAME_AS;obj['members'][2]['description']=ZAHEER"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 15,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": ".json'))['members'];text=text.replace(previous[2]['description'],ZAHEER)"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 24,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "\"');end=text.index('      \"@id\": \"https://ilmerastudyabroad.com/#zaheer\"',start)"
+    },
+    {
+      "file": "tools/phase24b/approved.py",
+      "line": 29,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "   for name,bio in [('Fawaz BH',FAWAZ),('Zaheer KJ',ZAHEER)]:text=text.replace('\"name\": \"'+name+'\",','\"name\": \"'+name+'\", \"description\": '+json.dumps(bio)+',')"
+    },
+    {
+      "file": "tools/phase25/audit.py",
+      "line": 34,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "nside the authorized team area.', '', 'The full Jabir, Fawaz and Zaheer descriptions live in canonical Person data; About FAQ answers retain full bios, and both LLM files retain full descriptions. There is no separate long-form team biography section beyond those About FAQ answers; do not invent one or s"
+    },
+    {
+      "file": "tools/phase26/prepare.py",
+      "line": 30,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "hase24b.py';s=p.read_text().replace('from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS','from team_bio_policy import ZAHEER,FAWAZ,FAWAZ_SAME_AS,validate_bio_contexts').replace(\"visible.count(bio)==1 and 'financial consultant'\", \"visible.count(bio)==0 and 'financial consultant'\").replace(\"(2 if route"
+    },
+    {
+      "file": "tools/team_bio_policy.py",
+      "line": 2,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer with a certification from Adrex Media School. He manages ILMERA's finance and paperwork, including documentation.\""
+    },
+    {
+      "file": "tools/team_bio_policy.py",
+      "line": 4,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "APPROVED_BIOS = (ZAHEER, FAWAZ)"
+    },
+    {
+      "file": "tools/team_bio_policy.py",
+      "line": 11,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "r KJ is the Chief Financial Officer of ILMERA Study Abroad and a digital marketer. He manages ILMERA's finance and paperwork.\","
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 5,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "from team_bio_policy import ZAHEER,FAWAZ"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 9,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  for bio in [ZAHEER,FAWAZ]:self.assertEqual(blocked_name_matches(bio,self.names),[])"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 11,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  for text in ['Adrex Media School',FAWAZ+' Adrex Media School',ZAHEER.replace('including documentation','including other work')]:self.assertIn('Adrex Media School',blocked_name_matches(text,self.names))"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 15,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  self.assertIn(self.names[0],blocked_name_matches(ZAHEER.replace('paperwork','paperwork '+self.names[0]),self.names))"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 20,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "l({k:len(v) for k,v in SHORT_CARD_BIOS.items()},{'Jabir KJ':127,'Zaheer KJ':130,'Fawaz BH':126})"
+    },
+    {
+      "file": "tools/test_team_bio_policy.py",
+      "line": 42,
+      "classification": "test/tool fixture or expectation, inspect",
+      "excerpt": "  for text,route in [(self.fixture('/')+'<p>'+SHORT_CARD_BIOS['Zaheer KJ']+'</p>','/'),(self.fixture('/'),'/contact')]:"
+    }
+  ]
+}

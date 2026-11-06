@@ -1,0 +1,103 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "A_source": "Stage1 3f0e141",
+      "A_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "B_sha256": "d593b61fc555c1fbe5c1ffeb129eaa92fc8ed97406e95beef7746c0b53087cfc",
+      "identical_control": true
+    },
+    {
+      "route": "/services",
+      "A_source": "Stage1 3f0e141",
+      "A_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "B_sha256": "08ed64b50a72129226e08906a0be7349ee4258f9a2253726f7aa73a45f62eb4a",
+      "identical_control": true
+    },
+    {
+      "route": "/contact",
+      "A_source": "Stage1 3f0e141",
+      "A_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "B_sha256": "1dd72d1963f33069a610921046e844f017ede51647d1be545355cb0f9b12647a",
+      "identical_control": true
+    },
+    {
+      "route": "/about",
+      "A_source": "Stage1 3f0e141",
+      "A_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "B_sha256": "b5a7c1dfba805599d6c61ed3d2a6f2a9fddd9f54f533f61283bbaae3c08d7724",
+      "identical_control": true
+    },
+    {
+      "route": "/study-in-germany",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "9321953c03e02334044c9a272e1e6b6a6cd73aee6ecb1e570dfd888e67c0e7b7",
+      "B_sha256": "9ade1bd0fe2d3d2632bdd8f2cc1788972fd84a04a12787dadfcf86243e5fc13c",
+      "identical_control": null
+    },
+    {
+      "route": "/study-in-italy",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "412357e276b880981f4e02049cca39024cc9c0348fdf7ed15efe71316410c009",
+      "B_sha256": "77daa973aa1554a949ab0205692cbc65e174991d29079e26a6dbbd3f07ecf82f",
+      "identical_control": null
+    },
+    {
+      "route": "/study-in-gcc",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "4c0a2d4b3522ed4ea45e5b018f53ffbdea6eeac146d6269c6b617740ebddde48",
+      "B_sha256": "233678cacb0db01287a5faec4ab5392a5d563bed9ce687055987036758c81b87",
+      "identical_control": null
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "513d617f7bbb7da74585493c4bae397a365e160bae8f9bf6800c8dbf06e52592",
+      "B_sha256": "0014dc04e34efd8b1b71dfe396d8faa1f39b93c3dcaafe7b8ca8dec4981af06c",
+      "identical_control": null
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "438ca208d74f4fa1da5de6ca5887dec3dd737e3568ce58937602c552e19b9e54",
+      "B_sha256": "9c8353ce07f9d38e660f6d366f2e86298098b9e54900f3f3a152f8e2bb8cb8f3",
+      "identical_control": null
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "ff6902d434f69e31906a40408e3df36189323a449c55877de1e832bee313365d",
+      "B_sha256": "c2d0d2a1904b48280e07c100e086d2e6dfdd4e5afe59a95826e20b9f600154ee",
+      "identical_control": null
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "426f189ebf3dcf7d524d6f84dc5cc2f20dad0357ec32811864701260854f4ccd",
+      "B_sha256": "26e021c230b4516b99724f4f08f2d92c7487fadad3595d20cf51f3cdc006a3d7",
+      "identical_control": null
+    },
+    {
+      "route": "/blog/",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "435f59036869b690f348e5834fd5f631f3e1ac510dfd822253e7ee4cd69b0c67",
+      "B_sha256": "e315e65181c32cd20207d324192d5f444eff67f8f46a7a73e264062262ceb0e4",
+      "identical_control": null
+    },
+    {
+      "route": "/privacy-policy",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "9a16864f9e9642a52bf1f985ce227380931ab81fab531109973a77cbd4160cc4",
+      "B_sha256": "c865738d13d42af0a8641a8514cdff7bad06716250abc987f61d4768e0b4b43d",
+      "identical_control": null
+    },
+    {
+      "route": "/all-pages",
+      "A_source": "immutable Phase24b captured HTML",
+      "A_sha256": "a11ffff07b5c0b525f52f798ed00d9522f6464eff2642f22a28cf75da3b1e43e",
+      "B_sha256": "54afbdd2131668447decc543b5d92871c6dbeb7f2ac54bc5f6c258c6fcf93a1f",
+      "identical_control": null
+    }
+  ],
+  "delivery": "Both frozen HTML arms served by same Node fixture server at identical origin/path, with identical static asset/CDN mirror handling. Not native hosting."
+}

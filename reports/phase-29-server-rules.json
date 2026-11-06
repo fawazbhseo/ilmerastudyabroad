@@ -1,0 +1,418 @@
+{
+  "all_eight_payload_htaccess": [
+    {
+      "path": ".htaccess",
+      "sha256": "660f6611834716f7befe4a29ff4c1e69832934cfc9764f3eab517a0b5e9351cb",
+      "lines": [
+        {
+          "line": 1,
+          "text": "RewriteEngine On"
+        },
+        {
+          "line": 2,
+          "text": "DirectoryIndex index.php index.html"
+        },
+        {
+          "line": 3,
+          "text": ""
+        },
+        {
+          "line": 4,
+          "text": "# One canonical sitemap endpoint, generated from the shared discovery helpers."
+        },
+        {
+          "line": 5,
+          "text": "RewriteCond %{THE_REQUEST} \\s/+sitemap(?:\\.php)?[\\s?] [NC]"
+        },
+        {
+          "line": 6,
+          "text": "RewriteRule ^sitemap(?:\\.php)?$ /sitemap.xml [R=301,L]"
+        },
+        {
+          "line": 7,
+          "text": "RewriteRule ^sitemap\\.xml$ sitemap.php [END]"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "# If someone requests about.php directly, redirect to /about (SEO-friendly, avoids duplicate content)"
+        },
+        {
+          "line": 10,
+          "text": "RewriteCond %{THE_REQUEST} \\s/+(.+?)\\.php[\\s?] [NC]"
+        },
+        {
+          "line": 11,
+          "text": "RewriteRule ^ /%1 [R=301,L]"
+        },
+        {
+          "line": 12,
+          "text": ""
+        },
+        {
+          "line": 13,
+          "text": "# Internally serve the .php file when /about is requested (browser URL stays clean)"
+        },
+        {
+          "line": 14,
+          "text": "RewriteCond %{REQUEST_FILENAME} !-d"
+        },
+        {
+          "line": 15,
+          "text": "RewriteCond %{REQUEST_FILENAME}\\.php -f"
+        },
+        {
+          "line": 16,
+          "text": "RewriteRule ^(.*)$ $1.php [L]"
+        },
+        {
+          "line": 17,
+          "text": ""
+        },
+        {
+          "line": 18,
+          "text": "# Phase 24b: internal notes, scripts and audit data are not public website files."
+        },
+        {
+          "line": 19,
+          "text": "<FilesMatch \"(?i)(?:\\.(?:md|py|cjs|log|bak|csv)$|^phase.*\\.json$|^\\.)\">"
+        },
+        {
+          "line": 20,
+          "text": "    Require all denied"
+        },
+        {
+          "line": 21,
+          "text": "</FilesMatch>"
+        },
+        {
+          "line": 22,
+          "text": "# Git metadata must never be uploaded or served."
+        },
+        {
+          "line": 23,
+          "text": "RedirectMatch 403 \"(?i)^/\\.git(?:/|$)\""
+        }
+      ]
+    },
+    {
+      "path": "assets/fonts/.htaccess",
+      "sha256": "abbda2062f1e1c57c9771a8b50a002ba3f239fa04d20f0efaf714ce0264d41e8",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Additive policy scoped only to this font directory. Parent rules unchanged."
+        },
+        {
+          "line": 2,
+          "text": "<IfModule mod_mime.c>"
+        },
+        {
+          "line": 3,
+          "text": "    AddType font/woff2 .woff2"
+        },
+        {
+          "line": 4,
+          "text": "</IfModule>"
+        },
+        {
+          "line": 5,
+          "text": "<IfModule mod_headers.c>"
+        },
+        {
+          "line": 6,
+          "text": "    <FilesMatch \"\\.woff2$\">"
+        },
+        {
+          "line": 7,
+          "text": "        Header set Cache-Control \"public, max-age=31536000, immutable\""
+        },
+        {
+          "line": 8,
+          "text": "    </FilesMatch>"
+        },
+        {
+          "line": 9,
+          "text": "</IfModule>"
+        }
+      ]
+    },
+    {
+      "path": "data/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    },
+    {
+      "path": "destinations/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    },
+    {
+      "path": "includes/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    },
+    {
+      "path": "places/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    },
+    {
+      "path": "reports/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    },
+    {
+      "path": "tools/.htaccess",
+      "sha256": "4aaacd52bae18883060e4b3fa64b2cd1bf5010262940e61683d7c1f9e7604163",
+      "lines": [
+        {
+          "line": 1,
+          "text": "# Internal owner evidence and verification artifacts, not website content."
+        },
+        {
+          "line": 2,
+          "text": "Require all denied"
+        }
+      ]
+    }
+  ],
+  "assets_directory_policy_present": false,
+  "excluded_releases_policy": "releases/.htaccess exists outside payload and does not govern /assets",
+  "available_native_or_simulator_commands": {
+    "apache2": null,
+    "httpd": null,
+    "lsws": null,
+    "litespeed": null,
+    "docker": null,
+    "apachectl": null
+  },
+  "method": "Careful static analysis, not native execution or a rule-engine simulator",
+  "native_verified": false,
+  "path_evaluations": [
+    {
+      "path": "/assets/css/visual-system.css",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/css/missing.css",
+      "static_root_or_child_deny": false,
+      "existing_file": false,
+      "matching_dot_php_neighbor": false,
+      "predicted": "404 absent untracked host rules",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/.htaccess",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/cormorant-garamond-OFL.txt",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/cormorant-garamond-latin.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/cormorant-garamond-reference-400.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/cormorant-garamond-reference-700.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-OFL.txt",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-latin.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-reference-300.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-reference-400.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-reference-500.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-reference-600.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/assets/fonts/outfit-reference-700.woff2",
+      "static_root_or_child_deny": false,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "static file200, MIME host-dependent except font override",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/includes/visual-system.php",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/data/entity.json",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/destinations/germany.php",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/places/mysuru.php",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/reports/test.html",
+      "static_root_or_child_deny": true,
+      "existing_file": false,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/tools/test.php",
+      "static_root_or_child_deny": true,
+      "existing_file": false,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/.git/config",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    },
+    {
+      "path": "/phase14-source-review.json",
+      "static_root_or_child_deny": true,
+      "existing_file": true,
+      "matching_dot_php_neighbor": false,
+      "predicted": "403",
+      "native_behavior_verified": false
+    }
+  ]
+}

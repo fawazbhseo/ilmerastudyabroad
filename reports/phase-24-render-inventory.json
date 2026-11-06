@@ -1,0 +1,198 @@
+{
+  "baseline": "9157825a90487f656b2b6c566405107a819f9857",
+  "compared_routes": 43,
+  "changed_published_routes": [
+    {
+      "route": "/about",
+      "baseline_sha256": "cf2b10be485b71cfca52588485cdd3f078afedd5b1f853b8b6699bca6b348afd",
+      "current_sha256": "0d2a7fc5897541809b8c68345741947ac842564607d85c301b797418c9bbdbf7"
+    },
+    {
+      "route": "/all-pages",
+      "baseline_sha256": "5d4cc30575a36b380fa6dce8e8e9485ce27d7a0523f77d613b3d5bceb38c333c",
+      "current_sha256": "1bc8d6ea2e39013d2715c964aad8cf15c4aa5853406751cf0acf2895ff30f322"
+    },
+    {
+      "route": "/blog/cost-of-studying-abroad-for-indian-students",
+      "baseline_sha256": "8fb595c8135ec5b6d71c49e92d0f86604f0d959c11b0be402fd648120e590185",
+      "current_sha256": "321717417acc6205ef4657f4e971bc212ffce8bf78bdbc83c1966ced4378320d"
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "baseline_sha256": "9635c2ff41c24085086dece5b643564fd4c173e54049c5f7e12839d71d7c09ad",
+      "current_sha256": "761eaa1d634d572ab06497aeda10e10c1a375b7626957ee24f36d3db65ede77d"
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "baseline_sha256": "bd7cbf1262dd92f2dd3aee9b7c67c127389039888ae9ce428158a0df0e4e05e3",
+      "current_sha256": "c8b62b9ab6603a3958a382a397e1022717ae52ae5ee4050c59029da380974ab8"
+    },
+    {
+      "route": "/blog/",
+      "baseline_sha256": "57feabec951714880a70750984c04266f2ac8b8e6193eb02ba6e90e00c7011c1",
+      "current_sha256": "4628736661eeb3fecc0e7c41d13199a3dddbd3da96d5ab5ecf04fdedb19d1740"
+    },
+    {
+      "route": "/blog/scholarships-for-indian-students-study-abroad",
+      "baseline_sha256": "d36dc70bceae7adfbcb5b8df888ac9a87363f5849e5f8c328f6804b4622f0395",
+      "current_sha256": "ce1e8d44c0adb6e493fe93a4ce3b40dae9a05733959f96935b3e717499ee1355"
+    },
+    {
+      "route": "/blog/study-abroad-counselling-from-coorg",
+      "baseline_sha256": "e70eb9530adfc8bbe096e1332a2b2963f8f6e7bad6ba0c7d2b1f42e0c38c0399",
+      "current_sha256": "986ddb3756d4ce92e4e443ff30f434bb88b71630a463c24debac84bca4a1c68c"
+    },
+    {
+      "route": "/blog/study-abroad-with-academic-backlogs",
+      "baseline_sha256": "1702333b171136b275655a640ac032bce296322a0ed0557e1e2ff6e5273fe0ce",
+      "current_sha256": "6080fce8d5479f3814ea356b454b7993df78f9c8809d086b54b1bccf8c36a02d"
+    },
+    {
+      "route": "/contact",
+      "baseline_sha256": "9ed6358984498222e249964e9b96fa6e0cb37437175fb56c8c4fbfe49bfc4189",
+      "current_sha256": "1ddf61f5f8e7b91fe4a7477189f460a1eb6422fdaa5c301119919b5c78f3e130"
+    },
+    {
+      "route": "/",
+      "baseline_sha256": "ea94b8b026ceb8aba1f0c47897fde99c7967cd2bfbf6e68c1a73cee72d777a3e",
+      "current_sha256": "4c97288c17bb32a49d4e25db5f1320b2bc79ca17d98d5d42d8febaba4d006f48"
+    },
+    {
+      "route": "/privacy-policy",
+      "baseline_sha256": "76e153ca19a00135d146a139b431b8566df209cea0e75a476e202d303457956f",
+      "current_sha256": "0c61054ba290b9610401876e9dc193ab1b45d8ba79d362bfa4488682b2d84902"
+    },
+    {
+      "route": "/services",
+      "baseline_sha256": "ab6284c25fe1bd6406dfdf9306d1e0a9b5b76d9129289be688c9e7f5862a463a",
+      "current_sha256": "6a1824bfc012e3a269becf150f0b0cb47a6e33421944a177309948478dbfac20"
+    },
+    {
+      "route": "/study-abroad-consultants-in-karnataka",
+      "baseline_sha256": "789fff2eab9053f0a3e220f8ff668fecad30d9fabbe13745f6bed655933361e4",
+      "current_sha256": "f73f2e83e15bf332a70d0e29d180761b15a5f1187bbd8125e44818d915193b57"
+    },
+    {
+      "route": "/study-abroad-consultants-in-kodagu",
+      "baseline_sha256": "8aa5e0c2135160bdc4c52beddb21fed80d8357fae9bbd8273b76f4ee1453b014",
+      "current_sha256": "9c52700387db81c33c984ac454137cdef44d7929e3174973c757eb6192c5bffb"
+    },
+    {
+      "route": "/study-abroad-counselling-belagavi",
+      "baseline_sha256": "0dd9520f7065a48abd23eda11c6382946fada9b5cc2a81f3df8e58c78963ab07",
+      "current_sha256": "3621bf2055a2fcb25f00da39ea55475c1b936aa89aacb2b09c4e0fe0a060dad3"
+    },
+    {
+      "route": "/study-abroad-counselling-bengaluru",
+      "baseline_sha256": "a21c456c5eca6e89591728c2e644466715f31a73c75000f31fb5e255127c4151",
+      "current_sha256": "7fe7c922a0a9ac56ab65e2ec0d79050853fad8a06023c9707324eb5957b4f8aa"
+    },
+    {
+      "route": "/study-abroad-counselling-chikkamagaluru",
+      "baseline_sha256": "64b6f43145c05392a3758b1b17ca230675137447cc606f381dd7be5a1590953d",
+      "current_sha256": "3414321005e54c157a2fd8ac9d72d327d6c9f75d57d2e5b4548dee6346a4f322"
+    },
+    {
+      "route": "/study-abroad-counselling-gonikoppal",
+      "baseline_sha256": "695030b7ec34e0550b9bc437b26ffb76b63d3884559ea01ed02275c297254a9f",
+      "current_sha256": "587f9019920adae43e05452e1da65d83f25ed71a417f7a9c48fb495b6477308a"
+    },
+    {
+      "route": "/study-abroad-counselling-hassan",
+      "baseline_sha256": "209f95f357e1eb1b6abbaab085344c372ba94711f6092a719a557c09d6678580",
+      "current_sha256": "3421a3ab2f8555de24509cffc24cb73071da92bb5742281bf9608bae8d0b3c25"
+    },
+    {
+      "route": "/study-abroad-counselling-kushalnagar",
+      "baseline_sha256": "725d6321a0f8aaebea439c359e4ae02676fae7b18a7e19374f1c8501a5bacecf",
+      "current_sha256": "b2a8aea2a3987419a2e89a9b68eb141de9b29b4327648765bc07937e1e83e138"
+    },
+    {
+      "route": "/study-abroad-counselling-madikeri",
+      "baseline_sha256": "bb4cff3bf7ffc46f75d4263e76e42f22fcfbe88950315dce44cb2e0a83e5b92d",
+      "current_sha256": "87375af5d6d0f05f20000c18e0e6ac0887c201dbd8f9bf0ee123b6bfe3acd374"
+    },
+    {
+      "route": "/study-abroad-counselling-mangaluru",
+      "baseline_sha256": "879a830e8b30e20c0ed8823add9882d94b1c3cbc2c7103c97df19f15f24641c6",
+      "current_sha256": "4e2918cc320e1844cab7f8c55ff56df19f48f89922ff7430651f2713224216dd"
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "baseline_sha256": "e67e41cc2a7fe87c9d25038095d2f2470600bfe9bdba3f6c8f5834ee4a17b7d2",
+      "current_sha256": "fbd1185d7129058c0154dfcc4782867bbeff8a06e44757d220e516ace7597f2f"
+    },
+    {
+      "route": "/study-abroad-counselling-ponnampet",
+      "baseline_sha256": "6437c2cc61aeb0ce67c8cdf1fe15716f11bcfc667d23e63caed2101491c75e91",
+      "current_sha256": "7ba4eed76ad3d5bba859e1293e2922fdc1454e9a3c44835ce90cebd2a875a7cd"
+    },
+    {
+      "route": "/study-abroad-counselling-shivamogga",
+      "baseline_sha256": "31c5d01a1d30636414a8cb3cd080a56c7476a0c2a7fafb50ac313c60d1765f9a",
+      "current_sha256": "6390418764fd6ea353134f9ff6ee6f64fcc7b6a785b2b45355940af64c4d7cab"
+    },
+    {
+      "route": "/study-abroad-counselling-siddapura",
+      "baseline_sha256": "fd561979636f989e4547bff742586c0b3263ec4ce5de1656d7b593d2849eaede",
+      "current_sha256": "3fd7fbdd57b9fedcb5ce850115f0c2aaf765d1c30ebbf5e19105870856681664"
+    },
+    {
+      "route": "/study-abroad-counselling-somwarpet",
+      "baseline_sha256": "7c8073f3f2775da64d760df0bd689a5e572207688df57522cdf6be947bfbd3d8",
+      "current_sha256": "1d5d9b0e43b012fbcf73c5b11195a1b27bcf63fc83fe7cd43b272904a4f12ab8"
+    },
+    {
+      "route": "/study-abroad-counselling-udupi-manipal",
+      "baseline_sha256": "a7bc16d3963679e5530c7d8cfd301ff33fbe9e0cd3769284a88bffc462c8d287",
+      "current_sha256": "6e55c65b126562edf31e2e8965da7611602e2d77f745694fc40e26b21c21ec01"
+    },
+    {
+      "route": "/study-abroad-counselling-virajpet",
+      "baseline_sha256": "2544313b4eba70f279f48d8ff98d9fb798ed946cb9c13a90b94e8d94eca144a9",
+      "current_sha256": "1131b3188da58a9158882906adb1b15c7601167a8672cce4c55535de1c291a8e"
+    },
+    {
+      "route": "/study-in-gcc",
+      "baseline_sha256": "a3c7883f71a3001fe518af75867422cd21d8cf77821227c2b65d13b1dcf8e530",
+      "current_sha256": "ec5d640c894542a0144d0aa3346765427573a50531024884ff4f9d9e613781e3"
+    },
+    {
+      "route": "/study-in-germany",
+      "baseline_sha256": "3f7f017c96a9f75c25f457d4b8a564d423eaf259d48fbcf17c7b4f791e31be15",
+      "current_sha256": "0944d726eab93274faa908372d161173815b8a0e7ad7fbf81e58e57b29e2013b"
+    },
+    {
+      "route": "/study-in-italy",
+      "baseline_sha256": "ae4632ca36a39ce70bad37974edd2c43e2a3ac6ec23546fc590e00f662e6bb4b",
+      "current_sha256": "783f1b8d1ea8e4fffe77e048b2ca215971aea007c23707b72f3ff35a350e20d1"
+    },
+    {
+      "route": "/study-in-latvia",
+      "baseline_sha256": "a050175af3a2c9050fd64ea35da628b1adb6e58795eb1f605137fb012c717c02",
+      "current_sha256": "d094ba2c88128ed514c8f8f56ef38eaea7bcb433f66680dc69738ecc630a5acd"
+    },
+    {
+      "route": "/study-in-lithuania",
+      "baseline_sha256": "a6a5332311fb80f7c12f960a5e33779b412ac70c3a19cf98d4ff138b29676c87",
+      "current_sha256": "5bc1a92fb205961c63d6797a661f4fcfc34eb357acabc5fe689a75bd4850735c"
+    },
+    {
+      "route": "/study-in-slovakia",
+      "baseline_sha256": "7f262532079c1a29f901eb7c609da16819ccfb5ce2b94b7efdc9c1a67228d167",
+      "current_sha256": "7688a940537c4226ec962bcda6789660d04820ed69613805ada14b328943a11e"
+    },
+    {
+      "route": "/study-in-uk",
+      "baseline_sha256": "fe4fc5aee86e070e9ada2830f512f5d1cb2db76c14764c0c0cb22afcd7e3e2a1",
+      "current_sha256": "3a4ffe9e37b6af79eeefbdc52f1dedc0f6380dd24f80ff90b382a818f0196ff7"
+    },
+    {
+      "route": "/terms",
+      "baseline_sha256": "27a4029b3fddf83db0bd140920c9eb1310be8d2ca918dbe4b2f593ef088266f7",
+      "current_sha256": "f8bd1f74053e0529640e6c7b2a209c913b69c90c675359ad7f0ccd08bb65ed4a"
+    }
+  ],
+  "unchanged_held_or_utility_count": 5,
+  "all_held_or_utility_byte_identical": true
+}

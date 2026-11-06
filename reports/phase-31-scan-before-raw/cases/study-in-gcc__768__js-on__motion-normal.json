@@ -1,0 +1,326 @@
+{
+  "id": "study-in-gcc__768__js-on__motion-normal",
+  "route": "/study-in-gcc",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-gcc",
+  "http_status": 200,
+  "page_height": 9123,
+  "scroll": {
+    "height": 9123,
+    "scroll_samples": 15,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 9123,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 7742
+    },
+    "visible_text_chars": 9926,
+    "visible_text_nodes": 139,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in GCC countries from India"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 341,
+        "text": "Study in GCC countries from India starts with programme-spec"
+      },
+      {
+        "selector": "p.last-reviewed",
+        "y": 422,
+        "text": "Last reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 422,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 489,
+        "text": "How does the UAE example describe student residence sponsors"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 581,
+        "text": "In the UAE, the student residence visa is typically sponsore"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 734,
+        "text": "Discuss study in GCC countries from India online"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 845,
+        "text": "ILMERA supports students applying to universities in all six"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 973,
+        "text": "Official-source information on this page currently covers th"
+      },
+      {
+        "selector": "p",
+        "y": 1135,
+        "text": "In the UAE, the student residence visa is typically sponsore"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1231,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1385,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1446,
+        "text": "Admissions guidance and student visa processing for GCC dest"
+      },
+      {
+        "selector": "h2",
+        "y": 1547,
+        "text": "English requirements"
+      },
+      {
+        "selector": "li",
+        "y": 1608,
+        "text": "In the UAE, most universities teach in English. The consulat"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1676,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1753,
+        "text": "Costs"
+      },
+      {
+        "selector": "li",
+        "y": 1814,
+        "text": "The consulate advises students going to the UAE to plan for "
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1881,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1925,
+        "text": "The consulate advises paying fees directly to the university"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1964,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 2008,
+        "text": "In Qatar, the Embassy of India in Doha notes that the cost o"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2076,
+        "text": "[2]"
+      },
+      {
+        "selector": "h2",
+        "y": 2153,
+        "text": "Scholarships"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 9123,
+    "scan_width": 512,
+    "scan_height": 6082,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6856,
+        "height": 194,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-gcc__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 6919,
+          "computed": {
+            "min_height": "0px",
+            "height": "6919.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 6782,
+            "text": "Latvia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 7106,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7455,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-gcc__768__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 7304,
+          "element_height": 240,
+          "computed": {
+            "min_height": "0px",
+            "height": "240px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 7351,
+            "text": "Further questions"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7634,
+            "text": "Ask ILMERA about study in GCC countries from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6856,
+        "height": 194,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-gcc__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "div.container",
+          "element_tag": "div",
+          "element_y": 337,
+          "element_height": 6919,
+          "computed": {
+            "min_height": "0px",
+            "height": "6919.09px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 6782,
+            "text": "Latvia"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 7106,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "div.container",
+        "cause": "Low edge-density band; nearest section div.container has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 7455,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-in-gcc__768__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 7304,
+          "element_height": 240,
+          "computed": {
+            "min_height": "0px",
+            "height": "240px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h2",
+            "y": 7351,
+            "text": "Further questions"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 7634,
+            "text": "Ask ILMERA about study in GCC countries from India"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.5
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6c030e63c9bee35398ef15363427f5cbabac8e7fbbb98986b61bf67bef86a496"
+  }
+}

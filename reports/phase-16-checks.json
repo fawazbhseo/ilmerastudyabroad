@@ -1,0 +1,953 @@
+{
+  "checked_on": "2026-10-16",
+  "branch": "arena/48320ee5-ilmerastudyabroad",
+  "application_change_checkpoint": "0aa08b6",
+  "latest_task_verified": 6,
+  "environment": "PHP 8.5 WASM parser and local HTTP adapter; Chromium replay of freshly captured HTML and local images; not native Apache, external assets aborted",
+  "release_pass": false,
+  "staging_readiness": "NOT READY for staging acceptance or production sign-off",
+  "original_targets": {
+    "published": 27,
+    "draft": 2,
+    "total": 29
+  },
+  "including_additional_held_articles": {
+    "published": 27,
+    "draft": 4,
+    "total": 31
+  },
+  "all_indexable_html": 37,
+  "all_draft_editorial": 4,
+  "noindex_utility": 1,
+  "sitemap_urls": [
+    "https://ilmerastudyabroad.com/",
+    "https://ilmerastudyabroad.com/services",
+    "https://ilmerastudyabroad.com/about",
+    "https://ilmerastudyabroad.com/contact",
+    "https://ilmerastudyabroad.com/blog/",
+    "https://ilmerastudyabroad.com/privacy-policy",
+    "https://ilmerastudyabroad.com/terms",
+    "https://ilmerastudyabroad.com/all-pages",
+    "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+    "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+    "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+    "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+    "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+    "https://ilmerastudyabroad.com/study-in-germany",
+    "https://ilmerastudyabroad.com/study-in-italy",
+    "https://ilmerastudyabroad.com/study-in-uk",
+    "https://ilmerastudyabroad.com/study-in-lithuania",
+    "https://ilmerastudyabroad.com/study-in-latvia",
+    "https://ilmerastudyabroad.com/study-in-slovakia",
+    "https://ilmerastudyabroad.com/study-in-gcc",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+  ],
+  "original_citation_urls_opened": 25,
+  "current_distinct_citation_urls": 23,
+  "all_external_citation_http_200_proven": false,
+  "protected_sha256": {
+    "llms.txt": "84899e45cb96691171b78d7933f9be58cbe2e69b18b745f8e4d7a99b6636dc57",
+    "llms-full.txt": "b4c6fa65818b41540b0a5dd82770633bf72f1a1d706fdad7286f75e253f06e68",
+    "sitemap.xml": "4afb97d70cefd1ec41d0e3dadb7146914679e58a3956d150e53824cdc2fc55ae"
+  },
+  "restricted_llm_prohibited_wording_lines": {
+    "llms.txt": [
+      3,
+      28,
+      34,
+      42,
+      44,
+      53,
+      94,
+      97,
+      99,
+      102,
+      137,
+      153,
+      161,
+      162,
+      183,
+      189,
+      192,
+      198
+    ],
+    "llms-full.txt": [
+      56,
+      57,
+      69,
+      76,
+      79,
+      107,
+      108,
+      111,
+      138
+    ]
+  },
+  "tasks": {
+    "1": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/about",
+            "names": [
+              "Tor Vergata"
+            ]
+          },
+          {
+            "route": "/services",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial",
+              "UCL"
+            ]
+          },
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "publication": {
+        "pass": true
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 211.58,
+      "task_commit": "0004749"
+    },
+    "2": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 80.76,
+      "task_commit": "ce7e665"
+    },
+    "3": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "citation-inventory-tests": {
+        "pass": true,
+        "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 78.44,
+      "task_commit": "4ca8a0d"
+    },
+    "4": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "citation-inventory-tests": {
+        "pass": true,
+        "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      },
+      "italy-claim-tests": {
+        "pass": true,
+        "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "italy-exact-claims": {
+        "pass": true,
+        "output": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6} total 19\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 93.04,
+      "task_commit": "0aa08b6"
+    },
+    "5": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "citation-inventory-tests": {
+        "pass": true,
+        "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      },
+      "italy-claim-tests": {
+        "pass": true,
+        "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "italy-exact-claims": {
+        "pass": true,
+        "output": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6} total 19\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 14.147287,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 86.48,
+      "task_commit": "9a4209d"
+    },
+    "6": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "failures": [
+          {
+            "route": "/llms.txt",
+            "names": [
+              "Oxford",
+              "Cambridge",
+              "Imperial College London",
+              "Imperial",
+              "University of Manchester",
+              "UCL"
+            ]
+          }
+        ]
+      },
+      "prohibited wording": {
+        "pass": false,
+        "failures": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ]
+      },
+      "em dashes": {
+        "pass": true,
+        "failures": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "failures": []
+      },
+      "discovery": {
+        "pass": false,
+        "error": "('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})"
+      },
+      "core discovery": {
+        "pass": true,
+        "details": {
+          "sitemap": [
+            "https://ilmerastudyabroad.com/",
+            "https://ilmerastudyabroad.com/services",
+            "https://ilmerastudyabroad.com/about",
+            "https://ilmerastudyabroad.com/contact",
+            "https://ilmerastudyabroad.com/blog/",
+            "https://ilmerastudyabroad.com/privacy-policy",
+            "https://ilmerastudyabroad.com/terms",
+            "https://ilmerastudyabroad.com/all-pages",
+            "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+            "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+            "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+            "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+            "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+            "https://ilmerastudyabroad.com/study-in-germany",
+            "https://ilmerastudyabroad.com/study-in-italy",
+            "https://ilmerastudyabroad.com/study-in-uk",
+            "https://ilmerastudyabroad.com/study-in-lithuania",
+            "https://ilmerastudyabroad.com/study-in-latvia",
+            "https://ilmerastudyabroad.com/study-in-slovakia",
+            "https://ilmerastudyabroad.com/study-in-gcc",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+            "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+            "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+          ],
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true,
+        "output": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.002s\n\nOK\n"
+      },
+      "citation-inventory-tests": {
+        "pass": true,
+        "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      },
+      "italy-claim-tests": {
+        "pass": true,
+        "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.000s\n\nOK\n"
+      },
+      "italy-exact-claims": {
+        "pass": true,
+        "output": "PASS exact owner-sentence occurrences (visible/schema/metadata): {'/about': 1, '/contact': 4, '/': 8, '/services': 6} total 19\n"
+      },
+      "publication": {
+        "pass": false,
+        "output": "Traceback (most recent call last):\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 110, in <module>\n    main()\n  File \"/home/user/ilmerastudyabroad/tools/check_publication_review.py\", line 63, in main\n    result, _ = check(args.base_url, root)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/ilmerastudyabroad/tools/check_discovery.py\", line 213, in check\n    assert not failures, ('Blocked institution names in published content', failures)\nAssertionError: ('Blocked institution names in published content', {'/llms.txt': ['Oxford', 'Cambridge', 'Imperial College London', 'Imperial', 'University of Manchester', 'UCL']})\n"
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true,
+        "output": "PASS 17 unique guides; 136 pairs; maximum shared coverage 3.311 percent\nProse words: 367 to 381\n"
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 14.147287,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true,
+        "output": "PASS 42 pages 375 JS true\nPASS 42 pages 375 JS false\nPASS 42 pages 768 JS true\nPASS 42 pages 768 JS false\nPASS 42 pages 1280 JS true\nPASS 42 pages 1280 JS false\nPASS 252 browser cases\n"
+      },
+      "seconds": 83.14,
+      "task_commit": "documentation/report checkpoint; see git history"
+    }
+  }
+}

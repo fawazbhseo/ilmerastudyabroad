@@ -1,0 +1,298 @@
+{
+  "id": "blog_italy-dsu-scholarship-eligibility__360__js-off__motion-normal",
+  "route": "/blog/italy-dsu-scholarship-eligibility",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/blog/italy-dsu-scholarship-eligibility",
+  "http_status": 200,
+  "page_height": 5052,
+  "scroll": {
+    "height": 5052,
+    "scroll_samples": 9,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 5052,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2918
+    },
+    "visible_text_chars": 1797,
+    "visible_text_nodes": 34,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 197,
+        "text": "Italy"
+      },
+      {
+        "selector": "h1",
+        "y": 239,
+        "text": "Italy Scholarship Planning: Verification Needed"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 484,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 484,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 484,
+        "text": "· Reviewed"
+      },
+      {
+        "selector": "time",
+        "y": 484,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 532,
+        "text": "Do not use this draft to determine DSU eligibility or an app"
+      },
+      {
+        "selector": "div.confirm",
+        "y": 781,
+        "text": "Draft review notice: no current regional award call on an ap"
+      },
+      {
+        "selector": "h2",
+        "y": 1020,
+        "text": "Owner-supplied conditional guidance"
+      },
+      {
+        "selector": "p",
+        "y": 1117,
+        "text": "Tuition can be fully or largely covered at our partner unive"
+      },
+      {
+        "selector": "h2",
+        "y": 1246,
+        "text": "What the opened official background confirms"
+      },
+      {
+        "selector": "p",
+        "y": 1343,
+        "text": "The Italian consulate says institutions set their own admiss"
+      },
+      {
+        "selector": "a",
+        "y": 1495,
+        "text": "[IT]"
+      },
+      {
+        "selector": "h2",
+        "y": 1574,
+        "text": "Planning questions"
+      },
+      {
+        "selector": "p",
+        "y": 1635,
+        "text": "Before a publication decision, obtain the current official a"
+      },
+      {
+        "selector": "#article-sources",
+        "y": 1851,
+        "text": "Official sources"
+      },
+      {
+        "selector": "p",
+        "y": 1912,
+        "text": "Source text reviewed on"
+      },
+      {
+        "selector": "time",
+        "y": 1912,
+        "text": "16 October 2026"
+      },
+      {
+        "selector": "p",
+        "y": 1912,
+        "text": ". Estimates retain their stated scope; historical editions a"
+      },
+      {
+        "selector": "a",
+        "y": 2030,
+        "text": "Italian Consulate Bengaluru: study in Italy"
+      },
+      {
+        "selector": "div.name",
+        "y": 2146,
+        "text": "Fawaz BH"
+      },
+      {
+        "selector": "div.role",
+        "y": 2174,
+        "text": "CMO, ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 2273,
+        "text": "Related guides"
+      },
+      {
+        "selector": "a",
+        "y": 2320,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 5052,
+    "scan_width": 360,
+    "scan_height": 5052,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 349,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_italy-dsu-scholarship-eligibility__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 413,
+          "element_height": 2505,
+          "computed": {
+            "min_height": "0px",
+            "height": "2504.88px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Italy"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 532,
+            "text": "Do not use this draft to determine DSU eligibility or an application amount. Income thresh"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2853,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_italy-dsu-scholarship-eligibility__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2729,
+            "text": "discuss your questions with ILMERA"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 349,
+        "height": 138,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_italy-dsu-scholarship-eligibility__360__js-off__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 413,
+          "element_height": 2505,
+          "computed": {
+            "min_height": "0px",
+            "height": "2504.88px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.article-tag",
+            "y": 197,
+            "text": "Italy"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 532,
+            "text": "Do not use this draft to determine DSU eligibility or an application amount. Income thresh"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2853,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/blog_italy-dsu-scholarship-eligibility__360__js-off__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2729,
+            "text": "discuss your questions with ILMERA"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "795b7599fc6c56eb6d41892fae3a50d25a441d95a4b8a01eee4c8d0209399aaf"
+  }
+}

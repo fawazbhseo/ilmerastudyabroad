@@ -1,0 +1,635 @@
+{
+  "checked_on": "2026-10-16",
+  "branch": "arena/48320ee5-ilmerastudyabroad",
+  "phase_start": "d398a22",
+  "latest_task_verified": 4,
+  "global_acceptance_pass": false,
+  "restriction": "Both public LLM files unchanged from phase start. Existing global name/wording failures remain.",
+  "runtime": "PHP 8.5 WASM parser/HTTP adapter and Chromium replay of fresh captures/local images. External requests aborted; no native Apache or real delivery proof.",
+  "counts": {
+    "published_targets": 27,
+    "draft_targets": 4,
+    "original_targets_published": 27,
+    "original_targets_draft": 2,
+    "indexable_html": 37,
+    "editorial_routes": 41,
+    "utility_noindex": 1,
+    "renders": 42
+  },
+  "gcc_notes": [
+    "ILMERA supports students applying to universities in all six GCC countries: UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.",
+    "Official-source information on this page currently covers the UAE, Qatar, Saudi Arabia, Oman and Bahrain; Oman and Bahrain coverage is limited to student registration. Kuwait information is not yet available here from a verified official source, so students should confirm Kuwait requirements directly with the relevant institution and authority."
+  ],
+  "gcc_business_countries": [
+    "UAE",
+    "Saudi Arabia",
+    "Qatar",
+    "Kuwait",
+    "Oman",
+    "Bahrain"
+  ],
+  "gcc_sourced_countries": [
+    "UAE",
+    "Qatar",
+    "Saudi Arabia",
+    "Oman",
+    "Bahrain"
+  ],
+  "kuwait_facts_added": 0,
+  "owner_blockers_closed": [
+    "Physical presence / counselling model",
+    "GCC support countries"
+  ],
+  "open_source_blocker": "Kuwait current student requirements",
+  "status_flags_unchanged": true,
+  "gcc_protected_fields_unchanged": true,
+  "protected_sha256": {
+    "llms.txt": "84899e45cb96691171b78d7933f9be58cbe2e69b18b745f8e4d7a99b6636dc57",
+    "llms-full.txt": "b4c6fa65818b41540b0a5dd82770633bf72f1a1d706fdad7286f75e253f06e68",
+    "sitemap.xml": "4afb97d70cefd1ec41d0e3dadb7146914679e58a3956d150e53824cdc2fc55ae"
+  },
+  "source_open_evidence": "phase-17-source-opens.json",
+  "task1_line_inventory": "phase-17-task-1-lines.md",
+  "location_authored_words": {
+    "min": 382,
+    "max": 396
+  },
+  "location_authored_overlap": 6.41,
+  "location_rendered_overlap": {
+    "pass": true,
+    "locations": 17,
+    "pairs": 136,
+    "max_shared_percent": 13.476562,
+    "worst_pair": [
+      "/study-abroad-counselling-siddapura",
+      "/study-abroad-counselling-virajpet"
+    ]
+  },
+  "sitemap_urls": [
+    "https://ilmerastudyabroad.com/",
+    "https://ilmerastudyabroad.com/services",
+    "https://ilmerastudyabroad.com/about",
+    "https://ilmerastudyabroad.com/contact",
+    "https://ilmerastudyabroad.com/blog/",
+    "https://ilmerastudyabroad.com/privacy-policy",
+    "https://ilmerastudyabroad.com/terms",
+    "https://ilmerastudyabroad.com/all-pages",
+    "https://ilmerastudyabroad.com/blog/study-abroad-with-academic-backlogs",
+    "https://ilmerastudyabroad.com/blog/study-abroad-counselling-from-coorg",
+    "https://ilmerastudyabroad.com/blog/cost-of-studying-abroad-for-indian-students",
+    "https://ilmerastudyabroad.com/blog/documents-needed-to-study-abroad-from-india",
+    "https://ilmerastudyabroad.com/blog/scholarships-for-indian-students-study-abroad",
+    "https://ilmerastudyabroad.com/study-in-germany",
+    "https://ilmerastudyabroad.com/study-in-italy",
+    "https://ilmerastudyabroad.com/study-in-uk",
+    "https://ilmerastudyabroad.com/study-in-lithuania",
+    "https://ilmerastudyabroad.com/study-in-latvia",
+    "https://ilmerastudyabroad.com/study-in-slovakia",
+    "https://ilmerastudyabroad.com/study-in-gcc",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-belagavi",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-bengaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-chikkamagaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-gonikoppal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-hassan",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-karnataka",
+    "https://ilmerastudyabroad.com/study-abroad-consultants-in-kodagu",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-kushalnagar",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-madikeri",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mangaluru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-mysuru",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-ponnampet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-shivamogga",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-siddapura",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-somwarpet",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-udupi-manipal",
+    "https://ilmerastudyabroad.com/study-abroad-counselling-virajpet"
+  ],
+  "changed_files": [
+    "CHANGELOG.md",
+    "about.php",
+    "blog/study-abroad-counselling-from-coorg.php",
+    "contact.php",
+    "destinations/gcc.php",
+    "flagged-items-for-verification.md",
+    "includes/destination-page.php",
+    "includes/footer.php",
+    "includes/place-page.php",
+    "includes/posts.php",
+    "index.php",
+    "phase14-location-review.json",
+    "phase14-source-review.json",
+    "places/belagavi.php",
+    "places/bengaluru.php",
+    "places/chikkamagaluru.php",
+    "places/gonikoppal.php",
+    "places/hassan.php",
+    "places/karnataka.php",
+    "places/kodagu.php",
+    "places/kushalnagar.php",
+    "places/madikeri.php",
+    "places/mangaluru.php",
+    "places/mysuru.php",
+    "places/ponnampet.php",
+    "places/shivamogga.php",
+    "places/siddapura.php",
+    "places/somwarpet.php",
+    "places/udupi-manipal.php",
+    "places/virajpet.php",
+    "reports/phase-17-checks.json",
+    "reports/phase-17-source-opens.json",
+    "reports/phase-17-task-1-lines.md",
+    "reports/phase-17-verification.md",
+    "services.php",
+    "tools/README.md",
+    "tools/check_discovery.py",
+    "tools/test_presence.py"
+  ],
+  "tasks": {
+    "1": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "prohibited wording": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "em dashes": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "online presence": {
+        "pass": true,
+        "schema_no_storefront": true,
+        "notes": 17,
+        "affected_routes": []
+      },
+      "discovery": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "core discovery": {
+        "pass": true,
+        "counts": {
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true
+      },
+      "online-presence-tests": {
+        "pass": true
+      },
+      "citation-inventory-tests": {
+        "pass": true
+      },
+      "italy-claim-tests": {
+        "pass": true
+      },
+      "italy-exact-claims": {
+        "pass": true
+      },
+      "publication": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "Phase 17 unchanged statuses and GCC protected fields": {
+        "pass": true
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 13.476562,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true
+      },
+      "seconds": 84.97,
+      "task_commit": "31dd953"
+    },
+    "2": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "prohibited wording": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "em dashes": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "online presence": {
+        "pass": true,
+        "schema_no_storefront": true,
+        "notes": 17,
+        "affected_routes": []
+      },
+      "GCC business/source scope and schema parity": {
+        "pass": true,
+        "business_countries": 6,
+        "source_countries": 5,
+        "kuwait_facts_added": 0
+      },
+      "discovery": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "core discovery": {
+        "pass": true,
+        "counts": {
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true
+      },
+      "online-presence-tests": {
+        "pass": true
+      },
+      "citation-inventory-tests": {
+        "pass": true
+      },
+      "italy-claim-tests": {
+        "pass": true
+      },
+      "italy-exact-claims": {
+        "pass": true
+      },
+      "publication": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "Phase 17 unchanged statuses and GCC protected fields": {
+        "pass": true
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 13.476562,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true
+      },
+      "seconds": 85.65,
+      "task_commit": "c5a8a5b"
+    },
+    "3": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "prohibited wording": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "em dashes": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "online presence": {
+        "pass": true,
+        "schema_no_storefront": true,
+        "notes": 17,
+        "affected_routes": []
+      },
+      "GCC business/source scope and schema parity": {
+        "pass": true,
+        "business_countries": 6,
+        "source_countries": 5,
+        "kuwait_facts_added": 0
+      },
+      "discovery": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "core discovery": {
+        "pass": true,
+        "counts": {
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true
+      },
+      "online-presence-tests": {
+        "pass": true
+      },
+      "citation-inventory-tests": {
+        "pass": true
+      },
+      "italy-claim-tests": {
+        "pass": true
+      },
+      "italy-exact-claims": {
+        "pass": true
+      },
+      "publication": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "Phase 17 unchanged statuses and GCC protected fields": {
+        "pass": true
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 13.476562,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true
+      },
+      "seconds": 85.71,
+      "task_commit": "1731585"
+    },
+    "4": {
+      "PHP lints": {
+        "pass": true,
+        "count": 83
+      },
+      "renders and schema": {
+        "pass": true,
+        "count": 42,
+        "self_canonicals": 41,
+        "faq_parity": true,
+        "draft_count": 4
+      },
+      "university names": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "prohibited wording": {
+        "pass": false,
+        "affected_routes": [
+          "/llms.txt",
+          "/llms-full.txt"
+        ],
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "em dashes": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "schema draft links": {
+        "pass": true,
+        "affected_routes": []
+      },
+      "online presence": {
+        "pass": true,
+        "schema_no_storefront": true,
+        "notes": 17,
+        "affected_routes": []
+      },
+      "GCC business/source scope and schema parity": {
+        "pass": true,
+        "business_countries": 6,
+        "source_countries": 5,
+        "kuwait_facts_added": 0
+      },
+      "discovery": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "core discovery": {
+        "pass": true,
+        "counts": {
+          "indexable": 37,
+          "blocked": 5,
+          "routes": 42
+        }
+      },
+      "name-guard-tests": {
+        "pass": true
+      },
+      "online-presence-tests": {
+        "pass": true
+      },
+      "citation-inventory-tests": {
+        "pass": true
+      },
+      "italy-claim-tests": {
+        "pass": true
+      },
+      "italy-exact-claims": {
+        "pass": true
+      },
+      "publication": {
+        "pass": false,
+        "reason": "Restricted pre-existing LLM content; no waiver or file edit."
+      },
+      "check_destination_sources.php": {
+        "pass": true
+      },
+      "check_place_publication.php": {
+        "pass": true
+      },
+      "check_place_contact.php": {
+        "pass": true
+      },
+      "data-export": {
+        "pass": true
+      },
+      "location-content": {
+        "pass": true
+      },
+      "stored source records and sitemap parity": {
+        "pass": true,
+        "external_http_verified": false
+      },
+      "destination summary provenance and status preservation": {
+        "pass": true,
+        "destinations": 9
+      },
+      "Phase 17 unchanged statuses and GCC protected fields": {
+        "pass": true
+      },
+      "fresh rendered location overlap": {
+        "pass": true,
+        "locations": 17,
+        "pairs": 136,
+        "max_shared_percent": 13.476562,
+        "worst_pair": [
+          "/study-abroad-counselling-siddapura",
+          "/study-abroad-counselling-virajpet"
+        ]
+      },
+      "line endings and LLM permission": {
+        "pass": true
+      },
+      "browser": {
+        "pass": true
+      },
+      "seconds": 85.63,
+      "task_commit": "Final audit commit; see branch history"
+    }
+  }
+}

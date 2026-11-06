@@ -1,0 +1,393 @@
+{
+  "status": "PASS_BASELINE_RELATIVE",
+  "axe_core": "4.11.0",
+  "run_only": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa"
+  ],
+  "representative_routes": [
+    "/",
+    "/services",
+    "/about",
+    "/contact",
+    "/study-in-germany",
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "/blog/"
+  ],
+  "width": 1280,
+  "javascript": true,
+  "reduced_motion": true,
+  "settle_ms": 3000,
+  "cases": [
+    {
+      "route": "/",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 8,
+      "violations": [
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#coorg-kodagu > .container > div:nth-child(1) > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">Serving Students Across Karnataka</span>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "div:nth-child(2) > p:nth-child(3)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8a98b8, background color: #e9edf8, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<p style=\"font-size:13px;font-weight:300;color:var(--grey-mid);line-height:1.7;margin-top:14px;\">ILMERA operates online only, by phone, WhatsApp and video call, with no counselling premises. Your own visa appointment may take place at the relevant consulate or VFS centre.</p>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".why-sec:nth-child(6) > .container > .why-hdr > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">Why Choose Us</span>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".s-wrap:nth-child(8) > .container > div:nth-child(1) > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">We Have A Path For Everyone</span>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#faq > .container > .why-hdr > .sec-label",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.95 (foreground color: #c9a84c, background color: #e9edf8, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"sec-label\">Answers For Indian Students</span>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(1)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p > a:nth-child(2)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+        },
+        {
+          "route": "/",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p > a:nth-child(3)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+        }
+      ]
+    },
+    {
+      "route": "/services",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 21,
+      "violations": [
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#germany > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" aria-hidden=\"true\">01</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#italy > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">02</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#uk > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" aria-hidden=\"true\">03</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#czech-republic > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">04</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#lithuania > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" aria-hidden=\"true\">05</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#latvia > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">06</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#slovakia > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.07 (foreground color: #121113, background color: #04060f, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" aria-hidden=\"true\">07</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#russia > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #17202b, background color: #0a1628, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" aria-hidden=\"true\">08</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "#gcc > .svc-num[aria-hidden=\"true\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 1.15 (foreground color: #d9dee9, background color: #e9edf8, font size: 72.0pt (96px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<span class=\"svc-num\" style=\"color:var(--deep-navy);\" aria-hidden=\"true\">09</span>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a[href$=\"study-in-germany\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/study-in-germany\">Germany</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a[href$=\"study-in-italy\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/study-in-italy\">Italy</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a[href$=\"study-in-uk\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/study-in-uk\">UK</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a[href$=\"study-in-lithuania\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/study-in-lithuania\">Lithuania</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a[href$=\"study-in-gcc\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/study-in-gcc\">GCC</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a:nth-child(6)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/blog/documents-needed-to-study-abroad-from-india\">documents</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a:nth-child(7)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/blog/scholarships-for-indian-students-study-abroad\">scholarships</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "p:nth-child(5) > a:nth-child(8)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/blog/cost-of-studying-abroad-for-indian-students\">budget planning</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(1)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(2)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(3)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+        },
+        {
+          "route": "/services",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": "a[href$=\"about#team\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 5,
+      "violations": [
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".container:nth-child(8) > p > a[href$=\"services\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/services\">study abroad services</a>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(1)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.daad.de/en/studying-in-germany/living-in-germany/finances/\">DAAD tuition and living costs</a>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(2)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.minedu.sk/skolne-na-vysokych-skolach-v-sr/\">Slovak Ministry tuition rules</a>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".source-review > p > a:nth-child(3)",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://www.universitaly.it/it/studenti-stranieri\">Universitaly international student procedures</a>"
+        },
+        {
+          "route": "/about",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".team-disclosure > a[href$=\"about#team\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+        }
+      ]
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 2,
+      "violations": [
+        {
+          "route": "/contact",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".container > p > a[href$=\"services\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/services\">study abroad services</a>"
+        },
+        {
+          "route": "/contact",
+          "id": "color-contrast",
+          "impact": "serious",
+          "target": ".team-disclosure > a[href$=\"about#team\"]",
+          "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.15 (foreground color: #0000ee, background color: #04060f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"/about#team\">Meet the ILMERA team</a>"
+        }
+      ]
+    },
+    {
+      "route": "/study-in-germany",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 0,
+      "violations": []
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 0,
+      "violations": []
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 0,
+      "violations": []
+    },
+    {
+      "route": "/blog/",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "axe": "4.11.0",
+      "violation_count": 0,
+      "violations": []
+    }
+  ],
+  "delta": null,
+  "delta_failures": [],
+  "interpretation": "Existing immutable-reference findings remain recorded. PASS_BASELINE_RELATIVE means only that no new stable node/rule identities were added versus Task1; it does not mean zero violations or a full-site accessibility certification."
+}

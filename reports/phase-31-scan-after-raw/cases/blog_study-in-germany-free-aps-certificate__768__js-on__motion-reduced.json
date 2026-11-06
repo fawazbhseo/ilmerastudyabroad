@@ -1,0 +1,303 @@
+{
+  "id": "blog_study-in-germany-free-aps-certificate__768__js-on__motion-reduced",
+  "route": "/blog/study-in-germany-free-aps-certificate",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/blog/study-in-germany-free-aps-certificate",
+  "http_status": 200,
+  "page_height": 3985,
+  "scroll": {
+    "height": 3985,
+    "scroll_samples": 7,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 3985,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 2604
+    },
+    "visible_text_chars": 2482,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 1,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 174,
+        "text": "Germany"
+      },
+      {
+        "selector": "h1",
+        "y": 215,
+        "text": "Germany Tuition and APS: Check the Applicable Route"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 421,
+        "text": "By"
+      },
+      {
+        "selector": "span.name",
+        "y": 421,
+        "text": "Fawaz BH, CMO"
+      },
+      {
+        "selector": "p.article-byline",
+        "y": 421,
+        "text": "· August 13, 2025 · Reviewed October 2026 · 5 min read"
+      },
+      {
+        "selector": "p",
+        "y": 470,
+        "text": "At German public institutions, bachelor programmes and most "
+      },
+      {
+        "selector": "h2",
+        "y": 599,
+        "text": "Separate tuition from the rest of the budget"
+      },
+      {
+        "selector": "p",
+        "y": 660,
+        "text": "DAAD lists a semester contribution of 70 to 430 euros. This "
+      },
+      {
+        "selector": "h2",
+        "y": 790,
+        "text": "Check the APS procedure, not a universal promise"
+      },
+      {
+        "selector": "p",
+        "y": 851,
+        "text": "The APS India website identifies itself as the Academic Eval"
+      },
+      {
+        "selector": "h2",
+        "y": 1038,
+        "text": "Prepare the applicable documents"
+      },
+      {
+        "selector": "p",
+        "y": 1099,
+        "text": "APS describes identifying the applicable procedure, reviewin"
+      },
+      {
+        "selector": "h2",
+        "y": 1286,
+        "text": "Sources and review status"
+      },
+      {
+        "selector": "p",
+        "y": 1347,
+        "text": "Opened and checked on 16 October 2026. This article remains "
+      },
+      {
+        "selector": "a",
+        "y": 1465,
+        "text": "DAAD: tuition, semester contributions and living costs"
+      },
+      {
+        "selector": "a",
+        "y": 1519,
+        "text": "DAAD: study visas and usually required documents"
+      },
+      {
+        "selector": "a",
+        "y": 1573,
+        "text": "APS India: procedure and applicability"
+      },
+      {
+        "selector": "div.name",
+        "y": 1689,
+        "text": "Fawaz BH"
+      },
+      {
+        "selector": "div.role",
+        "y": 1717,
+        "text": "CMO, ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 1816,
+        "text": "Related guides"
+      },
+      {
+        "selector": "a",
+        "y": 1871,
+        "text": "Studying Abroad with Academic Backlogs: What Is Actually Pos"
+      },
+      {
+        "selector": "a",
+        "y": 1925,
+        "text": "Online Study Abroad Counselling for Coorg Students: How the "
+      },
+      {
+        "selector": "a",
+        "y": 1979,
+        "text": "How to choose a study abroad consultant in Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2047,
+        "text": "Study in Germany"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 3985,
+    "scan_width": 512,
+    "scan_height": 2657,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2170,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_study-in-germany-free-aps-certificate__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 2235,
+          "element_height": 369,
+          "computed": {
+            "min_height": "0px",
+            "height": "369.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2047,
+            "text": "Study in Germany"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2393,
+            "text": "Arrange a consultation and we will walk you through your APS timeline and university short"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2524,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_study-in-germany-free-aps-certificate__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 2489,
+            "text": "Arrange a Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2170,
+        "height": 161,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_study-in-germany-free-aps-certificate__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.article-cta",
+          "element_tag": "section",
+          "element_y": 2235,
+          "element_height": 369,
+          "computed": {
+            "min_height": "0px",
+            "height": "369.094px",
+            "padding_top": "80px",
+            "padding_bottom": "80px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 2047,
+            "text": "Study in Germany"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 2393,
+            "text": "Arrange a consultation and we will walk you through your APS timeline and university short"
+          }
+        },
+        "selector": "section.article-cta",
+        "cause": "Low edge-density band; nearest section section.article-cta has 80px top and 80px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2524,
+        "height": 163,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/blog_study-in-germany-free-aps-certificate__768__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 2489,
+            "text": "Arrange a Consultation"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998118178396689
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "892d1c4c98126c1a55d049cfbe4c13a6c4a21084c3f11e88f1314e541aea1eb8"
+  }
+}

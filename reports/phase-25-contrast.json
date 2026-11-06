@@ -1,0 +1,64 @@
+{
+  "minimum_required": 4.5,
+  "all_states": "Explicit default/hover/focus/visited inheritance use these pairs; native link focus tested in Chromium. Whole-page axe separately recorded.",
+  "roles": [
+    {
+      "role": "body, captions, FAQ answers, category text",
+      "foreground": "#4A5568",
+      "background": "#F0F4FF",
+      "contrast": 6.841
+    },
+    {
+      "role": "card prose",
+      "foreground": "#4A5568",
+      "background": "#FFFFFF",
+      "contrast": 7.526
+    },
+    {
+      "role": "links/headings/focus on light",
+      "foreground": "#1A2E5A",
+      "background": "#F0F4FF",
+      "contrast": 12.064
+    },
+    {
+      "role": "hover/focus light button",
+      "foreground": "#FFFFFF",
+      "background": "#1A2E5A",
+      "contrast": 13.271
+    },
+    {
+      "role": "primary text/outline hover",
+      "foreground": "#04060f",
+      "background": "#C9A84C",
+      "contrast": 8.852
+    },
+    {
+      "role": "dark prose/navigation",
+      "foreground": "#C8D3E8",
+      "background": "#04060f",
+      "contrast": 13.427
+    },
+    {
+      "role": "footer muted text",
+      "foreground": "#8A98B8",
+      "background": "#04060f",
+      "contrast": 6.997
+    },
+    {
+      "role": "dark focus/gold secondary text",
+      "foreground": "#C9A84C",
+      "background": "#04060f",
+      "contrast": 8.852
+    },
+    {
+      "role": "hero gold label, worst possible WHITE scene pixel at opacity .15 over lightest hero stop (navy)",
+      "foreground": "#C9A84C",
+      "background_rgb": [
+        0.18333333333333332,
+        0.22333333333333333,
+        0.2833333333333333
+      ],
+      "contrast": 5.11
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "baseline": "164d6de41159385e151ecefec54763eab59141a5",
+  "tasks": {
+    "cycle2-recovery": {
+      "task": "cycle2-recovery",
+      "resumed_at": "check_phase20.py",
+      "checked_on": "2026-10-23",
+      "parent": "4dc8ab32945d57ac88c428eacefa5b6749abdc87",
+      "seconds": 458.69,
+      "environment": "PHP 8.5 WASM adapter/CLI and Chromium; external browser requests aborted",
+      "live_deployment": false,
+      "native_apache": false,
+      "external_raw_http": false,
+      "contact_delivery": false,
+      "checks": {
+        "PHP syntax": {
+          "status": "PASS",
+          "files": 97,
+          "runtime": "PHP 8.5 WASM CLI"
+        },
+        "check_phase20.py": {
+          "status": "PASS",
+          "seconds": 5.84,
+          "output_tail": "PASS {\"published_pages\": 38, \"unique_primaries\": 38, \"changed_primaries\": 0, \"document_fragments\": 17, \"prompts\": 50, \"prompt_statuses\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"protected_files\": 33, \"destination_and_location_data_unchanged\": true}\n"
+        },
+        "check_phase25.py": {
+          "status": "PASS",
+          "seconds": 3.47,
+          "output_tail": "PASS43 exact semantic/source/palette invariants; shared routes 39\nChrome structural differences: [('/404', {'header': True, 'footer': False})]\n"
+        },
+        "render schema and strict policy": {
+          "status": "PASS",
+          "routes": 43,
+          "faq_pairs": 213,
+          "faq_exact_visible_schema_parity": true
+        },
+        "independent cycle consistency": {
+          "status": "PASS",
+          "seconds": 0.8,
+          "output_tail": "PASS {\"published_captures\": 38, \"recursive_schema_policy\": \"PASS\", \"names_wording_punctuation\": \"PASS\", \"prompt_status_reasons\": \"PASS\", \"canonical_entity_llm_parity\": \"PASS\", \"strategy_prompt_inventory\": {\"partly answered\": 15, \"gap\": 29, \"answered\": 6}, \"external_http_status_verified\": false, \"live_rankings_verified\": false}\n"
+        },
+        "browser": {
+          "status": "PASS",
+          "seconds": 381.66,
+          "output_tail": "s\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-shivamogga\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-siddapura\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-somwarpet\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-udupi-manipal\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-abroad-counselling-virajpet\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-czech-republic\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-gcc\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-germany\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-italy\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-latvia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-lithuania\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-russia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-slovakia\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/study-in-uk\",\"js\":true,\"width\":1280}\nPASS case {\"route\":\"/terms\",\"js\":true,\"width\":1280}\n{\"status\":\"PASS\",\"cases\":258,\"faq_expansions\":1278,\"team_photo_checks\":36,\"fawaz_derivative_load_checks\":54,\"viewports\":[360,768,1280],\"javascript\":[false,true],\"external_requests\":\"aborted; no live font/performance/delivery assertion\",\"finite_transitions\":\"finished programmatically before final geometry checks; all interactions/assertions retained\"}\n"
+        },
+        "explicit all-state reference-palette contrast": {
+          "status": "PASS",
+          "seconds": 0.03,
+          "output_tail": "PASS contrast >=4.5 5.11\n"
+        },
+        "all-template accessibility executed in cycle2 repair": {
+          "status": "PASS rebuilt; reference defects retained",
+          "cases": 66,
+          "reference_violations": 24,
+          "reference_overflow": [
+            {
+              "route": "/",
+              "js": true,
+              "width": 360,
+              "scroll": 400,
+              "rebuilt": false
+            },
+            {
+              "route": "/about",
+              "js": true,
+              "width": 360,
+              "scroll": 393,
+              "rebuilt": false
+            },
+            {
+              "route": "/contact",
+              "js": true,
+              "width": 360,
+              "scroll": 396,
+              "rebuilt": false
+            },
+            {
+              "route": "/",
+              "js": true,
+              "width": 768,
+              "scroll": 808,
+              "rebuilt": false
+            },
+            {
+              "route": "/about",
+              "js": true,
+              "width": 768,
+              "scroll": 801,
+              "rebuilt": false
+            }
+          ],
+          "note": "No repeated immutable-reference axe run to hide or retry known failures."
+        },
+        "rendered location overlap": {
+          "status": "PASS",
+          "pairs": 136,
+          "maximum_percent": 13.37386018237082
+        },
+        "whitespace": {
+          "status": "PASS",
+          "seconds": 0.01,
+          "output_tail": ""
+        }
+      }
+    }
+  }
+}

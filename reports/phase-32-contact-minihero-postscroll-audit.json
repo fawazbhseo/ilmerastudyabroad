@@ -1,0 +1,1665 @@
+{
+  "phase": 32,
+  "task": "contact_miniHero_post_scroll_tail_inspection",
+  "generated_at": "2026-10-31T08:04:06.325Z",
+  "source_head": "c791492dfb1d398fddb1cbc642e5da5ee69f45f0",
+  "base_url": "http://127.0.0.1:8084",
+  "browser": "143.0.7499.0",
+  "route": "/contact",
+  "widths": [
+    360,
+    768,
+    1280
+  ],
+  "javascript": [
+    "on",
+    "off"
+  ],
+  "motion": [
+    "normal",
+    "reduced"
+  ],
+  "case_count": 12,
+  "complete": true,
+  "method": "Pinned local Chromium/Playwright. Mirrors Phase31 slow wheel scroll, 3-second settle, return to top and fallback; measures only #miniHero and its cue. No sharp or pixel analysis.",
+  "rows": [
+    {
+      "route": "/contact",
+      "width": 360,
+      "javascript": "on",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 8914,
+        "viewport_height": 900,
+        "scroll_samples": 15,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 141.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 274.02,
+            "bottom": 361.05,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 381.08,
+            "bottom": 458.67,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 486.47,
+            "bottom": 607.47,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 607.47,
+        "any_visible_text_bottom": 607.47,
+        "tail_after_flow_text": 184.53,
+        "tail_after_visible_text": 184.53,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "javascript": "on",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 8914,
+        "viewport_height": 900,
+        "scroll_samples": 15,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 141.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 274.02,
+            "bottom": 361.05,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 381.08,
+            "bottom": 458.67,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 486.47,
+            "bottom": 607.47,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 607.47,
+        "any_visible_text_bottom": 607.47,
+        "tail_after_flow_text": 184.53,
+        "tail_after_visible_text": 184.53,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "javascript": "off",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 11583,
+        "viewport_height": 900,
+        "scroll_samples": 19,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 141.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 274.02,
+            "bottom": 361.05,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 381.08,
+            "bottom": 458.67,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 486.47,
+            "bottom": 607.47,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 607.47,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 184.53,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 360,
+      "javascript": "off",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 11583,
+        "viewport_height": 900,
+        "scroll_samples": 19,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 141.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 241.02,
+            "bottom": 257.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 274.02,
+            "bottom": 361.05,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 381.08,
+            "bottom": 458.67,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 486.47,
+            "bottom": 607.47,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 607.47,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 184.53,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "javascript": "on",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 6904,
+        "viewport_height": 900,
+        "scroll_samples": 12,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 345.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 334.44,
+            "bottom": 380.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 400.47,
+            "bottom": 449.27,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 477.06,
+            "bottom": 547.06,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 547.06,
+        "any_visible_text_bottom": 547.06,
+        "tail_after_flow_text": 244.94,
+        "tail_after_visible_text": 244.94,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "javascript": "on",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 6904,
+        "viewport_height": 900,
+        "scroll_samples": 12,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 345.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 334.44,
+            "bottom": 380.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 400.47,
+            "bottom": 449.27,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 477.06,
+            "bottom": 547.06,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 547.06,
+        "any_visible_text_bottom": 547.06,
+        "tail_after_flow_text": 244.94,
+        "tail_after_visible_text": 244.94,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "javascript": "off",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 8209,
+        "viewport_height": 900,
+        "scroll_samples": 14,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 345.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 334.44,
+            "bottom": 380.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 400.47,
+            "bottom": 449.27,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 477.06,
+            "bottom": 547.06,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 547.06,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 244.94,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 768,
+      "javascript": "off",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 8209,
+        "viewport_height": 900,
+        "scroll_samples": 14,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 345.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 301.44,
+            "bottom": 317.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 334.44,
+            "bottom": 380.44,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 400.47,
+            "bottom": 449.27,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 477.06,
+            "bottom": 547.06,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 547.06,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 244.94,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 6036,
+        "viewport_height": 900,
+        "scroll_samples": 10,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 601.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 238.75,
+            "bottom": 390.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 408.28,
+            "bottom": 457.08,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 484.88,
+            "bottom": 599.66,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Call",
+            "selector": "span.hud-info-lbl",
+            "top": 121.88,
+            "bottom": 132.88,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "+91 90195 57427",
+            "selector": "span.hud-info-val",
+            "top": 135.88,
+            "bottom": 151.88,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Email",
+            "selector": "span.hud-info-lbl",
+            "top": 280.27,
+            "bottom": 291.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "info@ilmerastudyabroad.com",
+            "selector": "span.hud-info-val",
+            "top": 294.27,
+            "bottom": 310.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Hours",
+            "selector": "span.hud-info-lbl",
+            "top": 438.67,
+            "bottom": 449.67,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Mon–Sat, 9AM–6PM IST",
+            "selector": "span.hud-info-val",
+            "top": 452.67,
+            "bottom": 468.67,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇩🇪 Germany: tuition conditions",
+            "selector": "div.hud-tag",
+            "top": 102.03,
+            "bottom": 117.03,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇮🇹 Italy: conditional scholarships",
+            "selector": "div.hud-tag",
+            "top": 197.08,
+            "bottom": 212.08,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇬🇧 United Kingdom",
+            "selector": "div.hud-tag",
+            "top": 292.11,
+            "bottom": 307.11,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇨🇿 Czech Republic",
+            "selector": "div.hud-tag",
+            "top": 387.16,
+            "bottom": 402.16,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇱🇹 Lithuania",
+            "selector": "div.hud-tag",
+            "top": 482.19,
+            "bottom": 497.19,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇱🇻 Latvia",
+            "selector": "div.hud-tag",
+            "top": 577.23,
+            "bottom": 592.23,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇸🇰 Slovakia",
+            "selector": "div.hud-tag",
+            "top": 672.27,
+            "bottom": 687.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇷🇺 Russia: Backlogs OK",
+            "selector": "div.hud-tag",
+            "top": 593.08,
+            "bottom": 608.08,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          }
+        ],
+        "flow_text_bottom": 599.66,
+        "any_visible_text_bottom": 687.27,
+        "tail_after_flow_text": 192.34,
+        "tail_after_visible_text": 104.73,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "javascript": "on",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 6036,
+        "viewport_height": 900,
+        "scroll_samples": 10,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 601.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "0",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": false
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 238.75,
+            "bottom": 390.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 408.28,
+            "bottom": 457.08,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 484.88,
+            "bottom": 599.66,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Call",
+            "selector": "span.hud-info-lbl",
+            "top": 121.88,
+            "bottom": 132.88,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "+91 90195 57427",
+            "selector": "span.hud-info-val",
+            "top": 135.88,
+            "bottom": 151.88,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Email",
+            "selector": "span.hud-info-lbl",
+            "top": 280.27,
+            "bottom": 291.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "info@ilmerastudyabroad.com",
+            "selector": "span.hud-info-val",
+            "top": 294.27,
+            "bottom": 310.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Hours",
+            "selector": "span.hud-info-lbl",
+            "top": 438.67,
+            "bottom": 449.67,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "Mon–Sat, 9AM–6PM IST",
+            "selector": "span.hud-info-val",
+            "top": 452.67,
+            "bottom": 468.67,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇩🇪 Germany: tuition conditions",
+            "selector": "div.hud-tag",
+            "top": 102.03,
+            "bottom": 117.03,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇮🇹 Italy: conditional scholarships",
+            "selector": "div.hud-tag",
+            "top": 197.08,
+            "bottom": 212.08,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇬🇧 United Kingdom",
+            "selector": "div.hud-tag",
+            "top": 292.11,
+            "bottom": 307.11,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇨🇿 Czech Republic",
+            "selector": "div.hud-tag",
+            "top": 387.16,
+            "bottom": 402.16,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇱🇹 Lithuania",
+            "selector": "div.hud-tag",
+            "top": 482.19,
+            "bottom": 497.19,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇱🇻 Latvia",
+            "selector": "div.hud-tag",
+            "top": 577.23,
+            "bottom": 592.23,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇸🇰 Slovakia",
+            "selector": "div.hud-tag",
+            "top": 672.27,
+            "bottom": 687.27,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          },
+          {
+            "text": "🇷🇺 Russia: Backlogs OK",
+            "selector": "div.hud-tag",
+            "top": 593.08,
+            "bottom": 608.08,
+            "absolute": true,
+            "inside_scroll_cue": false,
+            "inside_hud": true
+          }
+        ],
+        "flow_text_bottom": 599.66,
+        "any_visible_text_bottom": 687.27,
+        "tail_after_flow_text": 192.34,
+        "tail_after_visible_text": 104.73,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "javascript": "off",
+      "motion": "normal",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 7284,
+        "viewport_height": 900,
+        "scroll_samples": 12,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 601.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 238.75,
+            "bottom": 390.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 408.28,
+            "bottom": 457.08,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 484.88,
+            "bottom": 599.66,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 599.66,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 192.34,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    },
+    {
+      "route": "/contact",
+      "width": 1280,
+      "javascript": "off",
+      "motion": "reduced",
+      "http_status": 200,
+      "scrolling": {
+        "document_height": 7288,
+        "viewport_height": 900,
+        "scroll_samples": 12,
+        "settle_ms": 3000,
+        "returned_to_top": true,
+        "final_scroll_y": 0
+      },
+      "metrics": {
+        "hero": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 792,
+          "bottom": 792
+        },
+        "hero_style": {
+          "min_height": "792px",
+          "height": "792px",
+          "display": "flex",
+          "position": "relative",
+          "padding_top": "0px",
+          "padding_bottom": "0px"
+        },
+        "scroll_cue": {
+          "rect": {
+            "x": 601.02,
+            "y": 723,
+            "width": 77.95,
+            "height": 39,
+            "bottom": 762
+          },
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": "1",
+          "position": "absolute",
+          "bottom": "30px",
+          "text": "REACH OUT",
+          "aria_hidden": null,
+          "text_visible": true
+        },
+        "visible_text": [
+          {
+            "text": "Home",
+            "selector": "a",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "/",
+            "selector": "nav.breadcrumb",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact",
+            "selector": "span",
+            "top": 207.75,
+            "bottom": 223.75,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad",
+            "selector": "#heroH1",
+            "top": 238.75,
+            "bottom": 390.02,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Contact ILMERA Study Abroad: Use the existing phone, WhatsApp and video-call channels to discuss your plans online.",
+            "selector": "p.seo-opening",
+            "top": 408.28,
+            "bottom": 457.08,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "online consultation for Germany, Italy, UK, Czech Republic, Lithuania, Latvia, Slovakia, Russia & GCC, no commitment. Low marks, backlogs or",
+            "selector": "#heroSub",
+            "top": 484.88,
+            "bottom": 599.66,
+            "absolute": false,
+            "inside_scroll_cue": false,
+            "inside_hud": false
+          },
+          {
+            "text": "Reach Out",
+            "selector": "span",
+            "top": 723,
+            "bottom": 736,
+            "absolute": true,
+            "inside_scroll_cue": true,
+            "inside_hud": false
+          }
+        ],
+        "flow_text_bottom": 599.66,
+        "any_visible_text_bottom": 736,
+        "tail_after_flow_text": 192.34,
+        "tail_after_visible_text": 56,
+        "cue_bottom_gap": 30,
+        "scroll_y": 0
+      }
+    }
+  ]
+}

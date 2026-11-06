@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-consultants-in-karnataka__1280__js-on__motion-normal",
+  "route": "/study-abroad-consultants-in-karnataka",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-consultants-in-karnataka",
+  "http_status": 200,
+  "page_height": 5557,
+  "scroll": {
+    "height": 5557,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 5557,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 4421
+    },
+    "visible_text_chars": 6149,
+    "visible_text_nodes": 47,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultants in Karnataka"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultants in Karnataka: decide what the compa"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What makes a Karnataka student's shortlist defensible?"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 608,
+        "text": "Students across Karnataka can approach course selection as a"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 761,
+        "text": "Discuss how to decide what the comparison must answer online"
+      },
+      {
+        "selector": "h2",
+        "y": 844,
+        "text": "Decide what the comparison must answer"
+      },
+      {
+        "selector": "p",
+        "y": 912,
+        "text": "Write a short description of the study outcome you want befo"
+      },
+      {
+        "selector": "h2",
+        "y": 1157,
+        "text": "Give unanswered questions their own place"
+      },
+      {
+        "selector": "p",
+        "y": 1224,
+        "text": "For each option, separate a published fact from an inference"
+      },
+      {
+        "selector": "h2",
+        "y": 1470,
+        "text": "Reduce the list by reasons, not momentum"
+      },
+      {
+        "selector": "p",
+        "y": 1537,
+        "text": "Review the longlist against the essential criteria first. Re"
+      },
+      {
+        "selector": "p",
+        "y": 1792,
+        "text": "Counselling is online, and students from Karnataka do not ne"
+      },
+      {
+        "selector": "h2",
+        "y": 1864,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1958,
+        "text": "What makes a Karnataka student's shortlist defensible?"
+      },
+      {
+        "selector": "p",
+        "y": 2013,
+        "text": "Each retained option has a documented academic reason, an af"
+      },
+      {
+        "selector": "summary",
+        "y": 2054,
+        "text": "Should unanswered eligibility questions count as a positive "
+      },
+      {
+        "selector": "p",
+        "y": 2109,
+        "text": "No. Keep the option provisional until the responsible admiss"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2231,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2298,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2358,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2468,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2542,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2596,
+        "text": "Belagavi"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 5557,
+    "scan_width": 512,
+    "scan_height": 2223,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4997750787224473
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "73056bbc8676e5cff882d32ccfe0dbe7147a7cc53c34c6f7ade85cb86f91999f"
+  }
+}

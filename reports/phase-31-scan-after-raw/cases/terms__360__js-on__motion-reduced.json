@@ -1,0 +1,295 @@
+{
+  "id": "terms__360__js-on__motion-reduced",
+  "route": "/terms",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/terms",
+  "http_status": 200,
+  "page_height": 8242,
+  "scroll": {
+    "height": 8242,
+    "scroll_samples": 14,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 8242,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 6107
+    },
+    "visible_text_chars": 6223,
+    "visible_text_nodes": 40,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "ILMERA terms of use"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 327,
+        "text": "ILMERA terms of use: Read the scope of website use and couns"
+      },
+      {
+        "selector": "p.sub",
+        "y": 431,
+        "text": "The terms that govern your use of the ILMERA Study Abroad we"
+      },
+      {
+        "selector": "span.legal-updated",
+        "y": 517,
+        "text": "Last Updated: August 2026"
+      },
+      {
+        "selector": "h2",
+        "y": 574,
+        "text": "1. Acceptance of Terms"
+      },
+      {
+        "selector": "p",
+        "y": 630,
+        "text": "These Terms of Use (\"Terms\") govern your access to and use o"
+      },
+      {
+        "selector": "h2",
+        "y": 982,
+        "text": "2. About Our Services"
+      },
+      {
+        "selector": "p",
+        "y": 1038,
+        "text": "ILMERA Study Abroad provides online academic review, admissi"
+      },
+      {
+        "selector": "h2",
+        "y": 1707,
+        "text": "3. Nature of Guidance Provided"
+      },
+      {
+        "selector": "p",
+        "y": 1802,
+        "text": "ILMERA acts as a consultant and facilitator. We provide guid"
+      },
+      {
+        "selector": "p",
+        "y": 2161,
+        "text": "We do not guarantee admission to any specific university, th"
+      },
+      {
+        "selector": "h2",
+        "y": 2456,
+        "text": "4. Your Responsibilities"
+      },
+      {
+        "selector": "p",
+        "y": 2512,
+        "text": "When engaging our services, you agree to:"
+      },
+      {
+        "selector": "li",
+        "y": 2554,
+        "text": "Provide accurate, complete, and truthful information about y"
+      },
+      {
+        "selector": "li",
+        "y": 2649,
+        "text": "Promptly inform us of any changes to your circumstances that"
+      },
+      {
+        "selector": "li",
+        "y": 2743,
+        "text": "Provide genuine documents and certificates, and understand t"
+      },
+      {
+        "selector": "li",
+        "y": 2924,
+        "text": "Meet application deadlines and respond to requests for docum"
+      },
+      {
+        "selector": "h2",
+        "y": 3103,
+        "text": "5. Fees and Payments"
+      },
+      {
+        "selector": "p",
+        "y": 3159,
+        "text": "ILMERA charges the student a service charge between ₹3 lakh "
+      },
+      {
+        "selector": "h2",
+        "y": 3683,
+        "text": "6. Third-Party Institutions"
+      },
+      {
+        "selector": "p",
+        "y": 3739,
+        "text": "ILMERA facilitates connections with universities, scholarshi"
+      },
+      {
+        "selector": "h2",
+        "y": 4120,
+        "text": "7. Website Use"
+      },
+      {
+        "selector": "p",
+        "y": 4176,
+        "text": "You agree to use ilmerastudyabroad.com only for lawful purpo"
+      },
+      {
+        "selector": "h2",
+        "y": 4470,
+        "text": "8. Intellectual Property"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 8242,
+    "scan_width": 360,
+    "scan_height": 8242,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 209,
+        "height": 122,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/terms__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.legal-sec",
+          "element_tag": "section",
+          "element_y": 257,
+          "element_height": 5850,
+          "computed": {
+            "min_height": "0px",
+            "height": "5850.33px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.sub",
+            "y": 431,
+            "text": "The terms that govern your use of the ILMERA Study Abroad website and consultancy services"
+          }
+        },
+        "selector": "section.s-wrap.legal-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.legal-sec has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6038,
+        "height": 151,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/terms__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5947,
+            "text": "Email:"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 209,
+        "height": 122,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/terms__360__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.legal-sec",
+          "element_tag": "section",
+          "element_y": 257,
+          "element_height": 5850,
+          "computed": {
+            "min_height": "0px",
+            "height": "5850.33px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": null,
+          "next_visible_text": {
+            "selector": "p.sub",
+            "y": 431,
+            "text": "The terms that govern your use of the ILMERA Study Abroad website and consultancy services"
+          }
+        },
+        "selector": "section.s-wrap.legal-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.legal-sec has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6038,
+        "height": 151,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/terms__360__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "main",
+          "element_tag": "main",
+          "element_y": 0,
+          "element_height": 0,
+          "computed": null,
+          "previous_visible_text": {
+            "selector": "li",
+            "y": 5947,
+            "text": "Email:"
+          },
+          "next_visible_text": null
+        },
+        "selector": "main",
+        "cause": "Low edge-density band; nearest section main has unknown top and unknown bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "8646445f49c337881984e596ba1cc0637b79c00477cf5add25981cf22bf26207"
+  }
+}

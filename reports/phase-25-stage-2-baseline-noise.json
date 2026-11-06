@@ -1,0 +1,129 @@
+{
+  "unchanged_source": "164d6de immutable HTML both times",
+  "comparisons": [
+    {
+      "name": "home",
+      "width": 360,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "home",
+      "width": 1280,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "services",
+      "width": 360,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "services",
+      "width": 768,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "services",
+      "width": 1280,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "about",
+      "width": 360,
+      "changed_pixels": 504989,
+      "max_channel_delta": 3,
+      "percent": 10.021770538131188,
+      "bounds": [
+        0,
+        0,
+        319,
+        11847
+      ],
+      "passed": false
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "changed_pixels": 687822,
+      "max_channel_delta": 4,
+      "percent": 9.721063307283186,
+      "bounds": [
+        0,
+        0,
+        595,
+        7753
+      ],
+      "passed": false
+    },
+    {
+      "name": "about",
+      "width": 1280,
+      "changed_pixels": 9,
+      "max_channel_delta": 1,
+      "percent": 7.962008832521799e-05,
+      "bounds": [
+        1033,
+        18,
+        1220,
+        54
+      ],
+      "passed": true
+    },
+    {
+      "name": "contact",
+      "width": 360,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "contact",
+      "width": 768,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    },
+    {
+      "name": "contact",
+      "width": 1280,
+      "changed_pixels": 0,
+      "max_channel_delta": 0,
+      "percent": 0.0,
+      "bounds": null,
+      "passed": true
+    }
+  ],
+  "note": "Same-source repeat calibration, completed before any Stage2 runtime CSS changes."
+}

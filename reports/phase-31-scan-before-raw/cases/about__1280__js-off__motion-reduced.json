@@ -1,0 +1,255 @@
+{
+  "id": "about__1280__js-off__motion-reduced",
+  "route": "/about",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/about",
+  "http_status": 200,
+  "page_height": 9275,
+  "scroll": {
+    "height": 9275,
+    "scroll_samples": 16,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 9275,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 8115
+    },
+    "visible_text_chars": 11788,
+    "visible_text_nodes": 134,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 9,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 177,
+        "text": "About ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 345,
+        "text": "About ILMERA Study Abroad: Read about the online counselling"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 423,
+        "text": "An overseas education consultancy based in Coorg, run by thr"
+      },
+      {
+        "selector": "span",
+        "y": 579,
+        "text": "Explore"
+      },
+      {
+        "selector": "span.sec-label",
+        "y": 778,
+        "text": "Our Story"
+      },
+      {
+        "selector": "h2",
+        "y": 807,
+        "text": "Why ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 906,
+        "text": "Exists"
+      },
+      {
+        "selector": "p",
+        "y": 988,
+        "text": "ILMERA Study Abroad was founded on a simple premise: every d"
+      },
+      {
+        "selector": "p",
+        "y": 1180,
+        "text": "Explore our"
+      },
+      {
+        "selector": "a",
+        "y": 1180,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 1180,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 1180,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 1209,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 1209,
+        "text": "ILMERA team"
+      },
+      {
+        "selector": "p",
+        "y": 1209,
+        "text": "."
+      },
+      {
+        "selector": "p",
+        "y": 1259,
+        "text": "ILMERA guides academic review, applications, scholarship enq"
+      },
+      {
+        "selector": "p",
+        "y": 1395,
+        "text": "ILMERA Study Abroad guides students to universities across n"
+      },
+      {
+        "selector": "p",
+        "y": 1645,
+        "text": "ILMERA is based in Coorg and works with students by phone, W"
+      },
+      {
+        "selector": "span.big-num.cu",
+        "y": 1140,
+        "text": "9"
+      },
+      {
+        "selector": "span.stat-desc",
+        "y": 1219,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "span.big-num.cu",
+        "y": 1140,
+        "text": "3"
+      },
+      {
+        "selector": "span.stat-desc",
+        "y": 1219,
+        "text": "Named Counsellors"
+      },
+      {
+        "selector": "span.big-num.cu",
+        "y": 1323,
+        "text": "4"
+      },
+      {
+        "selector": "span.stat-desc",
+        "y": 1402,
+        "text": "Languages Spoken"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 9275,
+    "scan_width": 512,
+    "scan_height": 3710,
+    "threshold": 200,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5452,
+        "height": 946,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/about__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "#team",
+          "element_tag": "section",
+          "element_y": 5004,
+          "element_height": 1153,
+          "computed": {
+            "min_height": "1152.72px",
+            "height": "1152.72px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 5267,
+            "text": "ILMERA Study Abroad is run by three named, contactable people rather than an anonymous cal"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 6438,
+            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district,"
+          }
+        },
+        "selector": "#team",
+        "cause": "Low edge-density band; nearest section #team has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5452,
+        "height": 946,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/about__1280__js-off__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "#team",
+          "element_tag": "section",
+          "element_y": 5004,
+          "element_height": 1153,
+          "computed": {
+            "min_height": "1152.72px",
+            "height": "1152.72px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 5267,
+            "text": "ILMERA Study Abroad is run by three named, contactable people rather than an anonymous cal"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 6438,
+            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district,"
+          }
+        },
+        "selector": "#team",
+        "cause": "Low edge-density band; nearest section #team has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 2.5
+  },
+  "pinned": null,
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "6c34406e2eb698ad835d5d26c5512f200dea3da4b8278b7f729dd6ed09ba0187"
+  }
+}

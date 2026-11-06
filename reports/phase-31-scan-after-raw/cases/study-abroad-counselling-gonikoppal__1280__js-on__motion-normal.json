@@ -1,0 +1,181 @@
+{
+  "id": "study-abroad-counselling-gonikoppal__1280__js-on__motion-normal",
+  "route": "/study-abroad-counselling-gonikoppal",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-gonikoppal",
+  "http_status": 200,
+  "page_height": 4671,
+  "scroll": {
+    "height": 4671,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4671,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3535
+    },
+    "visible_text_chars": 4228,
+    "visible_text_nodes": 33,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Gonikoppal"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Gonikoppal"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 477,
+        "text": "Study abroad consultancy in Gonikoppal: map the request befo"
+      },
+      {
+        "selector": "h2",
+        "y": 549,
+        "text": "What is the starting point for household evidence in a Gonik"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 641,
+        "text": "Students from Gonikoppal who are asked for household or fina"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 795,
+        "text": "Discuss how to map the request before collecting records onl"
+      },
+      {
+        "selector": "h2",
+        "y": 878,
+        "text": "Map the request before collecting records"
+      },
+      {
+        "selector": "p",
+        "y": 945,
+        "text": "Copy each requested document into a simple inventory and not"
+      },
+      {
+        "selector": "h2",
+        "y": 1191,
+        "text": "Keep periods and explanations consistent"
+      },
+      {
+        "selector": "p",
+        "y": 1258,
+        "text": "Review the dates across the records you intend to use. If di"
+      },
+      {
+        "selector": "h2",
+        "y": 1504,
+        "text": "Review the pack as a connected account"
+      },
+      {
+        "selector": "p",
+        "y": 1571,
+        "text": "Once the documents are assembled, read the application narra"
+      },
+      {
+        "selector": "p",
+        "y": 1825,
+        "text": "Counselling is online, and students from Gonikoppal do not n"
+      },
+      {
+        "selector": "h2",
+        "y": 1898,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1991,
+        "text": "What is the starting point for household evidence in a Gonik"
+      },
+      {
+        "selector": "p",
+        "y": 2046,
+        "text": "List the requested records by person, subject and reporting "
+      },
+      {
+        "selector": "summary",
+        "y": 2087,
+        "text": "Does a complete household document pack prove award eligibil"
+      },
+      {
+        "selector": "p",
+        "y": 2142,
+        "text": "No. It is evidence for assessment. The relevant awarding bod"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2264,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2331,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2392,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2501,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2576,
+        "text": "Kodagu"
+      },
+      {
+        "selector": "a",
+        "y": 2630,
+        "text": "Karnataka"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4671,
+    "scan_width": 512,
+    "scan_height": 1868,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.5005353319057817
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "5ea9aae329df8cacfb4ba66ec29b44b37717c7ad3edb1476200da05eb1c031be"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "id": "study-abroad-counselling-belagavi__768__js-on__motion-normal",
+  "route": "/study-abroad-counselling-belagavi",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-belagavi",
+  "http_status": 200,
+  "page_height": 4549,
+  "scroll": {
+    "height": 4549,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4549,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3168
+    },
+    "visible_text_chars": 4054,
+    "visible_text_nodes": 32,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Belagavi"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Belagavi"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Belagavi: describe the task befo"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "What should a Belagavi enquiry brief contain?"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 520,
+        "text": "Students from Belagavi can use an initial counselling discus"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 673,
+        "text": "Discuss how to describe the task before choosing the support"
+      },
+      {
+        "selector": "h2",
+        "y": 755,
+        "text": "Describe the task before choosing the support"
+      },
+      {
+        "selector": "p",
+        "y": 816,
+        "text": "Write down the decisions you have already made and the quest"
+      },
+      {
+        "selector": "h2",
+        "y": 1061,
+        "text": "Make ownership visible in the agreement"
+      },
+      {
+        "selector": "p",
+        "y": 1122,
+        "text": "For each deliverable, identify who prepares it, who checks i"
+      },
+      {
+        "selector": "h2",
+        "y": 1367,
+        "text": "Use a decision record when the brief changes"
+      },
+      {
+        "selector": "p",
+        "y": 1428,
+        "text": "An application plan may change after you learn more about a "
+      },
+      {
+        "selector": "p",
+        "y": 1653,
+        "text": "Counselling is online, and students from Belagavi do not nee"
+      },
+      {
+        "selector": "h2",
+        "y": 1725,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1808,
+        "text": "What should a Belagavi enquiry brief contain?"
+      },
+      {
+        "selector": "p",
+        "y": 1859,
+        "text": "State the qualification, intended subject, budget boundary a"
+      },
+      {
+        "selector": "summary",
+        "y": 1896,
+        "text": "How do I handle work outside the original counselling scope?"
+      },
+      {
+        "selector": "p",
+        "y": 1947,
+        "text": "Ask for the new deliverable, responsibility and payment term"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2068,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2129,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2189,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2298,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2366,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2420,
+        "text": "Shivamogga"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4549,
+    "scan_width": 512,
+    "scan_height": 3033,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2882,
+        "height": 162,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-belagavi__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2643,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2861,
+            "text": "How can Belagavi students make ownership visible in the agreement?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3061,
+            "text": "Ask ILMERA how to make ownership visible in the agreement"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2882,
+        "height": 162,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00005,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-belagavi__768__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2643,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2861,
+            "text": "How can Belagavi students make ownership visible in the agreement?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 3061,
+            "text": "Ask ILMERA how to make ownership visible in the agreement"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.4998351467194198
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "eda5b29564192decea0d513d3f9b6b52638a9263f237a27983bf8d277b721b3e"
+  }
+}

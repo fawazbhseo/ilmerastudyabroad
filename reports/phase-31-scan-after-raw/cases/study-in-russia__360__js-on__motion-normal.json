@@ -1,0 +1,463 @@
+{
+  "id": "study-in-russia__360__js-on__motion-normal",
+  "route": "/study-in-russia",
+  "width": 360,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-in-russia",
+  "http_status": 200,
+  "page_height": 6074,
+  "scroll": {
+    "height": 6074,
+    "scroll_samples": 10,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 6074,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3939
+    },
+    "visible_text_chars": 3031,
+    "visible_text_nodes": 46,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "h1",
+        "y": 177,
+        "text": "Study in Russia"
+      },
+      {
+        "selector": "p.verification-note",
+        "y": 388,
+        "text": "The previously supplied 2026-27 closing date was 15 February"
+      },
+      {
+        "selector": "p",
+        "y": 665,
+        "text": "Indian students can apply for Russian Government scholarship"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 877,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 1031,
+        "text": "ILMERA overview"
+      },
+      {
+        "selector": "p",
+        "y": 1092,
+        "text": "Exact fees vary by university and programme and should be co"
+      },
+      {
+        "selector": "h2",
+        "y": 1250,
+        "text": "Scholarships"
+      },
+      {
+        "selector": "li",
+        "y": 1311,
+        "text": "The Ministry of Education of India notice for the academic y"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1610,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1653,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1779,
+        "text": "[1]"
+      },
+      {
+        "selector": "li",
+        "y": 1823,
+        "text": "The notice states that students do not have to pass tests or"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 1948,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2025,
+        "text": "Visa steps"
+      },
+      {
+        "selector": "li",
+        "y": 2086,
+        "text": "The notice describes a second stage after selection in which"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2269,
+        "text": "[1]"
+      },
+      {
+        "selector": "h2",
+        "y": 2346,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2460,
+        "text": "How do Indian students apply for Russian Government scholars"
+      },
+      {
+        "selector": "p",
+        "y": 2556,
+        "text": "Applications are submitted only through the official website"
+      },
+      {
+        "selector": "p",
+        "y": 2577,
+        "text": "FAQ source"
+      },
+      {
+        "selector": "a.source-citation",
+        "y": 2581,
+        "text": "[1]"
+      },
+      {
+        "selector": "summary",
+        "y": 2656,
+        "text": "Do students need to speak Russian for the Russian Government"
+      },
+      {
+        "selector": "p",
+        "y": 2753,
+        "text": "Not necessarily. The notice states that students who do not "
+      },
+      {
+        "selector": "p",
+        "y": 2774,
+        "text": "FAQ source"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 360,
+    "height": 6074,
+    "scan_width": 360,
+    "scan_height": 6074,
+    "threshold": 120,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 218,
+        "height": 144,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3650,
+          "computed": {
+            "min_height": "0px",
+            "height": "3650.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h1",
+            "y": 177,
+            "text": "Study in Russia"
+          },
+          "next_visible_text": {
+            "selector": "p.verification-note",
+            "y": 388,
+            "text": "The previously supplied 2026-27 closing date was 15 February 2026, now past. The cited not"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 893,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0028,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 955,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.source-citation",
+            "y": 877,
+            "text": "[1]"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1092,
+            "text": "Exact fees vary by university and programme and should be confirmed at time of application"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3440,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00289,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3495,
+          "element_height": 396,
+          "computed": {
+            "min_height": "0px",
+            "height": "396.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3336,
+            "text": "Ministry of Education, Government of India: Russian Federation scholarships notice, academ"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3668,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3850,
+        "height": 171,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00098,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3650,
+          "computed": {
+            "min_height": "0px",
+            "height": "3650.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3786,
+            "text": "Explore our services"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 218,
+        "height": 144,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00002,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3650,
+          "computed": {
+            "min_height": "0px",
+            "height": "3650.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "h1",
+            "y": 177,
+            "text": "Study in Russia"
+          },
+          "next_visible_text": {
+            "selector": "p.verification-note",
+            "y": 388,
+            "text": "The previously supplied 2026-27 closing date was 15 February 2026, now past. The cited not"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 893,
+        "height": 147,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0028,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-02.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 955,
+          "element_height": 248,
+          "computed": {
+            "min_height": "0px",
+            "height": "248.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.source-citation",
+            "y": 877,
+            "text": "[1]"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 1092,
+            "text": "Exact fees vary by university and programme and should be confirmed at time of application"
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3440,
+        "height": 137,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00289,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-03.webp",
+        "context": {
+          "selector": "section.author-card",
+          "element_tag": "section",
+          "element_y": 3495,
+          "element_height": 396,
+          "computed": {
+            "min_height": "0px",
+            "height": "396.391px",
+            "padding_top": "28px",
+            "padding_bottom": "28px",
+            "margin_top": "48px",
+            "margin_bottom": "0px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3336,
+            "text": "Ministry of Education, Government of India: Russian Federation scholarships notice, academ"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 3668,
+            "text": "ILMERA counselling is online only, by phone, WhatsApp and video call, with no counselling "
+          }
+        },
+        "selector": "section.author-card",
+        "cause": "Low edge-density band; nearest section section.author-card has 28px top and 28px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3850,
+        "height": 171,
+        "threshold": 120,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00098,
+        "crop": "reports/screenshots/phase-31-after/study-in-russia__360__js-on__motion-normal-gap-04.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 289,
+          "element_height": 3650,
+          "computed": {
+            "min_height": "0px",
+            "height": "3650.34px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a",
+            "y": 3786,
+            "text": "Explore our services"
+          },
+          "next_visible_text": null
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "19afc4483a9ea34f6075a9182ac182cc1091c56690a9c61324a3525f80158c02"
+  }
+}

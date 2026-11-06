@@ -1,0 +1,637 @@
+{
+  "id": "about__1280__js-on__motion-reduced",
+  "route": "/about",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/about",
+  "http_status": 200,
+  "page_height": 9275,
+  "scroll": {
+    "height": 9275,
+    "scroll_samples": 16,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 9275,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 8115
+    },
+    "visible_text_chars": 11846,
+    "visible_text_nodes": 141,
+    "hidden_text_nodes": 1,
+    "hidden_text_groups": 1,
+    "hidden_text_chars": 7,
+    "visible_media": 9,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [
+      {
+        "kind": "hidden-reveal-text",
+        "selector": "span",
+        "y": 579,
+        "height": 11,
+        "text_sample": "Explore",
+        "characters": 7,
+        "computed": {
+          "effective_opacity": 0,
+          "visibility_reasons": [
+            "effective-opacity:0.000"
+          ]
+        },
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-hidden-07.webp",
+        "cause": "Non-empty main-content text remains effectively invisible after a complete slow scroll and 3-second settle."
+      }
+    ],
+    "text_samples": [
+      {
+        "selector": "#heroH1",
+        "y": 177,
+        "text": "About ILMERA Study Abroad"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 345,
+        "text": "About ILMERA Study Abroad: Read about the online counselling"
+      },
+      {
+        "selector": "#heroSub",
+        "y": 423,
+        "text": "An overseas education consultancy based in Coorg, run by thr"
+      },
+      {
+        "selector": "span.hud-stat-num",
+        "y": 153,
+        "text": "9"
+      },
+      {
+        "selector": "span.hud-stat-lbl",
+        "y": 192,
+        "text": "Study Destinations"
+      },
+      {
+        "selector": "span.hud-stat-num",
+        "y": 153,
+        "text": "3"
+      },
+      {
+        "selector": "span.hud-stat-lbl",
+        "y": 192,
+        "text": "Named Counsellors"
+      },
+      {
+        "selector": "span.hud-stat-num",
+        "y": 431,
+        "text": "4"
+      },
+      {
+        "selector": "span.hud-stat-lbl",
+        "y": 470,
+        "text": "Languages Spoken"
+      },
+      {
+        "selector": "span.hud-stat-num",
+        "y": 431,
+        "text": "2026"
+      },
+      {
+        "selector": "span.hud-stat-lbl",
+        "y": 470,
+        "text": "Founded"
+      },
+      {
+        "selector": "span.sec-label",
+        "y": 778,
+        "text": "Our Story"
+      },
+      {
+        "selector": "h2",
+        "y": 807,
+        "text": "Why ILMERA Study Abroad"
+      },
+      {
+        "selector": "h2",
+        "y": 906,
+        "text": "Exists"
+      },
+      {
+        "selector": "p",
+        "y": 988,
+        "text": "ILMERA Study Abroad was founded on a simple premise: every d"
+      },
+      {
+        "selector": "p",
+        "y": 1180,
+        "text": "Explore our"
+      },
+      {
+        "selector": "a",
+        "y": 1180,
+        "text": "destinations and services"
+      },
+      {
+        "selector": "p",
+        "y": 1180,
+        "text": ", read the"
+      },
+      {
+        "selector": "a",
+        "y": 1180,
+        "text": "published guides"
+      },
+      {
+        "selector": "p",
+        "y": 1209,
+        "text": ", or meet the"
+      },
+      {
+        "selector": "a",
+        "y": 1209,
+        "text": "ILMERA team"
+      },
+      {
+        "selector": "p",
+        "y": 1209,
+        "text": "."
+      },
+      {
+        "selector": "p",
+        "y": 1259,
+        "text": "ILMERA guides academic review, applications, scholarship enq"
+      },
+      {
+        "selector": "p",
+        "y": 1395,
+        "text": "ILMERA Study Abroad guides students to universities across n"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 9275,
+    "scan_width": 512,
+    "scan_height": 3710,
+    "threshold": 200,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1777,
+        "height": 246,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.story-sec",
+          "element_tag": "section",
+          "element_y": 648,
+          "element_height": 1265,
+          "computed": {
+            "min_height": "0px",
+            "height": "1265.36px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 1395,
+            "text": "ILMERA Study Abroad guides students to universities across nine destinations: Germany, Ita"
+          },
+          "next_visible_text": {
+            "selector": "span.sec-label",
+            "y": 2023,
+            "text": "Our Purpose"
+          }
+        },
+        "selector": "section.s-wrap.story-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.story-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2595,
+        "height": 223,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.mission-sec",
+          "element_tag": "section",
+          "element_y": 1913,
+          "element_height": 794,
+          "computed": {
+            "min_height": "0px",
+            "height": "793.5px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 2311,
+            "text": "\"To make quality global education accessible to every deserving student, regardless of mar"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt",
+            "y": 2845,
+            "text": "Our Core Values"
+          }
+        },
+        "selector": "section.s-wrap.mission-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.mission-sec has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3110,
+        "height": 243,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "#kodagu",
+          "element_tag": "section",
+          "element_y": 3221,
+          "element_height": 1783,
+          "computed": {
+            "min_height": "0px",
+            "height": "1783.44px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.val-desc",
+            "y": 3059,
+            "text": "Same guidance in Kodagu as in Bangalore"
+          },
+          "next_visible_text": {
+            "selector": "#kodagu-h2",
+            "y": 3380,
+            "text": "Study Abroad Guidance for Students in Coorg & Kodagu"
+          }
+        },
+        "selector": "#kodagu",
+        "cause": "Low edge-density band; nearest section #kodagu has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4857,
+        "height": 258,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0004,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "#kodagu",
+          "element_tag": "section",
+          "element_y": 3221,
+          "element_height": 1783,
+          "computed": {
+            "min_height": "0px",
+            "height": "1783.44px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4747,
+            "text": ", and you can reach us any time via the"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk",
+            "y": 5142,
+            "text": "Meet the ILMERA Study Abroad Team"
+          }
+        },
+        "selector": "#kodagu",
+        "cause": "Low edge-density band; nearest section #kodagu has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5865,
+        "height": 293,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "#team",
+          "element_tag": "section",
+          "element_y": 5004,
+          "element_height": 1153,
+          "computed": {
+            "min_height": "1152.72px",
+            "height": "1152.72px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.btn-magnetic",
+            "y": 5850,
+            "text": "Start Your Journey With Us"
+          },
+          "next_visible_text": {
+            "selector": "#faq-h2",
+            "y": 6185,
+            "text": "ILMERA Study Abroad: Frequently Asked Questions"
+          }
+        },
+        "selector": "#team",
+        "cause": "Low edge-density band; nearest section #team has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6167,
+        "height": 223,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-06.webp",
+        "context": {
+          "selector": "#faq-h2",
+          "element_tag": "h2",
+          "element_y": 6186,
+          "element_height": 110,
+          "computed": {
+            "min_height": "0px",
+            "height": "110.375px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "64px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.btn-magnetic",
+            "y": 5850,
+            "text": "Start Your Journey With Us"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 6438,
+            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district,"
+          }
+        },
+        "selector": "#faq-h2",
+        "cause": "Low edge-density band; nearest section #faq-h2 has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 1777,
+        "height": 246,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.story-sec",
+          "element_tag": "section",
+          "element_y": 648,
+          "element_height": 1265,
+          "computed": {
+            "min_height": "0px",
+            "height": "1265.36px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 1395,
+            "text": "ILMERA Study Abroad guides students to universities across nine destinations: Germany, Ita"
+          },
+          "next_visible_text": {
+            "selector": "span.sec-label",
+            "y": 2023,
+            "text": "Our Purpose"
+          }
+        },
+        "selector": "section.s-wrap.story-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.story-sec has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2595,
+        "height": 223,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-02.webp",
+        "context": {
+          "selector": "section.s-wrap.mission-sec",
+          "element_tag": "section",
+          "element_y": 1913,
+          "element_height": 794,
+          "computed": {
+            "min_height": "0px",
+            "height": "793.5px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 2311,
+            "text": "\"To make quality global education accessible to every deserving student, regardless of mar"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.lt",
+            "y": 2845,
+            "text": "Our Core Values"
+          }
+        },
+        "selector": "section.s-wrap.mission-sec",
+        "cause": "Low edge-density band; nearest section section.s-wrap.mission-sec has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 3110,
+        "height": 243,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-03.webp",
+        "context": {
+          "selector": "#kodagu",
+          "element_tag": "section",
+          "element_y": 3221,
+          "element_height": 1783,
+          "computed": {
+            "min_height": "0px",
+            "height": "1783.44px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "span.val-desc",
+            "y": 3059,
+            "text": "Same guidance in Kodagu as in Bangalore"
+          },
+          "next_visible_text": {
+            "selector": "#kodagu-h2",
+            "y": 3380,
+            "text": "Study Abroad Guidance for Students in Coorg & Kodagu"
+          }
+        },
+        "selector": "#kodagu",
+        "cause": "Low edge-density band; nearest section #kodagu has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 4857,
+        "height": 258,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0004,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-04.webp",
+        "context": {
+          "selector": "#kodagu",
+          "element_tag": "section",
+          "element_y": 3221,
+          "element_height": 1783,
+          "computed": {
+            "min_height": "0px",
+            "height": "1783.44px",
+            "padding_top": "130px",
+            "padding_bottom": "130px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "p",
+            "y": 4747,
+            "text": ", and you can reach us any time via the"
+          },
+          "next_visible_text": {
+            "selector": "h2.sec-h2.dk",
+            "y": 5142,
+            "text": "Meet the ILMERA Study Abroad Team"
+          }
+        },
+        "selector": "#kodagu",
+        "cause": "Low edge-density band; nearest section #kodagu has 130px top and 130px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 5865,
+        "height": 293,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.0002,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-05.webp",
+        "context": {
+          "selector": "#team",
+          "element_tag": "section",
+          "element_y": 5004,
+          "element_height": 1153,
+          "computed": {
+            "min_height": "1152.72px",
+            "height": "1152.72px",
+            "padding_top": "110px",
+            "padding_bottom": "110px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.btn-magnetic",
+            "y": 5850,
+            "text": "Start Your Journey With Us"
+          },
+          "next_visible_text": {
+            "selector": "#faq-h2",
+            "y": 6185,
+            "text": "ILMERA Study Abroad: Frequently Asked Questions"
+          }
+        },
+        "selector": "#team",
+        "cause": "Low edge-density band; nearest section #team has 110px top and 110px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      },
+      {
+        "kind": "pixel-quiet-band",
+        "y": 6167,
+        "height": 223,
+        "threshold": 200,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0.00007,
+        "crop": "reports/screenshots/phase-31-after/about__1280__js-on__motion-reduced-gap-06.webp",
+        "context": {
+          "selector": "#faq-h2",
+          "element_tag": "h2",
+          "element_y": 6186,
+          "element_height": 110,
+          "computed": {
+            "min_height": "0px",
+            "height": "110.375px",
+            "padding_top": "0px",
+            "padding_bottom": "0px",
+            "margin_top": "0px",
+            "margin_bottom": "64px",
+            "position": "static"
+          },
+          "previous_visible_text": {
+            "selector": "a.btn-gold.btn-magnetic",
+            "y": 5850,
+            "text": "Start Your Journey With Us"
+          },
+          "next_visible_text": {
+            "selector": "p",
+            "y": 6438,
+            "text": "Yes. ILMERA Study Abroad is based in Coorg and works with students across Kodagu district,"
+          }
+        },
+        "selector": "#faq-h2",
+        "cause": "Low edge-density band; nearest section #faq-h2 has 0px top and 0px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 2.5
+  },
+  "pinned": {
+    "gsap": true,
+    "scrollTrigger": true,
+    "three": true
+  },
+  "request_failures": [
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap",
+      "error": "net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "7b4fce8a5072a79e6913d23ddd4479abfdc918c9ff2a38b8fdf5f33c24acdcb7"
+  }
+}

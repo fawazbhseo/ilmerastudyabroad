@@ -1,0 +1,1200 @@
+{
+  "phase": "32c",
+  "task": "3_hero_still_three_arm_ab_analysis",
+  "analysis_status": "COMPLETE",
+  "generated_at": "2026-11-06T04:37:13.382475+00:00",
+  "evidence_scope": "Local simulated Lighthouse data only. Not PageSpeed Insights, field data, production/CDN timing or a live-site performance claim.",
+  "raw_evidence": {
+    "path": "reports/phase-32c-hero-ab-raw.json",
+    "bytes": 585625,
+    "sha256": "039eb45d973b00844df525665d1ce6d6ebfb7a592c2db93dc0758aadd4e8351b",
+    "committed_before_analysis": true,
+    "commit": "9ad242ec4f00123d9c1d598d012dca55920de975",
+    "sample_count": 63,
+    "all_sample_statuses_pass": true,
+    "counts": {
+      "/study-abroad-counselling-mysuru": {
+        "A": 9,
+        "B-still": 9,
+        "B-plain": 9,
+        "A-repeat": 9
+      },
+      "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+        "A": 9,
+        "B-still": 9,
+        "B-plain": 9,
+        "A-repeat": 0
+      }
+    }
+  },
+  "fixture_manifest": {
+    "path": "reports/phase-32c-hero-ab-fixtures.json",
+    "sha256": "23eacb7497f37f431691637b2f926791c69cc9ac483ad87cd6e4b0a0d3e2d668",
+    "A_source_commit": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+    "B_source_commit": "ac2d9b06dc85578e4b4c31ad236b228f67d44333",
+    "prior_fixture_provenance_audit": {
+      "archive": "reports/phase-31-task4-ab-fixtures.tar.gz",
+      "archive_sha256": "34b33d2ab901ade8e158f8d173fac4a8a6ad79346e60117932a82ccbb9ba8ae2",
+      "declared_A_source_commit": "7d1bb9ec0522bcbc7953262920fafb50bf04ab72",
+      "exact_commit_render_comparison": {
+        "/study-abroad-counselling-mysuru": {
+          "matches_exact_A_commit_render": false,
+          "differing_protected_invariants": [
+            "text",
+            "title",
+            "headings",
+            "meta",
+            "robots",
+            "anchors",
+            "json_ld"
+          ]
+        },
+        "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+          "matches_exact_A_commit_render": false,
+          "differing_protected_invariants": [
+            "text",
+            "headings",
+            "anchors"
+          ]
+        }
+      },
+      "mismatch_detected": true,
+      "handling": "The prior artifact is retained unchanged. Task 3 uses a fresh PHP-WASM render of the exact declared A commit because its stored A HTML differs on protected content for these routes."
+    }
+  },
+  "fixed_budgets": {
+    "added_transfer_bytes_strictly_less_than": 150000,
+    "no_new_render_blocking_resource": true,
+    "CLS_no_worse_than_A_and_below": 0.1,
+    "LCP_B_over_A_at_most": 1.1,
+    "TBT_increase_ms_at_most": 50
+  },
+  "summary_method": "Linear interpolation quantiles using p=(n-1)q, matching the existing Phase32 A/B runner. For each route and primary arm, report median, Q1, Q3 and IQR for LCP, CLS, TBT, total-byte-weight transfer and request count. Budget comparisons use primary-arm and A medians.",
+  "arm_summaries": {
+    "/study-abroad-counselling-mysuru": {
+      "A": {
+        "lcp_ms": {
+          "median": 1652.655057419186,
+          "q1": 1651.8700574193977,
+          "q3": 2280.895136630735,
+          "iqr": 629.0250792113375,
+          "min": 1576.9316653402977,
+          "max": 2282.5305683153447,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 224797.0,
+          "q1": 224797.0,
+          "q3": 224797.0,
+          "iqr": 0.0,
+          "min": 224797.0,
+          "max": 224797.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0,
+          "n": 9
+        }
+      },
+      "B-still": {
+        "lcp_ms": {
+          "median": 1726.8609747490234,
+          "q1": 1726.591449498345,
+          "q3": 2281.2816366306947,
+          "iqr": 554.6901871323498,
+          "min": 1651.8190574193177,
+          "max": 2356.141636630756,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 11.109931684622097,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 238217.0,
+          "q1": 238217.0,
+          "q3": 238217.0,
+          "iqr": 0.0,
+          "min": 238217.0,
+          "max": 238217.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 7.0,
+          "q1": 7.0,
+          "q3": 7.0,
+          "iqr": 0.0,
+          "min": 7.0,
+          "max": 7.0,
+          "n": 9
+        }
+      },
+      "B-plain": {
+        "lcp_ms": {
+          "median": 1653.130057419526,
+          "q1": 1651.8710574194174,
+          "q3": 2280.9231366308013,
+          "iqr": 629.0520792113839,
+          "min": 1651.6120574192514,
+          "max": 2281.281136630754,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 225499.0,
+          "q1": 225499.0,
+          "q3": 225499.0,
+          "iqr": 0.0,
+          "min": 225499.0,
+          "max": 225499.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0,
+          "n": 9
+        }
+      }
+    },
+    "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+      "A": {
+        "lcp_ms": {
+          "median": 1652.1930574192888,
+          "q1": 1652.1050287097682,
+          "q3": 1652.4670574192278,
+          "iqr": 0.3620287094595369,
+          "min": 1651.577057419488,
+          "max": 2281.410704946169,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 238734.0,
+          "q1": 238734.0,
+          "q3": 238734.0,
+          "iqr": 0.0,
+          "min": 238734.0,
+          "max": 238734.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0,
+          "n": 9
+        }
+      },
+      "B-still": {
+        "lcp_ms": {
+          "median": 1726.8139494981388,
+          "q1": 1726.7084242470778,
+          "q3": 2355.7960683153606,
+          "iqr": 629.0876440682828,
+          "min": 1651.7880574194623,
+          "max": 2356.168636630871,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 9.184431684653418,
+          "iqr": 9.184431684653418,
+          "min": 0.0,
+          "max": 33.36971584231969,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 252154.0,
+          "q1": 252154.0,
+          "q3": 252154.0,
+          "iqr": 0.0,
+          "min": 252154.0,
+          "max": 252154.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 7.0,
+          "q1": 7.0,
+          "q3": 7.0,
+          "iqr": 0.0,
+          "min": 7.0,
+          "max": 7.0,
+          "n": 9
+        }
+      },
+      "B-plain": {
+        "lcp_ms": {
+          "median": 1651.8030287097113,
+          "q1": 1577.3296653404686,
+          "q3": 1651.8660574190951,
+          "iqr": 74.53639207862648,
+          "min": 1576.4836653404977,
+          "max": 1652.21805741941,
+          "n": 9
+        },
+        "cls": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "tbt_ms": {
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0,
+          "iqr": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9
+        },
+        "transfer_bytes": {
+          "median": 239436.0,
+          "q1": 239436.0,
+          "q3": 239436.0,
+          "iqr": 0.0,
+          "min": 239436.0,
+          "max": 239436.0,
+          "n": 9
+        },
+        "requests": {
+          "median": 6.0,
+          "q1": 6.0,
+          "q3": 6.0,
+          "iqr": 0.0,
+          "min": 6.0,
+          "max": 6.0,
+          "n": 9
+        }
+      }
+    }
+  },
+  "paired_rounds": {
+    "/study-abroad-counselling-mysuru": {
+      "B-still": [
+        {
+          "round": 1,
+          "lcp_ratio_B_over_A": 0.7239005165388805,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 2,
+          "lcp_ratio_B_over_A": 0.7569615055455602,
+          "tbt_delta_ms_B_minus_A": 2.470431684558889,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 3,
+          "lcp_ratio_B_over_A": 1.0950737515797542,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 4,
+          "lcp_ratio_B_over_A": 1.0453963693861061,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 5,
+          "lcp_ratio_B_over_A": 0.7570979248523836,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 6,
+          "lcp_ratio_B_over_A": 1.4262378313194568,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 7,
+          "lcp_ratio_B_over_A": 0.999494147313975,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 8,
+          "lcp_ratio_B_over_A": 1.380092315865296,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 9,
+          "lcp_ratio_B_over_A": 1.493783759657195,
+          "tbt_delta_ms_B_minus_A": 11.109931684622097,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        }
+      ],
+      "B-plain": [
+        {
+          "round": 1,
+          "lcp_ratio_B_over_A": 0.9992957677295293,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 2,
+          "lcp_ratio_B_over_A": 1.0001451149653442,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 3,
+          "lcp_ratio_B_over_A": 1.0474709169231282,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 4,
+          "lcp_ratio_B_over_A": 0.9996211793559338,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 5,
+          "lcp_ratio_B_over_A": 0.7241069661181178,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 6,
+          "lcp_ratio_B_over_A": 1.3810072760077239,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 7,
+          "lcp_ratio_B_over_A": 1.0002874162991289,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 8,
+          "lcp_ratio_B_over_A": 1.0004767113043793,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 9,
+          "lcp_ratio_B_over_A": 1.0478662929249232,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        }
+      ]
+    },
+    "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+      "B-still": [
+        {
+          "round": 1,
+          "lcp_ratio_B_over_A": 0.9995890992218472,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 2,
+          "lcp_ratio_B_over_A": 1.4261615307054356,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 3,
+          "lcp_ratio_B_over_A": 1.0326558613594419,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 4,
+          "lcp_ratio_B_over_A": 0.9999322017095277,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 5,
+          "lcp_ratio_B_over_A": 1.0455545756951872,
+          "tbt_delta_ms_B_minus_A": 1.3179316846023994,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 6,
+          "lcp_ratio_B_over_A": 1.425860045674743,
+          "tbt_delta_ms_B_minus_A": 33.36971584231969,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 7,
+          "lcp_ratio_B_over_A": 0.7572175363093817,
+          "tbt_delta_ms_B_minus_A": 9.184431684653418,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 8,
+          "lcp_ratio_B_over_A": 1.0449724705408905,
+          "tbt_delta_ms_B_minus_A": 31.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        },
+        {
+          "round": 9,
+          "lcp_ratio_B_over_A": 1.0451382056395024,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 13420.0
+        }
+      ],
+      "B-plain": [
+        {
+          "round": 1,
+          "lcp_ratio_B_over_A": 0.9996253911951969,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 2,
+          "lcp_ratio_B_over_A": 1.0000054649730794,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 3,
+          "lcp_ratio_B_over_A": 0.7240270351710681,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 4,
+          "lcp_ratio_B_over_A": 0.9997911570518733,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 5,
+          "lcp_ratio_B_over_A": 1.0003881138921387,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 6,
+          "lcp_ratio_B_over_A": 0.9546884719417983,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 7,
+          "lcp_ratio_B_over_A": 0.7242335669452928,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 8,
+          "lcp_ratio_B_over_A": 0.9540395557875383,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        },
+        {
+          "round": 9,
+          "lcp_ratio_B_over_A": 0.9542938259766917,
+          "tbt_delta_ms_B_minus_A": 0.0,
+          "cls_delta_B_minus_A": 0.0,
+          "transfer_delta_bytes_B_minus_A": 702.0
+        }
+      ]
+    }
+  },
+  "A_A_noise_floor": {
+    "route": "/study-abroad-counselling-mysuru",
+    "method": "Nine same-route A/A pairs. Report paired absolute differences and A-repeat/A ratios. The maximum observed absolute differences are used as a conservative margin check; this is a small-sample noise estimate, not a confidence interval.",
+    "lcp_abs_difference_ms": {
+      "median": 75.33089207866055,
+      "q1": 1.7924316845183057,
+      "q3": 628.9945108959878,
+      "iqr": 627.2020792114695,
+      "min": 0.4134316847066657,
+      "max": 703.9679029751062,
+      "n": 9
+    },
+    "lcp_repeat_over_A": {
+      "median": 1.0001812541528494,
+      "q1": 0.9992147173363636,
+      "q3": 1.0902154611947152,
+      "iqr": 0.09100074385835166,
+      "min": 0.6913875861034757,
+      "max": 1.44641623885661,
+      "n": 9
+    },
+    "lcp_max_absolute_ratio_deviation_from_1": 0.44641623885660997,
+    "tbt_abs_difference_ms": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 9
+    },
+    "tbt_signed_difference_ms": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 9
+    },
+    "cls_abs_difference": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 9
+    },
+    "transfer_abs_difference_bytes": {
+      "median": 0.0,
+      "q1": 0.0,
+      "q3": 0.0,
+      "iqr": 0.0,
+      "min": 0.0,
+      "max": 98454.0,
+      "n": 9
+    },
+    "pairs": [
+      {
+        "round": 1,
+        "lcp_A_ms": 2282.5305683153447,
+        "lcp_A_repeat_ms": 2280.7381366308264,
+        "lcp_repeat_over_A": 0.9992147173363636,
+        "lcp_abs_difference_ms": 1.7924316845183057,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 2,
+        "lcp_A_ms": 2280.950136630725,
+        "lcp_A_repeat_ms": 2281.3635683154316,
+        "lcp_repeat_over_A": 1.0001812541528494,
+        "lcp_abs_difference_ms": 0.4134316847066657,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 3,
+        "lcp_A_ms": 1576.9316653402977,
+        "lcp_A_repeat_ms": 2280.899568315404,
+        "lcp_repeat_over_A": 1.44641623885661,
+        "lcp_abs_difference_ms": 703.9679029751062,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 4,
+        "lcp_A_ms": 1652.4970574190265,
+        "lcp_A_repeat_ms": 1801.577841576994,
+        "lcp_repeat_over_A": 1.0902154611947152,
+        "lcp_abs_difference_ms": 149.0807841579674,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 98454.0
+      },
+      {
+        "round": 5,
+        "lcp_A_ms": 2280.895136630735,
+        "lcp_A_repeat_ms": 1576.9825826702813,
+        "lcp_repeat_over_A": 0.6913875861034757,
+        "lcp_abs_difference_ms": 703.9125539604538,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 6,
+        "lcp_A_ms": 1651.8700574193977,
+        "lcp_A_repeat_ms": 2280.8645683153854,
+        "lcp_repeat_over_A": 1.3807772336999815,
+        "lcp_abs_difference_ms": 628.9945108959878,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 7,
+        "lcp_A_ms": 1652.655057419186,
+        "lcp_A_repeat_ms": 1651.5470574193196,
+        "lcp_repeat_over_A": 0.9993295636649085,
+        "lcp_abs_difference_ms": 1.107999999866479,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 8,
+        "lcp_A_ms": 1652.9920574192656,
+        "lcp_A_repeat_ms": 1577.661165340605,
+        "lcp_repeat_over_A": 0.9544275535139165,
+        "lcp_abs_difference_ms": 75.33089207866055,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      },
+      {
+        "round": 9,
+        "lcp_A_ms": 1577.297665340438,
+        "lcp_A_repeat_ms": 1652.3580861289315,
+        "lcp_repeat_over_A": 1.0475879869969202,
+        "lcp_abs_difference_ms": 75.0604207884935,
+        "tbt_A_ms": 0.0,
+        "tbt_A_repeat_ms": 0.0,
+        "tbt_signed_difference_ms": 0.0,
+        "tbt_abs_difference_ms": 0.0,
+        "cls_abs_difference": 0.0,
+        "transfer_abs_difference_bytes": 0.0
+      }
+    ],
+    "max_transfer_difference_pair_diagnostic": {
+      "round": 4,
+      "absolute_difference_bytes": 98454.0,
+      "A_logo_network_entries": 1,
+      "A_repeat_logo_network_entries": 2,
+      "A_repeat_logo_statuses": [
+        200,
+        200
+      ]
+    }
+  },
+  "render_blocking_comparison": {
+    "/study-abroad-counselling-mysuru": {
+      "A_union": [],
+      "candidates": {
+        "B-still": {
+          "arm_union": [],
+          "new_urls_vs_A": []
+        },
+        "B-plain": {
+          "arm_union": [],
+          "new_urls_vs_A": []
+        }
+      }
+    },
+    "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+      "A_union": [],
+      "candidates": {
+        "B-still": {
+          "arm_union": [],
+          "new_urls_vs_A": []
+        },
+        "B-plain": {
+          "arm_union": [],
+          "new_urls_vs_A": []
+        }
+      }
+    }
+  },
+  "still_request_summary": {
+    "/study-abroad-counselling-mysuru": {
+      "A": {
+        "samples_with_still_request": 0,
+        "request_count": 0,
+        "urls": [],
+        "median_transfer_bytes_per_still_request": null
+      },
+      "B-still": {
+        "samples_with_still_request": 9,
+        "request_count": 9,
+        "urls": [
+          "http://127.0.0.1:8091/assets/images/hero-still-640.webp"
+        ],
+        "median_transfer_bytes_per_still_request": {
+          "median": 9947.0,
+          "q1": 9947.0,
+          "q3": 9947.0,
+          "iqr": 0.0,
+          "min": 9947.0,
+          "max": 9947.0,
+          "n": 9
+        }
+      },
+      "B-plain": {
+        "samples_with_still_request": 0,
+        "request_count": 0,
+        "urls": [],
+        "median_transfer_bytes_per_still_request": null
+      }
+    },
+    "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+      "A": {
+        "samples_with_still_request": 0,
+        "request_count": 0,
+        "urls": [],
+        "median_transfer_bytes_per_still_request": null
+      },
+      "B-still": {
+        "samples_with_still_request": 9,
+        "request_count": 9,
+        "urls": [
+          "http://127.0.0.1:8091/assets/images/hero-still-640.webp"
+        ],
+        "median_transfer_bytes_per_still_request": {
+          "median": 9947.0,
+          "q1": 9947.0,
+          "q3": 9947.0,
+          "iqr": 0.0,
+          "min": 9947.0,
+          "max": 9947.0,
+          "n": 9
+        }
+      },
+      "B-plain": {
+        "samples_with_still_request": 0,
+        "request_count": 0,
+        "urls": [],
+        "median_transfer_bytes_per_still_request": null
+      }
+    }
+  },
+  "sample_quality": {
+    "by_route_arm": {
+      "/study-abroad-counselling-mysuru": {
+        "A": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        },
+        "B-still": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        },
+        "B-plain": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        }
+      },
+      "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+        "A": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        },
+        "B-still": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        },
+        "B-plain": {
+          "samples_with_warnings": 0,
+          "warning_count": 0,
+          "request_failure_count": 18,
+          "distinct_request_failure_urls": [
+            "chrome://terms/",
+            "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png"
+          ]
+        }
+      }
+    },
+    "session_diagnostics": {
+      "lighthouse_run_warning_total": 0,
+      "request_failure_event_total": 126,
+      "request_failures_by_url_and_reason": [
+        {
+          "url": "chrome://terms/",
+          "failure": "net::ERR_INVALID_URL",
+          "count": 63
+        },
+        {
+          "url": "https://ilmerastudyabroad.com/assets/images/ilmera.logo.png",
+          "failure": "net::ERR_ABORTED",
+          "count": 63
+        }
+      ],
+      "logo_network_audit_status_counts": {
+        "200": 64
+      },
+      "samples_with_duplicate_logo_network_entries": 1,
+      "note": "Request-failure events are retained as raw diagnostics. The logo URL also appears as an HTTP 200 network-audit entry; chrome://terms/ is an internal Chromium URL. No console/page-error claim is made because those events were not collected."
+    }
+  },
+  "budget_results": {
+    "/study-abroad-counselling-mysuru": {
+      "B-still": {
+        "point_estimate_budgets": {
+          "added_transfer": {
+            "delta_bytes": 13420.0,
+            "strict_threshold_bytes": 150000,
+            "pass": true
+          },
+          "no_new_render_blocking": {
+            "new_urls": [],
+            "pass": true
+          },
+          "lcp": {
+            "B_over_A": 1.0449010318255514,
+            "maximum": 1.1,
+            "pass": true
+          },
+          "tbt": {
+            "B_minus_A_ms": 0.0,
+            "maximum_increase_ms": 50,
+            "pass": true
+          },
+          "cls": {
+            "A_median": 0.0,
+            "B_median": 0.0,
+            "B_minus_A": 0.0,
+            "B_must_be_less_than": 0.1,
+            "pass": true
+          },
+          "result": "PASS"
+        },
+        "noise_adjusted_margin_check": {
+          "transfer_noise_adjusted_upper_delta_bytes": 111874.0,
+          "transfer_strict_threshold_bytes": 150000,
+          "transfer_margin_pass": true,
+          "lcp_noise_adjusted_upper_ratio": 1.4913172706821614,
+          "lcp_maximum": 1.1,
+          "lcp_margin_pass": false,
+          "tbt_noise_adjusted_upper_delta_ms": 0.0,
+          "tbt_maximum_increase_ms": 50,
+          "tbt_margin_pass": true,
+          "cls_noise_adjusted_upper_delta": 0.0,
+          "cls_no_worse_maximum_delta": 0,
+          "cls_margin_pass": true,
+          "noise_floor_route": "/study-abroad-counselling-mysuru",
+          "article_noise_note": "Mysuru A/A values are used as a conservative same-harness margin proxy. There is no separate article A/A block, so article uncertainty is not independently measured.",
+          "result": "INCONCLUSIVE"
+        },
+        "conservative_still_eligible": false
+      },
+      "B-plain": {
+        "point_estimate_budgets": {
+          "added_transfer": {
+            "delta_bytes": 702.0,
+            "strict_threshold_bytes": 150000,
+            "pass": true
+          },
+          "no_new_render_blocking": {
+            "new_urls": [],
+            "pass": true
+          },
+          "lcp": {
+            "B_over_A": 1.0002874162991289,
+            "maximum": 1.1,
+            "pass": true
+          },
+          "tbt": {
+            "B_minus_A_ms": 0.0,
+            "maximum_increase_ms": 50,
+            "pass": true
+          },
+          "cls": {
+            "A_median": 0.0,
+            "B_median": 0.0,
+            "B_minus_A": 0.0,
+            "B_must_be_less_than": 0.1,
+            "pass": true
+          },
+          "result": "PASS"
+        },
+        "noise_adjusted_margin_check": {
+          "transfer_noise_adjusted_upper_delta_bytes": 99156.0,
+          "transfer_strict_threshold_bytes": 150000,
+          "transfer_margin_pass": true,
+          "lcp_noise_adjusted_upper_ratio": 1.4467036551557388,
+          "lcp_maximum": 1.1,
+          "lcp_margin_pass": false,
+          "tbt_noise_adjusted_upper_delta_ms": 0.0,
+          "tbt_maximum_increase_ms": 50,
+          "tbt_margin_pass": true,
+          "cls_noise_adjusted_upper_delta": 0.0,
+          "cls_no_worse_maximum_delta": 0,
+          "cls_margin_pass": true,
+          "noise_floor_route": "/study-abroad-counselling-mysuru",
+          "article_noise_note": "Mysuru A/A values are used as a conservative same-harness margin proxy. There is no separate article A/A block, so article uncertainty is not independently measured.",
+          "result": "INCONCLUSIVE"
+        },
+        "conservative_still_eligible": false
+      }
+    },
+    "/blog/how-to-choose-study-abroad-consultant-karnataka": {
+      "B-still": {
+        "point_estimate_budgets": {
+          "added_transfer": {
+            "delta_bytes": 13420.0,
+            "strict_threshold_bytes": 150000,
+            "pass": true
+          },
+          "no_new_render_blocking": {
+            "new_urls": [],
+            "pass": true
+          },
+          "lcp": {
+            "B_over_A": 1.0451647534431643,
+            "maximum": 1.1,
+            "pass": true
+          },
+          "tbt": {
+            "B_minus_A_ms": 0.0,
+            "maximum_increase_ms": 50,
+            "pass": true
+          },
+          "cls": {
+            "A_median": 0.0,
+            "B_median": 0.0,
+            "B_minus_A": 0.0,
+            "B_must_be_less_than": 0.1,
+            "pass": true
+          },
+          "result": "PASS"
+        },
+        "noise_adjusted_margin_check": {
+          "transfer_noise_adjusted_upper_delta_bytes": 111874.0,
+          "transfer_strict_threshold_bytes": 150000,
+          "transfer_margin_pass": true,
+          "lcp_noise_adjusted_upper_ratio": 1.4915809922997743,
+          "lcp_maximum": 1.1,
+          "lcp_margin_pass": false,
+          "tbt_noise_adjusted_upper_delta_ms": 0.0,
+          "tbt_maximum_increase_ms": 50,
+          "tbt_margin_pass": true,
+          "cls_noise_adjusted_upper_delta": 0.0,
+          "cls_no_worse_maximum_delta": 0,
+          "cls_margin_pass": true,
+          "noise_floor_route": "/study-abroad-counselling-mysuru",
+          "article_noise_note": "Mysuru A/A values are used as a conservative same-harness margin proxy. There is no separate article A/A block, so article uncertainty is not independently measured.",
+          "result": "INCONCLUSIVE"
+        },
+        "conservative_still_eligible": false
+      },
+      "B-plain": {
+        "point_estimate_budgets": {
+          "added_transfer": {
+            "delta_bytes": 702.0,
+            "strict_threshold_bytes": 150000,
+            "pass": true
+          },
+          "no_new_render_blocking": {
+            "new_urls": [],
+            "pass": true
+          },
+          "lcp": {
+            "B_over_A": 0.999763932726974,
+            "maximum": 1.1,
+            "pass": true
+          },
+          "tbt": {
+            "B_minus_A_ms": 0.0,
+            "maximum_increase_ms": 50,
+            "pass": true
+          },
+          "cls": {
+            "A_median": 0.0,
+            "B_median": 0.0,
+            "B_minus_A": 0.0,
+            "B_must_be_less_than": 0.1,
+            "pass": true
+          },
+          "result": "PASS"
+        },
+        "noise_adjusted_margin_check": {
+          "transfer_noise_adjusted_upper_delta_bytes": 99156.0,
+          "transfer_strict_threshold_bytes": 150000,
+          "transfer_margin_pass": true,
+          "lcp_noise_adjusted_upper_ratio": 1.4461801715835838,
+          "lcp_maximum": 1.1,
+          "lcp_margin_pass": false,
+          "tbt_noise_adjusted_upper_delta_ms": 0.0,
+          "tbt_maximum_increase_ms": 50,
+          "tbt_margin_pass": true,
+          "cls_noise_adjusted_upper_delta": 0.0,
+          "cls_no_worse_maximum_delta": 0,
+          "cls_margin_pass": true,
+          "noise_floor_route": "/study-abroad-counselling-mysuru",
+          "article_noise_note": "Mysuru A/A values are used as a conservative same-harness margin proxy. There is no separate article A/A block, so article uncertainty is not independently measured.",
+          "result": "INCONCLUSIVE"
+        },
+        "conservative_still_eligible": false
+      }
+    }
+  },
+  "conservative_decision_rule": "Select B-still only if it passes all five point-estimate budgets on both routes and transfer, LCP, TBT and CLS remain inside those limits after adding the maximum observed Mysuru A/A absolute noise margin. Any failed point budget or unresolved noise-adjusted margin retains B-plain. The added noise margin is stricter than the owner limits and cannot relax them.",
+  "decision": {
+    "selected_test_arm": "B-plain",
+    "all_point_estimate_budgets_pass": true,
+    "all_route_B_still_conservative_eligibility": false,
+    "rationale": "All point-estimate budgets pass for both B arms on both routes. B-still median LCP ratios are 1.0449 and 1.0452, but the maximum Mysuru A/A ratio deviation is 0.4464; the noise-adjusted upper ratios are 1.4913 and 1.4916, above 1.10. This is inconclusive, not a point-budget failure. Retain B-plain as the conservative default, not as a proven faster arm.",
+    "B-plain_is_a_proven_performance_winner": false,
+    "no_production_source_changed": true
+  },
+  "owner_confirmation_required": "Owner confirmation via PageSpeed Insights remains required before any live-site performance conclusion or release decision."
+}

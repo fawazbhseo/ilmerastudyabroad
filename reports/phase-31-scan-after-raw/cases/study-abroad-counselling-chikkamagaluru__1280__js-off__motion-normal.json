@@ -1,0 +1,177 @@
+{
+  "id": "study-abroad-counselling-chikkamagaluru__1280__js-off__motion-normal",
+  "route": "/study-abroad-counselling-chikkamagaluru",
+  "width": 1280,
+  "viewport_height": 900,
+  "javascript": "off",
+  "motion": "normal",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-chikkamagaluru",
+  "http_status": 200,
+  "page_height": 4579,
+  "scroll": {
+    "height": 4579,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true,
+    "final_scroll_y": 0
+  },
+  "dom": {
+    "page_height": 4579,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3443
+    },
+    "visible_text_chars": 4311,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 224,
+        "text": "Chikkamagaluru"
+      },
+      {
+        "selector": "h1",
+        "y": 264,
+        "text": "Study abroad consultancy in Chikkamagaluru"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 533,
+        "text": "Study abroad consultancy in Chikkamagaluru: find the require"
+      },
+      {
+        "selector": "h2",
+        "y": 604,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 697,
+        "text": "For a Chikkamagaluru student, language preparation is easier"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 850,
+        "text": "Discuss how to find the requirement that belongs to your cou"
+      },
+      {
+        "selector": "h2",
+        "y": 933,
+        "text": "Find the requirement that belongs to your course"
+      },
+      {
+        "selector": "p",
+        "y": 1000,
+        "text": "Record the language requirement beside the exact course and "
+      },
+      {
+        "selector": "h2",
+        "y": 1246,
+        "text": "Treat alternative proof as a question, not a shortcut"
+      },
+      {
+        "selector": "p",
+        "y": 1313,
+        "text": "If you want to use a medium-of-instruction letter or previou"
+      },
+      {
+        "selector": "h2",
+        "y": 1559,
+        "text": "Allow time for evidence, review and a fallback"
+      },
+      {
+        "selector": "p",
+        "y": 1626,
+        "text": "Build a language-evidence schedule around the actual applica"
+      },
+      {
+        "selector": "p",
+        "y": 1880,
+        "text": "Counselling is online, and students from Chikkamagaluru do n"
+      },
+      {
+        "selector": "h2",
+        "y": 1953,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 2047,
+        "text": "Can a Chikkamagaluru applicant assume an instruction letter "
+      },
+      {
+        "selector": "p",
+        "y": 2101,
+        "text": "No. Ask the selected programme whether it accepts that exact"
+      },
+      {
+        "selector": "summary",
+        "y": 2143,
+        "text": "What should a language-requirement enquiry quote?"
+      },
+      {
+        "selector": "p",
+        "y": 2197,
+        "text": "Include the course, intake, published requirement and the ev"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2319,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2387,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2447,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2556,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2631,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2695,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 1280,
+    "height": 4579,
+    "scan_width": 512,
+    "scan_height": 1832,
+    "threshold": 200,
+    "raw_candidates": [],
+    "interior_candidates": [],
+    "scale_y": 2.4994541484716155
+  },
+  "pinned": null,
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "ae80f3e3f279682ae40eaa3894e2643e27dfb1b66db73fcd8bbdf594f28bd74f"
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "baseline_document_replay": true,
+  "measurement_order": [
+    "/",
+    "/services",
+    "/contact",
+    "/study-in-germany",
+    "/study-abroad-counselling-mysuru",
+    "/blog/how-to-choose-study-abroad-consultant-karnataka",
+    "/blog/",
+    "/blog/documents-needed-to-study-abroad-from-india",
+    "/privacy-policy",
+    "/all-pages"
+  ],
+  "storage_reset_each_navigation": true,
+  "browser_process_reused": true,
+  "environment": "Additional-page before measurements replay immutable Phase24b HTML; existing Stage1 baseline budgets remain unchanged. No Stage1 baseline existed for the three added samples. Local PHP 8.5 WASM, Chromium 143, Lighthouse 12.8.2 mobile simulated Slow 4G/4x CPU; npm-mirrored fonts and exact CDN script versions; absolute first-party assets served from checkout. Not field or live hosting data. Three cold navigations; medians. Mirrored resource transfer accounting is CDP-reported, not CDN compression evidence.",
+  "lighthouseVersion": "12.8.2",
+  "results": [
+    {
+      "route": "/",
+      "samples": [
+        {
+          "lcp_ms": 1860,
+          "cls": 0.0007592129583754647,
+          "tbt_ms": 1692,
+          "transfer_bytes": 1068381,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1860,
+          "cls": 0.0009464646592203325,
+          "tbt_ms": 609,
+          "transfer_bytes": 1068381,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1860,
+          "cls": 0.05618782292570044,
+          "tbt_ms": 1456.5,
+          "transfer_bytes": 1068381,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 1860,
+        "cls": 0.0009464646592203325,
+        "tbt_ms": 1456.5,
+        "transfer_bytes": 1068381,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/services",
+      "samples": [
+        {
+          "lcp_ms": 2010,
+          "cls": 0,
+          "tbt_ms": 1637,
+          "transfer_bytes": 1092984,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2010,
+          "cls": 0.036606249493029354,
+          "tbt_ms": 1660.5,
+          "transfer_bytes": 1092984,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2010,
+          "cls": 0.03485462334906384,
+          "tbt_ms": 1825.5,
+          "transfer_bytes": 1092984,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2010,
+        "cls": 0.03485462334906384,
+        "tbt_ms": 1660.5,
+        "transfer_bytes": 1092984,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/contact",
+      "samples": [
+        {
+          "lcp_ms": 10580,
+          "cls": 0,
+          "tbt_ms": 3171.5,
+          "transfer_bytes": 1049721,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 10425,
+          "cls": 0,
+          "tbt_ms": 3235.5,
+          "transfer_bytes": 1049721,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1860,
+          "cls": 0,
+          "tbt_ms": 1576,
+          "transfer_bytes": 1049721,
+          "requests": 15,
+          "scripts": [
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js",
+              "transfer_bytes": 603513
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js",
+              "transfer_bytes": 71587
+            },
+            {
+              "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js",
+              "transfer_bytes": 42734
+            }
+          ],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"mini-hero-sub\" id=\"heroSub\" style=\"translate: none; rotate: none; scale: none;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 10425,
+        "cls": 0,
+        "tbt_ms": 3171.5,
+        "transfer_bytes": 1049721,
+        "requests": 15
+      }
+    },
+    {
+      "route": "/study-in-germany",
+      "samples": [
+        {
+          "lcp_ms": 1560,
+          "cls": 0.06201669903084627,
+          "tbt_ms": 0,
+          "transfer_bytes": 230400,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2940,
+          "cls": 0.053536100474154,
+          "tbt_ms": 0,
+          "transfer_bytes": 230400,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.0026284282521664517,
+          "tbt_ms": 0,
+          "transfer_bytes": 230400,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0.053536100474154,
+        "tbt_ms": 0,
+        "transfer_bytes": 230400,
+        "requests": 8
+      }
+    },
+    {
+      "route": "/study-abroad-counselling-mysuru",
+      "samples": [
+        {
+          "lcp_ms": 2160,
+          "cls": 0.0486432234080018,
+          "tbt_ms": 0,
+          "transfer_bytes": 226353,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.04555956032903773,
+          "tbt_ms": 0,
+          "transfer_bytes": 226353,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.04555956032903773,
+          "tbt_ms": 0,
+          "transfer_bytes": 226353,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0.04555956032903773,
+        "tbt_ms": 0,
+        "transfer_bytes": 226353,
+        "requests": 8
+      }
+    },
+    {
+      "route": "/blog/how-to-choose-study-abroad-consultant-karnataka",
+      "samples": [
+        {
+          "lcp_ms": 2160,
+          "cls": 0,
+          "tbt_ms": 1,
+          "transfer_bytes": 143363,
+          "requests": 2,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 143363,
+          "requests": 2,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1014.5,
+          "cls": 0,
+          "tbt_ms": 66.5,
+          "transfer_bytes": 143363,
+          "requests": 2,
+          "scripts": [],
+          "render_blocking": [],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0,
+        "tbt_ms": 1,
+        "transfer_bytes": 143363,
+        "requests": 2
+      }
+    },
+    {
+      "route": "/blog/",
+      "samples": [
+        {
+          "lcp_ms": 1560,
+          "cls": 0.10375773274025371,
+          "tbt_ms": 0,
+          "transfer_bytes": 211158,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2790,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 211158,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"sub\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.10375773274025371,
+          "tbt_ms": 0,
+          "transfer_bytes": 211158,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"seo-opening\" style=\"max-width:760px;margin:18px auto;line-height:1.8;\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0.10375773274025371,
+        "tbt_ms": 0,
+        "transfer_bytes": 211158,
+        "requests": 7
+      }
+    },
+    {
+      "route": "/blog/documents-needed-to-study-abroad-from-india",
+      "samples": [
+        {
+          "lcp_ms": 2310,
+          "cls": 0.0021730989114911057,
+          "tbt_ms": 0,
+          "transfer_bytes": 233700,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 3090,
+          "cls": 0.011641601311559497,
+          "tbt_ms": 0,
+          "transfer_bytes": 233700,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1710,
+          "cls": 0.0021730989114911057,
+          "tbt_ms": 0,
+          "transfer_bytes": 233700,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p class=\"direct-answer\">",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2310,
+        "cls": 0.0021730989114911057,
+        "tbt_ms": 0,
+        "transfer_bytes": 233700,
+        "requests": 8
+      }
+    },
+    {
+      "route": "/privacy-policy",
+      "samples": [
+        {
+          "lcp_ms": 2160,
+          "cls": 0.05942995184669331,
+          "tbt_ms": 0,
+          "transfer_bytes": 231338,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.054688165516558494,
+          "tbt_ms": 0,
+          "transfer_bytes": 231338,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.05847285146466302,
+          "tbt_ms": 0,
+          "transfer_bytes": 231338,
+          "requests": 8,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@100;300;400;500;600;700&display=swap"
+          ],
+          "lcp_element": "<p>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0.05847285146466302,
+        "tbt_ms": 0,
+        "transfer_bytes": 231338,
+        "requests": 8
+      }
+    },
+    {
+      "route": "/all-pages",
+      "samples": [
+        {
+          "lcp_ms": 3060,
+          "cls": 0.02240777656530856,
+          "tbt_ms": 0,
+          "transfer_bytes": 203506,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<h1>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0,
+          "tbt_ms": 0,
+          "transfer_bytes": 203506,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<h1>",
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2160,
+          "cls": 0.01966074997011032,
+          "tbt_ms": 0,
+          "transfer_bytes": 203506,
+          "requests": 7,
+          "scripts": [],
+          "render_blocking": [
+            "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap"
+          ],
+          "lcp_element": "<h1>",
+          "warnings": []
+        }
+      ],
+      "median": {
+        "lcp_ms": 2160,
+        "cls": 0.01966074997011032,
+        "tbt_ms": 0,
+        "transfer_bytes": 203506,
+        "requests": 7
+      }
+    }
+  ]
+}

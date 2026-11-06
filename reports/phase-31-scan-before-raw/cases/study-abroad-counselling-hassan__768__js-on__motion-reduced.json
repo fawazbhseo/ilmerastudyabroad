@@ -1,0 +1,254 @@
+{
+  "id": "study-abroad-counselling-hassan__768__js-on__motion-reduced",
+  "route": "/study-abroad-counselling-hassan",
+  "width": 768,
+  "viewport_height": 900,
+  "javascript": "on",
+  "motion": "reduced",
+  "requested_url": "http://127.0.0.1:8080/study-abroad-counselling-hassan",
+  "http_status": 200,
+  "page_height": 4475,
+  "scroll": {
+    "height": 4475,
+    "scroll_samples": 8,
+    "settle_ms": 3000,
+    "returned_to_top": true
+  },
+  "dom": {
+    "page_height": 4475,
+    "main": {
+      "selector": "main",
+      "y": 0,
+      "height": 3094
+    },
+    "visible_text_chars": 4003,
+    "visible_text_nodes": 30,
+    "hidden_text_nodes": 0,
+    "hidden_text_groups": 0,
+    "hidden_text_chars": 0,
+    "visible_media": 0,
+    "empty_or_spacing_nodes": [],
+    "hidden_text": [],
+    "text_samples": [
+      {
+        "selector": "span.article-tag",
+        "y": 184,
+        "text": "Hassan"
+      },
+      {
+        "selector": "h1",
+        "y": 225,
+        "text": "Study abroad consultancy in Hassan"
+      },
+      {
+        "selector": "p.seo-opening",
+        "y": 389,
+        "text": "Study abroad consultancy in Hassan: separate the known price"
+      },
+      {
+        "selector": "h2",
+        "y": 461,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p.direct-answer",
+        "y": 553,
+        "text": "An overseas study budget should show where the money comes f"
+      },
+      {
+        "selector": "a.btn-gold",
+        "y": 678,
+        "text": "Discuss how to separate the known price from the planning es"
+      },
+      {
+        "selector": "h2",
+        "y": 760,
+        "text": "Separate the known price from the planning estimate"
+      },
+      {
+        "selector": "p",
+        "y": 821,
+        "text": "Start with a cost list whose entries are labelled clearly. A"
+      },
+      {
+        "selector": "h2",
+        "y": 1066,
+        "text": "Test a plan that does not depend on the best case"
+      },
+      {
+        "selector": "p",
+        "y": 1127,
+        "text": "Prepare a version of the budget without unconfirmed funding."
+      },
+      {
+        "selector": "h2",
+        "y": 1371,
+        "text": "Agree the point at which to pause"
+      },
+      {
+        "selector": "p",
+        "y": 1432,
+        "text": "Define a maximum commitment before paying application-relate"
+      },
+      {
+        "selector": "p",
+        "y": 1687,
+        "text": "Counselling is online, and students from Hassan do not need "
+      },
+      {
+        "selector": "h2",
+        "y": 1758,
+        "text": "Frequently asked questions"
+      },
+      {
+        "selector": "summary",
+        "y": 1842,
+        "text": "How should a Hassan student treat an expected scholarship in"
+      },
+      {
+        "selector": "p",
+        "y": 1892,
+        "text": "Keep it separate from confirmed funds and test whether the p"
+      },
+      {
+        "selector": "summary",
+        "y": 1930,
+        "text": "Why set a budget stop point before applications?"
+      },
+      {
+        "selector": "p",
+        "y": 1980,
+        "text": "It helps you decide when unresolved costs or changed assumpt"
+      },
+      {
+        "selector": "#place-counselling-process",
+        "y": 2101,
+        "text": "How ILMERA counselling works"
+      },
+      {
+        "selector": "p",
+        "y": 2162,
+        "text": "Contact ILMERA online by phone, WhatsApp or video call."
+      },
+      {
+        "selector": "a",
+        "y": 2223,
+        "text": "Discuss this plan"
+      },
+      {
+        "selector": "h2",
+        "y": 2331,
+        "text": "Related place guides"
+      },
+      {
+        "selector": "a",
+        "y": 2400,
+        "text": "Karnataka"
+      },
+      {
+        "selector": "a",
+        "y": 2464,
+        "text": "Explore study abroad services"
+      }
+    ]
+  },
+  "pixel_scan": {
+    "width": 768,
+    "height": 4475,
+    "scan_width": 512,
+    "scan_height": 2983,
+    "threshold": 160,
+    "raw_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2808,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2568,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2787,
+            "text": "How can Hassan students test a plan that does not depend on the best case?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 2986,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "interior_candidates": [
+      {
+        "kind": "pixel-quiet-band",
+        "y": 2808,
+        "height": 160,
+        "threshold": 160,
+        "metric": "horizontal grayscale edge occupancy <0.6% at 512px-or-native scan width",
+        "mean_edge_ratio": 0,
+        "crop": "reports/screenshots/phase-31/study-abroad-counselling-hassan__768__js-on__motion-reduced-gap-01.webp",
+        "context": {
+          "selector": "section.s-wrap.article-body",
+          "element_tag": "section",
+          "element_y": 2568,
+          "element_height": 328,
+          "computed": {
+            "min_height": "0px",
+            "height": "328px",
+            "padding_top": "48px",
+            "padding_bottom": "48px",
+            "margin_top": "0px",
+            "margin_bottom": "0px",
+            "position": "relative"
+          },
+          "previous_visible_text": {
+            "selector": "summary",
+            "y": 2787,
+            "text": "How can Hassan students test a plan that does not depend on the best case?"
+          },
+          "next_visible_text": {
+            "selector": "a.btn-gold",
+            "y": 2986,
+            "text": "Ask ILMERA how to test a plan that does not depend on the best case"
+          }
+        },
+        "selector": "section.s-wrap.article-body",
+        "cause": "Low edge-density band; nearest section section.s-wrap.article-body has 48px top and 48px bottom padding. Compare neighboring visible blocks and source before classifying as unused space."
+      }
+    ],
+    "scale_y": 1.500167616493463
+  },
+  "pinned": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "three": false
+  },
+  "request_failures": [],
+  "scan_conditions": {
+    "browser": "143.0.7499.0",
+    "browser_package": "@sparticuz/chromium 143.0.4",
+    "playwright": "1.58.2",
+    "gsap": "3.12.2",
+    "axe": "4.11.0",
+    "wait_after_scroll_ms": 3000,
+    "full_page_png_sha256": "1d5666f73d9a1c604d9e0d0566fc6a5878e9c4ed384cb13cba8bd7ad40d37769"
+  }
+}

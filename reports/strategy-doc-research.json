@@ -1,0 +1,462 @@
+{
+  "document_id": "1Cmqec7D4msWmpPo5gsndFYa4KvckeTE6XsZXLduJNyM",
+  "title": "ILMERA Study Abroad: SEO, AEO & GEO Strategy Report (Karnataka & India)",
+  "read_on": "2026-10-16",
+  "read_scope": "One Docs tab t.0; complete HTML export chunks 0-5, including every table; final chunk hasMore=false.",
+  "keywords": [
+    {
+      "text": "Best study abroad consultants in Karnataka",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Bengaluru",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Mysuru",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Mangaluru",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Hubballi",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Belagavi",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Shivamogga",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Udupi",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in Kodagu (Coorg)",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Best study abroad consultants in India",
+      "section": "1B",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "study abroad consultants in Kodagu Coorg",
+      "section": "Introduction",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "overseas education consultants in Karnataka",
+      "section": "5A / priority 2",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "Italy [prohibited cost wording redacted] education + stipend",
+      "section": "5A / priority 4",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "no-IELTS",
+      "section": "5A / priority 8",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "remote counselling",
+      "section": "5A / priority 8",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "how to choose a study abroad consultant",
+      "section": "2B / item 4",
+      "volume": null,
+      "difficulty": null
+    },
+    {
+      "text": "which consultant is trustworthy",
+      "section": "2B / item 4",
+      "volume": null,
+      "difficulty": null
+    }
+  ],
+  "prompts": [
+    {
+      "id": 1,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Which country is best for MS in Mechanical Engineering with [prohibited tuition wording redacted] public universities for a [academic issuer redacted] graduate?",
+      "policy_redacted": true
+    },
+    {
+      "id": 2,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Germany vs Italy for Indian students: which has easier part-time jobs and PR pathways in 2026?",
+      "policy_redacted": false
+    },
+    {
+      "id": 3,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Best European countries to study Bachelor's after 2nd PUC in Karnataka with 55% marks.",
+      "policy_redacted": false
+    },
+    {
+      "id": 4,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Can I get admission in UK or Europe if I have 6 backlogs in [academic issuer redacted] engineering?",
+      "policy_redacted": true
+    },
+    {
+      "id": 5,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Is Russia safe and MCI/NMC approved for MBBS or Bachelor's for students from Karnataka?",
+      "policy_redacted": false
+    },
+    {
+      "id": 6,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Which Schengen countries accept students with a 3-year B.Com or BCA degree from [academic issuers redacted]?",
+      "policy_redacted": true
+    },
+    {
+      "id": 7,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Best study abroad destinations in GCC (Dubai, Qatar, Oman) with [prohibited cost wording redacted] job opportunities for Karnataka students.",
+      "policy_redacted": true
+    },
+    {
+      "id": 8,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Czech Republic vs Lithuania vs Latvia: which country has the highest visa approval rate and lowest living cost for Indian students?",
+      "policy_redacted": false
+    },
+    {
+      "id": 9,
+      "section": "3 / Intent Group 1",
+      "group": "Country & course selection",
+      "text": "Is a 1-year UK Master's still worth it after the January 2027 Graduate Visa reduction to 18 months?",
+      "policy_redacted": false
+    },
+    {
+      "id": 10,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Total cost of studying in Germany from Karnataka including blocked account, APS fee, and flight tickets in INR.",
+      "policy_redacted": false
+    },
+    {
+      "id": 11,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "How to get the DSU scholarship in Italy for [prohibited tuition wording redacted] and annual stipend if my family income in Karnataka is below 5 lakhs?",
+      "policy_redacted": true
+    },
+    {
+      "id": 12,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Which documents from Karnataka Nadakacheri (Tahsildar office) are needed for Italy ISEE Parificato scholarship calculation?",
+      "policy_redacted": false
+    },
+    {
+      "id": 13,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Cheapest countries in Europe to study abroad under 5 lakh rupees total budget without scholarship.",
+      "policy_redacted": false
+    },
+    {
+      "id": 14,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Does Slovakia really offer [prohibited tuition wording redacted] in public universities for international students, and what is the catch?",
+      "policy_redacted": true
+    },
+    {
+      "id": 15,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "How much money do parents need to show in a bank account for a Lithuania or Latvia student visa?",
+      "policy_redacted": false
+    },
+    {
+      "id": 16,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Are there any Karnataka government scholarships (like Prabuddha Overseas Scholarship) for students going to Europe or UK?",
+      "policy_redacted": false
+    },
+    {
+      "id": 17,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Monthly living expenses in Rome vs Milan for an Indian student receiving the regional DSU stipend.",
+      "policy_redacted": false
+    },
+    {
+      "id": 18,
+      "section": "3 / Intent Group 2",
+      "group": "Cost, budgets & scholarships",
+      "text": "Hidden costs of studying abroad that [prohibited cost wording redacted] consultancies in Bangalore do not tell parents upfront.",
+      "policy_redacted": true
+    },
+    {
+      "id": 19,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Do I have to go to Bangalore or Chennai VFS for a German, Italian, or Czech Republic student visa if I live in Coorg or Mangalore?",
+      "policy_redacted": false
+    },
+    {
+      "id": 20,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How long does APS certificate verification take in 2026 for Karnataka State Board (2nd PUC) and [academic issuer redacted] degree certificates?",
+      "policy_redacted": true
+    },
+    {
+      "id": 21,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How to get MEA Apostille in Karnataka on 2nd PUC marksheet and birth certificate for Italy DSU and CIMEA verification?",
+      "policy_redacted": false
+    },
+    {
+      "id": 22,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Why do Italy student visas get rejected at the Mumbai or Bengaluru consulate, and how to avoid financial document rejection?",
+      "policy_redacted": false
+    },
+    {
+      "id": 23,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "What is the minimum bank balance maturation period required for a UK student visa in 2026?",
+      "policy_redacted": false
+    },
+    {
+      "id": 24,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Can I reapply for a German or Lithuanian student visa after a visa refusal from another consultancy?",
+      "policy_redacted": false
+    },
+    {
+      "id": 25,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "Checklist of documents required from a coffee estate or agricultural family in Kodagu/Chikkamagaluru to prove family income for European visas.",
+      "policy_redacted": false
+    },
+    {
+      "id": 26,
+      "section": "3 / Intent Group 3",
+      "group": "Visa, APS & documentation",
+      "text": "How to book an appointment at VFS Global Bengaluru when slots for Italy or Germany national D-visa are showing unavailable?",
+      "policy_redacted": false
+    },
+    {
+      "id": 27,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Which German public universities accept Medium of Instruction (MOI) certificate from [academic issuers redacted] instead of IELTS?",
+      "policy_redacted": true
+    },
+    {
+      "id": 28,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Can I study in Italy with an English-taught degree and get the DSU scholarship without taking IELTS?",
+      "policy_redacted": false
+    },
+    {
+      "id": 29,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "List of universities in Lithuania, Latvia, and Slovakia that accept Indian students without IELTS in 2026.",
+      "policy_redacted": false
+    },
+    {
+      "id": 30,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Is Duolingo or PTE accepted for UK student visas in 2026, or is IELTS UKVI mandatory?",
+      "policy_redacted": false
+    },
+    {
+      "id": 31,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "How to get a Medium of Instruction (MOI) letter from [academic issuers redacted]?",
+      "policy_redacted": true
+    },
+    {
+      "id": 32,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Do I need German A1 or A2 certificate from [language provider redacted] before applying for a German student visa?",
+      "policy_redacted": true
+    },
+    {
+      "id": 33,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "What happens if my IELTS score is 5.5 overall with 5.0 in one module: which European countries will still accept my application?",
+      "policy_redacted": false
+    },
+    {
+      "id": 34,
+      "section": "3 / Intent Group 4",
+      "group": "IELTS, MOI & language waivers",
+      "text": "Does Russia require IELTS or Russian language entrance exams for English-medium Bachelor's programs?",
+      "policy_redacted": false
+    },
+    {
+      "id": 35,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Can we get an education loan from SBI, Canara Bank, or Karnataka Bank using Kodagu Jamma Bane or coffee plantation land as collateral?",
+      "policy_redacted": false
+    },
+    {
+      "id": 36,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Which NBFCs (Credila, Avanse, InCred, Auxilo) give non-collateral education loans for universities in Italy, Czech Republic, or Latvia?",
+      "policy_redacted": false
+    },
+    {
+      "id": 37,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "How to open a German Blocked Account (Expatrio, Coracle, Fintiba) from a local bank branch in Mysuru, Hubballi, or Madikeri?",
+      "policy_redacted": false
+    },
+    {
+      "id": 38,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Can an education loan sanction letter be used as proof of funds for an Italian or Lithuanian student visa?",
+      "policy_redacted": false
+    },
+    {
+      "id": 39,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "What is the RBI LRS (Liberalised Remittance Scheme) TCS rule in 2026 when transferring blocked account money from India to Germany?",
+      "policy_redacted": false
+    },
+    {
+      "id": 40,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Best banks in Karnataka for lowest interest rate education loans under the Vidyalakshmi / PM-Vidyalaxmi portal.",
+      "policy_redacted": false
+    },
+    {
+      "id": 41,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Do banks disburse education loans for living expenses before visa approval if the university in Germany or Italy has [prohibited tuition wording redacted]?",
+      "policy_redacted": true
+    },
+    {
+      "id": 42,
+      "section": "3 / Intent Group 5",
+      "group": "Education loans & financial proof",
+      "text": "Who can be a co-applicant for a study abroad loan if my parents are agriculturists in Karnataka without ITR (Income Tax Returns)?",
+      "policy_redacted": false
+    },
+    {
+      "id": 43,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Who are the best study abroad consultants in Karnataka for low marks, backlogs, and budget European universities?",
+      "policy_redacted": false
+    },
+    {
+      "id": 44,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Is it safe to use an online/remote study abroad consultancy instead of visiting an office on MG Road in Bangalore?",
+      "policy_redacted": false
+    },
+    {
+      "id": 45,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Why do big study abroad consultancies push UK and Canada private colleges instead of [prohibited tuition wording redacted] public universities in Germany and Italy?",
+      "policy_redacted": true
+    },
+    {
+      "id": 46,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Are there any study abroad consultants in Coorg (Kodagu), Shivamogga, or Chikmagalur who speak Kannada and Malayalam?",
+      "policy_redacted": false
+    },
+    {
+      "id": 47,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "How to verify if a study abroad consultant is genuine when they do not have a physical walk-in office?",
+      "policy_redacted": false
+    },
+    {
+      "id": 48,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Which consultancy in Karnataka actually helps with Italy DSU scholarship and ISEE documentation rather than just university admission?",
+      "policy_redacted": false
+    },
+    {
+      "id": 49,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "Reviews of ILMERA Study Abroad: who are the founders and how does their application process work?",
+      "policy_redacted": false
+    },
+    {
+      "id": 50,
+      "section": "3 / Intent Group 6",
+      "group": "Consultant selection & remote trust",
+      "text": "What questions should parents ask a study abroad counsellor in the first consultation call to spot fake visa guarantees?",
+      "policy_redacted": false
+    }
+  ]
+}
