@@ -1,6 +1,6 @@
 # Phase32c progress
 
-- **Date:** 2026-11-05
+- **Date:** 2026-11-06
 - **Branch:** `arena/48320ee5-ilmerastudyabroad`
 - **Scope:** contrast reproduction and classification, reference scene safeguard checks, conservative place/article hero-still A/B, one final full suite, deploy payload verification and documentation. No merge or deployment.
 - **Remote match:** fetched `origin/arena/48320ee5-ilmerastudyabroad` and fast-forwarded the existing local branch from `c2c57b5` to the remote tip `f9c96caf3f1ff1ed7fe031b87d899cd8da78c0c2`. The working tree was clean before this progress file. No branch switch or new branch.
@@ -136,6 +136,12 @@
 - The earlier large-wheel matrix and separate-page trial remain invalid diagnostics because About and Services reveals were not aligned. The accepted Task 2 evidence is the incremental-scroll matrix and the attached A/A controls. No final full suite has run.
 - This checkpoint changes only test tooling and reports. No public runtime/content source was edited for Task 2.
 
+## 2026-11-06 checkpoint: Task 3 routes and pinned runtime ready
+
+- Confirmed the selected routes from the prior six-route protocol: `/study-abroad-counselling-mysuru` and `/blog/how-to-choose-study-abroad-consultant-karnataka`. Frozen A is `7d1bb9e`; current B source is this branch at `ac2d9b0`. B-still and B-plain will use the same current runtime source with only the still eligibility differing on these two routes.
+- Restored the pinned runtime outside Git: PHP-WASM 8.5.8 via `@php-wasm/*` 3.1.50, Playwright 1.58.2, Chromium 143.0.7499.0, Lighthouse 12.8.2, and the exact local font/scene mirrors. The PHP version smoke passed. Chromium launch and CDP preflight passed without navigating or collecting a sample.
+- No Task 3 performance sample has run. No source or still decision has been changed.
+
 ## Exact next step
 
-Start Task 3: run the simulated interleaved three-arm A/B for Mysuru and the selected article, using frozen A `7d1bb9e`, current B-still and current B-plain, nine fresh-browser samples per arm per route, alternating order each round, and the required A/A repeat on one route. Commit raw data before analyzing it. Then report medians, IQRs, paired-round ratios, unchanged-budget results and the noise floor, apply the conservative still/plain decision, and state that owner confirmation via PageSpeed Insights remains required. Do not run the final full suite until Tasks 1-3 are complete.
+Build and hash the three route/arm fixtures for the selected Mysuru and article routes. Verify frozen A is the exact `7d1bb9e` render, current B-still differs from current B-plain only by the scoped still toggle, and visible content/link/schema parity holds. Then run the serial nine-round interleaved three-arm experiment plus the planned A/A repeat. Commit and push the raw sample file before calculating medians, IQRs, ratios or budget outcomes. Keep the final full suite deferred until Task 3 is complete.
