@@ -208,6 +208,14 @@
 - The source snapshot has 6,217 tracked files; 6,080 are excluded from the 137-entry payload. All eight deny-only policies remain included. `reports/phase-32c-upload-scope.json` records the counts, six required additions, explicit exclusions and the 11 upload-relevant changed paths since `796879d`, including the refreshed temporary checker.
 - Every allowlist row's size and SHA-256 was verified against its Git blob. The export folder and ZIP have not yet been created.
 
+## 2026-11-06 checkpoint: clean payload, ZIP and route/asset parity verified
+
+- Restored the pinned PHP-WASM adapter packages outside the repository and started isolated repository and clean-payload render adapters. Compared all 43 route responses: HTTP 200 in both, byte-identical bodies, zero mismatches. Compared 31 requested/local static asset URLs, including every local `/assets/` reference found in the 43 rendered bodies: zero mismatches. Sitemap, robots and both LLM endpoints were identical.
+- Rechecked all 137 manifest entries against their source Git blobs, current checkout, clean extracted copy and ZIP; exact file sets, sizes and SHA-256 values match. ZIP CRC passed; no duplicates or unsafe paths. Payload runtime files are unchanged since source `065934a`.
+- ZIP: `releases/ilmera-deploy-065934a.zip`, 137 files, 833,237 bytes, SHA-256 `3c56cdf481f639f98c689a26af517454576fae6d9ec9237c9e145eb38dfa8b57`. Raw branch URL: `https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-065934a.zip`.
+- Payload folder counts are recorded in `reports/phase-32c-payload-parity.json`: root 46; CSS 1; fonts 16; images 9; blog 9; data 8; destinations 10; includes 18; places 18; reports 1; tools 1. Eight payload `.htaccess` policies are included; `releases/.htaccess` is excluded. No live site, native Apache, host headers or deployment was checked.
+- The complete machine-readable evidence, including route and asset aggregate hashes and verification limits, is `reports/phase-32c-payload-parity.json`. The ZIP is not yet committed or pushed.
+
 ## Exact next step
 
-Commit and push this manifest checkpoint. Then use `tools/phase27/export.py` with source `065934a` to create a new clean temporary payload and `releases/ilmera-deploy-065934a.zip`. Verify the exact file set, per-file hashes, all 43 route renders and required static assets against the repository. Do not rerun the final suite or any group. Do not merge or deploy.
+Update `reports/post-deploy-checklist.md` and regenerate its PDF for source `065934a`: replace stale Phase27/old ZIP counts and link, add blank owner PSI fields and the unchanged dated budgets, post-upload page checks, 137-file folder counts, rollback steps and all 11 upload-relevant changed paths since `796879d`. Commit and push the finished Task5 checklist checkpoint, then post its PR #1 update. Next complete Task6 documentation (`CHANGELOG.md`, append-only `flagged-items-for-verification.md`, and a Phase32c release report), commit/push and post its PR checkpoint. Do not rerun the one-shot final suite or any suite group. Do not merge or deploy.

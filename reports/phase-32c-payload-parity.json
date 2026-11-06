@@ -1,0 +1,55 @@
+{
+  "phase": "32c",
+  "task": "5_clean_payload_zip_and_runtime_parity",
+  "status": "PASS",
+  "manifest_path": "reports/phase-27-payload-manifest.json",
+  "manifest_sha256": "ae56c493c6c5ef32acda2319324fad599a96360ffc9d027f1e9caa2abdc8902a",
+  "payload_source_commit": "065934a1ef2b0962308ce440ada959619e8824f2",
+  "verification_head": "c4a90c00945073fcc7e18b0e2d4c9121f5e83fa4",
+  "tracked_source_files": 6217,
+  "excluded_source_files": 6080,
+  "payload_file_count": 137,
+  "payload_total_uncompressed_bytes": 1597178,
+  "folder_file_counts": {
+    ".": 46,
+    "assets/css": 1,
+    "assets/fonts": 16,
+    "assets/images": 9,
+    "blog": 9,
+    "data": 8,
+    "destinations": 10,
+    "includes": 18,
+    "places": 18,
+    "reports": 1,
+    "tools": 1
+  },
+  "payload_htaccess_count": 8,
+  "excluded_releases_htaccess": "releases/.htaccess",
+  "clean_copy_path": "/home/user/phase32c-runtime/phase32c-release-payload-065934a",
+  "clean_copy_exact_file_set": true,
+  "all_payload_bytes_match_source_clean_copy_and_zip": true,
+  "git_runtime_path_changes_since_payload_source": [],
+  "zip_path": "releases/ilmera-deploy-065934a.zip",
+  "zip_file_count": 137,
+  "zip_size_bytes": 833237,
+  "zip_sha256": "3c56cdf481f639f98c689a26af517454576fae6d9ec9237c9e145eb38dfa8b57",
+  "zip_crc_check": "PASS",
+  "zip_duplicate_or_unsafe_paths": 0,
+  "raw_github_url": "https://raw.githubusercontent.com/fawazbhseo/ilmerastudyabroad/arena/48320ee5-ilmerastudyabroad/releases/ilmera-deploy-065934a.zip",
+  "route_parity": {
+    "routes_compared": 43,
+    "mismatches": 0,
+    "aggregate_sha256": "61a682d18e11a837bbc8bc56b55769d104ed03e733289697b9ca492e68129ee5"
+  },
+  "asset_parity": {
+    "static_urls_compared": 31,
+    "mismatches": 0,
+    "aggregate_sha256": "4552cb293dd3a1f970fd496eb344a2d43ad3c191e12bdf09c7025b176c9dadcd",
+    "all_manifest_assets_included": true,
+    "sitemap_robots_llms_identical": true
+  },
+  "verification_limits": {
+    "native_apache_or_host_headers_checked": false,
+    "live_site_or_deployment_checked": false
+  }
+}
