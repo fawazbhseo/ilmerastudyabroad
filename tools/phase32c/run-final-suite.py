@@ -144,6 +144,26 @@ def run_batch(report, name, commands, env):
     })
 
 
+def runtime_paths_changed(source_head, current_head):
+    ancestor = subprocess.run(['git', 'merge-base', '--is-ancestor', source_head, current_head], cwd=ROOT)
+    if ancestor.returncode:
+        return ['render-source-not-ancestor']
+    changed = subprocess.check_output(['git', 'diff', '--name-only', source_head, current_head], cwd=ROOT, text=True).splitlines()
+    root_runtime_files = {
+        'index.php', 'services.php', 'about.php', 'contact.php', '404.php', 'all-pages.php',
+        'privacy-policy.php', 'terms.php', 'sitemap.php', 'robots.txt', 'sitemap.xml',
+        'llms.txt', 'llms-full.txt', 'favicon.ico', 'deploy-check.php',
+    }
+    return [
+        name for name in changed
+        if pathlib.PurePosixPath(name).parts
+        and (pathlib.PurePosixPath(name).parts[0] in {'assets', 'data', 'includes', 'destinations', 'places', 'blog'}
+             or name in root_runtime_files
+             or pathlib.PurePosixPath(name).parts[-1] == '.htaccess'
+             or name.endswith('.php'))
+    ]
+
+
 def run_php_lint(report, env):
     started_at = utc_now()
     start = time.time()
@@ -195,8 +215,9 @@ def route_render_check(report, suite_head):
         entries = index.get('routes', [])
         baseline = json.loads((ROOT / 'reports/phase-32-before-render-index.json').read_text(encoding='utf-8'))
         archive = json.loads(__import__('gzip').decompress((ROOT / 'reports/phase-32-before-renders.json.gz').read_bytes()).decode('utf-8'))
-        if index.get('source_head') != suite_head:
-            errors.append(f"render source head {index.get('source_head')} does not match suite head {suite_head}")
+        runtime_delta = runtime_paths_changed(index.get('source_head', ''), suite_head)
+        if runtime_delta:
+            errors.append(f'production runtime files changed after render capture: {runtime_delta}')
         if baseline.get('source_commit') != '796879d7b3d5ca0fa1e398562e937e9f364a5f62':
             errors.append('Phase31b baseline index is not from 796879d')
         by_route = {entry.get('url'): entry for entry in entries}
@@ -241,6 +262,7 @@ def route_render_check(report, suite_head):
         details = {
             'render_source_head': index.get('source_head'),
             'suite_head': suite_head,
+            'production_runtime_changes_after_capture': runtime_delta,
             'phase31b_source_commit': baseline.get('source_commit'),
             'routes': len(entries),
             'adapter_http_body_matches': http_count,

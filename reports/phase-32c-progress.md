@@ -176,6 +176,12 @@
 - Python and Node syntax checks, CLI help checks, and local browser/axe/sharp module preflights passed. No final-suite route render, browser case, axe scan, palette check, or blank-space scan has run.
 - The stored Phase31 target map contains 5,670 measured main-content rectangles, of which 1,552 are below 44px by literal element bounds. The final audit will report those findings and any delta without inferring extra hit area or changing layout; baseline parity will not be called a full 44px pass.
 
+## 2026-11-06 checkpoint: Contact-tail metric smoke validated
+
+- Started the current PHP-WASM adapter on port 8094. Its single render capture contains all 43 routes at source head `749f138`; no final-suite checks have run yet.
+- A one-case Contact 1280px scan smoke exposed that the first added flow-tail metric counted absolute HUD overlay text. That partial smoke is invalid and will not be used. The metric now excludes absolute/fixed descendants; a fresh one-case smoke measured a 792px hero, a 192px rounded flow tail (the focused inspector reports 192.34px), a 30px cue-to-hero-bottom gap, and a completed three-second settle with return to the top.
+- The suite runner and comparator now permit only test-tool/report commits after this render capture and explicitly fail if any production runtime path changes. No PHP, assets, includes, content, or styling changed after the capture. The complete 516-case blank-space scan has not run.
+
 ## Exact next step
 
-Commit and push this harness checkpoint. Then start one PHP-WASM adapter into the fresh external Phase32c final-suite evidence directory, wait for its 43 route renders and sitemap, and run `tools/phase32c/run-final-suite.py` exactly once. Record all group outcomes, including literal 44px failures and the fresh blank-space scan with Contact tails. Do not repeat any suite group. Commit and push the final Task 4 evidence and progress update, post its PR #1 checkpoint, then proceed to Task 5 payload/ZIP verification and final documentation.
+Commit and push the corrected metric/comparator checkpoint. Then run `tools/phase32c/run-final-suite.py` exactly once against the existing 43-route render capture. The runner verifies the captured source remains production-runtime-identical to suite HEAD, then performs all Task 4 groups serially, including the literal 44px audit and fresh 516-case blank-space scan with Contact tails. Do not repeat any suite group. Commit and push the Task 4 outputs and progress update, post its PR #1 checkpoint, then proceed to Task 5 payload/ZIP verification and final documentation.

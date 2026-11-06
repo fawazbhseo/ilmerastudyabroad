@@ -131,6 +131,26 @@ def parse_facts(raw: bytes):
     return RenderFacts(raw.decode('utf-8', errors='strict')).facts()
 
 
+def runtime_paths_changed(source_head: str, current_head: str):
+    ancestor = subprocess.run(['git', 'merge-base', '--is-ancestor', source_head, current_head], cwd=ROOT)
+    if ancestor.returncode:
+        raise SystemExit(f'Render source {source_head} is not an ancestor of suite HEAD {current_head}')
+    changed = subprocess.check_output(['git', 'diff', '--name-only', source_head, current_head], cwd=ROOT, text=True).splitlines()
+    root_runtime_files = {
+        'index.php', 'services.php', 'about.php', 'contact.php', '404.php', 'all-pages.php',
+        'privacy-policy.php', 'terms.php', 'sitemap.php', 'robots.txt', 'sitemap.xml',
+        'llms.txt', 'llms-full.txt', 'favicon.ico', 'deploy-check.php',
+    }
+    runtime = []
+    for name in changed:
+        parts = pathlib.PurePosixPath(name).parts
+        if not parts:
+            continue
+        if parts[0] in {'assets', 'data', 'includes', 'destinations', 'places', 'blog'} or name in root_runtime_files or parts[-1] == '.htaccess' or name.endswith('.php'):
+            runtime.append(name)
+    return runtime
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--current', type=pathlib.Path, required=True, help='PHP-WASM adapter evidence directory')
@@ -152,8 +172,9 @@ def main():
     current_index = json.loads(current_index_path.read_text(encoding='utf-8'))
     current_head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     source_head = current_index.get('source_head')
-    if source_head != current_head:
-        raise SystemExit(f'Current render source {source_head} does not match suite HEAD {current_head}')
+    runtime_delta = runtime_paths_changed(source_head, current_head)
+    if runtime_delta:
+        raise SystemExit(f'Production runtime files changed after capture: {runtime_delta}')
     current_entries = current_index.get('routes', [])
     baseline_routes = baseline_archive.get('routes', {})
     if len(current_entries) != 43 or len({entry.get('url') for entry in current_entries}) != 43:
@@ -215,6 +236,7 @@ def main():
         'phase31b_source_commit': expected_baseline,
         'current_render_source_head': source_head,
         'current_suite_head': current_head,
+        'production_runtime_changes_after_capture': runtime_delta,
         'route_count': len(rows),
         'status_mismatches': status_failures,
         'render_index_integrity_failures': integrity_failures,
